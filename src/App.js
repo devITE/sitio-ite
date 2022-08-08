@@ -50,8 +50,10 @@ import CulturaCivica from "./pages/CulturaCivica";
 function App() {
   return (
     <Router>
-      <Header></Header>
-      <Navbar></Navbar>
+      <div className="App__join-header">
+        <Header></Header>
+        <Navbar></Navbar>
+      </div>
       <div className="App__container">
         <Routes>
           <Route exact path="/" element={<Home />} />
