@@ -1,0 +1,15 @@
+.nav-link {
+    color: #000000 !important;
+    font-size: 1.2rem !important;
+}
+
+.dropdown-item:hover {
+    background-color: #A9387D !important;
+    color: white !important;
+}
+
+.nav-link:focus,
+.nav-link:hover {
+    background-color: #e33292 !important;
+    color: #ffffff !important;
+}

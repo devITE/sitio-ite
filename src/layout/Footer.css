@@ -1,0 +1,22 @@
+.Footer {
+    background-color: #ba1678;
+    color: #ffffff;
+    font-family: 'Segoe UI Light';
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 5px;
+    font-size: 1rem;
+}
+
+
+/* media screen */
+@media screen and (max-width: 767px) {
+    .Footer {
+        text-align: center;
+    }
+}
