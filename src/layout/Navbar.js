@@ -87,7 +87,7 @@ export default class Navbar extends Component {
                       </Link>
                     </li>
                     <li>
-                      <Link to="./Estructura" className="dropdown-item">
+                      <Link to="/Estructura" className="dropdown-item">
                         Estructura
                       </Link>
                     </li>
@@ -115,42 +115,42 @@ export default class Navbar extends Component {
                       </Link>
                     </li>
                     <li>
-                      <Link to="./acuerdos2015" className="dropdown-item">
+                      <Link to="./Acuerdos2015" className="dropdown-item">
                         2015
                       </Link>
                     </li>
                     <li>
-                      <Link to="./acuerdos2016" className="dropdown-item">
+                      <Link to="./Acuerdos2016" className="dropdown-item">
                         2016
                       </Link>
                     </li>
                     <li>
-                      <Link to="./acuerdos2017" className="dropdown-item">
+                      <Link to="./Acuerdos2017" className="dropdown-item">
                         2017
                       </Link>
                     </li>
                     <li>
-                      <Link to="./acuerdos2018" className="dropdown-item">
+                      <Link to="./Acuerdos2018" className="dropdown-item">
                         2018
                       </Link>
                     </li>
                     <li>
-                      <Link to="./acuerdos2019" className="dropdown-item">
+                      <Link to="./Acuerdos2019" className="dropdown-item">
                         2019
                       </Link>
                     </li>
                     <li>
-                      <Link to="./acuerdos2020" className="dropdown-item">
+                      <Link to="./Acuerdos2020" className="dropdown-item">
                         2020
                       </Link>
                     </li>
                     <li>
-                      <Link to="./acuerdos2021" className="dropdown-item">
+                      <Link to="./Acuerdos2021" className="dropdown-item">
                         2021
                       </Link>
                     </li>
                     <li>
-                      <Link to="./acuerdos2022" className="dropdown-item">
+                      <Link to="./Acuerdos2022" className="dropdown-item">
                         2022
                       </Link>
                     </li>
