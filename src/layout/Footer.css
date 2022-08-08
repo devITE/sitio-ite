@@ -2,21 +2,27 @@
     background-color: #ba1678;
     color: #ffffff;
     font-family: 'Segoe UI Light';
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
+    font-size: 1rem;
+    width: 100%;
     position: absolute;
     bottom: 0;
-    width: 100%;
-    padding: 10px 5px;
-    font-size: 1rem;
+    padding: 8px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
-
 
 /* media screen */
 @media screen and (max-width: 767px) {
     .Footer {
         text-align: center;
+        font-size: .8rem;
+        display: block;
+    }
+
+    .Footer div {
+        margin: 5px 0;
     }
 }
