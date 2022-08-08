@@ -32,8 +32,8 @@ export default class Header extends Component {
             </Link>
           </div>
         </div>
-        <div className="Header__principal mt-5 ">
-          <div className="text-center">
+        <div className="Header__principal mt-4 ">
+          <div>
             <Link to="./">
               <img
                 src={logo}
@@ -42,7 +42,7 @@ export default class Header extends Component {
               />
             </Link>
           </div>
-          <div className="text-center">Instituto Tlaxcalteca de Elecciones</div>
+          <div>Instituto Tlaxcalteca de Elecciones</div>
         </div>
       </div>
     );

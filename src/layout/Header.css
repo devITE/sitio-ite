@@ -28,16 +28,15 @@
     color: #6d004e;
 }
 
-/* .Header__principal {
-    border: 1px solid red;
+.Header__principal {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
-.Header__principal div {
-    border: 1px solid red;
+.Header__logoITE {
+    width: 12rem;
 }
 
 .Header__principal div:nth-child(2) {
@@ -48,28 +47,22 @@
     font-family: 'Segoe UI Light';
 }
 
-
-
-
-
-
-
-
-
-.Header__logoITE {
-    width: 12rem;
-} */
-
 /* media screen */
 @media screen and (max-width: 767px) {
-    /* .Header__title {
-        font-size: 1rem;
-        letter-spacing: 1px;
-        margin: auto;
-    } */
 
-    /* .Header__principal div:nth-child(2) {
+    .Header__principal div:nth-child(1) {
+        margin: auto;
+    }
+
+    .Header__logoITE {
+        width: 9rem;
+        margin-bottom: 10px;
+    }
+
+    .Header__principal div:nth-child(2) {
         font-size: 1rem;
         letter-spacing: 1px;
-    } */
+        /* text-align: center; */
+        margin: auto;
+    }
 }
