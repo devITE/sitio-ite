@@ -5,7 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.js";
 
 //Layout
-import Header from "./layout/header/Header";
+import Header from "./layout/Header";
 import Navbar from "./layout/Navbar";
 import Home from "./pages/Home";
 import Footer from "./layout/Footer";

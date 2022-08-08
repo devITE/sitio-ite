@@ -1,5 +1,5 @@
 .Header__social-network {
-    background-color: #ba1678;
+    background-color: #aa0787;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -7,18 +7,17 @@
 
 .Header__social-network-individual {
     background-color: #6d004e;
-
     margin: 0 10px;
     padding: 7px 7px;
     border-radius: 3px;
     position: relative;
-    top: 25px;
+    top: 15px;
     z-index: 1;
 }
 
 .Header__btn-socialnetwork {
     color: #6d004e;
-    font-size: 12px;
+    font-size: 15px;
     text-decoration: none;
     background-color: #ffffff;
     padding: 1px 8px;
@@ -29,11 +28,19 @@
     color: #6d004e;
 }
 
-.Header__logoITE {
-    width: 8rem;
+/* .Header__principal {
+    border: 1px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.Header__title {
+.Header__principal div {
+    border: 1px solid red;
+}
+
+.Header__principal div:nth-child(2) {
     color: #ba1678;
     font-size: 2rem;
     display: block;
@@ -41,15 +48,28 @@
     font-family: 'Segoe UI Light';
 }
 
+
+
+
+
+
+
+
+
+.Header__logoITE {
+    width: 12rem;
+} */
+
 /* media screen */
 @media screen and (max-width: 767px) {
-    .Header__title {
+    /* .Header__title {
         font-size: 1rem;
         letter-spacing: 1px;
         margin: auto;
-    }
+    } */
 
-    a {
-        margin: auto !important;
-    }
+    /* .Header__principal div:nth-child(2) {
+        font-size: 1rem;
+        letter-spacing: 1px;
+    } */
 }
