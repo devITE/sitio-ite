@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router-dom";
-import logo from "./logoite.svg";
+import logo from "../img/logoite.svg";
 
 import {
   faYoutube,
@@ -32,8 +32,8 @@ export default class Header extends Component {
             </Link>
           </div>
         </div>
-        <nav className="navbar mt-4">
-          <div className="container-fluid">
+        <div className="Header__principal mt-4 ">
+          <div>
             <Link to="./">
               <img
                 src={logo}
@@ -41,12 +41,9 @@ export default class Header extends Component {
                 className="img-fluid Header__logoITE"
               />
             </Link>
-
-            <div className="Header__title">
-              Instituto Tlaxcalteca de Elecciones
-            </div>
           </div>
-        </nav>
+          <div>Instituto Tlaxcalteca de Elecciones</div>
+        </div>
       </div>
     );
   }

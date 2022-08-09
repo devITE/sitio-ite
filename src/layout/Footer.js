@@ -9,20 +9,16 @@ export default class Footer extends Component {
     return (
       <div className="Footer">
         <div>
-          <p>
-            Ubicación: Ex-Fábrica San Manuel S/N, Barrio Nuevo, 90640 San Miguel
-            Contla, Tlax.
-          </p>
+          Ubicación: Ex-Fábrica San Manuel S/N, Barrio Nuevo, 90640 San Miguel
+          Contla, Tlax.
         </div>
         <div>
-          <p>
-            <FontAwesomeIcon icon={faCopyright} /> Todos los derechos
-            reservados.
-          </p>
+          <FontAwesomeIcon icon={faCopyright} /> Todos los derechos reservados.
         </div>
         <div>
-          <p>Teléfono: (246)4650340 ext. 111</p>
-          <p>Correo Electrónico: transparencia@itetlax.org.mx</p>
+          Teléfono: (246)4650340 ext. 111
+          <br />
+          Correo Electrónico: transparencia@itetlax.org.mx
         </div>
       </div>
     );
