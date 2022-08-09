@@ -21,6 +21,8 @@ body {
   /* min-height: 100%; */
   /* position: relative; */
   margin: auto;
+  padding-bottom: 80px;
+  text-align: justify;
 }
 
 
@@ -28,5 +30,6 @@ body {
 @media screen and (max-width: 767px) {
   .App__container {
     width: 100%;
+    padding: 0 20px 150px 20px;
   }
 }

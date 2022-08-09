@@ -51,10 +51,8 @@ function App() {
   return (
     <Router>
       <div className="App__total-app">
-        {/* <div className="App__join-header"> */}
         <Header></Header>
         <Navbar></Navbar>
-        {/* </div> */}
         <div className="mt-3 App__container">
           <Routes>
             <Route exact path="/" element={<Home />} />

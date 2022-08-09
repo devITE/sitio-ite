@@ -8,8 +8,13 @@
 }
 
 .nav-link {
-    color: #000000 !important;
-    font-size: 1.2rem !important;
+    color: #5e5e5e !important;
+    font-size: 1.1rem !important;
+}
+
+.dropdown-item {
+    color: #464646 !important;
+    font-size: .8rem !important;
 }
 
 .dropdown-item:hover {
@@ -34,5 +39,19 @@
         display: inline;
         width: 7rem;
         /* margin-bottom: 10px; */
+    }
+
+    .nav-link {
+        font-size: 1rem !important;
+        padding: 5px 0 5px 10px !important;
+    }
+
+    .dropdown-item {
+        font-size: .9rem !important;
+        padding: 0 0 0 10px !important;
+    }
+
+    .dropdown-menu {
+        background-color: #f3f3f3;
     }
 }
