@@ -1,7 +1,10 @@
-nav {
+#navbar-menu {
     border-bottom-style: solid;
     border-bottom-width: 3px;
     border-bottom-color: #aa0787;
+    position: sticky;
+    top: 0;
+    z-index: 1;
 }
 
 .nav-link {
@@ -18,4 +21,18 @@ nav {
 .nav-link:hover {
     background-color: #e33292 !important;
     color: #ffffff !important;
+}
+
+.Navbar__logoITE {
+    display: none;
+}
+
+
+/* media screen */
+@media screen and (max-width: 767px) {
+    .Navbar__logoITE {
+        display: inline;
+        width: 7rem;
+        /* margin-bottom: 10px; */
+    }
 }

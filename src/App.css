@@ -22,3 +22,11 @@ body {
   /* position: relative; */
   margin: auto;
 }
+
+
+/* media screen */
+@media screen and (max-width: 767px) {
+  .App__container {
+    width: 100%;
+  }
+}

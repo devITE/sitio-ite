@@ -1,13 +1,21 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
+import logo from "../img/logoite.svg";
 
 export default class Navbar extends Component {
   render() {
     return (
       // <div>
-      <nav className="navbar navbar-expand-lg ">
+      <nav id="navbar-menu" className="navbar navbar-expand-lg bg-white">
         <div className="container-fluid">
+          <Link to="./" className="navbar-brand">
+            <img
+              src={logo}
+              alt="Instituto Tlaxcalteca de Elecciones"
+              className="img-fluid Navbar__logoITE"
+            />
+          </Link>
           <button
             className="navbar-toggler"
             type="button"
