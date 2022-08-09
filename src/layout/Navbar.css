@@ -1,3 +1,9 @@
+nav {
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    border-bottom-color: #aa0787;
+}
+
 .nav-link {
     color: #000000 !important;
     font-size: 1.2rem !important;

@@ -1,12 +1,24 @@
-.App__join-header {
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.App__total-app {
+  min-height: 100vh;
+  position: relative;
+}
+
+/* .App__join-header {
   border-bottom-style: solid;
   border-bottom-width: 3px;
   border-bottom-color: #aa0787;
   margin-bottom: 10px;
-}
+} */
 
 .App__container {
   border: 1px solid red;
   width: 90%;
+  /* min-height: 100%; */
+  /* position: relative; */
   margin: auto;
 }
