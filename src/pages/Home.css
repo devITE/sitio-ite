@@ -1,0 +1,19 @@
+/* .carousel-control-prev-icon,
+.carousel-control-next-icon {
+    outline: black;
+    background-size: 100%, 100%;
+    background-image: none;
+}
+
+.carousel-control-next-icon:after {
+    font-family: 'Font Awesome 5 Free';
+    content: "\f165";
+    font-size: 55px;
+    color: red;
+    font-weight: bolder;
+}
+
+.carousel-control-prev-icon:after {
+    content: '<';
+    color: red;
+} */

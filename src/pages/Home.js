@@ -1,11 +1,15 @@
 import React, { Component } from "react";
-import Carousel from "./index/carousel/Carousel";
+// import Carousel from "./index/carouselIndex/CarouselIndex";
+import CarouselIndex from "./index/carouselIndex/CarouselIndex";
+import "./Home.css";
 
 export default class Home extends Component {
   render() {
     return (
       <div>
-        <Carousel></Carousel>
+        <div className="pruebas">
+          <CarouselIndex></CarouselIndex>
+        </div>
         <h1>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat
           earum possimus voluptatem similique pariatur excepturi assumenda
