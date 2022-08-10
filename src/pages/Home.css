@@ -1,19 +1,30 @@
-/* .carousel-control-prev-icon,
-.carousel-control-next-icon {
-    outline: black;
-    background-size: 100%, 100%;
-    background-image: none;
+.Home__ActAgen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+    padding: 0 50px;
 }
 
-.carousel-control-next-icon:after {
-    font-family: 'Font Awesome 5 Free';
-    content: "\f165";
-    font-size: 55px;
-    color: red;
-    font-weight: bolder;
+.Home__EspITEVidPod {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+    padding: 0 50px;
+    border: 1px solid gold;
 }
 
-.carousel-control-prev-icon:after {
-    content: '<';
-    color: red;
-} */
+.Home__title {
+    margin: 0 0 5px 0 !important;
+    font-family: 'Segoe UI Light';
+}
+
+.Home__line-title {
+    border-bottom-width: 2px;
+    border-style: dashed;
+    border-color: #ba1678;
+    border-top: none;
+    margin: 0 0 10px 0;
+}

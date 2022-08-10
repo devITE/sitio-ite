@@ -1,86 +1,125 @@
 import React, { Component } from "react";
 // import Carousel from "./index/carouselIndex/CarouselIndex";
 import CarouselIndex from "./index/carouselIndex/CarouselIndex";
+import CarouselActividadesRecientes from "./index/carouselActividadesRecientes/CarouselActividadesRecientes";
+import CarouselAgenda from "./index/carouselAgenda/CarouselAgenda";
+import espacioIteNeria from "../img/espacio-ite-neria.jpg";
+import micrositios from "../img/micrositios.png";
+import itegenero from "../img/itegenero.png";
+import covid from "../img/covid.png";
+import participacionciudadana from "../img/participacionciudadana.png";
+import REPS from "../img/REPS.png";
+import RNPS from "../img/RNPS.png";
+
 import "./Home.css";
 
 export default class Home extends Component {
   render() {
     return (
       <div>
-        <div className="pruebas">
-          <CarouselIndex></CarouselIndex>
+        {/* <div className="pruebas"> */}
+        <CarouselIndex></CarouselIndex>
+        {/* </div> */}
+        <div className="mt-4 Home__ActAgen">
+          <div>
+            <h3 className="Home__title">Actividades Recientes</h3>
+            <hr className="Home__line-title" />
+            <CarouselActividadesRecientes></CarouselActividadesRecientes>
+          </div>
+          <div>
+            <h3 className="Home__title">Agenda</h3>
+            <hr className="Home__line-title" />
+            <CarouselAgenda></CarouselAgenda>
+          </div>
         </div>
-        <h1>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat
-          earum possimus voluptatem similique pariatur excepturi assumenda
-          nulla! Inventore laudantium molestias alias quaerat, blanditiis
-          accusamus, praesentium illo, dignissimos quae sint perspiciatis eius.
-          Nulla dolores cum quia nesciunt distinctio, laboriosam optio adipisci
-          fugiat! Repellat nobis, architecto inventore blanditiis repudiandae
-          aperiam perspiciatis incidunt cumque explicabo. Alias architecto
-          accusantium numquam porro at ipsum reiciendis possimus illum nobis
-          sunt, tempore cupiditate laboriosam fugit nulla harum eos atque totam
-          in voluptates eius aut reprehenderit consequuntur qui sapiente?
-          Nostrum consequatur doloribus quas officiis magnam laboriosam optio
-          hic expedita magni quae illum, quidem et quibusdam voluptatibus
-          laborum voluptates neque officia asperiores amet minus accusamus
-          molestias corrupti. Maxime minus quisquam qui facilis rem unde, quidem
-          aliquam ipsa, provident eius quasi accusantium. Amet eveniet quae odit
-          totam distinctio animi consequuntur ipsum labore dolores tempore unde,
-          delectus harum iure quam reprehenderit fugiat cum incidunt veniam at,
-          temporibus fugit exercitationem? Alias labore dolores ipsum cum vel
-          quo a est quis, sint voluptatem ea, necessitatibus libero ullam vero
-          assumenda nesciunt qui ex amet maxime delectus, quaerat corrupti
-          aliquid consequatur. Ratione eligendi ut delectus tempora amet
-          repudiandae qui nobis officiis tenetur doloremque, sunt, voluptatibus
-          perferendis at iusto impedit laudantium aliquam dolorem recusandae,
-          ducimus repellat consectetur necessitatibus? Ad, quam nobis commodi
-          eveniet iure perspiciatis blanditiis, vero, nemo doloremque harum cum
-          asperiores! Asperiores cum facilis nulla. Numquam nam vitae dolores
-          fuga magni, temporibus ducimus doloribus fugit provident esse?
-          Asperiores quaerat nobis earum ratione, pariatur totam voluptatum
-          consequuntur cum facilis, quas quia assumenda voluptatem. Quisquam
-          assumenda itaque aut iste minus est libero? Vero dicta mollitia
-          dolores? Accusantium voluptatum et nam laboriosam, necessitatibus
-          sapiente quibusdam eum laborum facilis saepe doloribus fuga corrupti
-          autem vel, dignissimos odit aliquam doloremque? Quam voluptatem quia
-          labore, ducimus doloribus velit vero repudiandae exercitationem
-          cupiditate eum eos laboriosam quisquam ipsum maiores quae dignissimos.
-          Qui vitae hic, corporis, quam id iste quo similique architecto maxime
-          neque dignissimos tempore perferendis quaerat cum nesciunt officia
-          doloribus velit enim, obcaecati minus temporibus earum. Fuga quam
-          distinctio rem, saepe ab temporibus hic in. Natus distinctio possimus
-          nesciunt laudantium voluptas porro quibusdam sapiente animi tenetur
-          nisi amet quas recusandae facilis incidunt necessitatibus facere
-          veritatis, quae, iste excepturi quidem, deleniti optio qui? Iure,
-          ullam? Totam vel adipisci non ducimus itaque asperiores soluta aliquid
-          praesentium! Consequatur deserunt voluptas deleniti, optio,
-          reprehenderit, fuga maiores atque iusto veniam ipsa harum at. Minus,
-          excepturi sed! Alias eius amet illo odio ipsa voluptatem minima
-          maxime, maiores pariatur deserunt numquam placeat beatae unde ducimus
-          minus modi aliquid iure eligendi distinctio quaerat architecto itaque
-          cumque, perferendis quis? Cumque doloremque nesciunt expedita et natus
-          vero totam tempore, amet quae, adipisci numquam deserunt recusandae ut
-          officia laboriosam mollitia est aperiam dolorum quos tempora suscipit
-          possimus omnis. Quisquam quos eveniet cumque cum repudiandae
-          accusantium earum explicabo amet, vel quam voluptate minus?
-          Consequuntur cum recusandae, quod, praesentium cupiditate mollitia,
-          error pariatur odit maxime enim illo voluptate quos neque sunt? Fugiat
-          quam velit sit dignissimos excepturi, quaerat hic explicabo dolor ad,
-          voluptatum iusto? Exercitationem saepe, ea deserunt deleniti enim sunt
-          tenetur facere sint!
-        </h1>
+        <h3 className="Home__title">Informes</h3>
+        <hr className="Home__line-title" />
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis
+          dolore suscipit nulla optio qui explicabo ratione, fugit rem sunt
+          numquam cumque consectetur sit voluptates architecto nobis et quod
+          fuga aliquam expedita eos quis iure quibusdam. Est blanditiis
+          asperiores suscipit voluptatem harum inventore natus dolor eum
+          accusamus, saepe sit pariatur molestiae at illum laudantium quam atque
+          assumenda rerum quos obcaecati aut voluptates recusandae illo. Esse,
+          nostrum? Et at, voluptatem nulla quam eum voluptatibus qui sunt sequi
+          iure, consectetur, vero tempora? Aperiam, dicta. Explicabo sapiente
+          sequi voluptatum necessitatibus praesentium fugit iure atque quasi
+          excepturi alias eligendi commodi illo, eum incidunt quas accusantium.
+        </p>
+        <div className="Home__ActAgen mt-4">
+          <div>
+            <h3 className="Home__title">Espacio ITE</h3>
+            <hr className="Home__line-title" />
+            <img
+              className="img-fluid"
+              src={espacioIteNeria}
+              alt="Espacio ITE"
+            />
+          </div>
+          <div>
+            <h3 className="Home__title">Video Podcast</h3>
+            <hr className="Home__line-title" />
+          </div>
+        </div>
+        <div className="Home__ActAgen mt-4">
+          <div>
+            <h3 className="Home__title">Estrados Electrónicos</h3>
+            <hr className="Home__line-title" />
+          </div>
+          <div>
+            <h3 className="Home__title">Sesión en Vivo</h3>
+            <hr className="Home__line-title" />
+          </div>
+          <div>
+            <h3 className="Home__title">Convocatoria</h3>
+            <hr className="Home__line-title" />
+          </div>
+        </div>
+        <img className="mt-4 img-fluid" src={micrositios} alt="micrositios" />
+        <div className="Home__ActAgen mt-4">
+          <div>
+            <img
+              className="mt-4 img-fluid"
+              src={itegenero}
+              alt="Micrositio ITE Género"
+            />
+          </div>
+          <div>
+            <img
+              className="mt-4 img-fluid"
+              src={covid}
+              alt="Micrositio COVID-19"
+            />
+          </div>
+          <div>
+            <img
+              className="mt-4 img-fluid"
+              src={participacionciudadana}
+              alt="Micrositio PArticipación Ciudadana"
+            />
+          </div>
+        </div>
+        <img className="mt-4 img-fluid" src={REPS} alt="REPS" />
+        <img className="mt-4 mb-4 img-fluid" src={RNPS} alt="RNPS" />
+
+        <h3 className="mt-4 Home__title">Videos</h3>
+        <hr className="Home__line-title" />
+
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis
+          dolore suscipit nulla optio qui explicabo ratione, fugit rem sunt
+          numquam cumque consectetur sit voluptates architecto nobis et quod
+          fuga aliquam expedita eos quis iure quibusdam. Est blanditiis
+          asperiores suscipit voluptatem harum inventore natus dolor eum
+          accusamus, saepe sit pariatur molestiae at illum laudantium quam atque
+          assumenda rerum quos obcaecati aut voluptates recusandae illo. Esse,
+          nostrum? Et at, voluptatem nulla quam eum voluptatibus qui sunt sequi
+          iure, consectetur, vero tempora? Aperiam, dicta. Explicabo sapiente
+          sequi voluptatum necessitatibus praesentium fugit iure atque quasi
+          excepturi alias eligendi commodi illo, eum incidunt quas accusantium.
+        </p>
       </div>
     );
   }
 }
-
-// import React from "react";
-
-// export function Home() {
-//   return (
-//     <div>
-//       <h1>Componente HOME</h1>
-//     </div>
-//   );
-// }
