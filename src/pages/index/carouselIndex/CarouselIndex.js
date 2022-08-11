@@ -5,7 +5,8 @@ import {
   faAngleDoubleLeft,
   faAngleDoubleRight,
 } from "@fortawesome/free-solid-svg-icons";
-import DataCarouselIndex from "./DataCarouselIndex";
+import CarouselItem from "./CarouselItem";
+import CarouselIndicator from "./CarouselIndicator";
 
 export default class CarouselIndex extends Component {
   render() {
@@ -16,11 +17,22 @@ export default class CarouselIndex extends Component {
           className="carousel slide mb-3"
           data-bs-ride="carousel"
         >
+          <div className="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselTopIndex"
+              data-bs-slide-to="0"
+              className="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <CarouselIndicator></CarouselIndicator>
+          </div>
           <div className="carousel-inner">
             <div className="carousel-item active">
               <img src={carouselITE} className="d-block w-100" alt="" />
             </div>
-            <DataCarouselIndex></DataCarouselIndex>
+            <CarouselItem></CarouselItem>
           </div>
           <button
             className="carousel-control-prev"

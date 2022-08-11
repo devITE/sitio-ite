@@ -1,10 +1,8 @@
-import React, { Component } from "react";
-
-const Carousel__imgpath = require.context("./img");
+// const Carousel__imgpath = require.context("./img");
 const Carousel__pdfpath = require.context("../../../assets/pdf");
 const Carousel__wordpath = require.context("../../../assets/word");
 
-const imgCarouselIndex = [
+export const imgCarouselIndex = [
   {
     id: 1,
     url: "1.jpg",
@@ -66,32 +64,3 @@ const imgCarouselIndex = [
     link: Carousel__pdfpath(`./${"10.pdf"}`),
   },
 ];
-
-export default class DataCarouselIndex extends Component {
-  render() {
-    return (
-      <div>
-        {imgCarouselIndex.map((imgCarouselIndex) => {
-          return (
-            <div key={imgCarouselIndex.id} className="carousel-item">
-              {/* <Link to={imgCarouselIndex.link}> */}
-              <a
-                target="_blank"
-                href={imgCarouselIndex.link}
-                rel="noreferrer"
-                // download="nombre_pretendido_del archivo.pdf"
-              >
-                <img
-                  src={Carousel__imgpath(`./${imgCarouselIndex.url}`)}
-                  className="d-block w-100"
-                  alt={imgCarouselIndex.alt}
-                />
-              </a>
-              {/* </Link> */}
-            </div>
-          );
-        })}
-      </div>
-    );
-  }
-}
