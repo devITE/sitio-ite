@@ -10,10 +10,20 @@ body {
 
 .App__container {
   /* border: 1px solid red; */
-  width: 90%;
+  width: 75%;
   margin: auto;
   padding-bottom: 80px;
   text-align: justify;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  z-index: 0 !important;
+}
+
+.carousel-indicators [data-bs-target] {
+  height: 6px !important;
+  background-color: #000000 !important;
 }
 
 /* media screen */
