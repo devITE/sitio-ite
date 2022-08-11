@@ -1,0 +1,24 @@
+.FinesInstitucionales__title{
+color: black;
+}
+
+.borde{
+    border-bottom-style: dotted;
+    border-bottom-color: #f800f8;
+    border-bottom-width: 4px;
+    border-top: none;
+}
+
+.romanos_upper{
+    list-style-type:upper-roman;
+    color: #AA0787;
+    margin-right: 35px;
+    margin-left: 35px;
+  }
+  .row{
+    /* display: webkit-box; */
+    display: flex;
+    margin-right: -15px;
+    margin-left: -12px;
+    flex-wrap: wrap;
+  }
