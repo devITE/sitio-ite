@@ -63,4 +63,9 @@
         /* border: 2px solid orange; */
         margin-top: 20px;
     }
+
+    .Home__container-vid-enlaces-item .Home__video-embed {
+        width: 80% !important;
+        margin: auto;
+    }
 }

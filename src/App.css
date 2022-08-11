@@ -21,6 +21,10 @@ body {
   z-index: 0 !important;
 }
 
+.carousel-indicators {
+  margin-bottom: 5px !important;
+}
+
 .carousel-indicators [data-bs-target] {
   height: 6px !important;
   background-color: #000000 !important;

@@ -42,7 +42,7 @@ export default class CarouselIndex extends Component {
           >
             <FontAwesomeIcon
               icon={faAngleDoubleLeft}
-              size="3x"
+              size="xl"
               className="text-dark"
             />
             <span className="visually-hidden">Previous</span>
@@ -55,7 +55,7 @@ export default class CarouselIndex extends Component {
           >
             <FontAwesomeIcon
               icon={faAngleDoubleRight}
-              size="3x"
+              size="xl"
               className="text-dark"
             />
             <span className="visually-hidden">Next</span>

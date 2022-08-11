@@ -23,7 +23,7 @@ export default class Home extends Component {
           <div className="Home__container-vid-enlaces-item">
             <h4 className="Home__title">Foro</h4>
             <hr className="Home__line-title" />
-            <div className="ratio ratio-16x9 w-100">
+            <div className="Home__video-embed ratio ratio-16x9 w-100">
               <iframe
                 src="https://www.youtube.com/embed/6zXSa7oqrqM?rel=0"
                 title="YouTube video"
