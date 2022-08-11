@@ -7,69 +7,63 @@ const Carousel__wordpath = require.context("../../../assets/word");
 const imgCarouselIndex = [
   {
     id: 1,
-    url: "banner-agenda-asambleas.jpg",
+    url: "1.jpg",
     alt: "Agenda de Asambleas",
-    link: Carousel__pdfpath(`./${"AgendaDeAsambleas.pdf"}`),
+    link: Carousel__pdfpath(`./${"1.pdf"}`),
   },
   {
     id: 2,
-    url: "banner_afiliado.jpg",
+    url: "2.jpg",
     alt: "Verificación de afiliación",
     link: "https://deppp-partidos.ine.mx/afiliadosPartidos/app/publico/consultaAfiliados/nacionales?execution=e1s1",
   },
   {
     id: 3,
-    url: "cineminuto.png",
+    url: "3.png",
     alt: "Quinto concurso nacional",
     link: "https://www.ceenl.mx/2022/cineminuto/",
   },
   {
     id: 4,
-    url: "concurso-ensayo-ieebc.png",
+    url: "4.png",
     alt: "Concurso Ensayo",
-    link: Carousel__pdfpath(`./${"primerconcursonacionaldeensayo2022.pdf"}`),
+    link: Carousel__pdfpath(`./${"4.pdf"}`),
   },
   {
     id: 5,
-    url: "Convocatoria-Consejero-Presidente.jpg",
+    url: "5.jpg",
     alt: "Convocatoria Consejero Presidente(a)",
-    link: Carousel__pdfpath(`./${"ConvocatoriaConsejeroPresidente.pdf"}`),
+    link: Carousel__pdfpath(`./${"5.pdf"}`),
   },
   {
     id: 6,
-    url: "formatos-fiscalizacion.jpg",
+    url: "6.jpg",
     alt: "Formatos de fiscalización editables",
-    link: Carousel__wordpath(`./${"anexolineamientosfiscales.docx"}`),
+    link: Carousel__wordpath(`./${"6.docx"}`),
   },
   {
     id: 7,
-    url: "guia-actuacion.jpg",
+    url: "7.jpg",
     alt: "Guia de actuación",
-    link: Carousel__pdfpath(`./${"guiaactuacion.pdf"}`),
+    link: Carousel__pdfpath(`./${"7.pdf"}`),
   },
   {
     id: 8,
-    url: "Manual-auxiliar-android.jpg",
+    url: "8.jpg",
     alt: "Manual android",
-    link: Carousel__pdfpath(
-      `./${"manual-android-registro-partidos-politicos-locales.pdf"}`
-    ),
+    link: Carousel__pdfpath(`./${"8.pdf"}`),
   },
   {
     id: 9,
-    url: "Manual-auxiliar-ios.jpg",
+    url: "9.jpg",
     alt: "Manual ios",
-    link: Carousel__pdfpath(
-      `./${"manual-ios-registro-partidos-politicos-locales.pdf"}`
-    ),
+    link: Carousel__pdfpath(`./${"9.pdf"}`),
   },
   {
     id: 10,
-    url: "Manual-portal-web.jpg",
+    url: "10.jpg",
     alt: "Manual web",
-    link: Carousel__pdfpath(
-      `./${"manual-portalweb-registro-partidos-politicos-locales.pdf"}`
-    ),
+    link: Carousel__pdfpath(`./${"10.pdf"}`),
   },
 ];
 
