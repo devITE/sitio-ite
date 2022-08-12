@@ -9,7 +9,7 @@ body {
 }
 
 .App__container {
-  /* border: 1px solid red; */
+  border: 1px solid red;
   width: 75%;
   margin: auto;
   padding-bottom: 80px;
@@ -26,14 +26,49 @@ body {
 }
 
 .carousel-indicators [data-bs-target] {
-  height: 6px !important;
   background-color: #000000 !important;
 }
 
 /* media screen */
-@media screen and (max-width: 767px) {
-  .App__container {
-    width: 100%;
-    padding: 0 20px 150px 20px;
+@media screen and (min-width: 1024px) {
+  .carouselTopIndex__size {
+    width: 95vw;
+    position: relative;
+    left: -4%;
+  }
+
+  .carousel-control-next,
+  .carousel-control-prev {
+    z-index: 0 !important;
+    font-size: 5rem;
+  }
+
+  .carousel-indicators [data-bs-target] {
+    height: 6px !important;
+  }
+}
+
+@media screen and (max-width: 767px) and (max-width: 1023px) {
+
+  .carousel-control-next,
+  .carousel-control-prev {
+    font-size: 2rem;
+  }
+
+  .carousel-indicators [data-bs-target] {
+    height: 5px !important;
+  }
+
+}
+
+@media screen and (min-width: 768px) {
+
+  .carousel-control-next,
+  .carousel-control-prev {
+    font-size: 4rem;
+  }
+
+  .carousel-indicators [data-bs-target] {
+    height: 6px !important;
   }
 }
