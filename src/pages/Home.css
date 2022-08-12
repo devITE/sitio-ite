@@ -11,7 +11,7 @@
     align-items: flex-start;
     /* gap: 120px; */
     /* padding: 0 50px; */
-    border: 1px solid orange;
+    /* border: 1px solid orange; */
 }
 
 .Home__EspITEVidPod {
@@ -22,7 +22,7 @@
     align-items: center;
     gap: 120px;
     padding: 0 50px;
-    border: 1px solid gold;
+    /* border: 1px solid gold; */
 }
 
 
@@ -47,7 +47,7 @@
 
     .Home__container-vid-enlaces-item {
         width: 50%;
-        border: 2px solid purple;
+        /* border: 2px solid purple; */
     }
 }
 
