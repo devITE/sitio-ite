@@ -3,13 +3,15 @@
     font-family: 'Segoe UI Light';
 }
 
-
 .Home__ActAgen {
     display: flex;
     justify-content: center;
-    align-items: center;
-    gap: 120px;
-    padding: 0 50px;
+    /* justify-content: flex-end; */
+    /* align-items: center; */
+    align-items: flex-start;
+    /* gap: 120px; */
+    /* padding: 0 50px; */
+    border: 1px solid orange;
 }
 
 .Home__EspITEVidPod {
