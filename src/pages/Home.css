@@ -1,9 +1,17 @@
+.Home__title {
+    margin: 10px 0 5px 0 !important;
+    font-family: 'Segoe UI Light';
+}
+
 .Home__ActAgen {
     display: flex;
     justify-content: center;
-    align-items: center;
-    gap: 120px;
-    padding: 0 50px;
+    /* justify-content: flex-end; */
+    /* align-items: center; */
+    align-items: flex-start;
+    /* gap: 120px; */
+    /* padding: 0 50px; */
+    /* border: 1px solid orange; */
 }
 
 .Home__EspITEVidPod {
@@ -14,13 +22,10 @@
     align-items: center;
     gap: 120px;
     padding: 0 50px;
-    border: 1px solid gold;
+    /* border: 1px solid gold; */
 }
 
-.Home__title {
-    margin: 0 0 5px 0 !important;
-    font-family: 'Segoe UI Light';
-}
+
 
 .Home__line-title {
     border-bottom-width: 2px;
@@ -31,6 +36,21 @@
 }
 
 /* media screen */
+@media screen and (min-width: 1024px) {
+
+    .Home__container-vid-enlaces {
+        display: flex;
+        justify-content: center;
+        align-items: initial;
+        gap: 20px;
+    }
+
+    .Home__container-vid-enlaces-item {
+        width: 50%;
+        /* border: 2px solid purple; */
+    }
+}
+
 @media screen and (max-width: 767px) {
     .Home__ActAgen {
         display: flex;
@@ -39,5 +59,16 @@
         align-items: center;
         gap: 20px;
         padding: 0;
+    }
+
+    .Home__container-vid-enlaces-item {
+        /* width: 50%; */
+        /* border: 2px solid orange; */
+        margin-top: 20px;
+    }
+
+    .Home__container-vid-enlaces-item .Home__video-embed {
+        width: 80% !important;
+        margin: auto;
     }
 }
