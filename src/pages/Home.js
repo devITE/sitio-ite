@@ -1,18 +1,11 @@
 import React, { Component } from "react";
-// import Carousel from "./index/carouselIndex/CarouselIndex";
 import CarouselIndex from "./index/carouselIndex/CarouselIndex";
-import Enlaces from "./index/enlaces/Enlaces";
 import CarouselActividadesRecientes from "./index/carouselActividadesRecientes/CarouselActividadesRecientes";
 import CarouselAgenda from "./index/carouselAgenda/CarouselAgenda";
-import espacioIteNeria from "../img/espacio-ite-neria.jpg";
-import micrositios from "../img/micrositios.png";
-import itegenero from "../img/itegenero.png";
-import covid from "../img/covid.png";
-import participacionciudadana from "../img/participacionciudadana.png";
-import REPS from "../img/REPS.png";
-import RNPS from "../img/RNPS.png";
-
+import Enlaces from "./index/enlaces/Enlaces";
 import "./Home.css";
+
+const Home_imppath = require.context("../img");
 
 export default class Home extends Component {
   render() {
@@ -50,6 +43,7 @@ export default class Home extends Component {
         </div>
         <h4 className="Home__title">Informes</h4>
         <hr className="Home__line-title" />
+        <div></div>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis
           dolore suscipit nulla optio qui explicabo ratione, fugit rem sunt
@@ -69,7 +63,7 @@ export default class Home extends Component {
             <hr className="Home__line-title" />
             <img
               className="img-fluid"
-              src={espacioIteNeria}
+              src={Home_imppath(`./espacio-ite-neria.jpg`)}
               alt="Espacio ITE"
             />
           </div>
@@ -92,32 +86,44 @@ export default class Home extends Component {
             <hr className="Home__line-title" />
           </div>
         </div>
-        <img className="mt-4 img-fluid" src={micrositios} alt="micrositios" />
+        <img
+          className="mt-4 img-fluid w-100"
+          src={Home_imppath(`./micrositios.png`)}
+          alt="micrositios"
+        />
         <div className="Home__ActAgen mt-4">
           <div>
             <img
               className="mt-4 img-fluid"
-              src={itegenero}
+              src={Home_imppath(`./itegenero.png`)}
               alt="Micrositio ITE Género"
             />
           </div>
           <div>
             <img
               className="mt-4 img-fluid"
-              src={covid}
+              src={Home_imppath(`./covid.png`)}
               alt="Micrositio COVID-19"
             />
           </div>
           <div>
             <img
               className="mt-4 img-fluid"
-              src={participacionciudadana}
+              src={Home_imppath(`./participacionciudadana.png`)}
               alt="Micrositio PArticipación Ciudadana"
             />
           </div>
         </div>
-        <img className="mt-4 img-fluid" src={REPS} alt="REPS" />
-        <img className="mt-4 mb-4 img-fluid" src={RNPS} alt="RNPS" />
+        <img
+          className="mt-4 img-fluid w-100"
+          src={Home_imppath(`./REPS.png`)}
+          alt="REPS"
+        />
+        <img
+          className="mt-4 mb-4 img-fluid w-100"
+          src={Home_imppath(`./RNPS.png`)}
+          alt="RNPS"
+        />
 
         <h3 className="mt-4 Home__title">Videos</h3>
         <hr className="Home__line-title" />

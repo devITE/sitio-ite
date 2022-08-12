@@ -40,11 +40,7 @@ export default class CarouselIndex extends Component {
           data-bs-target="#carouselTopIndex"
           data-bs-slide="prev"
         >
-          <FontAwesomeIcon
-            icon={faAngleDoubleLeft}
-            // size="xl"
-            className="text-dark"
-          />
+          <FontAwesomeIcon icon={faAngleDoubleLeft} className="text-dark" />
           <span className="visually-hidden">Previous</span>
         </button>
         <button
@@ -53,11 +49,7 @@ export default class CarouselIndex extends Component {
           data-bs-target="#carouselTopIndex"
           data-bs-slide="next"
         >
-          <FontAwesomeIcon
-            icon={faAngleDoubleRight}
-            // size="xl"
-            className="text-dark"
-          />
+          <FontAwesomeIcon icon={faAngleDoubleRight} className="text-dark" />
           <span className="visually-hidden">Next</span>
         </button>
       </div>
