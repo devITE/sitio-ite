@@ -1,73 +1,65 @@
 .Home__title {
-    margin: 10px 0 5px 0 !important;
+    margin: 10px 0 15px 0 !important;
     font-family: 'Segoe UI Light';
-}
-
-.Home__ActAgen {
-    display: flex;
-    justify-content: center;
-    /* justify-content: flex-end; */
-    /* align-items: center; */
-    align-items: flex-start;
-    /* gap: 120px; */
-    /* padding: 0 50px; */
-    /* border: 1px solid orange; */
+    border-bottom-width: 2px;
+    border-bottom-style: dashed;
+    border-bottom-color: #ba1678;
+    border-top: none;
 }
 
 .Home__EspITEVidPod {
     width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 120px;
-    padding: 0 50px;
-    /* border: 1px solid gold; */
 }
 
-
-
-.Home__line-title {
-    border-bottom-width: 2px;
-    border-style: dashed;
-    border-color: #ba1678;
-    border-top: none;
-    margin: 0 0 10px 0;
+.Home__boxesDouble {
+    width: 100%;
 }
 
-/* media screen */
-@media screen and (min-width: 1024px) {
+/* --------------- M E D I A     Q U E R I E S --------------- */
 
-    .Home__container-vid-enlaces {
+/* general */
+@media only screen and (min-width: 1024px) {
+    .Home__EspITEVidPod {
         display: flex;
         justify-content: center;
         align-items: initial;
         gap: 20px;
     }
 
-    .Home__container-vid-enlaces-item {
+    .Home__EspITEVidPod div:nth-child(1) {
+        width: 65%;
+    }
+
+    .Home__EspITEVidPod div:nth-child(2) {
+        width: 35%;
+    }
+
+    .Home__boxesDouble {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: initial;
+        gap: 20px;
+    }
+
+    .Home__boxesDouble-item {
         width: 50%;
-        /* border: 2px solid purple; */
     }
 }
 
-@media screen and (max-width: 767px) {
-    .Home__ActAgen {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        gap: 20px;
-        padding: 0;
-    }
+/* mobil */
+@media only screen and (max-width: 767px) {
 
-    .Home__container-vid-enlaces-item {
-        /* width: 50%; */
-        /* border: 2px solid orange; */
+    .Home__boxesDouble-item {
         margin-top: 20px;
     }
 
-    .Home__container-vid-enlaces-item .Home__video-embed {
+    .Home__boxesDouble-item .Home__video-embed {
+        width: 80% !important;
+        margin: auto;
+    }
+
+    .Home__EspITEVidPod .Home__video-embed {
         width: 80% !important;
         margin: auto;
     }

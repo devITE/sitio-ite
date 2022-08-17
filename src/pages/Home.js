@@ -12,50 +12,47 @@ export default class Home extends Component {
     return (
       <div>
         <CarouselIndex></CarouselIndex>
-        <div className="Home__container-vid-enlaces">
-          <div className="Home__container-vid-enlaces-item">
+        <div className="Home__boxesDouble">
+          <div className="Home__boxesDouble-item">
             <h4 className="Home__title">Foro</h4>
-            <hr className="Home__line-title" />
             <div className="Home__video-embed ratio ratio-16x9 w-100">
               <iframe
                 src="https://www.youtube.com/embed/6zXSa7oqrqM?rel=0"
-                title="YouTube video"
+                title="Foro en conmemoración"
               ></iframe>
             </div>
           </div>
-          <div className="Home__container-vid-enlaces-item">
+          <div className="Home__boxesDouble-item">
             <h4 className="Home__title">Enlaces</h4>
-            <hr className="Home__line-title" />
-            <Enlaces></Enlaces>
+            <div className="">
+              <Enlaces></Enlaces>
+            </div>
           </div>
         </div>
-        <div className="mt-4 Home__ActAgen">
+        <div className="mt-4 Home__boxesDouble">
           <div>
             <h4 className="Home__title">Actividades Recientes</h4>
-            <hr className="Home__line-title" />
             <CarouselActividadesRecientes></CarouselActividadesRecientes>
           </div>
           <div>
             <h4 className="Home__title">Agenda</h4>
-            <hr className="Home__line-title" />
             <CarouselAgenda></CarouselAgenda>
           </div>
         </div>
         <h4 className="Home__title">Informes</h4>
-        <hr className="Home__line-title" />
         <div className="w-100">
           <div className="row">
             <div className="col col-sm-4 col-md-4 col-md-4 ps-5 pe-5 pt-3 pb-3">
               <img
                 src={Home_imppath(`./estudio_participacion_ciudadana.png`)}
-                class="img-fluid rounded-3 shadow-sm"
+                className="img-fluid rounded-3 shadow-sm"
                 alt="..."
               />
             </div>
             <div className="col col-sm-4 col-md-4 col-md-4 ps-5 pe-5 pt-3 pb-3">
               <img
                 src={Home_imppath(`./in-calidad-ciudadania.jpg`)}
-                class="img-fluid rounded-3 shadow-sm"
+                className="img-fluid rounded-3 shadow-sm"
                 alt="..."
               />
             </div>
@@ -109,39 +106,34 @@ export default class Home extends Component {
           </div>
         </div>
 
-        <div className="Home__ActAgen mt-4 w-100">
-          <div className="w-75 border border-primary">
+        <div className="Home__EspITEVidPod mt-4 w-100">
+          <div>
             <h4 className="Home__title">Espacio ITE</h4>
-            <hr className="Home__line-title" />
             <img
               className="img-fluid"
               src={Home_imppath(`./espacio-ite-neria.jpg`)}
               alt="Espacio ITE"
             />
           </div>
-          <div className="w-25 border border-primary">
+          <div>
             <h4 className="Home__title">Video Podcast</h4>
-            <hr className="Home__line-title" />
             <div className="Home__video-embed ratio ratio-16x9 w-100">
               <iframe
                 src="https://www.youtube.com/embed/6zXSa7oqrqM?rel=0"
-                title="YouTube video"
+                title="Video Podcast"
               ></iframe>
             </div>
           </div>
         </div>
-        <div className="Home__ActAgen mt-4">
+        <div className="Home__boxesDouble mt-4">
           <div>
             <h4 className="Home__title">Estrados Electrónicos</h4>
-            <hr className="Home__line-title" />
           </div>
           <div>
             <h4 className="Home__title">Sesión en Vivo</h4>
-            <hr className="Home__line-title" />
           </div>
           <div>
             <h4 className="Home__title">Convocatoria</h4>
-            <hr className="Home__line-title" />
           </div>
         </div>
         <img
@@ -149,7 +141,7 @@ export default class Home extends Component {
           src={Home_imppath(`./micrositios.png`)}
           alt="micrositios"
         />
-        <div className="Home__ActAgen mt-4">
+        <div className="Home__boxesDouble mt-4">
           <div>
             <img
               className="mt-4 img-fluid"
@@ -184,7 +176,6 @@ export default class Home extends Component {
         />
 
         <h3 className="mt-4 Home__title">Videos</h3>
-        <hr className="Home__line-title" />
 
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis

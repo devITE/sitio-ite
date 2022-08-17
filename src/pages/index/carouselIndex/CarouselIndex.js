@@ -7,8 +7,6 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import CarouselItem from "./CarouselItem";
 import CarouselIndicator from "./CarouselIndicator";
-import "./CarouselIndex.css";
-
 export default class CarouselIndex extends Component {
   render() {
     return (

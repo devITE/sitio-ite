@@ -9,11 +9,13 @@ body {
 }
 
 .App__container {
+  margin: auto;
+  text-align: justify;
+  /* 
+  padding-bottom: 80px;
   border: 1px solid red;
   width: 75%;
-  margin: auto;
-  padding-bottom: 80px;
-  text-align: justify;
+  */
 }
 
 .carousel-control-next,
@@ -29,12 +31,20 @@ body {
   background-color: #000000 !important;
 }
 
-/* media screen */
-@media screen and (min-width: 1024px) {
-  .carouselTopIndex__size {
-    width: 95vw;
-    position: relative;
-    left: -4%;
+.carouselTopIndex__size {
+  width: 97vw;
+  position: relative;
+  left: -15.5%;
+}
+
+/* --------------- M E D I A     Q U E R I E S --------------- */
+
+/* general */
+@media only screen and (min-width: 1024px) {
+  .App__container {
+    border: 2px solid red;
+    width: 75%;
+    padding-bottom: 80px;
   }
 
   .carousel-control-next,
@@ -48,7 +58,13 @@ body {
   }
 }
 
-@media screen and (max-width: 767px) and (max-width: 1023px) {
+/* tablets */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .App__container {
+    border: 1px solid blue;
+    width: 85%;
+    padding-bottom: 120px;
+  }
 
   .carousel-control-next,
   .carousel-control-prev {
@@ -58,10 +74,17 @@ body {
   .carousel-indicators [data-bs-target] {
     height: 5px !important;
   }
-
 }
 
-@media screen and (min-width: 768px) {
+/* mobil */
+@media only screen and (max-width: 767px) {
+  .App__container {
+    border: 1px solid orange;
+    width: 75%;
+    margin: auto;
+    padding-bottom: 80px;
+    text-align: justify;
+  }
 
   .carousel-control-next,
   .carousel-control-prev {
@@ -71,4 +94,8 @@ body {
   .carousel-indicators [data-bs-target] {
     height: 6px !important;
   }
+
+  /* .App__container {
+    width: 95%;
+  } */
 }

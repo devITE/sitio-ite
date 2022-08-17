@@ -13,8 +13,8 @@ import e10 from "./img/e10.png";
 export default class Enlaces extends Component {
   render() {
     return (
-      <div className="w-100">
-        <div className="row w-100">
+      <div className="w-100 border">
+        <div className="row">
           <div className="col col-sm-3 col-md-3 col-md-3">
             <img
               src={e1}
@@ -44,7 +44,7 @@ export default class Enlaces extends Component {
             />
           </div>
         </div>
-        <div className="row w-100 mt-2">
+        <div className="row mt-2">
           <div className="col col-sm-3 col-md-3 col-md-3">
             <img
               src={e5}
@@ -74,15 +74,16 @@ export default class Enlaces extends Component {
             />
           </div>
         </div>
-        <div className="row w-100 mt-2">
-          <div className="col col-sm-6 col-md-6 col-md-6">
+        <div className="row mt-2">
+          <div className="col col-sm-6 col-md-6 col-md-6 d-flex justify-content-center">
             <img
               src={e9}
               alt="Plataforma Nacional de Transparencia"
               className="img-fluid shadow rounded-4"
             />
           </div>
-          <div className="col col-sm-6 col-md-6 col-md-6">
+          {/* <div className="col col-sm-6 col-md-6 col-md-6"> */}
+          <div className="col col-sm-6 col-md-6 col-md-6 d-flex justify-content-center">
             <img
               src={e10}
               alt="Consulta Publica"
