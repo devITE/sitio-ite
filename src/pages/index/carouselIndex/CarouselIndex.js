@@ -1,10 +1,5 @@
 import React, { Component } from "react";
 import carouselITE from "./img/carouselITE.jpg";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faAngleDoubleLeft,
-  faAngleDoubleRight,
-} from "@fortawesome/free-solid-svg-icons";
 import CarouselItem from "./CarouselItem";
 import CarouselIndicator from "./CarouselIndicator";
 export default class CarouselIndex extends Component {
@@ -33,22 +28,22 @@ export default class CarouselIndex extends Component {
           <CarouselItem></CarouselItem>
         </div>
         <button
-          className="carousel-control-prev"
+          class="carousel-control-prev"
           type="button"
           data-bs-target="#carouselTopIndex"
           data-bs-slide="prev"
         >
-          <FontAwesomeIcon icon={faAngleDoubleLeft} className="text-dark" />
-          <span className="visually-hidden">Previous</span>
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
         </button>
         <button
-          className="carousel-control-next"
+          class="carousel-control-next"
           type="button"
           data-bs-target="#carouselTopIndex"
           data-bs-slide="next"
         >
-          <FontAwesomeIcon icon={faAngleDoubleRight} className="text-dark" />
-          <span className="visually-hidden">Next</span>
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
         </button>
       </div>
     );
