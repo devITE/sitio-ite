@@ -4,6 +4,7 @@ import CarouselActividadesRecientes from "./index/carouselActividadesRecientes/C
 import CarouselAgenda from "./index/carouselAgenda/CarouselAgenda";
 import Enlaces from "./index/enlaces/Enlaces";
 import "./Home.css";
+import { Link } from "react-router-dom";
 
 const Home_imppath = require.context("../img");
 
@@ -40,23 +41,23 @@ export default class Home extends Component {
           </div>
         </div>
         <h4 className="Home__title">Informes</h4>
-        <div className="w-100">
+        {/* <div className="w-100">
           <div className="row">
-            <div className="col col-sm-4 col-md-4 col-md-4 ps-5 pe-5 pt-3 pb-3">
+            <div className="col col-sm-4col-md-4 ps-5 pe-5 pt-3 pb-3">
               <img
                 src={Home_imppath(`./estudio_participacion_ciudadana.png`)}
                 className="img-fluid rounded-3 shadow-sm"
                 alt="..."
               />
             </div>
-            <div className="col col-sm-4 col-md-4 col-md-4 ps-5 pe-5 pt-3 pb-3">
+            <div className="col col-sm-4col-md-4 ps-5 pe-5 pt-3 pb-3">
               <img
                 src={Home_imppath(`./in-calidad-ciudadania.jpg`)}
                 className="img-fluid rounded-3 shadow-sm"
                 alt="..."
               />
             </div>
-            <div className="col col-sm-4 col-md-4 col-md-4 ps-5 pe-5 pt-3 pb-3">
+            <div className="col col-sm-4col-md-4 ps-5 pe-5 pt-3 pb-3">
               <img
                 src={Home_imppath(`./inf-tec.jpg`)}
                 className="img-fluid rounded-3 shadow-sm"
@@ -65,21 +66,21 @@ export default class Home extends Component {
             </div>
           </div>
           <div className="row">
-            <div className="col col-sm-4 col-md-4 col-md-4 ps-5 pe-5 pt-3 pb-3">
+            <div className="col col-sm-4col-md-4 ps-5 pe-5 pt-3 pb-3">
               <img
                 src={Home_imppath(`./diviertete.png`)}
                 className="img-fluid rounded-3 shadow-sm"
                 alt="..."
               />
             </div>
-            <div className="col col-sm-4 col-md-4 col-md-4 ps-5 pe-5 pt-3 pb-3">
+            <div className="col col-sm-4col-md-4 ps-5 pe-5 pt-3 pb-3">
               <img
                 src={Home_imppath(`./inf-anual-20.jpg`)}
                 className="img-fluid rounded-3 shadow-sm"
                 alt="..."
               />
             </div>
-            <div className="col col-sm-4 col-md-4 col-md-4 ps-5 pe-5 pt-3 pb-3">
+            <div className="col col-sm-4col-md-4 ps-5 pe-5 pt-3 pb-3">
               <img
                 src={Home_imppath(`./inf-pelo20-2021.jpg`)}
                 className="img-fluid rounded-3 shadow-sm"
@@ -88,21 +89,80 @@ export default class Home extends Component {
             </div>
           </div>
           <div className="row">
-            <div className="col col-sm-4 col-md-4 col-md-4 ps-5 pe-5 pt-3 pb-3">
+            <div className="col col-sm-4col-md-4 ps-5 pe-5 pt-3 pb-3">
               <img
                 src={Home_imppath(`./catalogo.jpeg`)}
                 className="img-fluid rounded-3 shadow-sm"
                 alt="..."
               />
             </div>
-            <div className="col col-sm-4 col-md-4 col-md-4 ps-5 pe-5 pt-3 pb-3">
+            <div className="col col-sm-4col-md-4 ps-5 pe-5 pt-3 pb-3">
               <img
                 src={Home_imppath(`./at-ine.jpg`)}
                 className="img-fluid rounded-3 shadow-sm"
                 alt="..."
               />
             </div>
-            <div className="col col-sm-4 col-md-4 col-md-4 ps-5 pe-5 pt-3 pb-3"></div>
+            <div className="col col-sm-4col-md-4 ps-5 pe-5 pt-3 pb-3"></div>
+          </div>
+        </div> */}
+
+        <div className="w-100 Home__informes">
+          <div className="HOLAHOLA">
+            <img
+              src={Home_imppath(`./estudio_participacion_ciudadana.png`)}
+              className="img-fluid rounded-3 shadow-sm"
+              alt="..."
+            />
+          </div>
+          <div className="HOLAHOLA">
+            <img
+              src={Home_imppath(`./in-calidad-ciudadania.jpg`)}
+              className="img-fluid rounded-3 shadow-sm"
+              alt="..."
+            />
+          </div>
+          <div className="HOLAHOLA">
+            <img
+              src={Home_imppath(`./inf-tec.jpg`)}
+              className="img-fluid rounded-3 shadow-sm"
+              alt="..."
+            />
+          </div>
+          <div className="HOLAHOLA">
+            <img
+              src={Home_imppath(`./diviertete.png`)}
+              className="img-fluid rounded-3 shadow-sm"
+              alt="..."
+            />
+          </div>
+          <div className="HOLAHOLA">
+            <img
+              src={Home_imppath(`./inf-anual-20.jpg`)}
+              className="img-fluid rounded-3 shadow-sm"
+              alt="..."
+            />
+          </div>
+          <div className="HOLAHOLA">
+            <img
+              src={Home_imppath(`./inf-pelo20-2021.jpg`)}
+              className="img-fluid rounded-3 shadow-sm"
+              alt="..."
+            />
+          </div>
+          <div className="HOLAHOLA">
+            <img
+              src={Home_imppath(`./catalogo.jpeg`)}
+              className="img-fluid rounded-3 shadow-sm"
+              alt="..."
+            />
+          </div>
+          <div className="HOLAHOLA">
+            <img
+              src={Home_imppath(`./at-ine.jpg`)}
+              className="img-fluid rounded-3 shadow-sm"
+              alt="..."
+            />
           </div>
         </div>
 
@@ -125,15 +185,23 @@ export default class Home extends Component {
             </div>
           </div>
         </div>
-        <div className="Home__boxesDouble mt-4">
+        <div className="Home__boxesTriple border border-primary mt-4">
           <div>
             <h4 className="Home__title">Estrados Electrónicos</h4>
+            <div className="">sdfsdfsdf</div>
           </div>
           <div>
             <h4 className="Home__title">Sesión en Vivo</h4>
+            <div className="Home__video-embed ratio ratio-16x9 w-100">
+              <iframe
+                src="https://www.youtube.com/embed/1PRYCbDhkoQ?rel=0"
+                title="Video Podcast"
+              ></iframe>
+            </div>
           </div>
           <div>
             <h4 className="Home__title">Convocatoria</h4>
+            <div className="">sdfsdfsdf</div>
           </div>
         </div>
         <img
@@ -141,36 +209,36 @@ export default class Home extends Component {
           src={Home_imppath(`./micrositios.png`)}
           alt="micrositios"
         />
-        <div className="Home__boxesDouble mt-4">
+        <div className="Home__micrositios">
           <div>
             <img
-              className="mt-4 img-fluid"
+              className="mt-2 img-fluid"
               src={Home_imppath(`./itegenero.png`)}
               alt="Micrositio ITE Género"
             />
           </div>
           <div>
             <img
-              className="mt-4 img-fluid"
+              className="mt-2 img-fluid"
               src={Home_imppath(`./covid.png`)}
               alt="Micrositio COVID-19"
             />
           </div>
           <div>
             <img
-              className="mt-4 img-fluid"
+              className="mt-2 img-fluid"
               src={Home_imppath(`./participacionciudadana.png`)}
               alt="Micrositio PArticipación Ciudadana"
             />
           </div>
         </div>
         <img
-          className="mt-4 img-fluid w-100"
+          className="mt-2 img-fluid w-100"
           src={Home_imppath(`./REPS.png`)}
           alt="REPS"
         />
         <img
-          className="mt-4 mb-4 img-fluid w-100"
+          className="mt-2 mb-2 img-fluid w-100"
           src={Home_imppath(`./RNPS.png`)}
           alt="RNPS"
         />
@@ -190,6 +258,65 @@ export default class Home extends Component {
           sequi voluptatum necessitatibus praesentium fugit iure atque quasi
           excepturi alias eligendi commodi illo, eum incidunt quas accusantium.
         </p>
+        <div className="Home__pages">
+          <div>
+            <a target="_blank" href="https://ine.mx" rel="noreferrer">
+              <img
+                className="mt-2 img-fluid"
+                src={Home_imppath(`./ine.png`)}
+                alt="INE"
+              />
+            </a>
+          </div>
+          <div>
+            <a
+              target="_blank"
+              href="http://www.fepade.gob.mx/"
+              rel="noreferrer"
+            >
+              <img
+                className="mt-2 img-fluid"
+                src={Home_imppath(`./fepade.png`)}
+                alt="FEPADE"
+              />
+            </a>
+          </div>
+          <div>
+            <a target="_blank" href="https://www.te.gob.mx/" rel="noreferrer">
+              <img
+                className="mt-2 img-fluid"
+                src={Home_imppath(`./tet.png`)}
+                alt="TEPJF"
+              />
+            </a>
+          </div>
+          <div>
+            <a
+              target="_blank"
+              href="https://www.observatoriomujerestlaxcala.mx/contents/"
+              rel="noreferrer"
+            >
+              <img
+                className="mt-2 img-fluid"
+                src={Home_imppath(`./oppmt.png`)}
+                alt=""
+              />
+            </a>
+          </div>
+          <div>
+            <a
+              target="_blank"
+              href="https://www.tetlax.org.mx/"
+              rel="noreferrer"
+            >
+              <img
+                className="mt-2 img-fluid"
+                src={Home_imppath(`./tet2.png`)}
+                alt=""
+              />
+            </a>
+          </div>
+        </div>
       </div>
     );
   }

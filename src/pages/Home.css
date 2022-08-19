@@ -7,18 +7,46 @@
     border-top: none;
 }
 
-.Home__EspITEVidPod {
+.Home__EspITEVidPod,
+.Home__boxesDouble,
+.Home__boxesTriple {
     width: 100%;
 }
 
-.Home__boxesDouble {
-    width: 100%;
+.Home__pages {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.Home__pages div:hover {
+    cursor: pointer;
+    transform: scale(1.2);
 }
 
 /* --------------- M E D I A     Q U E R I E S --------------- */
 
 /* general */
 @media only screen and (min-width: 1024px) {
+    .Home__micrositios {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Home__informes {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        column-gap: 60px;
+        row-gap: 60px;
+    }
+
+    .Home__boxesTriple {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        column-gap: 20px;
+    }
+
     .Home__EspITEVidPod {
         display: flex;
         justify-content: center;
@@ -35,7 +63,6 @@
     }
 
     .Home__boxesDouble {
-        width: 100%;
         display: flex;
         justify-content: center;
         align-items: initial;
@@ -44,6 +71,37 @@
 
     .Home__boxesDouble-item {
         width: 50%;
+    }
+
+    .Home__pages {
+        grid-template-columns: auto auto auto auto auto;
+        column-gap: 60px;
+        padding: 0 8%;
+        margin-bottom: 10px;
+    }
+}
+
+/* tablets */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .Home__informes {
+        display: grid;
+        grid-template-columns: auto auto;
+        column-gap: 80px;
+        row-gap: 30px;
+    }
+
+    .Home__micrositios {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Home__pages {
+        grid-template-columns: auto auto auto;
+        column-gap: 60px;
+        row-gap: 10px;
+        padding: 0 8%;
+        margin-bottom: 10px;
     }
 }
 
@@ -54,13 +112,29 @@
         margin-top: 20px;
     }
 
-    .Home__boxesDouble-item .Home__video-embed {
+    .Home__boxesTriple .Home__video-embed,
+    .Home__boxesDouble-item .Home__video-embed,
+    .Home__EspITEVidPod .Home__video-embed {
         width: 80% !important;
         margin: auto;
     }
 
-    .Home__EspITEVidPod .Home__video-embed {
-        width: 80% !important;
-        margin: auto;
+    .Home__informes {
+        display: grid;
+        grid-template-columns: auto auto;
+        column-gap: 20px;
+        row-gap: 20px;
+    }
+
+    .Home__micrositios {
+        padding: 0 30px;
+    }
+
+    .Home__pages {
+        grid-template-columns: auto auto;
+        column-gap: 40px;
+        row-gap: 5px;
+        padding: 0 12%;
+        margin-bottom: 20px;
     }
 }
