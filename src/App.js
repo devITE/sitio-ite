@@ -1,11 +1,11 @@
 //APP
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import "./App.css";
+// import "./App.css";
 
 //Layout
 import Header from "./layout/Header";
 import Navbar from "./layout/Navbar";
-import Home from "./pages/Home";
+import Home from "./pages/index/Home";
 import Footer from "./layout/Footer";
 
 //Acerca de ITE
@@ -48,8 +48,8 @@ import CulturaCivica from "./pages/CulturaCivica";
 function App() {
   return (
     <Router>
-      <Header></Header>
-      <Navbar></Navbar>
+      {/* <Header></Header> */}
+      {/* <Navbar></Navbar> */}
       <div className="mt-3 App__container">
         <Routes>
           <Route exact path="/" element={<Home />} />
@@ -98,7 +98,7 @@ function App() {
           <Route path="/CulturaCivica" element={<CulturaCivica />} />
         </Routes>
       </div>
-      <Footer></Footer>
+      {/* <Footer></Footer> */}
     </Router>
   );
 }

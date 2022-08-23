@@ -1,18 +1,42 @@
-import React, { Component } from "react";
-import CarouselIndex from "./index/carouselIndex/CarouselIndex";
-import CarouselActividadesRecientes from "./index/carouselActividadesRecientes/CarouselActividadesRecientes";
-import CarouselAgenda from "./index/carouselAgenda/CarouselAgenda";
-import Enlaces from "./index/enlaces/Enlaces";
-import "./Home.css";
-import { Link } from "react-router-dom";
+import Carousel from "../../layout/Carousel/Carousel";
 
-const Home_imppath = require.context("../img");
+import React, { Component } from "react";
+//import CarouselIndex from "./carouselIndex/CarouselIndex";
+// import CarouselActividadesRecientes from "./carouselActividadesRecientes/CarouselActividadesRecientes";
+// import CarouselAgenda from "./carouselAgenda/CarouselAgenda";
+//import Enlaces from "./enlaces/Enlaces";
+//import "./Home.css";
+
+// const Home_imppath = require.context("../../img");
+//const Home_imppath = require.context("./img");
+
+const slides = [
+  "https://picsum.photos/id/1033/900/400",
+  "https://picsum.photos/id/1032/900/400",
+  "https://picsum.photos/id/1037/900/400",
+  "https://picsum.photos/id/1035/900/400",
+  "https://picsum.photos/id/1036/900/400",
+];
+
+const slidesDos = [
+  "https://picsum.photos/id/1037/900/400",
+  "https://picsum.photos/id/1038/900/400",
+  "https://picsum.photos/id/1039/900/400",
+  "https://picsum.photos/id/1040/900/400",
+  "https://picsum.photos/id/1041/900/400",
+];
 
 export default class Home extends Component {
   render() {
     return (
       <div>
-        <CarouselIndex></CarouselIndex>
+        <Carousel slides={slides} />
+        <br />
+        <br />
+        <br />
+        <h1>--------------------------</h1>
+        <Carousel slides={slidesDos} />
+        {/* <CarouselIndex></CarouselIndex>
         <div className="Home__boxesDouble">
           <div className="Home__boxesDouble-item">
             <h4 className="Home__title">Foro</h4>
@@ -41,72 +65,6 @@ export default class Home extends Component {
           </div>
         </div>
         <h4 className="Home__title">Informes</h4>
-        {/* <div className="w-100">
-          <div className="row">
-            <div className="col col-sm-4col-md-4 ps-5 pe-5 pt-3 pb-3">
-              <img
-                src={Home_imppath(`./estudio_participacion_ciudadana.png`)}
-                className="img-fluid rounded-3 shadow-sm"
-                alt="..."
-              />
-            </div>
-            <div className="col col-sm-4col-md-4 ps-5 pe-5 pt-3 pb-3">
-              <img
-                src={Home_imppath(`./in-calidad-ciudadania.jpg`)}
-                className="img-fluid rounded-3 shadow-sm"
-                alt="..."
-              />
-            </div>
-            <div className="col col-sm-4col-md-4 ps-5 pe-5 pt-3 pb-3">
-              <img
-                src={Home_imppath(`./inf-tec.jpg`)}
-                className="img-fluid rounded-3 shadow-sm"
-                alt="..."
-              />
-            </div>
-          </div>
-          <div className="row">
-            <div className="col col-sm-4col-md-4 ps-5 pe-5 pt-3 pb-3">
-              <img
-                src={Home_imppath(`./diviertete.png`)}
-                className="img-fluid rounded-3 shadow-sm"
-                alt="..."
-              />
-            </div>
-            <div className="col col-sm-4col-md-4 ps-5 pe-5 pt-3 pb-3">
-              <img
-                src={Home_imppath(`./inf-anual-20.jpg`)}
-                className="img-fluid rounded-3 shadow-sm"
-                alt="..."
-              />
-            </div>
-            <div className="col col-sm-4col-md-4 ps-5 pe-5 pt-3 pb-3">
-              <img
-                src={Home_imppath(`./inf-pelo20-2021.jpg`)}
-                className="img-fluid rounded-3 shadow-sm"
-                alt="..."
-              />
-            </div>
-          </div>
-          <div className="row">
-            <div className="col col-sm-4col-md-4 ps-5 pe-5 pt-3 pb-3">
-              <img
-                src={Home_imppath(`./catalogo.jpeg`)}
-                className="img-fluid rounded-3 shadow-sm"
-                alt="..."
-              />
-            </div>
-            <div className="col col-sm-4col-md-4 ps-5 pe-5 pt-3 pb-3">
-              <img
-                src={Home_imppath(`./at-ine.jpg`)}
-                className="img-fluid rounded-3 shadow-sm"
-                alt="..."
-              />
-            </div>
-            <div className="col col-sm-4col-md-4 ps-5 pe-5 pt-3 pb-3"></div>
-          </div>
-        </div> */}
-
         <div className="w-100 Home__informes">
           <div className="HOLAHOLA">
             <img
@@ -316,7 +274,7 @@ export default class Home extends Component {
               />
             </a>
           </div>
-        </div>
+        </div> */}
       </div>
     );
   }
