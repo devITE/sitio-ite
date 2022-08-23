@@ -3,10 +3,10 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 // import "./App.css";
 
 //Layout
-import Header from "./layout/Header";
-import Navbar from "./layout/Navbar";
+// import Header from "./layout/Header";
+// import Navbar from "./layout/Navbar";
 import Home from "./pages/index/Home";
-import Footer from "./layout/Footer";
+// import Footer from "./layout/Footer";
 
 //Acerca de ITE
 import FinesInstitucionales from "./pages/acercaITE/FinesInstitucionales";

@@ -19,11 +19,31 @@ const slides = [
 ];
 
 const slidesDos = [
-  "https://picsum.photos/id/1037/900/400",
-  "https://picsum.photos/id/1038/900/400",
-  "https://picsum.photos/id/1039/900/400",
-  "https://picsum.photos/id/1040/900/400",
-  "https://picsum.photos/id/1041/900/400",
+  {
+    id: 1,
+    url: "https://picsum.photos/id/1037/900/400",
+    alt: "1",
+  },
+  {
+    id: 2,
+    url: "https://picsum.photos/id/1038/900/400",
+    alt: "2",
+  },
+  {
+    id: 3,
+    url: "https://picsum.photos/id/1039/900/400",
+    alt: "3",
+  },
+  {
+    id: 4,
+    url: "https://picsum.photos/id/1040/900/400",
+    alt: "4",
+  },
+  {
+    id: 5,
+    url: "https://picsum.photos/id/1041/900/400",
+    alt: "5",
+  },
 ];
 
 export default class Home extends Component {
@@ -35,7 +55,7 @@ export default class Home extends Component {
         <br />
         <br />
         <h1>--------------------------</h1>
-        <Carousel slides={slidesDos} />
+        {/* <Carousel slides={slidesDos} /> */}
         {/* <CarouselIndex></CarouselIndex>
         <div className="Home__boxesDouble">
           <div className="Home__boxesDouble-item">

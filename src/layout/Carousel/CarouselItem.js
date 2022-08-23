@@ -1,7 +1,7 @@
 const CarouselItem = ({ slide }) => {
   return (
-    <div className="carousell-item">
-      <img src={slide} alt="" />
+    <div className="carousel-item">
+      <img src={slide} alt="" className="d-block w-100" />
     </div>
   );
 };
