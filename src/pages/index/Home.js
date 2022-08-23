@@ -46,11 +46,13 @@ const slidesDos = [
   },
 ];
 
+const slideID = ["uno", "dos"];
+
 export default class Home extends Component {
   render() {
     return (
       <div>
-        <Carousel slides={slidesDos} />
+        <Carousel slides={slidesDos} slidesID={"uno"} />
         <br />
         <br />
         <br />
