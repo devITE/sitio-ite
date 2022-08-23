@@ -11,9 +11,10 @@ const Carousel = ({ slides }) => {
             alt="..."
           />
         </div>
-        {slides.map((slide, index) => (
-          <CarouselItem slide={slide} key={index} />
+        {slides.map((slides) => (
+          <CarouselItem slide={slides.url} key={slides.id} alt={slides.alt} />
         ))}
+        {console.log("---", slides)}
       </div>
     </div>
   );

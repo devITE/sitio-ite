@@ -10,19 +10,19 @@ import React, { Component } from "react";
 // const Home_imppath = require.context("../../img");
 //const Home_imppath = require.context("./img");
 
-const slides = [
-  "https://picsum.photos/id/1033/900/400",
-  "https://picsum.photos/id/1032/900/400",
-  "https://picsum.photos/id/1037/900/400",
-  "https://picsum.photos/id/1035/900/400",
-  "https://picsum.photos/id/1036/900/400",
-];
+// const slides = [
+//   "https://picsum.photos/id/1033/900/400",
+//   "https://picsum.photos/id/1032/900/400",
+//   "https://picsum.photos/id/1037/900/400",
+//   "https://picsum.photos/id/1035/900/400",
+//   "https://picsum.photos/id/1036/900/400",
+// ];
 
 const slidesDos = [
   {
     id: 1,
     url: "https://picsum.photos/id/1037/900/400",
-    alt: "1",
+    alt: "sssss1",
   },
   {
     id: 2,
@@ -50,7 +50,7 @@ export default class Home extends Component {
   render() {
     return (
       <div>
-        <Carousel slides={slides} />
+        <Carousel slides={slidesDos} />
         <br />
         <br />
         <br />
