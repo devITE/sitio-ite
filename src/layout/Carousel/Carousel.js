@@ -1,10 +1,31 @@
 import CarouselItem from "./CarouselItem";
+//import CarouselIndicator from "./CarouselIndicator";
 
 const Carousel = ({ slides, slidesID }) => {
   return (
     <>
       {console.log("SLIDES", slides, "\n", "SLIDEID", slidesID)}
       <div id={slidesID} className="carousel slide" data-bs-ride="carousel">
+        <div className="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target={"#" + slidesID}
+            data-bs-slide-to="0"
+            className="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          {slides.map((slides) => (
+            // <CarouselIndicator key={slides.id} />
+            <button
+              key={slides.id}
+              type="button"
+              data-bs-target={"#" + slidesID}
+              data-bs-slide-to={slides.id}
+              aria-label={"Slide " + slides.id}
+            ></button>
+          ))}
+        </div>
         <div className="carousel-inner">
           <div className="carousel-item active">
             <img
@@ -16,7 +37,6 @@ const Carousel = ({ slides, slidesID }) => {
           {slides.map((slides) => (
             <CarouselItem slide={slides.url} key={slides.id} alt={slides.alt} />
           ))}
-          {/* {console.log("---", slides)} */}
         </div>
         <button
           className="carousel-control-prev"

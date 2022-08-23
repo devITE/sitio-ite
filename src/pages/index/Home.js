@@ -1,22 +1,6 @@
 import Carousel from "../../layout/Carousel/Carousel";
 
 import React, { Component } from "react";
-//import CarouselIndex from "./carouselIndex/CarouselIndex";
-// import CarouselActividadesRecientes from "./carouselActividadesRecientes/CarouselActividadesRecientes";
-// import CarouselAgenda from "./carouselAgenda/CarouselAgenda";
-//import Enlaces from "./enlaces/Enlaces";
-//import "./Home.css";
-
-// const Home_imppath = require.context("../../img");
-//const Home_imppath = require.context("./img");
-
-// const slides = [
-//   "https://picsum.photos/id/1033/900/400",
-//   "https://picsum.photos/id/1032/900/400",
-//   "https://picsum.photos/id/1037/900/400",
-//   "https://picsum.photos/id/1035/900/400",
-//   "https://picsum.photos/id/1036/900/400",
-// ];
 
 const slidesDos = [
   {
@@ -45,8 +29,6 @@ const slidesDos = [
     alt: "5",
   },
 ];
-
-const slideID = ["uno", "dos"];
 
 export default class Home extends Component {
   render() {
