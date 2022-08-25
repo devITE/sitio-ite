@@ -72,11 +72,11 @@ export const imgCarouselActividadesRecientes = [
   {
     id: 0,
     url: Carousel__imgpath(`./${"imgC_AR/"}${"0.png"}`),
-    alt: "Observatorio de Participación Política de las Mujeres en Tlaxcala",
+    alt: "Agenda Asambleas",
     itemActive: "active",
     buttonActive: "active",
     ariaCurrent: "true",
-    link: Carousel__imgpath(`./${"imgC_AR/"}${"0.png"}`),
+    link: Carousel__pdfpath(`./${"0.pdf"}`),
   },
   {
     id: 1,
@@ -125,5 +125,41 @@ export const imgCarouselActividadesRecientes = [
     url: Carousel__imgpath(`./${"imgC_AR/"}${"8.png"}`),
     alt: "Consulta Infantil y Juvenil 2021",
     link: Carousel__imgpath(`./${"imgC_AR/"}${"8.png"}`),
+  },
+];
+
+export const imgCarouselAgenda = [
+  {
+    id: 0,
+    url: Carousel__imgpath(`./${"imgC_A/"}${"0.jpg"}`),
+    alt: "Agenda Asambleas",
+    itemActive: "active",
+    buttonActive: "active",
+    ariaCurrent: "true",
+    link: Carousel__pdfpath(`./${"0.pdf"}`),
+  },
+  {
+    id: 1,
+    url: Carousel__imgpath(`./${"imgC_A/"}${"1.jpeg"}`),
+    alt: "Participación política de las mujeres tlaxcaltecas en el Proceso Electoral Local Ordinario 2020-2021",
+    link: Carousel__imgpath(`./${"imgC_A/"}${"1.jpeg"}`),
+  },
+  {
+    id: 2,
+    url: Carousel__imgpath(`./${"imgC_A/"}${"2.jpeg"}`),
+    alt: "Proceso Local 2021",
+    link: Carousel__imgpath(`./${"imgC_A/"}${"2.jpeg"}`),
+  },
+  {
+    id: 3,
+    url: Carousel__imgpath(`./${"imgC_A/"}${"3.jpg"}`),
+    alt: "Foro Voto Electrócnico",
+    link: Carousel__pdfpath(`./${"10.pdf"}`),
+  },
+  {
+    id: 4,
+    url: Carousel__imgpath(`./${"imgC_A/"}${"4.jpg"}`),
+    alt: "Educación Cívica",
+    link: Carousel__imgpath(`./${"imgC_A/"}${"4.jpg"}`),
   },
 ];

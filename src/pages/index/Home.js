@@ -1,11 +1,14 @@
 import Carousel from "../../layout/Carousel/Carousel";
 //--------------------------------------
 import React, { Component } from "react";
-// import CarouselActividadesRecientes from "./carouselActividadesRecientes/CarouselActividadesRecientes";
-import CarouselAgenda from "./carouselAgenda/CarouselAgenda";
+// import CarouselAgenda from "./carouselAgenda/CarouselAgenda";
 import Enlaces from "./enlaces/Enlaces";
 import "./Home.css";
-import { imgCarouselIndexTop, imgCarouselActividadesRecientes } from "../../assets/dataCarousel/dataCarouselIndex";
+import {
+  imgCarouselIndexTop,
+  imgCarouselActividadesRecientes,
+  imgCarouselAgenda,
+} from "../../assets/dataCarousel/dataCarouselIndex";
 
 //const Home_imppath = require.context("../../img");
 const Home_imppath = require.context("./img");
@@ -35,13 +38,16 @@ export default class Home extends Component {
         <div className="mt-4 Home__boxesDouble">
           <div>
             <h4 className="Home__title">Actividades Recientes</h4>
-            {/* <CarouselActividadesRecientes></CarouselActividadesRecientes> */}
-        <Carousel slides={imgCarouselActividadesRecientes} slidesID={"carouselActividadesRecientes"} />
-
+            <Carousel
+              slides={imgCarouselActividadesRecientes}
+              slidesID={"carouselActividadesRecientes"}
+            />
           </div>
           <div>
             <h4 className="Home__title">Agenda</h4>
-            <CarouselAgenda></CarouselAgenda>
+            <Carousel slides={imgCarouselAgenda} slidesID={"carouselAgenda"} />
+
+            {/* <CarouselAgenda></CarouselAgenda> */}
           </div>
         </div>
         <h4 className="Home__title">Informes</h4>
