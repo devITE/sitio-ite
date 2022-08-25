@@ -1,8 +1,7 @@
-import Carousel from "../../layout/Carousel/Carousel";
-//--------------------------------------
 import React, { Component } from "react";
 import Enlaces from "./enlaces/Enlaces";
 import "./Home.css";
+import Carousel from "../../layout/Carousel/Carousel";
 import {
   imgCarouselIndexTop,
   imgCarouselActividadesRecientes,
@@ -17,9 +16,9 @@ export default class Home extends Component {
     return (
       <div>
         <Carousel slides={imgCarouselIndexTop} slidesID={"carouselTopIndex"} />
-        <div className="Home__boxesDouble">
-          <div className="Home__boxesDouble-item">
-            <h4 className="Home__title">Foro</h4>
+        <div className="mt-4 Home__AR-A">
+          <div>
+            <h2 className="Home__title">Foro</h2>
             <div className="Home__video-embed ratio ratio-16x9 w-100">
               <iframe
                 src="https://www.youtube.com/embed/6zXSa7oqrqM?rel=0"
@@ -27,80 +26,85 @@ export default class Home extends Component {
               ></iframe>
             </div>
           </div>
-          <div className="Home__boxesDouble-item">
-            <h4 className="Home__title">Enlaces</h4>
+          <div>
+            <h2 className="Home__title">Enlaces</h2>
             <div className="">
               <Enlaces></Enlaces>
             </div>
           </div>
         </div>
-        <div className="mt-4 Home__boxesDouble">
+        <div className="mt-4 Home__AR-A">
           <div>
-            <h4 className="Home__title">Actividades Recientes</h4>
-            <Carousel
-              slides={imgCarouselActividadesRecientes}
-              slidesID={"carouselActividadesRecientes"}
-            />
+            <h2 className="Home__title">Actividades Recientes</h2>
+            <div className="ps-5 pe-5">
+              <Carousel
+                slides={imgCarouselActividadesRecientes}
+                slidesID={"carouselActividadesRecientes"}
+              />
+            </div>
           </div>
           <div>
-            <h4 className="Home__title">Agenda</h4>
-            <Carousel slides={imgCarouselAgenda} slidesID={"carouselAgenda"} />
-
-            {/* <CarouselAgenda></CarouselAgenda> */}
+            <h2 className="Home__title">Agenda</h2>
+            <div className="ps-5 pe-5">
+              <Carousel
+                slides={imgCarouselAgenda}
+                slidesID={"carouselAgenda"}
+              />
+            </div>
           </div>
         </div>
-        <h4 className="Home__title">Informes</h4>
-        <div className="w-100 Home__informes">
-          <div className="HOLAHOLA">
+        <h2 className="mt-4 Home__title">Informes</h2>
+        <div className="w-100 Home__informes ps-5 pe-5">
+          <div>
             <img
               src={Home_imppath(`./estudio_participacion_ciudadana.png`)}
               className="img-fluid rounded-3 shadow-sm"
               alt="..."
             />
           </div>
-          <div className="HOLAHOLA">
+          <div>
             <img
               src={Home_imppath(`./in-calidad-ciudadania.jpg`)}
               className="img-fluid rounded-3 shadow-sm"
               alt="..."
             />
           </div>
-          <div className="HOLAHOLA">
+          <div>
             <img
               src={Home_imppath(`./inf-tec.jpg`)}
               className="img-fluid rounded-3 shadow-sm"
               alt="..."
             />
           </div>
-          <div className="HOLAHOLA">
+          <div>
             <img
               src={Home_imppath(`./diviertete.png`)}
               className="img-fluid rounded-3 shadow-sm"
               alt="..."
             />
           </div>
-          <div className="HOLAHOLA">
+          <div>
             <img
               src={Home_imppath(`./inf-anual-20.jpg`)}
               className="img-fluid rounded-3 shadow-sm"
               alt="..."
             />
           </div>
-          <div className="HOLAHOLA">
+          <div>
             <img
               src={Home_imppath(`./inf-pelo20-2021.jpg`)}
               className="img-fluid rounded-3 shadow-sm"
               alt="..."
             />
           </div>
-          <div className="HOLAHOLA">
+          <div>
             <img
               src={Home_imppath(`./catalogo.jpeg`)}
               className="img-fluid rounded-3 shadow-sm"
               alt="..."
             />
           </div>
-          <div className="HOLAHOLA">
+          <div>
             <img
               src={Home_imppath(`./at-ine.jpg`)}
               className="img-fluid rounded-3 shadow-sm"
@@ -111,7 +115,7 @@ export default class Home extends Component {
 
         <div className="Home__EspITEVidPod mt-4 w-100">
           <div>
-            <h4 className="Home__title">Espacio ITE</h4>
+            <h2 className="Home__title">Espacio ITE</h2>
             <img
               className="img-fluid"
               src={Home_imppath(`./espacio-ite-neria.jpg`)}
@@ -119,7 +123,7 @@ export default class Home extends Component {
             />
           </div>
           <div>
-            <h4 className="Home__title">Video Podcast</h4>
+            <h2 className="Home__title">Video Podcast</h2>
             <div className="Home__video-embed ratio ratio-16x9 w-100">
               <iframe
                 src="https://www.youtube.com/embed/6zXSa7oqrqM?rel=0"
@@ -130,11 +134,11 @@ export default class Home extends Component {
         </div>
         <div className="Home__boxesTriple border border-primary mt-4">
           <div>
-            <h4 className="Home__title">Estrados Electrónicos</h4>
+            <h2 className="Home__title">Estrados Electrónicos</h2>
             <div className="">sdfsdfsdf</div>
           </div>
           <div>
-            <h4 className="Home__title">Sesión en Vivo</h4>
+            <h2 className="Home__title">Sesión en Vivo</h2>
             <div className="Home__video-embed ratio ratio-16x9 w-100">
               <iframe
                 src="https://www.youtube.com/embed/1PRYCbDhkoQ?rel=0"
@@ -143,7 +147,7 @@ export default class Home extends Component {
             </div>
           </div>
           <div>
-            <h4 className="Home__title">Convocatoria</h4>
+            <h2 className="Home__title">Convocatoria</h2>
             <div className="">sdfsdfsdf</div>
           </div>
         </div>

@@ -8,7 +8,6 @@
 }
 
 .Home__EspITEVidPod,
-.Home__boxesDouble,
 .Home__boxesTriple {
     width: 100%;
 }
@@ -28,6 +27,12 @@
 
 /* general */
 @media only screen and (min-width: 1024px) {
+    .Home__AR-A {
+        display: grid;
+        grid-template-columns: 48% 48%;
+        column-gap: 4%;
+    }
+
     .Home__micrositios {
         display: flex;
         justify-content: center;
@@ -37,7 +42,7 @@
     .Home__informes {
         display: grid;
         grid-template-columns: auto auto auto;
-        column-gap: 60px;
+        column-gap: 210px;
         row-gap: 60px;
     }
 
@@ -62,17 +67,6 @@
         width: 35%;
     }
 
-    .Home__boxesDouble {
-        display: flex;
-        justify-content: center;
-        align-items: initial;
-        gap: 20px;
-    }
-
-    .Home__boxesDouble-item {
-        width: 50%;
-    }
-
     .Home__pages {
         grid-template-columns: auto auto auto auto auto;
         column-gap: 60px;
@@ -88,6 +82,12 @@
         grid-template-columns: auto auto;
         column-gap: 80px;
         row-gap: 30px;
+    }
+
+    .Home__AR-A {
+        display: grid;
+        grid-template-columns: 48% 48%;
+        column-gap: 4%;
     }
 
     .Home__micrositios {
@@ -108,12 +108,8 @@
 /* mobil */
 @media only screen and (max-width: 767px) {
 
-    .Home__boxesDouble-item {
-        margin-top: 20px;
-    }
-
     .Home__boxesTriple .Home__video-embed,
-    .Home__boxesDouble-item .Home__video-embed,
+    .Home__AR-A .Home__video-embed,
     .Home__EspITEVidPod .Home__video-embed {
         width: 80% !important;
         margin: auto;
@@ -125,6 +121,8 @@
         column-gap: 20px;
         row-gap: 20px;
     }
+
+
 
     .Home__micrositios {
         padding: 0 30px;

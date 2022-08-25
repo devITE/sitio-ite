@@ -1,9 +1,3 @@
-.PRUEBA {
-  border: 2px solid green;
-}
-
-
-
 html {
   min-height: 100%;
   position: relative;
@@ -27,6 +21,8 @@ body {
 .App__container {
   margin: auto;
   text-align: justify;
+  font-family: 'Segoe UI Light' !important;
+
 }
 
 .carousel-control-prev-icon {
@@ -86,14 +82,12 @@ body {
   .App__container {
     border: 1px solid orange;
     width: 90%;
-    margin: auto;
     padding-bottom: 130px;
-    text-align: justify;
   }
 
   #carouselTopIndex {
     width: 97vw;
-    position: absolute;
+    /* position: absolute; */
     left: -4.5%;
   }
 }
