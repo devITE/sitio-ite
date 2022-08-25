@@ -1,14 +1,11 @@
 import CarouselItem from "./CarouselItem";
-//import CarouselIndicator from "./CarouselIndicator";
 
 const Carousel = ({ slides, slidesID }) => {
   return (
     <>
-      {console.log("SLIDES", slides, "\n", "SLIDEID", slidesID)}
-      <div id={slidesID} className="carousel slide" data-bs-ride="carousel">
+      <div id={slidesID} className="carousel slide" data-bs-ride="false">
         <div className="carousel-indicators">
           {slides.map((slides) => (
-            // <CarouselIndicator key={slides.id} />
             <button
               key={slides.id}
               type="button"

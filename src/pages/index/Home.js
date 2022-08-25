@@ -1,7 +1,6 @@
 import Carousel from "../../layout/Carousel/Carousel";
 //--------------------------------------
 import React, { Component } from "react";
-// import CarouselAgenda from "./carouselAgenda/CarouselAgenda";
 import Enlaces from "./enlaces/Enlaces";
 import "./Home.css";
 import {
