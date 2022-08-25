@@ -1,6 +1,6 @@
-const CarouselItem = ({ slide, alt }) => {
+const CarouselItem = ({ slide, alt, itemActive }) => {
   return (
-    <div className="carousel-item">
+    <div className={"carousel-item " + itemActive}>
       <img src={slide} alt={"--" + alt} className="d-block w-100" />
     </div>
   );

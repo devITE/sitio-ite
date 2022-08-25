@@ -1,46 +1,92 @@
 import Carousel from "../../layout/Carousel/Carousel";
-
+//--------------------------------------
 import React, { Component } from "react";
+// import CarouselIndex from "./carouselIndex/CarouselIndex";
+import CarouselActividadesRecientes from "./carouselActividadesRecientes/CarouselActividadesRecientes";
+import CarouselAgenda from "./carouselAgenda/CarouselAgenda";
+import Enlaces from "./enlaces/Enlaces";
+import "./Home.css";
 
-const slidesDos = [
+//const Home_imppath = require.context("../../img");
+const Home_imppath = require.context("./img");
+const Carousel__imgpath = require.context("./img/imgC_I");
+
+const imgCarouselIndexTop = [
+  {
+    id: 0,
+    url: Carousel__imgpath(`./${"1.jpg"}`),
+    alt: "Agenda de Asambleas",
+    itemActive: "active",
+    buttonActive: "active",
+    ariaCurrent: "true",
+    //     link: Carousel__pdfpath(`./${"1.pdf"}`),
+  },
   {
     id: 1,
-    url: "https://picsum.photos/id/1037/900/400",
-    alt: "sssss1",
+    url: Carousel__imgpath(`./${"2.jpg"}`),
+    alt: "Verificación de afiliación",
+    //     link: "https://deppp-partidos.ine.mx/afiliadosPartidos/app/publico/consultaAfiliados/nacionales?execution=e1s1",
   },
   {
     id: 2,
-    url: "https://picsum.photos/id/1038/900/400",
-    alt: "2",
+    url: Carousel__imgpath(`./${"3.png"}`),
+    alt: "Quinto concurso nacional",
+    //     link: "https://www.ceenl.mx/2022/cineminuto/",
   },
   {
     id: 3,
-    url: "https://picsum.photos/id/1039/900/400",
-    alt: "3",
+    url: Carousel__imgpath(`./${"4.png"}`),
+    alt: "Concurso Ensayo",
+    //     link: Carousel__pdfpath(`./${"4.pdf"}`),
   },
   {
     id: 4,
-    url: "https://picsum.photos/id/1040/900/400",
-    alt: "4",
+    url: Carousel__imgpath(`./${"5.jpg"}`),
+    alt: "Convocatoria Consejero Presidente(a)",
+    //     link: Carousel__pdfpath(`./${"5.pdf"}`),
   },
   {
     id: 5,
-    url: "https://picsum.photos/id/1041/900/400",
-    alt: "5",
+    url: Carousel__imgpath(`./${"6.jpg"}`),
+    alt: "Formatos de fiscalización editables",
+    //     link: Carousel__pdfpath(`./${"5.pdf"}`),
+  },
+  {
+    id: 6,
+    url: Carousel__imgpath(`./${"7.jpg"}`),
+    alt: "Guia de actuación",
+    //     link: Carousel__pdfpath(`./${"5.pdf"}`),
+  },
+  {
+    id: 7,
+    url: Carousel__imgpath(`./${"8.jpg"}`),
+    alt: "Manual android",
+    //     link: Carousel__pdfpath(`./${"5.pdf"}`),
+  },
+  {
+    id: 8,
+    url: Carousel__imgpath(`./${"9.jpg"}`),
+    alt: "Manual ios",
+    //     link: Carousel__pdfpath(`./${"5.pdf"}`),
+  },
+  {
+    id: 9,
+    url: Carousel__imgpath(`./${"10.jpg"}`),
+    alt: "Manual web",
+    //     link: Carousel__pdfpath(`./${"5.pdf"}`),
   },
 ];
+// const Carousel__pdfpath = require.context("../../../assets/pdf");
+// const Carousel__wordpath = require.context("../../../assets/word");
+// const imgCarouselIndex = [
 
 export default class Home extends Component {
   render() {
     return (
       <div>
-        <Carousel slides={slidesDos} slidesID={"uno"} />
-        <br />
-        <br />
-        <br />
-        <h1>--------------------------</h1>
-        {/* <Carousel slides={slidesDos} /> */}
-        {/* <CarouselIndex></CarouselIndex>
+        <Carousel slides={imgCarouselIndexTop} slidesID={"carouselTopIndex"} />
+        {/* <CarouselIndex></CarouselIndex> */}
+        {/* <Carousel slides={imgCarouselIndex} slidesID={"carouselTopIndex"} /> */}
         <div className="Home__boxesDouble">
           <div className="Home__boxesDouble-item">
             <h4 className="Home__title">Foro</h4>
@@ -278,7 +324,7 @@ export default class Home extends Component {
               />
             </a>
           </div>
-        </div> */}
+        </div>
       </div>
     );
   }

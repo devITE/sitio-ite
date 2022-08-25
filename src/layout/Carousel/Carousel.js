@@ -7,14 +7,6 @@ const Carousel = ({ slides, slidesID }) => {
       {console.log("SLIDES", slides, "\n", "SLIDEID", slidesID)}
       <div id={slidesID} className="carousel slide" data-bs-ride="carousel">
         <div className="carousel-indicators">
-          <button
-            type="button"
-            data-bs-target={"#" + slidesID}
-            data-bs-slide-to="0"
-            className="active"
-            aria-current="true"
-            aria-label="Slide 1"
-          ></button>
           {slides.map((slides) => (
             // <CarouselIndicator key={slides.id} />
             <button
@@ -22,20 +14,20 @@ const Carousel = ({ slides, slidesID }) => {
               type="button"
               data-bs-target={"#" + slidesID}
               data-bs-slide-to={slides.id}
+              className={slides.buttonActive}
+              aria-current={slides.ariaCurrent}
               aria-label={"Slide " + slides.id}
             ></button>
           ))}
         </div>
         <div className="carousel-inner">
-          <div className="carousel-item active">
-            <img
-              src="https://picsum.photos/id/10/900/400"
-              className="d-block w-100"
-              alt="..."
-            />
-          </div>
           {slides.map((slides) => (
-            <CarouselItem slide={slides.url} key={slides.id} alt={slides.alt} />
+            <CarouselItem
+              slide={slides.url}
+              key={slides.id}
+              alt={slides.alt}
+              itemActive={slides.itemActive}
+            />
           ))}
         </div>
         <button

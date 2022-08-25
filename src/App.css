@@ -48,7 +48,7 @@ body {
 /* general */
 @media only screen and (min-width: 1024px) {
   .App__container {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 75%;
     padding-bottom: 80px;
   }
