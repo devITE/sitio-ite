@@ -27,6 +27,7 @@ const Carousel = ({ slides, slidesID }) => {
               key={slides.id}
               alt={slides.alt}
               itemActive={slides.itemActive}
+              link={slides.link}
             />
           ))}
         </div>
