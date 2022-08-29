@@ -6,6 +6,7 @@ import {
   imgCarouselIndexTop,
   imgCarouselActividadesRecientes,
   imgCarouselAgenda,
+  imgCarouselConvocatorias,
 } from "../../assets/dataCarousel/dataCarouselIndex";
 
 //const Home_imppath = require.context("../../img");
@@ -148,7 +149,12 @@ export default class Home extends Component {
           </div>
           <div>
             <h2 className="Home__title">Convocatoria</h2>
-            <div className="">sdfsdfsdf</div>
+            <div className="ps-5 pe-5">
+              <Carousel
+                slides={imgCarouselConvocatorias}
+                slidesID={"carouselConvocatorias"}
+              />
+            </div>
           </div>
         </div>
         <img

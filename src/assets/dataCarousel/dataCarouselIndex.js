@@ -163,3 +163,117 @@ export const imgCarouselAgenda = [
     link: Carousel__imgpath(`./${"imgC_A/"}${"4.jpg"}`),
   },
 ];
+
+export const imgCarouselConvocatorias = [
+  {
+    id: 0,
+    url: Carousel__imgpath(`./${"imgC_C/"}${"0.jpeg"}`),
+    alt: "Convocatoria OPPMT",
+    itemActive: "active",
+    buttonActive: "active",
+    ariaCurrent: "true",
+    link: Carousel__pdfpath(`./${"11.pdf"}`),
+  },
+  {
+    id: 1,
+    url: Carousel__imgpath(`./${"imgC_C/"}${"1.jpeg"}`),
+    alt: "Resultados del XI Parlamento Juvenil",
+    link: Carousel__imgpath(`./${"imgC_C/"}${"1.jpeg"}`),
+  },
+  {
+    id: 2,
+    url: Carousel__imgpath(`./${"imgC_C/"}${"2.jpg"}`),
+    alt: "Concursos Nacionales. Urna electrónica y vía remota",
+    link: "https://www.ceenl.mx/VE2022/",
+  },
+  {
+    id: 3,
+    url: Carousel__imgpath(`./${"imgC_C/"}${"3.jpg"}`),
+    alt: "Concursos Nacionales. Urna electrónica y vía remota",
+    link: "https://www.ceenl.mx/VE2022/",
+  },
+  {
+    id: 4,
+    url: Carousel__imgpath(`./${"imgC_C/"}${"4.jpg"}`),
+    alt: "Concursos Nacionales. Urna electrónica y vía remota",
+    link: "https://www.ceenl.mx/VE2022/",
+  },
+  {
+    id: 5,
+    url: Carousel__imgpath(`./${"imgC_C/"}${"5.jpg"}`),
+    alt: "Convocatoria Derecho Procesal Electoral",
+    link: Carousel__pdfpath(`./${"12.pdf"}`),
+  },
+  {
+    id: 6,
+    url: Carousel__imgpath(`./${"imgC_C/"}${"6.jpg"}`),
+    alt: "Maestría en Derecho Electoral",
+    link: Carousel__pdfpath(`./${"13.pdf"}`),
+  },
+  {
+    id: 7,
+    url: Carousel__imgpath(`./${"imgC_C/"}${"7.jpg"}`),
+    alt: "XXV Certamen de investigación y ensayo político",
+    link: Carousel__pdfpath(`./${"14.pdf"}`),
+  },
+  {
+    id: 8,
+    url: Carousel__imgpath(`./${"imgC_C/"}${"8.png"}`),
+    alt: "Quinto concurso nacional #PAridadEnCorto",
+    link: "https://www.ceenl.mx/2022/cineminuto/",
+  },
+  {
+    id: 9,
+    url: Carousel__imgpath(`./${"imgC_C/"}${"9.png"}`),
+    alt: "",
+    link: "https://www.ceenl.mx/2022/cineminuto/",
+  },
+  {
+    id: 10,
+    url: Carousel__imgpath(`./${"imgC_C/"}${"10.jpg"}`),
+    alt: "2do concurso nacional",
+    link: "https://www.ceenl.mx/2022/historietas/",
+  },
+  {
+    id: 11,
+    url: Carousel__imgpath(`./${"imgC_C/"}${"11.jpg"}`),
+    alt: "2do concurso nacional",
+    link: "https://www.ceenl.mx/2022/historietas/",
+  },
+  {
+    id: 12,
+    url: Carousel__imgpath(`./${"imgC_C/"}${"12.jpg"}`),
+    alt: "2do concurso nacional",
+    link: "https://www.ceenl.mx/2022/historietas/",
+  },
+  {
+    id: 13,
+    url: Carousel__imgpath(`./${"imgC_C/"}${"13.jpg"}`),
+    alt: "Consulta madres, padres y personas cuidadoras OpinNNAAn sobre crianza y cuidado",
+    link: "https://ee.humanitarianresponse.info/x/aDfDnwx7",
+  },
+  {
+    id: 14,
+    url: Carousel__imgpath(`./${"imgC_C/"}${"14.jpg"}`),
+    alt: "Cuarto Concurso Nacional de Estudios Políticos y Sociales",
+    link: Carousel__imgpath(`./${"imgC_C/"}${"14.jpg"}`),
+  },
+  {
+    id: 15,
+    url: Carousel__imgpath(`./${"imgC_C/"}${"15.jpg"}`),
+    alt: "Cuarto Concurso Nacional de Estudios Políticos y Sociales",
+    link: Carousel__imgpath(`./${"imgC_C/"}${"15.jpg"}`),
+  },
+  {
+    id: 16,
+    url: Carousel__imgpath(`./${"imgC_C/"}${"16.jpg"}`),
+    alt: "Diplomado de actualización en materia de juicio de amparo",
+    link: Carousel__imgpath(`./${"imgC_C/"}${"16.jpg"}`),
+  },
+  {
+    id: 17,
+    url: Carousel__imgpath(`./${"imgC_C/"}${"17.png"}`),
+    alt: "Primer concurso nacional de ensayo",
+    link: Carousel__pdfpath(`./${"15.pdf"}`),
+  },
+];
