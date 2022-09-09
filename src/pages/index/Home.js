@@ -11,6 +11,9 @@ import {
 import Estrados from "./estrados/Estrados";
 import { dataEstrados } from "../../assets/data/dataEstrados";
 
+import Informes from "./informes/Informes";
+import { dataInformes } from "../../assets/data/dataInformes";
+
 console.log(dataEstrados);
 //const Home_imppath = require.context("../../img");
 const Home_imppath = require.context("./img");
@@ -58,65 +61,7 @@ export default class Home extends Component {
           </div>
         </div>
         <h2 className="mt-4 Home__title">Informes</h2>
-        <div className="w-100 Home__informes ps-5 pe-5">
-          <div>
-            <img
-              src={Home_imppath(`./estudio_participacion_ciudadana.png`)}
-              className="img-fluid rounded-3 shadow-sm"
-              alt="..."
-            />
-          </div>
-          <div>
-            <img
-              src={Home_imppath(`./in-calidad-ciudadania.jpg`)}
-              className="img-fluid rounded-3 shadow-sm"
-              alt="..."
-            />
-          </div>
-          <div>
-            <img
-              src={Home_imppath(`./inf-tec.jpg`)}
-              className="img-fluid rounded-3 shadow-sm"
-              alt="..."
-            />
-          </div>
-          <div>
-            <img
-              src={Home_imppath(`./diviertete.png`)}
-              className="img-fluid rounded-3 shadow-sm"
-              alt="..."
-            />
-          </div>
-          <div>
-            <img
-              src={Home_imppath(`./inf-anual-20.jpg`)}
-              className="img-fluid rounded-3 shadow-sm"
-              alt="..."
-            />
-          </div>
-          <div>
-            <img
-              src={Home_imppath(`./inf-pelo20-2021.jpg`)}
-              className="img-fluid rounded-3 shadow-sm"
-              alt="..."
-            />
-          </div>
-          <div>
-            <img
-              src={Home_imppath(`./catalogo.jpeg`)}
-              className="img-fluid rounded-3 shadow-sm"
-              alt="..."
-            />
-          </div>
-          <div>
-            <img
-              src={Home_imppath(`./at-ine.jpg`)}
-              className="img-fluid rounded-3 shadow-sm"
-              alt="..."
-            />
-          </div>
-        </div>
-
+        <Informes items={dataInformes} itemsID={"itemsInformes"} />
         <div className="Home__EspITEVidPod mt-4 w-100">
           <div>
             <h2 className="Home__title">Espacio ITE</h2>
