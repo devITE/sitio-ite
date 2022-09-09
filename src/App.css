@@ -8,6 +8,10 @@ body {
   padding: 0;
 }
 
+a {
+  cursor: pointer;
+}
+
 /* .App__total-app {
   min-height: 100vh;
   position: relative;

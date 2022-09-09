@@ -7,8 +7,11 @@ import {
   imgCarouselActividadesRecientes,
   imgCarouselAgenda,
   imgCarouselConvocatorias,
-} from "../../assets/dataCarousel/dataCarouselIndex";
+} from "../../assets/data/dataCarouselIndex";
+import Estrados from "./estrados/Estrados";
+import { dataEstrados } from "../../assets/data/dataEstrados";
 
+console.log(dataEstrados);
 //const Home_imppath = require.context("../../img");
 const Home_imppath = require.context("./img");
 
@@ -136,7 +139,12 @@ export default class Home extends Component {
         <div className="Home__boxesTriple border border-primary mt-4">
           <div>
             <h2 className="Home__title">Estrados Electrónicos</h2>
-            <div className="">sdfsdfsdf</div>
+            <div className="">
+              <Estrados
+                items={dataEstrados}
+                itemsID={"listEstradosElectronicos"}
+              />
+            </div>
           </div>
           <div>
             <h2 className="Home__title">Sesión en Vivo</h2>
@@ -149,7 +157,7 @@ export default class Home extends Component {
           </div>
           <div>
             <h2 className="Home__title">Convocatoria</h2>
-            <div className="ps-5 pe-5">
+            <div className="ps-2 pe-2">
               <Carousel
                 slides={imgCarouselConvocatorias}
                 slidesID={"carouselConvocatorias"}
