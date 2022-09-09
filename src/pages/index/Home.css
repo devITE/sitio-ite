@@ -19,7 +19,6 @@
 }
 
 .Home__pages div:hover {
-    cursor: pointer;
     transform: scale(1.2);
 }
 
@@ -55,7 +54,6 @@
     .Home__boxesTriple>div:nth-child(1) div {
         overflow: auto;
         max-height: 280px;
-        border: 1px solid orange;
     }
 
     .Home__EspITEVidPod {

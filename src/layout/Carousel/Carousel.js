@@ -3,7 +3,12 @@ import CarouselItem from "./CarouselItem";
 const Carousel = ({ slides, slidesID }) => {
   return (
     <>
-      <div id={slidesID} className="carousel slide" data-bs-ride="false">
+      <div
+        id={slidesID}
+        className="carousel slide"
+        data-ride="carousel"
+        data-bs-ride="carousel"
+      >
         <div className="carousel-indicators">
           {slides.map((slides) => (
             <button

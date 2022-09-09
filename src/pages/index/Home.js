@@ -136,7 +136,7 @@ export default class Home extends Component {
             </div>
           </div>
         </div>
-        <div className="Home__boxesTriple border border-primary mt-4">
+        <div className="Home__boxesTriple mt-4">
           <div>
             <h2 className="Home__title">Estrados Electrónicos</h2>
             <div className="">
@@ -198,12 +198,17 @@ export default class Home extends Component {
           src={Home_imppath(`./REPS.png`)}
           alt="REPS"
         />
-        <img
-          className="mt-2 mb-2 img-fluid w-100"
-          src={Home_imppath(`./RNPS.png`)}
-          alt="RNPS"
-        />
-
+        <a
+          href="https://www.ine.mx/actores-politicos/registro-nacional-de-personas-sancionadas/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img
+            className="mt-2 mb-2 img-fluid w-100"
+            src={Home_imppath(`./RNPS.png`)}
+            alt="RNPS"
+          />
+        </a>
         <h3 className="mt-4 Home__title">Videos</h3>
 
         <p>
