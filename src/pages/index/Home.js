@@ -14,7 +14,9 @@ import { dataEstrados } from "../../assets/data/dataEstrados";
 import Informes from "./informes/Informes";
 import { dataInformes } from "../../assets/data/dataInformes";
 
-console.log(dataEstrados);
+import Videoteca from "./videoteca/Videoteca";
+import { dataVideoteca } from "../../assets/data/dataVideoteca";
+
 //const Home_imppath = require.context("../../img");
 const Home_imppath = require.context("./img");
 
@@ -28,8 +30,10 @@ export default class Home extends Component {
             <h2 className="Home__title">Foro</h2>
             <div className="Home__video-embed ratio ratio-16x9 w-100">
               <iframe
+                id="video1"
                 src="https://www.youtube.com/embed/6zXSa7oqrqM?rel=0"
                 title="Foro en conmemoración"
+                allowFullScreen
               ></iframe>
             </div>
           </div>
@@ -77,6 +81,7 @@ export default class Home extends Component {
               <iframe
                 src="https://www.youtube.com/embed/6zXSa7oqrqM?rel=0"
                 title="Video Podcast"
+                allowFullScreen
               ></iframe>
             </div>
           </div>
@@ -97,6 +102,7 @@ export default class Home extends Component {
               <iframe
                 src="https://www.youtube.com/embed/1PRYCbDhkoQ?rel=0"
                 title="Video Podcast"
+                allowFullScreen
               ></iframe>
             </div>
           </div>
@@ -155,20 +161,8 @@ export default class Home extends Component {
           />
         </a>
         <h3 className="mt-4 Home__title">Videos</h3>
+        <Videoteca items={dataVideoteca} itemsID={"videoteca"} />
 
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis
-          dolore suscipit nulla optio qui explicabo ratione, fugit rem sunt
-          numquam cumque consectetur sit voluptates architecto nobis et quod
-          fuga aliquam expedita eos quis iure quibusdam. Est blanditiis
-          asperiores suscipit voluptatem harum inventore natus dolor eum
-          accusamus, saepe sit pariatur molestiae at illum laudantium quam atque
-          assumenda rerum quos obcaecati aut voluptates recusandae illo. Esse,
-          nostrum? Et at, voluptatem nulla quam eum voluptatibus qui sunt sequi
-          iure, consectetur, vero tempora? Aperiam, dicta. Explicabo sapiente
-          sequi voluptatum necessitatibus praesentium fugit iure atque quasi
-          excepturi alias eligendi commodi illo, eum incidunt quas accusantium.
-        </p>
         <div className="Home__pages">
           <div>
             <a target="_blank" href="https://ine.mx" rel="noreferrer">
