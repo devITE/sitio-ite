@@ -35,7 +35,6 @@ color: black;
     border-left-color: #AA0787;
     margin-top: 10px;
     padding: 1rem 8rem 1rem 1rem;
-    /* padding-right:8rem; */
     text-align: justify;
     
   }
@@ -47,4 +46,20 @@ color: black;
 {
   padding-left:2rem;
   padding-right:2rem;
+}
+.red-text
+{
+  color:#AA0787;
+}
+.estilo
+{
+  font-size: 1.2rem;
+  /* display: block; */
+  /* align-items: center;
+  margin:auto; 
+  */
+  text-align: justify;
+  display: line;
+  align-items: center;
+
 }
