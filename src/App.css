@@ -1,74 +1,98 @@
+html {
+  min-height: 100%;
+  position: relative;
+}
+
 body {
   margin: 0;
   padding: 0;
 }
 
-.App__total-app {
+a {
+  cursor: pointer;
+}
+
+
+/* .App__total-app {
   min-height: 100vh;
   position: relative;
-}
+} */
+
+/* .App__container {
+  margin: auto;
+  text-align: justify;
+} */
 
 .App__container {
-  border: 1px solid red;
-  width: 75%;
   margin: auto;
-  padding-bottom: 80px;
   text-align: justify;
+  font-family: 'Segoe UI Light' !important;
+
 }
 
-.carousel-control-next,
-.carousel-control-prev {
-  z-index: 0 !important;
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ba1678' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
 }
 
-.carousel-indicators {
-  margin-bottom: 5px !important;
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ba1678' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
 }
 
 .carousel-indicators [data-bs-target] {
-  background-color: #000000 !important;
+  background-color: #ba1678 !important;
+  height: 7px !important;
+  border: 1px solid #ba1678 !important;
+  border-radius: 10px !important;
+  box-shadow: 3px 2px #000000 !important;
+  width: 40px !important;
+  margin-right: 5px !important;
+  margin-left: 5px !important;
+
 }
 
-/* media screen */
-@media screen and (min-width: 1024px) {
-  .carouselTopIndex__size {
-    width: 95vw;
+/* --------------- M E D I A     Q U E R I E S --------------- */
+
+/* general */
+@media only screen and (min-width: 1024px) {
+  .App__container {
+    border: 2px solid red;
+    width: 75%;
+    padding-bottom: 80px;
+  }
+
+  #carouselTopIndex {
+    width: 97vw;
     position: relative;
-    left: -4%;
-  }
-
-  .carousel-control-next,
-  .carousel-control-prev {
-    z-index: 0 !important;
-    font-size: 5rem;
-  }
-
-  .carousel-indicators [data-bs-target] {
-    height: 6px !important;
+    left: -15.5%;
   }
 }
 
-@media screen and (max-width: 767px) and (max-width: 1023px) {
-
-  .carousel-control-next,
-  .carousel-control-prev {
-    font-size: 2rem;
+/* tablets */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .App__container {
+    border: 2px solid blue;
+    width: 85%;
+    padding-bottom: 120px;
   }
 
-  .carousel-indicators [data-bs-target] {
-    height: 5px !important;
+  #carouselTopIndex {
+    width: 97vw;
+    position: relative;
+    left: -7%;
   }
-
 }
 
-@media screen and (min-width: 768px) {
-
-  .carousel-control-next,
-  .carousel-control-prev {
-    font-size: 4rem;
+/* mobil */
+@media only screen and (max-width: 767px) {
+  .App__container {
+    border: 1px solid orange;
+    width: 90%;
+    padding-bottom: 130px;
   }
 
-  .carousel-indicators [data-bs-target] {
-    height: 6px !important;
+  #carouselTopIndex {
+    width: 97vw;
+    /* position: absolute; */
+    left: -4.5%;
   }
 }

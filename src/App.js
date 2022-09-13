@@ -5,7 +5,7 @@ import "./App.css";
 //Layout
 import Header from "./layout/Header";
 import Navbar from "./layout/Navbar";
-import Home from "./pages/Home";
+import Home from "./pages/index/Home";
 import Footer from "./layout/Footer";
 
 //Acerca de ITE
@@ -48,71 +48,57 @@ import CulturaCivica from "./pages/CulturaCivica";
 function App() {
   return (
     <Router>
-      <div className="App__total-app">
-        <Header></Header>
-        <Navbar></Navbar>
-        <div className="mt-3 App__container">
-          <Routes>
-            <Route exact path="/" element={<Home />} />
+      <Header></Header>
+      <Navbar></Navbar>
+      <div className="mt-3 App__container">
+        <Routes>
+          <Route exact path="/" element={<Home />} />
 
-            {/* Acerca de ITE */}
-            <Route
-              path="/FinesInstitucionales"
-              element={<FinesInstitucionales />}
-            />
-            <Route path="/Historia" element={<Historia />} />
-            <Route
-              path="/PrincipiosRectores"
-              element={<PrincipiosRectores />}
-            />
-            <Route
-              path="/EstructuraOrganica"
-              element={<EstructuraOrganica />}
-            />
+          {/* Acerca de ITE */}
+          <Route
+            path="/FinesInstitucionales"
+            element={<FinesInstitucionales />}
+          />
+          <Route path="/Historia" element={<Historia />} />
+          <Route path="/PrincipiosRectores" element={<PrincipiosRectores />} />
+          <Route path="/EstructuraOrganica" element={<EstructuraOrganica />} />
 
-            {/* Consejo General */}
-            <Route path="/Integracion" element={<Integracion />} />
-            <Route path="/Comisiones" element={<Comisiones />} />
-            <Route path="/JGE" element={<JGE />} />
-            <Route path="/Estructura" element={<Estructura />} />
+          {/* Consejo General */}
+          <Route path="/Integracion" element={<Integracion />} />
+          <Route path="/Comisiones" element={<Comisiones />} />
+          <Route path="/JGE" element={<JGE />} />
+          <Route path="/Estructura" element={<Estructura />} />
 
-            {/* Acuerdos */}
-            <Route
-              path="/AcuerdosAnteriores"
-              element={<AcuerdosAnteriores />}
-            />
-            <Route path="/AcuerdosINE" element={<AcuerdosINE />} />
-            <Route path="/Acuerdos2015" element={<Acuerdos2015 />} />
-            <Route path="/Acuerdos2016" element={<Acuerdos2016 />} />
-            <Route path="/Acuerdos2017" element={<Acuerdos2017 />} />
-            <Route path="/Acuerdos2018" element={<Acuerdos2018 />} />
-            <Route path="/Acuerdos2019" element={<Acuerdos2019 />} />
-            <Route path="/Acuerdos2020" element={<Acuerdos2020 />} />
-            <Route path="/Acuerdos2021" element={<Acuerdos2021 />} />
-            <Route path="/Acuerdos2022" element={<Acuerdos2022 />} />
+          {/* Acuerdos */}
+          <Route path="/AcuerdosAnteriores" element={<AcuerdosAnteriores />} />
+          <Route path="/AcuerdosINE" element={<AcuerdosINE />} />
+          <Route path="/Acuerdos2015" element={<Acuerdos2015 />} />
+          <Route path="/Acuerdos2016" element={<Acuerdos2016 />} />
+          <Route path="/Acuerdos2017" element={<Acuerdos2017 />} />
+          <Route path="/Acuerdos2018" element={<Acuerdos2018 />} />
+          <Route path="/Acuerdos2019" element={<Acuerdos2019 />} />
+          <Route path="/Acuerdos2020" element={<Acuerdos2020 />} />
+          <Route path="/Acuerdos2021" element={<Acuerdos2021 />} />
+          <Route path="/Acuerdos2022" element={<Acuerdos2022 />} />
 
-            {/* Demarcaciones */}
-            <Route path="/Acuerdos" element={<Acuerdos />} />
-            <Route path="/Mapas" element={<Mapas />} />
+          {/* Demarcaciones */}
+          <Route path="/Acuerdos" element={<Acuerdos />} />
+          <Route path="/Mapas" element={<Mapas />} />
 
-            {/* Transparencia */}
-            <Route path="/Transparencia" element={<Transparencia />} />
-            <Route path="/Infografias" element={<Infografias />} />
-            <Route
-              path="/PreguntasFrecuentes"
-              element={<PreguntasFrecuentes />}
-            />
-            <Route path="/DatosAbiertos" element={<DatosAbiertos />} />
+          {/* Transparencia */}
+          <Route path="/Transparencia" element={<Transparencia />} />
+          <Route path="/Infografias" element={<Infografias />} />
+          <Route
+            path="/PreguntasFrecuentes"
+            element={<PreguntasFrecuentes />}
+          />
+          <Route path="/DatosAbiertos" element={<DatosAbiertos />} />
 
-            <Route
-              path="/ComunicacionSocial"
-              element={<ComunicacionSocial />}
-            />
-            <Route path="/CulturaCivica" element={<CulturaCivica />} />
-          </Routes>
-        </div>
-        <Footer></Footer>
+          <Route path="/ComunicacionSocial" element={<ComunicacionSocial />} />
+          <Route path="/CulturaCivica" element={<CulturaCivica />} />
+        </Routes>
       </div>
+      <Footer></Footer>
     </Router>
   );
 }
