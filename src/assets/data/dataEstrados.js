@@ -1,6 +1,4 @@
-//const EstradosEstrados__imgpath = require.context("../../img");
 const Estrados__pdfpath = require.context("../pdf/estrados");
-//const EstradosEstrados__wordpath = require.context("../word");
 
 export const dataEstrados = [
   {

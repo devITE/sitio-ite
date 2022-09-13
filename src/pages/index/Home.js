@@ -19,6 +19,7 @@ import { dataVideoteca } from "../../assets/data/dataVideoteca";
 
 //const Home_imppath = require.context("../../img");
 const Home_imppath = require.context("./img");
+const EspacioITE_path = require.context("../../assets/pdf/");
 
 export default class Home extends Component {
   render() {
@@ -69,11 +70,17 @@ export default class Home extends Component {
         <div className="Home__EspITEVidPod mt-4 w-100">
           <div>
             <h2 className="Home__title">Espacio ITE</h2>
-            <img
-              className="img-fluid"
-              src={Home_imppath(`./espacio-ite-neria.jpg`)}
-              alt="Espacio ITE"
-            />
+            <a
+              href={EspacioITE_path(`./${"0.pdf"}`)}
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                className="img-fluid"
+                src={Home_imppath(`./espacio-ite-neria.jpg`)}
+                alt="Espacio ITE"
+              />
+            </a>
           </div>
           <div>
             <h2 className="Home__title">Video Podcast</h2>

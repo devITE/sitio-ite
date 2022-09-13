@@ -10,7 +10,7 @@ export const imgCarouselIndexTop = [
     itemActive: "active",
     buttonActive: "active",
     ariaCurrent: "true",
-    link: Carousel__pdfpath(`./${"0.pdf"}`),
+    link: Carousel__pdfpath(`./${"carousel/"}${"0.pdf"}`),
   },
   {
     id: 1,
@@ -28,43 +28,43 @@ export const imgCarouselIndexTop = [
     id: 3,
     url: Carousel__imgpath(`./${"imgC_I/"}${"3.png"}`),
     alt: "Concurso Ensayo",
-    link: Carousel__pdfpath(`./${"3.pdf"}`),
+    link: Carousel__pdfpath(`./${"carousel/"}${"3.pdf"}`),
   },
   {
     id: 4,
     url: Carousel__imgpath(`./${"imgC_I/"}${"4.jpg"}`),
     alt: "Convocatoria Consejero Presidente(a)",
-    link: Carousel__pdfpath(`./${"4.pdf"}`),
+    link: Carousel__pdfpath(`./${"carousel/"}${"4.pdf"}`),
   },
   {
     id: 5,
     url: Carousel__imgpath(`./${"imgC_I/"}${"5.jpg"}`),
     alt: "Formatos de fiscalización editables",
-    link: Carousel__wordpath(`./${"5.docx"}`),
+    link: Carousel__wordpath(`./${"carousel/"}${"5.docx"}`),
   },
   {
     id: 6,
     url: Carousel__imgpath(`./${"imgC_I/"}${"6.jpg"}`),
     alt: "Guia de actuación",
-    link: Carousel__pdfpath(`./${"6.pdf"}`),
+    link: Carousel__pdfpath(`./${"carousel/"}${"6.pdf"}`),
   },
   {
     id: 7,
     url: Carousel__imgpath(`./${"imgC_I/"}${"7.jpg"}`),
     alt: "Manual android",
-    link: Carousel__pdfpath(`./${"7.pdf"}`),
+    link: Carousel__pdfpath(`./${"carousel/"}${"7.pdf"}`),
   },
   {
     id: 8,
     url: Carousel__imgpath(`./${"imgC_I/"}${"8.jpg"}`),
     alt: "Manual ios",
-    link: Carousel__pdfpath(`./${"8.pdf"}`),
+    link: Carousel__pdfpath(`./${"carousel/"}${"8.pdf"}`),
   },
   {
     id: 9,
     url: Carousel__imgpath(`./${"imgC_I/"}${"9.jpg"}`),
     alt: "Manual web",
-    link: Carousel__pdfpath(`./${"9.pdf"}`),
+    link: Carousel__pdfpath(`./${"carousel/"}${"9.pdf"}`),
   },
 ];
 
@@ -136,7 +136,7 @@ export const imgCarouselAgenda = [
     itemActive: "active",
     buttonActive: "active",
     ariaCurrent: "true",
-    link: Carousel__pdfpath(`./${"0.pdf"}`),
+    link: Carousel__pdfpath(`./${"carousel/"}${"0.pdf"}`),
   },
   {
     id: 1,
@@ -154,7 +154,7 @@ export const imgCarouselAgenda = [
     id: 3,
     url: Carousel__imgpath(`./${"imgC_A/"}${"3.jpg"}`),
     alt: "Foro Voto Electrócnico",
-    link: Carousel__pdfpath(`./${"10.pdf"}`),
+    link: Carousel__pdfpath(`./${"carousel/"}${"10.pdf"}`),
   },
   {
     id: 4,
@@ -172,7 +172,7 @@ export const imgCarouselConvocatorias = [
     itemActive: "active",
     buttonActive: "active",
     ariaCurrent: "true",
-    link: Carousel__pdfpath(`./${"11.pdf"}`),
+    link: Carousel__pdfpath(`./${"carousel/"}${"11.pdf"}`),
   },
   {
     id: 1,
@@ -202,19 +202,19 @@ export const imgCarouselConvocatorias = [
     id: 5,
     url: Carousel__imgpath(`./${"imgC_C/"}${"5.jpg"}`),
     alt: "Convocatoria Derecho Procesal Electoral",
-    link: Carousel__pdfpath(`./${"12.pdf"}`),
+    link: Carousel__pdfpath(`./${"carousel/"}${"12.pdf"}`),
   },
   {
     id: 6,
     url: Carousel__imgpath(`./${"imgC_C/"}${"6.jpg"}`),
     alt: "Maestría en Derecho Electoral",
-    link: Carousel__pdfpath(`./${"13.pdf"}`),
+    link: Carousel__pdfpath(`./${"carousel/"}${"13.pdf"}`),
   },
   {
     id: 7,
     url: Carousel__imgpath(`./${"imgC_C/"}${"7.jpg"}`),
     alt: "XXV Certamen de investigación y ensayo político",
-    link: Carousel__pdfpath(`./${"14.pdf"}`),
+    link: Carousel__pdfpath(`./${"carousel/"}${"14.pdf"}`),
   },
   {
     id: 8,
@@ -274,6 +274,6 @@ export const imgCarouselConvocatorias = [
     id: 17,
     url: Carousel__imgpath(`./${"imgC_C/"}${"17.png"}`),
     alt: "Primer concurso nacional de ensayo",
-    link: Carousel__pdfpath(`./${"15.pdf"}`),
+    link: Carousel__pdfpath(`./${"carousel/"}${"15.pdf"}`),
   },
 ];
