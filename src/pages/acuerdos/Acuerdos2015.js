@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import { dataAcuerdos2015 } from "../../assets/data/dataAcuerdosAnteriores";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
 import top2015 from "../../img/ac/2015.png";
 
 export default class Acuerdos2015 extends Component {
@@ -11,7 +13,7 @@ export default class Acuerdos2015 extends Component {
           alt="Acuerdos 2015"
           className="img-fluid w-100 mb-3"
         />
-        <table class="table table-hover table-responsive">
+        <table className="table table-hover table-responsive align-middle">
           <thead className="table-light">
             <tr>
               <th scope="col">#</th>
@@ -27,7 +29,16 @@ export default class Acuerdos2015 extends Component {
                   <th scope="row">{acuerdo.id}</th>
                   <td>{acuerdo.month}</td>
                   <td>{acuerdo.name}</td>
-                  <td>{acuerdo.link}</td>
+                  <td>
+                    <a
+                      className="btn btn-danger"
+                      href={acuerdo.link}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <FontAwesomeIcon icon={faFilePdf} />
+                    </a>
+                  </td>
                 </tr>
               );
             })}
