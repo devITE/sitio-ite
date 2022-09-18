@@ -15,6 +15,7 @@ import sep from "../../img/imgA_A/sep.png";
 import oct from "../../img/imgA_A/oct.png";
 import nov from "../../img/imgA_A/nov.png";
 import dic from "../../img/imgA_A/dic.png";
+import "./Acuerdos.css";
 
 export default class Acuerdos2016 extends Component {
   render() {
@@ -38,7 +39,7 @@ export default class Acuerdos2016 extends Component {
             </a>
           </div>
           <div>
-            <a href="#modalfeb" data-toggle="modal">
+            <a data-bs-toggle="modal" data-bs-target="#modalfeb">
               <img
                 src={feb}
                 alt="Acuerdos 2016 Febrero"
@@ -47,7 +48,7 @@ export default class Acuerdos2016 extends Component {
             </a>
           </div>
           <div>
-            <a href="#modalmar" data-toggle="modal">
+            <a data-bs-toggle="modal" data-bs-target="#modalmar">
               <img
                 src={mar}
                 alt="Acuerdos 2016 Marzo"
@@ -56,7 +57,7 @@ export default class Acuerdos2016 extends Component {
             </a>
           </div>
           <div>
-            <a href="#modalabr" data-toggle="modal">
+            <a data-bs-toggle="modal" data-bs-target="#modalabr">
               <img
                 src={abr}
                 alt="Acuerdos 2016 Abril"
@@ -65,7 +66,7 @@ export default class Acuerdos2016 extends Component {
             </a>
           </div>
           <div>
-            <a href="#modalmay" data-toggle="modal">
+            <a data-bs-toggle="modal" data-bs-target="#modalmay">
               <img
                 src={may}
                 alt="Acuerdos 2016 Mayo"
@@ -74,7 +75,7 @@ export default class Acuerdos2016 extends Component {
             </a>
           </div>
           <div>
-            <a href="#modaljun" data-toggle="modal">
+            <a data-bs-toggle="modal" data-bs-target="#modaljun">
               <img
                 src={jun}
                 alt="Acuerdos 2016 Junio"
@@ -83,7 +84,7 @@ export default class Acuerdos2016 extends Component {
             </a>
           </div>
           <div>
-            <a href="#modaljul" data-toggle="modal">
+            <a data-bs-toggle="modal" data-bs-target="#modaljul">
               <img
                 src={jul}
                 alt="Acuerdos 2016 Julio"
@@ -92,7 +93,7 @@ export default class Acuerdos2016 extends Component {
             </a>
           </div>
           <div>
-            <a href="#modalago" data-toggle="modal">
+            <a data-bs-toggle="modal" data-bs-target="#modalago">
               <img
                 src={ago}
                 alt="Acuerdos 2016 Agosto"
@@ -101,7 +102,7 @@ export default class Acuerdos2016 extends Component {
             </a>
           </div>
           <div>
-            <a href="#modalsep" data-toggle="modal">
+            <a data-bs-toggle="modal" data-bs-target="#modalsep">
               <img
                 src={sep}
                 alt="Acuerdos 2016 Septiembre"
@@ -110,7 +111,7 @@ export default class Acuerdos2016 extends Component {
             </a>
           </div>
           <div>
-            <a href="#modaloct" data-toggle="modal">
+            <a data-bs-toggle="modal" data-bs-target="#modaloct">
               <img
                 src={oct}
                 alt="Acuerdos 2016 Octubre"
@@ -119,7 +120,7 @@ export default class Acuerdos2016 extends Component {
             </a>
           </div>
           <div>
-            <a href="#modalnov" data-toggle="modal">
+            <a data-bs-toggle="modal" data-bs-target="#modalnov">
               <img
                 src={nov}
                 alt="Acuerdos 2016 Noviembre"
@@ -128,7 +129,7 @@ export default class Acuerdos2016 extends Component {
             </a>
           </div>
           <div>
-            <a href="#modaldic" data-toggle="modal">
+            <a href="#modal" data-toggle="modaldic">
               <img
                 src={dic}
                 alt="Acuerdos 2016 Diciembre"
@@ -140,20 +141,22 @@ export default class Acuerdos2016 extends Component {
         <div>
           {dataAcuerdos2016.map((acuerdo) => {
             return (
-              // <div key={acuerdo.id}>
-              //   {"modal" + acuerdo.month.toLowerCase().substring(0, 3)}
-              // </div>
               <div
                 key={acuerdo.id}
                 id={"modal" + acuerdo.month.toLowerCase().substring(0, 3)}
+                {...console.log(
+                  "modal" + acuerdo.month.toLowerCase().substring(0, 3)
+                )}
                 className="modal fade"
                 tabIndex="-1"
                 aria-hidden="true"
               >
                 <div className="modal-dialog">
                   <div className="modal-content">
-                    <div className="modal-header">
-                      <h5 className="modal-title">{acuerdo.month}</h5>
+                    <div className="modal-header Modal__header">
+                      <h5 className="modal-title">
+                        <strong>{acuerdo.month}</strong>
+                      </h5>
                       <button
                         type="button"
                         className="btn-close"
@@ -162,33 +165,30 @@ export default class Acuerdos2016 extends Component {
                       ></button>
                     </div>
                     <div className="modal-body">
-                      <table className="table table-hover table-responsive align-middle">
-                        <thead className="table-light">
-                          <tr>
-                            <th scope="col">#</th>
-                            <th scope="col">Mes</th>
-                            <th scope="col">Acuerdo</th>
-                            <th scope="col">File</th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <tr>
-                            <th scope="row">{acuerdo.id}</th>
-                            <td>{acuerdo.month}</td>
-                            <td>{acuerdo.name}</td>
-                            <td>
+                      <ol className="list-group list-group-numbered">
+                        {dataAcuerdos2016.map((acuerdo) => {
+                          return (
+                            <li
+                              key={acuerdo.id}
+                              className="list-group-item d-flex justify-content-between align-items-start"
+                            >
+                              <div className="ms-2 me-auto">
+                                <div className="fw-bold"> {acuerdo.name}</div>
+                              </div>
                               <a
-                                className="btn btn-danger"
                                 href={acuerdo.link}
                                 target="_blank"
                                 rel="noreferrer"
                               >
-                                <FontAwesomeIcon icon={faFilePdf} />
+                                <FontAwesomeIcon
+                                  icon={faFilePdf}
+                                  className="badge bg-danger rounded-pill ms-3"
+                                />
                               </a>
-                            </td>
-                          </tr>
-                        </tbody>
-                      </table>
+                            </li>
+                          );
+                        })}
+                      </ol>
                     </div>
                     <div className="modal-footer">
                       <button
@@ -196,7 +196,7 @@ export default class Acuerdos2016 extends Component {
                         className="btn btn-danger"
                         data-bs-dismiss="modal"
                       >
-                        Close
+                        Cerrar
                       </button>
                     </div>
                   </div>

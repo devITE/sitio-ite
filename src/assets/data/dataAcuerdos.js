@@ -84,6 +84,30 @@ export const dataAcuerdos2016 = [
     // link: Estrados__pdfpath(`./${"a2015/"}${"0.pdf"}`),
     link: "hola",
   },
+  {
+    id: 1,
+    year: "2016",
+    month: "Enero",
+    name: "CG 02-2016 9-ENERO-2016 ACUERDO INTEGRACIÓN DE JUNTA GENERAL EJECUTIVA",
+    // link: Estrados__pdfpath(`./${"a2015/"}${"0.pdf"}`),
+    link: "hola",
+  },
+  {
+    id: 3,
+    year: "2016",
+    month: "Febrero",
+    name: "CG 03-2016 9-FEBRERO-2016 ACUERDO INTEGRACIÓN DE JUNTA GENERAL EJECUTIVA",
+    // link: Estrados__pdfpath(`./${"a2015/"}${"0.pdf"}`),
+    link: "hola",
+  },
+  {
+    id: 4,
+    year: "2016",
+    month: "Febrero",
+    name: "CG 04-2016 9-FEBRERO-2016 ACUERDO INTEGRACIÓN DE JUNTA GENERAL EJECUTIVA",
+    // link: Estrados__pdfpath(`./${"a2015/"}${"0.pdf"}`),
+    link: "hola",
+  },
 ];
 
 export const dataAcuerdos2015 = [
