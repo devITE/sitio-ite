@@ -17,6 +17,7 @@ import nov from "../../img/imgA_A/nov.png";
 import dic from "../../img/imgA_A/dic.png";
 import "./Acuerdos.css";
 
+let mes = "";
 export default class Acuerdos2016 extends Component {
   render() {
     return (
@@ -144,9 +145,8 @@ export default class Acuerdos2016 extends Component {
               <div
                 key={acuerdo.id}
                 id={"modal" + acuerdo.month.toLowerCase().substring(0, 3)}
-                {...console.log(
-                  "modal" + acuerdo.month.toLowerCase().substring(0, 3)
-                )}
+                // {...console.log("aaaa:-", (mes = acuerdo.month))}
+                {...(mes = acuerdo.month)}
                 className="modal fade"
                 tabIndex="-1"
                 aria-hidden="true"
@@ -166,28 +166,26 @@ export default class Acuerdos2016 extends Component {
                     </div>
                     <div className="modal-body">
                       <ol className="list-group list-group-numbered">
-                        {dataAcuerdos2016.map((acuerdo) => {
-                          return (
-                            <li
-                              key={acuerdo.id}
-                              className="list-group-item d-flex justify-content-between align-items-start"
-                            >
-                              <div className="ms-2 me-auto">
-                                <div className="fw-bold"> {acuerdo.name}</div>
-                              </div>
-                              <a
-                                href={acuerdo.link}
-                                target="_blank"
-                                rel="noreferrer"
+                        {dataAcuerdos2016
+                          .filter((item) => item.month === mes)
+                          .map(({ id, name, link }) => {
+                            return (
+                              <li
+                                key={id}
+                                className="list-group-item d-flex justify-content-between align-items-start"
                               >
-                                <FontAwesomeIcon
-                                  icon={faFilePdf}
-                                  className="badge bg-danger rounded-pill ms-3"
-                                />
-                              </a>
-                            </li>
-                          );
-                        })}
+                                <div className="ms-2 me-auto">
+                                  <div className="fw-bold"> {name}</div>
+                                </div>
+                                <a href={link} target="_blank" rel="noreferrer">
+                                  <FontAwesomeIcon
+                                    icon={faFilePdf}
+                                    className="btn btn-danger ms-3"
+                                  />
+                                </a>
+                              </li>
+                            );
+                          })}
                       </ol>
                     </div>
                     <div className="modal-footer">

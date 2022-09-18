@@ -3,7 +3,6 @@
   color: #ffffff;
 }
 .AcuerdosAnteriores {
-  border: 2px solid orange;
   display: grid;
   gap: 20px;
 }
