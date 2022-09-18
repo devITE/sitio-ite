@@ -1,16 +1,16 @@
 import React, { Component } from "react";
-import { dataAcuerdos2020 } from "../../assets/data/dataAcuerdos";
+import { dataAcuerdos2023 } from "../../assets/data/dataAcuerdos";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
-import top2020 from "../../img/imgA_A/h_2020.png";
+import top2023 from "../../img/imgA_A/h_2023.png";
 
-export default class Acuerdos2020 extends Component {
+export default class Acuerdos2023 extends Component {
   render() {
     return (
       <div>
         <img
-          src={top2020}
-          alt="Acuerdos 2020"
+          src={top2023}
+          alt="Acuerdos 2023"
           className="img-fluid w-100 mb-3"
         />
         <table className="table table-hover table-responsive align-middle">
@@ -23,7 +23,7 @@ export default class Acuerdos2020 extends Component {
             </tr>
           </thead>
           <tbody>
-            {dataAcuerdos2020.map((acuerdo) => {
+            {dataAcuerdos2023.map((acuerdo) => {
               return (
                 <tr key={acuerdo.id}>
                   <th scope="row">{acuerdo.id}</th>
