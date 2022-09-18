@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { dataAcuerdos1998 } from "../../assets/data/dataAcuerdos";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
-import top1998 from "../../img/imgA_A/h_1998.png";
+import top1998 from "../../img/imgA/h_1998.png";
 
 export default class Acuerdos1998 extends Component {
   render() {
