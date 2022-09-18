@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 
-import "./Acuerdos.css";
+import "../Acuerdos.css";
 
-const Acuerdos__imgpath = require.context("../../img/imgA/");
+const Acuerdos__imgpath = require.context("../../../img/imgA/");
 
 export default class AcuerdosINE extends Component {
   render() {
@@ -16,7 +16,7 @@ export default class AcuerdosINE extends Component {
         />
         <div className="w-100 mt-5 AcuerdosAnteriores">
           <div>
-            <Link to="../../Acuerdos2015">
+            <Link to="../../AcuerdosINE2015">
               <img
                 className="img-fluid AcuerdosAnteriores_link"
                 src={Acuerdos__imgpath(`./2015.png`)}
@@ -25,7 +25,7 @@ export default class AcuerdosINE extends Component {
             </Link>
           </div>
           <div>
-            <Link to="../../Acuerdos2013" className="nav-link disabled">
+            <Link to="../../AcuerdosINE2016" className="nav-link">
               <img
                 className="img-fluid AcuerdosAnteriores_link"
                 src={Acuerdos__imgpath(`./2016.png`)}
@@ -34,7 +34,7 @@ export default class AcuerdosINE extends Component {
             </Link>
           </div>
           <div>
-            <Link to="../../Acuerdos2012" className="nav-link">
+            <Link to="../../AcuerdosINE2020" className="nav-link">
               <img
                 className="img-fluid AcuerdosAnteriores_link"
                 src={Acuerdos__imgpath(`./2020.png`)}
@@ -43,7 +43,7 @@ export default class AcuerdosINE extends Component {
             </Link>
           </div>
           <div>
-            <Link to="../../Acuerdos2011" className="nav-link disabled">
+            <Link to="../../AcuerdosINE2021" className="nav-link">
               <img
                 className="img-fluid AcuerdosAnteriores_link"
                 src={Acuerdos__imgpath(`./2021.png`)}
@@ -52,7 +52,7 @@ export default class AcuerdosINE extends Component {
             </Link>
           </div>
           <div>
-            <Link to="../../Acuerdos2010" className="nav-link disabled">
+            <Link to="../../AcuerdosINE2022" className="nav-link">
               <img
                 className="img-fluid AcuerdosAnteriores_link"
                 src={Acuerdos__imgpath(`./2022.png`)}
@@ -61,7 +61,7 @@ export default class AcuerdosINE extends Component {
             </Link>
           </div>
           <div>
-            <Link to="../../Acuerdos2010" className="nav-link disabled">
+            <Link to="../../AcuerdosINE2023" className="nav-link">
               <img
                 className="img-fluid AcuerdosAnteriores_link"
                 src={Acuerdos__imgpath(`./2023.png`)}
