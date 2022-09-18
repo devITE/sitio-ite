@@ -12,7 +12,14 @@ a {
   cursor: pointer;
 }
 
-
+.bottom_title {
+  margin: 10px 0 15px 0 !important;
+  font-family: "Segoe UI Light";
+  border-bottom-width: 2px;
+  border-bottom-style: dashed;
+  border-bottom-color: #ba1678;
+  border-top: none;
+}
 /* .App__total-app {
   min-height: 100vh;
   position: relative;
@@ -26,8 +33,7 @@ a {
 .App__container {
   margin: auto;
   text-align: justify;
-  font-family: 'Segoe UI Light' !important;
-
+  font-family: "Segoe UI Light" !important;
 }
 
 .carousel-control-prev-icon {
@@ -47,7 +53,6 @@ a {
   width: 40px !important;
   margin-right: 5px !important;
   margin-left: 5px !important;
-
 }
 
 /* --------------- M E D I A     Q U E R I E S --------------- */
