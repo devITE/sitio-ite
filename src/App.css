@@ -20,6 +20,7 @@ a {
   border-bottom-color: #ba1678;
   border-top: none;
 }
+
 /* .App__total-app {
   min-height: 100vh;
   position: relative;
@@ -93,6 +94,7 @@ a {
     border: 1px solid orange;
     width: 90%;
     padding-bottom: 130px;
+    margin-bottom: 20px;
   }
 
   #carouselTopIndex {

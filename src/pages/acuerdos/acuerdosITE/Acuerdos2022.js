@@ -1,146 +1,136 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { Component } from "react";
-import { dataAcuerdos2016 } from "../../assets/data/dataAcuerdos";
+import { dataAcuerdos2022 } from "../../../assets/data/dataAcuerdos";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
-import top2016 from "../../img/imgA/h_2016.png";
-import ene from "../../img/imgA/ene.png";
-import feb from "../../img/imgA/feb.png";
-import mar from "../../img/imgA/mar.png";
-import abr from "../../img/imgA/abr.png";
-import may from "../../img/imgA/may.png";
-import jun from "../../img/imgA/jun.png";
-import jul from "../../img/imgA/jul.png";
-import ago from "../../img/imgA/ago.png";
-import sep from "../../img/imgA/sep.png";
-import oct from "../../img/imgA/oct.png";
-import nov from "../../img/imgA/nov.png";
-import dic from "../../img/imgA/dic.png";
-import "./Acuerdos.css";
+import "../Acuerdos.css";
+
+const Acuerdos__imgpath = require.context("../../../img/imgA");
 
 let mes = "";
-export default class Acuerdos2016 extends Component {
+export default class Acuerdos2022 extends Component {
   render() {
     return (
       <div>
         <div className="bottom_title">
           <img
-            src={top2016}
-            alt="Acuerdos 2016"
+            src={Acuerdos__imgpath(`./h_2022.png`)}
+            alt="Acuerdos 2022"
             className="img-fluid w-100 mb-3"
           />
         </div>
-        <div className="w-100 AcuerdosAnteriores">
+        <div className="w-100 AcuerdosITE">
           <div>
             <a data-bs-toggle="modal" data-bs-target="#modalene">
               <img
-                src={ene}
-                alt="Acuerdos 2016 Enero"
-                className="img-fluid AcuerdosAnteriores_link"
+                src={Acuerdos__imgpath(`./ene.png`)}
+                alt="Acuerdos 2022 Enero"
+                className="img-fluid AcuerdosITE_link"
               />
             </a>
           </div>
           <div>
             <a data-bs-toggle="modal" data-bs-target="#modalfeb">
               <img
-                src={feb}
-                alt="Acuerdos 2016 Febrero"
-                className="img-fluid AcuerdosAnteriores_link"
+                src={Acuerdos__imgpath(`./feb.png`)}
+                alt="Acuerdos 2022 Febrero"
+                className="img-fluid AcuerdosITE_link"
               />
             </a>
           </div>
           <div>
             <a data-bs-toggle="modal" data-bs-target="#modalmar">
               <img
-                src={mar}
-                alt="Acuerdos 2016 Marzo"
-                className="img-fluid AcuerdosAnteriores_link"
+                src={Acuerdos__imgpath(`./mar.png`)}
+                alt="Acuerdos 2022 Marzo"
+                className="img-fluid AcuerdosITE_link"
               />
             </a>
           </div>
           <div>
             <a data-bs-toggle="modal" data-bs-target="#modalabr">
               <img
-                src={abr}
-                alt="Acuerdos 2016 Abril"
-                className="img-fluid AcuerdosAnteriores_link"
+                src={Acuerdos__imgpath(`./abr.png`)}
+                alt="Acuerdos 2022 Abril"
+                className="img-fluid AcuerdosITE_link"
               />
             </a>
           </div>
           <div>
             <a data-bs-toggle="modal" data-bs-target="#modalmay">
               <img
-                src={may}
-                alt="Acuerdos 2016 Mayo"
-                className="img-fluid AcuerdosAnteriores_link"
+                src={Acuerdos__imgpath(`./may.png`)}
+                alt="Acuerdos 2022 Mayo"
+                className="img-fluid AcuerdosITE_link"
               />
             </a>
           </div>
           <div>
             <a data-bs-toggle="modal" data-bs-target="#modaljun">
               <img
-                src={jun}
-                alt="Acuerdos 2016 Junio"
-                className="img-fluid AcuerdosAnteriores_link"
+                src={Acuerdos__imgpath(`./jun.png`)}
+                alt="Acuerdos 2022 Junio"
+                className="img-fluid AcuerdosITE_link"
               />
             </a>
           </div>
           <div>
             <a data-bs-toggle="modal" data-bs-target="#modaljul">
               <img
-                src={jul}
-                alt="Acuerdos 2016 Julio"
-                className="img-fluid AcuerdosAnteriores_link"
+                src={Acuerdos__imgpath(`./jul.png`)}
+                alt="Acuerdos 2022 Julio"
+                className="img-fluid AcuerdosITE_link"
               />
             </a>
           </div>
           <div>
             <a data-bs-toggle="modal" data-bs-target="#modalago">
               <img
-                src={ago}
-                alt="Acuerdos 2016 Agosto"
-                className="img-fluid AcuerdosAnteriores_link"
+                src={Acuerdos__imgpath(`./ago.png`)}
+                alt="Acuerdos 2022 Agosto"
+                className="img-fluid AcuerdosITE_link"
               />
             </a>
           </div>
           <div>
             <a data-bs-toggle="modal" data-bs-target="#modalsep">
               <img
-                src={sep}
-                alt="Acuerdos 2016 Septiembre"
-                className="img-fluid AcuerdosAnteriores_link"
+                src={Acuerdos__imgpath(`./sep.png`)}
+                alt="Acuerdos 2022 Septiembre"
+                className="img-fluid AcuerdosITE_link"
               />
             </a>
           </div>
           <div>
             <a data-bs-toggle="modal" data-bs-target="#modaloct">
               <img
-                src={oct}
-                alt="Acuerdos 2016 Octubre"
-                className="img-fluid AcuerdosAnteriores_link"
+                src={Acuerdos__imgpath(`./oct.png`)}
+                alt="Acuerdos 2022 Octubre"
+                className="img-fluid AcuerdosITE_link"
               />
             </a>
           </div>
           <div>
             <a data-bs-toggle="modal" data-bs-target="#modalnov">
               <img
-                src={nov}
-                alt="Acuerdos 2016 Noviembre"
-                className="img-fluid AcuerdosAnteriores_link"
+                src={Acuerdos__imgpath(`./nov.png`)}
+                alt="Acuerdos 2022 Noviembre"
+                className="img-fluid AcuerdosITE_link"
               />
             </a>
           </div>
           <div>
             <a href="#modal" data-toggle="modaldic">
               <img
-                src={dic}
-                alt="Acuerdos 2016 Diciembre"
-                className="img-fluid AcuerdosAnteriores_link"
+                src={Acuerdos__imgpath(`./dic.png`)}
+                alt="Acuerdos 2022 Diciembre"
+                className="img-fluid AcuerdosITE_link"
               />
             </a>
           </div>
         </div>
         <div>
-          {dataAcuerdos2016.map((acuerdo) => {
+          {dataAcuerdos2022.map((acuerdo) => {
             return (
               <div
                 key={acuerdo.id}
@@ -166,7 +156,7 @@ export default class Acuerdos2016 extends Component {
                     </div>
                     <div className="modal-body">
                       <ol className="list-group list-group-numbered">
-                        {dataAcuerdos2016
+                        {dataAcuerdos2022
                           .filter((item) => item.month === mes)
                           .map(({ id, name, link }) => {
                             return (

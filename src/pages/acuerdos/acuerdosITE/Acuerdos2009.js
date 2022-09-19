@@ -1,16 +1,16 @@
 import React, { Component } from "react";
-import { dataAcuerdos2008 } from "../../assets/data/dataAcuerdos";
+import { dataAcuerdos2009 } from "../../../assets/data/dataAcuerdos";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
-import top2008 from "../../img/imgA/h_2008.png";
+import top2009 from "../../../img/imgA/h_2009.png";
 
-export default class Acuerdos2008 extends Component {
+export default class Acuerdos2009 extends Component {
   render() {
     return (
       <div>
         <img
-          src={top2008}
-          alt="Acuerdos 2008"
+          src={top2009}
+          alt="Acuerdos 2009"
           className="img-fluid w-100 mb-3"
         />
         <table className="table table-hover table-responsive align-middle">
@@ -23,7 +23,7 @@ export default class Acuerdos2008 extends Component {
             </tr>
           </thead>
           <tbody>
-            {dataAcuerdos2008.map((acuerdo) => {
+            {dataAcuerdos2009.map((acuerdo) => {
               return (
                 <tr key={acuerdo.id}>
                   <th scope="row">{acuerdo.id}</th>

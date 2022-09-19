@@ -1,21 +1,11 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { Component } from "react";
-import { dataAcuerdos2018 } from "../../assets/data/dataAcuerdos";
+import { dataAcuerdos2018 } from "../../../assets/data/dataAcuerdos";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
-import top2018 from "../../img/imgA/h_2018.png";
-import ene from "../../img/imgA/ene.png";
-import feb from "../../img/imgA/feb.png";
-import mar from "../../img/imgA/mar.png";
-import abr from "../../img/imgA/abr.png";
-import may from "../../img/imgA/may.png";
-import jun from "../../img/imgA/jun.png";
-import jul from "../../img/imgA/jul.png";
-import ago from "../../img/imgA/ago.png";
-import sep from "../../img/imgA/sep.png";
-import oct from "../../img/imgA/oct.png";
-import nov from "../../img/imgA/nov.png";
-import dic from "../../img/imgA/dic.png";
-import "./Acuerdos.css";
+import "../Acuerdos.css";
+
+const Acuerdos__imgpath = require.context("../../../img/imgA");
 
 let mes = "";
 export default class Acuerdos2018 extends Component {
@@ -24,117 +14,117 @@ export default class Acuerdos2018 extends Component {
       <div>
         <div className="bottom_title">
           <img
-            src={top2018}
+            src={Acuerdos__imgpath(`./h_2018.png`)}
             alt="Acuerdos 2018"
             className="img-fluid w-100 mb-3"
           />
         </div>
-        <div className="w-100 AcuerdosAnteriores">
+        <div className="w-100 AcuerdosITE">
           <div>
             <a data-bs-toggle="modal" data-bs-target="#modalene">
               <img
-                src={ene}
+                src={Acuerdos__imgpath(`./ene.png`)}
                 alt="Acuerdos 2018 Enero"
-                className="img-fluid AcuerdosAnteriores_link"
+                className="img-fluid AcuerdosITE_link"
               />
             </a>
           </div>
           <div>
             <a data-bs-toggle="modal" data-bs-target="#modalfeb">
               <img
-                src={feb}
+                src={Acuerdos__imgpath(`./feb.png`)}
                 alt="Acuerdos 2018 Febrero"
-                className="img-fluid AcuerdosAnteriores_link"
+                className="img-fluid AcuerdosITE_link"
               />
             </a>
           </div>
           <div>
             <a data-bs-toggle="modal" data-bs-target="#modalmar">
               <img
-                src={mar}
+                src={Acuerdos__imgpath(`./mar.png`)}
                 alt="Acuerdos 2018 Marzo"
-                className="img-fluid AcuerdosAnteriores_link"
+                className="img-fluid AcuerdosITE_link"
               />
             </a>
           </div>
           <div>
             <a data-bs-toggle="modal" data-bs-target="#modalabr">
               <img
-                src={abr}
+                src={Acuerdos__imgpath(`./abr.png`)}
                 alt="Acuerdos 2018 Abril"
-                className="img-fluid AcuerdosAnteriores_link"
+                className="img-fluid AcuerdosITE_link"
               />
             </a>
           </div>
           <div>
             <a data-bs-toggle="modal" data-bs-target="#modalmay">
               <img
-                src={may}
+                src={Acuerdos__imgpath(`./may.png`)}
                 alt="Acuerdos 2018 Mayo"
-                className="img-fluid AcuerdosAnteriores_link"
+                className="img-fluid AcuerdosITE_link"
               />
             </a>
           </div>
           <div>
             <a data-bs-toggle="modal" data-bs-target="#modaljun">
               <img
-                src={jun}
+                src={Acuerdos__imgpath(`./jun.png`)}
                 alt="Acuerdos 2018 Junio"
-                className="img-fluid AcuerdosAnteriores_link"
+                className="img-fluid AcuerdosITE_link"
               />
             </a>
           </div>
           <div>
             <a data-bs-toggle="modal" data-bs-target="#modaljul">
               <img
-                src={jul}
+                src={Acuerdos__imgpath(`./jul.png`)}
                 alt="Acuerdos 2018 Julio"
-                className="img-fluid AcuerdosAnteriores_link"
+                className="img-fluid AcuerdosITE_link"
               />
             </a>
           </div>
           <div>
             <a data-bs-toggle="modal" data-bs-target="#modalago">
               <img
-                src={ago}
+                src={Acuerdos__imgpath(`./ago.png`)}
                 alt="Acuerdos 2018 Agosto"
-                className="img-fluid AcuerdosAnteriores_link"
+                className="img-fluid AcuerdosITE_link"
               />
             </a>
           </div>
           <div>
             <a data-bs-toggle="modal" data-bs-target="#modalsep">
               <img
-                src={sep}
+                src={Acuerdos__imgpath(`./sep.png`)}
                 alt="Acuerdos 2018 Septiembre"
-                className="img-fluid AcuerdosAnteriores_link"
+                className="img-fluid AcuerdosITE_link"
               />
             </a>
           </div>
           <div>
             <a data-bs-toggle="modal" data-bs-target="#modaloct">
               <img
-                src={oct}
+                src={Acuerdos__imgpath(`./oct.png`)}
                 alt="Acuerdos 2018 Octubre"
-                className="img-fluid AcuerdosAnteriores_link"
+                className="img-fluid AcuerdosITE_link"
               />
             </a>
           </div>
           <div>
             <a data-bs-toggle="modal" data-bs-target="#modalnov">
               <img
-                src={nov}
+                src={Acuerdos__imgpath(`./nov.png`)}
                 alt="Acuerdos 2018 Noviembre"
-                className="img-fluid AcuerdosAnteriores_link"
+                className="img-fluid AcuerdosITE_link"
               />
             </a>
           </div>
           <div>
             <a href="#modal" data-toggle="modaldic">
               <img
-                src={dic}
+                src={Acuerdos__imgpath(`./dic.png`)}
                 alt="Acuerdos 2018 Diciembre"
-                className="img-fluid AcuerdosAnteriores_link"
+                className="img-fluid AcuerdosITE_link"
               />
             </a>
           </div>
