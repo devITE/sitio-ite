@@ -33,12 +33,13 @@
 }
 
 
-/* media screen */
-@media screen and (max-width: 767px) {
+/* --------------- M E D I A     Q U E R I E S --------------- */
+
+/* mobil */
+@media only screen and (max-width: 767px) {
     .Navbar__logoITE {
         display: inline;
         width: 7rem;
-        /* margin-bottom: 10px; */
     }
 
     .nav-link {

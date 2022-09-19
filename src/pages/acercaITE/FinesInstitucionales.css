@@ -16,9 +16,35 @@ color: black;
     margin-left: 35px;
   }
   .row{
-    /* display: webkit-box; */
     display: flex;
     margin-right: -15px;
     margin-left: -12px;
     flex-wrap: wrap;
   }
+
+  .contenedor{
+    margin-left: 8rem;
+    padding-left:2rem;
+  }
+  .contenedor-info{
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    border-left: 1.3rem;
+    border-style:solid;
+    border-left-color: #AA0787;
+    margin-top: 10px;
+    padding: 1rem 8rem 1rem 1rem;
+    /* padding-right:8rem; */
+    text-align: justify;
+    
+  }
+.text-apartados{
+  padding-left:0rem; 
+  font-weight:800;
+}
+.contenido
+{
+  padding-left:2rem;
+  padding-right:2rem;
+}
