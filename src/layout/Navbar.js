@@ -119,11 +119,11 @@ export default class Navbar extends Component {
                       Acuerdos INE
                     </Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link to="./Acuerdos2015" className="dropdown-item">
                       2015
                     </Link>
-                  </li>
+                  </li> */}
                   <li>
                     <Link to="./Acuerdos2016" className="dropdown-item">
                       2016

@@ -28,7 +28,7 @@ export default class Home extends Component {
         <Carousel slides={imgCarouselIndexTop} slidesID={"carouselTopIndex"} />
         <div className="mt-4 Home__AR-A">
           <div>
-            <h2 className="Home__title">Foro</h2>
+            <h2 className="bottom_title">Foro</h2>
             <div className="Home__video-embed ratio ratio-16x9 w-100">
               <iframe
                 id="video1"
@@ -39,7 +39,7 @@ export default class Home extends Component {
             </div>
           </div>
           <div>
-            <h2 className="Home__title">Enlaces</h2>
+            <h2 className="bottom_title">Enlaces</h2>
             <div className="">
               <Enlaces></Enlaces>
             </div>
@@ -47,7 +47,7 @@ export default class Home extends Component {
         </div>
         <div className="mt-4 Home__AR-A">
           <div>
-            <h2 className="Home__title">Actividades Recientes</h2>
+            <h2 className="bottom_title">Actividades Recientes</h2>
             <div className="ps-5 pe-5">
               <Carousel
                 slides={imgCarouselActividadesRecientes}
@@ -56,7 +56,7 @@ export default class Home extends Component {
             </div>
           </div>
           <div>
-            <h2 className="Home__title">Agenda</h2>
+            <h2 className="bottom_title">Agenda</h2>
             <div className="ps-5 pe-5">
               <Carousel
                 slides={imgCarouselAgenda}
@@ -65,11 +65,11 @@ export default class Home extends Component {
             </div>
           </div>
         </div>
-        <h2 className="mt-4 Home__title">Informes</h2>
+        <h2 className="mt-4 bottom_title">Informes</h2>
         <Informes items={dataInformes} itemsID={"itemsInformes"} />
         <div className="Home__EspITEVidPod mt-4 w-100">
           <div>
-            <h2 className="Home__title">Espacio ITE</h2>
+            <h2 className="bottom_title">Espacio ITE</h2>
             <a
               href={EspacioITE_path(`./${"0.pdf"}`)}
               target="_blank"
@@ -83,7 +83,7 @@ export default class Home extends Component {
             </a>
           </div>
           <div>
-            <h2 className="Home__title">Video Podcast</h2>
+            <h2 className="bottom_title">Video Podcast</h2>
             <div className="Home__video-embed ratio ratio-16x9 w-100">
               <iframe
                 src="https://www.youtube.com/embed/6zXSa7oqrqM?rel=0"
@@ -95,7 +95,7 @@ export default class Home extends Component {
         </div>
         <div className="Home__boxesTriple mt-4">
           <div>
-            <h2 className="Home__title">Estrados Electrónicos</h2>
+            <h2 className="bottom_title">Estrados Electrónicos</h2>
             <div className="">
               <Estrados
                 items={dataEstrados}
@@ -104,7 +104,7 @@ export default class Home extends Component {
             </div>
           </div>
           <div>
-            <h2 className="Home__title">Sesión en Vivo</h2>
+            <h2 className="bottom_title">Sesión en Vivo</h2>
             <div className="Home__video-embed ratio ratio-16x9 w-100">
               <iframe
                 src="https://www.youtube.com/embed/1PRYCbDhkoQ?rel=0"
@@ -114,7 +114,7 @@ export default class Home extends Component {
             </div>
           </div>
           <div>
-            <h2 className="Home__title">Convocatoria</h2>
+            <h2 className="bottom_title">Convocatoria</h2>
             <div className="ps-2 pe-2">
               <Carousel
                 slides={imgCarouselConvocatorias}
@@ -167,7 +167,7 @@ export default class Home extends Component {
             alt="RNPS"
           />
         </a>
-        <h3 className="mt-4 Home__title">Videos</h3>
+        <h3 className="mt-4 bottom_title">Videos</h3>
         <Videoteca items={dataVideoteca} itemsID={"videoteca"} />
 
         <div className="Home__pages">

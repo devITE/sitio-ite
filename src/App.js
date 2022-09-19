@@ -20,17 +20,41 @@ import Comisiones from "./pages/consejoGeneral/Comisiones";
 import JGE from "./pages/consejoGeneral/JGE";
 import Estructura from "./pages/consejoGeneral/Estructura";
 
-//Acuerdos
+//Acuerdos INE
+import AcuerdosINE from "./pages/acuerdos/acuerdosINE/AcuerdosINE";
+import AcuerdosINE2015 from "./pages/acuerdos/acuerdosINE/AcuerdosINE2015";
+import AcuerdosINE2016 from "./pages/acuerdos/acuerdosINE/AcuerdosINE2016";
+import AcuerdosINE2020 from "./pages/acuerdos/acuerdosINE/AcuerdosINE2020";
+import AcuerdosINE2021 from "./pages/acuerdos/acuerdosINE/AcuerdosINE2021";
+import AcuerdosINE2022 from "./pages/acuerdos/acuerdosINE/AcuerdosINE2022";
+import AcuerdosINE2023 from "./pages/acuerdos/acuerdosINE/AcuerdosINE2023";
+
+//Acuerdos ITE
 import AcuerdosAnteriores from "./pages/acuerdos/AcuerdosAnteriores";
-import AcuerdosINE from "./pages/acuerdos/AcuerdosINE";
-import Acuerdos2015 from "./pages/acuerdos/Acuerdos2015";
-import Acuerdos2016 from "./pages/acuerdos/Acuerdos2016";
-import Acuerdos2017 from "./pages/acuerdos/Acuerdos2017";
-import Acuerdos2018 from "./pages/acuerdos/Acuerdos2018";
-import Acuerdos2019 from "./pages/acuerdos/Acuerdos2019";
-import Acuerdos2020 from "./pages/acuerdos/Acuerdos2020";
-import Acuerdos2021 from "./pages/acuerdos/Acuerdos2021";
-import Acuerdos2022 from "./pages/acuerdos/Acuerdos2022";
+import Acuerdos1998 from "./pages/acuerdos/acuerdosITE/Acuerdos1998";
+import Acuerdos2001 from "./pages/acuerdos/acuerdosITE/Acuerdos2001";
+import Acuerdos2002 from "./pages/acuerdos/acuerdosITE/Acuerdos2002";
+import Acuerdos2003 from "./pages/acuerdos/acuerdosITE/Acuerdos2003";
+import Acuerdos2004 from "./pages/acuerdos/acuerdosITE/Acuerdos2004";
+import Acuerdos2005 from "./pages/acuerdos/acuerdosITE/Acuerdos2005";
+import Acuerdos2006 from "./pages/acuerdos/acuerdosITE/Acuerdos2006";
+import Acuerdos2007 from "./pages/acuerdos/acuerdosITE/Acuerdos2007";
+import Acuerdos2008 from "./pages/acuerdos/acuerdosITE/Acuerdos2008";
+import Acuerdos2009 from "./pages/acuerdos/acuerdosITE/Acuerdos2009";
+import Acuerdos2010 from "./pages/acuerdos/acuerdosITE/Acuerdos2010";
+import Acuerdos2011 from "./pages/acuerdos/acuerdosITE/Acuerdos2011";
+import Acuerdos2012 from "./pages/acuerdos/acuerdosITE/Acuerdos2012";
+import Acuerdos2013 from "./pages/acuerdos/acuerdosITE/Acuerdos2013";
+import Acuerdos2014 from "./pages/acuerdos/acuerdosITE/Acuerdos2014";
+import Acuerdos2015 from "./pages/acuerdos/acuerdosITE/Acuerdos2015";
+import Acuerdos2016 from "./pages/acuerdos/acuerdosITE/Acuerdos2016";
+import Acuerdos2017 from "./pages/acuerdos/acuerdosITE/Acuerdos2017";
+import Acuerdos2018 from "./pages/acuerdos/acuerdosITE/Acuerdos2018";
+import Acuerdos2019 from "./pages/acuerdos/acuerdosITE/Acuerdos2019";
+import Acuerdos2020 from "./pages/acuerdos/acuerdosITE/Acuerdos2020";
+import Acuerdos2021 from "./pages/acuerdos/acuerdosITE/Acuerdos2021";
+import Acuerdos2022 from "./pages/acuerdos/acuerdosITE/Acuerdos2022";
+import Acuerdos2023 from "./pages/acuerdos/acuerdosITE/Acuerdos2023";
 
 //Demarcaciones
 import Acuerdos from "./pages/demarcaciones/Acuerdos";
@@ -72,6 +96,21 @@ function App() {
           {/* Acuerdos */}
           <Route path="/AcuerdosAnteriores" element={<AcuerdosAnteriores />} />
           <Route path="/AcuerdosINE" element={<AcuerdosINE />} />
+          <Route path="/Acuerdos1998" element={<Acuerdos1998 />} />
+          <Route path="/Acuerdos2001" element={<Acuerdos2001 />} />
+          <Route path="/Acuerdos2002" element={<Acuerdos2002 />} />
+          <Route path="/Acuerdos2003" element={<Acuerdos2003 />} />
+          <Route path="/Acuerdos2004" element={<Acuerdos2004 />} />
+          <Route path="/Acuerdos2005" element={<Acuerdos2005 />} />
+          <Route path="/Acuerdos2006" element={<Acuerdos2006 />} />
+          <Route path="/Acuerdos2007" element={<Acuerdos2007 />} />
+          <Route path="/Acuerdos2008" element={<Acuerdos2008 />} />
+          <Route path="/Acuerdos2009" element={<Acuerdos2009 />} />
+          <Route path="/Acuerdos2010" element={<Acuerdos2010 />} />
+          <Route path="/Acuerdos2011" element={<Acuerdos2011 />} />
+          <Route path="/Acuerdos2012" element={<Acuerdos2012 />} />
+          <Route path="/Acuerdos2013" element={<Acuerdos2013 />} />
+          <Route path="/Acuerdos2014" element={<Acuerdos2014 />} />
           <Route path="/Acuerdos2015" element={<Acuerdos2015 />} />
           <Route path="/Acuerdos2016" element={<Acuerdos2016 />} />
           <Route path="/Acuerdos2017" element={<Acuerdos2017 />} />
@@ -80,6 +119,15 @@ function App() {
           <Route path="/Acuerdos2020" element={<Acuerdos2020 />} />
           <Route path="/Acuerdos2021" element={<Acuerdos2021 />} />
           <Route path="/Acuerdos2022" element={<Acuerdos2022 />} />
+          <Route path="/Acuerdos2023" element={<Acuerdos2023 />} />
+
+          {/* Acuerdos INE */}
+          <Route path="/AcuerdosINE2015" element={<AcuerdosINE2015 />} />
+          <Route path="/AcuerdosINE2016" element={<AcuerdosINE2016 />} />
+          <Route path="/AcuerdosINE2020" element={<AcuerdosINE2020 />} />
+          <Route path="/AcuerdosINE2021" element={<AcuerdosINE2021 />} />
+          <Route path="/AcuerdosINE2022" element={<AcuerdosINE2022 />} />
+          <Route path="/AcuerdosINE2023" element={<AcuerdosINE2023 />} />
 
           {/* Demarcaciones */}
           <Route path="/Acuerdos" element={<Acuerdos />} />
