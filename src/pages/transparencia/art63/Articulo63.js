@@ -23,40 +23,22 @@ export default class Articulo63 extends Component {
           Instituto Tlaxcalteca de Elecciones.
         </h5>
         <div class="list-group text-center Transparencia__articulo-p-year">
-          <Link
-            to="/Articulo63_2017"
-            class="list-group-item list-group-item-action"
-          >
+          <Link to="/Art632017" class="list-group-item list-group-item-action">
             Artículo 63 (2017)
           </Link>
-          <Link
-            to="/Articulo63_2018"
-            class="list-group-item list-group-item-action"
-          >
+          <Link to="/Art632018" class="list-group-item list-group-item-action">
             Artículo 63 (2018)
           </Link>
-          <Link
-            to="/Articulo63_2019"
-            class="list-group-item list-group-item-action"
-          >
+          <Link to="/Art632019" class="list-group-item list-group-item-action">
             Artículo 63 (2019)
           </Link>
-          <Link
-            to="/Articulo63_2020"
-            class="list-group-item list-group-item-action"
-          >
+          <Link to="/Art632020" class="list-group-item list-group-item-action">
             Artículo 63 (2020)
           </Link>
-          <Link
-            to="/Articulo63_2021"
-            class="list-group-item list-group-item-action"
-          >
+          <Link to="/Art632021" class="list-group-item list-group-item-action">
             Artículo 63 (2021)
           </Link>
-          <Link
-            to="/Articulo63_2022"
-            class="list-group-item list-group-item-action"
-          >
+          <Link to="/Art632022" class="list-group-item list-group-item-action">
             Artículo 63 (2022)
           </Link>
         </div>
