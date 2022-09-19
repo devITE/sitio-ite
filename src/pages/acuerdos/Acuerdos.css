@@ -12,12 +12,22 @@
   transition: 0.2s;
 }
 
+.AcuerdosINE {
+  display: grid;
+  gap: 20px;
+  text-align: center;
+  color: #972069;
+}
+
 /* --------------- M E D I A     Q U E R I E S --------------- */
 
 /* general */
 @media only screen and (min-width: 1024px) {
   .AcuerdosAnteriores {
     grid-template-columns: auto auto auto auto auto auto;
+  }
+  .AcuerdosINE {
+    grid-template-columns: auto auto auto auto;
   }
 }
 
@@ -26,11 +36,17 @@
   .AcuerdosAnteriores {
     grid-template-columns: auto auto auto auto;
   }
+  .AcuerdosINE {
+    grid-template-columns: auto auto auto auto;
+  }
 }
 
 /* mobil */
 @media only screen and (max-width: 767px) {
   .AcuerdosAnteriores {
+    grid-template-columns: auto auto;
+  }
+  .AcuerdosINE {
     grid-template-columns: auto auto;
   }
 }

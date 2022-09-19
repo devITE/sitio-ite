@@ -20,8 +20,7 @@ import Comisiones from "./pages/consejoGeneral/Comisiones";
 import JGE from "./pages/consejoGeneral/JGE";
 import Estructura from "./pages/consejoGeneral/Estructura";
 
-//Acuerdos
-import AcuerdosAnteriores from "./pages/acuerdos/AcuerdosAnteriores";
+//Acuerdos INE
 import AcuerdosINE from "./pages/acuerdos/acuerdosINE/AcuerdosINE";
 import AcuerdosINE2015 from "./pages/acuerdos/acuerdosINE/AcuerdosINE2015";
 import AcuerdosINE2016 from "./pages/acuerdos/acuerdosINE/AcuerdosINE2016";
@@ -30,6 +29,8 @@ import AcuerdosINE2021 from "./pages/acuerdos/acuerdosINE/AcuerdosINE2021";
 import AcuerdosINE2022 from "./pages/acuerdos/acuerdosINE/AcuerdosINE2022";
 import AcuerdosINE2023 from "./pages/acuerdos/acuerdosINE/AcuerdosINE2023";
 
+//Acuerdos ITE
+import AcuerdosAnteriores from "./pages/acuerdos/AcuerdosAnteriores";
 import Acuerdos1998 from "./pages/acuerdos/Acuerdos1998";
 import Acuerdos2001 from "./pages/acuerdos/Acuerdos2001";
 import Acuerdos2002 from "./pages/acuerdos/Acuerdos2002";
