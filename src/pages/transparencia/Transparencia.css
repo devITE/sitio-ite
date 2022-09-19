@@ -15,6 +15,19 @@
     transform: scale(1.2);
 }
 
+.Transparencia__header-title {
+    background-color: #aa0787;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 20px;
+}
+
+.Transparencia__title {
+    color: #ba1678;
+    font-weight: bolder;
+}
+
 /* --------------- M E D I A     Q U E R I E S --------------- */
 
 /* general */
@@ -38,6 +51,11 @@
 
     .Transparencia__contenido img {
         width: 62px !important;
+    }
+
+    .Transparencia__articulo-p-year {
+        width: 50%;
+        margin: auto;
     }
 }
 
@@ -64,6 +82,11 @@
         grid-template-columns: auto auto auto;
         gap: 30px;
     }
+
+    .Transparencia__articulo-p-year {
+        width: 50%;
+        margin: auto;
+    }
 }
 
 /* mobil */
@@ -81,5 +104,10 @@
 
     .Transparencia__contenido img {
         width: 42px !important;
+    }
+
+    .Transparencia__articulo-p-year {
+        width: 90%;
+        margin: auto;
     }
 }

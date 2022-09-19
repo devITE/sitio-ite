@@ -62,6 +62,7 @@ import Mapas from "./pages/demarcaciones/Mapas";
 
 //Transparencia
 import Transparencia from "./pages/transparencia/Transparencia";
+import Articulo63 from "./pages/transparencia/art63/Articulo63";
 import Infografias from "./pages/transparencia/Infografias";
 import PreguntasFrecuentes from "./pages/transparencia/PreguntasFrecuentes";
 import DatosAbiertos from "./pages/transparencia/DatosAbiertos";
@@ -135,6 +136,8 @@ function App() {
 
           {/* Transparencia */}
           <Route path="/Transparencia" element={<Transparencia />} />
+          <Route path="/Articulo63" element={<Articulo63 />} />
+
           <Route path="/Infografias" element={<Infografias />} />
           <Route
             path="/PreguntasFrecuentes"

@@ -17,7 +17,7 @@ export default class Transparencia extends Component {
         />
         <div className="w-100 mt-3 Transparencia__contenido">
           <div>
-            <Link to="">
+            <Link to="/Articulo63">
               <img
                 className="img-fluid w-100 mt-3"
                 src={icons_imgpath(`./1.png`)}
@@ -27,7 +27,7 @@ export default class Transparencia extends Component {
             <p className="mt-2">Art. 63 Obligaciones Comunes</p>
           </div>
           <div>
-            <Link to="">
+            <Link to="Articulo67">
               <img
                 className="img-fluid w-100 mt-3"
                 src={icons_imgpath(`./1.png`)}
@@ -37,7 +37,7 @@ export default class Transparencia extends Component {
             <p className="mt-2">Art. 67 Obligaciones Específicas</p>
           </div>
           <div>
-            <Link to="">
+            <Link to="Articulo94">
               <img
                 className="img-fluid w-100 mt-3"
                 src={icons_imgpath(`./1.png`)}
