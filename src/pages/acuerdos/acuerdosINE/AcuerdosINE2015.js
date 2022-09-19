@@ -42,10 +42,7 @@ export default class AcuerdosINE2015 extends Component {
             <div
               key={acuerdo.id}
               id={acuerdo.modal}
-              // {...console.log(acuerdo.modal)}
-              // {...console.log("aaaa:-", (mes = acuerdo.month))}
               {...(idAcuerdoINE = acuerdo.id)}
-              // {...console.log("IDINE: ", (idAcuerdoINE = acuerdo.id))}
               className="modal fade"
               tabIndex="-1"
               aria-hidden="true"
@@ -64,7 +61,6 @@ export default class AcuerdosINE2015 extends Component {
                     ></button>
                   </div>
                   <div className="modal-body">
-                    {/* {acuerdo.anexos} */}
                     {dataAcuerdosINE2015
                       .filter((item) => item.id === idAcuerdoINE)
                       .map(
@@ -130,7 +126,6 @@ export default class AcuerdosINE2015 extends Component {
             </div>
           );
         })}
-        {/*  */}
       </div>
     );
   }
