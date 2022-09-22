@@ -1,81 +1,60 @@
 import React, { useMemo } from "react";
 import MaterialReactTable from "material-react-table";
+import { createTheme, ThemeProvider } from "@mui/material/styles";
+import { esES } from "@mui/material/locale";
 import "../Transparencia.css";
+import { dataArt632017 } from "../../../assets/data/dataTransparencia";
 
 const Transparencia_imppath = require.context("../../../img/imgT");
 
-//nested data is ok, see accessorKeys in ColumnDef below
-const data = [
-  {
-    name: {
-      firstName: "John",
-      lastName: "Doe",
-    },
-    address: "261 Erdman Ford",
-    city: "East Daphne",
-    state: "Kentucky",
-  },
-  {
-    name: {
-      firstName: "Jane",
-      lastName: "Doe",
-    },
-    address: "769 Dominic Grove",
-    city: "Columbus",
-    state: "Ohio",
-  },
-  {
-    name: {
-      firstName: "Joe",
-      lastName: "Doe",
-    },
-    address: "566 Brakus Inlet",
-    city: "South Linda",
-    state: "West Virginia",
-  },
-  {
-    name: {
-      firstName: "Kevin",
-      lastName: "Vandy",
-    },
-    address: "722 Emie Stream",
-    city: "Lincoln",
-    state: "Nebraska",
-  },
-  {
-    name: {
-      firstName: "Joshua",
-      lastName: "Rolluffs",
-    },
-    address: "32188 Larkin Turnpike",
-    city: "Charleston",
-    state: "South Carolina",
-  },
-];
-
 const Art632017 = () => {
-  //should be memoized or stable
   const columns = useMemo(
     () => [
+      // {
+      //   accessorKey: "name.firstName",
+      //   header: "First Name",
+      // },
       {
-        accessorKey: "name.firstName", //access nested data with dot notation
-        header: "First Name",
+        accessorKey: "no",
+        header: "No.",
+        size: 80,
+        enableResizing: false,
       },
       {
-        accessorKey: "name.lastName",
-        header: "Last Name",
+        accessorKey: "fraccion",
+        header: "Fracción",
+        size: 75,
+        enableResizing: false,
       },
       {
-        accessorKey: "address", //normal accessorKey
-        header: "Address",
+        accessorKey: "titulo",
+        header: "Título",
+        size: 150,
+        enableResizing: false,
       },
       {
-        accessorKey: "city",
-        header: "City",
+        accessorKey: "cumplimiento",
+        header: "Cumplimiento",
+        size: 110,
+        enableResizing: false,
       },
       {
-        accessorKey: "state",
-        header: "State",
+        accessorKey: "fundamentoLegal",
+        header: "Fundamento Legal",
+        size: 300,
+        enableResizing: false,
+      },
+      {
+        accessorKey: "actualizacion",
+        header: "Actualización",
+        size: 100,
+        enableResizing: false,
+      },
+      {
+        accessorKey: "excel",
+        header: "Excel",
+        size: 80,
+        enableResizing: false,
       },
     ],
     []
@@ -95,9 +74,33 @@ const Art632017 = () => {
       <h5 className="mt-3 Transparencia__title">
         Artículo 63. (2022) Obligaciones Comunes
       </h5>
-      <MaterialReactTable columns={columns} data={data} />
+      <ThemeProvider theme={theme}>
+        <MaterialReactTable
+          columns={columns}
+          data={dataArt632017}
+          enableExpanding
+          enableExpandAll
+          enableColumnActions={false}
+          enableColumnFilters={false}
+          enableColumnResizing
+          enableDensityToggle={false}
+          // muiTablePaginationProps={{
+          //   labelRowsPerPage: "Filas visibles",
+          //   // labelDisplayedRows: "a",
+          // }}
+        />
+      </ThemeProvider>
     </div>
   );
 };
+
+const theme = createTheme(
+  {
+    palette: {
+      primary: { main: "#1976d2" },
+    },
+  },
+  esES
+);
 
 export default Art632017;
