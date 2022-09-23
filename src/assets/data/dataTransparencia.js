@@ -7,7 +7,7 @@ export const dataArt632017 = [
     fundamentoLegal:
       "Articulo. 63 Fraccion I de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
     actualizacion: "2022",
-    excel: "<i>d</i>",
+    excel: "f",
   },
   {
     no: "2",

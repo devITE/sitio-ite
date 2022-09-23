@@ -1,10 +1,11 @@
 import React, { useMemo } from "react";
 import MaterialReactTable from "material-react-table";
-import "../Transparencia.css";
-import { dataArt632017 } from "../../../assets/data/dataTransparencia";
-
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import { esES } from "@mui/material/locale";
+import { dataArt632017 } from "../../../assets/data/dataTransparencia";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faFileExcel } from "@fortawesome/free-solid-svg-icons";
+import "../Transparencia.css";
 
 const Transparencia_imppath = require.context("../../../img/imgT");
 
@@ -18,44 +19,60 @@ const Art632017 = () => {
       {
         accessorKey: "no",
         header: "NO.",
+        footer: "NO.",
         size: 55,
         enableResizing: false,
       },
       {
         accessorKey: "fraccion",
         header: "Fracción",
+        footer: "Fracción",
         size: 90,
         enableResizing: false,
       },
       {
         accessorKey: "titulo",
         header: "Título",
+        footer: "Título",
         size: 150,
         enableResizing: false,
       },
       {
         accessorKey: "cumplimiento",
         header: "Cumplimiento",
+        footer: "Cumplimiento",
         size: 100,
         enableResizing: false,
       },
       {
         accessorKey: "fundamentoLegal",
         header: "Fundamento Legal",
+        footer: "Fundamento Legal",
         size: 270,
         enableResizing: false,
       },
       {
         accessorKey: "actualizacion",
         header: "Actualización",
+        footer: "Actualización",
         size: 100,
         enableResizing: false,
       },
       {
-        accessorKey: "excel",
+        id: "exccel",
         header: "Excel",
+        footer: "Excel",
+        columnDefType: "display",
         size: 80,
         enableResizing: false,
+        Cell: ({ row }) => (
+          <a href={row.original.excel} target="_blank" rel="noreferrer">
+            <FontAwesomeIcon
+              icon={faFileExcel}
+              className="btn btn-success ms-3"
+            />
+          </a>
+        ),
       },
     ],
     []
@@ -86,6 +103,12 @@ const Art632017 = () => {
           enableColumnResizing
           enableDensityToggle={false}
           muiTableHeadCellProps={{
+            sx: {
+              backgroundColor: "#972069",
+              color: "#fff",
+            },
+          }}
+          muiTableFooterCellProps={{
             sx: {
               backgroundColor: "#972069",
               color: "#fff",
