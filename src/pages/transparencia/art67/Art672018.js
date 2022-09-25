@@ -2,14 +2,14 @@ import React, { useMemo } from "react";
 import MaterialReactTable from "material-react-table";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import { esES } from "@mui/material/locale";
-import { dataArt632022 } from "../../../assets/data/dataTransparenciaArt63";
+import { dataArt672018 } from "../../../assets/data/dataTransparenciaArt67";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFileExcel } from "@fortawesome/free-solid-svg-icons";
 import "../Transparencia.css";
 
 const Transparencia_imppath = require.context("../../../img/imgT");
 
-const Art632022 = () => {
+const Art672018 = () => {
     const columns = useMemo(
         () => [
             {
@@ -83,15 +83,15 @@ const Art632022 = () => {
             />
             <div className="w-100 mt-3 Transparencia__header-title">
                 Ley de Transparencia y Acceso a la Información Pública del Estado de
-                Tlaxcala. 2022.
+                Tlaxcala. 2016.
             </div>
             <h5 className="mt-3 Transparencia__title">
-                Artículo 63. (2022) Obligaciones Comunes
+                Artículo 63. (2018) Obligaciones Comunes
             </h5>
             <ThemeProvider theme={createTheme({}, esES)}>
                 <MaterialReactTable
                     columns={columns}
-                    data={dataArt632022}
+                    data={dataArt672018}
                     enableExpanding
                     enableExpandAll
                     enableColumnActions={false}
@@ -168,4 +168,4 @@ const Art632022 = () => {
     );
 };
 
-export default Art632022;
+export default Art672018;

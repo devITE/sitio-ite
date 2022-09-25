@@ -72,6 +72,15 @@ import Art632020 from "./pages/transparencia/art63/Art632020";
 import Art632021 from "./pages/transparencia/art63/Art632021";
 import Art632022 from "./pages/transparencia/art63/Art632022";
 
+//Transparencia Artículo 67
+import Articulo67 from "./pages/transparencia/art67/Articulo67";
+import Art672017 from "./pages/transparencia/art67/Art672017";
+import Art672018 from "./pages/transparencia/art67/Art672018";
+import Art672019 from "./pages/transparencia/art67/Art672019";
+import Art672020 from "./pages/transparencia/art67/Art672020";
+import Art672021 from "./pages/transparencia/art67/Art672021";
+import Art672022 from "./pages/transparencia/art67/Art672022";
+
 import Infografias from "./pages/transparencia/Infografias";
 import PreguntasFrecuentes from "./pages/transparencia/PreguntasFrecuentes";
 import DatosAbiertos from "./pages/transparencia/DatosAbiertos";
@@ -154,6 +163,15 @@ function App() {
           <Route path="/Art632020" element={<Art632020 />} />
           <Route path="/Art632021" element={<Art632021 />} />
           <Route path="/Art632022" element={<Art632022 />} />
+
+          {/* Artículo 67 */}
+          <Route path="/Articulo67" element={<Articulo67 />} />
+          <Route path="/Art672017" element={<Art672017 />} />
+          <Route path="/Art672018" element={<Art672018 />} />
+          <Route path="/Art672019" element={<Art672019 />} />
+          <Route path="/Art672020" element={<Art672020 />} />
+          <Route path="/Art672021" element={<Art672021 />} />
+          <Route path="/Art672022" element={<Art672022 />} />
 
           <Route path="/Infografias" element={<Infografias />} />
           <Route

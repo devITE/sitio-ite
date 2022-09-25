@@ -2,14 +2,14 @@ import React, { useMemo } from "react";
 import MaterialReactTable from "material-react-table";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import { esES } from "@mui/material/locale";
-import { dataArt632019 } from "../../../assets/data/dataTransparenciaArt63";
+import { dataArt672019 } from "../../../assets/data/dataTransparenciaArt67";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFileExcel } from "@fortawesome/free-solid-svg-icons";
 import "../Transparencia.css";
 
 const Transparencia_imppath = require.context("../../../img/imgT");
 
-const Art632019 = () => {
+const Art672019 = () => {
   const columns = useMemo(
     () => [
       {
@@ -91,7 +91,7 @@ const Art632019 = () => {
       <ThemeProvider theme={createTheme({}, esES)}>
         <MaterialReactTable
           columns={columns}
-          data={dataArt632019}
+          data={dataArt672019}
           enableExpanding
           enableExpandAll
           enableColumnActions={false}
@@ -168,4 +168,4 @@ const Art632019 = () => {
   );
 };
 
-export default Art632019;
+export default Art672019;

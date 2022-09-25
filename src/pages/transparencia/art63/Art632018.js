@@ -2,7 +2,7 @@ import React, { useMemo } from "react";
 import MaterialReactTable from "material-react-table";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import { esES } from "@mui/material/locale";
-import { dataArt632018 } from "../../../assets/data/dataTransparencia";
+import { dataArt632018 } from "../../../assets/data/dataTransparenciaArt63";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFileExcel } from "@fortawesome/free-solid-svg-icons";
 import "../Transparencia.css";

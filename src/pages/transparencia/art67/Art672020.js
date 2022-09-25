@@ -2,14 +2,14 @@ import React, { useMemo } from "react";
 import MaterialReactTable from "material-react-table";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import { esES } from "@mui/material/locale";
-import { dataArt632019 } from "../../../assets/data/dataTransparenciaArt63";
+import { dataArt672020 } from "../../../assets/data/dataTransparenciaArt67";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFileExcel } from "@fortawesome/free-solid-svg-icons";
 import "../Transparencia.css";
 
 const Transparencia_imppath = require.context("../../../img/imgT");
 
-const Art632019 = () => {
+const Art672020 = () => {
   const columns = useMemo(
     () => [
       {
@@ -86,12 +86,12 @@ const Art632019 = () => {
         Tlaxcala. 2016.
       </div>
       <h5 className="mt-3 Transparencia__title">
-        Artículo 63. (2019) Obligaciones Comunes
+        Artículo 63. (2020) Obligaciones Comunes
       </h5>
       <ThemeProvider theme={createTheme({}, esES)}>
         <MaterialReactTable
           columns={columns}
-          data={dataArt632019}
+          data={dataArt672020}
           enableExpanding
           enableExpandAll
           enableColumnActions={false}
@@ -168,4 +168,4 @@ const Art632019 = () => {
   );
 };
 
-export default Art632019;
+export default Art672020;

@@ -2,49 +2,53 @@ import React, { useMemo } from "react";
 import MaterialReactTable from "material-react-table";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import { esES } from "@mui/material/locale";
-import { dataArt632019 } from "../../../assets/data/dataTransparenciaArt63";
+import { dataArt672017 } from "../../../assets/data/dataTransparenciaArt67";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFileExcel } from "@fortawesome/free-solid-svg-icons";
 import "../Transparencia.css";
 
 const Transparencia_imppath = require.context("../../../img/imgT");
 
-const Art632019 = () => {
+const Art672017 = () => {
   const columns = useMemo(
     () => [
+      // {
+      //   accessorKey: "name.firstName",
+      //   header: "First Name",
+      // },
       {
         accessorKey: "no",
         header: "NO.",
         footer: "NO.",
-        size: 55,
+        size: 45,
         enableResizing: false,
       },
       {
-        accessorKey: "fraccion",
-        header: "Fracción",
-        footer: "Fracción",
-        size: 90,
+        accessorKey: "letra",
+        header: "Letra",
+        footer: "Letra",
+        size: 45,
         enableResizing: false,
       },
       {
-        accessorKey: "titulo",
-        header: "Título",
-        footer: "Título",
-        size: 150,
+        accessorKey: "descriptivo",
+        header: "Descriptivo",
+        footer: "Descriptivo",
+        size: 170,
         enableResizing: false,
       },
       {
         accessorKey: "cumplimiento",
         header: "Cumplimiento",
         footer: "Cumplimiento",
-        size: 100,
+        size: 90,
         enableResizing: false,
       },
       {
         accessorKey: "fundamentoLegal",
         header: "Fundamento Legal",
         footer: "Fundamento Legal",
-        size: 270,
+        size: 280,
         enableResizing: false,
       },
       {
@@ -86,12 +90,12 @@ const Art632019 = () => {
         Tlaxcala. 2016.
       </div>
       <h5 className="mt-3 Transparencia__title">
-        Artículo 63. (2019) Obligaciones Comunes
+        Artículo 67. (2017) Obligaciones Comunes
       </h5>
       <ThemeProvider theme={createTheme({}, esES)}>
         <MaterialReactTable
           columns={columns}
-          data={dataArt632019}
+          data={dataArt672017}
           enableExpanding
           enableExpandAll
           enableColumnActions={false}
@@ -168,4 +172,4 @@ const Art632019 = () => {
   );
 };
 
-export default Art632019;
+export default Art672017;
