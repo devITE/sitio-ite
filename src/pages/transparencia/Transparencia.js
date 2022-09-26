@@ -102,7 +102,7 @@ export default class Transparencia extends Component {
             <p className="mt-2">Presentar solicitud</p>
           </div>
           <div>
-            <Link to="">
+            <Link to="/POA">
               <img
                 className="img-fluid w-100 mt-3"
                 src={icons_imgpath(`./6.png`)}

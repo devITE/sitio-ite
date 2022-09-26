@@ -7,7 +7,7 @@
     z-index: 3;
 }
 
-.nav-link {
+.navbar-nav .nav-item .nav-link {
     color: #5e5e5e !important;
     font-size: 1.1rem !important;
 }
@@ -22,8 +22,8 @@
     color: white !important;
 }
 
-.nav-link:focus,
-.nav-link:hover {
+.navbar-nav .nav-item .nav-link:focus,
+.navbar-nav .nav-item .nav-link:hover {
     background-color: #e33292 !important;
     color: #ffffff !important;
 }
@@ -42,7 +42,7 @@
         width: 7rem;
     }
 
-    .nav-link {
+    .navbar-nav .nav-item .nav-link {
         font-size: 1rem !important;
         padding: 5px 0 5px 10px !important;
     }
