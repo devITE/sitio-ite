@@ -3,13 +3,29 @@ html {
   position: relative;
 }
 
+li::marker {
+  color: #AA0787;
+  font-weight: bolder;
+}
+
 body {
   margin: 0;
   padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
 }
 
 a {
   cursor: pointer;
+}
+
+.modal-header {
+  background: #972069;
+  color: #ffffff;
+}
+
+.table thead {
+  background: #972069;
+  color: #ffffff;
 }
 
 .bottom_title {
@@ -19,6 +35,23 @@ a {
   border-bottom-style: dashed;
   border-bottom-color: #ba1678;
   border-top: none;
+}
+
+.btn-pill-v {
+  background: 0 0 !important;
+  border: 1px solid #dfdfdf !important;
+  border-radius: 0 !important;
+  color: #000000 !important;
+}
+
+.btn-pill-v.active {
+  background-color: #9d3c8a !important;
+  color: #ffffff !important;
+}
+
+.btn-pill-v.active:hover {
+  background-color: #662659 !important;
+  color: #ffffff !important;
 }
 
 /* .App__total-app {

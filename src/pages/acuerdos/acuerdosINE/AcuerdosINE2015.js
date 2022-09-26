@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { Component } from "react";
 import { dataAcuerdosINE2015 } from "../../../assets/data/dataAcuerdos";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";

@@ -62,6 +62,40 @@ import Mapas from "./pages/demarcaciones/Mapas";
 
 //Transparencia
 import Transparencia from "./pages/transparencia/Transparencia";
+
+//Transparencia Artículo 63
+import Articulo63 from "./pages/transparencia/art63/Articulo63";
+import Art632017 from "./pages/transparencia/art63/Art632017";
+import Art632018 from "./pages/transparencia/art63/Art632018";
+import Art632019 from "./pages/transparencia/art63/Art632019";
+import Art632020 from "./pages/transparencia/art63/Art632020";
+import Art632021 from "./pages/transparencia/art63/Art632021";
+import Art632022 from "./pages/transparencia/art63/Art632022";
+
+//Transparencia Artículo 67
+import Articulo67 from "./pages/transparencia/art67/Articulo67";
+import Art672017 from "./pages/transparencia/art67/Art672017";
+import Art672018 from "./pages/transparencia/art67/Art672018";
+import Art672019 from "./pages/transparencia/art67/Art672019";
+import Art672020 from "./pages/transparencia/art67/Art672020";
+import Art672021 from "./pages/transparencia/art67/Art672021";
+import Art672022 from "./pages/transparencia/art67/Art672022";
+
+//Transparencia Artículo 67
+import Articulo94 from "./pages/transparencia/art94/Articulo94";
+import Art942020 from "./pages/transparencia/art94/Art942020";
+import Art942021 from "./pages/transparencia/art94/Art942021";
+import Art942022 from "./pages/transparencia/art94/Art942022";
+
+//Transparencia General
+import Convenios from "./pages/transparencia/transp/Convenios";
+import InformesAnuales from "./pages/transparencia/transp/InformesAnuales";
+import AvisosPrivacidad from "./pages/transparencia/transp/AvisosPrivacidad";
+import FormatoSolicitud from "./pages/transparencia/transp/FormatoSolicitud";
+import POA from "./pages/transparencia/transp/POA";
+import InformacionFinanciera from "./pages/transparencia/transp/InformacionFinanciera";
+import InformacionContable from "./pages/transparencia/transp/InformacionContable";
+
 import Infografias from "./pages/transparencia/Infografias";
 import PreguntasFrecuentes from "./pages/transparencia/PreguntasFrecuentes";
 import DatosAbiertos from "./pages/transparencia/DatosAbiertos";
@@ -135,6 +169,45 @@ function App() {
 
           {/* Transparencia */}
           <Route path="/Transparencia" element={<Transparencia />} />
+
+          {/* Artículo 63 */}
+          <Route path="/Articulo63" element={<Articulo63 />} />
+          <Route path="/Art632017" element={<Art632017 />} />
+          <Route path="/Art632018" element={<Art632018 />} />
+          <Route path="/Art632019" element={<Art632019 />} />
+          <Route path="/Art632020" element={<Art632020 />} />
+          <Route path="/Art632021" element={<Art632021 />} />
+          <Route path="/Art632022" element={<Art632022 />} />
+
+          {/* Artículo 67 */}
+          <Route path="/Articulo67" element={<Articulo67 />} />
+          <Route path="/Art672017" element={<Art672017 />} />
+          <Route path="/Art672018" element={<Art672018 />} />
+          <Route path="/Art672019" element={<Art672019 />} />
+          <Route path="/Art672020" element={<Art672020 />} />
+          <Route path="/Art672021" element={<Art672021 />} />
+          <Route path="/Art672022" element={<Art672022 />} />
+
+          {/* Artículo 94 */}
+          <Route path="/Articulo94" element={<Articulo94 />} />
+          <Route path="/Art942020" element={<Art942020 />} />
+          <Route path="/Art942021" element={<Art942021 />} />
+          <Route path="/Art942022" element={<Art942022 />} />
+
+          {/* Transparencia General */}
+          <Route path="/Convenios" element={<Convenios />} />
+          <Route path="/InformesAnuales" element={<InformesAnuales />} />
+          <Route path="/AvisosPrivacidad" element={<AvisosPrivacidad />} />
+          <Route path="/FormatoSolicitud" element={<FormatoSolicitud />} />
+          <Route path="/POA" element={<POA />} />
+          <Route
+            path="/InformacionFinanciera"
+            element={<InformacionFinanciera />}
+          />
+          <Route
+            path="/InformacionContable"
+            element={<InformacionContable />}
+          />
           <Route path="/Infografias" element={<Infografias />} />
           <Route
             path="/PreguntasFrecuentes"

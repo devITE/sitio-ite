@@ -1,0 +1,139 @@
+.InformacionFinanciera__content {
+    color: #972069;
+    /* width: 100%; */
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #b8b8b8;
+    padding: 20px 0;
+}
+
+.Preguntas__list {
+    font-weight: bolder;
+    font-size: 20px;
+    color: #aa0787;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+.InformacionFinanciera__content .InformacionFinanciera__content-item {
+    text-align: end;
+}
+
+.accordion-button {
+    background-color: #972069 !important;
+    color: #ffffff !important;
+}
+
+.Transparencia__header a:hover {
+    transition: .5s;
+    transform: scale(1.05);
+}
+
+.Transparencia__contenido {
+    color: #972069;
+    text-align: center;
+    display: grid;
+}
+
+
+.Transparencia__contenido img:hover {
+    transition: .5s;
+    transform: scale(1.2);
+}
+
+.Transparencia__header-title {
+    background-color: #aa0787;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 20px;
+}
+
+.Transparencia__title {
+    color: #ba1678;
+    font-weight: bolder;
+}
+
+/* --------------- M E D I A     Q U E R I E S --------------- */
+
+/* general */
+@media only screen and (min-width: 1024px) {
+    .Transparencia__header {
+        display: flex;
+        justify-content: space-around;
+        padding: 0 2%;
+    }
+
+    .Transparencia__header a {
+        width: 40%;
+        border-radius: 20px;
+        box-shadow: 5px 5px 3px #686868;
+    }
+
+    .Transparencia__contenido {
+        grid-template-columns: auto auto auto auto;
+        gap: 30px;
+    }
+
+    .Transparencia__contenido img {
+        width: 62px !important;
+    }
+
+    .Transparencia__articulo-p-year {
+        width: 50%;
+        margin: auto;
+    }
+}
+
+/* tablets */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .Transparencia__header {
+        display: flex;
+        justify-content: space-around;
+        padding: 0 2%;
+    }
+
+    .Transparencia__header a {
+        width: 40%;
+        border-radius: 20px;
+        box-shadow: 5px 5px 3px #686868;
+        margin-bottom: 20px;
+    }
+
+    .Transparencia__contenido img {
+        width: 52px !important;
+    }
+
+    .Transparencia__contenido {
+        grid-template-columns: auto auto auto;
+        gap: 30px;
+    }
+
+    .Transparencia__articulo-p-year {
+        width: 50%;
+        margin: auto;
+    }
+}
+
+/* mobil */
+@media only screen and (max-width: 767px) {
+    .Transparencia__header {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .Transparencia__contenido {
+        grid-template-columns: auto auto;
+        gap: 30px;
+    }
+
+    .Transparencia__contenido img {
+        width: 42px !important;
+    }
+
+    .Transparencia__articulo-p-year {
+        width: 90%;
+        margin: auto;
+    }
+}
