@@ -15,7 +15,7 @@ export default class Articulo63 extends Component {
         />
         <div className="w-100 mt-3 Transparencia__header-title">
           Ley de Transparencia y Acceso a la Información Pública del Estado de
-          Tlaxcala. 2016.
+          Tlaxcala.
         </div>
         <h5 className="mt-3 text-center Transparencia__title">
           Artículo 63. del

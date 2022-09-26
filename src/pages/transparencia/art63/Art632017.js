@@ -22,6 +22,7 @@ const Art632017 = () => {
         footer: "NO.",
         size: 55,
         enableResizing: false,
+        enableColumnFilter: false,
       },
       {
         accessorKey: "fraccion",
@@ -29,6 +30,7 @@ const Art632017 = () => {
         footer: "Fracción",
         size: 90,
         enableResizing: false,
+        enableColumnFilter: false,
       },
       {
         accessorKey: "titulo",
@@ -43,6 +45,12 @@ const Art632017 = () => {
         footer: "Cumplimiento",
         size: 100,
         enableResizing: false,
+        filterFn: "equals",
+        filterSelectOptions: [
+          { text: "Aplica", value: "Aplica" },
+          { text: "No Aplica", value: "No Aplica" },
+        ],
+        filterVariant: "select",
       },
       {
         accessorKey: "fundamentoLegal",
@@ -50,6 +58,7 @@ const Art632017 = () => {
         footer: "Fundamento Legal",
         size: 270,
         enableResizing: false,
+        enableColumnFilter: false,
       },
       {
         accessorKey: "actualizacion",
@@ -57,6 +66,7 @@ const Art632017 = () => {
         footer: "Actualización",
         size: 100,
         enableResizing: false,
+        enableColumnFilter: false,
       },
       {
         id: "exccel",
@@ -65,14 +75,15 @@ const Art632017 = () => {
         columnDefType: "display",
         size: 80,
         enableResizing: false,
-        Cell: ({ row }) => (
-          <a href={row.original.excel} target="_blank" rel="noreferrer">
-            <FontAwesomeIcon
-              icon={faFileExcel}
-              className="btn btn-success ms-3"
-            />
-          </a>
-        ),
+        enableColumnFilters: false,
+        Cell: ({ row }) =>
+          row.original.excel === "" ? (
+            <span></span>
+          ) : (
+            <a href={row.original.excel} target="_blank" rel="noreferrer">
+              <FontAwesomeIcon icon={faFileExcel} className="btn btn-success" />
+            </a>
+          ),
       },
     ],
     []
@@ -87,7 +98,7 @@ const Art632017 = () => {
       />
       <div className="w-100 mt-3 Transparencia__header-title">
         Ley de Transparencia y Acceso a la Información Pública del Estado de
-        Tlaxcala. 2016.
+        Tlaxcala.
       </div>
       <h5 className="mt-3 Transparencia__title">
         Artículo 63. (2017) Obligaciones Comunes
@@ -99,7 +110,7 @@ const Art632017 = () => {
           enableExpanding
           enableExpandAll
           enableColumnActions={false}
-          enableColumnFilters={false}
+          // enableColumnFilters={false}
           enableColumnResizing
           enableDensityToggle={false}
           muiTableHeadCellProps={{
@@ -136,14 +147,14 @@ const Art632017 = () => {
           localization={{
             actions: "Acciones",
             cancel: "Cancelar",
-            clearFilter: "Filtro claro",
+            clearFilter: "Limpiar filtro",
             clearSearch: "Borrar búsqueda",
             clearSort: "Ordenar claro",
             columnActions: "Acciones de columna",
             edit: "Editar",
             expand: "Expandir",
             expandAll: "Expandir todo",
-            filterByColumn: "Filtrar por {column}",
+            filterByColumn: "{column}",
             groupByColumn: "Agrupar por {column}",
             groupedBy: "Agrupados por ",
             hideAll: "Ocultar todo",

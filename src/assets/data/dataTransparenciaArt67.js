@@ -2,12 +2,13 @@ export const dataArt672017 = [
   {
     no: "1",
     letra: "A1",
-    descriptivo: "Los listados de partidos políticos, asociaciones y agrupaciones políticas o de ciudadanos registrados ante la Autoridad Electoral.",
+    descriptivo:
+      "Los listados de partidos políticos, asociaciones y agrupaciones políticas o de ciudadanos registrados ante la Autoridad Electoral.",
     cumplimiento: "Aplica",
     fundamentoLegal:
       "Articulo. 67 inciso A de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
     actualizacion: "2017",
-    excel: "f",
+    excel: "path",
   },
   {
     no: "2",
@@ -17,27 +18,29 @@ export const dataArt672017 = [
     fundamentoLegal:
       "Articulo. 67 inciso B de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
     actualizacion: "2017",
-    excel: "f",
+    excel: "",
     subRows: [
       {
         no: "",
         letra: "B1",
-        descriptivo: "Los informes que presenten los partidos políticos, asociaciones y agrupaciones políticas o de ciudadanos.",
+        descriptivo:
+          "Los informes que presenten los partidos políticos, asociaciones y agrupaciones políticas o de ciudadanos.",
         cumplimiento: "No Aplica",
         fundamentoLegal:
           "En relación a los informes de ingresos y egresos de los partidos políticos, asociaciones y agrupaciones políticas o de ciudadanos, son presentados ante el Instituto Nacional Electoral; en términos de los artículos 41 apartado V, apartado B, inciso a), numeral 6, de la Ley Fundamental, y 32 de la Ley General de Instituciones y Procedimientos Electorales, por ende el Instituto Tlaxcalteca de Elecciones no es la autoridad competente para recibir dicha documentación",
         actualizacion: "2017",
-        excel: "path",
+        excel: "",
       },
       {
         no: "",
         letra: "B2",
-        descriptivo: "Los informes que presenten los partidos políticos, asociaciones y agrupaciones políticas o de ciudadanos.",
+        descriptivo:
+          "Los informes que presenten los partidos políticos, asociaciones y agrupaciones políticas o de ciudadanos.",
         cumplimiento: "No Aplica",
         fundamentoLegal:
           "En relación a los informes de ingresos y egresos de los partidos políticos, asociaciones y agrupaciones políticas o de ciudadanos, son presentados ante el Instituto Nacional Electoral; en términos de los artículos 41 apartado V, apartado B, inciso a), numeral 6, de la Ley Fundamental, y 32 de la Ley General de Instituciones y Procedimientos Electorales, por ende el Instituto Tlaxcalteca de Elecciones no es la autoridad competente para recibir dicha documentación.",
         actualizacion: "2017",
-        excel: "path",
+        excel: "",
       },
     ],
   },
@@ -49,12 +52,13 @@ export const dataArt672017 = [
     fundamentoLegal:
       "Articulo. 67 inciso C de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
     actualizacion: "2017",
-    excel: "f",
+    excel: "",
     subRows: [
       {
         no: "",
         letra: "C1",
-        descriptivo: "Normatividad en materia de geografía y cartografía electoral.",
+        descriptivo:
+          "Normatividad en materia de geografía y cartografía electoral.",
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 67 inciso C1 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
@@ -91,7 +95,7 @@ export const dataArt672017 = [
     fundamentoLegal:
       "Articulo. 67 inciso D de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
     actualizacion: "2017",
-    excel: "f",
+    excel: "",
     subRows: [
       {
         no: "",
@@ -106,7 +110,8 @@ export const dataArt672017 = [
       {
         no: "",
         letra: "D2",
-        descriptivo: "Sistema de consulta de candidatos a cargos de elección popular.",
+        descriptivo:
+          "Sistema de consulta de candidatos a cargos de elección popular.",
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 67 inciso D2 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
@@ -126,7 +131,8 @@ export const dataArt672017 = [
       {
         no: "",
         letra: "D4",
-        descriptivo: "Sistema de consulta de candidatos electos a cargos de elección popular.",
+        descriptivo:
+          "Sistema de consulta de candidatos electos a cargos de elección popular.",
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 67 inciso D4 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
@@ -143,12 +149,13 @@ export const dataArt672017 = [
     fundamentoLegal:
       "Articulo. 67 inciso E de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
     actualizacion: "2017",
-    excel: "f",
+    excel: "",
     subRows: [
       {
         no: "",
         letra: "E1",
-        descriptivo: "El catálogo de estaciones de radio y canales de televisión, pautas de transmisión, versiones de spots del Instituto Tlaxcalteca de Elecciones y de los partidos políticos.",
+        descriptivo:
+          "El catálogo de estaciones de radio y canales de televisión, pautas de transmisión, versiones de spots del Instituto Tlaxcalteca de Elecciones y de los partidos políticos.",
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 67 inciso E1 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
@@ -158,7 +165,8 @@ export const dataArt672017 = [
       {
         no: "",
         letra: "E2",
-        descriptivo: "El catálogo de estaciones de radio y canales de televisión, pautas de transmisión, versiones de spots del Instituto Tlaxcalteca de Elecciones y de los partidos políticos.",
+        descriptivo:
+          "El catálogo de estaciones de radio y canales de televisión, pautas de transmisión, versiones de spots del Instituto Tlaxcalteca de Elecciones y de los partidos políticos.",
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 67 inciso E2 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
@@ -168,7 +176,8 @@ export const dataArt672017 = [
       {
         no: "",
         letra: "E3",
-        descriptivo: "El catálogo de estaciones de radio y canales de televisión, pautas de transmisión, versiones de spots del Instituto Tlaxcalteca de Elecciones y de los partidos políticos.",
+        descriptivo:
+          "El catálogo de estaciones de radio y canales de televisión, pautas de transmisión, versiones de spots del Instituto Tlaxcalteca de Elecciones y de los partidos políticos.",
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 67 inciso E3 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
@@ -185,12 +194,13 @@ export const dataArt672017 = [
     fundamentoLegal:
       "Articulo. 67 inciso F de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
     actualizacion: "2017",
-    excel: "f",
+    excel: "",
     subRows: [
       {
         no: "",
         letra: "F1",
-        descriptivo: "Los montos de financiamiento público por actividades ordinarias, de campaña y específicas otorgadas a los partidos políticos, asociaciones y agrupaciones políticas o de ciudadanos y demás asociaciones políticas, así como los montos autorizados de financiamiento privado y los topes de los gastos de campañas.",
+        descriptivo:
+          "Los montos de financiamiento público por actividades ordinarias, de campaña y específicas otorgadas a los partidos políticos, asociaciones y agrupaciones políticas o de ciudadanos y demás asociaciones políticas, así como los montos autorizados de financiamiento privado y los topes de los gastos de campañas.",
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 67 inciso E1 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
@@ -200,7 +210,8 @@ export const dataArt672017 = [
       {
         no: "",
         letra: "F2",
-        descriptivo: "Los montos de financiamiento público por actividades ordinarias, de campaña y específicas otorgadas a los partidos políticos, asociaciones y agrupaciones políticas o de ciudadanos y demás asociaciones políticas, así como los montos autorizados de financiamiento privado y los topes de los gastos de campañas.",
+        descriptivo:
+          "Los montos de financiamiento público por actividades ordinarias, de campaña y específicas otorgadas a los partidos políticos, asociaciones y agrupaciones políticas o de ciudadanos y demás asociaciones políticas, así como los montos autorizados de financiamiento privado y los topes de los gastos de campañas.",
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 67 inciso E2 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
@@ -210,7 +221,8 @@ export const dataArt672017 = [
       {
         no: "",
         letra: "F3",
-        descriptivo: "Los montos de financiamiento público por actividades ordinarias, de campaña y específicas otorgadas a los partidos políticos, asociaciones y agrupaciones políticas o de ciudadanos y demás asociaciones políticas, así como los montos autorizados de financiamiento privado y los topes de los gastos de campañas.",
+        descriptivo:
+          "Los montos de financiamiento público por actividades ordinarias, de campaña y específicas otorgadas a los partidos políticos, asociaciones y agrupaciones políticas o de ciudadanos y demás asociaciones políticas, así como los montos autorizados de financiamiento privado y los topes de los gastos de campañas.",
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 67 inciso F3 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
@@ -222,12 +234,13 @@ export const dataArt672017 = [
   {
     no: "7",
     letra: "G",
-    descriptivo: "La metodología e informes sobre la publicación de encuestas por muestreo, encuestas de salida y conteos rápidos.",
+    descriptivo:
+      "La metodología e informes sobre la publicación de encuestas por muestreo, encuestas de salida y conteos rápidos.",
     cumplimiento: "Aplica",
     fundamentoLegal:
       "Articulo. 67 inciso G de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
     actualizacion: "2017",
-    excel: "f",
+    excel: "",
     subRows: [
       {
         no: "",
@@ -242,7 +255,8 @@ export const dataArt672017 = [
       {
         no: "",
         letra: "G2",
-        descriptivo: "Monitoreo de encuestas electorales, sondeos de opinión y contos rápidos no institucionales detectados por la Coordinación Nacional  de Comunicación",
+        descriptivo:
+          "Monitoreo de encuestas electorales, sondeos de opinión y contos rápidos no institucionales detectados por la Coordinación Nacional  de Comunicación",
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 67 inciso D2 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
@@ -262,7 +276,8 @@ export const dataArt672017 = [
       {
         no: "",
         letra: "G4",
-        descriptivo: "Informes presentados por la Secretaría Ejecutiva en el Consejo General",
+        descriptivo:
+          "Informes presentados por la Secretaría Ejecutiva en el Consejo General",
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 67 inciso G4 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
@@ -272,7 +287,8 @@ export const dataArt672017 = [
       {
         no: "",
         letra: "G5",
-        descriptivo: "Personas físicas o morales que pretenden efectuar encuestas de salida y/o conteos rápidos no institucionales",
+        descriptivo:
+          "Personas físicas o morales que pretenden efectuar encuestas de salida y/o conteos rápidos no institucionales",
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 67 inciso G5 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
@@ -282,7 +298,8 @@ export const dataArt672017 = [
       {
         no: "",
         letra: "G6",
-        descriptivo: "Informes que, en su caso, presentó el sujeto obligado ante sus máximos órganos de dirección relacionados con el tema.",
+        descriptivo:
+          "Informes que, en su caso, presentó el sujeto obligado ante sus máximos órganos de dirección relacionados con el tema.",
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 67 inciso G6 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala.",
@@ -294,17 +311,19 @@ export const dataArt672017 = [
   {
     no: "8",
     letra: "H",
-    descriptivo: "La metodología e informe del Programa de Resultados Preliminares Electorales.",
+    descriptivo:
+      "La metodología e informe del Programa de Resultados Preliminares Electorales.",
     cumplimiento: "Aplica",
     fundamentoLegal:
       "Articulo. 67 inciso H de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
     actualizacion: "2017",
-    excel: "f",
+    excel: "",
     subRows: [
       {
         no: "",
         letra: "H1",
-        descriptivo: "Metodología del programa de resultados electorales preliminares.",
+        descriptivo:
+          "Metodología del programa de resultados electorales preliminares.",
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 67 inciso H1 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
@@ -326,12 +345,13 @@ export const dataArt672017 = [
   {
     no: "9",
     letra: "I",
-    descriptivo: "Los cómputos totales de las elecciones y procesos de participación ciudadana.",
+    descriptivo:
+      "Los cómputos totales de las elecciones y procesos de participación ciudadana.",
     cumplimiento: "Aplica",
     fundamentoLegal:
       "Articulo. 67 inciso I de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
     actualizacion: "2017",
-    excel: "f",
+    excel: "path",
   },
   {
     no: "10",
@@ -341,27 +361,29 @@ export const dataArt672017 = [
     fundamentoLegal:
       "Articulo. 67 inciso J de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
     actualizacion: "2017",
-    excel: "f",
+    excel: "path",
   },
   {
     no: "11",
     letra: "K",
-    descriptivo: "Las franquicias postales y telegráficas asignadas al partido político para el cumplimiento de sus funciones.",
+    descriptivo:
+      "Las franquicias postales y telegráficas asignadas al partido político para el cumplimiento de sus funciones.",
     cumplimiento: "No Aplica",
     fundamentoLegal:
       "Los partidos políticos nacionales disfrutarán de las franquicias postales y telegráficas, dentro del territorio nacional, que sean necesarias para el desarrollo de sus actividades, conforme a las reglas establecidas en los artículos 188 de la Ley General de Instituciones y Procedimientos Electorales y 70 de la Ley General de Partidos Políticos correspondiendo al Instituto Nacional Electoral aplicarlas. Para consulta:http://www.ine.mx/archivos3/portal/historico/contenido/Franquicias_Postales/",
     actualizacion: "2017",
-    excel: "f",
+    excel: "",
   },
   {
     no: "12",
     letra: "L",
-    descriptivo: "Los dictámenes, informes y resoluciones sobre pérdida de registro y liquidación del patrimonio de los partidos políticos nacionales y estatales",
+    descriptivo:
+      "Los dictámenes, informes y resoluciones sobre pérdida de registro y liquidación del patrimonio de los partidos políticos nacionales y estatales",
     cumplimiento: "Aplica",
     fundamentoLegal:
       "En el Instituto Tlaxcalteca de Elecciones durante el transcurso del año dos mil dieciséis, ningún partido político nacional se ha colocado en el supuesto de pérdida de registro señalado por el artículo 94 de la Ley General de Partidos Políticos, por ende tampoco se ha actualizado el supuesto de pérdida de acreditación en el ámbito local, previsto en el artículo 45 de la Ley de Partidos Políticos para el Estado de Tlaxcala. Asimismo, en el caso de los partidos políticos con registro local, ninguno se ha colocado en alguno de los supuestos que prevé el artículo 44 de la Ley de Partidos Políticos para el Estado de Tlaxcala, relativos a causales para perder su registro. Se entiende que en ningún caso se ha dado el supuesto de liquidación de patrimonio de partidos políticos nacionales o locales.",
     actualizacion: "2017",
-    excel: "f",
+    excel: "path",
   },
   {
     no: "13",
@@ -371,47 +393,51 @@ export const dataArt672017 = [
     fundamentoLegal:
       "Articulo. 67 inciso M de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
     actualizacion: "2017",
-    excel: "f",
+    excel: "",
     subRows: [
       {
         no: "",
         letra: "M1",
-        descriptivo: "Monitoreo de los espacios de radio y telivisión que difunden noticias.",
+        descriptivo:
+          "Monitoreo de los espacios de radio y telivisión que difunden noticias.",
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 67 inciso M1 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
         actualizacion: "2017",
-        excel: "f",
+        excel: "path",
       },
       {
         no: "",
         letra: "M2",
-        descriptivo: "Informes, convenios, contratos y datos de la institución pública o empresa encargada del monitoreo de los espacios de radio y televisión que difunden noticias.",
+        descriptivo:
+          "Informes, convenios, contratos y datos de la institución pública o empresa encargada del monitoreo de los espacios de radio y televisión que difunden noticias.",
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 67 inciso M2 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
         actualizacion: "2017",
-        excel: "f",
+        excel: "path",
       },
       {
         no: "",
         letra: "M3",
-        descriptivo: "Resultados, metodología y catálogo para el monitoreo de transmiciones sobre las precampañas, y campañas electorales de los espacios en radio y televisión que difunden noticias.",
+        descriptivo:
+          "Resultados, metodología y catálogo para el monitoreo de transmiciones sobre las precampañas, y campañas electorales de los espacios en radio y televisión que difunden noticias.",
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 67 inciso M3 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
         actualizacion: "2017",
-        excel: "f",
+        excel: "path",
       },
       {
         no: "",
         letra: "M4",
-        descriptivo: "Monitoreo de las pautas de transmisión en radio y telivisión.",
+        descriptivo:
+          "Monitoreo de las pautas de transmisión en radio y telivisión.",
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 67 inciso M4 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
         actualizacion: "2017",
-        excel: "f",
+        excel: "path",
       },
     ],
   },
@@ -421,12 +447,13 @@ export const dataArt672018 = [
   {
     no: "1",
     letra: "A1",
-    descriptivo: "Los listados de partidos políticos, asociaciones y agrupaciones políticas o de ciudadanos registrados ante la Autoridad Electoral.",
+    descriptivo:
+      "Los listados de partidos políticos, asociaciones y agrupaciones políticas o de ciudadanos registrados ante la Autoridad Electoral.",
     cumplimiento: "Aplica",
     fundamentoLegal:
       "Articulo. 67 inciso A de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
     actualizacion: "2018",
-    excel: "f",
+    excel: "path",
   },
   {
     no: "2",
@@ -436,27 +463,29 @@ export const dataArt672018 = [
     fundamentoLegal:
       "Articulo. 67 inciso B de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
     actualizacion: "2018",
-    excel: "f",
+    excel: "",
     subRows: [
       {
         no: "",
         letra: "B1",
-        descriptivo: "Los informes que presenten los partidos políticos, asociaciones y agrupaciones políticas o de ciudadanos.",
+        descriptivo:
+          "Los informes que presenten los partidos políticos, asociaciones y agrupaciones políticas o de ciudadanos.",
         cumplimiento: "No Aplica",
         fundamentoLegal:
           "En relación a los informes de ingresos y egresos de los partidos políticos, asociaciones y agrupaciones políticas o de ciudadanos, son presentados ante el Instituto Nacional Electoral; en términos de los artículos 41 apartado V, apartado B, inciso a), numeral 6, de la Ley Fundamental, y 32 de la Ley General de Instituciones y Procedimientos Electorales, por ende el Instituto Tlaxcalteca de Elecciones no es la autoridad competente para recibir dicha documentación",
         actualizacion: "2018",
-        excel: "path",
+        excel: "",
       },
       {
         no: "",
         letra: "B2",
-        descriptivo: "Los informes que presenten los partidos políticos, asociaciones y agrupaciones políticas o de ciudadanos.",
+        descriptivo:
+          "Los informes que presenten los partidos políticos, asociaciones y agrupaciones políticas o de ciudadanos.",
         cumplimiento: "No Aplica",
         fundamentoLegal:
           "En relación a los informes de ingresos y egresos de los partidos políticos, asociaciones y agrupaciones políticas o de ciudadanos, son presentados ante el Instituto Nacional Electoral; en términos de los artículos 41 apartado V, apartado B, inciso a), numeral 6, de la Ley Fundamental, y 32 de la Ley General de Instituciones y Procedimientos Electorales, por ende el Instituto Tlaxcalteca de Elecciones no es la autoridad competente para recibir dicha documentación.",
         actualizacion: "2018",
-        excel: "path",
+        excel: "",
       },
     ],
   },
@@ -468,12 +497,13 @@ export const dataArt672018 = [
     fundamentoLegal:
       "Articulo. 67 inciso C de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
     actualizacion: "2018",
-    excel: "f",
+    excel: "",
     subRows: [
       {
         no: "",
         letra: "C1",
-        descriptivo: "Normatividad en materia de geografía y cartografía electoral.",
+        descriptivo:
+          "Normatividad en materia de geografía y cartografía electoral.",
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 67 inciso C1 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
@@ -510,7 +540,7 @@ export const dataArt672018 = [
     fundamentoLegal:
       "Articulo. 67 inciso D de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
     actualizacion: "2018",
-    excel: "f",
+    excel: "",
     subRows: [
       {
         no: "",
@@ -525,7 +555,8 @@ export const dataArt672018 = [
       {
         no: "",
         letra: "D2",
-        descriptivo: "Sistema de consulta de candidatos a cargos de elección popular.",
+        descriptivo:
+          "Sistema de consulta de candidatos a cargos de elección popular.",
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 67 inciso D2 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
@@ -545,7 +576,8 @@ export const dataArt672018 = [
       {
         no: "",
         letra: "D4",
-        descriptivo: "Sistema de consulta de candidatos electos a cargos de elección popular.",
+        descriptivo:
+          "Sistema de consulta de candidatos electos a cargos de elección popular.",
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 67 inciso D4 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
@@ -562,12 +594,13 @@ export const dataArt672018 = [
     fundamentoLegal:
       "Articulo. 67 inciso E de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
     actualizacion: "2018",
-    excel: "f",
+    excel: "",
     subRows: [
       {
         no: "",
         letra: "E1",
-        descriptivo: "El catálogo de estaciones de radio y canales de televisión, pautas de transmisión, versiones de spots del Instituto Tlaxcalteca de Elecciones y de los partidos políticos.",
+        descriptivo:
+          "El catálogo de estaciones de radio y canales de televisión, pautas de transmisión, versiones de spots del Instituto Tlaxcalteca de Elecciones y de los partidos políticos.",
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 67 inciso E1 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
@@ -577,7 +610,8 @@ export const dataArt672018 = [
       {
         no: "",
         letra: "E2",
-        descriptivo: "El catálogo de estaciones de radio y canales de televisión, pautas de transmisión, versiones de spots del Instituto Tlaxcalteca de Elecciones y de los partidos políticos.",
+        descriptivo:
+          "El catálogo de estaciones de radio y canales de televisión, pautas de transmisión, versiones de spots del Instituto Tlaxcalteca de Elecciones y de los partidos políticos.",
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 67 inciso E2 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
@@ -587,7 +621,8 @@ export const dataArt672018 = [
       {
         no: "",
         letra: "E3",
-        descriptivo: "El catálogo de estaciones de radio y canales de televisión, pautas de transmisión, versiones de spots del Instituto Tlaxcalteca de Elecciones y de los partidos políticos.",
+        descriptivo:
+          "El catálogo de estaciones de radio y canales de televisión, pautas de transmisión, versiones de spots del Instituto Tlaxcalteca de Elecciones y de los partidos políticos.",
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 67 inciso E3 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
@@ -604,12 +639,13 @@ export const dataArt672018 = [
     fundamentoLegal:
       "Articulo. 67 inciso F de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
     actualizacion: "2018",
-    excel: "f",
+    excel: "",
     subRows: [
       {
         no: "",
         letra: "F1",
-        descriptivo: "Los montos de financiamiento público por actividades ordinarias, de campaña y específicas otorgadas a los partidos políticos, asociaciones y agrupaciones políticas o de ciudadanos y demás asociaciones políticas, así como los montos autorizados de financiamiento privado y los topes de los gastos de campañas.",
+        descriptivo:
+          "Los montos de financiamiento público por actividades ordinarias, de campaña y específicas otorgadas a los partidos políticos, asociaciones y agrupaciones políticas o de ciudadanos y demás asociaciones políticas, así como los montos autorizados de financiamiento privado y los topes de los gastos de campañas.",
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 67 inciso E1 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
@@ -619,7 +655,8 @@ export const dataArt672018 = [
       {
         no: "",
         letra: "F2",
-        descriptivo: "Los montos de financiamiento público por actividades ordinarias, de campaña y específicas otorgadas a los partidos políticos, asociaciones y agrupaciones políticas o de ciudadanos y demás asociaciones políticas, así como los montos autorizados de financiamiento privado y los topes de los gastos de campañas.",
+        descriptivo:
+          "Los montos de financiamiento público por actividades ordinarias, de campaña y específicas otorgadas a los partidos políticos, asociaciones y agrupaciones políticas o de ciudadanos y demás asociaciones políticas, así como los montos autorizados de financiamiento privado y los topes de los gastos de campañas.",
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 67 inciso E2 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
@@ -629,7 +666,8 @@ export const dataArt672018 = [
       {
         no: "",
         letra: "F3",
-        descriptivo: "Los montos de financiamiento público por actividades ordinarias, de campaña y específicas otorgadas a los partidos políticos, asociaciones y agrupaciones políticas o de ciudadanos y demás asociaciones políticas, así como los montos autorizados de financiamiento privado y los topes de los gastos de campañas.",
+        descriptivo:
+          "Los montos de financiamiento público por actividades ordinarias, de campaña y específicas otorgadas a los partidos políticos, asociaciones y agrupaciones políticas o de ciudadanos y demás asociaciones políticas, así como los montos autorizados de financiamiento privado y los topes de los gastos de campañas.",
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 67 inciso F3 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
@@ -641,12 +679,13 @@ export const dataArt672018 = [
   {
     no: "7",
     letra: "G",
-    descriptivo: "La metodología e informes sobre la publicación de encuestas por muestreo, encuestas de salida y conteos rápidos.",
+    descriptivo:
+      "La metodología e informes sobre la publicación de encuestas por muestreo, encuestas de salida y conteos rápidos.",
     cumplimiento: "Aplica",
     fundamentoLegal:
       "Articulo. 67 inciso G de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
     actualizacion: "2018",
-    excel: "f",
+    excel: "",
     subRows: [
       {
         no: "",
@@ -661,7 +700,8 @@ export const dataArt672018 = [
       {
         no: "",
         letra: "G2",
-        descriptivo: "Monitoreo de encuestas electorales, sondeos de opinión y contos rápidos no institucionales detectados por la Coordinación Nacional  de Comunicación",
+        descriptivo:
+          "Monitoreo de encuestas electorales, sondeos de opinión y contos rápidos no institucionales detectados por la Coordinación Nacional  de Comunicación",
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 67 inciso D2 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
@@ -681,7 +721,8 @@ export const dataArt672018 = [
       {
         no: "",
         letra: "G4",
-        descriptivo: "Informes presentados por la Secretaría Ejecutiva en el Consejo General",
+        descriptivo:
+          "Informes presentados por la Secretaría Ejecutiva en el Consejo General",
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 67 inciso G4 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
@@ -691,7 +732,8 @@ export const dataArt672018 = [
       {
         no: "",
         letra: "G5",
-        descriptivo: "Personas físicas o morales que pretenden efectuar encuestas de salida y/o conteos rápidos no institucionales",
+        descriptivo:
+          "Personas físicas o morales que pretenden efectuar encuestas de salida y/o conteos rápidos no institucionales",
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 67 inciso G5 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
@@ -701,7 +743,8 @@ export const dataArt672018 = [
       {
         no: "",
         letra: "G6",
-        descriptivo: "Informes que, en su caso, presentó el sujeto obligado ante sus máximos órganos de dirección relacionados con el tema.",
+        descriptivo:
+          "Informes que, en su caso, presentó el sujeto obligado ante sus máximos órganos de dirección relacionados con el tema.",
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 67 inciso G6 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala.",
@@ -713,17 +756,19 @@ export const dataArt672018 = [
   {
     no: "8",
     letra: "H",
-    descriptivo: "La metodología e informe del Programa de Resultados Preliminares Electorales.",
+    descriptivo:
+      "La metodología e informe del Programa de Resultados Preliminares Electorales.",
     cumplimiento: "Aplica",
     fundamentoLegal:
       "Articulo. 67 inciso H de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
     actualizacion: "2018",
-    excel: "f",
+    excel: "",
     subRows: [
       {
         no: "",
         letra: "H1",
-        descriptivo: "Metodología del programa de resultados electorales preliminares.",
+        descriptivo:
+          "Metodología del programa de resultados electorales preliminares.",
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 67 inciso H1 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
@@ -745,12 +790,13 @@ export const dataArt672018 = [
   {
     no: "9",
     letra: "I",
-    descriptivo: "Los cómputos totales de las elecciones y procesos de participación ciudadana.",
+    descriptivo:
+      "Los cómputos totales de las elecciones y procesos de participación ciudadana.",
     cumplimiento: "Aplica",
     fundamentoLegal:
       "Articulo. 67 inciso I de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
     actualizacion: "2018",
-    excel: "f",
+    excel: "path",
   },
   {
     no: "10",
@@ -760,27 +806,29 @@ export const dataArt672018 = [
     fundamentoLegal:
       "Articulo. 67 inciso J de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
     actualizacion: "2018",
-    excel: "f",
+    excel: "path",
   },
   {
     no: "11",
     letra: "K",
-    descriptivo: "Las franquicias postales y telegráficas asignadas al partido político para el cumplimiento de sus funciones.",
+    descriptivo:
+      "Las franquicias postales y telegráficas asignadas al partido político para el cumplimiento de sus funciones.",
     cumplimiento: "No Aplica",
     fundamentoLegal:
       "Los partidos políticos nacionales disfrutarán de las franquicias postales y telegráficas, dentro del territorio nacional, que sean necesarias para el desarrollo de sus actividades, conforme a las reglas establecidas en los artículos 188 de la Ley General de Instituciones y Procedimientos Electorales y 70 de la Ley General de Partidos Políticos correspondiendo al Instituto Nacional Electoral aplicarlas. Para consulta:http://www.ine.mx/archivos3/portal/historico/contenido/Franquicias_Postales/",
     actualizacion: "2018",
-    excel: "f",
+    excel: "",
   },
   {
     no: "12",
     letra: "L",
-    descriptivo: "Los dictámenes, informes y resoluciones sobre pérdida de registro y liquidación del patrimonio de los partidos políticos nacionales y estatales",
+    descriptivo:
+      "Los dictámenes, informes y resoluciones sobre pérdida de registro y liquidación del patrimonio de los partidos políticos nacionales y estatales",
     cumplimiento: "Aplica",
     fundamentoLegal:
       "En el Instituto Tlaxcalteca de Elecciones durante el transcurso del año dos mil dieciséis, ningún partido político nacional se ha colocado en el supuesto de pérdida de registro señalado por el artículo 94 de la Ley General de Partidos Políticos, por ende tampoco se ha actualizado el supuesto de pérdida de acreditación en el ámbito local, previsto en el artículo 45 de la Ley de Partidos Políticos para el Estado de Tlaxcala. Asimismo, en el caso de los partidos políticos con registro local, ninguno se ha colocado en alguno de los supuestos que prevé el artículo 44 de la Ley de Partidos Políticos para el Estado de Tlaxcala, relativos a causales para perder su registro. Se entiende que en ningún caso se ha dado el supuesto de liquidación de patrimonio de partidos políticos nacionales o locales.",
     actualizacion: "2018",
-    excel: "f",
+    excel: "path",
   },
   {
     no: "13",
@@ -790,47 +838,51 @@ export const dataArt672018 = [
     fundamentoLegal:
       "Articulo. 67 inciso M de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
     actualizacion: "2018",
-    excel: "f",
+    excel: "",
     subRows: [
       {
         no: "",
         letra: "M1",
-        descriptivo: "Monitoreo de los espacios de radio y telivisión que difunden noticias.",
+        descriptivo:
+          "Monitoreo de los espacios de radio y telivisión que difunden noticias.",
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 67 inciso M1 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
         actualizacion: "2018",
-        excel: "f",
+        excel: "path",
       },
       {
         no: "",
         letra: "M2",
-        descriptivo: "Informes, convenios, contratos y datos de la institución pública o empresa encargada del monitoreo de los espacios de radio y televisión que difunden noticias.",
+        descriptivo:
+          "Informes, convenios, contratos y datos de la institución pública o empresa encargada del monitoreo de los espacios de radio y televisión que difunden noticias.",
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 67 inciso M2 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
         actualizacion: "2018",
-        excel: "f",
+        excel: "path",
       },
       {
         no: "",
         letra: "M3",
-        descriptivo: "Resultados, metodología y catálogo para el monitoreo de transmiciones sobre las precampañas, y campañas electorales de los espacios en radio y televisión que difunden noticias.",
+        descriptivo:
+          "Resultados, metodología y catálogo para el monitoreo de transmiciones sobre las precampañas, y campañas electorales de los espacios en radio y televisión que difunden noticias.",
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 67 inciso M3 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
         actualizacion: "2018",
-        excel: "f",
+        excel: "path",
       },
       {
         no: "",
         letra: "M4",
-        descriptivo: "Monitoreo de las pautas de transmisión en radio y telivisión.",
+        descriptivo:
+          "Monitoreo de las pautas de transmisión en radio y telivisión.",
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 67 inciso M4 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
         actualizacion: "2018",
-        excel: "f",
+        excel: "path",
       },
     ],
   },
@@ -840,12 +892,13 @@ export const dataArt672019 = [
   {
     no: "1",
     letra: "A1",
-    descriptivo: "Los listados de partidos políticos, asociaciones y agrupaciones políticas o de ciudadanos registrados ante la Autoridad Electoral.",
+    descriptivo:
+      "Los listados de partidos políticos, asociaciones y agrupaciones políticas o de ciudadanos registrados ante la Autoridad Electoral.",
     cumplimiento: "Aplica",
     fundamentoLegal:
       "Articulo. 67 inciso A de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
     actualizacion: "2019",
-    excel: "f",
+    excel: "path",
   },
   {
     no: "2",
@@ -855,27 +908,29 @@ export const dataArt672019 = [
     fundamentoLegal:
       "Articulo. 67 inciso B de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
     actualizacion: "2019",
-    excel: "f",
+    excel: "",
     subRows: [
       {
         no: "",
         letra: "B1",
-        descriptivo: "Los informes que presenten los partidos políticos, asociaciones y agrupaciones políticas o de ciudadanos.",
+        descriptivo:
+          "Los informes que presenten los partidos políticos, asociaciones y agrupaciones políticas o de ciudadanos.",
         cumplimiento: "No Aplica",
         fundamentoLegal:
           "En relación a los informes de ingresos y egresos de los partidos políticos, asociaciones y agrupaciones políticas o de ciudadanos, son presentados ante el Instituto Nacional Electoral; en términos de los artículos 41 apartado V, apartado B, inciso a), numeral 6, de la Ley Fundamental, y 32 de la Ley General de Instituciones y Procedimientos Electorales, por ende el Instituto Tlaxcalteca de Elecciones no es la autoridad competente para recibir dicha documentación",
         actualizacion: "2019",
-        excel: "path",
+        excel: "",
       },
       {
         no: "",
         letra: "B2",
-        descriptivo: "Los informes que presenten los partidos políticos, asociaciones y agrupaciones políticas o de ciudadanos.",
+        descriptivo:
+          "Los informes que presenten los partidos políticos, asociaciones y agrupaciones políticas o de ciudadanos.",
         cumplimiento: "No Aplica",
         fundamentoLegal:
           "En relación a los informes de ingresos y egresos de los partidos políticos, asociaciones y agrupaciones políticas o de ciudadanos, son presentados ante el Instituto Nacional Electoral; en términos de los artículos 41 apartado V, apartado B, inciso a), numeral 6, de la Ley Fundamental, y 32 de la Ley General de Instituciones y Procedimientos Electorales, por ende el Instituto Tlaxcalteca de Elecciones no es la autoridad competente para recibir dicha documentación.",
         actualizacion: "2019",
-        excel: "path",
+        excel: "",
       },
     ],
   },
@@ -887,12 +942,13 @@ export const dataArt672019 = [
     fundamentoLegal:
       "Articulo. 67 inciso C de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
     actualizacion: "2019",
-    excel: "f",
+    excel: "",
     subRows: [
       {
         no: "",
         letra: "C1",
-        descriptivo: "Normatividad en materia de geografía y cartografía electoral.",
+        descriptivo:
+          "Normatividad en materia de geografía y cartografía electoral.",
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 67 inciso C1 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
@@ -929,7 +985,7 @@ export const dataArt672019 = [
     fundamentoLegal:
       "Articulo. 67 inciso D de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
     actualizacion: "2019",
-    excel: "f",
+    excel: "",
     subRows: [
       {
         no: "",
@@ -944,7 +1000,8 @@ export const dataArt672019 = [
       {
         no: "",
         letra: "D2",
-        descriptivo: "Sistema de consulta de candidatos a cargos de elección popular.",
+        descriptivo:
+          "Sistema de consulta de candidatos a cargos de elección popular.",
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 67 inciso D2 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
@@ -964,7 +1021,8 @@ export const dataArt672019 = [
       {
         no: "",
         letra: "D4",
-        descriptivo: "Sistema de consulta de candidatos electos a cargos de elección popular.",
+        descriptivo:
+          "Sistema de consulta de candidatos electos a cargos de elección popular.",
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 67 inciso D4 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
@@ -981,12 +1039,13 @@ export const dataArt672019 = [
     fundamentoLegal:
       "Articulo. 67 inciso E de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
     actualizacion: "2019",
-    excel: "f",
+    excel: "",
     subRows: [
       {
         no: "",
         letra: "E1",
-        descriptivo: "El catálogo de estaciones de radio y canales de televisión, pautas de transmisión, versiones de spots del Instituto Tlaxcalteca de Elecciones y de los partidos políticos.",
+        descriptivo:
+          "El catálogo de estaciones de radio y canales de televisión, pautas de transmisión, versiones de spots del Instituto Tlaxcalteca de Elecciones y de los partidos políticos.",
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 67 inciso E1 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
@@ -996,7 +1055,8 @@ export const dataArt672019 = [
       {
         no: "",
         letra: "E2",
-        descriptivo: "El catálogo de estaciones de radio y canales de televisión, pautas de transmisión, versiones de spots del Instituto Tlaxcalteca de Elecciones y de los partidos políticos.",
+        descriptivo:
+          "El catálogo de estaciones de radio y canales de televisión, pautas de transmisión, versiones de spots del Instituto Tlaxcalteca de Elecciones y de los partidos políticos.",
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 67 inciso E2 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
@@ -1006,7 +1066,8 @@ export const dataArt672019 = [
       {
         no: "",
         letra: "E3",
-        descriptivo: "El catálogo de estaciones de radio y canales de televisión, pautas de transmisión, versiones de spots del Instituto Tlaxcalteca de Elecciones y de los partidos políticos.",
+        descriptivo:
+          "El catálogo de estaciones de radio y canales de televisión, pautas de transmisión, versiones de spots del Instituto Tlaxcalteca de Elecciones y de los partidos políticos.",
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 67 inciso E3 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
@@ -1023,12 +1084,13 @@ export const dataArt672019 = [
     fundamentoLegal:
       "Articulo. 67 inciso F de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
     actualizacion: "2019",
-    excel: "f",
+    excel: "",
     subRows: [
       {
         no: "",
         letra: "F1",
-        descriptivo: "Los montos de financiamiento público por actividades ordinarias, de campaña y específicas otorgadas a los partidos políticos, asociaciones y agrupaciones políticas o de ciudadanos y demás asociaciones políticas, así como los montos autorizados de financiamiento privado y los topes de los gastos de campañas.",
+        descriptivo:
+          "Los montos de financiamiento público por actividades ordinarias, de campaña y específicas otorgadas a los partidos políticos, asociaciones y agrupaciones políticas o de ciudadanos y demás asociaciones políticas, así como los montos autorizados de financiamiento privado y los topes de los gastos de campañas.",
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 67 inciso E1 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
@@ -1038,7 +1100,8 @@ export const dataArt672019 = [
       {
         no: "",
         letra: "F2",
-        descriptivo: "Los montos de financiamiento público por actividades ordinarias, de campaña y específicas otorgadas a los partidos políticos, asociaciones y agrupaciones políticas o de ciudadanos y demás asociaciones políticas, así como los montos autorizados de financiamiento privado y los topes de los gastos de campañas.",
+        descriptivo:
+          "Los montos de financiamiento público por actividades ordinarias, de campaña y específicas otorgadas a los partidos políticos, asociaciones y agrupaciones políticas o de ciudadanos y demás asociaciones políticas, así como los montos autorizados de financiamiento privado y los topes de los gastos de campañas.",
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 67 inciso E2 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
@@ -1048,7 +1111,8 @@ export const dataArt672019 = [
       {
         no: "",
         letra: "F3",
-        descriptivo: "Los montos de financiamiento público por actividades ordinarias, de campaña y específicas otorgadas a los partidos políticos, asociaciones y agrupaciones políticas o de ciudadanos y demás asociaciones políticas, así como los montos autorizados de financiamiento privado y los topes de los gastos de campañas.",
+        descriptivo:
+          "Los montos de financiamiento público por actividades ordinarias, de campaña y específicas otorgadas a los partidos políticos, asociaciones y agrupaciones políticas o de ciudadanos y demás asociaciones políticas, así como los montos autorizados de financiamiento privado y los topes de los gastos de campañas.",
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 67 inciso F3 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
@@ -1060,12 +1124,13 @@ export const dataArt672019 = [
   {
     no: "7",
     letra: "G",
-    descriptivo: "La metodología e informes sobre la publicación de encuestas por muestreo, encuestas de salida y conteos rápidos.",
+    descriptivo:
+      "La metodología e informes sobre la publicación de encuestas por muestreo, encuestas de salida y conteos rápidos.",
     cumplimiento: "Aplica",
     fundamentoLegal:
       "Articulo. 67 inciso G de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
     actualizacion: "2019",
-    excel: "f",
+    excel: "",
     subRows: [
       {
         no: "",
@@ -1080,7 +1145,8 @@ export const dataArt672019 = [
       {
         no: "",
         letra: "G2",
-        descriptivo: "Monitoreo de encuestas electorales, sondeos de opinión y contos rápidos no institucionales detectados por la Coordinación Nacional  de Comunicación",
+        descriptivo:
+          "Monitoreo de encuestas electorales, sondeos de opinión y contos rápidos no institucionales detectados por la Coordinación Nacional  de Comunicación",
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 67 inciso D2 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
@@ -1100,7 +1166,8 @@ export const dataArt672019 = [
       {
         no: "",
         letra: "G4",
-        descriptivo: "Informes presentados por la Secretaría Ejecutiva en el Consejo General",
+        descriptivo:
+          "Informes presentados por la Secretaría Ejecutiva en el Consejo General",
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 67 inciso G4 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
@@ -1110,7 +1177,8 @@ export const dataArt672019 = [
       {
         no: "",
         letra: "G5",
-        descriptivo: "Personas físicas o morales que pretenden efectuar encuestas de salida y/o conteos rápidos no institucionales",
+        descriptivo:
+          "Personas físicas o morales que pretenden efectuar encuestas de salida y/o conteos rápidos no institucionales",
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 67 inciso G5 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
@@ -1120,7 +1188,8 @@ export const dataArt672019 = [
       {
         no: "",
         letra: "G6",
-        descriptivo: "Informes que, en su caso, presentó el sujeto obligado ante sus máximos órganos de dirección relacionados con el tema.",
+        descriptivo:
+          "Informes que, en su caso, presentó el sujeto obligado ante sus máximos órganos de dirección relacionados con el tema.",
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 67 inciso G6 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala.",
@@ -1132,17 +1201,19 @@ export const dataArt672019 = [
   {
     no: "8",
     letra: "H",
-    descriptivo: "La metodología e informe del Programa de Resultados Preliminares Electorales.",
+    descriptivo:
+      "La metodología e informe del Programa de Resultados Preliminares Electorales.",
     cumplimiento: "Aplica",
     fundamentoLegal:
       "Articulo. 67 inciso H de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
     actualizacion: "2019",
-    excel: "f",
+    excel: "",
     subRows: [
       {
         no: "",
         letra: "H1",
-        descriptivo: "Metodología del programa de resultados electorales preliminares.",
+        descriptivo:
+          "Metodología del programa de resultados electorales preliminares.",
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 67 inciso H1 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
@@ -1164,12 +1235,13 @@ export const dataArt672019 = [
   {
     no: "9",
     letra: "I",
-    descriptivo: "Los cómputos totales de las elecciones y procesos de participación ciudadana.",
+    descriptivo:
+      "Los cómputos totales de las elecciones y procesos de participación ciudadana.",
     cumplimiento: "Aplica",
     fundamentoLegal:
       "Articulo. 67 inciso I de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
     actualizacion: "2019",
-    excel: "f",
+    excel: "path",
   },
   {
     no: "10",
@@ -1179,27 +1251,29 @@ export const dataArt672019 = [
     fundamentoLegal:
       "Articulo. 67 inciso J de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
     actualizacion: "2019",
-    excel: "f",
+    excel: "path",
   },
   {
     no: "11",
     letra: "K",
-    descriptivo: "Las franquicias postales y telegráficas asignadas al partido político para el cumplimiento de sus funciones.",
+    descriptivo:
+      "Las franquicias postales y telegráficas asignadas al partido político para el cumplimiento de sus funciones.",
     cumplimiento: "No Aplica",
     fundamentoLegal:
       "Los partidos políticos nacionales disfrutarán de las franquicias postales y telegráficas, dentro del territorio nacional, que sean necesarias para el desarrollo de sus actividades, conforme a las reglas establecidas en los artículos 188 de la Ley General de Instituciones y Procedimientos Electorales y 70 de la Ley General de Partidos Políticos correspondiendo al Instituto Nacional Electoral aplicarlas. Para consulta:http://www.ine.mx/archivos3/portal/historico/contenido/Franquicias_Postales/",
     actualizacion: "2019",
-    excel: "f",
+    excel: "",
   },
   {
     no: "12",
     letra: "L",
-    descriptivo: "Los dictámenes, informes y resoluciones sobre pérdida de registro y liquidación del patrimonio de los partidos políticos nacionales y estatales",
+    descriptivo:
+      "Los dictámenes, informes y resoluciones sobre pérdida de registro y liquidación del patrimonio de los partidos políticos nacionales y estatales",
     cumplimiento: "Aplica",
     fundamentoLegal:
       "En el Instituto Tlaxcalteca de Elecciones durante el transcurso del año dos mil dieciséis, ningún partido político nacional se ha colocado en el supuesto de pérdida de registro señalado por el artículo 94 de la Ley General de Partidos Políticos, por ende tampoco se ha actualizado el supuesto de pérdida de acreditación en el ámbito local, previsto en el artículo 45 de la Ley de Partidos Políticos para el Estado de Tlaxcala. Asimismo, en el caso de los partidos políticos con registro local, ninguno se ha colocado en alguno de los supuestos que prevé el artículo 44 de la Ley de Partidos Políticos para el Estado de Tlaxcala, relativos a causales para perder su registro. Se entiende que en ningún caso se ha dado el supuesto de liquidación de patrimonio de partidos políticos nacionales o locales.",
     actualizacion: "2019",
-    excel: "f",
+    excel: "path",
   },
   {
     no: "13",
@@ -1209,47 +1283,51 @@ export const dataArt672019 = [
     fundamentoLegal:
       "Articulo. 67 inciso M de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
     actualizacion: "2019",
-    excel: "f",
+    excel: "",
     subRows: [
       {
         no: "",
         letra: "M1",
-        descriptivo: "Monitoreo de los espacios de radio y telivisión que difunden noticias.",
+        descriptivo:
+          "Monitoreo de los espacios de radio y telivisión que difunden noticias.",
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 67 inciso M1 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
         actualizacion: "2019",
-        excel: "f",
+        excel: "path",
       },
       {
         no: "",
         letra: "M2",
-        descriptivo: "Informes, convenios, contratos y datos de la institución pública o empresa encargada del monitoreo de los espacios de radio y televisión que difunden noticias.",
+        descriptivo:
+          "Informes, convenios, contratos y datos de la institución pública o empresa encargada del monitoreo de los espacios de radio y televisión que difunden noticias.",
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 67 inciso M2 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
         actualizacion: "2019",
-        excel: "f",
+        excel: "path",
       },
       {
         no: "",
         letra: "M3",
-        descriptivo: "Resultados, metodología y catálogo para el monitoreo de transmiciones sobre las precampañas, y campañas electorales de los espacios en radio y televisión que difunden noticias.",
+        descriptivo:
+          "Resultados, metodología y catálogo para el monitoreo de transmiciones sobre las precampañas, y campañas electorales de los espacios en radio y televisión que difunden noticias.",
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 67 inciso M3 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
         actualizacion: "2019",
-        excel: "f",
+        excel: "path",
       },
       {
         no: "",
         letra: "M4",
-        descriptivo: "Monitoreo de las pautas de transmisión en radio y telivisión.",
+        descriptivo:
+          "Monitoreo de las pautas de transmisión en radio y telivisión.",
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 67 inciso M4 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
         actualizacion: "2019",
-        excel: "f",
+        excel: "path",
       },
     ],
   },
@@ -1259,12 +1337,13 @@ export const dataArt672020 = [
   {
     no: "1",
     letra: "A1",
-    descriptivo: "Los listados de partidos políticos, asociaciones y agrupaciones políticas o de ciudadanos registrados ante la Autoridad Electoral.",
+    descriptivo:
+      "Los listados de partidos políticos, asociaciones y agrupaciones políticas o de ciudadanos registrados ante la Autoridad Electoral.",
     cumplimiento: "Aplica",
     fundamentoLegal:
       "Articulo. 67 inciso A de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
     actualizacion: "2020",
-    excel: "f",
+    excel: "path",
   },
   {
     no: "2",
@@ -1274,27 +1353,29 @@ export const dataArt672020 = [
     fundamentoLegal:
       "Articulo. 67 inciso B de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
     actualizacion: "2020",
-    excel: "f",
+    excel: "",
     subRows: [
       {
         no: "",
         letra: "B1",
-        descriptivo: "Los informes que presenten los partidos políticos, asociaciones y agrupaciones políticas o de ciudadanos.",
+        descriptivo:
+          "Los informes que presenten los partidos políticos, asociaciones y agrupaciones políticas o de ciudadanos.",
         cumplimiento: "No Aplica",
         fundamentoLegal:
           "En relación a los informes de ingresos y egresos de los partidos políticos, asociaciones y agrupaciones políticas o de ciudadanos, son presentados ante el Instituto Nacional Electoral; en términos de los artículos 41 apartado V, apartado B, inciso a), numeral 6, de la Ley Fundamental, y 32 de la Ley General de Instituciones y Procedimientos Electorales, por ende el Instituto Tlaxcalteca de Elecciones no es la autoridad competente para recibir dicha documentación",
         actualizacion: "2020",
-        excel: "path",
+        excel: "",
       },
       {
         no: "",
         letra: "B2",
-        descriptivo: "Los informes que presenten los partidos políticos, asociaciones y agrupaciones políticas o de ciudadanos.",
+        descriptivo:
+          "Los informes que presenten los partidos políticos, asociaciones y agrupaciones políticas o de ciudadanos.",
         cumplimiento: "No Aplica",
         fundamentoLegal:
           "En relación a los informes de ingresos y egresos de los partidos políticos, asociaciones y agrupaciones políticas o de ciudadanos, son presentados ante el Instituto Nacional Electoral; en términos de los artículos 41 apartado V, apartado B, inciso a), numeral 6, de la Ley Fundamental, y 32 de la Ley General de Instituciones y Procedimientos Electorales, por ende el Instituto Tlaxcalteca de Elecciones no es la autoridad competente para recibir dicha documentación.",
         actualizacion: "2020",
-        excel: "path",
+        excel: "",
       },
     ],
   },
@@ -1306,12 +1387,13 @@ export const dataArt672020 = [
     fundamentoLegal:
       "Articulo. 67 inciso C de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
     actualizacion: "2020",
-    excel: "f",
+    excel: "",
     subRows: [
       {
         no: "",
         letra: "C1",
-        descriptivo: "Normatividad en materia de geografía y cartografía electoral.",
+        descriptivo:
+          "Normatividad en materia de geografía y cartografía electoral.",
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 67 inciso C1 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
@@ -1348,7 +1430,7 @@ export const dataArt672020 = [
     fundamentoLegal:
       "Articulo. 67 inciso D de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
     actualizacion: "2020",
-    excel: "f",
+    excel: "",
     subRows: [
       {
         no: "",
@@ -1363,7 +1445,8 @@ export const dataArt672020 = [
       {
         no: "",
         letra: "D2",
-        descriptivo: "Sistema de consulta de candidatos a cargos de elección popular.",
+        descriptivo:
+          "Sistema de consulta de candidatos a cargos de elección popular.",
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 67 inciso D2 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
@@ -1383,7 +1466,8 @@ export const dataArt672020 = [
       {
         no: "",
         letra: "D4",
-        descriptivo: "Sistema de consulta de candidatos electos a cargos de elección popular.",
+        descriptivo:
+          "Sistema de consulta de candidatos electos a cargos de elección popular.",
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 67 inciso D4 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
@@ -1400,12 +1484,13 @@ export const dataArt672020 = [
     fundamentoLegal:
       "Articulo. 67 inciso E de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
     actualizacion: "2020",
-    excel: "f",
+    excel: "",
     subRows: [
       {
         no: "",
         letra: "E1",
-        descriptivo: "El catálogo de estaciones de radio y canales de televisión, pautas de transmisión, versiones de spots del Instituto Tlaxcalteca de Elecciones y de los partidos políticos.",
+        descriptivo:
+          "El catálogo de estaciones de radio y canales de televisión, pautas de transmisión, versiones de spots del Instituto Tlaxcalteca de Elecciones y de los partidos políticos.",
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 67 inciso E1 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
@@ -1415,7 +1500,8 @@ export const dataArt672020 = [
       {
         no: "",
         letra: "E2",
-        descriptivo: "El catálogo de estaciones de radio y canales de televisión, pautas de transmisión, versiones de spots del Instituto Tlaxcalteca de Elecciones y de los partidos políticos.",
+        descriptivo:
+          "El catálogo de estaciones de radio y canales de televisión, pautas de transmisión, versiones de spots del Instituto Tlaxcalteca de Elecciones y de los partidos políticos.",
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 67 inciso E2 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
@@ -1425,7 +1511,8 @@ export const dataArt672020 = [
       {
         no: "",
         letra: "E3",
-        descriptivo: "El catálogo de estaciones de radio y canales de televisión, pautas de transmisión, versiones de spots del Instituto Tlaxcalteca de Elecciones y de los partidos políticos.",
+        descriptivo:
+          "El catálogo de estaciones de radio y canales de televisión, pautas de transmisión, versiones de spots del Instituto Tlaxcalteca de Elecciones y de los partidos políticos.",
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 67 inciso E3 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
@@ -1442,12 +1529,13 @@ export const dataArt672020 = [
     fundamentoLegal:
       "Articulo. 67 inciso F de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
     actualizacion: "2020",
-    excel: "f",
+    excel: "",
     subRows: [
       {
         no: "",
         letra: "F1",
-        descriptivo: "Los montos de financiamiento público por actividades ordinarias, de campaña y específicas otorgadas a los partidos políticos, asociaciones y agrupaciones políticas o de ciudadanos y demás asociaciones políticas, así como los montos autorizados de financiamiento privado y los topes de los gastos de campañas.",
+        descriptivo:
+          "Los montos de financiamiento público por actividades ordinarias, de campaña y específicas otorgadas a los partidos políticos, asociaciones y agrupaciones políticas o de ciudadanos y demás asociaciones políticas, así como los montos autorizados de financiamiento privado y los topes de los gastos de campañas.",
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 67 inciso E1 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
@@ -1457,7 +1545,8 @@ export const dataArt672020 = [
       {
         no: "",
         letra: "F2",
-        descriptivo: "Los montos de financiamiento público por actividades ordinarias, de campaña y específicas otorgadas a los partidos políticos, asociaciones y agrupaciones políticas o de ciudadanos y demás asociaciones políticas, así como los montos autorizados de financiamiento privado y los topes de los gastos de campañas.",
+        descriptivo:
+          "Los montos de financiamiento público por actividades ordinarias, de campaña y específicas otorgadas a los partidos políticos, asociaciones y agrupaciones políticas o de ciudadanos y demás asociaciones políticas, así como los montos autorizados de financiamiento privado y los topes de los gastos de campañas.",
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 67 inciso E2 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
@@ -1467,7 +1556,8 @@ export const dataArt672020 = [
       {
         no: "",
         letra: "F3",
-        descriptivo: "Los montos de financiamiento público por actividades ordinarias, de campaña y específicas otorgadas a los partidos políticos, asociaciones y agrupaciones políticas o de ciudadanos y demás asociaciones políticas, así como los montos autorizados de financiamiento privado y los topes de los gastos de campañas.",
+        descriptivo:
+          "Los montos de financiamiento público por actividades ordinarias, de campaña y específicas otorgadas a los partidos políticos, asociaciones y agrupaciones políticas o de ciudadanos y demás asociaciones políticas, así como los montos autorizados de financiamiento privado y los topes de los gastos de campañas.",
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 67 inciso F3 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
@@ -1479,12 +1569,13 @@ export const dataArt672020 = [
   {
     no: "7",
     letra: "G",
-    descriptivo: "La metodología e informes sobre la publicación de encuestas por muestreo, encuestas de salida y conteos rápidos.",
+    descriptivo:
+      "La metodología e informes sobre la publicación de encuestas por muestreo, encuestas de salida y conteos rápidos.",
     cumplimiento: "Aplica",
     fundamentoLegal:
       "Articulo. 67 inciso G de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
     actualizacion: "2020",
-    excel: "f",
+    excel: "",
     subRows: [
       {
         no: "",
@@ -1499,7 +1590,8 @@ export const dataArt672020 = [
       {
         no: "",
         letra: "G2",
-        descriptivo: "Monitoreo de encuestas electorales, sondeos de opinión y contos rápidos no institucionales detectados por la Coordinación Nacional  de Comunicación",
+        descriptivo:
+          "Monitoreo de encuestas electorales, sondeos de opinión y contos rápidos no institucionales detectados por la Coordinación Nacional  de Comunicación",
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 67 inciso D2 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
@@ -1519,7 +1611,8 @@ export const dataArt672020 = [
       {
         no: "",
         letra: "G4",
-        descriptivo: "Informes presentados por la Secretaría Ejecutiva en el Consejo General",
+        descriptivo:
+          "Informes presentados por la Secretaría Ejecutiva en el Consejo General",
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 67 inciso G4 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
@@ -1529,7 +1622,8 @@ export const dataArt672020 = [
       {
         no: "",
         letra: "G5",
-        descriptivo: "Personas físicas o morales que pretenden efectuar encuestas de salida y/o conteos rápidos no institucionales",
+        descriptivo:
+          "Personas físicas o morales que pretenden efectuar encuestas de salida y/o conteos rápidos no institucionales",
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 67 inciso G5 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
@@ -1539,7 +1633,8 @@ export const dataArt672020 = [
       {
         no: "",
         letra: "G6",
-        descriptivo: "Informes que, en su caso, presentó el sujeto obligado ante sus máximos órganos de dirección relacionados con el tema.",
+        descriptivo:
+          "Informes que, en su caso, presentó el sujeto obligado ante sus máximos órganos de dirección relacionados con el tema.",
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 67 inciso G6 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala.",
@@ -1551,17 +1646,19 @@ export const dataArt672020 = [
   {
     no: "8",
     letra: "H",
-    descriptivo: "La metodología e informe del Programa de Resultados Preliminares Electorales.",
+    descriptivo:
+      "La metodología e informe del Programa de Resultados Preliminares Electorales.",
     cumplimiento: "Aplica",
     fundamentoLegal:
       "Articulo. 67 inciso H de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
     actualizacion: "2020",
-    excel: "f",
+    excel: "",
     subRows: [
       {
         no: "",
         letra: "H1",
-        descriptivo: "Metodología del programa de resultados electorales preliminares.",
+        descriptivo:
+          "Metodología del programa de resultados electorales preliminares.",
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 67 inciso H1 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
@@ -1583,12 +1680,13 @@ export const dataArt672020 = [
   {
     no: "9",
     letra: "I",
-    descriptivo: "Los cómputos totales de las elecciones y procesos de participación ciudadana.",
+    descriptivo:
+      "Los cómputos totales de las elecciones y procesos de participación ciudadana.",
     cumplimiento: "Aplica",
     fundamentoLegal:
       "Articulo. 67 inciso I de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
     actualizacion: "2020",
-    excel: "f",
+    excel: "path",
   },
   {
     no: "10",
@@ -1598,27 +1696,29 @@ export const dataArt672020 = [
     fundamentoLegal:
       "Articulo. 67 inciso J de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
     actualizacion: "2020",
-    excel: "f",
+    excel: "path",
   },
   {
     no: "11",
     letra: "K",
-    descriptivo: "Las franquicias postales y telegráficas asignadas al partido político para el cumplimiento de sus funciones.",
+    descriptivo:
+      "Las franquicias postales y telegráficas asignadas al partido político para el cumplimiento de sus funciones.",
     cumplimiento: "No Aplica",
     fundamentoLegal:
       "Los partidos políticos nacionales disfrutarán de las franquicias postales y telegráficas, dentro del territorio nacional, que sean necesarias para el desarrollo de sus actividades, conforme a las reglas establecidas en los artículos 188 de la Ley General de Instituciones y Procedimientos Electorales y 70 de la Ley General de Partidos Políticos correspondiendo al Instituto Nacional Electoral aplicarlas. Para consulta:http://www.ine.mx/archivos3/portal/historico/contenido/Franquicias_Postales/",
     actualizacion: "2020",
-    excel: "f",
+    excel: "",
   },
   {
     no: "12",
     letra: "L",
-    descriptivo: "Los dictámenes, informes y resoluciones sobre pérdida de registro y liquidación del patrimonio de los partidos políticos nacionales y estatales",
+    descriptivo:
+      "Los dictámenes, informes y resoluciones sobre pérdida de registro y liquidación del patrimonio de los partidos políticos nacionales y estatales",
     cumplimiento: "Aplica",
     fundamentoLegal:
       "En el Instituto Tlaxcalteca de Elecciones durante el transcurso del año dos mil dieciséis, ningún partido político nacional se ha colocado en el supuesto de pérdida de registro señalado por el artículo 94 de la Ley General de Partidos Políticos, por ende tampoco se ha actualizado el supuesto de pérdida de acreditación en el ámbito local, previsto en el artículo 45 de la Ley de Partidos Políticos para el Estado de Tlaxcala. Asimismo, en el caso de los partidos políticos con registro local, ninguno se ha colocado en alguno de los supuestos que prevé el artículo 44 de la Ley de Partidos Políticos para el Estado de Tlaxcala, relativos a causales para perder su registro. Se entiende que en ningún caso se ha dado el supuesto de liquidación de patrimonio de partidos políticos nacionales o locales.",
     actualizacion: "2020",
-    excel: "f",
+    excel: "path",
   },
   {
     no: "13",
@@ -1628,47 +1728,51 @@ export const dataArt672020 = [
     fundamentoLegal:
       "Articulo. 67 inciso M de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
     actualizacion: "2020",
-    excel: "f",
+    excel: "",
     subRows: [
       {
         no: "",
         letra: "M1",
-        descriptivo: "Monitoreo de los espacios de radio y telivisión que difunden noticias.",
+        descriptivo:
+          "Monitoreo de los espacios de radio y telivisión que difunden noticias.",
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 67 inciso M1 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
         actualizacion: "2020",
-        excel: "f",
+        excel: "path",
       },
       {
         no: "",
         letra: "M2",
-        descriptivo: "Informes, convenios, contratos y datos de la institución pública o empresa encargada del monitoreo de los espacios de radio y televisión que difunden noticias.",
+        descriptivo:
+          "Informes, convenios, contratos y datos de la institución pública o empresa encargada del monitoreo de los espacios de radio y televisión que difunden noticias.",
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 67 inciso M2 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
         actualizacion: "2020",
-        excel: "f",
+        excel: "path",
       },
       {
         no: "",
         letra: "M3",
-        descriptivo: "Resultados, metodología y catálogo para el monitoreo de transmiciones sobre las precampañas, y campañas electorales de los espacios en radio y televisión que difunden noticias.",
+        descriptivo:
+          "Resultados, metodología y catálogo para el monitoreo de transmiciones sobre las precampañas, y campañas electorales de los espacios en radio y televisión que difunden noticias.",
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 67 inciso M3 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
         actualizacion: "2020",
-        excel: "f",
+        excel: "path",
       },
       {
         no: "",
         letra: "M4",
-        descriptivo: "Monitoreo de las pautas de transmisión en radio y telivisión.",
+        descriptivo:
+          "Monitoreo de las pautas de transmisión en radio y telivisión.",
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 67 inciso M4 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
         actualizacion: "2020",
-        excel: "f",
+        excel: "path",
       },
     ],
   },
@@ -1678,12 +1782,13 @@ export const dataArt672021 = [
   {
     no: "1",
     letra: "A1",
-    descriptivo: "Los listados de partidos políticos, asociaciones y agrupaciones políticas o de ciudadanos registrados ante la Autoridad Electoral.",
+    descriptivo:
+      "Los listados de partidos políticos, asociaciones y agrupaciones políticas o de ciudadanos registrados ante la Autoridad Electoral.",
     cumplimiento: "Aplica",
     fundamentoLegal:
       "Articulo. 67 inciso A de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
     actualizacion: "2021",
-    excel: "f",
+    excel: "path",
   },
   {
     no: "2",
@@ -1693,27 +1798,29 @@ export const dataArt672021 = [
     fundamentoLegal:
       "Articulo. 67 inciso B de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
     actualizacion: "2021",
-    excel: "f",
+    excel: "",
     subRows: [
       {
         no: "",
         letra: "B1",
-        descriptivo: "Los informes que presenten los partidos políticos, asociaciones y agrupaciones políticas o de ciudadanos.",
+        descriptivo:
+          "Los informes que presenten los partidos políticos, asociaciones y agrupaciones políticas o de ciudadanos.",
         cumplimiento: "No Aplica",
         fundamentoLegal:
           "En relación a los informes de ingresos y egresos de los partidos políticos, asociaciones y agrupaciones políticas o de ciudadanos, son presentados ante el Instituto Nacional Electoral; en términos de los artículos 41 apartado V, apartado B, inciso a), numeral 6, de la Ley Fundamental, y 32 de la Ley General de Instituciones y Procedimientos Electorales, por ende el Instituto Tlaxcalteca de Elecciones no es la autoridad competente para recibir dicha documentación",
         actualizacion: "2021",
-        excel: "path",
+        excel: "",
       },
       {
         no: "",
         letra: "B2",
-        descriptivo: "Los informes que presenten los partidos políticos, asociaciones y agrupaciones políticas o de ciudadanos.",
+        descriptivo:
+          "Los informes que presenten los partidos políticos, asociaciones y agrupaciones políticas o de ciudadanos.",
         cumplimiento: "No Aplica",
         fundamentoLegal:
           "En relación a los informes de ingresos y egresos de los partidos políticos, asociaciones y agrupaciones políticas o de ciudadanos, son presentados ante el Instituto Nacional Electoral; en términos de los artículos 41 apartado V, apartado B, inciso a), numeral 6, de la Ley Fundamental, y 32 de la Ley General de Instituciones y Procedimientos Electorales, por ende el Instituto Tlaxcalteca de Elecciones no es la autoridad competente para recibir dicha documentación.",
         actualizacion: "2021",
-        excel: "path",
+        excel: "",
       },
     ],
   },
@@ -1725,12 +1832,13 @@ export const dataArt672021 = [
     fundamentoLegal:
       "Articulo. 67 inciso C de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
     actualizacion: "2021",
-    excel: "f",
+    excel: "",
     subRows: [
       {
         no: "",
         letra: "C1",
-        descriptivo: "Normatividad en materia de geografía y cartografía electoral.",
+        descriptivo:
+          "Normatividad en materia de geografía y cartografía electoral.",
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 67 inciso C1 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
@@ -1767,7 +1875,7 @@ export const dataArt672021 = [
     fundamentoLegal:
       "Articulo. 67 inciso D de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
     actualizacion: "2021",
-    excel: "f",
+    excel: "",
     subRows: [
       {
         no: "",
@@ -1782,7 +1890,8 @@ export const dataArt672021 = [
       {
         no: "",
         letra: "D2",
-        descriptivo: "Sistema de consulta de candidatos a cargos de elección popular.",
+        descriptivo:
+          "Sistema de consulta de candidatos a cargos de elección popular.",
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 67 inciso D2 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
@@ -1802,7 +1911,8 @@ export const dataArt672021 = [
       {
         no: "",
         letra: "D4",
-        descriptivo: "Sistema de consulta de candidatos electos a cargos de elección popular.",
+        descriptivo:
+          "Sistema de consulta de candidatos electos a cargos de elección popular.",
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 67 inciso D4 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
@@ -1819,12 +1929,13 @@ export const dataArt672021 = [
     fundamentoLegal:
       "Articulo. 67 inciso E de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
     actualizacion: "2021",
-    excel: "f",
+    excel: "",
     subRows: [
       {
         no: "",
         letra: "E1",
-        descriptivo: "El catálogo de estaciones de radio y canales de televisión, pautas de transmisión, versiones de spots del Instituto Tlaxcalteca de Elecciones y de los partidos políticos.",
+        descriptivo:
+          "El catálogo de estaciones de radio y canales de televisión, pautas de transmisión, versiones de spots del Instituto Tlaxcalteca de Elecciones y de los partidos políticos.",
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 67 inciso E1 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
@@ -1834,7 +1945,8 @@ export const dataArt672021 = [
       {
         no: "",
         letra: "E2",
-        descriptivo: "El catálogo de estaciones de radio y canales de televisión, pautas de transmisión, versiones de spots del Instituto Tlaxcalteca de Elecciones y de los partidos políticos.",
+        descriptivo:
+          "El catálogo de estaciones de radio y canales de televisión, pautas de transmisión, versiones de spots del Instituto Tlaxcalteca de Elecciones y de los partidos políticos.",
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 67 inciso E2 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
@@ -1844,7 +1956,8 @@ export const dataArt672021 = [
       {
         no: "",
         letra: "E3",
-        descriptivo: "El catálogo de estaciones de radio y canales de televisión, pautas de transmisión, versiones de spots del Instituto Tlaxcalteca de Elecciones y de los partidos políticos.",
+        descriptivo:
+          "El catálogo de estaciones de radio y canales de televisión, pautas de transmisión, versiones de spots del Instituto Tlaxcalteca de Elecciones y de los partidos políticos.",
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 67 inciso E3 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
@@ -1861,12 +1974,13 @@ export const dataArt672021 = [
     fundamentoLegal:
       "Articulo. 67 inciso F de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
     actualizacion: "2021",
-    excel: "f",
+    excel: "",
     subRows: [
       {
         no: "",
         letra: "F1",
-        descriptivo: "Los montos de financiamiento público por actividades ordinarias, de campaña y específicas otorgadas a los partidos políticos, asociaciones y agrupaciones políticas o de ciudadanos y demás asociaciones políticas, así como los montos autorizados de financiamiento privado y los topes de los gastos de campañas.",
+        descriptivo:
+          "Los montos de financiamiento público por actividades ordinarias, de campaña y específicas otorgadas a los partidos políticos, asociaciones y agrupaciones políticas o de ciudadanos y demás asociaciones políticas, así como los montos autorizados de financiamiento privado y los topes de los gastos de campañas.",
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 67 inciso E1 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
@@ -1876,7 +1990,8 @@ export const dataArt672021 = [
       {
         no: "",
         letra: "F2",
-        descriptivo: "Los montos de financiamiento público por actividades ordinarias, de campaña y específicas otorgadas a los partidos políticos, asociaciones y agrupaciones políticas o de ciudadanos y demás asociaciones políticas, así como los montos autorizados de financiamiento privado y los topes de los gastos de campañas.",
+        descriptivo:
+          "Los montos de financiamiento público por actividades ordinarias, de campaña y específicas otorgadas a los partidos políticos, asociaciones y agrupaciones políticas o de ciudadanos y demás asociaciones políticas, así como los montos autorizados de financiamiento privado y los topes de los gastos de campañas.",
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 67 inciso E2 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
@@ -1886,7 +2001,8 @@ export const dataArt672021 = [
       {
         no: "",
         letra: "F3",
-        descriptivo: "Los montos de financiamiento público por actividades ordinarias, de campaña y específicas otorgadas a los partidos políticos, asociaciones y agrupaciones políticas o de ciudadanos y demás asociaciones políticas, así como los montos autorizados de financiamiento privado y los topes de los gastos de campañas.",
+        descriptivo:
+          "Los montos de financiamiento público por actividades ordinarias, de campaña y específicas otorgadas a los partidos políticos, asociaciones y agrupaciones políticas o de ciudadanos y demás asociaciones políticas, así como los montos autorizados de financiamiento privado y los topes de los gastos de campañas.",
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 67 inciso F3 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
@@ -1898,12 +2014,13 @@ export const dataArt672021 = [
   {
     no: "7",
     letra: "G",
-    descriptivo: "La metodología e informes sobre la publicación de encuestas por muestreo, encuestas de salida y conteos rápidos.",
+    descriptivo:
+      "La metodología e informes sobre la publicación de encuestas por muestreo, encuestas de salida y conteos rápidos.",
     cumplimiento: "Aplica",
     fundamentoLegal:
       "Articulo. 67 inciso G de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
     actualizacion: "2021",
-    excel: "f",
+    excel: "",
     subRows: [
       {
         no: "",
@@ -1918,7 +2035,8 @@ export const dataArt672021 = [
       {
         no: "",
         letra: "G2",
-        descriptivo: "Monitoreo de encuestas electorales, sondeos de opinión y contos rápidos no institucionales detectados por la Coordinación Nacional  de Comunicación",
+        descriptivo:
+          "Monitoreo de encuestas electorales, sondeos de opinión y contos rápidos no institucionales detectados por la Coordinación Nacional  de Comunicación",
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 67 inciso D2 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
@@ -1938,7 +2056,8 @@ export const dataArt672021 = [
       {
         no: "",
         letra: "G4",
-        descriptivo: "Informes presentados por la Secretaría Ejecutiva en el Consejo General",
+        descriptivo:
+          "Informes presentados por la Secretaría Ejecutiva en el Consejo General",
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 67 inciso G4 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
@@ -1948,7 +2067,8 @@ export const dataArt672021 = [
       {
         no: "",
         letra: "G5",
-        descriptivo: "Personas físicas o morales que pretenden efectuar encuestas de salida y/o conteos rápidos no institucionales",
+        descriptivo:
+          "Personas físicas o morales que pretenden efectuar encuestas de salida y/o conteos rápidos no institucionales",
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 67 inciso G5 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
@@ -1958,7 +2078,8 @@ export const dataArt672021 = [
       {
         no: "",
         letra: "G6",
-        descriptivo: "Informes que, en su caso, presentó el sujeto obligado ante sus máximos órganos de dirección relacionados con el tema.",
+        descriptivo:
+          "Informes que, en su caso, presentó el sujeto obligado ante sus máximos órganos de dirección relacionados con el tema.",
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 67 inciso G6 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala.",
@@ -1970,17 +2091,19 @@ export const dataArt672021 = [
   {
     no: "8",
     letra: "H",
-    descriptivo: "La metodología e informe del Programa de Resultados Preliminares Electorales.",
+    descriptivo:
+      "La metodología e informe del Programa de Resultados Preliminares Electorales.",
     cumplimiento: "Aplica",
     fundamentoLegal:
       "Articulo. 67 inciso H de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
     actualizacion: "2021",
-    excel: "f",
+    excel: "",
     subRows: [
       {
         no: "",
         letra: "H1",
-        descriptivo: "Metodología del programa de resultados electorales preliminares.",
+        descriptivo:
+          "Metodología del programa de resultados electorales preliminares.",
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 67 inciso H1 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
@@ -2002,12 +2125,13 @@ export const dataArt672021 = [
   {
     no: "9",
     letra: "I",
-    descriptivo: "Los cómputos totales de las elecciones y procesos de participación ciudadana.",
+    descriptivo:
+      "Los cómputos totales de las elecciones y procesos de participación ciudadana.",
     cumplimiento: "Aplica",
     fundamentoLegal:
       "Articulo. 67 inciso I de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
     actualizacion: "2021",
-    excel: "f",
+    excel: "path",
   },
   {
     no: "10",
@@ -2017,27 +2141,29 @@ export const dataArt672021 = [
     fundamentoLegal:
       "Articulo. 67 inciso J de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
     actualizacion: "2021",
-    excel: "f",
+    excel: "path",
   },
   {
     no: "11",
     letra: "K",
-    descriptivo: "Las franquicias postales y telegráficas asignadas al partido político para el cumplimiento de sus funciones.",
+    descriptivo:
+      "Las franquicias postales y telegráficas asignadas al partido político para el cumplimiento de sus funciones.",
     cumplimiento: "No Aplica",
     fundamentoLegal:
       "Los partidos políticos nacionales disfrutarán de las franquicias postales y telegráficas, dentro del territorio nacional, que sean necesarias para el desarrollo de sus actividades, conforme a las reglas establecidas en los artículos 188 de la Ley General de Instituciones y Procedimientos Electorales y 70 de la Ley General de Partidos Políticos correspondiendo al Instituto Nacional Electoral aplicarlas. Para consulta:http://www.ine.mx/archivos3/portal/historico/contenido/Franquicias_Postales/",
     actualizacion: "2021",
-    excel: "f",
+    excel: "",
   },
   {
     no: "12",
     letra: "L",
-    descriptivo: "Los dictámenes, informes y resoluciones sobre pérdida de registro y liquidación del patrimonio de los partidos políticos nacionales y estatales",
+    descriptivo:
+      "Los dictámenes, informes y resoluciones sobre pérdida de registro y liquidación del patrimonio de los partidos políticos nacionales y estatales",
     cumplimiento: "Aplica",
     fundamentoLegal:
       "En el Instituto Tlaxcalteca de Elecciones durante el transcurso del año dos mil dieciséis, ningún partido político nacional se ha colocado en el supuesto de pérdida de registro señalado por el artículo 94 de la Ley General de Partidos Políticos, por ende tampoco se ha actualizado el supuesto de pérdida de acreditación en el ámbito local, previsto en el artículo 45 de la Ley de Partidos Políticos para el Estado de Tlaxcala. Asimismo, en el caso de los partidos políticos con registro local, ninguno se ha colocado en alguno de los supuestos que prevé el artículo 44 de la Ley de Partidos Políticos para el Estado de Tlaxcala, relativos a causales para perder su registro. Se entiende que en ningún caso se ha dado el supuesto de liquidación de patrimonio de partidos políticos nacionales o locales.",
     actualizacion: "2021",
-    excel: "f",
+    excel: "path",
   },
   {
     no: "13",
@@ -2047,47 +2173,51 @@ export const dataArt672021 = [
     fundamentoLegal:
       "Articulo. 67 inciso M de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
     actualizacion: "2021",
-    excel: "f",
+    excel: "",
     subRows: [
       {
         no: "",
         letra: "M1",
-        descriptivo: "Monitoreo de los espacios de radio y telivisión que difunden noticias.",
+        descriptivo:
+          "Monitoreo de los espacios de radio y telivisión que difunden noticias.",
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 67 inciso M1 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
         actualizacion: "2021",
-        excel: "f",
+        excel: "path",
       },
       {
         no: "",
         letra: "M2",
-        descriptivo: "Informes, convenios, contratos y datos de la institución pública o empresa encargada del monitoreo de los espacios de radio y televisión que difunden noticias.",
+        descriptivo:
+          "Informes, convenios, contratos y datos de la institución pública o empresa encargada del monitoreo de los espacios de radio y televisión que difunden noticias.",
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 67 inciso M2 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
         actualizacion: "2021",
-        excel: "f",
+        excel: "path",
       },
       {
         no: "",
         letra: "M3",
-        descriptivo: "Resultados, metodología y catálogo para el monitoreo de transmiciones sobre las precampañas, y campañas electorales de los espacios en radio y televisión que difunden noticias.",
+        descriptivo:
+          "Resultados, metodología y catálogo para el monitoreo de transmiciones sobre las precampañas, y campañas electorales de los espacios en radio y televisión que difunden noticias.",
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 67 inciso M3 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
         actualizacion: "2021",
-        excel: "f",
+        excel: "path",
       },
       {
         no: "",
         letra: "M4",
-        descriptivo: "Monitoreo de las pautas de transmisión en radio y telivisión.",
+        descriptivo:
+          "Monitoreo de las pautas de transmisión en radio y telivisión.",
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 67 inciso M4 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
         actualizacion: "2021",
-        excel: "f",
+        excel: "path",
       },
     ],
   },
@@ -2097,12 +2227,13 @@ export const dataArt672022 = [
   {
     no: "1",
     letra: "A1",
-    descriptivo: "Los listados de partidos políticos, asociaciones y agrupaciones políticas o de ciudadanos registrados ante la Autoridad Electoral.",
+    descriptivo:
+      "Los listados de partidos políticos, asociaciones y agrupaciones políticas o de ciudadanos registrados ante la Autoridad Electoral.",
     cumplimiento: "Aplica",
     fundamentoLegal:
       "Articulo. 67 inciso A de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
     actualizacion: "2022",
-    excel: "f",
+    excel: "path",
   },
   {
     no: "2",
@@ -2112,27 +2243,29 @@ export const dataArt672022 = [
     fundamentoLegal:
       "Articulo. 67 inciso B de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
     actualizacion: "2022",
-    excel: "f",
+    excel: "",
     subRows: [
       {
         no: "",
         letra: "B1",
-        descriptivo: "Los informes que presenten los partidos políticos, asociaciones y agrupaciones políticas o de ciudadanos.",
+        descriptivo:
+          "Los informes que presenten los partidos políticos, asociaciones y agrupaciones políticas o de ciudadanos.",
         cumplimiento: "No Aplica",
         fundamentoLegal:
           "En relación a los informes de ingresos y egresos de los partidos políticos, asociaciones y agrupaciones políticas o de ciudadanos, son presentados ante el Instituto Nacional Electoral; en términos de los artículos 41 apartado V, apartado B, inciso a), numeral 6, de la Ley Fundamental, y 32 de la Ley General de Instituciones y Procedimientos Electorales, por ende el Instituto Tlaxcalteca de Elecciones no es la autoridad competente para recibir dicha documentación",
         actualizacion: "2022",
-        excel: "path",
+        excel: "",
       },
       {
         no: "",
         letra: "B2",
-        descriptivo: "Los informes que presenten los partidos políticos, asociaciones y agrupaciones políticas o de ciudadanos.",
+        descriptivo:
+          "Los informes que presenten los partidos políticos, asociaciones y agrupaciones políticas o de ciudadanos.",
         cumplimiento: "No Aplica",
         fundamentoLegal:
           "En relación a los informes de ingresos y egresos de los partidos políticos, asociaciones y agrupaciones políticas o de ciudadanos, son presentados ante el Instituto Nacional Electoral; en términos de los artículos 41 apartado V, apartado B, inciso a), numeral 6, de la Ley Fundamental, y 32 de la Ley General de Instituciones y Procedimientos Electorales, por ende el Instituto Tlaxcalteca de Elecciones no es la autoridad competente para recibir dicha documentación.",
         actualizacion: "2022",
-        excel: "path",
+        excel: "",
       },
     ],
   },
@@ -2144,12 +2277,13 @@ export const dataArt672022 = [
     fundamentoLegal:
       "Articulo. 67 inciso C de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
     actualizacion: "2022",
-    excel: "f",
+    excel: "",
     subRows: [
       {
         no: "",
         letra: "C1",
-        descriptivo: "Normatividad en materia de geografía y cartografía electoral.",
+        descriptivo:
+          "Normatividad en materia de geografía y cartografía electoral.",
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 67 inciso C1 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
@@ -2186,7 +2320,7 @@ export const dataArt672022 = [
     fundamentoLegal:
       "Articulo. 67 inciso D de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
     actualizacion: "2022",
-    excel: "f",
+    excel: "",
     subRows: [
       {
         no: "",
@@ -2201,7 +2335,8 @@ export const dataArt672022 = [
       {
         no: "",
         letra: "D2",
-        descriptivo: "Sistema de consulta de candidatos a cargos de elección popular.",
+        descriptivo:
+          "Sistema de consulta de candidatos a cargos de elección popular.",
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 67 inciso D2 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
@@ -2221,7 +2356,8 @@ export const dataArt672022 = [
       {
         no: "",
         letra: "D4",
-        descriptivo: "Sistema de consulta de candidatos electos a cargos de elección popular.",
+        descriptivo:
+          "Sistema de consulta de candidatos electos a cargos de elección popular.",
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 67 inciso D4 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
@@ -2238,12 +2374,13 @@ export const dataArt672022 = [
     fundamentoLegal:
       "Articulo. 67 inciso E de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
     actualizacion: "2022",
-    excel: "f",
+    excel: "",
     subRows: [
       {
         no: "",
         letra: "E1",
-        descriptivo: "El catálogo de estaciones de radio y canales de televisión, pautas de transmisión, versiones de spots del Instituto Tlaxcalteca de Elecciones y de los partidos políticos.",
+        descriptivo:
+          "El catálogo de estaciones de radio y canales de televisión, pautas de transmisión, versiones de spots del Instituto Tlaxcalteca de Elecciones y de los partidos políticos.",
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 67 inciso E1 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
@@ -2253,7 +2390,8 @@ export const dataArt672022 = [
       {
         no: "",
         letra: "E2",
-        descriptivo: "El catálogo de estaciones de radio y canales de televisión, pautas de transmisión, versiones de spots del Instituto Tlaxcalteca de Elecciones y de los partidos políticos.",
+        descriptivo:
+          "El catálogo de estaciones de radio y canales de televisión, pautas de transmisión, versiones de spots del Instituto Tlaxcalteca de Elecciones y de los partidos políticos.",
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 67 inciso E2 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
@@ -2263,7 +2401,8 @@ export const dataArt672022 = [
       {
         no: "",
         letra: "E3",
-        descriptivo: "El catálogo de estaciones de radio y canales de televisión, pautas de transmisión, versiones de spots del Instituto Tlaxcalteca de Elecciones y de los partidos políticos.",
+        descriptivo:
+          "El catálogo de estaciones de radio y canales de televisión, pautas de transmisión, versiones de spots del Instituto Tlaxcalteca de Elecciones y de los partidos políticos.",
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 67 inciso E3 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
@@ -2280,12 +2419,13 @@ export const dataArt672022 = [
     fundamentoLegal:
       "Articulo. 67 inciso F de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
     actualizacion: "2022",
-    excel: "f",
+    excel: "",
     subRows: [
       {
         no: "",
         letra: "F1",
-        descriptivo: "Los montos de financiamiento público por actividades ordinarias, de campaña y específicas otorgadas a los partidos políticos, asociaciones y agrupaciones políticas o de ciudadanos y demás asociaciones políticas, así como los montos autorizados de financiamiento privado y los topes de los gastos de campañas.",
+        descriptivo:
+          "Los montos de financiamiento público por actividades ordinarias, de campaña y específicas otorgadas a los partidos políticos, asociaciones y agrupaciones políticas o de ciudadanos y demás asociaciones políticas, así como los montos autorizados de financiamiento privado y los topes de los gastos de campañas.",
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 67 inciso E1 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
@@ -2295,7 +2435,8 @@ export const dataArt672022 = [
       {
         no: "",
         letra: "F2",
-        descriptivo: "Los montos de financiamiento público por actividades ordinarias, de campaña y específicas otorgadas a los partidos políticos, asociaciones y agrupaciones políticas o de ciudadanos y demás asociaciones políticas, así como los montos autorizados de financiamiento privado y los topes de los gastos de campañas.",
+        descriptivo:
+          "Los montos de financiamiento público por actividades ordinarias, de campaña y específicas otorgadas a los partidos políticos, asociaciones y agrupaciones políticas o de ciudadanos y demás asociaciones políticas, así como los montos autorizados de financiamiento privado y los topes de los gastos de campañas.",
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 67 inciso E2 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
@@ -2305,7 +2446,8 @@ export const dataArt672022 = [
       {
         no: "",
         letra: "F3",
-        descriptivo: "Los montos de financiamiento público por actividades ordinarias, de campaña y específicas otorgadas a los partidos políticos, asociaciones y agrupaciones políticas o de ciudadanos y demás asociaciones políticas, así como los montos autorizados de financiamiento privado y los topes de los gastos de campañas.",
+        descriptivo:
+          "Los montos de financiamiento público por actividades ordinarias, de campaña y específicas otorgadas a los partidos políticos, asociaciones y agrupaciones políticas o de ciudadanos y demás asociaciones políticas, así como los montos autorizados de financiamiento privado y los topes de los gastos de campañas.",
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 67 inciso F3 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
@@ -2317,12 +2459,13 @@ export const dataArt672022 = [
   {
     no: "7",
     letra: "G",
-    descriptivo: "La metodología e informes sobre la publicación de encuestas por muestreo, encuestas de salida y conteos rápidos.",
+    descriptivo:
+      "La metodología e informes sobre la publicación de encuestas por muestreo, encuestas de salida y conteos rápidos.",
     cumplimiento: "Aplica",
     fundamentoLegal:
       "Articulo. 67 inciso G de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
     actualizacion: "2022",
-    excel: "f",
+    excel: "",
     subRows: [
       {
         no: "",
@@ -2337,7 +2480,8 @@ export const dataArt672022 = [
       {
         no: "",
         letra: "G2",
-        descriptivo: "Monitoreo de encuestas electorales, sondeos de opinión y contos rápidos no institucionales detectados por la Coordinación Nacional  de Comunicación",
+        descriptivo:
+          "Monitoreo de encuestas electorales, sondeos de opinión y contos rápidos no institucionales detectados por la Coordinación Nacional  de Comunicación",
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 67 inciso D2 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
@@ -2357,7 +2501,8 @@ export const dataArt672022 = [
       {
         no: "",
         letra: "G4",
-        descriptivo: "Informes presentados por la Secretaría Ejecutiva en el Consejo General",
+        descriptivo:
+          "Informes presentados por la Secretaría Ejecutiva en el Consejo General",
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 67 inciso G4 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
@@ -2367,7 +2512,8 @@ export const dataArt672022 = [
       {
         no: "",
         letra: "G5",
-        descriptivo: "Personas físicas o morales que pretenden efectuar encuestas de salida y/o conteos rápidos no institucionales",
+        descriptivo:
+          "Personas físicas o morales que pretenden efectuar encuestas de salida y/o conteos rápidos no institucionales",
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 67 inciso G5 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
@@ -2377,7 +2523,8 @@ export const dataArt672022 = [
       {
         no: "",
         letra: "G6",
-        descriptivo: "Informes que, en su caso, presentó el sujeto obligado ante sus máximos órganos de dirección relacionados con el tema.",
+        descriptivo:
+          "Informes que, en su caso, presentó el sujeto obligado ante sus máximos órganos de dirección relacionados con el tema.",
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 67 inciso G6 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala.",
@@ -2389,17 +2536,19 @@ export const dataArt672022 = [
   {
     no: "8",
     letra: "H",
-    descriptivo: "La metodología e informe del Programa de Resultados Preliminares Electorales.",
+    descriptivo:
+      "La metodología e informe del Programa de Resultados Preliminares Electorales.",
     cumplimiento: "Aplica",
     fundamentoLegal:
       "Articulo. 67 inciso H de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
     actualizacion: "2022",
-    excel: "f",
+    excel: "",
     subRows: [
       {
         no: "",
         letra: "H1",
-        descriptivo: "Metodología del programa de resultados electorales preliminares.",
+        descriptivo:
+          "Metodología del programa de resultados electorales preliminares.",
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 67 inciso H1 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
@@ -2421,12 +2570,13 @@ export const dataArt672022 = [
   {
     no: "9",
     letra: "I",
-    descriptivo: "Los cómputos totales de las elecciones y procesos de participación ciudadana.",
+    descriptivo:
+      "Los cómputos totales de las elecciones y procesos de participación ciudadana.",
     cumplimiento: "Aplica",
     fundamentoLegal:
       "Articulo. 67 inciso I de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
     actualizacion: "2022",
-    excel: "f",
+    excel: "path",
   },
   {
     no: "10",
@@ -2436,27 +2586,29 @@ export const dataArt672022 = [
     fundamentoLegal:
       "Articulo. 67 inciso J de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
     actualizacion: "2022",
-    excel: "f",
+    excel: "path",
   },
   {
     no: "11",
     letra: "K",
-    descriptivo: "Las franquicias postales y telegráficas asignadas al partido político para el cumplimiento de sus funciones.",
+    descriptivo:
+      "Las franquicias postales y telegráficas asignadas al partido político para el cumplimiento de sus funciones.",
     cumplimiento: "No Aplica",
     fundamentoLegal:
       "Los partidos políticos nacionales disfrutarán de las franquicias postales y telegráficas, dentro del territorio nacional, que sean necesarias para el desarrollo de sus actividades, conforme a las reglas establecidas en los artículos 188 de la Ley General de Instituciones y Procedimientos Electorales y 70 de la Ley General de Partidos Políticos correspondiendo al Instituto Nacional Electoral aplicarlas. Para consulta:http://www.ine.mx/archivos3/portal/historico/contenido/Franquicias_Postales/",
     actualizacion: "2022",
-    excel: "f",
+    excel: "",
   },
   {
     no: "12",
     letra: "L",
-    descriptivo: "Los dictámenes, informes y resoluciones sobre pérdida de registro y liquidación del patrimonio de los partidos políticos nacionales y estatales",
+    descriptivo:
+      "Los dictámenes, informes y resoluciones sobre pérdida de registro y liquidación del patrimonio de los partidos políticos nacionales y estatales",
     cumplimiento: "Aplica",
     fundamentoLegal:
       "En el Instituto Tlaxcalteca de Elecciones durante el transcurso del año dos mil dieciséis, ningún partido político nacional se ha colocado en el supuesto de pérdida de registro señalado por el artículo 94 de la Ley General de Partidos Políticos, por ende tampoco se ha actualizado el supuesto de pérdida de acreditación en el ámbito local, previsto en el artículo 45 de la Ley de Partidos Políticos para el Estado de Tlaxcala. Asimismo, en el caso de los partidos políticos con registro local, ninguno se ha colocado en alguno de los supuestos que prevé el artículo 44 de la Ley de Partidos Políticos para el Estado de Tlaxcala, relativos a causales para perder su registro. Se entiende que en ningún caso se ha dado el supuesto de liquidación de patrimonio de partidos políticos nacionales o locales.",
     actualizacion: "2022",
-    excel: "f",
+    excel: "path",
   },
   {
     no: "13",
@@ -2466,47 +2618,51 @@ export const dataArt672022 = [
     fundamentoLegal:
       "Articulo. 67 inciso M de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
     actualizacion: "2022",
-    excel: "f",
+    excel: "",
     subRows: [
       {
         no: "",
         letra: "M1",
-        descriptivo: "Monitoreo de los espacios de radio y telivisión que difunden noticias.",
+        descriptivo:
+          "Monitoreo de los espacios de radio y telivisión que difunden noticias.",
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 67 inciso M1 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
         actualizacion: "2022",
-        excel: "f",
+        excel: "path",
       },
       {
         no: "",
         letra: "M2",
-        descriptivo: "Informes, convenios, contratos y datos de la institución pública o empresa encargada del monitoreo de los espacios de radio y televisión que difunden noticias.",
+        descriptivo:
+          "Informes, convenios, contratos y datos de la institución pública o empresa encargada del monitoreo de los espacios de radio y televisión que difunden noticias.",
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 67 inciso M2 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
         actualizacion: "2022",
-        excel: "f",
+        excel: "path",
       },
       {
         no: "",
         letra: "M3",
-        descriptivo: "Resultados, metodología y catálogo para el monitoreo de transmiciones sobre las precampañas, y campañas electorales de los espacios en radio y televisión que difunden noticias.",
+        descriptivo:
+          "Resultados, metodología y catálogo para el monitoreo de transmiciones sobre las precampañas, y campañas electorales de los espacios en radio y televisión que difunden noticias.",
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 67 inciso M3 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
         actualizacion: "2022",
-        excel: "f",
+        excel: "path",
       },
       {
         no: "",
         letra: "M4",
-        descriptivo: "Monitoreo de las pautas de transmisión en radio y telivisión.",
+        descriptivo:
+          "Monitoreo de las pautas de transmisión en radio y telivisión.",
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 67 inciso M4 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
         actualizacion: "2022",
-        excel: "f",
+        excel: "path",
       },
     ],
   },
