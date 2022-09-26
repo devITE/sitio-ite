@@ -91,6 +91,7 @@ import Art942022 from "./pages/transparencia/art94/Art942022";
 import Convenios from "./pages/transparencia/transp/Convenios";
 import InformesAnuales from "./pages/transparencia/transp/InformesAnuales";
 import AvisosPrivacidad from "./pages/transparencia/transp/AvisosPrivacidad";
+import FormatoSolicitud from "./pages/transparencia/transp/FormatoSolicitud";
 
 import Infografias from "./pages/transparencia/Infografias";
 import PreguntasFrecuentes from "./pages/transparencia/PreguntasFrecuentes";
@@ -194,6 +195,7 @@ function App() {
           <Route path="/Convenios" element={<Convenios />} />
           <Route path="/InformesAnuales" element={<InformesAnuales />} />
           <Route path="/AvisosPrivacidad" element={<AvisosPrivacidad />} />
+          <Route path="/FormatoSolicitud" element={<FormatoSolicitud />} />
 
           <Route path="/Infografias" element={<Infografias />} />
           <Route

@@ -3,6 +3,7 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import "./Transparencia.css";
 
+const Transparencia_pdfpath = require.context("../../assets/pdf/transparencia");
 const Transparencia_imppath = require.context("../../img/imgT");
 const icons_imgpath = require.context("../../img/icons");
 
@@ -57,13 +58,17 @@ export default class Transparencia extends Component {
             <p className="mt-2">Convenios</p>
           </div>
           <div>
-            <Link to="">
+            <a
+              href={Transparencia_pdfpath(`./${"0.pdf"}`)}
+              target="_blank"
+              rel="noreferrer"
+            >
               <img
                 className="img-fluid w-100 mt-3"
                 src={icons_imgpath(`./3.png`)}
                 alt="Directorio General"
               />
-            </Link>
+            </a>
             <p className="mt-2">Directorio General</p>
           </div>
           <div>
@@ -87,7 +92,7 @@ export default class Transparencia extends Component {
             <p className="mt-2">Aviso de privacidad</p>
           </div>
           <div>
-            <Link to="">
+            <Link to="/FormatoSolicitud">
               <img
                 className="img-fluid w-100 mt-3"
                 src={icons_imgpath(`./2.png`)}
