@@ -81,6 +81,12 @@ import Art672020 from "./pages/transparencia/art67/Art672020";
 import Art672021 from "./pages/transparencia/art67/Art672021";
 import Art672022 from "./pages/transparencia/art67/Art672022";
 
+//Transparencia Artículo 67
+import Articulo94 from "./pages/transparencia/art94/Articulo94";
+import Art942020 from "./pages/transparencia/art94/Art942020";
+import Art942021 from "./pages/transparencia/art94/Art942021";
+import Art942022 from "./pages/transparencia/art94/Art942022";
+
 import Infografias from "./pages/transparencia/Infografias";
 import PreguntasFrecuentes from "./pages/transparencia/PreguntasFrecuentes";
 import DatosAbiertos from "./pages/transparencia/DatosAbiertos";
@@ -172,6 +178,12 @@ function App() {
           <Route path="/Art672020" element={<Art672020 />} />
           <Route path="/Art672021" element={<Art672021 />} />
           <Route path="/Art672022" element={<Art672022 />} />
+
+          {/* Artículo 94 */}
+          <Route path="/Articulo94" element={<Articulo94 />} />
+          <Route path="/Art942020" element={<Art942020 />} />
+          <Route path="/Art942021" element={<Art942021 />} />
+          <Route path="/Art942022" element={<Art942022 />} />
 
           <Route path="/Infografias" element={<Infografias />} />
           <Route

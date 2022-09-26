@@ -1,13 +1,13 @@
 import React, { useMemo } from "react";
 import MaterialReactTable from "material-react-table";
-import { dataArt632017 } from "../../../assets/data/dataTransparenciaArt63";
+import { dataArt942020 } from "../../../assets/data/dataTransparenciaArt94";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFileExcel } from "@fortawesome/free-solid-svg-icons";
 import "../Transparencia.css";
 
 const Transparencia_imppath = require.context("../../../img/imgT");
 
-const Art632017 = () => {
+const Art942020 = () => {
   const columns = useMemo(
     () => [
       // {
@@ -17,63 +17,45 @@ const Art632017 = () => {
       {
         accessorKey: "no",
         header: "NO.",
-        footer: "NO.",
         size: 55,
         enableResizing: false,
-        enableColumnFilter: false,
       },
       {
         accessorKey: "fraccion",
         header: "Fracción",
-        footer: "Fracción",
         size: 90,
         enableResizing: false,
-        enableColumnFilter: false,
       },
       {
         accessorKey: "titulo",
         header: "Título",
-        footer: "Título",
         size: 150,
         enableResizing: false,
       },
       {
         accessorKey: "cumplimiento",
         header: "Cumplimiento",
-        footer: "Cumplimiento",
         size: 100,
         enableResizing: false,
-        filterFn: "equals",
-        filterSelectOptions: [
-          { text: "Aplica", value: "Aplica" },
-          { text: "No Aplica", value: "No Aplica" },
-        ],
-        filterVariant: "select",
       },
       {
         accessorKey: "fundamentoLegal",
         header: "Fundamento Legal",
-        footer: "Fundamento Legal",
         size: 270,
         enableResizing: false,
-        enableColumnFilter: false,
       },
       {
         accessorKey: "actualizacion",
         header: "Actualización",
-        footer: "Actualización",
         size: 100,
         enableResizing: false,
-        enableColumnFilter: false,
       },
       {
         id: "exccel",
         header: "Excel",
-        footer: "Excel",
         columnDefType: "display",
         size: 80,
         enableResizing: false,
-        enableColumnFilters: false,
         Cell: ({ row }) =>
           row.original.excel === "" ? (
             <span></span>
@@ -99,15 +81,15 @@ const Art632017 = () => {
         Tlaxcala.
       </div>
       <h5 className="mt-3 Transparencia__title">
-        Artículo 63. (2017) Obligaciones Comunes
+        Artículo 94. (2020) Obligaciones Comunes
       </h5>
       <MaterialReactTable
         columns={columns}
-        data={dataArt632017}
-        enableExpanding
-        enableExpandAll
+        data={dataArt942020}
+        // enableExpanding
+        // enableExpandAll
         enableColumnActions={false}
-        // enableColumnFilters={false}
+        enableColumnFilters={false}
         enableColumnResizing
         enableDensityToggle={false}
         muiTableHeadCellProps={{
@@ -179,4 +161,4 @@ const Art632017 = () => {
   );
 };
 
-export default Art632017;
+export default Art942020;

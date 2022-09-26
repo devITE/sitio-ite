@@ -37,7 +37,7 @@ export default class Transparencia extends Component {
             <p className="mt-2">Art. 67 Obligaciones Específicas</p>
           </div>
           <div>
-            <Link to="Articulo94">
+            <Link to="/Articulo94">
               <img
                 className="img-fluid w-100 mt-3"
                 src={icons_imgpath(`./1.png`)}
