@@ -67,7 +67,7 @@ export default class Transparencia extends Component {
             <p className="mt-2">Directorio General</p>
           </div>
           <div>
-            <Link to="">
+            <Link to="/InformesAnuales">
               <img
                 className="img-fluid w-100 mt-3"
                 src={icons_imgpath(`./4.png`)}

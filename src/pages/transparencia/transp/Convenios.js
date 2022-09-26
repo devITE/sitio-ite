@@ -1,12 +1,10 @@
 import React, { Component } from "react";
-import { dataConvenios } from "../../assets/data/dataTransparenciaConvenios";
+import { dataConvenios } from "../../../assets/data/dataTransparenciaConvenios";
 
-import "./Transparencia.css";
+import "../Transparencia.css";
 
-const Transparencia_imppath = require.context("../../img/imgT");
-const icons_imgpath = require.context("../../img/icons");
-
-// import second from '../../img/icons'
+const Transparencia_imppath = require.context("../../../img/imgT");
+const icons_imgpath = require.context("../../../img/icons");
 
 export default class Convenios extends Component {
   render() {

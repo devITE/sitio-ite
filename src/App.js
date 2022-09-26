@@ -87,8 +87,9 @@ import Art942020 from "./pages/transparencia/art94/Art942020";
 import Art942021 from "./pages/transparencia/art94/Art942021";
 import Art942022 from "./pages/transparencia/art94/Art942022";
 
-//Transparencia Convenios
-import Convenios from "./pages/transparencia/Convenios";
+//Transparencia General
+import Convenios from "./pages/transparencia/transp/Convenios";
+import InformesAnuales from "./pages/transparencia/transp/InformesAnuales";
 
 import Infografias from "./pages/transparencia/Infografias";
 import PreguntasFrecuentes from "./pages/transparencia/PreguntasFrecuentes";
@@ -188,8 +189,9 @@ function App() {
           <Route path="/Art942021" element={<Art942021 />} />
           <Route path="/Art942022" element={<Art942022 />} />
 
-          {/* Convenios */}
+          {/* Transparencia General */}
           <Route path="/Convenios" element={<Convenios />} />
+          <Route path="/InformesAnuales" element={<InformesAnuales />} />
 
           <Route path="/Infografias" element={<Infografias />} />
           <Route
