@@ -90,6 +90,7 @@ import Art942022 from "./pages/transparencia/art94/Art942022";
 //Transparencia General
 import Convenios from "./pages/transparencia/transp/Convenios";
 import InformesAnuales from "./pages/transparencia/transp/InformesAnuales";
+import AvisosPrivacidad from "./pages/transparencia/transp/AvisosPrivacidad";
 
 import Infografias from "./pages/transparencia/Infografias";
 import PreguntasFrecuentes from "./pages/transparencia/PreguntasFrecuentes";
@@ -192,6 +193,7 @@ function App() {
           {/* Transparencia General */}
           <Route path="/Convenios" element={<Convenios />} />
           <Route path="/InformesAnuales" element={<InformesAnuales />} />
+          <Route path="/AvisosPrivacidad" element={<AvisosPrivacidad />} />
 
           <Route path="/Infografias" element={<Infografias />} />
           <Route

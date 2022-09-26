@@ -1,3 +1,8 @@
+.accordion-button {
+    background-color: #972069 !important;
+    color: #ffffff !important;
+}
+
 .Transparencia__header a:hover {
     transition: .5s;
     transform: scale(1.05);
