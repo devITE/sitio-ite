@@ -1,6 +1,6 @@
 .InformacionFinanciera__content {
     color: #972069;
-    width: 100%;
+    /* width: 100%; */
     border-bottom-width: 1px;
     border-bottom-style: solid;
     border-bottom-color: #b8b8b8;
@@ -12,7 +12,7 @@
     padding: 20px 0;
 }
 
-.InformacionFinanciera__content div {
+.InformacionFinanciera__content .InformacionFinanciera__content-item {
     text-align: end;
 }
 

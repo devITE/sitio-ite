@@ -12,7 +12,7 @@ import "../Transparencia.css";
 
 const Transparencia_imppath = require.context("../../../img/imgT");
 const Transparencia_pdfpath = require.context(
-  "../../../assets/pdf/transparencia/infContable"
+  "../../../assets/pdf/transparencia/infFinanciera"
 );
 export default class InformacionFinanciera extends Component {
   render() {
@@ -65,7 +65,7 @@ export default class InformacionFinanciera extends Component {
         <div className="InformacionFinanciera__content">
           <FontAwesomeIcon icon={faChartPie} className="me-3 fs-3" />
           Presupuesto de egresos aprobado
-          <div>
+          <div clasName="InformacionFinanciera__content-item">
             Presupuesto Firmado 2016
             <a
               className="btn btn-danger ms-3 mt-2"
@@ -76,7 +76,7 @@ export default class InformacionFinanciera extends Component {
               <FontAwesomeIcon icon={faFilePdf} />
             </a>
           </div>
-          <div>
+          <div clasName="InformacionFinanciera__content-item">
             Acuerdo Adecuación Presupuesto ITE-CG 03-2016 20-Enero-2016
             <a
               className="btn btn-danger ms-3 mt-2"
@@ -87,7 +87,7 @@ export default class InformacionFinanciera extends Component {
               <FontAwesomeIcon icon={faFilePdf} />
             </a>
           </div>
-          <div>
+          <div clasName="InformacionFinanciera__content-item">
             Acuerdo de Presupuesto de Egresos 2016 ITE-CG 08-2015
             30-Septiembre-2016
             <a
@@ -99,7 +99,7 @@ export default class InformacionFinanciera extends Component {
               <FontAwesomeIcon icon={faFilePdf} />
             </a>
           </div>
-          <div>
+          <div clasName="InformacionFinanciera__content-item">
             Acuerdo de Presupuesto de Egresos 2016 ITE-CG 08-2015
             30-Septiembre-2016
             <a
@@ -115,7 +115,7 @@ export default class InformacionFinanciera extends Component {
         <div className="InformacionFinanciera__content">
           <FontAwesomeIcon icon={faChartBar} className="me-3 fs-3" />
           Balance general, estado de ingresos y egresos
-          <div>
+          <div clasName="InformacionFinanciera__content-item">
             Balance General
             <a
               className="btn btn-danger ms-3 mt-2"
@@ -126,7 +126,7 @@ export default class InformacionFinanciera extends Component {
               <FontAwesomeIcon icon={faFilePdf} />
             </a>
           </div>
-          <div>
+          <div clasName="InformacionFinanciera__content-item">
             Estado de Egresos e Ingresos
             <a
               className="btn btn-danger ms-3 mt-2"

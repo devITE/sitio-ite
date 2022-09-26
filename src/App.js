@@ -94,6 +94,7 @@ import AvisosPrivacidad from "./pages/transparencia/transp/AvisosPrivacidad";
 import FormatoSolicitud from "./pages/transparencia/transp/FormatoSolicitud";
 import POA from "./pages/transparencia/transp/POA";
 import InformacionFinanciera from "./pages/transparencia/transp/InformacionFinanciera";
+import InformacionContable from "./pages/transparencia/transp/InformacionContable";
 
 import Infografias from "./pages/transparencia/Infografias";
 import PreguntasFrecuentes from "./pages/transparencia/PreguntasFrecuentes";
@@ -203,7 +204,10 @@ function App() {
             path="/InformacionFinanciera"
             element={<InformacionFinanciera />}
           />
-
+          <Route
+            path="/InformacionContable"
+            element={<InformacionContable />}
+          />
           <Route path="/Infografias" element={<Infografias />} />
           <Route
             path="/PreguntasFrecuentes"
