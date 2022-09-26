@@ -93,6 +93,7 @@ import InformesAnuales from "./pages/transparencia/transp/InformesAnuales";
 import AvisosPrivacidad from "./pages/transparencia/transp/AvisosPrivacidad";
 import FormatoSolicitud from "./pages/transparencia/transp/FormatoSolicitud";
 import POA from "./pages/transparencia/transp/POA";
+import InformacionFinanciera from "./pages/transparencia/transp/InformacionFinanciera";
 
 import Infografias from "./pages/transparencia/Infografias";
 import PreguntasFrecuentes from "./pages/transparencia/PreguntasFrecuentes";
@@ -198,6 +199,10 @@ function App() {
           <Route path="/AvisosPrivacidad" element={<AvisosPrivacidad />} />
           <Route path="/FormatoSolicitud" element={<FormatoSolicitud />} />
           <Route path="/POA" element={<POA />} />
+          <Route
+            path="/InformacionFinanciera"
+            element={<InformacionFinanciera />}
+          />
 
           <Route path="/Infografias" element={<Infografias />} />
           <Route
