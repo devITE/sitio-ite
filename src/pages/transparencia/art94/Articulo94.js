@@ -22,14 +22,23 @@ export default class Articulo94 extends Component {
           <br />
           Instituto Tlaxcalteca de Elecciones.
         </h5>
-        <div class="list-group text-center Transparencia__articulo-p-year">
-          <Link to="/Art942020" class="list-group-item list-group-item-action">
+        <div className="list-group text-center Transparencia__articulo-p-year">
+          <Link
+            to="/Art942020"
+            className="list-group-item list-group-item-action"
+          >
             Artículo 94 (2020)
           </Link>
-          <Link to="/Art942021" class="list-group-item list-group-item-action">
+          <Link
+            to="/Art942021"
+            className="list-group-item list-group-item-action"
+          >
             Artículo 94 (2021)
           </Link>
-          <Link to="/Art942022" class="list-group-item list-group-item-action">
+          <Link
+            to="/Art942022"
+            className="list-group-item list-group-item-action"
+          >
             Artículo 94 (2022)
           </Link>
         </div>

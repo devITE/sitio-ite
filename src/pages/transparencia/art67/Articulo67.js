@@ -22,23 +22,41 @@ export default class Articulo67 extends Component {
           <br />
           Instituto Tlaxcalteca de Elecciones.
         </h5>
-        <div class="list-group text-center Transparencia__articulo-p-year">
-          <Link to="/Art672017" class="list-group-item list-group-item-action">
+        <div className="list-group text-center Transparencia__articulo-p-year">
+          <Link
+            to="/Art672017"
+            className="list-group-item list-group-item-action"
+          >
             Artículo 67 (2017)
           </Link>
-          <Link to="/Art672018" class="list-group-item list-group-item-action">
+          <Link
+            to="/Art672018"
+            className="list-group-item list-group-item-action"
+          >
             Artículo 67 (2018)
           </Link>
-          <Link to="/Art672019" class="list-group-item list-group-item-action">
+          <Link
+            to="/Art672019"
+            className="list-group-item list-group-item-action"
+          >
             Artículo 67 (2019)
           </Link>
-          <Link to="/Art672020" class="list-group-item list-group-item-action">
+          <Link
+            to="/Art672020"
+            className="list-group-item list-group-item-action"
+          >
             Artículo 67 (2020)
           </Link>
-          <Link to="/Art672021" class="list-group-item list-group-item-action">
+          <Link
+            to="/Art672021"
+            className="list-group-item list-group-item-action"
+          >
             Artículo 67 (2021)
           </Link>
-          <Link to="/Art672022" class="list-group-item list-group-item-action">
+          <Link
+            to="/Art672022"
+            className="list-group-item list-group-item-action"
+          >
             Artículo 67 (2022)
           </Link>
         </div>

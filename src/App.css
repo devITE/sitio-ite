@@ -3,6 +3,11 @@ html {
   position: relative;
 }
 
+li::marker {
+  color: #AA0787;
+  font-weight: bolder;
+}
+
 body {
   margin: 0;
   padding: 0;
