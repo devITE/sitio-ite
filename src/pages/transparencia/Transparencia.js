@@ -1,5 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { Component } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
 import "./Transparencia.css";
 
@@ -132,27 +134,137 @@ export default class Transparencia extends Component {
             <p className="mt-2">Información Contable</p>
           </div>
           <div>
-            <Link to="">
+            <a data-bs-toggle="modal" data-bs-target="#modalOEFOEL">
               <img
                 className="img-fluid w-100 mt-3"
                 src={icons_imgpath(`./1.png`)}
-                alt="Información Jurídica"
+                alt="Reglamento interior"
               />
-            </Link>
+            </a>
             <p className="mt-2">Información Jurídica</p>
+            <div
+              className="modal fade"
+              id="modalOEFOEL"
+              tabindex="-1"
+              aria-labelledby="modalOEFOELLabel"
+              aria-hidden="true"
+            >
+              <div className="modal-dialog">
+                <div className="modal-content">
+                  <div className="modal-header">
+                    <h5 className="modal-title" id="modalOEFOELLabel">
+                      Información Jurídica
+                    </h5>
+                    <button
+                      type="button"
+                      className="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div className="modal-body">
+                    <ol className="list-group">
+                      <li className="list-group-item d-flex justify-content-between align-items-start">
+                        <div className="ms-2 me-auto">
+                          <div className="fw-bold">
+                            Organismos Electorales Federales, Organismos
+                            Electorales Locales
+                          </div>
+                        </div>
+                        <span className="badge">
+                          <a
+                            className="btn btn-danger"
+                            href={Transparencia_pdfpath(`./2.pdf`)}
+                            role="button"
+                            rel="noreferrer"
+                            target="_blank"
+                          >
+                            <FontAwesomeIcon icon={faFilePdf} />
+                          </a>
+                        </span>
+                      </li>
+                    </ol>
+                  </div>
+                  <div className="modal-footer">
+                    <button
+                      type="button"
+                      className="btn btn-danger"
+                      data-bs-dismiss="modal"
+                    >
+                      Cerrar
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           <div>
-            <Link to="">
+            <a data-bs-toggle="modal" data-bs-target="#modalReglamentoITE">
               <img
                 className="img-fluid w-100 mt-3"
                 src={icons_imgpath(`./9.png`)}
                 alt="Reglamento interior"
               />
-            </Link>
+            </a>
             <p className="mt-2">Reglamento interior</p>
+            <div
+              className="modal fade"
+              id="modalReglamentoITE"
+              tabindex="-1"
+              aria-labelledby="modalReglamentoITELabel"
+              aria-hidden="true"
+            >
+              <div className="modal-dialog">
+                <div className="modal-content">
+                  <div className="modal-header">
+                    <h5 className="modal-title" id="modalReglamentoITELabel">
+                      Reglamento interior del ITE
+                    </h5>
+                    <button
+                      type="button"
+                      className="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div className="modal-body">
+                    <ol className="list-group">
+                      <li className="list-group-item d-flex justify-content-between align-items-start">
+                        <div className="ms-2 me-auto">
+                          <div className="fw-bold">
+                            Reglamento Interior del Instituto Tlaxcalteca de
+                            Elecciones
+                          </div>
+                        </div>
+                        <span className="badge">
+                          <a
+                            className="btn btn-danger"
+                            href={Transparencia_pdfpath(`./1.pdf`)}
+                            role="button"
+                            rel="noreferrer"
+                            target="_blank"
+                          >
+                            <FontAwesomeIcon icon={faFilePdf} />
+                          </a>
+                        </span>
+                      </li>
+                    </ol>
+                  </div>
+                  <div className="modal-footer">
+                    <button
+                      type="button"
+                      className="btn btn-danger"
+                      data-bs-dismiss="modal"
+                    >
+                      Cerrar
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
 
-          <div>
+          {/* <div>
             <Link to="">
               <img
                 className="img-fluid w-100 mt-3"
@@ -165,7 +277,7 @@ export default class Transparencia extends Component {
               <br />
               clasificados como reservados
             </p>
-          </div>
+          </div> */}
         </div>
         <div className="w-100 Transparencia__header mt-5">
           <a

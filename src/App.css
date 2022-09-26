@@ -13,6 +13,11 @@ a {
   cursor: pointer;
 }
 
+.modal-header {
+  background: #972069;
+  color: #ffffff;
+}
+
 .bottom_title {
   margin: 10px 0 15px 0 !important;
   font-family: "Segoe UI Light";
