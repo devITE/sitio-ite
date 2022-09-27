@@ -8,6 +8,9 @@ import Navbar from "./layout/Navbar";
 import Home from "./pages/index/Home";
 import Footer from "./layout/Footer";
 
+//Enlaces
+import MemoriasElectorales from "./pages/enlaces/MemoriasElectorales";
+
 //Acerca de ITE
 import FinesInstitucionales from "./pages/acercaITE/FinesInstitucionales";
 import Historia from "./pages/acercaITE/Historia";
@@ -111,6 +114,12 @@ function App() {
       <div className="mt-3 App__container">
         <Routes>
           <Route exact path="/" element={<Home />} />
+
+          {/* Enlaces */}
+          <Route
+            path="/MemoriasElectorales"
+            element={<MemoriasElectorales />}
+          />
 
           {/* Acerca de ITE */}
           <Route
