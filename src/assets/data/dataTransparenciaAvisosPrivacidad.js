@@ -1,151 +1,361 @@
-export const dataTitAvPriv = [
+export const dataAvisosPrivacidad = [
   {
     id: 1,
     titleItem:
       "Aviso de privacidad para la Constitución y Registro de Partidos Políticos Locales",
-    flushID: "heading1",
+    flushID: "PartidosPoliticos",
+    children: [
+      {
+        id: 1,
+        titleItem:
+          "Aviso Simplificado: Constitución y registro de partidos políticos locales",
+        linkItem: "path",
+      },
+      {
+        id: 2,
+        titleItem:
+          "Aviso Integral: Constitución y registro de partidos políticos locales",
+        linkItem: "path",
+      },
+      {
+        id: 3,
+        titleItem:
+          "Aviso Corto: Constitución y registro de partidos políticos locales",
+      },
+    ],
   },
   {
     id: 2,
     titleItem: "Aviso de privacidad para la Red de Candidatas PELO 2020-2021",
-    flushID: "heading2",
+    flushID: "RedCandidatas",
+    children: [
+      {
+        id: 1,
+        titleItem: "Aviso Simplificado: Red de Candidatas PELO 2020-2021",
+        linkItem: "path",
+      },
+      {
+        id: 2,
+        titleItem: "Aviso Integrado: Red de Candidatas PELO 2020-2021",
+        linkItem: "path",
+      },
+    ],
   },
   {
     id: 3,
     titleItem:
       "Aviso de privacidad para la Acreditación de medios de comunicación",
-    flushID: "heading3",
+    flushID: "AcreditacionMedios",
+    children: [
+      {
+        id: 1,
+        titleItem: "Aviso Simplificado: Acreditación de medios de comunicación",
+        linkItem: "path",
+      },
+      {
+        id: 2,
+        titleItem: "Aviso Integrado: Acreditación de medios de comunicación",
+        linkItem: "path",
+      },
+      {
+        id: 3,
+        titleItem: "Aviso Corto: Acreditación de medios de comunicación",
+        linkItem: "path",
+      },
+    ],
   },
   {
     id: 4,
     titleItem:
       "Aviso de privacidad para el Cuestionario sobre condiciones de salud",
-    flushID: "heading4",
+    flushID: "CuestionarioSalud",
+    children: [
+      {
+        id: 1,
+        titleItem:
+          "Aviso Simplificado: Cuestionario sobre condiciones de salud",
+        linkItem: "path",
+      },
+      {
+        id: 2,
+        titleItem: "Aviso Integrado: Cuestionario sobre condiciones de salud",
+        linkItem: "path",
+      },
+      {
+        id: 3,
+        titleItem: "Aviso Corto: Cuestionario sobre condiciones de salud",
+        linkItem: "path",
+      },
+    ],
   },
   {
     id: 5,
     titleItem: "Aviso de privacidad para las Entradas y Salidas",
-    flushID: "heading5",
+    flushID: "EntradasySalidas",
+    children: [
+      {
+        id: 1,
+        titleItem: "Aviso Simplificado: Entradas y Salidas",
+        linkItem: "path",
+      },
+      {
+        id: 2,
+        titleItem: "Aviso Integrado: Entradas y Salidas",
+        linkItem: "path",
+      },
+      {
+        id: 3,
+        titleItem: "Aviso Corto: Entradas y Salidas",
+        linkItem: "path",
+      },
+    ],
   },
   {
     id: 6,
     titleItem: "Aviso de privacidad para Eventos y Concursos",
-    flushID: "heading6",
+    flushID: "EventosyConcursos",
+    children: [
+      {
+        id: 1,
+        titleItem: "Aviso Simplificado: Eventos y Concursos",
+        linkItem: "path",
+      },
+      {
+        id: 2,
+        titleItem: "Aviso Integrado: Eventos y Concursos",
+        linkItem: "path",
+      },
+      {
+        id: 3,
+        titleItem: "Aviso Corto: Eventos y Concursos",
+        linkItem: "path",
+      },
+    ],
   },
   {
     id: 7,
     titleItem: "Aviso de privacidad para el Filtro Sanitario",
-    flushID: "heading7",
+    flushID: "FiltroSanitario",
+    children: [
+      {
+        id: 1,
+        titleItem: "Aviso Simplificado: Filtro Sanitario",
+        linkItem: "path",
+      },
+      {
+        id: 2,
+        titleItem: "Aviso Integrado: Filtro Sanitario",
+        linkItem: "path",
+      },
+      {
+        id: 3,
+        titleItem: "Aviso Corto: Filtro Sanitario",
+        linkItem: "path",
+      },
+    ],
   },
   {
     id: 8,
     titleItem: "Aviso de privacidad para el Archivo Fotográfico",
-    flushID: "heading8",
+    flushID: "ArchivoFotografico",
+    children: [
+      {
+        id: 1,
+        titleItem: "Aviso Simplificado: Archivo Fotográfico",
+        linkItem: "path",
+      },
+      {
+        id: 2,
+        titleItem: "Aviso Integrado: Archivo Fotográfico",
+        linkItem: "path",
+      },
+      {
+        id: 3,
+        titleItem: "Aviso Corto: Archivo Fotográfico",
+        linkItem: "path",
+      },
+    ],
   },
   {
     id: 9,
     titleItem:
       "Aviso de privacidad para la Integración de Consejos Distritales y Municipales PELO 2020-2021",
-    flushID: "heading9",
+    flushID: "IntegracionCD",
+    children: [
+      {
+        id: 1,
+        titleItem:
+          "Aviso Simplificado: Integración de Consejos Distritales y Municipales PELO 2020-2021",
+        linkItem: "path",
+      },
+      {
+        id: 2,
+        titleItem:
+          "Aviso Integrado: Integración de Consejos Distritales y Municipales PELO 2020-2021",
+        linkItem: "path",
+      },
+      {
+        id: 3,
+        titleItem:
+          "Aviso Corto: Integración de Consejos Distritales y Municipales PELO 2020-2021",
+        linkItem: "path",
+      },
+    ],
   },
   {
     id: 10,
     titleItem: "Aviso de privacidad para Procedimientos y solicitudes",
-    flushID: "heading10",
+    flushID: "ProcedimientosySolicitudes",
+    children: [
+      {
+        id: 1,
+        titleItem: "Aviso Simplificado: Procedimientos y solicitudes",
+        linkItem: "path",
+      },
+      {
+        id: 2,
+        titleItem: "Aviso Integrado: Procedimientos y solicitudes",
+        linkItem: "path",
+      },
+      {
+        id: 3,
+        titleItem: "Aviso Corto: Procedimientos y solicitudes",
+        linkItem: "path",
+      },
+    ],
   },
   {
     id: 11,
     titleItem: "Aviso de privacidad para Recursos Humanos",
-    flushID: "heading11",
+    flushID: "RecursosHumanos",
+    children: [
+      {
+        id: 1,
+        titleItem: "Aviso Simplificado: Recursos Humanos",
+        linkItem: "path",
+      },
+      {
+        id: 2,
+        titleItem: "Aviso Integrado: Recursos Humanos",
+        linkItem: "path",
+      },
+      {
+        id: 3,
+        titleItem: "Aviso Corto: Recursos Humanos",
+        linkItem: "path",
+      },
+    ],
   },
   {
     id: 12,
     titleItem: "Aviso de privacidad para Registro de Candidaturas",
-    flushID: "heading12",
+    flushID: "RegistroCandidaturas",
+    children: [
+      {
+        id: 1,
+        titleItem: "Aviso Simplificado: Registro de Candidaturas",
+        linkItem: "path",
+      },
+      {
+        id: 2,
+        titleItem: "Aviso Integrado: Registro de Candidaturas",
+        linkItem: "path",
+      },
+      {
+        id: 3,
+        titleItem: "Aviso Corto: Registro de Candidaturas",
+        linkItem: "path",
+      },
+    ],
   },
   {
     id: 13,
     titleItem: "Aviso de privacidad para servicios de capacitación",
-    flushID: "heading13",
+    flushID: "ServiciosCapacitacion",
+    children: [
+      {
+        id: 1,
+        titleItem: "Aviso Simplificado: Servicios de Capacitación",
+        linkItem: "path",
+      },
+      {
+        id: 2,
+        titleItem: "Aviso Integrado: Servicios de Capacitación",
+        linkItem: "path",
+      },
+      {
+        id: 3,
+        titleItem: "Aviso Corto: Servicios de Capacitación",
+        linkItem: "path",
+      },
+    ],
   },
   {
     id: 14,
-    titleItem: "Trámites y procedimientos administrativos",
-    flushID: "heading14",
+    titleItem:
+      "Aviso de Privacidad para Trámites y procedimientos administrativos",
+    flushID: "TramitesPRocedimientos",
+    children: [
+      {
+        id: 1,
+        titleItem:
+          "Aviso Simplificado: Trámites y procedimientos administrativos",
+        linkItem: "path",
+      },
+      {
+        id: 2,
+        titleItem: "Aviso Integrado: Trámites y procedimientos administrativos",
+        linkItem: "path",
+      },
+      {
+        id: 3,
+        titleItem: "Aviso Corto: Trámites y procedimientos administrativos",
+        linkItem: "path",
+      },
+    ],
   },
   {
     id: 15,
     titleItem: "Aviso de Privacidad para la Red de Mujeres Electas",
-    flushID: "heading15",
+    flushID: "RedElectas",
+    children: [
+      {
+        id: 1,
+        titleItem: "Aviso Simplificado: Red de Mujeres Electas",
+        linkItem: "path",
+      },
+      {
+        id: 2,
+        titleItem: "Aviso Integrado: Red de Mujeres Electas",
+        linkItem: "path",
+      },
+      {
+        id: 3,
+        titleItem: "Aviso Corto: Red de Mujeres Electas",
+        linkItem: "path",
+      },
+    ],
   },
   {
     id: 16,
     titleItem: "Aviso de Privacidad Registro de Candidaturas PELE 2021",
-    flushID: "heading16",
-  },
-];
-export const dataContAvPriv = [
-  {
-    id: 1,
-    idtitleItem: 1,
-    titleItem: "List item #1",
-    linkItem: "path",
-  },
-  {
-    id: 2,
-    idtitleItem: 1,
-    titleItem: "List item #2",
-    linkItem: "path",
-  },
-];
-export const dataAvisosPrivacidad = [
-  {
-    id: 1,
-    idGroup: "PartidosPoliticos",
-    titleGroup:
-      "Aviso de privacidad para la Constitución y Registro de Partidos Políticos Locales",
-    avisoSimplificado: "Constitución y registro de partidos políticos locales",
-    linkAvisoSimplificado: "path",
-    avisoIntegral: "Constitución y registro de partidos políticos locales",
-    linkAvisoIntegral: "path",
-    avisoCorto: "Constitución y Registro de Partidos Políticos Locales",
-    linkAvisoCorto: "path",
-  },
-  {
-    id: 2,
-    idGroup: "RedCandidatas",
-    titleGroup: "Aviso de privacidad para la Red de Candidatas PELO 2020-2021",
-    avisoSimplificado: "para laRed de CandidatasPELO 2020-2021",
-    linkAvisoSimplificado: "path",
-    avisoIntegral: "para la Red de Candidatas PELO 2020-2021",
-    linkAvisoIntegral: "path",
-    avisoCorto: "",
-    linkAvisoCorto: "path",
-  },
-  {
-    id: 3,
-    idGroup: "AcreditacionComunicacion",
-    titleGroup:
-      "Aviso de privacidad para la Acreditación de medios de comunicación",
-    avisoSimplificado: "Acreditación de medios de comunicación",
-    linkAvisoSimplificado: "path",
-    avisoIntegral: "Aviso integral Acreditación de medios de comunicación",
-    linkAvisoIntegral: "path",
-    avisoCorto: "Acreditación de medios de comunicación",
-    linkAvisoCorto: "path",
-  },
-  {
-    id: 4,
-    idGroup: "Salud",
-    titleGroup:
-      "Aviso de privacidad para el Cuestionario sobre condiciones de salud",
-    avisoSimplificado:
-      "para el cuestionario sobre condiciones de salud del personal del Instituto Tlaxcalteca de Elecciones",
-    linkAvisoSimplificado: "path",
-    avisoIntegral:
-      "para el cuestionario sobre condiciones de salud del personal del Instituto Tlaxcalteca de Elecciones",
-    linkAvisoIntegral: "path",
-    avisoCorto: "para el cuestionario sobre condiciones de salud",
-    linkAvisoCorto: "path",
+    flushID: "RegistroPELE2021",
+    children: [
+      {
+        id: 1,
+        titleItem: "Aviso Simplificado: Registro de Candidaturas PELE 2021",
+        linkItem: "path",
+      },
+      {
+        id: 2,
+        titleItem: "Aviso Integrado: Registro de Candidaturas PELE 2021",
+        linkItem: "path",
+      },
+      {
+        id: 3,
+        titleItem: "Aviso Corto: Registro de Candidaturas PELE 2021",
+        linkItem: "path",
+      },
+    ],
   },
 ];

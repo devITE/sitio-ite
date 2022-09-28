@@ -1,13 +1,6 @@
 import React, { Component } from "react";
-import Accordion from "../../../layout/Accordion";
 import ListBadgePDF from "../../../layout/ListBadge/ListBadgePDF";
-import {
-  dataTitAvPriv,
-  dataContAvPriv,
-  dataAvisosPrivacidad,
-} from "../../../assets/data/dataTransparenciaAvisosPrivacidad";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
+import { dataAvisosPrivacidad } from "../../../assets/data/dataTransparenciaAvisosPrivacidad";
 import "../Transparencia.css";
 
 const Transparencia_imppath = require.context("../../../img/imgT");
@@ -15,7 +8,7 @@ const Transparencia_imppath = require.context("../../../img/imgT");
 export default class AvisosPrivacidad extends Component {
   render() {
     return (
-      <div>
+      <div className="mb-5">
         <img
           className="img-fluid w-100"
           src={Transparencia_imppath(`./head.png`)}
@@ -24,110 +17,35 @@ export default class AvisosPrivacidad extends Component {
         <div className="w-100 mt-3 Transparencia__header-title">
           Avisos de Privacidad
         </div>
-        <hr></hr>
-        <Accordion
-          accordionsItem={dataTitAvPriv}
-          accordionID={"accordionAvisosPrivacidad"}
-          content={
-            <ListBadgePDF
-              ifNumbered={"list-group-numbered"}
-              listsBadgeItem={dataContAvPriv}
-            />
-          }
-        />
-        <hr></hr>
-        <div className="mt-3 accordion" id="accordionExample">
-          {dataAvisosPrivacidad.map((aviso) => {
-            return (
-              <div key={aviso.id} className="accordion-item">
-                <h2 className="accordion-header">
-                  <button
-                    className="accordion-button collapsed"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target={"#" + aviso.idGroup}
-                    aria-expanded="false"
-                    aria-controls={aviso.idGroup}
-                  >
-                    {aviso.titleGroup}
-                  </button>
-                </h2>
-                <div
-                  id={aviso.idGroup}
-                  className="accordion-collapse collapse"
-                  data-bs-parent="#accordionExample"
+        <div className="accordion accordion-flush mt-3" id="aaaa">
+          {dataAvisosPrivacidad.map((accordionsItem) => (
+            <div key={accordionsItem.id} className="accordion-item">
+              <h2 className="accordion-header">
+                <button
+                  className="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target={"#flush-collapse" + accordionsItem.flushID}
+                  aria-expanded="false"
+                  aria-controls={"flush-collapse" + accordionsItem.flushID}
                 >
-                  <div className="accordion-body">
-                    <ol className="list-group">
-                      {aviso.avisoIntegral === "" ? (
-                        <span></span>
-                      ) : (
-                        <li className="list-group-item d-flex justify-content-between align-items-start">
-                          <div className="ms-2 me-auto">
-                            <div>
-                              <strong>Aviso Integral: </strong>
-                              {aviso.avisoIntegral}
-                            </div>
-                          </div>
-                          <a
-                            href={aviso.linkAvisoIntegral}
-                            target="_blank"
-                            rel="noreferrer"
-                          >
-                            <span className="badge bg-danger">
-                              <FontAwesomeIcon icon={faFilePdf} />
-                            </span>
-                          </a>
-                        </li>
-                      )}
-                      {aviso.avisoSimplificado === "" ? (
-                        <span></span>
-                      ) : (
-                        <li className="list-group-item d-flex justify-content-between align-items-start">
-                          <div className="ms-2 me-auto">
-                            <div>
-                              <strong>Aviso Simplificado: </strong>
-                              {aviso.avisoSimplificado}
-                            </div>
-                          </div>
-                          <a
-                            href={aviso.linkAvisoSimplificado}
-                            target="_blank"
-                            rel="noreferrer"
-                          >
-                            <span className="badge bg-danger">
-                              <FontAwesomeIcon icon={faFilePdf} />
-                            </span>
-                          </a>
-                        </li>
-                      )}
-                      {aviso.avisoCorto === "" ? (
-                        <span></span>
-                      ) : (
-                        <li className="list-group-item d-flex justify-content-between align-items-start">
-                          <div className="ms-2 me-auto">
-                            <div>
-                              <strong>Aviso Corto: </strong>
-                              {aviso.avisoCorto}
-                            </div>
-                          </div>
-                          <a
-                            href={aviso.linkAvisoCorto}
-                            target="_blank"
-                            rel="noreferrer"
-                          >
-                            <span className="badge bg-danger">
-                              <FontAwesomeIcon icon={faFilePdf} />
-                            </span>
-                          </a>
-                        </li>
-                      )}
-                    </ol>
-                  </div>
+                  {accordionsItem.titleItem}
+                </button>
+              </h2>
+              <div
+                id={"flush-collapse" + accordionsItem.flushID}
+                className="accordion-collapse collapse"
+                data-bs-parent="#aaaa"
+              >
+                <div className="accordion-body">
+                  <ListBadgePDF
+                    ifNumbered={""}
+                    listsBadgeItem={accordionsItem.children}
+                  />
                 </div>
               </div>
-            );
-          })}
+            </div>
+          ))}
         </div>
       </div>
     );
