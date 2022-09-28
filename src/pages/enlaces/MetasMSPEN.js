@@ -6,7 +6,7 @@ import { dataMSPEN } from "../../assets/data/dataTransparenciaMSPEN";
 export default class MetasMSPEN extends Component {
   render() {
     return (
-      <div>
+      <div className="mb-5">
         <NavbarEnlaces />
         <div className="Enlances__title">Metas MSPEN</div>
         <div className="accordion accordion-flush mt-3" id="metasMSPEN">
