@@ -1,14 +1,73 @@
 .Enlances__title {
     text-align: center;
-    border-top-width: 2px;
-    border-top-color: red;
-    border-top-style: solid;
-    border-bottom-width: 2px;
-    border-bottom-color: red;
-    border-bottom-style: solid;
-    color: red;
+    border-top: 3px solid #aa0787;
+    border-bottom: 3px solid #aa0787;
+    color: #aa0787;
     font-size: 20px;
     font-weight: bolder;
-    padding: 10px 0;
+    padding: 4px 0;
     margin: 40px 0 0 0;
+}
+
+.Memoria__grid {
+    padding: 0 10px;
+    display: grid;
+}
+
+.Memoria__item {
+    box-shadow: 3px 3px 3px #818181;
+
+}
+
+.Memoria__item:hover {
+    transition: .5s;
+    transform: scale(1.05);
+}
+
+.Memoria__header {
+    background-color: #aa0787;
+    color: #ffffff;
+    text-align: center;
+}
+
+/* --------------- M E D I A     Q U E R I E S --------------- */
+
+/* general */
+@media only screen and (min-width: 1024px) {
+    .Memoria__grid {
+        grid-template-columns: auto auto auto auto;
+        gap: 20px;
+    }
+
+    .Memoria__header {
+        background-color: #aa0787;
+        color: #ffffff;
+        padding: 5px 0;
+        text-align: center;
+        font-size: 20px;
+    }
+}
+
+/* tablets */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .Memoria__grid {
+        grid-template-columns: auto auto auto;
+        gap: 30px;
+    }
+
+    .Memoria__header {
+        font-size: 20px;
+    }
+}
+
+/* mobil */
+@media only screen and (max-width: 767px) {
+    .Memoria__grid {
+        grid-template-columns: auto auto;
+        gap: 20px;
+    }
+
+    .Memoria__header {
+        font-size: 15px;
+    }
 }

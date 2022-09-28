@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import "./NavbarEnlaces.css";
 
 const Enlaces_imgpath = require.context("../img/icons");
@@ -50,18 +51,22 @@ export default class NavbarEnlaces extends Component {
           />
         </div>
         <div>
-          <img
-            src={Enlaces_imgpath(`./${"e7.png"}`)}
-            alt="Memorias Electorales"
-            className="img-fluid shadow rounded-4"
-          />
+          <Link to="/MemoriasElectorales">
+            <img
+              src={Enlaces_imgpath(`./${"e7.png"}`)}
+              alt="Memorias Electorales"
+              className="img-fluid shadow rounded-4"
+            />
+          </Link>
         </div>
         <div>
-          <img
-            src={Enlaces_imgpath(`./${"e8.png"}`)}
-            alt="Metas MSPEN"
-            className="img-fluid shadow rounded-4"
-          />
+          <Link to="/MetasMSPEN">
+            <img
+              src={Enlaces_imgpath(`./${"e8.png"}`)}
+              alt="Metas MSPEN"
+              className="img-fluid shadow rounded-4"
+            />
+          </Link>
         </div>
       </div>
     );

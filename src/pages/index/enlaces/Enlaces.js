@@ -1,16 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import "./Enlaces.css";
-// import e1 from "./img/e1.png";
-// import e2 from "./img/e2.png";
-// import e3 from "./img/e3.png";
-// import e4 from "./img/e4.png";
-// import e5 from "./img/e5.png";
-// import e6 from "./img/e6.png";
-// import e7 from "./img/e7.png";
-// import e8 from "./img/e8.png";
-// import e9 from "./img/e9.png";
-// import e10 from "./img/e10.png";
 
 const Enlaces_imgpath = require.context("./img");
 

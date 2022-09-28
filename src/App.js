@@ -10,6 +10,7 @@ import Footer from "./layout/Footer";
 
 //Enlaces
 import MemoriasElectorales from "./pages/enlaces/MemoriasElectorales";
+import MetasMSPEN from "./pages/enlaces/MetasMSPEN";
 
 //Acerca de ITE
 import FinesInstitucionales from "./pages/acercaITE/FinesInstitucionales";
@@ -120,6 +121,7 @@ function App() {
             path="/MemoriasElectorales"
             element={<MemoriasElectorales />}
           />
+          <Route path="/MetasMSPEN" element={<MetasMSPEN />} />
 
           {/* Acerca de ITE */}
           <Route

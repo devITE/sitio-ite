@@ -22,7 +22,7 @@ export default class AvisosPrivacidad extends Component {
           {dataAvisosPrivacidad.map((aviso) => {
             return (
               <div key={aviso.id} className="accordion-item">
-                <h2 className="accordion-header" id="headingOne">
+                <h2 className="accordion-header">
                   <button
                     className="accordion-button collapsed"
                     type="button"
@@ -37,7 +37,6 @@ export default class AvisosPrivacidad extends Component {
                 <div
                   id={aviso.idGroup}
                   className="accordion-collapse collapse"
-                  aria-labelledby="headingOne"
                   data-bs-parent="#accordionExample"
                 >
                   <div className="accordion-body">
