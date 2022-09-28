@@ -1,4 +1,4 @@
-const Accordion = ({ accordionsItem, accordionID }) => {
+const Accordion = ({ accordionsItem, accordionID, content }) => {
   return (
     <>
       <div className="accordion accordion-flush" id={accordionID}>
@@ -21,11 +21,7 @@ const Accordion = ({ accordionsItem, accordionID }) => {
               className="accordion-collapse collapse"
               data-bs-parent={"#" + accordionID}
             >
-              <div className="accordion-body">
-                Placeholder content for this accordion, which is intended to
-                demonstrate the <code>.accordion-flush</code> class. This is the
-                first item's accordion body.
-              </div>
+              <div className="accordion-body">{content}</div>
             </div>
           </div>
         ))}
