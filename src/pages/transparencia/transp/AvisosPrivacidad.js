@@ -1,5 +1,11 @@
 import React, { Component } from "react";
-import { dataAvisosPrivacidad } from "../../../assets/data/dataTransparenciaAvisosPrivacidad";
+import Accordion from "../../../layout/Accordion";
+import ListBadgePDF from "../../../layout/ListBadge/ListBadgePDF";
+import {
+  dataTitAvPriv,
+  dataContAvPriv,
+  dataAvisosPrivacidad,
+} from "../../../assets/data/dataTransparenciaAvisosPrivacidad";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
 import "../Transparencia.css";
@@ -18,6 +24,18 @@ export default class AvisosPrivacidad extends Component {
         <div className="w-100 mt-3 Transparencia__header-title">
           Avisos de Privacidad
         </div>
+        <hr></hr>
+        <Accordion
+          accordionsItem={dataTitAvPriv}
+          accordionID={"accordionAvisosPrivacidad"}
+          content={
+            <ListBadgePDF
+              ifNumbered={"list-group-numbered"}
+              listsBadgeItem={dataContAvPriv}
+            />
+          }
+        />
+        <hr></hr>
         <div className="mt-3 accordion" id="accordionExample">
           {dataAvisosPrivacidad.map((aviso) => {
             return (
