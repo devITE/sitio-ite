@@ -54,12 +54,24 @@ color: black;
 .estilo
 {
   font-size: 1.2rem;
-  /* display: block; */
-  /* align-items: center;
-  margin:auto; 
-  */
   text-align: justify;
   display: line;
   align-items: center;
-
+}
+.style{
+  margin-bottom:2rem;
+}
+.PRUEBA{
+  display: grid;
+  grid-template-columns:auto auto auto auto;
+  gap: 45px;
+  padding: 0px 30px;
+}
+.Integracion__item{
+border-radius: 10px;
+box-shadow: 5px 5px 5px #a0a0a0;
+}
+.Integracion__item:hover{
+  transition: .5s;
+  transform: scale(1.03);
 }
