@@ -249,23 +249,23 @@ export default class Integracion extends Component {
                   target="_blank"
                   rel="noreferrer"
                 >
-                <img
-                  src={imagenes13}
-                  className="img-fluid Integracion__item"
-                  alt="verde"
-                />
-</a>
+                  <img
+                    src={imagenes13}
+                    className="img-fluid Integracion__item"
+                    alt="verde"
+                  />
+                </a>
 
-<a
+                <a
                   href={"https://movimientociudadano.mx/tlaxcala"}
                   target="_blank"
                   rel="noreferrer"
                 >
-                <img
-                  src={imagenes14}
-                  className="img-fluid Integracion__item"
-                  alt="movimiento ciudadano"
-                />
+                  <img
+                    src={imagenes14}
+                    className="img-fluid Integracion__item"
+                    alt="movimiento ciudadano"
+                  />
                 </a>
                 <a
                   href={"https://www.partidoalianzaciudadanatlax.com/"}
@@ -283,46 +283,45 @@ export default class Integracion extends Component {
                   target="_blank"
                   rel="noreferrer"
                 >
-                <img
-                  src={imagenes16}
-                  className="img-fluid Integracion__item"
-                  alt="morena"
-                />
+                  <img
+                    src={imagenes16}
+                    className="img-fluid Integracion__item"
+                    alt="morena"
+                  />
                 </a>
                 <a
                   href={"https://www.natlaxcala.mx/"}
                   target="_blank"
                   rel="noreferrer"
                 >
-                <img
-                  src={imagenes17}
-                  className="img-fluid Integracion__item"
-                  alt="nueva alianza"
-                />
-</a>
-<a
+                  <img
+                    src={imagenes17}
+                    className="img-fluid Integracion__item"
+                    alt="nueva alianza"
+                  />
+                </a>
+                <a
                   href={"https://www.redessocialesprogresistas.org/tlaxcala/"}
                   target="_blank"
                   rel="noreferrer"
                 >
-                <img
-                  src={imagenes18}
-                  className="img-fluid Integracion__item"
-                  alt="rsp"
-                />
-</a>
-<a
+                  <img
+                    src={imagenes18}
+                    className="img-fluid Integracion__item"
+                    alt="rsp"
+                  />
+                </a>
+                <a
                   href={"https://www.fuerzapormexicotlx.org/"}
                   target="_blank"
                   rel="noreferrer"
                 >
-
-                <img
-                  src={imagenes19}
-                  className="img-fluid Integracion__item"
-                  alt="fuerza x mexico"
-                />
-              </a>
+                  <img
+                    src={imagenes19}
+                    className="img-fluid Integracion__item"
+                    alt="fuerza x mexico"
+                  />
+                </a>
               </div>
             </div>
           </div>
