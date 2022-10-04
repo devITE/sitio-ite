@@ -8,6 +8,11 @@ import Navbar from "./layout/Navbar";
 import Home from "./pages/index/Home";
 import Footer from "./layout/Footer";
 
+//Enlaces
+import MemoriasElectorales from "./pages/enlaces/MemoriasElectorales";
+import MetasMSPEN from "./pages/enlaces/MetasMSPEN";
+import PartidosPoliticos from "./pages/enlaces/PartidosPoliticos";
+
 //Acerca de ITE
 import FinesInstitucionales from "./pages/acercaITE/FinesInstitucionales";
 import Historia from "./pages/acercaITE/Historia";
@@ -111,6 +116,14 @@ function App() {
       <div className="mt-3 App__container">
         <Routes>
           <Route exact path="/" element={<Home />} />
+
+          {/* Enlaces */}
+          <Route
+            path="/MemoriasElectorales"
+            element={<MemoriasElectorales />}
+          />
+          <Route path="/MetasMSPEN" element={<MetasMSPEN />} />
+          <Route path="/PartidosPoliticos" element={<PartidosPoliticos />} />
 
           {/* Acerca de ITE */}
           <Route
