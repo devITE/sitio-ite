@@ -75,7 +75,7 @@ const Acuerdos2004 = () => {
           },
         }}
         muiTablePaginationProps={{
-          rowsPerPageOptions: [10, 25, 50, 100, 200, 300],
+          rowsPerPageOptions: [10, 25, 50, 100, 200, 300, 400],
           labelRowsPerPage: "Filas por página",
           getItemAriaLabel: (type) => {
             if (type === "first") {
