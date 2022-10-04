@@ -61,9 +61,7 @@ const Acuerdos2008 = () => {
         enableColumnActions={false}
         enableColumnResizing
         enableDensityToggle={false}
-        initialState={{
-          density: "compact",
-        }}
+        initialState={{ density: "compact" }}
         muiTableHeadCellProps={{
           sx: {
             backgroundColor: "#972069",
