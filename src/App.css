@@ -6,6 +6,7 @@ html {
 li::marker {
   color: #AA0787;
   font-weight: bolder;
+  font-size: 20px;
 }
 
 body {

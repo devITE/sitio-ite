@@ -1,16 +1,28 @@
 .borde {
   border-bottom-style: dotted;
-  border-bottom-color: #f800f8;
+  border-bottom-color: #AA0787;
   border-bottom-width: 4px;
   border-top: none;
+  opacity: 1;
 }
+.style_letter{
+  margin-bottom: 1.1rem;
+  font-weight: 100;
+  line-height: 1.1;
+  font-size: 1.4rem;
+}
+.style_romano{
+  font-size: 1.2rem;
+  margin-bottom: 1.3rem;
+  line-height: 0.8;
 
-.romanos_upper {
+}
+/* .romanos_upper {
   list-style-type: upper-roman;
   color: #AA0787;
   margin-right: 35px;
   margin-left: 35px;
-}
+} */
 
 .row {
   display: flex;
