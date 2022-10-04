@@ -776,7 +776,6 @@ export const dataAcuerdos2009 = [
     link: Acuerdos__pdfpath(`./${"2009/"}${"51.pdf"}`),
   },
 ];
-
 export const dataAcuerdos2008 = [
   {
     id: 1,
@@ -1970,7 +1969,6 @@ export const dataAcuerdos2008 = [
     link: Acuerdos__pdfpath(`./${"2008/"}${"140.pdf"}`),
   },
 ];
-
 export const dataAcuerdos2007 = [
   {
     id: 1,
@@ -4245,7 +4243,6 @@ export const dataAcuerdos2007 = [
     ],
   },
 ];
-
 export const dataAcuerdos2006 = [
   {
     id: 1,
@@ -4562,7 +4559,6 @@ export const dataAcuerdos2006 = [
     ],
   },
 ];
-
 export const dataAcuerdos2005 = [
   {
     id: 1,
@@ -4919,7 +4915,6 @@ export const dataAcuerdos2005 = [
     link: Acuerdos__pdfpath(`./${"2005/"}${"43.pdf"}`),
   },
 ];
-
 export const dataAcuerdos2004 = [
   {
     id: 1,
@@ -7814,7 +7809,6 @@ export const dataAcuerdos2004 = [
     link: Acuerdos__pdfpath(`./${"2004/"}${"273.pdf"}`),
   },
 ];
-
 export const dataAcuerdos2003 = [
   {
     id: 1,
@@ -8267,6 +8261,8 @@ export const dataAcuerdos2002 = [
     link: Acuerdos__pdfpath(`./${"2007/"}${"36.pdf"}`),
   },
 ];
+
+export const dataAA2002 = [];
 
 export const dataAcuerdos2023 = [];
 export const dataAcuerdos2022 = [];
