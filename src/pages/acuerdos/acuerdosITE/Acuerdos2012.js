@@ -61,6 +61,7 @@ const Acuerdos2012 = () => {
         enableColumnActions={false}
         enableColumnResizing
         enableDensityToggle={false}
+        initialState={{ density: "compact" }}
         muiTableHeadCellProps={{
           sx: {
             backgroundColor: "#972069",
@@ -74,6 +75,7 @@ const Acuerdos2012 = () => {
           },
         }}
         muiTablePaginationProps={{
+          rowsPerPageOptions: [10, 25, 50],
           labelRowsPerPage: "Filas por página",
           getItemAriaLabel: (type) => {
             if (type === "first") {
