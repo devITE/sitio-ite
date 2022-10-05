@@ -86,3 +86,7 @@ box-shadow: 5px 5px 5px #a0a0a0;
   transition: .5s;
   transform: scale(1.03);
 }
+.morado{
+  font-weight: bold;
+    color: #AA0787;
+}
