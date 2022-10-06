@@ -1,5 +1,6 @@
 import React, { useMemo } from "react";
 import MaterialReactTable from "material-react-table";
+import { MenuItem, TextField } from "@mui/material";
 import { dataAcuerdos2016 } from "../../../assets/data/dataAcuerdos";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
@@ -9,17 +10,54 @@ const Acuerdos2016 = () => {
   const columns = useMemo(
     () => [
       {
+        accessorKey: "monthAcuerdo",
+        header: "MES",
+        footer: "MES",
+        size: 30,
+        enableResizing: false,
+        Filter: ({ header }) => (
+          <TextField
+            onChange={(e) =>
+              header.column.setFilterValue(e.target.value || undefined)
+            }
+            select
+            value={header.column.getFilterValue() ?? ""}
+            margin="none"
+            placeholder="Filter"
+            variant="standard"
+            fullWidth
+          >
+            <MenuItem value={null}>Todos</MenuItem>
+            <MenuItem value="ENE">Enero</MenuItem>
+            <MenuItem value="FEB">Febrero</MenuItem>
+            <MenuItem value="MAR">Marzo</MenuItem>
+            <MenuItem value="ABR">Abril</MenuItem>
+            <MenuItem value="MAY">Mayo</MenuItem>
+            <MenuItem value="JUN">Junio</MenuItem>
+            <MenuItem value="JUL">Julio</MenuItem>
+            <MenuItem value="AGO">Agosto</MenuItem>
+            <MenuItem value="SEP">Septiembre</MenuItem>
+            <MenuItem value="OCT">Octubre</MenuItem>
+            <MenuItem value="NOV">Nov</MenuItem>
+            <MenuItem value="DIC">Diciembre</MenuItem>
+          </TextField>
+        ),
+        //   filterFn: (row, _columnIds, filterValue) =>
+        //     row.getValue.('gender').toLowerCase() ===
+        //     filterValue.toLowerCase(),
+      },
+      {
         accessorKey: "numAcuerdo",
         header: "ACUERDO",
         footer: "ACUERDO",
-        size: 80,
+        size: 60,
         enableResizing: false,
       },
       {
         accessorKey: "dateAcuerdo",
         header: "FECHA",
         footer: "FECHA",
-        size: 80,
+        size: 70,
         enableResizing: false,
         enableColumnFilter: false,
       },
@@ -27,7 +65,7 @@ const Acuerdos2016 = () => {
         accessorKey: "nameAcuerdo",
         header: "TÍTULO",
         footer: "TÍTULO",
-        size: 250,
+        size: 270,
         enableResizing: false,
       },
       {
