@@ -13,14 +13,6 @@ const Art632022 = () => {
   const columns = useMemo(
     () => [
       {
-        accessorKey: "monthAcuerdo",
-        header: "MES",
-        footer: "MES",
-        size: 55,
-        enableResizing: false,
-        enableColumnFilter: false,
-      },
-      {
         accessorKey: "no",
         header: "NO.",
         footer: "NO.",

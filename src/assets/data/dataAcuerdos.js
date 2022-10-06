@@ -1,4 +1,271 @@
 const Acuerdos__pdfpath = require.context("../pdf/acuerdos");
+export const dataAcuerdos2018 = [
+  {
+    id: 1,
+    year: "2018",
+    dateAcuerdo: "01-ENE",
+    numAcuerdo: "CG 01-2018",
+    monthAcuerdo: "ENE",
+    nameAcuerdo:
+      "ACUERDO CONVOCATOTIA OBSERVADORES PROCESO ELECTORAL LOCAL 2018",
+    link: Acuerdos__pdfpath(`./${"2018/"}${"1.pdf"}`),
+    subRows: [
+      {
+        id: "",
+        year: "2018",
+        dateAcuerdo: "",
+        numAcuerdo: "",
+        monthAcuerdo: "",
+        nameAcuerdo: "ANEXO CONVOCATORIA OBSERVADORES ELECTORALES",
+        link: Acuerdos__pdfpath(`./${"2018/"}${"1.1.pdf"}`),
+      },
+    ],
+  },
+
+  {
+    id: 2,
+    year: "2018",
+    dateAcuerdo: "03-ENE-2018",
+    numAcuerdo: "CG 02-2018",
+    monthAcuerdo: "ENE",
+    nameAcuerdo:
+      "ACUERDO CATALOGO DE PROGRAMAS DE RADIO Y TELEVISIÓN PELO 2018",
+    link: Acuerdos__pdfpath(`./${"2018/"}${"2.pdf"}`),
+    subRows: [
+      {
+        id: "",
+        year: "2018",
+        dateAcuerdo: "",
+        numAcuerdo: "",
+        monthAcuerdo: "",
+        nameAcuerdo: "ANEXO LISTADO DE NOTICIARIOS",
+        link: Acuerdos__pdfpath(`./${"2018/"}${"2.1.pdf"}`),
+      },
+    ],
+  },
+  {
+    id: 3,
+    year: "2018",
+    dateAcuerdo: "06-ENE-2018",
+    numAcuerdo: "CG 3-2018",
+    monthAcuerdo: "ENE",
+    nameAcuerdo:
+      "ACUERDO POR EL QUE SE RESUELVE LA PROCEDENCIA DE MANIFESTANCIONES DE INTENCIÓN CI PELO 2018",
+    link: Acuerdos__pdfpath(`./${"2018/"}${"3.pdf"}`),
+  },
+
+  {
+    id: 4,
+    year: "2018",
+    dateAcuerdo: "13-ENE-2018",
+    numAcuerdo: "CG 4-2018",
+    monthAcuerdo: "ENE",
+    nameAcuerdo:
+      "ACUERDO DE ADECUACIÓN AL PRESUPUESTO DE EGRESOS DEL ITE CUMPLIMIENTO A LA SENTENCIA SCM JRC 21 2017 Y AMPLIACIÓN PRESUPUESTAL",
+    link: Acuerdos__pdfpath(`./${"2018/"}${"4.pdf"}`),
+    subRows: [
+      {
+        id: "",
+        year: "2018",
+        dateAcuerdo: "",
+        numAcuerdo: "",
+        monthAcuerdo: "",
+        nameAcuerdo: "ANEXO ÚNICO",
+        link: Acuerdos__pdfpath(`./${"2018/"}${"4.1.pdf"}`),
+      },
+      {
+        id: "",
+        year: "2018",
+        dateAcuerdo: "",
+        numAcuerdo: "",
+        monthAcuerdo: "",
+        nameAcuerdo:
+          "VOTO CONCURRENTE CONSEJERA ELECTORAL DORA RODRÍGUEZ SORIANO 3",
+        link: Acuerdos__pdfpath(`./${"2018/"}${"4.2.pdf"}`),
+      },
+      {
+        id: "",
+        year: "2018",
+        dateAcuerdo: "",
+        numAcuerdo: "",
+        monthAcuerdo: "",
+        nameAcuerdo:
+          "VOTO CONCURRENTE CONSEJERO ELECTORAL JUAN CARLOS MINOR MÁRQUEZ",
+        link: Acuerdos__pdfpath(`./${"2018/"}${"4.3.pdf"}`),
+      },
+    ],
+  },
+
+  {
+    id: 5,
+    year: "2018",
+    dateAcuerdo: "19-ENE-2018",
+    numAcuerdo: "CG 5-2018",
+    monthAcuerdo: "ENE",
+    nameAcuerdo:
+      "ACUERDO POR EL QUE SE ESTABLECE LA FORMA DE EJECUTAR LAS MULTAS PREVISTAS EN LA RESOLUCIÓN INE CG309 2017 Y ACUERDO INE CG461 2017",
+    link: Acuerdos__pdfpath(`./${"2018/"}${"5.pdf"}`),
+    subRows: [
+      {
+        id: "",
+        year: "2018",
+        dateAcuerdo: "",
+        numAcuerdo: "",
+        monthAcuerdo: "",
+        nameAcuerdo: "ANEXO UNO",
+        link: Acuerdos__pdfpath(`./${"2018/"}${"5.1.pdf"}`),
+      },
+      {
+        id: "",
+        year: "2018",
+        dateAcuerdo: "",
+        numAcuerdo: "",
+        monthAcuerdo: "",
+        nameAcuerdo: "ANEXO DOS",
+        link: Acuerdos__pdfpath(`./${"2018/"}${"5.2.pdf"}`),
+      },
+    ],
+  },
+
+  {
+    id: 6,
+    year: "2018",
+    dateAcuerdo: "19-ENE-2018",
+    numAcuerdo: "CG 06-2018",
+    monthAcuerdo: "ENE",
+    nameAcuerdo:
+      "ACUERDO POR EL QUE SE REFORMAN LOS LINEAMIENTOS PARA REGULAR LOS CÓMPUTOS DISTRITALES Y ESTATAL DE DIPUTADOS LOCALES, PELO 2018",
+    link: Acuerdos__pdfpath(`./${"2018/"}${"6.pdf"}`),
+    subRows: [
+      {
+        id: "",
+        year: "2018",
+        dateAcuerdo: "",
+        numAcuerdo: "",
+        monthAcuerdo: "",
+        nameAcuerdo:
+          "ANEXO ÚNICO LINEAMIENTOS CÓMPUTOS DISTRITALES Y ESTATAL DE LA ELECCIÓN DE DIPUTADOS LOCALES PELO 2018",
+        link: Acuerdos__pdfpath(`./${"2018/"}${"6.1.pdf"}`),
+      },
+    ],
+  },
+
+  {
+    id: 7,
+    year: "2018",
+    dateAcuerdo: "25-ENE-2018",
+    numAcuerdo: "CG 07-2018",
+    monthAcuerdo: "ENE",
+    nameAcuerdo:
+      "ACUERDO POR EL QUE SE DA CUMPLIMIENTO A LA SENTENCIA EMITIDA POR EL TRIBUNAL ELECTORAL DE TLAXCALA DICTADA DENTRO DEL EXPEDIENTE TET JE 060 2017",
+    link: Acuerdos__pdfpath(`./${"2018/"}${"7.pdf"}`),
+    subRows: [
+      {
+        id: "",
+        year: "2018",
+        dateAcuerdo: "",
+        numAcuerdo: "",
+        monthAcuerdo: "",
+        nameAcuerdo: "ANEXO ÚNICO LINEAMIENTOS PARIDAD DE GÉNERO PELO 2018",
+        link: Acuerdos__pdfpath(`./${"2018/"}${"7.1.pdf"}`),
+      },
+    ],
+  },
+
+  {
+    id: 8,
+    year: "2018",
+    dateAcuerdo: "30-ENE-2018",
+    numAcuerdo: "CG 8-2018",
+    monthAcuerdo: "ENE",
+    nameAcuerdo: "",
+    link: "",
+    subRows: [
+      {
+        id: "",
+        year: "2018",
+        dateAcuerdo: "",
+        numAcuerdo: "",
+        monthAcuerdo: "",
+        nameAcuerdo: "CONVOCATORIA CONSEJOS DISTRITALES",
+        link: Acuerdos__pdfpath(`./${"2018/"}${"8.1.pdf"}`),
+      },
+    ],
+  },
+  {
+    id: 9,
+    year: "2018",
+    dateAcuerdo: "01-FEB-2018",
+    numAcuerdo: "CG 09-2018",
+    monthAcuerdo: "FEB",
+    nameAcuerdo:
+      "RESOLUCIÓN A LA SOLICITUD DE RERGISTRO DE CONVENIO DE COALICIÓN PAN PRD PAC PARA LA ELECCIÓN DE DIPUTADOS PELO 2018",
+    link: Acuerdos__pdfpath(`./${"2018/"}${"9.pdf"}`),
+  },
+
+  {
+    id: 10,
+    year: "2018",
+    dateAcuerdo: "02-FEB-2018",
+    numAcuerdo: "CG 10-2018",
+    monthAcuerdo: "FEB",
+    nameAcuerdo:
+      "RESOLUCIÓN DEL CONSEJO GENERAL RESPECTO A LA SOLICITUD DE REGISTRO DEL CONVENIO DE COALICIÓN PARCIAL JUNTOS HAREMOS HISTORIA, MORENA, PT Y PES",
+    link: Acuerdos__pdfpath(`./${"2018/"}${"10.pdf"}`),
+    subRows: [
+      {
+        id: "",
+        year: "2018",
+        dateAcuerdo: "",
+        numAcuerdo: "",
+        monthAcuerdo: "",
+        nameAcuerdo: "VOTO CONCURRENTE DRA. DORA RODRÍGUEZ SORIANO",
+        link: Acuerdos__pdfpath(`./${"2018/"}${"10.1.pdf"}`),
+      },
+      {
+        id: "",
+        year: "2018",
+        dateAcuerdo: "",
+        numAcuerdo: "",
+        monthAcuerdo: "",
+        nameAcuerdo: "VOTO PARTICULAR MTRA. YARELI ALVAREZ MEZA",
+        link: Acuerdos__pdfpath(`./${"2018/"}${"10.2.pdf"}`),
+      },
+    ],
+  },
+
+  {
+    id: 11,
+    year: "2018",
+    dateAcuerdo: "06-FEB-2018",
+    numAcuerdo: "CG 11-2018",
+    monthAcuerdo: "FEB",
+    nameAcuerdo:
+      "ACUERDO POR EL QUE SE APRUEBA EL PROCESO TÉCNICO OPERATIVO PREP",
+    link: Acuerdos__pdfpath(`./${"2018/"}${"11.pdf"}`),
+    subRows: [
+      {
+        id: "",
+        year: "2018",
+        dateAcuerdo: "",
+        numAcuerdo: "",
+        monthAcuerdo: "",
+        nameAcuerdo: "PROCESO TÉCNICO OPERATIVO PREP 2018",
+        link: Acuerdos__pdfpath(`./${"2018/"}${"11.1.pdf"}`),
+      },
+      {
+        id: "",
+        year: "2018",
+        dateAcuerdo: "",
+        numAcuerdo: "",
+        monthAcuerdo: "",
+        nameAcuerdo: "VOTO RAZONADO MTRA. YARELI ALVAREZ MEZA",
+        link: Acuerdos__pdfpath(`./${"2018/"}${"11.2.pdf"}`),
+      },
+    ],
+  },
+];
+
 export const dataAcuerdos2017 = [
   {
     id: 1,
@@ -363,7 +630,7 @@ export const dataAcuerdos2017 = [
     id: 22,
     year: "2017",
     dateAcuerdo: "19-ABR-2017",
-    numAcuerdo: "CG 22-2016",
+    numAcuerdo: "CG 22-2017",
     monthAcuerdo: "ABR",
     nameAcuerdo: "ACUERDO PROCEDIMIENTOS Y PLAZOS PREP",
     link: Acuerdos__pdfpath(`./${"2017/"}${"22.pdf"}`),
@@ -538,7 +805,7 @@ export const dataAcuerdos2017 = [
     id: 35,
     year: "2017",
     dateAcuerdo: "12-MAY-2017",
-    numAcuerdo: "CG 35-2016",
+    numAcuerdo: "CG 35-2017",
     monthAcuerdo: "MAY",
     nameAcuerdo:
       "ACUERDO MODELO OPERATIVO REMISIÓN Y RECEPCIÓN PAQUETES ELECTORALES",
@@ -854,7 +1121,7 @@ export const dataAcuerdos2017 = [
     id: 60,
     year: "2017",
     dateAcuerdo: "27-JUN-2017",
-    numAcuerdo: "CG 60-2016",
+    numAcuerdo: "CG 60-2017",
     monthAcuerdo: "JUN",
     nameAcuerdo: " ACUERDO FORMATOS PARA ORGANIZACIONES DE CIUDADANOS",
     link: Acuerdos__pdfpath(`./${"2017/"}${"60.pdf"}`),
@@ -961,7 +1228,7 @@ export const dataAcuerdos2017 = [
     dateAcuerdo: "16-AGO-2017",
     numAcuerdo: "CG 67-2017",
     monthAcuerdo: "AGO",
-    nameAcuerdo: "ACUERDO MULTA RESOLUCIÓN INE CG810 2016",
+    nameAcuerdo: "ACUERDO MULTA RESOLUCIÓN INE CG810 2017",
     link: Acuerdos__pdfpath(`./${"2017/"}${"67.pdf"}`),
   },
   {
@@ -987,7 +1254,7 @@ export const dataAcuerdos2017 = [
     id: 70,
     year: "2017",
     dateAcuerdo: "29-AGO-2017",
-    numAcuerdo: "CG 70-2016",
+    numAcuerdo: "CG 70-2017",
     monthAcuerdo: "AGO",
     nameAcuerdo: "ACUERDO LINEAMIENTOS COMPUTOS DISTRITALES 2017 2018",
     link: Acuerdos__pdfpath(`./${"2017/"}${"70.pdf"}`),
@@ -1060,7 +1327,7 @@ export const dataAcuerdos2017 = [
     id: 73,
     year: "2017",
     dateAcuerdo: "25-SEP-2017",
-    numAcuerdo: "CG 73-2016",
+    numAcuerdo: "CG 73-2017",
     monthAcuerdo: "SEP",
     nameAcuerdo: "ACUERDO ADECUACIÓN PRESUPUESTO 2017",
     link: Acuerdos__pdfpath(`./${"2017/"}${"73.pdf"}`),
@@ -1111,7 +1378,7 @@ export const dataAcuerdos2017 = [
     id: 75,
     year: "2017",
     dateAcuerdo: "12-OCT-2017",
-    numAcuerdo: "CG 75-2016",
+    numAcuerdo: "CG 75-2017",
     monthAcuerdo: "OCT",
     nameAcuerdo: "ACUERDO DESIGNACIÓN DE DIRECTORES Y TITULARES",
     link: Acuerdos__pdfpath(`./${"2017/"}${"75.pdf"}`),
@@ -1279,7 +1546,7 @@ export const dataAcuerdos2017 = [
     id: 84,
     year: "2017",
     dateAcuerdo: "23-NOV-2017",
-    numAcuerdo: "CG 84-2016",
+    numAcuerdo: "CG 84-2017",
     monthAcuerdo: "NOV",
     nameAcuerdo: "ACUERDO CONVOCATORIA CANDIDATOS INDEPENDIENTES",
     link: Acuerdos__pdfpath(`./${"2017/"}${"84.pdf"}`),
@@ -1565,7 +1832,6 @@ export const dataAcuerdos2017 = [
     ],
   },
 ];
-
 export const dataAcuerdos2016 = [
   {
     id: 1,
@@ -4557,7 +4823,6 @@ export const dataAcuerdos2016 = [
     link: Acuerdos__pdfpath(`./${"2016/"}${"316.pdf"}`),
   },
 ];
-
 export const dataAcuerdos2015 = [
   {
     id: 1,
@@ -14515,7 +14780,6 @@ export const dataAcuerdos2022 = [];
 export const dataAcuerdos2021 = [];
 export const dataAcuerdos2020 = [];
 export const dataAcuerdos2019 = [];
-export const dataAcuerdos2018 = [];
 
 export const dataAcuerdosINE2015 = [
   {

@@ -38,13 +38,10 @@ const Acuerdos2016 = () => {
             <MenuItem value="AGO">Agosto</MenuItem>
             <MenuItem value="SEP">Septiembre</MenuItem>
             <MenuItem value="OCT">Octubre</MenuItem>
-            <MenuItem value="NOV">Nov</MenuItem>
+            <MenuItem value="NOV">Noviembre</MenuItem>
             <MenuItem value="DIC">Diciembre</MenuItem>
           </TextField>
         ),
-        //   filterFn: (row, _columnIds, filterValue) =>
-        //     row.getValue.('gender').toLowerCase() ===
-        //     filterValue.toLowerCase(),
       },
       {
         accessorKey: "numAcuerdo",
