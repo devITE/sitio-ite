@@ -17,12 +17,6 @@
   line-height: 0.8;
 
 }
-/* .romanos_upper {
-  list-style-type: upper-roman;
-  color: #AA0787;
-  margin-right: 35px;
-  margin-left: 35px;
-} */
 
 .row {
   display: flex;
@@ -89,4 +83,31 @@ box-shadow: 5px 5px 5px #a0a0a0;
 .morado{
   font-weight: bold;
     color: #AA0787;
+}
+.acuerdos{
+  display: grid;
+  grid-template-columns:auto auto auto auto auto auto;
+  gap: 45px;
+  padding: 0px 30px;
+}
+.Demarcaciones__item:hover{
+  transition: .2s;
+  transform: scale(1.25);
+}
+.mapas{
+  display: grid;
+  grid-template-columns:auto;
+  gap: 45px;
+  padding: 0px 100px;
+}
+.mapas:hover{
+  transition: .1s;
+  transform: scale(1.03);
+}
+.subtitle{
+  color: #BA1678;
+  font-size: 2rem;
+  display: block;
+  margin-left: 2rem;
+  margin-bottom: 0rem;
 }
