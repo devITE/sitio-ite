@@ -1,5 +1,6 @@
 import React, { useMemo } from "react";
 import MaterialReactTable from "material-react-table";
+import { MenuItem, TextField } from "@mui/material";
 import { dataAcuerdos2003 } from "../../../assets/data/dataAcuerdos";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
@@ -8,18 +9,52 @@ import top2003 from "../../../img/imgA/h_2003.png";
 const Acuerdos2003 = () => {
   const columns = useMemo(
     () => [
-      // {
-      //   accessorKey: "numAcuerdo",
-      //   header: "ACUERDO",
-      //   footer: "ACUERDO",
-      //   size: 80,
-      //   enableResizing: false,
-      // },
+      {
+        accessorKey: "monthAcuerdo",
+        header: "MES",
+        footer: "MES",
+        size: 30,
+        enableResizing: false,
+        Filter: ({ header }) => (
+          <TextField
+            onChange={(e) =>
+              header.column.setFilterValue(e.target.value || undefined)
+            }
+            select
+            value={header.column.getFilterValue() ?? ""}
+            margin="none"
+            placeholder="Filter"
+            variant="standard"
+            fullWidth
+          >
+            <MenuItem value={null}>Todos</MenuItem>
+            <MenuItem value="ENE">Enero</MenuItem>
+            <MenuItem value="FEB">Febrero</MenuItem>
+            <MenuItem value="MAR">Marzo</MenuItem>
+            <MenuItem value="ABR">Abril</MenuItem>
+            <MenuItem value="MAY">Mayo</MenuItem>
+            <MenuItem value="JUN">Junio</MenuItem>
+            <MenuItem value="JUL">Julio</MenuItem>
+            <MenuItem value="AGO">Agosto</MenuItem>
+            <MenuItem value="SEP">Septiembre</MenuItem>
+            <MenuItem value="OCT">Octubre</MenuItem>
+            <MenuItem value="NOV">Noviembre</MenuItem>
+            <MenuItem value="DIC">Diciembre</MenuItem>
+          </TextField>
+        ),
+      },
+      {
+        accessorKey: "numAcuerdo",
+        header: "ACUERDO",
+        footer: "ACUERDO",
+        size: 60,
+        enableResizing: false,
+      },
       {
         accessorKey: "dateAcuerdo",
         header: "FECHA",
         footer: "FECHA",
-        size: 110,
+        size: 70,
         enableResizing: false,
         enableColumnFilter: false,
       },
@@ -27,7 +62,7 @@ const Acuerdos2003 = () => {
         accessorKey: "nameAcuerdo",
         header: "TÍTULO",
         footer: "TÍTULO",
-        size: 320,
+        size: 270,
         enableResizing: false,
       },
       {
@@ -56,8 +91,8 @@ const Acuerdos2003 = () => {
       <MaterialReactTable
         columns={columns}
         data={dataAcuerdos2003}
-        // enableExpanding
-        // enableExpandAll={false}
+        enableExpanding
+        enableExpandAll={false}
         enableColumnActions={false}
         enableColumnResizing
         enableDensityToggle={false}
@@ -75,7 +110,7 @@ const Acuerdos2003 = () => {
           },
         }}
         muiTablePaginationProps={{
-          rowsPerPageOptions: [10, 25, 50],
+          rowsPerPageOptions: [10, 25, 50, 100, 200, 300, 400],
           labelRowsPerPage: "Filas por página",
           getItemAriaLabel: (type) => {
             if (type === "first") {

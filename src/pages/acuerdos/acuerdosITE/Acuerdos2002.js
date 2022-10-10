@@ -1,5 +1,6 @@
 import React, { useMemo } from "react";
 import MaterialReactTable from "material-react-table";
+import { MenuItem, TextField } from "@mui/material";
 import {
   dataAcuerdos2002,
   dataAA2002,
@@ -13,10 +14,51 @@ const Acuerdos2002 = () => {
   const columns = useMemo(
     () => [
       {
+        accessorKey: "monthAcuerdo",
+        header: "MES",
+        footer: "MES",
+        size: 30,
+        enableResizing: false,
+        Filter: ({ header }) => (
+          <TextField
+            onChange={(e) =>
+              header.column.setFilterValue(e.target.value || undefined)
+            }
+            select
+            value={header.column.getFilterValue() ?? ""}
+            margin="none"
+            placeholder="Filter"
+            variant="standard"
+            fullWidth
+          >
+            <MenuItem value={null}>Todos</MenuItem>
+            <MenuItem value="ENE">Enero</MenuItem>
+            <MenuItem value="FEB">Febrero</MenuItem>
+            <MenuItem value="MAR">Marzo</MenuItem>
+            <MenuItem value="ABR">Abril</MenuItem>
+            <MenuItem value="MAY">Mayo</MenuItem>
+            <MenuItem value="JUN">Junio</MenuItem>
+            <MenuItem value="JUL">Julio</MenuItem>
+            <MenuItem value="AGO">Agosto</MenuItem>
+            <MenuItem value="SEP">Septiembre</MenuItem>
+            <MenuItem value="OCT">Octubre</MenuItem>
+            <MenuItem value="NOV">Noviembre</MenuItem>
+            <MenuItem value="DIC">Diciembre</MenuItem>
+          </TextField>
+        ),
+      },
+      {
+        accessorKey: "numAcuerdo",
+        header: "ACUERDO",
+        footer: "ACUERDO",
+        size: 60,
+        enableResizing: false,
+      },
+      {
         accessorKey: "dateAcuerdo",
         header: "FECHA",
         footer: "FECHA",
-        size: 110,
+        size: 70,
         enableResizing: false,
         enableColumnFilter: false,
       },
@@ -24,7 +66,7 @@ const Acuerdos2002 = () => {
         accessorKey: "nameAcuerdo",
         header: "TÍTULO",
         footer: "TÍTULO",
-        size: 320,
+        size: 270,
         enableResizing: false,
       },
       {
@@ -50,22 +92,68 @@ const Acuerdos2002 = () => {
   const columnsAA = useMemo(
     () => [
       {
+        accessorKey: "monthAcuerdo",
+        header: "MES",
+        footer: "MES",
+        size: 30,
+        enableResizing: false,
+        Filter: ({ header }) => (
+          <TextField
+            onChange={(e) =>
+              header.column.setFilterValue(e.target.value || undefined)
+            }
+            select
+            value={header.column.getFilterValue() ?? ""}
+            margin="none"
+            placeholder="Filter"
+            variant="standard"
+            fullWidth
+          >
+            <MenuItem value={null}>Todos</MenuItem>
+            <MenuItem value="ENE">Enero</MenuItem>
+            <MenuItem value="FEB">Febrero</MenuItem>
+            <MenuItem value="MAR">Marzo</MenuItem>
+            <MenuItem value="ABR">Abril</MenuItem>
+            <MenuItem value="MAY">Mayo</MenuItem>
+            <MenuItem value="JUN">Junio</MenuItem>
+            <MenuItem value="JUL">Julio</MenuItem>
+            <MenuItem value="AGO">Agosto</MenuItem>
+            <MenuItem value="SEP">Septiembre</MenuItem>
+            <MenuItem value="OCT">Octubre</MenuItem>
+            <MenuItem value="NOV">Noviembre</MenuItem>
+            <MenuItem value="DIC">Diciembre</MenuItem>
+          </TextField>
+        ),
+      },
+      {
+        accessorKey: "numAcuerdo",
+        header: "ACUERDO",
+        footer: "ACUERDO",
+        size: 60,
+        enableResizing: false,
+      },
+      {
         accessorKey: "dateAcuerdo",
         header: "FECHA",
-        size: 110,
+        footer: "FECHA",
+        size: 70,
         enableResizing: false,
+        enableColumnFilter: false,
       },
       {
         accessorKey: "nameAcuerdo",
         header: "TÍTULO",
-        size: 320,
+        footer: "TÍTULO",
+        size: 270,
         enableResizing: false,
       },
       {
         id: "pdf",
         header: "",
+        footer: "",
         size: 50,
         enableResizing: false,
+        enableColumnFilters: false,
         Cell: ({ row }) =>
           row.original.link === "" ? (
             <span></span>
@@ -78,12 +166,15 @@ const Acuerdos2002 = () => {
     ],
     []
   );
+
   return (
     <div className="mb-3">
       <img src={top2002} alt="Acuerdos 2002" className="img-fluid w-100 mb-3" />
       <MaterialReactTable
         columns={columns}
         data={dataAcuerdos2002}
+        enableExpanding
+        enableExpandAll={false}
         enableColumnActions={false}
         enableColumnResizing
         enableDensityToggle={false}
@@ -101,7 +192,7 @@ const Acuerdos2002 = () => {
           },
         }}
         muiTablePaginationProps={{
-          rowsPerPageOptions: [10, 25, 50],
+          rowsPerPageOptions: [10, 25, 50, 100, 200, 300, 400],
           labelRowsPerPage: "Filas por página",
           getItemAriaLabel: (type) => {
             if (type === "first") {
@@ -162,8 +253,8 @@ const Acuerdos2002 = () => {
       <MaterialReactTable
         columns={columnsAA}
         data={dataAA2002}
-        enableTopToolbar={false}
-        enableBottomToolbar={false}
+        enableExpanding
+        enableExpandAll={false}
         enableColumnActions={false}
         enableColumnResizing
         enableDensityToggle={false}
@@ -173,6 +264,65 @@ const Acuerdos2002 = () => {
             backgroundColor: "#972069",
             color: "#fff",
           },
+        }}
+        muiTableFooterCellProps={{
+          sx: {
+            backgroundColor: "#972069",
+            color: "#fff",
+          },
+        }}
+        muiTablePaginationProps={{
+          rowsPerPageOptions: [10, 25, 50, 100, 200, 300, 400],
+          labelRowsPerPage: "Filas por página",
+          getItemAriaLabel: (type) => {
+            if (type === "first") {
+              return "inicio";
+            }
+            if (type === "last") {
+              return "fin";
+            }
+            if (type === "next") {
+              return "siguiente";
+            }
+            if (type === "previous") {
+              return "anterior";
+            }
+          },
+          labelDisplayedRows: ({ from, to, count }) =>
+            `${from}-${to} de ${count !== -1 ? count : `${to} para`}`,
+        }}
+        localization={{
+          actions: "Acciones",
+          cancel: "Cancelar",
+          clearFilter: "Limpiar filtro",
+          clearSearch: "Borrar búsqueda",
+          clearSort: "Ordenar claro",
+          columnActions: "Acciones de columna",
+          edit: "Editar",
+          expand: "",
+          expandAll: "Expandir todo",
+          filterByColumn: "{column}",
+          groupByColumn: "Agrupar por {column}",
+          groupedBy: "Agrupados por ",
+          hideAll: "Ocultar todo",
+          hideColumn: "Ocultar columna de {column}",
+          rowActions: "Acciones de fila",
+          save: "Salvar",
+          search: "Búsqueda",
+          selectedCountOfRowCountRowsSelected:
+            "{selectedCount} de {rowCount} fila(s) seleccionadas",
+          showAll: "Mostrar todo",
+          showHideColumns: "Mostrar/Ocultar columnas",
+          showHideFilters: "Alternar filtros",
+          showHideSearch: "Alternar búsqueda",
+          sortByColumnAsc: "Ordenar por {column} ascendente",
+          sortByColumnDesc: "Ordenar por {column} descendiendo",
+          thenBy: ", entonces por ",
+          toggleDensity: "Alternar relleno denso",
+          toggleFullScreen: "Alternar pantalla completa",
+          toggleSelectAll: "Seleccionar todo",
+          toggleSelectRow: "Seleccionar fila",
+          ungroupByColumn: "Desagrupar por {column}",
         }}
       />
     </div>
