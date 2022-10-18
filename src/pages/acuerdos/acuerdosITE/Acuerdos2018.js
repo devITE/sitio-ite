@@ -10,11 +10,9 @@ const Acuerdos2018 = () => {
   const columns = useMemo(
     () => [
       {
-        accessorKey: "monthAcuerdo",
+        accessorKey: "monthDoc",
         header: "MES",
         footer: "MES",
-        size: 30,
-        enableResizing: false,
         Filter: ({ header }) => (
           <TextField
             onChange={(e) =>
@@ -42,38 +40,28 @@ const Acuerdos2018 = () => {
             <MenuItem value="DIC">Diciembre</MenuItem>
           </TextField>
         ),
-        //   filterFn: (row, _columnIds, filterValue) =>
-        //     row.getValue.('gender').toLowerCase() ===
-        //     filterValue.toLowerCase(),
       },
       {
-        accessorKey: "numAcuerdo",
+        accessorKey: "numDoc",
         header: "ACUERDO",
         footer: "ACUERDO",
-        size: 60,
-        enableResizing: false,
       },
       {
-        accessorKey: "dateAcuerdo",
+        accessorKey: "dateDoc",
         header: "FECHA",
         footer: "FECHA",
-        size: 70,
-        enableResizing: false,
         enableColumnFilter: false,
       },
       {
-        accessorKey: "nameAcuerdo",
+        accessorFn: (row) => `${row.typeDoc} ${row.nameDoc}`,
+        id: "titulo",
         header: "TÍTULO",
         footer: "TÍTULO",
-        size: 270,
-        enableResizing: false,
       },
       {
         id: "pdf",
         header: "",
         footer: "",
-        size: 50,
-        enableResizing: false,
         enableColumnFilters: false,
         Cell: ({ row }) =>
           row.original.link === "" ? (
@@ -95,9 +83,8 @@ const Acuerdos2018 = () => {
         columns={columns}
         data={dataAcuerdos2018}
         enableExpanding
-        enableExpandAll={false}
+        enableExpandAll
         enableColumnActions={false}
-        enableColumnResizing
         enableDensityToggle={false}
         initialState={{ density: "compact" }}
         muiTableHeadCellProps={{

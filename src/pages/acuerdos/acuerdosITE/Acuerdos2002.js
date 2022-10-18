@@ -14,11 +14,11 @@ const Acuerdos2002 = () => {
   const columns = useMemo(
     () => [
       {
-        accessorKey: "monthAcuerdo",
+        accessorKey: "monthDoc",
         header: "MES",
         footer: "MES",
-        size: 30,
-        enableResizing: false,
+        // size: 30,
+        // enableResizing: false,
         Filter: ({ header }) => (
           <TextField
             onChange={(e) =>
@@ -47,34 +47,42 @@ const Acuerdos2002 = () => {
           </TextField>
         ),
       },
+      // {
+      //   accessorKey: "numDoc",
+      //   header: "ACUERDO",
+      //   footer: "ACUERDO",
+      //   size: 60,
+      //   enableResizing: false,
+      // },
       {
-        accessorKey: "numAcuerdo",
-        header: "ACUERDO",
-        footer: "ACUERDO",
-        size: 60,
-        enableResizing: false,
-      },
-      {
-        accessorKey: "dateAcuerdo",
+        accessorKey: "dateDoc",
         header: "FECHA",
         footer: "FECHA",
-        size: 70,
-        enableResizing: false,
+        // size: 70,
+        // enableResizing: false,
         enableColumnFilter: false,
       },
+      // {
+      //   accessorKey: "nameAcuerdo",
+      //   header: "TÍTULO",
+      //   footer: "TÍTULO",
+      //   size: 270,
+      //   enableResizing: false,
+      // },
       {
-        accessorKey: "nameAcuerdo",
+        accessorFn: (row) => `${row.typeDoc} ${row.nameDoc}`,
+        id: "titulo",
         header: "TÍTULO",
         footer: "TÍTULO",
-        size: 270,
-        enableResizing: false,
+        // size: 380,
+        // enableResizing: false,
       },
       {
         id: "pdf",
         header: "",
         footer: "",
-        size: 50,
-        enableResizing: false,
+        // size: 50,
+        // enableResizing: false,
         enableColumnFilters: false,
         Cell: ({ row }) =>
           row.original.link === "" ? (
@@ -92,11 +100,8 @@ const Acuerdos2002 = () => {
   const columnsAA = useMemo(
     () => [
       {
-        accessorKey: "monthAcuerdo",
+        accessorKey: "monthDoc",
         header: "MES",
-        footer: "MES",
-        size: 30,
-        enableResizing: false,
         Filter: ({ header }) => (
           <TextField
             onChange={(e) =>
@@ -126,33 +131,18 @@ const Acuerdos2002 = () => {
         ),
       },
       {
-        accessorKey: "numAcuerdo",
-        header: "ACUERDO",
-        footer: "ACUERDO",
-        size: 60,
-        enableResizing: false,
-      },
-      {
-        accessorKey: "dateAcuerdo",
+        accessorKey: "dateDoc",
         header: "FECHA",
-        footer: "FECHA",
-        size: 70,
-        enableResizing: false,
         enableColumnFilter: false,
       },
       {
-        accessorKey: "nameAcuerdo",
+        accessorFn: (row) => `${row.typeDoc} ${row.nameDoc}`,
+        id: "titulo",
         header: "TÍTULO",
-        footer: "TÍTULO",
-        size: 270,
-        enableResizing: false,
       },
       {
         id: "pdf",
         header: "",
-        footer: "",
-        size: 50,
-        enableResizing: false,
         enableColumnFilters: false,
         Cell: ({ row }) =>
           row.original.link === "" ? (
@@ -176,7 +166,6 @@ const Acuerdos2002 = () => {
         enableExpanding
         enableExpandAll={false}
         enableColumnActions={false}
-        enableColumnResizing
         enableDensityToggle={false}
         initialState={{ density: "compact" }}
         muiTableHeadCellProps={{
@@ -184,32 +173,6 @@ const Acuerdos2002 = () => {
             backgroundColor: "#972069",
             color: "#fff",
           },
-        }}
-        muiTableFooterCellProps={{
-          sx: {
-            backgroundColor: "#972069",
-            color: "#fff",
-          },
-        }}
-        muiTablePaginationProps={{
-          rowsPerPageOptions: [10, 25, 50, 100, 200, 300, 400],
-          labelRowsPerPage: "Filas por página",
-          getItemAriaLabel: (type) => {
-            if (type === "first") {
-              return "inicio";
-            }
-            if (type === "last") {
-              return "fin";
-            }
-            if (type === "next") {
-              return "siguiente";
-            }
-            if (type === "previous") {
-              return "anterior";
-            }
-          },
-          labelDisplayedRows: ({ from, to, count }) =>
-            `${from}-${to} de ${count !== -1 ? count : `${to} para`}`,
         }}
         localization={{
           actions: "Acciones",
@@ -253,10 +216,9 @@ const Acuerdos2002 = () => {
       <MaterialReactTable
         columns={columnsAA}
         data={dataAA2002}
-        enableExpanding
-        enableExpandAll={false}
+        enablePagination={false}
+        enableTopToolbar={false}
         enableColumnActions={false}
-        enableColumnResizing
         enableDensityToggle={false}
         initialState={{ density: "compact" }}
         muiTableHeadCellProps={{
@@ -264,65 +226,6 @@ const Acuerdos2002 = () => {
             backgroundColor: "#972069",
             color: "#fff",
           },
-        }}
-        muiTableFooterCellProps={{
-          sx: {
-            backgroundColor: "#972069",
-            color: "#fff",
-          },
-        }}
-        muiTablePaginationProps={{
-          rowsPerPageOptions: [10, 25, 50, 100, 200, 300, 400],
-          labelRowsPerPage: "Filas por página",
-          getItemAriaLabel: (type) => {
-            if (type === "first") {
-              return "inicio";
-            }
-            if (type === "last") {
-              return "fin";
-            }
-            if (type === "next") {
-              return "siguiente";
-            }
-            if (type === "previous") {
-              return "anterior";
-            }
-          },
-          labelDisplayedRows: ({ from, to, count }) =>
-            `${from}-${to} de ${count !== -1 ? count : `${to} para`}`,
-        }}
-        localization={{
-          actions: "Acciones",
-          cancel: "Cancelar",
-          clearFilter: "Limpiar filtro",
-          clearSearch: "Borrar búsqueda",
-          clearSort: "Ordenar claro",
-          columnActions: "Acciones de columna",
-          edit: "Editar",
-          expand: "",
-          expandAll: "Expandir todo",
-          filterByColumn: "{column}",
-          groupByColumn: "Agrupar por {column}",
-          groupedBy: "Agrupados por ",
-          hideAll: "Ocultar todo",
-          hideColumn: "Ocultar columna de {column}",
-          rowActions: "Acciones de fila",
-          save: "Salvar",
-          search: "Búsqueda",
-          selectedCountOfRowCountRowsSelected:
-            "{selectedCount} de {rowCount} fila(s) seleccionadas",
-          showAll: "Mostrar todo",
-          showHideColumns: "Mostrar/Ocultar columnas",
-          showHideFilters: "Alternar filtros",
-          showHideSearch: "Alternar búsqueda",
-          sortByColumnAsc: "Ordenar por {column} ascendente",
-          sortByColumnDesc: "Ordenar por {column} descendiendo",
-          thenBy: ", entonces por ",
-          toggleDensity: "Alternar relleno denso",
-          toggleFullScreen: "Alternar pantalla completa",
-          toggleSelectAll: "Seleccionar todo",
-          toggleSelectRow: "Seleccionar fila",
-          ungroupByColumn: "Desagrupar por {column}",
         }}
       />
     </div>

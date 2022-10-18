@@ -16319,7 +16319,7 @@ export const dataAcuerdos2009 = [
     numDoc: "CG0 49-2009",
     monthDoc: "DIC",
     nameDoc: "READECUACIÓN COMISIONES",
-    link: Acuerdos__pdfpath(`./${"2009/"}${"049.pdf"}`),
+    link: Acuerdos__pdfpath(`./${"2009/"}${"49.pdf"}`),
   },
   {
     id: 50,
@@ -16329,7 +16329,7 @@ export const dataAcuerdos2009 = [
     numDoc: "CG0 50-2009",
     monthDoc: "DIC",
     nameDoc: "REGLAMENTO INFORMACION",
-    link: Acuerdos__pdfpath(`./${"2009/"}${"050.pdf"}`),
+    link: Acuerdos__pdfpath(`./${"2009/"}${"50.pdf"}`),
   },
   {
     id: 51,
@@ -16339,7 +16339,7 @@ export const dataAcuerdos2009 = [
     numDoc: "CG0 51-2009",
     monthDoc: "DIC",
     nameDoc: "TOPES DE PRECAMPAÑAS",
-    link: Acuerdos__pdfpath(`./${"2009/"}${"051.pdf"}`),
+    link: Acuerdos__pdfpath(`./${"2009/"}${"51.pdf"}`),
   },
 ];
 export const dataAcuerdos2008 = [

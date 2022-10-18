@@ -7,8 +7,6 @@ import {
 } from "../../../assets/data/dataAcuerdos";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
-// import top2001 from "../../../img/imgA/h_2001.png";
-// import top2001_AA from "../../../img/imgA/h_2001_AA.png";
 
 const Acuerdos__imgpath = require.context("../../../img/imgA");
 
@@ -16,24 +14,17 @@ const Acuerdos2001 = () => {
   const columns = useMemo(
     () => [
       {
-        accessorKey: "dateAcuerdo",
+        accessorKey: "dateDoc",
         header: "FECHA",
-        size: 60,
-        enableResizing: false,
-        enableColumnFilter: false,
       },
       {
-        accessorKey: "nameAcuerdo",
+        accessorFn: (row) => `${row.typeDoc} ${row.nameDoc}`,
+        id: "titulo",
         header: "TÍTULO",
-        size: 320,
-        enableResizing: false,
       },
       {
         id: "pdf",
         header: "",
-        size: 50,
-        enableResizing: false,
-        enableColumnFilters: false,
         Cell: ({ row }) =>
           row.original.link === "" ? (
             <span></span>
@@ -52,14 +43,10 @@ const Acuerdos2001 = () => {
       {
         accessorKey: "nameMunicipio",
         header: "MUNICIPIO",
-        size: 380,
-        enableResizing: false,
       },
       {
         id: "pdf",
         header: "",
-        size: 50,
-        enableResizing: false,
         Cell: ({ row }) =>
           row.original.link === "" ? (
             <span></span>
@@ -78,20 +65,14 @@ const Acuerdos2001 = () => {
       {
         accessorKey: "dateAcuerdo",
         header: "FECHA",
-        size: 60,
-        enableResizing: false,
       },
       {
-        accessorKey: "nameAcuerdo",
+        accessorKey: "nameDoc",
         header: "TÍTULO",
-        size: 320,
-        enableResizing: false,
       },
       {
         id: "pdf",
         header: "",
-        size: 50,
-        enableResizing: false,
         Cell: ({ row }) =>
           row.original.link === "" ? (
             <span></span>
@@ -117,7 +98,6 @@ const Acuerdos2001 = () => {
         enableTopToolbar={false}
         enableBottomToolbar={false}
         enableColumnActions={false}
-        enableColumnResizing
         enableDensityToggle={false}
         initialState={{ density: "compact" }}
         muiTableHeadCellProps={{
@@ -138,7 +118,6 @@ const Acuerdos2001 = () => {
         enableTopToolbar={false}
         enableBottomToolbar={false}
         enableColumnActions={false}
-        enableColumnResizing
         enableDensityToggle={false}
         initialState={{ density: "compact" }}
         muiTableHeadCellProps={{
@@ -160,7 +139,6 @@ const Acuerdos2001 = () => {
         enableTopToolbar={false}
         enableBottomToolbar={false}
         enableColumnActions={false}
-        enableColumnResizing
         enableDensityToggle={false}
         initialState={{ density: "compact" }}
         muiTableHeadCellProps={{
