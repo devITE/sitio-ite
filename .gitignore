@@ -23,4 +23,5 @@ yarn-debug.log*
 yarn-error.log*
 
 # FILES
-/src/assets/pdf/~$EXCEL-1.xlsx
+/src/assets/pdf/~$AcuerdosINE.xlsx
+/src/assets/pdf/~$AcuerdosITE.xlsx

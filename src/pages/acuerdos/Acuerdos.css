@@ -1,14 +1,9 @@
-.Modal__header {
-  background: #972069;
-  color: #ffffff;
-}
-
-.AcuerdosITE {
+.Acuerdos {
   display: grid;
   gap: 20px;
 }
 
-.AcuerdosITE_link:hover {
+.Acuerdos_link:hover {
   transform: scale(1.1);
   transition: 0.2s;
 }
@@ -24,7 +19,7 @@
 
 /* general */
 @media only screen and (min-width: 1024px) {
-  .AcuerdosITE {
+  .Acuerdos {
     grid-template-columns: auto auto auto auto auto auto;
   }
 
@@ -35,7 +30,7 @@
 
 /* tablets */
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
-  .AcuerdosITE {
+  .Acuerdos {
     grid-template-columns: auto auto auto auto;
   }
 
@@ -46,9 +41,8 @@
 
 /* mobil */
 @media only screen and (max-width: 767px) {
-  .AcuerdosITE {
+  .Acuerdos {
     grid-template-columns: auto auto;
-    /* gap: 50px; */
     padding: 0 30px;
   }
 
