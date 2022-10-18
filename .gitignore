@@ -21,3 +21,6 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# FILES
+/src/assets/pdf/~$EXCEL-1.xlsx
