@@ -1,5 +1,6 @@
 import React, { useMemo } from "react";
 import MaterialReactTable from "material-react-table";
+import { MenuItem, TextField } from "@mui/material";
 import { dataAcuerdos1998 } from "../../../assets/data/dataAcuerdos";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
@@ -9,26 +10,53 @@ const Acuerdos1998 = () => {
   const columns = useMemo(
     () => [
       {
-        accessorKey: "dateAcuerdo",
+        accessorKey: "monthDoc",
+        header: "MES",
+        footer: "MES",
+        Filter: ({ header }) => (
+          <TextField
+            onChange={(e) =>
+              header.column.setFilterValue(e.target.value || undefined)
+            }
+            select
+            value={header.column.getFilterValue() ?? ""}
+            margin="none"
+            placeholder="Filter"
+            variant="standard"
+            fullWidth
+          >
+            <MenuItem value={null}>Todos</MenuItem>
+            <MenuItem value="ENE">Enero</MenuItem>
+            <MenuItem value="FEB">Febrero</MenuItem>
+            <MenuItem value="MAR">Marzo</MenuItem>
+            <MenuItem value="ABR">Abril</MenuItem>
+            <MenuItem value="MAY">Mayo</MenuItem>
+            <MenuItem value="JUN">Junio</MenuItem>
+            <MenuItem value="JUL">Julio</MenuItem>
+            <MenuItem value="AGO">Agosto</MenuItem>
+            <MenuItem value="SEP">Septiembre</MenuItem>
+            <MenuItem value="OCT">Octubre</MenuItem>
+            <MenuItem value="NOV">Noviembre</MenuItem>
+            <MenuItem value="DIC">Diciembre</MenuItem>
+          </TextField>
+        ),
+      },
+      {
+        accessorKey: "dateDoc",
         header: "FECHA",
         footer: "FECHA",
-        size: 80,
-        enableResizing: false,
         enableColumnFilter: false,
       },
       {
-        accessorKey: "nameAcuerdo",
+        accessorFn: (row) => `${row.typeDoc} ${row.nameDoc}`,
+        id: "titulo",
         header: "TÍTULO",
         footer: "TÍTULO",
-        size: 250,
-        enableResizing: false,
       },
       {
         id: "pdf",
         header: "",
         footer: "",
-        size: 50,
-        enableResizing: false,
         enableColumnFilters: false,
         Cell: ({ row }) =>
           row.original.link === "" ? (
@@ -49,9 +77,9 @@ const Acuerdos1998 = () => {
       <MaterialReactTable
         columns={columns}
         data={dataAcuerdos1998}
-        enableExpanding={false}
+        enableExpanding
+        enableExpandAll
         enableColumnActions={false}
-        enableColumnResizing
         enableDensityToggle={false}
         initialState={{ density: "compact" }}
         muiTableHeadCellProps={{
@@ -67,7 +95,7 @@ const Acuerdos1998 = () => {
           },
         }}
         muiTablePaginationProps={{
-          rowsPerPageOptions: [10, 25, 50, 100],
+          rowsPerPageOptions: [10, 25, 50, 100, 200, 300, 400],
           labelRowsPerPage: "Filas por página",
           getItemAriaLabel: (type) => {
             if (type === "first") {

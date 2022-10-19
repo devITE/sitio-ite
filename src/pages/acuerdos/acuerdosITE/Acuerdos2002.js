@@ -17,8 +17,6 @@ const Acuerdos2002 = () => {
         accessorKey: "monthDoc",
         header: "MES",
         footer: "MES",
-        // size: 30,
-        // enableResizing: false,
         Filter: ({ header }) => (
           <TextField
             onChange={(e) =>
@@ -47,42 +45,22 @@ const Acuerdos2002 = () => {
           </TextField>
         ),
       },
-      // {
-      //   accessorKey: "numDoc",
-      //   header: "ACUERDO",
-      //   footer: "ACUERDO",
-      //   size: 60,
-      //   enableResizing: false,
-      // },
       {
         accessorKey: "dateDoc",
         header: "FECHA",
         footer: "FECHA",
-        // size: 70,
-        // enableResizing: false,
         enableColumnFilter: false,
       },
-      // {
-      //   accessorKey: "nameAcuerdo",
-      //   header: "TÍTULO",
-      //   footer: "TÍTULO",
-      //   size: 270,
-      //   enableResizing: false,
-      // },
       {
         accessorFn: (row) => `${row.typeDoc} ${row.nameDoc}`,
         id: "titulo",
         header: "TÍTULO",
         footer: "TÍTULO",
-        // size: 380,
-        // enableResizing: false,
       },
       {
         id: "pdf",
         header: "",
         footer: "",
-        // size: 50,
-        // enableResizing: false,
         enableColumnFilters: false,
         Cell: ({ row }) =>
           row.original.link === "" ? (
@@ -169,6 +147,12 @@ const Acuerdos2002 = () => {
         enableDensityToggle={false}
         initialState={{ density: "compact" }}
         muiTableHeadCellProps={{
+          sx: {
+            backgroundColor: "#972069",
+            color: "#fff",
+          },
+        }}
+        muiTableFooterCellProps={{
           sx: {
             backgroundColor: "#972069",
             color: "#fff",
