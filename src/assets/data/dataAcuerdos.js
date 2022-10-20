@@ -1,6 +1,25 @@
 const Acuerdos__pdfpath = require.context("../pdf/acuerdos");
 
 // ------------ A C U E R D O S    I N E ------------
+export const dataAcuerdosINE2022 = [
+  {
+    id: 1,
+    year: "2022",
+    numDoc: "INE CG-598-2022",
+    nameDoc:
+      "ACUERDO POR EL QUE SE APRUEBA LA DESIGNACIÓN DE LAS PRESIDENCIAS DE LOS OPLES DE LAS ENTIDADES DE AGUASCALIENTES, COAHUILA, NAYARIT, PUEBLA, QUINTANA ROO, SINALOA Y TLAXCALA",
+    link: Acuerdos__pdfpath(`./${"INE/"}${"2022/"}${"1.pdf"}`),
+  },
+  {
+    id: 2,
+    year: "2022",
+    numDoc: "INE CG-633-2022",
+    nameDoc:
+      "ACUERDO POR EL QUE SE APRUEBA LA DESIGNACION DEL CONSEJERO PRESIDENTE PROVISIONAL DEL ITE",
+    link: Acuerdos__pdfpath(`./${"INE/"}${"2022/"}${"2.pdf"}`),
+  },
+];
+
 export const dataAcuerdosINE2021 = [
   {
     id: 1,
