@@ -1,140 +1,124 @@
-import React, { Component } from "react";
+import React, { useMemo } from "react";
+import MaterialReactTable from "material-react-table";
+import { dataAcuerdosINE2016 } from "../../../assets/data/dataAcuerdos";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
+import top2016 from "../../../img/imgA/INE_2016.png";
 
-export default class AcuerdosINE2016 extends Component {
-  render() {
-    return <div>AcuerdosINE2016</div>;
-  }
-}
+const AcuerdosINE2016 = () => {
+  const columns = useMemo(
+    () => [
+      {
+        accessorKey: "idDoc",
+        header: "ID",
+        footer: "ID",
+      },
+      {
+        accessorKey: "numDoc",
+        header: "DOCUMENTO",
+        footer: "DOCUMENTO",
+      },
+      {
+        accessorKey: "nameDoc",
+        header: "DESCRIPCIÓN",
+        footer: "DESCRIPCIÓN",
+      },
+      {
+        id: "pdf",
+        header: "",
+        footer: "",
+        enableColumnFilters: false,
+        Cell: ({ row }) =>
+          row.original.link === "" ? (
+            <span></span>
+          ) : (
+            <a href={row.original.link} target="_blank" rel="noreferrer">
+              <FontAwesomeIcon icon={faFilePdf} className="btn btn-danger" />
+            </a>
+          ),
+      },
+    ],
+    []
+  );
 
-// import React, { Component } from "react";
-// import { dataAcuerdosINE2015 } from "../../../assets/data/dataAcuerdos";
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
-// import top2015 from "../../../img/imgA/INE_2015.png";
-// import folder from "../../../img/imgA/folder.png";
-
-// let idAcuerdoINE = "";
-
-// export default class AcuerdosINE2015 extends Component {
-//   render() {
-//     return (
-//       <div>
-//         <img
-//           src={top2015}
-//           alt="Acuerdos 2015"
-//           className="img-fluid w-100 mb-5"
-//         />
-//         <div className="w-100 AcuerdosINE">
-//           {dataAcuerdosINE2015.map((acuerdo) => {
-//             return (
-//               <div key={acuerdo.id}>
-//                 <a data-bs-toggle="modal" data-bs-target={"#" + acuerdo.modal}>
-//                   <img
-//                     src={folder}
-//                     alt={"Acuerdos INE " + acuerdo.year}
-//                     className="img-fluid AcuerdosAnteriores_link"
-//                   />
-//                 </a>
-//                 <p className="mt-2">
-//                   {acuerdo.idAcuerdo} {acuerdo.numberAcuerdo}
-//                   <br />
-//                   {acuerdo.nameAcuerdo}
-//                 </p>
-//               </div>
-//             );
-//           })}
-//         </div>
-//         {/*  */}
-//         {dataAcuerdosINE2015.map((acuerdo) => {
-//           return (
-//             <div
-//               key={acuerdo.id}
-//               id={acuerdo.modal}
-//               {...(idAcuerdoINE = acuerdo.id)}
-//               className="modal fade"
-//               tabIndex="-1"
-//               aria-hidden="true"
-//             >
-//               <div className="modal-dialog">
-//                 <div className="modal-content">
-//                   <div className="modal-header Modal__header">
-//                     <h5 className="modal-title">
-//                       <strong>{acuerdo.numberAcuerdo}</strong>
-//                     </h5>
-//                     <button
-//                       type="button"
-//                       className="btn-close"
-//                       data-bs-dismiss="modal"
-//                       aria-label="Close"
-//                     ></button>
-//                   </div>
-//                   <div className="modal-body">
-//                     {dataAcuerdosINE2015
-//                       .filter((item) => item.id === idAcuerdoINE)
-//                       .map(
-//                         ({
-//                           id,
-//                           nameAcuerdo,
-//                           linkAcuerdo,
-//                           nameOficio,
-//                           linkOficio,
-//                         }) => {
-//                           return (
-//                             <ol
-//                               key={id}
-//                               className="list-group list-group-numbered"
-//                             >
-//                               {console.log("id: ", id)}
-//                               <li className="list-group-item d-flex justify-content-between align-items-start">
-//                                 <div className="ms-2 me-auto">
-//                                   <div className="fw-bold"> {nameAcuerdo}</div>
-//                                 </div>
-//                                 <a
-//                                   href={linkAcuerdo}
-//                                   target="_blank"
-//                                   rel="noreferrer"
-//                                 >
-//                                   <FontAwesomeIcon
-//                                     icon={faFilePdf}
-//                                     className="btn btn-danger ms-3"
-//                                   />
-//                                 </a>
-//                               </li>
-//                               <li className="list-group-item d-flex justify-content-between align-items-start">
-//                                 <div className="ms-2 me-auto">
-//                                   <div className="fw-bold"> {nameOficio}</div>
-//                                 </div>
-//                                 <a
-//                                   href={linkOficio}
-//                                   target="_blank"
-//                                   rel="noreferrer"
-//                                 >
-//                                   <FontAwesomeIcon
-//                                     icon={faFilePdf}
-//                                     className="btn btn-danger ms-3"
-//                                   />
-//                                 </a>
-//                               </li>
-//                             </ol>
-//                           );
-//                         }
-//                       )}
-//                   </div>
-//                   <div className="modal-footer">
-//                     <button
-//                       type="button"
-//                       className="btn btn-danger"
-//                       data-bs-dismiss="modal"
-//                     >
-//                       Cerrar
-//                     </button>
-//                   </div>
-//                 </div>
-//               </div>
-//             </div>
-//           );
-//         })}
-//       </div>
-//     );
-//   }
-// }
+  return (
+    <div>
+      <img src={top2016} alt="Acuerdos 2016" className="img-fluid w-100 mb-3" />
+      <MaterialReactTable
+        columns={columns}
+        data={dataAcuerdosINE2016}
+        enableExpanding
+        enableExpandAll
+        enableColumnActions={false}
+        enableDensityToggle={false}
+        initialState={{ density: "compact" }}
+        muiTableHeadCellProps={{
+          sx: {
+            backgroundColor: "#972069",
+            color: "#fff",
+          },
+        }}
+        muiTableFooterCellProps={{
+          sx: {
+            backgroundColor: "#972069",
+            color: "#fff",
+          },
+        }}
+        muiTablePaginationProps={{
+          rowsPerPageOptions: [10, 25, 50, 100, 200, 300, 400],
+          labelRowsPerPage: "Filas por página",
+          getItemAriaLabel: (type) => {
+            if (type === "first") {
+              return "inicio";
+            }
+            if (type === "last") {
+              return "fin";
+            }
+            if (type === "next") {
+              return "siguiente";
+            }
+            if (type === "previous") {
+              return "anterior";
+            }
+          },
+          labelDisplayedRows: ({ from, to, count }) =>
+            `${from}-${to} de ${count !== -1 ? count : `${to} para`}`,
+        }}
+        localization={{
+          actions: "Acciones",
+          cancel: "Cancelar",
+          clearFilter: "Limpiar filtro",
+          clearSearch: "Borrar búsqueda",
+          clearSort: "Ordenar claro",
+          columnActions: "Acciones de columna",
+          edit: "Editar",
+          expand: "",
+          expandAll: "Expandir todo",
+          filterByColumn: "{column}",
+          groupByColumn: "Agrupar por {column}",
+          groupedBy: "Agrupados por ",
+          hideAll: "Ocultar todo",
+          hideColumn: "Ocultar columna de {column}",
+          rowActions: "Acciones de fila",
+          save: "Salvar",
+          search: "Búsqueda",
+          selectedCountOfRowCountRowsSelected:
+            "{selectedCount} de {rowCount} fila(s) seleccionadas",
+          showAll: "Mostrar todo",
+          showHideColumns: "Mostrar/Ocultar columnas",
+          showHideFilters: "Alternar filtros",
+          showHideSearch: "Alternar búsqueda",
+          sortByColumnAsc: "Ordenar por {column} ascendente",
+          sortByColumnDesc: "Ordenar por {column} descendiendo",
+          thenBy: ", entonces por ",
+          toggleDensity: "Alternar relleno denso",
+          toggleFullScreen: "Alternar pantalla completa",
+          toggleSelectAll: "Seleccionar todo",
+          toggleSelectRow: "Seleccionar fila",
+          ungroupByColumn: "Desagrupar por {column}",
+        }}
+      />
+    </div>
+  );
+};
+export default AcuerdosINE2016;

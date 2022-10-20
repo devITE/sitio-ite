@@ -1,6 +1,5 @@
 import React, { useMemo } from "react";
 import MaterialReactTable from "material-react-table";
-//  import { MenuItem, TextField } from "@mui/material";
 import { dataAcuerdosINE2015 } from "../../../assets/data/dataAcuerdos";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
@@ -16,8 +15,8 @@ const AcuerdosINE2015 = () => {
       },
       {
         accessorKey: "numDoc",
-        header: "ACUERDO",
-        footer: "ACUERDO",
+        header: "DOCUMENTO",
+        footer: "DOCUMENTO",
       },
       {
         accessorKey: "nameDoc",
