@@ -47,11 +47,13 @@ export default class Enlaces extends Component {
             />
           </div>
           <div className="col col-sm-3 col-md-3 col-md-3">
-            <img
-              src={Enlaces_imgpath(`./${"e6.png"}`)}
-              alt=" Infografías"
-              className="img-fluid shadow rounded-4"
-            />
+            <Link to="/Infografias">
+              <img
+                src={Enlaces_imgpath(`./${"e6.png"}`)}
+                alt=" Infografías"
+                className="img-fluid shadow rounded-4"
+              />
+            </Link>
           </div>
           <div className="col col-sm-3 col-md-3 col-md-3">
             <Link to="/MemoriasElectorales">
@@ -63,11 +65,13 @@ export default class Enlaces extends Component {
             </Link>
           </div>
           <div className="col col-sm-3 col-md-3 col-md-3">
-            <img
-              src={Enlaces_imgpath(`./${"e8.png"}`)}
-              alt="Metas MSPEN"
-              className="img-fluid shadow rounded-4"
-            />
+            <Link to="/MetasSPEN">
+              <img
+                src={Enlaces_imgpath(`./${"e8.png"}`)}
+                alt="Metas MSPEN"
+                className="img-fluid shadow rounded-4"
+              />
+            </Link>
           </div>
         </div>
         <div className="row mt-2">

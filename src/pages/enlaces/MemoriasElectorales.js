@@ -10,8 +10,8 @@ export default class MemoriasElectorales extends Component {
     return (
       <div className="mb-5">
         <NavbarEnlaces />
-        <div className="Enlances__title">Memorias Electorales</div>
-        <div className="mt-3 Memoria__grid">
+        <div className="Enlances__title mb-3">Memorias Electorales</div>
+        <div className="Memoria__grid">
           <div className="Memoria__item">
             <div className="Memoria__header w-100">2020 - 2021</div>
             <div>

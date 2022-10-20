@@ -9,6 +9,7 @@ import Home from "./pages/index/Home";
 import Footer from "./layout/Footer";
 
 //Enlaces
+import Infografias from "./pages/enlaces/Infografias";
 import MemoriasElectorales from "./pages/enlaces/MemoriasElectorales";
 import MetasMSPEN from "./pages/enlaces/MetasMSPEN";
 import PartidosPoliticos from "./pages/enlaces/PartidosPoliticos";
@@ -101,7 +102,6 @@ import POA from "./pages/transparencia/transp/POA";
 import InformacionFinanciera from "./pages/transparencia/transp/InformacionFinanciera";
 import InformacionContable from "./pages/transparencia/transp/InformacionContable";
 
-import Infografias from "./pages/transparencia/Infografias";
 import PreguntasFrecuentes from "./pages/transparencia/PreguntasFrecuentes";
 import DatosAbiertos from "./pages/transparencia/DatosAbiertos";
 
@@ -118,6 +118,7 @@ function App() {
           <Route exact path="/" element={<Home />} />
 
           {/* Enlaces */}
+          <Route path="/Infografias" element={<Infografias />} />
           <Route
             path="/MemoriasElectorales"
             element={<MemoriasElectorales />}

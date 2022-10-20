@@ -24,7 +24,7 @@ export default class AcuerdosAnteriores extends Component {
             </Link>
           </div>
           <div>
-            <Link to="../../Acuerdos2014" className="nav-link disabled">
+            <Link to="../../Acuerdos2014" className="nav-link">
               <img
                 className="img-fluid Acuerdos_link"
                 src={AcuerdosAnteriores__imgpath(`./2014.png`)}
@@ -33,7 +33,7 @@ export default class AcuerdosAnteriores extends Component {
             </Link>
           </div>
           <div>
-            <Link to="../../Acuerdos2013" className="nav-link disabled">
+            <Link to="../../Acuerdos2013" className="nav-link">
               <img
                 className="img-fluid Acuerdos_link"
                 src={AcuerdosAnteriores__imgpath(`./2013.png`)}
@@ -51,7 +51,7 @@ export default class AcuerdosAnteriores extends Component {
             </Link>
           </div>
           <div>
-            <Link to="../../Acuerdos2011" className="nav-link disabled">
+            <Link to="../../Acuerdos2011" className="nav-link">
               <img
                 className="img-fluid Acuerdos_link"
                 src={AcuerdosAnteriores__imgpath(`./2011.png`)}
@@ -60,7 +60,7 @@ export default class AcuerdosAnteriores extends Component {
             </Link>
           </div>
           <div>
-            <Link to="../../Acuerdos2010" className="nav-link disabled">
+            <Link to="../../Acuerdos2010" className="nav-link">
               <img
                 className="img-fluid Acuerdos_link"
                 src={AcuerdosAnteriores__imgpath(`./2010.png`)}

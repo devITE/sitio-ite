@@ -54,6 +54,29 @@ a {
   color: #ffffff !important;
 }
 
+.btn-ite {
+  /* color: rgba(0, 0, 0, 0.125); */
+  --bs-btn-color: #AA0787;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #AA0787;
+  --bs-btn-border-color: #AA0787 !important;
+  --bs-btn-border-radius: 0 !important;
+  --bs-btn-hover-border-color: #AA0787;
+  --bs-btn-focus-shadow-rgb: 25, 135, 84;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #AA0787;
+  --bs-btn-active-border-color: #AA0787;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #9d3c8a;
+  --bs-btn-disabled-bg: transparent;
+  --bs-btn-disabled-border-color: #9d3c8a;
+  --bs-gradient: none;
+}
+
+.acordionn-body-ite {
+  padding: 0 !important;
+}
+
 /* .App__total-app {
   min-height: 100vh;
   position: relative;

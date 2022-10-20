@@ -8,9 +8,9 @@ export default class PartidosPoliticos extends Component {
     return (
       <div className="mb-5">
         <NavbarEnlaces />
-        <div className="Enlances__title">Partidos Políticos</div>
+        <div className="Enlances__title mb-3">Partidos Políticos</div>
 
-        <div className="mt-3">
+        <div>
           <ListBadgePDF
             ifNumbered={""}
             listsBadgeItem={dataPartidosPoliticos}

@@ -795,6 +795,1043 @@ export const dataAcuerdosINE2015 = [
 ];
 
 // ------------ A C U E R D O S    I T E ------------
+export const dataAcuerdos2022 = [
+  {
+    id: 1,
+    year: "2022",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 01-2022",
+    monthDoc: "ENE",
+    nameDoc: "ADECUACIÓN DE PRESUPUESTO DE EGRESOS 2022",
+    link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"1.pdf"}`),
+    subRows: [
+      {
+        typeDoc: "",
+        nameDoc: "ANEXO UNO CALENDARIZADO",
+        link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"1.1.pdf"}`),
+      },
+      {
+        typeDoc: "",
+        nameDoc: "ANEXO DOS REMANENTE CONVENIO INE",
+        link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"1.2.pdf"}`),
+      },
+      {
+        typeDoc: "",
+        nameDoc: "ANEXO TRES ISR",
+        link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"1.3.pdf"}`),
+      },
+      {
+        typeDoc: "",
+        nameDoc: "FE DE ERRATAS",
+        link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"1.4.pdf"}`),
+      },
+    ],
+  },
+
+  {
+    id: 2,
+    year: "2022",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 02-2022",
+    monthDoc: "ENE",
+    nameDoc: "ACTUALIZACIÓN CALENDARIZACIÓN DE MULTAS 2022",
+    link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"2.pdf"}`),
+    subRows: [
+      {
+        typeDoc: "",
+        nameDoc: "CALENDARIZACIÓN DE MULTAS",
+        link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"2.1.pdf"}`),
+      },
+    ],
+  },
+
+  {
+    id: 3,
+    year: "2022",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 03-2022",
+    monthDoc: "ENE",
+    nameDoc: "APROBACIÓN DE PROGRAMA DE IMPARTICIÓN DE CURSOS",
+    link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"3.pdf"}`),
+    subRows: [
+      {
+        typeDoc: "",
+        nameDoc: "PROGRAMA DE CAPACITACIÓN 2022",
+        link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"3.1.pdf"}`),
+      },
+    ],
+  },
+
+  {
+    id: 4,
+    year: "2022",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 04-2022",
+    monthDoc: "ENE",
+    nameDoc:
+      "SE APRUEBA DICTAMEN RESPECTO REGISTRO REDES SOCIALES PROGRESISTAS TLAXCALA",
+    link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"4.pdf"}`),
+    subRows: [
+      {
+        typeDoc: "",
+        nameDoc: "DICTAMEN CPPPAyF RESPECTO REGISTRO RSP TLAXCALA",
+        link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"4.1.pdf"}`),
+      },
+    ],
+  },
+
+  {
+    id: 5,
+    year: "2022",
+    typeDoc: "RESOLUCIÓN",
+    numDoc: "ITE-CG 05-2022",
+    monthDoc: "ENE",
+    nameDoc: "SE APRUEBA DICTAMEN RESPECTO REGISTRO FUERZA POR MÉXICO TLAXCALA",
+    link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"5.pdf"}`),
+    subRows: [
+      {
+        typeDoc: "",
+        nameDoc: "DICTAMEN CPPPAyF FUERZA POR MÉXICO TLAXCALA",
+        link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"5.1.pdf"}`),
+      },
+    ],
+  },
+
+  {
+    id: 6,
+    year: "2022",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 6-2022",
+    monthDoc: "ENE",
+    nameDoc: "REDISTRIBUCIÓN DE PRERROGATIVAS DE PARTIDOS POLÍTICOS",
+    link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"6.pdf"}`),
+    subRows: [
+      {
+        typeDoc: "",
+        nameDoc: "ANEXO 1 ORDINARIAS",
+        link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"6.1.pdf"}`),
+      },
+      {
+        typeDoc: "",
+        nameDoc: "ANEXO 2 ESPECÍFICAS",
+        link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"6.2.pdf"}`),
+      },
+    ],
+  },
+
+  {
+    id: 7,
+    year: "2022",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 07-2022",
+    monthDoc: "ENE",
+    nameDoc: "ACTUALIZA CALENDARIZACIÓN MULTAS",
+    link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"7.pdf"}`),
+    subRows: [
+      {
+        typeDoc: "",
+        nameDoc: "ANEXO ÚNICO. CALENDARIZACIÓN",
+        link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"7.1.pdf"}`),
+      },
+    ],
+  },
+  {
+    id: 8,
+    year: "2022",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 08-2022",
+    monthDoc: "ENE",
+    nameDoc: "ÁREA COORDINADORA DE ARCHIVOS",
+    link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"8.pdf"}`),
+  },
+
+  {
+    id: 9,
+    year: "2022",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 09-2022",
+    monthDoc: "FEB",
+    nameDoc:
+      "APROBACIÓN DE FORMATOS PARA ORGANIZACIONES INTERESADAS PARA CONSTITUIRSE COMO PPL",
+    link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"9.pdf"}`),
+    subRows: [
+      {
+        typeDoc: "",
+        nameDoc: "1. PROPUESTA DE CALENDARIO DE ASAMBLEAS CONSTITUTIVAS",
+        link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"9.1.pdf"}`),
+      },
+      {
+        typeDoc: "",
+        nameDoc: "2. LISTA DE PERSONAS AFILIADAS",
+        link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"9.2.pdf"}`),
+      },
+      {
+        typeDoc: "",
+        nameDoc: "3. SOLICITUD DE ASAMBLEA DISTRITAL-MUNICIPAL",
+        link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"9.3.pdf"}`),
+      },
+      {
+        typeDoc: "",
+        nameDoc: "7. FORMATO DE SOLICITUD DE REGISTRO",
+        link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"9.7.pdf"}`),
+      },
+    ],
+  },
+  {
+    id: 10,
+    year: "2022",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 10-2022",
+    monthDoc: "FEB",
+    nameDoc: "RESPUESTA SOLICITUD PRESIDENTE COMUNIDAD CUAUHTENCO",
+    link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"10.pdf"}`),
+  },
+  {
+    id: 11,
+    year: "2022",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 11-2022",
+    monthDoc: "FEB",
+    nameDoc:
+      "ACATAMIENTO A SENTENCIA DENTRO DEL EXP. TET-JDC-20-2020 Y ACUMULADO TET-JDC-32-2020",
+    link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"11.pdf"}`),
+  },
+  {
+    id: 12,
+    year: "2022",
+    typeDoc: "RESOLUCIÓN",
+    numDoc: "ITE-CG 12-2022",
+    monthDoc: "FEB",
+    nameDoc: "POS CQD-Q-MCH-CG-025-2020 Y ACUM. PNAT",
+    link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"12.pdf"}`),
+  },
+
+  {
+    id: 13,
+    year: "2022",
+    typeDoc: "RESOLUCIÓN",
+    numDoc: "ITE-CG 13-2022",
+    monthDoc: "FEB",
+    nameDoc: "POS CQD-Q-RCGA-CG-02-2021 Y ACUM. PAC",
+    link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"13.pdf"}`),
+    subRows: [
+      {
+        typeDoc: "",
+        nameDoc: "VOTO PARTICULAR CONSEJERA PRESIDENTA ELIZABETH P. M.",
+        link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"13.1.pdf"}`),
+      },
+      {
+        typeDoc: "",
+        nameDoc: "VOTO PARTICULAR CONSEJERA YEDITH M. P.",
+        link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"13.2.pdf"}`),
+      },
+    ],
+  },
+
+  {
+    id: 14,
+    year: "2022",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 14-2022",
+    monthDoc: "FEB",
+    nameDoc: "SE APRUEBA PROGRAMA ANUAL DE TRABAJO RED DE MUJERES ELECTAS",
+    link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"14.pdf"}`),
+    subRows: [
+      {
+        typeDoc: "",
+        nameDoc: "PROGRAMA RED DE MUJERES ELECTAS DE TLAXCALA 2022",
+        link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"14.1.pdf"}`),
+      },
+    ],
+  },
+
+  {
+    id: 15,
+    year: "2022",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 15-2022",
+    monthDoc: "FEB",
+    nameDoc:
+      "SE APRUEBAN LINEAMIENTOS DE CONCILIACIÓN Y CONFLICTOS LABORALES DE LA RAMA ADMINISTRATIVA",
+    link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"15.pdf"}`),
+    subRows: [
+      {
+        typeDoc: "",
+        nameDoc: "ANEXO LINEAMIENTOS RAMA ADMINISTRATIVA",
+        link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"15.1.pdf"}`),
+      },
+    ],
+  },
+  {
+    id: 16,
+    year: "2022",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 16-2022",
+    monthDoc: "FEB",
+    nameDoc: "SE APRUEBA DESTRUCCIÓN DE DOCUMENTACIÓN DEL PEE 2021",
+    link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"16.pdf"}`),
+  },
+
+  {
+    id: 17,
+    year: "2022",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 17-2022",
+    monthDoc: "FEB",
+    nameDoc:
+      "SE APRUEBA DICTAMEN SPEN DEL PERIODO SEPTIEMBRE 2020 A AGOSTO 2021",
+    link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"17.pdf"}`),
+    subRows: [
+      {
+        typeDoc: "",
+        nameDoc: "RESULTADOS DE LA EVALUACIÓN SPEN-6",
+        link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"17.1.pdf"}`),
+      },
+    ],
+  },
+  {
+    id: 18,
+    year: "2022",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 18-2022",
+    monthDoc: "FEB",
+    nameDoc:
+      "SE APRUEBAN CRITERIOS PARA CALENDARIZACIÓN DE ASAMBLEAS CONSTITUTIVAS",
+    link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"18.pdf"}`),
+  },
+
+  {
+    id: 19,
+    year: "2022",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 19-2022",
+    monthDoc: "MAR",
+    nameDoc: "SE ADMITEN ESCRITOS DE INTENCIÓN DE ORGANIZACIONES",
+    link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"19.pdf"}`),
+    subRows: [
+      {
+        typeDoc: "",
+        nameDoc: "ANEXO 1",
+        link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"19.1.pdf"}`),
+      },
+      {
+        typeDoc: "",
+        nameDoc: "ANEXO 2",
+        link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"19.2.pdf"}`),
+      },
+      {
+        typeDoc: "",
+        nameDoc: "ANEXO 3",
+        link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"19.3.pdf"}`),
+      },
+      {
+        typeDoc: "",
+        nameDoc: "ANEXO 11",
+        link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"19.11.pdf"}`),
+      },
+    ],
+  },
+
+  {
+    id: 20,
+    year: "2022",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 20-2022",
+    monthDoc: "MAR",
+    nameDoc: "SE ADMITEN ESCRITOS DE INTENCIÓN DE ORGANIZACIONES",
+    link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"20.pdf"}`),
+    subRows: [
+      {
+        typeDoc: "",
+        nameDoc:
+          "ANEXO 1 ESTUDIO Y ANÁLISIS DE LA ORGANIZACIÓN PARTIDO PROGRESISTA POPULAR",
+        link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"20.1.pdf"}`),
+      },
+      {
+        typeDoc: "",
+        nameDoc:
+          "ANEXO 2 ESTUDIO Y ANÁLISIS DE LA ORGANIZACIÓN CIUDADANOS EN CONSTITUIRSE EN ENCUENTRO SOLIDARIO TLAXCALA A.C.",
+        link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"20.2.pdf"}`),
+      },
+      {
+        typeDoc: "",
+        nameDoc:
+          "ANEXO 3 ESTUDIO Y ANÁLISIS DE LA ORGANIZACIÓN UNIFICACIÓN Y EVOLUCIÓN",
+        link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"20.3.pdf"}`),
+      },
+      {
+        typeDoc: "",
+        nameDoc: "ANEXO 5",
+        link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"20.5.pdf"}`),
+      },
+    ],
+  },
+
+  {
+    id: 21,
+    year: "2022",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 21-2022",
+    monthDoc: "MAR",
+    nameDoc:
+      "SE APRUEBAN DICTÁMENES Y SE DESECHAN ESCRITOS DE INTENCIÓN DE ORGANIZACIONES",
+    link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"21.pdf"}`),
+    subRows: [
+      {
+        typeDoc: "",
+        nameDoc: "ANEXO 1 DICTAMEN CONVICCIÓN MEXICANA",
+        link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"21.1.pdf"}`),
+      },
+      {
+        typeDoc: "",
+        nameDoc: "ANEXO 2 DICTAMEN VÍA DEMOCRÁTICA ACTIVA TLAXCALA",
+        link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"21.2.pdf"}`),
+      },
+      {
+        typeDoc: "",
+        nameDoc: "ANEXO 3 DICTAMEN ORGANIZACIÓN METAMORFOSIS UNIDOS",
+        link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"21.3.pdf"}`),
+      },
+    ],
+  },
+  {
+    id: 22,
+    year: "2022",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 22-2022",
+    monthDoc: "MAR",
+    nameDoc: "DESIGNACIÓN TITULAR ÁREA TÉCNICA DE INFORMÁTICA",
+    link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"22.pdf"}`),
+  },
+
+  {
+    id: 23,
+    year: "2022",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 23-2022",
+    monthDoc: "MAR",
+    nameDoc: "SE APRUEBA EL REGLAMENTO DE ARCHIVOS",
+    link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"23.pdf"}`),
+    subRows: [
+      {
+        typeDoc: "",
+        nameDoc: "REGLAMENTO",
+        link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"23.1.pdf"}`),
+      },
+    ],
+  },
+
+  {
+    id: 24,
+    year: "2022",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 24-2022",
+    monthDoc: "MAR",
+    nameDoc: "CALENDARIZACIÓN MULTAS",
+    link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"24.pdf"}`),
+    subRows: [
+      {
+        typeDoc: "",
+        nameDoc: "ANEXO ÚNICO. CALENDARIZADO",
+        link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"24.1.pdf"}`),
+      },
+    ],
+  },
+
+  {
+    id: 25,
+    year: "2022",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 25-2022",
+    monthDoc: "MAR",
+    nameDoc: "SE READECÚA PRESUPUESTO DE EGRESOS 2022",
+    link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"25.pdf"}`),
+    subRows: [
+      {
+        typeDoc: "",
+        nameDoc: "ANEXO ÚNICO. ADECUACIÓN.",
+        link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"25.1.pdf"}`),
+      },
+    ],
+  },
+  {
+    id: 26,
+    year: "2022",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 26-2022",
+    monthDoc: "MAR",
+    nameDoc:
+      "CREACIÓN PROVISIONAL DE COORDINACIÓN DE GÉNERO Y NO DISCRIMINACIÓN[1670]",
+    link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"26.pdf"}`),
+  },
+  {
+    id: 27,
+    year: "2022",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 27-2022",
+    monthDoc: "ABR",
+    nameDoc: "DESIGNACION DE TITULAR DEL ÁREA TÉCNICA DE CONSULTA CIUDADANA",
+    link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"27.pdf"}`),
+  },
+
+  {
+    id: 28,
+    year: "2022",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 28-2022",
+    monthDoc: "ABR",
+    nameDoc: "ANEXO ÙNICO LINEAMIENTOS ASAMBLEAS",
+    link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"28.pdf"}`),
+    subRows: [
+      {
+        typeDoc: "",
+        nameDoc: "SE APRUEBAN LINEAMIENTOS QUE REGULAN ASAMBLEAS",
+        link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"28.1.pdf"}`),
+      },
+    ],
+  },
+  {
+    id: 29,
+    year: "2022",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 29-2022",
+    monthDoc: "ABR",
+    nameDoc:
+      "ACUERDO DE REQUERIMIENTO A ORGANIZACIONES EN MATERIA DE FISCALIZACIÓN",
+    link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"29.pdf"}`),
+  },
+
+  {
+    id: 30,
+    year: "2022",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 30-2022",
+    monthDoc: "ABR",
+    nameDoc: "DICTAMEN DE DESINCORPORACIÓN DE BIENES MUEBLES",
+    link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"30.pdf"}`),
+    subRows: [
+      {
+        typeDoc: "",
+        nameDoc:
+          "SE APRUEBA DICTAMEN RESPECTO DE DESINCORPORACIÓN DE BIENES MUEBLES",
+        link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"30.1.pdf"}`),
+      },
+    ],
+  },
+
+  {
+    id: 31,
+    year: "2022",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 31-2022",
+    monthDoc: "ABR",
+    nameDoc:
+      "APROBACIÓN DEL PROTOCOLO DE CONSULTA COMUNIDADES USOS U COSTUMBRES",
+    link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"31.pdf"}`),
+    subRows: [
+      {
+        typeDoc: "",
+        nameDoc: "ANEXO 1 PROTOCOLO",
+        link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"31.1.pdf"}`),
+      },
+      {
+        typeDoc: "",
+        nameDoc: "ANEXO 2 INFORME DE FASE PREVIA",
+        link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"31.2.pdf"}`),
+      },
+    ],
+  },
+
+  {
+    id: 32,
+    year: "2022",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 32-2022",
+    monthDoc: "ABR",
+    nameDoc: "SE READECÚA PRESUPUESTO DE EGRESOS 2022",
+    link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"32.pdf"}`),
+    subRows: [
+      {
+        typeDoc: "",
+        nameDoc: "ANEXO ÚNICO",
+        link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"32.1.pdf"}`),
+      },
+    ],
+  },
+  {
+    id: 33,
+    year: "2022",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 33-2022",
+    monthDoc: "MAY",
+    nameDoc: "RESPUESTA A ESCRITO DE MARCO ANTONIO RODRÍGUEZ PÉREZ",
+    link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"33.pdf"}`),
+  },
+
+  {
+    id: 34,
+    year: "2022",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 34-2022",
+    monthDoc: "MAY",
+    nameDoc:
+      "APROBACIÓN PROTOCOLO SANITARIO Y MANUAL OPERATIVO CONSULTA USOS Y COSTUMBRES",
+    link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"34.pdf"}`),
+    subRows: [
+      {
+        typeDoc: "",
+        nameDoc: "MANUAL OPERATIVO PARA EL DESARROLLO DE CONSULTAS",
+        link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"34.1.pdf"}`),
+      },
+      {
+        typeDoc: "",
+        nameDoc: "PROTOCOLO DE SEGURIDAD SANITARIA CONSULTA",
+        link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"34.2.pdf"}`),
+      },
+    ],
+  },
+
+  {
+    id: 35,
+    year: "2022",
+    typeDoc: "RESOLUCIÓN",
+    numDoc: "ITE-CG 35-2022",
+    monthDoc: "JUN",
+    nameDoc: "VERSIÓN PUBLICA_MC",
+    link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"35.pdf"}`),
+    subRows: [
+      {
+        typeDoc: "",
+        nameDoc:
+          "DICTAMEN DE CLASIFICACIÓN DE INFORMACIÓN CONFIDENCIAL 01-2022",
+        link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"35.1.pdf"}`),
+      },
+      {
+        typeDoc: "",
+        nameDoc: "FE DE ERRATAS MEDIDAS CAUTELARES Y DE PROTECCION",
+        link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"35.2.pdf"}`),
+      },
+    ],
+  },
+  {
+    id: 36,
+    year: "2022",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 36-2022",
+    monthDoc: "JUN",
+    nameDoc: "SE DA RESPUESTA A SOLICITUDES DE ORGANIZACIONES",
+    link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"36.pdf"}`),
+  },
+  {
+    id: 37,
+    year: "2022",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 37-2022",
+    monthDoc: "JUN",
+    nameDoc:
+      "SE DA CUMPLIMIENTO A LA SENTENCIA DENTRO DEL EXPEDIENTE TET-JDC-27-2022",
+    link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"37.pdf"}`),
+  },
+  {
+    id: 38,
+    year: "2022",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 38-2022",
+    monthDoc: "JUN",
+    nameDoc: "NUEVO REQUERIMIENTO ORGANIZACIONES EN MATERIA DE FISCALIZACIÓN",
+    link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"38.pdf"}`),
+  },
+
+  {
+    id: 39,
+    year: "2022",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 39-2022",
+    monthDoc: "JUN",
+    nameDoc: "READECUACIÓN PRESUPUESTO DE EGRESOS 2022",
+    link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"39.pdf"}`),
+    subRows: [
+      {
+        typeDoc: "",
+        nameDoc: "ANEXO UNO DISTRIBUCIÒN ISR",
+        link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"39.1.pdf"}`),
+      },
+      {
+        typeDoc: "",
+        nameDoc: "ANEXO DOS ADECUACIÓN PRESUPUESTO 2022",
+        link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"39.2.pdf"}`),
+      },
+    ],
+  },
+
+  {
+    id: 40,
+    year: "2022",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 40-2022",
+    monthDoc: "JUN",
+    nameDoc:
+      "CREACIÓN DE LA PLAZA DEL CARGO DE COORDINACIÓN FORTALECIMIENTO DE SISTEMAS NORMATIVOS PLURICULTURALES",
+    link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"40.pdf"}`),
+    subRows: [
+      {
+        typeDoc: "",
+        nameDoc: "ANEXO ÚNICO. ORGANIGRAMA",
+        link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"40.1.pdf"}`),
+      },
+      {
+        typeDoc: "",
+        nameDoc: "FE DE ERRATAS",
+        link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"40.2.pdf"}`),
+      },
+    ],
+  },
+
+  {
+    id: 41,
+    year: "2022",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 41-2022",
+    monthDoc: "JUN",
+    nameDoc:
+      "AJUSTES AL PROTOCOLO PARA EL PROCESO DE CONSULTA A COMUNIDADES POR USOS Y COSTUMBRES",
+    link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"41.pdf"}`),
+    subRows: [
+      {
+        typeDoc: "",
+        nameDoc: "ANEXO ÚNICO. PROTOCOLO-AJUSTE PLAZOS",
+        link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"41.1.pdf"}`),
+      },
+    ],
+  },
+
+  {
+    id: 42,
+    year: "2022",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 42-2022",
+    monthDoc: "JUL",
+    nameDoc: "READECUACIÓN DE PRESUPUESTO DE EGRESOS 2022",
+    link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"42.pdf"}`),
+    subRows: [
+      {
+        typeDoc: "",
+        nameDoc: "ANEXO 1",
+        link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"42.1.pdf"}`),
+      },
+      {
+        typeDoc: "",
+        nameDoc: "ANEXO 2",
+        link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"42.2.pdf"}`),
+      },
+    ],
+  },
+
+  {
+    id: 43,
+    year: "2022",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 43-2022",
+    monthDoc: "JUL",
+    nameDoc: "CALENDARIZACIÓN RETENCIÓN DE MULTAS",
+    link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"43.pdf"}`),
+    subRows: [
+      {
+        typeDoc: "",
+        nameDoc: "ANEXO ÚNICO",
+        link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"43.1.pdf"}`),
+      },
+    ],
+  },
+  {
+    id: 44,
+    year: "2022",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 44-2022",
+    monthDoc: "JUL",
+    nameDoc: "PROCEDENCIA MODIFICACIÓN ESTATUTOS RSPT",
+    link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"44.pdf"}`),
+  },
+
+  {
+    id: 45,
+    year: "2022",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 045-2022",
+    monthDoc: "",
+    nameDoc:
+      "SE APRUEBA EL DICTAMEN DE LA DPAYF RESPECTO DE DESINCORPORACIÓN EQUIPO DE CÓMPUTO Y TI",
+    link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"45.pdf"}`),
+    subRows: [
+      {
+        typeDoc: "",
+        nameDoc: "ANEXO ÚNICO",
+        link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"45.1.pdf"}`),
+      },
+    ],
+  },
+
+  {
+    id: 46,
+    year: "2022",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 46-2022",
+    monthDoc: "JUL",
+    nameDoc:
+      "SE APRUEBAN DICTÁMENES PARA OTORGAMIENTO DE INCENTIVOS DEL PERSONAL DEL SPEN",
+    link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"46.pdf"}`),
+    subRows: [
+      {
+        typeDoc: "",
+        nameDoc:
+          "ANEXO 1 DICTAMEN PARA EL OTORGAMIENTO DE INCENTIVOS MIGUEL PEREZ CASTILLA",
+        link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"46.1.pdf"}`),
+      },
+      {
+        typeDoc: "",
+        nameDoc:
+          "ANEXO 2 DICTAMEN PARA EL OTORGAMIENTO DE INCENTIVOS MARITZA_VERA_DELGADILLO",
+        link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"46.2.pdf"}`),
+      },
+    ],
+  },
+  {
+    id: 47,
+    year: "2022",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 47-2022",
+    monthDoc: "AGO",
+    nameDoc:
+      "RESPUESTA A CONSULTA DE ORGANIZACIÓN CIUDADANA UNIFICACIÓN Y EVOLUCIÓN",
+    link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"47.pdf"}`),
+  },
+  {
+    id: 48,
+    year: "2022",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 48-2022",
+    monthDoc: "AGO",
+    nameDoc: "PONDERACIONES EVALUACIÓN TRIANUAL DE DESEMPEÑO MSPEN",
+    link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"48.pdf"}`),
+  },
+  {
+    id: 49,
+    year: "2022",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 49-2022",
+    monthDoc: "AGO",
+    nameDoc:
+      "RESPUESTA A OFICIO PRESENTADO POR EL C. JUAN MELÉNDEZ BELLO, PRESIDENTE INTERINO DE SAN PEDRO TLALCUAPAN, CHIAUTEMPAN.",
+    link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"49.pdf"}`),
+  },
+
+  {
+    id: 50,
+    year: "2022",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 50-2022",
+    monthDoc: "AGO",
+    nameDoc:
+      "SE READECÚA EL PRESUPUESTO DE EGRESOS DE ESTE INSTITUTO EJERCICIO 2022",
+    link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"50.pdf"}`),
+    subRows: [
+      {
+        typeDoc: "",
+        nameDoc: "ANEXO ÚNICO",
+        link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"50.1.pdf"}`),
+      },
+    ],
+  },
+
+  {
+    id: 51,
+    year: "2022",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 51-2022",
+    monthDoc: "AGO",
+    nameDoc: "RESPUESTA A SOLICITUD DE LA ORGANIZACIÓN UNIFICACIÓN Y EVOLUCIÓN",
+    link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"51.pdf"}`),
+    subRows: [
+      {
+        typeDoc: "",
+        nameDoc: "ANEXO ÚNICO.",
+        link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"51.1.pdf"}`),
+      },
+    ],
+  },
+
+  {
+    id: 52,
+    year: "2022",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 52-2022",
+    monthDoc: "SEP",
+    nameDoc:
+      "CANTIDADES A RETENER POR CONCEPTO DE RETIRO DE PROPAGANDA A PP Y CI",
+    link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"52.pdf"}`),
+    subRows: [
+      {
+        typeDoc: "",
+        nameDoc: "ANEXO 1 INFORME RETIRO DE PROPAGANDA PELO 2020-2021",
+        link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"52.1.pdf"}`),
+      },
+      {
+        typeDoc: "",
+        nameDoc: "ANEXO 2",
+        link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"52.2.pdf"}`),
+      },
+    ],
+  },
+  {
+    id: 53,
+    year: "2022",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 53-2022",
+    monthDoc: "SEP",
+    nameDoc:
+      "DESIGNA A LA O EL CONSEJERO ELECTORAL QUE OCUPARÁ DE MANERA TEMPORAL LA PRESIDENCIA DEL INSTITUTO",
+    link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"53.pdf"}`),
+  },
+  {
+    id: 54,
+    year: "2022",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 54-2022",
+    monthDoc: "SEP",
+    nameDoc: "SE ADECUAN COMISIONES, COMITÉS Y JGE",
+    link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"54.pdf"}`),
+  },
+
+  {
+    id: 55,
+    year: "2022",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 55-2022",
+    monthDoc: "SEP",
+    nameDoc: "SE APRUEBA PROYECTO DE PRESUPUESTO DE EGRESOS 2023",
+    link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"55.pdf"}`),
+    subRows: [
+      {
+        typeDoc: "",
+        nameDoc: "ANEXO 1 FINANCIAMIENTO PÚBLICO PP AO 2023",
+        link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"55.1.pdf"}`),
+      },
+      {
+        typeDoc: "",
+        nameDoc: "ANEXO 2 FINANCIAMIENTO PÚBLICO PP AE 2023",
+        link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"55.2.pdf"}`),
+      },
+      {
+        typeDoc: "",
+        nameDoc: "ANEXO 3 CALENDARIZADO",
+        link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"55.3.pdf"}`),
+      },
+    ],
+  },
+  {
+    id: 56,
+    year: "2022",
+    typeDoc: "RESOLUCIÓN",
+    numDoc: "ITE-CG 56-2022",
+    monthDoc: "SEP",
+    nameDoc: "MODIFICACIÓN DOCUMENTOS BÁSICOS FXMT",
+    link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"56.pdf"}`),
+  },
+
+  {
+    id: 57,
+    year: "2022",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 57-2022",
+    monthDoc: "SEP",
+    nameDoc: "SE READECÚA PRESUPUESTO DE EGRESOS 2022",
+    link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"57.pdf"}`),
+    subRows: [
+      {
+        typeDoc: "",
+        nameDoc: "ANEXO 1",
+        link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"57.1.pdf"}`),
+      },
+      {
+        typeDoc: "",
+        nameDoc: "ANEXO 2",
+        link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"57.2.pdf"}`),
+      },
+    ],
+  },
+
+  {
+    id: 58,
+    year: "2022",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 58-2022",
+    monthDoc: "SEP",
+    nameDoc: "SE APRUEBA INFORME DE OTORGAMIENTO DE INCENTIVOS 2022 SPEN",
+    link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"58.pdf"}`),
+    subRows: [
+      {
+        typeDoc: "",
+        nameDoc: "INFORME DE OTORGAMIENTO DE INCENTIVOS 2022 PERSONAL SPEN",
+        link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"58.1.pdf"}`),
+      },
+    ],
+  },
+
+  {
+    id: 59,
+    year: "2022",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 59-2022",
+    monthDoc: "SEP",
+    nameDoc: "SE APRUEBA TABLA DE EQUIVALENCIAS MSPEN",
+    link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"59.pdf"}`),
+    subRows: [
+      {
+        typeDoc: "",
+        nameDoc:
+          "TABLA EQUIVALENCIAS VIABILIDAD CAMBIO DE ADSCRIPCION O ROTACION PMSPEN",
+        link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"59.1.pdf"}`),
+      },
+    ],
+  },
+
+  {
+    id: 60,
+    year: "2022",
+    typeDoc: "RESOLUCIÓN",
+    numDoc: "ITE-CG 60-2022",
+    monthDoc: "SEP",
+    nameDoc: "VERSIÓN PÚBLICA",
+    link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"60.pdf"}`),
+    subRows: [
+      {
+        typeDoc: "",
+        nameDoc:
+          "DICTAMEN DE CLASIFICACIÓN DE INFORMACIÓN CONFIDENCIAL 05-2022",
+        link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"60.1.pdf"}`),
+      },
+    ],
+  },
+
+  {
+    id: 61,
+    year: "2022",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 61-2022",
+    monthDoc: "SEP",
+    nameDoc:
+      "RESPUESTA A ESCRITO DE DIVERSAS PERSONAS TITULARES DE PRESIDENCIAS DE COMUNIDAD",
+    link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"61.pdf"}`),
+    subRows: [
+      {
+        typeDoc: "",
+        nameDoc: "ANEXO ÚNICO",
+        link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"61.1.pdf"}`),
+      },
+    ],
+  },
+];
+
 export const dataAcuerdos2021 = [
   {
     id: 1,

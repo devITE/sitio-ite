@@ -8,8 +8,8 @@ export default class MetasMSPEN extends Component {
     return (
       <div className="mb-5">
         <NavbarEnlaces />
-        <div className="Enlances__title">Metas MSPEN</div>
-        <div className="accordion accordion-flush mt-3" id="metasMSPEN">
+        <div className="Enlances__title mb-3">Metas MSPEN</div>
+        <div className="accordion accordion-flush" id="metasMSPEN">
           {dataMSPEN.map((accordionsItem) => (
             <div key={accordionsItem.id} className="accordion-item">
               <h2 className="accordion-header">
