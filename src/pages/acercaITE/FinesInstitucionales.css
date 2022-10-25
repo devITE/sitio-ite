@@ -155,3 +155,26 @@ box-shadow: 5px 5px 5px #a0a0a0;
 .espacio{
   line-height: 2.2rem;
 }
+.comunicacion-social-container
+{
+  display: grid;
+  grid-template-columns:auto auto;
+  gap: 450px;
+  padding: 50px 300px;
+}
+.comunicacion-social:hover{
+  transition: .1s;
+  transform: scale(1.15);
+}
+.boletines{
+  display: grid;
+  grid-template-columns:auto auto auto;
+  gap: 45px;
+  padding: 0px 100px;
+}
+.comunicacion-social-container2
+{
+  display: grid;
+  grid-template-columns:auto auto;
+  padding: 50px 550px;
+}

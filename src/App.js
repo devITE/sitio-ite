@@ -100,7 +100,21 @@ import Infografias from "./pages/transparencia/Infografias";
 import PreguntasFrecuentes from "./pages/transparencia/PreguntasFrecuentes";
 import DatosAbiertos from "./pages/transparencia/DatosAbiertos";
 
-import ComunicacionSocial from "./pages/ComunicacionSocial";
+//Comunicacion Social
+import ComunicacionSocial from "./pages/comunicacionSocial/ComunicacionSocial";
+import Boletines from "./pages/comunicacionSocial/boletines/Boletines";
+import Boletines2015 from "./pages/comunicacionSocial/boletines/Boletines2015";
+import Boletines2016 from "./pages/comunicacionSocial/boletines/Boletines2016";
+import Boletines2017 from "./pages/comunicacionSocial/boletines/Boletines2017";
+import Boletines2019 from "./pages/comunicacionSocial/boletines/Boletines2019";
+import Boletines2020 from "./pages/comunicacionSocial/boletines/Boletines2020";
+import Boletines2021 from "./pages/comunicacionSocial/boletines/Boletines2021";
+import Boletines2022 from "./pages/comunicacionSocial/boletines/Boletines2022";
+
+import Monitoreo from "./pages/comunicacionSocial/Monitoreo";
+import EspacioIte from "./pages/comunicacionSocial/EspacioIte";
+
+//Cultura Cívica
 import CulturaCivica from "./pages/culturaCivica/CulturaCivica";
 import ActividadesLudicas from "./pages/culturaCivica/ActividadesLudicas";
 import EleccionesEscolares from "./pages/culturaCivica/EleccionesEscolares";
@@ -221,12 +235,20 @@ function App() {
           <Route path="/DatosAbiertos" element={<DatosAbiertos />} />
 
           <Route path="/ComunicacionSocial" element={<ComunicacionSocial />} />
+          <Route path="/Boletines" element={<Boletines />} />
+          <Route path="/Boletines2015" element={<Boletines2015 />} />
+          <Route path="/Boletines2016" element={<Boletines2016 />} />
+          <Route path="/Boletines2017" element={<Boletines2017 />} />
+          <Route path="/Boletines2019" element={<Boletines2019 />} />
+          <Route path="/Boletines2020" element={<Boletines2020 />} />
+          <Route path="/Boletines2021" element={<Boletines2021 />} />
+          <Route path="/Boletines2022" element={<Boletines2022 />} />
+
+          <Route path="/Monitoreo" element={<Monitoreo />} />
+          <Route path="/EspacioIte" element={<EspacioIte />} />
           <Route path="/CulturaCivica" element={<CulturaCivica />} />
           <Route path="/ActividadesLudicas" element={<ActividadesLudicas />} />
-          <Route
-            path="/EleccionesEscolares"
-            element={<EleccionesEscolares />}
-          />
+          <Route path="/EleccionesEscolares" element={<EleccionesEscolares />}/>
           <Route path="/ParlamentoInfantil" element={<ParlamentoInfantil />} />
           <Route path="/ParlamentoJuvenil" element={<ParlamentoJuvenil />} />
           <Route path="/ValoresDemocracia" element={<ValoresDemocracia />} />
