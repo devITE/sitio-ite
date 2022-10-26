@@ -1,7 +1,13 @@
-// eslint-disable-next-line
+/* eslint-disable jsx-a11y/anchor-is-valid */
+/* eslint-disable no-const-assign */
 import React, { Component } from "react";
 import NavbarEnlaces from "../../layout/NavbarEnlaces";
-import { dataMenuInf, dataImgInf } from "../../assets/data/dataAccordion";
+import { dataMenuInf } from "../../assets/data/dataAccordion";
+import "./EnlacesStyle.css";
+
+// const yearImgPath = "";
+
+// console.log("inicio: ", yearImgPath);
 
 export default class Infografias extends Component {
   render() {
@@ -31,6 +37,8 @@ export default class Infografias extends Component {
                       aria-expanded="false"
                       aria-controls={"flush-" + infoITEM.titleItem}
                     >
+                      {/* {console.log(infoITEM.titleItem, "infoITEM")} */}
+                      {/* {infoITEM.titleButton} */}
                       {infoITEM.titleItem}
                     </button>
                   </h2>
@@ -46,17 +54,27 @@ export default class Infografias extends Component {
                           key={chilItem.id}
                           className="nav-link"
                           id={
-                            "v-pills-profile-tab" +
+                            "v-pills-" +
+                            infoITEM.titleItem +
                             chilItem.titleButton +
                             "-tab"
                           }
                           data-bs-toggle="pill"
-                          data-bs-target={"#v-pills-" + chilItem.titleButton}
+                          data-bs-target={
+                            "#v-pills-" +
+                            infoITEM.titleItem +
+                            chilItem.titleButton
+                          }
                           type="button"
                           role="tab"
-                          aria-controls={"v-pills-" + chilItem.titleButton}
+                          aria-controls={
+                            "v-pills-" +
+                            infoITEM.titleItem +
+                            chilItem.titleButton
+                          }
                           aria-selected="false"
                         >
+                          {/* {console.log(chilItem.titleButton, "childitem")} */}
                           {chilItem.titleButton}
                         </button>
                       ))}
@@ -67,20 +85,62 @@ export default class Infografias extends Component {
             </div>
           </div>
           <div className="tab-content" id="v-pills-tabContent">
-            {dataImgInf.map((imgInf) => (
-              // dataInfografias.chilItem.subChildren.map((subChildItem) => (
-              <div
-                key={imgInf.id}
-                className="tab-pane fade"
-                id={"v-pills-" + imgInf.monthImg}
-                role="tabpanel"
-                aria-labelledby={"v-pills-" + imgInf.monthImg + "-tab"}
-                tabIndex="0"
-              >
-                {imgInf.alt}
-                {imgInf.link}
-              </div>
-            ))}
+            {dataMenuInf.map((infoITEM) =>
+              infoITEM.children.map((chilItem) => (
+                <div
+                  key={chilItem.id}
+                  className="tab-pane fade"
+                  id={"v-pills-" + infoITEM.titleItem + chilItem.titleButton}
+                  role="tabpanel"
+                  aria-labelledby={
+                    "v-pills-" +
+                    infoITEM.titleItem +
+                    chilItem.titleButton +
+                    "-tab"
+                  }
+                  tabIndex="0"
+                >
+                  <div className="Infografias__grid">
+                    {chilItem.subChildren.map((subChilItem) => (
+                      <div key={subChilItem.id}>
+                        {/* {console.log(subChilItem)} */}
+                        <a
+                          data-bs-toggle="modal"
+                          data-bs-target={"#" + subChilItem.link}
+                        >
+                          <img
+                            className="img-fluid Infografias__grid-item"
+                            src={subChilItem.link}
+                            alt={subChilItem.alt}
+                          />
+                        </a>
+                        {/* Modal */}
+                        <div
+                          classModal="modal fade"
+                          id={subChilItem.link}
+                          tabindex="-1"
+                          aria-hidden="true"
+                        >
+                          <div classModal="modal-dialog">
+                            <div classModal="modal-content">
+                              <div classModal="modal-header">
+                                <button
+                                  type="button"
+                                  classModal="btn-close"
+                                  data-bs-dismiss="modal"
+                                  aria-label="Close"
+                                ></button>
+                              </div>
+                              <div classModal="modal-body">...</div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              ))
+            )}
           </div>
         </div>
       </div>

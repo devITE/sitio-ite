@@ -1,3 +1,5 @@
+const Infografias__imgpath = require.context("../../img/imgEInf");
+
 export const dataMenuInf = [
   {
     id: 1,
@@ -9,8 +11,13 @@ export const dataMenuInf = [
         subChildren: [
           {
             id: 1,
-            alt: "InfografiaALT",
-            link: "InfografiaLINK",
+            alt: "Infografia Nahualt",
+            link: Infografias__imgpath(`./${"2022/"}${"1.jpeg"}`),
+          },
+          {
+            id: 2,
+            alt: "Avisos de privacidad",
+            link: Infografias__imgpath(`./${"2022/"}${"2.jpeg"}`),
           },
         ],
       },
