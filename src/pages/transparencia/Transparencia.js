@@ -18,7 +18,7 @@ export default class Transparencia extends Component {
           src={Transparencia_imppath(`./head.png`)}
           alt="Transparencia"
         />
-        <div className="w-100 mt-3 Transparencia__contenido">
+        <div className="w-100 mt-3 Content__grid">
           <div>
             <Link to="/Articulo63">
               <img

@@ -9,6 +9,7 @@ import Home from "./pages/index/Home";
 import Footer from "./layout/Footer";
 
 //Enlaces
+import OIC from "./pages/enlaces/OIC";
 import Infografias from "./pages/enlaces/Infografias";
 import MemoriasElectorales from "./pages/enlaces/MemoriasElectorales";
 import MetasMSPEN from "./pages/enlaces/MetasMSPEN";
@@ -118,6 +119,8 @@ function App() {
           <Route exact path="/" element={<Home />} />
 
           {/* Enlaces */}
+          <Route path="/OIC" element={<OIC />} />
+
           <Route path="/Infografias" element={<Infografias />} />
           <Route
             path="/MemoriasElectorales"

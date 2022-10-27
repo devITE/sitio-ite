@@ -30,11 +30,13 @@ export default class NavbarEnlaces extends Component {
           />
         </div>
         <div>
-          <img
-            src={Enlaces_imgpath(`./${"e4.png"}`)}
-            alt="Órgano Interno de Control"
-            className="img-fluid shadow rounded-4"
-          />
+          <Link to="/OIC">
+            <img
+              src={Enlaces_imgpath(`./${"e4.png"}`)}
+              alt="Órgano Interno de Control"
+              className="img-fluid shadow rounded-4"
+            />
+          </Link>
         </div>
         <div>
           <Link to="/PartidosPoliticos">

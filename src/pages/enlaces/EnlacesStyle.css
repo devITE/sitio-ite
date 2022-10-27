@@ -37,10 +37,16 @@
   border-radius: 5px;
   box-shadow: 6px 6px 10px #818181;
 }
+
 .Infografias__grid-item:hover {
   transform: scale(1.05);
   transition: 0.5s;
 }
+
+.OCI__grid {
+  display: grid;
+}
+
 /* --------------- M E D I A     Q U E R I E S --------------- */
 
 /* general */
@@ -61,6 +67,12 @@
   .Infografias__grid {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 30px;
+  }
+
+  .OCI__grid {
+    grid-template-columns: auto auto auto auto;
+    gap: 30px;
+
   }
 }
 
