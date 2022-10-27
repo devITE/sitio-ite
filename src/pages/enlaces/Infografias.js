@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import NavbarEnlaces from "../../layout/NavbarEnlaces";
 import ModalIMG from "../../layout/ModalIMG";
-import { dataMenuInf } from "../../assets/data/dataAccordion";
+import { dataInf } from "../../assets/data/dataInfografias";
 
 import "./EnlacesStyle.css";
 
@@ -22,7 +22,7 @@ export default class Infografias extends Component {
               className="accordion accordion-flush w-100"
               id="accordionFlushExample"
             >
-              {dataMenuInf.map((infoITEM) => (
+              {dataInf.map((infoITEM) => (
                 <div key={infoITEM.id} className="accordion-item">
                   <h2 className="accordion-header" id="flush-headingOne">
                     <button
@@ -78,7 +78,7 @@ export default class Infografias extends Component {
             </div>
           </div>
           <div className="tab-content w-75" id="v-pills-tabContent">
-            {dataMenuInf.map((infoITEM) =>
+            {dataInf.map((infoITEM) =>
               infoITEM.children.map((chilItem) => (
                 <div
                   key={chilItem.id}
@@ -97,6 +97,7 @@ export default class Infografias extends Component {
                     {chilItem.subChildren.map((subChilItem) => (
                       <div key={subChilItem.id}>
                         <a
+                          href
                           data-bs-toggle="modal"
                           data-bs-target={
                             "#" +
