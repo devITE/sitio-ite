@@ -1,13 +1,9 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
-/* eslint-disable no-const-assign */
 import React, { Component } from "react";
 import NavbarEnlaces from "../../layout/NavbarEnlaces";
+import ModalIMG from "../../layout/ModalIMG";
 import { dataMenuInf } from "../../assets/data/dataAccordion";
+
 import "./EnlacesStyle.css";
-
-// const yearImgPath = "";
-
-// console.log("inicio: ", yearImgPath);
 
 export default class Infografias extends Component {
   render() {
@@ -23,7 +19,7 @@ export default class Infografias extends Component {
             aria-orientation="vertical"
           >
             <div
-              className="accordion accordion-flush"
+              className="accordion accordion-flush w-100"
               id="accordionFlushExample"
             >
               {dataMenuInf.map((infoITEM) => (
@@ -37,8 +33,6 @@ export default class Infografias extends Component {
                       aria-expanded="false"
                       aria-controls={"flush-" + infoITEM.titleItem}
                     >
-                      {/* {console.log(infoITEM.titleItem, "infoITEM")} */}
-                      {/* {infoITEM.titleButton} */}
                       {infoITEM.titleItem}
                     </button>
                   </h2>
@@ -52,7 +46,7 @@ export default class Infografias extends Component {
                       {infoITEM.children.map((chilItem) => (
                         <button
                           key={chilItem.id}
-                          className="nav-link"
+                          className="btn btn-ite w-100"
                           id={
                             "v-pills-" +
                             infoITEM.titleItem +
@@ -74,7 +68,6 @@ export default class Infografias extends Component {
                           }
                           aria-selected="false"
                         >
-                          {/* {console.log(chilItem.titleButton, "childitem")} */}
                           {chilItem.titleButton}
                         </button>
                       ))}
@@ -84,7 +77,7 @@ export default class Infografias extends Component {
               ))}
             </div>
           </div>
-          <div className="tab-content" id="v-pills-tabContent">
+          <div className="tab-content w-75" id="v-pills-tabContent">
             {dataMenuInf.map((infoITEM) =>
               infoITEM.children.map((chilItem) => (
                 <div
@@ -103,10 +96,14 @@ export default class Infografias extends Component {
                   <div className="Infografias__grid">
                     {chilItem.subChildren.map((subChilItem) => (
                       <div key={subChilItem.id}>
-                        {/* {console.log(subChilItem)} */}
                         <a
                           data-bs-toggle="modal"
-                          data-bs-target={"#" + subChilItem.link}
+                          data-bs-target={
+                            "#" +
+                            chilItem.titleButton +
+                            infoITEM.titleItem +
+                            subChilItem.id
+                          }
                         >
                           <img
                             className="img-fluid Infografias__grid-item"
@@ -114,27 +111,15 @@ export default class Infografias extends Component {
                             alt={subChilItem.alt}
                           />
                         </a>
-                        {/* Modal */}
-                        <div
-                          classModal="modal fade"
-                          id={subChilItem.link}
-                          tabindex="-1"
-                          aria-hidden="true"
-                        >
-                          <div classModal="modal-dialog">
-                            <div classModal="modal-content">
-                              <div classModal="modal-header">
-                                <button
-                                  type="button"
-                                  classModal="btn-close"
-                                  data-bs-dismiss="modal"
-                                  aria-label="Close"
-                                ></button>
-                              </div>
-                              <div classModal="modal-body">...</div>
-                            </div>
-                          </div>
-                        </div>
+                        <ModalIMG
+                          idModal={
+                            chilItem.titleButton +
+                            infoITEM.titleItem +
+                            subChilItem.id
+                          }
+                          linkIMG={subChilItem.link}
+                          altIMG={subChilItem.alt}
+                        />
                       </div>
                     ))}
                   </div>
