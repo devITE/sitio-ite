@@ -59,7 +59,7 @@
   }
 
   .Infografias__grid {
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 30px;
   }
 }
@@ -76,7 +76,7 @@
   }
 
   .Infografias__grid {
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 30px;
   }
 }
@@ -93,7 +93,7 @@
   }
 
   .Infografias__grid {
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: 1fr 1fr;
     gap: 30px;
   }
 }
