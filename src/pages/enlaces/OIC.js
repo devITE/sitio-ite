@@ -45,11 +45,6 @@ export default class OIC extends Component {
               />
             </a>
             <p className="mt-2">Atribuciones</p>
-            <ModalIMG
-              idModal="Atribuciones"
-              linkIMG={OIC__imgpath(`./${"OIC/"}${"1.jpg"}`)}
-              altIMG="Atribuciones"
-            />
           </div>
           <div>
             <img
@@ -100,6 +95,13 @@ export default class OIC extends Component {
             <p className="mt-2">Galería</p>
           </div>
         </div>
+        <ModalIMG
+          idModal="Atribuciones"
+          linkIMG={OIC__imgpath(`./${"imgEInf/2022/"}${"2.jpeg"}`)}
+          // linkIMG={OIC__imgpath(`./${"OIC/"}${"1.jpg"}`)}
+
+          altIMG="Atribuciones"
+        />
       </div>
     );
   }
