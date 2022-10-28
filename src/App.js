@@ -9,7 +9,8 @@ import Home from "./pages/index/Home";
 import Footer from "./layout/Footer";
 
 //Enlaces
-import OIC from "./pages/enlaces/OIC";
+import OIC from "./pages/enlaces/OIC/OIC";
+import Galeria from "./pages/enlaces/OIC/Galeria";
 import Infografias from "./pages/enlaces/Infografias";
 import MemoriasElectorales from "./pages/enlaces/MemoriasElectorales";
 import MetasMSPEN from "./pages/enlaces/MetasMSPEN";
@@ -120,6 +121,7 @@ function App() {
 
           {/* Enlaces */}
           <Route path="/OIC" element={<OIC />} />
+          <Route path="/Galeria" element={<Galeria />} />
 
           <Route path="/Infografias" element={<Infografias />} />
           <Route

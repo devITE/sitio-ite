@@ -3,7 +3,7 @@ const Modal = (props) => {
     <div
       className="modal fade"
       id={props.idModal}
-      tabindex="-1"
+      tabIndex="-1"
       aria-hidden="true"
     >
       <div className="modal-dialog modal-dialog-centered">

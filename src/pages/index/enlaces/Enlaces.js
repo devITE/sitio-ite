@@ -31,11 +31,13 @@ export default class Enlaces extends Component {
             />
           </div>
           <div className="col col-sm-3 col-md-3 col-md-3">
-            <img
-              src={Enlaces_imgpath(`./${"e4.png"}`)}
-              alt="Órgano Interno de Control"
-              className="img-fluid shadow rounded-4"
-            />
+            <Link to="/OIC">
+              <img
+                src={Enlaces_imgpath(`./${"e4.png"}`)}
+                alt="Órgano Interno de Control"
+                className="img-fluid shadow rounded-4"
+              />
+            </Link>
           </div>
         </div>
         <div className="row mt-2">

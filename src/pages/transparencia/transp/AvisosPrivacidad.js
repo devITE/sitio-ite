@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import ListBadgePDF from "../../../layout/ListBadge/ListBadgePDF";
+import ListBadgePDF from "../../../layout/ListBadgePDF";
 import { dataAvisosPrivacidad } from "../../../assets/data/dataTransparenciaAvisosPrivacidad";
 import "../Transparencia.css";
 
