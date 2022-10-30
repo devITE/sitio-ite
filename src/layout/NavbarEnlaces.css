@@ -1,29 +1,32 @@
 /* --------------- M E D I A     Q U E R I E S --------------- */
-
+.NavbarEnlaces__item:hover {
+  transform: scale(1.05);
+  transition: 0.5s;
+}
 /* general */
 @media only screen and (min-width: 1024px) {
-    .NavbarEnlaces {
-        display: flex;
-        gap: 15px;
-        padding: 0px 30px;
-    }
+  .NavbarEnlaces {
+    display: flex;
+    gap: 15px;
+    padding: 0px 30px;
+  }
 }
 
 /* tablets */
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
-    .NavbarEnlaces {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 30px;
-        padding: 0px 30px;
-    }
+  .NavbarEnlaces {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 0px 30px;
+  }
 }
 
 /* mobil */
 @media only screen and (max-width: 767px) {
-    .NavbarEnlaces {
-        display: grid;
-        grid-template-columns: auto auto auto auto;
-        gap: 20px;
-    }
+  .NavbarEnlaces {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;
+  }
 }

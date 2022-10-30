@@ -8,7 +8,7 @@ export default class NavbarEnlaces extends Component {
   render() {
     return (
       <div className="w-100 NavbarEnlaces">
-        <div className="">
+        <div className="NavbarEnlaces__item">
           <img
             src={Enlaces_imgpath(`./${"e1.png"}`)}
             alt="Proceso Electorales"
