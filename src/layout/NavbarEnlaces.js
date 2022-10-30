@@ -15,21 +15,21 @@ export default class NavbarEnlaces extends Component {
             className="img-fluid shadow rounded-4"
           />
         </div>
-        <div className="">
+        <div className="NavbarEnlaces__item">
           <img
             src={Enlaces_imgpath(`./${"e2.png"}`)}
             alt="Normatividad"
             className="img-fluid shadow rounded-4"
           />
         </div>
-        <div>
+        <div className="NavbarEnlaces__item">
           <img
             src={Enlaces_imgpath(`./${"e3.png"}`)}
             alt="Galeria fotográfica"
             className="img-fluid shadow rounded-4"
           />
         </div>
-        <div>
+        <div className="NavbarEnlaces__item">
           <Link to="/OIC">
             <img
               src={Enlaces_imgpath(`./${"e4.png"}`)}
@@ -38,7 +38,7 @@ export default class NavbarEnlaces extends Component {
             />
           </Link>
         </div>
-        <div>
+        <div className="NavbarEnlaces__item">
           <Link to="/PartidosPoliticos">
             <img
               src={Enlaces_imgpath(`./${"e5.png"}`)}
@@ -47,7 +47,7 @@ export default class NavbarEnlaces extends Component {
             />
           </Link>
         </div>
-        <div>
+        <div className="NavbarEnlaces__item">
           <Link to="/Infografias">
             <img
               src={Enlaces_imgpath(`./${"e6.png"}`)}
@@ -56,7 +56,7 @@ export default class NavbarEnlaces extends Component {
             />
           </Link>
         </div>
-        <div>
+        <div className="NavbarEnlaces__item">
           <Link to="/MemoriasElectorales">
             <img
               src={Enlaces_imgpath(`./${"e7.png"}`)}
@@ -65,7 +65,7 @@ export default class NavbarEnlaces extends Component {
             />
           </Link>
         </div>
-        <div>
+        <div className="NavbarEnlaces__item">
           <Link to="/MetasMSPEN">
             <img
               src={Enlaces_imgpath(`./${"e8.png"}`)}

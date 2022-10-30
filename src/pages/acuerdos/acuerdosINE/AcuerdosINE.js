@@ -30,7 +30,7 @@ export default class AcuerdosINE extends Component {
         />
         <div className="w-100 mt-5 Acuerdos">
           <div>
-            <Link to="../../AcuerdosINE2015">
+            <Link to="/AcuerdosINE2015">
               <img
                 className="img-fluid Acuerdos_link"
                 src={Acuerdos__imgpath(`./2015.png`)}
@@ -39,7 +39,7 @@ export default class AcuerdosINE extends Component {
             </Link>
           </div>
           <div>
-            <Link to="../../AcuerdosINE2016" className="nav-link">
+            <Link to="/AcuerdosINE2016" className="nav-link">
               <img
                 className="img-fluid Acuerdos_link"
                 src={Acuerdos__imgpath(`./2016.png`)}
@@ -48,7 +48,7 @@ export default class AcuerdosINE extends Component {
             </Link>
           </div>
           <div>
-            <Link to="../../AcuerdosINE2020" className="nav-link">
+            <Link to="/AcuerdosINE2020" className="nav-link">
               <img
                 className="img-fluid Acuerdos_link"
                 src={Acuerdos__imgpath(`./2020.png`)}
@@ -57,7 +57,7 @@ export default class AcuerdosINE extends Component {
             </Link>
           </div>
           <div>
-            <Link to="../../AcuerdosINE2021" className="nav-link">
+            <Link to="/AcuerdosINE2021" className="nav-link">
               <img
                 className="img-fluid Acuerdos_link"
                 src={Acuerdos__imgpath(`./2021.png`)}
@@ -66,7 +66,7 @@ export default class AcuerdosINE extends Component {
             </Link>
           </div>
           <div>
-            <Link to="../../AcuerdosINE2022" className="nav-link">
+            <Link to="/AcuerdosINE2022" className="nav-link">
               <img
                 className="img-fluid Acuerdos_link"
                 src={Acuerdos__imgpath(`./2022.png`)}
@@ -75,7 +75,7 @@ export default class AcuerdosINE extends Component {
             </Link>
           </div>
           <div>
-            <Link to="../../AcuerdosINE2023" className="nav-link">
+            <Link to="/AcuerdosINE2023" className="nav-link">
               <img
                 className="img-fluid Acuerdos_link"
                 src={Acuerdos__imgpath(`./2023.png`)}

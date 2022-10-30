@@ -1,8 +1,11 @@
-/* --------------- M E D I A     Q U E R I E S --------------- */
 .NavbarEnlaces__item:hover {
   transform: scale(1.05);
   transition: 0.5s;
+  cursor: pointer;
 }
+
+/* --------------- M E D I A     Q U E R I E S --------------- */
+
 /* general */
 @media only screen and (min-width: 1024px) {
   .NavbarEnlaces {

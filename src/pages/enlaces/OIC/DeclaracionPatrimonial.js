@@ -1,8 +1,9 @@
+// eslint-disable-next-line
 import React, { Component } from "react";
 import NavbarEnlaces from "../../../layout/NavbarEnlaces";
 
 const OIC__imgpath = require.context("../../../assets");
-// import moduleName from '../../../assets/video/OIC';
+
 export default class DeclaracionPatrimonial extends Component {
   render() {
     return (
@@ -19,6 +20,7 @@ export default class DeclaracionPatrimonial extends Component {
           className="btn btn-outline-danger"
           href="https://pdetlax.ddns.net/"
           target="_blank"
+          rel="noreferrer"
         >
           Sistema Anticorrupción
         </a>
@@ -29,8 +31,10 @@ export default class DeclaracionPatrimonial extends Component {
         </p>
         <div className="embed-responsive embed-responsive-21by9">
           <iframe
-            className="embed-responsive-item"
+            id="videoOIC"
             src={OIC__imgpath(`./${"video/OIC/"}${"1.mp4"}`)}
+            title="Declaraciones Patrimoniales"
+            allowFullScreen
           ></iframe>
         </div>
         <p className="text-justify mt-5">

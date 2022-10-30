@@ -15,7 +15,7 @@ export default class AcuerdosAnteriores extends Component {
         />
         <div className="w-100 mt-5 Acuerdos">
           <div>
-            <Link to="../../Acuerdos2015">
+            <Link to="/Acuerdos2015">
               <img
                 className="img-fluid Acuerdos_link"
                 src={AcuerdosAnteriores__imgpath(`./2015.png`)}
@@ -24,7 +24,7 @@ export default class AcuerdosAnteriores extends Component {
             </Link>
           </div>
           <div>
-            <Link to="../../Acuerdos2014" className="nav-link">
+            <Link to="/Acuerdos2014" className="nav-link">
               <img
                 className="img-fluid Acuerdos_link"
                 src={AcuerdosAnteriores__imgpath(`./2014.png`)}
@@ -33,7 +33,7 @@ export default class AcuerdosAnteriores extends Component {
             </Link>
           </div>
           <div>
-            <Link to="../../Acuerdos2013" className="nav-link">
+            <Link to="/Acuerdos2013" className="nav-link">
               <img
                 className="img-fluid Acuerdos_link"
                 src={AcuerdosAnteriores__imgpath(`./2013.png`)}
@@ -42,7 +42,7 @@ export default class AcuerdosAnteriores extends Component {
             </Link>
           </div>
           <div>
-            <Link to="../../Acuerdos2012" className="nav-link">
+            <Link to="/Acuerdos2012" className="nav-link">
               <img
                 className="img-fluid Acuerdos_link"
                 src={AcuerdosAnteriores__imgpath(`./2012.png`)}
@@ -51,7 +51,7 @@ export default class AcuerdosAnteriores extends Component {
             </Link>
           </div>
           <div>
-            <Link to="../../Acuerdos2011" className="nav-link">
+            <Link to="/Acuerdos2011" className="nav-link">
               <img
                 className="img-fluid Acuerdos_link"
                 src={AcuerdosAnteriores__imgpath(`./2011.png`)}
@@ -60,7 +60,7 @@ export default class AcuerdosAnteriores extends Component {
             </Link>
           </div>
           <div>
-            <Link to="../../Acuerdos2010" className="nav-link">
+            <Link to="/Acuerdos2010" className="nav-link">
               <img
                 className="img-fluid Acuerdos_link"
                 src={AcuerdosAnteriores__imgpath(`./2010.png`)}
@@ -69,7 +69,7 @@ export default class AcuerdosAnteriores extends Component {
             </Link>
           </div>
           <div>
-            <Link to="../../Acuerdos2009" className="nav-link">
+            <Link to="/Acuerdos2009" className="nav-link">
               <img
                 className="img-fluid Acuerdos_link"
                 src={AcuerdosAnteriores__imgpath(`./2009.png`)}
@@ -78,7 +78,7 @@ export default class AcuerdosAnteriores extends Component {
             </Link>
           </div>
           <div>
-            <Link to="../../Acuerdos2008" className="nav-link">
+            <Link to="/Acuerdos2008" className="nav-link">
               <img
                 className="img-fluid Acuerdos_link"
                 src={AcuerdosAnteriores__imgpath(`./2008.png`)}
@@ -87,7 +87,7 @@ export default class AcuerdosAnteriores extends Component {
             </Link>
           </div>
           <div>
-            <Link to="../../Acuerdos2007" className="nav-link">
+            <Link to="/Acuerdos2007" className="nav-link">
               <img
                 className="img-fluid Acuerdos_link"
                 src={AcuerdosAnteriores__imgpath(`./2007.png`)}
@@ -96,7 +96,7 @@ export default class AcuerdosAnteriores extends Component {
             </Link>
           </div>
           <div>
-            <Link to="../../Acuerdos2006" className="nav-link">
+            <Link to="/Acuerdos2006" className="nav-link">
               <img
                 className="img-fluid Acuerdos_link"
                 src={AcuerdosAnteriores__imgpath(`./2006.png`)}
@@ -105,7 +105,7 @@ export default class AcuerdosAnteriores extends Component {
             </Link>
           </div>
           <div>
-            <Link to="../../Acuerdos2005" className="nav-link">
+            <Link to="/Acuerdos2005" className="nav-link">
               <img
                 className="img-fluid Acuerdos_link"
                 src={AcuerdosAnteriores__imgpath(`./2005.png`)}
@@ -114,7 +114,7 @@ export default class AcuerdosAnteriores extends Component {
             </Link>
           </div>
           <div>
-            <Link to="../../Acuerdos2004" className="nav-link">
+            <Link to="/Acuerdos2004" className="nav-link">
               <img
                 className="img-fluid Acuerdos_link"
                 src={AcuerdosAnteriores__imgpath(`./2004.png`)}
@@ -123,7 +123,7 @@ export default class AcuerdosAnteriores extends Component {
             </Link>
           </div>
           <div>
-            <Link to="../../Acuerdos2003" className="nav-link">
+            <Link to="/Acuerdos2003" className="nav-link">
               <img
                 className="img-fluid Acuerdos_link"
                 src={AcuerdosAnteriores__imgpath(`./2003.png`)}
@@ -132,7 +132,7 @@ export default class AcuerdosAnteriores extends Component {
             </Link>
           </div>
           <div>
-            <Link to="../../Acuerdos2002" className="nav-link">
+            <Link to="/Acuerdos2002" className="nav-link">
               <img
                 className="img-fluid Acuerdos_link"
                 src={AcuerdosAnteriores__imgpath(`./2002.png`)}
@@ -141,7 +141,7 @@ export default class AcuerdosAnteriores extends Component {
             </Link>
           </div>
           <div>
-            <Link to="../../Acuerdos2001" className="nav-link">
+            <Link to="/Acuerdos2001" className="nav-link">
               <img
                 className="img-fluid Acuerdos_link"
                 src={AcuerdosAnteriores__imgpath(`./2001.png`)}
@@ -150,7 +150,7 @@ export default class AcuerdosAnteriores extends Component {
             </Link>
           </div>
           <div>
-            <Link to="../../Acuerdos1998" className="nav-link">
+            <Link to="/Acuerdos1998" className="nav-link">
               <img
                 className="img-fluid Acuerdos_link"
                 src={AcuerdosAnteriores__imgpath(`./1998.png`)}
