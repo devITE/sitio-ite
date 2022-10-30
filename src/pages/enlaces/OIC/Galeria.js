@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import NavbarEnlaces from "../../../layout/NavbarEnlaces";
 import Carousel from "../../../layout/Carousel/Carousel";
-// import Accordion from '../../../layout/Accordion'
 import { dataGaleria } from "../../../assets/data/dataOIC";
+
 export default class Galeria extends Component {
   render() {
     return (
@@ -33,21 +33,16 @@ export default class Galeria extends Component {
                 data-bs-parent="#accordionFlushExample"
               >
                 <div className="accordion-body">
-                  {galeriaItems.children.map((infCarousel) =>
-                    //   <h1 key={infCarousel.id}>{infCarousel.carouselID}</h1>
-                    // <span key={infCarousel.id}></span>
-<>{console.log(infCarousel.id)}</>)}
-                    {infCarousel.subChildren.map((imgGaleria) => (
-                      <h1 key={imgGaleria.id}>
-                        {infCarousel.carouselID}, {imgGaleria.link}
-                      </h1>
-
-                      //   <Carousel
-                      //     slides={imgGaleria}
-                      //     slidesID={infCarousel.carouselID}
-                      //   />
-                    )}
-                  )}
+                  {galeriaItems.children.map((infCarousel) => (
+                    <div key={infCarousel.id}>
+                      <div className="w-50 mx-auto">
+                        <Carousel
+                          slidesID={infCarousel.carouselID}
+                          slides={infCarousel.subChildren}
+                        />
+                      </div>
+                    </div>
+                  ))}
                 </div>
               </div>
             </div>
