@@ -1,4 +1,4 @@
-const Infografias__imgpath = require.context("../../img/imgEInf");
+const Infografias__imgpath = require.context("../../assets/img/imgEInf");
 
 export const dataInf = [
   {

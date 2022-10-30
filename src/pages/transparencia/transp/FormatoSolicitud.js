@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFileWord } from "@fortawesome/free-solid-svg-icons";
 import "../Transparencia.css";
 
-const Transparencia_imppath = require.context("../../../img/imgT");
+const Transparencia_imppath = require.context("../../../assets/img/imgT");
 const Transparencia_wordpath = require.context(
   "../../../assets/word/transparencia"
 );

@@ -17,8 +17,7 @@ import { dataInformes } from "../../assets/data/dataInformes";
 import Videoteca from "./videoteca/Videoteca";
 import { dataVideoteca } from "../../assets/data/dataVideoteca";
 
-//const Home_imppath = require.context("../../img");
-const Home_imppath = require.context("./img");
+const Home_imppath = require.context("../../assets/img/imgHome");
 const EspacioITE_path = require.context("../../assets/pdf/");
 
 export default class Home extends Component {

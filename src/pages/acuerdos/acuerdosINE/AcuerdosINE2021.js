@@ -3,7 +3,7 @@ import MaterialReactTable from "material-react-table";
 import { dataAcuerdosINE2021 } from "../../../assets/data/dataAcuerdos";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
-import top2021 from "../../../img/imgA/INE_2021.png";
+import top2021 from "../../../assets/img/imgA/INE_2021.png";
 
 const AcuerdosINE2021 = () => {
   const columns = useMemo(

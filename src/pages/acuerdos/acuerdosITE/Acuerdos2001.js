@@ -8,7 +8,7 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
 
-const Acuerdos__imgpath = require.context("../../../img/imgA");
+const Acuerdos__imgpath = require.context("../../../assets/img/imgA");
 
 const Acuerdos2001 = () => {
   const columns = useMemo(

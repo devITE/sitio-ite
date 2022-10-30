@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import "../Transparencia.css";
 
-const Transparencia_imppath = require.context("../../../img/imgT");
+const Transparencia_imppath = require.context("../../../assets/img/imgT");
 
 export default class Articulo63 extends Component {
   render() {

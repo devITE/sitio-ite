@@ -1,4 +1,4 @@
-const PPicons__imgpath = require.context("../../img/iconsPP");
+const PPicons__imgpath = require.context("../../assets/img/iconsPP");
 
 export const dataMSPEN = [
   {

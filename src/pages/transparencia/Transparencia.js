@@ -6,8 +6,8 @@ import { Link } from "react-router-dom";
 import "./Transparencia.css";
 
 const Transparencia_pdfpath = require.context("../../assets/pdf/transparencia");
-const Transparencia_imppath = require.context("../../img/imgT");
-const icons_imgpath = require.context("../../img/icons");
+const Transparencia_imppath = require.context("../../assets/img/imgT");
+const icons_imgpath = require.context("../../assets/img/icons");
 
 export default class Transparencia extends Component {
   render() {

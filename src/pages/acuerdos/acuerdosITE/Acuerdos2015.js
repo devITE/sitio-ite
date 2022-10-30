@@ -4,7 +4,7 @@ import { MenuItem, TextField } from "@mui/material";
 import { dataAcuerdos2015 } from "../../../assets/data/dataAcuerdos";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
-import top2015 from "../../../img/imgA/h_2015.png";
+import top2015 from "../../../assets/img/imgA/h_2015.png";
 
 const Acuerdos2015 = () => {
   const columns = useMemo(

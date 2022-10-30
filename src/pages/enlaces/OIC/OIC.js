@@ -15,7 +15,7 @@ import {
 } from "../../../assets/data/dataOIC";
 import "../EnlacesStyle.css";
 
-const OIC__imgpath = require.context("../../../img");
+const OIC__imgpath = require.context("../../../assets/img");
 
 export default class OIC extends Component {
   render() {
@@ -95,17 +95,19 @@ export default class OIC extends Component {
             <p className="mt-2">Semblanza</p>
           </div>
           <div>
-            <a
+            {/* <a
               rel="noreferrer"
               data-bs-toggle="modal"
               data-bs-target="#DeclaracionPatrimonial"
-            >
+            > */}
+            <Link to="/DeclaracionPatrimonial">
               <img
                 className="img-fluid"
                 src={OIC__imgpath(`./${"icons/"}${"e16.png"}`)}
                 alt="Declaración Patrimonial"
               />
-            </a>
+            </Link>
+            {/* </a> */}
             <p className="mt-2">Declaración Patrimonial</p>
           </div>
           <div>

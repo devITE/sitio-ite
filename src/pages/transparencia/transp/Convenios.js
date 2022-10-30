@@ -3,8 +3,8 @@ import { dataConvenios } from "../../../assets/data/dataTransparenciaConvenios";
 
 import "../Transparencia.css";
 
-const Transparencia_imppath = require.context("../../../img/imgT");
-const icons_imgpath = require.context("../../../img/icons");
+const Transparencia_imppath = require.context("../../../assets/img/imgT");
+const icons_imgpath = require.context("../../../assets/img/icons");
 
 export default class Convenios extends Component {
   render() {

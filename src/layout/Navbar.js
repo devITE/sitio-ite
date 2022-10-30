@@ -1,12 +1,11 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
-import logo from "../img/logoite.svg";
+import logo from "../assets/img/logoite.svg";
 
 export default class Navbar extends Component {
   render() {
     return (
-      // <div>
       <nav id="navbar-menu" className="navbar navbar-expand-lg bg-white">
         <div className="container-fluid">
           <Link to="./" className="navbar-brand">
@@ -119,11 +118,6 @@ export default class Navbar extends Component {
                       Acuerdos INE
                     </Link>
                   </li>
-                  {/* <li>
-                    <Link to="./Acuerdos2015" className="dropdown-item">
-                      2015
-                    </Link>
-                  </li> */}
                   <li>
                     <Link to="./Acuerdos2016" className="dropdown-item">
                       2016
@@ -232,7 +226,6 @@ export default class Navbar extends Component {
           </div>
         </div>
       </nav>
-      // </div>
     );
   }
 }

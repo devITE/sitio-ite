@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import NavbarEnlaces from "../../layout/NavbarEnlaces";
 import "./EnlacesStyle.css";
 
-const Enlaces_imgpath = require.context("../../img/memElect");
+const Enlaces_imgpath = require.context("../../assets/img/memElect");
 const Memorias_pdfpath = require.context("../../assets/pdf/memElect");
 
 export default class MemoriasElectorales extends Component {

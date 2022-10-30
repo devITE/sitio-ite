@@ -10,6 +10,7 @@ import Footer from "./layout/Footer";
 
 //Enlaces
 import OIC from "./pages/enlaces/OIC/OIC";
+import DeclaracionPatrimonial from "./pages/enlaces/OIC/DeclaracionPatrimonial";
 import Galeria from "./pages/enlaces/OIC/Galeria";
 import Infografias from "./pages/enlaces/Infografias";
 import MemoriasElectorales from "./pages/enlaces/MemoriasElectorales";
@@ -121,8 +122,11 @@ function App() {
 
           {/* Enlaces */}
           <Route path="/OIC" element={<OIC />} />
+          <Route
+            path="/DeclaracionPatrimonial"
+            element={<DeclaracionPatrimonial />}
+          />
           <Route path="/Galeria" element={<Galeria />} />
-
           <Route path="/Infografias" element={<Infografias />} />
           <Route
             path="/MemoriasElectorales"

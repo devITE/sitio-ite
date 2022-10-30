@@ -1,4 +1,4 @@
-const Carousel__imgpath = require.context("../../img");
+const Carousel__imgpath = require.context("../../assets/img");
 const Carousel__pdfpath = require.context("../pdf");
 const Carousel__wordpath = require.context("../word");
 

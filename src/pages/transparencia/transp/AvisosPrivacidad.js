@@ -3,7 +3,7 @@ import ListBadgePDF from "../../../layout/ListBadgePDF";
 import { dataAvisosPrivacidad } from "../../../assets/data/dataTransparenciaAvisosPrivacidad";
 import "../Transparencia.css";
 
-const Transparencia_imppath = require.context("../../../img/imgT");
+const Transparencia_imppath = require.context("../../../assets/img/imgT");
 
 export default class AvisosPrivacidad extends Component {
   render() {

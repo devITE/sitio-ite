@@ -1,5 +1,5 @@
 const OIC_pdfpath = require.context("../pdf/OIC");
-const OIC_imgpath = require.context("../../img/OIC");
+const OIC_imgpath = require.context("../../assets/img/OIC");
 
 export const dataGaleria = [
   {

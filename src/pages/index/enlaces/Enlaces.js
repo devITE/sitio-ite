@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import "./Enlaces.css";
 
-const Enlaces_imgpath = require.context("./img");
+const Enlaces_imgpath = require.context("../../../assets/img/icons");
 
 export default class Enlaces extends Component {
   render() {

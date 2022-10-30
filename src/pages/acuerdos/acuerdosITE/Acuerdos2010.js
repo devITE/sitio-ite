@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import warning from "../../../img/icons/10.png";
+import warning from "../../../assets/img/icons/10.png";
 
 export default class Acuerdos2010 extends Component {
   render() {

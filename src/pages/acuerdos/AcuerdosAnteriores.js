@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import "./Acuerdos.css";
 
-const AcuerdosAnteriores__imgpath = require.context("../../img/imgA/");
+const AcuerdosAnteriores__imgpath = require.context("../../assets/img/imgA/");
 
 export default class AcuerdosAnteriores extends Component {
   render() {
