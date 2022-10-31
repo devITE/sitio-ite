@@ -9,6 +9,7 @@ import Home from "./pages/index/Home";
 import Footer from "./layout/Footer";
 
 //Enlaces
+import Normatividad from "./pages/enlaces/Normatividad";
 import OIC from "./pages/enlaces/OIC/OIC";
 import DeclaracionPatrimonial from "./pages/enlaces/OIC/DeclaracionPatrimonial";
 import Galeria from "./pages/enlaces/OIC/Galeria";
@@ -119,6 +120,7 @@ function App() {
           <Route exact path="/" element={<Home />} />
 
           {/* Enlaces */}
+          <Route path="/Normatividad" element={<Normatividad />} />
           <Route path="/OIC" element={<OIC />} />
           <Route
             path="/DeclaracionPatrimonial"

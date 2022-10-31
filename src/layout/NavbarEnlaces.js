@@ -16,11 +16,13 @@ export default class NavbarEnlaces extends Component {
           />
         </div>
         <div className="NavbarEnlaces__item">
-          <img
-            src={Enlaces_imgpath(`./${"e2.png"}`)}
-            alt="Normatividad"
-            className="img-fluid shadow rounded-4"
-          />
+          <Link to="/Normatividad">
+            <img
+              src={Enlaces_imgpath(`./${"e2.png"}`)}
+              alt="Normatividad"
+              className="img-fluid shadow rounded-4"
+            />
+          </Link>
         </div>
         <div className="NavbarEnlaces__item">
           <img
