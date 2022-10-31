@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+import TitlePages from "../../../layout/TitlePages";
 import Modal from "../../../layout/Modal";
 
 import "../Acuerdos.css";
@@ -10,11 +11,7 @@ export default class AcuerdosINE extends Component {
   render() {
     return (
       <>
-        <img
-          className="img-fluid w-100"
-          src={Acuerdos__imgpath(`./AINE.png`)}
-          alt="Acuerdos INE"
-        />
+        <TitlePages title="Acuerdos INE" />
         <button
           type="button"
           className="btn btn-primary"

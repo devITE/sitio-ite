@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+import TitlePages from "../../layout/TitlePages";
 import "./Acuerdos.css";
 
 const AcuerdosAnteriores__imgpath = require.context("../../assets/img/imgA/");
@@ -8,11 +9,7 @@ export default class AcuerdosAnteriores extends Component {
   render() {
     return (
       <>
-        <img
-          className="img-fluid w-100"
-          src={AcuerdosAnteriores__imgpath(`./AA.png`)}
-          alt="Acuerdos Anteriores"
-        />
+        <TitlePages title="Acuerdos Anteriores" />
         <div className="w-100 mt-5 Acuerdos">
           <div>
             <Link to="/Acuerdos2015">

@@ -1,9 +1,9 @@
 import React, { useMemo } from "react";
+import TitlePages from "../../../layout/TitlePages";
 import MaterialReactTable from "material-react-table";
 import { dataAcuerdosINE2016 } from "../../../assets/data/dataAcuerdos";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
-import top2016 from "../../../assets/img/imgA/INE_2016.png";
 
 const AcuerdosINE2016 = () => {
   const columns = useMemo(
@@ -42,8 +42,8 @@ const AcuerdosINE2016 = () => {
   );
 
   return (
-    <div>
-      <img src={top2016} alt="Acuerdos 2016" className="img-fluid w-100 mb-3" />
+    <>
+      <TitlePages title="Acuerdos INE 2016" />
       <MaterialReactTable
         columns={columns}
         data={dataAcuerdosINE2016}
@@ -118,7 +118,7 @@ const AcuerdosINE2016 = () => {
           ungroupByColumn: "Desagrupar por {column}",
         }}
       />
-    </div>
+    </>
   );
 };
 export default AcuerdosINE2016;

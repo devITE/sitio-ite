@@ -1,9 +1,9 @@
 import React, { useMemo } from "react";
+import TitlePages from "../../../layout/TitlePages";
 import MaterialReactTable from "material-react-table";
 import { dataAcuerdosINE2022 } from "../../../assets/data/dataAcuerdos";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
-import top2022 from "../../../assets/img/imgA/INE_2022.png";
 
 const AcuerdosINE2022 = () => {
   const columns = useMemo(
@@ -37,8 +37,8 @@ const AcuerdosINE2022 = () => {
   );
 
   return (
-    <div>
-      <img src={top2022} alt="Acuerdos 2022" className="img-fluid w-100 mb-3" />
+    <>
+      <TitlePages title="Acuerdos INE 2022" />
       <MaterialReactTable
         columns={columns}
         data={dataAcuerdosINE2022}
@@ -113,7 +113,7 @@ const AcuerdosINE2022 = () => {
           ungroupByColumn: "Desagrupar por {column}",
         }}
       />
-    </div>
+    </>
   );
 };
 export default AcuerdosINE2022;

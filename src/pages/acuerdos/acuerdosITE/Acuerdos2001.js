@@ -1,4 +1,5 @@
 import React, { useMemo } from "react";
+import TitlePages from "../../../layout/TitlePages";
 import MaterialReactTable from "material-react-table";
 import {
   dataAcuerdos2001,
@@ -7,8 +8,6 @@ import {
 } from "../../../assets/data/dataAcuerdos";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
-
-const Acuerdos__imgpath = require.context("../../../assets/img/imgA");
 
 const Acuerdos2001 = () => {
   const columns = useMemo(
@@ -86,12 +85,8 @@ const Acuerdos2001 = () => {
     []
   );
   return (
-    <div className="mb-3">
-      <img
-        src={Acuerdos__imgpath(`./h_2001.png`)}
-        alt="Acuerdos 2001"
-        className="img-fluid w-100 mb-3"
-      />
+    <>
+      <TitlePages title="Acuerdos ITE 2001" />
       <MaterialReactTable
         columns={columns}
         data={dataAcuerdos2001}
@@ -107,11 +102,7 @@ const Acuerdos2001 = () => {
           },
         }}
       />
-      <img
-        src={Acuerdos__imgpath(`./h_2001_AA1.png`)}
-        alt="Ayuntamientos 10-NOV-2001"
-        className="img-fluid w-100 mt-5 mb-4"
-      />
+      <TitlePages title="Ayuntamientos 10/Nov/2001" />
       <MaterialReactTable
         columns={columnsAA1}
         data={dataAA12001}
@@ -128,11 +119,7 @@ const Acuerdos2001 = () => {
         }}
       />
 
-      <img
-        src={Acuerdos__imgpath(`./h_2001_AA2.png`)}
-        alt="Ayuntamientos 10-NOV-2001"
-        className="img-fluid w-100 mt-5 mb-4"
-      />
+      <TitlePages title="Ayuntamientos Dic-2001" />
       <MaterialReactTable
         columns={columnsAA2}
         data={dataAA22001}
@@ -148,7 +135,7 @@ const Acuerdos2001 = () => {
           },
         }}
       />
-    </div>
+    </>
   );
 };
 export default Acuerdos2001;

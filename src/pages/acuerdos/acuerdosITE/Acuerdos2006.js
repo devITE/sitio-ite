@@ -1,10 +1,10 @@
 import React, { useMemo } from "react";
+import TitlePages from "../../../layout/TitlePages";
 import MaterialReactTable from "material-react-table";
 import { MenuItem, TextField } from "@mui/material";
 import { dataAcuerdos2006 } from "../../../assets/data/dataAcuerdos";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
-import top2006 from "../../../assets/img/imgA/h_2006.png";
 
 const Acuerdos2006 = () => {
   const columns = useMemo(
@@ -77,8 +77,8 @@ const Acuerdos2006 = () => {
   );
 
   return (
-    <div>
-      <img src={top2006} alt="Acuerdos 2006" className="img-fluid w-100 mb-3" />
+    <>
+      <TitlePages title="Acuerdos ITE 2006" />
       <MaterialReactTable
         columns={columns}
         data={dataAcuerdos2006}
@@ -153,7 +153,7 @@ const Acuerdos2006 = () => {
           ungroupByColumn: "Desagrupar por {column}",
         }}
       />
-    </div>
+    </>
   );
 };
 export default Acuerdos2006;

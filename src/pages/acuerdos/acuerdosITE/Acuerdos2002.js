@@ -1,4 +1,5 @@
 import React, { useMemo } from "react";
+import TitlePages from "../../../layout/TitlePages";
 import MaterialReactTable from "material-react-table";
 import { MenuItem, TextField } from "@mui/material";
 import {
@@ -7,8 +8,6 @@ import {
 } from "../../../assets/data/dataAcuerdos";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
-import top2002 from "../../../assets/img/imgA/h_2002.png";
-import top2002_AA from "../../../assets/img/imgA/h_2002_AA.png";
 
 const Acuerdos2002 = () => {
   const columns = useMemo(
@@ -136,8 +135,8 @@ const Acuerdos2002 = () => {
   );
 
   return (
-    <div className="mb-3">
-      <img src={top2002} alt="Acuerdos 2002" className="img-fluid w-100 mb-3" />
+    <>
+      <TitlePages title="Acuerdos ITE 2002" />
       <MaterialReactTable
         columns={columns}
         data={dataAcuerdos2002}
@@ -192,11 +191,7 @@ const Acuerdos2002 = () => {
           ungroupByColumn: "Desagrupar por {column}",
         }}
       />
-      <img
-        src={top2002_AA}
-        alt="Acuerdos Aprobados 2002"
-        className="img-fluid w-100 mt-5 mb-4"
-      />
+      <TitlePages title="Acuerdos ITE Aprobados 2002" />
       <MaterialReactTable
         columns={columnsAA}
         data={dataAA2002}
@@ -212,7 +207,7 @@ const Acuerdos2002 = () => {
           },
         }}
       />
-    </div>
+    </>
   );
 };
 export default Acuerdos2002;

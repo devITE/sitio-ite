@@ -1,17 +1,36 @@
+/* Shapes */
+.triangle {
+  width: 0;
+  height: 0;
+  border-right: 2.4em solid transparent;
+  border-top: 1em solid transparent;
+  border-left: 2.4em solid transparent;
+  border-bottom: 1em solid #aa0787;
+}
+
+.banner-header {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #aa0787;
+  color: #ffffff;
+  font-weight: bolder;
+  letter-spacing: 1px;
+  text-shadow: 4px 4px 10px #000000;
+}
+
 html {
   min-height: 100%;
   position: relative;
 }
 
 li::marker {
-  color: #AA0787;
+  color: #aa0787;
   font-weight: bolder;
 }
 
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif !important;
 }
 
 a {
@@ -56,16 +75,16 @@ a {
 
 .btn-ite {
   /* color: rgba(0, 0, 0, 0.125); */
-  --bs-btn-color: #AA0787;
+  --bs-btn-color: #aa0787;
   --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #AA0787;
-  --bs-btn-border-color: #AA0787 !important;
+  --bs-btn-hover-bg: #aa0787;
+  --bs-btn-border-color: #aa0787 !important;
   --bs-btn-border-radius: 0 !important;
-  --bs-btn-hover-border-color: #AA0787;
+  --bs-btn-hover-border-color: #aa0787;
   --bs-btn-focus-shadow-rgb: 25, 135, 84;
   --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: #AA0787;
-  --bs-btn-active-border-color: #AA0787;
+  --bs-btn-active-bg: #aa0787;
+  --bs-btn-active-border-color: #aa0787;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   --bs-btn-disabled-color: #9d3c8a;
   --bs-btn-disabled-bg: transparent;
@@ -80,7 +99,7 @@ a {
 }
 
 .Content__grid img:hover {
-  transition: .5s;
+  transition: 0.5s;
   transform: scale(1.2);
 }
 
@@ -133,6 +152,11 @@ a {
     padding-bottom: 80px;
   }
 
+  .banner-header {
+    font-size: 2.4em;
+    padding: 0.5em 1em;
+    letter-spacing: 1px;
+  }
   #carouselTopIndex {
     width: 97vw;
     position: relative;
@@ -180,6 +204,11 @@ a {
     width: 90%;
     padding-bottom: 130px;
     margin-bottom: 20px;
+  }
+  .banner-header {
+    font-size: 1.4em;
+    padding: 0.1em 0.5em;
+    letter-spacing: 1px;
   }
 
   #carouselTopIndex {
