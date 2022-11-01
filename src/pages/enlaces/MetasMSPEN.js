@@ -6,9 +6,8 @@ import { dataMSPEN } from "../../assets/data/dataTransparenciaMSPEN";
 export default class MetasMSPEN extends Component {
   render() {
     return (
-      <div className="mb-5">
-        <NavbarEnlaces />
-        <div className="Enlances__title mb-3">Metas MSPEN</div>
+      <>
+        <NavbarEnlaces title="Metas MSPEN" />
         <div className="accordion accordion-flush" id="metasMSPEN">
           {dataMSPEN.map((accordionsItem) => (
             <div key={accordionsItem.id} className="accordion-item">
@@ -39,7 +38,7 @@ export default class MetasMSPEN extends Component {
             </div>
           ))}
         </div>
-      </div>
+      </>
     );
   }
 }

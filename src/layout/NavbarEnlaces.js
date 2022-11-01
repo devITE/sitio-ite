@@ -1,19 +1,20 @@
-import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import "./NavbarEnlaces.css";
 
 const Enlaces_imgpath = require.context("../assets/img/icons");
 
-export default class NavbarEnlaces extends Component {
-  render() {
-    return (
+const NavbarEnlaces = (props) => {
+  return (
+    <>
       <div className="w-100 NavbarEnlaces">
         <div className="NavbarEnlaces__item">
-          <img
-            src={Enlaces_imgpath(`./${"e1.png"}`)}
-            alt="Proceso Electorales"
-            className="img-fluid shadow rounded-4"
-          />
+          <Link to="/ProcesosElectorales">
+            <img
+              src={Enlaces_imgpath(`./${"e1.png"}`)}
+              alt="Procesos Electorales"
+              className="img-fluid shadow rounded-4"
+            />
+          </Link>
         </div>
         <div className="NavbarEnlaces__item">
           <Link to="/Normatividad">
@@ -77,6 +78,8 @@ export default class NavbarEnlaces extends Component {
           </Link>
         </div>
       </div>
-    );
-  }
-}
+      <div className="Enlances__title mb-4">{props.title}</div>
+    </>
+  );
+};
+export default NavbarEnlaces;

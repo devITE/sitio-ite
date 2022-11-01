@@ -8,9 +8,8 @@ const Memorias_pdfpath = require.context("../../assets/pdf/memElect");
 export default class MemoriasElectorales extends Component {
   render() {
     return (
-      <div className="mb-5">
-        <NavbarEnlaces />
-        <div className="Enlances__title mb-3">Memorias Electorales</div>
+      <>
+        <NavbarEnlaces title="Memorias Electorales" />
         <div className="Memoria__grid">
           <div className="Memoria__item">
             <div className="Memoria__header w-100">2020 - 2021</div>
@@ -173,7 +172,7 @@ export default class MemoriasElectorales extends Component {
             </div>
           </div>
         </div>
-      </div>
+      </>
     );
   }
 }

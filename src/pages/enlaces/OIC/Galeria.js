@@ -6,11 +6,8 @@ import { dataGaleria } from "../../../assets/data/dataOIC";
 export default class Galeria extends Component {
   render() {
     return (
-      <div className="mb-5">
-        <NavbarEnlaces />
-        <div className="Enlances__title mb-3">
-          Órgano Interno de Control - Galeria
-        </div>
+      <>
+        <NavbarEnlaces title="Órgano Interno de Control - Galeria" />
         <div className="accordion accordion-flush" id="GaleriaAccordion">
           {dataGaleria.map((galeriaItems) => (
             <div key={galeriaItems.id} className="accordion-item">
@@ -48,7 +45,7 @@ export default class Galeria extends Component {
             </div>
           ))}
         </div>
-      </div>
+      </>
     );
   }
 }

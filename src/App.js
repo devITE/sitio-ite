@@ -9,6 +9,13 @@ import Home from "./pages/index/Home";
 import Footer from "./layout/Footer";
 
 //Enlaces
+import ProcesosElectorales from "./pages/enlaces/ProcesosElectorales/ProcesosElectorales";
+import HistorialPE from "./pages/enlaces/ProcesosElectorales/HistorialPE";
+import PE20152016 from "./pages/enlaces/ProcesosElectorales/PE20152016";
+import PEE2017 from "./pages/enlaces/ProcesosElectorales/PEE2017";
+import PE2018 from "./pages/enlaces/ProcesosElectorales/PE2018";
+import PE20202021 from "./pages/enlaces/ProcesosElectorales/PE20202021";
+import PEE2021 from "./pages/enlaces/ProcesosElectorales/PEE2021";
 import Normatividad from "./pages/enlaces/Normatividad";
 import OIC from "./pages/enlaces/OIC/OIC";
 import DeclaracionPatrimonial from "./pages/enlaces/OIC/DeclaracionPatrimonial";
@@ -120,6 +127,17 @@ function App() {
           <Route exact path="/" element={<Home />} />
 
           {/* Enlaces */}
+          <Route
+            path="/ProcesosElectorales"
+            element={<ProcesosElectorales />}
+          />
+          <Route path="/PE20152016" element={<PE20152016 />} />
+          <Route path="/PEE2017" element={<PEE2017 />} />
+          <Route path="/PE2018" element={<PE2018 />} />
+          <Route path="/PE20202021" element={<PE20202021 />} />
+          <Route path="/PEE2021" element={<PEE2021 />} />
+
+          <Route path="/HistorialPE" element={<HistorialPE />} />
           <Route path="/Normatividad" element={<Normatividad />} />
           <Route path="/OIC" element={<OIC />} />
           <Route

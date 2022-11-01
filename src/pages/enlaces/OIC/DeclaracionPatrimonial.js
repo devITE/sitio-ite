@@ -7,11 +7,8 @@ const OIC__imgpath = require.context("../../../assets");
 export default class DeclaracionPatrimonial extends Component {
   render() {
     return (
-      <div className="mb-5">
-        <NavbarEnlaces />
-        <div className="Enlances__title mb-3">
-          Órgano Interno de Control - Declaración Patrimonial
-        </div>
+      <>
+        <NavbarEnlaces title="Órgano Interno de Control - Declaración Patrimonial" />
         <p className="text-justify">
           Para poder presentar la Declaración de Situación Patrimonial es
           necesario ingresar a la liga
@@ -49,7 +46,7 @@ export default class DeclaracionPatrimonial extends Component {
             alt="Tipos de Declaraciones de Situación Patrimonial"
           />
         </div>
-      </div>
+      </>
     );
   }
 }

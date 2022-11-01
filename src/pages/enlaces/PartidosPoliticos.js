@@ -6,17 +6,15 @@ import { dataPartidosPoliticos } from "../../assets/data/dataEnlacesPP";
 export default class PartidosPoliticos extends Component {
   render() {
     return (
-      <div className="mb-5">
-        <NavbarEnlaces />
-        <div className="Enlances__title mb-3">Partidos Políticos</div>
-
+      <>
+        <NavbarEnlaces title="Partidos Políticos" />
         <div>
           <ListBadgePDF
             ifNumbered={""}
             listsBadgeItem={dataPartidosPoliticos}
           />
         </div>
-      </div>
+      </>
     );
   }
 }

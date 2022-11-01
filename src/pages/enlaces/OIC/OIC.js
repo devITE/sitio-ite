@@ -20,9 +20,8 @@ const OIC__imgpath = require.context("../../../assets/img");
 export default class OIC extends Component {
   render() {
     return (
-      <div className="mb-5">
-        <NavbarEnlaces />
-        <div className="Enlances__title mb-3">Órgano Interno de Control</div>
+      <>
+        <NavbarEnlaces title="Órgano Interno de Control" />
         <div className="Content__grid">
           <div>
             <a
@@ -184,7 +183,7 @@ export default class OIC extends Component {
             <ListBadgePDF ifNumbered={""} listsBadgeItem={dataCodigoEtica} />
           }
         />
-      </div>
+      </>
     );
   }
 }

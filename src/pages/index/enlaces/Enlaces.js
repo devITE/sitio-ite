@@ -17,11 +17,13 @@ export default class Enlaces extends Component {
             />
           </div>
           <div className="col col-sm-3 col-md-3 col-md-3">
-            <img
-              src={Enlaces_imgpath(`./${"e2.png"}`)}
-              alt="Normatividad"
-              className="img-fluid shadow rounded-4"
-            />
+            <Link to="/Normatividad">
+              <img
+                src={Enlaces_imgpath(`./${"e2.png"}`)}
+                alt="Normatividad"
+                className="img-fluid shadow rounded-4"
+              />
+            </Link>
           </div>
           <div className="col col-sm-3 col-md-3 col-md-3">
             <img

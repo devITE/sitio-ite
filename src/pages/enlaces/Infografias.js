@@ -9,9 +9,8 @@ import "./EnlacesStyle.css";
 export default class Infografias extends Component {
   render() {
     return (
-      <div className="mb-5">
-        <NavbarEnlaces />
-        <div className="Enlances__title mb-3">Infografías</div>
+      <>
+        <NavbarEnlaces title="Infografías" />
         <div className="d-flex align-items-start">
           <div
             className="nav flex-column nav-pills me-3 w-25"
@@ -130,7 +129,7 @@ export default class Infografias extends Component {
             )}
           </div>
         </div>
-      </div>
+      </>
     );
   }
 }
