@@ -98,7 +98,7 @@ a {
   display: grid;
 }
 
-.Content__grid div:hover {
+.Content__grid img:hover {
   transition: 0.5s;
   transform: scale(1.2);
 }
