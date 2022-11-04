@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import NavbarEnlaces from "../../layout/NavbarEnlaces";
-import ListBadgePDF from "../../layout/ListBadgePDF";
+import ListBadgePDF from "../../layout/ListBadge/ListBadgePDF";
 import { dataNormatividad } from "../.././assets/data/dataNormativad";
 
 export default class Normatividad extends Component {

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import ListBadgePDF from "../../layout/ListBadgePDF";
+import ListBadgePDF from "../../layout/ListBadge/ListBadgePDF";
 import NavbarEnlaces from "../../layout/NavbarEnlaces";
 import { dataMSPEN } from "../../assets/data/dataTransparenciaMSPEN";
 

@@ -1,10 +1,13 @@
 import React, { Component } from "react";
 import Modal from "../../../layout/Modal";
-import ListBadgePDF from "../../../layout/ListBadgePDF";
+import ListBadgePDF from "../../../layout/ListBadge/ListBadgePDF";
 import NavbarEnlaces from "../../../layout/NavbarEnlaces";
 import {
   dataEncuestas2016,
-  dataCasillas,
+  dataCasillas2016,
+  dataResultados2016,
+  dataResultadosSeccion2016,
+  dataListadoCandidatos2016,
 } from "../../../assets/data/dataProcesosElectorales";
 
 const PE20152016__path = require.context("../../../assets");
@@ -20,6 +23,7 @@ export default class PE20152016 extends Component {
               href={PE20152016__path(
                 `./${"pdf/procesosElect/PE20152016/"}${"1.pdf"}`
               )}
+              target="_blank"
               rel="noreferrer"
             >
               <img
@@ -35,6 +39,7 @@ export default class PE20152016 extends Component {
               href={PE20152016__path(
                 `./${"pdf/procesosElect/PE20152016/"}${"2.pdf"}`
               )}
+              target="_blank"
               rel="noreferrer"
             >
               <img
@@ -47,6 +52,7 @@ export default class PE20152016 extends Component {
           </div>
           <div>
             <a
+              href="/#"
               rel="noreferrer"
               data-bs-toggle="modal"
               data-bs-target="#Encuestas2016"
@@ -61,6 +67,7 @@ export default class PE20152016 extends Component {
           </div>
           <div>
             <a
+              href="/#"
               rel="noreferrer"
               data-bs-toggle="modal"
               data-bs-target="#UbicacionCasillas"
@@ -72,6 +79,131 @@ export default class PE20152016 extends Component {
               />
             </a>
             <p className="mt-2">Lista de ubicación de casillas</p>
+          </div>
+          <div>
+            <a
+              href="/#"
+              rel="noreferrer"
+              data-bs-toggle="modal"
+              data-bs-target="#ResultadosElectorales"
+            >
+              <img
+                className="img-fluid"
+                src={PE20152016__path(`./${"img/icons/"}${"e22.png"}`)}
+                alt="Resultados Electorales"
+              />
+            </a>
+            <p className="mt-2">Resultados Electorales</p>
+          </div>
+          <div>
+            <a
+              href="/#"
+              rel="noreferrer"
+              data-bs-toggle="modal"
+              data-bs-target="#ResultadosElectoralesSeccion"
+            >
+              <img
+                className="img-fluid"
+                src={PE20152016__path(`./${"img/icons/"}${"e22.png"}`)}
+                alt="Resultados Electorales por Sección"
+              />
+            </a>
+            <p className="mt-2">Resultados Electorales por Sección</p>
+          </div>
+          <div>
+            <a
+              href={PE20152016__path(
+                `./${"pdf/procesosElect/PE20152016/"}${"22.pdf"}`
+              )}
+              rel="noreferrer"
+              target="_blank"
+            >
+              <img
+                className="img-fluid"
+                src={PE20152016__path(`./${"img/icons/"}${"e24.png"}`)}
+                alt="Calendario"
+              />
+            </a>
+            <p className="mt-2">Calendario</p>
+          </div>
+          <div>
+            <a
+              href="/#"
+              rel="noreferrer"
+              data-bs-toggle="modal"
+              data-bs-target="#ListadoCandidatos"
+            >
+              <img
+                className="img-fluid"
+                src={PE20152016__path(`./${"img/icons/"}${"e21.png"}`)}
+                alt="Listado de Candidatos"
+              />
+            </a>
+            <p className="mt-2">Listado de Candidatos</p>
+          </div>
+          <div>
+            <a
+              href={PE20152016__path(
+                `./${"pdf/procesosElect/PE20152016/"}${"27.pdf"}`
+              )}
+              rel="noreferrer"
+              target="_blank"
+            >
+              <img
+                className="img-fluid"
+                src={PE20152016__path(`./${"img/icons/"}${"e21.png"}`)}
+                alt="Presidencias de Comunidad"
+              />
+            </a>
+            <p className="mt-2">Presidencias de Comunidad</p>
+          </div>
+          <div>
+            <a
+              href={PE20152016__path(
+                `./${"pdf/procesosElect/PE20152016/"}${"28.pdf"}`
+              )}
+              rel="noreferrer"
+              target="_blank"
+            >
+              <img
+                className="img-fluid"
+                src={PE20152016__path(`./${"img/icons/"}${"e22.png"}`)}
+                alt="Lista Nominal"
+              />
+            </a>
+            <p className="mt-2">Lista Nominal</p>
+          </div>
+          <div>
+            <a
+              href={PE20152016__path(
+                `./${"pdf/procesosElect/PE20152016/"}${"28.pdf"}`
+              )}
+              rel="noreferrer"
+              target="_blank"
+            >
+              <img
+                className="img-fluid"
+                src={PE20152016__path(`./${"img/icons/"}${"e22.png"}`)}
+                alt="Informe final Ente Auditor PREP"
+              />
+            </a>
+            <p className="mt-2">Informe final Ente Auditor PREP</p>
+          </div>
+          <div>
+            <a
+              href={PE20152016__path(
+                `./${"pdf/procesosElect/PE20152016/"}${"29.pdf"}`
+              )}
+              rel="noreferrer"
+              target="_blank"
+            >
+              <img
+                className="img-fluid"
+                src={PE20152016__path(`./${"img/icons/"}${"e22.png"}`)}
+                alt="Escaneo de puertos servidor PREP"
+              />
+            </a>
+            <p className="mt-2">Escaneo de puertos servidor PREP</p>
           </div>
         </div>
         {/* Modal */}
@@ -86,7 +218,34 @@ export default class PE20152016 extends Component {
           idModal="UbicacionCasillas"
           titleModal="Lista de ubicación de casillas"
           contentModal={
-            <ListBadgePDF ifNumbered={""} listsBadgeItem={dataCasillas} />
+            <ListBadgePDF ifNumbered={""} listsBadgeItem={dataCasillas2016} />
+          }
+        />
+        <Modal
+          idModal="ResultadosElectorales"
+          titleModal="Resultados Electorales"
+          contentModal={
+            <ListBadgePDF ifNumbered={""} listsBadgeItem={dataResultados2016} />
+          }
+        />
+        <Modal
+          idModal="ResultadosElectoralesSeccion"
+          titleModal="Resultados Electorales por Sección"
+          contentModal={
+            <ListBadgePDF
+              ifNumbered={""}
+              listsBadgeItem={dataResultadosSeccion2016}
+            />
+          }
+        />
+        <Modal
+          idModal="ListadoCandidatos"
+          titleModal="Listado de Candidatos"
+          contentModal={
+            <ListBadgePDF
+              ifNumbered={""}
+              listsBadgeItem={dataListadoCandidatos2016}
+            />
           }
         />
       </>

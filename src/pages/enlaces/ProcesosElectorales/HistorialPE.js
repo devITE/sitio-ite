@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import NavbarEnlaces from "../../../layout/NavbarEnlaces";
-import ListBadgePDF from "../../../layout/ListBadgePDF";
+import ListBadgePDF from "../../../layout/ListBadge/ListBadgePDF";
 import { dataHistorial } from "../../../assets/data/dataProcesosElectorales";
 
 export default class HistorialPE extends Component {

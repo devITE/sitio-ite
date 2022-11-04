@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import NavbarEnlaces from "../../../layout/NavbarEnlaces";
 import Modal from "../../../layout/Modal";
 import ModalIMG from "../../../layout/ModalIMG";
-import ListBadgePDF from "../../../layout/ListBadgePDF";
+import ListBadgePDF from "../../../layout/ListBadge/ListBadgePDF";
 import {
   dataEstructuraOrganica,
   dataNormatividad,

@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import NavbarEnlaces from "../../../layout/NavbarEnlaces";
-
 const ProcesosElectorales__imgpath = require.context("../../../assets/img");
 
 export default class ProcesosElectorales extends Component {
@@ -48,7 +47,7 @@ export default class ProcesosElectorales extends Component {
                 alt="Proceso Electoral 2018"
               />
             </Link>
-            <p className="mt-2">Proceso Electoral 2018</p>
+            <p className="mt-2">Proceso Electoral 2017 - 2018</p>
           </div>
           <div>
             <Link to="/PE20202021">
@@ -61,14 +60,21 @@ export default class ProcesosElectorales extends Component {
             <p className="mt-2">Proceso Electoral 2020 - 2021</p>
           </div>
           <div>
-            <Link to="/PEE2021">
+            {/* <Link to="/PEE2021"> */}
+            <a
+              href="/#"
+              rel="noreferrer"
+              data-bs-toggle="modal"
+              data-bs-target="#PresidenciasComunidad2021"
+            >
               <img
                 className="img-fluid"
                 src={ProcesosElectorales__imgpath(`./${"icons/"}${"e19.png"}`)}
-                alt="Proceso Electoral 2021"
+                alt="Proceso Electoral Extraordinario 2021"
               />
-            </Link>
-            <p className="mt-2">Proceso Electoral 2021</p>
+            </a>
+            {/* </Link> */}
+            <p className="mt-2">Proceso Electoral Extraordinario 2021</p>
           </div>
         </div>
       </>
