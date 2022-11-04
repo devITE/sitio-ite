@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import NavbarEnlaces from "../../../layout/NavbarEnlaces";
+import Modal from "../../../layout/Modal";
 
 export default class Galeria2016 extends Component {
   render() {
@@ -26,12 +27,7 @@ export default class Galeria2016 extends Component {
                 className="accordion-collapse collapse"
                 data-bs-parent="#metasMSPEN"
               >
-                <div className="accordion-body">
-                  <ListBadgePDF
-                    ifNumbered={""}
-                    listsBadgeItem={accordionsItem.children}
-                  />
-                </div>
+                <div className="accordion-body"></div>
               </div>
             </div>
           ))}
