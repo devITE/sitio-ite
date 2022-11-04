@@ -1,13 +1,3 @@
-.Acuerdos {
-  display: grid;
-  gap: 20px;
-}
-
-.Acuerdos_link:hover {
-  transform: scale(1.1);
-  transition: 0.2s;
-}
-
 .AcuerdosINE {
   display: grid;
   gap: 20px;
@@ -19,9 +9,6 @@
 
 /* general */
 @media only screen and (min-width: 1024px) {
-  .Acuerdos {
-    grid-template-columns: auto auto auto auto auto auto;
-  }
 
   .AcuerdosINE {
     grid-template-columns: auto auto auto auto;
@@ -30,9 +17,6 @@
 
 /* tablets */
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
-  .Acuerdos {
-    grid-template-columns: auto auto auto auto;
-  }
 
   .AcuerdosINE {
     grid-template-columns: auto auto auto auto;
@@ -41,11 +25,6 @@
 
 /* mobil */
 @media only screen and (max-width: 767px) {
-  .Acuerdos {
-    grid-template-columns: auto auto;
-    padding: 0 30px;
-  }
-
   .AcuerdosINE {
     grid-template-columns: auto auto;
   }

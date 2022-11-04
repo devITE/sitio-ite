@@ -1,18 +1,18 @@
-const ProcesosElectorales__path = require.context("../excel");
+const ProcesosElectorales__path = require.context("../");
 
 export const dataResultadosE2021 = [
   {
     id: 1,
     titleItem: "2021_SEE_PRE_COM_TLAX_CAS_EXT",
     linkItem: ProcesosElectorales__path(
-      `./${"/procesosElect/PEE2021/"}${"1.xlsx"}`
+      `./${"excel/procesosElect/PEE2021/"}${"1.xlsx"}`
     ),
   },
   {
     id: 2,
     titleItem: "2021_SEE_PRE_COM_TLAX_SEC_EXT",
     linkItem: ProcesosElectorales__path(
-      `./${"/procesosElect/PEE2021/"}${"2.xlsx"}`
+      `./${"excel/procesosElect/PEE2021/"}${"2.xlsx"}`
     ),
   },
 ];
@@ -22,42 +22,42 @@ export const dataGubernatura20202021 = [
     id: 1,
     titleItem: "2021_SEE_GOB_TLAX_CAS",
     linkItem: ProcesosElectorales__path(
-      `./${"/procesosElect/PE20202021/"}${"1.xlsx"}`
+      `./${"excel/procesosElect/PE20202021/"}${"1.xlsx"}`
     ),
   },
   {
     id: 2,
     titleItem: "2021_SEE_GOB_TLAX_DIS",
     linkItem: ProcesosElectorales__path(
-      `./${"/procesosElect/PE20202021/"}${"2.xlsx"}`
+      `./${"excel/procesosElect/PE20202021/"}${"2.xlsx"}`
     ),
   },
   {
     id: 3,
     titleItem: "2021_SEE_GOB_TLAX_DISCAND",
     linkItem: ProcesosElectorales__path(
-      `./${"procesosElect/PE20202021/"}${"3.xlsx"}`
+      `./${"excel/procesosElect/PE20202021/"}${"3.xlsx"}`
     ),
   },
   {
     id: 4,
     titleItem: "2021_SEE_GOB_TLAX_DISPP",
     linkItem: ProcesosElectorales__path(
-      `./${"procesosElect/PE20202021/"}${"4.xlsx"}`
+      `./${"excel/procesosElect/PE20202021/"}${"4.xlsx"}`
     ),
   },
   {
     id: 5,
     titleItem: "2021_SEE_GOB_TLAX_ENT",
     linkItem: ProcesosElectorales__path(
-      `./${"procesosElect/PE20202021/"}${"5.xlsx"}`
+      `./${"excel/procesosElect/PE20202021/"}${"5.xlsx"}`
     ),
   },
   {
     id: 6,
     titleItem: "2021_SEE_GOB_TLAX_ENTCAND",
     linkItem: ProcesosElectorales__path(
-      `./${"procesosElect/PE20202021/"}${"6.xlsx"}`
+      `./${"excel/procesosElect/PE20202021/"}${"6.xlsx"}`
     ),
   },
   {

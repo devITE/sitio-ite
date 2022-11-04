@@ -92,13 +92,15 @@ a {
   --bs-gradient: none;
 }
 
-.Content__grid {
+.Content__grid,
+.Grid__folder {
   color: #972069;
   text-align: center;
   display: grid;
 }
 
-.Content__grid img:hover {
+.Content__grid img:hover,
+.Grid__folder img:hover {
   transition: 0.5s;
   transform: scale(1.2);
 }
@@ -157,6 +159,7 @@ a {
     padding: 0.5em 1em;
     letter-spacing: 1px;
   }
+
   #carouselTopIndex {
     width: 97vw;
     position: relative;
@@ -170,6 +173,15 @@ a {
 
   .Content__grid img {
     width: 62px !important;
+  }
+
+  .Grid__folder {
+    grid-template-columns: auto auto auto auto auto auto;
+    gap: 20px;
+  }
+
+  .Grid__folder img {
+    width: 130px !important;
   }
 }
 
@@ -195,6 +207,11 @@ a {
     grid-template-columns: auto auto auto;
     gap: 30px;
   }
+
+  .Grid__folder {
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;
+  }
 }
 
 /* mobil */
@@ -205,6 +222,7 @@ a {
     padding-bottom: 130px;
     margin-bottom: 20px;
   }
+
   .banner-header {
     font-size: 1.4em;
     padding: 0.1em 0.5em;
@@ -224,5 +242,10 @@ a {
 
   .Content__grid img {
     width: 42px !important;
+  }
+
+  .Grid__folder {
+    grid-template-columns: auto auto;
+    gap: 20px;
   }
 }

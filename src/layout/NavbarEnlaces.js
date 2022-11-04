@@ -26,11 +26,13 @@ const NavbarEnlaces = (props) => {
           </Link>
         </div>
         <div className="NavbarEnlaces__item">
-          <img
-            src={Enlaces_imgpath(`./${"e3.png"}`)}
-            alt="Galeria fotográfica"
-            className="img-fluid shadow rounded-4"
-          />
+          <Link to="/Galeria">
+            <img
+              src={Enlaces_imgpath(`./${"e3.png"}`)}
+              alt="Galeria fotográfica"
+              className="img-fluid shadow rounded-4"
+            />
+          </Link>
         </div>
         <div className="NavbarEnlaces__item">
           <Link to="/OIC">
