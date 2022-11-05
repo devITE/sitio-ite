@@ -1,14 +1,15 @@
 import React, { Component } from "react";
 import NavbarEnlaces from "../../../layout/NavbarEnlaces";
-import Modal from "../../../layout/Modal";
-
+import ModalIMG from "../../../layout/ModalIMG";
+import { dataGaleria2016 } from "../../../assets/data/dataGaleria";
+import "../EnlacesStyle.css";
 export default class Galeria2016 extends Component {
   render() {
     return (
       <>
         <NavbarEnlaces title="Galería Fotográfica 2016" />
         <div className="accordion accordion-flush" id="metasMSPEN">
-          {dataMSPEN.map((accordionsItem) => (
+          {dataGaleria2016.map((accordionsItem) => (
             <div key={accordionsItem.id} className="accordion-item">
               <h2 className="accordion-header">
                 <button
@@ -27,7 +28,41 @@ export default class Galeria2016 extends Component {
                 className="accordion-collapse collapse"
                 data-bs-parent="#metasMSPEN"
               >
-                <div className="accordion-body"></div>
+                <div className="accordion-body">
+                  {accordionsItem.children.map((infoGaleria) => (
+                    <div key={infoGaleria.id}>
+                      <h1>{accordionsItem.titleItem}</h1>
+                      <h4>{infoGaleria.nameActivity}</h4>
+                      <h4>{infoGaleria.dateActivity}</h4>
+                      <div className="Galeria__responsive">
+                        {infoGaleria.subChilden.map((contentGalery) => (
+                          <div
+                            key={contentGalery.id}
+                            className="Galeria__responsive-item"
+                          >
+                            <a
+                              href="/#"
+                              rel="noreferrer"
+                              data-bs-toggle="modal"
+                              data-bs-target={"#" + contentGalery.alt}
+                            >
+                              <img
+                                src={contentGalery.link}
+                                alt={contentGalery.alt}
+                                className="img-fluid rounded"
+                              />
+                            </a>
+                            <ModalIMG
+                              idModal={contentGalery.alt}
+                              altIMG={contentGalery.alt}
+                              linkIMG={contentGalery.link}
+                            />
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  ))}
+                </div>
               </div>
             </div>
           ))}

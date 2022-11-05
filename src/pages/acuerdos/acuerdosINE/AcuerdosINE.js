@@ -5,7 +5,7 @@ import Modal from "../../../layout/Modal";
 
 import "../Acuerdos.css";
 
-const Acuerdos__imgpath = require.context("../../../assets/img/imgA/");
+const Acuerdos__imgpath = require.context("../../../assets/img/icons/");
 
 export default class AcuerdosINE extends Component {
   render() {
