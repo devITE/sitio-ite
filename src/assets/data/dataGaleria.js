@@ -1,5 +1,247 @@
 const Galeria__imgpath = require.context("../img/galeria");
 
+export const dataGaleria2018 = [
+  {
+    id: 1,
+    titleItem: "Abril 2018",
+    flushID: "abril2018",
+    children: [
+      {
+        id: 1,
+        nameActivity: "Convención Estatal 10° Parlamento Infantil 2017",
+        dateActivity: "10 de Abril de 2018",
+        subChilden: [
+          {
+            id: 1,
+            alt: "Foto2018_1",
+            link: Galeria__imgpath(`./${"2018/"}${"1.jpg"}`),
+          },
+          {
+            id: 2,
+            alt: "Foto2018_",
+            link: Galeria__imgpath(`./${"2018/"}${".jpg"}`),
+          },
+          {
+            id: 3,
+            alt: "Foto2018_3",
+            link: Galeria__imgpath(`./${"2018/"}${"3.jpg"}`),
+          },
+          {
+            id: 4,
+            alt: "Foto2018_4",
+            link: Galeria__imgpath(`./${"2018/"}${"4.jpg"}`),
+          },
+          {
+            id: 5,
+            alt: "Foto2018_5",
+            link: Galeria__imgpath(`./${"2018/"}${"5.jpg"}`),
+          },
+          {
+            id: 6,
+            alt: "Foto2018_6",
+            link: Galeria__imgpath(`./${"2018/"}${"6.jpg"}`),
+          },
+          {
+            id: 7,
+            alt: "Foto2018_7",
+            link: Galeria__imgpath(`./${"2018/"}${"7.jpg"}`),
+          },
+          {
+            id: 8,
+            alt: "Foto2018_8",
+            link: Galeria__imgpath(`./${"2018/"}${"8.jpg"}`),
+          },
+          {
+            id: 9,
+            alt: "Foto2018_9",
+            link: Galeria__imgpath(`./${"2018/"}${"9.jpg"}`),
+          },
+          {
+            id: 10,
+            alt: "Foto2018_10",
+            link: Galeria__imgpath(`./${"2018/"}${"10.jpg"}`),
+          },
+          {
+            id: 11,
+            alt: "Foto2018_11",
+            link: Galeria__imgpath(`./${"2018/"}${"11.jpg"}`),
+          },
+          {
+            id: 12,
+            alt: "Foto2018_12",
+            link: Galeria__imgpath(`./${"2018/"}${"12.jpg"}`),
+          },
+          {
+            id: 13,
+            alt: "Foto2018_13",
+            link: Galeria__imgpath(`./${"2018/"}${"13.jpg"}`),
+          },
+          {
+            id: 14,
+            alt: "Foto2018_14",
+            link: Galeria__imgpath(`./${"2018/"}${"14.jpg"}`),
+          },
+          {
+            id: 15,
+            alt: "Foto2018_15",
+            link: Galeria__imgpath(`./${"2018/"}${"15.jpg"}`),
+          },
+          {
+            id: 16,
+            alt: "Foto2018_16",
+            link: Galeria__imgpath(`./${"2018/"}${"16.jpg"}`),
+          },
+          {
+            id: 17,
+            alt: "Foto2018_17",
+            link: Galeria__imgpath(`./${"2018/"}${"17.jpg"}`),
+          },
+          {
+            id: 18,
+            alt: "Foto2018_18",
+            link: Galeria__imgpath(`./${"2018/"}${"18.jpg"}`),
+          },
+          {
+            id: 19,
+            alt: "Foto2018_19",
+            link: Galeria__imgpath(`./${"2018/"}${"19.jpg"}`),
+          },
+          {
+            id: 20,
+            alt: "Foto2018_20",
+            link: Galeria__imgpath(`./${"2018/"}${"20.jpg"}`),
+          },
+          {
+            id: 21,
+            alt: "Foto2018_21",
+            link: Galeria__imgpath(`./${"2018/"}${"21.jpg"}`),
+          },
+          {
+            id: 22,
+            alt: "Foto2018_22",
+            link: Galeria__imgpath(`./${"2018/"}${"22.jpg"}`),
+          },
+          {
+            id: 23,
+            alt: "Foto2018_23",
+            link: Galeria__imgpath(`./${"2018/"}${"23.jpg"}`),
+          },
+          {
+            id: 24,
+            alt: "Foto2018_24",
+            link: Galeria__imgpath(`./${"2018/"}${"24.jpg"}`),
+          },
+          {
+            id: 25,
+            alt: "Foto2018_25",
+            link: Galeria__imgpath(`./${"2018/"}${"25.jpg"}`),
+          },
+          {
+            id: 26,
+            alt: "Foto2018_26",
+            link: Galeria__imgpath(`./${"2018/"}${"26.jpg"}`),
+          },
+          {
+            id: 27,
+            alt: "Foto2018_27",
+            link: Galeria__imgpath(`./${"2018/"}${"27.jpg"}`),
+          },
+          {
+            id: 28,
+            alt: "Foto2018_28",
+            link: Galeria__imgpath(`./${"2018/"}${"28.jpg"}`),
+          },
+          {
+            id: 29,
+            alt: "Foto2018_29",
+            link: Galeria__imgpath(`./${"2018/"}${"29.jpg"}`),
+          },
+          {
+            id: 30,
+            alt: "Foto2018_30",
+            link: Galeria__imgpath(`./${"2018/"}${"30.jpg"}`),
+          },
+          {
+            id: 31,
+            alt: "Foto2018_31",
+            link: Galeria__imgpath(`./${"2018/"}${"31.jpg"}`),
+          },
+          {
+            id: 32,
+            alt: "Foto2018_32",
+            link: Galeria__imgpath(`./${"2018/"}${"32.jpg"}`),
+          },
+          {
+            id: 33,
+            alt: "Foto2018_33",
+            link: Galeria__imgpath(`./${"2018/"}${"33.jpg"}`),
+          },
+          {
+            id: 34,
+            alt: "Foto2018_34",
+            link: Galeria__imgpath(`./${"2018/"}${"34.jpg"}`),
+          },
+          {
+            id: 35,
+            alt: "Foto2018_35",
+            link: Galeria__imgpath(`./${"2018/"}${"35.jpg"}`),
+          },
+          {
+            id: 36,
+            alt: "Foto2018_36",
+            link: Galeria__imgpath(`./${"2018/"}${"36.jpg"}`),
+          },
+          {
+            id: 37,
+            alt: "Foto2018_37",
+            link: Galeria__imgpath(`./${"2018/"}${"37.jpg"}`),
+          },
+          {
+            id: 38,
+            alt: "Foto2018_38",
+            link: Galeria__imgpath(`./${"2018/"}${"38.jpg"}`),
+          },
+          {
+            id: 39,
+            alt: "Foto2018_39",
+            link: Galeria__imgpath(`./${"2018/"}${"39.jpg"}`),
+          },
+          {
+            id: 40,
+            alt: "Foto2018_40",
+            link: Galeria__imgpath(`./${"2018/"}${"40.jpg"}`),
+          },
+          {
+            id: 41,
+            alt: "Foto2018_41",
+            link: Galeria__imgpath(`./${"2018/"}${"41.jpg"}`),
+          },
+          {
+            id: 42,
+            alt: "Foto2018_42",
+            link: Galeria__imgpath(`./${"2018/"}${"42.jpg"}`),
+          },
+          {
+            id: 43,
+            alt: "Foto2018_43",
+            link: Galeria__imgpath(`./${"2018/"}${"43.jpg"}`),
+          },
+          {
+            id: 44,
+            alt: "Foto2018_44",
+            link: Galeria__imgpath(`./${"2018/"}${"44.jpg"}`),
+          },
+          {
+            id: 45,
+            alt: "Foto2018_45",
+            link: Galeria__imgpath(`./${"2018/"}${"45.jpg"}`),
+          },
+        ],
+      },
+    ],
+  },
+];
+
 export const dataGaleria2017 = [
   {
     id: 1,
