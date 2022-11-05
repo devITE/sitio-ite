@@ -450,167 +450,13 @@ export const dataGaleria2017 = [
   },
   {
     id: 3,
-    titleItem: "Agosto 2017",
-    flushID: "agosto2017",
+    titleItem: "Junio 2017",
+    flushID: "junio2017",
     children: [
       {
         id: 1,
-        nameActivity:
-          "Entrega ITE constancias a miembros del Parlamento Juvenil 2017",
-        dateActivity: "05 de Agosto de 2017",
-        subChilden: [
-          {
-            id: 1,
-            alt: "Foto2017_55",
-            link: Galeria__imgpath(`./${"2017/"}${"55.jpg"}`),
-          },
-          {
-            id: 2,
-            alt: "Foto2017_56",
-            link: Galeria__imgpath(`./${"2017/"}${"56.jpg"}`),
-          },
-          {
-            id: 3,
-            alt: "Foto2017_57",
-            link: Galeria__imgpath(`./${"2017/"}${"57.jpg"}`),
-          },
-          {
-            id: 4,
-            alt: "Foto2017_58",
-            link: Galeria__imgpath(`./${"2017/"}${"58.jpg"}`),
-          },
-          {
-            id: 5,
-            alt: "Foto2017_59",
-            link: Galeria__imgpath(`./${"2017/"}${"59.jpg"}`),
-          },
-          {
-            id: 6,
-            alt: "Foto2017_60",
-            link: Galeria__imgpath(`./${"2017/"}${"60.jpg"}`),
-          },
-          {
-            id: 7,
-            alt: "Foto2017_61",
-            link: Galeria__imgpath(`./${"2017/"}${"61.jpg"}`),
-          },
-          {
-            id: 8,
-            alt: "Foto2017_62",
-            link: Galeria__imgpath(`./${"2017/"}${"62.jpg"}`),
-          },
-          {
-            id: 9,
-            alt: "Foto2017_63",
-            link: Galeria__imgpath(`./${"2017/"}${"63.jpg"}`),
-          },
-          {
-            id: 10,
-            alt: "Foto2017_64",
-            link: Galeria__imgpath(`./${"2017/"}${"64.jpg"}`),
-          },
-          {
-            id: 11,
-            alt: "Foto2017_65",
-            link: Galeria__imgpath(`./${"2017/"}${"65.jpg"}`),
-          },
-          {
-            id: 12,
-            alt: "Foto2017_66",
-            link: Galeria__imgpath(`./${"2017/"}${"66.jpg"}`),
-          },
-          {
-            id: 13,
-            alt: "Foto2017_67",
-            link: Galeria__imgpath(`./${"2017/"}${"67.jpg"}`),
-          },
-          {
-            id: 14,
-            alt: "Foto2017_68",
-            link: Galeria__imgpath(`./${"2017/"}${"68.jpg"}`),
-          },
-          {
-            id: 15,
-            alt: "Foto2017_69",
-            link: Galeria__imgpath(`./${"2017/"}${"69.jpg"}`),
-          },
-          {
-            id: 16,
-            alt: "Foto2017_70",
-            link: Galeria__imgpath(`./${"2017/"}${"70.jpg"}`),
-          },
-          {
-            id: 17,
-            alt: "Foto2017_71",
-            link: Galeria__imgpath(`./${"2017/"}${"71.jpg"}`),
-          },
-          {
-            id: 18,
-            alt: "Foto2017_72",
-            link: Galeria__imgpath(`./${"2017/"}${"72.jpg"}`),
-          },
-        ],
-      },
-    ],
-  },
-  {
-    id: 4,
-    titleItem: "Septiembre 2017",
-    flushID: "septiembre2017",
-    children: [
-      {
-        id: 1,
-        nameActivity:
-          "Recuento de 13 de 18 Paquetes de Elección de Ayuntamiento de Tzompantepec",
-        dateActivity: "13 de Septimebre de 2017",
-        subChilden: [
-          {
-            id: 1,
-            alt: "Foto2017_73",
-            link: Galeria__imgpath(`./${"2017/"}${"73.jpg"}`),
-          },
-          {
-            id: 2,
-            alt: "Foto2017_74",
-            link: Galeria__imgpath(`./${"2017/"}${"74.jpg"}`),
-          },
-          {
-            id: 3,
-            alt: "Foto2017_75",
-            link: Galeria__imgpath(`./${"2017/"}${"75.jpg"}`),
-          },
-          {
-            id: 4,
-            alt: "Foto2017_76",
-            link: Galeria__imgpath(`./${"2017/"}${"76.jpg"}`),
-          },
-          {
-            id: 5,
-            alt: "Foto2017_77",
-            link: Galeria__imgpath(`./${"2017/"}${"77.jpg"}`),
-          },
-          {
-            id: 6,
-            alt: "Foto2017_78",
-            link: Galeria__imgpath(`./${"2017/"}${"78.jpg"}`),
-          },
-          {
-            id: 7,
-            alt: "Foto2017_79",
-            link: Galeria__imgpath(`./${"2017/"}${"79.jpg"}`),
-          },
-          {
-            id: 8,
-            alt: "Foto2017_80",
-            link: Galeria__imgpath(`./${"2017/"}${"80.jpg"}`),
-          },
-        ],
-      },
-      {
-        id: 2,
-        nameActivity:
-          "Recuento de 86 de 103 paquetes de elección del Distrito 12, con cabecera en Teolocholco",
-        dateActivity: "17 de Septimebre de 2017",
+        nameActivity: "Jornada Electoral 2017",
+        dateActivity: "04 de Junio de 2017",
         subChilden: [
           {
             id: 1,
@@ -687,54 +533,173 @@ export const dataGaleria2017 = [
             alt: "Foto2017_95",
             link: Galeria__imgpath(`./${"2017/"}${"95.jpg"}`),
           },
+          {
+            id: 16,
+            alt: "Foto2017_96",
+            link: Galeria__imgpath(`./${"2017/"}${"96.jpg"}`),
+          },
+          {
+            id: 17,
+            alt: "Foto2017_97",
+            link: Galeria__imgpath(`./${"2017/"}${"97.jpg"}`),
+          },
+          {
+            id: 18,
+            alt: "Foto2017_98",
+            link: Galeria__imgpath(`./${"2017/"}${"98.jpg"}`),
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: 4,
+    titleItem: "Julio 2017",
+    flushID: "julio2017",
+    children: [
+      {
+        id: 1,
+        nameActivity: "6° Parlamento Juvenil 2017",
+        dateActivity: "21 de Julio de 2017",
+        subChilden: [
+          {
+            id: 1,
+            alt: "Foto2017_99",
+            link: Galeria__imgpath(`./${"2017/"}${"99.jpg"}`),
+          },
+          {
+            id: 2,
+            alt: "Foto2017_100",
+            link: Galeria__imgpath(`./${"2017/"}${"100.jpg"}`),
+          },
+          {
+            id: 3,
+            alt: "Foto2017_101",
+            link: Galeria__imgpath(`./${"2017/"}${"101.jpg"}`),
+          },
+          {
+            id: 4,
+            alt: "Foto2017_102",
+            link: Galeria__imgpath(`./${"2017/"}${"102.jpg"}`),
+          },
+          {
+            id: 5,
+            alt: "Foto2017_103",
+            link: Galeria__imgpath(`./${"2017/"}${"103.jpg"}`),
+          },
+          {
+            id: 6,
+            alt: "Foto2017_104",
+            link: Galeria__imgpath(`./${"2017/"}${"104.jpg"}`),
+          },
+          {
+            id: 7,
+            alt: "Foto2017_105",
+            link: Galeria__imgpath(`./${"2017/"}${"105.jpg"}`),
+          },
+          {
+            id: 8,
+            alt: "Foto2017_106",
+            link: Galeria__imgpath(`./${"2017/"}${"106.jpg"}`),
+          },
+          {
+            id: 9,
+            alt: "Foto2017_107",
+            link: Galeria__imgpath(`./${"2017/"}${"107.jpg"}`),
+          },
+          {
+            id: 10,
+            alt: "Foto2017_108",
+            link: Galeria__imgpath(`./${"2017/"}${"108.jpg"}`),
+          },
+          {
+            id: 11,
+            alt: "Foto2017_109",
+            link: Galeria__imgpath(`./${"2017/"}${"109.jpg"}`),
+          },
+          {
+            id: 12,
+            alt: "Foto2017_110",
+            link: Galeria__imgpath(`./${"2017/"}${"110.jpg"}`),
+          },
+          {
+            id: 13,
+            alt: "Foto2017_111",
+            link: Galeria__imgpath(`./${"2017/"}${"111.jpg"}`),
+          },
+          {
+            id: 14,
+            alt: "Foto2017_112",
+            link: Galeria__imgpath(`./${"2017/"}${"112.jpg"}`),
+          },
         ],
       },
     ],
   },
   {
     id: 5,
-    titleItem: "Octubre 2017",
-    flushID: "octubre2017",
+    titleItem: "Agosto 2017",
+    flushID: "agosto2017",
     children: [
       {
         id: 1,
-        nameActivity: "Conferencia: Sufragio Femennino en México",
-        dateActivity: "28 de Octubre de 2017",
+        nameActivity: "Cómputos Electorales 2017",
+        dateActivity: "12 de agosto de 2017",
         subChilden: [
           {
             id: 1,
-            alt: "Foto2017_96",
-            link: Galeria__imgpath(`./${"2017/"}${"96.jpg"}`),
+            alt: "Foto2017_113",
+            link: Galeria__imgpath(`./${"2017/"}${"113.jpg"}`),
           },
           {
             id: 2,
-            alt: "Foto2017_97",
-            link: Galeria__imgpath(`./${"2017/"}${"97.jpg"}`),
+            alt: "Foto2017_114",
+            link: Galeria__imgpath(`./${"2017/"}${"114.jpg"}`),
           },
           {
             id: 3,
-            alt: "Foto2017_98",
-            link: Galeria__imgpath(`./${"2017/"}${"98.jpg"}`),
+            alt: "Foto2017_115",
+            link: Galeria__imgpath(`./${"2017/"}${"115.jpg"}`),
           },
           {
             id: 4,
-            alt: "Foto2017_99",
-            link: Galeria__imgpath(`./${"2017/"}${"99.jpg"}`),
+            alt: "Foto2017_116",
+            link: Galeria__imgpath(`./${"2017/"}${"116.jpg"}`),
           },
           {
             id: 5,
-            alt: "Foto2017_100",
-            link: Galeria__imgpath(`./${"2017/"}${"100.jpg"}`),
+            alt: "Foto2017_117",
+            link: Galeria__imgpath(`./${"2017/"}${"117.jpg"}`),
           },
           {
             id: 6,
-            alt: "Foto2017_101",
-            link: Galeria__imgpath(`./${"2017/"}${"101.jpg"}`),
+            alt: "Foto2017_118",
+            link: Galeria__imgpath(`./${"2017/"}${"118.jpg"}`),
           },
           {
             id: 7,
-            alt: "Foto2017_102",
-            link: Galeria__imgpath(`./${"2017/"}${"102.jpg"}`),
+            alt: "Foto2017_119",
+            link: Galeria__imgpath(`./${"2017/"}${"119.jpg"}`),
+          },
+          {
+            id: 8,
+            alt: "Foto2017_120",
+            link: Galeria__imgpath(`./${"2017/"}${"120.jpg"}`),
+          },
+          {
+            id: 9,
+            alt: "Foto2017_121",
+            link: Galeria__imgpath(`./${"2017/"}${"121.jpg"}`),
+          },
+          {
+            id: 10,
+            alt: "Foto2017_122",
+            link: Galeria__imgpath(`./${"2017/"}${"122.jpg"}`),
+          },
+          {
+            id: 11,
+            alt: "Foto2017_123",
+            link: Galeria__imgpath(`./${"2017/"}${"123.jpg"}`),
           },
         ],
       },
