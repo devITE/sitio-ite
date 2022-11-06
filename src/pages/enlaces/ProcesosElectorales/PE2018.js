@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import NavbarEnlaces from "../../../layout/NavbarEnlaces";
 import Modal from "../../../layout/Modal";
-import ListBadgePDF from "../../../layout/ListBadge/ListBadgePDF";
+import ListBadge from "../../../layout/ListBadge";
 import { dataResultados2018 } from "../../../assets/data/dataProcesosElectorales";
 
 const ProcesosElectorales__imgpath = require.context("../../../assets");
@@ -99,7 +99,7 @@ export default class PE2018 extends Component {
           idModal="ResultadosElectorales2018"
           titleModal="Resultados Electorales 2018"
           contentModal={
-            <ListBadgePDF ifNumbered={""} listsBadgeItem={dataResultados2018} />
+            <ListBadge ifNumbered={""} listsBadgeItem={dataResultados2018} />
           }
         />
       </>

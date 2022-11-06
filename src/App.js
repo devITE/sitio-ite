@@ -22,7 +22,6 @@ import Galeria2017 from "./pages/enlaces/Galeria/Galeria2017";
 import Galeria2018 from "./pages/enlaces/Galeria/Galeria2018";
 
 import OIC from "./pages/enlaces/OIC/OIC";
-import DeclaracionPatrimonial from "./pages/enlaces/OIC/DeclaracionPatrimonial";
 import GaleriaOIC from "./pages/enlaces/OIC/GaleriaOIC";
 import Infografias from "./pages/enlaces/Infografias";
 import MemoriasElectorales from "./pages/enlaces/MemoriasElectorales";
@@ -139,19 +138,13 @@ function App() {
           <Route path="/PEE2017" element={<PEE2017 />} />
           <Route path="/PE2018" element={<PE2018 />} />
           <Route path="/PE20202021" element={<PE20202021 />} />
-
           <Route path="/HistorialPE" element={<HistorialPE />} />
           <Route path="/Normatividad" element={<Normatividad />} />
           <Route path="/Galeria" element={<Galeria />} />
           <Route path="/Galeria2016" element={<Galeria2016 />} />
           <Route path="/Galeria2017" element={<Galeria2017 />} />
           <Route path="/Galeria2018" element={<Galeria2018 />} />
-
           <Route path="/OIC" element={<OIC />} />
-          <Route
-            path="/DeclaracionPatrimonial"
-            element={<DeclaracionPatrimonial />}
-          />
           <Route path="/GaleriaOIC" element={<GaleriaOIC />} />
           <Route path="/Infografias" element={<Infografias />} />
           <Route

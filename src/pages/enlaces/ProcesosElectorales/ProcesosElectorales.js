@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import NavbarEnlaces from "../../../layout/NavbarEnlaces";
 import Modal from "../../../layout/Modal";
-import ListBadgeEXCEL from "../../../layout/ListBadge/ListBadgeEXCEL";
+import ListBadge from "../../../layout/ListBadge";
 import { dataResultadosE2021 } from "../../../assets/data/dataProcesosElectorales";
 
 const ProcesosElectorales__imgpath = require.context("../../../assets/img");
@@ -84,10 +84,7 @@ export default class ProcesosElectorales extends Component {
           idModal="PresidenciasComunidad2021"
           titleModal="Resultados Electorales Presidencias de Comunidad 2021"
           contentModal={
-            <ListBadgeEXCEL
-              ifNumbered={""}
-              listsBadgeItem={dataResultadosE2021}
-            />
+            <ListBadge ifNumbered={""} listsBadgeItem={dataResultadosE2021} />
           }
         />
       </>

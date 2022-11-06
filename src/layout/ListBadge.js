@@ -1,6 +1,9 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
+  faFileExcel,
+  faFileImage,
   faFilePdf,
+  faFileVideo,
   faFileZipper,
   faLink,
 } from "@fortawesome/free-solid-svg-icons";
@@ -26,21 +29,43 @@ const ListBadgePDF = ({ ifNumbered, listsBadgeItem }) => {
             <div className="ms-2 me-auto">
               <div>{listsBadgeItem.titleItem}</div>
             </div>
-            {/* {listsBadgeItem.linkItem === "" ? (
+            {listsBadgeItem.linkItem === "" ? (
               <span></span>
             ) : (
-              <a
-                href={listsBadgeItem.linkItem}
-                target="_blank"
-                rel="noreferrer"
-              >
-                <span className="badge bg-danger">
-                  <FontAwesomeIcon icon={faFilePdf} />
-                </span>
-              </a>
-            )} */}
-            {
               {
+                video: (
+                  <a
+                    href={listsBadgeItem.linkItem}
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span className="badge bg-secondary">
+                      <FontAwesomeIcon icon={faFileVideo} />
+                    </span>
+                  </a>
+                ),
+                img: (
+                  <a
+                    href={listsBadgeItem.linkItem}
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span className="badge bg-primary">
+                      <FontAwesomeIcon icon={faFileImage} />
+                    </span>
+                  </a>
+                ),
+                excel: (
+                  <a
+                    href={listsBadgeItem.linkItem}
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span className="badge bg-success">
+                      <FontAwesomeIcon icon={faFileExcel} />
+                    </span>
+                  </a>
+                ),
                 pdf: (
                   <a
                     href={listsBadgeItem.linkItem}
@@ -75,7 +100,7 @@ const ListBadgePDF = ({ ifNumbered, listsBadgeItem }) => {
                   </a>
                 ),
               }[listsBadgeItem.typeDocument]
-            }
+            )}
           </li>
         ))}
       </ol>

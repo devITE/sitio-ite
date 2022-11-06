@@ -5,12 +5,13 @@ import { Link } from "react-router-dom";
 import NavbarEnlaces from "../../../layout/NavbarEnlaces";
 import Modal from "../../../layout/Modal";
 import ModalIMG from "../../../layout/ModalIMG";
-import ListBadgePDF from "../../../layout/ListBadge/ListBadgePDF";
+import ListBadge from "../../../layout/ListBadge";
 import {
   dataEstructuraOrganica,
   dataNormatividad,
   dataPOA,
   dataSemblanza,
+  dataDeclaracionPatrimonial,
   dataCodigoEtica,
 } from "../../../assets/data/dataOIC";
 import "../EnlacesStyle.css";
@@ -94,19 +95,19 @@ export default class OIC extends Component {
             <p className="mt-2">Semblanza</p>
           </div>
           <div>
-            {/* <a
+            <a
               rel="noreferrer"
               data-bs-toggle="modal"
               data-bs-target="#DeclaracionPatrimonial"
-            > */}
-            <Link to="/DeclaracionPatrimonial">
+            >
+              {/* <Link to="/DeclaracionPatrimonial"> */}
               <img
                 className="img-fluid"
                 src={OIC__imgpath(`./${"icons/"}${"e16.png"}`)}
                 alt="Declaración Patrimonial"
               />
-            </Link>
-            {/* </a> */}
+              {/* </Link> */}
+            </a>
             <p className="mt-2">Declaración Patrimonial</p>
           </div>
           <div>
@@ -139,7 +140,7 @@ export default class OIC extends Component {
           idModal="EstructuraOrganica"
           titleModal="Estructura Orgánica del Órgano Interno de Control"
           contentModal={
-            <ListBadgePDF
+            <ListBadge
               ifNumbered={""}
               listsBadgeItem={dataEstructuraOrganica}
             />
@@ -154,33 +155,36 @@ export default class OIC extends Component {
           idModal="Normatividad"
           titleModal="Normatividad"
           contentModal={
-            <ListBadgePDF ifNumbered={""} listsBadgeItem={dataNormatividad} />
+            <ListBadge ifNumbered={""} listsBadgeItem={dataNormatividad} />
           }
         />
         <Modal
           idModal="Programas"
           titleModal="Programas"
-          contentModal={
-            <ListBadgePDF ifNumbered={""} listsBadgeItem={dataPOA} />
-          }
+          contentModal={<ListBadge ifNumbered={""} listsBadgeItem={dataPOA} />}
         />
         <Modal
           idModal="Semblanza"
           titleModal="Semblanza"
           contentModal={
-            <ListBadgePDF ifNumbered={""} listsBadgeItem={dataSemblanza} />
+            <ListBadge ifNumbered={""} listsBadgeItem={dataSemblanza} />
           }
         />
         <Modal
           idModal="DeclaracionPatrimonial"
           titleModal="Declaración Patrimonial"
-          contentModal="---"
+          contentModal={
+            <ListBadge
+              ifNumbered={""}
+              listsBadgeItem={dataDeclaracionPatrimonial}
+            />
+          }
         />
         <Modal
           idModal="CodigodeEtica"
           titleModal="CodigodeEtica"
           contentModal={
-            <ListBadgePDF ifNumbered={""} listsBadgeItem={dataCodigoEtica} />
+            <ListBadge ifNumbered={""} listsBadgeItem={dataCodigoEtica} />
           }
         />
       </>

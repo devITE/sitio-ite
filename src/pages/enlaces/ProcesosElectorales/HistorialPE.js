@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import NavbarEnlaces from "../../../layout/NavbarEnlaces";
-import ListBadgePDF from "../../../layout/ListBadge/ListBadgePDF";
+import ListBadge from "../../../layout/ListBadge";
 import { dataHistorial } from "../../../assets/data/dataProcesosElectorales";
 
 export default class HistorialPE extends Component {
@@ -30,10 +30,7 @@ export default class HistorialPE extends Component {
                 data-bs-parent="#accordionFlushExample"
               >
                 <div className="accordion-body">
-                  <ListBadgePDF
-                    ifNumbered={""}
-                    listsBadgeItem={items.children}
-                  />
+                  <ListBadge ifNumbered={""} listsBadgeItem={items.children} />
                 </div>
               </div>
             </div>

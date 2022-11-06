@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import NavbarEnlaces from "../../../layout/NavbarEnlaces";
 import Modal from "../../../layout/Modal";
-import ListBadgeEXCEL from "../../../layout/ListBadge/ListBadgeEXCEL";
+import ListBadge from "../../../layout/ListBadge";
 import {
   dataGubernatura20202021,
   dataDiputaciones20202021,
@@ -94,7 +94,7 @@ export default class PE20202021 extends Component {
           idModal="Gubernatura20202021"
           titleModal="Resultados Gubernatura 2020 -2021"
           contentModal={
-            <ListBadgeEXCEL
+            <ListBadge
               ifNumbered={""}
               listsBadgeItem={dataGubernatura20202021}
             />
@@ -104,7 +104,7 @@ export default class PE20202021 extends Component {
           idModal="Diputaciones20202021"
           titleModal="Resultados Diputaciones 2020 -2021"
           contentModal={
-            <ListBadgeEXCEL
+            <ListBadge
               ifNumbered={""}
               listsBadgeItem={dataDiputaciones20202021}
             />
@@ -114,7 +114,7 @@ export default class PE20202021 extends Component {
           idModal="Ayuntamientos20202021"
           titleModal="Resultados Ayuntamientos 2020 -2021"
           contentModal={
-            <ListBadgeEXCEL
+            <ListBadge
               ifNumbered={""}
               listsBadgeItem={dataAyuntamientos20202021}
             />
@@ -124,7 +124,7 @@ export default class PE20202021 extends Component {
           idModal="Presidencias20202021"
           titleModal="Resultados Presidencias de Comunidad 2020 -2021"
           contentModal={
-            <ListBadgeEXCEL
+            <ListBadge
               ifNumbered={""}
               listsBadgeItem={dataPresidencias20202021}
             />

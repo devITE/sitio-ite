@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Modal from "../../../layout/Modal";
-import ListBadgePDF from "../../../layout/ListBadge/ListBadgePDF";
+import ListBadge from "../../../layout/ListBadge";
 import NavbarEnlaces from "../../../layout/NavbarEnlaces";
 import {
   dataEncuestas2016,
@@ -211,28 +211,28 @@ export default class PE20152016 extends Component {
           idModal="Encuestas2016"
           titleModal="Encuestas 2016"
           contentModal={
-            <ListBadgePDF ifNumbered={""} listsBadgeItem={dataEncuestas2016} />
+            <ListBadge ifNumbered={""} listsBadgeItem={dataEncuestas2016} />
           }
         />
         <Modal
           idModal="UbicacionCasillas"
           titleModal="Lista de ubicación de casillas"
           contentModal={
-            <ListBadgePDF ifNumbered={""} listsBadgeItem={dataCasillas2016} />
+            <ListBadge ifNumbered={""} listsBadgeItem={dataCasillas2016} />
           }
         />
         <Modal
           idModal="ResultadosElectorales"
           titleModal="Resultados Electorales"
           contentModal={
-            <ListBadgePDF ifNumbered={""} listsBadgeItem={dataResultados2016} />
+            <ListBadge ifNumbered={""} listsBadgeItem={dataResultados2016} />
           }
         />
         <Modal
           idModal="ResultadosElectoralesSeccion"
           titleModal="Resultados Electorales por Sección"
           contentModal={
-            <ListBadgePDF
+            <ListBadge
               ifNumbered={""}
               listsBadgeItem={dataResultadosSeccion2016}
             />
@@ -242,7 +242,7 @@ export default class PE20152016 extends Component {
           idModal="ListadoCandidatos"
           titleModal="Listado de Candidatos"
           contentModal={
-            <ListBadgePDF
+            <ListBadge
               ifNumbered={""}
               listsBadgeItem={dataListadoCandidatos2016}
             />

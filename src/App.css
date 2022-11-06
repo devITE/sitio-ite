@@ -45,8 +45,11 @@ a {
 }
 
 .modal-header {
-  background: #972069;
-  color: #ffffff;
+  background: #972069 !important;
+}
+
+.modal-title {
+  color: #ffffff !important;
 }
 
 .table thead {

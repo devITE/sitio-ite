@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import NavbarEnlaces from "../../layout/NavbarEnlaces";
-import ListBadgePDF from "../../layout/ListBadge/ListBadgePDF";
+import ListBadge from "../../layout/ListBadge";
 import { dataNormatividad } from "../.././assets/data/dataNormativad";
 
 export default class Normatividad extends Component {
@@ -43,7 +43,7 @@ export default class Normatividad extends Component {
                 }
                 tabIndex="0"
               >
-                <ListBadgePDF
+                <ListBadge
                   ifNumbered={""}
                   listsBadgeItem={buttonNormatividad.children}
                 />

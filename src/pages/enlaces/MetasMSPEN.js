@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import ListBadgePDF from "../../layout/ListBadge/ListBadgePDF";
+import ListBadge from "../../layout/ListBadge";
 import NavbarEnlaces from "../../layout/NavbarEnlaces";
 import { dataMSPEN } from "../../assets/data/dataMSPEN";
 
@@ -29,7 +29,7 @@ export default class MetasMSPEN extends Component {
                 data-bs-parent="#metasMSPEN"
               >
                 <div className="accordion-body">
-                  <ListBadgePDF
+                  <ListBadge
                     ifNumbered={""}
                     listsBadgeItem={accordionsItem.children}
                   />
