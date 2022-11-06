@@ -1,5 +1,9 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
+import {
+  faFilePdf,
+  faFileZipper,
+  faLink,
+} from "@fortawesome/free-solid-svg-icons";
 
 const ListBadgePDF = ({ ifNumbered, listsBadgeItem }) => {
   return (
@@ -22,7 +26,7 @@ const ListBadgePDF = ({ ifNumbered, listsBadgeItem }) => {
             <div className="ms-2 me-auto">
               <div>{listsBadgeItem.titleItem}</div>
             </div>
-            {listsBadgeItem.linkItem === "" ? (
+            {/* {listsBadgeItem.linkItem === "" ? (
               <span></span>
             ) : (
               <a
@@ -34,7 +38,44 @@ const ListBadgePDF = ({ ifNumbered, listsBadgeItem }) => {
                   <FontAwesomeIcon icon={faFilePdf} />
                 </span>
               </a>
-            )}
+            )} */}
+            {
+              {
+                pdf: (
+                  <a
+                    href={listsBadgeItem.linkItem}
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span className="badge bg-danger">
+                      <FontAwesomeIcon icon={faFilePdf} />
+                    </span>
+                  </a>
+                ),
+                link: (
+                  <a
+                    href={listsBadgeItem.linkItem}
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span className="badge bg-info">
+                      <FontAwesomeIcon icon={faLink} />
+                    </span>
+                  </a>
+                ),
+                zip: (
+                  <a
+                    href={listsBadgeItem.linkItem}
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span className="badge bg-warning">
+                      <FontAwesomeIcon icon={faFileZipper} />
+                    </span>
+                  </a>
+                ),
+              }[listsBadgeItem.typeDocument]
+            }
           </li>
         ))}
       </ol>

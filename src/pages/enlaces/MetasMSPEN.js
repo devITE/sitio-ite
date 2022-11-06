@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import ListBadgePDF from "../../layout/ListBadge/ListBadgePDF";
 import NavbarEnlaces from "../../layout/NavbarEnlaces";
-import { dataMSPEN } from "../../assets/data/dataTransparenciaMSPEN";
+import { dataMSPEN } from "../../assets/data/dataMSPEN";
 
 export default class MetasMSPEN extends Component {
   render() {

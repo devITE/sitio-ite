@@ -18,8 +18,8 @@ export const dataGaleria2018 = [
           },
           {
             id: 2,
-            alt: "Foto2018_",
-            link: Galeria__imgpath(`./${"2018/"}${".jpg"}`),
+            alt: "Foto2018_2",
+            link: Galeria__imgpath(`./${"2018/"}${"2.jpg"}`),
           },
           {
             id: 3,
