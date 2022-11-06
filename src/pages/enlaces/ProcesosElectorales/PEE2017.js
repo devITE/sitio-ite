@@ -33,11 +33,10 @@ export default class PEE2017 extends Component {
             > */}
             <img
               className="img-fluid"
-              src={PEE2017__path(`./${"img/icons/"}${"e22.png"}`)}
+              src={PEE2017__path(`./${"img/icons/"}${"e25.png"}`)}
               alt="PREP 2017"
             />
             {/* </a> */}
-            <p className="mt-2">PREP 2017</p>
           </div>
         </div>
       </>
