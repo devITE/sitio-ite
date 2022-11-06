@@ -1,4 +1,4 @@
-const Informes__imgpath = require.context("../../img");
+const Informes__imgpath = require.context("../../assets/img");
 const Informes__pdfpath = require.context("../pdf");
 
 export const dataInformes = [

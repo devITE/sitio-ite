@@ -1,199 +1,159 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
-import React, { Component } from "react";
+import React, { useMemo } from "react";
+import TitlePages from "../../../layout/TitlePages";
+import MaterialReactTable from "material-react-table";
+import { MenuItem, TextField } from "@mui/material";
 import { dataAcuerdos2018 } from "../../../assets/data/dataAcuerdos";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
-import "../Acuerdos.css";
 
-const Acuerdos__imgpath = require.context("../../../img/imgA");
+const Acuerdos2018 = () => {
+  const columns = useMemo(
+    () => [
+      {
+        accessorKey: "monthDoc",
+        header: "MES",
+        footer: "MES",
+        Filter: ({ header }) => (
+          <TextField
+            onChange={(e) =>
+              header.column.setFilterValue(e.target.value || undefined)
+            }
+            select
+            value={header.column.getFilterValue() ?? ""}
+            margin="none"
+            placeholder="Filter"
+            variant="standard"
+            fullWidth
+          >
+            <MenuItem value={null}>Todos</MenuItem>
+            <MenuItem value="ENE">Enero</MenuItem>
+            <MenuItem value="FEB">Febrero</MenuItem>
+            <MenuItem value="MAR">Marzo</MenuItem>
+            <MenuItem value="ABR">Abril</MenuItem>
+            <MenuItem value="MAY">Mayo</MenuItem>
+            <MenuItem value="JUN">Junio</MenuItem>
+            <MenuItem value="JUL">Julio</MenuItem>
+            <MenuItem value="AGO">Agosto</MenuItem>
+            <MenuItem value="SEP">Septiembre</MenuItem>
+            <MenuItem value="OCT">Octubre</MenuItem>
+            <MenuItem value="NOV">Noviembre</MenuItem>
+            <MenuItem value="DIC">Diciembre</MenuItem>
+          </TextField>
+        ),
+      },
+      {
+        accessorKey: "numDoc",
+        header: "ACUERDO",
+        footer: "ACUERDO",
+      },
+      {
+        accessorKey: "dateDoc",
+        header: "FECHA",
+        footer: "FECHA",
+        enableColumnFilter: false,
+      },
+      {
+        accessorFn: (row) => `${row.typeDoc} ${row.nameDoc}`,
+        id: "titulo",
+        header: "TÍTULO",
+        footer: "TÍTULO",
+      },
+      {
+        id: "pdf",
+        header: "",
+        footer: "",
+        enableColumnFilters: false,
+        Cell: ({ row }) =>
+          row.original.link === "" ? (
+            <span></span>
+          ) : (
+            <a href={row.original.link} target="_blank" rel="noreferrer">
+              <FontAwesomeIcon icon={faFilePdf} className="btn btn-danger" />
+            </a>
+          ),
+      },
+    ],
+    []
+  );
 
-let mes = "";
-export default class Acuerdos2018 extends Component {
-  render() {
-    return (
-      <div>
-        <div className="bottom_title">
-          <img
-            src={Acuerdos__imgpath(`./h_2018.png`)}
-            alt="Acuerdos 2018"
-            className="img-fluid w-100 mb-3"
-          />
-        </div>
-        <div className="w-100 AcuerdosITE">
-          <div>
-            <a data-bs-toggle="modal" data-bs-target="#modalene">
-              <img
-                src={Acuerdos__imgpath(`./ene.png`)}
-                alt="Acuerdos 2018 Enero"
-                className="img-fluid AcuerdosITE_link"
-              />
-            </a>
-          </div>
-          <div>
-            <a data-bs-toggle="modal" data-bs-target="#modalfeb">
-              <img
-                src={Acuerdos__imgpath(`./feb.png`)}
-                alt="Acuerdos 2018 Febrero"
-                className="img-fluid AcuerdosITE_link"
-              />
-            </a>
-          </div>
-          <div>
-            <a data-bs-toggle="modal" data-bs-target="#modalmar">
-              <img
-                src={Acuerdos__imgpath(`./mar.png`)}
-                alt="Acuerdos 2018 Marzo"
-                className="img-fluid AcuerdosITE_link"
-              />
-            </a>
-          </div>
-          <div>
-            <a data-bs-toggle="modal" data-bs-target="#modalabr">
-              <img
-                src={Acuerdos__imgpath(`./abr.png`)}
-                alt="Acuerdos 2018 Abril"
-                className="img-fluid AcuerdosITE_link"
-              />
-            </a>
-          </div>
-          <div>
-            <a data-bs-toggle="modal" data-bs-target="#modalmay">
-              <img
-                src={Acuerdos__imgpath(`./may.png`)}
-                alt="Acuerdos 2018 Mayo"
-                className="img-fluid AcuerdosITE_link"
-              />
-            </a>
-          </div>
-          <div>
-            <a data-bs-toggle="modal" data-bs-target="#modaljun">
-              <img
-                src={Acuerdos__imgpath(`./jun.png`)}
-                alt="Acuerdos 2018 Junio"
-                className="img-fluid AcuerdosITE_link"
-              />
-            </a>
-          </div>
-          <div>
-            <a data-bs-toggle="modal" data-bs-target="#modaljul">
-              <img
-                src={Acuerdos__imgpath(`./jul.png`)}
-                alt="Acuerdos 2018 Julio"
-                className="img-fluid AcuerdosITE_link"
-              />
-            </a>
-          </div>
-          <div>
-            <a data-bs-toggle="modal" data-bs-target="#modalago">
-              <img
-                src={Acuerdos__imgpath(`./ago.png`)}
-                alt="Acuerdos 2018 Agosto"
-                className="img-fluid AcuerdosITE_link"
-              />
-            </a>
-          </div>
-          <div>
-            <a data-bs-toggle="modal" data-bs-target="#modalsep">
-              <img
-                src={Acuerdos__imgpath(`./sep.png`)}
-                alt="Acuerdos 2018 Septiembre"
-                className="img-fluid AcuerdosITE_link"
-              />
-            </a>
-          </div>
-          <div>
-            <a data-bs-toggle="modal" data-bs-target="#modaloct">
-              <img
-                src={Acuerdos__imgpath(`./oct.png`)}
-                alt="Acuerdos 2018 Octubre"
-                className="img-fluid AcuerdosITE_link"
-              />
-            </a>
-          </div>
-          <div>
-            <a data-bs-toggle="modal" data-bs-target="#modalnov">
-              <img
-                src={Acuerdos__imgpath(`./nov.png`)}
-                alt="Acuerdos 2018 Noviembre"
-                className="img-fluid AcuerdosITE_link"
-              />
-            </a>
-          </div>
-          <div>
-            <a href="#modal" data-toggle="modaldic">
-              <img
-                src={Acuerdos__imgpath(`./dic.png`)}
-                alt="Acuerdos 2018 Diciembre"
-                className="img-fluid AcuerdosITE_link"
-              />
-            </a>
-          </div>
-        </div>
-        <div>
-          {dataAcuerdos2018.map((acuerdo) => {
-            return (
-              <div
-                key={acuerdo.id}
-                id={"modal" + acuerdo.month.toLowerCase().substring(0, 3)}
-                // {...console.log("aaaa:-", (mes = acuerdo.month))}
-                {...(mes = acuerdo.month)}
-                className="modal fade"
-                tabIndex="-1"
-                aria-hidden="true"
-              >
-                <div className="modal-dialog">
-                  <div className="modal-content">
-                    <div className="modal-header Modal__header">
-                      <h5 className="modal-title">
-                        <strong>{acuerdo.month}</strong>
-                      </h5>
-                      <button
-                        type="button"
-                        className="btn-close"
-                        data-bs-dismiss="modal"
-                        aria-label="Close"
-                      ></button>
-                    </div>
-                    <div className="modal-body">
-                      <ol className="list-group list-group-numbered">
-                        {dataAcuerdos2018
-                          .filter((item) => item.month === mes)
-                          .map(({ id, name, link }) => {
-                            return (
-                              <li
-                                key={id}
-                                className="list-group-item d-flex justify-content-between align-items-start"
-                              >
-                                <div className="ms-2 me-auto">
-                                  <div className="fw-bold"> {name}</div>
-                                </div>
-                                <a href={link} target="_blank" rel="noreferrer">
-                                  <FontAwesomeIcon
-                                    icon={faFilePdf}
-                                    className="btn btn-danger ms-3"
-                                  />
-                                </a>
-                              </li>
-                            );
-                          })}
-                      </ol>
-                    </div>
-                    <div className="modal-footer">
-                      <button
-                        type="button"
-                        className="btn btn-danger"
-                        data-bs-dismiss="modal"
-                      >
-                        Cerrar
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            );
-          })}
-        </div>
-      </div>
-    );
-  }
-}
+  return (
+    <>
+      <TitlePages title="Acuerdos ITE 2018" />
+      <MaterialReactTable
+        columns={columns}
+        data={dataAcuerdos2018}
+        enableExpanding
+        enableExpandAll
+        enableColumnActions={false}
+        enableDensityToggle={false}
+        initialState={{ density: "compact" }}
+        muiTableHeadCellProps={{
+          sx: {
+            backgroundColor: "#972069",
+            color: "#fff",
+          },
+        }}
+        muiTableFooterCellProps={{
+          sx: {
+            backgroundColor: "#972069",
+            color: "#fff",
+          },
+        }}
+        muiTablePaginationProps={{
+          rowsPerPageOptions: [10, 25, 50, 100, 200, 300, 400],
+          labelRowsPerPage: "Filas por página",
+          getItemAriaLabel: (type) => {
+            if (type === "first") {
+              return "inicio";
+            }
+            if (type === "last") {
+              return "fin";
+            }
+            if (type === "next") {
+              return "siguiente";
+            }
+            if (type === "previous") {
+              return "anterior";
+            }
+          },
+          labelDisplayedRows: ({ from, to, count }) =>
+            `${from}-${to} de ${count !== -1 ? count : `${to} para`}`,
+        }}
+        localization={{
+          actions: "Acciones",
+          cancel: "Cancelar",
+          clearFilter: "Limpiar filtro",
+          clearSearch: "Borrar búsqueda",
+          clearSort: "Ordenar claro",
+          columnActions: "Acciones de columna",
+          edit: "Editar",
+          expand: "",
+          expandAll: "Expandir todo",
+          filterByColumn: "{column}",
+          groupByColumn: "Agrupar por {column}",
+          groupedBy: "Agrupados por ",
+          hideAll: "Ocultar todo",
+          hideColumn: "Ocultar columna de {column}",
+          rowActions: "Acciones de fila",
+          save: "Salvar",
+          search: "Búsqueda",
+          selectedCountOfRowCountRowsSelected:
+            "{selectedCount} de {rowCount} fila(s) seleccionadas",
+          showAll: "Mostrar todo",
+          showHideColumns: "Mostrar/Ocultar columnas",
+          showHideFilters: "Alternar filtros",
+          showHideSearch: "Alternar búsqueda",
+          sortByColumnAsc: "Ordenar por {column} ascendente",
+          sortByColumnDesc: "Ordenar por {column} descendiendo",
+          thenBy: ", entonces por ",
+          toggleDensity: "Alternar relleno denso",
+          toggleFullScreen: "Alternar pantalla completa",
+          toggleSelectAll: "Seleccionar todo",
+          toggleSelectRow: "Seleccionar fila",
+          ungroupByColumn: "Desagrupar por {column}",
+        }}
+      />
+    </>
+  );
+};
+export default Acuerdos2018;

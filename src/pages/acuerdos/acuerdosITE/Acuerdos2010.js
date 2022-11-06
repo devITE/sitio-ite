@@ -1,49 +1,32 @@
 import React, { Component } from "react";
-import { dataAcuerdos2010 } from "../../../assets/data/dataAcuerdos";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
-import top2010 from "../../../img/imgA/h_2010.png";
+import Breadcrumbs from "@mui/material/Breadcrumbs";
+import Link from "@mui/material/Link";
+import Typography from "@mui/material/Typography";
+import warning from "../../../assets/img/icons/10.png";
 
 export default class Acuerdos2010 extends Component {
   render() {
     return (
-      <div>
-        <img
-          src={top2010}
-          alt="Acuerdos 2010"
-          className="img-fluid w-100 mb-3"
-        />
-        <table className="table table-hover table-responsive align-middle">
-          <thead className="table-light">
-            <tr>
-              <th scope="col">#</th>
-              <th scope="col">Mes</th>
-              <th scope="col">Acuerdo</th>
-              <th scope="col">File</th>
-            </tr>
-          </thead>
-          <tbody>
-            {dataAcuerdos2010.map((acuerdo) => {
-              return (
-                <tr key={acuerdo.id}>
-                  <th scope="row">{acuerdo.id}</th>
-                  <td>{acuerdo.month}</td>
-                  <td>{acuerdo.name}</td>
-                  <td>
-                    <a
-                      className="btn btn-danger"
-                      href={acuerdo.link}
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <FontAwesomeIcon icon={faFilePdf} />
-                    </a>
-                  </td>
-                </tr>
-              );
-            })}
-          </tbody>
-        </table>
+      <div className="text-center">
+        <img src={warning} className="img-fluid" alt="Warning" />
+        <h4 className="mt-4">
+          Si requiere la información contenida de este acuerdo, favor de
+          solicitarla a través del área de “Transparencia” o para mayor
+          información comunicate con nosotros
+        </h4>
+        <Breadcrumbs separator="›" aria-label="breadcrumb">
+          <Link underline="hover" color="inherit" href="/">
+            MUI
+          </Link>
+          <Link
+            underline="hover"
+            color="inherit"
+            href="/material-ui/getting-started/installation/"
+          >
+            Core
+          </Link>
+          <Typography color="text.primary">Breadcrumbs</Typography>
+        </Breadcrumbs>
       </div>
     );
   }

@@ -1,50 +1,141 @@
-import React, { Component } from "react";
-import { dataAcuerdos2001 } from "../../../assets/data/dataAcuerdos";
+import React, { useMemo } from "react";
+import TitlePages from "../../../layout/TitlePages";
+import MaterialReactTable from "material-react-table";
+import {
+  dataAcuerdos2001,
+  dataAA12001,
+  dataAA22001,
+} from "../../../assets/data/dataAcuerdos";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
-import top2001 from "../../../img/imgA/h_2001.png";
 
-export default class Acuerdos2001 extends Component {
-  render() {
-    return (
-      <div>
-        <img
-          src={top2001}
-          alt="Acuerdos 2001"
-          className="img-fluid w-100 mb-3"
-        />
-        <table className="table table-hover table-responsive align-middle">
-          <thead className="table-light">
-            <tr>
-              <th scope="col">#</th>
-              <th scope="col">Mes</th>
-              <th scope="col">Acuerdo</th>
-              <th scope="col">File</th>
-            </tr>
-          </thead>
-          <tbody>
-            {dataAcuerdos2001.map((acuerdo) => {
-              return (
-                <tr key={acuerdo.id}>
-                  <th scope="row">{acuerdo.id}</th>
-                  <td>{acuerdo.month}</td>
-                  <td>{acuerdo.name}</td>
-                  <td>
-                    <a
-                      className="btn btn-danger"
-                      href={acuerdo.link}
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <FontAwesomeIcon icon={faFilePdf} />
-                    </a>
-                  </td>
-                </tr>
-              );
-            })}
-          </tbody>
-        </table>
-      </div>
-    );
-  }
-}
+const Acuerdos2001 = () => {
+  const columns = useMemo(
+    () => [
+      {
+        accessorKey: "dateDoc",
+        header: "FECHA",
+      },
+      {
+        accessorFn: (row) => `${row.typeDoc} ${row.nameDoc}`,
+        id: "titulo",
+        header: "TÍTULO",
+      },
+      {
+        id: "pdf",
+        header: "",
+        Cell: ({ row }) =>
+          row.original.link === "" ? (
+            <span></span>
+          ) : (
+            <a href={row.original.link} target="_blank" rel="noreferrer">
+              <FontAwesomeIcon icon={faFilePdf} className="btn btn-danger" />
+            </a>
+          ),
+      },
+    ],
+    []
+  );
+
+  const columnsAA1 = useMemo(
+    () => [
+      {
+        accessorKey: "nameMunicipio",
+        header: "MUNICIPIO",
+      },
+      {
+        id: "pdf",
+        header: "",
+        Cell: ({ row }) =>
+          row.original.link === "" ? (
+            <span></span>
+          ) : (
+            <a href={row.original.link} target="_blank" rel="noreferrer">
+              <FontAwesomeIcon icon={faFilePdf} className="btn btn-danger" />
+            </a>
+          ),
+      },
+    ],
+    []
+  );
+
+  const columnsAA2 = useMemo(
+    () => [
+      {
+        accessorKey: "dateAcuerdo",
+        header: "FECHA",
+      },
+      {
+        accessorKey: "nameDoc",
+        header: "TÍTULO",
+      },
+      {
+        id: "pdf",
+        header: "",
+        Cell: ({ row }) =>
+          row.original.link === "" ? (
+            <span></span>
+          ) : (
+            <a href={row.original.link} target="_blank" rel="noreferrer">
+              <FontAwesomeIcon icon={faFilePdf} className="btn btn-danger" />
+            </a>
+          ),
+      },
+    ],
+    []
+  );
+  return (
+    <>
+      <TitlePages title="Acuerdos ITE 2001" />
+      <MaterialReactTable
+        columns={columns}
+        data={dataAcuerdos2001}
+        enableTopToolbar={false}
+        enableBottomToolbar={false}
+        enableColumnActions={false}
+        enableDensityToggle={false}
+        initialState={{ density: "compact" }}
+        muiTableHeadCellProps={{
+          sx: {
+            backgroundColor: "#972069",
+            color: "#fff",
+          },
+        }}
+      />
+      <TitlePages title="Ayuntamientos 10/Nov/2001" />
+      <MaterialReactTable
+        columns={columnsAA1}
+        data={dataAA12001}
+        enableTopToolbar={false}
+        enableBottomToolbar={false}
+        enableColumnActions={false}
+        enableDensityToggle={false}
+        initialState={{ density: "compact" }}
+        muiTableHeadCellProps={{
+          sx: {
+            backgroundColor: "#972069",
+            color: "#fff",
+          },
+        }}
+      />
+
+      <TitlePages title="Ayuntamientos Dic-2001" />
+      <MaterialReactTable
+        columns={columnsAA2}
+        data={dataAA22001}
+        enableTopToolbar={false}
+        enableBottomToolbar={false}
+        enableColumnActions={false}
+        enableDensityToggle={false}
+        initialState={{ density: "compact" }}
+        muiTableHeadCellProps={{
+          sx: {
+            backgroundColor: "#972069",
+            color: "#fff",
+          },
+        }}
+      />
+    </>
+  );
+};
+export default Acuerdos2001;

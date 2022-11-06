@@ -9,7 +9,7 @@ import {
 
 import "../Transparencia.css";
 
-const Transparencia_imppath = require.context("../../../img/imgT");
+const Transparencia_imppath = require.context("../../../assets/img/imgT");
 
 export default class POA extends Component {
   render() {
