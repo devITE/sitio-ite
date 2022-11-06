@@ -118,7 +118,12 @@ import PreguntasFrecuentes from "./pages/transparencia/PreguntasFrecuentes";
 import DatosAbiertos from "./pages/transparencia/DatosAbiertos";
 
 import ComunicacionSocial from "./pages/ComunicacionSocial";
-import CulturaCivica from "./pages/CulturaCivica";
+import CulturaCivica from "./pages/culturaCivica/CulturaCivica";
+import ActividadesLudicas from "./pages/culturaCivica/ActividadesLudicas";
+import EleccionesEscolares from "./pages/culturaCivica/EleccionesEscolares";
+import ParlamentoInfantil from "./pages/culturaCivica/ParlamentoInfantil";
+import ParlamentoJuvenil from "./pages/culturaCivica/ParlamentoJuvenil";
+import ValoresDemocracia from "./pages/culturaCivica/ValoresDemocracia";
 
 function App() {
   return (
@@ -257,6 +262,14 @@ function App() {
 
           <Route path="/ComunicacionSocial" element={<ComunicacionSocial />} />
           <Route path="/CulturaCivica" element={<CulturaCivica />} />
+          <Route path="/ActividadesLudicas" element={<ActividadesLudicas />} />
+          <Route
+            path="/EleccionesEscolares"
+            element={<EleccionesEscolares />}
+          />
+          <Route path="/ParlamentoInfantil" element={<ParlamentoInfantil />} />
+          <Route path="/ParlamentoJuvenil" element={<ParlamentoJuvenil />} />
+          <Route path="/ValoresDemocracia" element={<ValoresDemocracia />} />
         </Routes>
       </div>
       <Footer></Footer>
