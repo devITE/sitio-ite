@@ -8,6 +8,7 @@ const TitlePages = (props) => {
         <img src={iteIcon} alt="ITE ICON" className="img-fluid" />
         {props.title}
       </div>
+      <hr className="hr-bottom" />
     </div>
   );
 };

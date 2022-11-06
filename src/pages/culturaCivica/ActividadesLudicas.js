@@ -1,55 +1,104 @@
 import React, { Component } from "react";
-import imagenes from "../../img/imgcivica/cultura_civica.png";
-import imagenes1 from "../../img/imgcivica/logo.png";
-import imagenes2 from "../../img/imgcivica/act_ludicas1.jpg";
-import imagenes3 from "../../img/imgcivica/act_ludicas2.jpg";
-import imagenes4 from "../../img/imgcivica/act_ludicas3.jpg";
-import imagenes5 from "../../img/imgcivica/act_ludicas4.jpg";
-import imagenes6 from "../../img/imgcivica/game1.jpg";
-import imagenes7 from "../../img/imgcivica/game2.jpg";
-import imagenes8 from "../../img/imgcivica/game3.jpg";
-import imagenes9 from "../../img/imgcivica/game4.jpg";
+import TitlePages from "../../layout/TitlePages";
+import ModalIMG from "../../layout/ModalIMG";
+
+const CulturaCivica__path = require.context("../../assets");
 
 export default class ActividadesLudicas extends Component {
   render() {
-    return <div>
-<img src={imagenes} className="img-fluid w-100" alt="Actividades lúdicas" />
-        <hr className="borde" />
-        <img src={imagenes1} className="img-fluid style-ec" alt="Actividades lúdicas logo" />
-        <h2 className="element-style">
-          Actividades lúdicas
-        </h2>
-        <br /><br />
-        <div className="PRUEBA">
-        <a
-                  href={imagenes6}
-                  target="_blank"
-                  rel="noreferrer"
-                >
-        <img src={imagenes2} className="img-fluid w-100" alt="Mi Estado, Mi distrito" />
-        </a>
-        <a
-                  href={imagenes7}
-                  target="_blank"
-                  rel="noreferrer"
-                >
-        <img src={imagenes3} className="img-fluid w-100" alt="Mi Estado, Mi distrito" />
-        </a>
-        <a
-                  href={imagenes8}
-                  target="_blank"
-                  rel="noreferrer"
-                >
-        <img src={imagenes4} className="img-fluid w-100" alt="Mi Estado, Mi distrito" />
-        </a>
-        <a
-                  href={imagenes9}
-                  target="_blank"
-                  rel="noreferrer"
-                >
-        <img src={imagenes5} className="img-fluid w-100" alt="Mi Estado, Mi distrito" />
-        </a>
+    return (
+      <>
+        <TitlePages title="Cultura Cívica" />
+        <div className="w-100 d-flex justify-content-center align-items-center">
+          <img
+            src={CulturaCivica__path(`./img/imgcivica/logo.png`)}
+            className="img-fluid h-25"
+            alt="Actividades Lúdicas"
+          />
+          <h1>Actividades Lúdicas</h1>
         </div>
-    </div>;
+        <br />
+        <br />
+        <div className="Grid__four">
+          <div>
+            <a
+              href="/#"
+              rel="noreferrer"
+              data-bs-toggle="modal"
+              data-bs-target="#Juego1"
+            >
+              <img
+                src={CulturaCivica__path(`./img/imgcivica/game1.jpg`)}
+                className="img-fluid"
+                alt="Mi Estado, Mi distrito Local, Mi Municipio"
+              />
+            </a>
+          </div>
+          <div>
+            <a
+              href="/#"
+              rel="noreferrer"
+              data-bs-toggle="modal"
+              data-bs-target="#Juego2"
+            >
+              <img
+                src={CulturaCivica__path(`./img/imgcivica/game2.jpg`)}
+                className="img-fluid"
+                alt="Serpientes y Escaleras"
+              />
+            </a>
+          </div>
+          <div>
+            <a
+              href="/#"
+              rel="noreferrer"
+              data-bs-toggle="modal"
+              data-bs-target="#Juego3"
+            >
+              <img
+                src={CulturaCivica__path(`./img/imgcivica/game3.jpg`)}
+                className="img-fluid"
+                alt="Sopa de letras, Valores de la democracia"
+              />
+            </a>
+          </div>
+          <div>
+            <a
+              href="/#"
+              rel="noreferrer"
+              data-bs-toggle="modal"
+              data-bs-target="#Juego4"
+            >
+              <img
+                src={CulturaCivica__path(`./img/imgcivica/game4.jpg`)}
+                className="img-fluid"
+                alt="Crucigrama democrático"
+              />
+            </a>
+          </div>
+        </div>
+        {/* Modal */}
+        <ModalIMG
+          idModal="Juego1"
+          linkIMG={CulturaCivica__path(`./img/imgcivica/game1.jpg`)}
+          altIMG="Mi estado, mi distrito local, mi municipio"
+        />
+        <ModalIMG
+          idModal="Juego2"
+          linkIMG={CulturaCivica__path(`./img/imgcivica/game2.jpg`)}
+          altIMG="Serpientes y escaleras"
+        />
+        <ModalIMG
+          idModal="Juego3"
+          linkIMG={CulturaCivica__path(`./img/imgcivica/game3.jpg`)}
+          altIMG="Sopa de letras, valores de la democracia"
+        />
+        <ModalIMG
+          idModal="Juego4"
+          linkIMG={CulturaCivica__path(`./img/imgcivica/game4.jpg`)}
+          altIMG="Crucigrama democráctico"
+        />
+      </>
+    );
   }
 }
