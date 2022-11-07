@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import "./Enlaces.css";
 
-const Enlaces_imgpath = require.context("./img");
+const Enlaces_imgpath = require.context("../../../assets/img/icons");
 
 export default class Enlaces extends Component {
   render() {
@@ -17,11 +17,13 @@ export default class Enlaces extends Component {
             />
           </div>
           <div className="col col-sm-3 col-md-3 col-md-3">
-            <img
-              src={Enlaces_imgpath(`./${"e2.png"}`)}
-              alt="Normatividad"
-              className="img-fluid shadow rounded-4"
-            />
+            <Link to="/Normatividad">
+              <img
+                src={Enlaces_imgpath(`./${"e2.png"}`)}
+                alt="Normatividad"
+                className="img-fluid shadow rounded-4"
+              />
+            </Link>
           </div>
           <div className="col col-sm-3 col-md-3 col-md-3">
             <img
@@ -31,11 +33,13 @@ export default class Enlaces extends Component {
             />
           </div>
           <div className="col col-sm-3 col-md-3 col-md-3">
-            <img
-              src={Enlaces_imgpath(`./${"e4.png"}`)}
-              alt="Órgano Interno de Control"
-              className="img-fluid shadow rounded-4"
-            />
+            <Link to="/OIC">
+              <img
+                src={Enlaces_imgpath(`./${"e4.png"}`)}
+                alt="Órgano Interno de Control"
+                className="img-fluid shadow rounded-4"
+              />
+            </Link>
           </div>
         </div>
         <div className="row mt-2">
@@ -47,11 +51,13 @@ export default class Enlaces extends Component {
             />
           </div>
           <div className="col col-sm-3 col-md-3 col-md-3">
-            <img
-              src={Enlaces_imgpath(`./${"e6.png"}`)}
-              alt=" Infografías"
-              className="img-fluid shadow rounded-4"
-            />
+            <Link to="/Infografias">
+              <img
+                src={Enlaces_imgpath(`./${"e6.png"}`)}
+                alt=" Infografías"
+                className="img-fluid shadow rounded-4"
+              />
+            </Link>
           </div>
           <div className="col col-sm-3 col-md-3 col-md-3">
             <Link to="/MemoriasElectorales">
@@ -63,11 +69,13 @@ export default class Enlaces extends Component {
             </Link>
           </div>
           <div className="col col-sm-3 col-md-3 col-md-3">
-            <img
-              src={Enlaces_imgpath(`./${"e8.png"}`)}
-              alt="Metas MSPEN"
-              className="img-fluid shadow rounded-4"
-            />
+            <Link to="/MetasSPEN">
+              <img
+                src={Enlaces_imgpath(`./${"e8.png"}`)}
+                alt="Metas MSPEN"
+                className="img-fluid shadow rounded-4"
+              />
+            </Link>
           </div>
         </div>
         <div className="row mt-2">

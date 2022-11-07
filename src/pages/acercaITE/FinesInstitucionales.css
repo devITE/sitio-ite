@@ -1,28 +1,14 @@
-.borde {
-  border-bottom-style: dotted;
-  border-bottom-color: #AA0787;
-  border-bottom-width: 4px;
-  border-top: none;
-  opacity: 1;
-}
-.style_letter{
+.style_letter {
   margin-bottom: 1.1rem;
   font-weight: 100;
   line-height: 1.1;
   font-size: 1.4rem;
 }
-.style_romano{
+.style_romano {
   font-size: 1.2rem;
   margin-bottom: 1.3rem;
   line-height: 0.8;
-
 }
-/* .romanos_upper {
-  list-style-type: upper-roman;
-  color: #AA0787;
-  margin-right: 35px;
-  margin-left: 35px;
-} */
 
 .row {
   display: flex;
@@ -42,11 +28,10 @@
   border-bottom-width: 0;
   border-left: 1.3rem;
   border-style: solid;
-  border-left-color: #AA0787;
+  border-left-color: #aa0787;
   margin-top: 10px;
   padding: 1rem 8rem 1rem 1rem;
   text-align: justify;
-
 }
 
 .text-apartados {
@@ -60,7 +45,7 @@
 }
 
 .red-text {
-  color: #AA0787;
+  color: #aa0787;
 }
 
 .estilo {
@@ -69,20 +54,95 @@
   display: line;
   align-items: center;
 }
-.style{
-  margin-bottom:2rem;
+.style {
+  margin-bottom: 2rem;
 }
-.PRUEBA{
+.PRUEBA {
   display: grid;
-  grid-template-columns:auto auto auto auto;
+  grid-template-columns: auto auto auto auto;
   gap: 45px;
   padding: 0px 30px;
 }
-.Integracion__item{
-border-radius: 10px;
-box-shadow: 5px 5px 5px #a0a0a0;
+.Integracion__item {
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px #a0a0a0;
 }
-.Integracion__item:hover{
-  transition: .5s;
+.Integracion__item:hover {
+  transition: 0.5s;
   transform: scale(1.03);
+}
+.morado {
+  font-weight: bold;
+  color: #aa0787;
+}
+.acuerdos {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  gap: 45px;
+  padding: 0px 30px;
+}
+.Demarcaciones__item:hover {
+  transition: 0.2s;
+  transform: scale(1.25);
+}
+.mapas {
+  display: grid;
+  grid-template-columns: auto;
+  gap: 45px;
+  padding: 0px 100px;
+}
+.mapas:hover {
+  transition: 0.1s;
+  transform: scale(1.03);
+}
+.subtitle {
+  color: #ba1678;
+  font-size: 2rem;
+  display: block;
+  margin-left: 2rem;
+  margin-bottom: 0rem;
+}
+.estilos-cintillo {
+  background: #aa0787;
+  color: #fff;
+  padding: 0.5rem;
+  font-family: "Segoe UI Light";
+  margin-top: 1.5rem;
+  margin-bottom: 3rem;
+}
+.educacion-civica {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 45px;
+  padding: 0px 30px;
+}
+.style-ec {
+  width: 25%;
+  height: 10rem;
+  display: inline-block;
+}
+.element-style {
+  display: inline-block;
+  color: #aa0787;
+  font-size: 2.8rem;
+  font-weight: bold;
+}
+.imagen-escolares {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 200px;
+  padding: 0px 30px;
+}
+.pink-text {
+  color: #aa0787;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+.pink-text2 {
+  color: #aa0787;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.espacio {
+  line-height: 2.2rem;
 }

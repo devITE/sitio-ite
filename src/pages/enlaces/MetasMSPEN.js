@@ -1,15 +1,14 @@
 import React, { Component } from "react";
-import ListBadgePDF from "../../layout/ListBadge/ListBadgePDF";
+import ListBadge from "../../layout/ListBadge";
 import NavbarEnlaces from "../../layout/NavbarEnlaces";
-import { dataMSPEN } from "../../assets/data/dataTransparenciaMSPEN";
+import { dataMSPEN } from "../../assets/data/dataMSPEN";
 
 export default class MetasMSPEN extends Component {
   render() {
     return (
-      <div className="mb-5">
-        <NavbarEnlaces />
-        <div className="Enlances__title">Metas MSPEN</div>
-        <div className="accordion accordion-flush mt-3" id="metasMSPEN">
+      <>
+        <NavbarEnlaces title="Metas MSPEN" />
+        <div className="accordion accordion-flush" id="metasMSPEN">
           {dataMSPEN.map((accordionsItem) => (
             <div key={accordionsItem.id} className="accordion-item">
               <h2 className="accordion-header">
@@ -30,7 +29,7 @@ export default class MetasMSPEN extends Component {
                 data-bs-parent="#metasMSPEN"
               >
                 <div className="accordion-body">
-                  <ListBadgePDF
+                  <ListBadge
                     ifNumbered={""}
                     listsBadgeItem={accordionsItem.children}
                   />
@@ -39,7 +38,7 @@ export default class MetasMSPEN extends Component {
             </div>
           ))}
         </div>
-      </div>
+      </>
     );
   }
 }

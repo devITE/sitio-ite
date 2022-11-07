@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router-dom";
-import logo from "../img/logoite.svg";
+import logo from "../assets/img/logoite.svg";
 
 import {
   faYoutube,

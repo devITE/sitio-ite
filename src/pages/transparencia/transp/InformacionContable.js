@@ -9,7 +9,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import "../Transparencia.css";
 
-const Transparencia_imppath = require.context("../../../img/imgT");
+const Transparencia_imppath = require.context("../../../assets/img/imgT");
 const Transparencia_pdfpath = require.context(
   "../../../assets/pdf/transparencia/infContable"
 );

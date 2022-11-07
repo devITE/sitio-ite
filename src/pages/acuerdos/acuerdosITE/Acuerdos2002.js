@@ -1,38 +1,65 @@
 import React, { useMemo } from "react";
+import TitlePages from "../../../layout/TitlePages";
 import MaterialReactTable from "material-react-table";
+import { MenuItem, TextField } from "@mui/material";
 import {
   dataAcuerdos2002,
   dataAA2002,
 } from "../../../assets/data/dataAcuerdos";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
-import top2002 from "../../../img/imgA/h_2002.png";
-import top2002_AA from "../../../img/imgA/h_2002_AA.png";
 
 const Acuerdos2002 = () => {
   const columns = useMemo(
     () => [
       {
-        accessorKey: "dateAcuerdo",
+        accessorKey: "monthDoc",
+        header: "MES",
+        footer: "MES",
+        Filter: ({ header }) => (
+          <TextField
+            onChange={(e) =>
+              header.column.setFilterValue(e.target.value || undefined)
+            }
+            select
+            value={header.column.getFilterValue() ?? ""}
+            margin="none"
+            placeholder="Filter"
+            variant="standard"
+            fullWidth
+          >
+            <MenuItem value={null}>Todos</MenuItem>
+            <MenuItem value="ENE">Enero</MenuItem>
+            <MenuItem value="FEB">Febrero</MenuItem>
+            <MenuItem value="MAR">Marzo</MenuItem>
+            <MenuItem value="ABR">Abril</MenuItem>
+            <MenuItem value="MAY">Mayo</MenuItem>
+            <MenuItem value="JUN">Junio</MenuItem>
+            <MenuItem value="JUL">Julio</MenuItem>
+            <MenuItem value="AGO">Agosto</MenuItem>
+            <MenuItem value="SEP">Septiembre</MenuItem>
+            <MenuItem value="OCT">Octubre</MenuItem>
+            <MenuItem value="NOV">Noviembre</MenuItem>
+            <MenuItem value="DIC">Diciembre</MenuItem>
+          </TextField>
+        ),
+      },
+      {
+        accessorKey: "dateDoc",
         header: "FECHA",
         footer: "FECHA",
-        size: 110,
-        enableResizing: false,
         enableColumnFilter: false,
       },
       {
-        accessorKey: "nameAcuerdo",
+        accessorFn: (row) => `${row.typeDoc} ${row.nameDoc}`,
+        id: "titulo",
         header: "TÍTULO",
         footer: "TÍTULO",
-        size: 320,
-        enableResizing: false,
       },
       {
         id: "pdf",
         header: "",
         footer: "",
-        size: 50,
-        enableResizing: false,
         enableColumnFilters: false,
         Cell: ({ row }) =>
           row.original.link === "" ? (
@@ -50,26 +77,49 @@ const Acuerdos2002 = () => {
   const columnsAA = useMemo(
     () => [
       {
-        accessorKey: "dateAcuerdo",
+        accessorKey: "monthDoc",
+        header: "MES",
+        Filter: ({ header }) => (
+          <TextField
+            onChange={(e) =>
+              header.column.setFilterValue(e.target.value || undefined)
+            }
+            select
+            value={header.column.getFilterValue() ?? ""}
+            margin="none"
+            placeholder="Filter"
+            variant="standard"
+            fullWidth
+          >
+            <MenuItem value={null}>Todos</MenuItem>
+            <MenuItem value="ENE">Enero</MenuItem>
+            <MenuItem value="FEB">Febrero</MenuItem>
+            <MenuItem value="MAR">Marzo</MenuItem>
+            <MenuItem value="ABR">Abril</MenuItem>
+            <MenuItem value="MAY">Mayo</MenuItem>
+            <MenuItem value="JUN">Junio</MenuItem>
+            <MenuItem value="JUL">Julio</MenuItem>
+            <MenuItem value="AGO">Agosto</MenuItem>
+            <MenuItem value="SEP">Septiembre</MenuItem>
+            <MenuItem value="OCT">Octubre</MenuItem>
+            <MenuItem value="NOV">Noviembre</MenuItem>
+            <MenuItem value="DIC">Diciembre</MenuItem>
+          </TextField>
+        ),
+      },
+      {
+        accessorKey: "dateDoc",
         header: "FECHA",
-        footer: "FECHA",
-        size: 110,
-        enableResizing: false,
         enableColumnFilter: false,
       },
       {
-        accessorKey: "nameAcuerdo",
+        accessorFn: (row) => `${row.typeDoc} ${row.nameDoc}`,
+        id: "titulo",
         header: "TÍTULO",
-        footer: "TÍTULO",
-        size: 320,
-        enableResizing: false,
       },
       {
         id: "pdf",
         header: "",
-        footer: "",
-        size: 50,
-        enableResizing: false,
         enableColumnFilters: false,
         Cell: ({ row }) =>
           row.original.link === "" ? (
@@ -83,14 +133,16 @@ const Acuerdos2002 = () => {
     ],
     []
   );
+
   return (
-    <div>
-      <img src={top2002} alt="Acuerdos 2002" className="img-fluid w-100 mb-3" />
+    <>
+      <TitlePages title="Acuerdos ITE 2002" />
       <MaterialReactTable
         columns={columns}
         data={dataAcuerdos2002}
+        enableExpanding
+        enableExpandAll={false}
         enableColumnActions={false}
-        enableColumnResizing
         enableDensityToggle={false}
         initialState={{ density: "compact" }}
         muiTableHeadCellProps={{
@@ -104,26 +156,6 @@ const Acuerdos2002 = () => {
             backgroundColor: "#972069",
             color: "#fff",
           },
-        }}
-        muiTablePaginationProps={{
-          rowsPerPageOptions: [10, 25, 50],
-          labelRowsPerPage: "Filas por página",
-          getItemAriaLabel: (type) => {
-            if (type === "first") {
-              return "inicio";
-            }
-            if (type === "last") {
-              return "fin";
-            }
-            if (type === "next") {
-              return "siguiente";
-            }
-            if (type === "previous") {
-              return "anterior";
-            }
-          },
-          labelDisplayedRows: ({ from, to, count }) =>
-            `${from}-${to} de ${count !== -1 ? count : `${to} para`}`,
         }}
         localization={{
           actions: "Acciones",
@@ -159,17 +191,13 @@ const Acuerdos2002 = () => {
           ungroupByColumn: "Desagrupar por {column}",
         }}
       />
-      <hr />
-      <img
-        src={top2002_AA}
-        alt="Acuerdos Aprobados 2002"
-        className="img-fluid w-100 mb-3"
-      />
+      <TitlePages title="Acuerdos ITE Aprobados 2002" />
       <MaterialReactTable
         columns={columnsAA}
         data={dataAA2002}
+        enablePagination={false}
+        enableTopToolbar={false}
         enableColumnActions={false}
-        enableColumnResizing
         enableDensityToggle={false}
         initialState={{ density: "compact" }}
         muiTableHeadCellProps={{
@@ -178,67 +206,8 @@ const Acuerdos2002 = () => {
             color: "#fff",
           },
         }}
-        muiTableFooterCellProps={{
-          sx: {
-            backgroundColor: "#972069",
-            color: "#fff",
-          },
-        }}
-        muiTablePaginationProps={{
-          rowsPerPageOptions: [10, 25, 50],
-          labelRowsPerPage: "Filas por página",
-          getItemAriaLabel: (type) => {
-            if (type === "first") {
-              return "inicio";
-            }
-            if (type === "last") {
-              return "fin";
-            }
-            if (type === "next") {
-              return "siguiente";
-            }
-            if (type === "previous") {
-              return "anterior";
-            }
-          },
-          labelDisplayedRows: ({ from, to, count }) =>
-            `${from}-${to} de ${count !== -1 ? count : `${to} para`}`,
-        }}
-        localization={{
-          actions: "Acciones",
-          cancel: "Cancelar",
-          clearFilter: "Limpiar filtro",
-          clearSearch: "Borrar búsqueda",
-          clearSort: "Ordenar claro",
-          columnActions: "Acciones de columna",
-          edit: "Editar",
-          expand: "",
-          expandAll: "Expandir todo",
-          filterByColumn: "{column}",
-          groupByColumn: "Agrupar por {column}",
-          groupedBy: "Agrupados por ",
-          hideAll: "Ocultar todo",
-          hideColumn: "Ocultar columna de {column}",
-          rowActions: "Acciones de fila",
-          save: "Salvar",
-          search: "Búsqueda",
-          selectedCountOfRowCountRowsSelected:
-            "{selectedCount} de {rowCount} fila(s) seleccionadas",
-          showAll: "Mostrar todo",
-          showHideColumns: "Mostrar/Ocultar columnas",
-          showHideFilters: "Alternar filtros",
-          showHideSearch: "Alternar búsqueda",
-          sortByColumnAsc: "Ordenar por {column} ascendente",
-          sortByColumnDesc: "Ordenar por {column} descendiendo",
-          thenBy: ", entonces por ",
-          toggleDensity: "Alternar relleno denso",
-          toggleFullScreen: "Alternar pantalla completa",
-          toggleSelectAll: "Seleccionar todo",
-          toggleSelectRow: "Seleccionar fila",
-          ungroupByColumn: "Desagrupar por {column}",
-        }}
       />
-    </div>
+    </>
   );
 };
 export default Acuerdos2002;

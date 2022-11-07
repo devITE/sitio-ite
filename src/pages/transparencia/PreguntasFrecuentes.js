@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./Transparencia.css";
 
-const Transparencia_imppath = require.context("../../img/imgT");
+const Transparencia_imppath = require.context("../../assets/img/imgT");
 
 export default class PreguntasFrecuentes extends Component {
   render() {

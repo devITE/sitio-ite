@@ -1,9 +1,9 @@
 import React, { Component } from "react";
-import ListBadgePDF from "../../../layout/ListBadge/ListBadgePDF";
+import ListBadge from "../../../layout/ListBadge";
 import { dataAvisosPrivacidad } from "../../../assets/data/dataTransparenciaAvisosPrivacidad";
 import "../Transparencia.css";
 
-const Transparencia_imppath = require.context("../../../img/imgT");
+const Transparencia_imppath = require.context("../../../assets/img/imgT");
 
 export default class AvisosPrivacidad extends Component {
   render() {
@@ -38,7 +38,7 @@ export default class AvisosPrivacidad extends Component {
                 data-bs-parent="#aaaa"
               >
                 <div className="accordion-body">
-                  <ListBadgePDF
+                  <ListBadge
                     ifNumbered={""}
                     listsBadgeItem={accordionsItem.children}
                   />

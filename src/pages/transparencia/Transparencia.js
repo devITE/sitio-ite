@@ -1,24 +1,21 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { Component } from "react";
+import TitlePages from "../../layout/TitlePages";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
 import "./Transparencia.css";
 
 const Transparencia_pdfpath = require.context("../../assets/pdf/transparencia");
-const Transparencia_imppath = require.context("../../img/imgT");
-const icons_imgpath = require.context("../../img/icons");
+const Transparencia_imppath = require.context("../../assets/img/imgT");
+const icons_imgpath = require.context("../../assets/img/icons");
 
 export default class Transparencia extends Component {
   render() {
     return (
-      <div>
-        <img
-          className="img-fluid w-100"
-          src={Transparencia_imppath(`./head.png`)}
-          alt="Transparencia"
-        />
-        <div className="w-100 mt-3 Transparencia__contenido">
+      <>
+        <TitlePages title="Transparencia" />
+        <div className="w-100 mt-3 Content__grid">
           <div>
             <Link to="/Articulo63">
               <img
@@ -303,7 +300,7 @@ export default class Transparencia extends Component {
             />
           </a>
         </div>
-      </div>
+      </>
     );
   }
 }

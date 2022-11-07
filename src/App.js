@@ -9,6 +9,21 @@ import Home from "./pages/index/Home";
 import Footer from "./layout/Footer";
 
 //Enlaces
+import ProcesosElectorales from "./pages/enlaces/ProcesosElectorales/ProcesosElectorales";
+import HistorialPE from "./pages/enlaces/ProcesosElectorales/HistorialPE";
+import PE20152016 from "./pages/enlaces/ProcesosElectorales/PE20152016";
+import PEE2017 from "./pages/enlaces/ProcesosElectorales/PEE2017";
+import PE2018 from "./pages/enlaces/ProcesosElectorales/PE2018";
+import PE20202021 from "./pages/enlaces/ProcesosElectorales/PE20202021";
+import Normatividad from "./pages/enlaces/Normatividad";
+import Galeria from "./pages/enlaces/Galeria/Galeria";
+import Galeria2016 from "./pages/enlaces/Galeria/Galeria2016";
+import Galeria2017 from "./pages/enlaces/Galeria/Galeria2017";
+import Galeria2018 from "./pages/enlaces/Galeria/Galeria2018";
+
+import OIC from "./pages/enlaces/OIC/OIC";
+import GaleriaOIC from "./pages/enlaces/OIC/GaleriaOIC";
+import Infografias from "./pages/enlaces/Infografias";
 import MemoriasElectorales from "./pages/enlaces/MemoriasElectorales";
 import MetasMSPEN from "./pages/enlaces/MetasMSPEN";
 import PartidosPoliticos from "./pages/enlaces/PartidosPoliticos";
@@ -32,7 +47,6 @@ import AcuerdosINE2016 from "./pages/acuerdos/acuerdosINE/AcuerdosINE2016";
 import AcuerdosINE2020 from "./pages/acuerdos/acuerdosINE/AcuerdosINE2020";
 import AcuerdosINE2021 from "./pages/acuerdos/acuerdosINE/AcuerdosINE2021";
 import AcuerdosINE2022 from "./pages/acuerdos/acuerdosINE/AcuerdosINE2022";
-import AcuerdosINE2023 from "./pages/acuerdos/acuerdosINE/AcuerdosINE2023";
 
 //Acuerdos ITE
 import AcuerdosAnteriores from "./pages/acuerdos/AcuerdosAnteriores";
@@ -59,7 +73,6 @@ import Acuerdos2019 from "./pages/acuerdos/acuerdosITE/Acuerdos2019";
 import Acuerdos2020 from "./pages/acuerdos/acuerdosITE/Acuerdos2020";
 import Acuerdos2021 from "./pages/acuerdos/acuerdosITE/Acuerdos2021";
 import Acuerdos2022 from "./pages/acuerdos/acuerdosITE/Acuerdos2022";
-import Acuerdos2023 from "./pages/acuerdos/acuerdosITE/Acuerdos2023";
 
 //Demarcaciones
 import Acuerdos from "./pages/demarcaciones/Acuerdos";
@@ -101,12 +114,16 @@ import POA from "./pages/transparencia/transp/POA";
 import InformacionFinanciera from "./pages/transparencia/transp/InformacionFinanciera";
 import InformacionContable from "./pages/transparencia/transp/InformacionContable";
 
-import Infografias from "./pages/transparencia/Infografias";
 import PreguntasFrecuentes from "./pages/transparencia/PreguntasFrecuentes";
 import DatosAbiertos from "./pages/transparencia/DatosAbiertos";
 
 import ComunicacionSocial from "./pages/ComunicacionSocial";
-import CulturaCivica from "./pages/CulturaCivica";
+import CulturaCivica from "./pages/culturaCivica/CulturaCivica";
+import ActividadesLudicas from "./pages/culturaCivica/ActividadesLudicas";
+import EleccionesEscolares from "./pages/culturaCivica/EleccionesEscolares";
+import ParlamentoInfantil from "./pages/culturaCivica/ParlamentoInfantil";
+import ParlamentoJuvenil from "./pages/culturaCivica/ParlamentoJuvenil";
+import ValoresDemocracia from "./pages/culturaCivica/ValoresDemocracia";
 
 function App() {
   return (
@@ -118,6 +135,23 @@ function App() {
           <Route exact path="/" element={<Home />} />
 
           {/* Enlaces */}
+          <Route
+            path="/ProcesosElectorales"
+            element={<ProcesosElectorales />}
+          />
+          <Route path="/PE20152016" element={<PE20152016 />} />
+          <Route path="/PEE2017" element={<PEE2017 />} />
+          <Route path="/PE2018" element={<PE2018 />} />
+          <Route path="/PE20202021" element={<PE20202021 />} />
+          <Route path="/HistorialPE" element={<HistorialPE />} />
+          <Route path="/Normatividad" element={<Normatividad />} />
+          <Route path="/Galeria" element={<Galeria />} />
+          <Route path="/Galeria2016" element={<Galeria2016 />} />
+          <Route path="/Galeria2017" element={<Galeria2017 />} />
+          <Route path="/Galeria2018" element={<Galeria2018 />} />
+          <Route path="/OIC" element={<OIC />} />
+          <Route path="/GaleriaOIC" element={<GaleriaOIC />} />
+          <Route path="/Infografias" element={<Infografias />} />
           <Route
             path="/MemoriasElectorales"
             element={<MemoriasElectorales />}
@@ -166,7 +200,6 @@ function App() {
           <Route path="/Acuerdos2020" element={<Acuerdos2020 />} />
           <Route path="/Acuerdos2021" element={<Acuerdos2021 />} />
           <Route path="/Acuerdos2022" element={<Acuerdos2022 />} />
-          <Route path="/Acuerdos2023" element={<Acuerdos2023 />} />
 
           {/* Acuerdos INE */}
           <Route path="/AcuerdosINE2015" element={<AcuerdosINE2015 />} />
@@ -174,7 +207,6 @@ function App() {
           <Route path="/AcuerdosINE2020" element={<AcuerdosINE2020 />} />
           <Route path="/AcuerdosINE2021" element={<AcuerdosINE2021 />} />
           <Route path="/AcuerdosINE2022" element={<AcuerdosINE2022 />} />
-          <Route path="/AcuerdosINE2023" element={<AcuerdosINE2023 />} />
 
           {/* Demarcaciones */}
           <Route path="/Acuerdos" element={<Acuerdos />} />
@@ -230,6 +262,14 @@ function App() {
 
           <Route path="/ComunicacionSocial" element={<ComunicacionSocial />} />
           <Route path="/CulturaCivica" element={<CulturaCivica />} />
+          <Route path="/ActividadesLudicas" element={<ActividadesLudicas />} />
+          <Route
+            path="/EleccionesEscolares"
+            element={<EleccionesEscolares />}
+          />
+          <Route path="/ParlamentoInfantil" element={<ParlamentoInfantil />} />
+          <Route path="/ParlamentoJuvenil" element={<ParlamentoJuvenil />} />
+          <Route path="/ValoresDemocracia" element={<ValoresDemocracia />} />
         </Routes>
       </div>
       <Footer></Footer>
