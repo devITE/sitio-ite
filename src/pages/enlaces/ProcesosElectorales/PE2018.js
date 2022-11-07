@@ -98,6 +98,7 @@ export default class PE2018 extends Component {
         <Modal
           idModal="ResultadosElectorales2018"
           titleModal="Resultados Electorales 2018"
+          sizeModal=""
           contentModal={
             <ListBadge ifNumbered={""} listsBadgeItem={dataResultados2018} />
           }

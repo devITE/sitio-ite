@@ -210,6 +210,7 @@ export default class PE20152016 extends Component {
         <Modal
           idModal="Encuestas2016"
           titleModal="Encuestas 2016"
+          sizeModal=""
           contentModal={
             <ListBadge ifNumbered={""} listsBadgeItem={dataEncuestas2016} />
           }
@@ -217,6 +218,7 @@ export default class PE20152016 extends Component {
         <Modal
           idModal="UbicacionCasillas"
           titleModal="Lista de ubicación de casillas"
+          sizeModal=""
           contentModal={
             <ListBadge ifNumbered={""} listsBadgeItem={dataCasillas2016} />
           }
@@ -224,6 +226,7 @@ export default class PE20152016 extends Component {
         <Modal
           idModal="ResultadosElectorales"
           titleModal="Resultados Electorales"
+          sizeModal=""
           contentModal={
             <ListBadge ifNumbered={""} listsBadgeItem={dataResultados2016} />
           }
@@ -231,6 +234,7 @@ export default class PE20152016 extends Component {
         <Modal
           idModal="ResultadosElectoralesSeccion"
           titleModal="Resultados Electorales por Sección"
+          sizeModal=""
           contentModal={
             <ListBadge
               ifNumbered={""}
@@ -241,6 +245,7 @@ export default class PE20152016 extends Component {
         <Modal
           idModal="ListadoCandidatos"
           titleModal="Listado de Candidatos"
+          sizeModal=""
           contentModal={
             <ListBadge
               ifNumbered={""}
