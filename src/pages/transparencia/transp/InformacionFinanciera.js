@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import TitlePages from "../../../layout/TitlePages";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faDollar,
@@ -10,22 +11,15 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import "../Transparencia.css";
 
-const Transparencia_imppath = require.context("../../../assets/img/imgT");
 const Transparencia_pdfpath = require.context(
   "../../../assets/pdf/transparencia/infFinanciera"
 );
+
 export default class InformacionFinanciera extends Component {
   render() {
     return (
       <div>
-        <img
-          className="img-fluid w-100"
-          src={Transparencia_imppath(`./head.png`)}
-          alt="Transparencia"
-        />
-        <div className="w-100 mt-3 Transparencia__header-title">
-          Información Financiera
-        </div>
+        <TitlePages title="Información Financiera" />
         <div className="InformacionFinanciera__content">
           <FontAwesomeIcon icon={faDollar} className="me-3 fs-3" />
           Remuneración Mensual

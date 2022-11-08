@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import TitlePages from "../../../layout/TitlePages";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
 import {
@@ -6,23 +7,13 @@ import {
   dataPOA2019,
   dataPOA2020,
 } from "../../../assets/data/dataTransparenciaPOA";
-
 import "../Transparencia.css";
-
-const Transparencia_imppath = require.context("../../../assets/img/imgT");
 
 export default class POA extends Component {
   render() {
     return (
       <div>
-        <img
-          className="img-fluid w-100"
-          src={Transparencia_imppath(`./head.png`)}
-          alt="Transparencia"
-        />
-        <div className="w-100 mt-3 Transparencia__header-title">
-          Programas Operativos Anuales
-        </div>
+        <TitlePages title="Programas Operativos Anuales (POA)" />
         <div className="mt-3 mb-3 d-flex align-items-start">
           <div
             className="nav flex-column nav-pills me-3"
