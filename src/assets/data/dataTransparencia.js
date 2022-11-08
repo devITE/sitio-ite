@@ -63,6 +63,84 @@ export const dataCuentaPublica = [
       },
     ],
   },
+  {
+    id: 3,
+    titleItem: "Cuenta Pública 2017",
+    flushID: "cuenta17",
+    children: [
+      {
+        id: 1,
+        titleItem: "Cuenta Pública 1er trimestre",
+        linkItem: Transparencia_path(
+          `./${"pdf/transparencia/infContable/cuentaPub2017/"}${"1.pdf"}`
+        ),
+        typeDocument: "pdf",
+      },
+      {
+        id: 2,
+        titleItem: "Cuenta Pública 2do trimestre",
+        linkItem: Transparencia_path(
+          `./${"pdf/transparencia/infContable/cuentaPub2017/"}${"2.pdf"}`
+        ),
+        typeDocument: "pdf",
+      },
+      {
+        id: 3,
+        titleItem: "Cuenta Pública 3er trimestre",
+        linkItem: Transparencia_path(
+          `./${"pdf/transparencia/infContable/cuentaPub2017/"}${"3.pdf"}`
+        ),
+        typeDocument: "pdf",
+      },
+      {
+        id: 4,
+        titleItem: "Cuenta Pública 4to trimestre",
+        linkItem: Transparencia_path(
+          `./${"pdf/transparencia/infContable/cuentaPub2017/"}${"4.pdf"}`
+        ),
+        typeDocument: "pdf",
+      },
+    ],
+  },
+  {
+    id: 4,
+    titleItem: "Cuenta Pública 2018",
+    flushID: "cuenta18",
+    children: [
+      {
+        id: 1,
+        titleItem: "Cuenta Pública 1er trimestre",
+        linkItem: Transparencia_path(
+          `./${"pdf/transparencia/infContable/cuentaPub2018/"}${"1.pdf"}`
+        ),
+        typeDocument: "pdf",
+      },
+      {
+        id: 2,
+        titleItem: "Cuenta Pública 2do trimestre",
+        linkItem: Transparencia_path(
+          `./${"pdf/transparencia/infContable/cuentaPub2018/"}${"2.pdf"}`
+        ),
+        typeDocument: "pdf",
+      },
+      {
+        id: 3,
+        titleItem: "Cuenta Pública 3er trimestre",
+        linkItem: Transparencia_path(
+          `./${"pdf/transparencia/infContable/cuentaPub2018/"}${"3.pdf"}`
+        ),
+        typeDocument: "pdf",
+      },
+      {
+        id: 4,
+        titleItem: "Cuenta Pública 4to trimestre",
+        linkItem: Transparencia_path(
+          `./${"pdf/transparencia/infContable/cuentaPub2018/"}${"4.pdf"}`
+        ),
+        typeDocument: "pdf",
+      },
+    ],
+  },
 ];
 
 export const dataDatosAbiertos = [
