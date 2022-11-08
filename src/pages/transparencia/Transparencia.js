@@ -15,7 +15,7 @@ export default class Transparencia extends Component {
   render() {
     return (
       <>
-        <TitlePages title="Transparencia" />
+        <TitlePages title="Transparencia" subTitle="" />
         <div className="w-100 mt-3 Content__grid">
           <div>
             <Link to="/Articulo63">

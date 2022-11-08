@@ -18,16 +18,7 @@ export default class InformacionContable extends Component {
   render() {
     return (
       <div>
-        <TitlePages title="Información Financiera" />
-
-        {/* <img
-          className="img-fluid w-100"
-          src={Transparencia_imppath(`./head.png`)}
-          alt="Transparencia"
-        />
-        <div className="w-100 mt-3 Transparencia__header-title">
-          Información Contable
-        </div> */}
+        <TitlePages title="Transparencia" subTitle="Información Contable" />
         <div className="InformacionFinanciera__content">
           <FontAwesomeIcon icon={faClipboard} className="me-3 fs-3" />
           Inventario de Bienes Muebles e Inmuebles
@@ -57,7 +48,7 @@ export default class InformacionContable extends Component {
           </a>
         </div>
         <div className="InformacionFinanciera__content">
-          <FontAwesomeIcon icon={faBriefcase} className="me-3 fs-3" />
+          {/* <FontAwesomeIcon icon={faBriefcase} className="me-3 fs-3" />
           Cuenta Pública
           <div className="InformacionFinanciera__content ms-5">
             <FontAwesomeIcon icon={faBriefcase} className="me-3 fs-3" />
@@ -82,9 +73,9 @@ export default class InformacionContable extends Component {
             >
               <FontAwesomeIcon icon={faFilePdf} />
             </a>
-          </div>
-          <div className="InformacionFinanciera__content ms-5">
-            <FontAwesomeIcon icon={faBriefcase} className="me-3 fs-3" />
+          </div> */}
+          {/* <div className="InformacionFinanciera__content ms-5"> */}
+          {/* <FontAwesomeIcon icon={faBriefcase} className="me-3 fs-3" />
             Cuenta Pública 2016
             <div className="InformacionFinanciera__content ms-5">
               <FontAwesomeIcon icon={faBriefcase} className="me-3 fs-3" />
@@ -133,9 +124,9 @@ export default class InformacionContable extends Component {
               >
                 <FontAwesomeIcon icon={faFilePdf} />
               </a>
-            </div>
-          </div>
-          <div className="InformacionFinanciera__content ms-5">
+            </div> */}
+          {/* </div> */}
+          {/* <div className="InformacionFinanciera__content ms-5">
             <FontAwesomeIcon icon={faBriefcase} className="me-3 fs-3" />
             Cuenta Pública 2017
             <div className="InformacionFinanciera__content ms-5">
@@ -186,7 +177,7 @@ export default class InformacionContable extends Component {
                 <FontAwesomeIcon icon={faFilePdf} />
               </a>
             </div>
-          </div>
+          </div> */}
           <div className="InformacionFinanciera__content ms-5">
             <FontAwesomeIcon icon={faBriefcase} className="me-3 fs-3" />
             Cuenta Pública 2018

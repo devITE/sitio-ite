@@ -6,7 +6,7 @@ export default class PreguntasFrecuentes extends Component {
   render() {
     return (
       <>
-        <TitlePages title="Preguntas Frecuentes" />
+        <TitlePages title="Transparencia" subTitle="Preguntas Frecuentes" />
 
         <div className="mt-3">
           <ol type="I" start="1">

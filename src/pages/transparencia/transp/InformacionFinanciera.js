@@ -19,7 +19,7 @@ export default class InformacionFinanciera extends Component {
   render() {
     return (
       <div>
-        <TitlePages title="Información Financiera" />
+        <TitlePages title="Transparencia" subTitle="Información Financiera" />
         <div className="InformacionFinanciera__content">
           <FontAwesomeIcon icon={faDollar} className="me-3 fs-3" />
           Remuneración Mensual

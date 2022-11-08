@@ -1,5 +1,70 @@
 const Transparencia_path = require.context("../");
 
+export const dataCuentaPublica = [
+  {
+    id: 1,
+    titleItem: "Cuenta Pública 2014 - 2015",
+    flushID: "cuenta1415",
+    children: [
+      {
+        id: 1,
+        titleItem: "Cuenta Pública 2014",
+        linkItem: Transparencia_path(
+          `./${"pdf/transparencia/infContable/cuentaPub/"}${"1.pdf"}`
+        ),
+        typeDocument: "pdf",
+      },
+      {
+        id: 2,
+        titleItem: "Cuenta Pública 2015",
+        linkItem: Transparencia_path(
+          `./${"pdf/transparencia/infContable/cuentaPub/"}${"2.pdf"}`
+        ),
+        typeDocument: "pdf",
+      },
+    ],
+  },
+  {
+    id: 2,
+    titleItem: "Cuenta Pública 2016",
+    flushID: "cuenta16",
+    children: [
+      {
+        id: 1,
+        titleItem: "Cuenta Pública 1er trimestre",
+        linkItem: Transparencia_path(
+          `./${"pdf/transparencia/infContable/cuentaPub2016/"}${"1.pdf"}`
+        ),
+        typeDocument: "pdf",
+      },
+      {
+        id: 2,
+        titleItem: "Cuenta Pública 2do trimestre",
+        linkItem: Transparencia_path(
+          `./${"pdf/transparencia/infContable/cuentaPub2016/"}${"2.pdf"}`
+        ),
+        typeDocument: "pdf",
+      },
+      {
+        id: 3,
+        titleItem: "Cuenta Pública 3er trimestre",
+        linkItem: Transparencia_path(
+          `./${"pdf/transparencia/infContable/cuentaPub2016/"}${"3.pdf"}`
+        ),
+        typeDocument: "pdf",
+      },
+      {
+        id: 4,
+        titleItem: "Cuenta Pública 4to trimestre",
+        linkItem: Transparencia_path(
+          `./${"pdf/transparencia/infContable/cuentaPub2016/"}${"4.pdf"}`
+        ),
+        typeDocument: "pdf",
+      },
+    ],
+  },
+];
+
 export const dataDatosAbiertos = [
   {
     id: 1,
