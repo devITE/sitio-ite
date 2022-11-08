@@ -9,8 +9,8 @@ export default class DatosAbiertos extends Component {
   render() {
     return (
       <>
-        <TitlePages title="Datos Abiertos" />
-        <div className="accordion accordion-flush" id="metasMSPEN">
+        <TitlePages title="Transparencia" subTitle="Datos Abiertos" />
+        <div className="accordion accordion-flush" id="datosAbiertos">
           {dataDatosAbiertos.map((accordionsItem) => (
             <div key={accordionsItem.id} className="accordion-item">
               <h2 className="accordion-header">
@@ -28,7 +28,7 @@ export default class DatosAbiertos extends Component {
               <div
                 id={"flush-collapse" + accordionsItem.flushID}
                 className="accordion-collapse collapse"
-                data-bs-parent="#metasMSPEN"
+                data-bs-parent="#datosAbiertos"
               >
                 <div className="accordion-body">
                   {accordionsItem.children.map((buttonModal) => (
@@ -47,9 +47,19 @@ export default class DatosAbiertos extends Component {
                         idModal={buttonModal.idModal}
                         titleModal={buttonModal.titleModal}
                         sizeModal="modal-lg"
-                        contentModal={buttonModal.subChildren.map((content) => (
-                          <div key={content.id}>
-                            <h5 className="mb-0">Tema: </h5>
+                        contentModal={buttonModal.subChildren.map(
+                          (contentM) => (
+                            <div key={contentM.id}>
+                              <h1>-----</h1>
+                              {contentM.subChild.map((resourceItem) => (
+                                <div key={resourceItem.id}>
+                                  <h1>
+                                    ---------
+                                    {}
+                                  </h1>
+                                </div>
+                              ))}
+                              {/* <h5 className="mb-0">Tema: </h5>
                             {content.titleTheme}
                             <h5 className="mt-3 mb-0">Palabras clave: </h5>
                             {content.keyWords}
@@ -65,35 +75,10 @@ export default class DatosAbiertos extends Component {
                             {content.contactName}
                             <h5 className="mt-3 mb-0">Correo electrónico: </h5>
                             {content.contactEmail}
-                            <h5 className="mt-3 mb-0">Datos y recursos: </h5>
-                            <br />
-                            {
-                              {
-                                pdf: (
-                                  <a
-                                    href={content.resoursePath}
-                                    target="_blank"
-                                    rel="noreferrer"
-                                    className="btn btn-danger"
-                                  >
-                                    <FontAwesomeIcon icon={faFilePdf} />
-                                  </a>
-                                ),
-                                word: (
-                                  <a
-                                    href={content.resoursePath}
-                                    target="_blank"
-                                    rel="noreferrer"
-                                    className="btn btn-primary"
-                                  >
-                                    <FontAwesomeIcon icon={faFileWord} />
-                                  </a>
-                                ),
-                              }[content.typeDocument]
-                            }
-                            &nbsp;{content.resourseTitle}
-                          </div>
-                        ))}
+                            <h5 className="mt-3 mb-0">Datos y recursos: </h5> */}
+                            </div>
+                          )
+                        )}
                       />
                     </div>
                   ))}

@@ -19,7 +19,13 @@
   letter-spacing: 1px;
   text-shadow: 4px 4px 10px #000000;
 }
-
+.subtitle {
+  background-color: #aa0787;
+  color: #ffffff !important;
+  text-align: center;
+  padding: 10px;
+  font-size: 1.5em;
+}
 html {
   min-height: 100%;
   position: relative;

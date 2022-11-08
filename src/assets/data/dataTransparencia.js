@@ -25,7 +25,7 @@ export const dataDatosAbiertos = [
             resourseTitle:
               "Informe final de participación meta colectiva número 8",
             resoursePath: Transparencia_path(
-              `./${"word/transparencia/"}${"3.docx"}`
+              `./${"word/transparencia/"}${"1.docx"}`
             ),
             typeDocument: "word",
           },
@@ -91,7 +91,7 @@ export const dataDatosAbiertos = [
         ],
       },
       {
-        id: 2,
+        id: 3,
         idModal: "monitoreo",
         titleModal: "Monitoreo de medios de comunicación",
         subChildren: [
@@ -107,11 +107,120 @@ export const dataDatosAbiertos = [
             contactEmail: "comunicacion@itetlax.org.mx",
             nameCharge:
               "Titular del Área Técnica de Comunicación Social y Prensa",
-            resourseTitle: "Anexo - Difusores Oficiales PREP",
-            resoursePath: Transparencia_path(
-              `./${"pdf/transparencia/datosAbiertos/"}${"2.pdf"}`
-            ),
-            typeDocument: "pdf",
+            subChild: [
+              {
+                id: 1,
+                resourseTitle: "Informe final MIyD",
+                resoursePath: Transparencia_path(
+                  `./${"pdf/transparencia/datosAbiertos/"}${"3.pdf"}`
+                ),
+                typeDocument: "pdf",
+              },
+              {
+                id: 2,
+                resourseTitle: "Informe final monitoreo PdG",
+                resoursePath: Transparencia_path(
+                  `./${"pdf/transparencia/datosAbiertos/"}${"4.pdf"}`
+                ),
+                typeDocument: "pdf",
+              },
+              {
+                id: 3,
+                resourseTitle: "Informe final monitoreo RyT",
+                resoursePath: Transparencia_path(
+                  `./${"pdf/transparencia/datosAbiertos/"}${"5.pdf"}`
+                ),
+                typeDocument: "pdf",
+              },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: 3,
+    titleItem: "Organización Electoral",
+    flushID: "organizacionElectoral",
+    children: [
+      {
+        id: 1,
+        idModal: "participacionPELO",
+        titleModal:
+          "La participación ciudadana en el Proceso Electoral Local Ordinario",
+        subChildren: [
+          {
+            id: 1,
+            titleTheme: "Participación Ciudadana",
+            keyWords:
+              "Elección, Participación, Ciudadanía, Estadística, Observadores",
+            description:
+              "Se realiza un análisis sobre la evolución de la participación ciudadana en los Procesos Electorales Locales Ordinarios de los años 2015, 2016 y 2018 en los diferentes municipios del estado de Tlaxcala.",
+            area: "DOECyEC- Dirección de Organización Electoral Capacitación y Educación Cívica",
+            dateUpdate: "agosto 2021",
+            contactName: "Mtra. Miriam Yolisma Báez Hernández",
+            contactEmail: "miriam.yolisma@itetlax.org.mx",
+            nameCharge:
+              "Directora de Organización Electoral, Capacitación y Educación Cívica",
+            subChild: [
+              {
+                id: 1,
+                resourseTitle: "Registro de candidatos Ayuntamientos ITE 2016",
+                resoursePath: Transparencia_path(
+                  `./${"excel/transparencia/"}${"1.xlsx"}`
+                ),
+                typeDocument: "excel",
+              },
+              {
+                id: 2,
+                resourseTitle: "Registro de candidatos Diputaciones ITE 2016",
+                resoursePath: Transparencia_path(
+                  `./${"excel/transparencia/"}${"2.xlsx"}`
+                ),
+                typeDocument: "excel",
+              },
+              {
+                id: 3,
+                resourseTitle: "Registro de candidatos Gubernatura ITE 2016",
+                resoursePath: Transparencia_path(
+                  `./${"excel/transparencia/"}${"3.xlsx"}`
+                ),
+                typeDocument: "excel",
+              },
+              {
+                id: 4,
+                resourseTitle:
+                  "Registro de candidatos Presidencias de Comunidad ITE 2016",
+                resoursePath: Transparencia_path(
+                  `./${"excel/transparencia/"}${"4.xlsx"}`
+                ),
+                typeDocument: "excel",
+              },
+              {
+                id: 5,
+                resourseTitle: "Registro de candidaturas 2021",
+                resoursePath: Transparencia_path(
+                  `./${"excel/transparencia/"}${"5.xlsx"}`
+                ),
+                typeDocument: "excel",
+              },
+              {
+                id: 6,
+                resourseTitle: "Registro de candidaturas Tlaxcala 2018",
+                resoursePath: Transparencia_path(
+                  `./${"excel/transparencia/"}${"6.xlsx"}`
+                ),
+                typeDocument: "excel",
+              },
+              {
+                id: 7,
+                resourseTitle: "Respuesta a los puntos 1, 2 y 3",
+                resoursePath: Transparencia_path(
+                  `./${"word/transparencia/datosAbiertos/"}${"2.docx"}`
+                ),
+                typeDocument: "word",
+              },
+            ],
           },
         ],
       },

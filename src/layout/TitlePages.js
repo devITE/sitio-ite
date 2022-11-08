@@ -9,6 +9,11 @@ const TitlePages = (props) => {
         {props.title}
       </div>
       <hr className="hr-bottom" />
+      {props.subTitle === "" ? (
+        <span></span>
+      ) : (
+        <div className="subtitle mb-5">{props.subTitle}</div>
+      )}
     </div>
   );
 };

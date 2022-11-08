@@ -95,13 +95,13 @@
   transition: 0.1s;
   transform: scale(1.03);
 }
-.subtitle {
+/* .subtitle {
   color: #ba1678;
   font-size: 2rem;
   display: block;
   margin-left: 2rem;
   margin-bottom: 0rem;
-}
+} */
 .estilos-cintillo {
   background: #aa0787;
   color: #fff;
