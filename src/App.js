@@ -111,7 +111,16 @@ import Boletines2020 from "./pages/comunicacionSocial/boletines/Boletines2020";
 import Boletines2021 from "./pages/comunicacionSocial/boletines/Boletines2021";
 import Boletines2022 from "./pages/comunicacionSocial/boletines/Boletines2022";
 
-import Monitoreo from "./pages/comunicacionSocial/Monitoreo";
+
+import Monitoreo from "./pages/comunicacionSocial/monitoreos/Monitoreo";
+import Monitoreos2015 from "./pages/comunicacionSocial/monitoreos/Monitoreos2015";
+import Monitoreos2016 from "./pages/comunicacionSocial/monitoreos/Monitoreos2016";
+import Monitoreos2017 from "./pages/comunicacionSocial/monitoreos/Monitoreos2017";
+import Monitoreos2018 from "./pages/comunicacionSocial/monitoreos/Monitoreos2018";
+import Monitoreos2019 from "./pages/comunicacionSocial/monitoreos/Monitoreos2019";
+import Monitoreos2020 from "./pages/comunicacionSocial/monitoreos/Monitoreos2020";
+import Monitoreos2021 from "./pages/comunicacionSocial/monitoreos/Monitoreos2021";
+
 import EspacioIte from "./pages/comunicacionSocial/EspacioIte";
 
 //Cultura Cívica
@@ -245,6 +254,14 @@ function App() {
           <Route path="/Boletines2022" element={<Boletines2022 />} />
 
           <Route path="/Monitoreo" element={<Monitoreo />} />
+          <Route path="/Monitoreos2015" element={<Monitoreos2015 />} />
+          <Route path="/Monitoreos2016" element={<Monitoreos2016 />} />
+          <Route path="/Monitoreos2017" element={<Monitoreos2017 />} />
+          <Route path="/Monitoreos2018" element={<Monitoreos2018 />} />
+          <Route path="/Monitoreos2019" element={<Monitoreos2019 />} />
+          <Route path="/Monitoreos2020" element={<Monitoreos2020 />} />
+          <Route path="/Monitoreos2021" element={<Monitoreos2021 />} />
+
           <Route path="/EspacioIte" element={<EspacioIte />} />
           <Route path="/CulturaCivica" element={<CulturaCivica />} />
           <Route path="/ActividadesLudicas" element={<ActividadesLudicas />} />

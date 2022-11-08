@@ -178,3 +178,10 @@ box-shadow: 5px 5px 5px #a0a0a0;
   grid-template-columns:auto auto;
   padding: 50px 550px;
 }
+.espacio-ite
+{
+  display: grid;
+  grid-template-columns:auto auto auto;
+  gap: 120px;
+  padding: 10px 30px;
+}

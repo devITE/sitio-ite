@@ -1195,5 +1195,1249 @@ export const dataBoletines2019 = [
     nameBoletin: "27-Catálogo",
     // linkBoletin: Boletines__pdfpath(`./${"2019/"}${"29.pdf"}`),
   },
-  
+  {
+    id: 30,
+    yearBoletin: "2019",
+    monthBoletin: "AGO",
+    nameBoletin: "28- Incentivos",
+    linkBoletin: Boletines__pdfpath(`./${"2019/"}${"30.pdf"}`),
+  },
+  {
+    id: 31,
+    yearBoletin: "2019",
+    monthBoletin: "AGO",
+    nameBoletin: "29- oficialía electoral",
+    // linkBoletin: Boletines__pdfpath(`./${"2019/"}${"31.pdf"}`),
+  },
+  {
+    id: 32,
+    yearBoletin: "2019",
+    monthBoletin: "AGO",
+    nameBoletin: "30- informe destrucción papelería",
+    // linkBoletin: Boletines__pdfpath(`./${"2019/"}${"32.pdf"}`),
+  },
+  {
+    id: 33,
+    yearBoletin: "2019",
+    monthBoletin: "SEP",
+    nameBoletin: "31-panel pueblos indígenas",
+    // linkBoletin: Boletines__pdfpath(`./${"2019/"}${"32.pdf"}`),
+  },
+
+  {
+    id: 34,
+    yearBoletin: "2019",
+    monthBoletin: "SEP",
+    nameBoletin: "32-foro transparencia",
+    linkBoletin: Boletines__pdfpath(`./${"2019/"}${"34.pdf"}`),
+  },
+  {
+    id: 35,
+    yearBoletin: "2019",
+    monthBoletin: "SEP",
+    nameBoletin: "33-actividad síndicas",
+    // linkBoletin: Boletines__pdfpath(`./${"2019/"}${"35.pdf"}`),
+  },
+  {
+    id: 36,
+    yearBoletin: "2019",
+    monthBoletin: "SEP",
+    nameBoletin: "34-Presupuesto 2020",
+    linkBoletin: Boletines__pdfpath(`./${"2019/"}${"36.pdf"}`),
+  },
+  {
+    id: 37,
+    yearBoletin: "2019",
+    monthBoletin: "OCT",
+    nameBoletin: "34-pláticas mujeres-",
+    // linkBoletin: Boletines__pdfpath(`./${"2019/"}${"37.pdf"}`),
+  },
+  {
+    id: 38,
+    yearBoletin: "2019",
+    monthBoletin: "OCT",
+    nameBoletin: "35-multas",
+    linkBoletin: Boletines__pdfpath(`./${"2019/"}${"38.pdf"}`),
+  },
+  {
+    id: 39,
+    yearBoletin: "2019",
+    monthBoletin: "OCT",
+    nameBoletin: "36-foro ciudadanía",
+    // linkBoletin: Boletines__pdfpath(`./${"2019/"}${"39.pdf"}`),
+  },
+  {
+    id: 40,
+    yearBoletin: "2019",
+    monthBoletin: "OCT",
+    nameBoletin: "37-Presentación de libro",
+    // linkBoletin: Boletines__pdfpath(`./${"2019/"}${"40.pdf"}`),
+  },
+  {
+    id: 41,
+    yearBoletin: "2019",
+    monthBoletin: "OCT",
+    nameBoletin: "38-ordinaria octubre",
+    linkBoletin: Boletines__pdfpath(`./${"2019/"}${"41.pdf"}`),
+  },
+  {
+    id: 42,
+    yearBoletin: "2019",
+    monthBoletin: "NOV",
+    nameBoletin: "39-sesión consultora",
+    // linkBoletin: Boletines__pdfpath(`./${"2019/"}${"42.pdf"}`),
+  },
+  {
+    id: 43,
+    yearBoletin: "2019",
+    monthBoletin: "NOV",
+    nameBoletin: "40-Concurso de carteles",
+    linkBoletin: Boletines__pdfpath(`./${"2019/"}${"43.pdf"}`),
+  },
+  {
+    id: 44,
+    yearBoletin: "2019",
+    monthBoletin: "NOV",
+    nameBoletin: "41-reglamento comité igualdad",
+    // linkBoletin: Boletines__pdfpath(`./${"2019/"}${"44.pdf"}`),
+  },
+  {
+    id: 45,
+    yearBoletin: "2019",
+    monthBoletin: "NOV",
+    nameBoletin: "42-EDU",
+    linkBoletin: Boletines__pdfpath(`./${"2019/"}${"45.pdf"}`),
+  },
+  {
+    id: 46,
+    yearBoletin: "2019",
+    monthBoletin: "DIC",
+    nameBoletin: "43-ALUMNOS FACEBOOK",
+    linkBoletin: Boletines__pdfpath(`./${"2019/"}${"46.pdf"}`),
+  },
+  {
+    id: 47,
+    yearBoletin: "2019",
+    monthBoletin: "DIC",
+    nameBoletin: "44- CURSO-TALLER DISCAPACIDAD",
+    linkBoletin: Boletines__pdfpath(`./${"2019/"}${"47.pdf"}`),
+  },
+  {
+    id: 48,
+    yearBoletin: "2019",
+    monthBoletin: "DIC",
+    nameBoletin: "45-presupuesto diputados",
+    linkBoletin: Boletines__pdfpath(`./${"2019/"}${"48.pdf"}`),
+  },
+  {
+    id: 49,
+    yearBoletin: "2019",
+    monthBoletin: "DIC",
+    nameBoletin: "46-comunidad Nanacamilpa",
+    linkBoletin: Boletines__pdfpath(`./${"2019/"}${"49.pdf"}`),
+  },
+  {
+    id: 50,
+    yearBoletin: "2019",
+    monthBoletin: "DIC",
+    nameBoletin: "47-resolución PRD",
+    // linkBoletin: Boletines__pdfpath(`./${"2019/"}${"50.pdf"}`),
+  },
+  {
+    id: 51,
+    yearBoletin: "2019",
+    monthBoletin: "DIC",
+    nameBoletin: "48-Informes comisiones",
+    linkBoletin: Boletines__pdfpath(`./${"2019/"}${"51.pdf"}`),
+  },
+];
+export const dataBoletines2020 = [
+  {
+    id: 1,
+    yearBoletin: "2020",
+    monthBoletin: "ENE",
+    nameBoletin: "Presupuesto.",
+    linkBoletin: Boletines__pdfpath(`./${"2020/"}${"1.pdf"}`),
+  },
+  {
+    id: 2,
+    yearBoletin: "2020",
+    monthBoletin: "ENE",
+    nameBoletin: "Informe.",
+    linkBoletin: Boletines__pdfpath(`./${"2020/"}${"2.pdf"}`),
+  },
+  {
+    id: 3,
+    yearBoletin: "2020",
+    monthBoletin: "ENE",
+    nameBoletin: "Sistema archivos",
+    linkBoletin: Boletines__pdfpath(`./${"2020/"}${"3.pdf"}`),
+  },
+  {
+    id: 4,
+    yearBoletin: "2020",
+    monthBoletin: "FEB",
+    nameBoletin: "Construcción",
+    linkBoletin: Boletines__pdfpath(`./${"2020/"}${"4.pdf"}`),
+  },
+  {
+    id: 5,
+    yearBoletin: "2020",
+    monthBoletin: "FEB",
+    nameBoletin: "Sesión ordinaria",
+    linkBoletin: Boletines__pdfpath(`./${"2020/"}${"5.pdf"}`),
+  },
+  {
+    id: 6,
+    yearBoletin: "2020",
+    monthBoletin: "MAR",
+    nameBoletin: "Construcción ciudadanía",
+    linkBoletin: Boletines__pdfpath(`./${"2020/"}${"6.pdf"}`),
+  },
+  {
+    id: 7,
+    yearBoletin: "2020",
+    monthBoletin: "MAR",
+    nameBoletin: "Medidas ante Covid 19",
+    linkBoletin: Boletines__pdfpath(`./${"2020/"}${"7.pdf"}`),
+  },
+  {
+    id: 8,
+    yearBoletin: "2020",
+    monthBoletin: "ABR",
+    nameBoletin: "Elimina presencial",
+    linkBoletin: Boletines__pdfpath(`./${"2020/"}${"8.pdf"}`),
+  },
+  {
+    id: 9,
+    yearBoletin: "2020",
+    monthBoletin: "JUL",
+    nameBoletin: "Fecha de inicio del PELO",
+    linkBoletin: Boletines__pdfpath(`./${"2020/"}${"9.pdf"}`),
+  },
+  {
+    id: 10,
+    yearBoletin: "2020",
+    monthBoletin: "AGO",
+    nameBoletin: "INICIA ITE RETORNO ESCALONADO A ACTIVIDADES PRESENCIALES",
+    linkBoletin: Boletines__pdfpath(`./${"2020/"}${"10.pdf"}`),
+  },
+  {
+    id: 11,
+    yearBoletin: "2020",
+    monthBoletin: "AGO",
+    nameBoletin: "INSTITUCIONES TIENEN DEUDA CON JÓVENES",
+    linkBoletin: Boletines__pdfpath(`./${"2020/"}${"11.pdf"}`),
+  },
+  {
+    id: 12,
+    yearBoletin: "2020",
+    monthBoletin: "AGO",
+    nameBoletin:
+      "AJUSTA ITE PRESUPUESTO PARA ATENDER TEMAS DE SALUD DEL PERSONAL POR PANDEMIA",
+    linkBoletin: Boletines__pdfpath(`./${"2020/"}${"12.pdf"}`),
+  },
+  {
+    id: 13,
+    yearBoletin: "2020",
+    monthBoletin: "AGO",
+    nameBoletin:
+      "POR AUSENCIA DE PARTES, SE DIFIERE AUDIENCIA DE DENUNCIA POR VIOLENCIA DE GÉNERO EN EL ITE",
+    linkBoletin: Boletines__pdfpath(`./${"2020/"}${"13.pdf"}`),
+  },
+  {
+    id: 14,
+    yearBoletin: "2020",
+    monthBoletin: "AGO",
+    nameBoletin: "Manual de Elecciones",
+    linkBoletin: Boletines__pdfpath(`./${"2020/"}${"14.pdf"}`),
+  },
+  {
+    id: 15,
+    yearBoletin: "2020",
+    monthBoletin: "SEP",
+    nameBoletin: "20-cotejo SPEN",
+    linkBoletin: Boletines__pdfpath(`./${"2020/"}${"15.pdf"}`),
+  },
+  {
+    id: 16,
+    yearBoletin: "2020",
+    monthBoletin: "SEP",
+    nameBoletin: "21- Instancia interna",
+    linkBoletin: Boletines__pdfpath(`./${"2020/"}${"16.pdf"}`),
+  },
+  {
+    id: 17,
+    yearBoletin: "2020",
+    monthBoletin: "SEP",
+    nameBoletin: "22 BOLETÍN 10-09-20 ITE",
+    linkBoletin: Boletines__pdfpath(`./${"2020/"}${"17.pdf"}`),
+  },
+  {
+    id: 18,
+    yearBoletin: "2020",
+    monthBoletin: "SEP",
+    nameBoletin: "23-semáforo amarillo",
+    linkBoletin: Boletines__pdfpath(`./${"2020/"}${"18.pdf"}`),
+  },
+  {
+    id: 19,
+    yearBoletin: "2020",
+    monthBoletin: "SEP",
+    nameBoletin: "24-reglamento usos y costumbres",
+    linkBoletin: Boletines__pdfpath(`./${"2020/"}${"19.pdf"}`),
+  },
+  {
+    id: 20,
+    yearBoletin: "2020",
+    monthBoletin: "SEP",
+    nameBoletin:
+      "25- EDITA ITE CATÁLOGO DE PRESIDENCIAS DE COMUNIDAD QUE ELIGEN AUTORIDAD POR USOS Y COSTUMBRES",
+    linkBoletin: Boletines__pdfpath(`./${"2020/"}${"20.pdf"}`),
+  },
+  {
+    id: 21,
+    yearBoletin: "2020",
+    monthBoletin: "SEP",
+    nameBoletin: "26- Voces indigenas",
+    linkBoletin: Boletines__pdfpath(`./${"2020/"}${"21.pdf"}`),
+  },
+  {
+    id: 22,
+    yearBoletin: "2020",
+    monthBoletin: "SEP",
+    nameBoletin: "27- foro derecho a saber",
+    linkBoletin: Boletines__pdfpath(`./${"2020/"}${"22.pdf"}`),
+  },
+  {
+    id: 23,
+    yearBoletin: "2020",
+    monthBoletin: "SEP",
+    nameBoletin: "28- Presupuesto 2021",
+    linkBoletin: Boletines__pdfpath(`./${"2020/"}${"23.pdf"}`),
+  },
+  {
+    id: 24,
+    yearBoletin: "2020",
+    monthBoletin: "SEP",
+    nameBoletin: "29- Presupuesto 2021",
+    linkBoletin: Boletines__pdfpath(`./${"2020/"}${"24.pdf"}`),
+  },
+  {
+    id: 25,
+    yearBoletin: "2020",
+    monthBoletin: "SEP",
+    nameBoletin: "30-ITE",
+    linkBoletin: Boletines__pdfpath(`./${"2020/"}${"25.pdf"}`),
+  },
+];
+export const dataBoletines2021 = [
+  {
+    id: 1,
+    yearBoletin: "2021",
+    monthBoletin: "ENE",
+    nameBoletin:
+      "APRUEBA ITE COALICIONES “UNIDOS POR TLAXCALA” Y “JUNTOS HAREMOS HISTORIA EN TLAXCALA” PARA LA GUBERNATURA",
+    linkBoletin: Boletines__pdfpath(`./${"2021/"}${"1.pdf"}`),
+  },
+  {
+    id: 2,
+    yearBoletin: "2021",
+    monthBoletin: "ENE",
+    nameBoletin:
+      "APRUEBA ITE USO DE APLICACIÓN PARA CAPTAR APOYO CIUDADANO DE CANDIDATURAS INDEPENDIENTES",
+    linkBoletin: Boletines__pdfpath(`./${"2021/"}${"2.pdf"}`),
+  },
+  {
+    id: 3,
+    yearBoletin: "2021",
+    monthBoletin: "ENE",
+    nameBoletin:
+      "AMPLÍA ITE PLAZO DE RECEPCIÓN DE SOLICITUDES PARA CONSEJOS DISTRITALES Y MUNICIPALES",
+    linkBoletin: Boletines__pdfpath(`./${"2021/"}${"3.pdf"}`),
+  },
+  {
+    id: 4,
+    yearBoletin: "2021",
+    monthBoletin: "ENE",
+    nameBoletin:
+      "ORDENA ITE MEDIDAS CAUTELARES SOBRE ANUNCIOS DE INFORME ANUAL DE DIPUTADA",
+    linkBoletin: Boletines__pdfpath(`./${"2021/"}${"4.pdf"}`),
+  },
+  {
+    id: 5,
+    yearBoletin: "2021",
+    monthBoletin: "ENE",
+    nameBoletin:
+      "05- DECLARA ITE INFUNDADOS PROCEDIMIENTOS CONTRA BRITO Y GARRIDO",
+    linkBoletin: Boletines__pdfpath(`./${"2021/"}${"5.pdf"}`),
+  },
+  {
+    id: 6,
+    yearBoletin: "2021",
+    monthBoletin: "ENE",
+    nameBoletin:
+      "06- IMPARTE ITE CURSO VIRTUAL SOBRE PARIDAD LIBRE DE VIOLENCIA",
+    linkBoletin: Boletines__pdfpath(`./${"2021/"}${"6.pdf"}`),
+  },
+  {
+    id: 7,
+    yearBoletin: "2021",
+    monthBoletin: "ENE",
+    nameBoletin:
+      "07- ACERCA ITE A ASPIRANTES TEMAS DE VIOLENCIA POLÍTICA EN RAZÓN DE GÉNERO Y LINEAMIENTOS DE PARIDAD",
+    linkBoletin: Boletines__pdfpath(`./${"2021/"}${"7.pdf"}`),
+  },
+  {
+    id: 8,
+    yearBoletin: "2021",
+    monthBoletin: "ENE",
+    nameBoletin:
+      "08- DARÁ ITE VISTA A PGJE PARA QUE INVESTIGUE PROBABLE COMISIÓN DE DELITO DE VIOLENCIA POLÍTICA CONTRA SÍNDICA DE TOTOLAC (1)",
+    linkBoletin: Boletines__pdfpath(`./${"2021/"}${"8.pdf"}`),
+  },
+  {
+    id: 9,
+    yearBoletin: "2021",
+    monthBoletin: "ENE",
+    nameBoletin:
+      "09- IMPROCEDENTE SUSPENDER CAPTACIÓN DE APOYO DE LA CIUDADANÍA PARA CANDIDATURA INDEPENDIENTE ITE",
+    linkBoletin: Boletines__pdfpath(`./${"2021/"}${"9.pdf"}`),
+  },
+  {
+    id: 10,
+    yearBoletin: "2021",
+    monthBoletin: "ENE",
+    nameBoletin:
+      "10- CREA ITE SISTEMA ESTATAL DE PERSONAS SANCIONADAS EN MATERIA DE VIOLENCIA POLÍTICA CONTRA MUJERES EN RAZÓN DE GÉNERO",
+    linkBoletin: Boletines__pdfpath(`./${"2021/"}${"10.pdf"}`),
+  },
+  {
+    id: 11,
+    yearBoletin: "2021",
+    monthBoletin: "FEB",
+    nameBoletin:
+      "11- APRUEBA OBSERVATORIO DE PARTICIPACIÓN POLÍTICA DE LAS MUJERES EN TLAXCALA PROGRAMA DE TRABAJO",
+    linkBoletin: Boletines__pdfpath(`./${"2021/"}${"11.pdf"}`),
+  },
+  {
+    id: 12,
+    yearBoletin: "2021",
+    monthBoletin: "FEB",
+    nameBoletin:
+      "12 - FIRMAN ITE Y TET CONVENIO SOBRE REGISTRO DE PERSONAS SANCIONADAS POR VIOLENCIA POLÍTICA CONTRA MUJERES",
+    linkBoletin: Boletines__pdfpath(`./${"2021/"}${"12.pdf"}`),
+  },
+  {
+    id: 13,
+    yearBoletin: "2021",
+    monthBoletin: "FEB",
+    nameBoletin:
+      "13 - ORDENA ITE RETIRAR ANUNCIOS PARTIDISTAS DE EQUIPAMIENTOS URBANOS",
+    linkBoletin: Boletines__pdfpath(`./${"2021/"}${"13.pdf"}`),
+  },
+  {
+    id: 14,
+    yearBoletin: "2021",
+    monthBoletin: "FEB",
+    nameBoletin:
+      "14 - AUDITARÁ TECNOLÓGICO DE MONTERREY AL PREP DE ELECCIÓN LOCAL",
+    linkBoletin: Boletines__pdfpath(`./${"2021/"}${"14.pdf"}`),
+  },
+  {
+    id: 15,
+    yearBoletin: "2021",
+    monthBoletin: "FEB",
+    nameBoletin:
+      "15 - HAY CONDICIONES PARA RECABAR APOYO DE LA CIUDADANÍA QUE REQUIEREN INDEPENDIENTES ITE",
+    linkBoletin: Boletines__pdfpath(`./${"2021/"}${"15.pdf"}`),
+  },
+  {
+    id: 16,
+    yearBoletin: "2021",
+    monthBoletin: "FEB",
+    nameBoletin:
+      "16 - ITE ES TARDE PARA EMITIR MEDIDAS A FAVOR DE CANDIDATURAS DE COMUNIDAD LGBTTTIQ+",
+    linkBoletin: Boletines__pdfpath(`./${"2021/"}${"16.pdf"}`),
+  },
+  {
+    id: 17,
+    yearBoletin: "2021",
+    monthBoletin: "FEB",
+    nameBoletin:
+      "17 - EMITIRÁ ITE LINEAMIENTOS PARA REGULAR ACTUACIÓN DE CONTENDIENTES QUE NO SE SEPAREN DEL CARGO",
+    linkBoletin: Boletines__pdfpath(`./${"2021/"}${"17.pdf"}`),
+  },
+  {
+    id: 18,
+    yearBoletin: "2021",
+    monthBoletin: "MAR",
+    nameBoletin:
+      "18 - APRUEBA ITE LINEAMIENTOS PARA QUIENES CONTIENDAN EN ESTA ELECCIÓN SIN SEPARARSE DE SU CARGO",
+    linkBoletin: Boletines__pdfpath(`./${"2021/"}${"18.pdf"}`),
+  },
+  {
+    id: 19,
+    yearBoletin: "2021",
+    monthBoletin: "MAR",
+    nameBoletin:
+      "19 - ALCANZAN 59 PERSONAS PORCENTAJE DE APOYO DE LA CIUDADANÍA PARA CANDIDATURAS INDEPENDIENTES",
+    linkBoletin: Boletines__pdfpath(`./${"2021/"}${"19.pdf"}`),
+  },
+  {
+    id: 20,
+    yearBoletin: "2021",
+    monthBoletin: "MAR",
+    nameBoletin:
+      "20 - INSTALA ITE LOS 15 CONSEJOS DISTRITALES PARA EL PROCESO ELECTORAL LOCAL ORDINARIO",
+    linkBoletin: Boletines__pdfpath(`./${"2021/"}${"20.pdf"}`),
+  },
+  {
+    id: 21,
+    yearBoletin: "2021",
+    monthBoletin: "MAR",
+    nameBoletin: "21 - RATIFICA ITE INSTANCIA INTERNA ENCARGADA DEL PREP",
+    linkBoletin: Boletines__pdfpath(`./${"2021/"}${"21.pdf"}`),
+  },
+  {
+    id: 22,
+    yearBoletin: "2021",
+    monthBoletin: "MAR",
+    nameBoletin:
+      "22 - RESUELVE ITE PROCEDIMIENTOS ORDINARIOS Y ESPECIALES SANCIONADORES",
+    linkBoletin: Boletines__pdfpath(`./${"2021/"}${"22.pdf"}`),
+  },
+  {
+    id: 23,
+    yearBoletin: "2021",
+    monthBoletin: "MAR",
+    nameBoletin:
+      "23 - IMPLEMENTA ITE MECANISMO PARA QUE CIUDADANÍA OPINE SOBRE TEMAS PARA DEBATES A LA GUBERNATURA",
+    linkBoletin: Boletines__pdfpath(`./${"2021/"}${"23.pdf"}`),
+  },
+  {
+    id: 24,
+    yearBoletin: "2021",
+    monthBoletin: "MAR",
+    nameBoletin: "24 - MUNICIPIOS, RETO DE LA PARIDAD EN TLAXCALA COELLO",
+    linkBoletin: Boletines__pdfpath(`./${"2021/"}${"24.pdf"}`),
+  },
+  {
+    id: 25,
+    yearBoletin: "2021",
+    monthBoletin: "MAR",
+    nameBoletin: "25 - APRUEBA ITE AMPLIACIÓN DE CONVOCATORIA PARA CAES Y SE",
+    linkBoletin: Boletines__pdfpath(`./${"2021/"}${"25.pdf"}`),
+  },
+  {
+    id: 26,
+    yearBoletin: "2021",
+    monthBoletin: "ABR",
+    nameBoletin:
+      "26 - EXHORTA ITE A HACER CAMPAÑAS DE PROPUESTAS Y SIN ARRIESGAR SALUD DE LA POBLACIÓN",
+    linkBoletin: Boletines__pdfpath(`./${"2021/"}${"26.pdf"}`),
+  },
+  {
+    id: 27,
+    yearBoletin: "2021",
+    monthBoletin: "ABR",
+    nameBoletin:
+      "27 - 18 DE ABRIL A LAS 1900 HRS., PRIMER DEBATE ENTRE CANDIDATAS Y CANDIDATO A LA GUBERNATURA",
+    linkBoletin: Boletines__pdfpath(`./${"2021/"}${"27.pdf"}`),
+  },
+  {
+    id: 28,
+    yearBoletin: "2021",
+    monthBoletin: "ABR",
+    nameBoletin:
+      "28 - REPRESENTANTES DE CANDIDATURAS AVALARON A LAS Y LOS MODERADORES DE DEBATES A GUBERNATURA",
+    linkBoletin: Boletines__pdfpath(`./${"2021/"}${"28.pdf"}`),
+  },
+  {
+    id: 29,
+    yearBoletin: "2021",
+    monthBoletin: "ABR",
+    nameBoletin:
+      "29 - PRESENTARÁ ITE GUÍA DE ACTUACIÓN PARA PREVENCIÓN, ATENCIÓN Y",
+    linkBoletin: Boletines__pdfpath(`./${"2021/"}${"29.pdf"}`),
+  },
+  {
+    id: 30,
+    yearBoletin: "2021",
+    monthBoletin: "MAY",
+    nameBoletin:
+      "30 - RESERVA ITE APROBACIÓN DE CANDIDATURAS A AYUNTAMIENTOS Y PC",
+    linkBoletin: Boletines__pdfpath(`./${"2021/"}${"30.pdf"}`),
+  },
+  {
+    id: 31,
+    yearBoletin: "2021",
+    monthBoletin: "MAY",
+    nameBoletin:
+      "31 - REGISTRA ITE APROBACIÓN DE 18 MIL 503 SOLICITUDES DE REGISTRO PARA AYUNTAMIENTOS Y PC",
+    linkBoletin: Boletines__pdfpath(`./${"2021/"}${"31.pdf"}`),
+  },
+  {
+    id: 32,
+    yearBoletin: "2021",
+    monthBoletin: "MAY",
+    nameBoletin:
+      "32 - DOMINGO 16 DE MAYO, SEGUNDO DEBATE ENTRE LAS CANDIDATAS Y EL",
+    linkBoletin: Boletines__pdfpath(`./${"2021/"}${"32.pdf"}`),
+  },
+  {
+    id: 33,
+    yearBoletin: "2021",
+    monthBoletin: "JUN",
+    nameBoletin:
+      "35 - IMPROCEDENTE SUSTITUCIÓN DE LILIANA BECERRIL COMO CANDIDATA",
+    linkBoletin: Boletines__pdfpath(`./${"2021/"}${"33.pdf"}`),
+  },
+  {
+    id: 34,
+    yearBoletin: "2021",
+    monthBoletin: "JUN",
+    nameBoletin:
+      "36 - LLAMA ITE A CUMPLIR CON EL DERECHO AL VOTO ESTE 6 DE JUNIO",
+    linkBoletin: Boletines__pdfpath(`./${"2021/"}${"34.pdf"}`),
+  },
+  {
+    id: 35,
+    yearBoletin: "2021",
+    monthBoletin: "JUN",
+    nameBoletin: "37 - LLAMA ITE A INCONFORMES DE XICOHTZINCO A PERMITIR QUE",
+    linkBoletin: Boletines__pdfpath(`./${"2021/"}${"35.pdf"}`),
+  },
+  {
+    id: 36,
+    yearBoletin: "2021",
+    monthBoletin: "JUN",
+    nameBoletin:
+      "38 - DECLARA ITE QUE PEST, PS, PIS Y PES NO ALCANZARON 3% DE VOTACIÓN",
+    linkBoletin: Boletines__pdfpath(`./${"2021/"}${"36.pdf"}`),
+  },
+  {
+    id: 37,
+    yearBoletin: "2021",
+    monthBoletin: "JUN",
+    nameBoletin: "39 - HA LIQUIDADO ITE AL 80% DEL PERSONAL EVENTUAL",
+    linkBoletin: Boletines__pdfpath(`./${"2021/"}${"37.pdf"}`),
+  },
+  {
+    id: 38,
+    yearBoletin: "2021",
+    monthBoletin: "JUL",
+    nameBoletin: "41 - DESIGNA ITE A INTERVENTORES DE PARTIDOS",
+    linkBoletin: Boletines__pdfpath(`./${"2021/"}${"38.pdf"}`),
+  },
+  {
+    id: 39,
+    yearBoletin: "2021",
+    monthBoletin: "JUL",
+    nameBoletin:
+      "42 - Suman INE y OPL esfuerzos para promover la Consulta Popular",
+    linkBoletin: Boletines__pdfpath(`./${"2021/"}${"39.pdf"}`),
+  },
+  {
+    id: 40,
+    yearBoletin: "2021",
+    monthBoletin: "JUL",
+    nameBoletin: "43 - DESAHOGA ITE RECUENTO EN UNA CASILLA DE ELECCIÓN DE",
+    linkBoletin: Boletines__pdfpath(`./${"2021/"}${"40.pdf"}`),
+  },
+  {
+    id: 41,
+    yearBoletin: "2021",
+    monthBoletin: "AGO",
+    nameBoletin: "44 - CONSTANCIAS PARLAMENTO",
+    linkBoletin: Boletines__pdfpath(`./${"2021/"}${"41.pdf"}`),
+  },
+  {
+    id: 42,
+    yearBoletin: "2021",
+    monthBoletin: "AGO",
+    nameBoletin: "45 - constancias de mayoría",
+    linkBoletin: Boletines__pdfpath(`./${"2021/"}${"42.pdf"}`),
+  },
+  {
+    id: 43,
+    yearBoletin: "2021",
+    monthBoletin: "AGO",
+    nameBoletin: "46 - capacitación mujeres",
+    linkBoletin: Boletines__pdfpath(`./${"2021/"}${"43.pdf"}`),
+  },
+  {
+    id: 44,
+    yearBoletin: "2021",
+    monthBoletin: "AGO",
+    nameBoletin: "47 - medidas Dulce Silva",
+    linkBoletin: Boletines__pdfpath(`./${"2021/"}${"44.pdf"}`),
+  },
+  {
+    id: 45,
+    yearBoletin: "2021",
+    monthBoletin: "AGO",
+    nameBoletin: "48 - candidaturas indígenas",
+    linkBoletin: Boletines__pdfpath(`./${"2021/"}${"45.pdf"}`),
+  },
+  {
+    id: 46,
+    yearBoletin: "2021",
+    monthBoletin: "AGO",
+    nameBoletin: "49 - observatorio conversatorio",
+    linkBoletin: Boletines__pdfpath(`./${"2021/"}${"46.pdf"}`),
+  },
+  {
+    id: 47,
+    yearBoletin: "2021",
+    monthBoletin: "AGO",
+    nameBoletin: "50 - observatorio sesión (1)",
+    linkBoletin: Boletines__pdfpath(`./${"2021/"}${"47.pdf"}`),
+  },
+  {
+    id: 48,
+    yearBoletin: "2021",
+    monthBoletin: "AGO",
+    nameBoletin: "51 - integración legislatura",
+    linkBoletin: Boletines__pdfpath(`./${"2021/"}${"48.pdf"}`),
+  },
+  {
+    id: 49,
+    yearBoletin: "2021",
+    monthBoletin: "SEP",
+    nameBoletin: "52 - foro derecho a saber",
+    linkBoletin: Boletines__pdfpath(`./${"2021/"}${"49.pdf"}`),
+  },
+  {
+    id: 50,
+    yearBoletin: "2021",
+    monthBoletin: "SEP",
+    nameBoletin: "53 - conclusión PELO (2)",
+    linkBoletin: Boletines__pdfpath(`./${"2021/"}${"50.pdf"}`),
+  },
+  {
+    id: 51,
+    yearBoletin: "2021",
+    monthBoletin: "SEP",
+    nameBoletin: "54 - pérdida de registro",
+    linkBoletin: Boletines__pdfpath(`./${"2021/"}${"51.pdf"}`),
+  },
+  {
+    id: 52,
+    yearBoletin: "2021",
+    monthBoletin: "SEP",
+    nameBoletin: "55 - Presupuesto",
+    linkBoletin: Boletines__pdfpath(`./${"2021/"}${"52.pdf"}`),
+  },
+  {
+    id: 53,
+    yearBoletin: "2021",
+    monthBoletin: "OCT",
+    nameBoletin: "56 - elecciones extraordinarias",
+    linkBoletin: Boletines__pdfpath(`./${"2021/"}${"53.pdf"}`),
+  },
+  {
+    id: 54,
+    yearBoletin: "2021",
+    monthBoletin: "OCT",
+    nameBoletin: "57 - cancelación de acreditación",
+    linkBoletin: Boletines__pdfpath(`./${"2021/"}${"54.pdf"}`),
+  },
+  {
+    id: 55,
+    yearBoletin: "2021",
+    monthBoletin: "OCT",
+    nameBoletin: "58 - Inicio PELE 2021",
+    linkBoletin: Boletines__pdfpath(`./${"2021/"}${"55.pdf"}`),
+  },
+  {
+    id: 56,
+    yearBoletin: "2021",
+    monthBoletin: "OCT",
+    nameBoletin: "59 - foro exgobernadoras",
+    linkBoletin: Boletines__pdfpath(`./${"2021/"}${"56.pdf"}`),
+  },
+  {
+    id: 57,
+    yearBoletin: "2021",
+    monthBoletin: "OCT",
+    nameBoletin: "60 - FORO PARTICIPACIÓN (1)",
+    linkBoletin: Boletines__pdfpath(`./${"2021/"}${"57.pdf"}`),
+  },
+  {
+    id: 58,
+    yearBoletin: "2021",
+    monthBoletin: "OCT",
+    nameBoletin: "61 - firma convenio",
+    linkBoletin: Boletines__pdfpath(`./${"2021/"}${"58.pdf"}`),
+  },
+  {
+    id: 59,
+    yearBoletin: "2021",
+    monthBoletin: "OCT",
+    nameBoletin: "62 - firma convenio CEDHT",
+    linkBoletin: Boletines__pdfpath(`./${"2021/"}${"59.pdf"}`),
+  },
+  {
+    id: 60,
+    yearBoletin: "2021",
+    monthBoletin: "OCT",
+    nameBoletin: "63 - RINDEN PROTESTA EL Y LAS NUEVAS CONSEJERAS DEL ITE",
+    linkBoletin: Boletines__pdfpath(`./${"2021/"}${"60.pdf"}`),
+  },
+  {
+    id: 61,
+    yearBoletin: "2021",
+    monthBoletin: "NOV",
+    nameBoletin: "64-adecuación",
+    linkBoletin: Boletines__pdfpath(`./${"2021/"}${"61.pdf"}`),
+  },
+  {
+    id: 62,
+    yearBoletin: "2021",
+    monthBoletin: "NOV",
+    nameBoletin: "65-documentación electoral",
+    linkBoletin: Boletines__pdfpath(`./${"2021/"}${"62.pdf"}`),
+  },
+  {
+    id: 63,
+    yearBoletin: "2021",
+    monthBoletin: "NOV",
+    nameBoletin: "67- registro de candidaturas",
+    linkBoletin: Boletines__pdfpath(`./${"2021/"}${"63.pdf"}`),
+  },
+  {
+    id: 64,
+    yearBoletin: "2021",
+    monthBoletin: "NOV",
+    nameBoletin:
+      "68- APRUEBA ITE REGISTRO DE 27 FÓRMULAS QUE CONTENDERÁN EN EL PELE 2021",
+    linkBoletin: Boletines__pdfpath(`./${"2021/"}${"64.pdf"}`),
+  },
+  {
+    id: 65,
+    yearBoletin: "2021",
+    monthBoletin: "NOV",
+    nameBoletin:
+      "69-APRUEBA ITE MEDIDAS DE SEGURIDAD DE BOLETAS PARA PROCESO EXTRAORDINARIO",
+    linkBoletin: Boletines__pdfpath(`./${"2021/"}${"65.pdf"}`),
+  },
+  {
+    id: 66,
+    yearBoletin: "2021",
+    monthBoletin: "NOV",
+    nameBoletin: "70-documentación electoral",
+    linkBoletin: Boletines__pdfpath(`./${"2021/"}${"66.pdf"}`),
+  },
+  {
+    id: 67,
+    yearBoletin: "2021",
+    monthBoletin: "NOV",
+    nameBoletin:
+      "72- EFECTÚA ITE PRIMERA VERIFICACIÓN DE MEDIDAS DE SEGURIDAD EN BOLETAS",
+    linkBoletin: Boletines__pdfpath(`./${"2021/"}${"67.pdf"}`),
+  },
+  {
+    id: 68,
+    yearBoletin: "2021",
+    monthBoletin: "NOV",
+    nameBoletin:
+      "73- SOTO PENDIENTE EN TLAXCALA NULIDAD DE ELECCIÓN POR VIOLENCIA",
+    linkBoletin: Boletines__pdfpath(`./${"2021/"}${"68.pdf"}`),
+  },
+  {
+    id: 69,
+    yearBoletin: "2021",
+    monthBoletin: "NOV",
+    nameBoletin:
+      "74-LLAMA ITE A CIUDADANÍA DE COMUNIDADES QUE ELIGEN PRESIDENCIA A VOTAR EN PAZ SOCIAL",
+    linkBoletin: Boletines__pdfpath(`./${"2021/"}${"69.pdf"}`),
+  },
+  {
+    id: 70,
+    yearBoletin: "2021",
+    monthBoletin: "NOV",
+    nameBoletin:
+      "75-VERIFICARÁN MEDIDAS DE SEGURIDAD DE BOLETAS EN CASILLA DE SANTA CRUZ GUADALUPE",
+    linkBoletin: Boletines__pdfpath(`./${"2021/"}${"70.pdf"}`),
+  },
+  {
+    id: 71,
+    yearBoletin: "2021",
+    monthBoletin: "NOV",
+    nameBoletin: "76- MODIFICA ITE REGLAMENTO DE CONSTITUCIÓN DE PARTIDOS",
+    linkBoletin: Boletines__pdfpath(`./${"2021/"}${"71.pdf"}`),
+  },
+  {
+    id: 72,
+    yearBoletin: "2021",
+    monthBoletin: "NOV",
+    nameBoletin: "77- EFECTUARÁ ITE CÓMPUTOS; APRUEBA COTEJOS Y RECUENTOS",
+    linkBoletin: Boletines__pdfpath(`./${"2021/"}${"72.pdf"}`),
+  },
+  {
+    id: 73,
+    yearBoletin: "2021",
+    monthBoletin: "DIC",
+    nameBoletin:
+      "78- DECLARA ITE VALIDEZ DE ELECCIÓN EXTRAORDINARIA; ENTREGA CONSTANCIAS DE MAYORÍA",
+    linkBoletin: Boletines__pdfpath(`./${"2021/"}${"72.pdf"}`),
+  },
+];
+export const dataBoletines2022 = [
+  {
+    id: 1,
+    yearBoletin: "2022",
+    monthBoletin: "ENE",
+    nameBoletin:
+      "BOLETÍN 01- DECLARA ITE CONCLUSIÓN DEL PROCESO ELECTORAL EXTRAORDINARIO",
+    linkBoletin: Boletines__pdfpath(`./${"2022/"}${"1.pdf"}`),
+  },
+  {
+    id: 2,
+    yearBoletin: "2022",
+    monthBoletin: "ENE",
+    nameBoletin:
+      "BOLETÍN 02- APRUEBA ITE RETENER 6.2 MDP A PARTIDOS POR MULTAS.",
+    linkBoletin: Boletines__pdfpath(`./${"2022/"}${"2.pdf"}`),
+  },
+  {
+    id: 3,
+    yearBoletin: "2022",
+    monthBoletin: "ENE",
+    nameBoletin:
+      "BOLETÍN 03 - INICIA ITE ESTE MIÉRCOLES CONCURSO DE DEBATE PARA JÓVENES.",
+    linkBoletin: Boletines__pdfpath(`./${"2022/"}${"3.pdf"}`),
+  },
+  {
+    id: 4,
+    yearBoletin: "2022",
+    monthBoletin: "ENE",
+    nameBoletin:
+      "BOLETÍN 04.- DECLARA ITE PROCEDENTE REGISTRO DE RSP COMO PARTIDO LOCAL.",
+    linkBoletin: Boletines__pdfpath(`./${"2022/"}${"4.pdf"}`),
+  },
+  {
+    id: 5,
+    yearBoletin: "2022",
+    monthBoletin: "ENE",
+    nameBoletin:
+      "05.- APRUEBA ITE REGISTRO DE FUERZA POR MÉXICO COMO PARTIDO POLÍTICO LOCAL.",
+    linkBoletin: Boletines__pdfpath(`./${"2022/"}${"5.pdf"}`),
+  },
+  {
+    id: 6,
+    yearBoletin: "2022",
+    monthBoletin: "FEB",
+    nameBoletin:
+      "BOLETÍN 06.- APRUEBA ITE READECUACIÓN DE PRERROGATIVAS DE PARTIDOS POLÍTICOS.",
+    linkBoletin: Boletines__pdfpath(`./${"2022/"}${"6.pdf"}`),
+  },
+  {
+    id: 7,
+    yearBoletin: "2022",
+    monthBoletin: "FEB",
+    nameBoletin:
+      "BOLETÍN 06.- APRUEBA ITE READECUACIÓN DE PRERROGATIVAS DE PARTIDOS POLÍTICOS.",
+    linkBoletin: Boletines__pdfpath(`./${"2022/"}${"7.pdf"}`),
+  },
+  {
+    id: 8,
+    yearBoletin: "2022",
+    monthBoletin: "FEB",
+    nameBoletin:
+      "BOLETÍN 06.- APRUEBA ITE READECUACIÓN DE PRERROGATIVAS DE PARTIDOS POLÍTICOS.",
+    linkBoletin: Boletines__pdfpath(`./${"2022/"}${"8.pdf"}`),
+  },
+  {
+    id: 9,
+    yearBoletin: "2022",
+    monthBoletin: "FEB",
+    nameBoletin:
+      "BOLETÍN 06.- APRUEBA ITE READECUACIÓN DE PRERROGATIVAS DE PARTIDOS POLÍTICOS.",
+    linkBoletin: Boletines__pdfpath(`./${"2022/"}${"9.pdf"}`),
+  },
+  {
+    id: 10,
+    yearBoletin: "2022",
+    monthBoletin: "FEB",
+    nameBoletin:
+      "BOLETÍN 06.- APRUEBA ITE READECUACIÓN DE PRERROGATIVAS DE PARTIDOS POLÍTICOS.",
+    linkBoletin: Boletines__pdfpath(`./${"2022/"}${"10.pdf"}`),
+  },
+  {
+    id: 11,
+    yearBoletin: "2022",
+    monthBoletin: "MAR",
+    nameBoletin:
+      "BOLETÍN 11-APRUEBA ITE DESTRUCCIÓN DE DOCUMENTACIÓN DEL PELE 2021.",
+    linkBoletin: Boletines__pdfpath(`./${"2022/"}${"11.pdf"}`),
+  },
+  {
+    id: 12,
+    yearBoletin: "2022",
+    monthBoletin: "MAR",
+    nameBoletin: "BOLETÍN 12 CREA ITE COORDINACIÓN DE GÉNERO",
+    linkBoletin: Boletines__pdfpath(`./${"2022/"}${"12.pdf"}`),
+  },
+  {
+    id: 13,
+    yearBoletin: "2022",
+    monthBoletin: "ABR",
+    nameBoletin:
+      "BOLETÍN 13 DONA ITE 25 TONELADAS DE DOCUMENTACIÓN ELECTORAL A CONALITEG",
+    linkBoletin: Boletines__pdfpath(`./${"2022/"}${"13.pdf"}`),
+  },
+  {
+    id: 14,
+    yearBoletin: "2022",
+    monthBoletin: "ABR",
+    nameBoletin:
+      "BOLETÍN 14 FIRMAN CONVENIO ITE Y UATx PARA DIFUNDIR INFORMACIÓN EN NÁHUATL Y OTOMÍ",
+    linkBoletin: Boletines__pdfpath(`./${"2022/"}${"14.pdf"}`),
+  },
+  {
+    id: 15,
+    yearBoletin: "2022",
+    monthBoletin: "ABR",
+    nameBoletin:
+      "BOLETÍN 15 FIRMAN CONVENIO ITE Y SECRETARIA DE BIENESTAR PARA DESARROLLO DE CONSULTA A PUEBLOS INDÍGENAS",
+    linkBoletin: Boletines__pdfpath(`./${"2022/"}${"15.pdf"}`),
+  },
+  {
+    id: 16,
+    yearBoletin: "2022",
+    monthBoletin: "ABR",
+    nameBoletin:
+      "BOLETÍN 16 FIRMAN CONVENIO ITE Y CEDHT PARA MATERIALIZAR CONSULTA A PUEBLOS INDÍGENAS",
+    linkBoletin: Boletines__pdfpath(`./${"2022/"}${"16.pdf"}`),
+  },
+  {
+    id: 17,
+    yearBoletin: "2022",
+    monthBoletin: "ABR",
+    nameBoletin:
+      "BOLETÍN 17 FIRMAN CONVENIO ITE E INPI PARA CONSULTA DE PUEBLOS INDÍGENAS",
+    linkBoletin: Boletines__pdfpath(`./${"2022/"}${"17.pdf"}`),
+  },
+  {
+    id: 18,
+    yearBoletin: "2022",
+    monthBoletin: "ABR",
+    nameBoletin:
+      "BOLETÍN 18 ELIGEN A INTEGRANTES DEL DÉCIMO TERCER PARLAMENTO INFANTIL POR PRINCIPIO DE MAYORÍA",
+    linkBoletin: Boletines__pdfpath(`./${"2022/"}${"18.pdf"}`),
+  },
+  {
+    id: 19,
+    yearBoletin: "2022",
+    monthBoletin: "ABR",
+    nameBoletin:
+      "BOLETÍN 19. ASESORA ITE A AYUNTAMIENTOS EN EJERCICIO DE “VOZ CIUDADANA EN EL CABILDO”",
+    linkBoletin: Boletines__pdfpath(`./${"2022/"}${"19.pdf"}`),
+  },
+  {
+    id: 20,
+    yearBoletin: "2022",
+    monthBoletin: "MAY",
+    nameBoletin: "BOLETÍN 20 INICIA ITE DESARROLLO DE ASAMBLEAS",
+    linkBoletin: Boletines__pdfpath(`./${"2022/"}${"20.pdf"}`),
+  },
+  {
+    id: 21,
+    yearBoletin: "2022",
+    monthBoletin: "MAY",
+    nameBoletin:
+      "BOLETÍN 21 SOLICITA ITE A CONGRESO DESINCORPORACIÓN DE VEHÍCULOS EN DESUSO",
+    linkBoletin: Boletines__pdfpath(`./${"2022/"}${"21.pdf"}`),
+  },
+  {
+    id: 22,
+    yearBoletin: "2022",
+    monthBoletin: "MAY",
+    nameBoletin:
+      "BOLETÍN 22 APRUEBA ITE PROTOCOLOS PARA LA CONSULTA CIUDADANA A PUEBLOS Y COMUNIDADES INDÍGENAS",
+    linkBoletin: Boletines__pdfpath(`./${"2022/"}${"22.pdf"}`),
+  },
+  {
+    id: 23,
+    yearBoletin: "2022",
+    monthBoletin: "JUN",
+    nameBoletin:
+      "BOLETÍN 23. APRUEBA ITE MEDIDAS CAUTELARES Y DE PROTECCIÓN A REGIDORA Y SÍNDICA EN DENUNCIA POR VPMrG",
+    linkBoletin: Boletines__pdfpath(`./${"2022/"}${"23.pdf"}`),
+  },
+  {
+    id: 24,
+    yearBoletin: "2022",
+    monthBoletin: "JUN",
+    nameBoletin:
+      "BOLETÍN 24. APRUEBA ITE CAMBIO DE DENOMINACIÓN A ORGANIZACIÓN QUE PRETENDE CONVERTIRSE EN PARTIDO",
+    linkBoletin: Boletines__pdfpath(`./${"2022/"}${"24.pdf"}`),
+  },
+  {
+    id: 25,
+    yearBoletin: "2022",
+    monthBoletin: "JUN",
+    nameBoletin:
+      "BOLETÍN 25-MOVIMIENTO LABORISTA NO PODRÁ CONTINUAR PROCESO PARA CONSTITUIRSE EN PARTIDO",
+    linkBoletin: Boletines__pdfpath(`./${"2022/"}${"25.pdf"}`),
+  },
+  {
+    id: 26,
+    yearBoletin: "2022",
+    monthBoletin: "JUN",
+    nameBoletin:
+      "BOLETÍN 26-DESINCORPORA ITE APROXIMADAMENTE 10 MIL KG DE MATERIAL ELECTORAL PARA DESTRUCCIÓN",
+    linkBoletin: Boletines__pdfpath(`./${"2022/"}${"26.pdf"}`),
+  },
+  {
+    id: 27,
+    yearBoletin: "2022",
+    monthBoletin: "JUN",
+    nameBoletin: "BOLETÍN 27 PRESENTA OIC DEL ITE CÓDIGO DE ÉTICA",
+    linkBoletin: Boletines__pdfpath(`./${"2022/"}${"27.pdf"}`),
+  },
+  {
+    id: 28,
+    yearBoletin: "2022",
+    monthBoletin: "JUN",
+    nameBoletin:
+      "BOLETÍN 28. RECABA ITE POSTURA DE COMUNIDAD LGBTTTIQ PARA PROPUESTA DE REFORMA ELECTORAL",
+    linkBoletin: Boletines__pdfpath(`./${"2022/"}${"28.pdf"}`),
+  },
+  {
+    id: 29,
+    yearBoletin: "2022",
+    monthBoletin: "JUN",
+    nameBoletin:
+      "BOLETÍN 29 FORMULA ITE NUEVO REQUERIMIENTO A ORGANZACIONES QUE PRETENDEN CONSTITUIRSE COMO PARTIDO",
+    linkBoletin: Boletines__pdfpath(`./${"2022/"}${"29.pdf"}`),
+  },
+  {
+    id: 30,
+    yearBoletin: "2022",
+    monthBoletin: "JUN",
+    nameBoletin:
+      "BOLETÍN 30-FIRMA ITE CONVENIO CON 12 AYUNTAMIENTOS PARA FORTALECER CULTURA DEMOCRÁTICA",
+    linkBoletin: Boletines__pdfpath(`./${"2022/"}${"30.pdf"}`),
+  },
+  {
+    id: 31,
+    yearBoletin: "2022",
+    monthBoletin: "JUN",
+    nameBoletin:
+      "BOLETÍN 31. CREA ITE coordinación de sistemas pluriculturales",
+    linkBoletin: Boletines__pdfpath(`./${"2022/"}${"31.pdf"}`),
+  },
+  {
+    id: 32,
+    yearBoletin: "2022",
+    monthBoletin: "JUL",
+    nameBoletin:
+      "BOLETÍN 32 A DESTRUCCIÓN YO RECICLAJE 41 TONS DE DOCUMENTACIÓN Y MATERIAL ELECTORAL LOCAL",
+    linkBoletin: Boletines__pdfpath(`./${"2022/"}${"32.pdf"}`),
+  },
+  {
+    id: 33,
+    yearBoletin: "2022",
+    monthBoletin: "AGO",
+    nameBoletin:
+      "BOLETÍN 33. CREA ITE MICROSITIO SOBRE PARTICIPACIÓN DE MUJERES",
+    linkBoletin: Boletines__pdfpath(`./${"2022/"}${"33.pdf"}`),
+  },
+  {
+    id: 34,
+    yearBoletin: "2022",
+    monthBoletin: "AGO",
+    nameBoletin: "BOLETÍN 34-LLEVARÁ A CABO ITE SEMANA DE LA EDUCACIÓN CÍVICA",
+    linkBoletin: Boletines__pdfpath(`./${"2022/"}${"34.pdf"}`),
+  },
+  {
+    id: 35,
+    yearBoletin: "2022",
+    monthBoletin: "SEP",
+    nameBoletin:
+      "BOLETÍN 35 -SATISFECHA DE SERVIR A TLAXCALA DEJA CARGO PRESIDENTA DEL ITE ELIZABETH PIEDRAS",
+    linkBoletin: Boletines__pdfpath(`./${"2022/"}${"35.pdf"}`),
+  },
+  {
+    id: 36,
+    yearBoletin: "2022",
+    monthBoletin: "SEP",
+    nameBoletin:
+      "BOLETÍN 36 ELIGEN CONSEJERAS Y CONSEJEROS ELECTORALES A JUAN CARLOS MINOR MÁRQUEZ COMO PRESIDENTE PROVISIONAL DEL ITE",
+    linkBoletin: Boletines__pdfpath(`./${"2022/"}${"36.pdf"}`),
+  },
+  {
+    id: 37,
+    yearBoletin: "2022",
+    monthBoletin: "SEP",
+    nameBoletin:
+      "BOLETÍN 37 - PARTICIPACIÓN CIUDADANA, FUNDAMENTAL PARA DEMOCRACIA DE CALIDAD-JCMM",
+    linkBoletin: Boletines__pdfpath(`./${"2022/"}${"37.pdf"}`),
+  },
+  {
+    id: 38,
+    yearBoletin: "2022",
+    monthBoletin: "SEP",
+    nameBoletin:
+      "BOLETÍN 38 - SIGNA ITE CONVENIOS CON AYUNTAMIENTOS Y SECTOR EDUCATIVO EN MATERIA DE EDUCACIÓN CÍVICA",
+    linkBoletin: Boletines__pdfpath(`./${"2022/"}${"38.pdf"}`),
+  },
+  {
+    id: 39,
+    yearBoletin: "2022",
+    monthBoletin: "SEP",
+    nameBoletin:
+      "BOLETÍN 39 AÚN HAY RETOS PARA MEJORAR CALIDAD DE CIUDADANÍA_ FAZ MORA",
+    linkBoletin: Boletines__pdfpath(`./${"2022/"}${"39.pdf"}`),
+  },
+  {
+    id: 40,
+    yearBoletin: "2022",
+    monthBoletin: "SEP",
+    nameBoletin: "BOLETÍN 40 CONCLUYE ITE SEMANA DE EDUCACIÓN CÍVICA",
+    linkBoletin: Boletines__pdfpath(`./${"2022/"}${"40.pdf"}`),
+  },
+  {
+    id: 41,
+    yearBoletin: "2022",
+    monthBoletin: "SEP",
+    nameBoletin:
+      "BOLETÍN 41-ATENDIÓ ITE 360 EJERCICIOS DE ASAMBLEAS EN PROCESO DE CONSTITUCIÓN DE PARTIDOS LOCALES",
+    linkBoletin: Boletines__pdfpath(`./${"2022/"}${"41.pdf"}`),
+  },
+  {
+    id: 42,
+    yearBoletin: "2022",
+    monthBoletin: "SEP",
+    nameBoletin:
+      "BOLETÍN 42-RINDE PROTESTA JUAN CARLOS MINOR COMO PRESIDENTE PROVISIONAL DEL ITE",
+    linkBoletin: Boletines__pdfpath(`./${"2022/"}${"42.pdf"}`),
+  },
+  {
+    id: 43,
+    yearBoletin: "2022",
+    monthBoletin: "SEP",
+    nameBoletin:
+      "BOLETÍN 43- SOLICITARÁ ITE 52.9 MDP DE PRESUPUESTO PARA 2023; PARTIDOS TENDRÁN 63.9 MDP",
+    linkBoletin: Boletines__pdfpath(`./${"2022/"}${"43.pdf"}`),
+  },
+  {
+    id: 44,
+    yearBoletin: "2022",
+    monthBoletin: "OCT",
+    nameBoletin:
+      "BOLETÍN 44 DICTARÁ SARA LOVERA CONFERENCIA EN TLAXCALA SOBRE CIUDADANÍA DE MUJERES",
+    linkBoletin: Boletines__pdfpath(`./${"2022/"}${"44.pdf"}`),
+  },
+  {
+    id: 45,
+    yearBoletin: "2022",
+    monthBoletin: "OCT",
+    nameBoletin:
+      "BOLETÍN 45 CAPITALIZAR DIFERENCIAS DE MUJERES EN BENEFICIO DEL FEMINISMO, PROPONE SARA LOVERA",
+    linkBoletin: Boletines__pdfpath(`./${"2022/"}${"45.pdf"}`),
+  },
 ];
