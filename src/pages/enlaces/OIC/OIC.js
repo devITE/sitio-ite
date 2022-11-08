@@ -139,6 +139,7 @@ export default class OIC extends Component {
         <Modal
           idModal="EstructuraOrganica"
           titleModal="Estructura Orgánica del Órgano Interno de Control"
+          sizeModal=""
           contentModal={
             <ListBadge
               ifNumbered={""}
@@ -154,6 +155,7 @@ export default class OIC extends Component {
         <Modal
           idModal="Normatividad"
           titleModal="Normatividad"
+          sizeModal=""
           contentModal={
             <ListBadge ifNumbered={""} listsBadgeItem={dataNormatividad} />
           }
@@ -161,11 +163,13 @@ export default class OIC extends Component {
         <Modal
           idModal="Programas"
           titleModal="Programas"
+          sizeModal=""
           contentModal={<ListBadge ifNumbered={""} listsBadgeItem={dataPOA} />}
         />
         <Modal
           idModal="Semblanza"
           titleModal="Semblanza"
+          sizeModal=""
           contentModal={
             <ListBadge ifNumbered={""} listsBadgeItem={dataSemblanza} />
           }
@@ -173,6 +177,7 @@ export default class OIC extends Component {
         <Modal
           idModal="DeclaracionPatrimonial"
           titleModal="Declaración Patrimonial"
+          sizeModal=""
           contentModal={
             <ListBadge
               ifNumbered={""}
@@ -183,6 +188,7 @@ export default class OIC extends Component {
         <Modal
           idModal="CodigodeEtica"
           titleModal="CodigodeEtica"
+          sizeModal=""
           contentModal={
             <ListBadge ifNumbered={""} listsBadgeItem={dataCodigoEtica} />
           }

@@ -93,6 +93,7 @@ export default class PE20202021 extends Component {
         <Modal
           idModal="Gubernatura20202021"
           titleModal="Resultados Gubernatura 2020 -2021"
+          sizeModal=""
           contentModal={
             <ListBadge
               ifNumbered={""}
@@ -103,6 +104,7 @@ export default class PE20202021 extends Component {
         <Modal
           idModal="Diputaciones20202021"
           titleModal="Resultados Diputaciones 2020 -2021"
+          sizeModal=""
           contentModal={
             <ListBadge
               ifNumbered={""}
@@ -113,6 +115,7 @@ export default class PE20202021 extends Component {
         <Modal
           idModal="Ayuntamientos20202021"
           titleModal="Resultados Ayuntamientos 2020 -2021"
+          sizeModal=""
           contentModal={
             <ListBadge
               ifNumbered={""}
@@ -123,6 +126,7 @@ export default class PE20202021 extends Component {
         <Modal
           idModal="Presidencias20202021"
           titleModal="Resultados Presidencias de Comunidad 2020 -2021"
+          sizeModal=""
           contentModal={
             <ListBadge
               ifNumbered={""}

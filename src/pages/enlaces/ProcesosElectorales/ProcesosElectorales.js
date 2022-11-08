@@ -83,6 +83,7 @@ export default class ProcesosElectorales extends Component {
         <Modal
           idModal="PresidenciasComunidad2021"
           titleModal="Resultados Electorales Presidencias de Comunidad 2021"
+          sizeModal=""
           contentModal={
             <ListBadge ifNumbered={""} listsBadgeItem={dataResultadosE2021} />
           }

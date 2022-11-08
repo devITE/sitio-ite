@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import TitlePages from "../../../layout/TitlePages";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faClipboard,
@@ -9,7 +10,6 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import "../Transparencia.css";
 
-const Transparencia_imppath = require.context("../../../assets/img/imgT");
 const Transparencia_pdfpath = require.context(
   "../../../assets/pdf/transparencia/infContable"
 );
@@ -18,14 +18,16 @@ export default class InformacionContable extends Component {
   render() {
     return (
       <div>
-        <img
+        <TitlePages title="Información Financiera" />
+
+        {/* <img
           className="img-fluid w-100"
           src={Transparencia_imppath(`./head.png`)}
           alt="Transparencia"
         />
         <div className="w-100 mt-3 Transparencia__header-title">
           Información Contable
-        </div>
+        </div> */}
         <div className="InformacionFinanciera__content">
           <FontAwesomeIcon icon={faClipboard} className="me-3 fs-3" />
           Inventario de Bienes Muebles e Inmuebles

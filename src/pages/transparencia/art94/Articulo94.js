@@ -1,22 +1,13 @@
 import React, { Component } from "react";
+import TitlePages from "../../../layout/TitlePages";
 import { Link } from "react-router-dom";
 import "../Transparencia.css";
-
-const Transparencia_imppath = require.context("../../../assets/img/imgT");
 
 export default class Articulo94 extends Component {
   render() {
     return (
       <div>
-        <img
-          className="img-fluid w-100"
-          src={Transparencia_imppath(`./head.png`)}
-          alt="Transparencia"
-        />
-        <div className="w-100 mt-3 Transparencia__header-title">
-          Ley de Transparencia y Acceso a la Información Pública del Estado de
-          Tlaxcala.
-        </div>
+        <TitlePages title="Transparencia" />
         <h5 className="mt-3 text-center Transparencia__title">
           Artículo 94. del
           <br />

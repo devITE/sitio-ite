@@ -1,20 +1,13 @@
 import React, { Component } from "react";
+import TitlePages from "../../layout/TitlePages";
 import "./Transparencia.css";
-
-const Transparencia_imppath = require.context("../../assets/img/imgT");
 
 export default class PreguntasFrecuentes extends Component {
   render() {
     return (
-      <div>
-        <img
-          className="img-fluid w-100"
-          src={Transparencia_imppath(`./head.png`)}
-          alt="Transparencia"
-        />
-        <div className="w-100 mt-3 Transparencia__header-title">
-          Preguntas Frecuentes
-        </div>
+      <>
+        <TitlePages title="Preguntas Frecuentes" />
+
         <div className="mt-3">
           <ol type="I" start="1">
             <li className="Preguntas__list">
@@ -105,64 +98,67 @@ export default class PreguntasFrecuentes extends Component {
               Te invitamos a que conozcas el presupuesto otorgado a nuestro
               Instituto:
             </p>
-            <table className="text-center table table-striped table-hover table-responsive w-50 mx-auto">
-              <thead>
-                <tr>
-                  <th scope="col">Ejercicio</th>
-                  <th scope="col">Presupuesto otorgado</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>2004</td>
-                  <td>$108,507,780.07</td>
-                </tr>
-                <tr>
-                  <td>2006</td>
-                  <td>$64,286,489.25</td>
-                </tr>
-                <tr>
-                  <td>2009</td>
-                  <td>$53,893,915.90</td>
-                </tr>
-                <tr>
-                  <td>2010</td>
-                  <td>$164,378,440.48</td>
-                </tr>
-                <tr>
-                  <td>2012</td>
-                  <td>$39,937,209.30</td>
-                </tr>
-                <tr>
-                  <td>2015</td>
-                  <td>$44,874,797.00</td>
-                </tr>
-                <tr>
-                  <td>2016</td>
-                  <td>$125,000,000.00</td>
-                </tr>
-                <tr>
-                  <td>2017</td>
-                  <td>$51,000,000.00</td>
-                </tr>
-                <tr>
-                  <td>2018</td>
-                  <td>$75,000,000.00</td>
-                </tr>
-                <tr>
-                  <td>2019</td>
-                  <td>$80,000,000.00</td>
-                </tr>
-                <tr>
-                  <td>2020</td>
-                  <td>$83,042,151.03</td>
-                </tr>
-                <tr>
-                  <td>2021</td>
-                  <td>$185,782,415.00</td>
-                </tr>
-              </tbody>
-            </table>
+
+            <div className="table-responsive">
+              <table className="table text-center table-striped table-hover w-50 mx-auto">
+                <thead>
+                  <tr>
+                    <th scope="col">Ejercicio</th>
+                    <th scope="col">Presupuesto otorgado</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>2004</td>
+                    <td>$108,507,780.07</td>
+                  </tr>
+                  <tr>
+                    <td>2006</td>
+                    <td>$64,286,489.25</td>
+                  </tr>
+                  <tr>
+                    <td>2009</td>
+                    <td>$53,893,915.90</td>
+                  </tr>
+                  <tr>
+                    <td>2010</td>
+                    <td>$164,378,440.48</td>
+                  </tr>
+                  <tr>
+                    <td>2012</td>
+                    <td>$39,937,209.30</td>
+                  </tr>
+                  <tr>
+                    <td>2015</td>
+                    <td>$44,874,797.00</td>
+                  </tr>
+                  <tr>
+                    <td>2016</td>
+                    <td>$125,000,000.00</td>
+                  </tr>
+                  <tr>
+                    <td>2017</td>
+                    <td>$51,000,000.00</td>
+                  </tr>
+                  <tr>
+                    <td>2018</td>
+                    <td>$75,000,000.00</td>
+                  </tr>
+                  <tr>
+                    <td>2019</td>
+                    <td>$80,000,000.00</td>
+                  </tr>
+                  <tr>
+                    <td>2020</td>
+                    <td>$83,042,151.03</td>
+                  </tr>
+                  <tr>
+                    <td>2021</td>
+                    <td>$185,782,415.00</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
             <li className="Preguntas__list">
               ¿Cuál es el monto de las Prerrogativas otorgadas a los Partidos
               Políticos?
@@ -182,7 +178,7 @@ export default class PreguntasFrecuentes extends Component {
               Elecciones ha otorgado a los partidos políticos.
             </p>
             <div className="table-responsive align-middle">
-              <table className="table table-border table-striped table-hover text-center">
+              <table className="table table-striped table-hover text-center">
                 <thead>
                   <tr>
                     <th rowSpan="2">PARTIDO POLÍTICO</th>
@@ -363,7 +359,7 @@ export default class PreguntasFrecuentes extends Component {
             </p>
             <p className="text-center">
               <a
-                className="btn btn-outline-secondary"
+                className="btn btn-ite"
                 href="https://portalanterior.ine.mx/archivos3/portal/historico/contenido/Acreditacion_y_Presenciade_Representantes_de_Partidos_Politicos_ante_casillas/"
                 target="_blank"
                 rel="noreferrer"
@@ -399,7 +395,7 @@ export default class PreguntasFrecuentes extends Component {
             </p>
           </ol>
         </div>
-      </div>
+      </>
     );
   }
 }

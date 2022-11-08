@@ -47,24 +47,6 @@
   display: grid;
 }
 
-.Galeria__responsive {
-  margin: 1rem auto;
-  width: 100%;
-  max-width: 960px;
-  column-count: 3;
-  -moz-column-gap: 20px;
-  -webkit-column-gap: 20px;
-  column-gap: 20px;
-  -moz-row-gap: 20px;
-  -webkit-row-gap: 20px;
-  row-gap: 20px;
-}
-.Galeria__responsive-item {
-  margin: 0 0 20px 0;
-  break-inside: avoid;
-  page-break-inside: avoid;
-}
-
 /* --------------- M E D I A     Q U E R I E S --------------- */
 
 /* general */

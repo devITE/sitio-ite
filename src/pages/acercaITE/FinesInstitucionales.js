@@ -11,62 +11,62 @@ export default class FinesInstitucionales extends Component {
           alt="Fines Institucionales"
         />
         <hr className="borde" />
-        <h6 className="text-justify">
+        <h6 className="text-justify style_letter">
           La Ley de Instituciones y Procedimientos Electorales para el Estado de
           Tlaxcala establece como fines institucionales los siguientes:
         </h6>
 
-        <ol type="I" start="1">
+        <ol type="I" start="1" className="ms-3" >
           <li>
-            <div className="text-justify">
+            <div className="text-justify style_romano">
               Contribuir al desarrollo de la vida democrática de los ciudadanos
               residentes en el Estado.
             </div>
           </li>
           <li>
-            <div className="text-justify">
+            <div className="text-justify style_romano">
               Promover, fomentar y preservar el fortalecimiento democrático del
               sistema de partidos políticos y la participación electoral de los
               candidatos independientes.
             </div>
           </li>
           <li>
-            <div className="text-justify">
+            <div className="text-justify style_romano">
               Promover, fomentar y preservar el ejercicio de los derechos
               político-electorales y la vigilancia en el cumplimiento de sus
               obligaciones.
             </div>
           </li>
           <li>
-            <div className="text-justify">
+            <div className="text-justify style_romano">
               Velar por la autenticidad y efectividad del sufragio.
             </div>
           </li>
           <li>
-            <div className="text-justify">
+            <div className="text-justify style_romano">
               Garantizar la celebración libre, auténtica y periódica de las
               elecciones para renovar los poderes Legislativo y Ejecutivo, así
               como los ayuntamientos y las presidencias de comunidad.
             </div>
           </li>
           <li>
-            <div className="text-justify">
+            <div className="text-justify style_romano">
               Velar por la libertad, autenticidad y efectividad del sufragio y
               el voto popular.
             </div>
           </li>
           <li>
-            <div className="text-justify">
+            <div className="text-justify style_romano">
               Llevar a cabo la promoción del sufragio y el voto.
             </div>
           </li>
           <li>
-            <div className="text-justify">
+            <div className="text-justify style_romano">
               Difundir la cultura política democrática y la educación cívica.
             </div>
           </li>
           <li>
-            <div className="text-justify">
+            <div className="text-justify style_romano">
               Difundir, planear, desarrollar y realizar los procesos de consulta
               ciudadana de acuerdo con lo que prescriben la Constitución Local y
               las leyes aplicables.

@@ -1,22 +1,15 @@
 import React, { Component } from "react";
+import TitlePages from "../../../layout/TitlePages";
 import { dataInformesAnuales } from "../../../assets/data/dataTransparenciaInformes";
 import "../Transparencia.css";
 
-const Transparencia_imppath = require.context("../../../assets/img/imgT");
 const icons_imgpath = require.context("../../../assets/img/icons");
 
 export default class InformesAnuales extends Component {
   render() {
     return (
       <div>
-        <img
-          className="img-fluid w-100"
-          src={Transparencia_imppath(`./head.png`)}
-          alt="Transparencia"
-        />
-        <div className="w-100 mt-3 Transparencia__header-title">
-          Informe Anual de Actividades
-        </div>
+        <TitlePages title="Informes Anuales" />
         <div className="w-100 mt-3 Transparencia__contenido">
           {dataInformesAnuales.map((informe) => {
             return (

@@ -1,14 +1,15 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { Component } from "react";
 import TitlePages from "../../layout/TitlePages";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
+import Modal from "../../layout/Modal";
 import { Link } from "react-router-dom";
+import ListBadge from "../../layout/ListBadge";
+import {
+  dataReglamento,
+  dataJuridico,
+} from "../../assets/data/dataTransparencia";
 import "./Transparencia.css";
 
-const Transparencia_pdfpath = require.context("../../assets/pdf/transparencia");
-const Transparencia_imppath = require.context("../../assets/img/imgT");
-const icons_imgpath = require.context("../../assets/img/icons");
+const Transparencia_path = require.context("../../assets");
 
 export default class Transparencia extends Component {
   render() {
@@ -20,7 +21,7 @@ export default class Transparencia extends Component {
             <Link to="/Articulo63">
               <img
                 className="img-fluid w-100 mt-3"
-                src={icons_imgpath(`./1.png`)}
+                src={Transparencia_path(`./${"img/icons/"}${"1.png"}`)}
                 alt="Art. 63 Obligaciones Comunes"
               />
             </Link>
@@ -30,7 +31,7 @@ export default class Transparencia extends Component {
             <Link to="/Articulo67">
               <img
                 className="img-fluid w-100 mt-3"
-                src={icons_imgpath(`./1.png`)}
+                src={Transparencia_path(`./${"img/icons/"}${"1.png"}`)}
                 alt="Art. 67 Obligaciones Específicas"
               />
             </Link>
@@ -40,7 +41,7 @@ export default class Transparencia extends Component {
             <Link to="/Articulo94">
               <img
                 className="img-fluid w-100 mt-3"
-                src={icons_imgpath(`./1.png`)}
+                src={Transparencia_path(`./${"img/icons/"}${"1.png"}`)}
                 alt="Art. 94 Obligaciones Específicas"
               />
             </Link>
@@ -50,7 +51,7 @@ export default class Transparencia extends Component {
             <Link to="/Convenios">
               <img
                 className="img-fluid w-100 mt-3"
-                src={icons_imgpath(`./2.png`)}
+                src={Transparencia_path(`./${"img/icons/"}${"2.png"}`)}
                 alt="Convenios"
               />
             </Link>
@@ -58,13 +59,13 @@ export default class Transparencia extends Component {
           </div>
           <div>
             <a
-              href={Transparencia_pdfpath(`./${"0.pdf"}`)}
+              href={Transparencia_path(`./${"pdf/transparencia/"}${"1.pdf"}`)}
               target="_blank"
               rel="noreferrer"
             >
               <img
                 className="img-fluid w-100 mt-3"
-                src={icons_imgpath(`./3.png`)}
+                src={Transparencia_path(`./${"img/icons/"}${"3.png"}`)}
                 alt="Directorio General"
               />
             </a>
@@ -74,7 +75,7 @@ export default class Transparencia extends Component {
             <Link to="/InformesAnuales">
               <img
                 className="img-fluid w-100 mt-3"
-                src={icons_imgpath(`./4.png`)}
+                src={Transparencia_path(`./${"img/icons/"}${"4.png"}`)}
                 alt="Informes anuales"
               />
             </Link>
@@ -84,7 +85,7 @@ export default class Transparencia extends Component {
             <Link to="/AvisosPrivacidad">
               <img
                 className="img-fluid w-100 mt-3"
-                src={icons_imgpath(`./5.png`)}
+                src={Transparencia_path(`./${"img/icons/"}${"5.png"}`)}
                 alt="Aviso de privacidad"
               />
             </Link>
@@ -94,7 +95,7 @@ export default class Transparencia extends Component {
             <Link to="/FormatoSolicitud">
               <img
                 className="img-fluid w-100 mt-3"
-                src={icons_imgpath(`./2.png`)}
+                src={Transparencia_path(`./${"img/icons/"}${"2.png"}`)}
                 alt="Presentar solicitud"
               />
             </Link>
@@ -104,7 +105,7 @@ export default class Transparencia extends Component {
             <Link to="/POA">
               <img
                 className="img-fluid w-100 mt-3"
-                src={icons_imgpath(`./6.png`)}
+                src={Transparencia_path(`./${"img/icons/"}${"6.png"}`)}
                 alt="Programas Operativos Anuales"
               />
             </Link>
@@ -114,7 +115,7 @@ export default class Transparencia extends Component {
             <Link to="/InformacionFinanciera">
               <img
                 className="img-fluid w-100 mt-3"
-                src={icons_imgpath(`./7.png`)}
+                src={Transparencia_path(`./${"img/icons/"}${"7.png"}`)}
                 alt="Información Financiera"
               />
             </Link>
@@ -124,157 +125,36 @@ export default class Transparencia extends Component {
             <Link to="/InformacionContable">
               <img
                 className="img-fluid w-100 mt-3"
-                src={icons_imgpath(`./8.png`)}
+                src={Transparencia_path(`./${"img/icons/"}${"8.png"}`)}
                 alt="Información Contable"
               />
             </Link>
             <p className="mt-2">Información Contable</p>
           </div>
           <div>
-            <a data-bs-toggle="modal" data-bs-target="#modalOEFOEL">
+            <a href="/#" data-bs-toggle="modal" data-bs-target="#modalJuridico">
               <img
                 className="img-fluid w-100 mt-3"
-                src={icons_imgpath(`./1.png`)}
-                alt="Reglamento interior"
+                src={Transparencia_path(`./${"img/icons/"}${"1.png"}`)}
+                alt="Información Jurídica"
               />
             </a>
             <p className="mt-2">Información Jurídica</p>
-            <div
-              className="modal fade"
-              id="modalOEFOEL"
-              tabindex="-1"
-              aria-labelledby="modalOEFOELLabel"
-              aria-hidden="true"
-            >
-              <div className="modal-dialog">
-                <div className="modal-content">
-                  <div className="modal-header">
-                    <h5 className="modal-title" id="modalOEFOELLabel">
-                      Información Jurídica
-                    </h5>
-                    <button
-                      type="button"
-                      className="btn-close"
-                      data-bs-dismiss="modal"
-                      aria-label="Close"
-                    ></button>
-                  </div>
-                  <div className="modal-body">
-                    <ol className="list-group">
-                      <li className="list-group-item d-flex justify-content-between align-items-start">
-                        <div className="ms-2 me-auto">
-                          <div className="fw-bold">
-                            Organismos Electorales Federales, Organismos
-                            Electorales Locales
-                          </div>
-                        </div>
-                        <span className="badge">
-                          <a
-                            className="btn btn-danger"
-                            href={Transparencia_pdfpath(`./2.pdf`)}
-                            role="button"
-                            rel="noreferrer"
-                            target="_blank"
-                          >
-                            <FontAwesomeIcon icon={faFilePdf} />
-                          </a>
-                        </span>
-                      </li>
-                    </ol>
-                  </div>
-                  <div className="modal-footer">
-                    <button
-                      type="button"
-                      className="btn btn-danger"
-                      data-bs-dismiss="modal"
-                    >
-                      Cerrar
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
           </div>
           <div>
-            <a data-bs-toggle="modal" data-bs-target="#modalReglamentoITE">
+            <a
+              data-bs-toggle="modal"
+              href="/#"
+              data-bs-target="#modalReglamento"
+            >
               <img
                 className="img-fluid w-100 mt-3"
-                src={icons_imgpath(`./9.png`)}
+                src={Transparencia_path(`./${"img/icons/"}${"9.png"}`)}
                 alt="Reglamento interior"
               />
             </a>
             <p className="mt-2">Reglamento interior</p>
-            <div
-              className="modal fade"
-              id="modalReglamentoITE"
-              tabindex="-1"
-              aria-labelledby="modalReglamentoITELabel"
-              aria-hidden="true"
-            >
-              <div className="modal-dialog">
-                <div className="modal-content">
-                  <div className="modal-header">
-                    <h5 className="modal-title" id="modalReglamentoITELabel">
-                      Reglamento interior del ITE
-                    </h5>
-                    <button
-                      type="button"
-                      className="btn-close"
-                      data-bs-dismiss="modal"
-                      aria-label="Close"
-                    ></button>
-                  </div>
-                  <div className="modal-body">
-                    <ol className="list-group">
-                      <li className="list-group-item d-flex justify-content-between align-items-start">
-                        <div className="ms-2 me-auto">
-                          <div className="fw-bold">
-                            Reglamento Interior del Instituto Tlaxcalteca de
-                            Elecciones
-                          </div>
-                        </div>
-                        <span className="badge">
-                          <a
-                            className="btn btn-danger"
-                            href={Transparencia_pdfpath(`./1.pdf`)}
-                            role="button"
-                            rel="noreferrer"
-                            target="_blank"
-                          >
-                            <FontAwesomeIcon icon={faFilePdf} />
-                          </a>
-                        </span>
-                      </li>
-                    </ol>
-                  </div>
-                  <div className="modal-footer">
-                    <button
-                      type="button"
-                      className="btn btn-danger"
-                      data-bs-dismiss="modal"
-                    >
-                      Cerrar
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
           </div>
-
-          {/* <div>
-            <Link to="">
-              <img
-                className="img-fluid w-100 mt-3"
-                src={icons_imgpath(`./9.png`)}
-                alt="Índice de expedientes clasificados como reservados"
-              />
-            </Link>
-            <p className="mt-2">
-              Índice de expedientes
-              <br />
-              clasificados como reservados
-            </p>
-          </div> */}
         </div>
         <div className="w-100 Transparencia__header mt-5">
           <a
@@ -284,7 +164,7 @@ export default class Transparencia extends Component {
           >
             <img
               className="img-fluid"
-              src={Transparencia_imppath(`./pnt.png`)}
+              src={Transparencia_path(`./${"img/icons/"}${"pnt.png"}`)}
               alt="Plataforma Nacional de Transparencia"
             />
           </a>
@@ -295,11 +175,28 @@ export default class Transparencia extends Component {
           >
             <img
               className="img-fluid"
-              src={Transparencia_imppath(`./ot.png`)}
+              src={Transparencia_path(`./${"img/icons/"}${"ot.png"}`)}
               alt="Obligaciones de Transparencia"
             />
           </a>
         </div>
+        {/* Modal */}
+        <Modal
+          idModal="modalReglamento"
+          titleModal="Reglamento Interior ITE"
+          sizeModal=""
+          contentModal={
+            <ListBadge ifNumbered={""} listsBadgeItem={dataReglamento} />
+          }
+        />
+        <Modal
+          idModal="modalJuridico"
+          titleModal="Información Jurídica"
+          sizeModal=""
+          contentModal={
+            <ListBadge ifNumbered={""} listsBadgeItem={dataJuridico} />
+          }
+        />
       </>
     );
   }

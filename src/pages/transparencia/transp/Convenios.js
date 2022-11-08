@@ -1,21 +1,15 @@
 import React, { Component } from "react";
+import TitlePages from "../../../layout/TitlePages";
 import { dataConvenios } from "../../../assets/data/dataTransparenciaConvenios";
-
 import "../Transparencia.css";
 
-const Transparencia_imppath = require.context("../../../assets/img/imgT");
 const icons_imgpath = require.context("../../../assets/img/icons");
 
 export default class Convenios extends Component {
   render() {
     return (
       <div>
-        <img
-          className="img-fluid w-100"
-          src={Transparencia_imppath(`./head.png`)}
-          alt="Transparencia"
-        />
-        <div className="w-100 mt-3 Transparencia__header-title">Convenios</div>
+        <TitlePages title="Convenios" />
         <div className="w-100 mt-3 Transparencia__contenido">
           {dataConvenios.map((convenio) => {
             return (

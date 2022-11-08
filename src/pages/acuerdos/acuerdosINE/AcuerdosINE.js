@@ -24,6 +24,7 @@ export default class AcuerdosINE extends Component {
           idModal="modalEjemplo"
           titleModal="Modal EJEMPLO"
           contentModal="Contenido Modal"
+          sizeModal=""
         />
         <div className="w-100 mt-5 Acuerdos">
           <div>
