@@ -1,5 +1,152 @@
 const Transparencia_path = require.context("../");
 
+export const dataInfFinanciera = [
+  {
+    id: 1,
+    titleItem: "Remuneración Mensual",
+    linkItem: Transparencia_path(
+      `./${"pdf/transparencia/infFinanciera/"}${"1.pdf"}`
+    ),
+    typeDocument: "pdf",
+  },
+  {
+    id: 2,
+    titleItem: "Padrón de Proveedores",
+    linkItem: Transparencia_path(
+      `./${"pdf/transparencia/infFinanciera/"}${"2.pdf"}`
+    ),
+    typeDocument: "pdf",
+  },
+  {
+    id: 3,
+    titleItem: "Contratos",
+    linkItem: "",
+    typeDocument: "",
+  },
+];
+
+export const dataInfo2016 = [
+  {
+    id: 1,
+    titleItem: "Presupuesto de egresos aprobado",
+    flushID: "presupuesto2016",
+    children: [
+      {
+        id: 1,
+        titleItem: "Presupuesto Firmado 2016",
+        linkItem: Transparencia_path(
+          `./${"pdf/transparencia/infFinanciera/"}${"4.pdf"}`
+        ),
+        typeDocument: "pdf",
+      },
+      {
+        id: 2,
+        titleItem:
+          "Acuerdo Adecuación Presupuesto ITE-CG 03-2016 20-Enero-2016",
+        linkItem: Transparencia_path(
+          `./${"pdf/transparencia/infFinanciera/"}${"5.pdf"}`
+        ),
+        typeDocument: "pdf",
+      },
+      {
+        id: 3,
+        titleItem:
+          "Acuerdo de Presupuesto de Egresos 2016 ITE-CG 08-2015 30-Septiembre-2016",
+        linkItem: Transparencia_path(
+          `./${"pdf/transparencia/infFinanciera/"}${"6.pdf"}`
+        ),
+        typeDocument: "pdf",
+      },
+      {
+        id: 4,
+        titleItem:
+          "Acuerdo de Presupuesto de Egresos 2016 ITE-CG 08-2015 30-Septiembre-2016",
+        linkItem: Transparencia_path(
+          `./${"pdf/transparencia/infFinanciera/"}${"7.pdf"}`
+        ),
+        typeDocument: "pdf",
+      },
+    ],
+  },
+  {
+    id: 2,
+    titleItem: "Balance general, estado de ingresos y egresos",
+    flushID: "balanceGralEI",
+    children: [
+      {
+        id: 1,
+        titleItem: "Balance General",
+        linkItem: Transparencia_path(
+          `./${"pdf/transparencia/infFinanciera/"}${"7.pdf"}`
+        ),
+        typeDocument: "pdf",
+      },
+      {
+        id: 2,
+        titleItem: "Estado de Egresos e Ingresos",
+        linkItem: Transparencia_path(
+          `./${"pdf/transparencia/infFinanciera/"}${"8.pdf"}`
+        ),
+        typeDocument: "pdf",
+      },
+    ],
+  },
+];
+
+export const dataInfContable = [
+  {
+    id: 1,
+    titleItem: "Inventario de Bienes Muebles e Inmuebles",
+    linkItem: Transparencia_path(
+      `./${"pdf/transparencia/infContable/"}${"1.pdf"}`
+    ),
+    typeDocument: "pdf",
+  },
+  {
+    id: 2,
+    titleItem: "Condiciones de permisos, Concesiones o Licencias",
+    linkItem: "",
+    typeDocument: "",
+  },
+  {
+    id: 3,
+    titleItem: "Lista de Viáticos, Gastos de Representación",
+    linkItem: Transparencia_path(
+      `./${"pdf/transparencia/infContable/"}${"2.pdf"}`
+    ),
+    typeDocument: "pdf",
+  },
+  {
+    id: 4,
+    titleItem: "Manuales de Organización",
+    linkItem: Transparencia_path(
+      `./${"pdf/transparencia/infContable/"}${"3.pdf"}`
+    ),
+    typeDocument: "pdf",
+  },
+  {
+    id: 5,
+    titleItem: "Planes y Programas",
+    linkItem: "",
+    typeDocument: "",
+  },
+  {
+    id: 6,
+    titleItem: "Montos pagados por ayudas y subsidios 2019",
+    linkItem: Transparencia_path(
+      `./${"pdf/transparencia/infContable/"}${"4.pdf"}`
+    ),
+    typeDocument: "pdf",
+  },
+  {
+    id: 7,
+    titleItem: "Montos pagados",
+    linkItem: Transparencia_path(
+      `./${"pdf/transparencia/infContable/"}${"5.pdf"}`
+    ),
+    typeDocument: "pdf",
+  },
+];
 export const dataCuentaPublica = [
   {
     id: 1,
@@ -136,6 +283,146 @@ export const dataCuentaPublica = [
         titleItem: "Cuenta Pública 4to trimestre",
         linkItem: Transparencia_path(
           `./${"pdf/transparencia/infContable/cuentaPub2018/"}${"4.pdf"}`
+        ),
+        typeDocument: "pdf",
+      },
+    ],
+  },
+  {
+    id: 5,
+    titleItem: "Cuenta Pública 2019",
+    flushID: "cuenta19",
+    children: [
+      {
+        id: 1,
+        titleItem: "Cuenta Pública 1er trimestre",
+        linkItem: Transparencia_path(
+          `./${"pdf/transparencia/infContable/cuentaPub2019/"}${"1.pdf"}`
+        ),
+        typeDocument: "pdf",
+      },
+      {
+        id: 2,
+        titleItem: "Cuenta Pública 2do trimestre",
+        linkItem: Transparencia_path(
+          `./${"pdf/transparencia/infContable/cuentaPub2019/"}${"2.pdf"}`
+        ),
+        typeDocument: "pdf",
+      },
+      {
+        id: 3,
+        titleItem: "Cuenta Pública 3er trimestre",
+        linkItem: Transparencia_path(
+          `./${"pdf/transparencia/infContable/cuentaPub2019/"}${"3.pdf"}`
+        ),
+        typeDocument: "pdf",
+      },
+      {
+        id: 4,
+        titleItem: "Cuenta Pública 4to trimestre",
+        linkItem: Transparencia_path(
+          `./${"pdf/transparencia/infContable/cuentaPub2019/"}${"4.pdf"}`
+        ),
+        typeDocument: "pdf",
+      },
+    ],
+  },
+  {
+    id: 6,
+    titleItem: "Cuenta Pública 2020",
+    flushID: "cuenta20",
+    children: [
+      {
+        id: 1,
+        titleItem: "Cuenta Pública 1er trimestre",
+        linkItem: Transparencia_path(
+          `./${"pdf/transparencia/infContable/cuentaPub2020/"}${"1.pdf"}`
+        ),
+        typeDocument: "pdf",
+      },
+      {
+        id: 2,
+        titleItem: "Cuenta Pública 2do trimestre",
+        linkItem: Transparencia_path(
+          `./${"pdf/transparencia/infContable/cuentaPub2020/"}${"2.pdf"}`
+        ),
+        typeDocument: "pdf",
+      },
+      {
+        id: 3,
+        titleItem: "Cuenta Pública 3er trimestre",
+        linkItem: Transparencia_path(
+          `./${"pdf/transparencia/infContable/cuentaPub2020/"}${"3.pdf"}`
+        ),
+        typeDocument: "pdf",
+      },
+      {
+        id: 4,
+        titleItem: "Cuenta Pública 4to trimestre",
+        linkItem: Transparencia_path(
+          `./${"pdf/transparencia/infContable/cuentaPub2020/"}${"4.pdf"}`
+        ),
+        typeDocument: "pdf",
+      },
+    ],
+  },
+  {
+    id: 7,
+    titleItem: "Cuenta Pública 2021",
+    flushID: "cuenta21",
+    children: [
+      {
+        id: 1,
+        titleItem: "Cuenta Pública 1er trimestre",
+        linkItem: Transparencia_path(
+          `./${"pdf/transparencia/infContable/cuentaPub2021/"}${"1.pdf"}`
+        ),
+        typeDocument: "pdf",
+      },
+      {
+        id: 2,
+        titleItem: "Cuenta Pública 2do trimestre",
+        linkItem: Transparencia_path(
+          `./${"pdf/transparencia/infContable/cuentaPub2021/"}${"2.pdf"}`
+        ),
+        typeDocument: "pdf",
+      },
+      {
+        id: 3,
+        titleItem: "Cuenta Pública 3er trimestre",
+        linkItem: Transparencia_path(
+          `./${"pdf/transparencia/infContable/cuentaPub2021/"}${"3.pdf"}`
+        ),
+        typeDocument: "pdf",
+      },
+      {
+        id: 4,
+        titleItem: "Cuenta Pública 4to trimestre",
+        linkItem: Transparencia_path(
+          `./${"pdf/transparencia/infContable/cuentaPub2021/"}${"4.pdf"}`
+        ),
+        typeDocument: "pdf",
+      },
+    ],
+  },
+  {
+    id: 8,
+    titleItem: "Cuenta Pública 2022",
+    flushID: "cuenta2",
+    children: [
+      {
+        id: 1,
+        titleItem: "Cuenta Pública 1er trimestre",
+        linkItem: Transparencia_path(
+          `./${"pdf/transparencia/infContable/cuentaPub2022/"}${"1.pdf"}`
+        ),
+        typeDocument: "pdf",
+      },
+      {
+        id: 2,
+        titleItem: "Cuenta Pública 2do trimestre",
+        linkItem: Transparencia_path(
+          `./${"pdf/transparencia/infContable/cuentaPub2022/"}${"2.pdf"}`
         ),
         typeDocument: "pdf",
       },
