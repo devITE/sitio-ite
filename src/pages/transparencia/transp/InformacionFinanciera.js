@@ -35,15 +35,19 @@ export default class InformacionFinanciera extends Component {
           accordionData={dataInfo2016}
           contentAccordion={
             // <ListBadge ifNumbered={""} listsBadgeItem={dataInfo2016.children} />
-            dataInfo2016.map((info2016) => (
-              <div key={info2016.id}>
-                {/* {info2016.children.map((infos) => ( */}
-                {/* <div key={infos.id}> */}
-                <ListBadge ifNumbered={""} listsBadgeItem={info2016.children} />
-                {/* </div> */}
-                {/* ))} */}
-              </div>
-            ))
+            dataInfo2016.map(
+              (info2016) => (
+                // info2016.children.map((infos) => (
+                // <div key={infos.id}>
+                <ListBadge
+                  key={info2016.id}
+                  ifNumbered={""}
+                  listsBadgeItem={info2016.children}
+                />
+              )
+              // </div>
+              // ))
+            )
           }
         />
         {/*  */}
