@@ -1,4 +1,198 @@
 const Transparencia_path = require.context("../");
+export const dataConvenios = [
+  {
+    id: 1,
+    title: "CAIPTLAX",
+    url: Transparencia_path(`./${"pdf/transparencia/convenios/"}${"1.pdf"}`),
+  },
+  {
+    id: 2,
+    title: "INE",
+    url: Transparencia_path(`./${"pdf/transparencia/convenios/"}${"2.pdf"}`),
+  },
+  {
+    id: 3,
+    title: "Recaudación",
+    url: Transparencia_path(`./${"pdf/transparencia/convenios/"}${"3.pdf"}`),
+  },
+  {
+    id: 4,
+    title: "FEPADE",
+    url: Transparencia_path(`./${"pdf/transparencia/convenios/"}${"4.pdf"}`),
+  },
+  {
+    id: 5,
+    title: "COPARMEX",
+    url: Transparencia_path(`./${"pdf/transparencia/convenios/"}${"5.pdf"}`),
+  },
+  {
+    id: 6,
+    title: "Tribunal Electoral de Jalisco",
+    url: Transparencia_path(`./${"pdf/transparencia/convenios/"}${"6.pdf"}`),
+  },
+  {
+    id: 7,
+    title: "Tribunal Electoral de Tlaxcala",
+    url: Transparencia_path(`./${"pdf/transparencia/convenios/"}${"7.pdf"}`),
+  },
+  {
+    id: 8,
+    title: "Insituto Estatal de la Mujer, Tribunal Electoral de Tlaxcala",
+    url: Transparencia_path(`./${"pdf/transparencia/convenios/"}${"8.pdf"}`),
+  },
+  {
+    id: 9,
+    title: "UNAM",
+    url: Transparencia_path(`./${"pdf/transparencia/convenios/"}${"9.pdf"}`),
+  },
+  {
+    id: 9.1,
+    title: "UNAM Anexo",
+    url: Transparencia_path(`./${"pdf/transparencia/convenios/"}${"9.1.pdf"}`),
+  },
+  {
+    id: 10,
+    title: "TET",
+    url: Transparencia_path(`./${"pdf/transparencia/convenios/"}${"10.pdf"}`),
+  },
+  {
+    id: 11,
+    title: "UVT",
+    url: Transparencia_path(`./${"pdf/transparencia/convenios/"}${"11.pdf"}`),
+  },
+  {
+    id: 12,
+    title: "Acuerdo de Trabajo PArticipación Ciudadana",
+    url: Transparencia_path(`./${"pdf/transparencia/convenios/"}${"12.pdf"}`),
+  },
+  {
+    id: 13,
+    title: "IAIPTLAX-ITE",
+    url: Transparencia_path(`./${"pdf/transparencia/convenios/"}${"13.pdf"}`),
+  },
+  {
+    id: 14,
+    title: "INE-ITE PELO 2020-2021",
+    url: Transparencia_path(`./${"pdf/transparencia/convenios/"}${"14.pdf"}`),
+  },
+  {
+    id: 15,
+    title: "ISR 2019",
+    url: Transparencia_path(`./${"pdf/transparencia/convenios/"}${"15.pdf"}`),
+  },
+  {
+    id: 16,
+    title: "SEDECO-ITE",
+    url: Transparencia_path(`./${"pdf/transparencia/convenios/"}${"16.pdf"}`),
+  },
+  {
+    id: 17,
+    title: "SEPE-INE-ITE",
+    url: Transparencia_path(`./${"pdf/transparencia/convenios/"}${"17.pdf"}`),
+  },
+  {
+    id: 18,
+    title: "SPF-ITE (ISR 2020)",
+    url: Transparencia_path(`./${"pdf/transparencia/convenios/"}${"18.pdf"}`),
+  },
+  {
+    id: 19,
+    title: "ITE PCG-0209-2021",
+    url: Transparencia_path(`./${"pdf/transparencia/convenios/"}${"19.pdf"}`),
+  },
+  {
+    id: 20,
+    title: "ITE-PGJ-CJM",
+    url: Transparencia_path(`./${"pdf/transparencia/convenios/"}${"20.pdf"}`),
+  },
+  {
+    id: 21,
+    title: "ITE-SEPE USET",
+    url: Transparencia_path(`./${"pdf/transparencia/convenios/"}${"21.pdf"}`),
+  },
+  {
+    id: 22,
+    title: "ITE-CONALEP",
+    url: Transparencia_path(`./${"pdf/transparencia/convenios/"}${"22.pdf"}`),
+  },
+  {
+    id: 23,
+    title: "ITE-COBAT",
+    url: Transparencia_path(`./${"pdf/transparencia/convenios/"}${"23.pdf"}`),
+  },
+  {
+    id: 24,
+    title: "ITE-CECYTE",
+    url: Transparencia_path(`./${"pdf/transparencia/convenios/"}${"24.pdf"}`),
+  },
+  {
+    id: 25,
+    title: "ITE-COMISIÓN EJECUTIVA DEL SISTEMA ANTICORRUPCIÓN",
+    url: Transparencia_path(`./${"pdf/transparencia/convenios/"}${"25.pdf"}`),
+  },
+  {
+    id: 26,
+    title: "ITE-IMPUESTO SOBRE LA RECAUDACIÓN DE RENTA",
+    url: Transparencia_path(`./${"pdf/transparencia/convenios/"}${"26.pdf"}`),
+  },
+  {
+    id: 27,
+    title: "ITE-CONTRALORIA DEL EJECUTIVO",
+    url: Transparencia_path(`./${"pdf/transparencia/convenios/"}${"27.pdf"}`),
+  },
+  {
+    id: 28,
+    title: "ITE-PODER JUDICIAL DEL ESTADO DE TLAXCALA",
+    url: Transparencia_path(`./${"pdf/transparencia/convenios/"}${"28.pdf"}`),
+  },
+  {
+    id: 29,
+    title: "ITE-IEM",
+    url: Transparencia_path(`./${"pdf/transparencia/convenios/"}${"29.pdf"}`),
+  },
+  {
+    id: 30,
+    title: "TET-ITE",
+    url: Transparencia_path(`./${"pdf/transparencia/convenios/"}${"30.pdf"}`),
+  },
+];
+export const dataInformesAnuales = [
+  {
+    id: 1,
+    title: "2015",
+    url: Transparencia_path(`./${"pdf/transparencia/infAnuales/"}${"1.pdf"}`),
+  },
+  {
+    id: 2,
+    title: "2016",
+    url: Transparencia_path(`./${"pdf/transparencia/infAnuales/"}${"2.pdf"}`),
+  },
+  {
+    id: 3,
+    title: "2017",
+    url: Transparencia_path(`./${"pdf/transparencia/infAnuales/"}${"3.pdf"}`),
+  },
+  {
+    id: 4,
+    title: "2018",
+    url: Transparencia_path(`./${"pdf/transparencia/infAnuales/"}${"4.pdf"}`),
+  },
+  {
+    id: 5,
+    title: "2019",
+    url: Transparencia_path(`./${"pdf/transparencia/infAnuales/"}${"5.pdf"}`),
+  },
+  {
+    id: 6,
+    title: "2020",
+    url: Transparencia_path(`./${"pdf/transparencia/infAnuales/"}${"6.pdf"}`),
+  },
+  {
+    id: 7,
+    title: "2021",
+    url: Transparencia_path(`./${"pdf/transparencia/infAnuales/"}${"7.pdf"}`),
+  },
+];
 
 export const dataInfFinanciera = [
   {

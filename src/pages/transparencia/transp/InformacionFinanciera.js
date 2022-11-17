@@ -16,7 +16,6 @@ export default class InformacionFinanciera extends Component {
         <TitlePages title="Transparencia" subTitle="Información Financiera" />
         <ListBadge ifNumbered={""} listsBadgeItem={dataInfFinanciera} />
         <br />
-        <br />
         <Accordion idAccordion="accordionFlushExample">
           {dataInfo2016.map((infoAccordion) => (
             <AccordionItem

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import TitlePages from "../../../layout/TitlePages";
-import { dataInformesAnuales } from "../../../assets/data/dataTransparenciaInformes";
+import { dataInformesAnuales } from "../../../assets/data/dataTransparencia";
 import "../Transparencia.css";
 
 const icons_imgpath = require.context("../../../assets/img/icons");
@@ -9,8 +9,8 @@ export default class InformesAnuales extends Component {
   render() {
     return (
       <div>
-        <TitlePages title="Informes Anuales" />
-        <div className="w-100 mt-3 Transparencia__contenido">
+        <TitlePages title="Transparencia" subTitle="Informes Anuales" />
+        <div className="w-100 mt-3 Content__grid">
           {dataInformesAnuales.map((informe) => {
             return (
               <div key={informe.id}>

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import TitlePages from "../../../layout/TitlePages";
-import { dataConvenios } from "../../../assets/data/dataTransparenciaConvenios";
+import { dataConvenios } from "../../../assets/data/dataTransparencia";
 import "../Transparencia.css";
 
 const icons_imgpath = require.context("../../../assets/img/icons");
@@ -9,8 +9,8 @@ export default class Convenios extends Component {
   render() {
     return (
       <div>
-        <TitlePages title="Convenios" />
-        <div className="w-100 mt-3 Transparencia__contenido">
+        <TitlePages title="Transparencia" subTitle="Convenios" />
+        <div className="w-100 mt-3 Content__grid">
           {dataConvenios.map((convenio) => {
             return (
               <div key={convenio.id}>
@@ -21,7 +21,7 @@ export default class Convenios extends Component {
                     alt={"Convenio con " + convenio.title}
                   />
                 </a>
-                <p className="mt-2">Convenio con {convenio.title}</p>
+                <p className="mt-2">CONVENIO {convenio.title.toUpperCase()}</p>
               </div>
             );
           })}
