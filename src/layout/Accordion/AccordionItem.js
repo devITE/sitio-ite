@@ -1,4 +1,4 @@
-const AccordionV1Item = ({ titleItem, contentItem, flushID, idA }) => {
+const AccordionItem = ({ titleItem, contentItem, flushID, idAccordion }) => {
   return (
     <div className="accordion-item">
       <h2 className="accordion-header" id="flush-headingTwo">
@@ -17,7 +17,7 @@ const AccordionV1Item = ({ titleItem, contentItem, flushID, idA }) => {
         id={"flush-" + flushID}
         className="accordion-collapse collapse"
         aria-labelledby="flush-headingTwo"
-        data-bs-parent={"#" + idA}
+        data-bs-parent={"#" + idAccordion}
       >
         <div className="accordion-body">{contentItem}</div>
       </div>
@@ -25,4 +25,4 @@ const AccordionV1Item = ({ titleItem, contentItem, flushID, idA }) => {
   );
 };
 
-export default AccordionV1Item;
+export default AccordionItem;
