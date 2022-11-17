@@ -17,6 +17,9 @@ import {
 } from "../../../assets/data/dataTransparencia";
 import "../Transparencia.css";
 
+import AccordionV1 from "../../../layout/AccordionV1";
+import AccordionV1Item from "../../../layout/AccordionV1Item";
+
 const Transparencia_pdfpath = require.context(
   "../../../assets/pdf/transparencia/infFinanciera"
 );
@@ -29,26 +32,31 @@ export default class InformacionFinanciera extends Component {
         <ListBadge ifNumbered={""} listsBadgeItem={dataInfFinanciera} />
         <br />
         <br />
+        <AccordionV1 idAccordion="accordionFlushExample">
+          <AccordionV1Item
+            flushID="uno"
+            titleItem="Accordion ITEM #1"
+            contentItem="Content Accordion ITEM #1"
+          />
+          <AccordionV1Item
+            flushID="dos"
+            titleItem="Accordion ITEM #2"
+            contentItem="Content Accordion ITEM #2"
+          />
+        </AccordionV1>
+        <br />
+        <br />
         {/*  */}
         <Accordion
           idAccordion="informacion2016"
           accordionData={dataInfo2016}
-          contentAccordion={
-            // <ListBadge ifNumbered={""} listsBadgeItem={dataInfo2016.children} />
-            dataInfo2016.map(
-              (info2016) => (
-                // info2016.children.map((infos) => (
-                // <div key={infos.id}>
-                <ListBadge
-                  key={info2016.id}
-                  ifNumbered={""}
-                  listsBadgeItem={info2016.children}
-                />
-              )
-              // </div>
-              // ))
-            )
-          }
+          contentAccordion={dataInfo2016.map((info2016) => (
+            <ListBadge
+              key={info2016.id}
+              ifNumbered={""}
+              listsBadgeItem={info2016.children}
+            />
+          ))}
         />
         {/*  */}
         <div className="InformacionFinanciera__content">
