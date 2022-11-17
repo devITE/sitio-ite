@@ -1,79 +1,53 @@
 import React, { Component } from "react";
+import TitlePages from "../../layout/TitlePages";
 import "./FinesInstitucionales.css";
-import imagenes from "./img/fines.jpg";
+
 export default class FinesInstitucionales extends Component {
   render() {
     return (
-      <div>
-        <img
-          src={imagenes}
-          className="img-fluid w-100"
-          alt="Fines Institucionales"
-        />
-        <hr className="borde" />
-        <h6 className="text-justify style_letter">
+      <>
+        <TitlePages title="Fines Institucionales" subTitle="" />
+        <p className="text-justify">
           La Ley de Instituciones y Procedimientos Electorales para el Estado de
           Tlaxcala establece como fines institucionales los siguientes:
-        </h6>
+        </p>
 
-        <ol type="I" start="1" className="ms-3" >
+        <ol type="I" start="1" className="ms-3 text-justify">
           <li>
-            <div className="text-justify style_romano">
-              Contribuir al desarrollo de la vida democrática de los ciudadanos
-              residentes en el Estado.
-            </div>
+            Contribuir al desarrollo de la vida democrática de los ciudadanos
+            residentes en el Estado.
           </li>
           <li>
-            <div className="text-justify style_romano">
-              Promover, fomentar y preservar el fortalecimiento democrático del
-              sistema de partidos políticos y la participación electoral de los
-              candidatos independientes.
-            </div>
+            Promover, fomentar y preservar el fortalecimiento democrático del
+            sistema de partidos políticos y la participación electoral de los
+            candidatos independientes.
           </li>
           <li>
-            <div className="text-justify style_romano">
-              Promover, fomentar y preservar el ejercicio de los derechos
-              político-electorales y la vigilancia en el cumplimiento de sus
-              obligaciones.
-            </div>
+            Promover, fomentar y preservar el ejercicio de los derechos
+            político-electorales y la vigilancia en el cumplimiento de sus
+            obligaciones.
+          </li>
+          <li>Velar por la autenticidad y efectividad del sufragio.</li>
+          <li>
+            Garantizar la celebración libre, auténtica y periódica de las
+            elecciones para renovar los poderes Legislativo y Ejecutivo, así
+            como los ayuntamientos y las presidencias de comunidad.
           </li>
           <li>
-            <div className="text-justify style_romano">
-              Velar por la autenticidad y efectividad del sufragio.
-            </div>
+            Velar por la libertad, autenticidad y efectividad del sufragio y el
+            voto popular.
+          </li>
+          <li>Llevar a cabo la promoción del sufragio y el voto.</li>
+          <li>
+            Difundir la cultura política democrática y la educación cívica.
           </li>
           <li>
-            <div className="text-justify style_romano">
-              Garantizar la celebración libre, auténtica y periódica de las
-              elecciones para renovar los poderes Legislativo y Ejecutivo, así
-              como los ayuntamientos y las presidencias de comunidad.
-            </div>
-          </li>
-          <li>
-            <div className="text-justify style_romano">
-              Velar por la libertad, autenticidad y efectividad del sufragio y
-              el voto popular.
-            </div>
-          </li>
-          <li>
-            <div className="text-justify style_romano">
-              Llevar a cabo la promoción del sufragio y el voto.
-            </div>
-          </li>
-          <li>
-            <div className="text-justify style_romano">
-              Difundir la cultura política democrática y la educación cívica.
-            </div>
-          </li>
-          <li>
-            <div className="text-justify style_romano">
-              Difundir, planear, desarrollar y realizar los procesos de consulta
-              ciudadana de acuerdo con lo que prescriben la Constitución Local y
-              las leyes aplicables.
-            </div>
+            Difundir, planear, desarrollar y realizar los procesos de consulta
+            ciudadana de acuerdo con lo que prescriben la Constitución Local y
+            las leyes aplicables.
           </li>
         </ol>
-      </div>
+      </>
     );
   }
 }
