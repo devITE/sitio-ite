@@ -1,7 +1,7 @@
 import React, { useMemo } from "react";
 import TitlePages from "../../../layout/TitlePages";
 import MaterialReactTable from "material-react-table";
-// import { Box, Typography } from "@mui/material";
+import { Box, Typography } from "@mui/material";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFileExcel } from "@fortawesome/free-solid-svg-icons";
 import { dataArt632021 } from "../../../assets/data/dataTransparenciaArt63";
@@ -100,18 +100,46 @@ const Art632021 = () => {
         renderDetailPanel={
           ({ row }) =>
             row.original.excel === "" ? (
-              <span></span>
+              <Box
+                sx={{
+                  display: "grid",
+                  margin: "auto",
+                  gridTemplateColumns: "1fr 1fr",
+                  width: "100%",
+                  backgroundColor: "primary.dark",
+                  "&:hover": {
+                    backgroundColor: "primary.main",
+                    opacity: [0.9, 0.8, 0.7],
+                  },
+                }}
+              >
+                d
+              </Box>
             ) : (
-              <p className="text-strong text-center">
-                Descarga el archivo de la Fracción:{" "}
-                {row.original.excel.substring(14, 100).slice(0, -26)}{" "}
-                <a href={row.original.excel} target="_blank" rel="noreferrer">
-                  <FontAwesomeIcon
-                    icon={faFileExcel}
-                    className="btn btn-success"
-                  />
-                </a>
-              </p>
+              <Box
+                sx={{
+                  display: "grid",
+                  margin: "auto",
+                  gridTemplateColumns: "1fr 1fr",
+                  width: "100%",
+                  backgroundColor: "primary.dark",
+                  "&:hover": {
+                    backgroundColor: "primary.main",
+                    opacity: [0.9, 0.8, 0.7],
+                  },
+                }}
+              >
+                <p className="text-strong text-center">
+                  Descarga el archivo de la Fracción:{" "}
+                  {row.original.excel.substring(14, 100).slice(0, -26)}{" "}
+                  <a href={row.original.excel} target="_blank" rel="noreferrer">
+                    <FontAwesomeIcon
+                      icon={faFileExcel}
+                      className="btn btn-success"
+                    />
+                  </a>
+                </p>
+              </Box>
             )
           // <Box
           //   sx={{

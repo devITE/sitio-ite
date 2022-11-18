@@ -4492,7 +4492,7 @@ export const dataArt632021 = [
       "Articulo. 63 Fraccion XVIII de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
     actualizacion: "2021",
     excel: Transparencia_path(
-      `./${"excel/transparencia/art63/2021/"}${"LTAIPT_A63F18.xlsx"}`
+      `./${"excel/transparencia/art63/2021/"}${"LTAIPT_A63F18.xls"}`
     ),
   },
   {
@@ -4963,9 +4963,7 @@ export const dataArt632021 = [
     fundamentoLegal:
       "Articulo. 63 Fraccion XXXVI de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
     actualizacion: "2021",
-    excel: Transparencia_path(
-      `./${"excel/transparencia/art63/2021/"}${"LTAIPT_A63F36.xlsx"}`
-    ),
+    excel: "",
   },
   {
     no: "37",
@@ -5093,7 +5091,9 @@ export const dataArt632021 = [
         fundamentoLegal:
           "Articulo. 63 Fraccion XXXIX-D de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
         actualizacion: "2021",
-        excel: "path",
+        excel: Transparencia_path(
+          `./${"excel/transparencia/art63/2021/"}${"LTAIPT_A63F39D.xlsx"}`
+        ),
       },
     ],
   },
@@ -5116,7 +5116,9 @@ export const dataArt632021 = [
         fundamentoLegal:
           "Articulo. 63 Fraccion XL-A de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
         actualizacion: "2021",
-        excel: "path",
+        excel: Transparencia_path(
+          `./${"excel/transparencia/art63/2021/"}${"LTAIPT_A63F40A.xlsx"}`
+        ),
       },
       {
         no: "",
@@ -5126,7 +5128,9 @@ export const dataArt632021 = [
         fundamentoLegal:
           "Articulo. 63 Fraccion XL-B de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
         actualizacion: "2021",
-        excel: "path",
+        excel: Transparencia_path(
+          `./${"excel/transparencia/art63/2021/"}${"LTAIPT_A63F40B.xlsx"}`
+        ),
       },
     ],
   },
@@ -5138,7 +5142,9 @@ export const dataArt632021 = [
     fundamentoLegal:
       "Articulo. 63 Fraccion XLI de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
     actualizacion: "2021",
-    excel: "path",
+    excel: Transparencia_path(
+      `./${"excel/transparencia/art63/2021/"}${"LTAIPT_A63F41.xlsx"}`
+    ),
   },
   {
     no: "42",
@@ -5158,7 +5164,9 @@ export const dataArt632021 = [
         fundamentoLegal:
           "Articulo. 63 Fraccion XLII-A de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
         actualizacion: "2021",
-        excel: "path",
+        excel: Transparencia_path(
+          `./${"excel/transparencia/art63/2021/"}${"LTAIPT_A63F42A.xlsx"}`
+        ),
       },
       {
         no: "",
@@ -5168,7 +5176,9 @@ export const dataArt632021 = [
         fundamentoLegal:
           "Articulo. 63 Fraccion XLII-B de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
         actualizacion: "2021",
-        excel: "path",
+        excel: Transparencia_path(
+          `./${"excel/transparencia/art63/2021/"}${"LTAIPT_A63F42B.xlsx"}`
+        ),
       },
     ],
   },
@@ -5191,7 +5201,9 @@ export const dataArt632021 = [
         fundamentoLegal:
           "Articulo. 63 Fraccion XLIII-A de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
         actualizacion: "2021",
-        excel: "path",
+        excel: Transparencia_path(
+          `./${"excel/transparencia/art63/2021/"}${"LTAIPT_A63F43A.xlsx"}`
+        ),
       },
       {
         no: "",
@@ -5201,7 +5213,9 @@ export const dataArt632021 = [
         fundamentoLegal:
           "Articulo. 63 Fraccion XLIII-B de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
         actualizacion: "2021",
-        excel: "path",
+        excel: Transparencia_path(
+          `./${"excel/transparencia/art63/2021/"}${"LTAIPT_A63F43B.xlsx"}`
+        ),
       },
     ],
   },
@@ -5245,7 +5259,19 @@ export const dataArt632021 = [
     fundamentoLegal:
       "Articulo. 63 Fraccion XLV de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
     actualizacion: "2021",
-    excel: "path",
+    excel: "",
+    subRows: [
+      {
+        excel: Transparencia_path(
+          `./${"excel/transparencia/art63/2021/"}${"LTAIPT_A63F45.xlsx"}`
+        ),
+      },
+      {
+        excel: Transparencia_path(
+          `./${"excel/transparencia/art63/2021/"}${"LTAIPT_A63F45.xlsx"}`
+        ),
+      },
+    ],
   },
   {
     no: "46",
