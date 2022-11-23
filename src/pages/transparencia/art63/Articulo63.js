@@ -11,7 +11,7 @@ export default class Articulo63 extends Component {
           title="Transparencia"
           subTitle="Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala."
         />
-        <h5 className="text-center Transparencia__title">
+        <h5 className="text-center text-strong">
           Artículo 63. del
           <br />
           Instituto Tlaxcalteca de Elecciones.

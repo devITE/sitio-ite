@@ -1,12 +1,16 @@
+/* eslint-disable no-unused-vars */
 import React, { useMemo } from "react";
 import TitlePages from "../../../layout/TitlePages";
 import MaterialReactTable from "material-react-table";
-import { Box, Typography } from "@mui/material";
+import { Box } from "@mui/material";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFileExcel } from "@fortawesome/free-solid-svg-icons";
 import { dataArt632021 } from "../../../assets/data/dataTransparenciaArt63";
 
-// let nameFile = "";
+let nameFile1 = "",
+  nameFile2 = "",
+  nameFile3 = "";
+
 const Art632021 = () => {
   const columns = useMemo(
     () => [
@@ -62,22 +66,6 @@ const Art632021 = () => {
         enableResizing: false,
         enableColumnFilter: false,
       },
-      // {
-      //   id: "exccel",
-      //   header: "Excel",
-      //   footer: "Excel",
-      //   size: 80,
-      //   enableResizing: false,
-      //   enableColumnFilters: false,
-      //   Cell: ({ row }) =>
-      //     row.original.excel === "" ? (
-      //       <span></span>
-      //     ) : (
-      //       <a href={row.original.excel} target="_blank" rel="noreferrer">
-      //         <FontAwesomeIcon icon={faFileExcel} className="btn btn-success" />
-      //       </a>
-      //     ),
-      // },
     ],
     []
   );
@@ -96,86 +84,158 @@ const Art632021 = () => {
         enableColumnActions={false}
         enableColumnResizing
         enableDensityToggle={false}
-        // data ={row.original}
-        renderDetailPanel={
-          ({ row }) =>
-            row.original.excel === "" ? (
-              <Box
-                sx={{
-                  display: "grid",
-                  margin: "auto",
-                  gridTemplateColumns: "1fr 1fr",
-                  width: "100%",
-                  backgroundColor: "primary.dark",
-                  "&:hover": {
-                    backgroundColor: "primary.main",
-                    opacity: [0.9, 0.8, 0.7],
-                  },
-                }}
-              >
-                d
-              </Box>
-            ) : (
-              <Box
-                sx={{
-                  display: "grid",
-                  margin: "auto",
-                  gridTemplateColumns: "1fr 1fr",
-                  width: "100%",
-                  backgroundColor: "primary.dark",
-                  "&:hover": {
-                    backgroundColor: "primary.main",
-                    opacity: [0.9, 0.8, 0.7],
-                  },
-                }}
-              >
-                <p className="text-strong text-center">
-                  Descarga el archivo de la Fracción:{" "}
-                  {row.original.excel.substring(14, 100).slice(0, -26)}{" "}
-                  <a href={row.original.excel} target="_blank" rel="noreferrer">
-                    <FontAwesomeIcon
-                      icon={faFileExcel}
-                      className="btn btn-success"
-                    />
-                  </a>
-                </p>
-              </Box>
-            )
-          // <Box
-          //   sx={{
-          //     display: "grid",
-          //     margin: "auto",
-          //     gridTemplateColumns: "1fr 1fr",
-          //     width: "100%",
-          //   }}
-          // >
-          //   {row.original.excel === "" ? (
-          //     <span></span>
-          //   ) : (
-          //     <h5>
-          //       {row.original.excel.substring(14, 100).slice(0, -26)}{" "}
-          //       <a href={row.original.excel} target="_blank" rel="noreferrer">
-          //         <FontAwesomeIcon
-          //           icon={faFileExcel}
-          //           className="btn btn-success"
-          //         />
-          //       </a>
-          //     </h5>
-          //   )}
-          // </Box>
+        muiExpandButtonProps={({ row }) => ({
+          sx: {
+            display: row.original.subRows === "" ? "none" : "flex",
+          },
+        })}
+        renderDetailPanel={({ row }) =>
+          (row.original.excel1 === "") &
+          (row.original.excel2 === "") &
+          (row.original.excel3 === "") ? (
+            <span></span>
+          ) : (
+            <Box id="Box">
+              {(row.original.excel1 !== "") &
+              (row.original.excel2 === "") &
+              (row.original.excel3 === "") ? (
+                <div className="text-center">
+                  <p className="text-strong">
+                    Descarga el archivo de la Fracción:
+                  </p>
+                  <p>
+                    {
+                      (nameFile1 = row.original.excel1
+                        ? row.original.excel1.substring(14, 100).slice(0, -26)
+                        : [])
+                    }{" "}
+                    <a
+                      href={row.original.excel1}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <FontAwesomeIcon
+                        icon={faFileExcel}
+                        className="btn btn-success"
+                      />
+                    </a>
+                  </p>
+                </div>
+              ) : (row.original.excel1 !== "") &
+                (row.original.excel2 !== "") &
+                (row.original.excel3 === "") ? (
+                <div>
+                  <p className="text-strong">
+                    Descarga los archivos de la Fracciones:
+                  </p>
+                  <p>
+                    {
+                      (nameFile1 = row.original.excel1
+                        ? row.original.excel1.substring(14, 100).slice(0, -26)
+                        : [])
+                    }{" "}
+                    <a
+                      href={row.original.excel1}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <FontAwesomeIcon
+                        icon={faFileExcel}
+                        className="btn btn-success"
+                      />
+                    </a>
+                  </p>
+                  <p>
+                    {
+                      (nameFile2 = row.original.excel2
+                        ? row.original.excel2.substring(14, 100).slice(0, -26)
+                        : [])
+                    }{" "}
+                    <a
+                      href={row.original.excel2}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <FontAwesomeIcon
+                        icon={faFileExcel}
+                        className="btn btn-success"
+                      />
+                    </a>
+                  </p>
+                </div>
+              ) : (
+                <div>
+                  <p className="text-strong">
+                    Descarga los archivos de la Fracciones:
+                  </p>
+                  <p>
+                    {
+                      (nameFile1 = row.original.excel1
+                        ? row.original.excel1.substring(14, 100).slice(0, -26)
+                        : [])
+                    }{" "}
+                    <a
+                      href={row.original.excel1}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <FontAwesomeIcon
+                        icon={faFileExcel}
+                        className="btn btn-success"
+                      />
+                    </a>
+                  </p>
+                  <p>
+                    {
+                      (nameFile2 = row.original.excel2
+                        ? row.original.excel2.substring(14, 100).slice(0, -26)
+                        : [])
+                    }{" "}
+                    <a
+                      href={row.original.excel2}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <FontAwesomeIcon
+                        icon={faFileExcel}
+                        className="btn btn-success"
+                      />
+                    </a>
+                  </p>
+                  <p>
+                    {
+                      (nameFile3 = row.original.excel3
+                        ? row.original.excel3.substring(14, 100).slice(0, -26)
+                        : [])
+                    }{" "}
+                    <a
+                      href={row.original.excel3}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <FontAwesomeIcon
+                        icon={faFileExcel}
+                        className="btn btn-success"
+                      />
+                    </a>
+                  </p>
+                </div>
+              )}
+            </Box>
+          )
         }
-        muiTableHeadCellProps={{
-          sx: {
-            backgroundColor: "#972069",
-            color: "#fff",
-          },
-        }}
-        muiTableFooterCellProps={{
-          sx: {
-            backgroundColor: "#972069",
-            color: "#fff",
-          },
-        }}
+        // muiTableHeadCellProps={{
+        //   sx: {
+        //     backgroundColor: "#972069",
+        //     color: "#fff",
+        //   },
+        // }}
+        // muiTableFooterCellProps={{
+        //   sx: {
+        //     backgroundColor: "#972069",
+        //     color: "#fff",
+        //   },
+        // }}
         muiTablePaginationProps={{
           labelRowsPerPage: "Filas por página",
           getItemAriaLabel: (type) => {
@@ -229,7 +289,6 @@ const Art632021 = () => {
           ungroupByColumn: "Desagrupar por {column}",
         }}
       />
-      {/* </ThemeProvider> */}
     </div>
   );
 };
