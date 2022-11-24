@@ -1,12 +1,18 @@
+/* eslint-disable no-unused-vars */
 import React, { useMemo } from "react";
 import TitlePages from "../../../layout/TitlePages";
 import MaterialReactTable from "material-react-table";
-import { createTheme, ThemeProvider } from "@mui/material/styles";
-import { esES } from "@mui/material/locale";
-import { dataArt632019 } from "../../../assets/data/dataTransparenciaArt63";
+import { Box } from "@mui/material";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFileExcel } from "@fortawesome/free-solid-svg-icons";
-import "../Transparencia.css";
+import { dataArt632019 } from "../../../assets/data/dataTransparenciaArt63";
+
+let nameFileExcel1 = "",
+  nameFileExcel2 = "",
+  nameFileExcel3 = "",
+  nameFilePDF1 = "",
+  nameFilePDF2 = "",
+  nameFilePDF3 = "";
 
 const Art632019 = () => {
   const columns = useMemo(
@@ -63,108 +69,230 @@ const Art632019 = () => {
         enableResizing: false,
         enableColumnFilter: false,
       },
-      {
-        id: "exccel",
-        header: "Excel",
-        footer: "Excel",
-        columnDefType: "display",
-        size: 80,
-        enableResizing: false,
-        enableColumnFilters: false,
-        Cell: ({ row }) =>
-          row.original.excel === "" ? (
-            <span></span>
-          ) : (
-            <a href={row.original.excel} target="_blank" rel="noreferrer">
-              <FontAwesomeIcon icon={faFileExcel} className="btn btn-success" />
-            </a>
-          ),
-      },
     ],
     []
   );
 
   return (
     <div>
-      <TitlePages title="Transparencia" />
-      <h5 className="mt-3 Transparencia__title">
-        Artículo 63. (2019) Obligaciones Comunes
-      </h5>
-      <ThemeProvider theme={createTheme({}, esES)}>
-        <MaterialReactTable
-          columns={columns}
-          data={dataArt632019}
-          enableExpanding
-          enableExpandAll
-          enableColumnActions={false}
-          enableColumnResizing
-          enableDensityToggle={false}
-          muiTableHeadCellProps={{
-            sx: {
-              backgroundColor: "#972069",
-              color: "#fff",
-            },
-          }}
-          muiTableFooterCellProps={{
-            sx: {
-              backgroundColor: "#972069",
-              color: "#fff",
-            },
-          }}
-          muiTablePaginationProps={{
-            labelRowsPerPage: "Filas por página",
-            getItemAriaLabel: (type) => {
-              if (type === "first") {
-                return "inicio";
-              }
-              if (type === "last") {
-                return "fin";
-              }
-              if (type === "next") {
-                return "siguiente";
-              }
-              if (type === "previous") {
-                return "anterior";
-              }
-            },
-            labelDisplayedRows: ({ from, to, count }) =>
-              `${from}-${to} de ${count !== -1 ? count : `${to} para`}`,
-          }}
-          localization={{
-            actions: "Acciones",
-            cancel: "Cancelar",
-            clearFilter: "Limpiar filtro",
-            clearSearch: "Borrar búsqueda",
-            clearSort: "Ordenar claro",
-            columnActions: "Acciones de columna",
-            edit: "Editar",
-            expand: "Expandir",
-            expandAll: "Expandir todo",
-            filterByColumn: "{column}",
-            groupByColumn: "Agrupar por {column}",
-            groupedBy: "Agrupados por ",
-            hideAll: "Ocultar todo",
-            hideColumn: "Ocultar columna de {column}",
-            rowActions: "Acciones de fila",
-            save: "Salvar",
-            search: "Búsqueda",
-            selectedCountOfRowCountRowsSelected:
-              "{selectedCount} de {rowCount} fila(s) seleccionadas",
-            showAll: "Mostrar todo",
-            showHideColumns: "Mostrar/Ocultar columnas",
-            showHideFilters: "Alternar filtros",
-            showHideSearch: "Alternar búsqueda",
-            sortByColumnAsc: "Ordenar por {column} ascendente",
-            sortByColumnDesc: "Ordenar por {column} descendiendo",
-            thenBy: ", entonces por ",
-            toggleDensity: "Alternar relleno denso",
-            toggleFullScreen: "Alternar pantalla completa",
-            toggleSelectAll: "Seleccionar todo",
-            toggleSelectRow: "Seleccionar fila",
-            ungroupByColumn: "Desagrupar por {column}",
-          }}
-        />
-      </ThemeProvider>
+      <TitlePages
+        title="Transparencia"
+        subTitle="Artículo 63. (2019) Obligaciones Comunes"
+      />
+      <MaterialReactTable
+        columns={columns}
+        data={dataArt632019}
+        enableExpanding
+        enableExpandAll
+        enableColumnActions={false}
+        enableColumnResizing
+        enableDensityToggle={false}
+        muiExpandButtonProps={({ row }) => ({
+          sx: {
+            display: row.original.subRows === "" ? "none" : "flex",
+          },
+        })}
+        renderDetailPanel={({ row }) =>
+          (row.original.excel1 === "") &
+          (row.original.excel2 === "") &
+          (row.original.excel3 === "") ? (
+            <span></span>
+          ) : (
+            <Box id="Box">
+              {(row.original.excel1 !== "") &
+              (row.original.excel2 === "") &
+              (row.original.excel3 === "") ? (
+                <div>
+                  <p className="text-strong">
+                    Descarga el archivo de la Fracción:
+                  </p>
+                  <p>
+                    {
+                      (nameFileExcel1 = row.original.excel1
+                        ? row.original.excel1.substring(14, 100).slice(0, -26)
+                        : [])
+                    }{" "}
+                    <a
+                      href={row.original.excel1}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <FontAwesomeIcon
+                        icon={faFileExcel}
+                        className="btn btn-success"
+                      />
+                    </a>
+                  </p>
+                </div>
+              ) : (row.original.excel1 !== "") &
+                (row.original.excel2 !== "") &
+                (row.original.excel3 === "") ? (
+                <div>
+                  <p className="text-strong">
+                    Descarga los archivos de la Fracciones:
+                  </p>
+                  <p>
+                    {
+                      (nameFileExcel1 = row.original.excel1
+                        ? row.original.excel1.substring(14, 100).slice(0, -26)
+                        : [])
+                    }{" "}
+                    <a
+                      href={row.original.excel1}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <FontAwesomeIcon
+                        icon={faFileExcel}
+                        className="btn btn-success"
+                      />
+                    </a>
+                  </p>
+                  <p>
+                    {
+                      (nameFileExcel2 = row.original.excel2
+                        ? row.original.excel2.substring(14, 100).slice(0, -26)
+                        : [])
+                    }{" "}
+                    <a
+                      href={row.original.excel2}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <FontAwesomeIcon
+                        icon={faFileExcel}
+                        className="btn btn-success"
+                      />
+                    </a>
+                  </p>
+                </div>
+              ) : (
+                <div>
+                  <p className="text-strong">
+                    Descarga los archivos de la Fracciones:
+                  </p>
+                  <p>
+                    {
+                      (nameFileExcel1 = row.original.excel1
+                        ? row.original.excel1.substring(14, 100).slice(0, -26)
+                        : [])
+                    }{" "}
+                    <a
+                      href={row.original.excel1}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <FontAwesomeIcon
+                        icon={faFileExcel}
+                        className="btn btn-success"
+                      />
+                    </a>
+                  </p>
+                  <p>
+                    {
+                      (nameFileExcel2 = row.original.excel2
+                        ? row.original.excel2.substring(14, 100).slice(0, -26)
+                        : [])
+                    }{" "}
+                    <a
+                      href={row.original.excel2}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <FontAwesomeIcon
+                        icon={faFileExcel}
+                        className="btn btn-success"
+                      />
+                    </a>
+                  </p>
+                  <p>
+                    {
+                      ((nameFileExcel3 = ro),
+                      w.original.excel3
+                        ? row.original.excel3.substring(14, 100).slice(0, -26)
+                        : [])
+                    }{" "}
+                    <a
+                      href={row.original.excel3}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <FontAwesomeIcon
+                        icon={faFileExcel}
+                        className="btn btn-success"
+                      />
+                    </a>
+                  </p>
+                </div>
+              )}
+            </Box>
+          )
+        }
+        // muiTableHeadCellProps={{
+        //   sx: {
+        //     backgroundColor: "#972069",
+        //     color: "#fff",
+        //   },
+        // }}
+        // muiTableFooterCellProps={{
+        //   sx: {
+        //     backgroundColor: "#972069",
+        //     color: "#fff",
+        //   },
+        // }}
+        muiTablePaginationProps={{
+          labelRowsPerPage: "Filas por página",
+          getItemAriaLabel: (type) => {
+            if (type === "first") {
+              return "inicio";
+            }
+            if (type === "last") {
+              return "fin";
+            }
+            if (type === "next") {
+              return "siguiente";
+            }
+            if (type === "previous") {
+              return "anterior";
+            }
+          },
+          labelDisplayedRows: ({ from, to, count }) =>
+            `${from}-${to} de ${count !== -1 ? count : `${to} para`}`,
+        }}
+        localization={{
+          actions: "Acciones",
+          cancel: "Cancelar",
+          clearFilter: "Limpiar filtro",
+          clearSearch: "Borrar búsqueda",
+          clearSort: "Ordenar claro",
+          columnActions: "Acciones de columna",
+          edit: "Editar",
+          expand: "Expandir",
+          expandAll: "Expandir todo",
+          filterByColumn: "{column}",
+          groupByColumn: "Agrupar por {column}",
+          groupedBy: "Agrupados por ",
+          hideAll: "Ocultar todo",
+          hideColumn: "Ocultar columna de {column}",
+          rowActions: "Acciones de fila",
+          save: "Salvar",
+          search: "Búsqueda",
+          selectedCountOfRowCountRowsSelected:
+            "{selectedCount} de {rowCount} fila(s) seleccionadas",
+          showAll: "Mostrar todo",
+          showHideColumns: "Mostrar/Ocultar columnas",
+          showHideFilters: "Alternar filtros",
+          showHideSearch: "Alternar búsqueda",
+          sortByColumnAsc: "Ordenar por {column} ascendente",
+          sortByColumnDesc: "Ordenar por {column} descendiendo",
+          thenBy: ", entonces por ",
+          toggleDensity: "Alternar relleno denso",
+          toggleFullScreen: "Alternar pantalla completa",
+          toggleSelectAll: "Seleccionar todo",
+          toggleSelectRow: "Seleccionar fila",
+          ungroupByColumn: "Desagrupar por {column}",
+        }}
+      />
     </div>
   );
 };
