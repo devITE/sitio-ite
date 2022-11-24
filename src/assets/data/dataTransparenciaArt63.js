@@ -2096,15 +2096,21 @@ export const dataArt632019 = [
       "Articulo. 63 Fraccion I de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
     actualizacion: "2019",
     excel1: Transparencia_path(
-      `./${"excel/transparencia/art63/2019/"}${"LTAIPT_A63F01.xlsx"}`
+      `./${"excel/transparencia/art63/2019/"}${"LTAIPT2018_A63F01.xlsx"}`
     ),
     excel2: "",
     excel3: "",
+    excel4: "",
+    excel5: "",
+    excel6: "",
     pdf1: Transparencia_path(
       `./${"pdf/transparencia/art63/2019/"}${"LTAIPT2018_A63F01.pdf"}`
     ),
     pdf2: "",
     pdf3: "",
+    pdf4: "",
+    pdf5: "",
+    pdf6: "",
   },
   {
     no: "2",
@@ -2117,6 +2123,15 @@ export const dataArt632019 = [
     excel1: "",
     excel2: "",
     excel3: "",
+    excel4: "",
+    excel5: "",
+    excel6: "",
+    pdf1: "",
+    pdf2: "",
+    pdf3: "",
+    pdf4: "",
+    pdf5: "",
+    pdf6: "",
     subRows: [
       {
         no: "",
@@ -2127,23 +2142,29 @@ export const dataArt632019 = [
           "Articulo. 63 Fraccion II-A de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
         actualizacion: "2019",
         excel1: Transparencia_path(
-          `./${"excel/transparencia/art63/2019/"}${"LTAIPT_A63F02A_1.xlsx"}`
+          `./${"excel/transparencia/art63/2019/"}${"LTAIPT2018_A63F02A_1.xlsx"}`
         ),
         excel2: Transparencia_path(
-          `./${"excel/transparencia/art63/2019/"}${"LTAIPT_A63F02A_2.xlsx"}`
+          `./${"excel/transparencia/art63/2019/"}${"LTAIPT2018_A63F02A_2.xlsx"}`
         ),
         excel3: Transparencia_path(
-          `./${"excel/transparencia/art63/2019/"}${"LTAIPT_A63F02A_3.xlsx"}`
+          `./${"excel/transparencia/art63/2019/"}${"LTAIPT2018_A63F02A_3.xlsx"}`
         ),
+        excel4: "",
+        excel5: "",
+        excel6: "",
         pdf1: Transparencia_path(
-          `./${"excel/transparencia/art63/2019/"}${"LTAIPT_A63F02A_1.pdf"}`
+          `./${"excel/transparencia/art63/2019/"}${"LTAIPT2018_A63F02A_1.pdf"}`
         ),
         pdf2: Transparencia_path(
-          `./${"excel/transparencia/art63/2019/"}${"LTAIPT_A63F02A_2.pdf"}`
+          `./${"excel/transparencia/art63/2019/"}${"LTAIPT2018_A63F02A_2.pdf"}`
         ),
         pdf3: Transparencia_path(
-          `./${"excel/transparencia/art63/2019/"}${"LTAIPT_A63F02A_3.pdf"}`
+          `./${"excel/transparencia/art63/2019/"}${"LTAIPT2018_A63F02A_3.pdf"}`
         ),
+        pdf4: "",
+        pdf5: "",
+        pdf6: "",
       },
       {
         no: "",
@@ -2154,10 +2175,29 @@ export const dataArt632019 = [
           "Articulo. 63 Fraccion II-B de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
         actualizacion: "2019",
         excel1: Transparencia_path(
-          `./${"excel/transparencia/art63/2019/"}${"LTAIPT_A63F02B.xlsx"}`
+          `./${"excel/transparencia/art63/2019/"}${"LTAIPT2018_A63F02B_1.xlsx"}`
         ),
-        excel2: "",
-        excel3: "",
+        excel2: Transparencia_path(
+          `./${"excel/transparencia/art63/2019/"}${"LTAIPT2018_A63F02B_2.xlsx"}`
+        ),
+        excel3: Transparencia_path(
+          `./${"excel/transparencia/art63/2019/"}${"LTAIPT2018_A63F02B_3.xlsx"}`
+        ),
+        excel4: "",
+        excel5: "",
+        excel6: "",
+        pdf1: Transparencia_path(
+          `./${"pdf/transparencia/art63/2019/"}${"LTAIPT2018_A63F02B_1.pdf"}`
+        ),
+        pdf2: Transparencia_path(
+          `./${"pdf/transparencia/art63/2019/"}${"LTAIPT2018_A63F02B_2.pdf"}`
+        ),
+        pdf3: Transparencia_path(
+          `./${"pdf/transparencia/art63/2019/"}${"LTAIPT2018_A63F02B_3.pdf"}`
+        ),
+        pdf4: "",
+        pdf5: "",
+        pdf6: "",
       },
     ],
   },
@@ -2170,10 +2210,29 @@ export const dataArt632019 = [
       "Articulo. 63 Fraccion III de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
     actualizacion: "2019",
     excel1: Transparencia_path(
-      `./${"excel/transparencia/art63/2019/"}${"LTAIPT_A63F03.xlsx"}`
+      `./${"excel/transparencia/art63/2019/"}${"LTAIPT_A63F03_1.xlsx"}`
     ),
-    excel2: "",
-    excel3: "",
+    excel2: Transparencia_path(
+      `./${"excel/transparencia/art63/2019/"}${"LTAIPT_A63F03_2.xlsx"}`
+    ),
+    excel3: Transparencia_path(
+      `./${"excel/transparencia/art63/2019/"}${"LTAIPT_A63F03_3.xlsx"}`
+    ),
+    excel4: "",
+    excel5: "",
+    excel6: "",
+    pdf1: Transparencia_path(
+      `./${"pdf/transparencia/art63/2019/"}${"LTAIPT_A63F03_1.pdf"}`
+    ),
+    pdf2: Transparencia_path(
+      `./${"pdf/transparencia/art63/2019/"}${"LTAIPT_A63F03_2.pdf"}`
+    ),
+    pdf3: Transparencia_path(
+      `./${"pdf/transparencia/art63/2019/"}${"LTAIPT_A63F03_3.pdf"}`
+    ),
+    pdf4: "",
+    pdf5: "",
+    pdf6: "",
   },
   {
     no: "4",
@@ -2184,10 +2243,25 @@ export const dataArt632019 = [
       "Articulo. 63 Fraccion IV de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
     actualizacion: "2019",
     excel1: Transparencia_path(
-      `./${"excel/transparencia/art63/2019/"}${"LTAIPT_A63F04.xlsx"}`
+      `./${"excel/transparencia/art63/2019/"}${"LTAIPT_A63F04_1.xlsx"}`
     ),
-    excel2: "",
+    excel2: Transparencia_path(
+      `./${"excel/transparencia/art63/2019/"}${"LTAIPT_A63F04_2.xlsx"}`
+    ),
     excel3: "",
+    excel4: "",
+    excel5: "",
+    excel6: "",
+    pdf1: Transparencia_path(
+      `./${"pdf/transparencia/art63/2019/"}${"LTAIPT_A63F04_1.pdf"}`
+    ),
+    pdf2: Transparencia_path(
+      `./${"pdf/transparencia/art63/2019/"}${"LTAIPT_A63F04_2.pdf"}`
+    ),
+    pdf3: "",
+    pdf4: "",
+    pdf5: "",
+    pdf6: "",
   },
   {
     no: "5",
@@ -2198,10 +2272,33 @@ export const dataArt632019 = [
       "Articulo. 63 Fraccion V de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
     actualizacion: "2019",
     excel1: Transparencia_path(
-      `./${"excel/transparencia/art63/2019/"}${"LTAIPT_A63F05.xlsx"}`
+      `./${"excel/transparencia/art63/2019/"}${"LTAIPT_A63F05_1.xlsx"}`
     ),
-    excel2: "",
-    excel3: "",
+    excel2: Transparencia_path(
+      `./${"excel/transparencia/art63/2019/"}${"LTAIPT_A63F05_2.xlsx"}`
+    ),
+    excel3: Transparencia_path(
+      `./${"excel/transparencia/art63/2019/"}${"LTAIPT_A63F05_3.xlsx"}`
+    ),
+    excel4: Transparencia_path(
+      `./${"excel/transparencia/art63/2019/"}${"LTAIPT_A63F05_4.xlsx"}`
+    ),
+    excel5: "",
+    excel6: "",
+    pdf1: Transparencia_path(
+      `./${"pdf/transparencia/art63/2019/"}${"LTAIPT_A63F05_1.pdf"}`
+    ),
+    pdf2: Transparencia_path(
+      `./${"pdf/transparencia/art63/2019/"}${"LTAIPT_A63F05_2.pdf"}`
+    ),
+    pdf3: Transparencia_path(
+      `./${"pdf/transparencia/art63/2019/"}${"LTAIPT_A63F05_3.pdf"}`
+    ),
+    pdf4: Transparencia_path(
+      `./${"pdf/transparencia/art63/2019/"}${"LTAIPT_A63F05_4.pdf"}`
+    ),
+    pdf5: "",
+    pdf6: "",
   },
   {
     no: "6",
@@ -2212,10 +2309,33 @@ export const dataArt632019 = [
       "Articulo. 63 Fraccion VI de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
     actualizacion: "2019",
     excel1: Transparencia_path(
-      `./${"excel/transparencia/art63/2019/"}${"LTAIPT_A63F06.xlsx"}`
+      `./${"excel/transparencia/art63/2019/"}${"LTAIPT2018_A63F06_1.xlsx"}`
     ),
-    excel2: "",
-    excel3: "",
+    excel2: Transparencia_path(
+      `./${"excel/transparencia/art63/2019/"}${"LTAIPT2018_A63F06_2.xlsx"}`
+    ),
+    excel3: Transparencia_path(
+      `./${"excel/transparencia/art63/2019/"}${"LTAIPT2018_A63F06_3.xlsx"}`
+    ),
+    excel4: Transparencia_path(
+      `./${"excel/transparencia/art63/2019/"}${"LTAIPT2018_A63F06_4.xlsx"}`
+    ),
+    excel5: "",
+    excel6: "",
+    pdf1: Transparencia_path(
+      `./${"pdf/transparencia/art63/2019/"}${"LTAIPT2018_A63F06_1.pdf"}`
+    ),
+    pdf2: Transparencia_path(
+      `./${"pdf/transparencia/art63/2019/"}${"LTAIPT2018_A63F06_2.pdf"}`
+    ),
+    pdf3: Transparencia_path(
+      `./${"pdf/transparencia/art63/2019/"}${"LTAIPT2018_A63F06_3.pdf"}`
+    ),
+    pdf4: Transparencia_path(
+      `./${"pdf/transparencia/art63/2019/"}${"LTAIPT2018_A63F06_4.pdf"}`
+    ),
+    pdf5: "",
+    pdf6: "",
   },
   {
     no: "7",
@@ -2226,10 +2346,29 @@ export const dataArt632019 = [
       "Articulo. 63 Fraccion VII de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
     actualizacion: "2019",
     excel1: Transparencia_path(
-      `./${"excel/transparencia/art63/2019/"}${"LTAIPT_A63F07.xlsx"}`
+      `./${"excel/transparencia/art63/2019/"}${"LTAIPT2018|_A63F07_1.xlsx"}`
     ),
-    excel2: "",
-    excel3: "",
+    excel2: Transparencia_path(
+      `./${"excel/transparencia/art63/2019/"}${"LTAIPT2018|_A63F07_2.xlsx"}`
+    ),
+    excel3: Transparencia_path(
+      `./${"excel/transparencia/art63/2019/"}${"LTAIPT2018|_A63F07_3.xlsx"}`
+    ),
+    excel4: "",
+    excel5: "",
+    excel6: "",
+    pdf1: Transparencia_path(
+      `./${"pdf/transparencia/art63/2019/"}${"LTAIPT2018_A63F07_1.pdf"}`
+    ),
+    pdf2: Transparencia_path(
+      `./${"pdf/transparencia/art63/2019/"}${"LTAIPT2018_A63F07_2.pdf"}`
+    ),
+    pdf3: Transparencia_path(
+      `./${"pdf/transparencia/art63/2019/"}${"LTAIPT2018_A63F07_3.pdf"}`
+    ),
+    excel4: "",
+    excel5: "",
+    excel6: "",
   },
   {
     no: "8",
@@ -2239,39 +2378,22 @@ export const dataArt632019 = [
     fundamentoLegal:
       "Articulo. 63 Fraccion VIII de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
     actualizacion: "2019",
-    excel1: "",
-    excel2: "",
+    excel1: Transparencia_path(
+      `./${"excel/transparencia/art63/2019/"}${"LTAIPT_A63F08_1.xlsx"}`
+    ),
+    excel2: Transparencia_path(
+      `./${"excel/transparencia/art63/2019/"}${"LTAIPT_A63F08_2.xlsx"}`
+    ),
     excel3: "",
-    subRows: [
-      {
-        no: "",
-        fraccion: "VIII-A",
-        titulo: "Remuneración bruta y neta",
-        cumplimiento: "Aplica",
-        fundamentoLegal:
-          "Articulo. 63 Fraccion VIII-A de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
-        actualizacion: "2019",
-        excel1: Transparencia_path(
-          `./${"excel/transparencia/art63/2019/"}${"LTAIPT_A63F08A.xlsx"}`
-        ),
-        excel2: "",
-        excel3: "",
-      },
-      {
-        no: "",
-        fraccion: "VIII-B",
-        titulo: "Remuneración bruta y neta",
-        cumplimiento: "Aplica",
-        fundamentoLegal:
-          "Articulo. 63 Fraccion VIII-B de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
-        actualizacion: "2019",
-        excel1: Transparencia_path(
-          `./${"excel/transparencia/art63/2019/"}${"LTAIPT_A63F08B.xlsx"}`
-        ),
-        excel2: "",
-        excel3: "",
-      },
-    ],
+    excel4: "",
+    pdf1: Transparencia_path(
+      `./${"pdf/transparencia/art63/2019/"}${"LTAIPT_A63F08_1.pdf"}`
+    ),
+    pdf2: Transparencia_path(
+      `./${"pdf/transparencia/art63/2019/"}${"LTAIPT_A63F08_2.pdf"}`
+    ),
+    pdf3: "",
+    pdf4: "",
   },
   {
     no: "9",
@@ -2282,10 +2404,25 @@ export const dataArt632019 = [
       "Articulo. 63 Fraccion I de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
     actualizacion: "2019",
     excel1: Transparencia_path(
-      `./${"excel/transparencia/art63/2019/"}${"LTAIPT_A63F09.xlsx"}`
+      `./${"excel/transparencia/art63/2019/"}${"LTAIPT_A63F09_1.xlsx"}`
     ),
-    excel2: "",
-    excel3: "",
+    excel2: Transparencia_path(
+      `./${"excel/transparencia/art63/2019/"}${"LTAIPT_A63F09_2.xlsx"}`
+    ),
+    excel3: Transparencia_path(
+      `./${"excel/transparencia/art63/2019/"}${"LTAIPT_A63F09_3.xlsx"}`
+    ),
+    excel4: "",
+    pdf1: Transparencia_path(
+      `./${"pdf/transparencia/art63/2019/"}${"LTAIPT_A63F09_1.pdf"}`
+    ),
+    pdf2: Transparencia_path(
+      `./${"pdf/transparencia/art63/2019/"}${"LTAIPT_A63F09_2.pdf"}`
+    ),
+    pdf3: Transparencia_path(
+      `./${"pdf/transparencia/art63/2019/"}${"LTAIPT_A63F09_3.pdf"}`
+    ),
+    pdf4: "",
   },
   {
     no: "10",
