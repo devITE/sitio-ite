@@ -99,7 +99,7 @@ const Art632021 = () => {
               {(row.original.excel1 !== "") &
               (row.original.excel2 === "") &
               (row.original.excel3 === "") ? (
-                <div className="text-center">
+                <div>
                   <p className="text-strong">
                     Descarga el archivo de la Fracción:
                   </p>

@@ -4,12 +4,11 @@ import TitlePages from "../../../layout/TitlePages";
 import MaterialReactTable from "material-react-table";
 import { Box } from "@mui/material";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFileExcel } from "@fortawesome/free-solid-svg-icons";
+import { faFileExcel, faFilePdf } from "@fortawesome/free-solid-svg-icons";
 import { dataArt632020 } from "../../../assets/data/dataTransparenciaArt63";
 
-let nameFile1 = "",
-  nameFile2 = "",
-  nameFile3 = "";
+let nameFileExcel = "",
+  nameFilePDF = "";
 
 const Art632020 = () => {
   const columns = useMemo(
@@ -90,27 +89,23 @@ const Art632020 = () => {
           },
         })}
         renderDetailPanel={({ row }) =>
-          (row.original.excel1 === "") &
-          (row.original.excel2 === "") &
-          (row.original.excel3 === "") ? (
+          (row.original.excel === "") & (row.original.pdf === "") ? (
             <span></span>
           ) : (
             <Box id="Box">
-              {(row.original.excel1 !== "") &
-              (row.original.excel2 === "") &
-              (row.original.excel3 === "") ? (
-                <div className="text-center">
-                  <p className="text-strong">
-                    Descarga el archivo de la Fracción:
-                  </p>
-                  <p>
+              <div>
+                <p className="text-strong">
+                  Descarga el archivo de la Fracción:
+                </p>
+                <div className="row">
+                  <div className="col-md-6">
                     {
-                      (nameFile1 = row.original.excel1
-                        ? row.original.excel1.substring(14, 100).slice(0, -26)
+                      (nameFileExcel = row.original.excel
+                        ? row.original.excel.substring(14, 100).slice(0, -26)
                         : [])
                     }{" "}
                     <a
-                      href={row.original.excel1}
+                      href={row.original.excel}
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -119,123 +114,25 @@ const Art632020 = () => {
                         className="btn btn-success"
                       />
                     </a>
-                  </p>
+                  </div>
+                  <div className="col-md-6">
+                    {
+                      (nameFilePDF = row.original.pdf
+                        ? row.original.pdf.substring(14, 100).slice(0, -25)
+                        : [])
+                    }{" "}
+                    <a href={row.original.pdf} target="_blank" rel="noreferrer">
+                      <FontAwesomeIcon
+                        icon={faFilePdf}
+                        className="btn btn-danger"
+                      />
+                    </a>
+                  </div>
                 </div>
-              ) : (row.original.excel1 !== "") &
-                (row.original.excel2 !== "") &
-                (row.original.excel3 === "") ? (
-                <div>
-                  <p className="text-strong">
-                    Descarga los archivos de la Fracciones:
-                  </p>
-                  <p>
-                    {
-                      (nameFile1 = row.original.excel1
-                        ? row.original.excel1.substring(14, 100).slice(0, -26)
-                        : [])
-                    }{" "}
-                    <a
-                      href={row.original.excel1}
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <FontAwesomeIcon
-                        icon={faFileExcel}
-                        className="btn btn-success"
-                      />
-                    </a>
-                  </p>
-                  <p>
-                    {
-                      (nameFile2 = row.original.excel2
-                        ? row.original.excel2.substring(14, 100).slice(0, -26)
-                        : [])
-                    }{" "}
-                    <a
-                      href={row.original.excel2}
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <FontAwesomeIcon
-                        icon={faFileExcel}
-                        className="btn btn-success"
-                      />
-                    </a>
-                  </p>
-                </div>
-              ) : (
-                <div>
-                  <p className="text-strong">
-                    Descarga los archivos de la Fracciones:
-                  </p>
-                  <p>
-                    {
-                      (nameFile1 = row.original.excel1
-                        ? row.original.excel1.substring(14, 100).slice(0, -26)
-                        : [])
-                    }{" "}
-                    <a
-                      href={row.original.excel1}
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <FontAwesomeIcon
-                        icon={faFileExcel}
-                        className="btn btn-success"
-                      />
-                    </a>
-                  </p>
-                  <p>
-                    {
-                      (nameFile2 = row.original.excel2
-                        ? row.original.excel2.substring(14, 100).slice(0, -26)
-                        : [])
-                    }{" "}
-                    <a
-                      href={row.original.excel2}
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <FontAwesomeIcon
-                        icon={faFileExcel}
-                        className="btn btn-success"
-                      />
-                    </a>
-                  </p>
-                  <p>
-                    {
-                      (nameFile3 = row.original.excel3
-                        ? row.original.excel3.substring(14, 100).slice(0, -26)
-                        : [])
-                    }{" "}
-                    <a
-                      href={row.original.excel3}
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <FontAwesomeIcon
-                        icon={faFileExcel}
-                        className="btn btn-success"
-                      />
-                    </a>
-                  </p>
-                </div>
-              )}
+              </div>
             </Box>
           )
         }
-        // muiTableHeadCellProps={{
-        //   sx: {
-        //     backgroundColor: "#972069",
-        //     color: "#fff",
-        //   },
-        // }}
-        // muiTableFooterCellProps={{
-        //   sx: {
-        //     backgroundColor: "#972069",
-        //     color: "#fff",
-        //   },
-        // }}
         muiTablePaginationProps={{
           labelRowsPerPage: "Filas por página",
           getItemAriaLabel: (type) => {
