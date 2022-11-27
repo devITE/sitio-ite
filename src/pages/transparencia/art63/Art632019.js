@@ -99,10 +99,14 @@ const Art632019 = () => {
           (row.original.excel2 === "") &
           (row.original.excel3 === "") &
           (row.original.excel4 === "") &
+          (row.original.excel5 === "") &
+          (row.original.excel6 === "") &
           (row.original.pdf1 === "") &
           (row.original.pdf2 === "") &
           (row.original.pdf3 === "") &
-          (row.original.pdf4 === "") ? (
+          (row.original.pdf4 === "") &
+          (row.original.pdf5 === "") &
+          (row.original.pdf6 === "") ? (
             <span></span>
           ) : (
             <Box id="Box">
@@ -113,10 +117,14 @@ const Art632019 = () => {
               (row.original.excel2 === "") &
               (row.original.excel3 === "") &
               (row.original.excel4 === "") &
+              (row.original.excel5 === "") &
+              (row.original.excel6 === "") &
               (row.original.pdf1 !== "") &
               (row.original.pdf2 === "") &
               (row.original.pdf3 === "") &
-              (row.original.pdf4 === "") ? (
+              (row.original.pdf4 === "") &
+              (row.original.pdf5 === "") &
+              (row.original.pdf6 === "") ? (
                 <div className="row">
                   <div className="md-6">
                     {
@@ -157,10 +165,14 @@ const Art632019 = () => {
                 (row.original.excel2 !== "") &
                 (row.original.excel3 === "") &
                 (row.original.excel4 === "") &
+                (row.original.excel5 === "") &
+                (row.original.excel6 === "") &
                 (row.original.pdf1 !== "") &
                 (row.original.pdf2 !== "") &
                 (row.original.pdf3 === "") &
-                (row.original.pdf4 === "") ? (
+                (row.original.pdf4 === "") &
+                (row.original.pdf5 === "") &
+                (row.original.pdf6 === "") ? (
                 <>
                   <div className="row">
                     <div className="col-md-3">
@@ -239,10 +251,14 @@ const Art632019 = () => {
                 (row.original.excel2 !== "") &
                 (row.original.excel3 !== "") &
                 (row.original.excel4 === "") &
+                (row.original.excel5 === "") &
+                (row.original.excel6 === "") &
                 (row.original.pdf1 !== "") &
                 (row.original.pdf2 !== "") &
-                (row.original.pdf3 !== "") &
-                (row.original.pdf4 === "") ? (
+                (row.original.pdf3 != "") &
+                (row.original.pdf4 === "") &
+                (row.original.pdf5 === "") &
+                (row.original.pdf6 === "") ? (
                 <>
                   <div className="row">
                     <div className="col-md-3">
@@ -342,6 +358,358 @@ const Art632019 = () => {
                       }{" "}
                       <a
                         href={row.original.pdf3}
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <FontAwesomeIcon
+                          icon={faFilePdf}
+                          className="btn btn-danger"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </>
+              ) : (row.original.excel1 !== "") &
+                (row.original.excel2 !== "") &
+                (row.original.excel3 !== "") &
+                (row.original.excel4 !== "") &
+                (row.original.excel5 === "") &
+                (row.original.excel6 === "") &
+                (row.original.pdf1 !== "") &
+                (row.original.pdf2 !== "") &
+                (row.original.pdf3 != "") &
+                (row.original.pdf4 !== "") &
+                (row.original.pdf5 === "") &
+                (row.original.pdf6 === "") ? (
+                <>
+                  <div className="row">
+                    <div className="col-md-3">
+                      {
+                        (nameFileExcel1 = row.original.excel1
+                          ? row.original.excel1.substring(14, 100).slice(0, -26)
+                          : [])
+                      }{" "}
+                      <a
+                        href={row.original.excel1}
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <FontAwesomeIcon
+                          icon={faFileExcel}
+                          className="btn btn-success"
+                        />
+                      </a>
+                    </div>
+                    <div className="col-md-3">
+                      {
+                        (nameFilePdf1 = row.original.pdf1
+                          ? row.original.pdf1.substring(14, 100).slice(0, -26)
+                          : [])
+                      }{" "}
+                      <a
+                        href={row.original.pdf1}
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <FontAwesomeIcon
+                          icon={faFilePdf}
+                          className="btn btn-danger"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                  <div className="row">
+                    <div className="col-md-3">
+                      {
+                        (nameFileExcel2 = row.original.excel2
+                          ? row.original.excel2.substring(14, 100).slice(0, -26)
+                          : [])
+                      }{" "}
+                      <a
+                        href={row.original.excel2}
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <FontAwesomeIcon
+                          icon={faFileExcel}
+                          className="btn btn-success"
+                        />
+                      </a>
+                    </div>
+                    <div className="col-md-3">
+                      {
+                        (nameFilePdf2 = row.original.pdf2
+                          ? row.original.pdf2.substring(14, 100).slice(0, -26)
+                          : [])
+                      }{" "}
+                      <a
+                        href={row.original.pdf2}
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <FontAwesomeIcon
+                          icon={faFilePdf}
+                          className="btn btn-danger"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                  <div className="row">
+                    <div className="col-md-3">
+                      {
+                        (nameFileExcel3 = row.original.excel3
+                          ? row.original.excel3.substring(14, 100).slice(0, -26)
+                          : [])
+                      }{" "}
+                      <a
+                        href={row.original.excel3}
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <FontAwesomeIcon
+                          icon={faFileExcel}
+                          className="btn btn-success"
+                        />
+                      </a>
+                    </div>
+                    <div className="col-md-3">
+                      {
+                        (nameFilePdf3 = row.original.pdf3
+                          ? row.original.pdf3.substring(14, 100).slice(0, -26)
+                          : [])
+                      }{" "}
+                      <a
+                        href={row.original.pdf3}
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <FontAwesomeIcon
+                          icon={faFilePdf}
+                          className="btn btn-danger"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                  <div className="row">
+                    <div className="col-md-3">
+                      {
+                        (nameFileExcel4 = row.original.excel4
+                          ? row.original.excel4.substring(14, 100).slice(0, -26)
+                          : [])
+                      }{" "}
+                      <a
+                        href={row.original.excel4}
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <FontAwesomeIcon
+                          icon={faFileExcel}
+                          className="btn btn-success"
+                        />
+                      </a>
+                    </div>
+                    <div className="col-md-3">
+                      {
+                        (nameFilePdf4 = row.original.pdf4
+                          ? row.original.pdf4.substring(14, 100).slice(0, -26)
+                          : [])
+                      }{" "}
+                      <a
+                        href={row.original.pdf4}
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <FontAwesomeIcon
+                          icon={faFilePdf}
+                          className="btn btn-danger"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </>
+              ) : (row.original.excel1 !== "") &
+                (row.original.excel2 !== "") &
+                (row.original.excel3 !== "") &
+                (row.original.excel4 !== "") &
+                (row.original.excel5 !== "") &
+                (row.original.excel6 === "") &
+                (row.original.pdf1 !== "") &
+                (row.original.pdf2 !== "") &
+                (row.original.pdf3 != "") &
+                (row.original.pdf4 !== "") &
+                (row.original.pdf5 !== "") &
+                (row.original.pdf6 === "") ? (
+                <>
+                  <div className="row">
+                    <div className="col-md-3">
+                      {
+                        (nameFileExcel1 = row.original.excel1
+                          ? row.original.excel1.substring(14, 100).slice(0, -26)
+                          : [])
+                      }{" "}
+                      <a
+                        href={row.original.excel1}
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <FontAwesomeIcon
+                          icon={faFileExcel}
+                          className="btn btn-success"
+                        />
+                      </a>
+                    </div>
+                    <div className="col-md-3">
+                      {
+                        (nameFilePdf1 = row.original.pdf1
+                          ? row.original.pdf1.substring(14, 100).slice(0, -26)
+                          : [])
+                      }{" "}
+                      <a
+                        href={row.original.pdf1}
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <FontAwesomeIcon
+                          icon={faFilePdf}
+                          className="btn btn-danger"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                  <div className="row">
+                    <div className="col-md-3">
+                      {
+                        (nameFileExcel2 = row.original.excel2
+                          ? row.original.excel2.substring(14, 100).slice(0, -26)
+                          : [])
+                      }{" "}
+                      <a
+                        href={row.original.excel2}
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <FontAwesomeIcon
+                          icon={faFileExcel}
+                          className="btn btn-success"
+                        />
+                      </a>
+                    </div>
+                    <div className="col-md-3">
+                      {
+                        (nameFilePdf2 = row.original.pdf2
+                          ? row.original.pdf2.substring(14, 100).slice(0, -26)
+                          : [])
+                      }{" "}
+                      <a
+                        href={row.original.pdf2}
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <FontAwesomeIcon
+                          icon={faFilePdf}
+                          className="btn btn-danger"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                  <div className="row">
+                    <div className="col-md-3">
+                      {
+                        (nameFileExcel3 = row.original.excel3
+                          ? row.original.excel3.substring(14, 100).slice(0, -26)
+                          : [])
+                      }{" "}
+                      <a
+                        href={row.original.excel3}
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <FontAwesomeIcon
+                          icon={faFileExcel}
+                          className="btn btn-success"
+                        />
+                      </a>
+                    </div>
+                    <div className="col-md-3">
+                      {
+                        (nameFilePdf3 = row.original.pdf3
+                          ? row.original.pdf3.substring(14, 100).slice(0, -26)
+                          : [])
+                      }{" "}
+                      <a
+                        href={row.original.pdf3}
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <FontAwesomeIcon
+                          icon={faFilePdf}
+                          className="btn btn-danger"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                  <div className="row">
+                    <div className="col-md-3">
+                      {
+                        (nameFileExcel4 = row.original.excel4
+                          ? row.original.excel4.substring(14, 100).slice(0, -26)
+                          : [])
+                      }{" "}
+                      <a
+                        href={row.original.excel4}
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <FontAwesomeIcon
+                          icon={faFileExcel}
+                          className="btn btn-success"
+                        />
+                      </a>
+                    </div>
+                    <div className="col-md-3">
+                      {
+                        (nameFilePdf4 = row.original.pdf4
+                          ? row.original.pdf4.substring(14, 100).slice(0, -26)
+                          : [])
+                      }{" "}
+                      <a
+                        href={row.original.pdf4}
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <FontAwesomeIcon
+                          icon={faFilePdf}
+                          className="btn btn-danger"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                  <div className="row">
+                    <div className="col-md-3">
+                      {
+                        (nameFileExcel5 = row.original.excel5
+                          ? row.original.excel5.substring(14, 100).slice(0, -26)
+                          : [])
+                      }{" "}
+                      <a
+                        href={row.original.excel5}
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <FontAwesomeIcon
+                          icon={faFileExcel}
+                          className="btn btn-success"
+                        />
+                      </a>
+                    </div>
+                    <div className="col-md-3">
+                      {
+                        (nameFilePdf5 = row.original.pdf5
+                          ? row.original.pdf5.substring(14, 100).slice(0, -26)
+                          : [])
+                      }{" "}
+                      <a
+                        href={row.original.pdf5}
                         target="_blank"
                         rel="noreferrer"
                       >
@@ -489,6 +857,78 @@ const Art632019 = () => {
                       }{" "}
                       <a
                         href={row.original.pdf4}
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <FontAwesomeIcon
+                          icon={faFilePdf}
+                          className="btn btn-danger"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                  <div className="row">
+                    <div className="col-md-3">
+                      {
+                        (nameFileExcel5 = row.original.excel5
+                          ? row.original.excel5.substring(14, 100).slice(0, -26)
+                          : [])
+                      }{" "}
+                      <a
+                        href={row.original.excel5}
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <FontAwesomeIcon
+                          icon={faFileExcel}
+                          className="btn btn-success"
+                        />
+                      </a>
+                    </div>
+                    <div className="col-md-3">
+                      {
+                        (nameFilePdf5 = row.original.pdf5
+                          ? row.original.pdf5.substring(14, 100).slice(0, -26)
+                          : [])
+                      }{" "}
+                      <a
+                        href={row.original.pdf5}
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <FontAwesomeIcon
+                          icon={faFilePdf}
+                          className="btn btn-danger"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                  <div className="row">
+                    <div className="col-md-3">
+                      {
+                        (nameFileExcel6 = row.original.excel6
+                          ? row.original.excel6.substring(14, 100).slice(0, -26)
+                          : [])
+                      }{" "}
+                      <a
+                        href={row.original.excel6}
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <FontAwesomeIcon
+                          icon={faFileExcel}
+                          className="btn btn-success"
+                        />
+                      </a>
+                    </div>
+                    <div className="col-md-3">
+                      {
+                        (nameFilePdf6 = row.original.pdf6
+                          ? row.original.pdf6.substring(14, 100).slice(0, -26)
+                          : [])
+                      }{" "}
+                      <a
+                        href={row.original.pdf6}
                         target="_blank"
                         rel="noreferrer"
                       >
