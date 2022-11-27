@@ -161,6 +161,10 @@ a {
   text-align: center;
 }
 
+#Box .row .col-md-6 {
+  margin: 5px 0;
+}
+
 .css-1t54s72-MuiTableCell-root {
   padding: 0 !important;
 }
