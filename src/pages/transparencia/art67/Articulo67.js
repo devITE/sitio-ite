@@ -7,7 +7,10 @@ export default class Articulo67 extends Component {
   render() {
     return (
       <div>
-        <TitlePages title="Transparencia" />
+        <TitlePages
+          title="Transparencia"
+          subTitle="Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala."
+        />
         <h5 className="mt-3 text-center Transparencia__title">
           Artículo 67. del
           <br />

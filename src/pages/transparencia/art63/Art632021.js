@@ -7,10 +7,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFileExcel } from "@fortawesome/free-solid-svg-icons";
 import { dataArt632021 } from "../../../assets/data/dataTransparenciaArt63";
 
-let nameFile1 = "",
-  nameFile2 = "",
-  nameFile3 = "";
-
 const Art632021 = () => {
   const columns = useMemo(
     () => [
@@ -71,7 +67,7 @@ const Art632021 = () => {
   );
 
   return (
-    <div>
+    <>
       <TitlePages
         title="Transparencia"
         subTitle="Artículo 63. (2021) Obligaciones Comunes"
@@ -104,11 +100,9 @@ const Art632021 = () => {
                     Descarga el archivo de la Fracción:
                   </p>
                   <p>
-                    {
-                      (nameFile1 = row.original.excel1
-                        ? row.original.excel1.substring(14, 100).slice(0, -26)
-                        : [])
-                    }{" "}
+                    {row.original.excel1
+                      ? row.original.excel1.substring(14, 100).slice(0, -26)
+                      : []}{" "}
                     <a
                       href={row.original.excel1}
                       target="_blank"
@@ -129,11 +123,9 @@ const Art632021 = () => {
                     Descarga los archivos de la Fracciones:
                   </p>
                   <p>
-                    {
-                      (nameFile1 = row.original.excel1
-                        ? row.original.excel1.substring(14, 100).slice(0, -26)
-                        : [])
-                    }{" "}
+                    {row.original.excel1
+                      ? row.original.excel1.substring(14, 100).slice(0, -26)
+                      : []}{" "}
                     <a
                       href={row.original.excel1}
                       target="_blank"
@@ -146,11 +138,9 @@ const Art632021 = () => {
                     </a>
                   </p>
                   <p>
-                    {
-                      (nameFile2 = row.original.excel2
-                        ? row.original.excel2.substring(14, 100).slice(0, -26)
-                        : [])
-                    }{" "}
+                    {row.original.excel2
+                      ? row.original.excel2.substring(14, 100).slice(0, -26)
+                      : []}{" "}
                     <a
                       href={row.original.excel2}
                       target="_blank"
@@ -169,11 +159,9 @@ const Art632021 = () => {
                     Descarga los archivos de la Fracciones:
                   </p>
                   <p>
-                    {
-                      (nameFile1 = row.original.excel1
-                        ? row.original.excel1.substring(14, 100).slice(0, -26)
-                        : [])
-                    }{" "}
+                    {row.original.excel1
+                      ? row.original.excel1.substring(14, 100).slice(0, -26)
+                      : []}{" "}
                     <a
                       href={row.original.excel1}
                       target="_blank"
@@ -186,11 +174,9 @@ const Art632021 = () => {
                     </a>
                   </p>
                   <p>
-                    {
-                      (nameFile2 = row.original.excel2
-                        ? row.original.excel2.substring(14, 100).slice(0, -26)
-                        : [])
-                    }{" "}
+                    {row.original.excel2
+                      ? row.original.excel2.substring(14, 100).slice(0, -26)
+                      : []}{" "}
                     <a
                       href={row.original.excel2}
                       target="_blank"
@@ -203,11 +189,9 @@ const Art632021 = () => {
                     </a>
                   </p>
                   <p>
-                    {
-                      (nameFile3 = row.original.excel3
-                        ? row.original.excel3.substring(14, 100).slice(0, -26)
-                        : [])
-                    }{" "}
+                    {row.original.excel3
+                      ? row.original.excel3.substring(14, 100).slice(0, -26)
+                      : []}{" "}
                     <a
                       href={row.original.excel3}
                       target="_blank"
@@ -224,18 +208,6 @@ const Art632021 = () => {
             </Box>
           )
         }
-        // muiTableHeadCellProps={{
-        //   sx: {
-        //     backgroundColor: "#972069",
-        //     color: "#fff",
-        //   },
-        // }}
-        // muiTableFooterCellProps={{
-        //   sx: {
-        //     backgroundColor: "#972069",
-        //     color: "#fff",
-        //   },
-        // }}
         muiTablePaginationProps={{
           labelRowsPerPage: "Filas por página",
           getItemAriaLabel: (type) => {
@@ -289,7 +261,7 @@ const Art632021 = () => {
           ungroupByColumn: "Desagrupar por {column}",
         }}
       />
-    </div>
+    </>
   );
 };
 

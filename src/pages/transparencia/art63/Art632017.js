@@ -1,18 +1,15 @@
+/* eslint-disable no-unused-vars */
 import React, { useMemo } from "react";
 import TitlePages from "../../../layout/TitlePages";
 import MaterialReactTable from "material-react-table";
-import { dataArt632017 } from "../../../assets/data/dataTransparenciaArt63";
+import { Box } from "@mui/material";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFileExcel } from "@fortawesome/free-solid-svg-icons";
-import "../Transparencia.css";
+import { faFileExcel, faFilePdf } from "@fortawesome/free-solid-svg-icons";
+import { dataArt632017 } from "../../../assets/data/dataTransparenciaArt63";
 
 const Art632017 = () => {
   const columns = useMemo(
     () => [
-      // {
-      //   accessorKey: "name.firstName",
-      //   header: "First Name",
-      // },
       {
         accessorKey: "no",
         header: "NO.",
@@ -65,54 +62,70 @@ const Art632017 = () => {
         enableResizing: false,
         enableColumnFilter: false,
       },
-      {
-        id: "exccel",
-        header: "Excel",
-        footer: "Excel",
-        columnDefType: "display",
-        size: 80,
-        enableResizing: false,
-        enableColumnFilters: false,
-        Cell: ({ row }) =>
-          row.original.excel === "" ? (
-            <span></span>
-          ) : (
-            <a href={row.original.excel} target="_blank" rel="noreferrer">
-              <FontAwesomeIcon icon={faFileExcel} className="btn btn-success" />
-            </a>
-          ),
-      },
     ],
     []
   );
 
   return (
-    <div>
-      <TitlePages title="Transparencia" />
-      <h5 className="mt-3 Transparencia__title">
-        Artículo 63. (2017) Obligaciones Comunes
-      </h5>
+    <>
+      <TitlePages
+        title="Transparencia"
+        subTitle="Artículo 63. (2017) Obligaciones Comunes"
+      />
       <MaterialReactTable
         columns={columns}
         data={dataArt632017}
         enableExpanding
         enableExpandAll
         enableColumnActions={false}
-        // enableColumnFilters={false}
         enableColumnResizing
         enableDensityToggle={false}
-        muiTableHeadCellProps={{
+        muiExpandButtonProps={({ row }) => ({
           sx: {
-            backgroundColor: "#972069",
-            color: "#fff",
+            display: row.original.subRows === "" ? "none" : "flex",
           },
-        }}
-        muiTableFooterCellProps={{
-          sx: {
-            backgroundColor: "#972069",
-            color: "#fff",
-          },
-        }}
+        })}
+        renderDetailPanel={({ row }) =>
+          (row.original.excel === "") & (row.original.pdf === "") ? (
+            <span></span>
+          ) : (
+            <Box id="Box">
+              <>
+                <p className="text-strong">
+                  Descarga el archivo de la Fracción:
+                </p>
+                <div className="row">
+                  <div className="col-md-6">
+                    {row.original.excel
+                      ? row.original.excel.substring(14, 100).slice(0, -26)
+                      : []}{" "}
+                    <a
+                      href={row.original.excel}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <FontAwesomeIcon
+                        icon={faFileExcel}
+                        className="btn btn-success"
+                      />
+                    </a>
+                  </div>
+                  <div className="col-md-6">
+                    {row.original.pdf
+                      ? row.original.pdf.substring(14, 100).slice(0, -26)
+                      : []}{" "}
+                    <a href={row.original.pdf} target="_blank" rel="noreferrer">
+                      <FontAwesomeIcon
+                        icon={faFilePdf}
+                        className="btn btn-danger"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </>
+            </Box>
+          )
+        }
         muiTablePaginationProps={{
           labelRowsPerPage: "Filas por página",
           getItemAriaLabel: (type) => {
@@ -166,7 +179,7 @@ const Art632017 = () => {
           ungroupByColumn: "Desagrupar por {column}",
         }}
       />
-    </div>
+    </>
   );
 };
 

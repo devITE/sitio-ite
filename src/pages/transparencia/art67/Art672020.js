@@ -1,10 +1,11 @@
+/* eslint-disable no-unused-vars */
 import React, { useMemo } from "react";
 import TitlePages from "../../../layout/TitlePages";
 import MaterialReactTable from "material-react-table";
-import { dataArt672020 } from "../../../assets/data/dataTransparenciaArt67";
+import { Box } from "@mui/material";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFileExcel } from "@fortawesome/free-solid-svg-icons";
-import "../Transparencia.css";
+import { faFileExcel, faFilePdf } from "@fortawesome/free-solid-svg-icons";
+import { dataArt672020 } from "../../../assets/data/dataTransparenciaArt67";
 
 const Art672020 = () => {
   const columns = useMemo(
@@ -13,7 +14,7 @@ const Art672020 = () => {
         accessorKey: "no",
         header: "NO.",
         footer: "NO.",
-        size: 45,
+        size: 55,
         enableResizing: false,
         enableColumnFilter: false,
       },
@@ -21,7 +22,7 @@ const Art672020 = () => {
         accessorKey: "letra",
         header: "Letra",
         footer: "Letra",
-        size: 45,
+        size: 90,
         enableResizing: false,
         enableColumnFilter: false,
       },
@@ -29,14 +30,14 @@ const Art672020 = () => {
         accessorKey: "descriptivo",
         header: "Descriptivo",
         footer: "Descriptivo",
-        size: 170,
+        size: 150,
         enableResizing: false,
       },
       {
         accessorKey: "cumplimiento",
         header: "Cumplimiento",
         footer: "Cumplimiento",
-        size: 90,
+        size: 100,
         enableResizing: false,
         filterFn: "equals",
         filterSelectOptions: [
@@ -49,7 +50,7 @@ const Art672020 = () => {
         accessorKey: "fundamentoLegal",
         header: "Fundamento Legal",
         footer: "Fundamento Legal",
-        size: 280,
+        size: 270,
         enableResizing: false,
         enableColumnFilter: false,
       },
@@ -61,33 +62,16 @@ const Art672020 = () => {
         enableResizing: false,
         enableColumnFilter: false,
       },
-      {
-        id: "exccel",
-        header: "Excel",
-        footer: "Excel",
-        columnDefType: "display",
-        size: 80,
-        enableResizing: false,
-        enableColumnFilter: false,
-        Cell: ({ row }) =>
-          row.original.excel === "" ? (
-            <span></span>
-          ) : (
-            <a href={row.original.excel} target="_blank" rel="noreferrer">
-              <FontAwesomeIcon icon={faFileExcel} className="btn btn-success" />
-            </a>
-          ),
-      },
     ],
     []
   );
 
   return (
-    <div>
-      <TitlePages title="Transparencia" />
-      <h5 className="mt-3 Transparencia__title">
-        Artículo 67. (2020) Obligaciones Comunes
-      </h5>
+    <>
+      <TitlePages
+        title="Transparencia"
+        subTitle="Artículo 67. (2020) Obligaciones Específicas"
+      />
       <MaterialReactTable
         columns={columns}
         data={dataArt672020}
@@ -96,18 +80,46 @@ const Art672020 = () => {
         enableColumnActions={false}
         enableColumnResizing
         enableDensityToggle={false}
-        muiTableHeadCellProps={{
+        muiExpandButtonProps={({ row }) => ({
           sx: {
-            backgroundColor: "#972069",
-            color: "#fff",
+            display: row.original.subRows === "" ? "none" : "flex",
           },
-        }}
-        muiTableFooterCellProps={{
-          sx: {
-            backgroundColor: "#972069",
-            color: "#fff",
-          },
-        }}
+        })}
+        renderDetailPanel={({ row }) =>
+          (row.original.excel === "") & (row.original.pdf === "") ? (
+            <span></span>
+          ) : (
+            <Box id="Box">
+              <>
+                <p className="text-strong">
+                  Descarga el archivo de la Fracción:
+                </p>
+                <p>
+                  {row.original.excel
+                    ? row.original.excel.substring(14, 100).slice(0, -26)
+                    : []}{" "}
+                  <a href={row.original.excel} target="_blank" rel="noreferrer">
+                    <FontAwesomeIcon
+                      icon={faFileExcel}
+                      className="btn btn-success"
+                    />
+                  </a>
+                </p>
+                <p>
+                  {row.original.pdf
+                    ? row.original.pdf.substring(14, 100).slice(0, -26)
+                    : []}{" "}
+                  <a href={row.original.pdf} target="_blank" rel="noreferrer">
+                    <FontAwesomeIcon
+                      icon={faFilePdf}
+                      className="btn btn-danger"
+                    />
+                  </a>
+                </p>
+              </>
+            </Box>
+          )
+        }
         muiTablePaginationProps={{
           labelRowsPerPage: "Filas por página",
           getItemAriaLabel: (type) => {
@@ -161,7 +173,7 @@ const Art672020 = () => {
           ungroupByColumn: "Desagrupar por {column}",
         }}
       />
-    </div>
+    </>
   );
 };
 
