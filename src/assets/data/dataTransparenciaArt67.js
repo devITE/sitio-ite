@@ -900,39 +900,107 @@ export const dataArt672019 = [
     fundamentoLegal:
       "Articulo. 67 inciso A de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
     actualizacion: "2019",
-    excel: "path",
+    excel1: Transparencia_path(
+      `./${"excel/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IA1_1.xlsx"}`
+    ),
+    excel2: Transparencia_path(
+      `./${"excel/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IA1_2.xlsx"}`
+    ),
+    excel3: Transparencia_path(
+      `./${"excel/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IA1_3.xlsx"}`
+    ),
+    excel4: "",
+    pdf1: Transparencia_path(
+      `./${"pdf/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IA1_1.pdf"}`
+    ),
+    pdf2: Transparencia_path(
+      `./${"pdf/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IA1_2.pdf"}`
+    ),
+    pdf3: Transparencia_path(
+      `./${"pdf/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IA1_3.pdf"}`
+    ),
+    pdf4: "",
   },
   {
     no: "2",
     letra: "B",
     descriptivo: "",
-    cumplimiento: "No Aplica",
+    cumplimiento: "Aplica",
     fundamentoLegal:
       "Articulo. 67 inciso B de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
     actualizacion: "2019",
-    excel: "",
+    excel1: "",
+    excel2: "",
+    excel3: "",
+    excel4: "",
+    pdf1: "",
+    pdf2: "",
+    pdf3: "",
+    pdf4: "",
     subRows: [
       {
         no: "",
         letra: "B1",
         descriptivo:
           "Los informes que presenten los partidos políticos, asociaciones y agrupaciones políticas o de ciudadanos.",
-        cumplimiento: "No Aplica",
+        cumplimiento: "Aplica",
         fundamentoLegal:
           "En relación a los informes de ingresos y egresos de los partidos políticos, asociaciones y agrupaciones políticas o de ciudadanos, son presentados ante el Instituto Nacional Electoral; en términos de los artículos 41 apartado V, apartado B, inciso a), numeral 6, de la Ley Fundamental, y 32 de la Ley General de Instituciones y Procedimientos Electorales, por ende el Instituto Tlaxcalteca de Elecciones no es la autoridad competente para recibir dicha documentación",
         actualizacion: "2019",
-        excel: "",
+        excel1: Transparencia_path(
+          `./${"excel/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IB1_1.xlsx"}`
+        ),
+        excel2: Transparencia_path(
+          `./${"excel/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IB1_2.xlsx"}`
+        ),
+        excel3: Transparencia_path(
+          `./${"excel/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IB1_3.xlsx"}`
+        ),
+        excel4: Transparencia_path(
+          `./${"excel/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IB1_4.xlsx"}`
+        ),
+        pdf1: Transparencia_path(
+          `./${"pdf/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IB1_1.pdf"}`
+        ),
+        pdf2: Transparencia_path(
+          `./${"pdf/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IB1_2.pdf"}`
+        ),
+        pdf3: Transparencia_path(
+          `./${"pdf/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IB1_3.pdf"}`
+        ),
+        pdf4: Transparencia_path(
+          `./${"pdf/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IB1_4.pdf"}`
+        ),
       },
       {
         no: "",
         letra: "B2",
         descriptivo:
           "Los informes que presenten los partidos políticos, asociaciones y agrupaciones políticas o de ciudadanos.",
-        cumplimiento: "No Aplica",
+        cumplimiento: "Aplica",
         fundamentoLegal:
           "En relación a los informes de ingresos y egresos de los partidos políticos, asociaciones y agrupaciones políticas o de ciudadanos, son presentados ante el Instituto Nacional Electoral; en términos de los artículos 41 apartado V, apartado B, inciso a), numeral 6, de la Ley Fundamental, y 32 de la Ley General de Instituciones y Procedimientos Electorales, por ende el Instituto Tlaxcalteca de Elecciones no es la autoridad competente para recibir dicha documentación.",
         actualizacion: "2019",
-        excel: "",
+        excel1: Transparencia_path(
+          `./${"excel/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IB2_1.xlsx"}`
+        ),
+        excel2: Transparencia_path(
+          `./${"excel/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IB2_2.xlsx"}`
+        ),
+        excel3: Transparencia_path(
+          `./${"excel/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IB2_3.xlsx"}`
+        ),
+        excel4: "",
+        pdf1: Transparencia_path(
+          `./${"pdf/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IB2_1.pdf"}`
+        ),
+        pdf2: Transparencia_path(
+          `./${"pdf/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IB2_2.pdf"}`
+        ),
+        pdf3: Transparencia_path(
+          `./${"pdf/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IB2_3.pdf"}`
+        ),
+        pdf4: "",
       },
     ],
   },
@@ -944,7 +1012,14 @@ export const dataArt672019 = [
     fundamentoLegal:
       "Articulo. 67 inciso C de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
     actualizacion: "2019",
-    excel: "",
+    excel1: "",
+    excel2: "",
+    excel3: "",
+    excel4: "",
+    pdf1: "",
+    pdf2: "",
+    pdf3: "",
+    pdf4: "",
     subRows: [
       {
         no: "",
@@ -955,7 +1030,22 @@ export const dataArt672019 = [
         fundamentoLegal:
           "Articulo. 67 inciso C1 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
         actualizacion: "2019",
-        excel: "path",
+        excel1: Transparencia_path(
+          `./${"excel/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IC1_1.xlsx"}`
+        ),
+        excel2: Transparencia_path(
+          `./${"excel/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IC1_2.xlsx"}`
+        ),
+        excel3: "",
+        excel4: "",
+        pdf1: Transparencia_path(
+          `./${"pdf/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IC1_1.pdf"}`
+        ),
+        pdf2: Transparencia_path(
+          `./${"pdf/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IC1_2.pdf"}`
+        ),
+        pdf3: "",
+        pdf4: "",
       },
       {
         no: "",
@@ -965,7 +1055,22 @@ export const dataArt672019 = [
         fundamentoLegal:
           "Articulo. 67 inciso C2 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
         actualizacion: "2019",
-        excel: "path",
+        excel1: Transparencia_path(
+          `./${"excel/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IC2_1.xlsx"}`
+        ),
+        excel2: Transparencia_path(
+          `./${"excel/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IC2_2.xlsx"}`
+        ),
+        excel3: "",
+        excel4: "",
+        pdf1: Transparencia_path(
+          `./${"pdf/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IC2_1.pdf"}`
+        ),
+        pdf2: Transparencia_path(
+          `./${"pdf/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IC2_2.pdf"}`
+        ),
+        pdf3: "",
+        pdf4: "",
       },
       {
         no: "",
@@ -975,7 +1080,22 @@ export const dataArt672019 = [
         fundamentoLegal:
           "Articulo. 67 inciso C3 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
         actualizacion: "2019",
-        excel: "path",
+        excel1: Transparencia_path(
+          `./${"excel/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IC3_1.xlsx"}`
+        ),
+        excel2: Transparencia_path(
+          `./${"excel/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IC3_2.xlsx"}`
+        ),
+        excel3: "",
+        excel4: "",
+        pdf1: Transparencia_path(
+          `./${"pdf/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IC3_1.pdf"}`
+        ),
+        pdf2: Transparencia_path(
+          `./${"pdf/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IC3_2.pdf"}`
+        ),
+        pdf3: "",
+        pdf4: "",
       },
     ],
   },
@@ -987,7 +1107,14 @@ export const dataArt672019 = [
     fundamentoLegal:
       "Articulo. 67 inciso D de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
     actualizacion: "2019",
-    excel: "",
+    excel1: "",
+    excel2: "",
+    excel3: "",
+    excel4: "",
+    pdf1: "",
+    pdf2: "",
+    pdf3: "",
+    pdf4: "",
     subRows: [
       {
         no: "",
@@ -997,7 +1124,26 @@ export const dataArt672019 = [
         fundamentoLegal:
           "Articulo. 67 inciso D1 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
         actualizacion: "2019",
-        excel: "path",
+        excel1: Transparencia_path(
+          `./${"excel/transparencia/art67/2019/"}${"LTAIPT2018_A67F01ID1_1.xlsx"}`
+        ),
+        excel2: Transparencia_path(
+          `./${"excel/transparencia/art67/2019/"}${"LTAIPT2018_A67F01ID1_2.xlsx"}`
+        ),
+        excel3: Transparencia_path(
+          `./${"excel/transparencia/art67/2019/"}${"LTAIPT2018_A67F01ID1_3.xlsx"}`
+        ),
+        excel4: "",
+        pdf1: Transparencia_path(
+          `./${"pdf/transparencia/art67/2019/"}${"LTAIPT2018_A67F01ID1_1.pdf"}`
+        ),
+        pdf2: Transparencia_path(
+          `./${"pdf/transparencia/art67/2019/"}${"LTAIPT2018_A67F01ID1_2.pdf"}`
+        ),
+        pdf3: Transparencia_path(
+          `./${"pdf/transparencia/art67/2019/"}${"LTAIPT2018_A67F01ID1_3.pdf"}`
+        ),
+        pdf4: "",
       },
       {
         no: "",
@@ -1008,7 +1154,26 @@ export const dataArt672019 = [
         fundamentoLegal:
           "Articulo. 67 inciso D2 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
         actualizacion: "2019",
-        excel: "path",
+        excel1: Transparencia_path(
+          `./${"excel/transparencia/art67/2019/"}${"LTAIPT2018_A67F01ID2_1.xlsx"}`
+        ),
+        excel2: Transparencia_path(
+          `./${"excel/transparencia/art67/2019/"}${"LTAIPT2018_A67F01ID2_2.xlsx"}`
+        ),
+        excel3: Transparencia_path(
+          `./${"excel/transparencia/art67/2019/"}${"LTAIPT2018_A67F01ID2_3.xlsx"}`
+        ),
+        excel4: "",
+        pdf1: Transparencia_path(
+          `./${"pdf/transparencia/art67/2019/"}${"LTAIPT2018_A67F01ID2_1.pdf"}`
+        ),
+        pdf2: Transparencia_path(
+          `./${"pdf/transparencia/art67/2019/"}${"LTAIPT2018_A67F01ID2_2.pdf"}`
+        ),
+        pdf3: Transparencia_path(
+          `./${"pdf/transparencia/art67/2019/"}${"LTAIPT2018_A67F01ID2_3.pdf"}`
+        ),
+        pdf4: "",
       },
       {
         no: "",
@@ -1018,7 +1183,26 @@ export const dataArt672019 = [
         fundamentoLegal:
           "Articulo. 67 inciso D3 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
         actualizacion: "2019",
-        excel: "path",
+        excel1: Transparencia_path(
+          `./${"excel/transparencia/art67/2019/"}${"LTAIPT2018_A67F01ID3_1.xlsx"}`
+        ),
+        excel2: Transparencia_path(
+          `./${"excel/transparencia/art67/2019/"}${"LTAIPT2018_A67F01ID3_2.xlsx"}`
+        ),
+        excel3: Transparencia_path(
+          `./${"excel/transparencia/art67/2019/"}${"LTAIPT2018_A67F01ID3_3.xlsx"}`
+        ),
+        excel4: "",
+        pdf1: Transparencia_path(
+          `./${"pdf/transparencia/art67/2019/"}${"LTAIPT2018_A67F01ID3_1.pdf"}`
+        ),
+        pdf2: Transparencia_path(
+          `./${"pdf/transparencia/art67/2019/"}${"LTAIPT2018_A67F01ID3_2.pdf"}`
+        ),
+        pdf3: Transparencia_path(
+          `./${"pdf/transparencia/art67/2019/"}${"LTAIPT2018_A67F01ID3_3.pdf"}`
+        ),
+        pdf4: "",
       },
       {
         no: "",
@@ -1029,7 +1213,26 @@ export const dataArt672019 = [
         fundamentoLegal:
           "Articulo. 67 inciso D4 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
         actualizacion: "2019",
-        excel: "path",
+        excel1: Transparencia_path(
+          `./${"excel/transparencia/art67/2019/"}${"LTAIPT2018_A67F01ID4_1.xlsx"}`
+        ),
+        excel2: Transparencia_path(
+          `./${"excel/transparencia/art67/2019/"}${"LTAIPT2018_A67F01ID4_2.xlsx"}`
+        ),
+        excel3: Transparencia_path(
+          `./${"excel/transparencia/art67/2019/"}${"LTAIPT2018_A67F01ID4_3.xlsx"}`
+        ),
+        excel4: "",
+        pdf1: Transparencia_path(
+          `./${"pdf/transparencia/art67/2019/"}${"LTAIPT2018_A67F01ID4_1.pdf"}`
+        ),
+        pdf2: Transparencia_path(
+          `./${"pdf/transparencia/art67/2019/"}${"LTAIPT2018_A67F01ID4_2.pdf"}`
+        ),
+        pdf3: Transparencia_path(
+          `./${"pdf/transparencia/art67/2019/"}${"LTAIPT2018_A67F01ID4_3.pdf"}`
+        ),
+        pdf4: "",
       },
     ],
   },
@@ -1041,7 +1244,14 @@ export const dataArt672019 = [
     fundamentoLegal:
       "Articulo. 67 inciso E de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
     actualizacion: "2019",
-    excel: "",
+    excel1: "",
+    excel2: "",
+    excel3: "",
+    excel4: "",
+    pdf1: "",
+    pdf2: "",
+    pdf3: "",
+    pdf4: "",
     subRows: [
       {
         no: "",
@@ -1052,7 +1262,30 @@ export const dataArt672019 = [
         fundamentoLegal:
           "Articulo. 67 inciso E1 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
         actualizacion: "2019",
-        excel: "path",
+        excel1: Transparencia_path(
+          `./${"excel/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IE1_1.xlsx"}`
+        ),
+        excel2: Transparencia_path(
+          `./${"excel/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IE1_2.xlsx"}`
+        ),
+        excel3: Transparencia_path(
+          `./${"excel/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IE1_3.xlsx"}`
+        ),
+        excel4: Transparencia_path(
+          `./${"excel/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IE1_4.xlsx"}`
+        ),
+        pdf1: Transparencia_path(
+          `./${"pdf/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IE1_1.pdf"}`
+        ),
+        pdf2: Transparencia_path(
+          `./${"pdf/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IE1_2.pdf"}`
+        ),
+        pdf3: Transparencia_path(
+          `./${"pdf/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IE1_3.pdf"}`
+        ),
+        pdf4: Transparencia_path(
+          `./${"pdf/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IE1_4.pdf"}`
+        ),
       },
       {
         no: "",
@@ -1063,7 +1296,30 @@ export const dataArt672019 = [
         fundamentoLegal:
           "Articulo. 67 inciso E2 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
         actualizacion: "2019",
-        excel: "path",
+        excel1: Transparencia_path(
+          `./${"excel/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IE2_1.xlsx"}`
+        ),
+        excel2: Transparencia_path(
+          `./${"excel/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IE2_2.xlsx"}`
+        ),
+        excel3: Transparencia_path(
+          `./${"excel/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IE2_3.xlsx"}`
+        ),
+        excel4: Transparencia_path(
+          `./${"excel/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IE2_4.xlsx"}`
+        ),
+        pdf1: Transparencia_path(
+          `./${"pdf/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IE2_1.pdf"}`
+        ),
+        pdf2: Transparencia_path(
+          `./${"pdf/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IE2_2.pdf"}`
+        ),
+        pdf3: Transparencia_path(
+          `./${"pdf/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IE2_3.pdf"}`
+        ),
+        pdf4: Transparencia_path(
+          `./${"pdf/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IE2_4.pdf"}`
+        ),
       },
       {
         no: "",
@@ -1074,7 +1330,30 @@ export const dataArt672019 = [
         fundamentoLegal:
           "Articulo. 67 inciso E3 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
         actualizacion: "2019",
-        excel: "path",
+        excel1: Transparencia_path(
+          `./${"excel/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IE3_1.xlsx"}`
+        ),
+        excel2: Transparencia_path(
+          `./${"excel/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IE3_2.xlsx"}`
+        ),
+        excel3: Transparencia_path(
+          `./${"excel/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IE3_3.xlsx"}`
+        ),
+        excel4: Transparencia_path(
+          `./${"excel/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IE3_4.xlsx"}`
+        ),
+        pdf1: Transparencia_path(
+          `./${"pdf/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IE3_1.pdf"}`
+        ),
+        pdf2: Transparencia_path(
+          `./${"pdf/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IE3_2.pdf"}`
+        ),
+        pdf3: Transparencia_path(
+          `./${"pdf/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IE3_3.pdf"}`
+        ),
+        pdf4: Transparencia_path(
+          `./${"pdf/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IE3_4.pdf"}`
+        ),
       },
     ],
   },
@@ -1086,7 +1365,14 @@ export const dataArt672019 = [
     fundamentoLegal:
       "Articulo. 67 inciso F de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
     actualizacion: "2019",
-    excel: "",
+    excel1: "",
+    excel2: "",
+    excel3: "",
+    excel4: "",
+    pdf1: "",
+    pdf2: "",
+    pdf3: "",
+    pdf4: "",
     subRows: [
       {
         no: "",
@@ -1095,9 +1381,24 @@ export const dataArt672019 = [
           "Los montos de financiamiento público por actividades ordinarias, de campaña y específicas otorgadas a los partidos políticos, asociaciones y agrupaciones políticas o de ciudadanos y demás asociaciones políticas, así como los montos autorizados de financiamiento privado y los topes de los gastos de campañas.",
         cumplimiento: "Aplica",
         fundamentoLegal:
-          "Articulo. 67 inciso E1 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
+          "Articulo. 67 inciso F1 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
         actualizacion: "2019",
-        excel: "path",
+        excel1: Transparencia_path(
+          `./${"excel/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IF1_1.xlsx"}`
+        ),
+        excel2: Transparencia_path(
+          `./${"excel/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IF1_2.xlsx"}`
+        ),
+        excel3: "",
+        excel4: "",
+        pdf1: Transparencia_path(
+          `./${"pdf/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IF1_1.pdf"}`
+        ),
+        pdf2: Transparencia_path(
+          `./${"pdf/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IF1_2.pdf"}`
+        ),
+        pdf3: "",
+        pdf4: "",
       },
       {
         no: "",
@@ -1108,7 +1409,22 @@ export const dataArt672019 = [
         fundamentoLegal:
           "Articulo. 67 inciso E2 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
         actualizacion: "2019",
-        excel: "path",
+        excel1: Transparencia_path(
+          `./${"excel/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IF2_1.xlsx"}`
+        ),
+        excel2: Transparencia_path(
+          `./${"excel/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IF2_2.xlsx"}`
+        ),
+        excel3: "",
+        excel4: "",
+        pdf1: Transparencia_path(
+          `./${"pdf/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IF2_1.pdf"}`
+        ),
+        pdf2: Transparencia_path(
+          `./${"pdf/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IF2_2.pdf"}`
+        ),
+        pdf3: "",
+        pdf4: "",
       },
       {
         no: "",
@@ -1119,7 +1435,22 @@ export const dataArt672019 = [
         fundamentoLegal:
           "Articulo. 67 inciso F3 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
         actualizacion: "2019",
-        excel: "path",
+        excel1: Transparencia_path(
+          `./${"excel/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IF3_1.xlsx"}`
+        ),
+        excel2: Transparencia_path(
+          `./${"excel/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IF3_2.xlsx"}`
+        ),
+        excel3: "",
+        excel4: "",
+        pdf1: Transparencia_path(
+          `./${"pdf/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IF3_1.pdf"}`
+        ),
+        pdf2: Transparencia_path(
+          `./${"pdf/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IF3_2.pdf"}`
+        ),
+        pdf3: "",
+        pdf4: "",
       },
     ],
   },
@@ -1132,7 +1463,14 @@ export const dataArt672019 = [
     fundamentoLegal:
       "Articulo. 67 inciso G de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
     actualizacion: "2019",
-    excel: "",
+    excel1: "",
+    excel2: "",
+    excel3: "",
+    excel4: "",
+    pdf1: "",
+    pdf2: "",
+    pdf3: "",
+    pdf4: "",
     subRows: [
       {
         no: "",
@@ -1142,7 +1480,18 @@ export const dataArt672019 = [
         fundamentoLegal:
           "Articulo. 67 inciso G1 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
         actualizacion: "2019",
-        excel: "path",
+        excel1: Transparencia_path(
+          `./${"excel/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IG1.xlsx"}`
+        ),
+        excel2: "",
+        excel3: "",
+        excel4: "",
+        pdf1: Transparencia_path(
+          `./${"pdf/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IG1.pdf"}`
+        ),
+        pdf2: "",
+        pdf3: "",
+        pdf4: "",
       },
       {
         no: "",
@@ -1153,7 +1502,18 @@ export const dataArt672019 = [
         fundamentoLegal:
           "Articulo. 67 inciso D2 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
         actualizacion: "2019",
-        excel: "path",
+        excel1: Transparencia_path(
+          `./${"excel/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IG2.xlsx"}`
+        ),
+        excel2: "",
+        excel3: "",
+        excel4: "",
+        pdf1: Transparencia_path(
+          `./${"pdf/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IG2.pdf"}`
+        ),
+        pdf2: "",
+        pdf3: "",
+        pdf4: "",
       },
       {
         no: "",
@@ -1163,7 +1523,18 @@ export const dataArt672019 = [
         fundamentoLegal:
           "Articulo. 67 inciso G3 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
         actualizacion: "2019",
-        excel: "path",
+        excel1: Transparencia_path(
+          `./${"excel/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IG3.xlsx"}`
+        ),
+        excel2: "",
+        excel3: "",
+        excel4: "",
+        pdf1: Transparencia_path(
+          `./${"pdf/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IG3.pdf"}`
+        ),
+        pdf2: "",
+        pdf3: "",
+        pdf4: "",
       },
       {
         no: "",
@@ -1174,7 +1545,18 @@ export const dataArt672019 = [
         fundamentoLegal:
           "Articulo. 67 inciso G4 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
         actualizacion: "2019",
-        excel: "path",
+        excel1: Transparencia_path(
+          `./${"excel/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IG4.xlsx"}`
+        ),
+        excel2: "",
+        excel3: "",
+        excel4: "",
+        pdf1: Transparencia_path(
+          `./${"pdf/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IG4.pdf"}`
+        ),
+        pdf2: "",
+        pdf3: "",
+        pdf4: "",
       },
       {
         no: "",
@@ -1185,7 +1567,18 @@ export const dataArt672019 = [
         fundamentoLegal:
           "Articulo. 67 inciso G5 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
         actualizacion: "2019",
-        excel: "path",
+        excel1: Transparencia_path(
+          `./${"excel/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IG5.xlsx"}`
+        ),
+        excel2: "",
+        excel3: "",
+        excel4: "",
+        pdf1: Transparencia_path(
+          `./${"pdf/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IG5.pdf"}`
+        ),
+        pdf2: "",
+        pdf3: "",
+        pdf4: "",
       },
       {
         no: "",
@@ -1196,7 +1589,18 @@ export const dataArt672019 = [
         fundamentoLegal:
           "Articulo. 67 inciso G6 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala.",
         actualizacion: "2019",
-        excel: "path",
+        excel1: Transparencia_path(
+          `./${"excel/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IG6.xlsx"}`
+        ),
+        excel2: "",
+        excel3: "",
+        excel4: "",
+        pdf1: Transparencia_path(
+          `./${"pdf/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IG6.pdf"}`
+        ),
+        pdf2: "",
+        pdf3: "",
+        pdf4: "",
       },
     ],
   },
@@ -1209,7 +1613,14 @@ export const dataArt672019 = [
     fundamentoLegal:
       "Articulo. 67 inciso H de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
     actualizacion: "2019",
-    excel: "",
+    excel1: "",
+    excel2: "",
+    excel3: "",
+    excel4: "",
+    pdf1: "",
+    pdf2: "",
+    pdf3: "",
+    pdf4: "",
     subRows: [
       {
         no: "",
@@ -1220,7 +1631,26 @@ export const dataArt672019 = [
         fundamentoLegal:
           "Articulo. 67 inciso H1 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
         actualizacion: "2019",
-        excel: "path",
+        excel1: Transparencia_path(
+          `./${"excel/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IH1_1.xlsx"}`
+        ),
+        excel2: Transparencia_path(
+          `./${"excel/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IH1_2.xlsx"}`
+        ),
+        excel3: Transparencia_path(
+          `./${"excel/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IH1_3.xlsx"}`
+        ),
+        excel4: "",
+        pdf1: Transparencia_path(
+          `./${"pdf/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IH1_1.pdf"}`
+        ),
+        pdf2: Transparencia_path(
+          `./${"pdf/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IH1_2.pdf"}`
+        ),
+        pdf3: Transparencia_path(
+          `./${"pdf/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IH1_3.pdf"}`
+        ),
+        pdf4: "",
       },
       {
         no: "",
@@ -1230,7 +1660,26 @@ export const dataArt672019 = [
         fundamentoLegal:
           "Articulo. 67 inciso H2 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
         actualizacion: "2019",
-        excel: "path",
+        excel1: Transparencia_path(
+          `./${"excel/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IH2_1.xlsx"}`
+        ),
+        excel2: Transparencia_path(
+          `./${"excel/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IH2_2.xlsx"}`
+        ),
+        excel3: Transparencia_path(
+          `./${"excel/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IH2_3.xlsx"}`
+        ),
+        excel4: "",
+        pdf1: Transparencia_path(
+          `./${"pdf/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IH2_1.pdf"}`
+        ),
+        pdf2: Transparencia_path(
+          `./${"pdf/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IH2_2.pdf"}`
+        ),
+        pdf3: Transparencia_path(
+          `./${"pdf/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IH2_3.pdf"}`
+        ),
+        pdf4: "",
       },
     ],
   },
@@ -1243,7 +1692,26 @@ export const dataArt672019 = [
     fundamentoLegal:
       "Articulo. 67 inciso I de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
     actualizacion: "2019",
-    excel: "path",
+    excel1: Transparencia_path(
+      `./${"excel/transparencia/art67/2019/"}${"LTAIPT2018_A67F01II_1.xlsx"}`
+    ),
+    excel2: Transparencia_path(
+      `./${"excel/transparencia/art67/2019/"}${"LTAIPT2018_A67F01II_2.xlsx"}`
+    ),
+    excel3: Transparencia_path(
+      `./${"excel/transparencia/art67/2019/"}${"LTAIPT2018_A67F01II_3.xlsx"}`
+    ),
+    excel4: "",
+    pdf1: Transparencia_path(
+      `./${"pdf/transparencia/art67/2019/"}${"LTAIPT2018_A67F01II_1.pdf"}`
+    ),
+    pdf2: Transparencia_path(
+      `./${"pdf/transparencia/art67/2019/"}${"LTAIPT2018_A67F01II_2.pdf"}`
+    ),
+    pdf3: Transparencia_path(
+      `./${"pdf/transparencia/art67/2019/"}${"LTAIPT2018_A67F01II_3.pdf"}`
+    ),
+    pdf4: "",
   },
   {
     no: "10",
@@ -1253,18 +1721,56 @@ export const dataArt672019 = [
     fundamentoLegal:
       "Articulo. 67 inciso J de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
     actualizacion: "2019",
-    excel: "path",
+    excel1: Transparencia_path(
+      `./${"excel/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IJ_1.xlsx"}`
+    ),
+    excel2: Transparencia_path(
+      `./${"excel/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IJ_2.xlsx"}`
+    ),
+    excel3: Transparencia_path(
+      `./${"excel/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IJ_3.xlsx"}`
+    ),
+    excel4: "",
+    pdf1: Transparencia_path(
+      `./${"pdf/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IJ_1.pdf"}`
+    ),
+    pdf2: Transparencia_path(
+      `./${"pdf/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IJ_2.pdf"}`
+    ),
+    pdf3: Transparencia_path(
+      `./${"pdf/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IJ_3.pdf"}`
+    ),
+    pdf4: "",
   },
   {
     no: "11",
     letra: "K",
     descriptivo:
       "Las franquicias postales y telegráficas asignadas al partido político para el cumplimiento de sus funciones.",
-    cumplimiento: "No Aplica",
+    cumplimiento: "Aplica",
     fundamentoLegal:
       "Los partidos políticos nacionales disfrutarán de las franquicias postales y telegráficas, dentro del territorio nacional, que sean necesarias para el desarrollo de sus actividades, conforme a las reglas establecidas en los artículos 188 de la Ley General de Instituciones y Procedimientos Electorales y 70 de la Ley General de Partidos Políticos correspondiendo al Instituto Nacional Electoral aplicarlas. Para consulta:http://www.ine.mx/archivos3/portal/historico/contenido/Franquicias_Postales/",
     actualizacion: "2019",
-    excel: "",
+    excel1: Transparencia_path(
+      `./${"excel/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IK_1.xlsx"}`
+    ),
+    excel2: Transparencia_path(
+      `./${"excel/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IK_2.xlsx"}`
+    ),
+    excel3: Transparencia_path(
+      `./${"excel/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IK_3.xlsx"}`
+    ),
+    excel4: "",
+    pdf1: Transparencia_path(
+      `./${"pdf/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IK_1.pdf"}`
+    ),
+    pdf2: Transparencia_path(
+      `./${"pdf/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IK_2.pdf"}`
+    ),
+    pdf3: Transparencia_path(
+      `./${"pdf/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IK_3.pdf"}`
+    ),
+    pdf4: "",
   },
   {
     no: "12",
@@ -1275,7 +1781,26 @@ export const dataArt672019 = [
     fundamentoLegal:
       "En el Instituto Tlaxcalteca de Elecciones durante el transcurso del año dos mil dieciséis, ningún partido político nacional se ha colocado en el supuesto de pérdida de registro señalado por el artículo 94 de la Ley General de Partidos Políticos, por ende tampoco se ha actualizado el supuesto de pérdida de acreditación en el ámbito local, previsto en el artículo 45 de la Ley de Partidos Políticos para el Estado de Tlaxcala. Asimismo, en el caso de los partidos políticos con registro local, ninguno se ha colocado en alguno de los supuestos que prevé el artículo 44 de la Ley de Partidos Políticos para el Estado de Tlaxcala, relativos a causales para perder su registro. Se entiende que en ningún caso se ha dado el supuesto de liquidación de patrimonio de partidos políticos nacionales o locales.",
     actualizacion: "2019",
-    excel: "path",
+    excel1: Transparencia_path(
+      `./${"excel/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IL_1.xlsx"}`
+    ),
+    excel2: Transparencia_path(
+      `./${"excel/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IL_2.xlsx"}`
+    ),
+    excel3: Transparencia_path(
+      `./${"excel/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IL_3.xlsx"}`
+    ),
+    excel4: "",
+    pdf1: Transparencia_path(
+      `./${"pdf/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IL_1.pdf"}`
+    ),
+    pdf2: Transparencia_path(
+      `./${"pdf/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IL_2.pdf"}`
+    ),
+    pdf3: Transparencia_path(
+      `./${"pdf/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IL_3.pdf"}`
+    ),
+    pdf4: "",
   },
   {
     no: "13",
@@ -1286,6 +1811,7 @@ export const dataArt672019 = [
       "Articulo. 67 inciso M de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
     actualizacion: "2019",
     excel: "",
+    pdf: "",
     subRows: [
       {
         no: "",
@@ -1296,7 +1822,26 @@ export const dataArt672019 = [
         fundamentoLegal:
           "Articulo. 67 inciso M1 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
         actualizacion: "2019",
-        excel: "path",
+        excel1: Transparencia_path(
+          `./${"excel/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IM1_1.xlsx"}`
+        ),
+        excel2: Transparencia_path(
+          `./${"excel/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IM1_2.xlsx"}`
+        ),
+        excel3: Transparencia_path(
+          `./${"excel/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IM1_3.xlsx"}`
+        ),
+        excel4: "",
+        pdf1: Transparencia_path(
+          `./${"pdf/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IM1_1.pdf"}`
+        ),
+        pdf2: Transparencia_path(
+          `./${"pdf/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IM1_2.pdf"}`
+        ),
+        pdf3: Transparencia_path(
+          `./${"pdf/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IM1_3.pdf"}`
+        ),
+        pdf4: "",
       },
       {
         no: "",
@@ -1307,7 +1852,26 @@ export const dataArt672019 = [
         fundamentoLegal:
           "Articulo. 67 inciso M2 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
         actualizacion: "2019",
-        excel: "path",
+        excel1: Transparencia_path(
+          `./${"excel/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IM2_1.xlsx"}`
+        ),
+        excel2: Transparencia_path(
+          `./${"excel/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IM2_2.xlsx"}`
+        ),
+        excel3: Transparencia_path(
+          `./${"excel/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IM2_3.xlsx"}`
+        ),
+        excel4: "",
+        pdf1: Transparencia_path(
+          `./${"pdf/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IM2_1.pdf"}`
+        ),
+        pdf2: Transparencia_path(
+          `./${"pdf/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IM2_2.pdf"}`
+        ),
+        pdf3: Transparencia_path(
+          `./${"pdf/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IM2_3.pdf"}`
+        ),
+        pdf4: "",
       },
       {
         no: "",
@@ -1318,7 +1882,26 @@ export const dataArt672019 = [
         fundamentoLegal:
           "Articulo. 67 inciso M3 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
         actualizacion: "2019",
-        excel: "path",
+        excel1: Transparencia_path(
+          `./${"excel/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IM3_1.xlsx"}`
+        ),
+        excel2: Transparencia_path(
+          `./${"excel/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IM3_2.xlsx"}`
+        ),
+        excel3: Transparencia_path(
+          `./${"excel/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IM3_3.xlsx"}`
+        ),
+        excel4: "",
+        pdf1: Transparencia_path(
+          `./${"pdf/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IM3_1.pdf"}`
+        ),
+        pdf2: Transparencia_path(
+          `./${"pdf/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IM3_2.pdf"}`
+        ),
+        pdf3: Transparencia_path(
+          `./${"pdf/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IM3_3.pdf"}`
+        ),
+        pdf4: "",
       },
       {
         no: "",
@@ -1329,7 +1912,26 @@ export const dataArt672019 = [
         fundamentoLegal:
           "Articulo. 67 inciso M4 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
         actualizacion: "2019",
-        excel: "path",
+        excel1: Transparencia_path(
+          `./${"excel/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IM4_1.xlsx"}`
+        ),
+        excel2: Transparencia_path(
+          `./${"excel/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IM4_2.xlsx"}`
+        ),
+        excel3: Transparencia_path(
+          `./${"excel/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IM4_3.xlsx"}`
+        ),
+        excel4: "",
+        pdf1: Transparencia_path(
+          `./${"pdf/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IM4_1.pdf"}`
+        ),
+        pdf2: Transparencia_path(
+          `./${"pdf/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IM4_2.pdf"}`
+        ),
+        pdf3: Transparencia_path(
+          `./${"pdf/transparencia/art67/2019/"}${"LTAIPT2018_A67F01IM4_3.pdf"}`
+        ),
+        pdf4: "",
       },
     ],
   },
