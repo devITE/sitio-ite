@@ -1,3 +1,5 @@
+const Transparencia_path = require.context("../../assets");
+
 export const dataArt942020 = [
   {
     no: "1",
@@ -7,7 +9,12 @@ export const dataArt942020 = [
     fundamentoLegal:
       "Artículo. 94 Fracción I de la Ley de Transparencia y acceso a la información para el Estado de Tlaxcala",
     actualizacion: "2020",
-    excel: "path",
+    excel: Transparencia_path(
+      `./${"excel/transparencia/art94/2020/"}${"LTAIPT2018_A94F1.xlsx"}`
+    ),
+    pdf: Transparencia_path(
+      `./${"pdf/transparencia/art94/2020/"}${"LTAIPT2018_A94F1.pdf"}`
+    ),
   },
 ];
 export const dataArt942021 = [
@@ -19,7 +26,12 @@ export const dataArt942021 = [
     fundamentoLegal:
       "Artículo. 94 Fracción I de la Ley de Transparencia y acceso a la información para el Estado de Tlaxcala",
     actualizacion: "2021",
-    excel: "path",
+    excel: Transparencia_path(
+      `./${"excel/transparencia/art94/2021/"}${"LTAIPT_A94F1.xlsx"}`
+    ),
+    pdf: Transparencia_path(
+      `./${"pdf/transparencia/art94/2021/"}${"LTAIPT_A94F1.pdf"}`
+    ),
   },
 ];
 export const dataArt942022 = [
@@ -31,6 +43,7 @@ export const dataArt942022 = [
     fundamentoLegal:
       "Artículo. 94 Fracción I de la Ley de Transparencia y acceso a la información para el Estado de Tlaxcala",
     actualizacion: "2022",
-    excel: "path",
+    excel: "",
+    subRows: "",
   },
 ];

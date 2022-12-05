@@ -1,12 +1,11 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import TitlePages from "../../../layout/TitlePages";
-import "../Transparencia.css";
 
 export default class Articulo63 extends Component {
   render() {
     return (
-      <div>
+      <>
         <TitlePages
           title="Transparencia"
           subTitle="Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala."
@@ -16,7 +15,7 @@ export default class Articulo63 extends Component {
           <br />
           Instituto Tlaxcalteca de Elecciones.
         </h5>
-        <div className="list-group text-center Transparencia__articulo-p-year">
+        <div className="list-group text-center w-50 mx-auto">
           <Link
             to="/Art632017"
             className="list-group-item list-group-item-action"
@@ -54,7 +53,7 @@ export default class Articulo63 extends Component {
             Artículo 63 (2022)
           </Link>
         </div>
-      </div>
+      </>
     );
   }
 }

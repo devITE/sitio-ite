@@ -12,11 +12,6 @@
   transform: scale(1.05);
 }
 
-/* .Transparencia__title {
-  color: #ba1678;
-  font-weight: bolder;
-} */
-
 /* --------------- M E D I A     Q U E R I E S --------------- */
 
 /* general */
@@ -31,11 +26,6 @@
     width: 40%;
     border-radius: 20px;
     box-shadow: 5px 5px 3px #686868;
-  }
-
-  .Transparencia__articulo-p-year {
-    width: 50%;
-    margin: auto;
   }
 }
 
@@ -53,11 +43,6 @@
     box-shadow: 5px 5px 3px #686868;
     margin-bottom: 20px;
   }
-
-  .Transparencia__articulo-p-year {
-    width: 50%;
-    margin: auto;
-  }
 }
 
 /* mobil */
@@ -66,10 +51,5 @@
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-  }
-
-  .Transparencia__articulo-p-year {
-    width: 90%;
-    margin: auto;
   }
 }

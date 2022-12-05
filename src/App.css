@@ -153,6 +153,13 @@ a {
   color: #ffffff !important;
 }
 
+/* --------------- A C C O R D I O N --------------- */
+
+.accordion-button {
+  background-color: #972069 !important;
+  color: #ffffff !important;
+}
+
 /* --------------- T A B L E     A N D     D A T A     T A B L E --------------- */
 
 #Box {
