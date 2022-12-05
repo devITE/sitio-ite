@@ -1,0 +1,82 @@
+.REPS__title {
+    color: #5840a5 !important;
+}
+
+.REPS__title-dotter {
+    color: #5840a5 !important;
+    border-bottom-width: 4px;
+    border-bottom-color: #ccc5e4;
+    border-bottom-style: dotted;
+    margin-top: 25px;
+    padding-bottom: 7px;
+    font-weight: bolder;
+}
+
+.REPS__header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.REPS__header div:nth-child(1) {
+    width: 75%;
+}
+
+.REPS__header div:nth-child(2) {
+    width: 25%;
+}
+
+
+/* --------------- M E D I A     Q U E R I E S --------------- */
+
+/* general */
+@media only screen and (min-width: 1024px) {
+    .REPS__header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .REPS__header div:nth-child(1) {
+        width: 75%;
+    }
+
+    .REPS__header div:nth-child(2) {
+        width: 25%;
+    }
+}
+
+/* tablets */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .REPS__header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .REPS__header div:nth-child(1) {
+        width: 75%;
+    }
+
+    .REPS__header div:nth-child(2) {
+        width: 25%;
+        text-align: end;
+    }
+}
+
+/* mobil */
+@media only screen and (max-width: 767px) {
+    .REPS__header {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .REPS__header div:nth-child(1) {
+        width: 100%;
+    }
+
+    .REPS__header div:nth-child(2) {
+        width: 100%;
+        text-align: center;
+    }
+}

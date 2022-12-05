@@ -1,6 +1,6 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import Enlaces from "./enlaces/Enlaces";
-import "./Home.css";
 import Carousel from "../../layout/Carousel/Carousel";
 import {
   imgCarouselIndexTop,
@@ -16,9 +16,11 @@ import { dataInformes } from "../../assets/data/dataInformes";
 
 import Videoteca from "./videoteca/Videoteca";
 import { dataVideoteca } from "../../assets/data/dataVideoteca";
+import "./Home.css";
 
-const Home_imppath = require.context("../../assets/img/imgHome");
-const EspacioITE_path = require.context("../../assets/pdf/");
+// const Home_imppath = require.context("../../assets/img/imgHome");
+// const EspacioITE_path = require.context("../../assets/pdf/");
+const Home__path = require.context("../../assets");
 
 export default class Home extends Component {
   render() {
@@ -40,7 +42,7 @@ export default class Home extends Component {
           <div>
             <h2 className="bottom_title">Enlaces</h2>
             <div className="">
-              <Enlaces></Enlaces>
+              <Enlaces />
             </div>
           </div>
         </div>
@@ -70,13 +72,15 @@ export default class Home extends Component {
           <div>
             <h2 className="bottom_title">Espacio ITE</h2>
             <a
-              href={EspacioITE_path(`./${"0.pdf"}`)}
+              href={Home__path(`./${"pdf/espacioITE/"}${"1.pdf"}`)}
               target="_blank"
               rel="noreferrer"
             >
               <img
                 className="img-fluid"
-                src={Home_imppath(`./espacio-ite-neria.jpg`)}
+                src={Home__path(
+                  `./${"img/imgHome/"}${"espacio-ite-neria.jpg"}`
+                )}
                 alt="Espacio ITE"
               />
             </a>
@@ -124,37 +128,41 @@ export default class Home extends Component {
         </div>
         <img
           className="mt-4 img-fluid w-100"
-          src={Home_imppath(`./micrositios.png`)}
+          src={Home__path(`./${"img/imgHome/"}${"micrositios.png"}`)}
           alt="micrositios"
         />
         <div className="Home__micrositios">
           <div>
             <img
               className="mt-2 img-fluid"
-              src={Home_imppath(`./itegenero.png`)}
+              src={Home__path(`./${"img/imgHome/"}${"itegenero.png"}`)}
               alt="Micrositio ITE Género"
             />
           </div>
           <div>
             <img
               className="mt-2 img-fluid"
-              src={Home_imppath(`./covid.png`)}
+              src={Home__path(`./${"img/imgHome/"}${"covid.png"}`)}
               alt="Micrositio COVID-19"
             />
           </div>
           <div>
             <img
               className="mt-2 img-fluid"
-              src={Home_imppath(`./participacionciudadana.png`)}
+              src={Home__path(
+                `./${"img/imgHome/"}${"participacionciudadana.png"}`
+              )}
               alt="Micrositio PArticipación Ciudadana"
             />
           </div>
         </div>
-        <img
-          className="mt-2 img-fluid w-100"
-          src={Home_imppath(`./REPS.png`)}
-          alt="REPS"
-        />
+        <Link to="REPS">
+          <img
+            className="mt-2 img-fluid w-100"
+            src={Home__path(`./${"img/reps/"}${"1.png"}`)}
+            alt="REPS"
+          />
+        </Link>
         <a
           href="https://www.ine.mx/actores-politicos/registro-nacional-de-personas-sancionadas/"
           target="_blank"
@@ -162,7 +170,7 @@ export default class Home extends Component {
         >
           <img
             className="mt-2 mb-2 img-fluid w-100"
-            src={Home_imppath(`./RNPS.png`)}
+            src={Home__path(`./${"img/imgHome/"}${"RNPS.png"}`)}
             alt="RNPS"
           />
         </a>
@@ -174,7 +182,7 @@ export default class Home extends Component {
             <a target="_blank" href="https://ine.mx" rel="noreferrer">
               <img
                 className="mt-2 img-fluid"
-                src={Home_imppath(`./ine.png`)}
+                src={Home__path(`./${"img/imgHome/"}${"ine.png"}`)}
                 alt="INE"
               />
             </a>
@@ -187,7 +195,7 @@ export default class Home extends Component {
             >
               <img
                 className="mt-2 img-fluid"
-                src={Home_imppath(`./fepade.png`)}
+                src={Home__path(`./${"img/imgHome/"}${"fepade.png"}`)}
                 alt="FEPADE"
               />
             </a>
@@ -196,7 +204,7 @@ export default class Home extends Component {
             <a target="_blank" href="https://www.te.gob.mx/" rel="noreferrer">
               <img
                 className="mt-2 img-fluid"
-                src={Home_imppath(`./tet.png`)}
+                src={Home__path(`./${"img/imgHome/"}${"tet.png"}`)}
                 alt="TEPJF"
               />
             </a>
@@ -209,7 +217,7 @@ export default class Home extends Component {
             >
               <img
                 className="mt-2 img-fluid"
-                src={Home_imppath(`./oppmt.png`)}
+                src={Home__path(`./${"img/imgHome/"}${"oppmt.png"}`)}
                 alt=""
               />
             </a>
@@ -222,7 +230,7 @@ export default class Home extends Component {
             >
               <img
                 className="mt-2 img-fluid"
-                src={Home_imppath(`./tet2.png`)}
+                src={Home__path(`./${"img/imgHome/"}${"tet2.png"}`)}
                 alt=""
               />
             </a>
