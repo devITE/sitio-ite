@@ -12,7 +12,10 @@ export default class FormatoSolicitud extends Component {
   render() {
     return (
       <div>
-        <TitlePages title="Formato de solicitud de infomación / ARCO" />
+        <TitlePages
+          title="Transparencia"
+          subTitle="Formato de solicitud de infomación / ARCO"
+        />
         <h3 className="mt-3">Instructivo</h3>
         <ol>
           <li>
@@ -34,7 +37,7 @@ export default class FormatoSolicitud extends Component {
             Formato de solicitud de información&nbsp;&nbsp;
             <a
               className="btn btn-primary"
-              href={Transparencia_wordpath(`./0.docx`)}
+              href={Transparencia_wordpath(`./1.docx`)}
               role="button"
               rel="noreferrer"
             >
@@ -45,7 +48,7 @@ export default class FormatoSolicitud extends Component {
             Formato de solicitud de ejercicio de Derechos ARCO&nbsp;&nbsp;
             <a
               className="btn btn-primary"
-              href={Transparencia_wordpath(`./1.docx`)}
+              href={Transparencia_wordpath(`./2.docx`)}
               role="button"
               rel="noreferrer"
             >

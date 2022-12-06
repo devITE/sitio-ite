@@ -14689,6 +14689,7 @@ export const dataAcuerdos2015 = [
     monthDoc: "ENE",
     nameDoc: "PROGRAMA ANUAL IET",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2015/"}${"3.pdf"}`),
+    subRows: "",
   },
 
   {

@@ -1,10 +1,11 @@
+/* eslint-disable no-unused-vars */
 import React, { useMemo } from "react";
 import TitlePages from "../../../layout/TitlePages";
 import MaterialReactTable from "material-react-table";
-import { dataArt672022 } from "../../../assets/data/dataTransparenciaArt67";
+import { Box } from "@mui/material";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFileExcel } from "@fortawesome/free-solid-svg-icons";
-import "../Transparencia.css";
+import { dataArt672022 } from "../../../assets/data/dataTransparenciaArt67";
 
 const Art672022 = () => {
   const columns = useMemo(
@@ -13,7 +14,7 @@ const Art672022 = () => {
         accessorKey: "no",
         header: "NO.",
         footer: "NO.",
-        size: 45,
+        size: 55,
         enableResizing: false,
         enableColumnFilter: false,
       },
@@ -21,7 +22,7 @@ const Art672022 = () => {
         accessorKey: "letra",
         header: "Letra",
         footer: "Letra",
-        size: 45,
+        size: 90,
         enableResizing: false,
         enableColumnFilter: false,
       },
@@ -29,14 +30,14 @@ const Art672022 = () => {
         accessorKey: "descriptivo",
         header: "Descriptivo",
         footer: "Descriptivo",
-        size: 170,
+        size: 150,
         enableResizing: false,
       },
       {
         accessorKey: "cumplimiento",
         header: "Cumplimiento",
         footer: "Cumplimiento",
-        size: 90,
+        size: 100,
         enableResizing: false,
         filterFn: "equals",
         filterSelectOptions: [
@@ -49,7 +50,7 @@ const Art672022 = () => {
         accessorKey: "fundamentoLegal",
         header: "Fundamento Legal",
         footer: "Fundamento Legal",
-        size: 280,
+        size: 270,
         enableResizing: false,
         enableColumnFilter: false,
       },
@@ -61,33 +62,16 @@ const Art672022 = () => {
         enableResizing: false,
         enableColumnFilter: false,
       },
-      {
-        id: "exccel",
-        header: "Excel",
-        footer: "Excel",
-        columnDefType: "display",
-        size: 80,
-        enableResizing: false,
-        enableColumnFilter: false,
-        Cell: ({ row }) =>
-          row.original.excel === "" ? (
-            <span></span>
-          ) : (
-            <a href={row.original.excel} target="_blank" rel="noreferrer">
-              <FontAwesomeIcon icon={faFileExcel} className="btn btn-success" />
-            </a>
-          ),
-      },
     ],
     []
   );
 
   return (
-    <div>
-      <TitlePages title="Transparencia" />
-      <h5 className="mt-3 Transparencia__title">
-        Artículo 67. (2022) Obligaciones Comunes
-      </h5>
+    <>
+      <TitlePages
+        title="Transparencia"
+        subTitle="Artículo 67. (2022) Obligaciones Específicas"
+      />
       <MaterialReactTable
         columns={columns}
         data={dataArt672022}
@@ -96,18 +80,134 @@ const Art672022 = () => {
         enableColumnActions={false}
         enableColumnResizing
         enableDensityToggle={false}
-        muiTableHeadCellProps={{
+        muiExpandButtonProps={({ row }) => ({
           sx: {
-            backgroundColor: "#972069",
-            color: "#fff",
+            display: row.original.subRows === "" ? "none" : "flex",
           },
-        }}
-        muiTableFooterCellProps={{
-          sx: {
-            backgroundColor: "#972069",
-            color: "#fff",
-          },
-        }}
+        })}
+        renderDetailPanel={({ row }) =>
+          (row.original.excel1 === "") &
+          (row.original.excel2 === "") &
+          (row.original.excel3 === "") ? (
+            <span></span>
+          ) : (
+            <Box id="Box">
+              {(row.original.excel1 !== "") &
+              (row.original.excel2 === "") &
+              (row.original.excel3 === "") ? (
+                <div>
+                  <p className="text-strong">
+                    Descarga el archivo de la Fracción:
+                  </p>
+                  <p>
+                    {row.original.excel1
+                      ? row.original.excel1.substring(14, 100).slice(0, -26)
+                      : []}{" "}
+                    <a
+                      href={row.original.excel1}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <FontAwesomeIcon
+                        icon={faFileExcel}
+                        className="btn btn-success"
+                      />
+                    </a>
+                  </p>
+                </div>
+              ) : (row.original.excel1 !== "") &
+                (row.original.excel2 !== "") &
+                (row.original.excel3 === "") ? (
+                <div>
+                  <p className="text-strong">
+                    Descarga los archivos de la Fracciones:
+                  </p>
+                  <p>
+                    {row.original.excel1
+                      ? row.original.excel1.substring(14, 100).slice(0, -26)
+                      : []}{" "}
+                    <a
+                      href={row.original.excel1}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <FontAwesomeIcon
+                        icon={faFileExcel}
+                        className="btn btn-success"
+                      />
+                    </a>
+                  </p>
+                  <p>
+                    {row.original.excel2
+                      ? row.original.excel2.substring(14, 100).slice(0, -26)
+                      : []}{" "}
+                    <a
+                      href={row.original.excel2}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <FontAwesomeIcon
+                        icon={faFileExcel}
+                        className="btn btn-success"
+                      />
+                    </a>
+                  </p>
+                </div>
+              ) : (
+                <div>
+                  <p className="text-strong">
+                    Descarga los archivos de la Fracciones:
+                  </p>
+                  <p>
+                    {row.original.excel1
+                      ? row.original.excel1.substring(14, 100).slice(0, -26)
+                      : []}{" "}
+                    <a
+                      href={row.original.excel1}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <FontAwesomeIcon
+                        icon={faFileExcel}
+                        className="btn btn-success"
+                      />
+                    </a>
+                  </p>
+                  <p>
+                    {row.original.excel2
+                      ? row.original.excel2.substring(14, 100).slice(0, -26)
+                      : []}{" "}
+                    <a
+                      href={row.original.excel2}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <FontAwesomeIcon
+                        icon={faFileExcel}
+                        className="btn btn-success"
+                      />
+                    </a>
+                  </p>
+                  <p>
+                    {row.original.excel3
+                      ? row.original.excel3.substring(14, 100).slice(0, -26)
+                      : []}{" "}
+                    <a
+                      href={row.original.excel3}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <FontAwesomeIcon
+                        icon={faFileExcel}
+                        className="btn btn-success"
+                      />
+                    </a>
+                  </p>
+                </div>
+              )}
+            </Box>
+          )
+        }
         muiTablePaginationProps={{
           labelRowsPerPage: "Filas por página",
           getItemAriaLabel: (type) => {
@@ -161,7 +261,7 @@ const Art672022 = () => {
           ungroupByColumn: "Desagrupar por {column}",
         }}
       />
-    </div>
+    </>
   );
 };
 

@@ -8,7 +8,7 @@ import {
   faLink,
 } from "@fortawesome/free-solid-svg-icons";
 
-const ListBadgePDF = ({ ifNumbered, listsBadgeItem }) => {
+const ListBadge = ({ ifNumbered, listsBadgeItem }) => {
   return (
     <>
       <ol className={"list-group " + ifNumbered}>
@@ -107,4 +107,4 @@ const ListBadgePDF = ({ ifNumbered, listsBadgeItem }) => {
     </>
   );
 };
-export default ListBadgePDF;
+export default ListBadge;

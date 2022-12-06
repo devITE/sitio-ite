@@ -1,50 +1,22 @@
 import React, { Component } from "react";
-import imagenes from "./img/integracion.jpg";
-import imagenes1 from "./img/presi.jpg";
-import imagenes2 from "./img/erika.jpg";
-import imagenes3 from "./img/aldave.jpg";
-import imagenes4 from "./img/jc.jpg";
-import imagenes5 from "./img/secretario.jpg";
-import imagenes6 from "./img/janet.jpg";
-import imagenes7 from "./img/yedith.jpg";
-import imagenes8 from "./img/neria.jpg";
-import imagenes9 from "./img/PAN.jpg";
-import imagenes10 from "./img/PRI.jpg";
-import imagenes11 from "./img/PRD.jpg";
-import imagenes12 from "./img/PT.jpg";
-import imagenes13 from "./img/VERDE.jpg";
-import imagenes14 from "./img/MOVIMIENTO CIUDADANO.jpg";
-import imagenes15 from "./img/PAC.jpg";
-import imagenes16 from "./img/morena.png";
-import imagenes17 from "./img/NUEVA ALIANZA.jpg";
-import imagenes18 from "./img/RSP.jpg";
-import imagenes19 from "./img/FXM.jpg";
+import TitlePages from "../../layout/TitlePages";
+
 const pdf_estructura = require.context("../../assets/pdf/CG/");
-const pdf_estructura1 = require.context("../../assets/pdf/CG/");
-const pdf_estructura2 = require.context("../../assets/pdf/CG/");
-const pdf_estructura3 = require.context("../../assets/pdf/CG/");
-const pdf_estructura4 = require.context("../../assets/pdf/CG/");
-const pdf_estructura5 = require.context("../../assets/pdf/CG/");
-const pdf_estructura6 = require.context("../../assets/pdf/CG/");
-const pdf_estructura7 = require.context("../../assets/pdf/CG/");
+const Integracion__path = require.context("../../assets");
 export default class Integracion extends Component {
   render() {
     return (
-      <div>
-        <img
-          src={imagenes}
-          className="img-fluid w-100 mx-auto"
-          alt="Integración"
-        />
+      <>
+        <TitlePages title="Integración" subTitle="" />
         <div className="mt-3 mb-3 d-flex align-items-start w-100">
           <div
-            className="nav flex-column nav-pills me-3"
+            className="nav flex-column nav-pills me-3 w-25"
             id="vPillsContenidoRegistro"
             role="tablist"
             aria-orientation="vertical"
           >
             <button
-              className="nav-link active"
+              className="btn btn-ite"
               id="vPillsRegistroCandidaturas2010Tab"
               data-bs-toggle="pill"
               data-bs-target="#vPillsRegistroCandidaturas2010"
@@ -56,7 +28,7 @@ export default class Integracion extends Component {
               Integración
             </button>
             <button
-              className="nav-link"
+              className="btn btn-ite"
               id="vPillsRegistroCandidaturas2013Tab"
               data-bs-toggle="pill"
               data-bs-target="#vPillsRegistroCandidaturas2013"
@@ -68,7 +40,7 @@ export default class Integracion extends Component {
               Representantes de los Partidos Politicos
             </button>
           </div>
-          <div className="tab-content" id="vPillsContenidoRegistroContent">
+          <div className="tab-content w-75" id="vPillsContenidoRegistroContent">
             <div
               className="tab-pane fade show active"
               id="vPillsRegistroCandidaturas2010"
@@ -76,109 +48,109 @@ export default class Integracion extends Component {
               aria-labelledby="vPillsRegistroCandidaturas2010Tab"
             >
               <div className="w-100 PRUEBA">
-                <div className="">
+                <div>
                   <a
-                    href={pdf_estructura(`./${"CV_PRESIDENTA_CONSEJERA.pdf"}`)}
+                    href={pdf_estructura(`./${"8.pdf"}`)}
                     target="_blank"
                     rel="noreferrer"
                   >
                     <img
-                      src={imagenes1}
+                      src={Integracion__path(`./${"img/intCG/"}${"8.jpg"}`)}
                       className="img-fluid Integracion__item"
                       alt="presidenta"
                     />
                   </a>
                 </div>
-                <div className="">
+                <div>
                   <a
-                    href={pdf_estructura1(`./${"CV_ C ERIKA.pdf"}`)}
+                    href={pdf_estructura(`./${"5.pdf"}`)}
                     target="_blank"
                     rel="noreferrer"
                   >
                     <img
-                      src={imagenes2}
+                      src={Integracion__path(`./${"img/intCG/"}${"5.jpg"}`)}
                       className="img-fluid Integracion__item"
                       alt="erika"
                     />
                   </a>
                 </div>
-                <div className="">
+                <div>
                   <a
-                    href={pdf_estructura2(`./${"CV_ C ALDAVE.pdf"}`)}
+                    href={pdf_estructura(`./${"4.pdf"}`)}
                     target="_blank"
                     rel="noreferrer"
                   >
                     <img
-                      src={imagenes3}
+                      src={Integracion__path(`./${"img/intCG/"}${"4.jpg"}`)}
                       className="img-fluid Integracion__item"
                       alt="aldave"
                     />
                   </a>
                 </div>
-                <div className="">
+                <div>
                   <a
-                    href={pdf_estructura3(`./${"CV_ C JUAN CARLOS.pdf"}`)}
+                    href={pdf_estructura(`./${"6.pdf"}`)}
                     target="_blank"
                     rel="noreferrer"
                   >
                     <img
-                      src={imagenes4}
+                      src={Integracion__path(`./${"img/intCG/"}${"6.jpg"}`)}
                       className="img-fluid Integracion__item"
                       alt="juan carlos"
                     />
                   </a>
                 </div>
 
-                <div className="">
+                <div>
                   <a
-                    href={pdf_estructura4(`./${"CV_ SECRETARIO.pdf"}`)}
+                    href={pdf_estructura(`./${"7.pdf"}`)}
                     target="_blank"
                     rel="noreferrer"
                   >
                     <img
-                      src={imagenes5}
+                      src={Integracion__path(`./${"img/intCG/"}${"7.jpg"}`)}
                       className="img-fluid Integracion__item"
                       alt="secretario"
                     />
                   </a>
                 </div>
 
-                <div className="">
+                <div>
                   <a
-                    href={pdf_estructura5(`./${"01_ CV_ C JANET.pdf"}`)}
+                    href={pdf_estructura(`./${"1.pdf"}`)}
                     target="_blank"
                     rel="noreferrer"
                   >
                     <img
-                      src={imagenes6}
+                      src={Integracion__path(`./${"img/intCG/"}${"1.jpg"}`)}
                       className="img-fluid Integracion__item"
                       alt="janet"
                     />
                   </a>
                 </div>
 
-                <div className="">
+                <div>
                   <a
-                    href={pdf_estructura6(`./${"02_ CV_ C YEDITH.pdf"}`)}
+                    href={pdf_estructura(`./${"2.pdf"}`)}
                     target="_blank"
                     rel="noreferrer"
                   >
                     <img
-                      src={imagenes7}
+                      src={Integracion__path(`./${"img/intCG/"}${"2.jpg"}`)}
                       className="img-fluid Integracion__item"
                       alt="yedith"
                     />
                   </a>
                 </div>
 
-                <div className="">
+                <div>
                   <a
-                    href={pdf_estructura7(`./${"03_ CV_ C HERMENEGILDO.pdf"}`)}
+                    href={pdf_estructura(`./${"3.pdf"}`)}
                     target="_blank"
                     rel="noreferrer"
                   >
                     <img
-                      src={imagenes8}
+                      src={Integracion__path(`./${"img/intCG/"}${"3.jpg"}`)}
                       className="img-fluid Integracion__item"
                       alt="neria"
                     />
@@ -194,14 +166,14 @@ export default class Integracion extends Component {
               aria-labelledby="vPillsRegistroCandidaturas2013Tab"
             >
               <div className="w-100 PRUEBA">
-                <div className="">
+                <div>
                   <a
                     href={"https://www.pantlaxcala.org.mx/"}
                     target="_blank"
                     rel="noreferrer"
                   >
                     <img
-                      src={imagenes9}
+                      src={Integracion__path(`./${"img/intPP/"}${"1.jpg"}`)}
                       className="img-fluid Integracion__item"
                       alt="pan"
                     />
@@ -214,7 +186,7 @@ export default class Integracion extends Component {
                   rel="noreferrer"
                 >
                   <img
-                    src={imagenes10}
+                    src={Integracion__path(`./${"img/intPP/"}${"2.jpg"}`)}
                     className="img-fluid Integracion__item"
                     alt="pri"
                   />
@@ -226,7 +198,7 @@ export default class Integracion extends Component {
                   rel="noreferrer"
                 >
                   <img
-                    src={imagenes11}
+                    src={Integracion__path(`./${"img/intPP/"}${"3.jpg"}`)}
                     className="img-fluid Integracion__item"
                     alt="prd"
                   />
@@ -238,7 +210,7 @@ export default class Integracion extends Component {
                   rel="noreferrer"
                 >
                   <img
-                    src={imagenes12}
+                    src={Integracion__path(`./${"img/intPP/"}${"4.jpg"}`)}
                     className="img-fluid Integracion__item"
                     alt="pt"
                   />
@@ -250,7 +222,7 @@ export default class Integracion extends Component {
                   rel="noreferrer"
                 >
                   <img
-                    src={imagenes13}
+                    src={Integracion__path(`./${"img/intPP/"}${"5.jpg"}`)}
                     className="img-fluid Integracion__item"
                     alt="verde"
                   />
@@ -262,7 +234,7 @@ export default class Integracion extends Component {
                   rel="noreferrer"
                 >
                   <img
-                    src={imagenes14}
+                    src={Integracion__path(`./${"img/intPP/"}${"6.jpg"}`)}
                     className="img-fluid Integracion__item"
                     alt="movimiento ciudadano"
                   />
@@ -273,7 +245,7 @@ export default class Integracion extends Component {
                   rel="noreferrer"
                 >
                   <img
-                    src={imagenes15}
+                    src={Integracion__path(`./${"img/intPP/"}${"7.jpg"}`)}
                     className="img-fluid Integracion__item"
                     alt="pac"
                   />
@@ -284,7 +256,7 @@ export default class Integracion extends Component {
                   rel="noreferrer"
                 >
                   <img
-                    src={imagenes16}
+                    src={Integracion__path(`./${"img/intPP/"}${"8.png"}`)}
                     className="img-fluid Integracion__item"
                     alt="morena"
                   />
@@ -295,7 +267,7 @@ export default class Integracion extends Component {
                   rel="noreferrer"
                 >
                   <img
-                    src={imagenes17}
+                    src={Integracion__path(`./${"img/intPP/"}${"9.jpg"}`)}
                     className="img-fluid Integracion__item"
                     alt="nueva alianza"
                   />
@@ -306,7 +278,7 @@ export default class Integracion extends Component {
                   rel="noreferrer"
                 >
                   <img
-                    src={imagenes18}
+                    src={Integracion__path(`./${"img/intPP/"}${"10.jpg"}`)}
                     className="img-fluid Integracion__item"
                     alt="rsp"
                   />
@@ -317,7 +289,7 @@ export default class Integracion extends Component {
                   rel="noreferrer"
                 >
                   <img
-                    src={imagenes19}
+                    src={Integracion__path(`./${"img/intPP/"}${"11.jpg"}`)}
                     className="img-fluid Integracion__item"
                     alt="fuerza x mexico"
                   />
@@ -326,7 +298,7 @@ export default class Integracion extends Component {
             </div>
           </div>
         </div>
-      </div>
+      </>
     );
   }
 }

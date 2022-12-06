@@ -12,11 +12,14 @@ import "../Transparencia.css";
 export default class POA extends Component {
   render() {
     return (
-      <div>
-        <TitlePages title="Programas Operativos Anuales (POA)" />
-        <div className="mt-3 mb-3 d-flex align-items-start">
+      <>
+        <TitlePages
+          title="Transparencia"
+          subTitle="Programas Operativos Anuales (POA)"
+        />
+        <div className="mt-3 mb-3 d-flex align-items-start w-100">
           <div
-            className="nav flex-column nav-pills me-3"
+            className="nav flex-column nav-pills me-3 w-25"
             id="vPillsContenidoRegistro"
             role="tablist"
             aria-orientation="vertical"
@@ -58,14 +61,16 @@ export default class POA extends Component {
               POAS 2020
             </button>
           </div>
-          <div className="tab-content" id="vPillsPOASContent">
+          <div className="tab-content w-75" id="vPillsPOASContent">
             <div
               className="tab-pane fade show active"
               id="vPillsPOA2018"
               role="tabpanel"
               aria-labelledby="vPillsPOA2018Tab"
             >
-              <h2 className="text-center">Programas Operativos Anuales 2018</h2>
+              <h2 className="text-center mb-3">
+                Programas Operativos Anuales 2018
+              </h2>
               <table className="table table-striped table-hover w-100">
                 <thead>
                   <tr>
@@ -104,7 +109,9 @@ export default class POA extends Component {
               role="tabpanel"
               aria-labelledby="vPillsPOA2019Tab"
             >
-              <h2 className="text-center">Programas Operativos Anuales 2019</h2>
+              <h2 className="text-center mb-3">
+                Programas Operativos Anuales 2019
+              </h2>
               <table className="table table-striped table-hover">
                 <thead>
                   <tr>
@@ -143,7 +150,9 @@ export default class POA extends Component {
               role="tabpanel"
               aria-labelledby="vPillsPOA2020Tab"
             >
-              <h2 className="text-center">Programas Operativos Anuales 2020</h2>
+              <h2 className="text-center mb-3">
+                Programas Operativos Anuales 2020
+              </h2>
               <table className="table table-striped table-hover">
                 <thead>
                   <tr>
@@ -177,7 +186,7 @@ export default class POA extends Component {
             </div>
           </div>
         </div>
-      </div>
+      </>
     );
   }
 }
