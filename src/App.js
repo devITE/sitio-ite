@@ -117,7 +117,30 @@ import InformacionContable from "./pages/transparencia/transp/InformacionContabl
 import PreguntasFrecuentes from "./pages/transparencia/PreguntasFrecuentes";
 import DatosAbiertos from "./pages/transparencia/DatosAbiertos";
 
-import ComunicacionSocial from "./pages/ComunicacionSocial";
+//Comunicacion Social
+import ComunicacionSocial from "./pages/comunicacionSocial/ComunicacionSocial";
+import Boletines from "./pages/comunicacionSocial/boletines/Boletines";
+import Boletines2015 from "./pages/comunicacionSocial/boletines/Boletines2015";
+import Boletines2016 from "./pages/comunicacionSocial/boletines/Boletines2016";
+import Boletines2017 from "./pages/comunicacionSocial/boletines/Boletines2017";
+import Boletines2019 from "./pages/comunicacionSocial/boletines/Boletines2019";
+import Boletines2020 from "./pages/comunicacionSocial/boletines/Boletines2020";
+import Boletines2021 from "./pages/comunicacionSocial/boletines/Boletines2021";
+import Boletines2022 from "./pages/comunicacionSocial/boletines/Boletines2022";
+
+
+import Monitoreo from "./pages/comunicacionSocial/monitoreos/Monitoreo";
+import Monitoreos2015 from "./pages/comunicacionSocial/monitoreos/Monitoreos2015";
+import Monitoreos2016 from "./pages/comunicacionSocial/monitoreos/Monitoreos2016";
+import Monitoreos2017 from "./pages/comunicacionSocial/monitoreos/Monitoreos2017";
+import Monitoreos2018 from "./pages/comunicacionSocial/monitoreos/Monitoreos2018";
+import Monitoreos2019 from "./pages/comunicacionSocial/monitoreos/Monitoreos2019";
+import Monitoreos2020 from "./pages/comunicacionSocial/monitoreos/Monitoreos2020";
+import Monitoreos2021 from "./pages/comunicacionSocial/monitoreos/Monitoreos2021";
+
+import EspacioIte from "./pages/comunicacionSocial/EspacioIte";
+
+//Cultura Cívica
 import CulturaCivica from "./pages/culturaCivica/CulturaCivica";
 import ActividadesLudicas from "./pages/culturaCivica/ActividadesLudicas";
 import EleccionesEscolares from "./pages/culturaCivica/EleccionesEscolares";
@@ -261,12 +284,28 @@ function App() {
           <Route path="/DatosAbiertos" element={<DatosAbiertos />} />
 
           <Route path="/ComunicacionSocial" element={<ComunicacionSocial />} />
+          <Route path="/Boletines" element={<Boletines />} />
+          <Route path="/Boletines2015" element={<Boletines2015 />} />
+          <Route path="/Boletines2016" element={<Boletines2016 />} />
+          <Route path="/Boletines2017" element={<Boletines2017 />} />
+          <Route path="/Boletines2019" element={<Boletines2019 />} />
+          <Route path="/Boletines2020" element={<Boletines2020 />} />
+          <Route path="/Boletines2021" element={<Boletines2021 />} />
+          <Route path="/Boletines2022" element={<Boletines2022 />} />
+
+          <Route path="/Monitoreo" element={<Monitoreo />} />
+          <Route path="/Monitoreos2015" element={<Monitoreos2015 />} />
+          <Route path="/Monitoreos2016" element={<Monitoreos2016 />} />
+          <Route path="/Monitoreos2017" element={<Monitoreos2017 />} />
+          <Route path="/Monitoreos2018" element={<Monitoreos2018 />} />
+          <Route path="/Monitoreos2019" element={<Monitoreos2019 />} />
+          <Route path="/Monitoreos2020" element={<Monitoreos2020 />} />
+          <Route path="/Monitoreos2021" element={<Monitoreos2021 />} />
+
+          <Route path="/EspacioIte" element={<EspacioIte />} />
           <Route path="/CulturaCivica" element={<CulturaCivica />} />
           <Route path="/ActividadesLudicas" element={<ActividadesLudicas />} />
-          <Route
-            path="/EleccionesEscolares"
-            element={<EleccionesEscolares />}
-          />
+          <Route path="/EleccionesEscolares" element={<EleccionesEscolares />}/>
           <Route path="/ParlamentoInfantil" element={<ParlamentoInfantil />} />
           <Route path="/ParlamentoJuvenil" element={<ParlamentoJuvenil />} />
           <Route path="/ValoresDemocracia" element={<ValoresDemocracia />} />
