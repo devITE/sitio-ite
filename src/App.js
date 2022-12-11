@@ -128,6 +128,8 @@ import ValoresDemocracia from "./pages/culturaCivica/ValoresDemocracia";
 //Micrositios
 import REPS from "./pages/reps/REPS";
 
+import PRUEBAS from "./pages/PRUEBAS/PRUEBAS";
+
 function App() {
   return (
     <Router>
@@ -276,6 +278,9 @@ function App() {
 
           {/* Micrositios */}
           <Route path="/REPS" element={<REPS />} />
+
+          {/* P R U E B A S */}
+          <Route path="/PRUEBAS" element={<PRUEBAS />} />
         </Routes>
       </div>
       <Footer></Footer>
