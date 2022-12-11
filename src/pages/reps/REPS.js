@@ -494,68 +494,17 @@ export default class REPS extends Component {
           </div>
         </div>
         <h4 className="REPS__title-dotter">INFOGRAFÍAS:</h4>
+        <CarouselVert>
+          {dataInfografias.map((img) => (
+            <CarouselVertItem key={img.id} link={img.link} alt={img.alt} />
+          ))}
+        </CarouselVert>
         <div className="text-justify fst-italic w-100">
           Fundamento: Lineamientos para la integración, funcionamiento,
           actualización y conservación del Registro Estatal de personas
           sancionadas en materia de Violencia Política contra las Mujeres en
           razón de género del Instituto Tlaxcalteca de Elecciones.
         </div>
-        <CarouselVert>
-          {dataInfografias.map((img) => (
-            <CarouselVertItem key={img.id} link={img.link} alt={img.alt} />
-          ))}
-        </CarouselVert>
-        {/* <div className="mt-5 REPS__infografias">
-          <div className="mt-5 REPS__infografias-content">
-            <img
-              src={REPS__path(`./${"img/reps/"}${"i1.jpg"}`)}
-              alt=""
-              className="img-fluid rounded-3 shadow"
-            />
-          </div>
-          <div className="mt-5 REPS__infografias-content">
-            <img
-              src={REPS__path(`./${"img/reps/"}${"i2.png"}`)}
-              alt=""
-              className="img-fluid rounded-3 shadow"
-            />
-          </div>
-          <div className="mt-5 REPS__infografias-content">
-            <img
-              src={REPS__path(`./${"img/reps/"}${"i3.png"}`)}
-              alt=""
-              className="img-fluid rounded-3 shadow"
-            />
-          </div>
-          <div className="mt-5 REPS__infografias-content">
-            <img
-              src={REPS__path(`./${"img/reps/"}${"i4.png"}`)}
-              alt=""
-              className="img-fluid rounded-3 shadow"
-            />
-          </div>
-          <div className="mt-5 REPS__infografias-content">
-            <img
-              src={REPS__path(`./${"img/reps/"}${"i5.jpg"}`)}
-              alt=""
-              className="img-fluid rounded-3 shadow"
-            />
-          </div>
-          <div className="mt-5 REPS__infografias-content">
-            <img
-              src={REPS__path(`./${"img/reps/"}${"i6.jpg"}`)}
-              alt=""
-              className="img-fluid rounded-3 shadow"
-            />
-          </div>
-          <div className="mt-5 REPS__infografias-content">
-            <img
-              src={REPS__path(`./${"img/reps/"}${"i7.jpg"}`)}
-              alt=""
-              className="img-fluid rounded-3 shadow"
-            />
-          </div>
-        </div> */}
       </div>
     );
   }
