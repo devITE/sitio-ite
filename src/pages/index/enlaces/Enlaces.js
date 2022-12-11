@@ -10,11 +10,13 @@ export default class Enlaces extends Component {
       <div className="w-100">
         <div className="row">
           <div className="col col-sm-3 col-md-3 col-md-3">
-            <img
-              src={Enlaces_imgpath(`./${"e1.png"}`)}
-              alt="Proceso Electorales"
-              className="img-fluid shadow rounded-4"
-            />
+            <Link to="/ProcesosElectorales">
+              <img
+                src={Enlaces_imgpath(`./${"e1.png"}`)}
+                alt="Proceso Electorales"
+                className="img-fluid shadow rounded-4"
+              />
+            </Link>
           </div>
           <div className="col col-sm-3 col-md-3 col-md-3">
             <Link to="/Normatividad">
@@ -26,11 +28,13 @@ export default class Enlaces extends Component {
             </Link>
           </div>
           <div className="col col-sm-3 col-md-3 col-md-3">
-            <img
-              src={Enlaces_imgpath(`./${"e3.png"}`)}
-              alt="Galeria fotográfica"
-              className="img-fluid shadow rounded-4"
-            />
+            <Link to="/Galeria">
+              <img
+                src={Enlaces_imgpath(`./${"e3.png"}`)}
+                alt="Galeria fotográfica"
+                className="img-fluid shadow rounded-4"
+              />
+            </Link>
           </div>
           <div className="col col-sm-3 col-md-3 col-md-3">
             <Link to="/OIC">
@@ -44,11 +48,13 @@ export default class Enlaces extends Component {
         </div>
         <div className="row mt-2">
           <div className="col col-sm-3 col-md-3 col-md-3">
-            <img
-              src={Enlaces_imgpath(`./${"e5.png"}`)}
-              alt="Partidos Políticos"
-              className="img-fluid shadow rounded-4"
-            />
+            <Link to="/PartidosPoliticos">
+              <img
+                src={Enlaces_imgpath(`./${"e5.png"}`)}
+                alt="Partidos Políticos"
+                className="img-fluid shadow rounded-4"
+              />
+            </Link>
           </div>
           <div className="col col-sm-3 col-md-3 col-md-3">
             <Link to="/Infografias">
@@ -80,18 +86,28 @@ export default class Enlaces extends Component {
         </div>
         <div className="row mt-2">
           <div className="col col-sm-6 col-md-6 col-md-6 d-flex justify-content-center">
-            <img
-              src={Enlaces_imgpath(`./${"e9.png"}`)}
-              alt="Plataforma Nacional de Transparencia"
-              className="img-fluid shadow rounded-4"
-            />
+            <a
+              href="https://www.plataformadetransparencia.org.mx/"
+              rel="noreferrer"
+            >
+              <img
+                src={Enlaces_imgpath(`./${"e9.png"}`)}
+                alt="Plataforma Nacional de Transparencia"
+                className="img-fluid shadow rounded-4"
+              />
+            </a>
           </div>
           <div className="col col-sm-6 col-md-6 col-md-6 d-flex justify-content-center">
-            <img
-              src={Enlaces_imgpath(`./${"e10.png"}`)}
-              alt="Consulta Publica"
-              className="img-fluid shadow rounded-4"
-            />
+            <a
+              href="http://consultapublicamx.inai.org.mx:8080/vut-web/?idSujetoObigadoParametro=5387&idEntidadParametro=29&idSectorParametro=24"
+              rel="noreferrer"
+            >
+              <img
+                src={Enlaces_imgpath(`./${"e10.png"}`)}
+                alt="Consulta Publica"
+                className="img-fluid shadow rounded-4"
+              />
+            </a>
           </div>
         </div>
       </div>

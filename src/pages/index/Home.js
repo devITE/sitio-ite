@@ -1,12 +1,11 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import Enlaces from "./enlaces/Enlaces";
-import Carousel from "../../layout/Carousel/Carousel";
 import {
-  imgCarouselIndexTop,
-  imgCarouselActividadesRecientes,
-  imgCarouselAgenda,
-  imgCarouselConvocatorias,
+  dataCIndex,
+  dataCAR,
+  dataCA,
+  dataCC,
 } from "../../assets/data/dataCarouselIndex";
 import Estrados from "./estrados/Estrados";
 import { dataEstrados } from "../../assets/data/dataEstrados";
@@ -18,15 +17,26 @@ import Videoteca from "./videoteca/Videoteca";
 import { dataVideoteca } from "../../assets/data/dataVideoteca";
 import "./Home.css";
 
-// const Home_imppath = require.context("../../assets/img/imgHome");
-// const EspacioITE_path = require.context("../../assets/pdf/");
+import Carousel from "../../layout/Carousel/Carousel";
+import CarouselItem from "../../layout/Carousel/CarouselItem";
+
 const Home__path = require.context("../../assets");
 
 export default class Home extends Component {
   render() {
     return (
       <div>
-        <Carousel slides={imgCarouselIndexTop} slidesID={"carouselTopIndex"} />
+        <Carousel idCarousel="carouselTopIndex">
+          {dataCIndex.map((cIndex) => (
+            <CarouselItem
+              key={cIndex.id}
+              imgUrl={cIndex.url}
+              alt={cIndex.alt}
+              itemActive={cIndex.itemActive}
+              link={cIndex.link}
+            />
+          ))}
+        </Carousel>
         <div className="mt-4 Home__AR-A">
           <div>
             <h2 className="bottom_title">Foro</h2>
@@ -50,19 +60,33 @@ export default class Home extends Component {
           <div>
             <h2 className="bottom_title">Actividades Recientes</h2>
             <div className="ps-5 pe-5">
-              <Carousel
-                slides={imgCarouselActividadesRecientes}
-                slidesID={"carouselActividadesRecientes"}
-              />
+              <Carousel idCarousel="carouselActividadesRecientes">
+                {dataCAR.map((cAR) => (
+                  <CarouselItem
+                    key={cAR.id}
+                    imgUrl={cAR.url}
+                    alt={cAR.alt}
+                    itemActive={cAR.itemActive}
+                    link={cAR.link}
+                  />
+                ))}
+              </Carousel>
             </div>
           </div>
           <div>
             <h2 className="bottom_title">Agenda</h2>
             <div className="ps-5 pe-5">
-              <Carousel
-                slides={imgCarouselAgenda}
-                slidesID={"carouselAgenda"}
-              />
+              <Carousel idCarousel="carouselAgenda">
+                {dataCA.map((cA) => (
+                  <CarouselItem
+                    key={cA.id}
+                    imgUrl={cA.url}
+                    alt={cA.alt}
+                    itemActive={cA.itemActive}
+                    link={cA.link}
+                  />
+                ))}
+              </Carousel>
             </div>
           </div>
         </div>
@@ -119,10 +143,17 @@ export default class Home extends Component {
           <div>
             <h2 className="bottom_title">Convocatoria</h2>
             <div className="ps-2 pe-2">
-              <Carousel
-                slides={imgCarouselConvocatorias}
-                slidesID={"carouselConvocatorias"}
-              />
+              <Carousel idCarousel="carouselConvocatorias">
+                {dataCC.map((cC) => (
+                  <CarouselItem
+                    key={cC.id}
+                    imgUrl={cC.url}
+                    alt={cC.alt}
+                    itemActive={cC.itemActive}
+                    link={cC.link}
+                  />
+                ))}
+              </Carousel>
             </div>
           </div>
         </div>
