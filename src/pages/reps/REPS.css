@@ -82,6 +82,26 @@
   float: right;
 }
 
+.REPS__enlances-card {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  box-shadow: 3px 3px 5px #9c9c9c;
+}
+.REPS__enlaces-card-franja {
+  background-color: #5840a5;
+  width: 2%;
+}
+.REPS__enlaces-card-body {
+  background-color: #f2f2f2;
+  width: 98%;
+  padding: 5px 5px 5px 8px;
+  font-weight: 400;
+  font-size: 14px;
+  color: #aa0787;
+}
+
 /* --------------- M E D I A     Q U E R I E S --------------- */
 
 /* general */

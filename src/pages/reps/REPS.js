@@ -1,4 +1,8 @@
 import React, { Component } from "react";
+import CarouselVert from "../../layout/CarouselVert/CarouselVert";
+import CarouselVertItem from "../../layout/CarouselVert/CarouselVertItem";
+
+import { dataInfografias } from "../../assets/data/dataREPS";
 import "./REPS.css";
 
 const REPS__path = require.context("../../assets");
@@ -286,103 +290,272 @@ export default class REPS extends Component {
           </table>
         </div>
         <div className="mt-0 mb-5 REPS__sentencia"> SENTENCIA </div>
-        <ul className="nav nav-tabs" id="myTab" role="tablist">
+        <br />
+        <br />
+        <ul className="w-100 mt-5 nav nav-tabs" id="myTab" role="tablist">
           <li className="nav-item" role="presentation">
             <button
               className="nav-link active"
-              id="home-tab"
+              id="sXG-tab"
               data-bs-toggle="tab"
-              data-bs-target="#home-tab-pane"
+              data-bs-target="#sXG-tab-pane"
               type="button"
               role="tab"
-              aria-controls="home-tab-pane"
+              aria-controls="sXG-tab-pane"
               aria-selected="true"
             >
-              Home
+              Personas Sancionadas por Género
             </button>
           </li>
           <li className="nav-item" role="presentation">
             <button
               className="nav-link"
-              id="profile-tab"
+              id="sXC-tab"
               data-bs-toggle="tab"
-              data-bs-target="#profile-tab-pane"
+              data-bs-target="#sXC-tab-pane"
               type="button"
               role="tab"
-              aria-controls="profile-tab-pane"
+              aria-controls="sXC-tab-pane"
               aria-selected="false"
             >
-              Profile
+              Personas Sancionadas por Cargo
             </button>
           </li>
           <li className="nav-item" role="presentation">
             <button
               className="nav-link"
-              id="contact-tab"
+              id="dVxC-tab"
               data-bs-toggle="tab"
-              data-bs-target="#contact-tab-pane"
+              data-bs-target="#dVxC-tab-pane"
               type="button"
               role="tab"
-              aria-controls="contact-tab-pane"
+              aria-controls="dVxC-tab-pane"
               aria-selected="false"
             >
-              Contact
-            </button>
-          </li>
-          <li className="nav-item" role="presentation">
-            <button
-              className="nav-link"
-              id="disabled-tab"
-              data-bs-toggle="tab"
-              data-bs-target="#disabled-tab-pane"
-              type="button"
-              role="tab"
-              aria-controls="disabled-tab-pane"
-              aria-selected="false"
-              disabled
-            >
-              Disabled
+              Distribución de Víctimas por Cargo
             </button>
           </li>
         </ul>
         <div className="tab-content" id="myTabContent">
           <div
             className="tab-pane fade show active"
-            id="home-tab-pane"
+            id="sXG-tab-pane"
             role="tabpanel"
-            aria-labelledby="home-tab"
-            tabindex="0"
+            aria-labelledby="sXG-tab"
+            tabIndex="0"
           >
-            ...
+            <div className="mt-5 row mx-auto text-center text-light REPS__datos-publicos">
+              <div className=" col-md-4 p-3 rounded-4">
+                Mujeres Sancionadas: <strong>0</strong>
+              </div>
+              <div className="col-md-1"></div>
+              <div className=" col-md-3 p-3 rounded-4">
+                Hombres Sancionados: <strong>0</strong>
+              </div>
+              <div className="col-md-1"></div>
+              <div className=" col-md-3 p-3 rounded-4">
+                Total: <strong>0</strong>
+              </div>
+            </div>
+            <div className="row mt-5">
+              <div className="col-md-2"></div>
+              <div className="col-md-3">
+                <img
+                  src={REPS__path(`./${"img/reps/"}${"3.png"}`)}
+                  alt="Total de personas inscritas"
+                  className="img-fluid w-100 rounded-3 shadow"
+                />
+              </div>
+              <div className="col-md-2"></div>
+              <div className="col-md-3">
+                <img
+                  src={REPS__path(`./${"img/reps/"}${"4.png"}`)}
+                  alt="Sanciones por género"
+                  className="img-fluid w-100 rounded-3 shadow"
+                />
+              </div>
+              <div className="col-md-2"></div>
+            </div>
           </div>
           <div
             className="tab-pane fade"
-            id="profile-tab-pane"
+            id="sXC-tab-pane"
             role="tabpanel"
-            aria-labelledby="profile-tab"
-            tabindex="0"
+            aria-labelledby="sXC-tab"
+            tabIndex="0"
           >
-            ...
+            <div className="mt-5 row mx-auto text-center text-light REPS__datos-publicos">
+              <div className=" col-md-4 p-3 rounded-4">
+                Mujeres Sancionadas: <strong>0</strong>
+              </div>
+              <div className="col-md-1"></div>
+              <div className=" col-md-3 p-3 rounded-4">
+                Hombres Sancionados: <strong>0</strong>
+              </div>
+              <div className="col-md-1"></div>
+              <div className=" col-md-3 p-3 rounded-4">
+                Total: <strong>0</strong>
+              </div>
+            </div>
           </div>
           <div
             className="tab-pane fade"
-            id="contact-tab-pane"
+            id="dVxC-tab-pane"
             role="tabpanel"
-            aria-labelledby="contact-tab"
-            tabindex="0"
+            aria-labelledby="dVxC-tab"
+            tabIndex="0"
           >
-            ...
-          </div>
-          <div
-            className="tab-pane fade"
-            id="disabled-tab-pane"
-            role="tabpanel"
-            aria-labelledby="disabled-tab"
-            tabindex="0"
-          >
-            ...
+            <div className="mt-5 row mx-auto text-center text-light REPS__datos-publicos">
+              <div className=" col-md-4 p-3 rounded-4">
+                Mujeres Sancionadas: <strong>0</strong>
+              </div>
+              <div className="col-md-1"></div>
+              <div className=" col-md-3 p-3 rounded-4">
+                Hombres Sancionados: <strong>0</strong>
+              </div>
+              <div className="col-md-1"></div>
+              <div className=" col-md-3 p-3 rounded-4">
+                Total: <strong>0</strong>
+              </div>
+            </div>
           </div>
         </div>
+        <div className="bg-primary fst-italic w-100 mt-5 text-light text-center">
+          NOTA: Al momento, no existen resoluciones en las que sea existente la
+          infracción en Materia de Violencia Política contra las Mujeres en
+          Razón de Género y existan personas Sancionadas.
+        </div>
+        <h4 className="REPS__title-dotter">INFORMACIÓN NORMATIVA:</h4>
+        <div className="mt-5 row">
+          <div className="col-md-6">
+            <div className="REPS__enlances-card">
+              <div className="REPS__enlaces-card-franja"></div>
+              <div className="REPS__enlaces-card-body">
+                Lineamientos para que los partidos políticos nacionales y, en su
+                caso, los partidos políticos locales, prevengan, atiendan,
+                sancionen, reparen y erradiquen la violencia política contra las
+                mujeres en razón de género.
+              </div>
+            </div>
+          </div>
+          <div className="col-md-6">
+            <div className="REPS__enlances-card">
+              <div className="REPS__enlaces-card-franja"></div>
+              <div className="REPS__enlaces-card-body">
+                Lineamientos para la integración, funcionamiento, actualización
+                y conservación del Registro Estatal de personas sancionadas en
+                materia de Violencia Política contra las Mujeres en Razón de
+                Género del Instituto Tlaxcalteca de Elecciones.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="mt-2 row">
+          <div className="col-md-6">
+            <div className="REPS__enlances-card mt-3">
+              <div className="REPS__enlaces-card-franja"></div>
+              <div className="REPS__enlaces-card-body">
+                Reglamento de Quejas y Denuncias del Instituto Tlaxcalteca de
+                Elecciones.
+              </div>
+            </div>
+          </div>
+          <div className="col-md-6">
+            <div className="REPS__enlances-card mt-3">
+              <div className="REPS__enlaces-card-franja"></div>
+              <div className="REPS__enlaces-card-body">
+                Guía de actuación para la prevención, atención y erradicación de
+                la Violencia Política en Razón de Género.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="mt-3 mb-5 row">
+          <div className="col-md-12">
+            <div className="REPS__enlances-card mt-3">
+              <div className="REPS__enlaces-card-franja"></div>
+              <div className="REPS__enlaces-card-body">
+                De conformidad con el <strong>Acuerdo INE/CG269/2020</strong>,
+                por el que se aprobaron los Lineamientos para la integración,
+                funcionamiento, actualización y conservación del Registro
+                Nacional de Personas Sancionadas en Materia de Violencia
+                Política contra las Mujeres en Razón de Género, en acatamiento a
+                la sentencia dictada por la Sala Superior, en el expediente
+                <strong>SUP-REC-91/2020</strong> y acumulado; y el{" "}
+                <strong>Acuerdo ITE-CG 20/2021</strong> aprobado por el Consejo
+                General del Instituto Tlaxcalteca de Elecciones, mediante el
+                Anexo 2 del mismo, se aprobó los Lineamientos para la
+                integración, funcionamiento, actualización y conservación del
+                Registro Estatal de Personas Sancionadas en materia de Violencia
+                Política contra las Mujeres en Razón de Género del Instituto
+                Tlaxcalteca de Elecciones.
+              </div>
+            </div>
+          </div>
+        </div>
+        <h4 className="REPS__title-dotter">INFOGRAFÍAS:</h4>
+        <div className="text-justify fst-italic w-100">
+          Fundamento: Lineamientos para la integración, funcionamiento,
+          actualización y conservación del Registro Estatal de personas
+          sancionadas en materia de Violencia Política contra las Mujeres en
+          razón de género del Instituto Tlaxcalteca de Elecciones.
+        </div>
+        <CarouselVert>
+          {dataInfografias.map((img) => (
+            <CarouselVertItem key={img.id} link={img.link} alt={img.alt} />
+          ))}
+        </CarouselVert>
+        {/* <div className="mt-5 REPS__infografias">
+          <div className="mt-5 REPS__infografias-content">
+            <img
+              src={REPS__path(`./${"img/reps/"}${"i1.jpg"}`)}
+              alt=""
+              className="img-fluid rounded-3 shadow"
+            />
+          </div>
+          <div className="mt-5 REPS__infografias-content">
+            <img
+              src={REPS__path(`./${"img/reps/"}${"i2.png"}`)}
+              alt=""
+              className="img-fluid rounded-3 shadow"
+            />
+          </div>
+          <div className="mt-5 REPS__infografias-content">
+            <img
+              src={REPS__path(`./${"img/reps/"}${"i3.png"}`)}
+              alt=""
+              className="img-fluid rounded-3 shadow"
+            />
+          </div>
+          <div className="mt-5 REPS__infografias-content">
+            <img
+              src={REPS__path(`./${"img/reps/"}${"i4.png"}`)}
+              alt=""
+              className="img-fluid rounded-3 shadow"
+            />
+          </div>
+          <div className="mt-5 REPS__infografias-content">
+            <img
+              src={REPS__path(`./${"img/reps/"}${"i5.jpg"}`)}
+              alt=""
+              className="img-fluid rounded-3 shadow"
+            />
+          </div>
+          <div className="mt-5 REPS__infografias-content">
+            <img
+              src={REPS__path(`./${"img/reps/"}${"i6.jpg"}`)}
+              alt=""
+              className="img-fluid rounded-3 shadow"
+            />
+          </div>
+          <div className="mt-5 REPS__infografias-content">
+            <img
+              src={REPS__path(`./${"img/reps/"}${"i7.jpg"}`)}
+              alt=""
+              className="img-fluid rounded-3 shadow"
+            />
+          </div>
+        </div> */}
       </div>
     );
   }
