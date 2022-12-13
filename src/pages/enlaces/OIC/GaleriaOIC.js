@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import NavbarEnlaces from "../../../layout/NavbarEnlaces";
 import Carousel from "../../../layout/Carousel/Carousel";
-import CarouselItem from "../../../layout/Carousel/CarouselItem";
+import CarouselItemIMG from "../../../layout/Carousel/CarouselItemIMG";
 
 import { dataGaleria } from "../../../assets/data/dataOIC";
 
@@ -37,7 +37,7 @@ export default class GaleriaOIC extends Component {
                       <div className="w-50 mx-auto">
                         <Carousel idCarousel={infCarousel.carouselID}>
                           {infCarousel.subChildren.map((cC) => (
-                            <CarouselItem
+                            <CarouselItemIMG
                               key={cC.id}
                               imgUrl={cC.url}
                               alt={cC.alt}

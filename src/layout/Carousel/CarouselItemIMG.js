@@ -1,4 +1,4 @@
-const CarouselItem = ({ imgUrl, alt, itemActive, link }) => {
+const CarouselItemIMG = ({ imgUrl, alt, itemActive, link }) => {
   return (
     <div className={"carousel-item " + itemActive}>
       <a href={link} target="_blank" rel="noreferrer">
@@ -8,4 +8,4 @@ const CarouselItem = ({ imgUrl, alt, itemActive, link }) => {
   );
 };
 
-export default CarouselItem;
+export default CarouselItemIMG;

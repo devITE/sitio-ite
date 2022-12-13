@@ -15,10 +15,12 @@ import { dataInformes } from "../../assets/data/dataInformes";
 
 import Videoteca from "./videoteca/Videoteca";
 import { dataVideoteca } from "../../assets/data/dataVideoteca";
-import "./Home.css";
 
 import Carousel from "../../layout/Carousel/Carousel";
-import CarouselItem from "../../layout/Carousel/CarouselItem";
+import CarouselItemIMG from "../../layout/Carousel/CarouselItemIMG";
+import CarouselItemVideo from "../../layout/Carousel/CarouselItemVideo";
+import { dataVideoPodCast } from "../../assets/data/dataVideoPodCast";
+import "./Home.css";
 
 const Home__path = require.context("../../assets");
 
@@ -28,7 +30,7 @@ export default class Home extends Component {
       <div>
         <Carousel idCarousel="carouselTopIndex">
           {dataCIndex.map((cIndex) => (
-            <CarouselItem
+            <CarouselItemIMG
               key={cIndex.id}
               imgUrl={cIndex.url}
               alt={cIndex.alt}
@@ -62,7 +64,7 @@ export default class Home extends Component {
             <div className="ps-5 pe-5">
               <Carousel idCarousel="carouselActividadesRecientes">
                 {dataCAR.map((cAR) => (
-                  <CarouselItem
+                  <CarouselItemIMG
                     key={cAR.id}
                     imgUrl={cAR.url}
                     alt={cAR.alt}
@@ -78,7 +80,7 @@ export default class Home extends Component {
             <div className="ps-5 pe-5">
               <Carousel idCarousel="carouselAgenda">
                 {dataCA.map((cA) => (
-                  <CarouselItem
+                  <CarouselItemIMG
                     key={cA.id}
                     imgUrl={cA.url}
                     alt={cA.alt}
@@ -92,8 +94,8 @@ export default class Home extends Component {
         </div>
         <h2 className="mt-4 bottom_title">Informes</h2>
         <Informes items={dataInformes} itemsID={"itemsInformes"} />
-        <div className="Home__EspITEVidPod mt-4 w-100">
-          <div>
+        <div className="Home__EspITEVidPod">
+          <div className="item1">
             <h2 className="bottom_title">Espacio ITE</h2>
             <a
               href={Home__path(`./${"pdf/espacioITE/"}${"1.pdf"}`)}
@@ -109,17 +111,21 @@ export default class Home extends Component {
               />
             </a>
           </div>
-          <div>
+          <div className="item2">
             <h2 className="bottom_title">Video Podcast</h2>
-            <div className="Home__video-embed ratio ratio-16x9 w-100">
-              <iframe
-                src="https://www.youtube.com/embed/6zXSa7oqrqM?rel=0"
-                title="Video Podcast"
-                allowFullScreen
-              ></iframe>
-            </div>
+            <Carousel idCarousel="videoPodcast">
+              {dataVideoPodCast.map((cA) => (
+                <CarouselItemVideo
+                  key={cA.id}
+                  itemActive={cA.itemActive}
+                  link={cA.link}
+                  title={cA.title}
+                />
+              ))}
+            </Carousel>
           </div>
         </div>
+
         <div className="Home__boxesTriple mt-4">
           <div>
             <h2 className="bottom_title">Estrados Electrónicos</h2>
@@ -145,7 +151,7 @@ export default class Home extends Component {
             <div className="ps-2 pe-2">
               <Carousel idCarousel="carouselConvocatorias">
                 {dataCC.map((cC) => (
-                  <CarouselItem
+                  <CarouselItemIMG
                     key={cC.id}
                     imgUrl={cC.url}
                     alt={cC.alt}
