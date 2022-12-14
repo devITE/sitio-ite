@@ -8,7 +8,7 @@ export default class CulturaCivica extends Component {
   render() {
     return (
       <div>
-        <TitlePages title="Cultura Cívica" />
+        <TitlePages title="Cultura Cívica" subTitle="" />
         {/* <h2 className="text-center estilos-cintillo">&nbsp;</h2> */}
         <div className="educacion-civica">
           <Link to="/ActividadesLudicas">
