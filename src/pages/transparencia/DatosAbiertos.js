@@ -14,7 +14,7 @@ export default class DatosAbiertos extends Component {
     return (
       <>
         <TitlePages title="Transparencia" subTitle="Datos Abiertos" />
-        <div className="accordion accordion-flush" id="metasMSPEN">
+        <div className="accordion accordion-flush w-50 mx-auto" id="metasMSPEN">
           {dataDatosAbiertos.map((accordionsItem) => (
             <div key={accordionsItem.id} className="accordion-item">
               <h2 className="accordion-header">

@@ -1,22 +1,9 @@
-.containerr {
-    min-height: 450px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+/* --------------- M E D I A     Q U E R I E S --------------- */
 
-
-.carousell {
-    margin: 0 auto;
-    overflow: hidden;
-    max-width: 900px;
-}
-
-.carousell-inner {
-    white-space: nowrap;
-}
-
-.carousell-item {
-    display: inline-block;
-    width: 100%;
+/* mobil */
+@media only screen and (max-width: 767px) {
+  .Video-embed {
+    width: 80% !important;
+    margin: auto;
+  }
 }

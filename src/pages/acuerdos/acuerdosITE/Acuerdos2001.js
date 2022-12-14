@@ -86,7 +86,7 @@ const Acuerdos2001 = () => {
   );
   return (
     <>
-      <TitlePages title="Acuerdos ITE 2001" />
+      <TitlePages title="Acuerdos ITE 2001" subTitle="" />
       <MaterialReactTable
         columns={columns}
         data={dataAcuerdos2001}
@@ -102,7 +102,7 @@ const Acuerdos2001 = () => {
           },
         }}
       />
-      <TitlePages title="Ayuntamientos 10/Nov/2001" />
+      <TitlePages title="" subTitle="Ayuntamientos 10/Nov/2001" />
       <MaterialReactTable
         columns={columnsAA1}
         data={dataAA12001}
@@ -111,15 +111,9 @@ const Acuerdos2001 = () => {
         enableColumnActions={false}
         enableDensityToggle={false}
         initialState={{ density: "compact" }}
-        muiTableHeadCellProps={{
-          sx: {
-            backgroundColor: "#972069",
-            color: "#fff",
-          },
-        }}
       />
 
-      <TitlePages title="Ayuntamientos Dic-2001" />
+      <TitlePages title="" subTitle="Ayuntamientos Dic-2001" />
       <MaterialReactTable
         columns={columnsAA2}
         data={dataAA22001}

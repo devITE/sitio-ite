@@ -73,7 +73,7 @@ const Acuerdos2003 = () => {
 
   return (
     <>
-      <TitlePages title="Acuerdos ITE 2003" />
+      <TitlePages title="Acuerdos ITE 2003" subTitle="" />
       <MaterialReactTable
         columns={columns}
         data={dataAcuerdos2003}
@@ -82,18 +82,11 @@ const Acuerdos2003 = () => {
         enableColumnActions={false}
         enableDensityToggle={false}
         initialState={{ density: "compact" }}
-        muiTableHeadCellProps={{
+        muiExpandButtonProps={({ row }) => ({
           sx: {
-            backgroundColor: "#972069",
-            color: "#fff",
+            display: row.original.subRows === "" ? "none" : "flex",
           },
-        }}
-        muiTableFooterCellProps={{
-          sx: {
-            backgroundColor: "#972069",
-            color: "#fff",
-          },
-        }}
+        })}
         muiTablePaginationProps={{
           rowsPerPageOptions: [10, 25, 50, 100, 200, 300, 400],
           labelRowsPerPage: "Filas por página",

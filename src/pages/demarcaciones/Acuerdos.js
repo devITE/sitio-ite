@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import imagenes from "./img/acuerdos.png";
+import TitlePages from "../../layout/TitlePages";
+
 import imagenes1 from "./img/ine2015.png";
 import imagenes2 from "./img/anexo.png";
 import imagenes3 from "./img/acuerdo130815.png";
@@ -19,8 +20,7 @@ export default class Acuerdos extends Component {
   render() {
     return (
       <div>
-        <img src={imagenes} className="img-fluid w-100" alt="Acuerdos" />
-        <hr className="borde" />
+        <TitlePages title="Acuerdos" subTitle="" />
         <div className="w-100 acuerdos">
           <div className="">
             <a

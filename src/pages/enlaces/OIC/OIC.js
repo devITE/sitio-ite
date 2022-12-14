@@ -125,7 +125,7 @@ export default class OIC extends Component {
             <p className="mt-2">Código de Ética</p>
           </div>
           <div>
-            <Link to="/Galeria">
+            <Link to="/GaleriaOIC">
               <img
                 className="img-fluid"
                 src={OIC__imgpath(`./${"icons/"}${"e18.png"}`)}

@@ -1,0 +1,87 @@
+.CarouselVert {
+  width: 100%;
+  padding: 1em 0;
+  display: flex;
+  overflow: hidden;
+}
+
+.CarouselVert-content {
+  display: flex;
+}
+
+.CarouselVert-content:hover {
+  animation-play-state: paused;
+}
+
+.CarouselVert-tag {
+  width: 1800px;
+  margin: 0 0.5em;
+  padding: 0.5em;
+  background: rgba(255, 255, 255, 0.1);
+  transition: all 0.2s ease;
+}
+
+.CarouselVert-tag:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+/* --------------- M E D I A     Q U E R I E S --------------- */
+
+/* general */
+@media only screen and (min-width: 1024px) {
+  .CarouselVert-content {
+    animation: CarouselVertAnimation 90s linear 5s infinite;
+  }
+
+  .CarouselVert-tag {
+    width: 300px;
+    margin: 0 0.5em;
+    padding: 0.5em;
+    background: rgba(255, 255, 255, 0.1);
+    transition: all 0.2s ease;
+  }
+}
+
+/* tablets */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .CarouselVert-content {
+    animation: CarouselVertAnimation 120s linear 5s infinite;
+  }
+
+  .CarouselVert-tag {
+    width: 300px;
+    margin: 0 0.5em;
+    padding: 0.5em;
+    background: rgba(255, 255, 255, 0.1);
+    transition: all 0.2s ease;
+  }
+}
+
+/* mobil */
+@media only screen and (max-width: 767px) {
+  .CarouselVert-content {
+    animation: CarouselVertAnimation 150s linear 5s infinite;
+  }
+
+  .CarouselVert-tag {
+    width: 200px;
+    margin: 0 0.5em;
+    padding: 0.5em;
+    background: rgba(255, 255, 255, 0.1);
+    transition: all 0.2s ease;
+  }
+}
+
+/* --------------- K E Y F R A M E S --------------- */
+
+@keyframes CarouselVertAnimation {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-100%);
+  }
+}

@@ -11454,12 +11454,14 @@ export const dataAcuerdos2016 = [
         typeDoc: "",
         nameDoc: "ANEXO 1 FORMATOS DE CANDIDATURAS INDEPENDIENTES",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"1.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc:
           "ANEXO 2 REGLAMENTO PARA EL REGISTRO DE CANDIDATURAS INDEPENDIENTES",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"1.2.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -11472,6 +11474,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "ENE",
     nameDoc: "COALICIÓN PRI PVEM PNA PS PARA LA ELECCIÓN DE GOBERNADOR",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"2.pdf"}`),
+    subRows: "",
   },
   {
     id: 3,
@@ -11482,6 +11485,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "ENE",
     nameDoc: "ADECUACIÓN PRESUPUESTO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"3.pdf"}`),
+    subRows: "",
   },
   {
     id: 4,
@@ -11492,6 +11496,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "ENE",
     nameDoc: "ASPIRANTES CANDIDATOS INDEPENDIENTES",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"4.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -11508,6 +11513,7 @@ export const dataAcuerdos2016 = [
         typeDoc: "",
         nameDoc: "ANEXO DICTAMEN PAC",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"5.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -11526,16 +11532,19 @@ export const dataAcuerdos2016 = [
         typeDoc: "",
         nameDoc: "ANEXO 1 CONVOCATORIA CONSEJOS DISTRITALES Y MUNICIPALES",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"6.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "ANEXO 2 MANIFIESTO BAJO PROTESTA CDyM",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"6.2.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "ANEXO 3 SOLICITUD",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"6.3.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -11548,6 +11557,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "FEB",
     nameDoc: "COMITÉ DE ADQUISICIONES",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"7.pdf"}`),
+    subRows: "",
   },
   {
     id: 8,
@@ -11558,6 +11568,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "FEB",
     nameDoc: "NOMBRAMIENTO DIRECTOR JURÍDICO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"8.pdf"}`),
+    subRows: "",
   },
   {
     id: 9,
@@ -11568,6 +11579,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "FEB",
     nameDoc: "CANDIDATOS INDEPENDIENTES PRESIDENTES DE COMUNIDAD",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"9.pdf"}`),
+    subRows: "",
   },
   {
     id: 10,
@@ -11578,6 +11590,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAR",
     nameDoc: "DE APOYO CIUDADANO DE AYUNTAMIENTOS Y DIPUTADOS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"10.pdf"}`),
+    subRows: "",
   },
   {
     id: 11,
@@ -11588,6 +11601,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAR",
     nameDoc: "PLATAFORMA PAN",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"11.pdf"}`),
+    subRows: "",
   },
   {
     id: 12,
@@ -11598,6 +11612,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAR",
     nameDoc: "PLATAFORMA PRI",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"12.pdf"}`),
+    subRows: "",
   },
   {
     id: 13,
@@ -11608,6 +11623,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAR",
     nameDoc: "PLATAFORMA PRD",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"13.pdf"}`),
+    subRows: "",
   },
   {
     id: 14,
@@ -11618,6 +11634,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAR",
     nameDoc: "PLATAFORMA PVEM",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"14.pdf"}`),
+    subRows: "",
   },
   {
     id: 15,
@@ -11628,6 +11645,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAR",
     nameDoc: "PLATAFORMA MC",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"15.pdf"}`),
+    subRows: "",
   },
   {
     id: 16,
@@ -11638,6 +11656,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAR",
     nameDoc: "PLATAFORMA NA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"16.pdf"}`),
+    subRows: "",
   },
   {
     id: 17,
@@ -11648,6 +11667,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAR",
     nameDoc: "PLATAFORMA PS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"17.pdf"}`),
+    subRows: "",
   },
   {
     id: 18,
@@ -11658,6 +11678,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAR",
     nameDoc: "PLATAFORMA MORENA.",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"18.pdf"}`),
+    subRows: "",
   },
   {
     id: 19,
@@ -11668,6 +11689,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAR",
     nameDoc: "PLATAFORMA ENC SOC",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"19.pdf"}`),
+    subRows: "",
   },
   {
     id: 20,
@@ -11678,6 +11700,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAR",
     nameDoc: "PLATAFORMA PT",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"20.pdf"}`),
+    subRows: "",
   },
   {
     id: 21,
@@ -11688,6 +11711,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAR",
     nameDoc: "CANDIDATURA COMÚN PRI",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"21.pdf"}`),
+    subRows: "",
   },
   {
     id: 22,
@@ -11698,6 +11722,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAR",
     nameDoc: "CANDIDATURA PRD PT",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"22.pdf"}`),
+    subRows: "",
   },
   {
     id: 23,
@@ -11708,6 +11733,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAR",
     nameDoc: "PRESIDENTE PAC",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"23.pdf"}`),
+    subRows: "",
   },
   {
     id: 24,
@@ -11718,6 +11744,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAR",
     nameDoc: "PLATAFORMA PAC",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"24.pdf"}`),
+    subRows: "",
   },
   {
     id: 25,
@@ -11728,6 +11755,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAR",
     nameDoc: "AMPLIACIÓN DE VERIFICACIÓN DE PORCENTAJE A GOBERNADOR",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"25.pdf"}`),
+    subRows: "",
   },
   {
     id: 26,
@@ -11738,6 +11766,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAR",
     nameDoc: "VERIFICACIÓN DE PORCENTAJE A GOBERNADOR",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"26.pdf"}`),
+    subRows: "",
   },
   {
     id: 27,
@@ -11748,6 +11777,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAR",
     nameDoc: "CONSEJOS DISTRITALES Y MUNICIPALES",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"27.pdf"}`),
+    subRows: "",
   },
   {
     id: 28,
@@ -11758,6 +11788,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAR",
     nameDoc: "PROGRAMA PAN",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"28.pdf"}`),
+    subRows: "",
   },
   {
     id: 29,
@@ -11768,6 +11799,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAR",
     nameDoc: "PROGRAMA PRI",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"29.pdf"}`),
+    subRows: "",
   },
   {
     id: 30,
@@ -11778,6 +11810,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAR",
     nameDoc: "PROGRAMA PRD",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"30.pdf"}`),
+    subRows: "",
   },
   {
     id: 31,
@@ -11788,6 +11821,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAR",
     nameDoc: "PROGRAMA PT",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"31.pdf"}`),
+    subRows: "",
   },
   {
     id: 32,
@@ -11798,6 +11832,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAR",
     nameDoc: "PROGRAMA PVEM",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"32.pdf"}`),
+    subRows: "",
   },
   {
     id: 33,
@@ -11808,6 +11843,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAR",
     nameDoc: "PROGRAMA MC",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"33.pdf"}`),
+    subRows: "",
   },
   {
     id: 34,
@@ -11818,6 +11854,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAR",
     nameDoc: "PROGRAMA PANAL",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"34.pdf"}`),
+    subRows: "",
   },
   {
     id: 35,
@@ -11828,6 +11865,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAR",
     nameDoc: "PROGRAMA PAC",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"35.pdf"}`),
+    subRows: "",
   },
   {
     id: 36,
@@ -11838,6 +11876,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAR",
     nameDoc: "PROGRAMA PS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"36.pdf"}`),
+    subRows: "",
   },
   {
     id: 37,
@@ -11848,6 +11887,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAR",
     nameDoc: "PROGRAMA MORENA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"37.pdf"}`),
+    subRows: "",
   },
   {
     id: 38,
@@ -11858,6 +11898,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAR",
     nameDoc: "PROGRAMA PES",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"38.pdf"}`),
+    subRows: "",
   },
   {
     id: 39,
@@ -11868,6 +11909,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAR",
     nameDoc: "BENITO Y MELISSA CANDIDATOS INDEPENDIENTES",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"39.pdf"}`),
+    subRows: "",
   },
   {
     id: 40,
@@ -11878,6 +11920,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAR",
     nameDoc: "PAC BERNARDINO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"40.pdf"}`),
+    subRows: "",
   },
   {
     id: 41,
@@ -11888,6 +11931,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAR",
     nameDoc: "PRI PVEM PANAL Y PS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"41.pdf"}`),
+    subRows: "",
   },
   {
     id: 42,
@@ -11898,6 +11942,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAR",
     nameDoc: "PRD PT",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"42.pdf"}`),
+    subRows: "",
   },
   {
     id: 43,
@@ -11908,6 +11953,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAR",
     nameDoc: "PVEM PS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"43.pdf"}`),
+    subRows: "",
   },
   {
     id: 44,
@@ -11918,6 +11964,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAR",
     nameDoc: "ALFONSO CANO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"44.pdf"}`),
+    subRows: "",
   },
   {
     id: 45,
@@ -11928,6 +11975,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAR",
     nameDoc: "CUMPLIMIENTO SUP JDC 1181 2016 DE JORGE MORENO DURAN",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"45.pdf"}`),
+    subRows: "",
   },
   {
     id: 46,
@@ -11938,6 +11986,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "DESIGNACIÓN DEL COMITÉ PREP",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"46.pdf"}`),
+    subRows: "",
   },
   {
     id: 47,
@@ -11948,6 +11997,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "SUSTITUCIONES",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"47.pdf"}`),
+    subRows: "",
   },
   {
     id: 48,
@@ -11958,6 +12008,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "FINANCIAMIENTO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"48.pdf"}`),
+    subRows: "",
   },
   {
     id: 49,
@@ -11968,6 +12019,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "DOCUMENTACIÓN Y MATERIAL ELECTORAL",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"49.pdf"}`),
+    subRows: "",
   },
   {
     id: 50,
@@ -11978,6 +12030,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "BOLETAS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"50.pdf"}`),
+    subRows: "",
   },
   {
     id: 51,
@@ -11988,6 +12041,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "CUMPLIMIENTO JOSÉ EFRÉN SANTACRUZ MOCTEZUMA BUENO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"51.pdf"}`),
+    subRows: "",
   },
   {
     id: 52,
@@ -11998,6 +12052,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "GOBERNADOR COALICIÓN PRI PVEM NA PS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"52.pdf"}`),
+    subRows: "",
   },
   {
     id: 53,
@@ -12008,6 +12063,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "GOBERNADOR PAN",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"53.pdf"}`),
+    subRows: "",
   },
   {
     id: 54,
@@ -12018,6 +12074,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "GOBERNADOR PRD",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"54.pdf"}`),
+    subRows: "",
   },
   {
     id: 55,
@@ -12028,6 +12085,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "GOBERNADOR MOVIMIENTO CIUDADANO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"55.pdf"}`),
+    subRows: "",
   },
   {
     id: 56,
@@ -12038,6 +12096,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "GOBERNADOR PAC",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"56.pdf"}`),
+    subRows: "",
   },
   {
     id: 57,
@@ -12048,6 +12107,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "GOBERNADOR MORENA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"57.pdf"}`),
+    subRows: "",
   },
   {
     id: 58,
@@ -12058,6 +12118,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "GOBERNADOR PES",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"58.pdf"}`),
+    subRows: "",
   },
   {
     id: 59,
@@ -12068,6 +12129,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "GOBERNADOR INDEPENDIENTE JACOB",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"59.pdf"}`),
+    subRows: "",
   },
   {
     id: 60,
@@ -12078,6 +12140,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "DIPUTADOS MR Y RP PAN",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"60.pdf"}`),
+    subRows: "",
   },
   {
     id: 61,
@@ -12088,6 +12151,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "DIPUTADOS MR Y RP PARTIDO DE LA REVOLUCIÓN DEMOCRÁTICA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"61.pdf"}`),
+    subRows: "",
   },
   {
     id: 62,
@@ -12098,6 +12162,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "DIPUTADOS MR Y RP DEL PARTIDO DEL TRABAJO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"62.pdf"}`),
+    subRows: "",
   },
   {
     id: 63,
@@ -12108,6 +12173,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "DIPUTADOS MR Y RP MOVIMIENTO CIUDADANO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"63.pdf"}`),
+    subRows: "",
   },
   {
     id: 64,
@@ -12118,6 +12184,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "DIPUTADOS MR Y RP PAC",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"64.pdf"}`),
+    subRows: "",
   },
   {
     id: 65,
@@ -12128,6 +12195,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "DIPUTADOS MR Y RP PARTIDO SOCIALISTA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"65.pdf"}`),
+    subRows: "",
   },
   {
     id: 66,
@@ -12138,6 +12206,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "DIPUTADOS MR Y RP MORENA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"66.pdf"}`),
+    subRows: "",
   },
   {
     id: 67,
@@ -12148,6 +12217,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "DIPUTADOS MR Y RP ENCUENTRO SOCIAL",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"67.pdf"}`),
+    subRows: "",
   },
   {
     id: 68,
@@ -12158,6 +12228,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "DIPUTADA INDEPENDIENTE MELISA IRASEMA VAZQUEZ MOLINA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"68.pdf"}`),
+    subRows: "",
   },
   {
     id: 69,
@@ -12168,6 +12239,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "DIPUTADO INDEPENDIENTE BENITO SALDÍVAR SANCHEZ",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"69.pdf"}`),
+    subRows: "",
   },
   {
     id: 70,
@@ -12178,6 +12250,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "DIPUTADO INDEPENDIENTE BENEBERTO SANCHEZ VAZQUEZ",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"70.pdf"}`),
+    subRows: "",
   },
   {
     id: 71,
@@ -12188,6 +12261,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "FINANCIAMIENTO CANDIDATOS INDEPENDIENTES",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"71.pdf"}`),
+    subRows: "",
   },
   {
     id: 72,
@@ -12198,6 +12272,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "MONUMENTOS Y ZONAS ARQUEOLÓGICAS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"72.pdf"}`),
+    subRows: "",
   },
   {
     id: 73,
@@ -12208,6 +12283,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "CANDIDATURA COMÚN DIPUTADOS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"73.pdf"}`),
+    subRows: "",
   },
   {
     id: 74,
@@ -12218,6 +12294,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: " TOPES DE CAMPAÑA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"74.pdf"}`),
+    subRows: "",
   },
   {
     id: 75,
@@ -12228,6 +12305,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "SUSTITUCIÓN CONSEJOS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"75.pdf"}`),
+    subRows: "",
   },
   {
     id: 76,
@@ -12238,6 +12316,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "CANDIDATOS COMUNES DIPUTADOS PRI PVEM Y PANAL",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"76.pdf"}`),
+    subRows: "",
   },
   {
     id: 77,
@@ -12248,6 +12327,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "CANDIDATOS COMUNES DIPUTADOS PRI Y PANAL",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"77.pdf"}`),
+    subRows: "",
   },
   {
     id: 78,
@@ -12258,6 +12338,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "PVEM MAYORÍA Y RP",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"78.pdf"}`),
+    subRows: "",
   },
   {
     id: 79,
@@ -12268,6 +12349,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "MC MAYORÍA Y RP",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"79.pdf"}`),
+    subRows: "",
   },
   {
     id: 80,
@@ -12278,6 +12360,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "PRI RP",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"80.pdf"}`),
+    subRows: "",
   },
   {
     id: 81,
@@ -12288,6 +12371,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "PANAL RP",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"81.pdf"}`),
+    subRows: "",
   },
   {
     id: 82,
@@ -12298,6 +12382,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "ADQUISICIÓN",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"82.pdf"}`),
+    subRows: "",
   },
   {
     id: 83,
@@ -12308,6 +12393,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "CUMPLIMIENTO SUP JDC 1481 2016 DE JORGE MORENO DURAN",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"83.pdf"}`),
+    subRows: "",
   },
   {
     id: 84,
@@ -12318,6 +12404,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "PREP",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"84.pdf"}`),
+    subRows: "",
   },
   {
     id: 85,
@@ -12328,6 +12415,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "MEDIDAS DE SEGURIDAD",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"85.pdf"}`),
+    subRows: "",
   },
   {
     id: 86,
@@ -12338,6 +12426,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "SUSTITUCIÓN MC",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"86.pdf"}`),
+    subRows: "",
   },
   {
     id: 87,
@@ -12348,6 +12437,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "EMBLEMA INDEPENDIENTES",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"87.pdf"}`),
+    subRows: "",
   },
   {
     id: 88,
@@ -12358,6 +12448,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "SUSTITUCIONES CONSEJOS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"88.pdf"}`),
+    subRows: "",
   },
   {
     id: 89,
@@ -12368,6 +12459,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "PROMOCIÓN DEL VOTO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"89.pdf"}`),
+    subRows: "",
   },
   {
     id: 90,
@@ -12378,6 +12470,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "ALFONSO CANO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"90.pdf"}`),
+    subRows: "",
   },
   {
     id: 91,
@@ -12388,6 +12481,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "ADENDA PRI",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"91.pdf"}`),
+    subRows: "",
   },
   {
     id: 92,
@@ -12398,6 +12492,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "JORGE MORENO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"92.pdf"}`),
+    subRows: "",
   },
   {
     id: 93,
@@ -12408,6 +12503,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "AYUNTAM. CANDIDATURA COMÚN PRI PVEM NUEVA ALIANZA PS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"93.pdf"}`),
+    subRows: "",
   },
   {
     id: 94,
@@ -12418,6 +12514,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "AYUNTAM. CANDIDATURA COMÚN PRI PVEM NUEVA ALIANZA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"94.pdf"}`),
+    subRows: "",
   },
   {
     id: 95,
@@ -12428,6 +12525,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "RESERVA REGISTRO AYUNTAMIENTOS PT",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"95.pdf"}`),
+    subRows: "",
   },
   {
     id: 96,
@@ -12438,6 +12536,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: " AYUNTAM. CANDIDATURA COMÚN PRI PVEM",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"96.pdf"}`),
+    subRows: "",
   },
   {
     id: 97,
@@ -12448,6 +12547,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "AYUNTAM. CANDIDATURA COMÚN PRI NUEVA ALIANZA PS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"97.pdf"}`),
+    subRows: "",
   },
   {
     id: 98,
@@ -12458,6 +12558,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "CANDIDATURA COMÚN PRI NUEVA ALIANZA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"98.pdf"}`),
+    subRows: "",
   },
   {
     id: 99,
@@ -12468,6 +12569,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "AYUNTAM. CANDIDATURA COMÚN PRI PS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"99.pdf"}`),
+    subRows: "",
   },
   {
     id: 100,
@@ -12478,6 +12580,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "RESERVA REGISTRO AYUNTAMIENTOS CANDIDATURA PRD PT",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"100.pdf"}`),
+    subRows: "",
   },
   {
     id: 101,
@@ -12488,6 +12591,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "AYUNTAM. CANDIDATURA COMÚN PVEM PS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"101.pdf"}`),
+    subRows: "",
   },
   {
     id: 102,
@@ -12498,6 +12602,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "REGISTRO AYUNTAM. PAN",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"102.pdf"}`),
+    subRows: "",
   },
   {
     id: 103,
@@ -12508,6 +12613,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "REGISTRO AYUNTAM. PRI",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"103.pdf"}`),
+    subRows: "",
   },
   {
     id: 104,
@@ -12518,6 +12624,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "REGISTRO AYUNTAM. PVEM",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"104.pdf"}`),
+    subRows: "",
   },
   {
     id: 105,
@@ -12528,6 +12635,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "RESERVA REGISTRO AYUNTAMIENTO MOVIMIENTO CIUDADANO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"105.pdf"}`),
+    subRows: "",
   },
   {
     id: 106,
@@ -12538,6 +12646,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "RESERVA NUEVA ALIANZA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"106.pdf"}`),
+    subRows: "",
   },
   {
     id: 107,
@@ -12548,6 +12657,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "RESERVA AYUNTAMIENTOS PAC",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"107.pdf"}`),
+    subRows: "",
   },
   {
     id: 108,
@@ -12558,6 +12668,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "REGISTRO AYUNTAM. PS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"108.pdf"}`),
+    subRows: "",
   },
   {
     id: 109,
@@ -12568,6 +12679,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "MORENA AYUNTAMIENTOS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"109.pdf"}`),
+    subRows: "",
   },
   {
     id: 110,
@@ -12578,6 +12690,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "RESERVA REGISTRO AYUNTAMIENTO PES",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"110.pdf"}`),
+    subRows: "",
   },
   {
     id: 111,
@@ -12588,6 +12701,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "MUNICIPIOS INDEPENDIENTES",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"111.pdf"}`),
+    subRows: "",
   },
   {
     id: 112,
@@ -12598,6 +12712,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "RESERVA REGISTRO AYUNTAMIENTOS PRD",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"112.pdf"}`),
+    subRows: "",
   },
   {
     id: 113,
@@ -12608,6 +12723,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "SUSTITUCIÓN DIPUTADO PAN",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"113.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -12619,6 +12735,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "FINANCIAMIENTO AYUNTAMIENTOS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"115.pdf"}`),
+    subRows: "",
   },
   {
     id: 116,
@@ -12629,6 +12746,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "COMUNIDADES INDEPENDIENTES",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"116.pdf"}`),
+    subRows: "",
   },
   {
     id: 117,
@@ -12639,6 +12757,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "RESERVA REGISTRO PRESIDENCIAS DE COMUNIDAD PAN",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"117.pdf"}`),
+    subRows: "",
   },
   {
     id: 118,
@@ -12649,6 +12768,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "RESERVA REGISTRO PRESIDENCIAS DE COMUNIDAD PRI",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"118.pdf"}`),
+    subRows: "",
   },
   {
     id: 119,
@@ -12659,6 +12779,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "RESERVA REGISTRO PRESIDENCIAS DE COMUNIDAD PRD",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"119.pdf"}`),
+    subRows: "",
   },
   {
     id: 120,
@@ -12669,6 +12790,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "RESERVA REGISTRO PRESIDENCIAS DE COMUNIDAD PT",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"120.pdf"}`),
+    subRows: "",
   },
   {
     id: 121,
@@ -12679,6 +12801,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "RESERVA REGISTRO PRESIDENCIAS DE COMUNIDAD PVEM",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"121.pdf"}`),
+    subRows: "",
   },
   {
     id: 122,
@@ -12689,6 +12812,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "RESERVA DE COMUNIDAD MC",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"122.pdf"}`),
+    subRows: "",
   },
   {
     id: 123,
@@ -12699,6 +12823,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "RESERVA REGISTRO PRESIDENCIAS DE COMUNIDAD NUEVA ALIANZA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"123.pdf"}`),
+    subRows: "",
   },
   {
     id: 124,
@@ -12709,6 +12834,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "RESERVA REGISTRO PRESIDENCIAS DE COMUNIDAD PAC",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"124.pdf"}`),
+    subRows: "",
   },
   {
     id: 125,
@@ -12719,6 +12845,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "RESERVA REGISTRO PRESIDENCIAS DE COMUNIDAD PS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"125.pdf"}`),
+    subRows: "",
   },
   {
     id: 126,
@@ -12729,6 +12856,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "RESERVA REGISTRO PRESIDENCIAS DE COMUNIDAD MORENA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"126.pdf"}`),
+    subRows: "",
   },
   {
     id: 127,
@@ -12739,6 +12867,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "RESERVA REGISTRO PRESIDENCIAS DE COMUNIDAD PES",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"127.pdf"}`),
+    subRows: "",
   },
   {
     id: 128,
@@ -12749,6 +12878,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "TOPES AYUNTAMIENTOS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"128.pdf"}`),
+    subRows: "",
   },
   {
     id: 129,
@@ -12759,6 +12889,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "DISTRIBUCIÓN A CADA CANDIDATO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"129.pdf"}`),
+    subRows: "",
   },
   {
     id: 130,
@@ -12769,6 +12900,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "DIRIGENCIA PAC",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"130.pdf"}`),
+    subRows: "",
   },
   {
     id: 131,
@@ -12779,6 +12911,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "SUSTITUCIÓN DIPUTADO PT",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"131.pdf"}`),
+    subRows: "",
   },
   {
     id: 132,
@@ -12789,6 +12922,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "SUSTITUCIÓN DIPUTADO PAC",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"132.pdf"}`),
+    subRows: "",
   },
   {
     id: 133,
@@ -12799,6 +12933,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "SUSTITUCIÓN DIPUTADO PAN",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"133.pdf"}`),
+    subRows: "",
   },
   {
     id: 134,
@@ -12809,6 +12944,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "SUSTITUCIÓN AYUNTAMIENTO SANTA CRUZ TLAXCALA PAN",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"134.pdf"}`),
+    subRows: "",
   },
   {
     id: 135,
@@ -12819,6 +12955,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "SUSTITUCIÓN AYUNTAMIENTO TEPETITLA DE LARDIZÁBAL PAN",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"135.pdf"}`),
+    subRows: "",
   },
   {
     id: 136,
@@ -12829,6 +12966,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "CÓMPUTOS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"136.pdf"}`),
+    subRows: "",
   },
   {
     id: 137,
@@ -12839,6 +12977,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "SUSTITUCIÓN PVEM AYUNTAMIENTOS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"137.pdf"}`),
+    subRows: "",
   },
   {
     id: 138,
@@ -12849,6 +12988,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "REGISTRO AYUNTAM. PAC",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"138.pdf"}`),
+    subRows: "",
   },
   {
     id: 139,
@@ -12859,6 +12999,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "SUSTITUCIÓN AYUNTAMIENTO APETATITLÁN PAN",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"139.pdf"}`),
+    subRows: "",
   },
   {
     id: 140,
@@ -12869,6 +13010,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "REGISTRO AYUNTAMIENTOS DEFINITIVO MC",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"140.pdf"}`),
+    subRows: "",
   },
   {
     id: 141,
@@ -12879,6 +13021,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "AYUNTAMIENTOS PRD PT",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"141.pdf"}`),
+    subRows: "",
   },
   {
     id: 142,
@@ -12889,6 +13032,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "AYUNTAMIENTOS PRD",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"142.pdf"}`),
+    subRows: "",
   },
   {
     id: 143,
@@ -12899,6 +13043,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "MOVIMIENTO CIUDADANO PRESIDENCIAS DE COMUNIDAD",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"143.pdf"}`),
+    subRows: "",
   },
   {
     id: 144,
@@ -12909,6 +13054,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "PVEM COMUNIDADES",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"144.pdf"}`),
+    subRows: "",
   },
   {
     id: 145,
@@ -12919,6 +13065,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "SUSTITUCIÓN DIPUTADO PAC",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"145.pdf"}`),
+    subRows: "",
   },
   {
     id: 146,
@@ -12929,6 +13076,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "AYUNTAMIENTOS PES FINAL",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"146.pdf"}`),
+    subRows: "",
   },
   {
     id: 147,
@@ -12939,6 +13087,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "AYUNTAM. NUEVA ALIANZA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"147.pdf"}`),
+    subRows: "",
   },
   {
     id: 148,
@@ -12949,6 +13098,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "AYUNTAMIENTOS PT",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"148.pdf"}`),
+    subRows: "",
   },
   {
     id: 149,
@@ -12959,6 +13109,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "DE PRESIDENCIAS DE COMUNIDAD PAN",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"149.pdf"}`),
+    subRows: "",
   },
   {
     id: 150,
@@ -12969,6 +13120,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "DE PRESIDENCIAS DE COMUNIDAD PRI",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"150.pdf"}`),
+    subRows: "",
   },
   {
     id: 151,
@@ -12979,6 +13131,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "PRESIDENCIAS DE COMUNIDAD PAC",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"151.pdf"}`),
+    subRows: "",
   },
   {
     id: 152,
@@ -12989,6 +13142,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "RESERVA COMUNIDAD MORENA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"152.pdf"}`),
+    subRows: "",
   },
   {
     id: 153,
@@ -12999,6 +13153,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "RESERVA COMUNIDAD PES",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"153.pdf"}`),
+    subRows: "",
   },
   {
     id: 154,
@@ -13009,6 +13164,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "RESERVA PRESIDENCIAS DE COMUNIDAD PRD",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"154.pdf"}`),
+    subRows: "",
   },
   {
     id: 155,
@@ -13019,6 +13175,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "RESERVA PT",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"155.pdf"}`),
+    subRows: "",
   },
   {
     id: 156,
@@ -13029,6 +13186,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "RESERVA PRESIDENCIAS DE COMUNIDAD PNA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"156.pdf"}`),
+    subRows: "",
   },
   {
     id: 157,
@@ -13039,6 +13197,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "RESERVA PRESIDENCIAS DE COMUNIDAD PS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"157.pdf"}`),
+    subRows: "",
   },
   {
     id: 158,
@@ -13049,6 +13208,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "SUSTITUCIÓN DIPUTADOS DISTRITO 12 Y 3 FORMULA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"158.pdf"}`),
+    subRows: "",
   },
   {
     id: 159,
@@ -13059,6 +13219,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "COMUNIDADES PRD",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"159.pdf"}`),
+    subRows: "",
   },
   {
     id: 160,
@@ -13069,6 +13230,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "PRESIDENCIAS DE COMUNIDAD PNA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"160.pdf"}`),
+    subRows: "",
   },
   {
     id: 161,
@@ -13079,6 +13241,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "PAC PRESIDENCIAS DE COMUNIDAD DEFINITIVO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"161.pdf"}`),
+    subRows: "",
   },
   {
     id: 162,
@@ -13089,6 +13252,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "SUSTITUCIÓN GOBERNADOR PES",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"162.pdf"}`),
+    subRows: "",
   },
   {
     id: 163,
@@ -13099,6 +13263,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "SUSTITUCIÓN DIPUTADO DISTRITO 03 PVEM",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"163.pdf"}`),
+    subRows: "",
   },
   {
     id: 164,
@@ -13109,6 +13274,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "COMUNIDADES PT",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"164.pdf"}`),
+    subRows: "",
   },
   {
     id: 165,
@@ -13119,6 +13285,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "COMUNIDADES FINAL PES",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"165.pdf"}`),
+    subRows: "",
   },
   {
     id: 166,
@@ -13129,6 +13296,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "COMUNIDADES FINAL PS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"166.pdf"}`),
+    subRows: "",
   },
   {
     id: 167,
@@ -13139,6 +13307,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "COMUNIDADES FINAL MORENA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"167.pdf"}`),
+    subRows: "",
   },
   {
     id: 168,
@@ -13149,6 +13318,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "SUSTITUCIÓN AYUNTAMIENTO SAN FRANCISCO TETLANOHCAN PRD",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"168.pdf"}`),
+    subRows: "",
   },
   {
     id: 169,
@@ -13159,6 +13329,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "SUSTITUCIÓN AYUNTAMIENTO APETATITLÁN MC PENDIENTE",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"169.pdf"}`),
+    subRows: "",
   },
   {
     id: 170,
@@ -13169,6 +13340,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "SUSTITUCIÓN AYUNTAMIENTO TZOMPANTEPEC PRD",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"170.pdf"}`),
+    subRows: "",
   },
   {
     id: 171,
@@ -13179,6 +13351,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "SUSTITUCIÓN AYUNTAMIENTO MUÑOZ DE DOMINGO ARENAS PNA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"171.pdf"}`),
+    subRows: "",
   },
   {
     id: 172,
@@ -13189,6 +13362,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "SOBRENOMBRES 2016",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"172.pdf"}`),
+    subRows: "",
   },
   {
     id: 173,
@@ -13199,6 +13373,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "CUMPLIMIENTO RESOLUCIÓN INE CG299 2016",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"173.pdf"}`),
+    subRows: "",
   },
   {
     id: 174,
@@ -13209,6 +13384,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "SUSTITUCIÓN AYUNTAMIENTO DE EMILIANO ZAPATA MORENA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"174.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -13220,6 +13396,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "SUSTITUCIÓN DIPUTADA 15 PS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"176.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -13236,16 +13413,19 @@ export const dataAcuerdos2016 = [
         typeDoc: "",
         nameDoc: "ANEXO 1 F1_01",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"177.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "AMEXO 2 PROGRAMA OPERACIÓN SIJE",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"177.2.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "ANEXO 3 SIJE_LMD_F2",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"177.3.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -13258,6 +13438,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "PT",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"178.pdf"}`),
+    subRows: "",
   },
   {
     id: 179,
@@ -13268,6 +13449,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "SUSTITUCIÓN PC SANTA CRUZ PORVENIR IXTACUIXTA NA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"179.pdf"}`),
+    subRows: "",
   },
   {
     id: 180,
@@ -13278,6 +13460,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "SUSTITUCIÓN PC COLONIA REFORMA CHIAUTEMPAN PS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"180.pdf"}`),
+    subRows: "",
   },
   {
     id: 181,
@@ -13288,6 +13471,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "SUSTITUCION PC SUPLENTE ACUITLAPILCO PS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"181.pdf"}`),
+    subRows: "",
   },
   {
     id: 182,
@@ -13298,6 +13482,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "SUSTITUCIÓN PC TLALTEMPAN MORENA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"182.pdf"}`),
+    subRows: "",
   },
   {
     id: 183,
@@ -13308,6 +13493,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "ACUERDO SUSTITUCIÓN PRI DTO 01 MAY RELAT",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"183.pdf"}`),
+    subRows: "",
   },
   {
     id: 184,
@@ -13318,6 +13504,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "BODEGAS CUMPLIMIENTO ACUERDO INE CG122 2016",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"184.pdf"}`),
+    subRows: "",
   },
   {
     id: 185,
@@ -13328,6 +13515,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "SUSTITUCION DE INTEGRANTES DE CONSEJO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"185.pdf"}`),
+    subRows: "",
   },
   {
     id: 186,
@@ -13338,6 +13526,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "CANDIDATURA COMÚN PRI PVEM NUEVA ALIANZA PS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"186.pdf"}`),
+    subRows: "",
   },
   {
     id: 187,
@@ -13348,6 +13537,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "CANDIDATURA COMÚN PRI PVEM",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"187.pdf"}`),
+    subRows: "",
   },
   {
     id: 188,
@@ -13358,6 +13548,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "CANDIDATURA COMÚN PRI NUEVA ALIANZA PS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"188.pdf"}`),
+    subRows: "",
   },
   {
     id: 189,
@@ -13368,6 +13559,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "CANDIDATURA COMUN PRD PT",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"189.pdf"}`),
+    subRows: "",
   },
   {
     id: 190,
@@ -13378,6 +13570,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "REGISTRO AYUNTAM PRI",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"190.pdf"}`),
+    subRows: "",
   },
   {
     id: 191,
@@ -13388,6 +13581,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "CASILLAS ESPECIALES",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"191.pdf"}`),
+    subRows: "",
   },
   {
     id: 192,
@@ -13398,6 +13592,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "SUSTITUCIÓN AYUNTAMIENTO XILOXOXTLA PAN",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"192.pdf"}`),
+    subRows: "",
   },
   {
     id: 193,
@@ -13408,6 +13603,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "SUSTITUCIÓN AYUNTAMIENTO BENITO JUÁREZ PRI",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"193.pdf"}`),
+    subRows: "",
   },
   {
     id: 194,
@@ -13418,6 +13614,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "SUSTITUCIÓN PC ATLANGATEPEC PAN",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"194.pdf"}`),
+    subRows: "",
   },
   {
     id: 195,
@@ -13428,6 +13625,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "SUSTITUCIÓN CONSEJOS MUNICIPALES",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"195.pdf"}`),
+    subRows: "",
   },
   {
     id: 196,
@@ -13438,6 +13636,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "SUSTITUCIÓN SEGUNDA REGIDORA ATLANGATEPEC PRI",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"196.pdf"}`),
+    subRows: "",
   },
   {
     id: 197,
@@ -13448,6 +13647,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "SUSTITUCIÓN LÁZARO CARDENAS PRI",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"197.pdf"}`),
+    subRows: "",
   },
   {
     id: 198,
@@ -13458,6 +13658,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "SUSTITUCIÓN PRIMERA REGIDORA SANTA CRUZ TLAXCALA PT",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"198.pdf"}`),
+    subRows: "",
   },
   {
     id: 199,
@@ -13468,6 +13669,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "SUSTITUCIÓN PC TLAXCO PRI",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"199.pdf"}`),
+    subRows: "",
   },
   {
     id: 200,
@@ -13478,6 +13680,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "SUSTITUCIÓN PC SANTA CARINA AYOMETLA PT",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"200.pdf"}`),
+    subRows: "",
   },
   {
     id: 201,
@@ -13488,6 +13691,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "CAMBIO DE DOMICILIO DE CATD",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"201.pdf"}`),
+    subRows: "",
   },
   {
     id: 202,
@@ -13498,6 +13702,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "SUSTITUCIÓN DIPUTADO MR 4 MORENA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"202.pdf"}`),
+    subRows: "",
   },
   {
     id: 203,
@@ -13508,6 +13713,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "SUSTITUCIÓN DIPUTADO RPP 3 MORENA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"203.pdf"}`),
+    subRows: "",
   },
   {
     id: 204,
@@ -13518,6 +13724,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "SUSTITUCIÓN SANTA ISABEL XILOXOXTLA PRD PT",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"204.pdf"}`),
+    subRows: "",
   },
   {
     id: 205,
@@ -13528,6 +13735,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "SUSTITUCIÓN PRIMER REGIDOR HUAMANTLA PVEM",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"205.pdf"}`),
+    subRows: "",
   },
   {
     id: 206,
@@ -13538,6 +13746,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "SUSTITUCIÓN PC RANCHERIA ALTAMIRA DE GUADALUPE HUAMANTLA MORENA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"206.pdf"}`),
+    subRows: "",
   },
   {
     id: 207,
@@ -13548,6 +13757,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "SUSTITUCIÓN PC SAN JORGE TEXOQUIPAN PANOTLA MORENA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"207.pdf"}`),
+    subRows: "",
   },
   {
     id: 208,
@@ -13558,6 +13768,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "SUSTITUCION PRESIDENTE COMUNIDAD ACUITLAPILCO PT",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"208.pdf"}`),
+    subRows: "",
   },
   {
     id: 209,
@@ -13568,6 +13779,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "SUSTITUCION DE COMUNIDAD PT",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"209.pdf"}`),
+    subRows: "",
   },
   {
     id: 210,
@@ -13578,6 +13790,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "SUSTITUCIÓN AYUNTAMIENTO PAC",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"210.pdf"}`),
+    subRows: "",
   },
   {
     id: 211,
@@ -13588,6 +13801,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "SUSTITUCIÓN PRIMER REGIDOR CALPULALPAN PES",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"211.pdf"}`),
+    subRows: "",
   },
   {
     id: 212,
@@ -13598,6 +13812,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "MORENA SORTEO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"212.pdf"}`),
+    subRows: "",
   },
   {
     id: 213,
@@ -13608,6 +13823,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "PAC SORTEO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"213.pdf"}`),
+    subRows: "",
   },
   {
     id: 214,
@@ -13618,6 +13834,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "PES SORTEO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"214.pdf"}`),
+    subRows: "",
   },
   {
     id: 215,
@@ -13628,6 +13845,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "PNA SORTEO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"215.pdf"}`),
+    subRows: "",
   },
   {
     id: 216,
@@ -13638,6 +13856,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "CUMPLIMIENTO SALA REGIONAL PRD PANOTLA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"216.pdf"}`),
+    subRows: "",
   },
   {
     id: 217,
@@ -13648,6 +13867,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "CUMPLIMIENTO SALA REGIONAL PRD APIZACO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"217.pdf"}`),
+    subRows: "",
   },
   {
     id: 218,
@@ -13658,6 +13878,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "COMUNIDADES PARTIDO DEL TRABAJO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"218.pdf"}`),
+    subRows: "",
   },
   {
     id: 219,
@@ -13668,6 +13889,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "COMUNIDADES MOVIMIENTO CIUDADANO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"219.pdf"}`),
+    subRows: "",
   },
   {
     id: 220,
@@ -13678,6 +13900,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "COMUNIDADES PRD",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"220.pdf"}`),
+    subRows: "",
   },
   {
     id: 221,
@@ -13688,6 +13911,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "COMUNIDADES MORENA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"221.pdf"}`),
+    subRows: "",
   },
   {
     id: 222,
@@ -13698,6 +13922,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "PREP PLAN DE SEGURIDAD Y CONTINUIDAD",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"222.pdf"}`),
+    subRows: "",
   },
   {
     id: 223,
@@ -13708,6 +13933,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "SUSTITUCIÓN PAN DTTO. 10 PAN",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"223.pdf"}`),
+    subRows: "",
   },
   {
     id: 224,
@@ -13718,6 +13944,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "SUSTITUCIÓN PC XALOZTOC PRI",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"224.pdf"}`),
+    subRows: "",
   },
   {
     id: 225,
@@ -13728,6 +13955,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "SUSTITUCIÓN PRI SEXTA REGIDORA EL CARMEN TEQUEXQUITLA PRI",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"225.pdf"}`),
+    subRows: "",
   },
   {
     id: 226,
@@ -13738,6 +13966,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "SUSTITUCIÓN SINDICO Y SEGUNDO REGIDOR CALPULALPAN",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"226.pdf"}`),
+    subRows: "",
   },
   {
     id: 227,
@@ -13748,6 +13977,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "PROYECTO SUSTITUCIÓN AYUNTAMIENTO TETLATLAHUCA PAC.",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"227.pdf"}`),
+    subRows: "",
   },
   {
     id: 228,
@@ -13758,6 +13988,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "SUSTITUCIÓN PRESIDENCIA DE COM PS BARRIO SAN ANTONIO ATLTZAYANCA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"228.pdf"}`),
+    subRows: "",
   },
   {
     id: 229,
@@ -13768,6 +13999,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "SUSTITUCION DIPUTADO SUPLENTE PAN MR OCTAVIO ALEJANDRO ESPEJEL",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"229.pdf"}`),
+    subRows: "",
   },
   {
     id: 230,
@@ -13778,6 +14010,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "SORTEO PT",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"230.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -13789,6 +14022,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "REGISTRO MC CUMPLIMIENTO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"232.pdf"}`),
+    subRows: "",
   },
   {
     id: 233,
@@ -13799,6 +14033,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "SUSTITUCIÓN AYUNTAMIENTO YAUHQUEMEHCAN PRI",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"233.pdf"}`),
+    subRows: "",
   },
   {
     id: 234,
@@ -13809,6 +14044,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "SUSTITUCIÓN SÍNDICO PROPIETARIO AYOMETLA PRI",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"234.pdf"}`),
+    subRows: "",
   },
   {
     id: 235,
@@ -13819,6 +14055,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "SUSTITUCIÓN AYUNTAMIENTO PRESIDENTE SUPLENTE TETLA PRD",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"235.pdf"}`),
+    subRows: "",
   },
   {
     id: 236,
@@ -13829,6 +14066,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "SUSTITUCIÓN PT LÁZARO CÁRDENAS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"236.pdf"}`),
+    subRows: "",
   },
   {
     id: 237,
@@ -13839,6 +14077,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "SUSTITUCIÓN AYUNTAMIENTO PNA 01 06 16 2 ",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"237.pdf"}`),
+    subRows: "",
   },
   {
     id: 238,
@@ -13849,6 +14088,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "ENTE AUDITOR PREP",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"238.pdf"}`),
+    subRows: "",
   },
   {
     id: 239,
@@ -13859,6 +14099,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "JUN",
     nameDoc: "SUSTITUCIÓN PS TETLA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"239.pdf"}`),
+    subRows: "",
   },
   {
     id: 240,
@@ -13869,6 +14110,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "JUN",
     nameDoc: "SUSTITUCIÓN PS PTE SUP Y 1REG PROP MUÑOZ DE DOMINGO ARENAS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"240.pdf"}`),
+    subRows: "",
   },
   {
     id: 241,
@@ -13879,6 +14121,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "JUN",
     nameDoc: "PROYECTO SUSTITUCIÓN LAZARO CARDENAS PRI",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"241.pdf"}`),
+    subRows: "",
   },
   {
     id: 242,
@@ -13889,6 +14132,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "JUN",
     nameDoc: "SUSTITUCIÓN PRESIDENCIA DE COM BARRIO LA PRECIOSA HUAMANTLA PNA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"242.pdf"}`),
+    subRows: "",
   },
   {
     id: 243,
@@ -13899,6 +14143,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "JUN",
     nameDoc: "SUSTITUCIÓN SEGUNDA REGIDORA PROP AYUNT PNA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"243.pdf"}`),
+    subRows: "",
   },
   {
     id: 244,
@@ -13910,6 +14155,7 @@ export const dataAcuerdos2016 = [
     nameDoc:
       "SUSTITUCIÓN DIPUTADA SUPLENTE MR MARIA DEL ROCIO RAMIREZ DIEGUEZ PAN",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"244.pdf"}`),
+    subRows: "",
   },
   {
     id: 245,
@@ -13920,6 +14166,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "JUN",
     nameDoc: "SUSTITUCIÓN DE PAN NANACAMILPA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"245.pdf"}`),
+    subRows: "",
   },
   {
     id: 246,
@@ -13930,6 +14177,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "JUN",
     nameDoc: "SUSTITUCIÓN PAN LA MAGDALENA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"246.pdf"}`),
+    subRows: "",
   },
   {
     id: 247,
@@ -13940,6 +14188,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "JUN",
     nameDoc: "SUSTITUCIÓN PRESIDENTA SUPLENTE TZOMPANTEPEC PES",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"247.pdf"}`),
+    subRows: "",
   },
   {
     id: 248,
@@ -13950,6 +14199,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "JUN",
     nameDoc: "SUSTITUCIÓN FORMULA DIPUTADA MR TLAXCO PES",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"248.pdf"}`),
+    subRows: "",
   },
   {
     id: 249,
@@ -13960,6 +14210,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "JUN",
     nameDoc: "SUSTITUCIÓN 2DA SECCIÓN TEOTLALPAN TETLA PT",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"249.pdf"}`),
+    subRows: "",
   },
   {
     id: 250,
@@ -13970,6 +14221,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "JUN",
     nameDoc: "SUSTITUCIÓN AYUNTAMIENTO PT 29 05 2016",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"250.pdf"}`),
+    subRows: "",
   },
   {
     id: 251,
@@ -13980,6 +14232,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "JUN",
     nameDoc: "SUSTITUCIÓN PRESIDENCIA DE COM PS CHIMALPA TLAXCALA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"251.pdf"}`),
+    subRows: "",
   },
   {
     id: 252,
@@ -13990,6 +14243,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "JUN",
     nameDoc: "SUSTITUCIÓN  CONSEJO DISTRITAL Y MUNICIPALES3",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"252.pdf"}`),
+    subRows: "",
   },
   {
     id: 253,
@@ -14000,6 +14254,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "JUN",
     nameDoc: "SUSTITUCIÓN PAN CALPULALPAN DIPUTADO LOCAL SUPLENTE DITO. 01",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"253.pdf"}`),
+    subRows: "",
   },
   {
     id: 254,
@@ -14010,6 +14265,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "JUN",
     nameDoc: "SUSTITUCIÓN AYUNTAMIENTO NA 02 06 16",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"254.pdf"}`),
+    subRows: "",
   },
   {
     id: 255,
@@ -14020,6 +14276,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "JUN",
     nameDoc: "CUMPLIMIENTO SENTENCIA TET PT",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"255.pdf"}`),
+    subRows: "",
   },
   {
     id: 256,
@@ -14030,6 +14287,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "JUN",
     nameDoc: "SUSTITUCIÓN AYUNTAMIENTO LA MAGDALENA TLALTELULCO PAN",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"256.pdf"}`),
+    subRows: "",
   },
   {
     id: 257,
@@ -14040,6 +14298,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "JUN",
     nameDoc: "SUSTITUCIÓN 1ER. REGIDOR AYUNTAMIENTO ZACATELCO PAN",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"257.pdf"}`),
+    subRows: "",
   },
   {
     id: 258,
@@ -14050,6 +14309,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "JUN",
     nameDoc: "SUSTITUCIÓN AYUNTAMIENTO DE APIZACO PRI",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"258.pdf"}`),
+    subRows: "",
   },
   {
     id: 259,
@@ -14060,6 +14320,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "JUN",
     nameDoc: "SUSTITUCIÓN AYUNTAMIENTO 2DO. REGIDOR PRD",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"259.pdf"}`),
+    subRows: "",
   },
   {
     id: 260,
@@ -14070,6 +14331,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "JUN",
     nameDoc: "SUSTITUCIÓN PTE. MPAL APIZACO VERDE",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"260.pdf"}`),
+    subRows: "",
   },
   {
     id: 261,
@@ -14081,6 +14343,7 @@ export const dataAcuerdos2016 = [
     nameDoc:
       "SUSTITUCIÓN AYUNTAMIENTO YAHUQUEMEHCAN Y PRIMER REGIDOR PROP Y SUP VERDE",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"261.pdf"}`),
+    subRows: "",
   },
   {
     id: 262,
@@ -14091,6 +14354,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "JUN",
     nameDoc: "SUSTITUCIÓN AYUNTAMIENTO TETLATLAHUCA PT",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"262.pdf"}`),
+    subRows: "",
   },
   {
     id: 263,
@@ -14101,6 +14365,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "JUN",
     nameDoc: "SUSTITUCIÓN AYUNTAMIENTO TERRENATE 2 REGIDOR PANAL",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"263.pdf"}`),
+    subRows: "",
   },
   {
     id: 264,
@@ -14111,6 +14376,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "JUN",
     nameDoc: "SUSTITUCIÓN AYUNTAMIENTO TLAXCO PANAL",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"264.pdf"}`),
+    subRows: "",
   },
   {
     id: 265,
@@ -14121,6 +14387,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "JUN",
     nameDoc: "SUSTITUCIÓN AYUNTAMIENTO DE ATLTZAYANCA MORENA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"265.pdf"}`),
+    subRows: "",
   },
   {
     id: 266,
@@ -14131,6 +14398,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "JUN",
     nameDoc: "SUSTITUCIÓN AYUNTAMIENTO NATIVITAS MORENA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"266.pdf"}`),
+    subRows: "",
   },
   {
     id: 267,
@@ -14141,6 +14409,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "JUN",
     nameDoc: "SUSTITUCIÓN AYUNTAMIENTO TLAXCALA MORENA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"267.pdf"}`),
+    subRows: "",
   },
   {
     id: 268,
@@ -14152,6 +14421,7 @@ export const dataAcuerdos2016 = [
     nameDoc:
       "SUSTITUCIÓN PRIMER REGIDORA PROPIETARIA Y SUPLENTE TETLA DE LA SOLIDARIDAD MORENA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"268.pdf"}`),
+    subRows: "",
   },
   {
     id: 269,
@@ -14162,6 +14432,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "JUN",
     nameDoc: "SUSTITUCIÓN TERCER REGIDORA SUPLENTE TOTOLAC MORENA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"269.pdf"}`),
+    subRows: "",
   },
   {
     id: 270,
@@ -14172,6 +14443,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "JUN",
     nameDoc: "SUSTITUCIÓN AYUNTAMIENTO HUAMANTLA 1REGIDOR PAC",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"270.pdf"}`),
+    subRows: "",
   },
   {
     id: 271,
@@ -14182,6 +14454,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "JUN",
     nameDoc: "SUSTITUCIÓN PRESIDENCIA DE COMUNIDAD DE COLHUACA CONTLA PAC",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"271.pdf"}`),
+    subRows: "",
   },
   {
     id: 272,
@@ -14192,6 +14465,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "JUN",
     nameDoc: "SUSTITUCIÓN  CONSEJERO ELECTORAL CONSEJO DISTRITAL 10 HUAMANTLA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"272.pdf"}`),
+    subRows: "",
   },
   {
     id: 273,
@@ -14202,6 +14476,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "JUN",
     nameDoc: "CELULARES",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"273.pdf"}`),
+    subRows: "",
   },
   {
     id: 274,
@@ -14212,6 +14487,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "JUN",
     nameDoc: "SUSTITUCIÓN 1ER. REGIDOR MUNICIPAL APIZACO PRD",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"274.pdf"}`),
+    subRows: "",
   },
   {
     id: 275,
@@ -14222,6 +14498,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "JUN",
     nameDoc: "SUSTITUCIÓN PRIMER REGIDORA PROPIETARIA SAN JUAN HUACTZINCO PVEM",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"275.pdf"}`),
+    subRows: "",
   },
   {
     id: 276,
@@ -14233,6 +14510,7 @@ export const dataAcuerdos2016 = [
     nameDoc:
       "SUSTITUCIÓN AYUNTAMIENTO SAN FRANCISCO TETLANOHCAN Y AMAXAC DE GUERRERO PVEM",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"276.pdf"}`),
+    subRows: "",
   },
   {
     id: 277,
@@ -14243,6 +14521,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "JUN",
     nameDoc: "SUSTITUCIÓN AYUNTAMIENTO PVEM MUN CONTLA DE JUAN C 1ER REGIDOR",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"277.pdf"}`),
+    subRows: "",
   },
   {
     id: 278,
@@ -14253,6 +14532,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "JUN",
     nameDoc: "SUSTITUCIÓN PC SAN HIPÓLITO CHIMALPA PT",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"278.pdf"}`),
+    subRows: "",
   },
   {
     id: 279,
@@ -14264,6 +14544,7 @@ export const dataAcuerdos2016 = [
     nameDoc:
       "SUSTITUCIÓN PRIMER REGIDORA PROPIETARIA APETATITLÁN DE ANTONIO CARVAJAL  PES",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"279.pdf"}`),
+    subRows: "",
   },
   {
     id: 280,
@@ -14274,6 +14555,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "JUN",
     nameDoc: "SUSTITUCIÓN AYUNTAMIENTO PES 1 REGIDOR TEACALCO SPM",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"280.pdf"}`),
+    subRows: "",
   },
   {
     id: 281,
@@ -14284,6 +14566,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "JUN",
     nameDoc: "SUSTITUCIÓN AYUNTAMIENTO PES 1ER Y4TO REGIDOR SPM",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"281.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -14295,6 +14578,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "JUN",
     nameDoc: "MODELO OPERATIVO PAQUETES",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"283.pdf"}`),
+    subRows: "",
   },
   {
     id: 284,
@@ -14305,6 +14589,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "JUN",
     nameDoc: "SUTITUCIÓN AYUNTAMIENTO TENANCINGO Y SAN DAMIÁN TEXOLOC MORENA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"284.pdf"}`),
+    subRows: "",
   },
   {
     id: 285,
@@ -14315,6 +14600,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "JUN",
     nameDoc: "PROCEDIMIENTO CONTINUACIÓN COMPUTO DISTRITAL 14",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"285.pdf"}`),
+    subRows: "",
   },
   {
     id: 286,
@@ -14325,6 +14611,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "JUN",
     nameDoc: "CÓMPUTO Y DECLARACIÓN DE VALIDEZ GOBERNADOR",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"286.pdf"}`),
+    subRows: "",
   },
   {
     id: 287,
@@ -14336,6 +14623,7 @@ export const dataAcuerdos2016 = [
     nameDoc:
       "CANCELACIÓN DE REGISTRO POR NO ALCANZAR EL 325 SECRETARÍA 16 06 2016",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"287.pdf"}`),
+    subRows: "",
   },
   {
     id: 288,
@@ -14346,6 +14634,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "JUN",
     nameDoc: "ASIGNACIÓN DIPUTADOS DE REPRESENTACIÓN PROPORCIONAL",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"288.pdf"}`),
+    subRows: "",
   },
   {
     id: 289,
@@ -14356,6 +14645,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "JUN",
     nameDoc: "ASIGNACIÓN REGIDURÍAS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"289.pdf"}`),
+    subRows: "",
   },
   {
     id: 290,
@@ -14367,6 +14657,7 @@ export const dataAcuerdos2016 = [
     nameDoc:
       "CUMPLIMIENTO TRIBUNAL ELECTORAL DE TLAXCALA AYUNTAMIENTO DE APIZACO PRI",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"290.pdf"}`),
+    subRows: "",
   },
   {
     id: 291,
@@ -14377,6 +14668,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "JUN",
     nameDoc: "RETIRO PROPAGANDA POLÍTICA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"291.pdf"}`),
+    subRows: "",
   },
   {
     id: 292,
@@ -14387,6 +14679,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "JUN",
     nameDoc: "SERVICIO PROFESIONAL ELECTORAL NACIONAL",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"292.pdf"}`),
+    subRows: "",
   },
   {
     id: 293,
@@ -14397,6 +14690,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "JUL",
     nameDoc: "REGIDURÍAS ITE CUMPLIMIENTO DE SENTENCIA TET JDC 250 2016",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"293.pdf"}`),
+    subRows: "",
   },
   {
     id: 294,
@@ -14407,6 +14701,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "JUL",
     nameDoc: "ADECUACIÓN COMISIONES PERMANENTES",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"294.pdf"}`),
+    subRows: "",
   },
   {
     id: 295,
@@ -14417,6 +14712,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "JUL",
     nameDoc: "COMITÉ DE TRANSPARENCIA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"295.pdf"}`),
+    subRows: "",
   },
   {
     id: 296,
@@ -14427,6 +14723,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "AGO",
     nameDoc: "SANCIÓN PAC",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"296.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -14443,6 +14740,7 @@ export const dataAcuerdos2016 = [
         typeDoc: "",
         nameDoc: "ANEXO PRESUPUESTO AGOSTO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"297.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -14455,6 +14753,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "SEP",
     nameDoc: "REGIDORA AMAXAC DE GUERRERO PVEM",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"298.pdf"}`),
+    subRows: "",
   },
   {
     id: 299,
@@ -14466,6 +14765,7 @@ export const dataAcuerdos2016 = [
     nameDoc:
       "DESIGNACIÓN DE PERSONAL PARA RECUENTO DE VOTOS MUNICIPIO TZOMPANTEPEC",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"299.pdf"}`),
+    subRows: "",
   },
   {
     id: 300,
@@ -14476,6 +14776,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "SEP",
     nameDoc: "DECLARACIÓN DE VALIDEZ TZOMPANTEPEC",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"300.pdf"}`),
+    subRows: "",
   },
   {
     id: 301,
@@ -14486,6 +14787,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "SEP",
     nameDoc: "DESIGNACIÓN DE PERSONAL PARA RECUENTO DE VOTOS NANACAMILPA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"301.pdf"}`),
+    subRows: "",
   },
   {
     id: 302,
@@ -14497,6 +14799,7 @@ export const dataAcuerdos2016 = [
     nameDoc:
       "DESIGNACIÓN DE PERSONAL PARA RECUENTO DE VOTOS DISTRITO 12 TEOLOCHOLCO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"302.pdf"}`),
+    subRows: "",
   },
   {
     id: 303,
@@ -14507,6 +14810,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "SEP",
     nameDoc: "DECLARACIÓN DE VALIDEZ DISTRITO 12 TEOLOCHOLCO PRI PVEM PNA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"303.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -14523,11 +14827,13 @@ export const dataAcuerdos2016 = [
         typeDoc: "",
         nameDoc: "DICTAMEN PROTOCOLO VIOLENCIA CONTRA MUJERES",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"304.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "ANEXO ÚNICO DE DICTAMEN PROTOCOLO VIOLENCIA CONTRA MUJERES",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"304.2.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -14546,6 +14852,7 @@ export const dataAcuerdos2016 = [
         typeDoc: "",
         nameDoc: "ANEXO 1",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"305.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -14564,6 +14871,7 @@ export const dataAcuerdos2016 = [
         typeDoc: "",
         nameDoc: "ANEXO 1",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"306.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -14576,6 +14884,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "OCT",
     nameDoc: "MULTAS PREVISTAS EN LA RESOLUCIÓN INE CG598 2016",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"307.pdf"}`),
+    subRows: "",
   },
   {
     id: 308,
@@ -14586,6 +14895,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "OCT",
     nameDoc: "INTEGRACIÓN DE SANTA CRUZ QUILEHTLA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"308.pdf"}`),
+    subRows: "",
   },
   {
     id: 309,
@@ -14596,6 +14906,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "NOV",
     nameDoc: "INTEGRACIÓN AYUNTAMIENTO CONTLA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"309.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -14608,6 +14919,7 @@ export const dataAcuerdos2016 = [
     nameDoc:
       "DE EJECUCIÓN DE MULTAS EN LA RESOLUCIÓN INE CG598 2016 Y EL ACUERDO INE CG700 2016 MOVIMIENTO CIUDADANO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"311.pdf"}`),
+    subRows: "",
   },
   {
     id: 312,
@@ -14618,6 +14930,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "NOV",
     nameDoc: "FINANCIAMIENTO PÚBLICO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"312.pdf"}`),
+    subRows: "",
   },
   {
     id: 313,
@@ -14628,6 +14941,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "NOV",
     nameDoc: "CIENCIA Y TECNOLOGÍA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"313.pdf"}`),
+    subRows: "",
   },
   {
     id: 314,
@@ -14638,6 +14952,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "NOV",
     nameDoc: "MULTAS PARTIDOS PRI Y MORENA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"314.pdf"}`),
+    subRows: "",
   },
   {
     id: 315,
@@ -14649,6 +14964,7 @@ export const dataAcuerdos2016 = [
     nameDoc:
       "DONDE SE READECUA EL PRESUPUESTO DE EGRESOS PARA EL EJERCICIO FISCAL 2016",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"315.pdf"}`),
+    subRows: "",
   },
   {
     id: 316,
@@ -14660,9 +14976,22 @@ export const dataAcuerdos2016 = [
     nameDoc:
       "DECLARACIÓN DE LA VALIDEZ E INTEGRACIÓN DE LA LXII LEGISLATURA DEL CONGRESO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2016/"}${"316.pdf"}`),
+    subRows: "",
   },
 ];
 export const dataAcuerdos2015 = [
+  {
+    id: 1,
+    year: "2015",
+    typeDoc: "ACUERDO",
+    dateDoc: "09-ENE",
+    numDoc: "ITE-CG 01-2015",
+    monthDoc: "ENE",
+    nameDoc: "INTEGRACIÓN DE JUNTA GENERAL EJECUTIVA",
+    link: Acuerdos__pdfpath(`./${"ITE/"}${"2015/"}${"1.pdf"}`),
+    subRows: "",
+  },
+
   {
     id: 2,
     year: "2015",
@@ -14677,6 +15006,7 @@ export const dataAcuerdos2015 = [
         typeDoc: "",
         nameDoc: "ANEXO 1 PRESUPUESTO 2015 IET",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2015/"}${"2.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -14689,7 +15019,6 @@ export const dataAcuerdos2015 = [
     monthDoc: "ENE",
     nameDoc: "PROGRAMA ANUAL IET",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2015/"}${"3.pdf"}`),
-    subRows: "",
   },
 
   {
@@ -14706,6 +15035,7 @@ export const dataAcuerdos2015 = [
         typeDoc: "",
         nameDoc: "ANEXO 1 RESOLUCIÓN PANAL 2015",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2015/"}${"4.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -14718,6 +15048,7 @@ export const dataAcuerdos2015 = [
     monthDoc: "MAR",
     nameDoc: "REMISIÓN DE INFORMES ANUALES 2014",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2015/"}${"5.pdf"}`),
+    subRows: "",
   },
   {
     id: 6,
@@ -14728,6 +15059,7 @@ export const dataAcuerdos2015 = [
     monthDoc: "MAY",
     nameDoc: "DICTAMEN INFORME ANUAL PAN",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2015/"}${"6.pdf"}`),
+    subRows: "",
   },
   {
     id: 7,
@@ -14738,6 +15070,7 @@ export const dataAcuerdos2015 = [
     monthDoc: "MAY",
     nameDoc: "DICTAMEN INFORME ANUAL PRI",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2015/"}${"7.pdf"}`),
+    subRows: "",
   },
   {
     id: 8,
@@ -14748,6 +15081,7 @@ export const dataAcuerdos2015 = [
     monthDoc: "MAY",
     nameDoc: "DICTAMEN INFORME ANUAL PRD",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2015/"}${"8.pdf"}`),
+    subRows: "",
   },
   {
     id: 9,
@@ -14758,6 +15092,7 @@ export const dataAcuerdos2015 = [
     monthDoc: "MAY",
     nameDoc: "DICTAMEN INFORME ANUAL PT",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2015/"}${"9.pdf"}`),
+    subRows: "",
   },
   {
     id: 10,
@@ -14768,6 +15103,7 @@ export const dataAcuerdos2015 = [
     monthDoc: "MAY",
     nameDoc: "DICTAMEN INFORME ANUAL PVEM",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2015/"}${"10.pdf"}`),
+    subRows: "",
   },
   {
     id: 11,
@@ -14778,6 +15114,7 @@ export const dataAcuerdos2015 = [
     monthDoc: "MAY",
     nameDoc: "DICTAMEN INFORME ANUAL MC",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2015/"}${"11.pdf"}`),
+    subRows: "",
   },
   {
     id: 12,
@@ -14788,6 +15125,7 @@ export const dataAcuerdos2015 = [
     monthDoc: "MAY",
     nameDoc: "DICTAMEN INFORME ANUAL PANAL",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2015/"}${"12.pdf"}`),
+    subRows: "",
   },
   {
     id: 13,
@@ -14798,6 +15136,7 @@ export const dataAcuerdos2015 = [
     monthDoc: "MAY",
     nameDoc: "DICTAMEN INFORME ANUAL PAC",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2015/"}${"13.pdf"}`),
+    subRows: "",
   },
   {
     id: 14,
@@ -14808,6 +15147,7 @@ export const dataAcuerdos2015 = [
     monthDoc: "MAY",
     nameDoc: "DICTAMEN INFORME ANUAL PS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2015/"}${"14.pdf"}`),
+    subRows: "",
   },
   {
     id: 15,
@@ -14818,6 +15158,7 @@ export const dataAcuerdos2015 = [
     monthDoc: "MAY",
     nameDoc: "DICTAMEN INFORME ANUAL MORENA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2015/"}${"15.pdf"}`),
+    subRows: "",
   },
   {
     id: 16,
@@ -14828,6 +15169,7 @@ export const dataAcuerdos2015 = [
     monthDoc: "MAY",
     nameDoc: "DICTAMEN INFORME ANUAL HUMANISTA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2015/"}${"16.pdf"}`),
+    subRows: "",
   },
   {
     id: 17,
@@ -14838,6 +15180,7 @@ export const dataAcuerdos2015 = [
     monthDoc: "MAY",
     nameDoc: "DICTAMEN INFORME ANUAL ENCUENTRO SOCIAL",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2015/"}${"17.pdf"}`),
+    subRows: "",
   },
   {
     id: 18,
@@ -14848,6 +15191,7 @@ export const dataAcuerdos2015 = [
     monthDoc: "MAY",
     nameDoc: "QUEJA 001",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2015/"}${"18.pdf"}`),
+    subRows: "",
   },
   {
     id: 19,
@@ -14858,6 +15202,7 @@ export const dataAcuerdos2015 = [
     monthDoc: "MAY",
     nameDoc: "QUEJA 003",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2015/"}${"19.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -14874,6 +15219,7 @@ export const dataAcuerdos2015 = [
         typeDoc: "",
         nameDoc: "ANEXO RESOLUCIÓN PANAL 2015",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2015/"}${"20.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -14892,6 +15238,7 @@ export const dataAcuerdos2015 = [
         typeDoc: "",
         nameDoc: "ANEXO RESOLUCIÓN PAN",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2015/"}${"21.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -14910,6 +15257,7 @@ export const dataAcuerdos2015 = [
         typeDoc: "",
         nameDoc: "ANEXO 1 RESOLUCIÓN SANCIÓN PRD",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2015/"}${"22.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -14928,6 +15276,7 @@ export const dataAcuerdos2015 = [
         typeDoc: "",
         nameDoc: "ANEXO 1 RESOLUCIÓN SANCIÓN PAC",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2015/"}${"23.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -14946,6 +15295,7 @@ export const dataAcuerdos2015 = [
         typeDoc: "",
         nameDoc: "ANEXO 1 RESOLUCIÓN SANCIÓN MORENA",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2015/"}${"24.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -14964,6 +15314,7 @@ export const dataAcuerdos2015 = [
         typeDoc: "",
         nameDoc: "ANEXO 1 RESOLUCIÓN QUEJA CQYDIET-002-2015",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2015/"}${"25.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -14976,6 +15327,7 @@ export const dataAcuerdos2015 = [
     monthDoc: "JUL",
     nameDoc: "SANCIÓN INFORME ANUAL 2014 PRI",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2015/"}${"26.pdf"}`),
+    subRows: "",
   },
   {
     id: 27,
@@ -14986,6 +15338,7 @@ export const dataAcuerdos2015 = [
     monthDoc: "JUL",
     nameDoc: "SANCIÓN INFORME ANUAL 2014 PT",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2015/"}${"27.pdf"}`),
+    subRows: "",
   },
   {
     id: 28,
@@ -14996,6 +15349,7 @@ export const dataAcuerdos2015 = [
     monthDoc: "JUL",
     nameDoc: "SANCIÓN INFORME ANUAL 2014 PVEM",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2015/"}${"28.pdf"}`),
+    subRows: "",
   },
   {
     id: 29,
@@ -15006,6 +15360,7 @@ export const dataAcuerdos2015 = [
     monthDoc: "JUL",
     nameDoc: "SANCIÓN INFORME ANUAL 2014 MC",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2015/"}${"29.pdf"}`),
+    subRows: "",
   },
   {
     id: 30,
@@ -15016,6 +15371,7 @@ export const dataAcuerdos2015 = [
     monthDoc: "JUL",
     nameDoc: "SANCIÓN INFORME ANUAL 2014 PNA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2015/"}${"30.pdf"}`),
+    subRows: "",
   },
   {
     id: 31,
@@ -15026,6 +15382,7 @@ export const dataAcuerdos2015 = [
     monthDoc: "JUL",
     nameDoc: "SANCIÓN INFORME ANUAL 2014 PS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2015/"}${"31.pdf"}`),
+    subRows: "",
   },
   {
     id: 32,
@@ -15036,6 +15393,7 @@ export const dataAcuerdos2015 = [
     monthDoc: "JUL",
     nameDoc: "SANCIÓN INFORME ANUAL 2014 ENCUENTRO SOCIAL",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2015/"}${"32.pdf"}`),
+    subRows: "",
   },
   {
     id: 33,
@@ -15046,6 +15404,7 @@ export const dataAcuerdos2015 = [
     monthDoc: "AGO",
     nameDoc: "AJUSTE SANCIÓN FISCALIZACIÓN PT",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2015/"}${"33.pdf"}`),
+    subRows: "",
   },
   {
     id: 34,
@@ -15056,6 +15415,7 @@ export const dataAcuerdos2015 = [
     monthDoc: "SEP",
     nameDoc: "INTEGRACIÓN DE COMISIONES ITE",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2015/"}${"01.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -15067,6 +15427,7 @@ export const dataAcuerdos2015 = [
     monthDoc: "SEP",
     nameDoc: "INTEGRACIÓN DE JUNTA GENERAL EJECUTIVA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2015/"}${"03.pdf"}`),
+    subRows: "",
   },
   {
     id: 37,
@@ -15077,6 +15438,7 @@ export const dataAcuerdos2015 = [
     monthDoc: "SEP",
     nameDoc: "LOGO ITE",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2015/"}${"04.pdf"}`),
+    subRows: "",
   },
   {
     id: 38,
@@ -15087,6 +15449,7 @@ export const dataAcuerdos2015 = [
     monthDoc: "SEP",
     nameDoc: "LINEAMIENTOS PERDIDA Y CANCELACIÓN DE REGISTRO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2015/"}${"05.pdf"}`),
+    subRows: "",
   },
   {
     id: 39,
@@ -15097,6 +15460,7 @@ export const dataAcuerdos2015 = [
     monthDoc: "SEP",
     nameDoc: "PERDIDA DE ACREDITACIÓN PARTIDO DEL TRABAJO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2015/"}${"06.pdf"}`),
+    subRows: "",
   },
   {
     id: 40,
@@ -15107,6 +15471,7 @@ export const dataAcuerdos2015 = [
     monthDoc: "SEP",
     nameDoc: "PERDIDA DE ACREDITACIÓN PARTIDO HUMANISTA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2015/"}${"07.pdf"}`),
+    subRows: "",
   },
   {
     id: 41,
@@ -15117,6 +15482,7 @@ export const dataAcuerdos2015 = [
     monthDoc: "SEP",
     nameDoc: "PRESUPUESTO DE EGRESOS 2016",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2015/"}${"08.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -15128,6 +15494,7 @@ export const dataAcuerdos2015 = [
     monthDoc: "OCT",
     nameDoc: "CUMPLIMIENTO SALA ELECTORAL PAC",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2015/"}${"010.pdf"}`),
+    subRows: "",
   },
   {
     id: 44,
@@ -15138,6 +15505,7 @@ export const dataAcuerdos2015 = [
     monthDoc: "OCT",
     nameDoc: "METODOLOGÍA MONITOREO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2015/"}${"011.pdf"}`),
+    subRows: "",
   },
   {
     id: 45,
@@ -15148,6 +15516,7 @@ export const dataAcuerdos2015 = [
     monthDoc: "OCT",
     nameDoc: "LINEAMIENTOS DEBATES",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2015/"}${"012.pdf"}`),
+    subRows: "",
   },
   {
     id: 46,
@@ -15158,6 +15527,7 @@ export const dataAcuerdos2015 = [
     monthDoc: "OCT",
     nameDoc: "CRITERIOS CIERRES DE CAMPAÑA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2015/"}${"013.pdf"}`),
+    subRows: "",
   },
   {
     id: 47,
@@ -15168,6 +15538,7 @@ export const dataAcuerdos2015 = [
     monthDoc: "OCT",
     nameDoc: "LINEAMIENTOS CONSULTA CIUDADANA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2015/"}${"014.pdf"}`),
+    subRows: "",
   },
   {
     id: 48,
@@ -15178,6 +15549,7 @@ export const dataAcuerdos2015 = [
     monthDoc: "OCT",
     nameDoc: "LINEAMIENTOS PROTECCIÓN DE DATOS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2015/"}${"015.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -15194,6 +15566,7 @@ export const dataAcuerdos2015 = [
         typeDoc: "",
         nameDoc: "ANEXO FORMATOS DE REGISTRO DE CANDIDATOS",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2015/"}${"016.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -15201,7 +15574,7 @@ export const dataAcuerdos2015 = [
   {
     id: 50,
     year: "2015",
-    typeDoc: "ACUERDO",
+    typeDoc: "ACIERDO",
     dateDoc: "30-OCT",
     numDoc: "ITE-CG 017-2015",
     monthDoc: "OCT",
@@ -15225,6 +15598,7 @@ export const dataAcuerdos2015 = [
     monthDoc: "NOV",
     nameDoc: "PRESUPUESTO FINAL",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2015/"}${"019.pdf"}`),
+    subRows: "",
   },
   {
     id: 53,
@@ -15235,6 +15609,7 @@ export const dataAcuerdos2015 = [
     monthDoc: "NOV",
     nameDoc: "REGLAMENTO USOS Y COSTUMBRES",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2015/"}${"020.pdf"}`),
+    subRows: "",
   },
   {
     id: 54,
@@ -15245,6 +15620,7 @@ export const dataAcuerdos2015 = [
     monthDoc: "NOV",
     nameDoc: "PAUTAS RADIO Y TELEVISIÓN",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2015/"}${"021.pdf"}`),
+    subRows: "",
   },
   {
     id: 55,
@@ -15255,6 +15631,7 @@ export const dataAcuerdos2015 = [
     monthDoc: "NOV",
     nameDoc: "DEL REGLAMENTO DE CANDIDATOS INDEPENDIENTES",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2015/"}${"022.pdf"}`),
+    subRows: "",
   },
   {
     id: 56,
@@ -15265,6 +15642,7 @@ export const dataAcuerdos2015 = [
     monthDoc: "NOV",
     nameDoc: "DEL ESTATUTO A.C. CANDIDATOS INDEPENDIENTES",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2015/"}${"023.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -15276,6 +15654,7 @@ export const dataAcuerdos2015 = [
     monthDoc: "NOV",
     nameDoc: "REGLAMENTO CONSTITUCIÓN DE PARTIDOS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2015/"}${"028.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -15287,6 +15666,7 @@ export const dataAcuerdos2015 = [
     monthDoc: "NOV",
     nameDoc: "SECRETARIO Y DIRECTORES",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2015/"}${"030.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -15298,6 +15678,7 @@ export const dataAcuerdos2015 = [
     monthDoc: "DIC",
     nameDoc: "TOPES DE PRECAMPAÑA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2015/"}${"035.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -15314,6 +15695,7 @@ export const dataAcuerdos2015 = [
         typeDoc: "",
         nameDoc: "ANEXO CONVOCATORIA",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2015/"}${"040.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -15326,6 +15708,7 @@ export const dataAcuerdos2015 = [
     monthDoc: "DIC",
     nameDoc: "CUMPLIMIENTO FISCALIZACIÓN PAN",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2015/"}${"041.pdf"}`),
+    subRows: "",
   },
   {
     id: 75,
@@ -15336,6 +15719,7 @@ export const dataAcuerdos2015 = [
     monthDoc: "DIC",
     nameDoc: "CUMPLIMIENTO FISCALIZACIÓN PT",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2015/"}${"042.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -15352,6 +15736,7 @@ export const dataAcuerdos2015 = [
         typeDoc: "",
         nameDoc: "ANEXO CONVOCATORIA CANDIDATOS INDEPENDIENTES",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2015/"}${"044.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -15364,6 +15749,7 @@ export const dataAcuerdos2015 = [
     monthDoc: "DIC",
     nameDoc: "MODIFICACIÓN NÚMERO DE APOYO CIUDADANO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2015/"}${"045.pdf"}`),
+    subRows: "",
   },
   {
     id: 79,
@@ -15374,6 +15760,7 @@ export const dataAcuerdos2015 = [
     monthDoc: "DIC",
     nameDoc: "RADIO Y TV",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2015/"}${"046.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -15390,10 +15777,12 @@ export const dataAcuerdos2015 = [
         typeDoc: "",
         nameDoc: "ANEXO PLÁSTICOS",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2015/"}${"047.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
 ];
+
 export const dataAcuerdos2012 = [
   {
     id: 1,
@@ -15404,6 +15793,7 @@ export const dataAcuerdos2012 = [
     monthDoc: "ENE",
     nameDoc: "SE ADECUA EL PROYECTO DE PRESUPUESTO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2012/"}${"1.pdf"}`),
+    subRows: "",
   },
   {
     id: 2,
@@ -15414,6 +15804,7 @@ export const dataAcuerdos2012 = [
     monthDoc: "MAR",
     nameDoc: "INFORMES ANUALES 2011",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2012/"}${"2.pdf"}`),
+    subRows: "",
   },
   {
     id: 3,
@@ -15424,6 +15815,7 @@ export const dataAcuerdos2012 = [
     monthDoc: "MAR",
     nameDoc: "DICTAMEN DEL PAN",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2012/"}${"3.pdf"}`),
+    subRows: "",
   },
   {
     id: 4,
@@ -15434,6 +15826,7 @@ export const dataAcuerdos2012 = [
     monthDoc: "MAR",
     nameDoc: "DICTAMEN DEL PRI",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2012/"}${"4.pdf"}`),
+    subRows: "",
   },
   {
     id: 5,
@@ -15444,6 +15837,7 @@ export const dataAcuerdos2012 = [
     monthDoc: "MAR",
     nameDoc: "DICTAMEN DEL PRD",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2012/"}${"5.pdf"}`),
+    subRows: "",
   },
   {
     id: 6,
@@ -15454,6 +15848,7 @@ export const dataAcuerdos2012 = [
     monthDoc: "MAR",
     nameDoc: "DICTAMEN DEL PT",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2012/"}${"6.pdf"}`),
+    subRows: "",
   },
   {
     id: 7,
@@ -15464,6 +15859,7 @@ export const dataAcuerdos2012 = [
     monthDoc: "MAR",
     nameDoc: "DICTAMEN DEL PVEM",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2012/"}${"7.pdf"}`),
+    subRows: "",
   },
   {
     id: 8,
@@ -15474,6 +15870,7 @@ export const dataAcuerdos2012 = [
     monthDoc: "MAR",
     nameDoc: "DICTAMEN DEL PMC",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2012/"}${"8.pdf"}`),
+    subRows: "",
   },
   {
     id: 9,
@@ -15484,6 +15881,7 @@ export const dataAcuerdos2012 = [
     monthDoc: "MAR",
     nameDoc: "DICTAMEN DEL PANAL",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2012/"}${"9.pdf"}`),
+    subRows: "",
   },
   {
     id: 10,
@@ -15494,6 +15892,7 @@ export const dataAcuerdos2012 = [
     monthDoc: "MAR",
     nameDoc: "DICTAMEN DEL PAC",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2012/"}${"10.pdf"}`),
+    subRows: "",
   },
   {
     id: 11,
@@ -15504,6 +15903,7 @@ export const dataAcuerdos2012 = [
     monthDoc: "MAR",
     nameDoc: "DICTAMEN DEL PS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2012/"}${"11.pdf"}`),
+    subRows: "",
   },
   {
     id: 12,
@@ -15514,6 +15914,7 @@ export const dataAcuerdos2012 = [
     monthDoc: "JUN",
     nameDoc: "RESOLUCIÓN DEL PAN",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2012/"}${"12.pdf"}`),
+    subRows: "",
   },
   {
     id: 13,
@@ -15524,6 +15925,7 @@ export const dataAcuerdos2012 = [
     monthDoc: "JUN",
     nameDoc: "RESOLUCIÓN DEL PRI",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2012/"}${"13.pdf"}`),
+    subRows: "",
   },
   {
     id: 14,
@@ -15534,6 +15936,7 @@ export const dataAcuerdos2012 = [
     monthDoc: "JUN",
     nameDoc: "RESOLUCIÓN DEL PRD",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2012/"}${"14.pdf"}`),
+    subRows: "",
   },
   {
     id: 15,
@@ -15544,6 +15947,7 @@ export const dataAcuerdos2012 = [
     monthDoc: "JUN",
     nameDoc: "RESOLUCIÓN DEL PT",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2012/"}${"15.pdf"}`),
+    subRows: "",
   },
   {
     id: 16,
@@ -15554,6 +15958,7 @@ export const dataAcuerdos2012 = [
     monthDoc: "JUN",
     nameDoc: "RESOLUCIÓN DEL PVEM",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2012/"}${"16.pdf"}`),
+    subRows: "",
   },
   {
     id: 17,
@@ -15564,6 +15969,7 @@ export const dataAcuerdos2012 = [
     monthDoc: "JUN",
     nameDoc: "RESOLUCIÓN DEL MC",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2012/"}${"17.pdf"}`),
+    subRows: "",
   },
   {
     id: 18,
@@ -15574,6 +15980,7 @@ export const dataAcuerdos2012 = [
     monthDoc: "JUN",
     nameDoc: "RESOLUCIÓN DEL PANAL",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2012/"}${"18.pdf"}`),
+    subRows: "",
   },
   {
     id: 19,
@@ -15584,6 +15991,7 @@ export const dataAcuerdos2012 = [
     monthDoc: "JUN",
     nameDoc: "RESOLUCIÓN DEL PAC",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2012/"}${"19.pdf"}`),
+    subRows: "",
   },
   {
     id: 20,
@@ -15594,6 +16002,7 @@ export const dataAcuerdos2012 = [
     monthDoc: "JUN",
     nameDoc: "RESOLUCIÓN DEL PS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2012/"}${"20.pdf"}`),
+    subRows: "",
   },
   {
     id: 21,
@@ -15604,6 +16013,7 @@ export const dataAcuerdos2012 = [
     monthDoc: "SEP",
     nameDoc: "ACUERDO PRESUPUESTO 2013",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2012/"}${"21.pdf"}`),
+    subRows: "",
   },
   {
     id: 22,
@@ -15614,6 +16024,7 @@ export const dataAcuerdos2012 = [
     monthDoc: "OCT",
     nameDoc: "RESOLUCIÓN DE LA SALA UNITARIA ADMINISTRATIVA ELECTORAL",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2012/"}${"22.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -15630,6 +16041,7 @@ export const dataAcuerdos2012 = [
         typeDoc: "",
         nameDoc: "ANEXO CALENDARIO ELECTORAL 2013",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2012/"}${"23.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -15642,6 +16054,7 @@ export const dataAcuerdos2012 = [
     monthDoc: "OCT",
     nameDoc: "CONVOCATORIA A ELECCIONES 2013",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2012/"}${"24.pdf"}`),
+    subRows: "",
   },
   {
     id: 25,
@@ -15652,6 +16065,7 @@ export const dataAcuerdos2012 = [
     monthDoc: "NOV",
     nameDoc: "ACUERDO DE ENCUESTAS Y ESTUDIOS DE OPINIÓN 2013",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2012/"}${"25.pdf"}`),
+    subRows: "",
   },
   {
     id: 26,
@@ -15662,6 +16076,7 @@ export const dataAcuerdos2012 = [
     monthDoc: "DIC",
     nameDoc: "ACUERDO DE LA INTEGRACIÓN DE LAS COMISIONES",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2012/"}${"26.pdf"}`),
+    subRows: "",
   },
   {
     id: 27,
@@ -15672,6 +16087,7 @@ export const dataAcuerdos2012 = [
     monthDoc: "DIC",
     nameDoc: "ACUERDO MONITOREO 2012",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2012/"}${"27.pdf"}`),
+    subRows: "",
   },
   {
     id: 28,
@@ -15682,6 +16098,7 @@ export const dataAcuerdos2012 = [
     monthDoc: "DIC",
     nameDoc: "ACUERDO SECCIONAMIENTO 2012",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2012/"}${"28.pdf"}`),
+    subRows: "",
   },
   {
     id: 29,
@@ -15692,6 +16109,7 @@ export const dataAcuerdos2012 = [
     monthDoc: "DIC",
     nameDoc: "ACUERDO AUTORIZA FIRMA DE CONVENIO 2012",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2012/"}${"29.pdf"}`),
+    subRows: "",
   },
   {
     id: 30,
@@ -15702,6 +16120,7 @@ export const dataAcuerdos2012 = [
     monthDoc: "DIC",
     nameDoc: "ACUERDO TOPES DE PRECAMPAÑAS 2013",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2012/"}${"30.pdf"}`),
+    subRows: "",
   },
   {
     id: 31,
@@ -15712,6 +16131,7 @@ export const dataAcuerdos2012 = [
     monthDoc: "DIC",
     nameDoc: "ACUERDO DE RADIO Y TV FINAL",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2012/"}${"31.pdf"}`),
+    subRows: "",
   },
   {
     id: 32,
@@ -15722,6 +16142,7 @@ export const dataAcuerdos2012 = [
     monthDoc: "DIC",
     nameDoc: "ACUERDO DE FISCALIZACIÓN DE MEDIOS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2012/"}${"32.pdf"}`),
+    subRows: "",
   },
   {
     id: 33,
@@ -15732,6 +16153,7 @@ export const dataAcuerdos2012 = [
     monthDoc: "DIC",
     nameDoc: "ACUERDO DE PAUTADO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2012/"}${"33.pdf"}`),
+    subRows: "",
   },
 ];
 export const dataAcuerdos2009 = [
@@ -15749,11 +16171,13 @@ export const dataAcuerdos2009 = [
         typeDoc: "",
         nameDoc: "ANEXO 1 DICTAMEN COMISION QUE PRESENTA METODOLOGIA",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2009/"}${"1.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "ANEXO 2 METODOLOGIA PARTIDO POPULAR",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2009/"}${"1.2.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -15766,6 +16190,7 @@ export const dataAcuerdos2009 = [
     monthDoc: "ENE",
     nameDoc: "ACUERDO INFORME LABORES 2008",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2009/"}${"2.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -15782,11 +16207,13 @@ export const dataAcuerdos2009 = [
         typeDoc: "",
         nameDoc: "ANEXO 1 DICTAMEN REGISTRO PARTIDO LIBERAL TLAXCALTECA",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2009/"}${"3.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "ANEXO 2 VOTO PARTICULAR LIC. MAXIMINO HERNÁNDEZ PULIDO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2009/"}${"3.2.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -15799,6 +16226,7 @@ export const dataAcuerdos2009 = [
     monthDoc: "MAR",
     nameDoc: "ACUERDO CUMPLIMIENTO ART. 114 CIPEET",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2009/"}${"4.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -15816,11 +16244,13 @@ export const dataAcuerdos2009 = [
         typeDoc: "",
         nameDoc: "ANEXO 1 DICTAMEN DEL REGISTRO DEL PARTIDO POPULAR",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2009/"}${"5.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "ANEXO 2 VOTO PARTICULAR LIC. MAXIMINO HERNÁNDEZ PULIDO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2009/"}${"5.2.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -15833,6 +16263,7 @@ export const dataAcuerdos2009 = [
     monthDoc: "MAR",
     nameDoc: "CUMPLIMENTACION_PCDT TOCA 137-2008",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2009/"}${"6.pdf"}`),
+    subRows: "",
   },
   {
     id: 7,
@@ -15843,6 +16274,7 @@ export const dataAcuerdos2009 = [
     monthDoc: "ABR",
     nameDoc: "ACUERDO JUNTA GENERAL EJECUTIVA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2009/"}${"7.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -15860,6 +16292,7 @@ export const dataAcuerdos2009 = [
         typeDoc: "",
         nameDoc: "ANEXO 1 DICTAMEN DEL PUEBLO TLAXCALTECA",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2009/"}${"8.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -15872,6 +16305,7 @@ export const dataAcuerdos2009 = [
     monthDoc: "JUN",
     nameDoc: "DICTAMEN PAN",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2009/"}${"9.pdf"}`),
+    subRows: "",
   },
   {
     id: 10,
@@ -15882,6 +16316,7 @@ export const dataAcuerdos2009 = [
     monthDoc: "JUN",
     nameDoc: "DICTAMEN PRI",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2009/"}${"10.pdf"}`),
+    subRows: "",
   },
   {
     id: 11,
@@ -15892,6 +16327,7 @@ export const dataAcuerdos2009 = [
     monthDoc: "JUN",
     nameDoc: "DICTAMEN PRD",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2009/"}${"11.pdf"}`),
+    subRows: "",
   },
   {
     id: 12,
@@ -15902,6 +16338,7 @@ export const dataAcuerdos2009 = [
     monthDoc: "JUN",
     nameDoc: "DICTAMEN PT",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2009/"}${"12.pdf"}`),
+    subRows: "",
   },
   {
     id: 13,
@@ -15912,6 +16349,7 @@ export const dataAcuerdos2009 = [
     monthDoc: "JUN",
     nameDoc: "DICTAMEN VERDE",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2009/"}${"13.pdf"}`),
+    subRows: "",
   },
   {
     id: 14,
@@ -15922,6 +16360,7 @@ export const dataAcuerdos2009 = [
     monthDoc: "JUN",
     nameDoc: "DICTAMEN CONVERGENCIA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2009/"}${"14.pdf"}`),
+    subRows: "",
   },
   {
     id: 15,
@@ -15932,6 +16371,7 @@ export const dataAcuerdos2009 = [
     monthDoc: "JUN",
     nameDoc: "DICTAMEN NUEVA ALIANZA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2009/"}${"15.pdf"}`),
+    subRows: "",
   },
   {
     id: 16,
@@ -15942,6 +16382,7 @@ export const dataAcuerdos2009 = [
     monthDoc: "JUN",
     nameDoc: "DICTAMEN PSD",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2009/"}${"16.pdf"}`),
+    subRows: "",
   },
   {
     id: 17,
@@ -15952,6 +16393,7 @@ export const dataAcuerdos2009 = [
     monthDoc: "JUN",
     nameDoc: "DICTAMEN PAC",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2009/"}${"17.pdf"}`),
+    subRows: "",
   },
   {
     id: 18,
@@ -15962,6 +16404,7 @@ export const dataAcuerdos2009 = [
     monthDoc: "JUN",
     nameDoc: "DICTAMEN PS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2009/"}${"18.pdf"}`),
+    subRows: "",
   },
   {
     id: 19,
@@ -15972,6 +16415,7 @@ export const dataAcuerdos2009 = [
     monthDoc: "JUL",
     nameDoc: "SANCIÓN PAN",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2009/"}${"19.pdf"}`),
+    subRows: "",
   },
   {
     id: 20,
@@ -15982,6 +16426,7 @@ export const dataAcuerdos2009 = [
     monthDoc: "JUL",
     nameDoc: "SANCIÓN PRI",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2009/"}${"20.pdf"}`),
+    subRows: "",
   },
   {
     id: 21,
@@ -15992,6 +16437,7 @@ export const dataAcuerdos2009 = [
     monthDoc: "JUL",
     nameDoc: "SANCIÓN PRD",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2009/"}${"21.pdf"}`),
+    subRows: "",
   },
   {
     id: 22,
@@ -16002,6 +16448,7 @@ export const dataAcuerdos2009 = [
     monthDoc: "JUL",
     nameDoc: "SANCIÓN PT",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2009/"}${"22.pdf"}`),
+    subRows: "",
   },
   {
     id: 23,
@@ -16012,6 +16459,7 @@ export const dataAcuerdos2009 = [
     monthDoc: "JUL",
     nameDoc: "SANCIÓN PVEM",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2009/"}${"23.pdf"}`),
+    subRows: "",
   },
   {
     id: 24,
@@ -16022,6 +16470,7 @@ export const dataAcuerdos2009 = [
     monthDoc: "JUL",
     nameDoc: "SANCIÓN NUEVA ALIANZA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2009/"}${"24.pdf"}`),
+    subRows: "",
   },
   {
     id: 25,
@@ -16032,6 +16481,7 @@ export const dataAcuerdos2009 = [
     monthDoc: "JUL",
     nameDoc: "SANCIÓN SD",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2009/"}${"25.pdf"}`),
+    subRows: "",
   },
   {
     id: 26,
@@ -16042,6 +16492,7 @@ export const dataAcuerdos2009 = [
     monthDoc: "JUL",
     nameDoc: "SANCIÓN PAC",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2009/"}${"26.pdf"}`),
+    subRows: "",
   },
   {
     id: 27,
@@ -16052,6 +16503,7 @@ export const dataAcuerdos2009 = [
     monthDoc: "JUL",
     nameDoc: "SANCIÓN PS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2009/"}${"27.pdf"}`),
+    subRows: "",
   },
   {
     id: 28,
@@ -16062,6 +16514,7 @@ export const dataAcuerdos2009 = [
     monthDoc: "JUL",
     nameDoc: "ACUERDO READECUACIÓN DE COMISIONES",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2009/"}${"28.pdf"}`),
+    subRows: "",
   },
   {
     id: 29,
@@ -16072,6 +16525,7 @@ export const dataAcuerdos2009 = [
     monthDoc: "AGO",
     nameDoc: "RESOLUCIÓN CUMPLIMIENTO PARTIDO POPULAR",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2009/"}${"29.pdf"}`),
+    subRows: "",
   },
   {
     id: 30,
@@ -16082,6 +16536,7 @@ export const dataAcuerdos2009 = [
     monthDoc: "AGO",
     nameDoc: "RESOLUCIÓN REGISTRO PARTIDO POPULAR",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2009/"}${"30.pdf"}`),
+    subRows: "",
   },
   {
     id: 31,
@@ -16092,6 +16547,7 @@ export const dataAcuerdos2009 = [
     monthDoc: "AGO",
     nameDoc: "RESOLUCIÓN REGISTRO PARTIDO LIBERAL TLAXCALTECA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2009/"}${"31.pdf"}`),
+    subRows: "",
   },
   {
     id: 32,
@@ -16102,6 +16558,7 @@ export const dataAcuerdos2009 = [
     monthDoc: "AGO",
     nameDoc: "RESOLUCIÓN REGISTRO PARTIDO DEL PUEBLO TLAXCALTECA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2009/"}${"32.pdf"}`),
+    subRows: "",
   },
   {
     id: 33,
@@ -16112,6 +16569,7 @@ export const dataAcuerdos2009 = [
     monthDoc: "AGO",
     nameDoc: "ACUERDO REESTRUCTURA COMITÉ DE INFORMACIÓN",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2009/"}${"33.pdf"}`),
+    subRows: "",
   },
   {
     id: 34,
@@ -16122,6 +16580,7 @@ export const dataAcuerdos2009 = [
     monthDoc: "AGO",
     nameDoc: "ACUERDO READECUACIÓN PRESUPUESTO FINANCIAMIENTO PP 2009",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2009/"}${"34.pdf"}`),
+    subRows: "",
   },
   {
     id: 35,
@@ -16132,6 +16591,7 @@ export const dataAcuerdos2009 = [
     monthDoc: "SEP",
     nameDoc: "ACUERDO INICIO DE PÉRDIDA DE SOCIALDEMOCRÁTA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2009/"}${"35.pdf"}`),
+    subRows: "",
   },
   {
     id: 36,
@@ -16142,6 +16602,7 @@ export const dataAcuerdos2009 = [
     monthDoc: "SEP",
     nameDoc: "READECUACIÓN FINANCIAMIENTO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2009/"}${"36.pdf"}`),
+    subRows: "",
   },
   {
     id: 37,
@@ -16152,6 +16613,7 @@ export const dataAcuerdos2009 = [
     monthDoc: "SEP",
     nameDoc: "PRESUPUESTO 2010",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2009/"}${"37.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -16168,6 +16630,7 @@ export const dataAcuerdos2009 = [
         typeDoc: "",
         nameDoc: "ANEXO 1 CALENDARIO ELECTORAL 2010",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2009/"}${"38.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -16180,6 +16643,7 @@ export const dataAcuerdos2009 = [
     monthDoc: "OCT",
     nameDoc: "CONVOCATORIA 2010",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2009/"}${"39.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -16196,6 +16660,7 @@ export const dataAcuerdos2009 = [
         typeDoc: "",
         nameDoc: "ANEXO 1 DICTAMEN QUE PRESENTA LA CPPPAyF PSD",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2009/"}${"40.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -16208,6 +16673,7 @@ export const dataAcuerdos2009 = [
     monthDoc: "NOV",
     nameDoc: "INFORME 2009",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2009/"}${"41.pdf"}`),
+    subRows: "",
   },
   {
     id: 42,
@@ -16218,6 +16684,7 @@ export const dataAcuerdos2009 = [
     monthDoc: "NOV",
     nameDoc: "SECCIONAMIENTO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2009/"}${"42.pdf"}`),
+    subRows: "",
   },
   {
     id: 43,
@@ -16228,6 +16695,7 @@ export const dataAcuerdos2009 = [
     monthDoc: "NOV",
     nameDoc: "MONITOREO 2010",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2009/"}${"43.pdf"}`),
+    subRows: "",
   },
   {
     id: 44,
@@ -16238,6 +16706,7 @@ export const dataAcuerdos2009 = [
     monthDoc: "NOV",
     nameDoc: "ENCUESTAS Y ESTUDIOS DE OPINION 2010",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2009/"}${"44.pdf"}`),
+    subRows: "",
   },
   {
     id: 45,
@@ -16248,6 +16717,7 @@ export const dataAcuerdos2009 = [
     monthDoc: "DIC",
     nameDoc: "INTEGRACIÓN DE COMISIONES 2009",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2009/"}${"45.pdf"}`),
+    subRows: "",
   },
   {
     id: 46,
@@ -16258,6 +16728,7 @@ export const dataAcuerdos2009 = [
     monthDoc: "DIC",
     nameDoc: "AUTORIZA FIRMA DE CONVENIO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2009/"}${"46.pdf"}`),
+    subRows: "",
   },
   {
     id: 47,
@@ -16268,6 +16739,7 @@ export const dataAcuerdos2009 = [
     monthDoc: "DIC",
     nameDoc: "REGLAMENTO PARA EL CONOCIMIENTO DE LAS FALTAS Y SANCIONES",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2009/"}${"47.pdf"}`),
+    subRows: "",
   },
   {
     id: 48,
@@ -16278,6 +16750,7 @@ export const dataAcuerdos2009 = [
     monthDoc: "DIC",
     nameDoc: "FISCALIZACION MONITOREO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2009/"}${"48.pdf"}`),
+    subRows: "",
   },
   {
     id: 49,
@@ -16288,6 +16761,7 @@ export const dataAcuerdos2009 = [
     monthDoc: "DIC",
     nameDoc: "READECUACIÓN COMISIONES",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2009/"}${"49.pdf"}`),
+    subRows: "",
   },
   {
     id: 50,
@@ -16298,6 +16772,7 @@ export const dataAcuerdos2009 = [
     monthDoc: "DIC",
     nameDoc: "REGLAMENTO INFORMACION",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2009/"}${"50.pdf"}`),
+    subRows: "",
   },
   {
     id: 51,
@@ -16308,8 +16783,10 @@ export const dataAcuerdos2009 = [
     monthDoc: "DIC",
     nameDoc: "TOPES DE PRECAMPAÑAS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2009/"}${"51.pdf"}`),
+    subRows: "",
   },
 ];
+
 export const dataAcuerdos2008 = [
   {
     id: 1,
@@ -16320,6 +16797,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "ENE",
     nameDoc: "QUEJA 02-07",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"1.pdf"}`),
+    subRows: "",
   },
   {
     id: 2,
@@ -16330,6 +16808,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "ENE",
     nameDoc: "QUEJA 07-07",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"2.pdf"}`),
+    subRows: "",
   },
   {
     id: 3,
@@ -16340,6 +16819,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "ENE",
     nameDoc: "QUEJA 16-07",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"3.pdf"}`),
+    subRows: "",
   },
   {
     id: 4,
@@ -16350,6 +16830,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "ENE",
     nameDoc: "QUEJA 17-07",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"4.pdf"}`),
+    subRows: "",
   },
   {
     id: 5,
@@ -16360,6 +16841,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "ENE",
     nameDoc: "QUEJA 18-07",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"5.pdf"}`),
+    subRows: "",
   },
   {
     id: 6,
@@ -16370,6 +16852,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "ENE",
     nameDoc: "QUEJA 19-07",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"6.pdf"}`),
+    subRows: "",
   },
   {
     id: 7,
@@ -16380,6 +16863,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "ENE",
     nameDoc: "QUEJA 20-07",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"7.pdf"}`),
+    subRows: "",
   },
   {
     id: 8,
@@ -16390,6 +16874,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "ENE",
     nameDoc: "QUEJA 21-07",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"8.pdf"}`),
+    subRows: "",
   },
   {
     id: 9,
@@ -16400,6 +16885,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "ENE",
     nameDoc: "QUEJA 22-07",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"9.pdf"}`),
+    subRows: "",
   },
   {
     id: 10,
@@ -16410,6 +16896,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "ENE",
     nameDoc: "QUEJA 24-07",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"10.pdf"}`),
+    subRows: "",
   },
   {
     id: 11,
@@ -16420,6 +16907,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "ENE",
     nameDoc: "QUEJA 25-07",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"11.pdf"}`),
+    subRows: "",
   },
   {
     id: 12,
@@ -16430,6 +16918,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "ENE",
     nameDoc: "QUEJA 27-07",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"12.pdf"}`),
+    subRows: "",
   },
   {
     id: 13,
@@ -16440,6 +16929,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "ENE",
     nameDoc: "QUEJA 28-07",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"13.pdf"}`),
+    subRows: "",
   },
   {
     id: 14,
@@ -16450,6 +16940,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "ENE",
     nameDoc: "QUEJA 29-07",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"14.pdf"}`),
+    subRows: "",
   },
   {
     id: 15,
@@ -16460,6 +16951,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "ENE",
     nameDoc: "QUEJA 30-07",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"15.pdf"}`),
+    subRows: "",
   },
   {
     id: 16,
@@ -16470,6 +16962,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "ENE",
     nameDoc: "QUEJA 31-07",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"16.pdf"}`),
+    subRows: "",
   },
   {
     id: 17,
@@ -16480,6 +16973,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "ENE",
     nameDoc: "QUEJA 32-07",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"17.pdf"}`),
+    subRows: "",
   },
   {
     id: 18,
@@ -16490,6 +16984,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "ENE",
     nameDoc: "QUEJA 34-07",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"18.pdf"}`),
+    subRows: "",
   },
   {
     id: 19,
@@ -16500,6 +16995,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "ENE",
     nameDoc: "QUEJA 40-07",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"19.pdf"}`),
+    subRows: "",
   },
   {
     id: 20,
@@ -16510,6 +17006,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "ENE",
     nameDoc: "QUEJA 41-07",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"20.pdf"}`),
+    subRows: "",
   },
   {
     id: 21,
@@ -16520,6 +17017,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "ENE",
     nameDoc: "QUEJA 42-07",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"21.pdf"}`),
+    subRows: "",
   },
   {
     id: 22,
@@ -16530,6 +17028,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "ENE",
     nameDoc: "QUEJA 43-07",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"22.pdf"}`),
+    subRows: "",
   },
   {
     id: 23,
@@ -16540,6 +17039,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "ENE",
     nameDoc: "QUEJA 47-07",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"23.pdf"}`),
+    subRows: "",
   },
   {
     id: 24,
@@ -16550,6 +17050,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "ENE",
     nameDoc: "QUEJA 49-07",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"24.pdf"}`),
+    subRows: "",
   },
   {
     id: 25,
@@ -16560,6 +17061,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "ENE",
     nameDoc: "QUEJA 50-07",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"25.pdf"}`),
+    subRows: "",
   },
   {
     id: 26,
@@ -16570,6 +17072,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "ENE",
     nameDoc: "QUEJA 51-07",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"26.pdf"}`),
+    subRows: "",
   },
   {
     id: 27,
@@ -16580,6 +17083,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "ENE",
     nameDoc: "QUEJA 52-07",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"27.pdf"}`),
+    subRows: "",
   },
   {
     id: 28,
@@ -16590,6 +17094,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "ENE",
     nameDoc: "QUEJA 53-07",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"28.pdf"}`),
+    subRows: "",
   },
   {
     id: 29,
@@ -16600,6 +17105,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "ENE",
     nameDoc: "QUEJA 54-07",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"29.pdf"}`),
+    subRows: "",
   },
   {
     id: 30,
@@ -16610,6 +17116,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "ENE",
     nameDoc: "QUEJA 56-07",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"30.pdf"}`),
+    subRows: "",
   },
   {
     id: 31,
@@ -16620,6 +17127,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "ENE",
     nameDoc: "QUEJA 57-07",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"31.pdf"}`),
+    subRows: "",
   },
   {
     id: 32,
@@ -16630,6 +17138,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "ENE",
     nameDoc: "QUEJA 58-07",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"32.pdf"}`),
+    subRows: "",
   },
   {
     id: 33,
@@ -16640,6 +17149,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "ENE",
     nameDoc: "QUEJA 59-07",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"33.pdf"}`),
+    subRows: "",
   },
   {
     id: 34,
@@ -16650,6 +17160,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "ENE",
     nameDoc: "QUEJA 60-07",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"34.pdf"}`),
+    subRows: "",
   },
   {
     id: 35,
@@ -16660,6 +17171,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "ENE",
     nameDoc: "QUEJA 64-07",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"35.pdf"}`),
+    subRows: "",
   },
   {
     id: 36,
@@ -16670,6 +17182,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "ENE",
     nameDoc: "QUEJA 69-07",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"36.pdf"}`),
+    subRows: "",
   },
   {
     id: 37,
@@ -16680,6 +17193,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "ENE",
     nameDoc: "QUEJA 70-07",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"37.pdf"}`),
+    subRows: "",
   },
   {
     id: 38,
@@ -16690,6 +17204,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "ENE",
     nameDoc: "QUEJA 71-07",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"38.pdf"}`),
+    subRows: "",
   },
   {
     id: 39,
@@ -16700,6 +17215,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "ENE",
     nameDoc: "QUEJA 73-07",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"39.pdf"}`),
+    subRows: "",
   },
   {
     id: 40,
@@ -16710,6 +17226,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "ENE",
     nameDoc: "QUEJA 74-07",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"40.pdf"}`),
+    subRows: "",
   },
   {
     id: 41,
@@ -16720,6 +17237,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "ENE",
     nameDoc: "QUEJA 75-07",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"41.pdf"}`),
+    subRows: "",
   },
   {
     id: 42,
@@ -16730,6 +17248,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "ENE",
     nameDoc: "QUEJA 78-07",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"42.pdf"}`),
+    subRows: "",
   },
   {
     id: 43,
@@ -16740,6 +17259,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "ENE",
     nameDoc: "QUEJA 80-07",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"43.pdf"}`),
+    subRows: "",
   },
   {
     id: 44,
@@ -16750,6 +17270,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "ENE",
     nameDoc: "QUEJA 81-07",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"44.pdf"}`),
+    subRows: "",
   },
   {
     id: 45,
@@ -16760,6 +17281,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "ENE",
     nameDoc: "QUEJA 83-07",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"45.pdf"}`),
+    subRows: "",
   },
   {
     id: 46,
@@ -16770,6 +17292,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "ENE",
     nameDoc: "QUEJA 84-07",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"46.pdf"}`),
+    subRows: "",
   },
   {
     id: 47,
@@ -16780,6 +17303,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "ENE",
     nameDoc: "QUEJA 85-07",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"47.pdf"}`),
+    subRows: "",
   },
   {
     id: 48,
@@ -16790,6 +17314,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "ENE",
     nameDoc: "QUEJA 87-07",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"48.pdf"}`),
+    subRows: "",
   },
   {
     id: 49,
@@ -16800,6 +17325,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "ENE",
     nameDoc: "QUEJA 88-07",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"49.pdf"}`),
+    subRows: "",
   },
   {
     id: 50,
@@ -16810,6 +17336,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "ENE",
     nameDoc: "QUEJA 90-07",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"50.pdf"}`),
+    subRows: "",
   },
   {
     id: 51,
@@ -16820,6 +17347,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "ENE",
     nameDoc: "QUEJA 93-07",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"51.pdf"}`),
+    subRows: "",
   },
   {
     id: 52,
@@ -16830,6 +17358,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "ENE",
     nameDoc: "QUEJA 94-07",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"52.pdf"}`),
+    subRows: "",
   },
   {
     id: 53,
@@ -16840,6 +17369,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "ENE",
     nameDoc: "QUEJA 96-07",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"53.pdf"}`),
+    subRows: "",
   },
   {
     id: 54,
@@ -16850,6 +17380,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "ENE",
     nameDoc: "QUEJA 97-07",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"54.pdf"}`),
+    subRows: "",
   },
   {
     id: 55,
@@ -16860,6 +17391,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "ENE",
     nameDoc: "QUEJA 99-07",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"55.pdf"}`),
+    subRows: "",
   },
   {
     id: 56,
@@ -16870,6 +17402,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "ENE",
     nameDoc: "QUEJA 101-07",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"56.pdf"}`),
+    subRows: "",
   },
   {
     id: 57,
@@ -16880,6 +17413,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "ENE",
     nameDoc: "QUEJA 103-07",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"57.pdf"}`),
+    subRows: "",
   },
   {
     id: 58,
@@ -16890,6 +17424,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "ENE",
     nameDoc: "QUEJA 104-07",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"58.pdf"}`),
+    subRows: "",
   },
   {
     id: 59,
@@ -16900,6 +17435,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "ENE",
     nameDoc: "QUEJA 105-07",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"59.pdf"}`),
+    subRows: "",
   },
   {
     id: 60,
@@ -16910,6 +17446,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "ENE",
     nameDoc: "QUEJA 106-07",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"60.pdf"}`),
+    subRows: "",
   },
   {
     id: 61,
@@ -16920,6 +17457,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "ENE",
     nameDoc: "QUEJA 109-07",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"61.pdf"}`),
+    subRows: "",
   },
   {
     id: 62,
@@ -16930,6 +17468,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "ENE",
     nameDoc: "QUEJA 01-07",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"62.pdf"}`),
+    subRows: "",
   },
   {
     id: 63,
@@ -16940,6 +17479,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "ENE",
     nameDoc: "QUEJA 08-07",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"63.pdf"}`),
+    subRows: "",
   },
   {
     id: 64,
@@ -16950,6 +17490,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "ENE",
     nameDoc: "QUEJA 26-07",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"64.pdf"}`),
+    subRows: "",
   },
   {
     id: 65,
@@ -16960,6 +17501,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "ENE",
     nameDoc: "QUEJA 48-07",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"65.pdf"}`),
+    subRows: "",
   },
   {
     id: 66,
@@ -16970,6 +17512,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "ENE",
     nameDoc: "QUEJA 72-07",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"66.pdf"}`),
+    subRows: "",
   },
   {
     id: 67,
@@ -16980,6 +17523,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "ENE",
     nameDoc: "QUEJA 77-07",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"67.pdf"}`),
+    subRows: "",
   },
   {
     id: 68,
@@ -16990,6 +17534,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "ENE",
     nameDoc: "QUEJA 79-07",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"68.pdf"}`),
+    subRows: "",
   },
   {
     id: 69,
@@ -17000,6 +17545,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "ENE",
     nameDoc: "QUEJA 108-07",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"69.pdf"}`),
+    subRows: "",
   },
   {
     id: 70,
@@ -17010,6 +17556,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "ENE",
     nameDoc: "QUEJA 102-07",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"70.pdf"}`),
+    subRows: "",
   },
   {
     id: 71,
@@ -17020,6 +17567,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "ENE",
     nameDoc: "QUEJA 91-07",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"71.pdf"}`),
+    subRows: "",
   },
   {
     id: 72,
@@ -17030,6 +17578,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "ENE",
     nameDoc: "QUEJA 95-07",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"72.pdf"}`),
+    subRows: "",
   },
   {
     id: 73,
@@ -17040,6 +17589,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "ENE",
     nameDoc: "QUEJA 44-07",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"73.pdf"}`),
+    subRows: "",
   },
   {
     id: 74,
@@ -17050,6 +17600,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "ENE",
     nameDoc: "QUEJA 45-07",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"74.pdf"}`),
+    subRows: "",
   },
   {
     id: 75,
@@ -17060,6 +17611,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "ENE",
     nameDoc: "QUEJA 92-07",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"75.pdf"}`),
+    subRows: "",
   },
   {
     id: 76,
@@ -17070,6 +17622,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "ENE",
     nameDoc: "QUEJA 68-07",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"76.pdf"}`),
+    subRows: "",
   },
   {
     id: 77,
@@ -17080,6 +17633,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "ENE",
     nameDoc: "QUEJA 98-07",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"77.pdf"}`),
+    subRows: "",
   },
   {
     id: 78,
@@ -17090,6 +17644,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "ENE",
     nameDoc: "INTEGRACIÓN LIX LEGISLATURA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"78.pdf"}`),
+    subRows: "",
   },
   {
     id: 79,
@@ -17100,6 +17655,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "ENE",
     nameDoc: "ELEGIBILIDAD AYUNTAMIENTO DE CHIAUTEMPAN",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"79.pdf"}`),
+    subRows: "",
   },
   {
     id: 80,
@@ -17110,6 +17666,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "ENE",
     nameDoc: "QUEJA 04-07",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"80.pdf"}`),
+    subRows: "",
   },
   {
     id: 81,
@@ -17120,6 +17677,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "ENE",
     nameDoc: "QUEJA 05-07",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"81.pdf"}`),
+    subRows: "",
   },
   {
     id: 82,
@@ -17130,6 +17688,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "ENE",
     nameDoc: "QUEJA 06-07",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"82.pdf"}`),
+    subRows: "",
   },
   {
     id: 83,
@@ -17140,6 +17699,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "ENE",
     nameDoc: "QUEJA 23-07",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"83.pdf"}`),
+    subRows: "",
   },
   {
     id: 84,
@@ -17150,6 +17710,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "ENE",
     nameDoc: "QUEJA 33-07",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"84.pdf"}`),
+    subRows: "",
   },
   {
     id: 85,
@@ -17160,6 +17721,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "ENE",
     nameDoc: "QUEJA 36-07",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"85.pdf"}`),
+    subRows: "",
   },
   {
     id: 86,
@@ -17170,6 +17732,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "ENE",
     nameDoc: "QUEJA 37-07",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"86.pdf"}`),
+    subRows: "",
   },
   {
     id: 87,
@@ -17180,6 +17743,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "ENE",
     nameDoc: "QUEJA 38-07",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"87.pdf"}`),
+    subRows: "",
   },
   {
     id: 88,
@@ -17190,6 +17754,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "ENE",
     nameDoc: "QUEJA 39-07",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"88.pdf"}`),
+    subRows: "",
   },
   {
     id: 89,
@@ -17200,6 +17765,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "ENE",
     nameDoc: "QUEJA 46-07",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"89.pdf"}`),
+    subRows: "",
   },
   {
     id: 90,
@@ -17210,6 +17776,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "ENE",
     nameDoc: "QUEJA 55-07",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"90.pdf"}`),
+    subRows: "",
   },
   {
     id: 91,
@@ -17220,6 +17787,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "ENE",
     nameDoc: "QUEJA 61-07",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"91.pdf"}`),
+    subRows: "",
   },
   {
     id: 92,
@@ -17230,6 +17798,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "ENE",
     nameDoc: "QUEJA 62-07",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"92.pdf"}`),
+    subRows: "",
   },
   {
     id: 93,
@@ -17240,6 +17809,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "ENE",
     nameDoc: "QUEJA 63-07",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"93.pdf"}`),
+    subRows: "",
   },
   {
     id: 94,
@@ -17250,6 +17820,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "ENE",
     nameDoc: "QUEJA 65-07",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"94.pdf"}`),
+    subRows: "",
   },
   {
     id: 95,
@@ -17260,6 +17831,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "ENE",
     nameDoc: "QUEJA 67-07",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"95.pdf"}`),
+    subRows: "",
   },
   {
     id: 96,
@@ -17270,6 +17842,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "ENE",
     nameDoc: "QUEJA 76-07",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"96.pdf"}`),
+    subRows: "",
   },
   {
     id: 97,
@@ -17280,6 +17853,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "ENE",
     nameDoc: "QUEJA 82-07",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"97.pdf"}`),
+    subRows: "",
   },
   {
     id: 98,
@@ -17290,6 +17864,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "ENE",
     nameDoc: "QUEJA 86-07",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"98.pdf"}`),
+    subRows: "",
   },
   {
     id: 99,
@@ -17300,6 +17875,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "ENE",
     nameDoc: "QUEJA 89-07",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"99.pdf"}`),
+    subRows: "",
   },
   {
     id: 100,
@@ -17310,6 +17886,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "ENE",
     nameDoc: "QUEJA 100-07",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"100.pdf"}`),
+    subRows: "",
   },
   {
     id: 101,
@@ -17320,6 +17897,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "ENE",
     nameDoc: "QUEJA 107-07",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"101.pdf"}`),
+    subRows: "",
   },
   {
     id: 102,
@@ -17330,6 +17908,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "ENE",
     nameDoc: "QUEJA 110-07",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"102.pdf"}`),
+    subRows: "",
   },
   {
     id: 103,
@@ -17340,6 +17919,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "ENE",
     nameDoc: "QUEJA 66-07",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"103.pdf"}`),
+    subRows: "",
   },
   {
     id: 104,
@@ -17350,6 +17930,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "ENE",
     nameDoc: "NORMATIVIDAD REGLAMENTO 2008 ULTIMO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"104.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -17366,6 +17947,7 @@ export const dataAcuerdos2008 = [
         typeDoc: "",
         nameDoc: "ANEXO 1 CALENDARIO ELECCIÓN EXTRAORDINARIA",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"105.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -17379,6 +17961,7 @@ export const dataAcuerdos2008 = [
     nameDoc:
       "LINEAMIENTOS, METODOLOGÍA Y MECANISMOS APLICADOS EN EL PROCESO 2007",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"106.pdf"}`),
+    subRows: "",
   },
   {
     id: 107,
@@ -17389,6 +17972,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "FEB",
     nameDoc: "PLATAFORMA PS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"107.pdf"}`),
+    subRows: "",
   },
   {
     id: 108,
@@ -17399,6 +17983,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "FEB",
     nameDoc: "REGISTRO CANDIDATOS PARTIDO SOCIALISTA POCITOS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"108.pdf"}`),
+    subRows: "",
   },
   {
     id: 109,
@@ -17409,6 +17994,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "FEB",
     nameDoc: "REGISTRO CANDIDATOS CIUDADANIA POCITOS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"109.pdf"}`),
+    subRows: "",
   },
   {
     id: 110,
@@ -17419,6 +18005,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "MAR",
     nameDoc: "APROBACIÓN INFORME GENERAL 2007",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"110.pdf"}`),
+    subRows: "",
   },
   {
     id: 111,
@@ -17429,6 +18016,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "MAR",
     nameDoc: "RENOVACIÓN COMISIÓN DEMARCACIÓN DISTRITAL",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"111.pdf"}`),
+    subRows: "",
   },
   {
     id: 112,
@@ -17439,6 +18027,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "ABR",
     nameDoc: "SELECCIÓN MATERIAL Y DOCUMENTACIÓN ELECTORAL",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"112.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -17455,26 +18044,31 @@ export const dataAcuerdos2008 = [
         typeDoc: "",
         nameDoc: "ANEXO 1 NORMATIVIDAD 04 ABRIL 08",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"113.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "ANEXO 2 FORMATOS NORMATIVIDAD 2008",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"113.2.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "ANEXO 3 FORMATO IA 2008",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"113.3.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "ANEXO 4 FORMATO PRECAM",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"113.4.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "ANEXO 5 BITACORA DE GASOLINA",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"113.5.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -17487,6 +18081,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "ABR",
     nameDoc: "JUNTA GENERAL EJECUTIVA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"114.pdf"}`),
+    subRows: "",
   },
   {
     id: 115,
@@ -17497,6 +18092,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "MAY",
     nameDoc: "ACCESO A LA INFORMACION 29-05-08",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"115.pdf"}`),
+    subRows: "",
   },
   {
     id: 116,
@@ -17507,6 +18103,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "JUN",
     nameDoc: "DICTAMEN PAN",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"116.pdf"}`),
+    subRows: "",
   },
   {
     id: 117,
@@ -17517,6 +18114,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "JUN",
     nameDoc: "DICTAMEN PRI",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"117.pdf"}`),
+    subRows: "",
   },
   {
     id: 118,
@@ -17527,6 +18125,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "JUN",
     nameDoc: "DICTAMEN PRD",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"118.pdf"}`),
+    subRows: "",
   },
   {
     id: 119,
@@ -17537,6 +18136,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "JUN",
     nameDoc: "DICTAMEN PT",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"119.pdf"}`),
+    subRows: "",
   },
   {
     id: 120,
@@ -17547,6 +18147,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "JUN",
     nameDoc: "DICTAMEN PVEM",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"120.pdf"}`),
+    subRows: "",
   },
   {
     id: 121,
@@ -17557,6 +18158,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "JUN",
     nameDoc: "DICTAMEN CONVERGENCIA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"121.pdf"}`),
+    subRows: "",
   },
   {
     id: 122,
@@ -17567,6 +18169,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "JUN",
     nameDoc: "DICTAMEN PNA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"122.pdf"}`),
+    subRows: "",
   },
   {
     id: 123,
@@ -17577,6 +18180,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "JUN",
     nameDoc: "DICTAMEN PAS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"123.pdf"}`),
+    subRows: "",
   },
   {
     id: 124,
@@ -17587,6 +18191,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "JUN",
     nameDoc: "DICTAMEN PAC",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"124.pdf"}`),
+    subRows: "",
   },
   {
     id: 125,
@@ -17597,6 +18202,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "JUN",
     nameDoc: "DICTAMEN PS-1",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"125.pdf"}`),
+    subRows: "",
   },
   {
     id: 126,
@@ -17607,6 +18213,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "JUN",
     nameDoc: "DICTAMEN PCDT",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"126.pdf"}`),
+    subRows: "",
   },
   {
     id: 127,
@@ -17617,6 +18224,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "JUN",
     nameDoc: "ACUERDO CUMPL. RESOLUCIÓN NORMATIVIDAD",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"127.pdf"}`),
+    subRows: "",
   },
   {
     id: 128,
@@ -17627,6 +18235,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "JUL",
     nameDoc: "SANCIÓN PAN",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"128.pdf"}`),
+    subRows: "",
   },
   {
     id: 129,
@@ -17637,6 +18246,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "JUL",
     nameDoc: "SANCIÓN PRI",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"129.pdf"}`),
+    subRows: "",
   },
   {
     id: 130,
@@ -17647,6 +18257,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "JUL",
     nameDoc: "SANCIÓN PRD",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"130.pdf"}`),
+    subRows: "",
   },
   {
     id: 131,
@@ -17657,6 +18268,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "JUL",
     nameDoc: "SANCIÓN PT",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"131.pdf"}`),
+    subRows: "",
   },
   {
     id: 132,
@@ -17667,6 +18279,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "JUL",
     nameDoc: "SANCIÓN PVEM",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"132.pdf"}`),
+    subRows: "",
   },
   {
     id: 133,
@@ -17677,6 +18290,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "JUL",
     nameDoc: "SANCIÓN PAS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"133.pdf"}`),
+    subRows: "",
   },
   {
     id: 134,
@@ -17687,6 +18301,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "JUL",
     nameDoc: "SANCIÓN PS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"134.pdf"}`),
+    subRows: "",
   },
   {
     id: 135,
@@ -17697,6 +18312,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "JUL",
     nameDoc: "SANCIÓN PCDT",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"135.pdf"}`),
+    subRows: "",
   },
   {
     id: 136,
@@ -17707,6 +18323,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "AGO",
     nameDoc: "REDISTRITACIÓN 2",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"136.pdf"}`),
+    subRows: "",
   },
   {
     id: 137,
@@ -17717,6 +18334,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "SEP",
     nameDoc: "PRESUPUESTO 2009",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"137.pdf"}`),
+    subRows: "",
   },
   {
     id: 138,
@@ -17727,6 +18345,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "OCT",
     nameDoc: "PRERROGATIVAS PS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"138.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -17743,11 +18362,13 @@ export const dataAcuerdos2008 = [
         typeDoc: "",
         nameDoc: "ANEXO 1 DICTAMEN METODOLOGÍA LIBERAL TLAXCALTECA",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"139.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "ANEXO 2 METODOLOGÍA LIBERAL TLAXCALTECA",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"139.2.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -17760,6 +18381,7 @@ export const dataAcuerdos2008 = [
     monthDoc: "DIC",
     nameDoc: "ACUERDO JAVIER HERNANDEZ ATLAHAPA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2008/"}${"140.pdf"}`),
+    subRows: "",
   },
 ];
 export const dataAcuerdos2007 = [
@@ -17772,6 +18394,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "ENE",
     nameDoc: "CUMPLIMIENTO RESOLUCIÓN TOCA 96-2006 PCDT-1",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"1.pdf"}`),
+    subRows: "",
   },
   {
     id: 2,
@@ -17782,6 +18405,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "ENE",
     nameDoc: "TOCA 55-2006 PCDT",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"2.pdf"}`),
+    subRows: "",
   },
   {
     id: 3,
@@ -17792,6 +18416,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "ENE",
     nameDoc: "TOCA 56-2006 PCDT",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"3.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -17808,6 +18433,7 @@ export const dataAcuerdos2007 = [
         typeDoc: "",
         nameDoc: "ANEXO 1 CALENDARIO ELECTORAL 2007",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"4.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -17820,6 +18446,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "FEB",
     nameDoc: "CONVOCATORIA JURÍDICO Y ADMINISTRATIVO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"5.pdf"}`),
+    subRows: "",
   },
   {
     id: 6,
@@ -17830,6 +18457,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "FEB",
     nameDoc: "DETERMINACIÓN REGIDORES 2007 1",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"6.pdf"}`),
+    subRows: "",
   },
   {
     id: 7,
@@ -17840,6 +18468,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "FEB",
     nameDoc: "FECHA INICIO PROCESO ELECTORAL 2007-1",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"7.pdf"}`),
+    subRows: "",
   },
   {
     id: 8,
@@ -17850,6 +18479,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "MAR",
     nameDoc: "PCDT",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"8.pdf"}`),
+    subRows: "",
   },
   {
     id: 9,
@@ -17860,6 +18490,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "MAR",
     nameDoc: "DICTAMEN PS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"9.pdf"}`),
+    subRows: "",
   },
   {
     id: 10,
@@ -17870,6 +18501,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "MAR",
     nameDoc: "ADOPCIÓN SECCIONAMIENTO ELECTORAL",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"10.pdf"}`),
+    subRows: "",
   },
   {
     id: 11,
@@ -17880,6 +18512,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "MAR",
     nameDoc: "DE INFORMÁTICA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"11.pdf"}`),
+    subRows: "",
   },
   {
     id: 12,
@@ -17890,6 +18523,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "MAR",
     nameDoc: "DE COMUNICACION SOCIAL",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"12.pdf"}`),
+    subRows: "",
   },
   {
     id: 13,
@@ -17900,6 +18534,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "ABR",
     nameDoc: "CATALOGO USOS Y COSTUMBRES",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"13.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -17917,6 +18552,7 @@ export const dataAcuerdos2007 = [
         nameDoc:
           "ANEXO 1 NORMATIVIDAD DE LOS LINEAMIENTOS Y CRITERIOS METODOLÓGICOS RELATIVOS A ENCUESTAS",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"14.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -17929,6 +18565,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "ABR",
     nameDoc: "MONITOREO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"15.pdf"}`),
+    subRows: "",
   },
   {
     id: 16,
@@ -17939,6 +18576,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "ABR",
     nameDoc: "DIRECTOR DE ASUNTOS JURÍDICOS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"16.pdf"}`),
+    subRows: "",
   },
   {
     id: 17,
@@ -17949,6 +18587,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "ABR",
     nameDoc: "DIRECTOR DE PRERROGATIVAS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"17.pdf"}`),
+    subRows: "",
   },
   {
     id: 18,
@@ -17959,6 +18598,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "MAY",
     nameDoc: "CONVOCATORIA ELECCIONES",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"18.pdf"}`),
+    subRows: "",
   },
   {
     id: 19,
@@ -17969,6 +18609,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "MAY",
     nameDoc: "COMITÉ DE ADQUISICIONES",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"19.pdf"}`),
+    subRows: "",
   },
   {
     id: 20,
@@ -17979,6 +18620,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "MAY",
     nameDoc: "NUEVO LOGOTIPO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"20.pdf"}`),
+    subRows: "",
   },
   {
     id: 21,
@@ -17989,6 +18631,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "MAY",
     nameDoc: "DICTAMEN DEL PAN",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"21.pdf"}`),
+    subRows: "",
   },
   {
     id: 22,
@@ -17999,6 +18642,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "MAY",
     nameDoc: "DICTAMEN DEL PRI",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"22.pdf"}`),
+    subRows: "",
   },
   {
     id: 23,
@@ -18009,6 +18653,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "MAY",
     nameDoc: "DICTAMEN DEL PRD",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"23.pdf"}`),
+    subRows: "",
   },
   {
     id: 24,
@@ -18019,6 +18664,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "MAY",
     nameDoc: "DICTAMEN DEL PT",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"24.pdf"}`),
+    subRows: "",
   },
   {
     id: 25,
@@ -18029,6 +18675,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "MAY",
     nameDoc: "DICTAMEN DEL PVEM",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"25.pdf"}`),
+    subRows: "",
   },
   {
     id: 26,
@@ -18039,6 +18686,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "MAY",
     nameDoc: "DICTAMEN DEL CONVERGENCIA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"26.pdf"}`),
+    subRows: "",
   },
   {
     id: 27,
@@ -18049,6 +18697,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "MAY",
     nameDoc: "DICTAMEN DEL PCDT",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"27.pdf"}`),
+    subRows: "",
   },
   {
     id: 28,
@@ -18059,6 +18708,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "MAY",
     nameDoc: "DICTAMEN DEL NUEVA ALIANZA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"28.pdf"}`),
+    subRows: "",
   },
   {
     id: 29,
@@ -18069,6 +18719,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "MAY",
     nameDoc: "DICTAMEN DE ALTERNATIVA SOCIAL DEMÓCRATA Y CAMPESINA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"29.pdf"}`),
+    subRows: "",
   },
   {
     id: 30,
@@ -18079,6 +18730,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "MAY",
     nameDoc: "LINEAMIENTOS Y CONVOCATORIA PARA OBSERVADORES",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"30.pdf"}`),
+    subRows: "",
   },
   {
     id: 31,
@@ -18089,6 +18741,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "MAY",
     nameDoc: "IFE-IET",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"31.pdf"}`),
+    subRows: "",
   },
   {
     id: 32,
@@ -18099,6 +18752,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "MAY",
     nameDoc: "SANCIÓN ",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"32.pdf"}`),
+    subRows: "",
   },
   {
     id: 33,
@@ -18109,6 +18763,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "MAY",
     nameDoc: "SANCIÓN ",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"33.pdf"}`),
+    subRows: "",
   },
   {
     id: 34,
@@ -18119,6 +18774,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "MAY",
     nameDoc: "SANCIÓN ",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"34.pdf"}`),
+    subRows: "",
   },
   {
     id: 35,
@@ -18129,6 +18785,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "MAY",
     nameDoc: "SANCIÓN ",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"35.pdf"}`),
+    subRows: "",
   },
   {
     id: 36,
@@ -18139,6 +18796,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "MAY",
     nameDoc: "SANCIÓN ",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"36.pdf"}`),
+    subRows: "",
   },
   {
     id: 37,
@@ -18149,6 +18807,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "MAY",
     nameDoc: "SANCIÓN ",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"37.pdf"}`),
+    subRows: "",
   },
   {
     id: 38,
@@ -18159,6 +18818,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "MAY",
     nameDoc: "SANCIÓN ",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"38.pdf"}`),
+    subRows: "",
   },
   {
     id: 39,
@@ -18169,6 +18829,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "JUN",
     nameDoc: "AMPLIACIÓN PLAZO OBSERVADORES 2007",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"39.pdf"}`),
+    subRows: "",
   },
   {
     id: 40,
@@ -18179,6 +18840,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "JUN",
     nameDoc: "CONVOCATORIA CONSEJOS DISTRITALES Y MUNICIPALES 2007",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"40.pdf"}`),
+    subRows: "",
   },
   {
     id: 41,
@@ -18189,6 +18851,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "JUN",
     nameDoc: "PT",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"41.pdf"}`),
+    subRows: "",
   },
   {
     id: 42,
@@ -18199,6 +18862,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "JUN",
     nameDoc: "DIRECTOR DE ORGANIZACIÓN",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"42.pdf"}`),
+    subRows: "",
   },
   {
     id: 43,
@@ -18209,6 +18873,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "JUN",
     nameDoc: "AMPLIACIÓN PLAZO CONSEJOS DISTRITALES Y MUNICIPALES",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"43.pdf"}`),
+    subRows: "",
   },
   {
     id: 44,
@@ -18219,6 +18884,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "JUL",
     nameDoc: "INSACULACIÓN",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"44.pdf"}`),
+    subRows: "",
   },
   {
     id: 45,
@@ -18229,6 +18895,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "JUL",
     nameDoc: "CUMPLIMIENTO PT",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"45.pdf"}`),
+    subRows: "",
   },
   {
     id: 46,
@@ -18239,6 +18906,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "JUL",
     nameDoc: "PROTECCIÓN DE ZONAS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"46.pdf"}`),
+    subRows: "",
   },
   {
     id: 47,
@@ -18249,6 +18917,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "AGO",
     nameDoc: "COALICIÓN ALIANZA PROGRESO PARA TLAXCALA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"47.pdf"}`),
+    subRows: "",
   },
   {
     id: 48,
@@ -18259,6 +18928,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "AGO",
     nameDoc: "COALICIÓN ALIANZA SIGLO XXI",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"48.pdf"}`),
+    subRows: "",
   },
   {
     id: 49,
@@ -18269,6 +18939,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "AGO",
     nameDoc: "RESULTADO INSACULACIÓN",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"49.pdf"}`),
+    subRows: "",
   },
   {
     id: 50,
@@ -18279,6 +18950,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "AGO",
     nameDoc: "INTEGRACIÓN DE LOS CONSEJOS DISTRITALES",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"50.pdf"}`),
+    subRows: "",
   },
   {
     id: 51,
@@ -18289,6 +18961,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "AGO",
     nameDoc: "CRITERIOS CANDIDATOS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"51.pdf"}`),
+    subRows: "",
   },
   {
     id: 52,
@@ -18299,6 +18972,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "AGO",
     nameDoc: "PLATAFORMAS PRD",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"52.pdf"}`),
+    subRows: "",
   },
   {
     id: 53,
@@ -18309,6 +18983,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "AGO",
     nameDoc: "PROYECTO DE ACUERDO PLATAFORMA ELECTORAL PT",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"53.pdf"}`),
+    subRows: "",
   },
   {
     id: 54,
@@ -18319,6 +18994,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "AGO",
     nameDoc: "PLATAFORMA CONVERGENCIA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"54.pdf"}`),
+    subRows: "",
   },
   {
     id: 55,
@@ -18329,6 +19005,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "AGO",
     nameDoc: "PLATAFORMA PCDT",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"55.pdf"}`),
+    subRows: "",
   },
   {
     id: 56,
@@ -18339,6 +19016,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "AGO",
     nameDoc: "PLATAFORMA NUEVA ALIANZA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"56.pdf"}`),
+    subRows: "",
   },
   {
     id: 57,
@@ -18349,6 +19027,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "AGO",
     nameDoc: "PLATAFORMA ALTERNATIVA SOCIAL DEMÓCRATA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"57.pdf"}`),
+    subRows: "",
   },
   {
     id: 58,
@@ -18359,6 +19038,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "AGO",
     nameDoc: "PROYECTO DE ACUERDO PLATAFORMA ELECTORAL PS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"58.pdf"}`),
+    subRows: "",
   },
   {
     id: 59,
@@ -18369,6 +19049,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "AGO",
     nameDoc: "DE COMISIÓN DE MEDIOS DE COMUNICACIÓN",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"59.pdf"}`),
+    subRows: "",
   },
   {
     id: 60,
@@ -18379,6 +19060,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "AGO",
     nameDoc: "COMISIONES BOLETAS Y REGISTRO CANDIDATOS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"60.pdf"}`),
+    subRows: "",
   },
   {
     id: 61,
@@ -18389,6 +19071,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "AGO",
     nameDoc: "COALICIÓN APIZACO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"61.pdf"}`),
+    subRows: "",
   },
   {
     id: 62,
@@ -18399,6 +19082,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "AGO",
     nameDoc: "COALICIÓN ALIANZA SIGLO XXI",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"62.pdf"}`),
+    subRows: "",
   },
   {
     id: 63,
@@ -18409,6 +19093,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "AGO",
     nameDoc: "COAL.AYUN. PRI, VERDE,PS. MPIO. TENANCINGO Y TLAX",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"63.pdf"}`),
+    subRows: "",
   },
   {
     id: 64,
@@ -18419,6 +19104,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "AGO",
     nameDoc: "COALICIÓN PAN-PAC AYUNTAMIENTOS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"64.pdf"}`),
+    subRows: "",
   },
   {
     id: 65,
@@ -18429,6 +19115,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "AGO",
     nameDoc: "COALICIÓN PAN-PAN PRESIDENTES DE COMUNIDAD",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"65.pdf"}`),
+    subRows: "",
   },
   {
     id: 66,
@@ -18439,6 +19126,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "AGO",
     nameDoc: "PLATAFORMA PRD",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"66.pdf"}`),
+    subRows: "",
   },
   {
     id: 67,
@@ -18449,6 +19137,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "SEP",
     nameDoc: "REGISTRO DIPUTADOS PARTIDO DEL TRABAJO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"67.pdf"}`),
+    subRows: "",
   },
   {
     id: 68,
@@ -18459,6 +19148,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "SEP",
     nameDoc: "REGISTRO DE CANDIDATOS A DIPUTADOS ALTERNATIVA SOCIALDEMÓCRATA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"68.pdf"}`),
+    subRows: "",
   },
   {
     id: 69,
@@ -18469,6 +19159,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "SEP",
     nameDoc: "REGISTRO DE CANDIDATOS A DIPUTADOS CONVERGENCIA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"69.pdf"}`),
+    subRows: "",
   },
   {
     id: 70,
@@ -18479,6 +19170,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "SEP",
     nameDoc: "REGISTRO DE CANDIDATOS A DIPUTADOS PAN-PAC",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"70.pdf"}`),
+    subRows: "",
   },
   {
     id: 71,
@@ -18489,6 +19181,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "SEP",
     nameDoc: "REGISTRO DE CANDIDATOS A DIPUTADOS PRI-PVEM",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"71.pdf"}`),
+    subRows: "",
   },
   {
     id: 72,
@@ -18499,6 +19192,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "SEP",
     nameDoc: "REGISTRO DE CANDIDATOS A DIPUTADOS PARTIDO NUEVA ALIANZA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"72.pdf"}`),
+    subRows: "",
   },
   {
     id: 73,
@@ -18510,6 +19204,7 @@ export const dataAcuerdos2007 = [
     nameDoc:
       "REGISTRO DE CANDIDATOS A DIPUTADOS PARTIDO DEL CENTRO DEMOCRÁTICO DE TLAXCALA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"73.pdf"}`),
+    subRows: "",
   },
   {
     id: 74,
@@ -18520,6 +19215,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "SEP",
     nameDoc: "REGISTRO DE CANDIDATOS A DIPUTADOS PARTIDO SOCIALISTA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"74.pdf"}`),
+    subRows: "",
   },
   {
     id: 75,
@@ -18531,6 +19227,7 @@ export const dataAcuerdos2007 = [
     nameDoc:
       "REGISTRO DE CANDIDATOS A DIPUTADOS PARTIDO DE LA REVOLUCIÓN DEMOCRÁTICA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"75.pdf"}`),
+    subRows: "",
   },
   {
     id: 76,
@@ -18541,6 +19238,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "SEP",
     nameDoc: "DISTRIBUCIÓN FINANCIAMIENTO OBTENCIÓN DEL VOTO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"76.pdf"}`),
+    subRows: "",
   },
   {
     id: 77,
@@ -18551,6 +19249,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "SEP",
     nameDoc: "TOPES DE CAMPAÑA 2007",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"77.pdf"}`),
+    subRows: "",
   },
   {
     id: 78,
@@ -18561,6 +19260,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "SEP",
     nameDoc: "ASIGNACIÓN TIEMPOS Y ESPACIOS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"78.pdf"}`),
+    subRows: "",
   },
   {
     id: 79,
@@ -18571,6 +19271,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "SEP",
     nameDoc: "CARACTERÍSTICAS BASES LICITACIÓN Y ANEXO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"79.pdf"}`),
+    subRows: "",
   },
   {
     id: 80,
@@ -18581,6 +19282,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "SEP",
     nameDoc: "INTEGRACIÓN DE CONSEJOS MUNICIPALES 2007",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"80.pdf"}`),
+    subRows: "",
   },
   {
     id: 81,
@@ -18591,6 +19293,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "SEP",
     nameDoc: "PLATAFORMA PARTIDO REVOLUCIONARIO INSTITUCIONAL",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"81.pdf"}`),
+    subRows: "",
   },
   {
     id: 82,
@@ -18601,6 +19304,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "SEP",
     nameDoc: "PLATAFORMA PVEM",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"82.pdf"}`),
+    subRows: "",
   },
   {
     id: 83,
@@ -18611,6 +19315,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "SEP",
     nameDoc: "MODIFICACIÓN COALICIÓN PRI-PVEM-CONV",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"83.pdf"}`),
+    subRows: "",
   },
   {
     id: 84,
@@ -18621,6 +19326,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "SEP",
     nameDoc: "PLATAFORMA CONVERGENCIA AY PC",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"84.pdf"}`),
+    subRows: "",
   },
   {
     id: 85,
@@ -18631,6 +19337,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "SEP",
     nameDoc: "PLATAFORMA NUEVA ALIANZA AY PC",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"85.pdf"}`),
+    subRows: "",
   },
   {
     id: 86,
@@ -18641,6 +19348,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "SEP",
     nameDoc: "PLATAFORMA ALTERNATIVA SOCIAL DEMÓCRATA MUNICIPIOS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"86.pdf"}`),
+    subRows: "",
   },
   {
     id: 87,
@@ -18651,6 +19359,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "SEP",
     nameDoc: "SUSTITUCIÓN CONVERGENCIA DIP PROP DTTO. XV",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"87.pdf"}`),
+    subRows: "",
   },
   {
     id: 88,
@@ -18661,6 +19370,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "SEP",
     nameDoc: "SUSTITUCIÓN DE CANDIDATO DIP PROP DISTRITO XVI CONVERGENCIA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"88.pdf"}`),
+    subRows: "",
   },
   {
     id: 89,
@@ -18671,6 +19381,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "SEP",
     nameDoc: "SUSTITUCIÓN DE CANDIDATO IV CONVERGENCIA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"89.pdf"}`),
+    subRows: "",
   },
   {
     id: 90,
@@ -18681,6 +19392,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "SEP",
     nameDoc: "SUSTITUCIÓN DE CANDIDATO DIPUTADO SUPLENTE I - PRD",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"90.pdf"}`),
+    subRows: "",
   },
   {
     id: 91,
@@ -18692,6 +19404,7 @@ export const dataAcuerdos2007 = [
     nameDoc:
       "SUSTITUCIÓN DE CANDIDATO SUPLENTE FORMULA 4 ALIANZA PROGRESO PARA TLAXCALA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"91.pdf"}`),
+    subRows: "",
   },
   {
     id: 92,
@@ -18702,6 +19415,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "SEP",
     nameDoc: "SUSTITUCIÓN NUEVA ALIANZA PROPIETARIO FORMULA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"92.pdf"}`),
+    subRows: "",
   },
   {
     id: 93,
@@ -18712,6 +19426,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "SEP",
     nameDoc: "SUSTITUCIÓN SUPLENTE NUEVA ALIANZA 1",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"93.pdf"}`),
+    subRows: "",
   },
   {
     id: 94,
@@ -18722,6 +19437,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "SEP",
     nameDoc: "SUSTITUCIÓN SUPLENTE DTTO V ALIANZA PROGRESO P TLAX",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"94.pdf"}`),
+    subRows: "",
   },
   {
     id: 95,
@@ -18732,6 +19448,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "SEP",
     nameDoc: "SUSTITUCIÓN DE PRD DISTRITO XIX, PROPIETARIOS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"95.pdf"}`),
+    subRows: "",
   },
   {
     id: 96,
@@ -18742,6 +19459,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "SEP",
     nameDoc: "MODIFICACIÓN DEL ACUERDO CG 51-2007",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"96.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -18758,6 +19476,7 @@ export const dataAcuerdos2007 = [
         typeDoc: "",
         nameDoc: "ANEXO 1 DICTAMEN LICITACIÓN ADQUISIÓN MATERIAL ELECTORAL",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"97.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -18770,6 +19489,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "SEP",
     nameDoc: "PRESUPUESTO 2008",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"98.pdf"}`),
+    subRows: "",
   },
   {
     id: 99,
@@ -18780,6 +19500,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "SEP",
     nameDoc: "SUST. DIP. PS DTTO. XIV",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"99.pdf"}`),
+    subRows: "",
   },
   {
     id: 100,
@@ -18790,6 +19511,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "SEP",
     nameDoc: "SUST. DIP. PS DTTO. II",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"100.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -18801,6 +19523,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "SEP",
     nameDoc: "SUSTITUCIÓN DE CANDIDATO DIP PT DTTO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"102.pdf"}`),
+    subRows: "",
   },
   {
     id: 103,
@@ -18811,6 +19534,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "SEP",
     nameDoc: "SUSTITUCIÓN DE CANDIDATO PROPIETARIO DISTRITO XVIII PRD",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"103.pdf"}`),
+    subRows: "",
   },
   {
     id: 104,
@@ -18821,6 +19545,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "SEP",
     nameDoc: "SUSTITUCIÓN DE CANDIDATO SUPLENTE DISTRITO XVIII PRD",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"104.pdf"}`),
+    subRows: "",
   },
   {
     id: 105,
@@ -18831,6 +19556,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "SEP",
     nameDoc: "SUSTITUCIÓN DE CANDIDATO SUPLENTE FORMULA 13 CONVERGENCIA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"105.pdf"}`),
+    subRows: "",
   },
   {
     id: 106,
@@ -18841,6 +19567,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "SEP",
     nameDoc: "SUST DIP PROP. DTTO XIX PS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"106.pdf"}`),
+    subRows: "",
   },
   {
     id: 107,
@@ -18851,6 +19578,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "SEP",
     nameDoc: "SUSTITUCIÓN ALTERNATIVA VI PROPIETARIO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"107.pdf"}`),
+    subRows: "",
   },
   {
     id: 108,
@@ -18861,6 +19589,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "SEP",
     nameDoc: "SUSTITUCIÓN ALTERNATIVA VI SUPLENTE",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"108.pdf"}`),
+    subRows: "",
   },
   {
     id: 109,
@@ -18871,6 +19600,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "SEP",
     nameDoc: "SUSTITUCIÓN CONSEJEROS DISTRITALES 30 SEPTIEMBRE ULTIMO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"109.pdf"}`),
+    subRows: "",
   },
   {
     id: 110,
@@ -18881,6 +19611,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "SEP",
     nameDoc: "SUSTITUCIÓN CONSEJEROS MUNICIPALES 30 SEPTIEMBRE",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"110.pdf"}`),
+    subRows: "",
   },
   {
     id: 111,
@@ -18891,6 +19622,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "OCT",
     nameDoc: "CUMPLIMIENTO RESOLUCIÓN TOCA 182-2007 PRD",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"111.pdf"}`),
+    subRows: "",
   },
   {
     id: 112,
@@ -18901,6 +19633,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "OCT",
     nameDoc: "REG. AYTO. Y PTES COM. PAN-PAC2007",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"112.pdf"}`),
+    subRows: "",
   },
   {
     id: 113,
@@ -18911,6 +19644,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "OCT",
     nameDoc: "ALIANZA SIGLO XXI INTEGRANTES DE AYUNTAMIENTO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"113.pdf"}`),
+    subRows: "",
   },
   {
     id: 114,
@@ -18921,6 +19655,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "OCT",
     nameDoc: "AYUNTAMIENTOS DE TLAXCALA, TENANCINGO. ALIANZA SIGLO XXI",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"114.pdf"}`),
+    subRows: "",
   },
   {
     id: 115,
@@ -18931,6 +19666,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "OCT",
     nameDoc: "ALIANZA POR APIZACO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"115.pdf"}`),
+    subRows: "",
   },
   {
     id: 116,
@@ -18941,6 +19677,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "OCT",
     nameDoc: "PRI INTEGRANTES DE AYUNTAMIENTO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"116.pdf"}`),
+    subRows: "",
   },
   {
     id: 117,
@@ -18951,6 +19688,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "OCT",
     nameDoc: "REGISTRO AYUNTAMIENTOS PRD",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"117.pdf"}`),
+    subRows: "",
   },
   {
     id: 118,
@@ -18961,6 +19699,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "OCT",
     nameDoc: "REGISTRO AYTOS Y PCS PT (DE ACDO A MODELO)",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"118.pdf"}`),
+    subRows: "",
   },
   {
     id: 119,
@@ -18971,6 +19710,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "OCT",
     nameDoc: "PVEM INTEGRANTES DE AYUNTAMIENTO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"119.pdf"}`),
+    subRows: "",
   },
   {
     id: 120,
@@ -18981,6 +19721,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "OCT",
     nameDoc: "INTEGRANTES AYUNTAMIENTO CONVERGENCIA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"120.pdf"}`),
+    subRows: "",
   },
   {
     id: 121,
@@ -18991,6 +19732,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "OCT",
     nameDoc: "INTEGRANTES AYUNTAMIENTO PCDT",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"121.pdf"}`),
+    subRows: "",
   },
   {
     id: 122,
@@ -19001,6 +19743,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "OCT",
     nameDoc: "INTEGRANTES AYUNTAMIENTO NUEVA ALIANZA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"122.pdf"}`),
+    subRows: "",
   },
   {
     id: 123,
@@ -19011,6 +19754,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "OCT",
     nameDoc: "INTEGRANTES AYUNTAMIENTO ALTERNATIVA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"123.pdf"}`),
+    subRows: "",
   },
   {
     id: 124,
@@ -19021,6 +19765,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "OCT",
     nameDoc: "INTEGRANTES AYUNTAMIENTO PARTIDO SOCIALISTA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"124.pdf"}`),
+    subRows: "",
   },
   {
     id: 125,
@@ -19031,6 +19776,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "OCT",
     nameDoc: "REGISTRO PRESIDENTES DE COMUNIDAD",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"125.pdf"}`),
+    subRows: "",
   },
   {
     id: 126,
@@ -19041,6 +19787,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "OCT",
     nameDoc: "SUSTITUCIÓN DE PARTIDO DEL TRABAJO DISTRITO XIX PROPIETARIO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"126.pdf"}`),
+    subRows: "",
   },
   {
     id: 127,
@@ -19051,6 +19798,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "OCT",
     nameDoc: "PRESIDENTE COMUNIDAD JOSÉ NAZARIO RAFAEL MONTIEL ESTRELLA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"127.pdf"}`),
+    subRows: "",
   },
   {
     id: 128,
@@ -19061,6 +19809,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "OCT",
     nameDoc: "PRESIDENTE COMUNIDAD JOSE PEDRO TRINIDAD BARRIO SAN ANTONIO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"128.pdf"}`),
+    subRows: "",
   },
   {
     id: 129,
@@ -19071,6 +19820,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "OCT",
     nameDoc: "NEGACIÓN DE REGISTRO DEL SR. OLIMPO-ATÍPICO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"129.pdf"}`),
+    subRows: "",
   },
   {
     id: 130,
@@ -19081,6 +19831,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "OCT",
     nameDoc: "FALTA CREDENCIAL PARA VOTAR VÍCTOR FERNANDO GALLEGOS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"130.pdf"}`),
+    subRows: "",
   },
   {
     id: 131,
@@ -19091,6 +19842,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "OCT",
     nameDoc: "FALTA CREDENCIAL PARA VOTAR CASO ATÍPICO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"131.pdf"}`),
+    subRows: "",
   },
   {
     id: 132,
@@ -19101,6 +19853,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "OCT",
     nameDoc: "DISTRIBUCIÓN DE FINANCIAMIENTO PÚBLICO PARA AYUNTAMIENTOS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"132.pdf"}`),
+    subRows: "",
   },
   {
     id: 133,
@@ -19112,6 +19865,7 @@ export const dataAcuerdos2007 = [
     nameDoc:
       "ACREDITACIÓN REPRESENTANTES MESAS DIRECTIVAS DE CASILLA GENERALES 2007",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"133.pdf"}`),
+    subRows: "",
   },
   {
     id: 134,
@@ -19122,6 +19876,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "OCT",
     nameDoc: "CUMPL. RESOLUCIÓN TOCA 184-2007 ACUERDO CG 75-2007 PRD",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"134.pdf"}`),
+    subRows: "",
   },
   {
     id: 135,
@@ -19132,6 +19887,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "OCT",
     nameDoc: " SE AUTORIZA LA COMPRA DE BOLETAS Y ACTAS 2007",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"135.pdf"}`),
+    subRows: "",
   },
   {
     id: 136,
@@ -19143,6 +19899,7 @@ export const dataAcuerdos2007 = [
     nameDoc:
       "CARACTERÍSTICAS, MODELOS Y MEDIDAS DE SEGURIDAD DE BOLETAS Y ACTAS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"136.pdf"}`),
+    subRows: "",
   },
   {
     id: 137,
@@ -19153,6 +19910,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "OCT",
     nameDoc: "SUSTITUCIÓN REGISTRO SINDICO PANAL",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"137.pdf"}`),
+    subRows: "",
   },
   {
     id: 138,
@@ -19163,6 +19921,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "OCT",
     nameDoc: "SUSTITUCIÓN REGIDOR QUINTO Y SEXTO DEL PT, TEPETITLA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"138.pdf"}`),
+    subRows: "",
   },
   {
     id: 139,
@@ -19174,6 +19933,7 @@ export const dataAcuerdos2007 = [
     nameDoc:
       "SUSTITUCIÓN PAPALOTLA SEGUNDO REGIDOR ALIANZA PROGRESO PARA TLAXCALA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"139.pdf"}`),
+    subRows: "",
   },
   {
     id: 140,
@@ -19184,6 +19944,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "OCT",
     nameDoc: "SUSTITUCIÓN DIP. SUPL. PARTIDO DEL TRABAJO DISTRITO IV",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"140.pdf"}`),
+    subRows: "",
   },
   {
     id: 141,
@@ -19194,6 +19955,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "OCT",
     nameDoc: "SUSTITUCIÓN SINDICO PT SANTA CRUZ TLAX",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"141.pdf"}`),
+    subRows: "",
   },
   {
     id: 142,
@@ -19204,6 +19966,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "OCT",
     nameDoc: "SUSTITUCIÓN DE PRESIDENTE DE COMUNIDAD COL.EL MIRADOR CALP. TLAX",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"142.pdf"}`),
+    subRows: "",
   },
   {
     id: 143,
@@ -19214,6 +19977,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "OCT",
     nameDoc: "SUSTITUCIÓN QUINTO REGIDOR ALIANZA PROGRESO PARA TLAXCALA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"143.pdf"}`),
+    subRows: "",
   },
   {
     id: 144,
@@ -19224,6 +19988,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "OCT",
     nameDoc: "SUSTITUCIÓN PRIMER REGIDOR PARTIDO SOCIALISTA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"144.pdf"}`),
+    subRows: "",
   },
   {
     id: 145,
@@ -19234,6 +19999,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "OCT",
     nameDoc: "SUSTITUCIÓN CANDIDATO A PC DE TLATEMPA, MUNICIPIO DE APETATITLÁN",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"145.pdf"}`),
+    subRows: "",
   },
   {
     id: 146,
@@ -19244,6 +20010,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "OCT",
     nameDoc: "SUSTITUCIÓN PC TEPATLAXCO, PARTIDO SOCIALISTA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"146.pdf"}`),
+    subRows: "",
   },
   {
     id: 147,
@@ -19254,6 +20021,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "OCT",
     nameDoc: "SUST. REGIDORES.AYTO. CALPULALPAN.07",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"147.pdf"}`),
+    subRows: "",
   },
   {
     id: 148,
@@ -19264,6 +20032,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "OCT",
     nameDoc: "SUSTITUCIÓN TETLATLAHUACA CASTRO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"148.pdf"}`),
+    subRows: "",
   },
   {
     id: 149,
@@ -19274,6 +20043,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "OCT",
     nameDoc: "SUSTITUCIÓN DE CANDIDATO SUPLENTE FORMULA 4 ALIANZA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"149.pdf"}`),
+    subRows: "",
   },
   {
     id: 150,
@@ -19284,6 +20054,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "OCT",
     nameDoc: "RENUNCIA DE PRES.DE COM.TEXCALAC TLAX",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"150.pdf"}`),
+    subRows: "",
   },
   {
     id: 151,
@@ -19294,6 +20065,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "OCT",
     nameDoc: "CUMPLIMIENTO TOCA 185-2007. LIC. EZEQUIEL",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"151.pdf"}`),
+    subRows: "",
   },
   {
     id: 152,
@@ -19304,6 +20076,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "OCT",
     nameDoc: "NUMERO E INTEGRACION DE CASILLAS 2007",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"152.pdf"}`),
+    subRows: "",
   },
   {
     id: 153,
@@ -19314,6 +20087,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "OCT",
     nameDoc: "RENUNCIA DE PRES.DE COM.TEXCALAC TLAX",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"153.pdf"}`),
+    subRows: "",
   },
   {
     id: 154,
@@ -19324,6 +20098,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "OCT",
     nameDoc: "SUST. SINDICO AYTO. NATIVITAS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"154.pdf"}`),
+    subRows: "",
   },
   {
     id: 155,
@@ -19335,6 +20110,7 @@ export const dataAcuerdos2007 = [
     nameDoc:
       "SUSTITUCIÓN REGISTRO SINDICO PARTIDO CONVERGENCIA TEOLOCH LIC OLVERA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"155.pdf"}`),
+    subRows: "",
   },
   {
     id: 156,
@@ -19345,6 +20121,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "OCT",
     nameDoc: "SUSTITUCIÓN PRIMER REGIDOR ALTZAYANCAHERLINDO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"156.pdf"}`),
+    subRows: "",
   },
   {
     id: 157,
@@ -19355,6 +20132,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "OCT",
     nameDoc: "SUST. DTO. XVI ALTERNATIVA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"157.pdf"}`),
+    subRows: "",
   },
   {
     id: 158,
@@ -19365,6 +20143,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "OCT",
     nameDoc: "SUST. SINDICO, PROP Y SUPLET. ATLANGATEPEC",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"158.pdf"}`),
+    subRows: "",
   },
   {
     id: 159,
@@ -19375,6 +20154,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "OCT",
     nameDoc: "SUSTITUCIÓN SR TEPETITLA DE LARDIZABAL CASTRO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"159.pdf"}`),
+    subRows: "",
   },
   {
     id: 160,
@@ -19385,6 +20165,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "OCT",
     nameDoc: "SUSTITUCIÓN QUINTO REGIDOR PARTIDO DEL TRABAJO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"160.pdf"}`),
+    subRows: "",
   },
   {
     id: 161,
@@ -19395,6 +20176,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "OCT",
     nameDoc: "TERCER REGIDOR SN. PABLO MONTE",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"161.pdf"}`),
+    subRows: "",
   },
   {
     id: 162,
@@ -19405,6 +20187,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "OCT",
     nameDoc: "SUST.DIP. XV.ALTER.SOCIALDEM",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"162.pdf"}`),
+    subRows: "",
   },
   {
     id: 163,
@@ -19415,6 +20198,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "OCT",
     nameDoc: "SUSTITUCIÓN TETLATLAHUACA CASTRO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"163.pdf"}`),
+    subRows: "",
   },
   {
     id: 164,
@@ -19425,6 +20209,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "OCT",
     nameDoc: "PRIMER REGIDOR PROPIETARIO HUAMANTLA PT",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"164.pdf"}`),
+    subRows: "",
   },
   {
     id: 165,
@@ -19435,6 +20220,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "OCT",
     nameDoc: "SUST. PC SEGUNDA SECCION MAZATECOCHCO PT",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"165.pdf"}`),
+    subRows: "",
   },
   {
     id: 166,
@@ -19445,6 +20231,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "OCT",
     nameDoc: "PARTIDO SOCIALISTA SUSTITUCION PRIMERO Y SEGUNDO REGIDOR",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"166.pdf"}`),
+    subRows: "",
   },
   {
     id: 167,
@@ -19455,6 +20242,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "OCT",
     nameDoc: "SUSTITUCIÓN CONSEJEROS ELECTORALES MUNICIPALES 19 OCTUBRE",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"167.pdf"}`),
+    subRows: "",
   },
   {
     id: 168,
@@ -19465,6 +20253,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "OCT",
     nameDoc: "SUSTITUCIÓN PT SINDICO TERRENATE",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"168.pdf"}`),
+    subRows: "",
   },
   {
     id: 169,
@@ -19475,6 +20264,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "OCT",
     nameDoc: "CUMPLIMIENTO TOCA 202-2007 VÍCTOR FERNANDO GALLEGOS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"169.pdf"}`),
+    subRows: "",
   },
   {
     id: 170,
@@ -19485,6 +20275,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "OCT",
     nameDoc: "COMUNIDAD ZARAGOZA SECCIÓN 0335",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"170.pdf"}`),
+    subRows: "",
   },
   {
     id: 171,
@@ -19495,6 +20286,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "OCT",
     nameDoc: "SANTA CRUZ TETELA SECCIÓN 0150-1",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"171.pdf"}`),
+    subRows: "",
   },
   {
     id: 172,
@@ -19505,6 +20297,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "OCT",
     nameDoc: "DISTINCION LISTA NOMINAL COMUNIDADES 2007-1",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"172.pdf"}`),
+    subRows: "",
   },
   {
     id: 173,
@@ -19515,6 +20308,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "OCT",
     nameDoc: "CIERRE CAMPAÑAS 2007",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"173.pdf"}`),
+    subRows: "",
   },
   {
     id: 174,
@@ -19525,6 +20319,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "OCT",
     nameDoc: "SUSTIT.PRIM. REGIDOR. DEL PAN-PAC, SAN J. ZACUALPAN",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"174.pdf"}`),
+    subRows: "",
   },
   {
     id: 175,
@@ -19535,6 +20330,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "OCT",
     nameDoc: "TERCER REGIDOR PROPIETARIO NANACAMILPA PAN-PAC",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"175.pdf"}`),
+    subRows: "",
   },
   {
     id: 176,
@@ -19545,6 +20341,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "OCT",
     nameDoc: "SUST. PRESIDENTE DE COM. TERRENATE PRD",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"176.pdf"}`),
+    subRows: "",
   },
   {
     id: 177,
@@ -19555,6 +20352,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "OCT",
     nameDoc: "SUSTICIÓN REGISTRO SINDICO PROPIETARIO PRD HUAMANTLA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"177.pdf"}`),
+    subRows: "",
   },
   {
     id: 178,
@@ -19565,6 +20363,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "OCT",
     nameDoc: "SUST. SEGUNDA SECCION MAZATECOCHCO PT",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"178.pdf"}`),
+    subRows: "",
   },
   {
     id: 179,
@@ -19575,6 +20374,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "OCT",
     nameDoc: "SUST. SR SAN PABLO DEL MONTE PT",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"179.pdf"}`),
+    subRows: "",
   },
   {
     id: 180,
@@ -19585,6 +20385,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "OCT",
     nameDoc: "SUSTITUCIÓN PRESIDENTE MUNICIPAL PARTIDO DEL TRABAJO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"180.pdf"}`),
+    subRows: "",
   },
   {
     id: 181,
@@ -19595,6 +20396,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "OCT",
     nameDoc: "TERCER REGIDOR TERRENATE PT",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"181.pdf"}`),
+    subRows: "",
   },
   {
     id: 182,
@@ -19605,6 +20407,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "OCT",
     nameDoc: "SUSTITUCIÓN REGISTRO TERCER REGIDOR PANOTLA PNA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"182.pdf"}`),
+    subRows: "",
   },
   {
     id: 183,
@@ -19615,6 +20418,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "OCT",
     nameDoc: "SUSTITUCIÓN NUEVA ALIANZA SINDICO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"183.pdf"}`),
+    subRows: "",
   },
   {
     id: 184,
@@ -19626,6 +20430,7 @@ export const dataAcuerdos2007 = [
     nameDoc:
       "SUSTITUCION TERCER, CUARTO Y QUINTO SEXTOREGIDOR STACRUZ TLAXCALA ALTERNATIVA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"184.pdf"}`),
+    subRows: "",
   },
   {
     id: 185,
@@ -19636,6 +20441,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "OCT",
     nameDoc: "SUSTITUCIÓN DIPUTADO SUPLENTE ALTERNATIVA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"185.pdf"}`),
+    subRows: "",
   },
   {
     id: 186,
@@ -19646,6 +20452,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "OCT",
     nameDoc: "SUSTITUCION ALTERNATIVA SOCIAL DEMOCRATA DIPUTADO DISTRITO X",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"186.pdf"}`),
+    subRows: "",
   },
   {
     id: 187,
@@ -19656,6 +20463,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "OCT",
     nameDoc: "QUINTO REGIDOR SAN JUAN HUACTZINCO PS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"187.pdf"}`),
+    subRows: "",
   },
   {
     id: 188,
@@ -19666,6 +20474,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "OCT",
     nameDoc: "SUSTITUCIÓN PDTE.COMUNIDADTLAXCO PS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"188.pdf"}`),
+    subRows: "",
   },
   {
     id: 189,
@@ -19676,6 +20485,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "OCT",
     nameDoc: "SUSTITUCIÓN REGIDOR ALIANZA SIGLO XXI",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"189.pdf"}`),
+    subRows: "",
   },
   {
     id: 190,
@@ -19686,6 +20496,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "OCT",
     nameDoc: "SUSTITUCIÓN regiDOR ALIANZA siglo xxI xicotzigo",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"190.pdf"}`),
+    subRows: "",
   },
   {
     id: 191,
@@ -19696,6 +20507,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "OCT",
     nameDoc: "SUSTI. PRI-VERDE TEPEYANCO PRIMER REGIDOR",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"191.pdf"}`),
+    subRows: "",
   },
   {
     id: 192,
@@ -19706,6 +20518,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "OCT",
     nameDoc: "SUSTI. PRI-VERDE ACUAMANALA DE MIGUEL HIDALGO SEGUNDO REGIDOR",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"192.pdf"}`),
+    subRows: "",
   },
   {
     id: 193,
@@ -19716,6 +20529,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "OCT",
     nameDoc: "SUSTITUCIÓN ACUAMANALA EA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"193.pdf"}`),
+    subRows: "",
   },
   {
     id: 194,
@@ -19726,6 +20540,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "OCT",
     nameDoc: "SUSTITUCIÓN TEPEYANCO EA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"194.pdf"}`),
+    subRows: "",
   },
   {
     id: 195,
@@ -19736,6 +20551,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "OCT",
     nameDoc: "SUSTITUCIÓN PRIMER REGIDOR Psocialista HUAMANTLA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"195.pdf"}`),
+    subRows: "",
   },
   {
     id: 196,
@@ -19746,6 +20562,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "OCT",
     nameDoc: "SUSTITUCIÓN Tercer Regidor Calpulalapan Alianza Siglo XXI",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"196.pdf"}`),
+    subRows: "",
   },
   {
     id: 197,
@@ -19756,6 +20573,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "OCT",
     nameDoc: "SUSTITUCIÓN PRIMER REGIDOR ALIANZA SIGLO XXI SANCTORUM",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"197.pdf"}`),
+    subRows: "",
   },
   {
     id: 198,
@@ -19766,6 +20584,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "OCT",
     nameDoc: "SUSTITUCIÓN Segundo Regidor Yauhquemecan Alianza Siglo XXI",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"198.pdf"}`),
+    subRows: "",
   },
   {
     id: 199,
@@ -19776,6 +20595,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "OCT",
     nameDoc: "SUSTITUCIÓN DE CANDIDATO SUPLENTE FORMULA 4 alianza SIGLO XXI",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"199.pdf"}`),
+    subRows: "",
   },
   {
     id: 200,
@@ -19786,6 +20606,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "OCT",
     nameDoc: "SUSTITUCIÓN CONTLA PARTIDOSOCIALISTA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"200.pdf"}`),
+    subRows: "",
   },
   {
     id: 201,
@@ -19796,6 +20617,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "OCT",
     nameDoc: "SUSTITUCIÓN CONSEJEROS ELECTORALES MUNICIPALES 21 OCTUBRE",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"201.pdf"}`),
+    subRows: "",
   },
   {
     id: 202,
@@ -19806,6 +20628,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "OCT",
     nameDoc: "SUSTITUCIÓN REGIDORES.AYTO, TEPEYANCO. P.R.D.07",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"202.pdf"}`),
+    subRows: "",
   },
   {
     id: 203,
@@ -19816,6 +20639,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "OCT",
     nameDoc: "NÚMERO Y UBICACIÓN DE CASILLAS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"203.pdf"}`),
+    subRows: "",
   },
   {
     id: 204,
@@ -19826,6 +20650,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "OCT",
     nameDoc: "SANTA CRUZ TETELA SECCIÓN 0150",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"204.pdf"}`),
+    subRows: "",
   },
   {
     id: 205,
@@ -19836,6 +20661,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "OCT",
     nameDoc: "SUSTITUCIÓN XALTOCAN ALIANZA PROGRESO P TLAX",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"205.pdf"}`),
+    subRows: "",
   },
   {
     id: 206,
@@ -19846,6 +20672,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "OCT",
     nameDoc: "CONVERGENCIA SEXTO SUPLENTE",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"206.pdf"}`),
+    subRows: "",
   },
   {
     id: 207,
@@ -19856,6 +20683,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "OCT",
     nameDoc: "SEGUNDO REGIDOR YAUHQUEMECAN PCDT",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"207.pdf"}`),
+    subRows: "",
   },
   {
     id: 208,
@@ -19866,6 +20694,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "OCT",
     nameDoc: "SUSTITUCIÓN SEGUNDO REGIDOR PSOCIALISTA HUAMANTLA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"208.pdf"}`),
+    subRows: "",
   },
   {
     id: 209,
@@ -19877,6 +20706,7 @@ export const dataAcuerdos2007 = [
     nameDoc:
       "SUSTITUCIÓN 1ER.REGIDOR PROPIETARIO Y SUPLENTE CALPULA. PART. SOCIALISTA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"209.pdf"}`),
+    subRows: "",
   },
   {
     id: 210,
@@ -19887,6 +20717,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "OCT",
     nameDoc: "SUSTITUCIÓN SINDICO AYUNTAMIENTO APIZACO PS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"210.pdf"}`),
+    subRows: "",
   },
   {
     id: 211,
@@ -19898,6 +20729,7 @@ export const dataAcuerdos2007 = [
     nameDoc:
       "SUSTITUCIÓN DE SEGUNDO REGIDOR PROPIETARIO ESPAÑITA ALIANZA SIGLO XXI",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"211.pdf"}`),
+    subRows: "",
   },
   {
     id: 212,
@@ -19908,6 +20740,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "OCT",
     nameDoc: "SUSTITUCIÓN TERCER REGIDOR SUPLENTE TZOMPANTEPEC PT",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"212.pdf"}`),
+    subRows: "",
   },
   {
     id: 213,
@@ -19918,6 +20751,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "OCT",
     nameDoc: "SUSTITUCIÓN SINDICO MUNICIPAL PROPIETARIO TLAXCO PS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"213.pdf"}`),
+    subRows: "",
   },
   {
     id: 214,
@@ -19928,6 +20762,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "OCT",
     nameDoc: "SUSTITUCIÓN PRIMER REGIDOR SAN PABLO DEL MONTE PCDT",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"214.pdf"}`),
+    subRows: "",
   },
   {
     id: 215,
@@ -19938,6 +20773,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "OCT",
     nameDoc: "SEGUNDO REGIDOR TLAXCALA PAN-PAC",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"215.pdf"}`),
+    subRows: "",
   },
   {
     id: 216,
@@ -19948,6 +20784,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "OCT",
     nameDoc: "SUSTITUCIÓN DIPUTADO SUPLENTE XVI. ALTERNATIVA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"216.pdf"}`),
+    subRows: "",
   },
   {
     id: 217,
@@ -19958,6 +20795,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "OCT",
     nameDoc: "SUSTITUCIÓN CONSEJEROS DISTRITALES Y MUNICIPALES 30 OCTUBRE",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"217.pdf"}`),
+    subRows: "",
   },
   {
     id: 218,
@@ -19968,6 +20806,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "NOV",
     nameDoc: "CUMPLIMIENTO TOCA 223-2007 OLIMPO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"218.pdf"}`),
+    subRows: "",
   },
   {
     id: 219,
@@ -19978,6 +20817,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "NOV",
     nameDoc: "CUMPLIMIENTO TOCA 215-2007",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"219.pdf"}`),
+    subRows: "",
   },
   {
     id: 220,
@@ -19988,6 +20828,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "NOV",
     nameDoc: "CUMPLIMIENTO TOCA 219-2007",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"220.pdf"}`),
+    subRows: "",
   },
   {
     id: 221,
@@ -19998,6 +20839,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "NOV",
     nameDoc: "SUSTITUCIÓN FUNCIONARIOS CASILLA 2007",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"221.pdf"}`),
+    subRows: "",
   },
   {
     id: 222,
@@ -20008,6 +20850,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "NOV",
     nameDoc: "SUSTITUCIÓN CONSEJERO MUNICIPAL DE ZACATELCO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"222.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -20024,6 +20867,7 @@ export const dataAcuerdos2007 = [
         typeDoc: "",
         nameDoc: "DICTAMEN",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"223.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -20036,6 +20880,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "NOV",
     nameDoc: "DICTAMEN CUMPLIMIENTO QUEJA TOCA 217.2007",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"224.pdf"}`),
+    subRows: "",
   },
   {
     id: 225,
@@ -20046,6 +20891,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "NOV",
     nameDoc: "CUMPLIMIENTO TOCA 218-2007 PRD",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"225.pdf"}`),
+    subRows: "",
   },
   {
     id: 226,
@@ -20056,6 +20902,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "NOV",
     nameDoc: "CUMPLIMIENTO TOCA 207-2007",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"226.pdf"}`),
+    subRows: "",
   },
   {
     id: 227,
@@ -20066,6 +20913,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "NOV",
     nameDoc: "COMISION INFORMÁTICA Y RESULTADOS ELECTORALES",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"227.pdf"}`),
+    subRows: "",
   },
   {
     id: 228,
@@ -20076,6 +20924,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "NOV",
     nameDoc: "SARJE 2007",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"228.pdf"}`),
+    subRows: "",
   },
   {
     id: 229,
@@ -20086,6 +20935,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "NOV",
     nameDoc: "SUSTITUCIÓN CONSEJERO ELECTORAL PROPIETARIO DISTRITO XI",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"229.pdf"}`),
+    subRows: "",
   },
   {
     id: 230,
@@ -20096,6 +20946,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "NOV",
     nameDoc: "CUMPLIMIENTO TOCA 216-2007 ESPAÑITA PRD",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"230.pdf"}`),
+    subRows: "",
   },
   {
     id: 231,
@@ -20106,6 +20957,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "NOV",
     nameDoc: "SUSTITUCIÓN SEGUNDO Y TERCER REGIDOR XALTOCAN PRD",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"231.pdf"}`),
+    subRows: "",
   },
   {
     id: 232,
@@ -20116,6 +20968,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "NOV",
     nameDoc: "SUSTITUCIÓN SÍNDICO PROPIETARIO CUAPIAXTLA PRD",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"232.pdf"}`),
+    subRows: "",
   },
   {
     id: 233,
@@ -20126,6 +20979,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "NOV",
     nameDoc: "SUSTITUCIÓN TERCER REGIDOR PROP Y SUPSAN PABLO MONTE PRD",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"233.pdf"}`),
+    subRows: "",
   },
   {
     id: 234,
@@ -20136,6 +20990,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "NOV",
     nameDoc: "SUSTITUCIÓN PRIMER REGIDOR PROPIETARIO XALOZTOC PT",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"234.pdf"}`),
+    subRows: "",
   },
   {
     id: 235,
@@ -20146,6 +21001,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "NOV",
     nameDoc: "SUSTITUCIÓN PRIMER Y TERCER REGIDOR CUAPIAXTLA PT",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"235.pdf"}`),
+    subRows: "",
   },
   {
     id: 236,
@@ -20156,6 +21012,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "NOV",
     nameDoc: "SUSTITUCIÓN PRIMER REGIDOR SUPLENTE TERRENATE PAS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"236.pdf"}`),
+    subRows: "",
   },
   {
     id: 237,
@@ -20167,6 +21024,7 @@ export const dataAcuerdos2007 = [
     nameDoc:
       "SUSTITUCIÓN SEGUNDO REGIDOR PROPIETARIO Y SUPLENTE Y TERCER REGIDOR SUPLENTE TLAXCO PAS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"237.pdf"}`),
+    subRows: "",
   },
   {
     id: 238,
@@ -20177,6 +21035,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "NOV",
     nameDoc: "SUSTITUCIÓN DIPUTADO SUPLENTE DISTRITO III PAS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"238.pdf"}`),
+    subRows: "",
   },
   {
     id: 239,
@@ -20187,6 +21046,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "NOV",
     nameDoc: "SUSTITUCIÓN CUARTO REGIDOR XICOHTZINCO PS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"239.pdf"}`),
+    subRows: "",
   },
   {
     id: 240,
@@ -20197,6 +21057,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "NOV",
     nameDoc: "SUSTITUCIÓN PRIMER REGIDOR YAUQUEMEHCAN PS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"240.pdf"}`),
+    subRows: "",
   },
   {
     id: 241,
@@ -20207,6 +21068,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "NOV",
     nameDoc: "SUSTITUCIÓN SEGUNDO REGIDOR PROPIETARIO TLAXCO PS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"241.pdf"}`),
+    subRows: "",
   },
   {
     id: 242,
@@ -20218,6 +21080,7 @@ export const dataAcuerdos2007 = [
     nameDoc:
       "SUSTITUCIÓN SÍNDICO, SEGUNDO REGIDOR, SEXTO REGIDOR, ZACATELCO PS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"242.pdf"}`),
+    subRows: "",
   },
   {
     id: 243,
@@ -20228,6 +21091,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "NOV",
     nameDoc: "SUSTITUCIÓN DIPUTADO SUPLENTE DISTRITO XIII PS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"243.pdf"}`),
+    subRows: "",
   },
   {
     id: 244,
@@ -20238,6 +21102,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "NOV",
     nameDoc: "INTEGRACIÓN DE LA COMISION MEMORIA PROCESO ORDINARIA2007",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"244.pdf"}`),
+    subRows: "",
   },
   {
     id: 245,
@@ -20249,6 +21114,7 @@ export const dataAcuerdos2007 = [
     nameDoc:
       "MODIFICACIÓN CONVENIO ALIANZA PROGRESO PARA TLAXCALA CASTRO MODIFICADO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"245.pdf"}`),
+    subRows: "",
   },
   {
     id: 246,
@@ -20259,6 +21125,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "NOV",
     nameDoc: "SUSTITUCIÓN CONSEJERO PROP. MPAL TZOMPANTEPEC",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"246.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -20275,11 +21142,13 @@ export const dataAcuerdos2007 = [
         typeDoc: "",
         nameDoc: "ANEXO 1",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"247.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "ANEXO 2",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"247.2.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -20292,6 +21161,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "NOV",
     nameDoc: "CAMBIO UBICACIÓN DE CASILLA BÁSICA SECCIÓN 0021 APIZACO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"248.pdf"}`),
+    subRows: "",
   },
   {
     id: 249,
@@ -20302,6 +21172,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "NOV",
     nameDoc: "TOCA 213-2007 SANCTUORUM PRI",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"249.pdf"}`),
+    subRows: "",
   },
   {
     id: 250,
@@ -20312,6 +21183,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "NOV",
     nameDoc: "SUSTITUCIÓN CHIAUTEMPAN PCDT",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"250.pdf"}`),
+    subRows: "",
   },
   {
     id: 251,
@@ -20322,6 +21194,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "NOV",
     nameDoc: "SUSTITUCIÓN ALIANZA PROGRESO TLAXCALA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"251.pdf"}`),
+    subRows: "",
   },
   {
     id: 252,
@@ -20332,6 +21205,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "NOV",
     nameDoc: "PARTIDO DEL TRABAJO ",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"252.pdf"}`),
+    subRows: "",
   },
   {
     id: 253,
@@ -20342,6 +21216,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "NOV",
     nameDoc: "SUSTITUCIÓN 2DO.REG. PT. TLAXCALA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"253.pdf"}`),
+    subRows: "",
   },
   {
     id: 254,
@@ -20352,6 +21227,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "NOV",
     nameDoc: "SUSTITUCIÓN SINDICO SEGUNDO Y TERCER REGIDOR APIZACO PT CASTRO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"254.pdf"}`),
+    subRows: "",
   },
   {
     id: 255,
@@ -20362,6 +21238,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "NOV",
     nameDoc: "SUSTITUCIONES PARTIDO DEL PT",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"255.pdf"}`),
+    subRows: "",
   },
   {
     id: 256,
@@ -20372,6 +21249,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "NOV",
     nameDoc: "SUSTITUCIÓN PARTIDO VERDE NANACAMILPA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"256.pdf"}`),
+    subRows: "",
   },
   {
     id: 257,
@@ -20382,6 +21260,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "NOV",
     nameDoc: "SUSTITUCIÓN REGIDORES CALPULALPAN PCDT",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"257.pdf"}`),
+    subRows: "",
   },
   {
     id: 258,
@@ -20392,6 +21271,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "NOV",
     nameDoc: "SUSTITUCIÓN REGIDORES ESPAÑITA NUEVA ALIANZA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"258.pdf"}`),
+    subRows: "",
   },
   {
     id: 259,
@@ -20402,6 +21282,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "NOV",
     nameDoc: "SUSTITUCIÓN ALTERNATIVA APETATITLAN PAS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"259.pdf"}`),
+    subRows: "",
   },
   {
     id: 260,
@@ -20412,6 +21293,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "NOV",
     nameDoc: "SUSTITUCIÓN ALTERNATIVA SAN PABLO DEL MONTE DAVID",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"260.pdf"}`),
+    subRows: "",
   },
   {
     id: 261,
@@ -20422,6 +21304,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "NOV",
     nameDoc: "SUSTITUCIÓN REGIDORES TETLATLAHUCA PS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"261.pdf"}`),
+    subRows: "",
   },
   {
     id: 262,
@@ -20432,6 +21315,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "NOV",
     nameDoc: "SUSTITUCIÓN DIPUTADO FORMULA E PS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"262.pdf"}`),
+    subRows: "",
   },
   {
     id: 263,
@@ -20442,6 +21326,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "NOV",
     nameDoc: "OBSERVADORES ELECTORALES",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"263.pdf"}`),
+    subRows: "",
   },
   {
     id: 264,
@@ -20452,6 +21337,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "NOV",
     nameDoc: "SUSTITUCIÓN DIP. SUPL. TEPEYANCO PT",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"264.pdf"}`),
+    subRows: "",
   },
   {
     id: 265,
@@ -20462,6 +21348,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "NOV",
     nameDoc: "SUSTITUCIÓN AYUNTAMIENTO ZITLATEPEC PAN-PAC",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"265.pdf"}`),
+    subRows: "",
   },
   {
     id: 266,
@@ -20472,6 +21359,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "NOV",
     nameDoc: "SUSTITUCIÓN CONSEJERO PROPIETARIO DISTRITO II",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"266.pdf"}`),
+    subRows: "",
   },
   {
     id: 267,
@@ -20483,6 +21371,7 @@ export const dataAcuerdos2007 = [
     nameDoc:
       "SUSTITUCIÓN SEGUNDO REGIDOR PROPIETARIO CALPULALPAN ALIANZA SIGLO XXI",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"267.pdf"}`),
+    subRows: "",
   },
   {
     id: 268,
@@ -20493,6 +21382,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "NOV",
     nameDoc: "PLURIS 2007",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"268.pdf"}`),
+    subRows: "",
   },
   {
     id: 269,
@@ -20503,6 +21393,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "NOV",
     nameDoc: "ASIGNACIÓN REGIDURIAS AYUNTAMIENTOS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"269.pdf"}`),
+    subRows: "",
   },
   {
     id: 270,
@@ -20513,6 +21404,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "NOV",
     nameDoc: "MODIFICACIÓN ACUERDO 269 ASIGNACIÓN REGIDURIAS 2007",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"270.pdf"}`),
+    subRows: "",
   },
   {
     id: 271,
@@ -20523,6 +21415,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "DIC",
     nameDoc: "CUMPLIMIENTO PLURINOMINALES",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"271.pdf"}`),
+    subRows: "",
   },
   {
     id: 272,
@@ -20533,6 +21426,7 @@ export const dataAcuerdos2007 = [
     monthDoc: "DIC",
     nameDoc: "CUMPLIMIENTO DISTRITO V",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"272.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -20549,6 +21443,7 @@ export const dataAcuerdos2007 = [
         typeDoc: "",
         nameDoc: "DICTAMEN PÉRDIDA DE REGISTRO PCDT",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2007/"}${"273.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -20563,6 +21458,7 @@ export const dataAcuerdos2006 = [
     monthDoc: "FEB",
     nameDoc: "INTEGRACIÓN JUNTA GENERAL EJECUTIVA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2006/"}${"1.pdf"}`),
+    subRows: "",
   },
   {
     id: 2,
@@ -20573,6 +21469,7 @@ export const dataAcuerdos2006 = [
     monthDoc: "FEB",
     nameDoc: "INFORME ANUAL 2005",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2006/"}${"2.pdf"}`),
+    subRows: "",
   },
   {
     id: 3,
@@ -20583,6 +21480,7 @@ export const dataAcuerdos2006 = [
     monthDoc: "MAR",
     nameDoc: "01-06",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2006/"}${"3.pdf"}`),
+    subRows: "",
   },
   {
     id: 4,
@@ -20593,6 +21491,7 @@ export const dataAcuerdos2006 = [
     monthDoc: "MAR",
     nameDoc: "04-06",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2006/"}${"4.pdf"}`),
+    subRows: "",
   },
   {
     id: 5,
@@ -20603,6 +21502,7 @@ export const dataAcuerdos2006 = [
     monthDoc: "ABR",
     nameDoc: "COBAT, IFE, IET",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2006/"}${"5.pdf"}`),
+    subRows: "",
   },
   {
     id: 6,
@@ -20613,6 +21513,7 @@ export const dataAcuerdos2006 = [
     monthDoc: "MAY",
     nameDoc: "INFORME ANUAL RELATIVO A LOS INGRESOS Y EGRESOS DEL 2005 PAN",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2006/"}${"6.pdf"}`),
+    subRows: "",
   },
   {
     id: 7,
@@ -20623,6 +21524,7 @@ export const dataAcuerdos2006 = [
     monthDoc: "MAY",
     nameDoc: "INFORME ANUAL RELATIVO A LOS INGRESOS Y EGRESOS DEL 2005 PRI",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2006/"}${"7.pdf"}`),
+    subRows: "",
   },
   {
     id: 8,
@@ -20633,6 +21535,7 @@ export const dataAcuerdos2006 = [
     monthDoc: "MAY",
     nameDoc: "INFORME ANUAL RELATIVO A LOS INGRESOS Y EGRESOS DEL 2005 PRD",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2006/"}${"8.pdf"}`),
+    subRows: "",
   },
   {
     id: 9,
@@ -20643,6 +21546,7 @@ export const dataAcuerdos2006 = [
     monthDoc: "MAY",
     nameDoc: "INFORME ANUAL RELATIVO A LOS INGRESOS Y EGRESOS DEL 2005 PT",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2006/"}${"9.pdf"}`),
+    subRows: "",
   },
   {
     id: 10,
@@ -20653,6 +21557,7 @@ export const dataAcuerdos2006 = [
     monthDoc: "MAY",
     nameDoc: "INFORME ANUAL RELATIVO A LOS INGRESOS Y EGRESOS DEL 2005 PVEM",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2006/"}${"10.pdf"}`),
+    subRows: "",
   },
   {
     id: 11,
@@ -20664,6 +21569,7 @@ export const dataAcuerdos2006 = [
     nameDoc:
       "INFORME ANUAL RELATIVO A LOS INGRESOS Y EGRESOS DEL 2005 CONVERGENCIA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2006/"}${"11.pdf"}`),
+    subRows: "",
   },
   {
     id: 12,
@@ -20674,6 +21580,7 @@ export const dataAcuerdos2006 = [
     monthDoc: "MAY",
     nameDoc: "INFORME ANUAL RELATIVO A LOS INGRESOS Y EGRESOS DEL 2005 PCDT",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2006/"}${"12.pdf"}`),
+    subRows: "",
   },
   {
     id: 13,
@@ -20684,6 +21591,7 @@ export const dataAcuerdos2006 = [
     monthDoc: "MAY",
     nameDoc: "INFORME ANUAL RELATIVO A LOS INGRESOS Y EGRESOS DEL 2005 PNA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2006/"}${"13.pdf"}`),
+    subRows: "",
   },
   {
     id: 14,
@@ -20694,6 +21602,7 @@ export const dataAcuerdos2006 = [
     monthDoc: "MAY",
     nameDoc: "INFORME ANUAL RELATIVO A LOS INGRESOS Y EGRESOS DEL 2005 PASDC",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2006/"}${"14.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -20710,6 +21619,7 @@ export const dataAcuerdos2006 = [
         typeDoc: "",
         nameDoc: "DICTAMEN ESTATUTOS PCDT",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2006/"}${"15.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -20728,6 +21638,7 @@ export const dataAcuerdos2006 = [
         typeDoc: "",
         nameDoc: "DICTAMEN COMISIÓN EJECUTIVA",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2006/"}${"16.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -20740,6 +21651,7 @@ export const dataAcuerdos2006 = [
     monthDoc: "JUN",
     nameDoc: "SANCIÓN PAN",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2006/"}${"17.pdf"}`),
+    subRows: "",
   },
   {
     id: 18,
@@ -20750,6 +21662,7 @@ export const dataAcuerdos2006 = [
     monthDoc: "JUN",
     nameDoc: "SANCIÓN PRI",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2006/"}${"18.pdf"}`),
+    subRows: "",
   },
   {
     id: 19,
@@ -20760,6 +21673,7 @@ export const dataAcuerdos2006 = [
     monthDoc: "JUN",
     nameDoc: "SANCIÓN PRD",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2006/"}${"19.pdf"}`),
+    subRows: "",
   },
   {
     id: 20,
@@ -20770,6 +21684,7 @@ export const dataAcuerdos2006 = [
     monthDoc: "JUN",
     nameDoc: "SANCIÓN PT",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2006/"}${"20.pdf"}`),
+    subRows: "",
   },
   {
     id: 21,
@@ -20780,6 +21695,7 @@ export const dataAcuerdos2006 = [
     monthDoc: "JUN",
     nameDoc: "SANCIÓN CONVERGENCIA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2006/"}${"21.pdf"}`),
+    subRows: "",
   },
   {
     id: 22,
@@ -20790,6 +21706,7 @@ export const dataAcuerdos2006 = [
     monthDoc: "JUN",
     nameDoc: "SANCIÓN PCDT",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2006/"}${"22.pdf"}`),
+    subRows: "",
   },
   {
     id: 23,
@@ -20800,6 +21717,7 @@ export const dataAcuerdos2006 = [
     monthDoc: "JUN",
     nameDoc: "SANCIÓN NA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2006/"}${"23.pdf"}`),
+    subRows: "",
   },
   {
     id: 24,
@@ -20810,6 +21728,7 @@ export const dataAcuerdos2006 = [
     monthDoc: "JUN",
     nameDoc: "REESTRUCTURA COMISIÓN DEMARCACIÓN DISTRITAL",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2006/"}${"24.pdf"}`),
+    subRows: "",
   },
   {
     id: 25,
@@ -20820,6 +21739,7 @@ export const dataAcuerdos2006 = [
     monthDoc: "JUN",
     nameDoc: "QUEJA 05-2006",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2006/"}${"25.pdf"}`),
+    subRows: "",
   },
   {
     id: 26,
@@ -20830,6 +21750,7 @@ export const dataAcuerdos2006 = [
     monthDoc: "SEP",
     nameDoc: "PRESUPUESTO 2006",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2006/"}${"26.pdf"}`),
+    subRows: "",
   },
   {
     id: 27,
@@ -20840,6 +21761,7 @@ export const dataAcuerdos2006 = [
     monthDoc: "OCT",
     nameDoc: "CUMPLIMIENTO SANCIÓN PCDT",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2006/"}${"27.pdf"}`),
+    subRows: "",
   },
   {
     id: 28,
@@ -20850,6 +21772,7 @@ export const dataAcuerdos2006 = [
     monthDoc: "OCT",
     nameDoc: "NORMATIVIDAD CONSULTA CIUDADANA 2006",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2006/"}${"28.pdf"}`),
+    subRows: "",
   },
   {
     id: 29,
@@ -20860,6 +21783,7 @@ export const dataAcuerdos2006 = [
     monthDoc: "OCT",
     nameDoc: "LINEAMIENTOS NUEVOS PARTIDOS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2006/"}${"29.pdf"}`),
+    subRows: "",
   },
   {
     id: 30,
@@ -20870,6 +21794,7 @@ export const dataAcuerdos2006 = [
     monthDoc: "NOV",
     nameDoc: "INFORME 2006",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2006/"}${"30.pdf"}`),
+    subRows: "",
   },
   {
     id: 31,
@@ -20880,6 +21805,7 @@ export const dataAcuerdos2006 = [
     monthDoc: "DIC",
     nameDoc: "CUMPLIMIENTO TOCA 962006 CG 152006 PCDT",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2006/"}${"31.pdf"}`),
+    subRows: "",
   },
   {
     id: 32,
@@ -20890,6 +21816,7 @@ export const dataAcuerdos2006 = [
     monthDoc: "DIC",
     nameDoc: "SOBRE CREACION DE COMISIONES",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2006/"}${"32.pdf"}`),
+    subRows: "",
   },
   {
     id: 33,
@@ -20900,6 +21827,7 @@ export const dataAcuerdos2006 = [
     monthDoc: "DIC",
     nameDoc: "COMISIÓN JUNTA GENERAL EJECUTIVA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2006/"}${"33.pdf"}`),
+    subRows: "",
   },
   {
     id: 34,
@@ -20910,6 +21838,7 @@ export const dataAcuerdos2006 = [
     monthDoc: "DIC",
     nameDoc: "PAC",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2006/"}${"34.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -20926,6 +21855,7 @@ export const dataAcuerdos2006 = [
         typeDoc: "",
         nameDoc: "DICTAMEN PS",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2006/"}${"35.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -20940,6 +21870,7 @@ export const dataAcuerdos2005 = [
     monthDoc: "ENE",
     nameDoc: "INTEGRACION LVIII LEGISLATURA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2005/"}${"1.pdf"}`),
+    subRows: "",
   },
   {
     id: 2,
@@ -20950,6 +21881,7 @@ export const dataAcuerdos2005 = [
     monthDoc: "ENE",
     nameDoc: "SELECCIÓN Y SEPARACIÓN DE MATERIAL ELECTORAL",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2005/"}${"2.pdf"}`),
+    subRows: "",
   },
   {
     id: 3,
@@ -20960,6 +21892,7 @@ export const dataAcuerdos2005 = [
     monthDoc: "ENE",
     nameDoc: "PÉRDIDA DE REGISTRO PJS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2005/"}${"3.pdf"}`),
+    subRows: "",
   },
   {
     id: 4,
@@ -20970,6 +21903,7 @@ export const dataAcuerdos2005 = [
     monthDoc: "ENE",
     nameDoc: "EXPEDIENTE 114-2004",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2005/"}${"4.pdf"}`),
+    subRows: "",
   },
   {
     id: 5,
@@ -20980,6 +21914,7 @@ export const dataAcuerdos2005 = [
     monthDoc: "ENE",
     nameDoc: "EXPEDIENTE 129-2004",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2005/"}${"5.pdf"}`),
+    subRows: "",
   },
   {
     id: 6,
@@ -20990,6 +21925,7 @@ export const dataAcuerdos2005 = [
     monthDoc: "ENE",
     nameDoc: "EXPEDIENTE 140-2004",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2005/"}${"6.pdf"}`),
+    subRows: "",
   },
   {
     id: 7,
@@ -21000,6 +21936,7 @@ export const dataAcuerdos2005 = [
     monthDoc: "FEB",
     nameDoc: "INTEGRACIÓN JUNTA GENERAL EJECUTIVA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2005/"}${"7.pdf"}`),
+    subRows: "",
   },
   {
     id: 8,
@@ -21010,6 +21947,7 @@ export const dataAcuerdos2005 = [
     monthDoc: "MAR",
     nameDoc: "INFORME ANUAL",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2005/"}${"8.pdf"}`),
+    subRows: "",
   },
   {
     id: 9,
@@ -21020,6 +21958,7 @@ export const dataAcuerdos2005 = [
     monthDoc: "MAR",
     nameDoc: "AMPLIACIÓN PRESUPUESTO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2005/"}${"9.pdf"}`),
+    subRows: "",
   },
   {
     id: 10,
@@ -21030,6 +21969,7 @@ export const dataAcuerdos2005 = [
     monthDoc: "ABR",
     nameDoc: "DESTRUCCIÓN O RECICLAJE DE LA DOCUMENTACIÓN ELECTORAL",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2005/"}${"10.pdf"}`),
+    subRows: "",
   },
   {
     id: 11,
@@ -21040,6 +21980,7 @@ export const dataAcuerdos2005 = [
     monthDoc: "ABR",
     nameDoc: "COMISION GOBIERNO INTERNO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2005/"}${"11.pdf"}`),
+    subRows: "",
   },
   {
     id: 12,
@@ -21050,6 +21991,7 @@ export const dataAcuerdos2005 = [
     monthDoc: "MAY",
     nameDoc: "COMISIÓN EDITORIAL",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2005/"}${"12.pdf"}`),
+    subRows: "",
   },
   {
     id: 13,
@@ -21060,6 +22002,7 @@ export const dataAcuerdos2005 = [
     monthDoc: "JUN",
     nameDoc: "DICTAMEN PAN",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2005/"}${"13.pdf"}`),
+    subRows: "",
   },
   {
     id: 14,
@@ -21070,6 +22013,7 @@ export const dataAcuerdos2005 = [
     monthDoc: "JUN",
     nameDoc: "DICTAMEN PRI",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2005/"}${"14.pdf"}`),
+    subRows: "",
   },
   {
     id: 15,
@@ -21080,6 +22024,7 @@ export const dataAcuerdos2005 = [
     monthDoc: "JUN",
     nameDoc: "DICTAMEN PRD",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2005/"}${"15.pdf"}`),
+    subRows: "",
   },
   {
     id: 16,
@@ -21090,6 +22035,7 @@ export const dataAcuerdos2005 = [
     monthDoc: "JUN",
     nameDoc: "DICTAMEN PT",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2005/"}${"16.pdf"}`),
+    subRows: "",
   },
   {
     id: 17,
@@ -21100,6 +22046,7 @@ export const dataAcuerdos2005 = [
     monthDoc: "JUN",
     nameDoc: "DICTAMEN PVEM",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2005/"}${"17.pdf"}`),
+    subRows: "",
   },
   {
     id: 18,
@@ -21110,6 +22057,7 @@ export const dataAcuerdos2005 = [
     monthDoc: "JUN",
     nameDoc: "DICTAMEN CONVERGENCIA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2005/"}${"18.pdf"}`),
+    subRows: "",
   },
   {
     id: 19,
@@ -21120,6 +22068,7 @@ export const dataAcuerdos2005 = [
     monthDoc: "JUN",
     nameDoc: "DICTAMEN PCDT",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2005/"}${"19.pdf"}`),
+    subRows: "",
   },
   {
     id: 20,
@@ -21130,6 +22079,7 @@ export const dataAcuerdos2005 = [
     monthDoc: "JUN",
     nameDoc: "DICTAMEN PJS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2005/"}${"20.pdf"}`),
+    subRows: "",
   },
   {
     id: 21,
@@ -21140,6 +22090,7 @@ export const dataAcuerdos2005 = [
     monthDoc: "JUN",
     nameDoc: "REDISTRITACIÓN",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2005/"}${"21.pdf"}`),
+    subRows: "",
   },
   {
     id: 22,
@@ -21150,6 +22101,7 @@ export const dataAcuerdos2005 = [
     monthDoc: "JUN",
     nameDoc: "CONVENIO IET-UAM-UAT",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2005/"}${"22.pdf"}`),
+    subRows: "",
   },
   {
     id: 23,
@@ -21160,6 +22112,7 @@ export const dataAcuerdos2005 = [
     monthDoc: "JUL",
     nameDoc: "SANCIÓN PAN",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2005/"}${"23.pdf"}`),
+    subRows: "",
   },
   {
     id: 24,
@@ -21170,6 +22123,7 @@ export const dataAcuerdos2005 = [
     monthDoc: "JUL",
     nameDoc: "SANCIÓN PRI",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2005/"}${"24.pdf"}`),
+    subRows: "",
   },
   {
     id: 25,
@@ -21180,6 +22134,7 @@ export const dataAcuerdos2005 = [
     monthDoc: "JUL",
     nameDoc: "SANCIÓN PT",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2005/"}${"25.pdf"}`),
+    subRows: "",
   },
   {
     id: 26,
@@ -21190,6 +22145,7 @@ export const dataAcuerdos2005 = [
     monthDoc: "JUL",
     nameDoc: "SANCIÓN VERDE ECOLOGISTA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2005/"}${"26.pdf"}`),
+    subRows: "",
   },
   {
     id: 27,
@@ -21200,6 +22156,7 @@ export const dataAcuerdos2005 = [
     monthDoc: "JUL",
     nameDoc: "SANCIÓN CONVERGENCIA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2005/"}${"27.pdf"}`),
+    subRows: "",
   },
   {
     id: 28,
@@ -21210,6 +22167,7 @@ export const dataAcuerdos2005 = [
     monthDoc: "JUL",
     nameDoc: "SANCIÓN CENTRO DEMOCRATICO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2005/"}${"28.pdf"}`),
+    subRows: "",
   },
   {
     id: 29,
@@ -21220,6 +22178,7 @@ export const dataAcuerdos2005 = [
     monthDoc: "JUL",
     nameDoc: "SANCIÓN PJS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2005/"}${"29.pdf"}`),
+    subRows: "",
   },
   {
     id: 30,
@@ -21230,6 +22189,7 @@ export const dataAcuerdos2005 = [
     monthDoc: "JUL",
     nameDoc: "CONVENIO INSTITUTOS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2005/"}${"30.pdf"}`),
+    subRows: "",
   },
   {
     id: 31,
@@ -21240,6 +22200,7 @@ export const dataAcuerdos2005 = [
     monthDoc: "JUL",
     nameDoc: "SANCIÓN PRD",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2005/"}${"31.pdf"}`),
+    subRows: "",
   },
   {
     id: 32,
@@ -21250,6 +22211,7 @@ export const dataAcuerdos2005 = [
     monthDoc: "JUL",
     nameDoc: "APLICACION DE MINISTRACIONES",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2005/"}${"32.pdf"}`),
+    subRows: "",
   },
   {
     id: 33,
@@ -21260,6 +22222,7 @@ export const dataAcuerdos2005 = [
     monthDoc: "AGO",
     nameDoc: "INFORMACIÓN",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2005/"}${"33.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -21276,6 +22239,7 @@ export const dataAcuerdos2005 = [
         typeDoc: "",
         nameDoc: "CONVENIO IET-AYUNTAMIENTOS",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2005/"}${"34.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -21288,6 +22252,7 @@ export const dataAcuerdos2005 = [
     monthDoc: "AGO",
     nameDoc: "MODIFICATORIO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2005/"}${"35.pdf"}`),
+    subRows: "",
   },
   {
     id: 36,
@@ -21298,6 +22263,7 @@ export const dataAcuerdos2005 = [
     monthDoc: "SEP",
     nameDoc: "PRESUPUESTO 2006",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2005/"}${"36.pdf"}`),
+    subRows: "",
   },
   {
     id: 37,
@@ -21308,6 +22274,7 @@ export const dataAcuerdos2005 = [
     monthDoc: "SEP",
     nameDoc: "DESINCORPORACIÓN VEHÍCULOS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2005/"}${"37.pdf"}`),
+    subRows: "",
   },
   {
     id: 38,
@@ -21318,6 +22285,7 @@ export const dataAcuerdos2005 = [
     monthDoc: "OCT",
     nameDoc: "ACREDITACIÓN NUEVA ALIANZA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2005/"}${"38.pdf"}`),
+    subRows: "",
   },
   {
     id: 39,
@@ -21328,6 +22296,7 @@ export const dataAcuerdos2005 = [
     monthDoc: "OCT",
     nameDoc: "ACREDITACIÓN ALTERNATIVA SOCIALDEMÓCRATA Y CAMPESINA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2005/"}${"39.pdf"}`),
+    subRows: "",
   },
   {
     id: 40,
@@ -21338,6 +22307,7 @@ export const dataAcuerdos2005 = [
     monthDoc: "NOV",
     nameDoc: "FINANCIAMIENTO NUEVOS PARTIDOS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2005/"}${"40.pdf"}`),
+    subRows: "",
   },
   {
     id: 41,
@@ -21348,6 +22318,7 @@ export const dataAcuerdos2005 = [
     monthDoc: "DIC",
     nameDoc: "PRD",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2005/"}${"41.pdf"}`),
+    subRows: "",
   },
   {
     id: 42,
@@ -21358,6 +22329,7 @@ export const dataAcuerdos2005 = [
     monthDoc: "DIC",
     nameDoc: "APLICACIÓN MINISTRACIONES PRD",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2005/"}${"42.pdf"}`),
+    subRows: "",
   },
   {
     id: 43,
@@ -21368,6 +22340,7 @@ export const dataAcuerdos2005 = [
     monthDoc: "DIC",
     nameDoc: "REGISTRO PAC",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2005/"}${"43.pdf"}`),
+    subRows: "",
   },
 ];
 export const dataAcuerdos2004 = [
@@ -21380,6 +22353,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "ENE",
     nameDoc: "SOBRE CREACION DE COMISIONES",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"1.pdf"}`),
+    subRows: "",
   },
   {
     id: 2,
@@ -21390,6 +22364,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "ENE",
     nameDoc: "INTEGRAR LA JUNTA GENERAL EJECUTIVA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"2.pdf"}`),
+    subRows: "",
   },
   {
     id: 3,
@@ -21400,6 +22375,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "ENE",
     nameDoc: "RETRIBUCION CONSEJEROS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"3.pdf"}`),
+    subRows: "",
   },
   {
     id: 4,
@@ -21410,6 +22386,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "ENE",
     nameDoc: "PROCEDIMIENTOS PJS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"4.pdf"}`),
+    subRows: "",
   },
   {
     id: 5,
@@ -21420,6 +22397,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "ENE",
     nameDoc: "CONVOCATORIA DIRECCIONES",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"5.pdf"}`),
+    subRows: "",
   },
   {
     id: 6,
@@ -21430,6 +22408,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "FEB",
     nameDoc: "SUSPENSIÓN DEMARCACIÓN DISTRITAL",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"6.pdf"}`),
+    subRows: "",
   },
   {
     id: 7,
@@ -21440,6 +22419,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "FEB",
     nameDoc: "FECHA DE INICIO DEL PROCESO ELECTORAL",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"7.pdf"}`),
+    subRows: "",
   },
   {
     id: 8,
@@ -21450,6 +22430,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "FEB",
     nameDoc: "REGIDORES 04",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"8.pdf"}`),
+    subRows: "",
   },
   {
     id: 9,
@@ -21460,6 +22441,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "FEB",
     nameDoc: "NOMBRAMIENTO DIRECTOR DE ORGANIZACION",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"9.pdf"}`),
+    subRows: "",
   },
   {
     id: 10,
@@ -21470,6 +22452,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "FEB",
     nameDoc: "NOMBRAMIENTO DIRECTOR DEL SERVICIO PROFESIONAL",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"10.pdf"}`),
+    subRows: "",
   },
   {
     id: 11,
@@ -21480,6 +22463,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "FEB",
     nameDoc: "NOMBRAMIENTO DIRECTOS ASUNTOS JURIDICOS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"11.pdf"}`),
+    subRows: "",
   },
   {
     id: 12,
@@ -21490,6 +22474,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "FEB",
     nameDoc: "CONVENIO UVT",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"12.pdf"}`),
+    subRows: "",
   },
   {
     id: 13,
@@ -21500,6 +22485,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "MAR",
     nameDoc: "DE SECCIONAMIENTO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"13.pdf"}`),
+    subRows: "",
   },
   {
     id: 14,
@@ -21510,6 +22496,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "MAR",
     nameDoc: "RATIFICACIÓN DE VIGENCIA NORMATIVIDAD",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"14.pdf"}`),
+    subRows: "",
   },
   {
     id: 15,
@@ -21520,6 +22507,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "MAR",
     nameDoc: "COMITE ADQUISICIONES",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"15.pdf"}`),
+    subRows: "",
   },
   {
     id: 16,
@@ -21531,6 +22519,7 @@ export const dataAcuerdos2004 = [
     nameDoc:
       "REGLAMENTO INTERIOR DEL INSTITUTO ELECTORAL DE TLAXCALA. EN LO GENERAL",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"16.pdf"}`),
+    subRows: "",
   },
   {
     id: 17,
@@ -21541,6 +22530,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "MAR",
     nameDoc: "REGLAMENTO DE SESIONES DEL CONSEJO GENERAL. EN LO GENERAL",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"17.pdf"}`),
+    subRows: "",
   },
   {
     id: 18,
@@ -21552,6 +22542,7 @@ export const dataAcuerdos2004 = [
     nameDoc:
       "REGLAMENTO SESIONES CONSEJOS DISTRITALES Y MUNICIPALES. EN LO GENERAL",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"18.pdf"}`),
+    subRows: "",
   },
   {
     id: 19,
@@ -21562,6 +22553,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "MAR",
     nameDoc: "REGLAMENTO SESIONES JUNTA GENERAL EJECUTIVA. EN LO GENERAL",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"19.pdf"}`),
+    subRows: "",
   },
   {
     id: 20,
@@ -21572,6 +22564,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "MAR",
     nameDoc: "DEL ESTATUTO DEL SERVICIO PROFESIONAL ELECTORAL. EN LO GENERAL",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"20.pdf"}`),
+    subRows: "",
   },
   {
     id: 21,
@@ -21583,6 +22576,7 @@ export const dataAcuerdos2004 = [
     nameDoc:
       "REGLAMENTO DE ASISTENCIA TECNICA, ELECCIÓNES POR USOS Y COSTUMBRES. EN LO GENERAL",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"21.pdf"}`),
+    subRows: "",
   },
   {
     id: 22,
@@ -21594,6 +22588,7 @@ export const dataAcuerdos2004 = [
     nameDoc:
       "REGLAMENTO PARA EL CONOCIMIENTO DE LAS FALTAS Y APLICACIÓN DE SANCIONES ADMINISTRATIVAS. EN LO GENERAL",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"22.pdf"}`),
+    subRows: "",
   },
   {
     id: 23,
@@ -21605,6 +22600,7 @@ export const dataAcuerdos2004 = [
     nameDoc:
       "REGLAMENTO DEL PROCEDIMIENTO PARA LA PÉRDIDA DE REGISTRO O CANCELACIÓN DE ACREDITACIÓN. EN LO GENERAL",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"23.pdf"}`),
+    subRows: "",
   },
   {
     id: 24,
@@ -21615,6 +22611,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "MAR",
     nameDoc: "REGLAMENTO DE PRECAMPAÑAS. EN LO GENERAL",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"24.pdf"}`),
+    subRows: "",
   },
   {
     id: 25,
@@ -21626,6 +22623,7 @@ export const dataAcuerdos2004 = [
     nameDoc:
       "NORMATIVIDAD RELATIVA A LA FISCALIZACIÓN DEL ORIGEN.... EN LO GENERAL",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"25.pdf"}`),
+    subRows: "",
   },
   {
     id: 26,
@@ -21637,6 +22635,7 @@ export const dataAcuerdos2004 = [
     nameDoc:
       "LINEAMIENTOS Y CRITERIOS A ENCUENTAS, SONDEOS Y ESTUDIOS DE OPINIÓN PUBLICA. EN LO GENERAL",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"26.pdf"}`),
+    subRows: "",
   },
   {
     id: 27,
@@ -21647,6 +22646,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "ABR",
     nameDoc: "ESTRUCTURA OPERATIVA ORGANIZACIÓN",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"27.pdf"}`),
+    subRows: "",
   },
   {
     id: 28,
@@ -21657,6 +22657,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "ABR",
     nameDoc: "CONVOCATORIA COORDINADORES",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"28.pdf"}`),
+    subRows: "",
   },
   {
     id: 29,
@@ -21667,6 +22668,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "ABR",
     nameDoc: "QUE AUTORIZA AL PRESIDENTE CONVENIO IFE",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"29.pdf"}`),
+    subRows: "",
   },
   {
     id: 30,
@@ -21677,6 +22679,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "ABR",
     nameDoc: "INICIATIVA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"30.pdf"}`),
+    subRows: "",
   },
   {
     id: 31,
@@ -21687,6 +22690,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "ABR",
     nameDoc: "CONVOCATORIA ELECCIONES",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"31.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -21703,6 +22707,7 @@ export const dataAcuerdos2004 = [
         typeDoc: "",
         nameDoc: "CALENDARIO ELECTORAL 2004",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"32.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -21715,6 +22720,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "ABR",
     nameDoc: "ACUERDO-CRITERIO- REGIDOR ACUAMANALA-PDTE",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"33.pdf"}`),
+    subRows: "",
   },
   {
     id: 34,
@@ -21725,6 +22731,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "ABR",
     nameDoc: "DE OBSERVACIÓN ELECTORAL",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"34.pdf"}`),
+    subRows: "",
   },
   {
     id: 35,
@@ -21735,6 +22742,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "ABR",
     nameDoc: "MONITOREO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"35.pdf"}`),
+    subRows: "",
   },
   {
     id: 36,
@@ -21745,6 +22753,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "MAY",
     nameDoc: "ACCIÓN NACIONAL",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"36.pdf"}`),
+    subRows: "",
   },
   {
     id: 37,
@@ -21755,6 +22764,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "MAY",
     nameDoc: "PARTIDO REVOLUCIONARIO INSTITUCIONAL",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"37.pdf"}`),
+    subRows: "",
   },
   {
     id: 38,
@@ -21765,6 +22775,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "MAY",
     nameDoc: "PARTIDO DE LA REVOLUCIÓN DEMOCRÁTICA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"38.pdf"}`),
+    subRows: "",
   },
   {
     id: 39,
@@ -21775,6 +22786,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "MAY",
     nameDoc: "PARTIDO DEL TRABAJO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"39.pdf"}`),
+    subRows: "",
   },
   {
     id: 40,
@@ -21785,6 +22797,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "MAY",
     nameDoc: "VERDE ECOLOGISTA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"40.pdf"}`),
+    subRows: "",
   },
   {
     id: 41,
@@ -21795,6 +22808,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "MAY",
     nameDoc: "CONVERGENCIA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"41.pdf"}`),
+    subRows: "",
   },
   {
     id: 42,
@@ -21805,6 +22819,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "MAY",
     nameDoc: "CENTRO DEMOCRATICO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"42.pdf"}`),
+    subRows: "",
   },
   {
     id: 43,
@@ -21815,6 +22830,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "MAY",
     nameDoc: "JUSTICIA SOCIAL",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"43.pdf"}`),
+    subRows: "",
   },
   {
     id: 44,
@@ -21825,6 +22841,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "MAY",
     nameDoc: "SOCIEDAD NACIONALISTA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"44.pdf"}`),
+    subRows: "",
   },
   {
     id: 45,
@@ -21835,6 +22852,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "MAY",
     nameDoc: "ALIANZA SOCIAL",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"45.pdf"}`),
+    subRows: "",
   },
   {
     id: 46,
@@ -21845,6 +22863,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "MAY",
     nameDoc: "LIBERAL MEXICANO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"46.pdf"}`),
+    subRows: "",
   },
   {
     id: 47,
@@ -21855,6 +22874,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "MAY",
     nameDoc: "MÉXICO POSIBLE",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"47.pdf"}`),
+    subRows: "",
   },
   {
     id: 48,
@@ -21865,6 +22885,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "MAY",
     nameDoc: "FUERZA CIUDADANA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"48.pdf"}`),
+    subRows: "",
   },
   {
     id: 49,
@@ -21875,6 +22896,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "MAY",
     nameDoc: "OBSERVADORES",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"49.pdf"}`),
+    subRows: "",
   },
   {
     id: 50,
@@ -21885,6 +22907,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "MAY",
     nameDoc: "PROGRAMA DE TRABAJO DIR. ORG",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"50.pdf"}`),
+    subRows: "",
   },
   {
     id: 51,
@@ -21895,6 +22918,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "MAY",
     nameDoc: "EQUIDAD DE GÉNERO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"51.pdf"}`),
+    subRows: "",
   },
   {
     id: 52,
@@ -21905,6 +22929,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "MAY",
     nameDoc: "PARTIDO JUSTICIA SOCIAL SUP-JDC-809-2002",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"52.pdf"}`),
+    subRows: "",
   },
   {
     id: 53,
@@ -21915,6 +22940,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "MAY",
     nameDoc: "CONVOCATORIA CONSEJOS DISTRITALES Y MUNICIPALES",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"53.pdf"}`),
+    subRows: "",
   },
   {
     id: 54,
@@ -21925,6 +22951,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "JUN",
     nameDoc: "REESTRUCTURACION DE PRESUPUESTO 2004",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"54.pdf"}`),
+    subRows: "",
   },
   {
     id: 55,
@@ -21935,6 +22962,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "JUN",
     nameDoc: "INSACULACIÓN MES BASE",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"55.pdf"}`),
+    subRows: "",
   },
   {
     id: 56,
@@ -21945,6 +22973,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "JUN",
     nameDoc: "PROTECCIÓN DE LA ZONAS Y MONUMENTOS HISTÓRICOS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"56.pdf"}`),
+    subRows: "",
   },
   {
     id: 57,
@@ -21955,6 +22984,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "JUN",
     nameDoc: "ADICIÓN OBSERVACION ELECTORAL",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"57.pdf"}`),
+    subRows: "",
   },
   {
     id: 58,
@@ -21965,6 +22995,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "JUN",
     nameDoc: "PAN",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"58.pdf"}`),
+    subRows: "",
   },
   {
     id: 59,
@@ -21975,6 +23006,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "JUN",
     nameDoc: "PRI",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"59.pdf"}`),
+    subRows: "",
   },
   {
     id: 60,
@@ -21985,6 +23017,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "JUN",
     nameDoc: "PRD",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"60.pdf"}`),
+    subRows: "",
   },
   {
     id: 61,
@@ -21995,6 +23028,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "JUN",
     nameDoc: "PT",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"61.pdf"}`),
+    subRows: "",
   },
   {
     id: 62,
@@ -22005,6 +23039,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "JUN",
     nameDoc: "CONVERGENCIA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"62.pdf"}`),
+    subRows: "",
   },
   {
     id: 63,
@@ -22015,6 +23050,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "JUN",
     nameDoc: "PJS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"63.pdf"}`),
+    subRows: "",
   },
   {
     id: 64,
@@ -22025,6 +23061,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "JUN",
     nameDoc: "PSN",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"64.pdf"}`),
+    subRows: "",
   },
   {
     id: 65,
@@ -22035,6 +23072,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "JUN",
     nameDoc: "PLM",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"65.pdf"}`),
+    subRows: "",
   },
   {
     id: 66,
@@ -22045,6 +23083,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "JUN",
     nameDoc: "MEX POSIBLE",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"66.pdf"}`),
+    subRows: "",
   },
   {
     id: 67,
@@ -22055,6 +23094,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "JUN",
     nameDoc: "FUERZ CIUD",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"67.pdf"}`),
+    subRows: "",
   },
   {
     id: 68,
@@ -22065,6 +23105,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "JUL",
     nameDoc: "INTEGRACIÓN CONSEJOS DISTRITALES",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"68.pdf"}`),
+    subRows: "",
   },
   {
     id: 69,
@@ -22075,6 +23116,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "JUL",
     nameDoc: "SE FACULTA AL PRESIDENTE",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"69.pdf"}`),
+    subRows: "",
   },
   {
     id: 70,
@@ -22085,6 +23127,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "JUL",
     nameDoc: "ACREDITACIÓN PRI",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"70.pdf"}`),
+    subRows: "",
   },
   {
     id: 71,
@@ -22095,6 +23138,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "JUL",
     nameDoc: "DE LA QUEJA 001-2004",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"71.pdf"}`),
+    subRows: "",
   },
   {
     id: 72,
@@ -22105,6 +23149,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "JUL",
     nameDoc: "EXCLUSIÓN POBLACIONES DE LA CONVOCATORIA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"72.pdf"}`),
+    subRows: "",
   },
   {
     id: 73,
@@ -22115,6 +23160,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "JUL",
     nameDoc: "INCLUSIÓN POBLACIONES",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"73.pdf"}`),
+    subRows: "",
   },
   {
     id: 74,
@@ -22125,6 +23171,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "JUL",
     nameDoc: "CATÁLOGO DE COMUNIDADES USOS Y COSTUMBRES",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"74.pdf"}`),
+    subRows: "",
   },
   {
     id: 75,
@@ -22135,6 +23182,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "JUL",
     nameDoc: "INTEGRACIÓN CONSEJOS MUNICIPALES",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"75.pdf"}`),
+    subRows: "",
   },
   {
     id: 76,
@@ -22145,6 +23193,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "JUL",
     nameDoc: "ACREDITACIÓN PAN",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"76.pdf"}`),
+    subRows: "",
   },
   {
     id: 77,
@@ -22155,6 +23204,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "JUL",
     nameDoc: "ACREDITACIÓN PT",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"77.pdf"}`),
+    subRows: "",
   },
   {
     id: 78,
@@ -22165,6 +23215,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "JUL",
     nameDoc: "LICITACIÓN MATERIAL ELECTORAL",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"78.pdf"}`),
+    subRows: "",
   },
   {
     id: 79,
@@ -22175,6 +23226,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "JUL",
     nameDoc: "SUSTITUCIÓN CONSEJEROS DISTRITALES",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"79.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -22186,6 +23238,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "SEP",
     nameDoc: "REGISTRO GOBERNADOR MARIANO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"108.pdf"}`),
+    subRows: "",
   },
   {
     id: 109,
@@ -22196,6 +23249,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "SEP",
     nameDoc: "REGISTRO GOBERNADOR HECTOR",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"109.pdf"}`),
+    subRows: "",
   },
   {
     id: 110,
@@ -22206,6 +23260,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "SEP",
     nameDoc: "REGISTRO GOBERNADOR GELACIO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"110.pdf"}`),
+    subRows: "",
   },
   {
     id: 111,
@@ -22216,6 +23271,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "SEP",
     nameDoc: "REGISTRO DIPUTADOS PAN",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"111.pdf"}`),
+    subRows: "",
   },
   {
     id: 112,
@@ -22226,6 +23282,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "SEP",
     nameDoc: "REGISTRO DIPUTADOS PRI-PVEM",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"112.pdf"}`),
+    subRows: "",
   },
   {
     id: 113,
@@ -22236,6 +23293,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "SEP",
     nameDoc: "REGISTRO DIPUTADOS PRD",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"113.pdf"}`),
+    subRows: "",
   },
   {
     id: 114,
@@ -22246,6 +23304,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "SEP",
     nameDoc: "REGISTRO DIPUTADOS PT",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"114.pdf"}`),
+    subRows: "",
   },
   {
     id: 115,
@@ -22256,6 +23315,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "SEP",
     nameDoc: "REGISTRO DIPUTADOS CONVERG",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"115.pdf"}`),
+    subRows: "",
   },
   {
     id: 116,
@@ -22266,6 +23326,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "SEP",
     nameDoc: "REGISTRO DIPUTADOS PCDT",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"116.pdf"}`),
+    subRows: "",
   },
   {
     id: 117,
@@ -22276,6 +23337,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "SEP",
     nameDoc: "REGISTRO DIPUTADOS PJS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"117.pdf"}`),
+    subRows: "",
   },
   {
     id: 118,
@@ -22286,6 +23348,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "SEP",
     nameDoc: "ASIGNACIÓN PRERROGATIVAS PRESI",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"118.pdf"}`),
+    subRows: "",
   },
   {
     id: 119,
@@ -22296,6 +23359,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "SEP",
     nameDoc: "LINEAMIENTOS FISC MEDIOS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"119.pdf"}`),
+    subRows: "",
   },
   {
     id: 120,
@@ -22306,6 +23370,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "SEP",
     nameDoc: "TIEMPOS Y ESPACIOS FORMA IGUALITARIA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"120.pdf"}`),
+    subRows: "",
   },
   {
     id: 121,
@@ -22316,6 +23381,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "SEP",
     nameDoc: "DE SANTIAGO TLACOCHCALCO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"121.pdf"}`),
+    subRows: "",
   },
   {
     id: 122,
@@ -22326,6 +23392,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "SEP",
     nameDoc: "FECHA LÍMITE PRES. COM",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"122.pdf"}`),
+    subRows: "",
   },
   {
     id: 123,
@@ -22336,6 +23403,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "SEP",
     nameDoc: "COMISION CONSULTA INFANTIL 2004",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"123.pdf"}`),
+    subRows: "",
   },
   {
     id: 124,
@@ -22346,6 +23414,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "SEP",
     nameDoc: "SUSTITUCION D. XIX, CUAXOMULCO Y TLAXCALA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"124.pdf"}`),
+    subRows: "",
   },
   {
     id: 125,
@@ -22356,6 +23425,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "SEP",
     nameDoc: "PLATAFORMA PRES D COM PAN",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"125.pdf"}`),
+    subRows: "",
   },
   {
     id: 126,
@@ -22366,6 +23436,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "SEP",
     nameDoc: "PLATAFORMA PRI MUNIC",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"126.pdf"}`),
+    subRows: "",
   },
   {
     id: 127,
@@ -22376,6 +23447,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "SEP",
     nameDoc: "PLATAFORMA PRES D COM PT",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"127.pdf"}`),
+    subRows: "",
   },
   {
     id: 128,
@@ -22386,6 +23458,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "SEP",
     nameDoc: "PLATAFORMA AYUNT Y P.C.PVEM",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"128.pdf"}`),
+    subRows: "",
   },
   {
     id: 129,
@@ -22396,6 +23469,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "SEP",
     nameDoc: "PLATAFORMA PJS MUNICIP",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"129.pdf"}`),
+    subRows: "",
   },
   {
     id: 130,
@@ -22406,6 +23480,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "SEP",
     nameDoc: "SUSTITUCIÓN DIPUTADOS PCDT 2004",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"130.pdf"}`),
+    subRows: "",
   },
   {
     id: 131,
@@ -22416,6 +23491,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "SEP",
     nameDoc: "CRITERIOS LEY MUNICIPAL",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"131.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -22427,6 +23503,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "SEP",
     nameDoc: "COM BOLET Y REG CAND",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"134.pdf"}`),
+    subRows: "",
   },
   {
     id: 135,
@@ -22437,6 +23514,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "SEP",
     nameDoc: "SUSTITUCIONES CONSEJOS DISTRITALES Y MUNICIPALES",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"135.pdf"}`),
+    subRows: "",
   },
   {
     id: 136,
@@ -22447,6 +23525,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "SEP",
     nameDoc: "DICTAMEN OBSERVADORES 2a LISTA OK",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"136.pdf"}`),
+    subRows: "",
   },
   {
     id: 137,
@@ -22457,6 +23536,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "SEP",
     nameDoc: "SECCIÓN SÉPTIMA DE CONTLA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"137.pdf"}`),
+    subRows: "",
   },
   {
     id: 138,
@@ -22467,6 +23547,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "SEP",
     nameDoc: "DEFINICIÓN SITUACIÓN JURÍDICA P",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"138.pdf"}`),
+    subRows: "",
   },
   {
     id: 139,
@@ -22477,6 +23558,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "SEP",
     nameDoc: "SUSTITUCIONES DIPUTADOS CONVERGENCIA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"139.pdf"}`),
+    subRows: "",
   },
   {
     id: 140,
@@ -22487,6 +23569,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "SEP",
     nameDoc: "QUEJA EXP. 10-2004",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"140.pdf"}`),
+    subRows: "",
   },
   {
     id: 141,
@@ -22497,6 +23580,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "SEP",
     nameDoc: "REGISTRO GOBERNADOR MARÍA DEL CARMEN",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"141.pdf"}`),
+    subRows: "",
   },
   {
     id: 142,
@@ -22507,6 +23591,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "SEP",
     nameDoc: "SUSTITUCIÓN DIPUT PT",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"142.pdf"}`),
+    subRows: "",
   },
   {
     id: 143,
@@ -22517,6 +23602,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "SEP",
     nameDoc: "SUSTIT DIP PJS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"143.pdf"}`),
+    subRows: "",
   },
   {
     id: 144,
@@ -22527,6 +23613,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "SEP",
     nameDoc: "TERCERA ETAPA OBSERVADORES",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"144.pdf"}`),
+    subRows: "",
   },
   {
     id: 145,
@@ -22537,6 +23624,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "SEP",
     nameDoc: "SUTITUCIÓN ATLAGATEPEC 20-09-04",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"145.pdf"}`),
+    subRows: "",
   },
   {
     id: 146,
@@ -22547,6 +23635,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "SEP",
     nameDoc: "SUSTITUCION DIPUT PAN",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"146.pdf"}`),
+    subRows: "",
   },
   {
     id: 147,
@@ -22557,6 +23646,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "SEP",
     nameDoc: "ESCRITO DE PROTESTA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"147.pdf"}`),
+    subRows: "",
   },
   {
     id: 148,
@@ -22567,6 +23657,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "SEP",
     nameDoc: "INCLUIR A TERRENATE CHIPILO VOTO CONST",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"148.pdf"}`),
+    subRows: "",
   },
   {
     id: 149,
@@ -22577,6 +23668,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "SEP",
     nameDoc: "INCLUIR SANTA MARTHA SECCIÓN TERCERA DE XALOZTOC VOTO CONST",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"149.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -22593,6 +23685,7 @@ export const dataAcuerdos2004 = [
         typeDoc: "",
         nameDoc: "ANEXO 1 REGISTROS DE AYUNTAMIENTOS",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"155.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -22611,6 +23704,7 @@ export const dataAcuerdos2004 = [
         typeDoc: "",
         nameDoc: "ANEXO REGISTROS DE PRESIDENCIAS DE COMUNIDAD",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"156.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -22623,6 +23717,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "OCT",
     nameDoc: "NO REGISTRO AYUNTAMIENTOS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"157.pdf"}`),
+    subRows: "",
   },
   {
     id: 158,
@@ -22633,6 +23728,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "OCT",
     nameDoc: "NO REGISTRO PRESIDENCIAS DE COMUNIDAD",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"158.pdf"}`),
+    subRows: "",
   },
   {
     id: 159,
@@ -22643,6 +23739,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "OCT",
     nameDoc: "ASIGNACIÓN PRERROGATIVAS AYUNTAMIENTOS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"159.pdf"}`),
+    subRows: "",
   },
   {
     id: 160,
@@ -22653,6 +23750,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "OCT",
     nameDoc: "SUSTITUCIÓN DIPUTADOS PCDT y PC",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"160.pdf"}`),
+    subRows: "",
   },
   {
     id: 161,
@@ -22663,6 +23761,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "OCT",
     nameDoc: "SUSTITUCIÓN TOTAL DE AYUNTAMIENTOS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"161.pdf"}`),
+    subRows: "",
   },
   {
     id: 162,
@@ -22673,6 +23772,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "OCT",
     nameDoc: "NO APRUEBA SUSTITUCIÓN AYUNTAMIENTOS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"162.pdf"}`),
+    subRows: "",
   },
   {
     id: 163,
@@ -22684,6 +23784,7 @@ export const dataAcuerdos2004 = [
     nameDoc:
       "SUSTITUCIÓN CONSEJOS DISTRITALES VII,XVI y XIX y CONSEJOS MUNICIPALES",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"163.pdf"}`),
+    subRows: "",
   },
   {
     id: 164,
@@ -22694,6 +23795,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "OCT",
     nameDoc: "TRANSFERENCIA PARA PROGRAMAS DEL IET",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"164.pdf"}`),
+    subRows: "",
   },
   {
     id: 165,
@@ -22704,6 +23806,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "OCT",
     nameDoc: "CUMPLIMIENTO VICTOR CESAR",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"165.pdf"}`),
+    subRows: "",
   },
   {
     id: 166,
@@ -22714,6 +23817,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "OCT",
     nameDoc: "QUEJA EXP. 011-2004",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"166.pdf"}`),
+    subRows: "",
   },
   {
     id: 167,
@@ -22724,6 +23828,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "OCT",
     nameDoc: "CUMPLIMIENTO EJECUTORIA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"167.pdf"}`),
+    subRows: "",
   },
   {
     id: 168,
@@ -22734,6 +23839,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "OCT",
     nameDoc: "REGISTRO CESAR TETLA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"168.pdf"}`),
+    subRows: "",
   },
   {
     id: 169,
@@ -22744,6 +23850,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "OCT",
     nameDoc: "CUMPLIMIENTO DE BOLETAS ELECTORALES",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"169.pdf"}`),
+    subRows: "",
   },
   {
     id: 170,
@@ -22754,6 +23861,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "OCT",
     nameDoc: "CUMPLIMIENTO TZOMPANTEPEC",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"170.pdf"}`),
+    subRows: "",
   },
   {
     id: 171,
@@ -22764,6 +23872,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "OCT",
     nameDoc: "REGISTRO SECCION SEXTA BARRIO GRANDE ok",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"171.pdf"}`),
+    subRows: "",
   },
   {
     id: 172,
@@ -22774,6 +23883,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "OCT",
     nameDoc: "SUSTIT. DIP SUPLEN ok",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"172.pdf"}`),
+    subRows: "",
   },
   {
     id: 173,
@@ -22784,6 +23894,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "OCT",
     nameDoc: "SUSTITUCION AYUNTS COMPLETO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"173.pdf"}`),
+    subRows: "",
   },
   {
     id: 174,
@@ -22794,6 +23905,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "OCT",
     nameDoc: "004-2004",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"174.pdf"}`),
+    subRows: "",
   },
   {
     id: 175,
@@ -22804,6 +23916,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "OCT",
     nameDoc: "008-2004",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"175.pdf"}`),
+    subRows: "",
   },
   {
     id: 176,
@@ -22814,6 +23927,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "OCT",
     nameDoc: "EGRESOS 2005",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"176.pdf"}`),
+    subRows: "",
   },
   {
     id: 177,
@@ -22824,6 +23938,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "OCT",
     nameDoc: "EXCLUSIÓN SANTA MARTHA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"177.pdf"}`),
+    subRows: "",
   },
   {
     id: 178,
@@ -22834,6 +23949,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "OCT",
     nameDoc: "CUMPLIMIENTO CALPULALPAN",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"178.pdf"}`),
+    subRows: "",
   },
   {
     id: 179,
@@ -22844,6 +23960,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "OCT",
     nameDoc: "CUMPLIMIENTO TLAXCO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"179.pdf"}`),
+    subRows: "",
   },
   {
     id: 180,
@@ -22854,6 +23971,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "OCT",
     nameDoc: "CUMPLIMIENTO TZOMPANTEPEC XALTOCANok",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"180.pdf"}`),
+    subRows: "",
   },
   {
     id: 181,
@@ -22864,6 +23982,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "OCT",
     nameDoc: "CUMPLIMIENTO PAPALOTLA NATIVITAS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"181.pdf"}`),
+    subRows: "",
   },
   {
     id: 182,
@@ -22874,6 +23993,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "OCT",
     nameDoc: "APETATITLAN VICTOR HUGO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"182.pdf"}`),
+    subRows: "",
   },
   {
     id: 183,
@@ -22884,6 +24004,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "OCT",
     nameDoc: "TZOMPANTEPEC CUMPLIMIENTO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"183.pdf"}`),
+    subRows: "",
   },
   {
     id: 184,
@@ -22894,6 +24015,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "OCT",
     nameDoc: "CUMPLIMIENTO TENANCINGO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"184.pdf"}`),
+    subRows: "",
   },
   {
     id: 185,
@@ -22904,6 +24026,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "OCT",
     nameDoc: "CUMPLIMIENTO JOSE ANTONIO AGUILAR DURAN",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"185.pdf"}`),
+    subRows: "",
   },
   {
     id: 186,
@@ -22914,6 +24037,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "OCT",
     nameDoc: "CUMPLIMENTO REGIDOR",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"186.pdf"}`),
+    subRows: "",
   },
   {
     id: 187,
@@ -22924,6 +24048,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "OCT",
     nameDoc: "AMPLIACIÓN DEL CG 105/2004 ACREDITACIÓN REPRESENTANTES GENERALES",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"105_a.pdf"}`),
+    subRows: "",
   },
   {
     id: 188,
@@ -22934,6 +24059,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "OCT",
     nameDoc: "INTEGRACION,NUMERO Y UBICACION DECASILLAS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"187.pdf"}`),
+    subRows: "",
   },
   {
     id: 189,
@@ -22944,6 +24070,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "OCT",
     nameDoc: "LISTA NOMINAL-PRESIDENCIAS DE COMUNIDAD",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"188.pdf"}`),
+    subRows: "",
   },
   {
     id: 190,
@@ -22954,6 +24081,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "OCT",
     nameDoc: "CIERRE DE CAMPAÑA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"189.pdf"}`),
+    subRows: "",
   },
   {
     id: 191,
@@ -22964,6 +24092,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "OCT",
     nameDoc: "SUSTITUCIONES DE AYUNTAMIENTOS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"190.pdf"}`),
+    subRows: "",
   },
   {
     id: 192,
@@ -22974,6 +24103,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "OCT",
     nameDoc: "SUSTITUCIONES CONSEJOS DIST Y MUNIC",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"191.pdf"}`),
+    subRows: "",
   },
   {
     id: 193,
@@ -22984,6 +24114,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "OCT",
     nameDoc: "MEDIDAS DE SEGURIDAD DE LAS BOLETAS ELECTORALES",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"192.pdf"}`),
+    subRows: "",
   },
   {
     id: 194,
@@ -22994,6 +24125,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "OCT",
     nameDoc: "SUP-JDC-554-2004",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"193.pdf"}`),
+    subRows: "",
   },
   {
     id: 195,
@@ -23004,6 +24136,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "OCT",
     nameDoc: "SARJE",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"194.pdf"}`),
+    subRows: "",
   },
   {
     id: 196,
@@ -23014,6 +24147,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "OCT",
     nameDoc: "SUSTITUCIÓN DIP SUP Y 1 REG PROP PRD PRESENTADO EN SESIÓN",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"195.pdf"}`),
+    subRows: "",
   },
   {
     id: 197,
@@ -23024,6 +24158,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "OCT",
     nameDoc: "LISTA 3 OBSERVADORES",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"196.pdf"}`),
+    subRows: "",
   },
   {
     id: 198,
@@ -23034,6 +24169,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "OCT",
     nameDoc: "TOPES DE CAMPAÑA COMUNIDADES",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"197.pdf"}`),
+    subRows: "",
   },
   {
     id: 199,
@@ -23044,6 +24180,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "OCT",
     nameDoc: "REC.REV. 01",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"198.pdf"}`),
+    subRows: "",
   },
   {
     id: 200,
@@ -23054,6 +24191,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "OCT",
     nameDoc: "REC.REV. 02",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"199.pdf"}`),
+    subRows: "",
   },
   {
     id: 201,
@@ -23064,6 +24202,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "OCT",
     nameDoc: "QUEJA 025-04",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"200.pdf"}`),
+    subRows: "",
   },
   {
     id: 202,
@@ -23074,6 +24213,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "OCT",
     nameDoc: "QUEJA 036-04",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"201.pdf"}`),
+    subRows: "",
   },
   {
     id: 203,
@@ -23084,6 +24224,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "OCT",
     nameDoc: "MODIFICACIÓN DE ACTAS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"202.pdf"}`),
+    subRows: "",
   },
   {
     id: 204,
@@ -23094,6 +24235,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "NOV",
     nameDoc: "CUMPLIMIENTO PJS II T173-04",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"203.pdf"}`),
+    subRows: "",
   },
   {
     id: 205,
@@ -23104,6 +24246,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "NOV",
     nameDoc: "SUSTITUCION CONSEJOS DTALES. Y MPALES",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"204.pdf"}`),
+    subRows: "",
   },
   {
     id: 206,
@@ -23114,6 +24257,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "NOV",
     nameDoc: "CONVENIO IET-IEDF",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"205.pdf"}`),
+    subRows: "",
   },
   {
     id: 207,
@@ -23124,6 +24268,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "NOV",
     nameDoc: "QUEJA 031-04",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"206.pdf"}`),
+    subRows: "",
   },
   {
     id: 208,
@@ -23134,6 +24279,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "NOV",
     nameDoc: "QUEJA 099-04",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"207.pdf"}`),
+    subRows: "",
   },
   {
     id: 209,
@@ -23144,6 +24290,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "NOV",
     nameDoc: "QUEJA 101-2004",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"208.pdf"}`),
+    subRows: "",
   },
   {
     id: 210,
@@ -23154,6 +24301,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "NOV",
     nameDoc: "SUSTITUCIONES PVEM SESION 03-11-04",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"209.pdf"}`),
+    subRows: "",
   },
   {
     id: 211,
@@ -23164,6 +24312,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "NOV",
     nameDoc: "CUMPLIMIENTO APETATI VICTOR",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"210.pdf"}`),
+    subRows: "",
   },
   {
     id: 212,
@@ -23174,6 +24323,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "NOV",
     nameDoc: "SUSTITUCIÓN INTEGRANTES DE MESAS DIR. DE CAS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"211.pdf"}`),
+    subRows: "",
   },
   {
     id: 213,
@@ -23184,6 +24334,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "NOV",
     nameDoc: "CUMPLIMIENTO ISABEL",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"212.pdf"}`),
+    subRows: "",
   },
   {
     id: 214,
@@ -23194,6 +24345,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "NOV",
     nameDoc: "CUMPLIMIENTO REGIDOR PCDT",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"213.pdf"}`),
+    subRows: "",
   },
   {
     id: 215,
@@ -23204,6 +24356,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "NOV",
     nameDoc: "SUSTITUCIONES PCDT Y PRD",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"214.pdf"}`),
+    subRows: "",
   },
   {
     id: 216,
@@ -23214,6 +24367,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "NOV",
     nameDoc: "SUSTITUCIONES DE FUNCIONARIOS MESAS DIRECTIVAS DE CASILLA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"215.pdf"}`),
+    subRows: "",
   },
   {
     id: 217,
@@ -23224,6 +24378,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "NOV",
     nameDoc: "SUSTITUCIONES CONSEJOS MUNICIPALES",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"216.pdf"}`),
+    subRows: "",
   },
   {
     id: 218,
@@ -23234,6 +24389,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "NOV",
     nameDoc: "REC.REV.03-2004",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"217.pdf"}`),
+    subRows: "",
   },
   {
     id: 219,
@@ -23244,6 +24400,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "NOV",
     nameDoc: "REC.REV.04-2004",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"218.pdf"}`),
+    subRows: "",
   },
   {
     id: 220,
@@ -23254,6 +24411,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "NOV",
     nameDoc: "QUEJA 26-04",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"219.pdf"}`),
+    subRows: "",
   },
   {
     id: 221,
@@ -23264,6 +24422,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "NOV",
     nameDoc: "QUEJA 65-04",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"220.pdf"}`),
+    subRows: "",
   },
   {
     id: 222,
@@ -23274,6 +24433,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "NOV",
     nameDoc: "EXPEDIENTE 096-04",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"221.pdf"}`),
+    subRows: "",
   },
   {
     id: 223,
@@ -23284,6 +24444,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "NOV",
     nameDoc: "QUEJA 102-04",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"222.pdf"}`),
+    subRows: "",
   },
   {
     id: 224,
@@ -23294,6 +24455,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "NOV",
     nameDoc: "CUMPLIMIENTO TLAXCO PAN",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"223.pdf"}`),
+    subRows: "",
   },
   {
     id: 225,
@@ -23304,6 +24466,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "NOV",
     nameDoc: "CUMPLIMIENTO SANTA MARTHA XALOSTOC",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"224.pdf"}`),
+    subRows: "",
   },
   {
     id: 226,
@@ -23314,6 +24477,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "NOV",
     nameDoc: "REC.REV.05-2004",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"225.pdf"}`),
+    subRows: "",
   },
   {
     id: 227,
@@ -23324,6 +24488,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "NOV",
     nameDoc: "CUMPLIMIENTO SUP-JRC-623-2004 MARCO EDGARDO SÁNCHEZ ORTEGA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"226.pdf"}`),
+    subRows: "",
   },
   {
     id: 228,
@@ -23334,6 +24499,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "NOV",
     nameDoc: "CUMPLIMIENTO SARJE",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"227.pdf"}`),
+    subRows: "",
   },
   {
     id: 229,
@@ -23344,6 +24510,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "NOV",
     nameDoc: "SUST REGIDORES 13-11-04",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"228.pdf"}`),
+    subRows: "",
   },
   {
     id: 230,
@@ -23354,6 +24521,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "NOV",
     nameDoc: "SUST DIPUTADOS 13-11-04",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"229.pdf"}`),
+    subRows: "",
   },
   {
     id: 231,
@@ -23364,6 +24532,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "NOV",
     nameDoc: "IMPRESION BOLETAS EXTRAS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"230.pdf"}`),
+    subRows: "",
   },
   {
     id: 232,
@@ -23374,6 +24543,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "NOV",
     nameDoc: "REVOCACIÓN MARCO EDGARDO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"231.pdf"}`),
+    subRows: "",
   },
   {
     id: 233,
@@ -23384,6 +24554,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "NOV",
     nameDoc: "GOBERNADOR",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"232.pdf"}`),
+    subRows: "",
   },
   {
     id: 234,
@@ -23394,6 +24565,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "NOV",
     nameDoc: "ASIGNACIÓN DIPUTADOS RP",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"233.pdf"}`),
+    subRows: "",
   },
   {
     id: 235,
@@ -23404,6 +24576,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "NOV",
     nameDoc: "ESCRUT Y COMPUT TETLANOHCAN,LA MAGDALENA,ESPAÑITA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"234.pdf"}`),
+    subRows: "",
   },
   {
     id: 236,
@@ -23414,6 +24587,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "NOV",
     nameDoc: "CÓMPUTO TETLANOHCAN, TLALTELULCO Y ESPAÑITA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"235.pdf"}`),
+    subRows: "",
   },
   {
     id: 237,
@@ -23424,6 +24598,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "NOV",
     nameDoc: "INTEGRACIÓN AYUNTAMIENTOS 2004 XALOZTOC",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"236.pdf"}`),
+    subRows: "",
   },
   {
     id: 238,
@@ -23434,6 +24609,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "DIC",
     nameDoc: "EXPEDIENTE 005-2004",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"237.pdf"}`),
+    subRows: "",
   },
   {
     id: 239,
@@ -23444,6 +24620,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "DIC",
     nameDoc: "EXPEDIENTE 006-2004",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"238.pdf"}`),
+    subRows: "",
   },
   {
     id: 240,
@@ -23454,6 +24631,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "DIC",
     nameDoc: "EXPEDIENTE 015-2004",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"239.pdf"}`),
+    subRows: "",
   },
   {
     id: 241,
@@ -23464,6 +24642,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "DIC",
     nameDoc: "EXPEDIENTE 022-2004",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"240.pdf"}`),
+    subRows: "",
   },
   {
     id: 242,
@@ -23474,6 +24653,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "DIC",
     nameDoc: "EXPEDIENTE 027-2004",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"241.pdf"}`),
+    subRows: "",
   },
   {
     id: 243,
@@ -23484,6 +24664,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "DIC",
     nameDoc: "EXPEDIENTE 029-2004",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"242.pdf"}`),
+    subRows: "",
   },
   {
     id: 244,
@@ -23494,6 +24675,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "DIC",
     nameDoc: "EXPEDIENTE 030-2004",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"243.pdf"}`),
+    subRows: "",
   },
   {
     id: 245,
@@ -23504,6 +24686,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "DIC",
     nameDoc: "EXPEDIENTE 034-2004",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"244.pdf"}`),
+    subRows: "",
   },
   {
     id: 246,
@@ -23514,6 +24697,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "DIC",
     nameDoc: "EXPEDIENTE 057-2004",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"245.pdf"}`),
+    subRows: "",
   },
   {
     id: 247,
@@ -23524,6 +24708,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "DIC",
     nameDoc: "EXPEDIENTE 075-2004",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"246.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -23535,6 +24720,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "DIC",
     nameDoc: "EXPEDIENTE 077-2004",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"248.pdf"}`),
+    subRows: "",
   },
   {
     id: 250,
@@ -23545,6 +24731,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "DIC",
     nameDoc: "EXPEDIENTE 092-2004",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"249.pdf"}`),
+    subRows: "",
   },
   {
     id: 251,
@@ -23555,6 +24742,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "DIC",
     nameDoc: "EXPEDIENTE 094-2004",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"250.pdf"}`),
+    subRows: "",
   },
   {
     id: 252,
@@ -23565,6 +24753,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "DIC",
     nameDoc: "EXPEDIENTE 098-2004",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"251.pdf"}`),
+    subRows: "",
   },
   {
     id: 253,
@@ -23575,6 +24764,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "DIC",
     nameDoc: "EXPEDIENTE 104-2004",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"252.pdf"}`),
+    subRows: "",
   },
   {
     id: 254,
@@ -23585,6 +24775,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "DIC",
     nameDoc: "EXPEDIENTE 105-2004",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"253.pdf"}`),
+    subRows: "",
   },
   {
     id: 255,
@@ -23595,6 +24786,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "DIC",
     nameDoc: "EXPEDIENTE 108-2004",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"254.pdf"}`),
+    subRows: "",
   },
   {
     id: 256,
@@ -23605,6 +24797,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "DIC",
     nameDoc: "EXPEDIENTE 113-2004",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"255.pdf"}`),
+    subRows: "",
   },
   {
     id: 257,
@@ -23615,6 +24808,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "DIC",
     nameDoc: "EXPEDIENTE 116-2004",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"256.pdf"}`),
+    subRows: "",
   },
   {
     id: 258,
@@ -23625,6 +24819,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "DIC",
     nameDoc: "EXPEDIENTE 118-2004",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"257.pdf"}`),
+    subRows: "",
   },
   {
     id: 259,
@@ -23635,6 +24830,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "DIC",
     nameDoc: "EXPEDIENTE 119-2004",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"258.pdf"}`),
+    subRows: "",
   },
   {
     id: 260,
@@ -23645,6 +24841,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "DIC",
     nameDoc: "EXPEDIENTE 122-2004",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"259.pdf"}`),
+    subRows: "",
   },
   {
     id: 261,
@@ -23655,6 +24852,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "DIC",
     nameDoc: "EXPEDIENTE-124-2004",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"260.pdf"}`),
+    subRows: "",
   },
   {
     id: 262,
@@ -23665,6 +24863,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "DIC",
     nameDoc: "EXPEDIENTE 127-2004",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"261.pdf"}`),
+    subRows: "",
   },
   {
     id: 263,
@@ -23675,6 +24874,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "DIC",
     nameDoc: "EXPEDIENTE 132-2004",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"262.pdf"}`),
+    subRows: "",
   },
   {
     id: 264,
@@ -23685,6 +24885,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "DIC",
     nameDoc: "EXPEDIENTE 133-2004",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"263.pdf"}`),
+    subRows: "",
   },
   {
     id: 265,
@@ -23695,6 +24896,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "DIC",
     nameDoc: "EXPEDIENTE 135-2004",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"264.pdf"}`),
+    subRows: "",
   },
   {
     id: 266,
@@ -23705,6 +24907,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "DIC",
     nameDoc: "EXPEDIENTE 144-2004",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"265.pdf"}`),
+    subRows: "",
   },
   {
     id: 267,
@@ -23715,6 +24918,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "DIC",
     nameDoc: "EXPEDIENTE 145-2004",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"266.pdf"}`),
+    subRows: "",
   },
   {
     id: 268,
@@ -23725,6 +24929,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "DIC",
     nameDoc: "EXPEDIENTE 146-2004",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"267.pdf"}`),
+    subRows: "",
   },
   {
     id: 269,
@@ -23735,6 +24940,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "DIC",
     nameDoc: "EXPEDIENTE 150-2004",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"268.pdf"}`),
+    subRows: "",
   },
   {
     id: 270,
@@ -23745,6 +24951,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "DIC",
     nameDoc: "EXPEDIENTE 152-2004",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"269.pdf"}`),
+    subRows: "",
   },
   {
     id: 271,
@@ -23755,6 +24962,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "DIC",
     nameDoc: "EXPEDIENTE 153-2004",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"270.pdf"}`),
+    subRows: "",
   },
   {
     id: 272,
@@ -23765,6 +24973,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "DIC",
     nameDoc: "RECURSO DE RESOLUCIÓN 06-2004",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"271.pdf"}`),
+    subRows: "",
   },
   {
     id: 273,
@@ -23775,6 +24984,7 @@ export const dataAcuerdos2004 = [
     monthDoc: "DIC",
     nameDoc: "REC.REV.07-2004 Y ACUMULADO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"272.pdf"}`),
+    subRows: "",
   },
   {
     id: 274,
@@ -23785,8 +24995,10 @@ export const dataAcuerdos2004 = [
     monthDoc: "DIC",
     nameDoc: "READECUACIÓN PRESUPUESTO 2005",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2004/"}${"273.pdf"}`),
+    subRows: "",
   },
 ];
+
 export const dataAcuerdos2003 = [
   {
     id: 1,
@@ -23796,6 +25008,7 @@ export const dataAcuerdos2003 = [
     monthDoc: "FEB",
     nameDoc: "CALENDARIO DE SESIONES ORDINARIAS 2003",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2003/"}${"1.pdf"}`),
+    subRows: "",
   },
   {
     id: 2,
@@ -23805,6 +25018,7 @@ export const dataAcuerdos2003 = [
     monthDoc: "ABR",
     nameDoc: "FINANCIAMIENTO CONVERGENCIA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2003/"}${"2.pdf"}`),
+    subRows: "",
   },
   {
     id: 3,
@@ -23814,6 +25028,7 @@ export const dataAcuerdos2003 = [
     monthDoc: "ABR",
     nameDoc: "FINANCIAMIENTO FC",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2003/"}${"3.pdf"}`),
+    subRows: "",
   },
   {
     id: 4,
@@ -23823,6 +25038,7 @@ export const dataAcuerdos2003 = [
     monthDoc: "ABR",
     nameDoc: "FINANCIAMIENTO MP",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2003/"}${"4.pdf"}`),
+    subRows: "",
   },
   {
     id: 5,
@@ -23832,6 +25048,7 @@ export const dataAcuerdos2003 = [
     monthDoc: "ABR",
     nameDoc: "FINANCIAMIENTO PAN",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2003/"}${"5.pdf"}`),
+    subRows: "",
   },
   {
     id: 6,
@@ -23841,6 +25058,7 @@ export const dataAcuerdos2003 = [
     monthDoc: "ABR",
     nameDoc: "FINANCIAMIENTO PAS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2003/"}${"6.pdf"}`),
+    subRows: "",
   },
   {
     id: 7,
@@ -23850,6 +25068,7 @@ export const dataAcuerdos2003 = [
     monthDoc: "ABR",
     nameDoc: "FINANCIAMIENTO PCDT",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2003/"}${"7.pdf"}`),
+    subRows: "",
   },
   {
     id: 8,
@@ -23859,6 +25078,7 @@ export const dataAcuerdos2003 = [
     monthDoc: "ABR",
     nameDoc: "FINANCIAMIENTO PJS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2003/"}${"8.pdf"}`),
+    subRows: "",
   },
   {
     id: 9,
@@ -23868,6 +25088,7 @@ export const dataAcuerdos2003 = [
     monthDoc: "ABR",
     nameDoc: "FINANCIAMIENTO PLM",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2003/"}${"9.pdf"}`),
+    subRows: "",
   },
   {
     id: 10,
@@ -23877,6 +25098,7 @@ export const dataAcuerdos2003 = [
     monthDoc: "ABR",
     nameDoc: "FINANCIAMIENTO PRD",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2003/"}${"10.pdf"}`),
+    subRows: "",
   },
   {
     id: 11,
@@ -23886,6 +25108,7 @@ export const dataAcuerdos2003 = [
     monthDoc: "ABR",
     nameDoc: "FINANCIAMIENTO PRI",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2003/"}${"11.pdf"}`),
+    subRows: "",
   },
   {
     id: 12,
@@ -23895,6 +25118,7 @@ export const dataAcuerdos2003 = [
     monthDoc: "ABR",
     nameDoc: "FINANCIAMIENTO PSN",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2003/"}${"12.pdf"}`),
+    subRows: "",
   },
   {
     id: 13,
@@ -23904,6 +25128,7 @@ export const dataAcuerdos2003 = [
     monthDoc: "ABR",
     nameDoc: "FINANCIAMIENTO PT",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2003/"}${"13.pdf"}`),
+    subRows: "",
   },
   {
     id: 14,
@@ -23913,6 +25138,7 @@ export const dataAcuerdos2003 = [
     monthDoc: "ABR",
     nameDoc: "FINANCIAMIENTO PVEM",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2003/"}${"14.pdf"}`),
+    subRows: "",
   },
   {
     id: 15,
@@ -23922,6 +25148,7 @@ export const dataAcuerdos2003 = [
     monthDoc: "MAY",
     nameDoc: "DICTAMEN PT",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2003/"}${"15.pdf"}`),
+    subRows: "",
   },
   {
     id: 16,
@@ -23931,6 +25158,7 @@ export const dataAcuerdos2003 = [
     monthDoc: "MAY",
     nameDoc: "DICTAMEN CONVERGENCIA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2003/"}${"16.pdf"}`),
+    subRows: "",
   },
   {
     id: 17,
@@ -23940,6 +25168,7 @@ export const dataAcuerdos2003 = [
     monthDoc: "MAY",
     nameDoc: "DICTAMEN PCDT",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2003/"}${"17.pdf"}`),
+    subRows: "",
   },
   {
     id: 18,
@@ -23949,6 +25178,7 @@ export const dataAcuerdos2003 = [
     monthDoc: "MAY",
     nameDoc: "DICTAMEN PJS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2003/"}${"18.pdf"}`),
+    subRows: "",
   },
   {
     id: 19,
@@ -23958,6 +25188,7 @@ export const dataAcuerdos2003 = [
     monthDoc: "MAY",
     nameDoc: "DICTAMEN PRD",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2003/"}${"19.pdf"}`),
+    subRows: "",
   },
   {
     id: 20,
@@ -23967,6 +25198,7 @@ export const dataAcuerdos2003 = [
     monthDoc: "MAY",
     nameDoc: "DICTAMEN PRI",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2003/"}${"20.pdf"}`),
+    subRows: "",
   },
   {
     id: 21,
@@ -23976,6 +25208,7 @@ export const dataAcuerdos2003 = [
     monthDoc: "MAY",
     nameDoc: "DICTAMEN PVEM",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2003/"}${"21.pdf"}`),
+    subRows: "",
   },
   {
     id: 22,
@@ -23985,6 +25218,7 @@ export const dataAcuerdos2003 = [
     monthDoc: "JUN",
     nameDoc: "TRANSFERENCIA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2003/"}${"22.pdf"}`),
+    subRows: "",
   },
   {
     id: 23,
@@ -23994,6 +25228,7 @@ export const dataAcuerdos2003 = [
     monthDoc: "JUN",
     nameDoc: "DECLARACIÓN CONSTITUCIONAL PCDT",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2003/"}${"23.pdf"}`),
+    subRows: "",
   },
   {
     id: 24,
@@ -24004,6 +25239,7 @@ export const dataAcuerdos2003 = [
     nameDoc:
       "METODOLOGÍA Y PROCEDIMIENTO, NUEVOS PARTIDOS POLÍEDTICOS ESTATALES",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2003/"}${"24.pdf"}`),
+    subRows: "",
   },
   {
     id: 25,
@@ -24013,6 +25249,7 @@ export const dataAcuerdos2003 = [
     monthDoc: "NOV",
     nameDoc: "PRESUPUESTO DE EGRESOS 2003",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2003/"}${"25.pdf"}`),
+    subRows: "",
   },
   {
     id: 26,
@@ -24022,6 +25259,7 @@ export const dataAcuerdos2003 = [
     monthDoc: "DIC",
     nameDoc: "COMISIÓN DEMARCACIÓN",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2003/"}${"26.pdf"}`),
+    subRows: "",
   },
   {
     id: 27,
@@ -24031,6 +25269,7 @@ export const dataAcuerdos2003 = [
     monthDoc: "DIC",
     nameDoc: "PJS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2003/"}${"27.pdf"}`),
+    subRows: "",
   },
 ];
 export const dataAcuerdos2002 = [
@@ -24042,6 +25281,7 @@ export const dataAcuerdos2002 = [
     monthDoc: "ENE",
     nameDoc: "CALIFICACIÓN SAN MIGUEL ANALCO DE NATIVITAS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2002/"}${"1.pdf"}`),
+    subRows: "",
   },
   {
     id: 2,
@@ -24051,6 +25291,7 @@ export const dataAcuerdos2002 = [
     monthDoc: "ENE",
     nameDoc: "CALIFICACIÓN XAXALA DE CHIAUTEMPAN",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2002/"}${"2.pdf"}`),
+    subRows: "",
   },
   {
     id: 3,
@@ -24060,6 +25301,7 @@ export const dataAcuerdos2002 = [
     monthDoc: "ENE",
     nameDoc: "INTEGRACIÓN DE DIPUTADOS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2002/"}${"3.pdf"}`),
+    subRows: "",
   },
   {
     id: 4,
@@ -24069,6 +25311,7 @@ export const dataAcuerdos2002 = [
     monthDoc: "FEB",
     nameDoc: "DE PRESUPUESTO ELECCIÓN EXTRAORDINARIA 2002",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2002/"}${"4.pdf"}`),
+    subRows: "",
   },
   {
     id: 5,
@@ -24078,6 +25321,7 @@ export const dataAcuerdos2002 = [
     monthDoc: "FEB",
     nameDoc: "CALENDARIO ELECCIÓN EXTRAORDINARIA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2002/"}${"5.pdf"}`),
+    subRows: "",
   },
   {
     id: 6,
@@ -24088,6 +25332,7 @@ export const dataAcuerdos2002 = [
     nameDoc:
       "CONVOCATORIA PRESIDENTES, SECRETARIOS, AUXILIARES Y CAPACITADORES ELECCIONES EXTRAORDINARIAS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2002/"}${"6.pdf"}`),
+    subRows: "",
   },
   {
     id: 7,
@@ -24098,6 +25343,7 @@ export const dataAcuerdos2002 = [
     nameDoc:
       "CRITERIOS DE INTEGRACIÓN Y DESIGNACIÓN DE CONSEJOS DISTRITALES Y MUNICIPALES",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2002/"}${"7.pdf"}`),
+    subRows: "",
   },
   {
     id: 8,
@@ -24107,6 +25353,7 @@ export const dataAcuerdos2002 = [
     monthDoc: "FEB",
     nameDoc: "CALENDARIO PROCESO EXTRAORDINARIAS 2002",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2002/"}${"8.pdf"}`),
+    subRows: "",
   },
   {
     id: 9,
@@ -24116,6 +25363,7 @@ export const dataAcuerdos2002 = [
     monthDoc: "FEB",
     nameDoc: "MES BASE ELECCIONES EXTRAORDINARIAS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2002/"}${"9.pdf"}`),
+    subRows: "",
   },
   {
     id: 10,
@@ -24125,6 +25373,7 @@ export const dataAcuerdos2002 = [
     monthDoc: "FEB",
     nameDoc: "PLATAFORMAS ELECTORALES 2002",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2002/"}${"10.pdf"}`),
+    subRows: "",
   },
   {
     id: 11,
@@ -24134,6 +25383,7 @@ export const dataAcuerdos2002 = [
     monthDoc: "FEB",
     nameDoc: "REGISTRO DE COALICIÓN IXTENCO PJS, PAS Y PT",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2002/"}${"11.pdf"}`),
+    subRows: "",
   },
   {
     id: 12,
@@ -24143,6 +25393,7 @@ export const dataAcuerdos2002 = [
     monthDoc: "FEB",
     nameDoc: "REGISTRO DE COALICIÓN ZACATELCO PAS, PCDT Y PJS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2002/"}${"12.pdf"}`),
+    subRows: "",
   },
   {
     id: 13,
@@ -24152,6 +25403,7 @@ export const dataAcuerdos2002 = [
     monthDoc: "FEB",
     nameDoc: "ACUERDOS TOPES DE CAMPAÑA ELECCIONES EXTRAORDINARIAS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2002/"}${"13.pdf"}`),
+    subRows: "",
   },
   {
     id: 14,
@@ -24161,6 +25413,7 @@ export const dataAcuerdos2002 = [
     monthDoc: "FEB",
     nameDoc: "PADRÓN ELECTORAL ELECCIONES EXTRAORDINARIAS 2002",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2002/"}${"14.pdf"}`),
+    subRows: "",
   },
   {
     id: 15,
@@ -24170,6 +25423,7 @@ export const dataAcuerdos2002 = [
     monthDoc: "MAR",
     nameDoc: "DISEÑO DE LA DOCUMENTACIÓN Y MATERIAL ELECTORAL 2002",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2002/"}${"15.pdf"}`),
+    subRows: "",
   },
   {
     id: 16,
@@ -24179,6 +25433,7 @@ export const dataAcuerdos2002 = [
     monthDoc: "MAR",
     nameDoc: "LUGARES DE USO COMÚN 2002",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2002/"}${"16.pdf"}`),
+    subRows: "",
   },
   {
     id: 17,
@@ -24188,6 +25443,7 @@ export const dataAcuerdos2002 = [
     monthDoc: "MAR",
     nameDoc: "PTES, SRIOS Y CONCEJALES ELECCIONES EXTRAORDINARIAS 2002",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2002/"}${"17.pdf"}`),
+    subRows: "",
   },
   {
     id: 18,
@@ -24197,6 +25453,7 @@ export const dataAcuerdos2002 = [
     monthDoc: "MAR",
     nameDoc: "REGISTRO AYUNTAMIENTOS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2002/"}${"18.pdf"}`),
+    subRows: "",
   },
   {
     id: 19,
@@ -24206,6 +25463,7 @@ export const dataAcuerdos2002 = [
     monthDoc: "MAR",
     nameDoc: "REGISTRO PRESIDENTES DE COMUNIDAD",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2002/"}${"19.pdf"}`),
+    subRows: "",
   },
   {
     id: 20,
@@ -24215,6 +25473,7 @@ export const dataAcuerdos2002 = [
     monthDoc: "MAR",
     nameDoc: "OBSERVADORES ELECTORALES Y CONVOCATORIA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2002/"}${"20.pdf"}`),
+    subRows: "",
   },
   {
     id: 21,
@@ -24224,6 +25483,7 @@ export const dataAcuerdos2002 = [
     monthDoc: "MAR",
     nameDoc: "PRODUCCIÓN DOCUMENTACIÓN Y MATERIAL ELECTORAL 2002",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2002/"}${"21.pdf"}`),
+    subRows: "",
   },
   {
     id: 22,
@@ -24233,6 +25493,7 @@ export const dataAcuerdos2002 = [
     monthDoc: "MAR",
     nameDoc: "CONVOCATORIA OBSERVADORES ELECTORALES 2002",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2002/"}${"22.pdf"}`),
+    subRows: "",
   },
   {
     id: 23,
@@ -24242,6 +25503,7 @@ export const dataAcuerdos2002 = [
     monthDoc: "MAR",
     nameDoc: "REASIGNACIÓN DE PRERROGATIVAS 2002 BUENO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2002/"}${"23.pdf"}`),
+    subRows: "",
   },
   {
     id: 24,
@@ -24251,6 +25513,7 @@ export const dataAcuerdos2002 = [
     monthDoc: "MAR",
     nameDoc: "ACREDITACIÓN OBSERVADORES ELECTORALES 2002",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2002/"}${"24.pdf"}`),
+    subRows: "",
   },
   {
     id: 25,
@@ -24261,6 +25524,7 @@ export const dataAcuerdos2002 = [
     nameDoc:
       "EXCLUSIÓN DE BOLETAS ELECTORALES DE LA VENTA MUNICIPIO DE CALPULALPAN",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2002/"}${"25.pdf"}`),
+    subRows: "",
   },
   {
     id: 26,
@@ -24270,6 +25534,7 @@ export const dataAcuerdos2002 = [
     monthDoc: "ABR",
     nameDoc: "RETIRO DE PROPAGANDA MDC 2002",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2002/"}${"26.pdf"}`),
+    subRows: "",
   },
   {
     id: 27,
@@ -24279,6 +25544,7 @@ export const dataAcuerdos2002 = [
     monthDoc: "ABR",
     nameDoc: "SARJE 7 DE ABRIL 2002",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2002/"}${"27.pdf"}`),
+    subRows: "",
   },
   {
     id: 28,
@@ -24288,6 +25554,7 @@ export const dataAcuerdos2002 = [
     monthDoc: "ABR",
     nameDoc: "CALIFICACIÓN 9 PRESIDENCIAS DE COMUNIDAD",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2002/"}${"28.pdf"}`),
+    subRows: "",
   },
   {
     id: 29,
@@ -24297,6 +25564,7 @@ export const dataAcuerdos2002 = [
     monthDoc: "ABR",
     nameDoc: "CALIFICACIÓN AYUNTAMIENTO IXTENCO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2002/"}${"29.pdf"}`),
+    subRows: "",
   },
   {
     id: 30,
@@ -24306,6 +25574,7 @@ export const dataAcuerdos2002 = [
     monthDoc: "ABR",
     nameDoc: "CALIFICACIÓN AYUNTAMIENTO ZACATELCO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2002/"}${"30.pdf"}`),
+    subRows: "",
   },
   {
     id: 31,
@@ -24315,6 +25584,7 @@ export const dataAcuerdos2002 = [
     monthDoc: "ABR",
     nameDoc: "APROBACIÓN DE DICTÁMENES P.P. 2001",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2002/"}${"31.pdf"}`),
+    subRows: "",
   },
   {
     id: 32,
@@ -24324,6 +25594,7 @@ export const dataAcuerdos2002 = [
     monthDoc: "ABR",
     nameDoc: "CALENDARIO DE SESIONES ORDINARIAS 2002",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2002/"}${"32.pdf"}`),
+    subRows: "",
   },
   {
     id: 33,
@@ -24333,6 +25604,7 @@ export const dataAcuerdos2002 = [
     monthDoc: "ABR",
     nameDoc: "TRANSFERENCIA DE PARTIDA DESTINADA AL 20 % 2002",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2002/"}${"33.pdf"}`),
+    subRows: "",
   },
   {
     id: 34,
@@ -24342,6 +25614,7 @@ export const dataAcuerdos2002 = [
     monthDoc: "JUN",
     nameDoc: "DESTRUCCIÓN DE PAQUETERIA 2001 Y 2002",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2002/"}${"34.pdf"}`),
+    subRows: "",
   },
   {
     id: 35,
@@ -24351,6 +25624,7 @@ export const dataAcuerdos2002 = [
     monthDoc: "SEP",
     nameDoc: "ACREDITACIÓN PARTIDO LIBERAL PROGRESISTA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2002/"}${"35.pdf"}`),
+    subRows: "",
   },
   {
     id: 36,
@@ -24360,8 +25634,10 @@ export const dataAcuerdos2002 = [
     monthDoc: "SEP",
     nameDoc: "CONVOCATORIA DIRECCIÓN DE CAPACITACIÓN, ORGANIZACIÓN Y JURÍDICA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2002/"}${"36.pdf"}`),
+    subRows: "",
   },
 ];
+
 export const dataAA2002 = [
   {
     id: 2,

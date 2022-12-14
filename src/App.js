@@ -148,6 +148,11 @@ import ParlamentoInfantil from "./pages/culturaCivica/ParlamentoInfantil";
 import ParlamentoJuvenil from "./pages/culturaCivica/ParlamentoJuvenil";
 import ValoresDemocracia from "./pages/culturaCivica/ValoresDemocracia";
 
+//Micrositios
+import REPS from "./pages/reps/REPS";
+
+import PRUEBAS from "./pages/PRUEBAS/PRUEBAS";
+
 function App() {
   return (
     <Router>
@@ -309,6 +314,12 @@ function App() {
           <Route path="/ParlamentoInfantil" element={<ParlamentoInfantil />} />
           <Route path="/ParlamentoJuvenil" element={<ParlamentoJuvenil />} />
           <Route path="/ValoresDemocracia" element={<ValoresDemocracia />} />
+
+          {/* Micrositios */}
+          <Route path="/REPS" element={<REPS />} />
+
+          {/* P R U E B A S */}
+          <Route path="/PRUEBAS" element={<PRUEBAS />} />
         </Routes>
       </div>
       <Footer></Footer>

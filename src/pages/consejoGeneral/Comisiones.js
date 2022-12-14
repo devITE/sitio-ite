@@ -1,17 +1,14 @@
 import React, { Component } from "react";
-import imagenes from "./img/comisiones.png";
-import imagenes2 from "./img/comisiones2.jpg";
+import TitlePages from "../../layout/TitlePages";
 import { Link } from "react-router-dom";
+import imagenes2 from "./img/comisiones2.jpg";
 
 export default class Comisiones extends Component {
   render() {
     return (
       <div>
-        <img
-          src={imagenes}
-          className="img-fluid w-100 mx-auto"
-          alt="Comisiones"
-        />
+        <TitlePages title="Comisiones y Comités Permanentes" subTitle="" />
+
         <Link to={imagenes2} target="_blank">
           <img
             src={imagenes2}
