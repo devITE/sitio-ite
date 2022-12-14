@@ -8,7 +8,7 @@ const Videoteca = ({ items }) => {
           <div key={items.id} className="Videoteca-tag">
             <div className="ratio ratio-16x9">
               <iframe
-                src={items.url}
+                src={"https://www.youtube.com/embed/" + items.url + "?rel=0"}
                 title={items.title}
                 allowFullScreen
               ></iframe>

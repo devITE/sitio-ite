@@ -1,117 +1,63 @@
 import React, { Component } from "react";
-import imagenes from "./img/estructura.png";
+import TitlePages from "../../layout/TitlePages";
 
 export default class Estructura extends Component {
   render() {
     return (
       <div>
-        <img src={imagenes} className="img-fluid w-100" alt="Estructura" />
-        <hr className="borde" />
-        <div className="estilo text-justify">
+        <TitlePages title="Estructura" subTitle="" />
+        <p className="text-justify">
           Para el ejercicio de sus funciones, el Instituto contará con órganos
           directivos, ejecutivos y de vigilancia, así como con órganos y áreas
           técnicas, y con el personal necesario e idóneo para el cumplimiento de
           sus atribuciones y fines.
-        </div>
-        <br />
-        <div className="morado estilo ms-4">
+        </p>
+        <p className="text-strong ms-4">
           Los órganos directivos del Instituto son:
-        </div>
+        </p>
         <ol type="I" start="1" className="ms-5">
-          <li>
-            <div className="style_romano">El Consejo General</div>
-          </li>
-          <li>
-            <div className="style_romano">
-              Los Consejos Distritales Electorales;
-            </div>
-          </li>
-          <li>
-            <div className="style_romano">
-              Los Consejos Municipales Electorales;
-            </div>
-          </li>
-          <li>
-            <div className="style_romano">Las Mesas Directivas de Casilla.</div>
-          </li>
+          <li>El Consejo General</li>
+          <li>Los Consejos Distritales Electorales;</li>
+          <li>Los Consejos Municipales Electorales;</li>
+          <li>Las Mesas Directivas de Casilla.</li>
         </ol>
-        <div className="morado estilo ms-4">
+        <p className="text-strong ms-4">
           Los órganos ejecutivos del Instituto son:
-        </div>
+        </p>
         <ol type="I" start="1" className="ms-5">
+          <li>La Presidencia del Consejo General;</li>
+          <li>La Junta General Ejecutiva;</li>
+          <li>La Secretaría Ejecutiva;</li>
           <li>
-            <div className="style_romano">
-              La Presidencia del Consejo General;
-            </div>
+            La Dirección de Organización Electoral, Capacitación y Educación
+            Cívica;
           </li>
           <li>
-            <div className="style_romano">La Junta General Ejecutiva;</div>
+            La Dirección de Prerrogativas, Administración y Fiscalización;
           </li>
-          <li>
-            <div className="style_romano">La Secretaría Ejecutiva;</div>
-          </li>
-          <li>
-            <div className="style_romano">
-              La Dirección de Organización Electoral, Capacitación y Educación
-              Cívica;
-            </div>
-          </li>
-          <li>
-            <div className="style_romano">
-              La Dirección de Prerrogativas, Administración y Fiscalización;
-            </div>
-          </li>
-          <li>
-            <div className="style_romano">
-              La Dirección de Asuntos Jurídicos;
-            </div>
-          </li>
-          <li>
-            <div className="style_romano">La Contraloría General.</div>
-          </li>
+          <li>La Dirección de Asuntos Jurídicos;</li>
+          <li>La Contraloría General.</li>
         </ol>
-        <div className="morado estilo ms-4">
+        <div className="text-storng ms-4">
           Los órganos de vigilancia del Instituto son:
         </div>
         <ol type="I" start="1" className="ms-5">
           <li>
-            <div className="style_romano">
-              La Comisión de Prerrogativas, Partidos Políticos, Administración y
-              Fiscalización;
-            </div>
+            La Comisión de Prerrogativas, Partidos Políticos, Administración y
+            Fiscalización;
           </li>
-          <li>
-            <div className="style_romano">
-              La Comisión de Vigilancia del Registro de Electores;
-            </div>
-          </li>
-          <li>
-            <div className="style_romano">La Comisión de Gobierno Interno;</div>
-          </li>
-          <li>
-            <div className="style_romano">
-              Las demás que acuerde el Consejo General.
-            </div>
-          </li>
+          <li>La Comisión de Vigilancia del Registro de Electores;</li>
+          <li>La Comisión de Gobierno Interno;</li>
+          <li>Las demás que acuerde el Consejo General.</li>
         </ol>
-        <div className="morado estilo ms-4">
+        <p className="text-strong ms-4">
           Las áreas técnicas del Instituto son:
-        </div>
+        </p>
         <ol type="I" start="1" className="ms-5">
-          <li>
-            <div className="style_romano">De Informática;</div>
-          </li>
-          <li>
-            <div className="style_romano">De Comunicación Social y Prensa;</div>
-          </li>
-          <li>
-            <div className="style_romano">De Consulta Ciudadana;</div>
-          </li>
-          <li>
-            <div className="style_romano">
-              De Transparencia y Acceso a la Información.
-            </div>
-          </li>
+          <li>De Informática;</li>
+          <li>De Comunicación Social y Prensa;</li>
+          <li>De Consulta Ciudadana;</li>
+          <li>De Transparencia y Acceso a la Información.</li>
         </ol>
       </div>
     );

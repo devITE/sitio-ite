@@ -4,11 +4,6 @@
   line-height: 1.1;
   font-size: 1.4rem;
 }
-.style_romano {
-  font-size: 1.2rem;
-  margin-bottom: 1.3rem;
-  line-height: 0.8;
-}
 
 .row {
   display: flex;
@@ -47,13 +42,6 @@
 .red-text {
   color: #aa0787;
 }
-
-.estilo {
-  font-size: 1.2rem;
-  text-align: justify;
-  display: line;
-  align-items: center;
-}
 .style {
   margin-bottom: 2rem;
 }
@@ -70,10 +58,6 @@
 .Integracion__item:hover {
   transition: 0.5s;
   transform: scale(1.03);
-}
-.morado {
-  font-weight: bold;
-  color: #aa0787;
 }
 .acuerdos {
   display: grid;
@@ -95,13 +79,6 @@
   transition: 0.1s;
   transform: scale(1.03);
 }
-/* .subtitle {
-  color: #ba1678;
-  font-size: 2rem;
-  display: block;
-  margin-left: 2rem;
-  margin-bottom: 0rem;
-} */
 .estilos-cintillo {
   background: #aa0787;
   color: #fff;

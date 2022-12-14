@@ -78,7 +78,7 @@ const Acuerdos2015 = () => {
 
   return (
     <>
-      <TitlePages title="Acuerdos ITE 2015" />
+      <TitlePages title="Acuerdos ITE 2015" subTitle="" />
       <MaterialReactTable
         columns={columns}
         data={dataAcuerdos2015}
@@ -92,18 +92,6 @@ const Acuerdos2015 = () => {
             display: row.original.subRows === "" ? "none" : "flex",
           },
         })}
-        // muiTableHeadCellProps={{
-        //   sx: {
-        //     backgroundColor: "#972069",
-        //     color: "#fff",
-        //   },
-        // }}
-        // muiTableFooterCellProps={{
-        //   sx: {
-        //     backgroundColor: "#972069",
-        //     color: "#fff",
-        //   },
-        // }}
         muiTablePaginationProps={{
           rowsPerPageOptions: [10, 25, 50, 100, 200, 300, 400],
           labelRowsPerPage: "Filas por página",

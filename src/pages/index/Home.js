@@ -44,8 +44,8 @@ export default class Home extends Component {
             <h2 className="bottom_title">Foro</h2>
             <div className="Home__video-embed ratio ratio-16x9 w-100">
               <iframe
-                id="video1"
-                src="https://www.youtube.com/embed/6zXSa7oqrqM?rel=0"
+                id="SKyFNPOmv3s"
+                src="https://www.youtube.com/embed/SKyFNPOmv3s?rel=0"
                 title="Foro en conmemoración"
                 allowFullScreen
               ></iframe>
@@ -114,14 +114,16 @@ export default class Home extends Component {
           <div className="item2">
             <h2 className="bottom_title">Video Podcast</h2>
             <Carousel idCarousel="videoPodcast">
-              {dataVideoPodCast.map((cA) => (
-                <CarouselItemVideo
-                  key={cA.id}
-                  itemActive={cA.itemActive}
-                  link={cA.link}
-                  title={cA.title}
-                />
-              ))}
+              {dataVideoPodCast
+                .sort((a, b) => b.id - a.id)
+                .map((cA) => (
+                  <CarouselItemVideo
+                    key={cA.id}
+                    itemActive={cA.itemActive}
+                    link={cA.link}
+                    title={cA.title}
+                  />
+                ))}
             </Carousel>
           </div>
         </div>
@@ -140,11 +142,12 @@ export default class Home extends Component {
             <h2 className="bottom_title">Sesión en Vivo</h2>
             <div className="Home__video-embed ratio ratio-16x9 w-100">
               <iframe
-                src="https://www.youtube.com/embed/1PRYCbDhkoQ?rel=0"
-                title="Video Podcast"
+                src="https://www.youtube.com/embed/MRj4qC4NVWo?rel=0"
+                title="Sesión En Vivo del CG"
                 allowFullScreen
               ></iframe>
             </div>
+            <h5 className="mt-3 text-center">Sesión Especial 01/12/22</h5>
           </div>
           <div>
             <h2 className="bottom_title">Convocatoria</h2>

@@ -1,8 +1,9 @@
 export const dataVideoteca = [
   {
     id: 0,
-    url: "https://www.youtube.com/embed/6zXSa7oqrqM?rel=0",
-    title: "Video 1",
+    url: "SKyFNPOmv3s",
+    title:
+      "Foro: Aportaciones para mejorar la participación y representación de las personas con discapacidad",
   },
   {
     id: 1,

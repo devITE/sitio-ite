@@ -9,7 +9,7 @@ export default class AcuerdosAnteriores extends Component {
   render() {
     return (
       <>
-        <TitlePages title="Acuerdos Anteriores" />
+        <TitlePages title="Acuerdos Anteriores" subTitle="" />
         <div className="w-100 mt-5 Grid__folder">
           <div>
             <Link to="/Acuerdos2015">

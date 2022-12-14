@@ -14,7 +14,7 @@ export default class Enlaces extends Component {
               <img
                 src={Enlaces_imgpath(`./${"e1.png"}`)}
                 alt="Proceso Electorales"
-                className="img-fluid shadow rounded-4"
+                className="img-fluid shadow rounded-4 Enlaces__link"
               />
             </Link>
           </div>
@@ -23,7 +23,7 @@ export default class Enlaces extends Component {
               <img
                 src={Enlaces_imgpath(`./${"e2.png"}`)}
                 alt="Normatividad"
-                className="img-fluid shadow rounded-4"
+                className="img-fluid shadow rounded-4 Enlaces__link"
               />
             </Link>
           </div>
@@ -32,7 +32,7 @@ export default class Enlaces extends Component {
               <img
                 src={Enlaces_imgpath(`./${"e3.png"}`)}
                 alt="Galeria fotográfica"
-                className="img-fluid shadow rounded-4"
+                className="img-fluid shadow rounded-4 Enlaces__link"
               />
             </Link>
           </div>
@@ -41,7 +41,7 @@ export default class Enlaces extends Component {
               <img
                 src={Enlaces_imgpath(`./${"e4.png"}`)}
                 alt="Órgano Interno de Control"
-                className="img-fluid shadow rounded-4"
+                className="img-fluid shadow rounded-4 Enlaces__link"
               />
             </Link>
           </div>
@@ -52,7 +52,7 @@ export default class Enlaces extends Component {
               <img
                 src={Enlaces_imgpath(`./${"e5.png"}`)}
                 alt="Partidos Políticos"
-                className="img-fluid shadow rounded-4"
+                className="img-fluid shadow rounded-4 Enlaces__link"
               />
             </Link>
           </div>
@@ -61,7 +61,7 @@ export default class Enlaces extends Component {
               <img
                 src={Enlaces_imgpath(`./${"e6.png"}`)}
                 alt=" Infografías"
-                className="img-fluid shadow rounded-4"
+                className="img-fluid shadow rounded-4 Enlaces__link"
               />
             </Link>
           </div>
@@ -79,7 +79,7 @@ export default class Enlaces extends Component {
               <img
                 src={Enlaces_imgpath(`./${"e8.png"}`)}
                 alt="Metas MSPEN"
-                className="img-fluid shadow rounded-4"
+                className="img-fluid shadow rounded-4 Enlaces__link"
               />
             </Link>
           </div>

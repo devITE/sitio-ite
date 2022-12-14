@@ -136,7 +136,7 @@ const Acuerdos2002 = () => {
 
   return (
     <>
-      <TitlePages title="Acuerdos ITE 2002" />
+      <TitlePages title="Acuerdos ITE 2002" subTitle="" />
       <MaterialReactTable
         columns={columns}
         data={dataAcuerdos2002}
@@ -145,18 +145,11 @@ const Acuerdos2002 = () => {
         enableColumnActions={false}
         enableDensityToggle={false}
         initialState={{ density: "compact" }}
-        muiTableHeadCellProps={{
+        muiExpandButtonProps={({ row }) => ({
           sx: {
-            backgroundColor: "#972069",
-            color: "#fff",
+            display: row.original.subRows === "" ? "none" : "flex",
           },
-        }}
-        muiTableFooterCellProps={{
-          sx: {
-            backgroundColor: "#972069",
-            color: "#fff",
-          },
-        }}
+        })}
         localization={{
           actions: "Acciones",
           cancel: "Cancelar",
@@ -191,7 +184,7 @@ const Acuerdos2002 = () => {
           ungroupByColumn: "Desagrupar por {column}",
         }}
       />
-      <TitlePages title="Acuerdos ITE Aprobados 2002" />
+      <TitlePages title="" subTitle="Acuerdos ITE Aprobados 2002" />
       <MaterialReactTable
         columns={columnsAA}
         data={dataAA2002}

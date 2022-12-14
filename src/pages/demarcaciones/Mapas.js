@@ -1,17 +1,14 @@
 import React, { Component } from "react";
 import imagenes from "./img/iconomapatlx.png";
-import imagenes1 from "./img/mapas.png";
 import imagenes2 from "./img/mapatlx.png";
+import TitlePages from "../../layout/TitlePages";
 
 export default class Mapas extends Component {
   render() {
     return (
       <div>
-        <img src={imagenes1} className="img-fluid w-100" alt="Mapas" />
-        <hr className="borde" />
-        <div className="col-xl-12">
-          <h2 className="text-center subtitle">MAPA DE TLAXCALA</h2>
-        </div>
+        <TitlePages title="Mapas" subTitle="Mapa de Tlaxcala" />
+
         <br />
         <div className="mt-3 mb-3 d-flex align-items-start w-100">
           <div
@@ -21,7 +18,7 @@ export default class Mapas extends Component {
             aria-orientation="vertical"
           >
             <button
-              className="nav-link active btn-lg"
+              className=" active btn-lg btn btn-ite"
               id="vPillsRegistroCandidaturas2010Tab"
               data-bs-toggle="pill"
               data-bs-target="#vPillsRegistroCandidaturas2010"
@@ -40,14 +37,16 @@ export default class Mapas extends Component {
               role="tabpanel"
               aria-labelledby="vPillsRegistroCandidaturas2010Tab"
             >
-              <div className="mapas" data-bs-toggle="modal"
-              data-bs-target="#exampleModal">
-                  <img
-                    src={imagenes2}
-                    className="img-fluid w-100 mx-auto"
-                    alt="Estructura Organica"
-                  />
-               
+              <div
+                className="mapas"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
+              >
+                <img
+                  src={imagenes2}
+                  className="img-fluid w-100 mx-auto"
+                  alt="Estructura Organica"
+                />
               </div>
             </div>
           </div>
@@ -63,7 +62,7 @@ export default class Mapas extends Component {
             <div className="modal-content">
               <div className="modal-header">
                 <h1 className="modal-title fs-5" id="exampleModalLabel">
-                Mapa Tlaxcala
+                  Mapa Tlaxcala
                 </h1>
                 <button
                   type="button"
@@ -73,15 +72,14 @@ export default class Mapas extends Component {
                 ></button>
               </div>
               <div className="modal-body">
-              <img src={imagenes2} className="img-fluid w-100" alt="Mapas" />
+                <img src={imagenes2} className="img-fluid w-100" alt="Mapas" />
               </div>
               <div className="modal-footer">
-              <a
-              href={imagenes2}
-            download={imagenes2}>
-                <button type="button" className="btn btn-primary">
-                  Descargar
-                </button></a>
+                <a href={imagenes2} download={imagenes2}>
+                  <button type="button" className="btn btn-primary">
+                    Descargar
+                  </button>
+                </a>
                 <button
                   type="button"
                   className="btn btn-outline-danger"
