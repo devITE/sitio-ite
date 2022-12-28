@@ -360,7 +360,7 @@ export const dataCasillas2016 = [
     id: 4,
     titleItem: "Lista de ubicación de casillas especiales",
     typeDocument: "pdf",
-    linkItem: PE__path(`./${"pdf/procesosElect/PE20152016/"}${"8.pdf"}`),
+    linkItem: PE__path(`./${"pdf/procesosElect/PE20152016/"}${"8.PDF"}`),
   },
   {
     id: 5,
