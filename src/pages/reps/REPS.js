@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+
 import CarouselVert from "../../layout/Carousel/CarouselVert/CarouselVert";
 import CarouselVertItem from "../../layout/Carousel/CarouselVert/CarouselVertItem";
 
@@ -10,6 +11,7 @@ const REPS__path = require.context("../../assets");
 export default class REPS extends Component {
   render() {
     return (
+
       <div className="REPS">
         <img
           src={REPS__path(`./${"img/reps/"}${"1.png"}`)}
