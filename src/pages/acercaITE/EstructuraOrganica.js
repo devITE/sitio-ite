@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import TitlePages from "../../layout/TitlePages";
-import "./FinesInstitucionales.css";
-import img from "./img/ESTRUCTURA ORGÁNICA.jpg";
+import img from "../../assets/img/estOrg/1.jpg";
+
 export default class EstructuraOrganica extends Component {
   render() {
     return (
-      <div>
+      <>
         <TitlePages title="Estructura Orgánica" subTitle="" />
         <Link to={img} target="_blank">
           <img
@@ -15,7 +15,7 @@ export default class EstructuraOrganica extends Component {
             alt="Estructura Organica"
           />
         </Link>
-      </div>
+      </>
     );
   }
 }

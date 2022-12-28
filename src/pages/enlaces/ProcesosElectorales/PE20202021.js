@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import NavbarEnlaces from "../../../layout/NavbarEnlaces";
-import Modal from "../../../layout/Modal";
+import Modal from "../../../layout/Modal/Modal";
 import ListBadge from "../../../layout/ListBadge";
 import {
   dataGubernatura20202021,

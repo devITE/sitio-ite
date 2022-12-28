@@ -1,22 +1,26 @@
 import React, { Component } from "react";
-import TitlePages from "../../layout/TitlePages";
 import { Link } from "react-router-dom";
-import imagenes2 from "./img/comisiones2.jpg";
+import TitlePages from "../../layout/TitlePages";
+
+const Comisiones__path = require.context("../../assets");
 
 export default class Comisiones extends Component {
   render() {
     return (
-      <div>
-        <TitlePages title="Comisiones y Comités Permanentes" subTitle="" />
+      <>
+        <TitlePages title="Comisiones Permanentes y Temporales" subTitle="" />
 
-        <Link to={imagenes2} target="_blank">
+        <Link
+          to={Comisiones__path(`./${"img/imgIntITE/"}${"1.jpg"}`)}
+          target="_blank"
+        >
           <img
-            src={imagenes2}
+            src={Comisiones__path(`./${"img/imgIntITE/"}${"1.jpg"}`)}
             className="img-fluid w-100 mx-auto"
             alt="Comisiones Permanentes"
           />
         </Link>
-      </div>
+      </>
     );
   }
 }

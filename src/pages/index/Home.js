@@ -16,9 +16,9 @@ import { dataInformes } from "../../assets/data/dataInformes";
 import Videoteca from "./videoteca/Videoteca";
 import { dataVideoteca } from "../../assets/data/dataVideoteca";
 
-import Carousel from "../../layout/Carousel/Carousel";
-import CarouselItemIMG from "../../layout/Carousel/CarouselItemIMG";
-import CarouselItemVideo from "../../layout/Carousel/CarouselItemVideo";
+import Carousel from "../../layout/Carousel/Carousel/Carousel";
+import CarouselItemIMG from "../../layout/Carousel/CarouselItems/CarouselItemIMG";
+import CarouselItemVideo from "../../layout/Carousel/CarouselItems/CarouselItemVideo";
 import { dataVideoPodCast } from "../../assets/data/dataVideoPodCast";
 import "./Home.css";
 

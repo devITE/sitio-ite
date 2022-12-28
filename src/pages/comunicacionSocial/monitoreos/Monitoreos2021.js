@@ -1,10 +1,10 @@
 import React, { useMemo } from "react";
 import MaterialReactTable from "material-react-table";
 import { MenuItem, TextField } from "@mui/material";
-import {dataMonitoreos2021} from "../../../assets/data/dataMonitoreos";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
-import imagenes from "../../../img/imgcomunicacion/Comunicacion.jpg";
+import { dataMonitoreos2021 } from "../../../assets/data/dataMonitoreos";
+import TitlePages from "../../../layout/TitlePages";
 
 const Monitoreos2021 = () => {
   const columns = useMemo(
@@ -78,21 +78,13 @@ const Monitoreos2021 = () => {
     []
   );
   return (
-    <div>
-      <img
-          src={imagenes}
-          className="img-fluid w-100"
-          alt="Comunicacion Social"
-        />
-        <hr className="borde" />
-        <h2 className="text-center estilos-cintillo">Monitoreos 2021</h2>
+    <>
+      <TitlePages title="Comunicación Social" subTitle="Monitoreos 2021" />
       <MaterialReactTable
         columns={columns}
         data={dataMonitoreos2021}
         enableExpanding={false}
-        // enableExpandAll
         enableColumnActions={false}
-        // enableColumnFilters={false}
         enableColumnResizing
         enableDensityToggle={false}
         muiTableHeadCellProps={{
@@ -160,7 +152,7 @@ const Monitoreos2021 = () => {
           ungroupByColumn: "Desagrupar por {column}",
         }}
       />
-    </div>
+    </>
   );
 };
 export default Monitoreos2021;

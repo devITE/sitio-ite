@@ -1,0 +1,50 @@
+.Historia {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin: 35px 0 0 0;
+}
+.Historia__year {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Historia__content {
+  margin: 0 0 0 10px;
+  display: flex;
+  align-items: center;
+  border-top: 3px dotted #aa0787;
+  border-bottom: 3px dotted #aa0787;
+}
+
+/* --------------- M E D I A     Q U E R I E S --------------- */
+
+/* general */
+@media only screen and (min-width: 1024px) {
+  .Historia__year {
+    width: 6%;
+  }
+  .Historia__content {
+    width: 94%;
+    margin: 0 0 0 10px;
+  }
+}
+/* tablets */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .Historia__year {
+    width: 10%;
+  }
+  .Historia__content {
+    width: 90%;
+  }
+}
+
+/* mobil */
+@media only screen and (max-width: 767px) {
+  .Historia__year {
+    width: 20%;
+  }
+  .Historia__content {
+    width: 80%;
+  }
+}

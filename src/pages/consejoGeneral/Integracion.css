@@ -1,0 +1,29 @@
+.Integracion__grid {
+  display: grid;
+  padding: 0px 30px;
+}
+
+/* --------------- M E D I A     Q U E R I E S --------------- */
+
+/* general */
+@media only screen and (min-width: 1024px) {
+  .Integracion__grid {
+    grid-template-columns: auto auto auto auto;
+    gap: 45px;
+  }
+}
+/* tablets */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .Integracion__grid {
+    grid-template-columns: auto auto auto;
+    gap: 45px;
+  }
+}
+
+/* mobil */
+@media only screen and (max-width: 767px) {
+  .Integracion__grid {
+    grid-template-columns: auto auto;
+    gap: 15px;
+  }
+}

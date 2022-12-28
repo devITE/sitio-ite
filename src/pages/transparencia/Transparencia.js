@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import TitlePages from "../../layout/TitlePages";
-import Modal from "../../layout/Modal";
+import Modal from "../../layout/Modal/Modal";
 import { Link } from "react-router-dom";
 import ListBadge from "../../layout/ListBadge";
 import {

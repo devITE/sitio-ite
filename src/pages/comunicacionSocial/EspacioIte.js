@@ -1,60 +1,60 @@
 import React, { Component } from "react";
 import TitlePages from "../../layout/TitlePages";
-import imagenes1 from "../../img/imgcomunicacion/presidenta.jpg";
-import imagenes2 from "../../img/imgcomunicacion/erika.jpg";
-import imagenes3 from "../../img/imgcomunicacion/aldave.jpg";
-const pdf_estructura = require.context("../../assets/pdf/comunicacion/");
-const pdf_estructura1 = require.context("../../assets/pdf/comunicacion/");
-const pdf_estructura2 = require.context("../../assets/pdf/comunicacion/");
+
+const EspacioITE_path = require.context("../../assets");
 
 export default class EspacioIte extends Component {
   render() {
     return (
-      <div>
+      <>
         <TitlePages title="Comunicación Social" subTitle="Espacio ITE" />
 
         <div className="w-100 row">
           <div className="col-md-4">
             <a
-              href={pdf_estructura(`./${"presidenta.pdf"}`)}
+              href={EspacioITE_path(
+                `./${"pdf/comunicacion/"}${"presidenta.pdf"}`
+              )}
               target="_blank"
               rel="noreferrer"
             >
               <img
-                src={imagenes1}
-                className="img-fluid Integracion__item"
+                src={EspacioITE_path(
+                  `./${"img/imgEspITE/"}${"presidenta.jpg"}`
+                )}
+                className="img-fluid hover-ite"
                 alt="presidenta"
               />
             </a>
           </div>
           <div className="col-md-4">
             <a
-              href={pdf_estructura1(`./${"erika.pdf"}`)}
+              href={EspacioITE_path(`./${"pdf/comunicacion/"}${"erika.pdf"}`)}
               target="_blank"
               rel="noreferrer"
             >
               <img
-                src={imagenes2}
-                className="img-fluid Integracion__item"
-                alt="presidenta"
+                src={EspacioITE_path(`./${"img/imgEspITE/"}${"erika.jpg"}`)}
+                className="img-fluid hover-ite"
+                alt="Consejera Electoral Erika Periañez Rodríguez"
               />
             </a>
           </div>
           <div className="col-md-4">
             <a
-              href={pdf_estructura2(`./${"aldave.pdf"}`)}
+              href={EspacioITE_path(`./${"pdf/comunicacion/"}${"aldave.pdf"}`)}
               target="_blank"
               rel="noreferrer"
             >
               <img
-                src={imagenes3}
-                className="img-fluid Integracion__item"
-                alt="presidenta"
+                src={EspacioITE_path(`./${"img/imgEspITE/"}${"aldave.jpg"}`)}
+                className="img-fluid hover-ite"
+                alt="Consejero Electoral Edgar Alfonso Aldave Aguilar"
               />
             </a>
           </div>
         </div>
-      </div>
+      </>
     );
   }
 }

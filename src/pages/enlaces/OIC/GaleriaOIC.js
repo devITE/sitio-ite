@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import NavbarEnlaces from "../../../layout/NavbarEnlaces";
-import Carousel from "../../../layout/Carousel/Carousel";
-import CarouselItemIMG from "../../../layout/Carousel/CarouselItemIMG";
+import Carousel from "../../../layout/Carousel/Carousel/Carousel";
+import CarouselItemIMG from "../../../layout/Carousel/CarouselItems/CarouselItemIMG";
 
 import { dataGaleria } from "../../../assets/data/dataOIC";
 

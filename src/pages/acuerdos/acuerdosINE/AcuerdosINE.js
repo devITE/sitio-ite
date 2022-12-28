@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import TitlePages from "../../../layout/TitlePages";
-import Modal from "../../../layout/Modal";
+import Modal from "../../../layout/Modal/Modal";
 
 import "../Acuerdos.css";
 

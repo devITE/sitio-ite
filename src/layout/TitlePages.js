@@ -1,4 +1,5 @@
 import iteIcon from "../assets/img/icons/ite.png";
+import "./TitlePages.css";
 
 const TitlePages = (props) => {
   return (

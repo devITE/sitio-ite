@@ -1,22 +1,16 @@
 import React, { Component } from "react";
 import TitlePages from "../../layout/TitlePages";
 
-const CulturaCivica__path = require.context("../../assets");
-
 export default class ValoresDemocracia extends Component {
   render() {
     return (
       <>
-        <TitlePages title="Cultura Cívica" />
-        <div className="w-100 d-flex justify-content-center align-items-center">
-          <img
-            src={CulturaCivica__path(`./img/imgcivica/infantil.png`)}
-            className="img-fluid h-25"
-            alt="Valores Democráticos"
-          />
-          <h1>Valores democrácticos</h1>
-        </div>
-        <p className="text-justify mt-3">
+        <TitlePages
+          title="Cultura Cívica"
+          subTitle="Valores de la Democracia"
+        />
+        <p className="mt-3">
+          El{" "}
           <span className="text-strong">
             Instituto Tlaxcalteca de Elecciones (ITE)
           </span>
@@ -53,7 +47,7 @@ export default class ValoresDemocracia extends Component {
           </li>
         </ol>
         <h3>Datos de contacto:</h3>
-        <p className="text-justify">
+        <p>
           Dirección de Organización Electoral, Capacitación y Educación Cívica
           <br /> Ex – Fábrica San Manuel S/N, Barrio Nuevo, C.P. 90640, San
           Miguel Contla, Santa Cruz Tlaxcala, Tlaxcala.

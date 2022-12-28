@@ -1,0 +1,60 @@
+/* Shapes */
+.triangle {
+  width: 0;
+  height: 0;
+  border-right: 2.4em solid transparent;
+  border-top: 1em solid transparent;
+  border-left: 2.4em solid transparent;
+  border-bottom: 1em solid #aa0787;
+}
+
+.banner-header {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #aa0787;
+  color: #ffffff;
+  font-weight: bolder;
+  letter-spacing: 1px;
+  text-shadow: 4px 4px 10px #000000;
+}
+
+.subtitle {
+  background-color: #aa0787;
+  color: #ffffff !important;
+  text-align: center;
+  padding: 10px;
+}
+
+/* --------------- M E D I A     Q U E R I E S --------------- */
+.PrincipiosRectores {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+/* general */
+@media only screen and (min-width: 1024px) {
+  .banner-header {
+    font-size: 50px;
+  }
+  .subtitle {
+    font-size: 30px;
+  }
+}
+/* tablets */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .banner-header {
+    font-size: 40px;
+  }
+  .subtitle {
+    font-size: 20px;
+  }
+}
+
+/* mobil */
+@media only screen and (max-width: 767px) {
+  .banner-header {
+    font-size: 25px;
+  }
+  .subtitle {
+    font-size: 18px;
+  }
+}

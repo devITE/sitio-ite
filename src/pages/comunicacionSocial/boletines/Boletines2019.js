@@ -1,10 +1,10 @@
 import React, { useMemo } from "react";
 import MaterialReactTable from "material-react-table";
 import { MenuItem, TextField } from "@mui/material";
-import {dataBoletines2019} from "../../../assets/data/dataBoletines";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
-import imagenes from "../../../img/imgcomunicacion/Comunicacion.jpg";
+import { dataBoletines2019 } from "../../../assets/data/dataBoletines";
+import TitlePages from "../../../layout/TitlePages";
 
 const Boletines2019 = () => {
   const columns = useMemo(
@@ -79,34 +79,15 @@ const Boletines2019 = () => {
   );
   return (
     <div>
-      <img
-          src={imagenes}
-          className="img-fluid w-100"
-          alt="Comunicacion Social"
-        />
-        <hr className="borde" />
-        <h2 className="text-center estilos-cintillo">Boletines 2019</h2>
+      <TitlePages title="Comunicación Social" subTitle="Boletines 2019" />
+
       <MaterialReactTable
         columns={columns}
         data={dataBoletines2019}
         enableExpanding={false}
-        // enableExpandAll
         enableColumnActions={false}
-        // enableColumnFilters={false}
         enableColumnResizing
         enableDensityToggle={false}
-        muiTableHeadCellProps={{
-          sx: {
-            backgroundColor: "#972069",
-            color: "#fff",
-          },
-        }}
-        muiTableFooterCellProps={{
-          sx: {
-            backgroundColor: "#972069",
-            color: "#fff",
-          },
-        }}
         muiTablePaginationProps={{
           labelRowsPerPage: "Filas por página",
           getItemAriaLabel: (type) => {

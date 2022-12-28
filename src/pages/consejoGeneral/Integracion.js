@@ -1,171 +1,155 @@
 import React, { Component } from "react";
 import TitlePages from "../../layout/TitlePages";
-
-const pdf_estructura = require.context("../../assets/pdf/CG/");
+import "./Integracion.css";
 const Integracion__path = require.context("../../assets");
+
 export default class Integracion extends Component {
   render() {
     return (
       <>
         <TitlePages title="Integración" subTitle="" />
-        <div className="mt-3 mb-3 d-flex align-items-start w-100">
+        <div className="d-flex align-items-start">
           <div
-            className="nav flex-column nav-pills me-3 w-25"
-            id="vPillsContenidoRegistro"
+            className="nav flex-column nav-pills me-3"
+            id="v-pills-tab"
             role="tablist"
             aria-orientation="vertical"
           >
             <button
-              className="btn btn-ite"
-              id="vPillsRegistroCandidaturas2010Tab"
+              className="btn btn-ite active"
+              id="v-pills-integracion-tab"
               data-bs-toggle="pill"
-              data-bs-target="#vPillsRegistroCandidaturas2010"
+              data-bs-target="#v-pills-integracion"
               type="button"
               role="tab"
-              aria-controls="vPillsRegistroCandidaturas2010"
+              aria-controls="v-pills-integracion"
               aria-selected="true"
             >
               Integración
             </button>
             <button
               className="btn btn-ite"
-              id="vPillsRegistroCandidaturas2013Tab"
+              id="v-pills-pp-tab"
               data-bs-toggle="pill"
-              data-bs-target="#vPillsRegistroCandidaturas2013"
+              data-bs-target="#v-pills-pp"
               type="button"
               role="tab"
-              aria-controls="vPillsRegistroCandidaturas2013"
+              aria-controls="v-pills-pp"
               aria-selected="false"
             >
-              Representantes de los Partidos Politicos
+              Representantes de los Partidos Políticos
             </button>
           </div>
-          <div className="tab-content w-75" id="vPillsContenidoRegistroContent">
+          <div className="tab-content" id="v-pills-tabContent">
             <div
               className="tab-pane fade show active"
-              id="vPillsRegistroCandidaturas2010"
+              id="v-pills-integracion"
               role="tabpanel"
-              aria-labelledby="vPillsRegistroCandidaturas2010Tab"
+              aria-labelledby="v-pills-integracion-tab"
+              tabIndex="0"
             >
-              <div className="w-100 PRUEBA">
+              <div className="w-100 Integracion__grid">
                 <div>
                   <a
-                    href={pdf_estructura(`./${"8.pdf"}`)}
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <img
-                      src={Integracion__path(`./${"img/intCG/"}${"8.jpg"}`)}
-                      className="img-fluid Integracion__item"
-                      alt="presidenta"
-                    />
-                  </a>
-                </div>
-                <div>
-                  <a
-                    href={pdf_estructura(`./${"5.pdf"}`)}
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <img
-                      src={Integracion__path(`./${"img/intCG/"}${"5.jpg"}`)}
-                      className="img-fluid Integracion__item"
-                      alt="erika"
-                    />
-                  </a>
-                </div>
-                <div>
-                  <a
-                    href={pdf_estructura(`./${"4.pdf"}`)}
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <img
-                      src={Integracion__path(`./${"img/intCG/"}${"4.jpg"}`)}
-                      className="img-fluid Integracion__item"
-                      alt="aldave"
-                    />
-                  </a>
-                </div>
-                <div>
-                  <a
-                    href={pdf_estructura(`./${"6.pdf"}`)}
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <img
-                      src={Integracion__path(`./${"img/intCG/"}${"6.jpg"}`)}
-                      className="img-fluid Integracion__item"
-                      alt="juan carlos"
-                    />
-                  </a>
-                </div>
-
-                <div>
-                  <a
-                    href={pdf_estructura(`./${"7.pdf"}`)}
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <img
-                      src={Integracion__path(`./${"img/intCG/"}${"7.jpg"}`)}
-                      className="img-fluid Integracion__item"
-                      alt="secretario"
-                    />
-                  </a>
-                </div>
-
-                <div>
-                  <a
-                    href={pdf_estructura(`./${"1.pdf"}`)}
+                    href={Integracion__path(`./${"pdf/CG/"}${"1.pdf"}`)}
                     target="_blank"
                     rel="noreferrer"
                   >
                     <img
                       src={Integracion__path(`./${"img/intCG/"}${"1.jpg"}`)}
-                      className="img-fluid Integracion__item"
-                      alt="janet"
+                      className="img-fluid hover-ite"
+                      alt="Presidencia"
                     />
                   </a>
                 </div>
-
                 <div>
                   <a
-                    href={pdf_estructura(`./${"2.pdf"}`)}
+                    href={Integracion__path(`./${"pdf/CG/"}${"2.pdf"}`)}
                     target="_blank"
                     rel="noreferrer"
                   >
                     <img
                       src={Integracion__path(`./${"img/intCG/"}${"2.jpg"}`)}
-                      className="img-fluid Integracion__item"
-                      alt="yedith"
+                      className="img-fluid hover-ite"
+                      alt="Consejera Electoral Erika Periañez Rodríguez"
                     />
                   </a>
                 </div>
-
                 <div>
                   <a
-                    href={pdf_estructura(`./${"3.pdf"}`)}
+                    href={Integracion__path(`./${"pdf/CG/"}${"3.pdf"}`)}
                     target="_blank"
                     rel="noreferrer"
                   >
                     <img
                       src={Integracion__path(`./${"img/intCG/"}${"3.jpg"}`)}
-                      className="img-fluid Integracion__item"
-                      alt="neria"
+                      className="img-fluid hover-ite"
+                      alt="Consejero Electoral Edgar Alfonso Aldave Aguilar"
+                    />
+                  </a>
+                </div>
+                <div>
+                  <a
+                    href={Integracion__path(`./${"pdf/CG/"}${"4.pdf"}`)}
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img
+                      src={Integracion__path(`./${"img/intCG/"}${"4.jpg"}`)}
+                      className="img-fluid hover-ite"
+                      alt="Consejera Electoral Janet Cervante Ahuatzi"
+                    />
+                  </a>
+                </div>
+                <div>
+                  <a
+                    href={Integracion__path(`./${"pdf/CG/"}${"5.pdf"}`)}
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img
+                      src={Integracion__path(`./${"img/intCG/"}${"5.jpg"}`)}
+                      className="img-fluid hover-ite"
+                      alt="Consejero Electoral Hermenegildo Neria Carreño"
+                    />
+                  </a>
+                </div>
+                <div>
+                  <a
+                    href={Integracion__path(`./${"pdf/CG/"}${"6.pdf"}`)}
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img
+                      src={Integracion__path(`./${"img/intCG/"}${"6.jpg"}`)}
+                      className="img-fluid hover-ite"
+                      alt="Consejera Electoral Yedith Martínez Pinillo"
+                    />
+                  </a>
+                </div>
+                <div>
+                  <a
+                    href={Integracion__path(`./${"pdf/CG/"}${"7.pdf"}`)}
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img
+                      src={Integracion__path(`./${"img/intCG/"}${"7.jpg"}`)}
+                      className="img-fluid hover-ite"
+                      alt="Secretaria Ejecutiva"
                     />
                   </a>
                 </div>
               </div>
             </div>
-
             <div
               className="tab-pane fade"
-              id="vPillsRegistroCandidaturas2013"
+              id="v-pills-pp"
               role="tabpanel"
-              aria-labelledby="vPillsRegistroCandidaturas2013Tab"
+              aria-labelledby="v-pills-pp-tab"
+              tabIndex="0"
             >
-              <div className="w-100 PRUEBA">
+              <div className="w-100 Integracion__grid">
                 <div>
                   <a
                     href={"https://www.pantlaxcala.org.mx/"}
@@ -174,126 +158,142 @@ export default class Integracion extends Component {
                   >
                     <img
                       src={Integracion__path(`./${"img/intPP/"}${"1.jpg"}`)}
-                      className="img-fluid Integracion__item"
+                      className="img-fluid hover-ite"
                       alt="pan"
                     />
                   </a>
                 </div>
+                <div>
+                  <a
+                    href={"https://pritlaxcala.org.mx/"}
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img
+                      src={Integracion__path(`./${"img/intPP/"}${"2.jpg"}`)}
+                      className="img-fluid hover-ite"
+                      alt="pri"
+                    />
+                  </a>
+                </div>
+                <div>
+                  <a
+                    href={"https://www.prd.org.mx/"}
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img
+                      src={Integracion__path(`./${"img/intPP/"}${"3.jpg"}`)}
+                      className="img-fluid hover-ite"
+                      alt="prd"
+                    />
+                  </a>
+                </div>
+                <div>
+                  <a
+                    href={"http://pttlaxcala.com.mx/"}
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img
+                      src={Integracion__path(`./${"img/intPP/"}${"4.jpg"}`)}
+                      className="img-fluid hover-ite"
+                      alt="pt"
+                    />
+                  </a>
+                </div>
+                <div>
+                  <a
+                    href={"https://partidoverdetlaxcala.org/"}
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img
+                      src={Integracion__path(`./${"img/intPP/"}${"5.jpg"}`)}
+                      className="img-fluid hover-ite"
+                      alt="verde"
+                    />
+                  </a>
+                </div>
+                <div>
+                  <a
+                    href={"https://movimientociudadano.mx/tlaxcala"}
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img
+                      src={Integracion__path(`./${"img/intPP/"}${"6.jpg"}`)}
+                      className="img-fluid hover-ite"
+                      alt="movimiento ciudadano"
+                    />
+                  </a>
+                </div>
+                <div>
+                  <a
+                    href={"https://www.partidoalianzaciudadanatlax.com/"}
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img
+                      src={Integracion__path(`./${"img/intPP/"}${"7.jpg"}`)}
+                      className="img-fluid hover-ite"
+                      alt="pac"
+                    />
+                  </a>
+                </div>
+                <div>
+                  <a
+                    href={"https://morena.org/"}
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img
+                      src={Integracion__path(`./${"img/intPP/"}${"8.png"}`)}
+                      className="img-fluid hover-ite"
+                      alt="morena"
+                    />
+                  </a>
+                </div>
+                <div>
+                  <a
+                    href={"https://www.natlaxcala.mx/"}
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img
+                      src={Integracion__path(`./${"img/intPP/"}${"9.jpg"}`)}
+                      className="img-fluid hover-ite"
+                      alt="nueva alianza"
+                    />
+                  </a>
+                </div>
 
-                <a
-                  href={"https://pritlaxcala.org.mx/"}
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <img
-                    src={Integracion__path(`./${"img/intPP/"}${"2.jpg"}`)}
-                    className="img-fluid Integracion__item"
-                    alt="pri"
-                  />
-                </a>
-
-                <a
-                  href={"https://www.prd.org.mx/"}
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <img
-                    src={Integracion__path(`./${"img/intPP/"}${"3.jpg"}`)}
-                    className="img-fluid Integracion__item"
-                    alt="prd"
-                  />
-                </a>
-
-                <a
-                  href={"http://pttlaxcala.com.mx/"}
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <img
-                    src={Integracion__path(`./${"img/intPP/"}${"4.jpg"}`)}
-                    className="img-fluid Integracion__item"
-                    alt="pt"
-                  />
-                </a>
-
-                <a
-                  href={"https://partidoverdetlaxcala.org/"}
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <img
-                    src={Integracion__path(`./${"img/intPP/"}${"5.jpg"}`)}
-                    className="img-fluid Integracion__item"
-                    alt="verde"
-                  />
-                </a>
-
-                <a
-                  href={"https://movimientociudadano.mx/tlaxcala"}
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <img
-                    src={Integracion__path(`./${"img/intPP/"}${"6.jpg"}`)}
-                    className="img-fluid Integracion__item"
-                    alt="movimiento ciudadano"
-                  />
-                </a>
-                <a
-                  href={"https://www.partidoalianzaciudadanatlax.com/"}
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <img
-                    src={Integracion__path(`./${"img/intPP/"}${"7.jpg"}`)}
-                    className="img-fluid Integracion__item"
-                    alt="pac"
-                  />
-                </a>
-                <a
-                  href={"https://morena.org/"}
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <img
-                    src={Integracion__path(`./${"img/intPP/"}${"8.png"}`)}
-                    className="img-fluid Integracion__item"
-                    alt="morena"
-                  />
-                </a>
-                <a
-                  href={"https://www.natlaxcala.mx/"}
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <img
-                    src={Integracion__path(`./${"img/intPP/"}${"9.jpg"}`)}
-                    className="img-fluid Integracion__item"
-                    alt="nueva alianza"
-                  />
-                </a>
-                <a
-                  href={"https://www.redessocialesprogresistas.org/tlaxcala/"}
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <img
-                    src={Integracion__path(`./${"img/intPP/"}${"10.jpg"}`)}
-                    className="img-fluid Integracion__item"
-                    alt="rsp"
-                  />
-                </a>
-                <a
-                  href={"https://www.fuerzapormexicotlx.org/"}
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <img
-                    src={Integracion__path(`./${"img/intPP/"}${"11.jpg"}`)}
-                    className="img-fluid Integracion__item"
-                    alt="fuerza x mexico"
-                  />
-                </a>
+                <div>
+                  <a
+                    href={"https://www.redessocialesprogresistas.org/tlaxcala/"}
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img
+                      src={Integracion__path(`./${"img/intPP/"}${"10.jpg"}`)}
+                      className="img-fluid hover-ite"
+                      alt="rsp"
+                    />
+                  </a>
+                </div>
+                <div>
+                  <a
+                    href={"https://www.fuerzapormexicotlx.org/"}
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img
+                      src={Integracion__path(`./${"img/intPP/"}${"11.jpg"}`)}
+                      className="img-fluid hover-ite"
+                      alt="fuerza x mexico"
+                    />
+                  </a>
+                </div>
               </div>
             </div>
           </div>

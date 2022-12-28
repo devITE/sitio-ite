@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import NavbarEnlaces from "../../../layout/NavbarEnlaces";
-import ModalIMG from "../../../layout/ModalIMG";
+import ModalIMG from "../../../layout/Modal/ModalIMG";
 import { dataGaleria2016 } from "../../../assets/data/dataGaleria";
 import "../EnlacesStyle.css";
 export default class Galeria2016 extends Component {

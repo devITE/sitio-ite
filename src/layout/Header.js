@@ -17,17 +17,26 @@ export default class Header extends Component {
       <div>
         <div className="Header__social-network">
           <div className="Header__social-network-individual">
-            <Link to="./" className=" Header__btn-socialnetwork">
+            <Link
+              to="https://www.youtube.com/channel/UCUBfUX_c54NfhhvZRzK0k1w"
+              className=" Header__btn-socialnetwork"
+            >
               <FontAwesomeIcon icon={faYoutube} />
             </Link>
           </div>
           <div className="Header__social-network-individual">
-            <Link to="./" className=" Header__btn-socialnetwork">
+            <Link
+              to="https://twitter.com/share?url=http%3A%2F%2Fitetlax.org.mx%2F"
+              className=" Header__btn-socialnetwork"
+            >
               <FontAwesomeIcon icon={faTwitter} />
             </Link>
           </div>
           <div className="Header__social-network-individual">
-            <Link to="./" className=" Header__btn-socialnetwork">
+            <Link
+              to="https://es-la.facebook.com/InstitutoTlaxcaltecadeElecciones/"
+              className=" Header__btn-socialnetwork"
+            >
               <FontAwesomeIcon icon={faFacebook} />
             </Link>
           </div>

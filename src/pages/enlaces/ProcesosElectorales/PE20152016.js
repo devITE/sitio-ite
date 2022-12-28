@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Modal from "../../../layout/Modal";
+import Modal from "../../../layout/Modal/Modal";
 import ListBadge from "../../../layout/ListBadge";
 import NavbarEnlaces from "../../../layout/NavbarEnlaces";
 import {

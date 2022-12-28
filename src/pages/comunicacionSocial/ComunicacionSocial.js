@@ -1,37 +1,48 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import imagenes1 from "../../img/imgcomunicacion/boletines.png";
-import imagenes2 from "../../img/imgcomunicacion/monitoreo.png";
-import imagenes3 from "../../img/imgcomunicacion/espacio-ite.jpg";
 import TitlePages from "../../layout/TitlePages";
+
+const Comunicacion_path = require.context("../../assets");
 
 export default class ComunicacionSocial extends Component {
   render() {
     return (
-      <div>
+      <>
         <TitlePages title="Comunicación Social" subTitle="" />
 
-        <div className="text-center row">
-          <div className="col-md-4">
-            <Link to="/Boletines" className="">
-              <img src={imagenes1} className="img-fluid" alt="Boletines" />
-              <p className="text-center text-strong">Boletines</p>
+        <div className="Content__grid">
+          <div>
+            <Link to="/Boletines">
+              <img
+                src={Comunicacion_path(`./${"img/icons/"}${"50.png"}`)}
+                className="img-fluid"
+                alt="Boletines"
+              />
             </Link>
+            <p className="text-strong">Boletines</p>
           </div>
-          <div className="col-md-4">
-            <Link to="/Monitoreo" className="">
-              <img src={imagenes2} className="img-fluid" alt="Monitoreo" />
-              <p className="text-center text-strong">Monitoreo</p>
+          <div>
+            <Link to="/Monitoreo">
+              <img
+                src={Comunicacion_path(`./${"img/icons/"}${"e12.png"}`)}
+                className="img-fluid"
+                alt="Monitoreo"
+              />
             </Link>
+            <p className="text-strong">Monitoreo</p>
           </div>
-          <div className="col-md-4">
-            <Link to="/EspacioIte" className="">
-              <img src={imagenes3} className="img-fluid" alt="Espacio ITE" />
-              <p className="text-center text-strong">Espacio ITE</p>
+          <div>
+            <Link to="/EspacioIte">
+              <img
+                src={Comunicacion_path(`./${"img/icons/"}${"51.png"}`)}
+                className="img-fluid"
+                alt="Espacio ITE"
+              />
             </Link>
+            <p className="text-strong">Espacio ITE</p>
           </div>
         </div>
-      </div>
+      </>
     );
   }
 }

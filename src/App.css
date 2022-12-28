@@ -3,6 +3,9 @@ strong {
   color: #aa0787;
   font-weight: bolder;
 }
+.bg-ite {
+  background: #aa0787;
+}
 
 html {
   min-height: 100%;
@@ -19,6 +22,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif !important;
+  text-align: justify;
 }
 
 h1,
@@ -27,6 +31,7 @@ h3,
 h4,
 h5 {
   color: #aa0787;
+  font-weight: bolder !important;
 }
 
 .hr-bottom {
@@ -67,6 +72,19 @@ a {
   color: #ffffff !important;
 }
 
+.w-15 {
+  width: 15% !important;
+}
+.w-20 {
+  width: 20% !important;
+}
+.w-80 {
+  width: 80% !important;
+}
+.w-90 {
+  width: 90% !important;
+}
+
 .btn-ite {
   /* color: rgba(0, 0, 0, 0.125); */
   --bs-btn-color: #aa0787;
@@ -86,16 +104,38 @@ a {
   --bs-gradient: none;
 }
 
-.Content__grid,
-.Grid__folder {
+.hover-ite {
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px #a0a0a0;
+}
+.hover-ite:hover {
+  transition: 0.5s;
+  transform: scale(1.03);
+}
+
+.Content__grid {
+  /* .Grid__folder { */
   color: #972069;
   text-align: center;
   display: grid;
 }
+.Grid__folder,
+.Grid__four,
+.Grid__three {
+  display: grid;
+  color: #972069;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 25px;
+}
+.Grid__four p,
+.Grid__three p {
+  margin: 5px 0;
+}
 
 .Content__grid img:hover,
-.Grid__folder img:hover,
-.Grid__four img:hover {
+.Grid__folder img:hover {
+  /* .Grid__four img:hover { */
   transition: 0.5s;
   transform: scale(1.2);
 }
@@ -137,10 +177,6 @@ a {
   margin: 0 0 20px 0;
   break-inside: avoid;
   page-break-inside: avoid;
-}
-
-.Grid__four {
-  display: grid;
 }
 
 /* --------------- M O D A L --------------- */
@@ -217,35 +253,6 @@ table tbody tr td .MuiSvgIcon-root {
   margin-left: 5px !important;
 }
 
-/* --------------- T I T L E     A N D     S U B T I T L E --------------- */
-
-/* Shapes */
-.triangle {
-  width: 0;
-  height: 0;
-  border-right: 2.4em solid transparent;
-  border-top: 1em solid transparent;
-  border-left: 2.4em solid transparent;
-  border-bottom: 1em solid #aa0787;
-}
-
-.banner-header {
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #aa0787;
-  color: #ffffff;
-  font-weight: bolder;
-  letter-spacing: 1px;
-  text-shadow: 4px 4px 10px #000000;
-}
-
-.subtitle {
-  background-color: #aa0787;
-  color: #ffffff !important;
-  text-align: center;
-  padding: 10px;
-  font-size: 1.5em;
-}
-
 /* --------------- M E D I A     Q U E R I E S --------------- */
 
 /* general */
@@ -287,7 +294,12 @@ table tbody tr td .MuiSvgIcon-root {
   }
 
   .Grid__four {
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+  }
+
+  .Grid__three {
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
   }
 }
@@ -317,6 +329,14 @@ table tbody tr td .MuiSvgIcon-root {
 
   .Grid__folder {
     grid-template-columns: auto auto auto auto;
+    gap: 20px;
+  }
+  .Grid__four {
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;
+  }
+  .Grid__three {
+    grid-template-columns: auto auto auto;
     gap: 20px;
   }
 }
@@ -352,6 +372,14 @@ table tbody tr td .MuiSvgIcon-root {
   }
 
   .Grid__folder {
+    grid-template-columns: auto auto;
+    gap: 20px;
+  }
+  .Grid__four {
+    grid-template-columns: auto auto;
+    gap: 20px;
+  }
+  .Grid__three {
     grid-template-columns: auto auto;
     gap: 20px;
   }

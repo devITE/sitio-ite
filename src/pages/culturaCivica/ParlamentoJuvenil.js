@@ -1,22 +1,12 @@
 import React, { Component } from "react";
 import TitlePages from "../../layout/TitlePages";
 
-const CulturaCivica__path = require.context("../../assets");
-
 export default class ParlamentoJuvenil extends Component {
   render() {
     return (
       <>
-        <TitlePages title="Cultura Cívica" />
-        <div className="w-100 d-flex justify-content-center align-items-center">
-          <img
-            src={CulturaCivica__path(`./img/imgcivica/juvenillogo.png`)}
-            className="img-fluid h-25"
-            alt="Parlamento Juvenil"
-          />
-          <h1>Parlamento Juvenil</h1>
-        </div>
-        <p className="text-justify">
+        <TitlePages title="Cultura Cívica" subTitle="Parlamento Juvenil" />
+        <p>
           El&nbsp;
           <span className="text-strong">
             Instituto Tlaxcalteca de Elecciones
@@ -61,7 +51,7 @@ export default class ParlamentoJuvenil extends Component {
           <li>Las y los jóvenes parlamentarios electos reciben constancia.</li>
         </ol>
         <h3>Datos de contacto:</h3>
-        <p className="text-justify">
+        <p>
           Dirección de Organización Electoral, Capacitación y Educación Cívica
           <br /> Ex – Fábrica San Manuel S/N, Barrio Nuevo, C.P. 90640, San
           Miguel Contla, Santa Cruz Tlaxcala, Tlaxcala.

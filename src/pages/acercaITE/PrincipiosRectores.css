@@ -1,0 +1,39 @@
+.PrincipiosRectores {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+/* --------------- M E D I A     Q U E R I E S --------------- */
+
+/* general */
+@media only screen and (min-width: 1024px) {
+  .PrincipiosRectores div:nth-child(1) {
+    margin: 0 10px 0 50px;
+    width: 2%;
+  }
+  .PrincipiosRectores div:nth-child(2) {
+    width: 98%;
+  }
+}
+/* tablets */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .PrincipiosRectores div:nth-child(1) {
+    margin: 0 10px 0 50px;
+    width: 2%;
+  }
+  .PrincipiosRectores div:nth-child(2) {
+    width: 98%;
+  }
+}
+
+/* mobil */
+@media only screen and (max-width: 767px) {
+  .PrincipiosRectores div:nth-child(1) {
+    margin: 0 10px 0 20px;
+    width: 5%;
+  }
+  .PrincipiosRectores div:nth-child(2) {
+    width: 95%;
+  }
+}

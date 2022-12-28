@@ -3,8 +3,8 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import NavbarEnlaces from "../../../layout/NavbarEnlaces";
-import Modal from "../../../layout/Modal";
-import ModalIMG from "../../../layout/ModalIMG";
+import Modal from "../../../layout/Modal/Modal";
+import ModalIMG from "../../../layout/Modal/ModalIMG";
 import ListBadge from "../../../layout/ListBadge";
 import {
   dataEstructuraOrganica,

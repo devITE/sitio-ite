@@ -1,18 +1,17 @@
 import React, { Component } from "react";
 import TitlePages from "../../layout/TitlePages";
-import "./FinesInstitucionales.css";
 
 export default class FinesInstitucionales extends Component {
   render() {
     return (
       <>
         <TitlePages title="Fines Institucionales" subTitle="" />
-        <p className="text-justify">
+        <p>
           La Ley de Instituciones y Procedimientos Electorales para el Estado de
           Tlaxcala establece como fines institucionales los siguientes:
         </p>
 
-        <ol type="I" start="1" className="ms-3 text-justify">
+        <ol type="I" start="1" className="ms-3">
           <li>
             Contribuir al desarrollo de la vida democrática de los ciudadanos
             residentes en el Estado.

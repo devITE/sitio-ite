@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import TitlePages from "../../layout/TitlePages";
-import ModalIMG from "../../layout/ModalIMG";
+import ModalIMG from "../../layout/Modal/ModalIMG";
 
 const CulturaCivica__path = require.context("../../assets");
 
@@ -8,17 +8,8 @@ export default class ActividadesLudicas extends Component {
   render() {
     return (
       <>
-        <TitlePages title="Cultura Cívica" />
-        <div className="w-100 d-flex justify-content-center align-items-center">
-          <img
-            src={CulturaCivica__path(`./img/imgcivica/logo.png`)}
-            className="img-fluid h-25"
-            alt="Actividades Lúdicas"
-          />
-          <h1>Actividades Lúdicas</h1>
-        </div>
-        <br />
-        <br />
+        <TitlePages title="Cultura Cívica" subTitle="Actividades Lúdicas" />
+
         <div className="Grid__four">
           <div>
             <a
@@ -29,7 +20,7 @@ export default class ActividadesLudicas extends Component {
             >
               <img
                 src={CulturaCivica__path(`./img/imgcivica/game1.jpg`)}
-                className="img-fluid"
+                className="img-fluid hover-ite"
                 alt="Mi Estado, Mi distrito Local, Mi Municipio"
               />
             </a>
@@ -43,7 +34,7 @@ export default class ActividadesLudicas extends Component {
             >
               <img
                 src={CulturaCivica__path(`./img/imgcivica/game2.jpg`)}
-                className="img-fluid"
+                className="img-fluid hover-ite"
                 alt="Serpientes y Escaleras"
               />
             </a>
@@ -57,7 +48,7 @@ export default class ActividadesLudicas extends Component {
             >
               <img
                 src={CulturaCivica__path(`./img/imgcivica/game3.jpg`)}
-                className="img-fluid"
+                className="img-fluid hover-ite"
                 alt="Sopa de letras, Valores de la democracia"
               />
             </a>
@@ -71,7 +62,7 @@ export default class ActividadesLudicas extends Component {
             >
               <img
                 src={CulturaCivica__path(`./img/imgcivica/game4.jpg`)}
-                className="img-fluid"
+                className="img-fluid hover-ite"
                 alt="Crucigrama democrático"
               />
             </a>

@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { Component } from "react";
 import NavbarEnlaces from "../../layout/NavbarEnlaces";
-import ModalIMG from "../../layout/ModalIMG";
+import ModalIMG from "../../layout/Modal/ModalIMG";
 import { dataInf } from "../../assets/data/dataInfografias";
 
 import "./EnlacesStyle.css";
