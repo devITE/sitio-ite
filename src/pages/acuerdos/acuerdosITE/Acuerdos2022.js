@@ -72,7 +72,7 @@ const Acuerdos2022 = () => {
 
   return (
     <>
-      <TitlePages title="Acuerdos ITE 2022" />
+      <TitlePages title="Acuerdos ITE" subTitle="Acuerdos ITE 2022" />
       <MaterialReactTable
         columns={columns}
         data={dataAcuerdos2022}
@@ -81,18 +81,11 @@ const Acuerdos2022 = () => {
         enableColumnActions={false}
         enableDensityToggle={false}
         initialState={{ density: "compact" }}
-        muiTableHeadCellProps={{
+        muiExpandButtonProps={({ row }) => ({
           sx: {
-            backgroundColor: "#972069",
-            color: "#fff",
+            display: row.original.subRows === "" ? "none" : "flex",
           },
-        }}
-        muiTableFooterCellProps={{
-          sx: {
-            backgroundColor: "#972069",
-            color: "#fff",
-          },
-        }}
+        })}
         muiTablePaginationProps={{
           rowsPerPageOptions: [10, 25, 50, 100, 200, 300, 400],
           labelRowsPerPage: "Filas por página",

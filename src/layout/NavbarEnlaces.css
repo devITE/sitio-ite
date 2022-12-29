@@ -9,23 +9,18 @@
 /* general */
 @media only screen and (min-width: 1024px) {
   .NavbarEnlaces {
-    display: flex;
-    gap: 15px;
-    padding: 0px 30px;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+    gap: 25px;
   }
 }
 
 /* tablets */
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
   .NavbarEnlaces {
-    /* display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
-    padding: 0px 30px; */
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 50px;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+    gap: 5px;
   }
 }
 

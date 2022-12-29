@@ -21,6 +21,7 @@ import Carousel from "../../layout/Carousel/Carousel/Carousel";
 import CarouselItemIMG from "../../layout/Carousel/CarouselItems/CarouselItemIMG";
 // import CarouselItemVideo from "../../layout/Carousel/CarouselItems/CarouselItemVideo";
 // import { dataVideoPodCast } from "../../assets/data/dataVideoPodCast";
+import ModalInit from "../../layout/Modal/ModalInit";
 import "./Home.css";
 
 const Home__path = require.context("../../assets");
@@ -28,7 +29,8 @@ const Home__path = require.context("../../assets");
 export default class Home extends Component {
   render() {
     return (
-      <div>
+      <>
+        <ModalInit enlace="" alt="UNO" />
         <Carousel idCarousel="carouselTopIndex">
           {dataCIndex.map((cIndex) => (
             <CarouselItemIMG
@@ -280,7 +282,7 @@ export default class Home extends Component {
             </a>
           </div>
         </div>
-      </div>
+      </>
     );
   }
 }

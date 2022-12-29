@@ -1,36 +1,24 @@
-// // import { response } from "express";
-// import React, { Component, useEffect, useState } from "react";
+import React, { useState } from "react";
+import Modal from "react-bootstrap/Modal";
+import imgPopup from "../../assets/img/popupIndex/popupindex.jpg";
 
-// const API = "AIzaSyD1abko477C4VuO61LNX6D_kTmeS0oi50g";
-// const channelId = "UCUBfUX_c54NfhhvZRzK0k1w";
+export default function PRUEBAS() {
+  const [show, setShow] = useState(true);
 
-// var fetchurl = `https://www.googleapis.com/youtube/v3/search?key${API}&channelId=${channelId}$part=snippet,id&order=date&maxResults=20`;
+  const handleClose = () => setShow(false);
 
-// export const PRUEBAS = () => {
-//   const [allvideos, setAllVideos] = useState([]);
-//   useEffect(() => {
-//     fetch(fetchurl)
-//       .then((response) => response.json())
-//       .then((resJson) => {
-//         const result = resJson.items.map((doc) => ({
-//           ...doc,
-//           Videolink: "https://www.youtube.com/embed/" + doc.id.videoId,
-//         }));
-//         setAllVideos(result);
-//       });
-//   }, []);
-//   console.log(allvideos);
-//   return (
-//     <div>
-//       <iframe id="uno" width="560" height="315" src="" />
-//     </div>
-//   );
-// };
-
-import React, { Component } from "react";
-
-export default class PRUEBAS extends Component {
-  render() {
-    return <div>PRUEBAS</div>;
-  }
+  return (
+    <>
+      <Modal
+        show={show}
+        onHide={handleClose}
+        aria-labelledby="contained-modal-title-vcenter"
+        centered
+      >
+        <Modal.Body>
+          <img className="img-fluid" src={imgPopup} alt="" />
+        </Modal.Body>
+      </Modal>
+    </>
+  );
 }

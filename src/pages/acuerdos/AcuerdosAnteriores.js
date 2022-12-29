@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import TitlePages from "../../layout/TitlePages";
-import "./Acuerdos.css";
 
 const AcuerdosAnteriores__imgpath = require.context("../../assets/img/icons/");
 

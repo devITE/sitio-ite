@@ -78,7 +78,7 @@ const Acuerdos2006 = () => {
 
   return (
     <>
-      <TitlePages title="Acuerdos ITE 2006" subTitle="" />
+      <TitlePages title="Acuerdos Anteriores" subTitle="Acuerdos ITE 2006" />
       <MaterialReactTable
         columns={columns}
         data={dataAcuerdos2006}

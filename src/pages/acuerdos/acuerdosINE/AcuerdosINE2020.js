@@ -38,7 +38,7 @@ const AcuerdosINE2020 = () => {
 
   return (
     <>
-      <TitlePages title="Acuerdos INE 2020" />
+      <TitlePages title="Acuerdos INE" subTitle="Acuerdos INE 2020" />
       <MaterialReactTable
         columns={columns}
         data={dataAcuerdosINE2020}
@@ -47,18 +47,11 @@ const AcuerdosINE2020 = () => {
         enableColumnActions={false}
         enableDensityToggle={false}
         initialState={{ density: "compact" }}
-        muiTableHeadCellProps={{
+        muiExpandButtonProps={({ row }) => ({
           sx: {
-            backgroundColor: "#972069",
-            color: "#fff",
+            display: row.original.subRows === "" ? "none" : "flex",
           },
-        }}
-        muiTableFooterCellProps={{
-          sx: {
-            backgroundColor: "#972069",
-            color: "#fff",
-          },
-        }}
+        })}
         muiTablePaginationProps={{
           rowsPerPageOptions: [10, 25, 50, 100, 200, 300, 400],
           labelRowsPerPage: "Filas por página",

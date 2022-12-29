@@ -9,6 +9,7 @@ export const dataAcuerdosINE2022 = [
     nameDoc:
       "ACUERDO POR EL QUE SE APRUEBA LA DESIGNACIÓN DE LAS PRESIDENCIAS DE LOS OPLES DE LAS ENTIDADES DE AGUASCALIENTES, COAHUILA, NAYARIT, PUEBLA, QUINTANA ROO, SINALOA Y TLAXCALA",
     link: Acuerdos__pdfpath(`./${"INE/"}${"2022/"}${"1.pdf"}`),
+    subRows: "",
   },
   {
     id: 2,
@@ -17,6 +18,7 @@ export const dataAcuerdosINE2022 = [
     nameDoc:
       "ACUERDO POR EL QUE SE APRUEBA LA DESIGNACION DEL CONSEJERO PRESIDENTE PROVISIONAL DEL ITE",
     link: Acuerdos__pdfpath(`./${"INE/"}${"2022/"}${"2.pdf"}`),
+    subRows: "",
   },
 ];
 
@@ -31,6 +33,7 @@ export const dataAcuerdosINE2021 = [
       {
         nameDoc: "LINEAMIENTOS OPLE INCORPORACIÓN TEMPORAL",
         link: Acuerdos__pdfpath(`./${"INE/"}${"2021/"}${"1.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -45,6 +48,7 @@ export const dataAcuerdosINE2021 = [
       {
         nameDoc: "LINEAMIENTOS OPLE OCUPACIÓN E ENCARGOS",
         link: Acuerdos__pdfpath(`./${"INE/"}${"2021/"}${"2.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -60,10 +64,12 @@ export const dataAcuerdosINE2021 = [
       {
         nameDoc: "ANEXO 1 PLAN INTEGRAL Y CALENDARIOS DE COORDINACIÓN",
         link: Acuerdos__pdfpath(`./${"INE/"}${"2021/"}${"3.1.pdf"}`),
+        subRows: "",
       },
       {
         nameDoc: "ANEXO 3 CONCENTRADO DE ACTIVIDADES",
         link: Acuerdos__pdfpath(`./${"INE/"}${"2021/"}${"3.3.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -80,10 +86,12 @@ export const dataAcuerdosINE2020 = [
       {
         nameDoc: "ANEXO 1 (PUNTO 4)",
         link: Acuerdos__pdfpath(`./${"INE/"}${"2020/"}${"1.1.pdf"}`),
+        subRows: "",
       },
       {
         nameDoc: "ANEXO 2 (PUNTO 4)",
         link: Acuerdos__pdfpath(`./${"INE/"}${"2020/"}${"1.2.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -99,10 +107,12 @@ export const dataAcuerdosINE2020 = [
       {
         nameDoc: "ANEXO 1",
         link: Acuerdos__pdfpath(`./${"INE/"}${"2020/"}${"2.1.pdf"}`),
+        subRows: "",
       },
       {
         nameDoc: "ANEXO 2",
         link: Acuerdos__pdfpath(`./${"INE/"}${"2020/"}${"2.2.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -112,6 +122,7 @@ export const dataAcuerdosINE2020 = [
     numDoc: "INE CG-559-2020",
     nameDoc: "RESOLUCIÓN DEL CONSEJO GENERAL",
     link: Acuerdos__pdfpath(`./${"INE/"}${"2020/"}${"3.pdf"}`),
+    subRows: "",
   },
   {
     id: 4,
@@ -119,6 +130,7 @@ export const dataAcuerdosINE2020 = [
     numDoc: "INE CG-569-2020",
     nameDoc: "ACUERDO POR EL QUE SE DA RESPUESTA A CONSULTAS",
     link: Acuerdos__pdfpath(`./${"INE/"}${"2020/"}${"4.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -131,6 +143,7 @@ export const dataAcuerdosINE2020 = [
       {
         nameDoc: "ANEXO 1",
         link: Acuerdos__pdfpath(`./${"INE/"}${"2020/"}${"5.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -140,6 +153,7 @@ export const dataAcuerdosINE2020 = [
     numDoc: "INE CG-187-2020",
     nameDoc: "RESOLUCIÓN DEL CONSEJO GENERAL",
     link: Acuerdos__pdfpath(`./${"INE/"}${"2020/"}${"6.pdf"}`),
+    subRows: "",
   },
   {
     id: 7,
@@ -147,6 +161,7 @@ export const dataAcuerdosINE2020 = [
     numDoc: "INE CG-289-2020",
     nameDoc: "RESOLUCIÓN DEL CONSEJO GENERAL",
     link: Acuerdos__pdfpath(`./${"INE/"}${"2020/"}${"7.pdf"}`),
+    subRows: "",
   },
   {
     id: 8,
@@ -154,6 +169,7 @@ export const dataAcuerdosINE2020 = [
     numDoc: "INE CG-694-2020",
     nameDoc: "RESOLUCIÓN DEL CONSEJO GENERAL",
     link: Acuerdos__pdfpath(`./${"INE/"}${"2020/"}${"8.pdf"}`),
+    subRows: "",
   },
 ];
 
@@ -169,30 +185,37 @@ export const dataAcuerdosINE2016 = [
       {
         nameDoc: "ACUERDO INE CVOPL-001-2016",
         link: Acuerdos__pdfpath(`./${"INE/"}${"2016/"}${"1.1.pdf"}`),
+        subRows: "",
       },
       {
         nameDoc: "ACUERDO INE CVOPL-002-2016",
         link: Acuerdos__pdfpath(`./${"INE/"}${"2016/"}${"1.2.pdf"}`),
+        subRows: "",
       },
       {
         nameDoc: "ACUERDO INE CVOPL-003-2016",
         link: Acuerdos__pdfpath(`./${"INE/"}${"2016/"}${"1.3.pdf"}`),
+        subRows: "",
       },
       {
         nameDoc: "ACUERDO INE CVOPL-004-2016",
         link: Acuerdos__pdfpath(`./${"INE/"}${"2016/"}${"1.4.pdf"}`),
+        subRows: "",
       },
       {
         nameDoc: "ACUERDO INE CVOPL-005-2016",
         link: Acuerdos__pdfpath(`./${"INE/"}${"2016/"}${"1.5.pdf"}`),
+        subRows: "",
       },
       {
         nameDoc: "ACUERDO INE CVOPL-006-2016",
         link: Acuerdos__pdfpath(`./${"INE/"}${"2016/"}${"1.6.pdf"}`),
+        subRows: "",
       },
       {
         nameDoc: "ACUERDO INE CVOPL-012-2016",
         link: Acuerdos__pdfpath(`./${"INE/"}${"2016/"}${"1.7.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -208,18 +231,22 @@ export const dataAcuerdosINE2016 = [
       {
         nameDoc: "ACUERDO INE CVOPL-007-2016-CG865",
         link: Acuerdos__pdfpath(`./${"INE/"}${"2016/"}${"2.1.pdf"}`),
+        subRows: "",
       },
       {
         nameDoc: "ACUERDO INE CVOPL-008-2016-CG865",
         link: Acuerdos__pdfpath(`./${"INE/"}${"2016/"}${"2.2.pdf"}`),
+        subRows: "",
       },
       {
         nameDoc: "ACUERDO INE CVOPL-010-2016-CG865",
         link: Acuerdos__pdfpath(`./${"INE/"}${"2016/"}${"2.3.pdf"}`),
+        subRows: "",
       },
       {
         nameDoc: "ACUERDO INE CVOPL-011-2016-CG865",
         link: Acuerdos__pdfpath(`./${"INE/"}${"2016/"}${"2.4.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -231,6 +258,7 @@ export const dataAcuerdosINE2016 = [
     nameDoc:
       "ACUERDO DONDE SE REFORMAN Y ADICIONAN DIVERSAS DISPOSICIONES DEL REGLAMENTO DE FISCALIZACIÓN",
     link: Acuerdos__pdfpath(`./${"INE/"}${"2016/"}${"3.pdf"}`),
+    subRows: "",
   },
   {
     id: 4,
@@ -239,6 +267,7 @@ export const dataAcuerdosINE2016 = [
     numDoc: "ESTATUTO",
     nameDoc: "DEL SERVICIO PROFESIONAL ELECTORAL NACIONAL DOF",
     link: Acuerdos__pdfpath(`./${"INE/"}${"2016/"}${"4.pdf"}`),
+    subRows: "",
   },
   {
     id: 5,
@@ -248,6 +277,7 @@ export const dataAcuerdosINE2016 = [
     nameDoc:
       "MANUAL DE USUARIO PARA PP, COALICIONES, CI PARA LA OPERACIÓN DEL SISTEMA INTEGRAL DE FISCALIZACIÓN",
     link: Acuerdos__pdfpath(`./${"INE/"}${"2016/"}${"5.pdf"}`),
+    subRows: "",
   },
   {
     id: 6,
@@ -257,6 +287,7 @@ export const dataAcuerdosINE2016 = [
     nameDoc:
       "ACUERDO PARA LA INTEGRACIÓN DEL CATÁLOGO DE CARGOS Y PUESTOS DEL SERVICIO PROFESIONAL",
     link: Acuerdos__pdfpath(`./${"INE/"}${"2016/"}${"6.pdf"}`),
+    subRows: "",
   },
   {
     id: 7,
@@ -265,6 +296,7 @@ export const dataAcuerdosINE2016 = [
     numDoc: "INE CG-38-2016",
     nameDoc: "LINEAMIENTOS DE PADRÓN ELECTORAL Y LISTA DE ELECTORES",
     link: Acuerdos__pdfpath(`./${"INE/"}${"2016/"}${"7.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -279,6 +311,7 @@ export const dataAcuerdosINE2016 = [
       {
         nameDoc: "INE_UTVOPL_033_2016-OPLES_004",
         link: Acuerdos__pdfpath(`./${"INE/"}${"2016/"}${"8.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -290,6 +323,7 @@ export const dataAcuerdosINE2016 = [
     nameDoc:
       "CRITERIOS INSTITUCIONALES PARA CONTESTAR CONSULTAS REALIZADAS POR LOS OPLES",
     link: Acuerdos__pdfpath(`./${"INE/"}${"2016/"}${"9.pdf"}`),
+    subRows: "",
   },
   {
     id: 10,
@@ -299,6 +333,7 @@ export const dataAcuerdosINE2016 = [
     nameDoc:
       "CRITERIOS PARA GARANTIZAR LA PARIDAD DE GÉNERO EN LA POSTULACIÓN DE CANDIDATURAS",
     link: Acuerdos__pdfpath(`./${"INE/"}${"2016/"}${"10.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -312,14 +347,17 @@ export const dataAcuerdosINE2016 = [
       {
         nameDoc: "ANEXO_2-CG1012",
         link: Acuerdos__pdfpath(`./${"INE/"}${"2016/"}${"11.1.pdf"}`),
+        subRows: "",
       },
       {
         nameDoc: "ANEXO_4-CG1012",
         link: Acuerdos__pdfpath(`./${"INE/"}${"2016/"}${"11.2.pdf"}`),
+        subRows: "",
       },
       {
         nameDoc: "RESUMEN-CG948",
         link: Acuerdos__pdfpath(`./${"INE/"}${"2016/"}${"11.3.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -337,6 +375,7 @@ export const dataAcuerdosINE2015 = [
       {
         nameDoc: "OFICIO TLAXCALA",
         link: Acuerdos__pdfpath(`./${"INE/"}${"2015/"}${"1.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -352,6 +391,7 @@ export const dataAcuerdosINE2015 = [
       {
         nameDoc: "OFICIO TLAXCALA",
         link: Acuerdos__pdfpath(`./${"INE/"}${"2015/"}${"2.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -363,6 +403,7 @@ export const dataAcuerdosINE2015 = [
     nameDoc:
       "SE MODIFICA ACUERDO INE-ACRT-32-2015 POR PÉRDIDA DE REGISTRO DE PT Y PH",
     link: Acuerdos__pdfpath(`./${"INE/"}${"2015/"}${"3.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -377,6 +418,7 @@ export const dataAcuerdosINE2015 = [
       {
         nameDoc: "TLAXCALA-1",
         link: Acuerdos__pdfpath(`./${"INE/"}${"2015/"}${"4.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -388,6 +430,7 @@ export const dataAcuerdosINE2015 = [
     nameDoc:
       "SE RATIFICA Y DESIGNAN A LOS CONSEJEROS ELECTORALES DE LOS PROCESOS ELECTORALES 2015-2016",
     link: Acuerdos__pdfpath(`./${"INE/"}${"2015/"}${"5.pdf"}`),
+    subRows: "",
   },
   {
     id: 6,
@@ -397,6 +440,7 @@ export const dataAcuerdosINE2015 = [
     nameDoc:
       "SE ESTABLECEN LOS TÉRMINOS Y CONDICIONES SATELITAL… DE LA TRANSMISIÓN DE LOS PROCESOS ELECTORALES",
     link: Acuerdos__pdfpath(`./${"INE/"}${"2015/"}${"6.pdf"}`),
+    subRows: "",
   },
   {
     id: 7,
@@ -406,6 +450,7 @@ export const dataAcuerdosINE2015 = [
     nameDoc:
       "CRITERIOS GENERALES A EFECTO DE GARANTIZAR EL CUMPLIMIENTO DE PRINCIPIO DE PARIDAD DE GÉNERO",
     link: Acuerdos__pdfpath(`./${"INE/"}${"2015/"}${"7.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -419,18 +464,22 @@ export const dataAcuerdosINE2015 = [
       {
         nameDoc: "ANEXO 1",
         link: Acuerdos__pdfpath(`./${"INE/"}${"2015/"}${"8.1.pdf"}`),
+        subRows: "",
       },
       {
         nameDoc: "ANEXO 2",
         link: Acuerdos__pdfpath(`./${"INE/"}${"2015/"}${"8.2.pdf"}`),
+        subRows: "",
       },
       {
         nameDoc: "ANEXO 3",
         link: Acuerdos__pdfpath(`./${"INE/"}${"2015/"}${"8.3.pdf"}`),
+        subRows: "",
       },
       {
         nameDoc: "OFICIO INE_UTVOPL_4725_2015_TLAX",
         link: Acuerdos__pdfpath(`./${"INE/"}${"2015/"}${"8.4.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -447,14 +496,17 @@ export const dataAcuerdosINE2015 = [
       {
         nameDoc: "ACUERDO INE-CG936-2015",
         link: Acuerdos__pdfpath(`./${"INE/"}${"2015/"}${"9.1.pdf"}`),
+        subRows: "",
       },
       {
         nameDoc: "ACUERDO INE-CG937-2015",
         link: Acuerdos__pdfpath(`./${"INE/"}${"2015/"}${"9.2.pdf"}`),
+        subRows: "",
       },
       {
         nameDoc: "CIRCULAR INE-UTVOPL-133-15",
         link: Acuerdos__pdfpath(`./${"INE/"}${"2015/"}${"9.3.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -471,6 +523,7 @@ export const dataAcuerdosINE2015 = [
       {
         nameDoc: "CIRCULAR INE-UTVOPL-145-15",
         link: Acuerdos__pdfpath(`./${"INE/"}${"2015/"}${"10.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -487,6 +540,7 @@ export const dataAcuerdosINE2015 = [
       {
         nameDoc: "CIRCULAR INE-UTVOPL-135-2015",
         link: Acuerdos__pdfpath(`./${"INE/"}${"2015/"}${"11.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -498,6 +552,7 @@ export const dataAcuerdosINE2015 = [
     nameDoc:
       "LINEAMIENTOS QUE OBSERVARÁN LOS OPLES PARA EL REGISTRO DE COALICIONES",
     link: Acuerdos__pdfpath(`./${"INE/"}${"2015/"}${"12.pdf"}`),
+    subRows: "",
   },
   {
     id: 13,
@@ -507,6 +562,7 @@ export const dataAcuerdosINE2015 = [
     nameDoc:
       "LINEAMIENTOS PARA EL PROGRAMA DE RESULTADOS ELECTORALES PRELIMINARES",
     link: Acuerdos__pdfpath(`./${"INE/"}${"2015/"}${"13.pdf"}`),
+    subRows: "",
   },
   {
     id: 14,
@@ -516,6 +572,7 @@ export const dataAcuerdosINE2015 = [
     nameDoc:
       "MEDIDAS ESPECÍFICAS PARA LOS PRESIDENTES DE LA MDC PARA EVITAR LA COMPRA DEL VOTO COACCIÓN E INDUCIÓN",
     link: Acuerdos__pdfpath(`./${"INE/"}${"2015/"}${"14.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -530,14 +587,17 @@ export const dataAcuerdosINE2015 = [
       {
         nameDoc: "ACUERDO INE-CG-951-2015",
         link: Acuerdos__pdfpath(`./${"INE/"}${"2015/"}${"15.1.pdf"}`),
+        subRows: "",
       },
       {
         nameDoc: "ACUERDO1 INE-CG-951-2015",
         link: Acuerdos__pdfpath(`./${"INE/"}${"2015/"}${"15.2.pdf"}`),
+        subRows: "",
       },
       {
         nameDoc: "CIRCULAR INE_UTVOPL_154_2015_CG951",
         link: Acuerdos__pdfpath(`./${"INE/"}${"2015/"}${"15.3.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -555,10 +615,12 @@ export const dataAcuerdosINE2015 = [
         nameDoc:
           "LINEAMIENTOS PARA IMPRESIÓN DE DOCUMENTOS Y ELABORACIÓN DE MATERIALES ELECTORALES",
         link: Acuerdos__pdfpath(`./${"INE/"}${"2015/"}${"16.1.pdf"}`),
+        subRows: "",
       },
       {
         nameDoc: "INE_UTVOPL_169_2015_CG950",
         link: Acuerdos__pdfpath(`./${"INE/"}${"2015/"}${"16.2.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -570,6 +632,7 @@ export const dataAcuerdosINE2015 = [
     nameDoc:
       "PROCEDIMIENTO DE LIQUIDACIÓN DE LOS PARTIDOS POLÍTICOS NACIONALES QUE NO ALCANZARON EL 3%",
     link: Acuerdos__pdfpath(`./${"INE/"}${"2015/"}${"17.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -583,6 +646,7 @@ export const dataAcuerdosINE2015 = [
       {
         nameDoc: "INE-UTVOPL-174-2015",
         link: Acuerdos__pdfpath(`./${"INE/"}${"2015/"}${"18.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -599,6 +663,7 @@ export const dataAcuerdosINE2015 = [
       {
         nameDoc: "CIRCULAR INE-UTVOPL-167-2015",
         link: Acuerdos__pdfpath(`./${"INE/"}${"2015/"}${"19.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -615,6 +680,7 @@ export const dataAcuerdosINE2015 = [
       {
         nameDoc: "CIRCULAR INE-UTVOPL-167-2015",
         link: Acuerdos__pdfpath(`./${"INE/"}${"2015/"}${"20.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -631,6 +697,7 @@ export const dataAcuerdosINE2015 = [
       {
         nameDoc: "INE-UTVOPL-165-2015",
         link: Acuerdos__pdfpath(`./${"INE/"}${"2015/"}${"21.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -647,6 +714,7 @@ export const dataAcuerdosINE2015 = [
       {
         nameDoc: "CIRCULAR INE-UTVOPL-185-2015",
         link: Acuerdos__pdfpath(`./${"INE/"}${"2015/"}${"22.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -658,6 +726,7 @@ export const dataAcuerdosINE2015 = [
     nameDoc:
       "ESTRATEGIA DE INFORMACIÓN EN APOYO A LA ACTUALIZACIÓN DEL PADRÓN ELECTORAL",
     link: Acuerdos__pdfpath(`./${"INE/"}${"2015/"}${"23.pdf"}`),
+    subRows: "",
   },
   {
     id: 24,
@@ -681,6 +750,7 @@ export const dataAcuerdosINE2015 = [
       {
         nameDoc: "INE_UTVOPL_197_2015_CG936",
         link: Acuerdos__pdfpath(`./${"INE/"}${"2015/"}${"25.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -696,18 +766,22 @@ export const dataAcuerdosINE2015 = [
       {
         nameDoc: "INE ACRT-40-2015 (CATÁLOGO NACIONAL)",
         link: Acuerdos__pdfpath(`./${"INE/"}${"2015/"}${"26.1.pdf"}`),
+        subRows: "",
       },
       {
         nameDoc: "INE CG-980-2015 (PUBLICACIÓN DEL CAT)",
         link: Acuerdos__pdfpath(`./${"INE/"}${"2015/"}${"26.2.pdf"}`),
+        subRows: "",
       },
       {
         nameDoc: "INE ACRT-45-2015 (APROB MODELOS DE PAUTAS)",
         link: Acuerdos__pdfpath(`./${"INE/"}${"2015/"}${"26.3.pdf"}`),
+        subRows: "",
       },
       {
         nameDoc: "INE JGE-160-2015",
         link: Acuerdos__pdfpath(`./${"INE/"}${"2015/"}${"26.4.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -732,14 +806,17 @@ export const dataAcuerdosINE2015 = [
       {
         nameDoc: "DESCRIPTIVO DE TLAXCALA",
         link: Acuerdos__pdfpath(`./${"INE/"}${"2015/"}${"28.1.pdf"}`),
+        subRows: "",
       },
       {
         nameDoc: "ESCENARIO FINAL TLAXCALA",
         link: Acuerdos__pdfpath(`./${"INE/"}${"2015/"}${"28.2.pdf"}`),
+        subRows: "",
       },
       {
         nameDoc: "MAPA TLAXCALA",
         link: Acuerdos__pdfpath(`./${"INE/"}${"2015/"}${"28.3.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -755,6 +832,7 @@ export const dataAcuerdosINE2015 = [
       {
         nameDoc: "CIRCULAR INE-UTVOPL-210-2015",
         link: Acuerdos__pdfpath(`./${"INE/"}${"2015/"}${"29.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -770,10 +848,12 @@ export const dataAcuerdosINE2015 = [
       {
         nameDoc: "ACUERDO INE ACRT-49-2015",
         link: Acuerdos__pdfpath(`./${"INE/"}${"2015/"}${"30.1.pdf"}`),
+        subRows: "",
       },
       {
         nameDoc: "ACUERDO INE-ACRT-51-2015",
         link: Acuerdos__pdfpath(`./${"INE/"}${"2015/"}${"30.2.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -789,6 +869,7 @@ export const dataAcuerdosINE2015 = [
       {
         nameDoc: "DICTAMEN TLAXCALA",
         link: Acuerdos__pdfpath(`./${"INE/"}${"2015/"}${"33.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -809,21 +890,25 @@ export const dataAcuerdos2022 = [
         typeDoc: "",
         nameDoc: "ANEXO UNO CALENDARIZADO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"1.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "ANEXO DOS REMANENTE CONVENIO INE",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"1.2.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "ANEXO TRES ISR",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"1.3.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "FE DE ERRATAS",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"1.4.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -841,6 +926,7 @@ export const dataAcuerdos2022 = [
         typeDoc: "",
         nameDoc: "CALENDARIZACIÓN DE MULTAS",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"2.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -858,6 +944,7 @@ export const dataAcuerdos2022 = [
         typeDoc: "",
         nameDoc: "PROGRAMA DE CAPACITACIÓN 2022",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"3.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -876,6 +963,7 @@ export const dataAcuerdos2022 = [
         typeDoc: "",
         nameDoc: "DICTAMEN CPPPAyF RESPECTO REGISTRO RSP TLAXCALA",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"4.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -893,6 +981,7 @@ export const dataAcuerdos2022 = [
         typeDoc: "",
         nameDoc: "DICTAMEN CPPPAyF FUERZA POR MÉXICO TLAXCALA",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"5.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -910,11 +999,13 @@ export const dataAcuerdos2022 = [
         typeDoc: "",
         nameDoc: "ANEXO 1 ORDINARIAS",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"6.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "ANEXO 2 ESPECÍFICAS",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"6.2.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -932,6 +1023,7 @@ export const dataAcuerdos2022 = [
         typeDoc: "",
         nameDoc: "ANEXO ÚNICO. CALENDARIZACIÓN",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"7.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -943,6 +1035,7 @@ export const dataAcuerdos2022 = [
     monthDoc: "ENE",
     nameDoc: "ÁREA COORDINADORA DE ARCHIVOS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"8.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -959,21 +1052,25 @@ export const dataAcuerdos2022 = [
         typeDoc: "",
         nameDoc: "1. PROPUESTA DE CALENDARIO DE ASAMBLEAS CONSTITUTIVAS",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"9.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "2. LISTA DE PERSONAS AFILIADAS",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"9.2.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "3. SOLICITUD DE ASAMBLEA DISTRITAL-MUNICIPAL",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"9.3.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "7. FORMATO DE SOLICITUD DE REGISTRO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"9.7.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -985,6 +1082,7 @@ export const dataAcuerdos2022 = [
     monthDoc: "FEB",
     nameDoc: "RESPUESTA SOLICITUD PRESIDENTE COMUNIDAD CUAUHTENCO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"10.pdf"}`),
+    subRows: "",
   },
   {
     id: 11,
@@ -995,6 +1093,7 @@ export const dataAcuerdos2022 = [
     nameDoc:
       "ACATAMIENTO A SENTENCIA DENTRO DEL EXP. TET-JDC-20-2020 Y ACUMULADO TET-JDC-32-2020",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"11.pdf"}`),
+    subRows: "",
   },
   {
     id: 12,
@@ -1004,8 +1103,8 @@ export const dataAcuerdos2022 = [
     monthDoc: "FEB",
     nameDoc: "POS CQD-Q-MCH-CG-025-2020 Y ACUM. PNAT",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"12.pdf"}`),
+    subRows: "",
   },
-
   {
     id: 13,
     year: "2022",
@@ -1019,11 +1118,13 @@ export const dataAcuerdos2022 = [
         typeDoc: "",
         nameDoc: "VOTO PARTICULAR CONSEJERA PRESIDENTA ELIZABETH P. M.",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"13.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "VOTO PARTICULAR CONSEJERA YEDITH M. P.",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"13.2.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -1041,6 +1142,7 @@ export const dataAcuerdos2022 = [
         typeDoc: "",
         nameDoc: "PROGRAMA RED DE MUJERES ELECTAS DE TLAXCALA 2022",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"14.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -1059,6 +1161,7 @@ export const dataAcuerdos2022 = [
         typeDoc: "",
         nameDoc: "ANEXO LINEAMIENTOS RAMA ADMINISTRATIVA",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"15.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -1070,6 +1173,7 @@ export const dataAcuerdos2022 = [
     monthDoc: "FEB",
     nameDoc: "SE APRUEBA DESTRUCCIÓN DE DOCUMENTACIÓN DEL PEE 2021",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"16.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -1086,6 +1190,7 @@ export const dataAcuerdos2022 = [
         typeDoc: "",
         nameDoc: "RESULTADOS DE LA EVALUACIÓN SPEN-6",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"17.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -1098,6 +1203,7 @@ export const dataAcuerdos2022 = [
     nameDoc:
       "SE APRUEBAN CRITERIOS PARA CALENDARIZACIÓN DE ASAMBLEAS CONSTITUTIVAS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"18.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -1113,21 +1219,25 @@ export const dataAcuerdos2022 = [
         typeDoc: "",
         nameDoc: "ANEXO 1",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"19.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "ANEXO 2",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"19.2.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "ANEXO 3",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"19.3.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "ANEXO 11",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"19.11.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -1146,23 +1256,27 @@ export const dataAcuerdos2022 = [
         nameDoc:
           "ANEXO 1 ESTUDIO Y ANÁLISIS DE LA ORGANIZACIÓN PARTIDO PROGRESISTA POPULAR",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"20.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc:
           "ANEXO 2 ESTUDIO Y ANÁLISIS DE LA ORGANIZACIÓN CIUDADANOS EN CONSTITUIRSE EN ENCUENTRO SOLIDARIO TLAXCALA A.C.",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"20.2.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc:
           "ANEXO 3 ESTUDIO Y ANÁLISIS DE LA ORGANIZACIÓN UNIFICACIÓN Y EVOLUCIÓN",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"20.3.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "ANEXO 5",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"20.5.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -1181,16 +1295,19 @@ export const dataAcuerdos2022 = [
         typeDoc: "",
         nameDoc: "ANEXO 1 DICTAMEN CONVICCIÓN MEXICANA",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"21.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "ANEXO 2 DICTAMEN VÍA DEMOCRÁTICA ACTIVA TLAXCALA",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"21.2.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "ANEXO 3 DICTAMEN ORGANIZACIÓN METAMORFOSIS UNIDOS",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"21.3.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -1202,8 +1319,8 @@ export const dataAcuerdos2022 = [
     monthDoc: "MAR",
     nameDoc: "DESIGNACIÓN TITULAR ÁREA TÉCNICA DE INFORMÁTICA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"22.pdf"}`),
+    subRows: "",
   },
-
   {
     id: 23,
     year: "2022",
@@ -1217,6 +1334,7 @@ export const dataAcuerdos2022 = [
         typeDoc: "",
         nameDoc: "REGLAMENTO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"23.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -1234,6 +1352,7 @@ export const dataAcuerdos2022 = [
         typeDoc: "",
         nameDoc: "ANEXO ÚNICO. CALENDARIZADO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"24.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -1251,6 +1370,7 @@ export const dataAcuerdos2022 = [
         typeDoc: "",
         nameDoc: "ANEXO ÚNICO. ADECUACIÓN.",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"25.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -1263,6 +1383,7 @@ export const dataAcuerdos2022 = [
     nameDoc:
       "CREACIÓN PROVISIONAL DE COORDINACIÓN DE GÉNERO Y NO DISCRIMINACIÓN[1670]",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"26.pdf"}`),
+    subRows: "",
   },
   {
     id: 27,
@@ -1272,6 +1393,7 @@ export const dataAcuerdos2022 = [
     monthDoc: "ABR",
     nameDoc: "DESIGNACION DE TITULAR DEL ÁREA TÉCNICA DE CONSULTA CIUDADANA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"27.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -1287,6 +1409,7 @@ export const dataAcuerdos2022 = [
         typeDoc: "",
         nameDoc: "SE APRUEBAN LINEAMIENTOS QUE REGULAN ASAMBLEAS",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"28.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -1299,6 +1422,7 @@ export const dataAcuerdos2022 = [
     nameDoc:
       "ACUERDO DE REQUERIMIENTO A ORGANIZACIONES EN MATERIA DE FISCALIZACIÓN",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"29.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -1315,6 +1439,7 @@ export const dataAcuerdos2022 = [
         nameDoc:
           "SE APRUEBA DICTAMEN RESPECTO DE DESINCORPORACIÓN DE BIENES MUEBLES",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"30.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -1333,11 +1458,13 @@ export const dataAcuerdos2022 = [
         typeDoc: "",
         nameDoc: "ANEXO 1 PROTOCOLO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"31.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "ANEXO 2 INFORME DE FASE PREVIA",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"31.2.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -1355,6 +1482,7 @@ export const dataAcuerdos2022 = [
         typeDoc: "",
         nameDoc: "ANEXO ÚNICO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"32.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -1366,6 +1494,7 @@ export const dataAcuerdos2022 = [
     monthDoc: "MAY",
     nameDoc: "RESPUESTA A ESCRITO DE MARCO ANTONIO RODRÍGUEZ PÉREZ",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"33.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -1382,11 +1511,13 @@ export const dataAcuerdos2022 = [
         typeDoc: "",
         nameDoc: "MANUAL OPERATIVO PARA EL DESARROLLO DE CONSULTAS",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"34.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "PROTOCOLO DE SEGURIDAD SANITARIA CONSULTA",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"34.2.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -1405,11 +1536,13 @@ export const dataAcuerdos2022 = [
         nameDoc:
           "DICTAMEN DE CLASIFICACIÓN DE INFORMACIÓN CONFIDENCIAL 01-2022",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"35.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "FE DE ERRATAS MEDIDAS CAUTELARES Y DE PROTECCION",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"35.2.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -1421,6 +1554,7 @@ export const dataAcuerdos2022 = [
     monthDoc: "JUN",
     nameDoc: "SE DA RESPUESTA A SOLICITUDES DE ORGANIZACIONES",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"36.pdf"}`),
+    subRows: "",
   },
   {
     id: 37,
@@ -1431,6 +1565,7 @@ export const dataAcuerdos2022 = [
     nameDoc:
       "SE DA CUMPLIMIENTO A LA SENTENCIA DENTRO DEL EXPEDIENTE TET-JDC-27-2022",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"37.pdf"}`),
+    subRows: "",
   },
   {
     id: 38,
@@ -1440,6 +1575,7 @@ export const dataAcuerdos2022 = [
     monthDoc: "JUN",
     nameDoc: "NUEVO REQUERIMIENTO ORGANIZACIONES EN MATERIA DE FISCALIZACIÓN",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"38.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -1455,11 +1591,13 @@ export const dataAcuerdos2022 = [
         typeDoc: "",
         nameDoc: "ANEXO UNO DISTRIBUCIÒN ISR",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"39.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "ANEXO DOS ADECUACIÓN PRESUPUESTO 2022",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"39.2.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -1478,11 +1616,13 @@ export const dataAcuerdos2022 = [
         typeDoc: "",
         nameDoc: "ANEXO ÚNICO. ORGANIGRAMA",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"40.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "FE DE ERRATAS",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"40.2.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -1501,6 +1641,7 @@ export const dataAcuerdos2022 = [
         typeDoc: "",
         nameDoc: "ANEXO ÚNICO. PROTOCOLO-AJUSTE PLAZOS",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"41.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -1518,11 +1659,13 @@ export const dataAcuerdos2022 = [
         typeDoc: "",
         nameDoc: "ANEXO 1",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"42.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "ANEXO 2",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"42.2.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -1540,6 +1683,7 @@ export const dataAcuerdos2022 = [
         typeDoc: "",
         nameDoc: "ANEXO ÚNICO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"43.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -1551,6 +1695,7 @@ export const dataAcuerdos2022 = [
     monthDoc: "JUL",
     nameDoc: "PROCEDENCIA MODIFICACIÓN ESTATUTOS RSPT",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"44.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -1567,6 +1712,7 @@ export const dataAcuerdos2022 = [
         typeDoc: "",
         nameDoc: "ANEXO ÚNICO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"45.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -1586,12 +1732,14 @@ export const dataAcuerdos2022 = [
         nameDoc:
           "ANEXO 1 DICTAMEN PARA EL OTORGAMIENTO DE INCENTIVOS MIGUEL PEREZ CASTILLA",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"46.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc:
           "ANEXO 2 DICTAMEN PARA EL OTORGAMIENTO DE INCENTIVOS MARITZA_VERA_DELGADILLO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"46.2.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -1604,6 +1752,7 @@ export const dataAcuerdos2022 = [
     nameDoc:
       "RESPUESTA A CONSULTA DE ORGANIZACIÓN CIUDADANA UNIFICACIÓN Y EVOLUCIÓN",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"47.pdf"}`),
+    subRows: "",
   },
   {
     id: 48,
@@ -1613,6 +1762,7 @@ export const dataAcuerdos2022 = [
     monthDoc: "AGO",
     nameDoc: "PONDERACIONES EVALUACIÓN TRIANUAL DE DESEMPEÑO MSPEN",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"48.pdf"}`),
+    subRows: "",
   },
   {
     id: 49,
@@ -1623,6 +1773,7 @@ export const dataAcuerdos2022 = [
     nameDoc:
       "RESPUESTA A OFICIO PRESENTADO POR EL C. JUAN MELÉNDEZ BELLO, PRESIDENTE INTERINO DE SAN PEDRO TLALCUAPAN, CHIAUTEMPAN.",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"49.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -1639,6 +1790,7 @@ export const dataAcuerdos2022 = [
         typeDoc: "",
         nameDoc: "ANEXO ÚNICO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"50.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -1656,6 +1808,7 @@ export const dataAcuerdos2022 = [
         typeDoc: "",
         nameDoc: "ANEXO ÚNICO.",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"51.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -1674,11 +1827,13 @@ export const dataAcuerdos2022 = [
         typeDoc: "",
         nameDoc: "ANEXO 1 INFORME RETIRO DE PROPAGANDA PELO 2020-2021",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"52.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "ANEXO 2",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"52.2.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -1691,6 +1846,7 @@ export const dataAcuerdos2022 = [
     nameDoc:
       "DESIGNA A LA O EL CONSEJERO ELECTORAL QUE OCUPARÁ DE MANERA TEMPORAL LA PRESIDENCIA DEL INSTITUTO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"53.pdf"}`),
+    subRows: "",
   },
   {
     id: 54,
@@ -1700,6 +1856,7 @@ export const dataAcuerdos2022 = [
     monthDoc: "SEP",
     nameDoc: "SE ADECUAN COMISIONES, COMITÉS Y JGE",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"54.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -1715,16 +1872,19 @@ export const dataAcuerdos2022 = [
         typeDoc: "",
         nameDoc: "ANEXO 1 FINANCIAMIENTO PÚBLICO PP AO 2023",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"55.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "ANEXO 2 FINANCIAMIENTO PÚBLICO PP AE 2023",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"55.2.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "ANEXO 3 CALENDARIZADO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"55.3.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -1736,6 +1896,7 @@ export const dataAcuerdos2022 = [
     monthDoc: "SEP",
     nameDoc: "MODIFICACIÓN DOCUMENTOS BÁSICOS FXMT",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"56.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -1751,11 +1912,13 @@ export const dataAcuerdos2022 = [
         typeDoc: "",
         nameDoc: "ANEXO 1",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"57.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "ANEXO 2",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"57.2.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -1773,6 +1936,7 @@ export const dataAcuerdos2022 = [
         typeDoc: "",
         nameDoc: "INFORME DE OTORGAMIENTO DE INCENTIVOS 2022 PERSONAL SPEN",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"58.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -1791,6 +1955,7 @@ export const dataAcuerdos2022 = [
         nameDoc:
           "TABLA EQUIVALENCIAS VIABILIDAD CAMBIO DE ADSCRIPCION O ROTACION PMSPEN",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"59.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -1809,6 +1974,7 @@ export const dataAcuerdos2022 = [
         nameDoc:
           "DICTAMEN DE CLASIFICACIÓN DE INFORMACIÓN CONFIDENCIAL 05-2022",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"60.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -1827,6 +1993,7 @@ export const dataAcuerdos2022 = [
         typeDoc: "",
         nameDoc: "ANEXO ÚNICO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"61.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -1841,6 +2008,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "ENE",
     nameDoc: "COALICIONES UNIDOS POR TLAXCALA PELO 2020-2021",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"1.pdf"}`),
+    subRows: "",
   },
   {
     id: 2,
@@ -1850,6 +2018,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "ENE",
     nameDoc: "COALICIÓN JUNTOS HAREMOS HISTORIA EN TLAXCALA PELO 2020-2021",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"2.pdf"}`),
+    subRows: "",
   },
   {
     id: 3,
@@ -1859,6 +2028,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "ENE",
     nameDoc: "APLICACIÓN MÓVIL PARA CAPTACIÓN DE APOYO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"3.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -1875,6 +2045,7 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "ANEXO FOLIO 1852-2020",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"4.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -1892,6 +2063,7 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "ANEXO PROCESO TÉCNICO OPERATIVO PREP",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"5.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -1910,16 +2082,19 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "ANEXO UNO ADENDA A LA CONVOCATORIA",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"6.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "ANEXO DE LA CONVOCATORIA. SOLICITUD",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"6.2.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "ANEXO DOS. CD Y CM",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"6.3.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -1931,6 +2106,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "ENE",
     nameDoc: "MEDIDAS CAUTELARES PES CQD-PE-JFSM-CG-001-2021",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"7.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -1946,21 +2122,25 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "ANEXO 1 ADECUACIÓN AL PRESUPUESTO 2021",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"8.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "ANEXO 2 ACTIVIDADES ORDINARIAS",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"8.2.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "ANEXO 3 OBTENCIÓN DEL VOTO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"8.3.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "ANEXO 4 ACTIVIDADES ESPECÍFICAS",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"8.4.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -1978,6 +2158,7 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "ANEXO 1",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"9.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -1995,11 +2176,13 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "ANEXO ÚNICO PROGRAMA DE CAPACITACIÓN 2021",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"10.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "ITE-CG 10-2021 VOTO CONCURRENTE",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"10.2.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -2011,6 +2194,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "ENE",
     nameDoc: "POS CQD-Q-PRD-CG-009-2020",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"11.pdf"}`),
+    subRows: "",
   },
   {
     id: 12,
@@ -2020,6 +2204,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "ENE",
     nameDoc: "POS CQD-Q-PRD-CG-010-2020",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"12.pdf"}`),
+    subRows: "",
   },
   {
     id: 13,
@@ -2029,6 +2214,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "ENE",
     nameDoc: "POS CQD-Q-CG-017-2020",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"13.pdf"}`),
+    subRows: "",
   },
   {
     id: 14,
@@ -2038,6 +2224,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "ENE",
     nameDoc: "POS CQD-Q-CG-018-2020",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"14.pdf"}`),
+    subRows: "",
   },
   {
     id: 15,
@@ -2047,6 +2234,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "ENE",
     nameDoc: "POS CQD-Q-CG-019-2020",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"15.pdf"}`),
+    subRows: "",
   },
   {
     id: 16,
@@ -2056,6 +2244,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "ENE",
     nameDoc: "POS CQD-Q-CG-020-2020",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"16.pdf"}`),
+    subRows: "",
   },
   {
     id: 17,
@@ -2065,6 +2254,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "ENE",
     nameDoc: "MEDIDAS CAUTELARES",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"17.pdf"}`),
+    subRows: "",
   },
   {
     id: 18,
@@ -2074,6 +2264,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "ENE",
     nameDoc: "MEDIDAS CAUTELARES",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"18.pdf"}`),
+    subRows: "",
   },
   {
     id: 19,
@@ -2083,6 +2274,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "ENE",
     nameDoc: "POR EL QUE SE DA RESPUESTA A ASPIRANTE A CANDIDATO INDEPENDIENTE",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"19.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -2098,16 +2290,19 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "ANEXO UNO REFORMA",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"20.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "ANEXO DOS LINEAMIENTOS REGISTRO PERSONAS SANCIONADAS",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"20.2.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "ANEXO 1 DE LINEAMIENTOS",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"20.3.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -2127,6 +2322,7 @@ export const dataAcuerdos2021 = [
         nameDoc:
           "ANEXO ÚNICO GUÍA DE ACTUACIÓN PARA LA PREVENCIÓN Y ATENCIÓN DE LA VIOLENCIA POLÍTICA CONTRA LAS MUJERES EN RAZÓN DE GÉNERO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"21.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -2144,6 +2340,7 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "ANEXO 1 LINEAMIENTOS",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"22.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -2155,6 +2352,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "FEB",
     nameDoc: "MEDIDAS CAUTELARES CQD PE PES CG 008 2021",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"23.pdf"}`),
+    subRows: "",
   },
   {
     id: 24,
@@ -2164,6 +2362,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "FEB",
     nameDoc: "SE APRUEBA UBICACIÓN DE CATD 2021",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"24.pdf"}`),
+    subRows: "",
   },
   {
     id: 25,
@@ -2173,6 +2372,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "FEB",
     nameDoc: "MEDIDAS CAUTELARES CQD PE PES CG 009 2021",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"25.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -2188,6 +2388,7 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "ANEXO. INFORME ENTE AUDITOR_IIPREP",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"26.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -2199,6 +2400,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "FEB",
     nameDoc: "RESPUESTA A INDEPENDIENTES",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"27.pdf"}`),
+    subRows: "",
   },
   {
     id: 28,
@@ -2208,6 +2410,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "FEB",
     nameDoc: "MEDIDAS CAUTELARES PES CQD PE PES CG  010 2021",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"28.pdf"}`),
+    subRows: "",
   },
   {
     id: 29,
@@ -2217,6 +2420,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "FEB",
     nameDoc: "MEDIDAS CAUTELARES PES CQD PE PES CG 012 2021",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"29.pdf"}`),
+    subRows: "",
   },
   {
     id: 30,
@@ -2226,6 +2430,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "FEB",
     nameDoc: "MEDIDAS CAUTELARES PES CQD PE PES CG  013 2021",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"30.pdf"}`),
+    subRows: "",
   },
   {
     id: 31,
@@ -2235,6 +2440,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "FEB",
     nameDoc: "MEDIDAS CAUTELARES PES CQD PE PES CG  014 2021",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"31.pdf"}`),
+    subRows: "",
   },
   {
     id: 32,
@@ -2244,6 +2450,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "FEB",
     nameDoc: "MEDIDAS PES CQD PE PES CG 017 2021",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"32.pdf"}`),
+    subRows: "",
   },
   {
     id: 33,
@@ -2253,6 +2460,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "FEB",
     nameDoc: "MEDIDAS PES CQD PE PES CG 018 2021",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"33.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -2268,6 +2476,7 @@ export const dataAcuerdos2021 = [
         typeDoc: "ACUERDO",
         nameDoc: "VOTO PARTICULAR",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"34.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -2279,6 +2488,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "FEB",
     nameDoc: "SE AJUSTA PLAZO PARA VERIFICACIÓN DE APOYO CIUDADANO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"35.pdf"}`),
+    subRows: "",
   },
   {
     id: 36,
@@ -2288,6 +2498,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "FEB",
     nameDoc: "RESPUESTA A JOSÉ JORGE MORENO DURÁN",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"36.pdf"}`),
+    subRows: "",
   },
   {
     id: 37,
@@ -2297,6 +2508,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "FEB",
     nameDoc: "MEDIDAS CAUTELARES PES CQD PE PES CG 021 2021",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"37.pdf"}`),
+    subRows: "",
   },
   {
     id: 38,
@@ -2306,6 +2518,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "FEB",
     nameDoc: "MEDIDAS CAUTELARES PES CQD PE PES CG 022 2021",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"38.pdf"}`),
+    subRows: "",
   },
   {
     id: 39,
@@ -2315,6 +2528,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "FEB",
     nameDoc: "MEDIDAS CAUTELARES PES CQD PE PES CG  025 2021",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"39.pdf"}`),
+    subRows: "",
   },
   {
     id: 40,
@@ -2324,6 +2538,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "FEB",
     nameDoc: "DESIGNACIÓN E INCORPORACIÓN SPEN MARIANA MONTIEL SOSA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"40.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -2339,16 +2554,19 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "DICTAMEN DOCUMENTACIÓN SIN EMBLEMAS Y MATERIAL ELECTORAL",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"41.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "INFORME DOCUMENTACIÓN SIN EMBLEMAS Y MATERIAL ELECTORAL",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"41.2.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "DOCUMENTACIÓN SIN EMBLEMAS Y MATERIALES ELECTORALES 2021",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"41.3.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -2367,11 +2585,13 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "LINEAMIENTOS",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"42.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "CUADERNILLO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"42.2.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -2389,11 +2609,13 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "MANUAL DE REGISTRO DE CANDIDATURAS Y ANEXOS_ PELO 2020 2021",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"43.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "PROTOCOLO SANITARIO PARA EL REGISTRO DE CANDIDATURAS",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"43.2.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -2405,6 +2627,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "FEB",
     nameDoc: "RESPUESTA A DIPUTADOS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"44.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -2420,6 +2643,7 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "ANEXO ÚNICO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"45.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -2432,33 +2656,37 @@ export const dataAcuerdos2021 = [
     nameDoc:
       "LINEAMIENTOS PARA REGULAR EL ACTUAR DE SERVIDORES PÚBLICOS QUE NO SE SEPAREN DEL CARGO Y CONTIENDAN EN EL PELO 2020 2021",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"46.pdf"}`),
+    subRows: "",
   },
   {
     id: 47,
     year: "2021",
     typeDoc: "RESOLUCIÓN",
     numDoc: "ITE-CG 47-2021",
-    monthDoc: "",
+    monthDoc: "MAR",
     nameDoc: "MEDIDAS CAUTELARES PES CQD PE PES CG 030 2021",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"47.pdf"}`),
+    subRows: "",
   },
   {
     id: 48,
     year: "2021",
     typeDoc: "RESOLUCIÓN",
     numDoc: "ITE-CG 48-2021",
-    monthDoc: "",
+    monthDoc: "MAR",
     nameDoc: "MEDIDAS CAUTELARES PES CQD PE PES CG 031 2021",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"48.pdf"}`),
+    subRows: "",
   },
   {
     id: 49,
     year: "2021",
     typeDoc: "RESOLUCIÓN",
     numDoc: "ITE-CG 49-2021",
-    monthDoc: "",
+    monthDoc: "MAR",
     nameDoc: "MEDIDAS CAUTELARES PES CQD PE PES CG 032 2021",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"49.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -2474,21 +2702,25 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "CV JUANA COCOLETZI COCOLETZI",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"50.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "FORMATO JUANA COCOLETZI COCOLETZI",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"50.2.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "CV MARÍA FABIOLA CAMARILLO SÁNCHEZ",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"50.3.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "FORMATO MARÍA FABIOLA CAMARILLO SÁNCHEZ",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"50.4.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -2498,7 +2730,7 @@ export const dataAcuerdos2021 = [
     year: "2021",
     typeDoc: "ACUERDO",
     numDoc: "ITE-CG 51-2021",
-    monthDoc: "",
+    monthDoc: "MAR",
     nameDoc:
       "CUMPLIMIENTO DE PORCENTAJE DE APOYO CIUDADANO CANDIDATURAS INDEPENDIENTES",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"51.pdf"}`),
@@ -2507,6 +2739,7 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "REPORTE FINAL APOYO CIUDADANO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"51.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -2515,9 +2748,10 @@ export const dataAcuerdos2021 = [
     year: "2021",
     typeDoc: "ACUERDO",
     numDoc: "ITE-CG 52-2021",
-    monthDoc: "",
+    monthDoc: "MAR",
     nameDoc: "REFORMA AL REGLAMENTO DE CONSEJOS DISTRITALES Y MUNICIPALES",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"52.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -2533,16 +2767,19 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "ANEXO UNO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"53.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "ANEXO DOS",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"53.2.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "ANEXO TRES LISTA DE RESERVA",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"53.3.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -2560,16 +2797,19 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "ANEXO UNO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"54.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "ANEXO DOS",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"54.2.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "ANEXO TRES",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"54.3.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -2581,6 +2821,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "MAR",
     nameDoc: "MEDIDAS CAUTELARES PES CQD PE PES CG 035 2021",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"55.pdf"}`),
+    subRows: "",
   },
   {
     id: 56,
@@ -2590,6 +2831,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "MAR",
     nameDoc: "MEDIDAS CAUTELARES PES CQD PE PES CG 036 2021",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"56.pdf"}`),
+    subRows: "",
   },
   {
     id: 57,
@@ -2599,6 +2841,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "MAR",
     nameDoc: "MEDIDAS CAUTELARES PES CQD PE PES CG 037 2021",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"57.pdf"}`),
+    subRows: "",
   },
   {
     id: 58,
@@ -2608,6 +2851,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "MAR",
     nameDoc: "POS CQD Q JPNS CG 011 2020",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"58.pdf"}`),
+    subRows: "",
   },
   {
     id: 59,
@@ -2617,6 +2861,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "MAR",
     nameDoc: "POS CQD Q CG 012 2020",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"59.pdf"}`),
+    subRows: "",
   },
   {
     id: 60,
@@ -2626,6 +2871,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "MAR",
     nameDoc: "POS CQD Q RACF CG 014 2020",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"60.pdf"}`),
+    subRows: "",
   },
   {
     id: 61,
@@ -2635,6 +2881,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "MAR",
     nameDoc: "POS CQD Q MLSP CG 016 2020",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"61.pdf"}`),
+    subRows: "",
   },
   {
     id: 62,
@@ -2644,6 +2891,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "MAR",
     nameDoc: "POS CQD Q MLSP CG 016 2020",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"62.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -2659,6 +2907,7 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "CONVOCATORIA DE SE Y CAE",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"63.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -2670,6 +2919,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "MAR",
     nameDoc: "CRITERIOS ESPECÍFICOS DEBATES GUBERNATURA 20 21",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"64.pdf"}`),
+    subRows: "",
   },
   {
     id: 65,
@@ -2679,6 +2929,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "MAR",
     nameDoc: "MEDIDAS CAUTELARES PES CQD PE NCS CG 034 2021",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"65.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -2695,6 +2946,7 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "ANEXO ÚNICO PERSONAL AUTORIZADO PARA INGRESAR A LA BODEGA",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"66.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -2712,6 +2964,7 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "AMPLIACIÓN DE PLAZO RECLUTAMIENTO SE Y CAE LOCALES",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"67.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -2723,6 +2976,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "MAR",
     nameDoc: "PLATAFORMA ELECTORAL PAN",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"68.pdf"}`),
+    subRows: "",
   },
   {
     id: 69,
@@ -2732,6 +2986,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "MAR",
     nameDoc: "PLATAFORMA ELECTORAL PRI",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"69.pdf"}`),
+    subRows: "",
   },
   {
     id: 70,
@@ -2741,6 +2996,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "MAR",
     nameDoc: "PLATAFORMA ELECTORAL PRD",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"70.pdf"}`),
+    subRows: "",
   },
   {
     id: 71,
@@ -2750,6 +3006,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "MAR",
     nameDoc: "PLATAFORMA ELECTORAL PT",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"71.pdf"}`),
+    subRows: "",
   },
   {
     id: 72,
@@ -2759,6 +3016,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "MAR",
     nameDoc: "PLATAFORMA ELECTORAL PVEM",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"72.pdf"}`),
+    subRows: "",
   },
   {
     id: 73,
@@ -2768,6 +3026,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "MAR",
     nameDoc: "PLATAFORMA ELECTORAL MC",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"73.pdf"}`),
+    subRows: "",
   },
   {
     id: 74,
@@ -2777,6 +3036,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "MAR",
     nameDoc: "PLATAFORMA ELECTORAL PAC",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"74.pdf"}`),
+    subRows: "",
   },
   {
     id: 75,
@@ -2786,6 +3046,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "MAR",
     nameDoc: "PLATAFORMA ELECTORAL PS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"75.pdf"}`),
+    subRows: "",
   },
   {
     id: 76,
@@ -2795,6 +3056,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "MAR",
     nameDoc: "PLATAFORMA ELECTORAL MORENA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"76.pdf"}`),
+    subRows: "",
   },
   {
     id: 77,
@@ -2804,6 +3066,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "MAR",
     nameDoc: "PLATAFORMA ELECTORAL NUEVA ALIANZA TLAXCALA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"77.pdf"}`),
+    subRows: "",
   },
   {
     id: 78,
@@ -2813,6 +3076,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "MAR",
     nameDoc: "PLATAFORMA ELECTORAL ENCUENTRO SOCIAL TLAXCALA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"78.pdf"}`),
+    subRows: "",
   },
   {
     id: 79,
@@ -2822,6 +3086,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "MAR",
     nameDoc: "PLATAFORMA ELECTORAL IMPACTO SOCIAL",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"79.pdf"}`),
+    subRows: "",
   },
   {
     id: 80,
@@ -2831,6 +3096,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "MAR",
     nameDoc: "PLATAFORMA ELECTORAL ENCUENTRO SOLIDARIO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"80.pdf"}`),
+    subRows: "",
   },
   {
     id: 81,
@@ -2840,6 +3106,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "MAR",
     nameDoc: "PLATAFORMA ELECTORAL RSP",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"81.pdf"}`),
+    subRows: "",
   },
   {
     id: 82,
@@ -2849,6 +3116,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "MAR",
     nameDoc: "PLATAFORMA ELECTORAL FUERZA POR MÉXICO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"82.pdf"}`),
+    subRows: "",
   },
   {
     id: 83,
@@ -2858,6 +3126,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "MAR",
     nameDoc: "PROGRAMA GOBIERNO COMÚN PAN",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"83.pdf"}`),
+    subRows: "",
   },
   {
     id: 84,
@@ -2867,6 +3136,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "MAR",
     nameDoc: "PROGRAMA GOBIERNO COMÚN PRI",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"84.pdf"}`),
+    subRows: "",
   },
   {
     id: 85,
@@ -2876,6 +3146,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "MAR",
     nameDoc: "PROGRAMA GOBIERNO COMÚN PRD",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"85.pdf"}`),
+    subRows: "",
   },
   {
     id: 86,
@@ -2885,6 +3156,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "MAR",
     nameDoc: "PROGRAMA GOBIERNO COMÚN PT",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"86.pdf"}`),
+    subRows: "",
   },
   {
     id: 87,
@@ -2894,6 +3166,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "MAR",
     nameDoc: "PROGRAMA GOBIERNO COMÚN PVEM",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"87.pdf"}`),
+    subRows: "",
   },
   {
     id: 88,
@@ -2903,6 +3176,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "MAR",
     nameDoc: "PROGRAMA GOBIERNO COMÚN MC",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"88.pdf"}`),
+    subRows: "",
   },
   {
     id: 89,
@@ -2912,6 +3186,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "MAR",
     nameDoc: "PROGRAMA GOBIERNO COMÚN PAC",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"89.pdf"}`),
+    subRows: "",
   },
   {
     id: 90,
@@ -2921,6 +3196,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "MAR",
     nameDoc: "PROGRAMA GOBIERNO COMÚN PS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"90.pdf"}`),
+    subRows: "",
   },
   {
     id: 91,
@@ -2930,6 +3206,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "MAR",
     nameDoc: "PROGRAMA GOBIERNO COMÚN MORENA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"91.pdf"}`),
+    subRows: "",
   },
   {
     id: 92,
@@ -2939,6 +3216,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "MAR",
     nameDoc: "PROGRAMA GOBIERNO COMÚN NUEVA ALIANZA TLAXCALA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"92.pdf"}`),
+    subRows: "",
   },
   {
     id: 93,
@@ -2948,6 +3226,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "MAR",
     nameDoc: "PROGRAMA GOBIERNO COMÚN ENCUENTRO SOCIAL TLAXCALA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"93.pdf"}`),
+    subRows: "",
   },
   {
     id: 94,
@@ -2957,6 +3236,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "MAR",
     nameDoc: "PROGRAMA GOBIERNO COMÚN IMPACTO SOCIAL",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"94.pdf"}`),
+    subRows: "",
   },
   {
     id: 95,
@@ -2966,6 +3246,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "MAR",
     nameDoc: "PROGRAMA GOBIERNO COMÚN ENCUENTRO SOLIDARIO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"95.pdf"}`),
+    subRows: "",
   },
   {
     id: 96,
@@ -2975,6 +3256,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "MAR",
     nameDoc: "PROGRAMA GOBIERNO COMÚN RSP",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"96.pdf"}`),
+    subRows: "",
   },
   {
     id: 97,
@@ -2984,6 +3266,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "MAR",
     nameDoc: "PROGRAMA GOBIERNO COMÚN FUERZA POR MÉXICO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"97.pdf"}`),
+    subRows: "",
   },
   {
     id: 98,
@@ -2993,6 +3276,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "MAR",
     nameDoc: "SUSTITUCIONES CONSEJOS DISTRITALES Y MUNICIPALES",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"98.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -3008,6 +3292,7 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "ANEXO ÚNICO MULTAS",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"99.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -3020,6 +3305,7 @@ export const dataAcuerdos2021 = [
     nameDoc:
       "REGISTRO DE CANDIDATURA GUBERNATURA COALICIÓN UNIDOS POR TLAXCALA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"100.pdf"}`),
+    subRows: "",
   },
   {
     id: 101,
@@ -3030,6 +3316,7 @@ export const dataAcuerdos2021 = [
     nameDoc:
       "REGISTRO DE CANDIDATURA GUBERNATURA COALICIÓN JUNTOS HAREMOS HISTORIA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"101.pdf"}`),
+    subRows: "",
   },
   {
     id: 102,
@@ -3039,6 +3326,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "ABR",
     nameDoc: "REGISTRO DE CANDIDATURA GUBERNATURA MOVIMIENTO CIUDADANO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"102.pdf"}`),
+    subRows: "",
   },
   {
     id: 103,
@@ -3048,6 +3336,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "ABR",
     nameDoc: "REGISTRO DE CANDIDATURA GUBERNATURA IMPACTO SOCIAL SI",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"103.pdf"}`),
+    subRows: "",
   },
   {
     id: 104,
@@ -3057,6 +3346,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "ABR",
     nameDoc: "REGISTRO DE CANDIDATURA GUBERNATURA PARTIDO ENCUENTRO SOLIDARIO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"104.pdf"}`),
+    subRows: "",
   },
   {
     id: 105,
@@ -3066,6 +3356,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "ABR",
     nameDoc: "REGISTRO DE CANDIDATURA GUBERNATURA RSP",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"105.pdf"}`),
+    subRows: "",
   },
   {
     id: 106,
@@ -3075,6 +3366,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "ABR",
     nameDoc: "REGISTRO DE CANDIDATURA GUBERNATURA FUERZA POR MÉXICO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"106.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -3090,6 +3382,7 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "DICTAMEN PARTIDO ACCIÓN NACIONAL",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"107.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -3107,6 +3400,7 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "DICTAMEN PARTIDO REVOLUCIONARIO INSTITUCIONAL",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"108.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -3124,6 +3418,7 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "DICTAMEN PARTIDO DE LA REVOLUCIÓN DEMOCRÁTICA",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"109.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -3141,6 +3436,7 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "DICTAMEN ALIANZA CIUDADANA",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"110.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -3158,6 +3454,7 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "DICTAMEN PARTIDO SOCIALISTA",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"111.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -3169,6 +3466,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "ABR",
     nameDoc: "REGISTRO DIPUTACIÓN COALICIÓN UNIDOS POR TLAXCALA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"112.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -3184,6 +3482,7 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "DICTAMEN MOVIMIENTO CIUDADANO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"113.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -3201,6 +3500,7 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "DICTAMEN ENCUENTRO SOLIDARIO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"114.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -3218,11 +3518,13 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "DICTAMEN IMPACTO SOCIAL",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"115.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "FE DE ERRATAS",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"115.2.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -3234,6 +3536,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "ABR",
     nameDoc: "REGISTRO DIPUTACIONES INDEPENDIENTES",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"116.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -3249,6 +3552,7 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "DICTAMEN MORENA",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"117.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -3266,6 +3570,7 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "DICTAMEN PARTIDO DEL TRABAJO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"118.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -3283,6 +3588,7 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "DICTAMEN NUEVA ALIANZA",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"119.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -3294,6 +3600,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "ABR",
     nameDoc: "REGISTRO DIPUTACIÓN COALICIÓN JUNTOS HAREMOS HISTORIA TLAXCALA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"120.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -3309,6 +3616,7 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "DICTAMEN PARTIDO VERDE ECOLOGISTA DE MÉXICO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"121.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -3326,6 +3634,7 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "DICTAMEN ENCUENTRO SOCIAL",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"122.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -3343,6 +3652,7 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "DICTAMEN REDES SOCIALES PROGRESISTAS",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"123.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -3360,6 +3670,7 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "DICTAMEN FUERZA POR MÉXICO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"124.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -3377,6 +3688,7 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "RECOMENDACIONES SANITARIAS",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"125.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -3388,6 +3700,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "ABR",
     nameDoc: "SUSTITUCIONES DE CONSEJOS MUNICIPALES 2021",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"126.pdf"}`),
+    subRows: "",
   },
   {
     id: 127,
@@ -3397,6 +3710,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "ABR",
     nameDoc: "SUSTITUCIONES DE CONSEJOS MUNICIPALES 2021",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"127.pdf"}`),
+    subRows: "",
   },
   {
     id: 128,
@@ -3406,6 +3720,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "ABR",
     nameDoc: "ADECUACIÓN DE COMISIÓN DE DEBATES",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"128.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -3421,16 +3736,19 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "DICTAMEN DOCUMENTACIÓN CON EMBLEMAS",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"129.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "INFORME DOCUMENTACIÓN CON EMBLEMAS",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"129.2.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "ANEXO DEL DICTAMEN",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"129.3.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -3442,6 +3760,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "ABR",
     nameDoc: "INICIO, CIERRE Y ACTUALIZACIONES DE DATOS PREP 2021",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"130.pdf"}`),
+    subRows: "",
   },
   {
     id: 131,
@@ -3451,6 +3770,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "ABR",
     nameDoc: "SE DESIGNAN MODERADORES DE DEBATES GUBERNATURA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"131.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -3466,16 +3786,19 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "LINEAMIENTOS",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"132.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "FORMATO DE MANIFESTACIÓN DE AUTO ADSCRIPCIÓN DE GÉNERO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"132.2.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "VOTO CONCURRENTE",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"132.3.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -3487,6 +3810,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "ABR",
     nameDoc: "SUSTITUCIONES DE CONSEJOS DTOS Y MUNICIPALES 2021",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"133.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -3502,6 +3826,7 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "DICTAMEN MORENA",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"134.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -3519,6 +3844,7 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "DICTAMEN DIPUTACIONES PT",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"135.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -3536,6 +3862,7 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "DICTAMEN NUEVA ALIANZA",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"136.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -3547,6 +3874,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "ABR",
     nameDoc: "DIPUTACIONES PVEM",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"137.pdf"}`),
+    subRows: "",
   },
   {
     id: 138,
@@ -3556,6 +3884,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "ABR",
     nameDoc: "DIPUTACIONES PESTLAX",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"138.pdf"}`),
+    subRows: "",
   },
   {
     id: 139,
@@ -3565,6 +3894,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "ABR",
     nameDoc: "DIPUTACIÓN COALICIÓN JUNTOS HAREMOS HISTORIA TLAXCALA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"139.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -3580,11 +3910,13 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "DICTAMEN REDES SOCIALES PROGRESISTAS 1",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"140.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "DICTAMEN REDES SOCIALES PROGRESISTAS 2",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"140.2.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -3602,6 +3934,7 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "DICTAMEN FUERZA POR MÉXICO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"141.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -3613,6 +3946,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "ABR",
     nameDoc: "FINANCIAMIENTO ACT. ORDINARIAS Y OBTENCIÓN DEL VOTO DIPUTACIONES",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"142.pdf"}`),
+    subRows: "",
   },
   {
     id: 143,
@@ -3622,6 +3956,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "ABR",
     nameDoc: "REFORMA LINEAMIENTOS DE DEBATES",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"143.pdf"}`),
+    subRows: "",
   },
   {
     id: 144,
@@ -3631,6 +3966,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "ABR",
     nameDoc: "POS CQD Q ETG CG 013 2020",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"144.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -3646,6 +3982,7 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "SE APRUEBA FORMATO DE DEBATES",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"145.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -3663,11 +4000,13 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "ANEXO UNO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"146.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "ANEXO DOS",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"146.2.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -3685,11 +4024,13 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "ANEXO UNO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"147.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "ANEXO DOS",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"147.2.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -3707,11 +4048,13 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "ANEXO UNO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"148.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "ANEXO DOS",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"148.2.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -3729,11 +4072,13 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "ANEXO UNO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"149.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "ANEXO DOS",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"149.2.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -3751,11 +4096,13 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "ANEXO UNO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"150.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "ANEXO DOS",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"150.2.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -3773,11 +4120,13 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "ANEXO UNO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"151.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "ANEXO DOS",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"151.2.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -3795,11 +4144,13 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "ANEXO UNO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"152.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "ANEXO DOS",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"152.2.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -3817,11 +4168,13 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "ANEXO UNO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"153.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "ANEXO DOS",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"153.2.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -3839,11 +4192,13 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "ANEXO UNO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"154.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "ANEXO DOS",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"154.2.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -3861,11 +4216,13 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "ANEXO UNO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"155.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "ANEXO DOS",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"155.2.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -3883,11 +4240,13 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "ANEXO UNO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"156.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "ANEXO DOS",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"156.2.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -3905,6 +4264,7 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "ANEXO ÚNICO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"157.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -3922,6 +4282,7 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "PES ANEXO ÚNICO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"158.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -3939,6 +4300,7 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "ANEXO ÚNICO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"159.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -3956,6 +4318,7 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "ANEXO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"160.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -3973,6 +4336,7 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "ANEXO ÚNICO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"161.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -3990,6 +4354,7 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "ANEXO ÚNICO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"162.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -4007,6 +4372,7 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "ANEXO ÚNICO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"163.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -4024,6 +4390,7 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "ANEXO ÚNICO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"164.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -4041,6 +4408,7 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "ANEXO ÚNICO PVEM",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"165.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -4058,6 +4426,7 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "ANEXO ÚNICO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"166.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -4075,6 +4444,7 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "ANEXO ÚNICO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"167.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -4092,6 +4462,7 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "ANEXO ÚNICO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"168.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -4109,6 +4480,7 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "ANEXO ÚNICO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"169.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -4126,6 +4498,7 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "ANEXO ÚNICO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"170.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -4143,6 +4516,7 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "ANEXO ÚNICO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"171.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -4160,6 +4534,7 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "ANEXO ÚNICO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"172.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -4177,6 +4552,7 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "ANEXO ÚNICO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"173.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -4194,6 +4570,7 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "ANEXO ÚNICO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"174.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -4211,6 +4588,7 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "ANEXO ÚNICO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"175.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -4228,11 +4606,13 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "ANEXO ÚNICO INDEPENDIENTES",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"176.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "REGISTROS DE INDEPENDIENTES FE DE ERRATAS",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"176.2.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -4250,6 +4630,7 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "ANEXO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"177.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -4261,6 +4642,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "ABR",
     nameDoc: "SUSTITUCIONES DIPUTACIONES LOCALES",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"178.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -4276,11 +4658,13 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "ANEXO UNO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"179.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "ANEXO DOS",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"179.2.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -4298,6 +4682,7 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "ANEXO ÚNICO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"180.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -4315,6 +4700,7 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "ANEXO ÚNICO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"181.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -4332,6 +4718,7 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "ANEXO UNO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"182.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -4349,11 +4736,13 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "ANEXO UNO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"183.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "ANEXO DOS",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"183.2.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -4371,11 +4760,13 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "ANEXO UNO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"184.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "ANEXO DOS",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"184.2.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -4393,6 +4784,7 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "ANEXO ÚNICO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"185.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -4405,6 +4797,7 @@ export const dataAcuerdos2021 = [
     nameDoc:
       "REGISTRO SUSTITUCIONES DIPUTADOS MC, SI, FXM Y COALICIÓN JUNTOS HAREMOS HISTORIA POR TLAXCALA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"186.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -4420,11 +4813,13 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "ANEXO UNO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"187.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "ANEXO DOS",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"187.2.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -4442,11 +4837,13 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "ANEXO ÚNICO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"188.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "FE DE ERRATAS REGISTROS DE CANDIDATURAS MORENA",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"188.2.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -4464,11 +4861,13 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "ANEXO UNO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"189.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "ANEXO DOS",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"189.2.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -4486,11 +4885,13 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "ANEXO ÚNICO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"190.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "FE DE ERRATAS REGISTROS DE CANDIDATURAS AYUNTAMIENTOS PEST",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"190.2.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -4502,6 +4903,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "MAY",
     nameDoc: "REGISTRO CANDIDATURAS INDEPENDIENTES",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"191.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -4517,11 +4919,13 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "ANEXO UNO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"192.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "ANEXO DOS",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"192.2.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -4539,6 +4943,7 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "ANEXO ÚNICO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"193.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -4556,6 +4961,7 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "ANEXO ÚNICO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"194.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -4573,11 +4979,13 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "ANEXO ÚNICO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"195.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "FE DE ERRATAS REGISTROS DE CANDIDATURAS AYUNTAMIENTOS PISSI",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"195.2.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -4595,11 +5003,13 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "ANEXO ÚNICO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"196.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "VOTO PARTICULAR PAN",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"196.2.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -4611,6 +5021,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "MAY",
     nameDoc: "REGISTRO CANDIDATURAS COMUNIDADES PRI",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"197.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -4626,6 +5037,7 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "ANEXO ÚNICO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"197_a.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -4643,11 +5055,13 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "ANEXO ÚNICO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"198.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "VOTO PARTICULAR",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"198.2.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -4665,16 +5079,19 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "ANEXO ÚNICO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"199.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "ANEXO ÚNICO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"199.2.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "VOTO PARTICULAR",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"199.3.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -4692,6 +5109,7 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "ANEXO ÚNICO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"200.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -4709,11 +5127,13 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "ANEXO ÚNICO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"201.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "VOTO PARTICULAR",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"201.2.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -4731,6 +5151,7 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "ANEXO ÚNICO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"202.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -4748,11 +5169,13 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "ANEXO ÚNICO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"203.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "VOTO PARTICULAR",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"203.2.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -4770,11 +5193,13 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "ANEXO ÚNICO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"204.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "VOTO PARTICULAR",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"204.2.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -4792,6 +5217,7 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "ANEXO ÚNICO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"205.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -4809,6 +5235,7 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "ANEXO ÚNICO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"206.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -4826,6 +5253,7 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "ANEXO ÚNICO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"207.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -4837,6 +5265,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "MAY",
     nameDoc: "REGISTRO COMUNIDADES PT",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"208.pdf"}`),
+    subRows: "",
   },
   {
     id: 210,
@@ -4846,6 +5275,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "MAY",
     nameDoc: "MEDIDAS DE SEGURIDAD DE BOLETAS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"209.pdf"}`),
+    subRows: "",
   },
   {
     id: 211,
@@ -4855,6 +5285,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "MAY",
     nameDoc: "CUMPLIMIENTO A SENTENCIA TET JDC 050 2021",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"210.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -4870,6 +5301,7 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "ANEXO ÚNICO FINANCIAMIENTO AYUNTAMIENTOS",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"211.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -4881,6 +5313,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "MAY",
     nameDoc: "SUSTITUCIONES DIPUTACIONES Y AYUNTAMIENTOS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"212.pdf"}`),
+    subRows: "",
   },
   {
     id: 214,
@@ -4890,6 +5323,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "MAY",
     nameDoc: "SOBRENOMBRES PELO 2020 2021",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"213.pdf"}`),
+    subRows: "",
   },
   {
     id: 215,
@@ -4899,6 +5333,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "MAY",
     nameDoc: "SUSTITUCIONES DE CONSEJOS MUNICIPALES",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"214.pdf"}`),
+    subRows: "",
   },
   {
     id: 216,
@@ -4908,6 +5343,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "MAY",
     nameDoc: "CRITERIOS PARA CELEBRACIÓN DE DEBATES A TRAVÉS DE TICS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"215.pdf"}`),
+    subRows: "",
   },
   {
     id: 217,
@@ -4917,6 +5353,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "MAY",
     nameDoc: "SUSTITUCIONES CONSEJOS DISTRITALES Y MUNICIPALES",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"216.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -4932,6 +5369,7 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "SEGUNDA CONVOCATORIA SE Y CAES",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"217.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -4949,11 +5387,13 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "ANEXO 1",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"218.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "ANEXO 2",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"218.2.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -4972,11 +5412,13 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "ANEXO ÚNICO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"219.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "VOTO CONCURRENTE",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"219.2.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -4989,6 +5431,7 @@ export const dataAcuerdos2021 = [
     nameDoc:
       "SUSTITUCIONES DIPUTADOS LOCALES, AYUNTAMIENTOS Y PRESIDENCIAS DE COMUNIDAD",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"220.pdf"}`),
+    subRows: "",
   },
   {
     id: 222,
@@ -4998,6 +5441,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "MAY",
     nameDoc: "SUSTITUCIONES CONSEJOS DISTRITALES Y MUNICIPALES",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"221.pdf"}`),
+    subRows: "",
   },
   {
     id: 223,
@@ -5007,6 +5451,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "MAY",
     nameDoc: "SUSTITUCIONES DIPUTACIONES, AYUNTAMIENTOS Y PRESIDENCIAS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"222.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -5022,6 +5467,7 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "ANEXO PROCESO TÉCNICO OPERATIVO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"223.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -5033,6 +5479,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "MAY",
     nameDoc: "CUMPLIMIENTO DE SENTENCIA SCM JRC 84 2021 PT",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"224.pdf"}`),
+    subRows: "",
   },
   {
     id: 226,
@@ -5042,6 +5489,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "MAY",
     nameDoc: "PES MEDIDAS CAUTELARES CQD PE PES CG 082 2021",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"225.pdf"}`),
+    subRows: "",
   },
   {
     id: 227,
@@ -5051,6 +5499,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "MAY",
     nameDoc: "SUSTITUCIONES CONSEJOS DISTRITALES Y MUNICIPALES",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"226.pdf"}`),
+    subRows: "",
   },
   {
     id: 228,
@@ -5061,6 +5510,7 @@ export const dataAcuerdos2021 = [
     nameDoc:
       "SUSTITUCIONES DIPUTACIONES, AYUNTAMIENTOS Y PRESIDENCIAS DE COMUNIDAD",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"227.pdf"}`),
+    subRows: "",
   },
   {
     id: 229,
@@ -5070,6 +5520,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "MAY",
     nameDoc: "SUSTITUCIONES AYUNTAMIENTOS Y PRESIDENCIAS DE COMUNIDAD",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"228.pdf"}`),
+    subRows: "",
   },
   {
     id: 230,
@@ -5079,6 +5530,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "MAY",
     nameDoc: "CRITERIOS CIERRE DE CAMPAÑA 2021",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"229.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -5094,6 +5546,7 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "CUMPLIMIENTO DE SENTENCIA TET JE 066 2021 VOTO CONCURRENTE",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"230.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -5106,6 +5559,7 @@ export const dataAcuerdos2021 = [
     nameDoc:
       "DESIGNACIÓN DE CASILLAS PARA VERIFICAR MEDIDAS DE SEGURIDAD EN BOLETAS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"231.pdf"}`),
+    subRows: "",
   },
   {
     id: 233,
@@ -5116,6 +5570,7 @@ export const dataAcuerdos2021 = [
     nameDoc:
       "SUSTITUCIONES CANDIDATURAS AYUNTAMIENTOS Y PRESIDENCIAS DE COMUNIDAD",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"232.pdf"}`),
+    subRows: "",
   },
   {
     id: 234,
@@ -5125,6 +5580,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "JUN",
     nameDoc: "SE DA RESPUESTA A SOLICITUD PES",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"233.pdf"}`),
+    subRows: "",
   },
   {
     id: 235,
@@ -5134,6 +5590,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "JUN",
     nameDoc: "EXHORTO AL ELECTORADO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"234.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -5149,6 +5606,7 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "VOTO CONCURRENTE",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"235.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -5167,6 +5625,7 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "VOTO CONCURRENTE",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"236.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -5179,6 +5638,7 @@ export const dataAcuerdos2021 = [
     nameDoc:
       "SUSTITUCIONES DIPUTACIONES, AYUNTAMIENTOS Y PRESIDENTES DE COMUNIDAD",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"237.pdf"}`),
+    subRows: "",
   },
   {
     id: 239,
@@ -5188,6 +5648,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "JUN",
     nameDoc: "POR EL QUE SE DESIGNA AL PERSONAL COMO ENLACES DE COMUNICACIÓN",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"238.pdf"}`),
+    subRows: "",
   },
   {
     id: 240,
@@ -5197,6 +5658,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "JUN",
     nameDoc: "SUSTITUCIONES DE CONSEJOS MUNICIPALES",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"239.pdf"}`),
+    subRows: "",
   },
   {
     id: 241,
@@ -5206,6 +5668,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "JUN",
     nameDoc: "SUSTITUCIONES AYUNTAMIENTOS Y PRESIDENCIAS DE COMUNIDAD",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"240.pdf"}`),
+    subRows: "",
   },
   {
     id: 242,
@@ -5215,6 +5678,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "JUN",
     nameDoc: "MODIFICA INTEGRACIÓN CONSEJO MUNICIPAL TEQUEXQUITLA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"241.pdf"}`),
+    subRows: "",
   },
   {
     id: 243,
@@ -5224,6 +5688,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "JUN",
     nameDoc: "SUSTITUCIÓN CONSEJO MUNICIPAL TOTOLAC",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"242.pdf"}`),
+    subRows: "",
   },
   {
     id: 244,
@@ -5233,6 +5698,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "JUN",
     nameDoc: "ASUME ATRIBUCIONES Y FUNCIONES CONSEJO XICOHTZINCO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"243.pdf"}`),
+    subRows: "",
   },
   {
     id: 245,
@@ -5242,6 +5708,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "JUN",
     nameDoc: "SUSTITUCIÓN CONSEJO MUNICIPAL ZACATELCO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"244.pdf"}`),
+    subRows: "",
   },
   {
     id: 246,
@@ -5251,6 +5718,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "JUN",
     nameDoc: "SUSTITUCIÓN DE CONSEJOS MUNICIPALES",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"245.pdf"}`),
+    subRows: "",
   },
   {
     id: 247,
@@ -5260,6 +5728,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "JUN",
     nameDoc: "SUSTITUCIÓN CONSEJO MUNICIPAL DE ESPAÑITA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"246.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -5275,21 +5744,25 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "ANEXO ÚNICO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"247.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "VOTO CONCURRENTE",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"247.2.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "VOTO PARTICULAR",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"247.3.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "FE DE ERRATAS COMPUTO XICOHTZINCO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"247.4.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -5301,6 +5774,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "JUN",
     nameDoc: "COMPUTO GUBERNATURA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"248.pdf"}`),
+    subRows: "",
   },
   {
     id: 250,
@@ -5310,6 +5784,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "JUN",
     nameDoc: "PORCENTAJE PARTIDOS POLÍTICOS LOCALES Y NACIONALES",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"249.pdf"}`),
+    subRows: "",
   },
   {
     id: 251,
@@ -5319,6 +5794,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "JUN",
     nameDoc: "DIPUTACIONES RP",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"250.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -5334,22 +5810,26 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "VOTO PARTICULAR Y ANEXOS",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"251.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "FE DE ERRATAS REGIDURÍAS",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"251.2.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "NUEVA VERSIÓN EN CUMPLIMIENTO A TET JDC 327 2021 Y ACUM",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"251.3.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc:
           "VERSIÓN EN CUMPLIMIENTO A SENTENCIA EXPEDIENTE SCM JDC 1859 2021",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"251.4.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -5367,6 +5847,7 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "PROCEDIMIENTO PARA RETIRO DE PROPAGANDA",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"252.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -5384,11 +5865,13 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "ANEXO ÚNICO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"253.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "FE DE ERRATAS",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"253.2.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -5406,6 +5889,7 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "ANEXO ÚNICO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"254.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -5417,6 +5901,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "JUL",
     nameDoc: "PERSONAL RECUENTO SAN ANDRÉS AHUASHUASTEPEC",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"255.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -5432,6 +5917,7 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "ANEXO ÚNICO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"256.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -5443,6 +5929,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "JUL",
     nameDoc: "PERSONAL RECUENTO YAUHQUEMEHCAN",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"257.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -5458,6 +5945,7 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "ANEXO ÚNICO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"258.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -5475,6 +5963,7 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "ANEXO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"259.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -5486,6 +5975,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "JUL",
     nameDoc: "PERSONAL RECUENTO AYUNTAMIENTO AYOMETLA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"260.pdf"}`),
+    subRows: "",
   },
   {
     id: 265,
@@ -5495,6 +5985,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "AGO",
     nameDoc: "PERSONAL RECUENTO XOCOYUCAN, SAN BUENAVENTURA Y TEXCACOAC",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"261.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -5511,6 +6002,7 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "VOTO PARTICULAR",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"262.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -5528,6 +6020,7 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "VOTO PARTICULAR",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"263.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -5539,6 +6032,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "AGO",
     nameDoc: "CUMPLIMIENTO DE SENTENCIA TET JE 176 2021",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"264.pdf"}`),
+    subRows: "",
   },
   {
     id: 266,
@@ -5548,6 +6042,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "AGO",
     nameDoc: "INTEGRACIÓN LXIV LEGISLATURA DEL CONGRESO TLAXCALA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"265.pdf"}`),
+    subRows: "",
   },
   {
     id: 267,
@@ -5557,6 +6052,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "AGO",
     nameDoc: "SE REFORMA REGLAMENTO INTERIOR DE ESTE INSTITUTO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"266.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -5572,6 +6068,7 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "ANEXO ÚNICO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"267.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -5583,6 +6080,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "SEP",
     nameDoc: "ADECUACIÓN DE COMISIONES, COMITÉS Y JGE",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"268.pdf"}`),
+    subRows: "",
   },
   {
     id: 270,
@@ -5592,6 +6090,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "SEP",
     nameDoc: "RESPUESTA A ESCRITO ALEJANDRO MARTÍNEZ LÓPEZ REPRESENTANTE PES",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"269.pdf"}`),
+    subRows: "",
   },
   {
     id: 271,
@@ -5601,6 +6100,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "SEP",
     nameDoc: "PÉRDIDA DE REGISTRO PS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"270.pdf"}`),
+    subRows: "",
   },
   {
     id: 272,
@@ -5610,6 +6110,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "SEP",
     nameDoc: "PÉRDIDA DE REGISTRO PEST",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"271.pdf"}`),
+    subRows: "",
   },
   {
     id: 273,
@@ -5619,6 +6120,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "SEP",
     nameDoc: "PÉRDIDA DE REGISTRO IMPACTO SOCIAL SI",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"272.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -5634,16 +6136,19 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "ANEXO UNO. ACT. ORDINARIAS",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"273.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "ANEXO DOS. ACT. ESPECÍFICAS",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"273.2.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "ANEXO TRES. CALENDARIZADO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"273.3.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -5661,6 +6166,7 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "ANEXO ÚNICO. DISTRIBUCIÓN ISR",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"274.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -5672,6 +6178,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "SEP",
     nameDoc: "RESPUESTA A ESCRITO PAC",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"275.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -5687,6 +6194,7 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "ANEXO ÚNICO. LINEAMIENTOS",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"276.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -5698,6 +6206,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "OCT",
     nameDoc: "RESPUESTA A ESCRITO COMUNIDAD ÁLVARO OBREGÓN",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"277.pdf"}`),
+    subRows: "",
   },
   {
     id: 279,
@@ -5708,6 +6217,7 @@ export const dataAcuerdos2021 = [
     nameDoc:
       "POR EL QUE SE ASUMEN FUNCIONES DE CONSEJOS MUNICIPALES ELECTORALES PARA PEE 2021",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"278.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -5723,6 +6233,7 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "CALENDARIO ELECTORAL PEE 2021",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"279.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -5734,6 +6245,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "OCT",
     nameDoc: "SE APRUEBA INTEGRACIÓN DE COMISIONES TEMPORALES",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"280.pdf"}`),
+    subRows: "",
   },
   {
     id: 282,
@@ -5743,6 +6255,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "OCT",
     nameDoc: "PRÓRROGA DE VIGENCIA DE ACUERDOS PARA SU APLICACIÓN EN PEE 2021",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"281.pdf"}`),
+    subRows: "",
   },
   {
     id: 283,
@@ -5752,6 +6265,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "OCT",
     nameDoc: "PÉRDIDA DE REGISTRO PES, RSP Y FXM",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"282.pdf"}`),
+    subRows: "",
   },
   {
     id: 284,
@@ -5761,6 +6275,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "OCT",
     nameDoc: "DESTRUCCIÓN DOCUMENTACIÓN ELECTORAL PELO 2020 2021",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"283.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -5777,11 +6292,13 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "ANEXO 1 MANUAL DE REGISTRO DE CANDIDATURAS_PEE 2021",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"284.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "ANEXO 2 PROTOCOLO SANITARIO PARA EL REGISTRO DE CANDIDATURAS",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"284.2.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -5799,6 +6316,7 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "ANEXO 1 PROGRAMA DE INCENTIVOS PARA MSPEN DE ITE",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"285.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -5810,6 +6328,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "OCT",
     nameDoc: "RESPUESTA A ESCRITO DE FUERZA POR MÉXICO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"286.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -5827,6 +6346,7 @@ export const dataAcuerdos2021 = [
         nameDoc:
           "ANEXO 1 PERSONAL AUTORIZADO PARA EL ACCESO A LA BODEGA ELECTORAL",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"287.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -5839,6 +6359,7 @@ export const dataAcuerdos2021 = [
     nameDoc:
       "INTEGRACIÓN DE COMISIONES Y ADECUACIÓN DE COMISIÓN TEMPORAL, COMITÉS Y JGE",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"288.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -5854,6 +6375,7 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "DISTRIBUCIÓN ISR",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"289.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -5872,16 +6394,19 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "DICTAMEN DOCUMENTACIÓN CON EMBLEMAS",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"290.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "INFORME DOCUMENTACIÓN CON EMBLEMAS.",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"290.2.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "ANEXO DEL DICTAMEN",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"290.3.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -5893,6 +6418,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "NOV",
     nameDoc: "PROGRAMA GOBIERNO COMÚN PAN PEE 2021",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"291.pdf"}`),
+    subRows: "",
   },
   {
     id: 293,
@@ -5902,6 +6428,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "NOV",
     nameDoc: "PROGRAMA GOBIERNO COMÚN PRI PEE 2021",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"292.pdf"}`),
+    subRows: "",
   },
   {
     id: 294,
@@ -5911,6 +6438,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "NOV",
     nameDoc: "PROGRAMA GOBIERNO COMÚN PRD PEE 2021",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"293.pdf"}`),
+    subRows: "",
   },
   {
     id: 295,
@@ -5920,6 +6448,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "NOV",
     nameDoc: "PROGRAMA GOBIERNO COMÚN PT PEE 2021",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"294.pdf"}`),
+    subRows: "",
   },
   {
     id: 296,
@@ -5929,6 +6458,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "NOV",
     nameDoc: "PROGRAMA GOBIERNO COMÚN PVEM PEE 2021",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"295.pdf"}`),
+    subRows: "",
   },
   {
     id: 297,
@@ -5938,6 +6468,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "NOV",
     nameDoc: "PROGRAMA GOBIERNO COMÚN MC PEE 2021",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"296.pdf"}`),
+    subRows: "",
   },
   {
     id: 298,
@@ -5947,6 +6478,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "NOV",
     nameDoc: "PROGRAMA GOBIERNO COMÚN PAC PEE 2021",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"297.pdf"}`),
+    subRows: "",
   },
   {
     id: 299,
@@ -5956,6 +6488,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "NOV",
     nameDoc: "PROGRAMA GOBIERNO COMÚN MORENA PEE 2021",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"298.pdf"}`),
+    subRows: "",
   },
   {
     id: 300,
@@ -5965,6 +6498,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "NOV",
     nameDoc: "PROGRAMA GOBIERNO COMÚN PNAT PEE 2021",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"299.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -5981,6 +6515,7 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "ANEXO ÚNICO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"300.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -5999,16 +6534,19 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "DICTAMEN CSSI PREP PEE 2021 (1)",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"301.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "PROCESO TÉCNICO OPERATIVO PREP 2021",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"301.2.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "PLAN DE SEGURIDAD Y CONTINUIDAD PELE 2021",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"301.3.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -6020,6 +6558,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "NOV",
     nameDoc: "REGISTRO CANDIDATURAS COMUNIDADES PAN PEE 2021",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"302.pdf"}`),
+    subRows: "",
   },
   {
     id: 304,
@@ -6029,6 +6568,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "NOV",
     nameDoc: "REGISTRO CANDIDATURAS COMUNIDADES PRI PEE 2021",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"303.pdf"}`),
+    subRows: "",
   },
   {
     id: 305,
@@ -6038,6 +6578,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "NOV",
     nameDoc: "REGISTRO CANDIDATURAS COMUNIDADES PRD PEE 2021",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"304.pdf"}`),
+    subRows: "",
   },
   {
     id: 306,
@@ -6047,6 +6588,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "NOV",
     nameDoc: "REGISTRO CANDIDATURAS COMUNIDADES PT PEE 2021",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"305.pdf"}`),
+    subRows: "",
   },
   {
     id: 307,
@@ -6056,6 +6598,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "NOV",
     nameDoc: "REGISTRO CANDIDATURAS COMUNIDADES PVEM PEE 2021.DOCX",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"306.pdf"}`),
+    subRows: "",
   },
   {
     id: 308,
@@ -6065,6 +6608,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "NOV",
     nameDoc: "REGISTRO CANDIDATURAS COMUNIDADES MC PEE 2021",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"307.pdf"}`),
+    subRows: "",
   },
   {
     id: 309,
@@ -6074,6 +6618,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "NOV",
     nameDoc: "REGISTRO CANDIDATURAS COMUNIDADES PAC PEE 2021",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"308.pdf"}`),
+    subRows: "",
   },
   {
     id: 310,
@@ -6083,6 +6628,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "NOV",
     nameDoc: "REGISTRO CANDIDATURAS COMUNIDADES MORENA PEE 2021",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"309.pdf"}`),
+    subRows: "",
   },
   {
     id: 311,
@@ -6091,6 +6637,7 @@ export const dataAcuerdos2021 = [
     nameDoc:
       "FE DE ERRATAS DE RESOLUCIONES ITE CG 304 2021, ITE CG 305 2021 E ITE CG 309 2021",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"304-305-309.pdf"}`),
+    subRows: "",
   },
   {
     id: 312,
@@ -6100,6 +6647,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "NOV",
     nameDoc: "REGISTRO CANDIDATURAS COMUNIDADES PNAT PEE 2021",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"310.pdf"}`),
+    subRows: "",
   },
   {
     id: 313,
@@ -6109,6 +6657,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "NOV",
     nameDoc: "MEDIDAS DE SEGURIDAD BOLETAS PEE 2021",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"311.pdf"}`),
+    subRows: "",
   },
   {
     id: 314,
@@ -6118,6 +6667,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "NOV",
     nameDoc: "DESIGNACIÓN TITULARES DE DOECYEC Y UTC",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"312.pdf"}`),
+    subRows: "",
   },
   {
     id: 315,
@@ -6128,6 +6678,7 @@ export const dataAcuerdos2021 = [
     nameDoc:
       "SUSTITUCIÓN CANDIDATURA PRESIDENCIA DE COMUNIDAD PRD PEE 2021 (1)",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"313.pdf"}`),
+    subRows: "",
   },
   {
     id: 316,
@@ -6138,6 +6689,7 @@ export const dataAcuerdos2021 = [
     nameDoc:
       "DESIGNACIÓN DE CASILLAS PARA VERIFICAR MEDIDAS DE SEGURIDAD EN BOLETAS DEL PEE 2021",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"314.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -6153,11 +6705,13 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "MODELO OPERATIVO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"315.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "PERSONAL MODELO OPERATIVO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"315.2.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -6175,11 +6729,13 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "ANEXO 1 ACTIVIDADES ORDINARIAS",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"316.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "ANEXO 2 ACTIVIDADES ESPECÍFICAS",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"316.2.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -6197,6 +6753,7 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "ANEXO ÚNICO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"317.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -6214,6 +6771,7 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "ANEXO ÚNICO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"318.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -6231,6 +6789,7 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "POLÍTICA DE IGUALDAD LABORAL Y NO DISCRIMINACIÓN DEL ITE",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"319.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -6250,6 +6809,7 @@ export const dataAcuerdos2021 = [
         nameDoc:
           "REGLAMENTO PARA LA CONSTITUCIÓN Y REGISTRO DE LOS PPL ANTE EL ITE",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"320.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -6261,6 +6821,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "NOV",
     nameDoc: "PERSONAL CÓMPUTOS ELECCIÓN EXTRAORDINARIA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"321.pdf"}`),
+    subRows: "",
   },
   {
     id: 324,
@@ -6270,6 +6831,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "DIC",
     nameDoc: "ELECCIÓN COLONIA AGRÍCOLA SAN LUIS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"322.pdf"}`),
+    subRows: "",
   },
   {
     id: 325,
@@ -6279,6 +6841,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "DIC",
     nameDoc: "ELECCIÓN GUADALUPE VICTORIA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"323.pdf"}`),
+    subRows: "",
   },
   {
     id: 326,
@@ -6288,6 +6851,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "DIC",
     nameDoc: "ELECCIÓN LA CANDELARIA TEOTLALPAN",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"324.pdf"}`),
+    subRows: "",
   },
   {
     id: 327,
@@ -6297,6 +6861,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "DIC",
     nameDoc: "ELECCIÓN SANTA CRUZ GUADALUPE",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"325.pdf"}`),
+    subRows: "",
   },
   {
     id: 328,
@@ -6306,6 +6871,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "DIC",
     nameDoc: "ELECCIÓN TEPUENTE",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"326.pdf"}`),
+    subRows: "",
   },
   {
     id: 329,
@@ -6315,6 +6881,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "DIC",
     nameDoc: "MEDIDAS CAUTELARES EXP. CQD PE SIG CG 166 2021",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"327.pdf"}`),
+    subRows: "",
   },
   {
     id: 330,
@@ -6325,6 +6892,7 @@ export const dataAcuerdos2021 = [
     nameDoc:
       "SE DESIGNA ÁREA COORDINADORA Y GRUPO INTERDISCIPLINARIO DE ARCHIVOS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"328.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -6340,6 +6908,7 @@ export const dataAcuerdos2021 = [
         typeDoc: "",
         nameDoc: "ANEXO ÚNICO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"329.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -6351,6 +6920,7 @@ export const dataAcuerdos2021 = [
     monthDoc: "DIC",
     nameDoc: "CUMPLIMIENTO A SENTENCIA EXP. TET JDC 39 2020",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2021/"}${"330.pdf"}`),
+    subRows: "",
   },
 ];
 export const dataAcuerdos2020 = [
@@ -6368,6 +6938,7 @@ export const dataAcuerdos2020 = [
         typeDoc: "",
         nameDoc: "ANEXO 1 ADECUACIÓN DE PRESUPUESTO 2020",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"1.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -6386,11 +6957,13 @@ export const dataAcuerdos2020 = [
         typeDoc: "",
         nameDoc: "ANEXO 1 ACTUALIZACIÓN DE MULTAS",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"2.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "ANEXO 2 ACTUALIZACIÓN DE MULTAS",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"2.2.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -6403,6 +6976,7 @@ export const dataAcuerdos2020 = [
     monthDoc: "ENE",
     nameDoc: "RESPUESTA A FRANCISCO SOSA HERNÁNDEZ",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"3.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -6419,6 +6993,7 @@ export const dataAcuerdos2020 = [
         typeDoc: "",
         nameDoc: "ANEXO ÚNICO MULTAS",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"4.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -6437,6 +7012,7 @@ export const dataAcuerdos2020 = [
         typeDoc: "",
         nameDoc: "ANEXO ÚNICO PROGRAMA DE CAPACITACIÓN 2020",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"5.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -6455,6 +7031,7 @@ export const dataAcuerdos2020 = [
         typeDoc: "",
         nameDoc: "ANEXO ÚNICO PLAN ANUAL DE DESARROLLO ARCHIVÍSTICO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"6.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -6467,6 +7044,7 @@ export const dataAcuerdos2020 = [
     monthDoc: "FEB",
     nameDoc: "CQD Q CG 001 2019",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"7.pdf"}`),
+    subRows: "",
   },
   {
     id: 8,
@@ -6477,6 +7055,7 @@ export const dataAcuerdos2020 = [
     monthDoc: "FEB",
     nameDoc: "CQD Q CG 002 2019",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"8.pdf"}`),
+    subRows: "",
   },
   {
     id: 9,
@@ -6487,6 +7066,7 @@ export const dataAcuerdos2020 = [
     monthDoc: "FEB",
     nameDoc: "CQD Q CG 003 2019",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"9.pdf"}`),
+    subRows: "",
   },
   {
     id: 10,
@@ -6497,6 +7077,7 @@ export const dataAcuerdos2020 = [
     monthDoc: "FEB",
     nameDoc: "CQD Q CG 004 2019",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"10.pdf"}`),
+    subRows: "",
   },
   {
     id: 11,
@@ -6507,6 +7088,7 @@ export const dataAcuerdos2020 = [
     monthDoc: "FEB",
     nameDoc: "CQD Q CG 005 2019",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"11.pdf"}`),
+    subRows: "",
   },
   {
     id: 12,
@@ -6517,6 +7099,7 @@ export const dataAcuerdos2020 = [
     monthDoc: "FEB",
     nameDoc: "CQD Q CG 006 2019",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"12.pdf"}`),
+    subRows: "",
   },
   {
     id: 13,
@@ -6527,6 +7110,7 @@ export const dataAcuerdos2020 = [
     monthDoc: "FEB",
     nameDoc: "CQD Q CG 007 2019",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"13.pdf"}`),
+    subRows: "",
   },
   {
     id: 14,
@@ -6537,6 +7121,7 @@ export const dataAcuerdos2020 = [
     monthDoc: "FEB",
     nameDoc: "ÓRGANO ENLACE",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"14.pdf"}`),
+    subRows: "",
   },
   {
     id: 15,
@@ -6547,6 +7132,7 @@ export const dataAcuerdos2020 = [
     monthDoc: "FEB",
     nameDoc: "PS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"15.pdf"}`),
+    subRows: "",
   },
   {
     id: 16,
@@ -6557,6 +7143,7 @@ export const dataAcuerdos2020 = [
     monthDoc: "MAR",
     nameDoc: "COVID-19",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"16.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -6573,6 +7160,7 @@ export const dataAcuerdos2020 = [
         typeDoc: "",
         nameDoc: "ANEXO ÚNICO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"17.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -6585,6 +7173,7 @@ export const dataAcuerdos2020 = [
     monthDoc: "MAY",
     nameDoc: "RESPUESTA OFICIO DEL PVEM",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"18.pdf"}`),
+    subRows: "",
   },
   {
     id: 19,
@@ -6595,6 +7184,7 @@ export const dataAcuerdos2020 = [
     monthDoc: "MAY",
     nameDoc: "CRITERIOS PARA RENUNCIA DE FINANCIAMIENTO PÚBLICO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"19.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -6611,6 +7201,7 @@ export const dataAcuerdos2020 = [
         typeDoc: "",
         nameDoc: "ANEXO 1 PROGRAMA DE CAPACITACIÓN 2020",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"20.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -6623,6 +7214,7 @@ export const dataAcuerdos2020 = [
     monthDoc: "MAY",
     nameDoc: "MEDIDAS CAUTELARES CQD-Q-PRD-CG-009-2020",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"21.pdf"}`),
+    subRows: "",
   },
   {
     id: 22,
@@ -6633,6 +7225,7 @@ export const dataAcuerdos2020 = [
     monthDoc: "MAY",
     nameDoc: "MEDIDAS CAUTELARES CQD-Q-PRD-CG-010-2020",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"22.pdf"}`),
+    subRows: "",
   },
   {
     id: 23,
@@ -6643,6 +7236,7 @@ export const dataAcuerdos2020 = [
     monthDoc: "MAY",
     nameDoc: "",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"23.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -6659,6 +7253,7 @@ export const dataAcuerdos2020 = [
         typeDoc: "",
         nameDoc: "ANEXO 1",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"24.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -6677,6 +7272,7 @@ export const dataAcuerdos2020 = [
         typeDoc: "",
         nameDoc: "ANEXO ÚNICO RESULTADOS DE EVALUACIÓN SPEN",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"25.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -6696,6 +7292,7 @@ export const dataAcuerdos2020 = [
         typeDoc: "",
         nameDoc: "ANEXO 1",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"26.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -6714,6 +7311,7 @@ export const dataAcuerdos2020 = [
         typeDoc: "",
         nameDoc: "ANEXO 1",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"27.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -6737,6 +7335,7 @@ export const dataAcuerdos2020 = [
         monthDoc: "",
         nameDoc: "ANEXO 1",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"28.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -6750,6 +7349,7 @@ export const dataAcuerdos2020 = [
     monthDoc: "SEP",
     nameDoc: "RATIFICACIÓN DE LA INSTANCIA INTERNA PREP",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"29.pdf"}`),
+    subRows: "",
   },
   {
     id: 30,
@@ -6760,6 +7360,7 @@ export const dataAcuerdos2020 = [
     monthDoc: "SEP",
     nameDoc: "MEDIDAS CAUTELARES CQD-Q-RACF-CG-014-2020",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"30.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -6776,11 +7377,13 @@ export const dataAcuerdos2020 = [
         typeDoc: "",
         nameDoc: "ANEXO 1 REGLAMENTO DE USOS Y COSTUMBRES",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"31.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "VOTO PARTICULAR",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"31.2.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -6793,6 +7396,7 @@ export const dataAcuerdos2020 = [
     monthDoc: "SEP",
     nameDoc: "DESIGNACIÓN DEL TITULAR DE LA UTCE",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"32.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -6809,6 +7413,7 @@ export const dataAcuerdos2020 = [
         typeDoc: "",
         nameDoc: "ANEXO ÚNICO PRESUPUESTO DE EGRESOS 2021",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"33.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -6827,11 +7432,13 @@ export const dataAcuerdos2020 = [
         typeDoc: "",
         nameDoc: "DICTAMEN COECyEC_PROPUESTA DE PAQUETE ELECTORAL Y DISTRITAL",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"34.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "VOTO PARTICULAR",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"34.2.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -6850,6 +7457,7 @@ export const dataAcuerdos2020 = [
         typeDoc: "",
         nameDoc: "ESTATUTO DE CANDIDATURAS INDEPENDIENTES",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"35.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -6862,6 +7470,7 @@ export const dataAcuerdos2020 = [
     monthDoc: "OCT",
     nameDoc: "INTEGRACIÓN Y ADECUACIÓN COMISIONES",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"36.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -6880,6 +7489,7 @@ export const dataAcuerdos2020 = [
         nameDoc:
           "ANEXO ÚNICO VERIFICACIÓN DE CUMPLIMIENTO DE NÚMERO MÍNIMO DE AFILIADOS PARTIDOS LOCALES",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"37.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -6899,6 +7509,7 @@ export const dataAcuerdos2020 = [
         nameDoc:
           "ANEXO ACUERDO ITE-CG 38-2020 12-OCTUBRE-2020 REGLAMENTO DE TRANSPARENCIA Y ACCESO A LA INFORMACIÓN PÚBLICA",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"38.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -6911,6 +7522,7 @@ export const dataAcuerdos2020 = [
     monthDoc: "OCT",
     nameDoc: "DESIGNACIÓN DE TITULAR CONSULTA CIUDADANA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"39.pdf"}`),
+    subRows: "",
   },
   {
     id: 40,
@@ -6918,9 +7530,10 @@ export const dataAcuerdos2020 = [
     typeDoc: "RESOLUCIÓN",
     dateDoc: "",
     numDoc: "ITE-CG 40-2020",
-    monthDoc: "",
+    monthDoc: "OCT",
     nameDoc: "ACREDITACIÓN ENCUENTRO SOLIDARIO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"40.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -6938,12 +7551,14 @@ export const dataAcuerdos2020 = [
         nameDoc:
           "ANEXO 1 ACUERDO ITE-CG 41-2020 15-OCTUBRE-2020 READECUACIÓN DE PRERROGATIVAS PARTIDOS 2020",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"41.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc:
           "ANEXO 2 ACUERDO ITE-CG 41-2020 15-OCTUBRE-2020 READECUACIÓN DE PRERROGATIVAS PARTIDOS 2020",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"41.2.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -6963,6 +7578,7 @@ export const dataAcuerdos2020 = [
         nameDoc:
           "ANEXO ÚNICO ACUERDO ITE-CG 42-2020 15-OCTUBRE-2020 ACTUALIZACIÓN DE MULTAS 2020",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"42.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -6982,6 +7598,7 @@ export const dataAcuerdos2020 = [
         nameDoc:
           "ANEXO ÚNICO ACUERDO ITE-CG 43-2020 15-OCTUBRE-2020 CALENDARIO ELECTORAL LEGAL 2020-2021",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"43.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -7002,6 +7619,7 @@ export const dataAcuerdos2020 = [
         nameDoc:
           "ANEXO ÚNICO ACUERDO ITE-CG 44-2020 15 DE OCTUBRE-2020 METODOLOGÍA PARA MONITOREO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"44.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -7021,6 +7639,7 @@ export const dataAcuerdos2020 = [
         nameDoc:
           "ANEXO ÚNICO ACUERDO ITE-CG 45-2020 CONVOCATORIA PROCESO ELECTORAL LOCAL ORDINARIO 2020-2021",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"45.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -7039,46 +7658,54 @@ export const dataAcuerdos2020 = [
         typeDoc: "",
         nameDoc: "ANEXO UNO CONVOCATORIA",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"46.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc:
           "ANEXO 1 DE CONVOCATORIA FORMATO DE MANIFESTACIÓN DE INTENCIÓN",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"46.2.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc:
           "ANEXO 2 DE CONVOCATORIA FORMATO DE SOLICITUD DE REGISTRO DE CANDIDATURA INDEPENDIENTE",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"46.3.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "ANEXO 3 DE CONVOCATORIA FORMATO DE MANIFESTACIÓN DE VOLUNTAD",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"46.4.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc:
           "ANEXO 4 DE CONVOCATORIA FORMATO DE NO ACEPTACIÓN DE RECURSOS ILÍCITOS",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"46.5.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc:
           "ANEXO 5 DE CONVOCATORIA FORMATO DE ESCRITO DE CONFORMIDAD PARA LA FISCALIZACIÓN",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"46.6.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc:
           "ANEXO 6 DE CONVOCATORIA FORMATO ESCRITO NO CONDENADO POR VIOLENCIA POLÍTICA EN CONTRA DE LAS MUJERES",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"46.7.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "ANEXO DOS PORCENTAJE DE APOYO CIUDADANO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"46.8.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -7097,16 +7724,19 @@ export const dataAcuerdos2020 = [
         typeDoc: "",
         nameDoc: "ANEXO 1 LINEAMIENTOS DE PARIDAD DE GÉNERO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"47.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "ANEXO ÚNICO DE LOS LINEAMIENTOS DE PARIDAD DE GÉNERO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"47.2.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "VOTO CONCURRENTE",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"47.3.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -7125,11 +7755,13 @@ export const dataAcuerdos2020 = [
         typeDoc: "",
         nameDoc: "ANEXO 1",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"48.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "ANEXO 2",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"48.2.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -7142,6 +7774,7 @@ export const dataAcuerdos2020 = [
     monthDoc: "OCT",
     nameDoc: "ROTACIÓN JGE",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"49.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -7158,6 +7791,7 @@ export const dataAcuerdos2020 = [
         typeDoc: "",
         nameDoc: "VOTO PARTICULAR",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"50.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -7177,12 +7811,14 @@ export const dataAcuerdos2020 = [
         nameDoc:
           "ANEXO 1 DICTAMEN OTORGAMIENTO DE INCENTIVOS DIANA RÍOS HERNÁNDEZ",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"51.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc:
           "ANEXO 2 DICTAMEN OTORGAMIENTO DE INCENTIVOS MIGUEL PÉREZ CASTILLA",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"51.2.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -7195,6 +7831,7 @@ export const dataAcuerdos2020 = [
     monthDoc: "OCT",
     nameDoc: "PONDERACIONES SPEN",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"52.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -7206,6 +7843,7 @@ export const dataAcuerdos2020 = [
     monthDoc: "OCT",
     nameDoc: "PONDERACIONES SPEN",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"52.pdf"}`),
+    subRows: "",
   },
   {
     id: 53,
@@ -7221,42 +7859,50 @@ export const dataAcuerdos2020 = [
         typeDoc: "",
         nameDoc: "ANEXO ACUERDO ITE-CG 53-2020 CV JUAN FELIPE M.L.",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"53.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc:
           "ANEXO ACUERDO ITE-CG 53-2020 CV AVECITA ALEJANDRA FRAGOSO SANCHEZ",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"53.2.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "ANEXO ACUERDO ITE-CG 53-2020 CV CANDY ATONAL NOLASCO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"53.3.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "ANEXO ACUERDO ITE-CG 53-2020 CV ENRIQUE HERRERA FERNÁNDEZ",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"53.4.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "ANEXO ACUERDO ITE-CG 53-2020 CV GERARDO GRACIA RODRÍGUEZ",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"53.5.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "ANEXO ACUERDO ITE-CG 53-2020 CV AUGUSTO MELÉNDEZ",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"53.6.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "ANEXO ACUERDO ITE-CG 53-2020 CV CRISTÓBAL MEDINA",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"53.7.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "ANEXO ACUERDO ITE-CG 53-2020 CV JORGE EDUARDO XALTENO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"53.8.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -7275,11 +7921,13 @@ export const dataAcuerdos2020 = [
         typeDoc: "",
         nameDoc: "ANEXO 1 REGLAMENTO DE ADQUISICIONES",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"54.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "VOTO PARTICULAR",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"54.2.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -7292,6 +7940,7 @@ export const dataAcuerdos2020 = [
     monthDoc: "NOV",
     nameDoc: "ACREDITACIÓN REDES SOCIALES PROGRESISTAS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"55.pdf"}`),
+    subRows: "",
   },
   {
     id: 56,
@@ -7302,6 +7951,7 @@ export const dataAcuerdos2020 = [
     monthDoc: "NOV",
     nameDoc: "ACREDITACIÓN FUERZA SOCIAL POR MÉXICO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"56.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -7318,26 +7968,31 @@ export const dataAcuerdos2020 = [
         typeDoc: "",
         nameDoc: "ANEXO 1 ",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"57.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "ANEXO 2 ",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"57.2.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "ANEXO 3 ",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"57.3.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "ANEXO 4 ",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"57.4.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "ANEXO 5 ",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"57.5.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -7356,11 +8011,13 @@ export const dataAcuerdos2020 = [
         typeDoc: "",
         nameDoc: "ANEXO ÚNICO LINEAMIENTOS",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"58.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "VOTO CONCURRENTE",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"58.2.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -7373,6 +8030,7 @@ export const dataAcuerdos2020 = [
     monthDoc: "NOV",
     nameDoc: "CATALOGO DE PROGRAMAS DE RADIO Y TELEVISIÓN",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"59.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -7389,11 +8047,13 @@ export const dataAcuerdos2020 = [
         typeDoc: "",
         nameDoc: "ANEXO UNO CONVOCATORIA CANDIDATURAS INDEPENDIENTES",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"60.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "ANEXO DOS PORCENTAJE DE APOYO CIUDADANO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"60.2.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -7413,12 +8073,14 @@ export const dataAcuerdos2020 = [
         nameDoc:
           "ANEXO 1 ACUERDO ITE-CG 61-2020 READECUACIÓN PRERROGATIVAS PARTIDOS 2020",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"61.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc:
           "ANEXO 2 ACUERDO ITE-CG 61-2020 READECUACIÓN PRERROGATIVAS PARTIDOS 2020",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"61.2.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -7437,6 +8099,7 @@ export const dataAcuerdos2020 = [
         typeDoc: "",
         nameDoc: "ANEXO ÚNICO ACUERDO ITE-CG 62-2020 ACTUALIZACIÓN DE MULTAS",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"62.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -7455,16 +8118,19 @@ export const dataAcuerdos2020 = [
         typeDoc: "",
         nameDoc: "ANEXO 1 ADSCRIPCIÓN INDÍGENA POR MUNICIPIOS",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"63.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "ANEXO 2 ESTUDIO DE POBLACIÓN INDÍGENA EN TLAXCALA",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"63.2.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "ANEXO 3 CATALOGO DE COMUNIDADES INDÍGENAS IMPI",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"63.3.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -7483,6 +8149,7 @@ export const dataAcuerdos2020 = [
         typeDoc: "",
         nameDoc: "ANEXO 1 LINEAMIENTOS DE REGISTRO DE CANDIDATURAS",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"64.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -7501,11 +8168,13 @@ export const dataAcuerdos2020 = [
         typeDoc: "",
         nameDoc: "ANEXO UNO CONVOCATORIA OBSERVADORES ELECTORALES",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"65.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "ANEXO DOS SOLICITUD DE ACREDITACIÓN",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"65.2.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -7524,6 +8193,7 @@ export const dataAcuerdos2020 = [
         typeDoc: "",
         nameDoc: "ANEXO ÚNICO READECUACIÓN AL PRESUPUESTO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"66.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -7542,6 +8212,7 @@ export const dataAcuerdos2020 = [
         typeDoc: "",
         nameDoc: "ANEXO ÚNICO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"67.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -7560,6 +8231,7 @@ export const dataAcuerdos2020 = [
         typeDoc: "",
         nameDoc: "VOTO CONCURRENTE",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"69.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -7578,16 +8250,19 @@ export const dataAcuerdos2020 = [
         typeDoc: "",
         nameDoc: "ANEXO UNO CONVOCATORIA",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"70.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "ANEXO DOS PROTOCOLO DE SEGURIDAD SANITARIA",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"70.2.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "VOTO CONCURRENTE",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"70.3.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -7608,6 +8283,7 @@ export const dataAcuerdos2020 = [
         nameDoc:
           "ANEXO ÚNICO METODOLOGÍA PARA MONITOREAR CON PERSPECTIVA DE GÉNERO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"71.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -7627,6 +8303,7 @@ export const dataAcuerdos2020 = [
         typeDoc: "",
         nameDoc: "ANEXO ÚNICO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"72.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -7639,6 +8316,7 @@ export const dataAcuerdos2020 = [
     monthDoc: "DIC",
     nameDoc: "MEDIDAS CAUTELARES CQD-PE-MRR-CG-002-2020",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"73.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -7655,6 +8333,7 @@ export const dataAcuerdos2020 = [
         typeDoc: "",
         nameDoc: "VOTO CONCURRENTE",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"74.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -7667,6 +8346,7 @@ export const dataAcuerdos2020 = [
     monthDoc: "DIC",
     nameDoc: "ASIGNACIÓN REGIDURÍAS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"75.pdf"}`),
+    subRows: "",
   },
   {
     id: 76,
@@ -7677,6 +8357,7 @@ export const dataAcuerdos2020 = [
     monthDoc: "DIC",
     nameDoc: "REGLAS BÁSICAS DE DEBATES",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"76.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -7693,11 +8374,13 @@ export const dataAcuerdos2020 = [
         typeDoc: "",
         nameDoc: "ANEXO ÚNICO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"77.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "VOTO CONCURRENTE",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"77.2.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -7710,6 +8393,7 @@ export const dataAcuerdos2020 = [
     monthDoc: "DIC",
     nameDoc: "DESIGNACIÓN E INCORPORACIÓN GANADORAS SPEN 2020",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"78.pdf"}`),
+    subRows: "",
   },
   {
     id: 79,
@@ -7720,6 +8404,7 @@ export const dataAcuerdos2020 = [
     monthDoc: "DIC",
     nameDoc: "PROCEDENCIA MANIFESTACIONES INDEPENDIENTES",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"79.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -7737,6 +8422,7 @@ export const dataAcuerdos2020 = [
         typeDoc: "",
         nameDoc: "ANEXO 1",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"80.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -7755,11 +8441,13 @@ export const dataAcuerdos2020 = [
         typeDoc: "",
         nameDoc: "ANEXO 1",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"81.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "ANEXO 2",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"81.2.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -7772,6 +8460,7 @@ export const dataAcuerdos2020 = [
     monthDoc: "DIC",
     nameDoc: "CQD-Q-CG-001-2020 PAN",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"82.pdf"}`),
+    subRows: "",
   },
   {
     id: 83,
@@ -7782,6 +8471,7 @@ export const dataAcuerdos2020 = [
     monthDoc: "DIC",
     nameDoc: "CQD-Q-CG-002-2020 PRI",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"83.pdf"}`),
+    subRows: "",
   },
   {
     id: 84,
@@ -7792,6 +8482,7 @@ export const dataAcuerdos2020 = [
     monthDoc: "DIC",
     nameDoc: "CQD-Q-CG-003-2020 PRD",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"84.pdf"}`),
+    subRows: "",
   },
   {
     id: 85,
@@ -7802,6 +8493,7 @@ export const dataAcuerdos2020 = [
     monthDoc: "DIC",
     nameDoc: "CQD-Q-CG-004-2020 PT",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"85.pdf"}`),
+    subRows: "",
   },
   {
     id: 86,
@@ -7812,6 +8504,7 @@ export const dataAcuerdos2020 = [
     monthDoc: "DIC",
     nameDoc: "CQD-Q-CG-005-2020 PVEM",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"86.pdf"}`),
+    subRows: "",
   },
   {
     id: 87,
@@ -7822,6 +8515,7 @@ export const dataAcuerdos2020 = [
     monthDoc: "DIC",
     nameDoc: "CQD-Q-CG-006-2020 NA TLAXCALA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"87.pdf"}`),
+    subRows: "",
   },
   {
     id: 88,
@@ -7832,6 +8526,7 @@ export const dataAcuerdos2020 = [
     monthDoc: "DIC",
     nameDoc: "CQD-Q-CG-007-2020 MORENA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"88.pdf"}`),
+    subRows: "",
   },
   {
     id: 89,
@@ -7842,6 +8537,7 @@ export const dataAcuerdos2020 = [
     monthDoc: "DIC",
     nameDoc: "CQD-Q-CG-008-2020 PES TLAXCALA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"89.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -7858,11 +8554,13 @@ export const dataAcuerdos2020 = [
         typeDoc: "",
         nameDoc: "ANEXO ÚNICO LINEAMIENTOS DE PARIDAD DE GÉNERO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"90.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "ANEXO A LOS LINEAMIENTOS DE PARIDAD RESULTADOS ELECTORALES",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"90.2.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -7875,6 +8573,7 @@ export const dataAcuerdos2020 = [
     monthDoc: "DIC",
     nameDoc: "SE DA CUMPLIMIENTO A LA SENTENCIA TET-JE-055-2020",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2020/"}${"91.pdf"}`),
+    subRows: "",
   },
 ];
 export const dataAcuerdos2019 = [
@@ -7892,6 +8591,7 @@ export const dataAcuerdos2019 = [
         typeDoc: "",
         nameDoc: "ANEXO 1",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2019/"}${"1.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -7910,6 +8610,7 @@ export const dataAcuerdos2019 = [
         typeDoc: "",
         nameDoc: "ANEXO 1",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2019/"}${"2.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -7928,6 +8629,7 @@ export const dataAcuerdos2019 = [
         typeDoc: "",
         nameDoc: "ANEXO 1",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2019/"}${"3.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -7940,6 +8642,7 @@ export const dataAcuerdos2019 = [
     monthDoc: "FEB",
     nameDoc: "DELEGACIÓN DE ESTUDIOS DOCUMENTACIÓN ELECTORAL",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2019/"}${"4.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -7956,6 +8659,7 @@ export const dataAcuerdos2019 = [
         typeDoc: "",
         nameDoc: "ANEXO 1",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2019/"}${"5.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -7968,6 +8672,7 @@ export const dataAcuerdos2019 = [
     monthDoc: "FEB",
     nameDoc: "DESIGNACIÓN TITULARES ÁREA TÉCNICA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2019/"}${"6.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -7984,6 +8689,7 @@ export const dataAcuerdos2019 = [
         typeDoc: "",
         nameDoc: "RETENCIÓN DE MULTAS. ANEXO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2019/"}${"7.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -7996,6 +8702,7 @@ export const dataAcuerdos2019 = [
     monthDoc: "FEB",
     nameDoc: "INTEGRACIÓN COMISIONES",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2019/"}${"8.pdf"}`),
+    subRows: "",
   },
   {
     id: 9,
@@ -8006,6 +8713,7 @@ export const dataAcuerdos2019 = [
     monthDoc: "FEB",
     nameDoc: "COMITÉ DE ADQUISICIONES",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2019/"}${"9.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -8023,6 +8731,7 @@ export const dataAcuerdos2019 = [
         nameDoc:
           "VOTO PARTICULAR CUMPLIMIENTO SENT SALA REG PTE COMUNIDAD IXCOTLA",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2019/"}${"10.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -8035,6 +8744,7 @@ export const dataAcuerdos2019 = [
     monthDoc: "MAR",
     nameDoc: "RETENCIÓN POR RETIRO DE PROPAGANDA ELECTORAL",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2019/"}${"11.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -8051,6 +8761,7 @@ export const dataAcuerdos2019 = [
         typeDoc: "",
         nameDoc: "VOTO PARTICULAR",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2019/"}${"12.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -8069,6 +8780,7 @@ export const dataAcuerdos2019 = [
         typeDoc: "",
         nameDoc: "ANEXO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2019/"}${"13.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -8087,6 +8799,7 @@ export const dataAcuerdos2019 = [
         typeDoc: "",
         nameDoc: "ANEXO RESOLUCIÓN",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2019/"}${"14.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -8105,11 +8818,13 @@ export const dataAcuerdos2019 = [
         typeDoc: "",
         nameDoc: "ANEXO 1",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2019/"}${"15.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "ANEXO 2",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2019/"}${"15.2.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -8128,6 +8843,7 @@ export const dataAcuerdos2019 = [
         typeDoc: "",
         nameDoc: "ANEXO ÚNICO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2019/"}${"16.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -8146,6 +8862,7 @@ export const dataAcuerdos2019 = [
         typeDoc: "",
         nameDoc: "ANEXO ÚNICO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2019/"}${"17.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -8164,6 +8881,7 @@ export const dataAcuerdos2019 = [
         typeDoc: "",
         nameDoc: "ANEXO 1",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2019/"}${"18.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -8176,6 +8894,7 @@ export const dataAcuerdos2019 = [
     monthDoc: "MAY",
     nameDoc: "SE ADECÚAN COMISIONES",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2019/"}${"19.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -8192,6 +8911,7 @@ export const dataAcuerdos2019 = [
         typeDoc: "",
         nameDoc: "ANEXO REGLAMENTO INTERIOR DEL ITE",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2019/"}${"20.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -8210,6 +8930,7 @@ export const dataAcuerdos2019 = [
         typeDoc: "",
         nameDoc: "ANEXO REGLAMENTO JUNTA GENERAL",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2019/"}${"21.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -8228,6 +8949,7 @@ export const dataAcuerdos2019 = [
         typeDoc: "",
         nameDoc: "ANEXO MANUAL DE CONTROL DE BIENES",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2019/"}${"22.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -8246,6 +8968,7 @@ export const dataAcuerdos2019 = [
         typeDoc: "",
         nameDoc: "ANEXO MANUAL DE ORGANIZACIÓN",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2019/"}${"23.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -8253,20 +8976,21 @@ export const dataAcuerdos2019 = [
     id: 24,
     year: "2019",
     typeDoc: "ACUERDO",
-    dateDoc: "04-jul",
+    dateDoc: "04-JUL",
     numDoc: "ITE-CG 24-2019",
-    monthDoc: "jul",
+    monthDoc: "JUL",
     nameDoc: "INTEGRACIÓN DE COMISIÓN SPEN",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2019/"}${"24.pdf"}`),
+    subRows: "",
   },
 
   {
     id: 25,
     year: "2019",
     typeDoc: "RESOLUCIÓN",
-    dateDoc: "18-jul",
+    dateDoc: "18-JUL",
     numDoc: "ITE-CG 25-2019",
-    monthDoc: "jul",
+    monthDoc: "JUL",
     nameDoc: "DICTÁMENES DE IMPACTO SOCIAL SI",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2019/"}${"25.pdf"}`),
     subRows: [
@@ -8274,11 +8998,13 @@ export const dataAcuerdos2019 = [
         typeDoc: "",
         nameDoc: "ANEXO 1 INFORMES MENSUALES SOLICITUD DE REGISTRO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2019/"}${"25.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "ANEXO 2 INFORMES MENSUALES PROCEDENCIA DE REGISTRO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2019/"}${"25.2.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -8297,16 +9023,19 @@ export const dataAcuerdos2019 = [
         typeDoc: "",
         nameDoc: "ANEXO 1 DICTAMEN PARA EL OTORGAMIENTO DE INCENTIVOS 2019",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2019/"}${"26.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "ANEXO 2 DICTAMEN ACTUALIZADO DRH",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2019/"}${"26.2.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "ANEXO 3 DICTAMEN ACTUALIZADO JFPT",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2019/"}${"26.3.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -8325,11 +9054,13 @@ export const dataAcuerdos2019 = [
         typeDoc: "",
         nameDoc: "ANEXO PRESUPUESTO DE EGRESOS",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2019/"}${"27.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "VOTO CONCURRENTE",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2019/"}${"27.2.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -8342,6 +9073,7 @@ export const dataAcuerdos2019 = [
     monthDoc: "SEP",
     nameDoc: "COMITÉ DE IGUALDAD LABORAL",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2019/"}${"28.pdf"}`),
+    subRows: "",
   },
   {
     id: 29,
@@ -8352,6 +9084,7 @@ export const dataAcuerdos2019 = [
     monthDoc: "OCT",
     nameDoc: "RESOLUCIÓN DE LAS MODIFICACIONES DE LOS ESTATUTOS DEL PAC",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2019/"}${"29.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -8368,6 +9101,7 @@ export const dataAcuerdos2019 = [
         typeDoc: "",
         nameDoc: "ANEXO ÚNICO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2019/"}${"30.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -8386,6 +9120,7 @@ export const dataAcuerdos2019 = [
         typeDoc: "",
         nameDoc: "ANEXO ÚNICO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2019/"}${"31.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -8404,6 +9139,7 @@ export const dataAcuerdos2019 = [
         typeDoc: "",
         nameDoc: "ANEXO 1",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2019/"}${"32.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -8422,6 +9158,7 @@ export const dataAcuerdos2019 = [
         typeDoc: "",
         nameDoc: "VOTO PARTICULAR",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2019/"}${"33.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -8434,6 +9171,7 @@ export const dataAcuerdos2019 = [
     monthDoc: "OCT",
     nameDoc: "JGE",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2019/"}${"34.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -8450,11 +9188,13 @@ export const dataAcuerdos2019 = [
         typeDoc: "",
         nameDoc: "ANEXO 1 REGLAMENTO DE ADQUISICIONES ITE",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2019/"}${"35.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "VOTO CONCURRENTE",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2019/"}${"35.2.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -8473,6 +9213,7 @@ export const dataAcuerdos2019 = [
         typeDoc: "",
         nameDoc: "VOTO PARTICULAR",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2019/"}${"36.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -8485,6 +9226,7 @@ export const dataAcuerdos2019 = [
     monthDoc: "NOV",
     nameDoc: "NUEVA ALIANZA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2019/"}${"37.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -8501,6 +9243,7 @@ export const dataAcuerdos2019 = [
         typeDoc: "",
         nameDoc: "VOTO CONCURRENTE",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2019/"}${"38.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -8519,11 +9262,13 @@ export const dataAcuerdos2019 = [
         typeDoc: "",
         nameDoc: "VOTO CONCURRENTE",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2019/"}${"39.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "ANEXO 1 RENDIMIENTOS",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2019/"}${"39.2.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -8543,6 +9288,7 @@ export const dataAcuerdos2019 = [
         nameDoc:
           "ANEXO 1 REGLAMENTO DEL COMITÉ DE IGUALDAD DE GÉNERO Y LABORAL",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2019/"}${"40.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -8555,6 +9301,7 @@ export const dataAcuerdos2019 = [
     monthDoc: "DIC",
     nameDoc: "SISTEMA INSTITUCIONAL DE ARCHIVOS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2019/"}${"41.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -8571,6 +9318,7 @@ export const dataAcuerdos2019 = [
         typeDoc: "",
         nameDoc: "ANEXO 1 CÓDIGO DE CONDUCTA DE LAS Y LOS SERVIDORES PÚBLICOS",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2019/"}${"42.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -8589,6 +9337,7 @@ export const dataAcuerdos2019 = [
         typeDoc: "",
         nameDoc: "ANEXO 1 READECUACIÓN DEL PRESUPUESTO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2019/"}${"43.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -8601,8 +9350,10 @@ export const dataAcuerdos2019 = [
     monthDoc: "DIC",
     nameDoc: "OFICIO DE REQUERIMIENTO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2019/"}${"44.pdf"}`),
+    subRows: "",
   },
 ];
+
 export const dataAcuerdos2018 = [
   {
     id: 1,
@@ -8618,6 +9369,7 @@ export const dataAcuerdos2018 = [
         typeDoc: "",
         nameDoc: "ANEXO CONVOCATORIA OBSERVADORES ELECTORALES",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2018/"}${"1.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -8636,6 +9388,7 @@ export const dataAcuerdos2018 = [
         typeDoc: "",
         nameDoc: "ANEXO LISTADO DE NOTICIARIOS",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2018/"}${"2.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -8649,6 +9402,7 @@ export const dataAcuerdos2018 = [
     nameDoc:
       "ACUERDO POR EL QUE SE RESUELVE LA PROCEDENCIA DE MANIFESTACIONES DE INTENCIÓN CI PELO 2018",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2018/"}${"3.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -8666,18 +9420,21 @@ export const dataAcuerdos2018 = [
         typeDoc: "",
         nameDoc: "ANEXO ÚNICO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2018/"}${"4.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc:
           "VOTO CONCURRENTE CONSEJERA ELECTORAL DORA RODRÍGUEZ SORIANO 3",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2018/"}${"4.2.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc:
           "VOTO CONCURRENTE CONSEJERO ELECTORAL JUAN CARLOS MINOR MÁRQUEZ",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2018/"}${"4.3.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -8697,11 +9454,13 @@ export const dataAcuerdos2018 = [
         typeDoc: "",
         nameDoc: "ANEXO UNO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2018/"}${"5.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "ANEXO DOS",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2018/"}${"5.2.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -8722,6 +9481,7 @@ export const dataAcuerdos2018 = [
         nameDoc:
           "ANEXO ÚNICO LINEAMIENTOS CÓMPUTOS DISTRITALES Y ESTATAL DE LA ELECCIÓN DE DIPUTADOS LOCALES PELO 2018",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2018/"}${"6.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -8741,6 +9501,7 @@ export const dataAcuerdos2018 = [
         typeDoc: "",
         nameDoc: "ANEXO ÚNICO LINEAMIENTOS PARIDAD DE GÉNERO PELO 2018",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2018/"}${"7.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -8759,6 +9520,7 @@ export const dataAcuerdos2018 = [
         typeDoc: "",
         nameDoc: "CONVOCATORIA CONSEJOS DISTRITALES",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2018/"}${"8.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -8772,6 +9534,7 @@ export const dataAcuerdos2018 = [
     nameDoc:
       "RESOLUCIÓN A LA SOLICITUD DE REGISTRO DE CONVENIO DE COALICIÓN PAN PRD PAC PARA LA ELECCIÓN DE DIPUTADOS PELO 2018",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2018/"}${"9.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -8789,11 +9552,13 @@ export const dataAcuerdos2018 = [
         typeDoc: "",
         nameDoc: "VOTO CONCURRENTE DRA. DORA RODRÍGUEZ SORIANO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2018/"}${"10.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "VOTO PARTICULAR MTRA. YARELI ÁLVAREZ MEZA",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2018/"}${"10.2.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -8812,11 +9577,13 @@ export const dataAcuerdos2018 = [
         typeDoc: "",
         nameDoc: "PROCESO TÉCNICO OPERATIVO PREP 2018",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2018/"}${"11.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "VOTO RAZONADO MTRA. YARELI ÁLVAREZ MEZA",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2018/"}${"11.2.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -8830,6 +9597,7 @@ export const dataAcuerdos2018 = [
     nameDoc:
       "CUMPLIMIENTO SENTENCIA DICTADA DENTRO DEL EXPEDIENTE TET JDC 003 2018",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2018/"}${"12.pdf"}`),
+    subRows: "",
   },
   {
     id: 13,
@@ -8840,6 +9608,7 @@ export const dataAcuerdos2018 = [
     monthDoc: "FEB",
     nameDoc: "RESOLUCIÓN CANDIDATURA COMÚN PRI PVEM PANAL Y PS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2018/"}${"13.pdf"}`),
+    subRows: "",
   },
   {
     id: 14,
@@ -8851,6 +9620,7 @@ export const dataAcuerdos2018 = [
     nameDoc:
       "ACUERDO AJUSTE DE PLAZO PARA VERIFICACIÓN DE APOYO CIUDADANO ASPIRANTES A CANDIDATOS INDEPENDIENTES",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2018/"}${"14.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -8868,6 +9638,7 @@ export const dataAcuerdos2018 = [
         typeDoc: "",
         nameDoc: "VOTO CONCURRENTE CONSEJERA YARELI ÁLVAREZ MEZA",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2018/"}${"15.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -8887,6 +9658,7 @@ export const dataAcuerdos2018 = [
         nameDoc:
           "VOTO PARTICULAR CONSEJERO ELECTORAL JUAN CARLOS MINOR MÁRQUEZ",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2018/"}${"16.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -8905,6 +9677,7 @@ export const dataAcuerdos2018 = [
         typeDoc: "",
         nameDoc: "MANUAL DE REGISTRO DE CANDIDATOS ITE 2018",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2018/"}${"17.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -8923,6 +9696,7 @@ export const dataAcuerdos2018 = [
         typeDoc: "",
         nameDoc: "LINEAMIENTOS DEBATES",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2018/"}${"18.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -8942,6 +9716,7 @@ export const dataAcuerdos2018 = [
         typeDoc: "",
         nameDoc: "REGLAMENTO TRANSPARENCIA",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2018/"}${"19.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -8961,6 +9736,7 @@ export const dataAcuerdos2018 = [
         nameDoc:
           "REGLAMENTO PARA LA CLASIFICACIÓN Y DESCLASIFICACIÓN DE LA INFORMACIÓN DEL INSTITUTO TLAXCALTECA DE ELECCIONES FINAL",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2018/"}${"20.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -8980,6 +9756,7 @@ export const dataAcuerdos2018 = [
         nameDoc:
           "LINEAMIENTOS PARA LA PROTECCIÓN DE DATOS PERSONALES EN POSESIÓN DEL INSTITUTO TLAXCALTECA DE ELECCIONES",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2018/"}${"21.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -8999,11 +9776,13 @@ export const dataAcuerdos2018 = [
         nameDoc:
           "VOTO CONCURRENTE CONSEJERO ELECTORAL JUAN CARLOS MINOR MÁRQUEZ",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2018/"}${"22.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "VOTO PARTICULAR CONSEJERA ELECTORAL YARELI ÁLVAREZ MEZA",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2018/"}${"22.2.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -9023,11 +9802,13 @@ export const dataAcuerdos2018 = [
         nameDoc:
           "VOTO CONCURRENTE CONSEJERO ELECTORAL JUAN CARLOS MINOR MÁRQUEZ",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2018/"}${"23.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "VOTO PARTICULAR CONSEJERA ELECTORAL YARELI ÁLVAREZ MEZA",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2018/"}${"23.2.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -9046,6 +9827,7 @@ export const dataAcuerdos2018 = [
         typeDoc: "",
         nameDoc: "VOTO RAZONADO CONSEJERA ELECTORAL YARELI ÁLVAREZ MEZA",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2018/"}${"24.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -9058,6 +9840,7 @@ export const dataAcuerdos2018 = [
     monthDoc: "MAR",
     nameDoc: "ACUERDO PLATAFORMA ELECTORAL PT",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2018/"}${"25.pdf"}`),
+    subRows: "",
   },
   {
     id: 26,
@@ -9068,6 +9851,7 @@ export const dataAcuerdos2018 = [
     monthDoc: "MAR",
     nameDoc: "ACUERDO PLATAFORMA ELECTORAL MC",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2018/"}${"26.pdf"}`),
+    subRows: "",
   },
   {
     id: 27,
@@ -9078,6 +9862,7 @@ export const dataAcuerdos2018 = [
     monthDoc: "MAR",
     nameDoc: "ACUERDO PLATAFORMA ELECTORAL PAC",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2018/"}${"27.pdf"}`),
+    subRows: "",
   },
   {
     id: 28,
@@ -9088,6 +9873,7 @@ export const dataAcuerdos2018 = [
     monthDoc: "MAR",
     nameDoc: "ACUERDO PLATAFORMA ELECTORAL MORENA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2018/"}${"28.pdf"}`),
+    subRows: "",
   },
   {
     id: 29,
@@ -9098,6 +9884,7 @@ export const dataAcuerdos2018 = [
     monthDoc: "MAR",
     nameDoc: "ACUERDO PLATAFORMA ELECTORAL PES",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2018/"}${"29.pdf"}`),
+    subRows: "",
   },
   {
     id: 30,
@@ -9108,6 +9895,7 @@ export const dataAcuerdos2018 = [
     monthDoc: "MAR",
     nameDoc: "ACUERDO SOBRE CUMPLIMIENTO DEL PORCENTAJE APOYO CIUDADANO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2018/"}${"30.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -9124,6 +9912,7 @@ export const dataAcuerdos2018 = [
         typeDoc: "",
         nameDoc: "VOTO RAZONADO CONSEJERA YARELI ÁLVAREZ MEZA",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2018/"}${"31.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -9137,6 +9926,7 @@ export const dataAcuerdos2018 = [
     nameDoc:
       "ACUERDO POR EL QUE SE DESIGNA AL PERSONAL AUTORIZADO PARA ACCEDER A LA BODEGA ELECTORAL",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2018/"}${"32.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -9155,11 +9945,13 @@ export const dataAcuerdos2018 = [
         nameDoc:
           "VOTO CONCURRENTE CONSEJERO ELECTORAL JUAN CARLOS MINOR MÁRQUEZ",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2018/"}${"33.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "VOTO RAZONADO CONSEJERA YARELI ÁLVAREZ MEZA",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2018/"}${"33.2.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -9179,11 +9971,13 @@ export const dataAcuerdos2018 = [
         typeDoc: "",
         nameDoc: "VOTO CONCURRENTE CONSEJERO JUAN CARLOS MINOR MÁRQUEZ",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2018/"}${"34.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "VOTO RAZONADO CONSEJERA YARELI ÁLVAREZ MEZA",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2018/"}${"34.2.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -9197,6 +9991,7 @@ export const dataAcuerdos2018 = [
     nameDoc:
       "RESOLUCIÓN REGISTRO DE CANDIDATOS MAYORÍA RELATIVA CANDIDATURA COMÚN PRI, PVEM, PANAL Y PS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2018/"}${"35.pdf"}`),
+    subRows: "",
   },
   {
     id: 36,
@@ -9208,6 +10003,7 @@ export const dataAcuerdos2018 = [
     nameDoc:
       "RESOLUCIÓN REGISTRO DE CANDIDATURAS INDEPENDIENTES A DIPUTADOS LOCALES",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2018/"}${"36.pdf"}`),
+    subRows: "",
   },
   {
     id: 37,
@@ -9218,6 +10014,7 @@ export const dataAcuerdos2018 = [
     monthDoc: "ABR",
     nameDoc: "RESOLUCIÓN REGISTRO DE CANDIDATOS PT MAYORÍA Y RP",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2018/"}${"37.pdf"}`),
+    subRows: "",
   },
   {
     id: 38,
@@ -9228,6 +10025,7 @@ export const dataAcuerdos2018 = [
     monthDoc: "ABR",
     nameDoc: "RESOLUCIÓN REGISTRO DE CANDIDATOS MC MAYORÍA RELATIVA Y RP",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2018/"}${"38.pdf"}`),
+    subRows: "",
   },
   {
     id: 39,
@@ -9238,6 +10036,7 @@ export const dataAcuerdos2018 = [
     monthDoc: "ABR",
     nameDoc: "RESOLUCIÓN REGISTRO DE CANDIDATOS PANAL MAYORÍA RELATIVA Y RP",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2018/"}${"39.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -9254,6 +10053,7 @@ export const dataAcuerdos2018 = [
         typeDoc: "",
         nameDoc: "VOTO CONCURRENTE CONSEJERO JUAN CARLOS MINOR MÁRQUEZ",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2018/"}${"40.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -9266,6 +10066,7 @@ export const dataAcuerdos2018 = [
     monthDoc: "ABR",
     nameDoc: "RESOLUCIÓN REGISTRO DE CANDIDATOS PES MAYORÍA Y RP",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2018/"}${"41.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -9282,11 +10083,13 @@ export const dataAcuerdos2018 = [
         typeDoc: "",
         nameDoc: "VOTO CONCURRENTE CONSEJERA YARELI ÁLVAREZ MEZA",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2018/"}${"42.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "VOTO CONCURRENTE CONSEJERO JUAN CARLOS MINOR MÁRQUEZ",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2018/"}${"42.2.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -9299,6 +10102,7 @@ export const dataAcuerdos2018 = [
     monthDoc: "ABR",
     nameDoc: "RESOLUCIÓN REGISTRO DE CANDIDATOS PRI RP",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2018/"}${"43.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -9315,12 +10119,14 @@ export const dataAcuerdos2018 = [
         typeDoc: "",
         nameDoc: "VOTO CONCURRENTE CONSEJERA YARELI ÁLVAREZ MEZA",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2018/"}${"44.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc:
           "VOTO CONCURRENTE CONSEJERO JUAN CARLOS MINOR MÁRQUEZ PROYECTO DE RESOLUCIÓN PRD RP",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2018/"}${"44.2.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -9333,6 +10139,7 @@ export const dataAcuerdos2018 = [
     monthDoc: "ABR",
     nameDoc: "REGISTRO DE CANDIDATOS PVEM",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2018/"}${"45.pdf"}`),
+    subRows: "",
   },
   {
     id: 46,
@@ -9343,6 +10150,7 @@ export const dataAcuerdos2018 = [
     monthDoc: "ABR",
     nameDoc: "REGISTRO DE CANDIDATOS PAC RP",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2018/"}${"46.pdf"}`),
+    subRows: "",
   },
   {
     id: 47,
@@ -9353,6 +10161,7 @@ export const dataAcuerdos2018 = [
     monthDoc: "ABR",
     nameDoc: "REGISTRO DE CANDIDATOS PS RP",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2018/"}${"47.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -9369,6 +10178,7 @@ export const dataAcuerdos2018 = [
         typeDoc: "",
         nameDoc: "ANEXO 1 READECUACIÓN AL PRESUPUESTO 2018 ISR",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2018/"}${"48.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -9387,11 +10197,13 @@ export const dataAcuerdos2018 = [
         typeDoc: "",
         nameDoc: "ANEXO 1 READECUACIÓN AL PRESUPUESTO 2018",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2018/"}${"49.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "VOTO RAZONADO CONSEJERA YARELI ÁLVAREZ MEZA",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2018/"}${"49.2.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -9404,6 +10216,7 @@ export const dataAcuerdos2018 = [
     monthDoc: "ABR",
     nameDoc: "DESIGNACIÓN E INCORPORACIÓN SPEN SISTEMA OPLE",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2018/"}${"50.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -9420,6 +10233,7 @@ export const dataAcuerdos2018 = [
         typeDoc: "",
         nameDoc: "VOTO RAZONADO CONSEJERA YARELI ÁLVAREZ MEZA",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2018/"}${"51.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -9432,6 +10246,7 @@ export const dataAcuerdos2018 = [
     monthDoc: "ABR",
     nameDoc: "POR LOS PRINCIPIOS DE MAYORÍA RELATIVA Y RP PES",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2018/"}${"52.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -9448,6 +10263,7 @@ export const dataAcuerdos2018 = [
         typeDoc: "",
         nameDoc: "VOTO RAZONADO CONSEJERA YARELI ÁLVAREZ MEZA",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2018/"}${"53.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -9461,6 +10277,7 @@ export const dataAcuerdos2018 = [
     nameDoc:
       "DISEÑO Y MODELOS DEFINITIVOS DE DOCUMENTACIÓN Y MATERIAL ELECTORAL",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2018/"}${"54.pdf"}`),
+    subRows: "",
   },
   {
     id: 55,
@@ -9471,6 +10288,7 @@ export const dataAcuerdos2018 = [
     monthDoc: "ABR",
     nameDoc: "SUSTITUCIONES DE CONSEJOS DISTRITALES 10 Y 15",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2018/"}${"55.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -9483,6 +10301,7 @@ export const dataAcuerdos2018 = [
     nameDoc:
       "ACUERDO POR EL QUE APRUEBA EL CÁLCULO DEL MONTO DE FINANCIAMIENTO PÚBLICO PARA LA OBTENCIÓN DEL VOTO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2018/"}${"60.pdf"}`),
+    subRows: "",
   },
   {
     id: 61,
@@ -9494,6 +10313,7 @@ export const dataAcuerdos2018 = [
     nameDoc:
       "ACUERDO POR EL QUE SE APRUEBAN LOS CRITERIOS RELATIVOS A LOS CIERRES DE CAMPAÑA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2018/"}${"61.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -9511,6 +10331,7 @@ export const dataAcuerdos2018 = [
         typeDoc: "",
         nameDoc: "MODELO OPERATIVO RECEPCIÓN DE PAQUETES ELECTORALES 2018",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2018/"}${"62.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -9524,6 +10345,7 @@ export const dataAcuerdos2018 = [
     nameDoc:
       "ACUERDO POR EL QUE SE APRUEBAN LAS MEDIDAS DE SEGURIDAD QUE CONTENDRÁN LAS BOLETAS ELECTORALES, ASÍ COMO LA DETERMINACIÓN DE FECHA LÍMITE EN QUE SE PODRÁN MODIFICAR",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2018/"}${"63.pdf"}`),
+    subRows: "",
   },
   {
     id: 64,
@@ -9535,6 +10357,7 @@ export const dataAcuerdos2018 = [
     nameDoc:
       "ACUERDO POR EL QUE SE DA RESPUESTA AL ESCRITO PRESENTADO POR LA LICENCIADA LAURA YAMILI FLORES LOZANO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2018/"}${"64.pdf"}`),
+    subRows: "",
   },
   {
     id: 65,
@@ -9546,6 +10369,7 @@ export const dataAcuerdos2018 = [
     nameDoc:
       "ACUERDO POR EL QUE SE DA RESPUESTA AL OFICIO PRESENTADO POR LA LICENCIADA ROSALÍA PEREDO AGUILAR",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2018/"}${"65.pdf"}`),
+    subRows: "",
   },
   {
     id: 66,
@@ -9557,6 +10381,7 @@ export const dataAcuerdos2018 = [
     nameDoc:
       "ACUERDO POR EL QUE SE DA CUMPLIMIENTO A LA SENTENCIA DICTADA POR EL TET EXPEDIENTE TET JDC 023 2018 Y ACUMULADO TET JDC 024 2018.",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2018/"}${"66.pdf"}`),
+    subRows: "",
   },
   {
     id: 67,
@@ -9568,6 +10393,7 @@ export const dataAcuerdos2018 = [
     nameDoc:
       "RESOLUCIÓN RESPECTO DE LAS SUSTITUCIONES DE CANDIDATAS Y CANDIDATOS AL CARGO DE DIPUTADAS Y DIPUTADOS LOCALES",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2018/"}${"67.pdf"}`),
+    subRows: "",
   },
   {
     id: 68,
@@ -9579,6 +10405,7 @@ export const dataAcuerdos2018 = [
     nameDoc:
       "ACUERDO POR EL QUE SE APRUEBA EL CAMBIO DE EMBLEMA DEL CANDIDATO INDEPENDIENTE",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2018/"}${"68.pdf"}`),
+    subRows: "",
   },
   {
     id: 69,
@@ -9590,6 +10417,7 @@ export const dataAcuerdos2018 = [
     nameDoc:
       "RESOLUCIÓN SUSTITUCIONES DE CANDIDATAS Y CANDIDATOS AL CARGO DE DIPUTADAS Y DIPUTADOS LOCALES",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2018/"}${"69.pdf"}`),
+    subRows: "",
   },
   {
     id: 70,
@@ -9600,6 +10428,7 @@ export const dataAcuerdos2018 = [
     monthDoc: "MAY",
     nameDoc: "ACUERDO NO INCLUSIÓN DE NOMBRES E INCLUSIÓN DE SOBRENOMBRES",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2018/"}${"70.pdf"}`),
+    subRows: "",
   },
   {
     id: 71,
@@ -9610,6 +10439,7 @@ export const dataAcuerdos2018 = [
     monthDoc: "JUN",
     nameDoc: "RESOLUCIÓN DE SUSTITUCIÓN MOVIMIENTO CIUDADANO DISTRITO 06",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2018/"}${"71.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -9628,6 +10458,7 @@ export const dataAcuerdos2018 = [
         nameDoc:
           "ANEXO POR EL QUE SE DESIGNA AL PERSONAL AUTORIZADO PARA EL CONTEO, SELLADO Y AGRUPAMIENTO DE LAS BOLETAS ELECTORALES",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2018/"}${"72.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -9641,6 +10472,7 @@ export const dataAcuerdos2018 = [
     nameDoc:
       "ACUERDO POR EL QUE SE APRUEBA LA REUBICACIÓN DEL CATD DISTRITO 08",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2018/"}${"73.pdf"}`),
+    subRows: "",
   },
   {
     id: 74,
@@ -9652,6 +10484,7 @@ export const dataAcuerdos2018 = [
     nameDoc:
       "RESOLUCIÓN RESPECTO DE LA SUSTITUCIÓN DE LA CANDIDATA PROPIETARIA AL CARGO DE DIPUTADA LOCAL POR EL PRINCIPIO DE RP CON ORDEN DE PRELACIÓN UNO PANAL",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2018/"}${"74.pdf"}`),
+    subRows: "",
   },
   {
     id: 75,
@@ -9663,6 +10496,7 @@ export const dataAcuerdos2018 = [
     nameDoc:
       "ACUERDO POR EL QUE SE APRUEBA LA SUSTITUCIÓN DE CONSEJEROS SUPLENTES DE LOS C D 04, 08 Y 13",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2018/"}${"75.pdf"}`),
+    subRows: "",
   },
   {
     id: 76,
@@ -9674,6 +10508,7 @@ export const dataAcuerdos2018 = [
     nameDoc:
       "ACUERDO POR EL QUE SE APRUEBA LA SUSTITUCIÓN DE INTEGRANTES DEL CONSEJO DISTRITAL 04, CON CABECERA EN APIZACO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2018/"}${"76.pdf"}`),
+    subRows: "",
   },
   {
     id: 77,
@@ -9685,6 +10520,7 @@ export const dataAcuerdos2018 = [
     nameDoc:
       "ACUERDO POR EL QUE SE APRUEBA LA DESIGNACIÓN DE LAS MEDIDAS DE SEGURIDAD EN LAS BOLETAS ELECTORALES",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2018/"}${"77.pdf"}`),
+    subRows: "",
   },
   {
     id: 78,
@@ -9696,6 +10532,7 @@ export const dataAcuerdos2018 = [
     nameDoc:
       "POR EL QUE SE APRUEBA LA REIMPRESIÓN Y MEDIDAS DE SEGURIDAD DE LAS BOLETAS ELECTORALES QUE SE UTILIZARÁN EN LA SECCIÓN 79, CASILLA BÁSICA 1 CALPULALPAN",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2018/"}${"78.pdf"}`),
+    subRows: "",
   },
   {
     id: 79,
@@ -9707,6 +10544,7 @@ export const dataAcuerdos2018 = [
     nameDoc:
       "RESOLUCIÓN RESPECTO DE LAS SUSTITUCIONES DE LOS CANDIDATOS A DIPUTADOS SUPLENTES POR EL PRD",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2018/"}${"79.pdf"}`),
+    subRows: "",
   },
   {
     id: 80,
@@ -9718,6 +10556,7 @@ export const dataAcuerdos2018 = [
     nameDoc:
       "RESOLUCIÓN RESPECTO DE LA SUSTITUCIÓN DE LA CANDIDATA SUPLENTE AL CARGO DE DIPUTADA LOCAL POR EL PRINCIPIO DE MR EN EL DISTRITO 02 CON CABECERA EN TLAXCO DE MORELOS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2018/"}${"80.pdf"}`),
+    subRows: "",
   },
   {
     id: 81,
@@ -9729,6 +10568,7 @@ export const dataAcuerdos2018 = [
     nameDoc:
       "ACUERDO POR EL QUE SE HABILITA AL PERSONAL PARA LA IMPLEMENTACIÓN Y OPERACIÓN, DEL “MODELO OPERATIVO DE RECEPCIÓN DE LOS PAQUETES ELECTORALES",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2018/"}${"81.pdf"}`),
+    subRows: "",
   },
   {
     id: 82,
@@ -9740,6 +10580,7 @@ export const dataAcuerdos2018 = [
     nameDoc:
       "ACUERDO POR EL QUE SE DA RESPUESTA A LA SOLICITUD REALIZADA POR LA CIUDADANA MA. BEATRIZ MUÑOZ AGUILAR, INTEGRANTE DEL COMITÉ DIRECTIVO NACIONAL DE ENCUENTRO SOCIAL",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2018/"}${"82.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -9757,6 +10598,7 @@ export const dataAcuerdos2018 = [
         nameDoc:
           "ANEXO POR EL QUE SE DESIGNA PERSONAL QUE FUNGIRÁ COMO ENLACES DE COMUNICACIÓN Y RESPONSABLES DE TRASLADO, ENTREGA, RECEPCIÓN E INTERCAMBIO DE PAQUETES ELECTORALES",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2018/"}${"83.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -9775,6 +10617,7 @@ export const dataAcuerdos2018 = [
         typeDoc: "",
         nameDoc: "ANEXO PROCEDIMIENTO RETIRO DE PROPAGANDA 2018",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2018/"}${"85.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -9794,6 +10637,7 @@ export const dataAcuerdos2018 = [
         typeDoc: "",
         nameDoc: "ANEXO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2018/"}${"86.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -9813,6 +10657,7 @@ export const dataAcuerdos2018 = [
         typeDoc: "",
         nameDoc: "ANEXO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2018/"}${"87.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -9826,6 +10671,7 @@ export const dataAcuerdos2018 = [
     nameDoc:
       "SE DECLARA LA INTEGRACIÓN DE LA LXIII LEGISLATURA, DEL CONGRESO DEL ESTADO LIBRE Y SOBERANO DE TLAXCALA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2018/"}${"88.pdf"}`),
+    subRows: "",
   },
   {
     id: 89,
@@ -9837,6 +10683,7 @@ export const dataAcuerdos2018 = [
     nameDoc:
       "PROCEDIMIENTO ORDINARIO SANCIONADOR CON NÚMERO DE EXPEDIENTE CQDCACG0012018",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2018/"}${"89.pdf"}`),
+    subRows: "",
   },
   {
     id: 90,
@@ -9848,6 +10695,7 @@ export const dataAcuerdos2018 = [
     nameDoc:
       "PROCEDIMIENTO ORDINARIO SANCIONADOR CON NÚMERO DE EXPEDIENTE CQDQNSPHCG0022018",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2018/"}${"90.pdf"}`),
+    subRows: "",
   },
   {
     id: 91,
@@ -9858,6 +10706,7 @@ export const dataAcuerdos2018 = [
     monthDoc: "SEP",
     nameDoc: "INTEGRACIÓN DE LA JUNTA GENERAL",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2018/"}${"91.pdf"}`),
+    subRows: "",
   },
   {
     id: 92,
@@ -9868,6 +10717,7 @@ export const dataAcuerdos2018 = [
     monthDoc: "SEP",
     nameDoc: "INTEGRACIÓN DE COMISIONES",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2018/"}${"92.pdf"}`),
+    subRows: "",
   },
   {
     id: 93,
@@ -9878,6 +10728,7 @@ export const dataAcuerdos2018 = [
     monthDoc: "SEP",
     nameDoc: "SE DECLARA LA CANCELACIÓN DE LA ACREDITACIÓN DE PANAL Y PES",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2018/"}${"93.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -9894,16 +10745,19 @@ export const dataAcuerdos2018 = [
         typeDoc: "",
         nameDoc: "ANEXO 1 AO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2018/"}${"94.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "ANEXO 2 AE",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2018/"}${"94.2.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "ANEXO 3 PRESUPUESTO 2019",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2018/"}${"94.3.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -9922,6 +10776,7 @@ export const dataAcuerdos2018 = [
         typeDoc: "",
         nameDoc: "ANEXO ÚNICO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2018/"}${"95.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -9934,6 +10789,7 @@ export const dataAcuerdos2018 = [
     monthDoc: "OCT",
     nameDoc: "DESTRUCCIÓN DE MATERIAL ELECTORAL",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2018/"}${"96.pdf"}`),
+    subRows: "",
   },
   {
     id: 97,
@@ -9944,6 +10800,7 @@ export const dataAcuerdos2018 = [
     monthDoc: "NOV",
     nameDoc: "OFICIO PRESENTADO POR NUEVA ALIANZA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2018/"}${"97.pdf"}`),
+    subRows: "",
   },
   {
     id: 98,
@@ -9954,6 +10811,7 @@ export const dataAcuerdos2018 = [
     monthDoc: "NOV",
     nameDoc: "ESCRITO PRESENTADO POR ENCUENTRO SOCIAL",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2018/"}${"98.pdf"}`),
+    subRows: "",
   },
   {
     id: 99,
@@ -9964,6 +10822,7 @@ export const dataAcuerdos2018 = [
     monthDoc: "NOV",
     nameDoc: "ADECUACIÓN DE COMISIONES",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2018/"}${"99.pdf"}`),
+    subRows: "",
   },
   {
     id: 100,
@@ -9974,6 +10833,7 @@ export const dataAcuerdos2018 = [
     monthDoc: "NOV",
     nameDoc: "DESIGNACIÓN DE DIRECTORA DOECYEC",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2018/"}${"100.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -9990,6 +10850,7 @@ export const dataAcuerdos2018 = [
         typeDoc: "",
         nameDoc: "ANEXO ÚNICO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2018/"}${"101.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -10008,10 +10869,12 @@ export const dataAcuerdos2018 = [
         typeDoc: "",
         nameDoc: "ANEXO ÚNICO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2018/"}${"102.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
 ];
+
 export const dataAcuerdos2017 = [
   {
     id: 1,
@@ -10027,6 +10890,7 @@ export const dataAcuerdos2017 = [
         typeDoc: "",
         nameDoc: "ANEXO 1",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2017/"}${"1.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -10040,6 +10904,7 @@ export const dataAcuerdos2017 = [
     nameDoc:
       "DESIGNACIÓN DEL RESPONSABLE DE ARCHIVOS E INTEGRACIÓN DEL COMITÉ TÉCNICO DE ARCHIVOS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2017/"}${"2.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -10058,6 +10923,7 @@ export const dataAcuerdos2017 = [
         nameDoc:
           "ANEXO 1 LINEAMIENTOS PARA LA DESTRUCCIÓN DE MATERIAL ELECTORAL",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2017/"}${"3.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -10077,6 +10943,7 @@ export const dataAcuerdos2017 = [
         typeDoc: "",
         nameDoc: "ANEXO ÚNICO PERSONAL AUTORIZADO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2017/"}${"4.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -10089,6 +10956,7 @@ export const dataAcuerdos2017 = [
     monthDoc: "FEB",
     nameDoc: "DESIGNACIÓN DEL DIRECTOR DE ASUNTOS JURÍDICOS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2017/"}${"5.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -10106,6 +10974,7 @@ export const dataAcuerdos2017 = [
         typeDoc: "",
         nameDoc: "ANEXO 1",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2017/"}${"6.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -10124,6 +10993,7 @@ export const dataAcuerdos2017 = [
         typeDoc: "",
         nameDoc: "ANEXO CALENDARIO PROCESO ELECTORAL EXTRAORDINARIO 2017",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2017/"}${"7.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -10137,6 +11007,7 @@ export const dataAcuerdos2017 = [
     nameDoc:
       "PRORROGA DE VIGENCIA DE ACUERDOS PARA EL PROCESO ELECTORAL EXTRAORDINARIO 2017",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2017/"}${"8.pdf"}`),
+    subRows: "",
   },
   {
     id: 9,
@@ -10148,6 +11019,7 @@ export const dataAcuerdos2017 = [
     nameDoc:
       "COMISIONES TEMPORALES SEGUIMIENTO A SISTEMAS INFORMÁTICOS Y DEBATES",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2017/"}${"9.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -10165,6 +11037,7 @@ export const dataAcuerdos2017 = [
         typeDoc: "",
         nameDoc: "ANEXO CONVOCATORIA INDEPENDIENTES 2017",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2017/"}${"10.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -10177,6 +11050,7 @@ export const dataAcuerdos2017 = [
     monthDoc: "MAR",
     nameDoc: "MULTAS PARTIDO ALIANZA CIUDADANA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2017/"}${"11.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -10193,6 +11067,7 @@ export const dataAcuerdos2017 = [
         typeDoc: "",
         nameDoc: "ANEXO DICTAMEN CPPPAYF",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2017/"}${"12.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -10211,6 +11086,7 @@ export const dataAcuerdos2017 = [
         typeDoc: "",
         nameDoc: "ANEXO DICTAMEN CPPPAYF",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2017/"}${"13.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -10229,6 +11105,7 @@ export const dataAcuerdos2017 = [
         typeDoc: "",
         nameDoc: "ANEXO DICTAMEN CPPPAYF",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2017/"}${"14.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -10247,6 +11124,7 @@ export const dataAcuerdos2017 = [
         typeDoc: "",
         nameDoc: "ANEXO DICTAMEN CPPPAYF",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2017/"}${"15.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -10265,6 +11143,7 @@ export const dataAcuerdos2017 = [
         typeDoc: "",
         nameDoc: "ANEXO DICTAMEN CPPPAYF",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2017/"}${"16.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -10283,6 +11162,7 @@ export const dataAcuerdos2017 = [
         typeDoc: "",
         nameDoc: "ANEXO VOTO RAZONADO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2017/"}${"17.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -10295,6 +11175,7 @@ export const dataAcuerdos2017 = [
     monthDoc: "MAR",
     nameDoc: "LISTADO ADICIONAL LA PROVIDENCIA SANCTORUM DE LÁZARO CÁRDENAS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2017/"}${"18.pdf"}`),
+    subRows: "",
   },
   {
     id: 19,
@@ -10306,6 +11187,7 @@ export const dataAcuerdos2017 = [
     nameDoc:
       "DOCUMENTACIÓN Y MATERIAL ELECTORAL PROCESO ELECTORAL EXTRAORDINARIO 2017.",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2017/"}${"19.pdf"}`),
+    subRows: "",
   },
   {
     id: 20,
@@ -10317,6 +11199,7 @@ export const dataAcuerdos2017 = [
     nameDoc:
       "EN EL QUE SE DETERMINA OMITIR LA INTEGRACIÓN DE CONSEJOS MUNICIPALES",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2017/"}${"20.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -10334,6 +11217,7 @@ export const dataAcuerdos2017 = [
         nameDoc:
           "ANEXO PROGRAMA DE PROMOCIÓN DEL VOTO EN LAS ELECCIONES EXTRAORDINARIAS 2017.",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2017/"}${"21.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -10352,16 +11236,19 @@ export const dataAcuerdos2017 = [
         typeDoc: "",
         nameDoc: "ANEXO 1",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2017/"}${"22.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "ANEXO 2",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2017/"}${"22.2.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "ANEXO 3",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2017/"}${"22.3.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -10375,6 +11262,7 @@ export const dataAcuerdos2017 = [
     nameDoc:
       "DETERMINACIÓN FECHAS Y HORAS DE INICIO Y CIERRE DE PUBLICACIÓN PREP",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2017/"}${"23.pdf"}`),
+    subRows: "",
   },
   {
     id: 24,
@@ -10385,6 +11273,7 @@ export const dataAcuerdos2017 = [
     monthDoc: "ABR",
     nameDoc: "TOPE DE GASTOS DE CAMPAÑA PROCESO ELECTORAL EXTRAORDINARIO 2017.",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2017/"}${"24.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -10401,6 +11290,7 @@ export const dataAcuerdos2017 = [
         typeDoc: "",
         nameDoc: "ANEXO MANUAL DE REGISTRO DE CANDIDATOS P.E.E. 2017",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2017/"}${"25.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -10413,6 +11303,7 @@ export const dataAcuerdos2017 = [
     monthDoc: "MAY",
     nameDoc: "PARA DESIGNACIÓN DE AUTORIDADES PARA SERVICIO PROFESIONAL",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2017/"}${"26.pdf"}`),
+    subRows: "",
   },
   {
     id: 27,
@@ -10423,6 +11314,7 @@ export const dataAcuerdos2017 = [
     monthDoc: "MAY",
     nameDoc: "PROGRAMA DE GOBIERNO COMÚN PAN",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2017/"}${"27.pdf"}`),
+    subRows: "",
   },
   {
     id: 28,
@@ -10433,6 +11325,7 @@ export const dataAcuerdos2017 = [
     monthDoc: "MAY",
     nameDoc: "PROGRAMA DE GOBIERNO COMÚN PRI",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2017/"}${"28.pdf"}`),
+    subRows: "",
   },
   {
     id: 29,
@@ -10443,6 +11336,7 @@ export const dataAcuerdos2017 = [
     monthDoc: "MAY",
     nameDoc: "PROGRAMA DE GOBIERNO COMÚN PRD",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2017/"}${"29.pdf"}`),
+    subRows: "",
   },
   {
     id: 30,
@@ -10453,6 +11347,7 @@ export const dataAcuerdos2017 = [
     monthDoc: "MAY",
     nameDoc: "PROGRAMA DE GOBIERNO COMÚN PT",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2017/"}${"30.pdf"}`),
+    subRows: "",
   },
   {
     id: 31,
@@ -10463,6 +11358,7 @@ export const dataAcuerdos2017 = [
     monthDoc: "MAY",
     nameDoc: "PROGRAMA DE GOBIERNO COMÚN PAC",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2017/"}${"31.pdf"}`),
+    subRows: "",
   },
   {
     id: 32,
@@ -10473,6 +11369,7 @@ export const dataAcuerdos2017 = [
     monthDoc: "MAY",
     nameDoc: "PROGRAMA DE GOBIERNO COMÚN PS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2017/"}${"32.pdf"}`),
+    subRows: "",
   },
   {
     id: 33,
@@ -10483,6 +11380,7 @@ export const dataAcuerdos2017 = [
     monthDoc: "MAY",
     nameDoc: "PROGRAMA DE GOBIERNO COMÚN MORENA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2017/"}${"33.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -10499,6 +11397,7 @@ export const dataAcuerdos2017 = [
         typeDoc: "",
         nameDoc: "ANEXO DICTAMEN SISTEMAS INFORMÁTICOS",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2017/"}${"34.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -10517,11 +11416,13 @@ export const dataAcuerdos2017 = [
         typeDoc: "",
         nameDoc: "ANEXO MODELO OPERATIVO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2017/"}${"35.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "ANEXO RECIBO DE ENTREGA DEL PAQUETE ELECTORAL AL CG",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2017/"}${"35.2.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -10542,6 +11443,7 @@ export const dataAcuerdos2017 = [
         nameDoc:
           "ANEXO ESTRATEGIA DOCUMENTACIÓN ELECTORAL PROCESO EXTRAORDINARIO 2017",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2017/"}${"36.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -10560,6 +11462,7 @@ export const dataAcuerdos2017 = [
         typeDoc: "",
         nameDoc: "ANEXO VOTO CONCURRENTE",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2017/"}${"37.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -10572,6 +11475,7 @@ export const dataAcuerdos2017 = [
     monthDoc: "MAY",
     nameDoc: "REQUERIMIENTO PARIDAD PT",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2017/"}${"38.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -10588,6 +11492,7 @@ export const dataAcuerdos2017 = [
         typeDoc: "",
         nameDoc: "ANEXO VOTOS PARTICULARES",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2017/"}${"39.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -10600,6 +11505,7 @@ export const dataAcuerdos2017 = [
     monthDoc: "MAY",
     nameDoc: "PRESIDENCIAS DE COMUNIDAD PRI",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2017/"}${"40.pdf"}`),
+    subRows: "",
   },
   {
     id: 41,
@@ -10610,6 +11516,7 @@ export const dataAcuerdos2017 = [
     monthDoc: "MAY",
     nameDoc: "PRESIDENCIAS DE COMUNIDAD PRD",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2017/"}${"41.pdf"}`),
+    subRows: "",
   },
   {
     id: 42,
@@ -10620,6 +11527,7 @@ export const dataAcuerdos2017 = [
     monthDoc: "MAY",
     nameDoc: "PRESIDENCIAS DE COMUNIDAD PS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2017/"}${"42.pdf"}`),
+    subRows: "",
   },
   {
     id: 43,
@@ -10630,6 +11538,7 @@ export const dataAcuerdos2017 = [
     monthDoc: "MAY",
     nameDoc: "PRESIDENCIAS DE COMUNIDAD MORENA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2017/"}${"43.pdf"}`),
+    subRows: "",
   },
   {
     id: 44,
@@ -10640,6 +11549,7 @@ export const dataAcuerdos2017 = [
     monthDoc: "MAY",
     nameDoc: "PRESIDENCIAS DE COMUNIDAD PAN",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2017/"}${"44.pdf"}`),
+    subRows: "",
   },
   {
     id: 45,
@@ -10650,6 +11560,7 @@ export const dataAcuerdos2017 = [
     monthDoc: "MAY",
     nameDoc: "PRESIDENCIAS DE COMUNIDAD PARTIDO DEL TRABAJO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2017/"}${"45.pdf"}`),
+    subRows: "",
   },
   {
     id: 46,
@@ -10660,6 +11571,7 @@ export const dataAcuerdos2017 = [
     monthDoc: "MAY",
     nameDoc: "PRESIDENCIAS DE COMUNIDAD PAC",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2017/"}${"46.pdf"}`),
+    subRows: "",
   },
   {
     id: 47,
@@ -10670,6 +11582,7 @@ export const dataAcuerdos2017 = [
     monthDoc: "MAY",
     nameDoc: "MEDIDAS DE SEGURIDAD",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2017/"}${"47.pdf"}`),
+    subRows: "",
   },
   {
     id: 48,
@@ -10680,6 +11593,7 @@ export const dataAcuerdos2017 = [
     monthDoc: "MAY",
     nameDoc: "CUMPLIMIENTO SENTENCIA SCM JRC 12 2017",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2017/"}${"48.pdf"}`),
+    subRows: "",
   },
   {
     id: 49,
@@ -10690,6 +11604,7 @@ export const dataAcuerdos2017 = [
     monthDoc: "JUN",
     nameDoc: "RECUENTO BARRIO DE SANTIAGO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2017/"}${"49.pdf"}`),
+    subRows: "",
   },
   {
     id: 50,
@@ -10700,6 +11615,7 @@ export const dataAcuerdos2017 = [
     monthDoc: "JUN",
     nameDoc: "RECUENTO SAN JOSÉ TOXOPA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2017/"}${"50.pdf"}`),
+    subRows: "",
   },
   {
     id: 51,
@@ -10710,6 +11626,7 @@ export const dataAcuerdos2017 = [
     monthDoc: "JUN",
     nameDoc: "PERSONAL AUXILIAR PARA CÓMPUTO PEE 2017",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2017/"}${"51.pdf"}`),
+    subRows: "",
   },
   {
     id: 52,
@@ -10720,6 +11637,7 @@ export const dataAcuerdos2017 = [
     monthDoc: "JUN",
     nameDoc: "VALIDEZ DE ELECCIÓN DE LA COMUNIDAD SAN CRISTÓBAL ZACACALCO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2017/"}${"52.pdf"}`),
+    subRows: "",
   },
   {
     id: 53,
@@ -10730,6 +11648,7 @@ export const dataAcuerdos2017 = [
     monthDoc: "JUN",
     nameDoc: "VALIDEZ DE ELECCIÓN DE LA COMUNIDAD LA PROVIDENCIA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2017/"}${"53.pdf"}`),
+    subRows: "",
   },
   {
     id: 54,
@@ -10740,6 +11659,7 @@ export const dataAcuerdos2017 = [
     monthDoc: "JUN",
     nameDoc: "VALIDEZ DE ELECCIÓN DE LA COMUNIDAD SAN MIGUEL BUENAVISTA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2017/"}${"54.pdf"}`),
+    subRows: "",
   },
   {
     id: 55,
@@ -10750,6 +11670,7 @@ export const dataAcuerdos2017 = [
     monthDoc: "JUN",
     nameDoc: "VALIDEZ DE ELECCIÓN DE LA COMUNIDAD SECCIÓN TERCERA SANTA MARTHA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2017/"}${"55.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -10766,6 +11687,7 @@ export const dataAcuerdos2017 = [
         typeDoc: "",
         nameDoc: "ANEXO 1 VALIDEZ DE ELECCIÓN DE LA COMUNIDAD SAN JOSÉ TEXOPA",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2017/"}${"56.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -10785,6 +11707,7 @@ export const dataAcuerdos2017 = [
         nameDoc:
           "ANEXO VALIDEZ DE ELECCIÓN DE LA COMUNIDAD DE BARRIO DE SANTIAGO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2017/"}${"57.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -10797,6 +11720,7 @@ export const dataAcuerdos2017 = [
     monthDoc: "JUN",
     nameDoc: "VALIDEZ DE ELECCIÓN DE LA COMUNIDAD LA GARITA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2017/"}${"58.pdf"}`),
+    subRows: "",
   },
   {
     id: 59,
@@ -10807,6 +11731,7 @@ export const dataAcuerdos2017 = [
     monthDoc: "JUN",
     nameDoc: "LINEAMIENTOS DE RETIRO DE PROPAGANDA ELECTORAL PEE 2017",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2017/"}${"59.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -10823,16 +11748,19 @@ export const dataAcuerdos2017 = [
         typeDoc: "",
         nameDoc: "ANEXO 1 FORMATO ITE 01 RPPL",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2017/"}${"60.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "ANEXO 2 FORMATO ITE 02 RPPL",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2017/"}${"60.2.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "ANEXO 3 FORMATO ITE 03 RPPL",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2017/"}${"60.3.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -10851,6 +11779,7 @@ export const dataAcuerdos2017 = [
         typeDoc: "",
         nameDoc: "ANEXO 1 LINEAMIENTOS",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2017/"}${"61.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -10863,6 +11792,7 @@ export const dataAcuerdos2017 = [
     monthDoc: "JUL",
     nameDoc: "CUMPLIMIENTO A LA DICTADA DENTRO DEL EXPEDIENTE TET JDC 026 2017",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2017/"}${"62.pdf"}`),
+    subRows: "",
   },
   {
     id: 63,
@@ -10873,6 +11803,7 @@ export const dataAcuerdos2017 = [
     monthDoc: "JUL",
     nameDoc: "ADECUACIÓN AL PRESUPUESTO 2017",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2017/"}${"63.pdf"}`),
+    subRows: "",
   },
   {
     id: 64,
@@ -10883,6 +11814,7 @@ export const dataAcuerdos2017 = [
     monthDoc: "JUL",
     nameDoc: "REMANENTES 2017",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2017/"}${"64.pdf"}`),
+    subRows: "",
   },
   {
     id: 65,
@@ -10893,6 +11825,7 @@ export const dataAcuerdos2017 = [
     monthDoc: "JUL",
     nameDoc: "MULTAS 2017",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2017/"}${"65.pdf"}`),
+    subRows: "",
   },
   {
     id: 66,
@@ -10903,6 +11836,7 @@ export const dataAcuerdos2017 = [
     monthDoc: "JUL",
     nameDoc: "DESTRUCCIÓN DE MATERIAL ELECTORAL",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2017/"}${"66.pdf"}`),
+    subRows: "",
   },
   {
     id: 67,
@@ -10913,6 +11847,7 @@ export const dataAcuerdos2017 = [
     monthDoc: "AGO",
     nameDoc: "MULTA INE CG810 2017",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2017/"}${"67.pdf"}`),
+    subRows: "",
   },
   {
     id: 68,
@@ -10923,6 +11858,7 @@ export const dataAcuerdos2017 = [
     monthDoc: "AGO",
     nameDoc: "PERSONAL HABILITADO PARA ASAMBLEAS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2017/"}${"68.pdf"}`),
+    subRows: "",
   },
   {
     id: 69,
@@ -10933,6 +11869,7 @@ export const dataAcuerdos2017 = [
     monthDoc: "AGO",
     nameDoc: "FIRMA DE CONVENIOS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2017/"}${"69.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -10950,11 +11887,13 @@ export const dataAcuerdos2017 = [
         nameDoc:
           "ANEXO 1 CUADERNILLO DE CONSULTA VOTOS VÁLIDOS Y NULOS ITE 2018",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2017/"}${"70.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "ANEXO 2 LINEAMIENTOS CÓMPUTOS LOCALES ITE 2018",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2017/"}${"70.2.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -10973,6 +11912,7 @@ export const dataAcuerdos2017 = [
         typeDoc: "",
         nameDoc: "ANEXO 1 PARTIDO ALIANZA CIUDADANA",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2017/"}${"71.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -10991,6 +11931,7 @@ export const dataAcuerdos2017 = [
         typeDoc: "",
         nameDoc: "ANEXO 1 PARTIDO SOCIALISTA",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2017/"}${"72.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -11009,11 +11950,13 @@ export const dataAcuerdos2017 = [
         typeDoc: "",
         nameDoc: "ANEXO 1",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2017/"}${"73.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "ANEXO 2",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2017/"}${"73.2.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -11032,6 +11975,7 @@ export const dataAcuerdos2017 = [
         typeDoc: "",
         nameDoc: "ANEXO 1 PROYECTO DE PRESUPUESTO DE EGRESOS 2018",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2017/"}${"74.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -11051,12 +11995,14 @@ export const dataAcuerdos2017 = [
         nameDoc:
           "ANEXO 1 VOTO PARTICULAR CONSEJERA ELECTORAL DORA RODRÍGUEZ SORIANO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2017/"}${"75.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc:
           "ANEXO 2 VOTO PARTICULAR CONSEJERA ELECTORAL YARELI ÁLVAREZ MEZA",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2017/"}${"75.2.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -11075,6 +12021,7 @@ export const dataAcuerdos2017 = [
         typeDoc: "",
         nameDoc: "ANEXO 1VOTO RAZONADO CONSEJERA ELECTORAL YARELI ÁLVAREZ MEZA",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2017/"}${"76.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -11093,6 +12040,7 @@ export const dataAcuerdos2017 = [
         typeDoc: "",
         nameDoc: "ANEXO 1 CALENDARIO PROCESO ELECTORAL ORDINARIO 2018",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2017/"}${"77.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -11105,6 +12053,7 @@ export const dataAcuerdos2017 = [
     monthDoc: "OCT",
     nameDoc: "CONVOCATORIA PROCESO ELECTORAL ORDINARIO 2018",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2017/"}${"78.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -11121,6 +12070,7 @@ export const dataAcuerdos2017 = [
         typeDoc: "",
         nameDoc: "ANEXO MANUAL DEL PROCEDIMIENTO LABORAL DISCIPLINARIO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2017/"}${"79.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -11140,6 +12090,7 @@ export const dataAcuerdos2017 = [
         nameDoc:
           "ANEXO 1 VOTO CONCURRENTE CONSEJERA ELECTORAL DORA RODRÍGUEZ SORIANO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2017/"}${"80.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -11158,6 +12109,7 @@ export const dataAcuerdos2017 = [
         typeDoc: "",
         nameDoc: "ANEXO ESTATUTO CANDIDATOS INDEPENDIENTES 2018",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2017/"}${"81.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -11170,6 +12122,7 @@ export const dataAcuerdos2017 = [
     monthDoc: "NOV",
     nameDoc: "PERSONAL HABILITADO PARA ASAMBLEA ESTATAL IMPACTO SOCIAL SI",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2017/"}${"82.pdf"}`),
+    subRows: "",
   },
   {
     id: 83,
@@ -11180,6 +12133,7 @@ export const dataAcuerdos2017 = [
     monthDoc: "NOV",
     nameDoc: "METODOLOGÍA DE MONITOREO DE MEDIOS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2017/"}${"83.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -11196,33 +12150,39 @@ export const dataAcuerdos2017 = [
         typeDoc: "",
         nameDoc: "ANEXO CONVOCATORIA CANDIDATOS INDEPENDIENTES",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2017/"}${"84.1.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "ANEXO UNO FORMATO DE MANIFESTACIÓN DE INTENCIÓN ITE",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2017/"}${"84.2.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc:
           "ANEXO DOS FORMATO DE SOLICITUD DE REGISTRO DE CANDIDATURA INDEPENDIENTE ITE",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2017/"}${"84.3.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "ANEXO TRES FORMATO DE MANIFESTACIÓN DE VOLUNTAD ITE",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2017/"}${"84.4.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc: "ANEXO CUATRO FORMATO DE NO ACEPTACIÓN DE RECURSOS ILÍCITOS",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2017/"}${"84.5.pdf"}`),
+        subRows: "",
       },
       {
         typeDoc: "",
         nameDoc:
           "ANEXO CINCO FORMATO DE ESCRITO DE CONFORMIDAD PARA FISCALIZACIÓN INE",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2017/"}${"84.6.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -11235,6 +12195,7 @@ export const dataAcuerdos2017 = [
     monthDoc: "NOV",
     nameDoc: "PAUTAS RADIO Y TELEVISIÓN",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2017/"}${"85.pdf"}`),
+    subRows: "",
   },
   {
     id: 86,
@@ -11245,6 +12206,7 @@ export const dataAcuerdos2017 = [
     monthDoc: "NOV",
     nameDoc: "TITULAR ÁREA TÉCNICA DE TRANSPARENCIA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2017/"}${"86.pdf"}`),
+    subRows: "",
   },
   {
     id: 87,
@@ -11255,6 +12217,7 @@ export const dataAcuerdos2017 = [
     monthDoc: "NOV",
     nameDoc: "DESIGNACIÓN DE LA INSTANCIA INTERNA PREP",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2017/"}${"87.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -11273,6 +12236,7 @@ export const dataAcuerdos2017 = [
         nameDoc:
           "ANEXO CONVOCATORIA CUMPLIMIENTO A SENTENCIA DEL EXPEDIENTE TET JDC 054 2017",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2017/"}${"88.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -11285,6 +12249,7 @@ export const dataAcuerdos2017 = [
     monthDoc: "DIC",
     nameDoc: "PROYECTO DE TOPES DE PRECAMPAÑA 2018",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2017/"}${"89.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -11301,6 +12266,7 @@ export const dataAcuerdos2017 = [
         typeDoc: "",
         nameDoc: "ANEXO LINEAMIENTOS PARIDAD DE GÉNERO DIPUTADOS",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2017/"}${"90.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -11320,6 +12286,7 @@ export const dataAcuerdos2017 = [
         nameDoc:
           "ANEXO LINEAMIENTOS PARA LA VERIFICACIÓN DEL PORCENTAJE DE APOYO CIUDADANO",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2017/"}${"91.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -11332,6 +12299,7 @@ export const dataAcuerdos2017 = [
     monthDoc: "DIC",
     nameDoc: "INTEGRACIÓN COTAPREP 2018",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2017/"}${"92.pdf"}`),
+    subRows: "",
   },
   {
     id: 93,
@@ -11342,6 +12310,7 @@ export const dataAcuerdos2017 = [
     monthDoc: "DIC",
     nameDoc: "DESIGNACIÓN DEL TITULAR DEL ÁREA TÉCNICA DE INFORMÁTICA",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2017/"}${"93.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -11358,6 +12327,7 @@ export const dataAcuerdos2017 = [
         typeDoc: "",
         nameDoc: "ANEXO LINEAMIENTOS RADIO Y TELEVISIÓN",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2017/"}${"94.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -11376,6 +12346,7 @@ export const dataAcuerdos2017 = [
         typeDoc: "",
         nameDoc: "ANEXO REFORMA REGLAMENTO DE QUEJAS Y DENUNCIAS",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2017/"}${"95.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -11388,6 +12359,7 @@ export const dataAcuerdos2017 = [
     monthDoc: "DIC",
     nameDoc: "DESIGNACIÓN DEL PERSONAL APERTURA DE BODEGA PEE 2017",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2017/"}${"96.pdf"}`),
+    subRows: "",
   },
   {
     id: 97,
@@ -11398,6 +12370,7 @@ export const dataAcuerdos2017 = [
     monthDoc: "DIC",
     nameDoc: "METODOLOGÍA MONITOREO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2017/"}${"97.pdf"}`),
+    subRows: "",
   },
   {
     id: 98,
@@ -11408,6 +12381,7 @@ export const dataAcuerdos2017 = [
     monthDoc: "DIC",
     nameDoc: "SERVICIO PROFESIONAL ELECTORAL NACIONAL OPLE",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2017/"}${"98.pdf"}`),
+    subRows: "",
   },
   {
     id: 99,
@@ -11418,6 +12392,7 @@ export const dataAcuerdos2017 = [
     monthDoc: "DIC",
     nameDoc: "ADECUACIÓN A PRESUPUESTO",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2017/"}${"99.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -11435,6 +12410,7 @@ export const dataAcuerdos2017 = [
         nameDoc:
           "ANEXOS DICTAMEN Y ESPECIFICACIONES TÉCNICAS DE DOCUMENTACIÓN ELECTORAL",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2017/"}${"100.1.pdf"}`),
+        subRows: "",
       },
     ],
   },
@@ -15019,6 +15995,7 @@ export const dataAcuerdos2015 = [
     monthDoc: "ENE",
     nameDoc: "PROGRAMA ANUAL IET",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2015/"}${"3.pdf"}`),
+    subRows: "",
   },
 
   {
@@ -15585,6 +16562,7 @@ export const dataAcuerdos2015 = [
         typeDoc: "",
         nameDoc: "ANEXO CALENDARIO ELECTORAL LEGAL 2015-2016",
         link: Acuerdos__pdfpath(`./${"ITE/"}${"2015/"}${"017.1.pdf"}`),
+        subRows: "",
       },
     ],
   },

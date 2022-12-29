@@ -73,12 +73,11 @@ const Acuerdos1998 = () => {
 
   return (
     <>
-      <TitlePages title="Acuerdos ITE 1998" subTitle="" />
+      <TitlePages title="Acuerdos Anteriores" subTitle="Acuerdos ITE 1998" />
       <MaterialReactTable
         columns={columns}
         data={dataAcuerdos1998}
         enableExpanding={false}
-        // enableExpandAll
         enableColumnActions={false}
         enableDensityToggle={false}
         initialState={{ density: "compact" }}
