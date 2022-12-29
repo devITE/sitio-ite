@@ -1,37 +1,30 @@
-.Mapas__dist-img:hover {
-  transition: 0.5s;
-  transform: scale(1.1);
-}
 .Mapas__dist-footer {
-  padding: 8px;
   color: #ffffff;
   font-weight: bolder;
   text-align: center;
 }
 /* --------------- M E D I A     Q U E R I E S --------------- */
 
-/* general
+/* general */
 @media only screen and (min-width: 1024px) {
-  .Mapas__grid {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    gap: 25px;
-  }
-}
-tablets
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
-  .Mapas__grid {
-    display: grid;
-    grid-template-columns: auto auto;
-    gap: 20px;
+  .Mapas__dist-footer {
+    padding: 8px;
+    font-size: 25px !important;
   }
 }
 
-mobil
-@media only screen and (max-width: 767px) {
-  .Mapas__grid {
-    display: grid;
-    grid-template-columns: auto auto;
-    gap: 15px;
+/* tablets */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .Mapas__dist-footer {
+    padding: 6px;
+    font-size: 15px !important;
   }
-} */
+}
+
+/* mobil */
+@media only screen and (max-width: 767px) {
+  .Mapas__dist-footer {
+    padding: 2px;
+    font-size: 10px !important;
+  }
+}

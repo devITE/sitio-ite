@@ -19,8 +19,9 @@ import "./Home.css";
 
 import Carousel from "../../layout/Carousel/Carousel/Carousel";
 import CarouselItemIMG from "../../layout/Carousel/CarouselItems/CarouselItemIMG";
-import CarouselItemVideo from "../../layout/Carousel/CarouselItems/CarouselItemVideo";
-import { dataVideoPodCast } from "../../assets/data/dataVideoPodCast";
+// import CarouselItemVideo from "../../layout/Carousel/CarouselItems/CarouselItemVideo";
+// import { dataVideoPodCast } from "../../assets/data/dataVideoPodCast";
+import ModalInit from "../../layout/Modal/ModalInit";
 import "./Home.css";
 
 const Home__path = require.context("../../assets");
@@ -28,7 +29,8 @@ const Home__path = require.context("../../assets");
 export default class Home extends Component {
   render() {
     return (
-      <div>
+      <>
+        <ModalInit enlace="" alt="UNO" />
         <Carousel idCarousel="carouselTopIndex">
           {dataCIndex.map((cIndex) => (
             <CarouselItemIMG
@@ -46,7 +48,7 @@ export default class Home extends Component {
             <div className="Home__video-embed ratio ratio-16x9 w-100">
               <iframe
                 id="SKyFNPOmv3s"
-                src="https://www.youtube.com/embed/SKyFNPOmv3s?rel=0"
+                src="https://www.youtube-nocookie.com/embed/SKyFNPOmv3s?rel=0"
                 title="Foro en conmemoración"
                 allowFullScreen
               ></iframe>
@@ -95,7 +97,10 @@ export default class Home extends Component {
         </div>
         <h2 className="mt-4 bottom_title">Informes</h2>
         <Informes items={dataInformes} itemsID={"itemsInformes"} />
-        <div className="Home__EspITEVidPod">
+        <h2 className="bottom_title">Video Podcast</h2>
+        <Videoteca items={dataVideoteca} itemsID={"videoteca"} />
+        {/* <Videoteca items={dataVideoteca} itemsID={"videoteca"} /> */}
+        {/* <div className="Home__EspITEVidPod">
           <div className="item1">
             <h2 className="bottom_title">Espacio ITE</h2>
             <a
@@ -127,7 +132,7 @@ export default class Home extends Component {
                 ))}
             </Carousel>
           </div>
-        </div>
+        </div> */}
 
         <div className="Home__boxesTriple mt-4">
           <div>
@@ -143,7 +148,7 @@ export default class Home extends Component {
             <h2 className="bottom_title">Sesión en Vivo</h2>
             <div className="Home__video-embed ratio ratio-16x9 w-100">
               <iframe
-                src="https://www.youtube.com/embed/MRj4qC4NVWo?rel=0"
+                src="https://www.youtube-nocookie.com/embed/MRj4qC4NVWo?rel=0"
                 title="Sesión En Vivo del CG"
                 allowFullScreen
               ></iframe>
@@ -277,7 +282,7 @@ export default class Home extends Component {
             </a>
           </div>
         </div>
-      </div>
+      </>
     );
   }
 }

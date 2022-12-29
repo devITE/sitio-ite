@@ -25,7 +25,7 @@ export default class POA extends Component {
             aria-orientation="vertical"
           >
             <button
-              className="nav-link btn-pill-v active"
+              className="btn btn-ite active"
               id="vPillsPOA2018Tab"
               data-bs-toggle="pill"
               data-bs-target="#vPillsPOA2018"
@@ -37,7 +37,7 @@ export default class POA extends Component {
               POAS 2018
             </button>
             <button
-              className="nav-link btn-pill-v"
+              className="btn btn-ite"
               id="vPillsPOA2019Tab"
               data-bs-toggle="pill"
               data-bs-target="#vPillsPOA2019"
@@ -49,7 +49,7 @@ export default class POA extends Component {
               POAS 2019
             </button>
             <button
-              className="nav-link btn-pill-v"
+              className="btn btn-ite"
               id="vPillsPOA2020Tab"
               data-bs-toggle="pill"
               data-bs-target="#vPillsPOA2020"

@@ -20,6 +20,7 @@ import Galeria from "./pages/enlaces/Galeria/Galeria";
 import Galeria2016 from "./pages/enlaces/Galeria/Galeria2016";
 import Galeria2017 from "./pages/enlaces/Galeria/Galeria2017";
 import Galeria2018 from "./pages/enlaces/Galeria/Galeria2018";
+import Galeria2019 from "./pages/enlaces/Galeria/Galeria2019";
 
 import OIC from "./pages/enlaces/OIC/OIC";
 import GaleriaOIC from "./pages/enlaces/OIC/GaleriaOIC";
@@ -149,9 +150,7 @@ import ValoresDemocracia from "./pages/culturaCivica/ValoresDemocracia";
 //Micrositios
 import REPS from "./pages/reps/REPS";
 
-
 import PRUEBAS from "./pages/PRUEBAS/PRUEBAS";
-
 
 function App() {
   return (
@@ -177,6 +176,7 @@ function App() {
           <Route path="/Galeria2016" element={<Galeria2016 />} />
           <Route path="/Galeria2017" element={<Galeria2017 />} />
           <Route path="/Galeria2018" element={<Galeria2018 />} />
+          <Route path="/Galeria2019" element={<Galeria2019 />} />
           <Route path="/OIC" element={<OIC />} />
           <Route path="/GaleriaOIC" element={<GaleriaOIC />} />
           <Route path="/Infografias" element={<Infografias />} />

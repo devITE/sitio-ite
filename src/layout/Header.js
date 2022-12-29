@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router-dom";
-import logo from "../assets/img/logoite.svg";
+import logo from "../assets/img/logoite.png";
 
 import {
   faYoutube,
@@ -14,7 +14,7 @@ import "./Header.css";
 export default class Header extends Component {
   render() {
     return (
-      <div>
+      <>
         <div className="Header__social-network">
           <div className="Header__social-network-individual">
             <Link
@@ -53,7 +53,7 @@ export default class Header extends Component {
           </div>
           <div>Instituto Tlaxcalteca de Elecciones</div>
         </div>
-      </div>
+      </>
     );
   }
 }

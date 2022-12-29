@@ -6,7 +6,7 @@ export default class Estructura extends Component {
     return (
       <div>
         <TitlePages title="Estructura" subTitle="" />
-        <p className="text-justify">
+        <p>
           Para el ejercicio de sus funciones, el Instituto contará con órganos
           directivos, ejecutivos y de vigilancia, así como con órganos y áreas
           técnicas, y con el personal necesario e idóneo para el cumplimiento de

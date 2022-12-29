@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import TitlePages from "../../layout/TitlePages";
-import "./Integracion.css";
+
 const Integracion__path = require.context("../../assets");
 
 export default class Integracion extends Component {
@@ -48,7 +48,7 @@ export default class Integracion extends Component {
               aria-labelledby="v-pills-integracion-tab"
               tabIndex="0"
             >
-              <div className="w-100 Integracion__grid">
+              <div className="w-100 Grid__four">
                 <div>
                   <a
                     href={Integracion__path(`./${"pdf/CG/"}${"1.pdf"}`)}
@@ -149,7 +149,7 @@ export default class Integracion extends Component {
               aria-labelledby="v-pills-pp-tab"
               tabIndex="0"
             >
-              <div className="w-100 Integracion__grid">
+              <div className="w-100 Grid__four">
                 <div>
                   <a
                     href={"https://www.pantlaxcala.org.mx/"}

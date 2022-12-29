@@ -1,5 +1,498 @@
 const Galeria__imgpath = require.context("../img/galeria");
 
+export const dataGaleria2019 = [
+  {
+    id: 1,
+    titleItem: "Mayo 2019",
+    flushID: "mayo2019",
+    children: [
+      {
+        id: 1,
+        nameActivity: "Convención Distrital 8° Parlamento Juvenil",
+        dateActivity: "Mayo de 2019",
+        subChilden: [
+          {
+            id: 1,
+            alt: "Foto2019_1",
+            link: Galeria__imgpath(`./${"2019/"}${"1.jpg"}`),
+          },
+          {
+            id: 2,
+            alt: "Foto2019_2",
+            link: Galeria__imgpath(`./${"2019/"}${"2.jpg"}`),
+          },
+          {
+            id: 3,
+            alt: "Foto2019_3",
+            link: Galeria__imgpath(`./${"2019/"}${"3.jpg"}`),
+          },
+          {
+            id: 4,
+            alt: "Foto2019_4",
+            link: Galeria__imgpath(`./${"2019/"}${"4.jpeg"}`),
+          },
+        ],
+      },
+      {
+        id: 2,
+        nameActivity: "Convención Distrital 8° Parlamento Juvenil",
+        dateActivity: "Mayo de 2019",
+        subChilden: [
+          {
+            id: 1,
+            alt: "Foto2019_5",
+            link: Galeria__imgpath(`./${"2019/"}${"5.jpg"}`),
+          },
+          {
+            id: 2,
+            alt: "Foto2019_6",
+            link: Galeria__imgpath(`./${"2019/"}${"6.jpg"}`),
+          },
+          {
+            id: 3,
+            alt: "Foto2019_7",
+            link: Galeria__imgpath(`./${"2019/"}${"7.jpg"}`),
+          },
+          {
+            id: 4,
+            alt: "Foto2019_8",
+            link: Galeria__imgpath(`./${"2019/"}${"8.jpg"}`),
+          },
+          {
+            id: 5,
+            alt: "Foto2019_9",
+            link: Galeria__imgpath(`./${"2019/"}${"9.jpg"}`),
+          },
+          {
+            id: 6,
+            alt: "Foto2019_10",
+            link: Galeria__imgpath(`./${"2019/"}${"10.jpg"}`),
+          },
+          {
+            id: 7,
+            alt: "Foto2019_11",
+            link: Galeria__imgpath(`./${"2019/"}${"11.jpg"}`),
+          },
+        ],
+      },
+      {
+        id: 3,
+        nameActivity: "Curso de Identidad Institucional",
+        dateActivity: "Mayo de 2019",
+        subChilden: [
+          {
+            id: 1,
+            alt: "Foto2019_12",
+            link: Galeria__imgpath(`./${"2019/"}${"12.jpg"}`),
+          },
+          {
+            id: 2,
+            alt: "Foto2019_13",
+            link: Galeria__imgpath(`./${"2019/"}${"13.jpg"}`),
+          },
+          {
+            id: 3,
+            alt: "Foto2019_14",
+            link: Galeria__imgpath(`./${"2019/"}${"14.jpg"}`),
+          },
+          {
+            id: 4,
+            alt: "Foto2019_15",
+            link: Galeria__imgpath(`./${"2019/"}${"15.jpeg"}`),
+          },
+        ],
+      },
+      {
+        id: 4,
+        nameActivity:
+          "Curso Taller: Clasificación y desclasificación de la información",
+        dateActivity: "Mayo de 2019",
+        subChilden: [
+          {
+            id: 1,
+            alt: "Foto2019_16",
+            link: Galeria__imgpath(`./${"2019/"}${"16.jpg"}`),
+          },
+          {
+            id: 2,
+            alt: "Foto2019_17",
+            link: Galeria__imgpath(`./${"2019/"}${"17.jpg"}`),
+          },
+          {
+            id: 3,
+            alt: "Foto2019_18",
+            link: Galeria__imgpath(`./${"2019/"}${"18.jpg"}`),
+          },
+          {
+            id: 4,
+            alt: "Foto2019_19",
+            link: Galeria__imgpath(`./${"2019/"}${"19.jpg"}`),
+          },
+          {
+            id: 5,
+            alt: "Foto2019_20",
+            link: Galeria__imgpath(`./${"2019/"}${"20.jpg"}`),
+          },
+          {
+            id: 6,
+            alt: "Foto2019_21",
+            link: Galeria__imgpath(`./${"2019/"}${"21.jpg"}`),
+          },
+          {
+            id: 7,
+            alt: "Foto2019_22",
+            link: Galeria__imgpath(`./${"2019/"}${"22.jpg"}`),
+          },
+          {
+            id: 8,
+            alt: "Foto2019_23",
+            link: Galeria__imgpath(`./${"2019/"}${"23.jpg"}`),
+          },
+        ],
+      },
+      {
+        id: 5,
+        nameActivity:
+          "Los derechos políticos electorales y la participación ciudadana. Conversatorio",
+        dateActivity: "20 de Mayo de 2019",
+        subChilden: [
+          {
+            id: 1,
+            alt: "Foto2019_24",
+            link: Galeria__imgpath(`./${"2019/"}${"24.jpg"}`),
+          },
+          {
+            id: 2,
+            alt: "Foto2019_25",
+            link: Galeria__imgpath(`./${"2019/"}${"25.jpg"}`),
+          },
+          {
+            id: 3,
+            alt: "Foto2019_26",
+            link: Galeria__imgpath(`./${"2019/"}${"26.jpg"}`),
+          },
+          {
+            id: 4,
+            alt: "Foto2019_27",
+            link: Galeria__imgpath(`./${"2019/"}${"27.jpeg"}`),
+          },
+          {
+            id: 5,
+            alt: "Foto2019_28",
+            link: Galeria__imgpath(`./${"2019/"}${"28.jpeg"}`),
+          },
+          {
+            id: 6,
+            alt: "Foto2019_29",
+            link: Galeria__imgpath(`./${"2019/"}${"29.jpeg"}`),
+          },
+          {
+            id: 7,
+            alt: "Foto2019_30",
+            link: Galeria__imgpath(`./${"2019/"}${"30.jpeg"}`),
+          },
+        ],
+      },
+      {
+        id: 6,
+        nameActivity:
+          "Los derechos políticos electorales y la participación ciudadana. Conversatorio",
+        dateActivity: "21 de Mayo de 2019",
+        subChilden: [
+          {
+            id: 1,
+            alt: "Foto2019_31",
+            link: Galeria__imgpath(`./${"2019/"}${"31.jpg"}`),
+          },
+          {
+            id: 2,
+            alt: "Foto2019_32",
+            link: Galeria__imgpath(`./${"2019/"}${"32.jpg"}`),
+          },
+          {
+            id: 3,
+            alt: "Foto2019_33",
+            link: Galeria__imgpath(`./${"2019/"}${"33.jpg"}`),
+          },
+          {
+            id: 4,
+            alt: "Foto2019_34",
+            link: Galeria__imgpath(`./${"2019/"}${"34.jpeg"}`),
+          },
+        ],
+      },
+      {
+        id: 7,
+        nameActivity: "Reunión en Guadalupe Ixcotla",
+        dateActivity: "Mayo de 2019",
+        subChilden: [
+          {
+            id: 1,
+            alt: "Foto2019_35",
+            link: Galeria__imgpath(`./${"2019/"}${"35.jpg"}`),
+          },
+          {
+            id: 2,
+            alt: "Foto2019_36",
+            link: Galeria__imgpath(`./${"2019/"}${"36.jpg"}`),
+          },
+          {
+            id: 3,
+            alt: "Foto2019_37",
+            link: Galeria__imgpath(`./${"2019/"}${"37.jpg"}`),
+          },
+          {
+            id: 4,
+            alt: "Foto2019_38",
+            link: Galeria__imgpath(`./${"2019/"}${"38.jpg"}`),
+          },
+          {
+            id: 5,
+            alt: "Foto2019_39",
+            link: Galeria__imgpath(`./${"2019/"}${"39.jpg"}`),
+          },
+          {
+            id: 6,
+            alt: "Foto2019_40",
+            link: Galeria__imgpath(`./${"2019/"}${"40.jpg"}`),
+          },
+          {
+            id: 7,
+            alt: "Foto2019_41",
+            link: Galeria__imgpath(`./${"2019/"}${"41.jpg"}`),
+          },
+          {
+            id: 8,
+            alt: "Foto2019_42",
+            link: Galeria__imgpath(`./${"2019/"}${"42.jpg"}`),
+          },
+          {
+            id: 9,
+            alt: "Foto2019_43",
+            link: Galeria__imgpath(`./${"2019/"}${"43.jpg"}`),
+          },
+          {
+            id: 10,
+            alt: "Foto2019_44",
+            link: Galeria__imgpath(`./${"2019/"}${"44.jpg"}`),
+          },
+        ],
+      },
+      {
+        id: 8,
+        nameActivity:
+          "Sesión del Observatorio de Participación Política de las Mujeres en Tlaxcala",
+        dateActivity: "Mayo de 2019",
+        subChilden: [
+          {
+            id: 1,
+            alt: "Foto2019_45",
+            link: Galeria__imgpath(`./${"2019/"}${"45.jpg"}`),
+          },
+          {
+            id: 2,
+            alt: "Foto2019_46",
+            link: Galeria__imgpath(`./${"2019/"}${"46.jpg"}`),
+          },
+          {
+            id: 3,
+            alt: "Foto2019_47",
+            link: Galeria__imgpath(`./${"2019/"}${"47.jpg"}`),
+          },
+          {
+            id: 4,
+            alt: "Foto2019_48",
+            link: Galeria__imgpath(`./${"2019/"}${"48.jpg"}`),
+          },
+          {
+            id: 5,
+            alt: "Foto2019_49",
+            link: Galeria__imgpath(`./${"2019/"}${"49.jpg"}`),
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: 2,
+    titleItem: "Junio 2019",
+    flushID: "junio2019",
+    children: [
+      {
+        id: 1,
+        nameActivity:
+          "Curso: Periodismo con perspectiva de género: ética, igualdad y diversidad",
+        dateActivity: "Junio de 2019",
+        subChilden: [
+          {
+            id: 1,
+            alt: "Foto2019_50",
+            link: Galeria__imgpath(`./${"2019/"}${"50.jpg"}`),
+          },
+          {
+            id: 2,
+            alt: "Foto2019_51",
+            link: Galeria__imgpath(`./${"2019/"}${"51.jpg"}`),
+          },
+          {
+            id: 3,
+            alt: "Foto2019_52",
+            link: Galeria__imgpath(`./${"2019/"}${"52.jpg"}`),
+          },
+          {
+            id: 4,
+            alt: "Foto2019_53",
+            link: Galeria__imgpath(`./${"2019/"}${"53.jpg"}`),
+          },
+          {
+            id: 5,
+            alt: "Foto2019_54",
+            link: Galeria__imgpath(`./${"2019/"}${"54.jpg"}`),
+          },
+          {
+            id: 6,
+            alt: "Foto2019_55",
+            link: Galeria__imgpath(`./${"2019/"}${"55.jpg"}`),
+          },
+          {
+            id: 7,
+            alt: "Foto2019_56",
+            link: Galeria__imgpath(`./${"2019/"}${"56.jpg"}`),
+          },
+          {
+            id: 8,
+            alt: "Foto2019_57",
+            link: Galeria__imgpath(`./${"2019/"}${"57.jpg"}`),
+          },
+          {
+            id: 9,
+            alt: "Foto2019_58",
+            link: Galeria__imgpath(`./${"2019/"}${"58.jpg"}`),
+          },
+        ],
+      },
+      {
+        id: 2,
+        nameActivity: "Diálogos Juveniles: Cultura Democrática",
+        dateActivity: "Junio de 2019",
+        subChilden: [
+          {
+            id: 1,
+            alt: "Foto2019_59",
+            link: Galeria__imgpath(`./${"2019/"}${"59.jpg"}`),
+          },
+          {
+            id: 2,
+            alt: "Foto2019_60",
+            link: Galeria__imgpath(`./${"2019/"}${"60.jpg"}`),
+          },
+          {
+            id: 3,
+            alt: "Foto2019_61",
+            link: Galeria__imgpath(`./${"2019/"}${"61.jpeg"}`),
+          },
+          {
+            id: 4,
+            alt: "Foto2019_62",
+            link: Galeria__imgpath(`./${"2019/"}${"62.jpeg"}`),
+          },
+        ],
+      },
+      {
+        id: 3,
+        nameActivity: "Elecciones por Usos y Costumbres - Santa Ana Portales",
+        dateActivity: "Junio de 2019",
+        subChilden: [
+          {
+            id: 1,
+            alt: "Foto2019_63",
+            link: Galeria__imgpath(`./${"2019/"}${"63.jpg"}`),
+          },
+          {
+            id: 2,
+            alt: "Foto2019_64",
+            link: Galeria__imgpath(`./${"2019/"}${"64.jpg"}`),
+          },
+          {
+            id: 3,
+            alt: "Foto2019_65",
+            link: Galeria__imgpath(`./${"2019/"}${"65.jpeg"}`),
+          },
+          {
+            id: 4,
+            alt: "Foto2019_66",
+            link: Galeria__imgpath(`./${"2019/"}${"66.jpeg"}`),
+          },
+        ],
+      },
+      {
+        id: 4,
+        nameActivity: "Ensayos: Parlamento Juvenil 2019",
+        dateActivity: "Junio de 2019",
+        subChilden: [
+          {
+            id: 1,
+            alt: "Foto2019_67",
+            link: Galeria__imgpath(`./${"2019/"}${"67.jpg"}`),
+          },
+          {
+            id: 2,
+            alt: "Foto2019_68",
+            link: Galeria__imgpath(`./${"2019/"}${"68.jpg"}`),
+          },
+          {
+            id: 3,
+            alt: "Foto2019_69",
+            link: Galeria__imgpath(`./${"2019/"}${"69.jpg"}`),
+          },
+          {
+            id: 4,
+            alt: "Foto2019_70",
+            link: Galeria__imgpath(`./${"2019/"}${"70.jpg"}`),
+          },
+          {
+            id: 5,
+            alt: "Foto2019_71",
+            link: Galeria__imgpath(`./${"2019/"}${"71.jpg"}`),
+          },
+          {
+            id: 6,
+            alt: "Foto2019_72",
+            link: Galeria__imgpath(`./${"2019/"}${"72.jpg"}`),
+          },
+        ],
+      },
+      {
+        id: 5,
+        nameActivity: "Rueda de prensa:  Resultados de la Consulta Infantil",
+        dateActivity: "Junio de 2019",
+        subChilden: [
+          {
+            id: 1,
+            alt: "Foto2019_73",
+            link: Galeria__imgpath(`./${"2019/"}${"73.jpg"}`),
+          },
+          {
+            id: 2,
+            alt: "Foto2019_74",
+            link: Galeria__imgpath(`./${"2019/"}${"74.jpg"}`),
+          },
+          {
+            id: 3,
+            alt: "Foto2019_75",
+            link: Galeria__imgpath(`./${"2019/"}${"75.jpg"}`),
+          },
+          {
+            id: 4,
+            alt: "Foto2019_76",
+            link: Galeria__imgpath(`./${"2019/"}${"76.jpeg"}`),
+          },
+        ],
+      },
+    ],
+  },
+];
+
 export const dataGaleria2018 = [
   {
     id: 1,

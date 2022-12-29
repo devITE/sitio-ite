@@ -37,6 +37,15 @@ export default class Galeria extends Component {
               />
             </Link>
           </div>
+          <div>
+            <Link to="/Galeria2019">
+              <img
+                className="img-fluid"
+                src={Icons__path(`./${"icons/"}${"32.png"}`)}
+                alt="Galería Fotográfica 2019"
+              />
+            </Link>
+          </div>
         </div>
       </>
     );
