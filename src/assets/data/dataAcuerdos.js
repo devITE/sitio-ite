@@ -990,7 +990,7 @@ export const dataAcuerdos2022 = [
     id: 6,
     year: "2022",
     typeDoc: "ACUERDO",
-    numDoc: "ITE-CG 6-2022",
+    numDoc: "ITE-CG 06-2022",
     monthDoc: "ENE",
     nameDoc: "REDISTRIBUCIÓN DE PRERROGATIVAS DE PARTIDOS POLÍTICOS",
     link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"6.pdf"}`),
@@ -1996,6 +1996,139 @@ export const dataAcuerdos2022 = [
         subRows: "",
       },
     ],
+  },
+
+  {
+    id: 62,
+    year: "2022",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 62-2022",
+    monthDoc: "OCT",
+    nameDoc:
+      "SE DA RESPUESTA A PRESIDENCIAS DE COMUNIDAD RESPECTO A COORDINACIÓN PARA EL FORTALECIMIENTO DE SISTEMAS NORMATIVOS PLURICULTURALES",
+    link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"62.pdf"}`),
+    subRows: "",
+  },
+
+  {
+    id: 63,
+    year: "2022",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 63-2022",
+    monthDoc: "OCT",
+    nameDoc:
+      "SE APRUEBA GUÍA OPERATIVA Y CONVOCATORIA PARA FASE INFORMATIVA, DELIBERATIVA Y CONSULTIVA DE PROCESO DE CONSULTA A COMUNIDADES POR USOS Y COSTUMBRES",
+    link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"63.pdf"}`),
+    subRows: [
+      {
+        typeDoc: "",
+        nameDoc: "ANEXO UNO. GUÍA OPERATIVA",
+        link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"63.1.pdf"}`),
+        subRows: "",
+      },
+      {
+        typeDoc: "",
+        nameDoc: "ANEXO DOS. CONVOCATORIA FASES INFORMATIVA Y CONSULTIVA",
+        link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"63.2.pdf"}`),
+        subRows: "",
+      },
+    ],
+  },
+
+  {
+    id: 64,
+    year: "2022",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 64-2022",
+    monthDoc: "OCT",
+    nameDoc:
+      "ACTUALIZACIÓN DE GUÍA DE ACTUACIÓN PARA LA PREVENCIÓN, ATENCIÓN Y ERRADICACIÓN DE VPCMRG",
+    link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"64.pdf"}`),
+    subRows: [
+      {
+        typeDoc: "",
+        nameDoc: "GUÍA DE ACTUACIÓN",
+        link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"64.1.pdf"}`),
+        subRows: "",
+      },
+    ],
+  },
+
+  {
+    id: 65,
+    year: "2022",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 65-2022",
+    monthDoc: "NOV",
+    nameDoc:
+      "SE APRUEBAN CONVENIOS Y SE AUTORIZA FIRMA DE PRESIDENTE PROVISIONAL",
+    link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"65.pdf"}`),
+    subRows: "",
+  },
+
+  {
+    id: 66,
+    year: "2022",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 66-2022",
+    monthDoc: "NOV",
+    nameDoc:
+      "SE CALENDARIZA RETENCIÓN DE MULTAS PREVISTAS EN RESOLUCIÓN INE-CG113-2022",
+    link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"66.pdf"}`),
+    subRows: [
+      {
+        typeDoc: "",
+        nameDoc: "ANEXO ÚNICO",
+        link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"66.1.pdf"}`),
+        subRows: "",
+      },
+    ],
+  },
+
+  {
+    id: 67,
+    year: "2022",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 67-2022",
+    monthDoc: "NOV",
+    nameDoc: "SE READECÚA PRESUPUESTO DE EGRESOS 2022",
+    link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"67.pdf"}`),
+    subRows: [
+      {
+        typeDoc: "",
+        nameDoc: "ANEXO ÚNICO",
+        link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"67.1.pdf"}`),
+        subRows: "",
+      },
+    ],
+  },
+
+  {
+    id: 68,
+    year: "2022",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 68-2022",
+    monthDoc: "NOV",
+    nameDoc: "DESIGNACIÓN PERSONA TITULAR DE LA SECRETARÍA EJECUTIVA DEL ITE",
+    link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"68.pdf"}`),
+    subRows: [
+      {
+        typeDoc: "",
+        nameDoc: "ANEXO ÚNICO",
+        link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"68.1.pdf"}`),
+        subRows: "",
+      },
+    ],
+  },
+  {
+    id: 69,
+    year: "2022",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 69-2022",
+    monthDoc: "DIC",
+    nameDoc: "DESIGNACIÓN TITULAR DEL ÁREA TÉCNICA DE CONSULTA CIUDADANA",
+    link: Acuerdos__pdfpath(`./${"ITE/"}${"2022/"}${"69.pdf"}`),
+    subRows: "",
   },
 ];
 

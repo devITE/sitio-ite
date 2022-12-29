@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
-import logo from "../assets/img/logoite.svg";
+import logo from "../assets/img/logoite.png";
 
 export default class Navbar extends Component {
   render() {
