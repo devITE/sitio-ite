@@ -1,8 +1,8 @@
 import React from "react";
 
-export default function Accordion({ idAccordion, children }) {
+export default function Accordion({ idAccordion, children, clasName }) {
   return (
-    <div className="accordion accordion-flush" id={idAccordion}>
+    <div className={"accordion accordion-flush " + clasName} id={idAccordion}>
       {children}
     </div>
   );

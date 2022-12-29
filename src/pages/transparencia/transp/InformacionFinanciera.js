@@ -14,9 +14,16 @@ export default class InformacionFinanciera extends Component {
     return (
       <div>
         <TitlePages title="Transparencia" subTitle="Información Financiera" />
-        <ListBadge ifNumbered={""} listsBadgeItem={dataInfFinanciera} />
+        <ListBadge
+          ifNumbered={""}
+          listsBadgeItem={dataInfFinanciera}
+          clasName="w-75 mx-auto"
+        />
         <br />
-        <Accordion idAccordion="accordionFlushExample">
+        <Accordion
+          idAccordion="informacionFinanciera"
+          clasName={"w-75 mx-auto"}
+        >
           {dataInfo2016.map((infoAccordion) => (
             <AccordionItem
               key={infoAccordion.id}
@@ -28,7 +35,7 @@ export default class InformacionFinanciera extends Component {
                   listsBadgeItem={infoAccordion.children}
                 />
               }
-              idAccordion="accordionFlushExample"
+              idAccordion="informacionFinanciera"
             />
           ))}
         </Accordion>

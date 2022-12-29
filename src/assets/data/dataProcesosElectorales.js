@@ -360,7 +360,7 @@ export const dataCasillas2016 = [
     id: 4,
     titleItem: "Lista de ubicación de casillas especiales",
     typeDocument: "pdf",
-    linkItem: PE__path(`./${"pdf/procesosElect/PE20152016/"}${"8.pdf"}`),
+    linkItem: PE__path(`./${"pdf/procesosElect/PE20152016/"}${"8.PDF"}`),
   },
   {
     id: 5,
@@ -390,6 +390,7 @@ export const dataHistorial = [
   {
     id: 1,
     titleItem: "1995",
+    flushID: "1995",
     children: [
       {
         id: 1,
@@ -402,6 +403,7 @@ export const dataHistorial = [
   {
     id: 2,
     titleItem: "1996",
+    flushID: "1996",
     children: [
       {
         id: 1,
@@ -414,6 +416,7 @@ export const dataHistorial = [
   {
     id: 3,
     titleItem: "1998",
+    flushID: "1998",
     children: [
       {
         id: 1,
@@ -445,6 +448,7 @@ export const dataHistorial = [
   {
     id: 4,
     titleItem: "1999",
+    flushID: "1999",
     children: [
       {
         id: 1,
@@ -457,6 +461,7 @@ export const dataHistorial = [
   {
     id: 5,
     titleItem: "2001",
+    flushID: "2001",
     children: [
       {
         id: 1,
@@ -482,6 +487,7 @@ export const dataHistorial = [
   {
     id: 6,
     titleItem: "2002",
+    flushID: "2002",
     children: [
       {
         id: 1,
@@ -494,6 +500,7 @@ export const dataHistorial = [
   {
     id: 7,
     titleItem: "2004",
+    flushID: "2004",
     children: [
       {
         id: 1,
@@ -525,6 +532,7 @@ export const dataHistorial = [
   {
     id: 8,
     titleItem: "2007",
+    flushID: "2007",
     children: [
       {
         id: 1,
@@ -550,6 +558,7 @@ export const dataHistorial = [
   {
     id: 9,
     titleItem: "2010",
+    flushID: "2010",
     children: [
       {
         id: 1,
@@ -581,6 +590,7 @@ export const dataHistorial = [
   {
     id: 10,
     titleItem: "2013",
+    flushID: "2013",
     children: [
       {
         id: 1,

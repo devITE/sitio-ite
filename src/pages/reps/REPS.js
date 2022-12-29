@@ -11,7 +11,6 @@ const REPS__path = require.context("../../assets");
 export default class REPS extends Component {
   render() {
     return (
-
       <div className="REPS">
         <img
           src={REPS__path(`./${"img/reps/"}${"1.png"}`)}
@@ -501,7 +500,7 @@ export default class REPS extends Component {
             <CarouselVertItem key={img.id} link={img.link} alt={img.alt} />
           ))}
         </CarouselVert>
-        <div className="text-justify fst-italic w-100">
+        <div className="fst-italic w-100">
           Fundamento: Lineamientos para la integración, funcionamiento,
           actualización y conservación del Registro Estatal de personas
           sancionadas en materia de Violencia Política contra las Mujeres en

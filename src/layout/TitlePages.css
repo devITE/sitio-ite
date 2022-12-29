@@ -15,6 +15,7 @@
   font-weight: bolder;
   letter-spacing: 1px;
   text-shadow: 4px 4px 10px #000000;
+  text-align: start !important;
 }
 
 .subtitle {

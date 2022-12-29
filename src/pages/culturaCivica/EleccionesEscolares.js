@@ -77,7 +77,7 @@ export default class EleccionesEscolares extends Component {
           disponibles.
         </p>
         <h3>Datos de contacto:</h3>
-        <p className="text-justify">
+        <p>
           Dirección de Organización Electoral, Capacitación y Educación Cívica
           <br /> Ex – Fábrica San Manuel S/N, Barrio Nuevo, C.P. 90640, San
           Miguel Contla, Santa Cruz Tlaxcala, Tlaxcala.

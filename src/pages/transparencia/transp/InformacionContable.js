@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import TitlePages from "../../../layout/TitlePages";
 import ListBadge from "../../../layout/ListBadge";
+import Accordion from "../../../layout/Accordion/Accordion";
+import AccordionItem from "../../../layout/Accordion/AccordionItem";
 import {
   dataInfContable,
   dataCuentaPublica,
@@ -11,40 +13,30 @@ export default class InformacionContable extends Component {
     return (
       <div>
         <TitlePages title="Transparencia" subTitle="Información Contable" />
-        <ListBadge ifNumbered={""} listsBadgeItem={dataInfContable} />
+        <ListBadge
+          ifNumbered={""}
+          listsBadgeItem={dataInfContable}
+          clasName="w-75 mx-auto"
+        />
         <br />
         <br />
         <TitlePages title="" subTitle="Cuenta Pública" />
-        <div className="accordion accordion-flush" id="cuentaPublica">
+        <Accordion idAccordion="cuentaPublica" clasName={"w-75 mx-auto"}>
           {dataCuentaPublica.map((accordionsItem) => (
-            <div key={accordionsItem.id} className="accordion-item">
-              <h2 className="accordion-header">
-                <button
-                  className="accordion-button collapsed"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target={"#flush-collapse" + accordionsItem.flushID}
-                  aria-expanded="false"
-                  aria-controls={"flush-collapse" + accordionsItem.flushID}
-                >
-                  {accordionsItem.titleItem}
-                </button>
-              </h2>
-              <div
-                id={"flush-collapse" + accordionsItem.flushID}
-                className="accordion-collapse collapse"
-                data-bs-parent="#cuentaPublica"
-              >
-                <div className="accordion-body">
-                  <ListBadge
-                    ifNumbered={""}
-                    listsBadgeItem={accordionsItem.children}
-                  />
-                </div>
-              </div>
-            </div>
+            <AccordionItem
+              key={accordionsItem.id}
+              flushID={accordionsItem.flushID}
+              titleItem={accordionsItem.titleItem}
+              contentItem={
+                <ListBadge
+                  ifNumbered={""}
+                  listsBadgeItem={accordionsItem.children}
+                />
+              }
+              idAccordion="cuentaPublica"
+            />
           ))}
-        </div>
+        </Accordion>
       </div>
     );
   }

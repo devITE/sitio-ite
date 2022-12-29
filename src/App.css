@@ -55,23 +55,6 @@ a {
   border-top: none;
 }
 
-.btn-pill-v {
-  background: 0 0 !important;
-  border: 1px solid #dfdfdf !important;
-  border-radius: 0 !important;
-  color: #000000 !important;
-}
-
-.btn-pill-v.active {
-  background-color: #9d3c8a !important;
-  color: #ffffff !important;
-}
-
-.btn-pill-v.active:hover {
-  background-color: #662659 !important;
-  color: #ffffff !important;
-}
-
 .w-15 {
   width: 15% !important;
 }
@@ -113,12 +96,12 @@ a {
   transform: scale(1.03);
 }
 
-.Content__grid {
-  /* .Grid__folder { */
+/* .Content__grid {
   color: #972069;
   text-align: center;
   display: grid;
-}
+} */
+.Content__grid,
 .Grid__folder,
 .Grid__four,
 .Grid__three {
@@ -133,6 +116,9 @@ a {
   margin: 5px 0;
 }
 
+.Content__grid {
+  font-size: 15px !important;
+}
 .Content__grid img:hover,
 .Grid__folder img:hover {
   /* .Grid__four img:hover { */
@@ -275,11 +261,6 @@ table tbody tr td .MuiSvgIcon-root {
     left: -15.5%;
   }
 
-  .Content__grid {
-    grid-template-columns: auto auto auto auto;
-    gap: 30px;
-  }
-
   .Content__grid img {
     width: 62px !important;
   }
@@ -293,6 +274,7 @@ table tbody tr td .MuiSvgIcon-root {
     width: 130px !important;
   }
 
+  .Content__grid,
   .Grid__four {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 20px;
@@ -322,19 +304,12 @@ table tbody tr td .MuiSvgIcon-root {
     width: 52px !important;
   }
 
-  .Content__grid {
-    grid-template-columns: auto auto auto;
-    gap: 30px;
-  }
-
   .Grid__folder {
     grid-template-columns: auto auto auto auto;
     gap: 20px;
   }
-  .Grid__four {
-    grid-template-columns: auto auto auto auto;
-    gap: 20px;
-  }
+  .Content__grid,
+  .Grid__four,
   .Grid__three {
     grid-template-columns: auto auto auto;
     gap: 20px;
@@ -362,11 +337,6 @@ table tbody tr td .MuiSvgIcon-root {
     left: -4.5%;
   }
 
-  .Content__grid {
-    grid-template-columns: auto auto;
-    gap: 30px;
-  }
-
   .Content__grid img {
     width: 42px !important;
   }
@@ -375,12 +345,14 @@ table tbody tr td .MuiSvgIcon-root {
     grid-template-columns: auto auto;
     gap: 20px;
   }
-  .Grid__four {
-    grid-template-columns: auto auto;
-    gap: 20px;
-  }
+  .Content__grid,
+  .Grid__four,
   .Grid__three {
     grid-template-columns: auto auto;
     gap: 20px;
+  }
+  .btn-ite {
+    font-size: 10px !important;
+    padding: 2px !important;
   }
 }

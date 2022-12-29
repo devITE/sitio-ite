@@ -11,7 +11,7 @@ export default class AvisosPrivacidad extends Component {
     return (
       <div>
         <TitlePages title="Transparencia" subTitle="Avisos de Privacidad" />
-        <Accordion idAccordion="avisosPrivacidad">
+        <Accordion idAccordion="avisosPrivacidad" clasName={"w-75 mx-auto"}>
           {dataAvisosPrivacidad.map((accordionsItem) => (
             <AccordionItem
               key={accordionsItem.id}

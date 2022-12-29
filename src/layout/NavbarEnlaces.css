@@ -19,10 +19,13 @@
 /* tablets */
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
   .NavbarEnlaces {
-    display: flex;
+    /* display: flex;
     flex-wrap: wrap;
     gap: 30px;
-    padding: 0px 30px;
+    padding: 0px 30px; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 50px;
   }
 }
 

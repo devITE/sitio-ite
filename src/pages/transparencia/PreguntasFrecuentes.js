@@ -15,7 +15,7 @@ export default class PreguntasFrecuentes extends Component {
               Elecciones celebradas en el Estado de Tlaxcala?
             </li>
             <strong>Respuesta:</strong>
-            <p className="text-justify">
+            <p>
               Te informamos que el Instituto Tlaxcalteca de Elecciones, es
               responsable del ejercicio de la función estatal de preparación,
               organización, desarrollo, vigilancia y validez de los procesos de
@@ -24,7 +24,7 @@ export default class PreguntasFrecuentes extends Component {
               (artículo 20 de la Ley de Instituciones y Procedimientos
               Electorales Para el Estado de Tlaxcala).
             </p>
-            <p className="text-justify">
+            <p>
               Consulta los resultados electorales de las elecciones de
               Gubernaturas, Diputaciones, Ayuntamientos y Presidencias de
               Comunidad en el siguiente enlace:
@@ -34,7 +34,7 @@ export default class PreguntasFrecuentes extends Component {
               cargo de elección en el Estado de Tlaxcala?
             </li>
             <strong>Respuesta:</strong>
-            <p className="text-justify">
+            <p>
               El artículo 8 fracción II de la Ley de Instituciones y
               Procedimientos Electorales para el Estado de Tlaxcala, señala que
               es un derecho poder ser votado para todos los cargos de elección
@@ -42,14 +42,14 @@ export default class PreguntasFrecuentes extends Component {
               o comisión, teniendo las cualidades que establezca la Constitución
               Local las demás leyes aplicables.
             </p>
-            <p className="text-justify">
+            <p>
               El derecho de solicitar el registro de candidatos ante la
               autoridad electoral corresponde a los partidos políticos, así como
               a los ciudadanos que soliciten su registro de manera independiente
               a aquéllos y cumplan con los requisitos, condiciones y términos
               que determinen las leyes aplicables.
             </p>
-            <p className="text-justify">
+            <p>
               Puedes consultar los acuerdos del Consejo General del Instituto
               Tlaxcalteca de Elecciones mediante los que se aprobaron registros
               de candidaturas a diferentes cargos de elección, dando clic en el
@@ -59,7 +59,7 @@ export default class PreguntasFrecuentes extends Component {
               ¿Dónde puedo consultar la Lista Nominal y el Padrón Electoral?
             </li>
             <strong>Respuesta:</strong>
-            <p className="text-justify">
+            <p>
               De conformidad con lo dispuesto por los artículos 41, base V,
               apartado B, inciso a, numeral 3, de la Constitución Política de
               los Estados Unidos Mexicanos, y 32, numeral 1, inciso a), fracción
@@ -69,7 +69,7 @@ export default class PreguntasFrecuentes extends Component {
               el padrón electoral y la lista nominal de electores. Por lo que
               puedes solicitar esta información a dicho Órgano Electoral.
             </p>
-            <p className="text-justify">
+            <p>
               Puedes presentar tu solicitud dirigida al Instituto Nacional
               Electoral accediendo al siguiente enlace:
             </p>
@@ -88,13 +88,13 @@ export default class PreguntasFrecuentes extends Component {
               Elecciones?
             </li>
             <strong>Respuesta:</strong>
-            <p className="text-justify">
+            <p>
               Te informamos que al Instituto Tlaxcalteca de Elecciones le es
               aprobado un presupuesto cada ejercicio fiscal, por parte del
               Congreso del Estado, mediante el cual cumple con sus funciones,
               gran parte de este recuso se otorga a los partidos políticos.
             </p>
-            <p className="text-justify">
+            <p>
               Te invitamos a que conozcas el presupuesto otorgado a nuestro
               Instituto:
             </p>
@@ -164,7 +164,7 @@ export default class PreguntasFrecuentes extends Component {
               Políticos?
             </li>
             <strong>Respuesta:</strong>
-            <p className="text-justify">
+            <p>
               Con fundamento en el artículo 76, fracción IV, de la Ley de
               Instituciones y Procedimientos Electorales Para el Estado de
               Tlaxcala, el Instituto Tlaxcalteca de Elecciones a través de la
@@ -173,7 +173,7 @@ export default class PreguntasFrecuentes extends Component {
               Estas prerrogativas se desprenden del recurso otorgado al
               Instituto Tlaxcalteca de Elecciones.
             </p>
-            <p className="text-justify">
+            <p>
               Consulta las prerrogativas que el Instituto Tlaxcalteca de
               Elecciones ha otorgado a los partidos políticos.
             </p>
@@ -343,7 +343,7 @@ export default class PreguntasFrecuentes extends Component {
               directivas de casilla?
             </li>
             <strong>Respuesta:</strong>
-            <p className="text-justify">
+            <p>
               Te informamos que con base en los artículos 262 de la Ley General
               de Instituciones y Procedimientos Electorales, 254 del Reglamento
               de Elecciones del Instituto Nacional Electoral, el registro de
@@ -353,7 +353,7 @@ export default class PreguntasFrecuentes extends Component {
               extraordinarios, está a cargo del Instituto Nacional Electoral a
               través de sus Consejos Locales y Distritales.
             </p>
-            <p className="text-justify">
+            <p>
               Puedes presentar tu solicitud dirigida al Instituto Nacional
               Electoral accediendo al siguiente enlace:
             </p>
@@ -372,7 +372,7 @@ export default class PreguntasFrecuentes extends Component {
               Estado de Tlaxcala?
             </li>
             <strong>Respuesta:</strong>
-            <p className="text-justify">
+            <p>
               La Ley de Consulta Ciudadana para el Estado de Tlaxcala fue
               publicada en el Periódico Oficial del Gobierno del Estado de
               Tlaxcala el 26 de julio de 2006, y entró en vigor el 01 de enero
@@ -380,7 +380,7 @@ export default class PreguntasFrecuentes extends Component {
               Consulta Popular, Plebiscito, Referéndum y Voz Ciudadana en el
               Cabildo.
             </p>
-            <p className="text-justify">
+            <p>
               Desde la entrada en vigor y hasta la fecha
               <strong>
                 no se ha ejercido alguno de los mecanismos de participación
@@ -388,7 +388,7 @@ export default class PreguntasFrecuentes extends Component {
               </strong>
               .
             </p>
-            <p className="text-justify">
+            <p>
               Te invitamos a que conozcas más a fondo los mecanismos de
               participación ciudadana que contempla nuestra ley, accediendo al
               siguiente enlace:

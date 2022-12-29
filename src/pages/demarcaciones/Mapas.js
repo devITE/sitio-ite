@@ -66,18 +66,23 @@ export default class Mapas extends Component {
               aria-labelledby="v-pills-mapaTLX-tab"
               tabIndex="0"
             >
-              <a
-                href="/#"
-                rel="noreferrer"
-                data-bs-toggle="modal"
-                data-bs-target="#mapaTLX"
-              >
-                <img
-                  src={Mapas__path(`./${"img/imgDemA/"}${"12.png"}`)}
-                  className="img-fluid w-100 mx-auto"
-                  alt="Estructura Organica"
-                />
-              </a>
+              <div className="hover-ite">
+                <a
+                  href="/#"
+                  rel="noreferrer"
+                  data-bs-toggle="modal"
+                  data-bs-target="#mapaTLX"
+                >
+                  <img
+                    src={Mapas__path(`./${"img/imgDemA/"}${"12.png"}`)}
+                    className="img-fluid w-100 mx-auto"
+                    alt="Distritación Local Tlaxcala 2022"
+                  />
+                </a>
+                <div className="Mapas__dist-footer bg-ite">
+                  Distritación Local Tlaxcala 2022
+                </div>
+              </div>
               <ModalDownload
                 idModal="mapaTLX"
                 linkIMG={Mapas__path(`./${"img/imgDemA/"}${"12.png"}`)}
@@ -94,8 +99,8 @@ export default class Mapas extends Component {
             >
               <div className="Grid__three">
                 {distLocal.map((mapa) => (
-                  <div key={mapa.id}>
-                    <div className="Mapas__dist-img">
+                  <div key={mapa.id} className="hover-ite">
+                    <div>
                       <a
                         href="/#"
                         rel="noreferrer"
@@ -129,10 +134,10 @@ export default class Mapas extends Component {
               aria-labelledby="v-pills-infografias-tab"
               tabIndex="0"
             >
-              <div className="Mapas__grid">
+              <div className="Grid__three">
                 {infografias.map((mapa) => (
-                  <div key={mapa.id}>
-                    <div className="Mapas__dist-img">
+                  <div key={mapa.id} className="hover-ite">
+                    <div>
                       <a
                         href="/#"
                         rel="noreferrer"
