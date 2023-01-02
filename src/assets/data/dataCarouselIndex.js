@@ -1,5 +1,3 @@
-const Carousel__pdfpath = require.context("../pdf");
-
 const Carousel__path = require.context("../");
 
 export const dataCIndex = [
@@ -157,17 +155,5 @@ export const dataCA = [
     buttonActive: "active",
     ariaCurrent: "true",
     link: Carousel__path(`./${"img/imgC_A/"}${"1.jpeg"}`),
-  },
-];
-
-export const dataCC = [
-  {
-    id: 0,
-    url: Carousel__path(`./${"img/imgC_C/"}${"0.jpeg"}`),
-    alt: "Convocatoria OPPMT",
-    itemActive: "active",
-    buttonActive: "active",
-    ariaCurrent: "true",
-    link: Carousel__pdfpath(`./${"carousel/"}${"11.pdf"}`),
   },
 ];

@@ -1,4 +1,3 @@
-/* eslint-disable no-unused-vars */
 import React, { useMemo } from "react";
 import TitlePages from "../../../layout/TitlePages";
 import MaterialReactTable from "material-react-table";

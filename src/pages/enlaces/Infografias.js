@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { Component } from "react";
 import NavbarEnlaces from "../../layout/NavbarEnlaces";
 import ModalIMG from "../../layout/Modal/ModalIMG";
@@ -97,6 +96,7 @@ export default class Infografias extends Component {
                     {chilItem.subChildren.map((subChilItem) => (
                       <div key={subChilItem.id}>
                         <a
+                          href="#/"
                           rel="noreferrer"
                           data-bs-toggle="modal"
                           data-bs-target={

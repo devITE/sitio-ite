@@ -180,7 +180,6 @@ export default class Transparencia extends Component {
             />
           </a>
         </div>
-        {/* Modal */}
         <Modal
           idModal="modalReglamento"
           titleModal="Reglamento Interior ITE"

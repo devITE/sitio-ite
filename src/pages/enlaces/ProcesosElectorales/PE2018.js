@@ -13,7 +13,6 @@ export default class PE2018 extends Component {
         <NavbarEnlaces title="Proceso Electoral 2017 - 2018" />
         <div className="Content__grid">
           <div>
-            {/* <Link to="/PE2018"> */}
             <a
               href="/#"
               rel="noreferrer"
@@ -28,7 +27,6 @@ export default class PE2018 extends Component {
                 alt="Resultados Electorales 2018"
               />
             </a>
-            {/* </Link> */}
             <p className="mt-2">Resultados Electoral 2018</p>
           </div>
           <div>
@@ -94,7 +92,6 @@ export default class PE2018 extends Component {
             </p>
           </div>
         </div>
-        {/* Modal */}
         <Modal
           idModal="ResultadosElectorales2018"
           titleModal="Resultados Electorales 2018"

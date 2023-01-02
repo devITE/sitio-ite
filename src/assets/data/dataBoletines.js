@@ -2440,4 +2440,27 @@ export const dataBoletines2022 = [
       "BOLETÍN 45 CAPITALIZAR DIFERENCIAS DE MUJERES EN BENEFICIO DEL FEMINISMO, PROPONE SARA LOVERA",
     linkBoletin: Boletines__pdfpath(`./${"2022/"}${"45.pdf"}`),
   },
+  {
+    id: 46,
+    yearBoletin: "2022",
+    monthBoletin: "OCT",
+    nameBoletin:
+      "BOLETÍN 46. DE LARGO ALIENTO ESTRATEGIA DE IMPULSO A PARTICIPACIÓN DE MUJERES",
+    linkBoletin: Boletines__pdfpath(`./${"2022/"}${"46.pdf"}`),
+  },
+  {
+    id: 47,
+    yearBoletin: "2022",
+    monthBoletin: "NOV",
+    nameBoletin:
+      "BOLETÍN 47 ENTREGA ITE PREMIO A LUIS FERNANDO ALCOLTZI GANADOR DE LA ETAPA ESTATAL EN EL CONCURSO NACIONAL DE ORATORIA 2022",
+    linkBoletin: Boletines__pdfpath(`./${"2022/"}${"47.pdf"}`),
+  },
+  {
+    id: 48,
+    yearBoletin: "2022",
+    monthBoletin: "NOV",
+    nameBoletin: "BOLETÍN 48 EJERCER CARGOS SIN VIOLENCIA ES UN DERECHO-GARAY",
+    linkBoletin: Boletines__pdfpath(`./${"2022/"}${"48.pdf"}`),
+  },
 ];

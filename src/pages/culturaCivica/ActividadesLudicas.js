@@ -68,7 +68,6 @@ export default class ActividadesLudicas extends Component {
             </a>
           </div>
         </div>
-        {/* Modal */}
         <ModalIMG
           idModal="Juego1"
           linkIMG={CulturaCivica__path(`./img/imgcivica/game1.jpg`)}

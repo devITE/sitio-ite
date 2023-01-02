@@ -1,5 +1,3 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
-// eslint-disable-next-line
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import NavbarEnlaces from "../../../layout/NavbarEnlaces";
@@ -26,6 +24,7 @@ export default class OIC extends Component {
         <div className="Content__grid">
           <div>
             <a
+              href="#/"
               rel="noreferrer"
               data-bs-toggle="modal"
               data-bs-target="#EstructuraOrganica"
@@ -40,6 +39,7 @@ export default class OIC extends Component {
           </div>
           <div>
             <a
+              href="#/"
               rel="noreferrer"
               data-bs-toggle="modal"
               data-bs-target="#Atribuciones"
@@ -54,6 +54,7 @@ export default class OIC extends Component {
           </div>
           <div>
             <a
+              href="#/"
               rel="noreferrer"
               data-bs-toggle="modal"
               data-bs-target="#Normatividad"
@@ -68,6 +69,7 @@ export default class OIC extends Component {
           </div>
           <div>
             <a
+              href="#/"
               rel="noreferrer"
               data-bs-toggle="modal"
               data-bs-target="#Programas"
@@ -82,6 +84,7 @@ export default class OIC extends Component {
           </div>
           <div>
             <a
+              href="#/"
               rel="noreferrer"
               data-bs-toggle="modal"
               data-bs-target="#Semblanza"
@@ -96,22 +99,22 @@ export default class OIC extends Component {
           </div>
           <div>
             <a
+              href="#/"
               rel="noreferrer"
               data-bs-toggle="modal"
               data-bs-target="#DeclaracionPatrimonial"
             >
-              {/* <Link to="/DeclaracionPatrimonial"> */}
               <img
                 className="img-fluid"
                 src={OIC__imgpath(`./${"icons/"}${"e16.png"}`)}
                 alt="Declaración Patrimonial"
               />
-              {/* </Link> */}
             </a>
             <p className="mt-2">Declaración Patrimonial</p>
           </div>
           <div>
             <a
+              href="#/"
               rel="noreferrer"
               data-bs-toggle="modal"
               data-bs-target="#CodigodeEtica"
@@ -135,7 +138,6 @@ export default class OIC extends Component {
             <p className="mt-2">Galería</p>
           </div>
         </div>
-        {/* Modal */}
         <Modal
           idModal="EstructuraOrganica"
           titleModal="Estructura Orgánica del Órgano Interno de Control"
