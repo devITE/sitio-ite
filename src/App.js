@@ -48,6 +48,7 @@ import AcuerdosINE2016 from "./pages/acuerdos/acuerdosINE/AcuerdosINE2016";
 import AcuerdosINE2020 from "./pages/acuerdos/acuerdosINE/AcuerdosINE2020";
 import AcuerdosINE2021 from "./pages/acuerdos/acuerdosINE/AcuerdosINE2021";
 import AcuerdosINE2022 from "./pages/acuerdos/acuerdosINE/AcuerdosINE2022";
+import AcuerdosINE2023 from "./pages/acuerdos/acuerdosINE/AcuerdosINE2023";
 
 //Acuerdos ITE
 import AcuerdosAnteriores from "./pages/acuerdos/AcuerdosAnteriores";
@@ -74,6 +75,7 @@ import Acuerdos2019 from "./pages/acuerdos/acuerdosITE/Acuerdos2019";
 import Acuerdos2020 from "./pages/acuerdos/acuerdosITE/Acuerdos2020";
 import Acuerdos2021 from "./pages/acuerdos/acuerdosITE/Acuerdos2021";
 import Acuerdos2022 from "./pages/acuerdos/acuerdosITE/Acuerdos2022";
+import Acuerdos2023 from "./pages/acuerdos/acuerdosITE/Acuerdos2023";
 
 //Demarcaciones
 import Acuerdos from "./pages/demarcaciones/Acuerdos";
@@ -227,6 +229,7 @@ function App() {
           <Route path="/Acuerdos2020" element={<Acuerdos2020 />} />
           <Route path="/Acuerdos2021" element={<Acuerdos2021 />} />
           <Route path="/Acuerdos2022" element={<Acuerdos2022 />} />
+          <Route path="/Acuerdos2023" element={<Acuerdos2023 />} />
 
           {/* Acuerdos INE */}
           <Route path="/AcuerdosINE2015" element={<AcuerdosINE2015 />} />
@@ -234,6 +237,7 @@ function App() {
           <Route path="/AcuerdosINE2020" element={<AcuerdosINE2020 />} />
           <Route path="/AcuerdosINE2021" element={<AcuerdosINE2021 />} />
           <Route path="/AcuerdosINE2022" element={<AcuerdosINE2022 />} />
+          <Route path="/AcuerdosINE2023" element={<AcuerdosINE2023 />} />
 
           {/* Demarcaciones */}
           <Route path="/Acuerdos" element={<Acuerdos />} />
