@@ -79,10 +79,11 @@ export default class Home extends Component {
                 {dataCAR.map((cAR) => (
                   <CarouselItemIMG
                     key={cAR.id}
-                    imgUrl={cAR.url}
+                    imgUrl={cAR.imgUrl}
                     alt={cAR.alt}
                     itemActive={cAR.itemActive}
-                    link={cAR.link}
+                    url={cAR.url}
+                    linkToo={cAR.linkToo}
                   />
                 ))}
               </Carousel>
@@ -95,10 +96,11 @@ export default class Home extends Component {
                 {dataCA.map((cA) => (
                   <CarouselItemIMG
                     key={cA.id}
-                    imgUrl={cA.url}
+                    imgUrl={cA.imgUrl}
                     alt={cA.alt}
                     itemActive={cA.itemActive}
-                    link={cA.link}
+                    url={cA.url}
+                    linkToo={cA.linkToo}
                   />
                 ))}
               </Carousel>
