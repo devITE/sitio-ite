@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import NavbarEnlaces from "../../../layout/NavbarEnlaces";
+import Accordion from "../../../layout/Accordion/Accordion";
+import AccordionItem from "../../../layout/Accordion/AccordionItem";
 import Carousel from "../../../layout/Carousel/Carousel/Carousel";
 import CarouselItemIMG from "../../../layout/Carousel/CarouselItems/CarouselItemIMG";
 
@@ -10,50 +12,35 @@ export default class GaleriaOIC extends Component {
     return (
       <>
         <NavbarEnlaces title="Órgano Interno de Control - Galeria" />
-        <div className="accordion accordion-flush" id="GaleriaAccordion">
-          {dataGaleria.map((galeriaItems) => (
-            <div key={galeriaItems.id} className="accordion-item">
-              <h2 className="accordion-header" id="flush-headingTwo">
-                <button
-                  className="accordion-button collapsed"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target={"#flush-" + galeriaItems.nameItem}
-                  aria-expanded="false"
-                  aria-controls={"flush-" + galeriaItems.nameItem}
-                >
-                  {galeriaItems.titleItem}
-                </button>
-              </h2>
-              <div
-                id={"flush-" + galeriaItems.nameItem}
-                className="accordion-collapse collapse"
-                aria-labelledby="flush-headingTwo"
-                data-bs-parent="#accordionFlushExample"
-              >
-                <div className="accordion-body">
-                  {galeriaItems.children.map((infCarousel) => (
-                    <div key={infCarousel.id}>
-                      <div className="w-50 mx-auto">
-                        <Carousel idCarousel={infCarousel.carouselID}>
-                          {infCarousel.subChildren.map((cC) => (
-                            <CarouselItemIMG
-                              key={cC.id}
-                              imgUrl={cC.url}
-                              alt={cC.alt}
-                              itemActive={cC.itemActive}
-                              link={cC.link}
-                            />
-                          ))}
-                        </Carousel>
-                      </div>
-                    </div>
-                  ))}
+        <Accordion idAccordion="galeriaOIC">
+          {dataGaleria.map((infoAccordion) => (
+            <AccordionItem
+              key={infoAccordion.id}
+              flushID={infoAccordion.flushID}
+              titleItem={infoAccordion.titleItem}
+              contentItem={infoAccordion.children.map((infoCarousel) => (
+                <div className="w-75 mx-auto">
+                  <Carousel
+                    key={infoCarousel.id}
+                    idCarousel={infoCarousel.carouselID}
+                  >
+                    {infoCarousel.subChildren.map((itemsCarousel) => (
+                      <CarouselItemIMG
+                        key={itemsCarousel.id}
+                        imgUrl={itemsCarousel.imgUrl}
+                        alt={itemsCarousel.alt}
+                        itemActive={itemsCarousel.itemActive}
+                        url={itemsCarousel.url}
+                        linkToo={itemsCarousel.linkToo}
+                      />
+                    ))}
+                  </Carousel>
                 </div>
-              </div>
-            </div>
+              ))}
+              idAccordion="galeriaOIC"
+            />
           ))}
-        </div>
+        </Accordion>
       </>
     );
   }

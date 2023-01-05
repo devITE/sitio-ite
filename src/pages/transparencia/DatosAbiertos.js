@@ -45,8 +45,6 @@ export default class DatosAbiertos extends Component {
                       >
                         {buttonModal.titleModal}
                       </button>
-
-                      {/* Modal */}
                       <Modal
                         idModal={buttonModal.idModal}
                         titleModal={buttonModal.titleModal}
@@ -72,9 +70,6 @@ export default class DatosAbiertos extends Component {
                             <h5 className="mt-3 mb-0">Datos y recursos: </h5>
                             {buttonModal.subChildren.map((content) => (
                               <div key={content.id}>
-                                {/* <h5 className="mb-0">Tema: </h5> */}
-                                {/* {content.resourseTitle} */}
-                                {/* --------------- */}
                                 {
                                   {
                                     pdf: (
@@ -110,7 +105,6 @@ export default class DatosAbiertos extends Component {
                                   }[content.typeDocument]
                                 }
                                 &nbsp;{content.resourseTitle}
-                                {/* --------------- */}
                               </div>
                             ))}
                           </div>

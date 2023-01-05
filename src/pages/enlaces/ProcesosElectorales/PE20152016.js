@@ -206,7 +206,6 @@ export default class PE20152016 extends Component {
             <p className="mt-2">Escaneo de puertos servidor PREP</p>
           </div>
         </div>
-        {/* Modal */}
         <Modal
           idModal="Encuestas2016"
           titleModal="Encuestas 2016"

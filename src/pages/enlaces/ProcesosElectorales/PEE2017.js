@@ -26,17 +26,11 @@ export default class PEE2017 extends Component {
             <p className="mt-2">Resultados por casilla</p>
           </div>
           <div>
-            {/* <a
-              href="/#"
-              target="_blank"
-              rel="noreferrer"
-            > */}
             <img
               className="img-fluid"
               src={PEE2017__path(`./${"img/icons/"}${"e25.png"}`)}
               alt="PREP 2017"
             />
-            {/* </a> */}
           </div>
         </div>
       </>

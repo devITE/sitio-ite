@@ -5,23 +5,25 @@ import {
   dataCIndex,
   dataCAR,
   dataCA,
-  dataCC,
 } from "../../assets/data/dataCarouselIndex";
-import Estrados from "./estrados/Estrados";
-import { dataEstrados } from "../../assets/data/dataEstrados";
+import Convocatorias from "../../layout/Index/Convocatorias";
+import TablePDF from "../../layout/Index/Estrados";
+import {
+  dataEstrados,
+  dataConvocatorias,
+} from "../../assets/data/dataEstradosConvocatorias";
 
 import Informes from "./informes/Informes";
 import { dataInformes } from "../../assets/data/dataInformes";
 
-import Videoteca from "./videoteca/Videoteca";
+import Videoteca from "../../layout/videoteca/Videoteca";
 import { dataVideoteca } from "../../assets/data/dataVideoteca";
 import "./Home.css";
 
 import Carousel from "../../layout/Carousel/Carousel/Carousel";
 import CarouselItemIMG from "../../layout/Carousel/CarouselItems/CarouselItemIMG";
-// import CarouselItemVideo from "../../layout/Carousel/CarouselItems/CarouselItemVideo";
-// import { dataVideoPodCast } from "../../assets/data/dataVideoPodCast";
-import ModalInit from "../../layout/Modal/ModalInit";
+import { dataVideoPodCast } from "../../assets/data/dataVideoPodCast";
+import ModalInit from "../../assets/popupIndex/ModalInit";
 import "./Home.css";
 
 const Home__path = require.context("../../assets");
@@ -30,15 +32,23 @@ export default class Home extends Component {
   render() {
     return (
       <>
-        <ModalInit enlace="" alt="UNO" />
+        <ModalInit
+          imgLink={Home__path(`./despen/img/banner.jpg`)}
+          // url="https://despen.itetlax.org.mx"
+          // url={Home__path(`./despen/img/banner.jpg`)}
+          url=""
+          linkToo="/DESPEN"
+        />
+
         <Carousel idCarousel="carouselTopIndex">
           {dataCIndex.map((cIndex) => (
             <CarouselItemIMG
               key={cIndex.id}
-              imgUrl={cIndex.url}
+              imgUrl={cIndex.imgUrl}
               alt={cIndex.alt}
               itemActive={cIndex.itemActive}
-              link={cIndex.link}
+              url={cIndex.url}
+              linkToo={cIndex.linkToo}
             />
           ))}
         </Carousel>
@@ -56,7 +66,7 @@ export default class Home extends Component {
           </div>
           <div>
             <h2 className="bottom_title">Enlaces</h2>
-            <div className="">
+            <div>
               <Enlaces />
             </div>
           </div>
@@ -69,10 +79,11 @@ export default class Home extends Component {
                 {dataCAR.map((cAR) => (
                   <CarouselItemIMG
                     key={cAR.id}
-                    imgUrl={cAR.url}
+                    imgUrl={cAR.imgUrl}
                     alt={cAR.alt}
                     itemActive={cAR.itemActive}
-                    link={cAR.link}
+                    url={cAR.url}
+                    linkToo={cAR.linkToo}
                   />
                 ))}
               </Carousel>
@@ -85,10 +96,11 @@ export default class Home extends Component {
                 {dataCA.map((cA) => (
                   <CarouselItemIMG
                     key={cA.id}
-                    imgUrl={cA.url}
+                    imgUrl={cA.imgUrl}
                     alt={cA.alt}
                     itemActive={cA.itemActive}
-                    link={cA.link}
+                    url={cA.url}
+                    linkToo={cA.linkToo}
                   />
                 ))}
               </Carousel>
@@ -98,47 +110,12 @@ export default class Home extends Component {
         <h2 className="mt-4 bottom_title">Informes</h2>
         <Informes items={dataInformes} itemsID={"itemsInformes"} />
         <h2 className="bottom_title">Video Podcast</h2>
-        <Videoteca items={dataVideoteca} itemsID={"videoteca"} />
-        {/* <Videoteca items={dataVideoteca} itemsID={"videoteca"} /> */}
-        {/* <div className="Home__EspITEVidPod">
-          <div className="item1">
-            <h2 className="bottom_title">Espacio ITE</h2>
-            <a
-              href={Home__path(`./${"pdf/espacioITE/"}${"1.pdf"}`)}
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img
-                className="img-fluid"
-                src={Home__path(
-                  `./${"img/imgHome/"}${"espacio-ite-neria.jpg"}`
-                )}
-                alt="Espacio ITE"
-              />
-            </a>
-          </div>
-          <div className="item2">
-            <h2 className="bottom_title">Video Podcast</h2>
-            <Carousel idCarousel="videoPodcast">
-              {dataVideoPodCast
-                .sort((a, b) => b.id - a.id)
-                .map((cA) => (
-                  <CarouselItemVideo
-                    key={cA.id}
-                    itemActive={cA.itemActive}
-                    link={cA.link}
-                    title={cA.title}
-                  />
-                ))}
-            </Carousel>
-          </div>
-        </div> */}
-
+        <Videoteca items={dataVideoPodCast} itemsID={"videoPodcast"} />
         <div className="Home__boxesTriple mt-4">
           <div>
             <h2 className="bottom_title">Estrados Electrónicos</h2>
-            <div className="">
-              <Estrados
+            <div>
+              <TablePDF
                 items={dataEstrados}
                 itemsID={"listEstradosElectronicos"}
               />
@@ -156,19 +133,12 @@ export default class Home extends Component {
             <h5 className="mt-3 text-center">Sesión Especial 01/12/22</h5>
           </div>
           <div>
-            <h2 className="bottom_title">Convocatoria</h2>
-            <div className="ps-2 pe-2">
-              <Carousel idCarousel="carouselConvocatorias">
-                {dataCC.map((cC) => (
-                  <CarouselItemIMG
-                    key={cC.id}
-                    imgUrl={cC.url}
-                    alt={cC.alt}
-                    itemActive={cC.itemActive}
-                    link={cC.link}
-                  />
-                ))}
-              </Carousel>
+            <h2 className="bottom_title">Convocatorias</h2>
+            <div>
+              <Convocatorias
+                items={dataConvocatorias}
+                itemsID={"listConvocatorias"}
+              />
             </div>
           </div>
         </div>
@@ -179,27 +149,45 @@ export default class Home extends Component {
         />
         <div className="Home__micrositios">
           <div>
-            <img
-              className="mt-2 img-fluid"
-              src={Home__path(`./${"img/imgHome/"}${"itegenero.png"}`)}
-              alt="Micrositio ITE Género"
-            />
+            <a
+              href="https://ite-genero.itetlax.org.mx"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                className="mt-2 img-fluid"
+                src={Home__path(`./${"img/imgHome/"}${"itegenero.png"}`)}
+                alt="Micrositio ITE Género"
+              />
+            </a>
           </div>
           <div>
-            <img
-              className="mt-2 img-fluid"
-              src={Home__path(`./${"img/imgHome/"}${"covid.png"}`)}
-              alt="Micrositio COVID-19"
-            />
+            <a
+              href="https://covid19.itetlax.org.mx"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                className="mt-2 img-fluid"
+                src={Home__path(`./${"img/imgHome/"}${"covid.png"}`)}
+                alt="Micrositio COVID-19"
+              />
+            </a>
           </div>
           <div>
-            <img
-              className="mt-2 img-fluid"
-              src={Home__path(
-                `./${"img/imgHome/"}${"participacionciudadana.png"}`
-              )}
-              alt="Micrositio PArticipación Ciudadana"
-            />
+            <a
+              href="https://participacion-ciudadana.itetlax.org.mx"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                className="mt-2 img-fluid"
+                src={Home__path(
+                  `./${"img/imgHome/"}${"participacionciudadana.png"}`
+                )}
+                alt="Micrositio PArticipación Ciudadana"
+              />
+            </a>
           </div>
         </div>
         <Link to="REPS">

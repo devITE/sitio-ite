@@ -1,4 +1,3 @@
-/* eslint-disable no-unused-vars */
 import React, { useMemo } from "react";
 import TitlePages from "../../../layout/TitlePages";
 import MaterialReactTable from "material-react-table";
@@ -6,9 +5,6 @@ import { Box } from "@mui/material";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFileExcel, faFilePdf } from "@fortawesome/free-solid-svg-icons";
 import { dataArt632020 } from "../../../assets/data/dataTransparenciaArt63";
-
-let nameFileExcel = "",
-  nameFilePDF = "";
 
 const Art632020 = () => {
   const columns = useMemo(
@@ -99,11 +95,9 @@ const Art632020 = () => {
                 </p>
                 <div className="row">
                   <div className="col-md-6">
-                    {
-                      (nameFileExcel = row.original.excel
-                        ? row.original.excel.substring(14, 100).slice(0, -26)
-                        : [])
-                    }{" "}
+                    {row.original.excel
+                      ? row.original.excel.substring(14, 100).slice(0, -26)
+                      : []}{" "}
                     <a
                       href={row.original.excel}
                       target="_blank"
@@ -116,11 +110,9 @@ const Art632020 = () => {
                     </a>
                   </div>
                   <div className="col-md-6">
-                    {
-                      (nameFilePDF = row.original.pdf
-                        ? row.original.pdf.substring(14, 100).slice(0, -25)
-                        : [])
-                    }{" "}
+                    {row.original.pdf
+                      ? row.original.pdf.substring(14, 100).slice(0, -25)
+                      : []}{" "}
                     <a href={row.original.pdf} target="_blank" rel="noreferrer">
                       <FontAwesomeIcon
                         icon={faFilePdf}

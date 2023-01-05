@@ -3,6 +3,7 @@ strong {
   color: #aa0787;
   font-weight: bolder;
 }
+
 .bg-ite {
   background: #aa0787;
 }
@@ -58,12 +59,15 @@ a {
 .w-15 {
   width: 15% !important;
 }
+
 .w-20 {
   width: 20% !important;
 }
+
 .w-80 {
   width: 80% !important;
 }
+
 .w-90 {
   width: 90% !important;
 }
@@ -91,6 +95,7 @@ a {
   border-radius: 10px;
   box-shadow: 5px 5px 5px #a0a0a0;
 }
+
 .hover-ite:hover {
   transition: 0.5s;
   transform: scale(1.03);
@@ -106,6 +111,7 @@ a {
   font-weight: bolder;
   font-size: 25px;
 }
+
 .Grid__four p,
 .Grid__three p {
   margin: 5px 0;
@@ -114,6 +120,7 @@ a {
 .Content__grid {
   font-size: 15px !important;
 }
+
 .Content__grid img:hover,
 .Grid__folder img:hover {
   /* .Grid__four img:hover { */
@@ -239,7 +246,7 @@ table tbody tr td .MuiSvgIcon-root {
 /* general */
 @media only screen and (min-width: 1024px) {
   .App__container {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 75%;
     padding-bottom: 80px;
   }
@@ -284,7 +291,7 @@ table tbody tr td .MuiSvgIcon-root {
 /* tablets */
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
   .App__container {
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     width: 85%;
     padding-bottom: 120px;
   }
@@ -303,6 +310,7 @@ table tbody tr td .MuiSvgIcon-root {
     grid-template-columns: auto auto auto auto;
     gap: 20px;
   }
+
   .Content__grid,
   .Grid__four,
   .Grid__three {
@@ -314,7 +322,7 @@ table tbody tr td .MuiSvgIcon-root {
 /* mobil */
 @media only screen and (max-width: 767px) {
   .App__container {
-    border: 1px solid orange;
+    /* border: 1px solid orange; */
     width: 90%;
     padding-bottom: 130px;
     margin-bottom: 20px;
@@ -340,12 +348,14 @@ table tbody tr td .MuiSvgIcon-root {
     grid-template-columns: auto auto;
     gap: 20px;
   }
+
   .Content__grid,
   .Grid__four,
   .Grid__three {
     grid-template-columns: auto auto;
     gap: 20px;
   }
+
   .btn-ite {
     font-size: 10px !important;
     padding: 2px !important;

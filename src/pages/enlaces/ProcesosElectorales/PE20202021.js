@@ -89,7 +89,6 @@ export default class PE20202021 extends Component {
           </div>
         </div>
 
-        {/* Modal */}
         <Modal
           idModal="Gubernatura20202021"
           titleModal="Resultados Gubernatura 2020 -2021"

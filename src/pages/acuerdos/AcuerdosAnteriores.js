@@ -11,6 +11,24 @@ export default class AcuerdosAnteriores extends Component {
         <TitlePages title="Acuerdos Anteriores" subTitle="" />
         <div className="w-100 mt-5 Grid__folder">
           <div>
+            <Link to="/Acuerdos2017">
+              <img
+                className="img-fluid"
+                src={AcuerdosAnteriores__imgpath(`./30.png`)}
+                alt="Acuerdos 2017"
+              />
+            </Link>
+          </div>
+          <div>
+            <Link to="/Acuerdos2016">
+              <img
+                className="img-fluid"
+                src={AcuerdosAnteriores__imgpath(`./29.png`)}
+                alt="Acuerdos 2016"
+              />
+            </Link>
+          </div>
+          <div>
             <Link to="/Acuerdos2015">
               <img
                 className="img-fluid"

@@ -39,9 +39,6 @@ export default class Boletines extends Component {
               alt="Monitoreos 2018"
             />
           </Link>
-          {/* <Link to="/Monitoreos2019">
-            <img src={imagenes5} className="img-fluid" alt="Monitoreos 2019" />
-          </Link> */}
           <Link to="/Monitoreos2020">
             <img
               src={Monitoreo_path(`./${"img/icons/"}${"33.png"}`)}

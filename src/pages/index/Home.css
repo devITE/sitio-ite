@@ -48,7 +48,8 @@
     column-gap: 2%;
   }
 
-  .Home__boxesTriple > div:nth-child(1) div {
+  .Home__boxesTriple > div:nth-child(1) div,
+  .Home__boxesTriple > div:nth-child(3) div {
     overflow: auto;
     max-height: 280px;
   }
