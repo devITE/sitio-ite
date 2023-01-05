@@ -149,8 +149,7 @@ import ValoresDemocracia from "./pages/culturaCivica/ValoresDemocracia";
 
 //Micrositios
 import REPS from "./pages/reps/REPS";
-
-import PRUEBAS from "./pages/PRUEBAS/PRUEBAS";
+import DESPEN from "./pages/despen/DESPEN";
 
 function App() {
   return (
@@ -319,9 +318,7 @@ function App() {
 
           {/* Micrositios */}
           <Route path="/REPS" element={<REPS />} />
-
-          {/* P R U E B A S */}
-          <Route path="/PRUEBAS" element={<PRUEBAS />} />
+          <Route path="/DESPEN" element={<DESPEN />} />
         </Routes>
       </div>
       <Footer></Footer>

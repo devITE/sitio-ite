@@ -32,7 +32,14 @@ export default class Home extends Component {
   render() {
     return (
       <>
-        <ModalInit url="" pdf="1" />
+        <ModalInit
+          imgLink={Home__path(`./despen/img/banner.jpg`)}
+          // url="https://despen.itetlax.org.mx"
+          // url={Home__path(`./despen/img/banner.jpg`)}
+          url=""
+          linkToo="/DESPEN"
+        />
+
         <Carousel idCarousel="carouselTopIndex">
           {dataCIndex.map((cIndex) => (
             <CarouselItemIMG

@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import Modal from "react-bootstrap/Modal";
-import imgPopup from "./popupIndex.jpg";
+import { Link } from "react-router-dom";
 
-const ModalInit__path = require.context("./");
+// const ModalInit__path = require.context("./");
 
-export default function ModalInit({ url, pdf }) {
+export default function ModalInit({ url, linkToo, imgLink }) {
   const [show, setShow] = useState(true);
   const handleClose = () => setShow(false);
 
@@ -17,34 +17,32 @@ export default function ModalInit({ url, pdf }) {
         centered
       >
         <Modal.Body>
-          {(url === "") & (pdf === "") ? (
+          {(url === "") & (linkToo === "") ? (
             <>
-              <img
-                className="img-fluid"
-                src={imgPopup}
-                alt="Imagen del popup"
-              />
+              <img className="img-fluid" src={imgLink} alt="Imagen del popup" />
             </>
-          ) : (url === "") & (pdf !== "") ? (
+          ) : (url === "") & (linkToo !== "") ? (
             <>
-              <a
+              {/* <a
                 href={ModalInit__path(`./${pdf + ".pdf"}`)}
                 target="_blank"
                 rel="noreferrer"
-              >
+              > */}
+              <Link to={linkToo}>
                 <img
                   className="img-fluid"
-                  src={imgPopup}
+                  src={imgLink}
                   alt="Imagen del popup"
                 />
-              </a>
+              </Link>
+              {/* </a> */}
             </>
           ) : (
             <>
               <a href={url} target="_blank" rel="noreferrer">
                 <img
                   className="img-fluid"
-                  src={imgPopup}
+                  src={imgLink}
                   alt="Imagen del popup"
                 />
               </a>
