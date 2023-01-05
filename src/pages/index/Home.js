@@ -44,10 +44,11 @@ export default class Home extends Component {
           {dataCIndex.map((cIndex) => (
             <CarouselItemIMG
               key={cIndex.id}
-              imgUrl={cIndex.url}
+              imgUrl={cIndex.imgUrl}
               alt={cIndex.alt}
               itemActive={cIndex.itemActive}
-              link={cIndex.link}
+              url={cIndex.url}
+              linkToo={cIndex.linkToo}
             />
           ))}
         </Carousel>
