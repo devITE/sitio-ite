@@ -149,27 +149,45 @@ export default class Home extends Component {
         />
         <div className="Home__micrositios">
           <div>
-            <img
-              className="mt-2 img-fluid"
-              src={Home__path(`./${"img/imgHome/"}${"itegenero.png"}`)}
-              alt="Micrositio ITE Género"
-            />
+            <a
+              href="https://ite-genero.itetlax.org.mx"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                className="mt-2 img-fluid"
+                src={Home__path(`./${"img/imgHome/"}${"itegenero.png"}`)}
+                alt="Micrositio ITE Género"
+              />
+            </a>
           </div>
           <div>
-            <img
-              className="mt-2 img-fluid"
-              src={Home__path(`./${"img/imgHome/"}${"covid.png"}`)}
-              alt="Micrositio COVID-19"
-            />
+            <a
+              href="https://covid19.itetlax.org.mx"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                className="mt-2 img-fluid"
+                src={Home__path(`./${"img/imgHome/"}${"covid.png"}`)}
+                alt="Micrositio COVID-19"
+              />
+            </a>
           </div>
           <div>
-            <img
-              className="mt-2 img-fluid"
-              src={Home__path(
-                `./${"img/imgHome/"}${"participacionciudadana.png"}`
-              )}
-              alt="Micrositio PArticipación Ciudadana"
-            />
+            <a
+              href="https://participacion-ciudadana.itetlax.org.mx"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                className="mt-2 img-fluid"
+                src={Home__path(
+                  `./${"img/imgHome/"}${"participacionciudadana.png"}`
+                )}
+                alt="Micrositio PArticipación Ciudadana"
+              />
+            </a>
           </div>
         </div>
         <Link to="REPS">

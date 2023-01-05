@@ -14,6 +14,7 @@ export default function ModalInit({ url, linkToo, imgLink }) {
         aria-labelledby="contained-modal-title-vcenter"
         centered
       >
+        <Modal.Header closeButton></Modal.Header>
         <Modal.Body>
           {(url === "") & (linkToo === "") ? (
             <img className="img-fluid" src={imgLink} alt="Imagen del popup" />
