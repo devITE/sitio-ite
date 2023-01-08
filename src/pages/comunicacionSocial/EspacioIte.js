@@ -19,9 +19,7 @@ export default class EspacioIte extends Component {
               rel="noreferrer"
             >
               <img
-                src={EspacioITE_path(
-                  `./${"img/imgEspITE/"}${"presidenta.jpg"}`
-                )}
+                src="https://itetlax.org.mx/assets/img/imgEspITE/presidenta.jpg"
                 className="img-fluid hover-ite"
                 alt="presidenta"
               />
@@ -34,7 +32,7 @@ export default class EspacioIte extends Component {
               rel="noreferrer"
             >
               <img
-                src={EspacioITE_path(`./${"img/imgEspITE/"}${"erika.jpg"}`)}
+                src="https://itetlax.org.mx/assets/img/imgEspITE/erika.jpg"
                 className="img-fluid hover-ite"
                 alt="Consejera Electoral Erika Periañez Rodríguez"
               />
@@ -47,7 +45,7 @@ export default class EspacioIte extends Component {
               rel="noreferrer"
             >
               <img
-                src={EspacioITE_path(`./${"img/imgEspITE/"}${"aldave.jpg"}`)}
+                src="https://itetlax.org.mx/assets/img/imgEspITE/aldave.jpg"
                 className="img-fluid hover-ite"
                 alt="Consejero Electoral Edgar Alfonso Aldave Aguilar"
               />

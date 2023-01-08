@@ -75,7 +75,7 @@ export default class Enlaces extends Component {
             </Link>
           </div>
           <div className="col col-sm-3 col-md-3 col-md-3">
-            <Link to="/MetasSPEN">
+            <Link to="/MetasMSPEN">
               <img
                 src={Enlaces_imgpath(`./${"e8.png"}`)}
                 alt="Metas MSPEN"

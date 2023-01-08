@@ -26,14 +26,12 @@ import { dataVideoPodCast } from "../../assets/data/dataVideoPodCast";
 import ModalInit from "../../assets/popupIndex/ModalInit";
 import "./Home.css";
 
-const Home__path = require.context("../../assets");
-
 export default class Home extends Component {
   render() {
     return (
       <>
         <ModalInit
-          imgLink={Home__path(`./despen/img/banner.jpg`)}
+          imgLink="https://itetlax.org.mx/assets/despen/img/banner.jpg"
           // url="https://despen.itetlax.org.mx"
           // url={Home__path(`./despen/img/banner.jpg`)}
           url=""
@@ -144,7 +142,7 @@ export default class Home extends Component {
         </div>
         <img
           className="mt-4 img-fluid w-100"
-          src={Home__path(`./${"img/imgHome/"}${"micrositios.png"}`)}
+          src="https://itetlax.org.mx/assets/img/imgHome/micrositios.png"
           alt="micrositios"
         />
         <div className="Home__micrositios">
@@ -156,7 +154,7 @@ export default class Home extends Component {
             >
               <img
                 className="mt-2 img-fluid"
-                src={Home__path(`./${"img/imgHome/"}${"itegenero.png"}`)}
+                src="https://itetlax.org.mx/assets/img/imgHome/itegenero.png"
                 alt="Micrositio ITE Género"
               />
             </a>
@@ -169,7 +167,7 @@ export default class Home extends Component {
             >
               <img
                 className="mt-2 img-fluid"
-                src={Home__path(`./${"img/imgHome/"}${"covid.png"}`)}
+                src="https://itetlax.org.mx/assets/img/imgHome/covid.png"
                 alt="Micrositio COVID-19"
               />
             </a>
@@ -182,18 +180,27 @@ export default class Home extends Component {
             >
               <img
                 className="mt-2 img-fluid"
-                src={Home__path(
-                  `./${"img/imgHome/"}${"participacionciudadana.png"}`
-                )}
-                alt="Micrositio PArticipación Ciudadana"
+                src="https://itetlax.org.mx/assets/img/imgHome/participacionciudadana.png"
+                alt="Micrositio Participación Ciudadana"
               />
             </a>
           </div>
         </div>
+        <a
+          href="https://ite-comunidades.itetlax.org.mx"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img
+            className="mt-3 mb-3 img-fluid w-100"
+            src="https://itetlax.org.mx/assets/img/imgHome/iteComunidades.jpg"
+            alt="Micrositio ITE Comunidades"
+          />
+        </a>
         <Link to="REPS">
           <img
             className="mt-2 img-fluid w-100"
-            src={Home__path(`./${"img/reps/"}${"1.png"}`)}
+            src="https://itetlax.org.mx/assets/img/reps/1.png"
             alt="REPS"
           />
         </Link>
@@ -204,7 +211,7 @@ export default class Home extends Component {
         >
           <img
             className="mt-2 mb-2 img-fluid w-100"
-            src={Home__path(`./${"img/imgHome/"}${"RNPS.png"}`)}
+            src="https://itetlax.org.mx/assets/img/imgHome/RNPS.png"
             alt="RNPS"
           />
         </a>
@@ -216,7 +223,7 @@ export default class Home extends Component {
             <a target="_blank" href="https://ine.mx" rel="noreferrer">
               <img
                 className="mt-2 img-fluid"
-                src={Home__path(`./${"img/imgHome/"}${"ine.png"}`)}
+                src="https://itetlax.org.mx/assets/img/imgHome/ine.png"
                 alt="INE"
               />
             </a>
@@ -229,7 +236,7 @@ export default class Home extends Component {
             >
               <img
                 className="mt-2 img-fluid"
-                src={Home__path(`./${"img/imgHome/"}${"fepade.png"}`)}
+                src="https://itetlax.org.mx/assets/img/imgHome/fepade.png"
                 alt="FEPADE"
               />
             </a>
@@ -238,7 +245,7 @@ export default class Home extends Component {
             <a target="_blank" href="https://www.te.gob.mx/" rel="noreferrer">
               <img
                 className="mt-2 img-fluid"
-                src={Home__path(`./${"img/imgHome/"}${"tet.png"}`)}
+                src="https://itetlax.org.mx/assets/img/imgHome/tet.png"
                 alt="TEPJF"
               />
             </a>
@@ -251,8 +258,8 @@ export default class Home extends Component {
             >
               <img
                 className="mt-2 img-fluid"
-                src={Home__path(`./${"img/imgHome/"}${"oppmt.png"}`)}
-                alt=""
+                src="https://itetlax.org.mx/assets/img/imgHome/oppmt.png"
+                alt="Observatorio de Particiáción Política de las Mujeres en Tlaxcala"
               />
             </a>
           </div>
@@ -264,8 +271,8 @@ export default class Home extends Component {
             >
               <img
                 className="mt-2 img-fluid"
-                src={Home__path(`./${"img/imgHome/"}${"tet2.png"}`)}
-                alt=""
+                src="https://itetlax.org.mx/assets/img/imgHome/tet2.png"
+                alt="Tribunal Electoral de Tlaxcala"
               />
             </a>
           </div>

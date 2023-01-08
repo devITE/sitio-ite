@@ -56,7 +56,7 @@ export default class Integracion extends Component {
                     rel="noreferrer"
                   >
                     <img
-                      src={Integracion__path(`./${"img/intCG/"}${"1.jpg"}`)}
+                      src="https://itetlax.org.mx/assets/img/intCG/1.jpg"
                       className="img-fluid hover-ite"
                       alt="Presidencia"
                     />
@@ -69,7 +69,7 @@ export default class Integracion extends Component {
                     rel="noreferrer"
                   >
                     <img
-                      src={Integracion__path(`./${"img/intCG/"}${"2.jpg"}`)}
+                      src="https://itetlax.org.mx/assets/img/intCG/2.jpg"
                       className="img-fluid hover-ite"
                       alt="Consejera Electoral Erika Periañez Rodríguez"
                     />
@@ -82,7 +82,7 @@ export default class Integracion extends Component {
                     rel="noreferrer"
                   >
                     <img
-                      src={Integracion__path(`./${"img/intCG/"}${"3.jpg"}`)}
+                      src="https://itetlax.org.mx/assets/img/intCG/3.jpg"
                       className="img-fluid hover-ite"
                       alt="Consejero Electoral Edgar Alfonso Aldave Aguilar"
                     />
@@ -95,7 +95,7 @@ export default class Integracion extends Component {
                     rel="noreferrer"
                   >
                     <img
-                      src={Integracion__path(`./${"img/intCG/"}${"4.jpg"}`)}
+                      src="https://itetlax.org.mx/assets/img/intCG/4.jpg"
                       className="img-fluid hover-ite"
                       alt="Consejera Electoral Janet Cervante Ahuatzi"
                     />
@@ -108,7 +108,7 @@ export default class Integracion extends Component {
                     rel="noreferrer"
                   >
                     <img
-                      src={Integracion__path(`./${"img/intCG/"}${"5.jpg"}`)}
+                      src="https://itetlax.org.mx/assets/img/intCG/5.jpg"
                       className="img-fluid hover-ite"
                       alt="Consejero Electoral Hermenegildo Neria Carreño"
                     />
@@ -121,7 +121,7 @@ export default class Integracion extends Component {
                     rel="noreferrer"
                   >
                     <img
-                      src={Integracion__path(`./${"img/intCG/"}${"6.jpg"}`)}
+                      src="https://itetlax.org.mx/assets/img/intCG/6.jpg"
                       className="img-fluid hover-ite"
                       alt="Consejera Electoral Yedith Martínez Pinillo"
                     />
@@ -134,7 +134,7 @@ export default class Integracion extends Component {
                     rel="noreferrer"
                   >
                     <img
-                      src={Integracion__path(`./${"img/intCG/"}${"7.jpg"}`)}
+                      src="https://itetlax.org.mx/assets/img/intCG/7.jpg"
                       className="img-fluid hover-ite"
                       alt="Secretaria Ejecutiva"
                     />
@@ -157,7 +157,7 @@ export default class Integracion extends Component {
                     rel="noreferrer"
                   >
                     <img
-                      src={Integracion__path(`./${"img/intPP/"}${"1.jpg"}`)}
+                      src="https://itetlax.org.mx/assets/img/intPP/1.jpg"
                       className="img-fluid hover-ite"
                       alt="pan"
                     />
@@ -170,7 +170,7 @@ export default class Integracion extends Component {
                     rel="noreferrer"
                   >
                     <img
-                      src={Integracion__path(`./${"img/intPP/"}${"2.jpg"}`)}
+                      src="https://itetlax.org.mx/assets/img/intPP/2.jpg"
                       className="img-fluid hover-ite"
                       alt="pri"
                     />
@@ -183,7 +183,7 @@ export default class Integracion extends Component {
                     rel="noreferrer"
                   >
                     <img
-                      src={Integracion__path(`./${"img/intPP/"}${"3.jpg"}`)}
+                      src="https://itetlax.org.mx/assets/img/intPP/3.jpg"
                       className="img-fluid hover-ite"
                       alt="prd"
                     />
@@ -196,7 +196,7 @@ export default class Integracion extends Component {
                     rel="noreferrer"
                   >
                     <img
-                      src={Integracion__path(`./${"img/intPP/"}${"4.jpg"}`)}
+                      src="https://itetlax.org.mx/assets/img/intPP/4.jpg"
                       className="img-fluid hover-ite"
                       alt="pt"
                     />
@@ -209,7 +209,7 @@ export default class Integracion extends Component {
                     rel="noreferrer"
                   >
                     <img
-                      src={Integracion__path(`./${"img/intPP/"}${"5.jpg"}`)}
+                      src="https://itetlax.org.mx/assets/img/intPP/5.jpg"
                       className="img-fluid hover-ite"
                       alt="verde"
                     />
@@ -222,7 +222,7 @@ export default class Integracion extends Component {
                     rel="noreferrer"
                   >
                     <img
-                      src={Integracion__path(`./${"img/intPP/"}${"6.jpg"}`)}
+                      src="https://itetlax.org.mx/assets/img/intPP/6.jpg"
                       className="img-fluid hover-ite"
                       alt="movimiento ciudadano"
                     />
@@ -235,7 +235,7 @@ export default class Integracion extends Component {
                     rel="noreferrer"
                   >
                     <img
-                      src={Integracion__path(`./${"img/intPP/"}${"7.jpg"}`)}
+                      src="https://itetlax.org.mx/assets/img/intPP/7.jpg"
                       className="img-fluid hover-ite"
                       alt="pac"
                     />
@@ -248,7 +248,7 @@ export default class Integracion extends Component {
                     rel="noreferrer"
                   >
                     <img
-                      src={Integracion__path(`./${"img/intPP/"}${"8.png"}`)}
+                      src="https://itetlax.org.mx/assets/img/intPP/8.png"
                       className="img-fluid hover-ite"
                       alt="morena"
                     />
@@ -261,7 +261,7 @@ export default class Integracion extends Component {
                     rel="noreferrer"
                   >
                     <img
-                      src={Integracion__path(`./${"img/intPP/"}${"9.jpg"}`)}
+                      src="https://itetlax.org.mx/assets/img/intPP/9.jpg"
                       className="img-fluid hover-ite"
                       alt="nueva alianza"
                     />
@@ -275,7 +275,7 @@ export default class Integracion extends Component {
                     rel="noreferrer"
                   >
                     <img
-                      src={Integracion__path(`./${"img/intPP/"}${"10.jpg"}`)}
+                      src="https://itetlax.org.mx/assets/img/intPP/10.jpg"
                       className="img-fluid hover-ite"
                       alt="rsp"
                     />
@@ -288,7 +288,7 @@ export default class Integracion extends Component {
                     rel="noreferrer"
                   >
                     <img
-                      src={Integracion__path(`./${"img/intPP/"}${"11.jpg"}`)}
+                      src="https://itetlax.org.mx/assets/img/intPP/11.jpg"
                       className="img-fluid hover-ite"
                       alt="fuerza x mexico"
                     />

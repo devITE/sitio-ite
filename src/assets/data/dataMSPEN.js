@@ -52,7 +52,7 @@ export const dataMSPEN = [
     children: [
       {
         id: 1,
-        img: MSPEN__path(`./${"img/iconsPP/"}${"PAN.png"}`),
+        img: "https://itetlax.org.mx/assets/img/iconsPP/PAN.png",
         alt: "Partido Acción Nacional",
         titleItem: "Documentos Básicos PAN (30-08-2018)",
         typeDocument: "link",
@@ -61,7 +61,7 @@ export const dataMSPEN = [
       },
       {
         id: 2,
-        img: MSPEN__path(`./${"img/iconsPP/"}${"PRI.png"}`),
+        img: "https://itetlax.org.mx/assets/img/iconsPP/PRI.png",
         alt: "Partido Revolucionario Institucional",
         titleItem: "Documentos Básicos PRI (30-08-2018)",
         typeDocument: "link",
@@ -70,7 +70,7 @@ export const dataMSPEN = [
       },
       {
         id: 3,
-        img: MSPEN__path(`./${"img/iconsPP/"}${"PRD.png"}`),
+        img: "https://itetlax.org.mx/assets/img/iconsPP/PRD.png",
         alt: "Partido de la Revolución Democrática",
         titleItem: "Documentos Básicos PRD (30-08-2018)",
         typeDocument: "link",
@@ -79,7 +79,7 @@ export const dataMSPEN = [
       },
       {
         id: 4,
-        img: MSPEN__path(`./${"img/iconsPP/"}${"PT.png"}`),
+        img: "https://itetlax.org.mx/assets/img/iconsPP/PT.png",
         alt: "Partido del Trabajo",
         titleItem: "Documentos Básicos PT (30-08-2018)",
         typeDocument: "link",
@@ -88,7 +88,7 @@ export const dataMSPEN = [
       },
       {
         id: 5,
-        img: MSPEN__path(`./${"img/iconsPP/"}${"PVEM.png"}`),
+        img: "https://itetlax.org.mx/assets/img/iconsPP/PVEM.png",
         alt: "Partido Verde Ecologista de México",
         titleItem: "Documentos Básicos PVEM (30-08-2018)",
         typeDocument: "link",
@@ -97,7 +97,7 @@ export const dataMSPEN = [
       },
       {
         id: 6,
-        img: MSPEN__path(`./${"img/iconsPP/"}${"MC.png"}`),
+        img: "https://itetlax.org.mx/assets/img/iconsPP/MC.png",
         alt: "Movimiento Ciudadano",
         titleItem: "Documentos Básicos Movimiento Ciudadano (30-08-2018)",
         typeDocument: "link",
@@ -106,7 +106,7 @@ export const dataMSPEN = [
       },
       {
         id: 7,
-        img: MSPEN__path(`./${"img/iconsPP/"}${"NA.png"}`),
+        img: "https://itetlax.org.mx/assets/img/iconsPP/NA.png",
         alt: "Nueva Alianza",
         typeDocument: "link",
         linkItem:
@@ -114,7 +114,7 @@ export const dataMSPEN = [
       },
       {
         id: 8,
-        img: MSPEN__path(`./${"img/iconsPP/"}${"MORENA.png"}`),
+        img: "https://itetlax.org.mx/assets/img/iconsPP/MORENA.png",
         alt: "Morena",
         typeDocument: "link",
         linkItem:
@@ -122,7 +122,7 @@ export const dataMSPEN = [
       },
       {
         id: 9,
-        img: MSPEN__path(`./${"img/iconsPP/"}${"ES.png"}`),
+        img: "https://itetlax.org.mx/assets/img/iconsPP/ES.png",
         alt: "Encuentro Social",
         titleItem: "Documentos Básicos Encuentro Social (30-08-2018)",
         typeDocument: "link",
@@ -131,7 +131,7 @@ export const dataMSPEN = [
       },
       {
         id: 10,
-        img: MSPEN__path(`./${"img/iconsPP/"}${"PS.png"}`),
+        img: "https://itetlax.org.mx/assets/img/iconsPP/PS.png",
         alt: "Partido Socialista",
         titleItem: "Estatútos PS (30-08-2018)",
         typeDocument: "zip",
@@ -139,7 +139,7 @@ export const dataMSPEN = [
       },
       {
         id: 11,
-        img: MSPEN__path(`./${"img/iconsPP/"}${"PAC.png"}`),
+        img: "https://itetlax.org.mx/assets/img/iconsPP/PAC.png",
         alt: "Partido Alianza Ciudadana",
         titleItem: "Documentos Básicos PAC (30-08-2018)",
         typeDocument: "pdf",
@@ -154,7 +154,7 @@ export const dataMSPEN = [
     children: [
       {
         id: 1,
-        img: MSPEN__path(`./${"img/iconsPP/"}${"PAN.png"}`),
+        img: "https://itetlax.org.mx/assets/img/iconsPP/PAN.png",
         alt: "Partido Acción Nacional",
         titleItem: "Partido Acción Nacional (PAN)",
         typeDocument: "pdf",
@@ -162,7 +162,7 @@ export const dataMSPEN = [
       },
       {
         id: 2,
-        img: MSPEN__path(`./${"img/iconsPP/"}${"PRI.png"}`),
+        img: "https://itetlax.org.mx/assets/img/iconsPP/PRI.png",
         alt: "Partido Revolucionario Institucional",
         titleItem: "Partido Revolucionairio Estatal",
         typeDocument: "pdf",
@@ -170,7 +170,7 @@ export const dataMSPEN = [
       },
       {
         id: 3,
-        img: MSPEN__path(`./${"img/iconsPP/"}${"PRD.png"}`),
+        img: "https://itetlax.org.mx/assets/img/iconsPP/PRD.png",
         alt: "Partido de la Revolución Democrática",
         titleItem: "Partido de la Revolución Democrática",
         typeDocument: "pdf",
@@ -178,7 +178,7 @@ export const dataMSPEN = [
       },
       {
         id: 4,
-        img: MSPEN__path(`./${"img/iconsPP/"}${"PT.png"}`),
+        img: "https://itetlax.org.mx/assets/img/iconsPP/PT.png",
         alt: "Partido del Trabajo",
         titleItem: "Partido del Trabajo",
         typeDocument: "pdf",
@@ -186,7 +186,7 @@ export const dataMSPEN = [
       },
       {
         id: 5,
-        img: MSPEN__path(`./${"img/iconsPP/"}${"PVEM.png"}`),
+        img: "https://itetlax.org.mx/assets/img/iconsPP/PVEM.png",
         alt: "Partido Verde Ecologista de México",
         titleItem: "Partido Verde Ecologista de México",
         typeDocument: "pdf",
@@ -194,7 +194,7 @@ export const dataMSPEN = [
       },
       {
         id: 6,
-        img: MSPEN__path(`./${"img/iconsPP/"}${"MC.png"}`),
+        img: "https://itetlax.org.mx/assets/img/iconsPP/MC.png",
         alt: "Movimiento Ciudadano",
         titleItem: "Movimiento Ciudadano",
         typeDocument: "pdf",
@@ -202,7 +202,7 @@ export const dataMSPEN = [
       },
       {
         id: 7,
-        img: MSPEN__path(`./${"img/iconsPP/"}${"NA.png"}`),
+        img: "https://itetlax.org.mx/assets/img/iconsPP/NA.png",
         alt: "Nueva Alianza",
         titleItem: "Nueva Alianza",
         typeDocument: "pdf",
@@ -210,7 +210,7 @@ export const dataMSPEN = [
       },
       {
         id: 8,
-        img: MSPEN__path(`./${"img/iconsPP/"}${"MORENA.png"}`),
+        img: "https://itetlax.org.mx/assets/img/iconsPP/MORENA.png",
         alt: "Morena",
         titleItem: "Morena",
         typeDocument: "pdf",
@@ -218,7 +218,7 @@ export const dataMSPEN = [
       },
       {
         id: 9,
-        img: MSPEN__path(`./${"img/iconsPP/"}${"ES.png"}`),
+        img: "https://itetlax.org.mx/assets/img/iconsPP/ES.png",
         alt: "Encuentro Social",
         titleItem: "Encuentro Social",
         typeDocument: "pdf",
@@ -226,7 +226,7 @@ export const dataMSPEN = [
       },
       {
         id: 10,
-        img: MSPEN__path(`./${"img/iconsPP/"}${"PAC.png"}`),
+        img: "https://itetlax.org.mx/assets/img/iconsPP/PAC.png",
         alt: "Partido Alianza Ciudadana",
         titleItem: "Partido Socialista",
         typeDocument: "pdf",
@@ -234,7 +234,7 @@ export const dataMSPEN = [
       },
       {
         id: 11,
-        img: MSPEN__path(`./${"img/iconsPP/"}${"PS.png"}`),
+        img: "https://itetlax.org.mx/assets/img/iconsPP/PS.png",
         alt: "Partido Socialista",
         titleItem: "Partido Alianza Ciudadana",
         typeDocument: "pdf",
