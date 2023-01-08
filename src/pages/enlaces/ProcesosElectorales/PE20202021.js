@@ -9,8 +9,6 @@ import {
   dataPresidencias20202021,
 } from "../../../assets/data/dataProcesosElectorales";
 
-const ProcesosElectorales__imgpath = require.context("../../../assets");
-
 export default class PE20202021 extends Component {
   render() {
     return (
@@ -26,9 +24,7 @@ export default class PE20202021 extends Component {
             >
               <img
                 className="img-fluid"
-                src={ProcesosElectorales__imgpath(
-                  `./${"img/icons/"}${"e21.png"}`
-                )}
+                src="https://itetlax.org.mx/assets/img/icons/e21.png"
                 alt="Resultados Gubernatura 2020 - 2021"
               />
             </a>
@@ -43,9 +39,7 @@ export default class PE20202021 extends Component {
             >
               <img
                 className="img-fluid"
-                src={ProcesosElectorales__imgpath(
-                  `./${"img/icons/"}${"e21.png"}`
-                )}
+                src="https://itetlax.org.mx/assets/img/icons/e21.png"
                 alt="Resultados Diputaciones MR 2020 - 2021"
               />
             </a>
@@ -60,9 +54,7 @@ export default class PE20202021 extends Component {
             >
               <img
                 className="img-fluid"
-                src={ProcesosElectorales__imgpath(
-                  `./${"img/icons/"}${"e21.png"}`
-                )}
+                src="https://itetlax.org.mx/assets/img/icons/e21.png"
                 alt="Resultados Ayuntamientos 2020 - 2021"
               />
             </a>
@@ -77,9 +69,7 @@ export default class PE20202021 extends Component {
             >
               <img
                 className="img-fluid"
-                src={ProcesosElectorales__imgpath(
-                  `./${"img/icons/"}${"e21.png"}`
-                )}
+                src="https://itetlax.org.mx/assets/img/icons/e21.png"
                 alt="Resultados Presidencias de Comunidad 2020 - 2021"
               />
             </a>

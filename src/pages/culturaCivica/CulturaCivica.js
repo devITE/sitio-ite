@@ -2,8 +2,6 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import TitlePages from "../../layout/TitlePages";
 
-const CulturaCivica__path = require.context("../../assets");
-
 export default class CulturaCivica extends Component {
   render() {
     return (
@@ -13,7 +11,7 @@ export default class CulturaCivica extends Component {
           <div>
             <Link to="/ActividadesLudicas">
               <img
-                src={CulturaCivica__path(`./img/icons/52.png`)}
+                src="https://itetlax.org.mx/assets/img/icons/52.png"
                 className="img-fluid"
                 alt="Actividades Lúdicas"
               />
@@ -23,7 +21,7 @@ export default class CulturaCivica extends Component {
           <div>
             <Link to="/EleccionesEscolares">
               <img
-                src={CulturaCivica__path(`./img/icons/53.png`)}
+                src="https://itetlax.org.mx/assets/img/icons/53.png"
                 className="img-fluid"
                 alt="Elecciones Escolares"
               />
@@ -33,7 +31,7 @@ export default class CulturaCivica extends Component {
           <div>
             <Link to="/ParlamentoInfantil">
               <img
-                src={CulturaCivica__path(`./img/icons/54.png`)}
+                src="https://itetlax.org.mx/assets/img/icons/54.png"
                 className="img-fluid"
                 alt="Parlamento Infantil"
               />
@@ -43,7 +41,7 @@ export default class CulturaCivica extends Component {
           <div>
             <Link to="/ParlamentoJuvenil">
               <img
-                src={CulturaCivica__path(`./img/icons/55.png`)}
+                src="https://itetlax.org.mx/assets/img/icons/55.png"
                 className="img-fluid"
                 alt="Parlamento Juvenil"
               />
@@ -53,7 +51,7 @@ export default class CulturaCivica extends Component {
           <div>
             <Link to="/ValoresDemocracia">
               <img
-                src={CulturaCivica__path(`./img/icons/56.png`)}
+                src="https://itetlax.org.mx/assets/img/icons/56.png"
                 className="img-fluid"
                 alt="Valores de la Democracia"
               />
@@ -62,12 +60,12 @@ export default class CulturaCivica extends Component {
           </div>
           <div>
             <a
-              href={CulturaCivica__path(`./${"pdf/ccivica/2.pdf"}`)}
+              href="https://itetlax.org.mx/assets/pdf/ccivica/2.pdf"
               target="_blank"
               rel="noreferrer"
             >
               <img
-                src={CulturaCivica__path(`./img/icons/53.png`)}
+                src="https://itetlax.org.mx/assets/img/icons/53.png"
                 className="img-fluid"
                 alt="Catalogo de Acciones"
               />

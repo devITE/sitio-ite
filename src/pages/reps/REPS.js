@@ -6,21 +6,19 @@ import CarouselVertItem from "../../layout/Carousel/CarouselVert/CarouselVertIte
 import { dataInfografias } from "../../assets/data/dataREPS";
 import "./REPS.css";
 
-const REPS__path = require.context("../../assets");
-
 export default class REPS extends Component {
   render() {
     return (
       <div className="REPS">
         <img
-          src={REPS__path(`./${"img/reps/"}${"1.png"}`)}
+          src="https://itetlax.org.mx/assets/img/reps/1.png"
           alt="Registro Estatal de Personas Sancionadas en Materia de Violencia Política Contra las Mujeres en Razón de Género"
           className="img-fluid w-100"
         />
         <div className="mt-5 w-100 REPS__header">
           <div>
             <img
-              src={REPS__path(`./${"img/reps/"}${"2.png"}`)}
+              src="https://itetlax.org.mx/assets/img/reps/2.png"
               alt="¿Qué es?"
               className="img-fluid w-100"
             />
@@ -362,7 +360,7 @@ export default class REPS extends Component {
               <div className="col-md-2"></div>
               <div className="col-md-3">
                 <img
-                  src={REPS__path(`./${"img/reps/"}${"3.png"}`)}
+                  src="https://itetlax.org.mx/assets/img/reps/3.png"
                   alt="Total de personas inscritas"
                   className="img-fluid w-100 rounded-3 shadow"
                 />
@@ -370,7 +368,7 @@ export default class REPS extends Component {
               <div className="col-md-2"></div>
               <div className="col-md-3">
                 <img
-                  src={REPS__path(`./${"img/reps/"}${"4.png"}`)}
+                  src="https://itetlax.org.mx/assets/img/reps/4.png"
                   alt="Sanciones por género"
                   className="img-fluid w-100 rounded-3 shadow"
                 />

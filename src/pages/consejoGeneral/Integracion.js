@@ -1,8 +1,6 @@
 import React, { Component } from "react";
 import TitlePages from "../../layout/TitlePages";
 
-const Integracion__path = require.context("../../assets");
-
 export default class Integracion extends Component {
   render() {
     return (
@@ -51,12 +49,12 @@ export default class Integracion extends Component {
               <div className="w-100 Grid__four">
                 <div>
                   <a
-                    href={Integracion__path(`./${"pdf/CG/"}${"1.pdf"}`)}
+                    href="https://itetlax.org.mx/assets/pdf/CG/1.pdf"
                     target="_blank"
                     rel="noreferrer"
                   >
                     <img
-                      src={Integracion__path(`./${"img/intCG/"}${"1.jpg"}`)}
+                      src="https://itetlax.org.mx/assets/img/intCG/1.jpg"
                       className="img-fluid hover-ite"
                       alt="Presidencia"
                     />
@@ -64,12 +62,12 @@ export default class Integracion extends Component {
                 </div>
                 <div>
                   <a
-                    href={Integracion__path(`./${"pdf/CG/"}${"2.pdf"}`)}
+                    href="https://itetlax.org.mx/assets/pdf/CG/2.pdf"
                     target="_blank"
                     rel="noreferrer"
                   >
                     <img
-                      src={Integracion__path(`./${"img/intCG/"}${"2.jpg"}`)}
+                      src="https://itetlax.org.mx/assets/img/intCG/2.jpg"
                       className="img-fluid hover-ite"
                       alt="Consejera Electoral Erika Periañez Rodríguez"
                     />
@@ -77,12 +75,12 @@ export default class Integracion extends Component {
                 </div>
                 <div>
                   <a
-                    href={Integracion__path(`./${"pdf/CG/"}${"3.pdf"}`)}
+                    href="https://itetlax.org.mx/assets/pdf/CG/3.pdf"
                     target="_blank"
                     rel="noreferrer"
                   >
                     <img
-                      src={Integracion__path(`./${"img/intCG/"}${"3.jpg"}`)}
+                      src="https://itetlax.org.mx/assets/img/intCG/3.jpg"
                       className="img-fluid hover-ite"
                       alt="Consejero Electoral Edgar Alfonso Aldave Aguilar"
                     />
@@ -90,12 +88,12 @@ export default class Integracion extends Component {
                 </div>
                 <div>
                   <a
-                    href={Integracion__path(`./${"pdf/CG/"}${"4.pdf"}`)}
+                    href="https://itetlax.org.mx/assets/pdf/CG/4.pdf"
                     target="_blank"
                     rel="noreferrer"
                   >
                     <img
-                      src={Integracion__path(`./${"img/intCG/"}${"4.jpg"}`)}
+                      src="https://itetlax.org.mx/assets/img/intCG/4.jpg"
                       className="img-fluid hover-ite"
                       alt="Consejera Electoral Janet Cervante Ahuatzi"
                     />
@@ -103,12 +101,12 @@ export default class Integracion extends Component {
                 </div>
                 <div>
                   <a
-                    href={Integracion__path(`./${"pdf/CG/"}${"5.pdf"}`)}
+                    href="https://itetlax.org.mx/assets/pdf/CG/5.pdf"
                     target="_blank"
                     rel="noreferrer"
                   >
                     <img
-                      src={Integracion__path(`./${"img/intCG/"}${"5.jpg"}`)}
+                      src="https://itetlax.org.mx/assets/img/intCG/5.jpg"
                       className="img-fluid hover-ite"
                       alt="Consejero Electoral Hermenegildo Neria Carreño"
                     />
@@ -116,12 +114,12 @@ export default class Integracion extends Component {
                 </div>
                 <div>
                   <a
-                    href={Integracion__path(`./${"pdf/CG/"}${"6.pdf"}`)}
+                    href="https://itetlax.org.mx/assets/pdf/CG/6.pdf"
                     target="_blank"
                     rel="noreferrer"
                   >
                     <img
-                      src={Integracion__path(`./${"img/intCG/"}${"6.jpg"}`)}
+                      src="https://itetlax.org.mx/assets/img/intCG/6.jpg"
                       className="img-fluid hover-ite"
                       alt="Consejera Electoral Yedith Martínez Pinillo"
                     />
@@ -129,12 +127,12 @@ export default class Integracion extends Component {
                 </div>
                 <div>
                   <a
-                    href={Integracion__path(`./${"pdf/CG/"}${"7.pdf"}`)}
+                    href="https://itetlax.org.mx/assets/pdf/CG/7.pdf"
                     target="_blank"
                     rel="noreferrer"
                   >
                     <img
-                      src={Integracion__path(`./${"img/intCG/"}${"7.jpg"}`)}
+                      src="https://itetlax.org.mx/assets/img/intCG/7.jpg"
                       className="img-fluid hover-ite"
                       alt="Secretaria Ejecutiva"
                     />
@@ -152,12 +150,12 @@ export default class Integracion extends Component {
               <div className="w-100 Grid__four">
                 <div>
                   <a
-                    href={"https://www.pantlaxcala.org.mx/"}
+                    href="https://www.pantlaxcala.org.mx/"
                     target="_blank"
                     rel="noreferrer"
                   >
                     <img
-                      src={Integracion__path(`./${"img/intPP/"}${"1.jpg"}`)}
+                      src="https://itetlax.org.mx/assets/img/intPP/1.jpg"
                       className="img-fluid hover-ite"
                       alt="pan"
                     />
@@ -165,12 +163,12 @@ export default class Integracion extends Component {
                 </div>
                 <div>
                   <a
-                    href={"https://pritlaxcala.org.mx/"}
+                    href="https://pritlaxcala.org.mx/"
                     target="_blank"
                     rel="noreferrer"
                   >
                     <img
-                      src={Integracion__path(`./${"img/intPP/"}${"2.jpg"}`)}
+                      src="https://itetlax.org.mx/assets/img/intPP/2.jpg"
                       className="img-fluid hover-ite"
                       alt="pri"
                     />
@@ -178,12 +176,12 @@ export default class Integracion extends Component {
                 </div>
                 <div>
                   <a
-                    href={"https://www.prd.org.mx/"}
+                    href="https://www.prd.org.mx/"
                     target="_blank"
                     rel="noreferrer"
                   >
                     <img
-                      src={Integracion__path(`./${"img/intPP/"}${"3.jpg"}`)}
+                      src="https://itetlax.org.mx/assets/img/intPP/3.jpg"
                       className="img-fluid hover-ite"
                       alt="prd"
                     />
@@ -191,12 +189,12 @@ export default class Integracion extends Component {
                 </div>
                 <div>
                   <a
-                    href={"http://pttlaxcala.com.mx/"}
+                    href="http://pttlaxcala.com.mx/"
                     target="_blank"
                     rel="noreferrer"
                   >
                     <img
-                      src={Integracion__path(`./${"img/intPP/"}${"4.jpg"}`)}
+                      src="https://itetlax.org.mx/assets/img/intPP/4.jpg"
                       className="img-fluid hover-ite"
                       alt="pt"
                     />
@@ -204,12 +202,12 @@ export default class Integracion extends Component {
                 </div>
                 <div>
                   <a
-                    href={"https://partidoverdetlaxcala.org/"}
+                    href="https://partidoverdetlaxcala.org/"
                     target="_blank"
                     rel="noreferrer"
                   >
                     <img
-                      src={Integracion__path(`./${"img/intPP/"}${"5.jpg"}`)}
+                      src="https://itetlax.org.mx/assets/img/intPP/5.jpg"
                       className="img-fluid hover-ite"
                       alt="verde"
                     />
@@ -217,12 +215,12 @@ export default class Integracion extends Component {
                 </div>
                 <div>
                   <a
-                    href={"https://movimientociudadano.mx/tlaxcala"}
+                    href="https://movimientociudadano.mx/tlaxcala"
                     target="_blank"
                     rel="noreferrer"
                   >
                     <img
-                      src={Integracion__path(`./${"img/intPP/"}${"6.jpg"}`)}
+                      src="https://itetlax.org.mx/assets/img/intPP/6.jpg"
                       className="img-fluid hover-ite"
                       alt="movimiento ciudadano"
                     />
@@ -230,12 +228,12 @@ export default class Integracion extends Component {
                 </div>
                 <div>
                   <a
-                    href={"https://www.partidoalianzaciudadanatlax.com/"}
+                    href="https://www.partidoalianzaciudadanatlax.com/"
                     target="_blank"
                     rel="noreferrer"
                   >
                     <img
-                      src={Integracion__path(`./${"img/intPP/"}${"7.jpg"}`)}
+                      src="https://itetlax.org.mx/assets/img/intPP/7.jpg"
                       className="img-fluid hover-ite"
                       alt="pac"
                     />
@@ -243,12 +241,12 @@ export default class Integracion extends Component {
                 </div>
                 <div>
                   <a
-                    href={"https://morena.org/"}
+                    href="https://morena.org/"
                     target="_blank"
                     rel="noreferrer"
                   >
                     <img
-                      src={Integracion__path(`./${"img/intPP/"}${"8.png"}`)}
+                      src="https://itetlax.org.mx/assets/img/intPP/8.png"
                       className="img-fluid hover-ite"
                       alt="morena"
                     />
@@ -256,12 +254,12 @@ export default class Integracion extends Component {
                 </div>
                 <div>
                   <a
-                    href={"https://www.natlaxcala.mx/"}
+                    href="https://www.natlaxcala.mx/"
                     target="_blank"
                     rel="noreferrer"
                   >
                     <img
-                      src={Integracion__path(`./${"img/intPP/"}${"9.jpg"}`)}
+                      src="https://itetlax.org.mx/assets/img/intPP/9.jpg"
                       className="img-fluid hover-ite"
                       alt="nueva alianza"
                     />
@@ -270,12 +268,12 @@ export default class Integracion extends Component {
 
                 <div>
                   <a
-                    href={"https://www.redessocialesprogresistas.org/tlaxcala/"}
+                    href="https://www.redessocialesprogresistas.org/tlaxcala/"
                     target="_blank"
                     rel="noreferrer"
                   >
                     <img
-                      src={Integracion__path(`./${"img/intPP/"}${"10.jpg"}`)}
+                      src="https://itetlax.org.mx/assets/img/intPP/10.jpg"
                       className="img-fluid hover-ite"
                       alt="rsp"
                     />
@@ -283,12 +281,12 @@ export default class Integracion extends Component {
                 </div>
                 <div>
                   <a
-                    href={"https://www.fuerzapormexicotlx.org/"}
+                    href="https://www.fuerzapormexicotlx.org/"
                     target="_blank"
                     rel="noreferrer"
                   >
                     <img
-                      src={Integracion__path(`./${"img/intPP/"}${"11.jpg"}`)}
+                      src="https://itetlax.org.mx/assets/img/intPP/11.jpg"
                       className="img-fluid hover-ite"
                       alt="fuerza x mexico"
                     />

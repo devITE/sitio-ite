@@ -10,8 +10,6 @@ import {
   dataListadoCandidatos2016,
 } from "../../../assets/data/dataProcesosElectorales";
 
-const PE20152016__path = require.context("../../../assets");
-
 export default class PE20152016 extends Component {
   render() {
     return (
@@ -20,15 +18,13 @@ export default class PE20152016 extends Component {
         <div className="Content__grid">
           <div>
             <a
-              href={PE20152016__path(
-                `./${"pdf/procesosElect/PE20152016/"}${"1.pdf"}`
-              )}
+              href="https://itetlax.org.mx/assets/pdf/procesosElect/PE20152016/1.pdf"
               target="_blank"
               rel="noreferrer"
             >
               <img
                 className="img-fluid"
-                src={PE20152016__path(`./${"img/icons/"}${"e21.png"}`)}
+                src="https://itetlax.org.mx/assets/img/icons/e21.png"
                 alt="Consejos Distritales"
               />
             </a>
@@ -36,15 +32,13 @@ export default class PE20152016 extends Component {
           </div>
           <div>
             <a
-              href={PE20152016__path(
-                `./${"pdf/procesosElect/PE20152016/"}${"2.pdf"}`
-              )}
+              href="https://itetlax.org.mx/assets/pdf/procesosElect/PE20152016/2.pdf"
               target="_blank"
               rel="noreferrer"
             >
               <img
                 className="img-fluid"
-                src={PE20152016__path(`./${"img/icons/"}${"e22.png"}`)}
+                src="https://itetlax.org.mx/assets/img/icons/e22.png"
                 alt="Consejos Municipales"
               />
             </a>
@@ -59,7 +53,7 @@ export default class PE20152016 extends Component {
             >
               <img
                 className="img-fluid"
-                src={PE20152016__path(`./${"img/icons/"}${"e23.png"}`)}
+                src="https://itetlax.org.mx/assets/img/icons/e23.png"
                 alt="Encuestas 2016"
               />
             </a>
@@ -74,7 +68,7 @@ export default class PE20152016 extends Component {
             >
               <img
                 className="img-fluid"
-                src={PE20152016__path(`./${"img/icons/"}${"e21.png"}`)}
+                src="https://itetlax.org.mx/assets/img/icons/e21.png"
                 alt="Lista de ubicación de casillas"
               />
             </a>
@@ -89,7 +83,7 @@ export default class PE20152016 extends Component {
             >
               <img
                 className="img-fluid"
-                src={PE20152016__path(`./${"img/icons/"}${"e22.png"}`)}
+                src="https://itetlax.org.mx/assets/img/icons/e22.png"
                 alt="Resultados Electorales"
               />
             </a>
@@ -104,7 +98,7 @@ export default class PE20152016 extends Component {
             >
               <img
                 className="img-fluid"
-                src={PE20152016__path(`./${"img/icons/"}${"e22.png"}`)}
+                src="https://itetlax.org.mx/assets/img/icons/e22.png"
                 alt="Resultados Electorales por Sección"
               />
             </a>
@@ -112,15 +106,13 @@ export default class PE20152016 extends Component {
           </div>
           <div>
             <a
-              href={PE20152016__path(
-                `./${"pdf/procesosElect/PE20152016/"}${"22.pdf"}`
-              )}
+              href="https://itetlax.org.mx/assets/pdf/procesosElect/PE20152016/22.pdf"
               rel="noreferrer"
               target="_blank"
             >
               <img
                 className="img-fluid"
-                src={PE20152016__path(`./${"img/icons/"}${"e24.png"}`)}
+                src="https://itetlax.org.mx/assets/img/icons/e24.png"
                 alt="Calendario"
               />
             </a>
@@ -135,7 +127,7 @@ export default class PE20152016 extends Component {
             >
               <img
                 className="img-fluid"
-                src={PE20152016__path(`./${"img/icons/"}${"e21.png"}`)}
+                src="https://itetlax.org.mx/assets/img/icons/e21.png"
                 alt="Listado de Candidatos"
               />
             </a>
@@ -143,15 +135,13 @@ export default class PE20152016 extends Component {
           </div>
           <div>
             <a
-              href={PE20152016__path(
-                `./${"pdf/procesosElect/PE20152016/"}${"27.pdf"}`
-              )}
+              href="https://itetlax.org.mx/assets/pdf/procesosElect/PE20152016/27.pdf"
               rel="noreferrer"
               target="_blank"
             >
               <img
                 className="img-fluid"
-                src={PE20152016__path(`./${"img/icons/"}${"e21.png"}`)}
+                src="https://itetlax.org.mx/assets/img/icons/e21.png"
                 alt="Presidencias de Comunidad"
               />
             </a>
@@ -159,15 +149,13 @@ export default class PE20152016 extends Component {
           </div>
           <div>
             <a
-              href={PE20152016__path(
-                `./${"pdf/procesosElect/PE20152016/"}${"28.pdf"}`
-              )}
+              href="https://itetlax.org.mx/assets/pdf/procesosElect/PE20152016/28.pdf"
               rel="noreferrer"
               target="_blank"
             >
               <img
                 className="img-fluid"
-                src={PE20152016__path(`./${"img/icons/"}${"e22.png"}`)}
+                src="https://itetlax.org.mx/assets/img/icons/e22.png"
                 alt="Lista Nominal"
               />
             </a>
@@ -175,15 +163,13 @@ export default class PE20152016 extends Component {
           </div>
           <div>
             <a
-              href={PE20152016__path(
-                `./${"pdf/procesosElect/PE20152016/"}${"28.pdf"}`
-              )}
+              href="https://itetlax.org.mx/assets/pdf/procesosElect/PE20152016/28.pdf"
               rel="noreferrer"
               target="_blank"
             >
               <img
                 className="img-fluid"
-                src={PE20152016__path(`./${"img/icons/"}${"e22.png"}`)}
+                src="https://itetlax.org.mx/assets/img/icons/e22.png"
                 alt="Informe final Ente Auditor PREP"
               />
             </a>
@@ -191,15 +177,13 @@ export default class PE20152016 extends Component {
           </div>
           <div>
             <a
-              href={PE20152016__path(
-                `./${"pdf/procesosElect/PE20152016/"}${"29.pdf"}`
-              )}
+              href="https://itetlax.org.mx/assets/pdf/procesosElect/PE20152016/29.pdf"
               rel="noreferrer"
               target="_blank"
             >
               <img
                 className="img-fluid"
-                src={PE20152016__path(`./${"img/icons/"}${"e22.png"}`)}
+                src="https://itetlax.org.mx/assets/img/icons/e22.png"
                 alt="Escaneo de puertos servidor PREP"
               />
             </a>

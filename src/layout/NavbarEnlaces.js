@@ -1,8 +1,6 @@
 import { Link } from "react-router-dom";
 import "./NavbarEnlaces.css";
 
-const Enlaces_imgpath = require.context("../assets/img/icons");
-
 const NavbarEnlaces = (props) => {
   return (
     <>
@@ -10,7 +8,7 @@ const NavbarEnlaces = (props) => {
         <div className="NavbarEnlaces__item">
           <Link to="/ProcesosElectorales">
             <img
-              src={Enlaces_imgpath(`./${"e1.png"}`)}
+              src="https://itetlax.org.mx/assets/img/icons/e1.png"
               alt="Procesos Electorales"
               className="img-fluid shadow rounded-4"
             />
@@ -19,7 +17,7 @@ const NavbarEnlaces = (props) => {
         <div className="NavbarEnlaces__item">
           <Link to="/Normatividad">
             <img
-              src={Enlaces_imgpath(`./${"e2.png"}`)}
+              src="https://itetlax.org.mx/assets/img/icons/e2.png"
               alt="Normatividad"
               className="img-fluid shadow rounded-4"
             />
@@ -28,7 +26,7 @@ const NavbarEnlaces = (props) => {
         <div className="NavbarEnlaces__item">
           <Link to="/Galeria">
             <img
-              src={Enlaces_imgpath(`./${"e3.png"}`)}
+              src="https://itetlax.org.mx/assets/img/icons/e3.png"
               alt="Galeria fotográfica"
               className="img-fluid shadow rounded-4"
             />
@@ -37,7 +35,7 @@ const NavbarEnlaces = (props) => {
         <div className="NavbarEnlaces__item">
           <Link to="/OIC">
             <img
-              src={Enlaces_imgpath(`./${"e4.png"}`)}
+              src="https://itetlax.org.mx/assets/img/icons/e4.png"
               alt="Órgano Interno de Control"
               className="img-fluid shadow rounded-4"
             />
@@ -46,7 +44,7 @@ const NavbarEnlaces = (props) => {
         <div className="NavbarEnlaces__item">
           <Link to="/PartidosPoliticos">
             <img
-              src={Enlaces_imgpath(`./${"e5.png"}`)}
+              src="https://itetlax.org.mx/assets/img/icons/e5.png"
               alt="Partidos Políticos"
               className="img-fluid shadow rounded-4"
             />
@@ -55,7 +53,7 @@ const NavbarEnlaces = (props) => {
         <div className="NavbarEnlaces__item">
           <Link to="/Infografias">
             <img
-              src={Enlaces_imgpath(`./${"e6.png"}`)}
+              src="https://itetlax.org.mx/assets/img/icons/e6.png"
               alt=" Infografías"
               className="img-fluid shadow rounded-4"
             />
@@ -64,7 +62,7 @@ const NavbarEnlaces = (props) => {
         <div className="NavbarEnlaces__item">
           <Link to="/MemoriasElectorales">
             <img
-              src={Enlaces_imgpath(`./${"e7.png"}`)}
+              src="https://itetlax.org.mx/assets/img/icons/e7.png"
               alt="Memorias Electorales"
               className="img-fluid shadow rounded-4"
             />
@@ -73,7 +71,7 @@ const NavbarEnlaces = (props) => {
         <div className="NavbarEnlaces__item">
           <Link to="/MetasMSPEN">
             <img
-              src={Enlaces_imgpath(`./${"e8.png"}`)}
+              src="https://itetlax.org.mx/assets/img/icons/e8.png"
               alt="Metas MSPEN"
               className="img-fluid shadow rounded-4"
             />

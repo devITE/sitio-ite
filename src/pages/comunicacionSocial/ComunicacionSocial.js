@@ -2,8 +2,6 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import TitlePages from "../../layout/TitlePages";
 
-const Comunicacion_path = require.context("../../assets");
-
 export default class ComunicacionSocial extends Component {
   render() {
     return (
@@ -14,7 +12,7 @@ export default class ComunicacionSocial extends Component {
           <div>
             <Link to="/Boletines">
               <img
-                src={Comunicacion_path(`./${"img/icons/"}${"50.png"}`)}
+                src="https://itetlax.org.mx/assets/img/icons/50.png"
                 className="img-fluid"
                 alt="Boletines"
               />
@@ -24,7 +22,7 @@ export default class ComunicacionSocial extends Component {
           <div>
             <Link to="/Monitoreo">
               <img
-                src={Comunicacion_path(`./${"img/icons/"}${"e12.png"}`)}
+                src="https://itetlax.org.mx/assets/img/icons/e12.png"
                 className="img-fluid"
                 alt="Monitoreo"
               />
@@ -34,7 +32,7 @@ export default class ComunicacionSocial extends Component {
           <div>
             <Link to="/EspacioIte">
               <img
-                src={Comunicacion_path(`./${"img/icons/"}${"51.png"}`)}
+                src="https://itetlax.org.mx/assets/img/icons/51.png"
                 className="img-fluid"
                 alt="Espacio ITE"
               />

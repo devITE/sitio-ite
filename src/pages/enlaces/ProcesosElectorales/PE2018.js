@@ -4,8 +4,6 @@ import Modal from "../../../layout/Modal/Modal";
 import ListBadge from "../../../layout/ListBadge";
 import { dataResultados2018 } from "../../../assets/data/dataProcesosElectorales";
 
-const ProcesosElectorales__imgpath = require.context("../../../assets");
-
 export default class PE2018 extends Component {
   render() {
     return (
@@ -21,9 +19,7 @@ export default class PE2018 extends Component {
             >
               <img
                 className="img-fluid"
-                src={ProcesosElectorales__imgpath(
-                  `./${"img/icons/"}${"e19.png"}`
-                )}
+                src="https://itetlax.org.mx/assets/img/icons/e19.png"
                 alt="Resultados Electorales 2018"
               />
             </a>
@@ -31,17 +27,13 @@ export default class PE2018 extends Component {
           </div>
           <div>
             <a
-              href={ProcesosElectorales__imgpath(
-                `./${"pdf/procesosElect/PE2018/"}${"8.pdf"}`
-              )}
+              href="https://itetlax.org.mx/assets/pdf/procesosElect/PE2018/8.pdf"
               target="_blank"
               rel="noreferrer"
             >
               <img
                 className="img-fluid"
-                src={ProcesosElectorales__imgpath(
-                  `./${"img/icons/"}${"e22.png"}`
-                )}
+                src="https://itetlax.org.mx/assets/img/icons/e22.png"
                 alt="Acta circunstanciada sobre destrucción de documentación electoral 17 junio 2019"
               />
             </a>
@@ -52,17 +44,13 @@ export default class PE2018 extends Component {
           </div>
           <div>
             <a
-              href={ProcesosElectorales__imgpath(
-                `./${"pdf/procesosElect/PE2018/"}${"9.pdf"}`
-              )}
+              href="https://itetlax.org.mx/assets/pdf/procesosElect/PE2018/9.pdf"
               target="_blank"
               rel="noreferrer"
             >
               <img
                 className="img-fluid"
-                src={ProcesosElectorales__imgpath(
-                  `./${"img/icons/"}${"e22.png"}`
-                )}
+                src="https://itetlax.org.mx/assets/img/icons/e22.png"
                 alt="Acta circunstanciada sobre destrucción de documentación electoral 17 septiembre 2018"
               />
             </a>
@@ -73,17 +61,13 @@ export default class PE2018 extends Component {
           </div>
           <div>
             <a
-              href={ProcesosElectorales__imgpath(
-                `./${"pdf/procesosElect/PE2018/"}${"10.pdf"}`
-              )}
+              href="https://itetlax.org.mx/assets/pdf/procesosElect/PE2018/10.pdf"
               target="_blank"
               rel="noreferrer"
             >
               <img
                 className="img-fluid"
-                src={ProcesosElectorales__imgpath(
-                  `./${"img/icons/"}${"e22.png"}`
-                )}
+                src="https://itetlax.org.mx/assets/img/icons/e22.png"
                 alt="Informe destrucción de documentación electoral PELO 2018"
               />
             </a>

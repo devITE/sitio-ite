@@ -4,10 +4,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFileWord } from "@fortawesome/free-solid-svg-icons";
 import "../Transparencia.css";
 
-const Transparencia_wordpath = require.context(
-  "../../../assets/word/transparencia"
-);
-
 export default class FormatoSolicitud extends Component {
   render() {
     return (
@@ -37,7 +33,7 @@ export default class FormatoSolicitud extends Component {
             Formato de solicitud de información&nbsp;&nbsp;
             <a
               className="btn btn-primary"
-              href={Transparencia_wordpath(`./1.docx`)}
+              href="https://itetlax.org.mx/assets/word/transparencia/1.docx"
               role="button"
               rel="noreferrer"
             >
@@ -48,7 +44,7 @@ export default class FormatoSolicitud extends Component {
             Formato de solicitud de ejercicio de Derechos ARCO&nbsp;&nbsp;
             <a
               className="btn btn-primary"
-              href={Transparencia_wordpath(`./2.docx`)}
+              href="https://itetlax.org.mx/assets/word/transparencia/2.docx"
               role="button"
               rel="noreferrer"
             >

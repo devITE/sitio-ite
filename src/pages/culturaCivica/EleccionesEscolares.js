@@ -1,8 +1,6 @@
 import React, { Component } from "react";
 import TitlePages from "../../layout/TitlePages";
 
-const CulturaCivica__path = require.context("../../assets");
-
 export default class EleccionesEscolares extends Component {
   render() {
     return (
@@ -11,7 +9,7 @@ export default class EleccionesEscolares extends Component {
         <a
           type="button"
           className="btn btn-ite"
-          href={CulturaCivica__path(`./${"pdf/ccivica/1.pdf"}`)}
+          href="https://itetlax.org.mx/assets/pdf/ccivica/1.pdf"
           target="_blank"
           rel="noreferrer"
         >

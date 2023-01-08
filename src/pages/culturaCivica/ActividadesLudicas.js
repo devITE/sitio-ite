@@ -2,8 +2,6 @@ import React, { Component } from "react";
 import TitlePages from "../../layout/TitlePages";
 import ModalIMG from "../../layout/Modal/ModalIMG";
 
-const CulturaCivica__path = require.context("../../assets");
-
 export default class ActividadesLudicas extends Component {
   render() {
     return (
@@ -19,7 +17,7 @@ export default class ActividadesLudicas extends Component {
               data-bs-target="#Juego1"
             >
               <img
-                src={CulturaCivica__path(`./img/imgcivica/game1.jpg`)}
+                src="https://itetlax.org.mx/assets/img/imgcivica/game1.jpg"
                 className="img-fluid hover-ite"
                 alt="Mi Estado, Mi distrito Local, Mi Municipio"
               />
@@ -33,7 +31,7 @@ export default class ActividadesLudicas extends Component {
               data-bs-target="#Juego2"
             >
               <img
-                src={CulturaCivica__path(`./img/imgcivica/game2.jpg`)}
+                src="https://itetlax.org.mx/assets/img/imgcivica/game2.jpg"
                 className="img-fluid hover-ite"
                 alt="Serpientes y Escaleras"
               />
@@ -47,7 +45,7 @@ export default class ActividadesLudicas extends Component {
               data-bs-target="#Juego3"
             >
               <img
-                src={CulturaCivica__path(`./img/imgcivica/game3.jpg`)}
+                src="https://itetlax.org.mx/assets/img/imgcivica/game3.jpg"
                 className="img-fluid hover-ite"
                 alt="Sopa de letras, Valores de la democracia"
               />
@@ -61,7 +59,7 @@ export default class ActividadesLudicas extends Component {
               data-bs-target="#Juego4"
             >
               <img
-                src={CulturaCivica__path(`./img/imgcivica/game4.jpg`)}
+                src="https://itetlax.org.mx/assets/img/imgcivica/game4.jpg"
                 className="img-fluid hover-ite"
                 alt="Crucigrama democrático"
               />
@@ -70,22 +68,22 @@ export default class ActividadesLudicas extends Component {
         </div>
         <ModalIMG
           idModal="Juego1"
-          linkIMG={CulturaCivica__path(`./img/imgcivica/game1.jpg`)}
+          linkIMG="https://itetlax.org.mx/assets/img/imgcivica/game1.jpg"
           altIMG="Mi estado, mi distrito local, mi municipio"
         />
         <ModalIMG
           idModal="Juego2"
-          linkIMG={CulturaCivica__path(`./img/imgcivica/game2.jpg`)}
+          linkIMG="https://itetlax.org.mx/assets/img/imgcivica/game2.jpg"
           altIMG="Serpientes y escaleras"
         />
         <ModalIMG
           idModal="Juego3"
-          linkIMG={CulturaCivica__path(`./img/imgcivica/game3.jpg`)}
+          linkIMG="https://itetlax.org.mx/assets/img/imgcivica/game3.jpg"
           altIMG="Sopa de letras, valores de la democracia"
         />
         <ModalIMG
           idModal="Juego4"
-          linkIMG={CulturaCivica__path(`./img/imgcivica/game4.jpg`)}
+          linkIMG="https://itetlax.org.mx/assets/img/imgcivica/game4.jpg"
           altIMG="Crucigrama democráctico"
         />
       </>
