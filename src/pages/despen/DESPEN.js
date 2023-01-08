@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 import TitlePages from "../../layout/TitlePages";
 import Timer from "../../layout/Timer";
-import ModalInit from "../../assets/popupIndex/ModalInit";
+import ModalInit from "../../layout/Modal/ModalInit";
 import Carousel from "../../layout/Carousel/Carousel/Carousel";
 import CarouselItemIMG from "../../layout/Carousel/CarouselItems/CarouselItemIMG";
-import { dataCarousel } from "../../assets/despen/dataDESPEN";
+import { dataCarousel } from "../../assets/data/dataDESPEN";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
 

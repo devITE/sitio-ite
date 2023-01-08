@@ -23,7 +23,7 @@ import "./Home.css";
 import Carousel from "../../layout/Carousel/Carousel/Carousel";
 import CarouselItemIMG from "../../layout/Carousel/CarouselItems/CarouselItemIMG";
 import { dataVideoPodCast } from "../../assets/data/dataVideoPodCast";
-import ModalInit from "../../assets/popupIndex/ModalInit";
+import ModalInit from "../../layout/Modal/ModalInit";
 import "./Home.css";
 
 export default class Home extends Component {

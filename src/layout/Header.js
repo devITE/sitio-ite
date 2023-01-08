@@ -1,8 +1,6 @@
 import React, { Component } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router-dom";
-import logo from "../assets/img/logoite.png";
-
 import {
   faYoutube,
   faFacebook,
@@ -45,7 +43,7 @@ export default class Header extends Component {
           <div>
             <Link to="./">
               <img
-                src={logo}
+                src="https://itetlax.org.mx/assets/img/logoite.png"
                 alt="Instituto Tlaxcalteca de Elecciones"
                 className="img-fluid Header__logoITE"
               />
