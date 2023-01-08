@@ -1,23 +1,21 @@
-const Informes__pdfpath = require.context("../pdf");
-
 export const dataInformes = [
   {
     id: 0,
     url: "https://itetlax.org.mx/assets/img/img_In/0.png",
     alt: "Estudio muestral sobre la participación ciudadana en el Proceso Electoral Ordinario 2015-2016",
-    link: Informes__pdfpath(`./${"informes/"}${"0.pdf"}`),
+    link: "https://itetlax.org.mx/assets/pdf/informes/0.pdf",
   },
   {
     id: 1,
     url: "https://itetlax.org.mx/assets/img/img_In/1.jpg",
     alt: "Informe país sobre la calidad de la ciudadanía en México",
-    link: Informes__pdfpath(`./${"informes/"}${"1.pdf"}`),
+    link: "https://itetlax.org.mx/assets/pdf/informes/1.pdf",
   },
   {
     id: 2,
     url: "https://itetlax.org.mx/assets/img/img_In/2.jpg",
     alt: "Informe de Desempeño de la Operación del Sistema Informático del ITE",
-    link: Informes__pdfpath(`./${"informes/"}${"2.pdf"}`),
+    link: "https://itetlax.org.mx/assets/pdf/informes/2.pdf",
   },
   {
     id: 3,
@@ -29,7 +27,7 @@ export const dataInformes = [
     id: 4,
     url: "https://itetlax.org.mx/assets/img/img_In/4.jpg",
     alt: "Informe Anual de Actividades 2020",
-    link: Informes__pdfpath(`./${"informes/"}${"4.pdf"}`),
+    link: "https://itetlax.org.mx/assets/pdf/informes/4.pdf",
   },
   {
     id: 5,
@@ -41,7 +39,7 @@ export const dataInformes = [
     id: 6,
     url: "https://itetlax.org.mx/assets/img/img_In/6.jpg",
     alt: "Catálogo de Presidencias de Comunidad",
-    link: Informes__pdfpath(`./${"informes/"}${"6.pdf"}`),
+    link: "https://itetlax.org.mx/assets/pdf/informes/6.pdf",
   },
   {
     id: 7,

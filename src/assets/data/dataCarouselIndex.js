@@ -30,7 +30,7 @@ export const dataCIndex = [
     imgUrl:
       "https://itetlax.org.mx/assets/img/imgC_I/formatosFiscalizacion.jpg",
     alt: "Formatos de fiscalización editables",
-    url: Carousel__path(`./${"word/carousel/"}${"formatosFiscalizacion.docx"}`),
+    url: "https://itetlax.org.mx/assets/word/carousel/formatosFiscalizacion.docx",
     linkToo: "",
   },
   {

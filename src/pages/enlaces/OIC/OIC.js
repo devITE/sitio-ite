@@ -151,7 +151,7 @@ export default class OIC extends Component {
         />
         <ModalIMG
           idModal="Atribuciones"
-          linkIMG={OIC__imgpath(`./${"OIC/"}${"1.jpg"}`)}
+          linkIMG="https://itetlax.org.mx/assets/img/OIC/1.jpg"
           altIMG="Atribuciones"
         />
         <Modal

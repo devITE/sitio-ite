@@ -4,8 +4,6 @@ import TitlePages from "../../layout/TitlePages";
 import { distLocal, infografias } from "../../assets/data/dataMapas";
 import "./Mapas.css";
 
-const Mapas__path = require.context("../../assets");
-
 export default class Mapas extends Component {
   render() {
     return (
@@ -74,7 +72,7 @@ export default class Mapas extends Component {
                   data-bs-target="#mapaTLX"
                 >
                   <img
-                    src={Mapas__path(`./${"img/imgDemA/"}${"12.png"}`)}
+                    src="https://itetlax.org.mx/assets/img/imgDemA/12.png"
                     className="img-fluid w-100 mx-auto"
                     alt="Distritación Local Tlaxcala 2022"
                   />
@@ -85,9 +83,9 @@ export default class Mapas extends Component {
               </div>
               <ModalDownload
                 idModal="mapaTLX"
-                linkIMG={Mapas__path(`./${"img/imgDemA/"}${"12.png"}`)}
+                linkIMG="https://itetlax.org.mx/assets/img/imgDemA/12.png"
                 altIMG="Distritación Local Tlaxcala 2022"
-                downloadModal={Mapas__path(`./${"img/imgDemA/"}${"12.png"}`)}
+                downloadModal="https://itetlax.org.mx/assets/img/imgDemA/12.png"
               />
             </div>
             <div
