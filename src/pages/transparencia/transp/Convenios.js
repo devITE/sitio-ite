@@ -3,8 +3,6 @@ import TitlePages from "../../../layout/TitlePages";
 import { dataConvenios } from "../../../assets/data/dataTransparencia";
 import "../Transparencia.css";
 
-const icons_imgpath = require.context("../../../assets/img/icons");
-
 export default class Convenios extends Component {
   render() {
     return (
@@ -17,7 +15,7 @@ export default class Convenios extends Component {
                 <a href={convenio.url} target="_blank" rel="noreferrer">
                   <img
                     className="img-fluid "
-                    src={icons_imgpath(`./2.png`)}
+                    src="https://itetlax.org.mx/assets/img/icons/2.png"
                     alt={"Convenio con " + convenio.title}
                   />
                 </a>

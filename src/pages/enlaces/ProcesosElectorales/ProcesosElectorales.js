@@ -5,8 +5,6 @@ import Modal from "../../../layout/Modal/Modal";
 import ListBadge from "../../../layout/ListBadge";
 import { dataResultadosE2021 } from "../../../assets/data/dataProcesosElectorales";
 
-const ProcesosElectorales__imgpath = require.context("../../../assets/img");
-
 export default class ProcesosElectorales extends Component {
   render() {
     return (
@@ -17,7 +15,7 @@ export default class ProcesosElectorales extends Component {
             <Link to="/HistorialPE">
               <img
                 className="img-fluid"
-                src={ProcesosElectorales__imgpath(`./${"icons/"}${"e20.png"}`)}
+                src="https://itetlax.org.mx/assets/img/icons/e20.png"
                 alt="Historial de Resultados 1995 - 2013"
               />
             </Link>
@@ -27,7 +25,7 @@ export default class ProcesosElectorales extends Component {
             <Link to="/PE20152016">
               <img
                 className="img-fluid"
-                src={ProcesosElectorales__imgpath(`./${"icons/"}${"e19.png"}`)}
+                src="https://itetlax.org.mx/assets/img/icons/e19.png"
                 alt="Proceso Electoral 2015 -2015"
               />
             </Link>
@@ -37,7 +35,7 @@ export default class ProcesosElectorales extends Component {
             <Link to="/PEE2017">
               <img
                 className="img-fluid"
-                src={ProcesosElectorales__imgpath(`./${"icons/"}${"e19.png"}`)}
+                src="https://itetlax.org.mx/assets/img/icons/e19.png"
                 alt="Proceso Electoral Extraordinario 2017"
               />
             </Link>
@@ -47,7 +45,7 @@ export default class ProcesosElectorales extends Component {
             <Link to="/PE2018">
               <img
                 className="img-fluid"
-                src={ProcesosElectorales__imgpath(`./${"icons/"}${"e19.png"}`)}
+                src="https://itetlax.org.mx/assets/img/icons/e19.png"
                 alt="Proceso Electoral 2018"
               />
             </Link>
@@ -57,7 +55,7 @@ export default class ProcesosElectorales extends Component {
             <Link to="/PE20202021">
               <img
                 className="img-fluid"
-                src={ProcesosElectorales__imgpath(`./${"icons/"}${"e19.png"}`)}
+                src="https://itetlax.org.mx/assets/img/icons/e19.png"
                 alt="Proceso Electoral 2020 - 2021"
               />
             </Link>
@@ -72,7 +70,7 @@ export default class ProcesosElectorales extends Component {
             >
               <img
                 className="img-fluid"
-                src={ProcesosElectorales__imgpath(`./${"icons/"}${"e19.png"}`)}
+                src="https://itetlax.org.mx/assets/img/icons/e19.png"
                 alt="Proceso Electoral Extraordinario 2021"
               />
             </a>

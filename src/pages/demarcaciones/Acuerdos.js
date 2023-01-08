@@ -1,8 +1,6 @@
 import React, { Component } from "react";
 import TitlePages from "../../layout/TitlePages";
 
-const Acuerdos__path = require.context("../../assets");
-
 export default class Acuerdos extends Component {
   render() {
     return (
@@ -11,14 +9,12 @@ export default class Acuerdos extends Component {
         <div className="w-100 Grid__folder">
           <div>
             <a
-              href={Acuerdos__path(
-                `./${"pdf/demarcaciones/acuerdos/"}${"INE-CG335-2015.pdf"}`
-              )}
+              href="https://itetlax.org.mx/assets/pdf/demarcaciones/acuerdos/INE-CG335-2015.pdf"
               target="_blank"
               rel="noreferrer"
             >
               <img
-                src={Acuerdos__path(`./${"img/imgDemA/"}${"1.png"}`)}
+                src="https://itetlax.org.mx/assets/img/imgDemA/1.png"
                 className="img-fluid"
                 alt="Acuerdo INE 2015"
               />
@@ -26,14 +22,12 @@ export default class Acuerdos extends Component {
           </div>
           <div>
             <a
-              href={Acuerdos__path(
-                `./${"pdf/demarcaciones/acuerdos/"}${"anexo.pdf"}`
-              )}
+              href="https://itetlax.org.mx/assets/pdf/demarcaciones/acuerdos/anexo.pdf"
               target="_blank"
               rel="noreferrer"
             >
               <img
-                src={Acuerdos__path(`./${"img/imgDemA/"}${"2.png"}`)}
+                src="https://itetlax.org.mx/assets/img/imgDemA/2.png"
                 className="img-fluid"
                 alt="Anexo"
               />
@@ -41,14 +35,12 @@ export default class Acuerdos extends Component {
           </div>
           <div>
             <a
-              href={Acuerdos__path(
-                `./${"pdf/demarcaciones/acuerdos/"}${"ACUERDO_1_CNV_EXT_130815-1.pdf"}`
-              )}
+              href="https://itetlax.org.mx/assets/pdf/demarcaciones/acuerdos/ACUERDO_1_CNV_EXT_130815-1.pdf"
               target="_blank"
               rel="noreferrer"
             >
               <img
-                src={Acuerdos__path(`./${"img/imgDemA/"}${"3.png"}`)}
+                src="https://itetlax.org.mx/assets/img/imgDemA/3.png"
                 className="img-fluid"
                 alt="ACUERDO_1_CNV_EXT_130815-1"
               />
@@ -56,14 +48,12 @@ export default class Acuerdos extends Component {
           </div>
           <div>
             <a
-              href={Acuerdos__path(
-                `./${"pdf/demarcaciones/acuerdos/"}${"anexo2.pdf"}`
-              )}
+              href="https://itetlax.org.mx/assets/pdf/demarcaciones/acuerdos/anexo2.pdf"
               target="_blank"
               rel="noreferrer"
             >
               <img
-                src={Acuerdos__path(`./${"img/imgDemA/"}${"4.png"}`)}
+                src="https://itetlax.org.mx/assets/img/imgDemA/4.png"
                 className="img-fluid"
                 alt="Anexo2"
               />
@@ -71,14 +61,12 @@ export default class Acuerdos extends Component {
           </div>
           <div>
             <a
-              href={Acuerdos__path(
-                `./${"pdf/demarcaciones/acuerdos/"}${"anexo3.pdf"}`
-              )}
+              href="https://itetlax.org.mx/assets/pdf/demarcaciones/acuerdos/anexo3.pdf"
               target="_blank"
               rel="noreferrer"
             >
               <img
-                src={Acuerdos__path(`./${"img/imgDemA/"}${"5.png"}`)}
+                src="https://itetlax.org.mx/assets/img/imgDemA/5.png"
                 className="img-fluid"
                 alt="Anexo 3"
               />
@@ -86,14 +74,12 @@ export default class Acuerdos extends Component {
           </div>
           <div>
             <a
-              href={Acuerdos__path(
-                `./${"pdf/demarcaciones/acuerdos/"}${"INE-CG824-2015-1.pdf"}`
-              )}
+              href="https://itetlax.org.mx/assets/pdf/demarcaciones/acuerdos/INE-CG824-2015-1.pdf"
               target="_blank"
               rel="noreferrer"
             >
               <img
-                src={Acuerdos__path(`./${"img/imgDemA/"}${"6.png"}`)}
+                src="https://itetlax.org.mx/assets/img/imgDemA6.png"
                 className="img-fluid"
                 alt="INE CG824 2015"
               />
@@ -101,14 +87,12 @@ export default class Acuerdos extends Component {
           </div>
           <div>
             <a
-              href={Acuerdos__path(
-                `./${"pdf/demarcaciones/acuerdos/"}${"INE-CG612-2022.pdf"}`
-              )}
+              href="https://itetlax.org.mx/assets/pdf/demarcaciones/acuerdos/INE-CG612-2022.pdf"
               target="_blank"
               rel="noreferrer"
             >
               <img
-                src={Acuerdos__path(`./${"img/imgDemA/"}${"7.png"}`)}
+                src="https://itetlax.org.mx/assets/img/imgDemA7.png"
                 className="img-fluid"
                 alt="INE CG612 2022"
               />
@@ -116,14 +100,12 @@ export default class Acuerdos extends Component {
           </div>
           <div>
             <a
-              href={Acuerdos__path(
-                `./${"pdf/demarcaciones/acuerdos/"}${"INE-CG612-2022a1.pdf"}`
-              )}
+              href="https://itetlax.org.mx/assets/pdf/demarcaciones/acuerdos/INE-CG612-2022a1.pdf"
               target="_blank"
               rel="noreferrer"
             >
               <img
-                src={Acuerdos__path(`./${"img/imgDemA/"}${"8.png"}`)}
+                src="https://itetlax.org.mx/assets/img/imgDemA8.png"
                 className="img-fluid"
                 alt="INE CG612 2022 ANEXO 1"
               />
@@ -131,14 +113,12 @@ export default class Acuerdos extends Component {
           </div>
           <div>
             <a
-              href={Acuerdos__path(
-                `./${"pdf/demarcaciones/acuerdos/"}${"INE-CG612-2022a2.pdf"}`
-              )}
+              href="https://itetlax.org.mx/assets/pdf/demarcaciones/acuerdos/INE-CG612-2022a2.pdf"
               target="_blank"
               rel="noreferrer"
             >
               <img
-                src={Acuerdos__path(`./${"img/imgDemA/"}${"9.png"}`)}
+                src="https://itetlax.org.mx/assets/img/imgDemA9.png"
                 className="img-fluid"
                 alt="INE CG612 2022 ANEXO 2"
               />
@@ -146,14 +126,12 @@ export default class Acuerdos extends Component {
           </div>
           <div>
             <a
-              href={Acuerdos__path(
-                `./${"pdf/demarcaciones/acuerdos/"}${"INE-CG612-2022a3b.pdf"}`
-              )}
+              href="https://itetlax.org.mx/assets/pdf/demarcaciones/acuerdos/INE-CG612-2022a3b.pdf"
               target="_blank"
               rel="noreferrer"
             >
               <img
-                src={Acuerdos__path(`./${"img/imgDemA/"}${"10.png"}`)}
+                src="https://itetlax.org.mx/assets/img/imgDemA10.png"
                 className="img-fluid"
                 alt="INE CG612 2022 ANEXO 3B"
               />

@@ -1,8 +1,6 @@
 import React, { Component } from "react";
 import TitlePages from "../../layout/TitlePages";
 
-const Integracion__path = require.context("../../assets");
-
 export default class Integracion extends Component {
   render() {
     return (
@@ -51,7 +49,7 @@ export default class Integracion extends Component {
               <div className="w-100 Grid__four">
                 <div>
                   <a
-                    href={Integracion__path(`./${"pdf/CG/"}${"1.pdf"}`)}
+                    href="https://itetlax.org.mx/assets/pdf/CG/1.pdf"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -64,7 +62,7 @@ export default class Integracion extends Component {
                 </div>
                 <div>
                   <a
-                    href={Integracion__path(`./${"pdf/CG/"}${"2.pdf"}`)}
+                    href="https://itetlax.org.mx/assets/pdf/CG/2.pdf"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -77,7 +75,7 @@ export default class Integracion extends Component {
                 </div>
                 <div>
                   <a
-                    href={Integracion__path(`./${"pdf/CG/"}${"3.pdf"}`)}
+                    href="https://itetlax.org.mx/assets/pdf/CG/3.pdf"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -90,7 +88,7 @@ export default class Integracion extends Component {
                 </div>
                 <div>
                   <a
-                    href={Integracion__path(`./${"pdf/CG/"}${"4.pdf"}`)}
+                    href="https://itetlax.org.mx/assets/pdf/CG/4.pdf"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -103,7 +101,7 @@ export default class Integracion extends Component {
                 </div>
                 <div>
                   <a
-                    href={Integracion__path(`./${"pdf/CG/"}${"5.pdf"}`)}
+                    href="https://itetlax.org.mx/assets/pdf/CG/5.pdf"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -116,7 +114,7 @@ export default class Integracion extends Component {
                 </div>
                 <div>
                   <a
-                    href={Integracion__path(`./${"pdf/CG/"}${"6.pdf"}`)}
+                    href="https://itetlax.org.mx/assets/pdf/CG/6.pdf"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -129,7 +127,7 @@ export default class Integracion extends Component {
                 </div>
                 <div>
                   <a
-                    href={Integracion__path(`./${"pdf/CG/"}${"7.pdf"}`)}
+                    href="https://itetlax.org.mx/assets/pdf/CG/7.pdf"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -152,7 +150,7 @@ export default class Integracion extends Component {
               <div className="w-100 Grid__four">
                 <div>
                   <a
-                    href={"https://www.pantlaxcala.org.mx/"}
+                    href="https://www.pantlaxcala.org.mx/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -165,7 +163,7 @@ export default class Integracion extends Component {
                 </div>
                 <div>
                   <a
-                    href={"https://pritlaxcala.org.mx/"}
+                    href="https://pritlaxcala.org.mx/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -178,7 +176,7 @@ export default class Integracion extends Component {
                 </div>
                 <div>
                   <a
-                    href={"https://www.prd.org.mx/"}
+                    href="https://www.prd.org.mx/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -191,7 +189,7 @@ export default class Integracion extends Component {
                 </div>
                 <div>
                   <a
-                    href={"http://pttlaxcala.com.mx/"}
+                    href="http://pttlaxcala.com.mx/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -204,7 +202,7 @@ export default class Integracion extends Component {
                 </div>
                 <div>
                   <a
-                    href={"https://partidoverdetlaxcala.org/"}
+                    href="https://partidoverdetlaxcala.org/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -217,7 +215,7 @@ export default class Integracion extends Component {
                 </div>
                 <div>
                   <a
-                    href={"https://movimientociudadano.mx/tlaxcala"}
+                    href="https://movimientociudadano.mx/tlaxcala"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -230,7 +228,7 @@ export default class Integracion extends Component {
                 </div>
                 <div>
                   <a
-                    href={"https://www.partidoalianzaciudadanatlax.com/"}
+                    href="https://www.partidoalianzaciudadanatlax.com/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -243,7 +241,7 @@ export default class Integracion extends Component {
                 </div>
                 <div>
                   <a
-                    href={"https://morena.org/"}
+                    href="https://morena.org/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -256,7 +254,7 @@ export default class Integracion extends Component {
                 </div>
                 <div>
                   <a
-                    href={"https://www.natlaxcala.mx/"}
+                    href="https://www.natlaxcala.mx/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -270,7 +268,7 @@ export default class Integracion extends Component {
 
                 <div>
                   <a
-                    href={"https://www.redessocialesprogresistas.org/tlaxcala/"}
+                    href="https://www.redessocialesprogresistas.org/tlaxcala/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -283,7 +281,7 @@ export default class Integracion extends Component {
                 </div>
                 <div>
                   <a
-                    href={"https://www.fuerzapormexicotlx.org/"}
+                    href="https://www.fuerzapormexicotlx.org/"
                     target="_blank"
                     rel="noreferrer"
                   >

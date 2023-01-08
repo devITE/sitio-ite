@@ -8,14 +8,12 @@ import { dataCarousel } from "../../assets/despen/dataDESPEN";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
 
-const DESPEN__path = require.context("../../assets");
-
 export default class DESPEN extends Component {
   render() {
     return (
       <>
         <ModalInit
-          imgLink={DESPEN__path(`./despen/img/banner.jpg`)}
+          imgLink="https://itetlax.org.mx/assets/despen/img/banner.jpg"
           url=""
           linkToo=""
         />
@@ -23,7 +21,7 @@ export default class DESPEN extends Component {
         <TitlePages title="Convocatoria DESPEN 2022" subTitle="" />
         <div className="w-75 shadow rounded mx-auto">
           <img
-            src={DESPEN__path(`./despen/img/banner.jpg`)}
+            src="https://itetlax.org.mx/assets/despen/img/banner.jpg"
             className="img-fluid w-100"
             alt="Convocatoria DESPEN"
           />
@@ -45,7 +43,7 @@ export default class DESPEN extends Component {
         <h3 className="mt-5 bottom_title">Recordatorio</h3>
         <div className="mt-3 w-50 shadow rounded mx-auto">
           <img
-            src={DESPEN__path(`./despen/img/recordatorio3dic.jpg`)}
+            src="https://itetlax.org.mx/assets/despen/img/recordatorio3dic.jpg"
             className="img-fluid w-100"
             alt="Recordatorio"
           />
@@ -90,7 +88,7 @@ export default class DESPEN extends Component {
                 <td>Convocatoria del Concurso Público 2022</td>
                 <td>
                   <a
-                    href={DESPEN__path(`./despen/pdf/1.pdf`)}
+                    href="https://itetlax.org.mx/assets/despen/pdf/1.pdf"
                     className="btn btn-danger"
                     rel="noreferrer"
                   >
@@ -102,7 +100,7 @@ export default class DESPEN extends Component {
                 <td>Anexo Único: Distribución de plazas vacantes</td>
                 <td>
                   <a
-                    href={DESPEN__path(`./despen/pdf/2.pdf`)}
+                    href="https://itetlax.org.mx/assets/despen/pdf/2.pdf"
                     className="btn btn-danger"
                     rel="noreferrer"
                   >
@@ -118,7 +116,7 @@ export default class DESPEN extends Component {
                 </td>
                 <td>
                   <a
-                    href={DESPEN__path(`./despen/pdf/3.pdf`)}
+                    href="https://itetlax.org.mx/assets/despen/pdf/3.pdf"
                     className="btn btn-danger"
                     rel="noreferrer"
                   >
@@ -134,7 +132,7 @@ export default class DESPEN extends Component {
                 </td>
                 <td>
                   <a
-                    href={DESPEN__path(`./despen/pdf/4.pdf`)}
+                    href="https://itetlax.org.mx/assets/despen/pdf/4.pdf"
                     className="btn btn-danger"
                     rel="noreferrer"
                   >
@@ -159,7 +157,7 @@ export default class DESPEN extends Component {
                 <td>Folleto informativo</td>
                 <td>
                   <a
-                    href={DESPEN__path(`./despen/pdf/5.pdf`)}
+                    href="https://itetlax.org.mx/assets/despen/pdf/5.pdf"
                     className="btn btn-danger"
                     rel="noreferrer"
                   >
@@ -171,7 +169,7 @@ export default class DESPEN extends Component {
                 <td>Infografía</td>
                 <td>
                   <a
-                    href={DESPEN__path(`./despen/pdf/6.pdf`)}
+                    href="https://itetlax.org.mx/assets/despen/pdf/6.pdf"
                     className="btn btn-danger"
                     rel="noreferrer"
                   >
@@ -183,7 +181,7 @@ export default class DESPEN extends Component {
                 <td>Preguntas frecuentes</td>
                 <td>
                   <a
-                    href={DESPEN__path(`./despen/pdf/7.pdf`)}
+                    href="https://itetlax.org.mx/assets/despen/pdf/7.pdf"
                     className="btn btn-danger"
                     rel="noreferrer"
                   >
@@ -199,7 +197,7 @@ export default class DESPEN extends Component {
                 </td>
                 <td>
                   <a
-                    href={DESPEN__path(`./despen/pdf/4.pdf`)}
+                    href="https://itetlax.org.mx/assets/despen/pdf/4.pdf"
                     className="btn btn-danger"
                     rel="noreferrer"
                   >

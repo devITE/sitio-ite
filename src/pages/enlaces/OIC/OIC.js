@@ -14,8 +14,6 @@ import {
 } from "../../../assets/data/dataOIC";
 import "../EnlacesStyle.css";
 
-const OIC__imgpath = require.context("../../../assets/img");
-
 export default class OIC extends Component {
   render() {
     return (
@@ -31,7 +29,7 @@ export default class OIC extends Component {
             >
               <img
                 className="img-fluid"
-                src={OIC__imgpath(`./${"icons/"}${"e11.png"}`)}
+                src="https://itetlax.org.mx/assets/img/icons/e11.png"
                 alt="Estructura Orgánica"
               />
             </a>
@@ -46,7 +44,7 @@ export default class OIC extends Component {
             >
               <img
                 className="img-fluid"
-                src={OIC__imgpath(`./${"icons/"}${"e12.png"}`)}
+                src="https://itetlax.org.mx/assets/img/icons/e12.png"
                 alt="Atribuciones"
               />
             </a>
@@ -61,7 +59,7 @@ export default class OIC extends Component {
             >
               <img
                 className="img-fluid"
-                src={OIC__imgpath(`./${"icons/"}${"e13.png"}`)}
+                src="https://itetlax.org.mx/assets/img/icons/e13.png"
                 alt="Normatividad"
               />
             </a>
@@ -76,7 +74,7 @@ export default class OIC extends Component {
             >
               <img
                 className="img-fluid"
-                src={OIC__imgpath(`./${"icons/"}${"e14.png"}`)}
+                src="https://itetlax.org.mx/assets/img/icons/e14.png"
                 alt="Programas"
               />
             </a>
@@ -91,7 +89,7 @@ export default class OIC extends Component {
             >
               <img
                 className="img-fluid"
-                src={OIC__imgpath(`./${"icons/"}${"e15.png"}`)}
+                src="https://itetlax.org.mx/assets/img/icons/e15.png"
                 alt="Semblanza"
               />
             </a>
@@ -106,7 +104,7 @@ export default class OIC extends Component {
             >
               <img
                 className="img-fluid"
-                src={OIC__imgpath(`./${"icons/"}${"e16.png"}`)}
+                src="https://itetlax.org.mx/assets/img/icons/e16.png"
                 alt="Declaración Patrimonial"
               />
             </a>
@@ -121,7 +119,7 @@ export default class OIC extends Component {
             >
               <img
                 className="img-fluid"
-                src={OIC__imgpath(`./${"icons/"}${"e17.png"}`)}
+                src="https://itetlax.org.mx/assets/img/icons/e17.png"
                 alt="Código de Ética"
               />
             </a>
@@ -131,7 +129,7 @@ export default class OIC extends Component {
             <Link to="/GaleriaOIC">
               <img
                 className="img-fluid"
-                src={OIC__imgpath(`./${"icons/"}${"e18.png"}`)}
+                src="https://itetlax.org.mx/assets/img/icons/e18.png"
                 alt="Galería"
               />
             </Link>

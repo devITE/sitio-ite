@@ -1,5 +1,3 @@
-const Carousel__path = require.context("../");
-
 export const dataCIndex = [
   {
     id: 1,
@@ -15,7 +13,7 @@ export const dataCIndex = [
     id: 2,
     imgUrl: "https://itetlax.org.mx/assets/img/imgC_I/convPTlx.jpg",
     alt: "Convocatoria Consejero Presidente(a)",
-    url: Carousel__path(`./${"pdf/carousel/"}${"convocatoriaPresidente.pdf"}`),
+    url: "https://itetlax.org.mx/assets/pdf/carousel/convocatoriaPresidente.pdf",
     linkToo: "",
   },
   {
@@ -37,49 +35,49 @@ export const dataCIndex = [
     id: 5,
     imgUrl: "https://itetlax.org.mx/assets/img/imgC_I/guiaViolencia.jpg",
     alt: "Guia de actuación",
-    url: Carousel__path(`./${"pdf/carousel/"}${"guiaViolencia.pdf"}`),
+    url: "https://itetlax.org.mx/assets/pdf/carousel/guiaViolencia.pdf",
     linkToo: "",
   },
   {
     id: 6,
     imgUrl: "https://itetlax.org.mx/assets/img/imgC_I/libroITE.jpg",
     alt: "Libro ITE",
-    url: Carousel__path(`./${"pdf/carousel/"}${"libroITE.pdf"}`),
+    url: "https://itetlax.org.mx/assets/pdf/carousel/libroITE.pdf",
     linkToo: "",
   },
   {
     id: 7,
     imgUrl: "https://itetlax.org.mx/assets/img/imgC_I/libroOPPMT.jpg",
     alt: "Libro OPPMT",
-    url: Carousel__path(`./${"pdf/carousel/"}${"libroOPPMT.pdf"}`),
+    url: "https://itetlax.org.mx/assets/pdf/carousel/libroOPPMT.pdf",
     linkToo: "",
   },
   {
     id: 8,
     imgUrl: "https://itetlax.org.mx/assets/img/imgC_I/ManualAndroid.jpg",
     alt: "Manual android",
-    url: Carousel__path(`./${"pdf/carousel/"}${"ManualAndroid.pdf"}`),
+    url: "https://itetlax.org.mx/assets/pdf/carousel/ManualAndroid.pdf",
     linkToo: "",
   },
   {
     id: 9,
     imgUrl: "https://itetlax.org.mx/assets/img/imgC_I/ManualIOS.jpg",
     alt: "Manual ios",
-    url: Carousel__path(`./${"pdf/carousel/"}${"ManualIOS.pdf"}`),
+    url: "https://itetlax.org.mx/assets/pdf/carousel/ManualIOS.pdf",
     linkToo: "",
   },
   {
     id: 10,
     imgUrl: "https://itetlax.org.mx/assets/img/imgC_I/ManualWeb.jpg",
     alt: "Manual web",
-    url: Carousel__path(`./${"pdf/carousel/"}${"ManualWeb.pdf"}`),
+    url: "https://itetlax.org.mx/assets/pdf/carousel/ManualWeb.pdf",
     linkToo: "",
   },
   {
     id: 11,
     imgUrl: "https://itetlax.org.mx/assets/img/imgC_I/memElectoral.jpg",
     alt: "Memoria Electoral 2021",
-    url: Carousel__path(`./${"pdf/memElect/"}${"11.pdf"}`),
+    url: "https://itetlax.org.mx/assets/pdf/memElect/11.pdf",
     linkToo: "",
   },
   {
@@ -93,7 +91,7 @@ export const dataCIndex = [
     id: 13,
     imgUrl: "https://itetlax.org.mx/assets/img/imgC_I/votaFilm.png",
     alt: "votal Film",
-    url: Carousel__path(`./${"pdf/carousel/"}${"votafilm.pdf"}`),
+    url: "https://itetlax.org.mx/assets/pdf/carousel/votafilm.pdf",
     linkToo: "",
   },
   {

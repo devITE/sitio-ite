@@ -1,8 +1,6 @@
 import React, { Component } from "react";
 import TitlePages from "../../layout/TitlePages";
 
-const EspacioITE_path = require.context("../../assets");
-
 export default class EspacioIte extends Component {
   render() {
     return (
@@ -12,9 +10,7 @@ export default class EspacioIte extends Component {
         <div className="w-100 row">
           <div className="col-md-4">
             <a
-              href={EspacioITE_path(
-                `./${"pdf/comunicacion/"}${"presidenta.pdf"}`
-              )}
+              href="https://itetlax.org.mx/assets/pdf/comunicacion/presidenta.pdf"
               target="_blank"
               rel="noreferrer"
             >
@@ -27,7 +23,7 @@ export default class EspacioIte extends Component {
           </div>
           <div className="col-md-4">
             <a
-              href={EspacioITE_path(`./${"pdf/comunicacion/"}${"erika.pdf"}`)}
+              href="https://itetlax.org.mx/assets/pdf/comunicacion/erika.pdf"
               target="_blank"
               rel="noreferrer"
             >
@@ -40,7 +36,7 @@ export default class EspacioIte extends Component {
           </div>
           <div className="col-md-4">
             <a
-              href={EspacioITE_path(`./${"pdf/comunicacion/"}${"aldave.pdf"}`)}
+              href="https://itetlax.org.mx/assets/pdf/comunicacion/aldave.pdf"
               target="_blank"
               rel="noreferrer"
             >
