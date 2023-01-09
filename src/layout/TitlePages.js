@@ -1,4 +1,3 @@
-import iteIcon from "../assets/img/icons/ite.png";
 import "./TitlePages.css";
 
 const TitlePages = (props) => {
@@ -10,7 +9,11 @@ const TitlePages = (props) => {
         <>
           <div className="triangle"></div>
           <div className="banner-header">
-            <img src={iteIcon} alt="ITE ICON" className="img-fluid" />
+            <img
+              src="https://itetlax.org.mx/assets/img/icons/ite.png"
+              alt="ITE ICON"
+              className="img-fluid"
+            />
             {props.title}
           </div>
           <hr className="hr-bottom" />

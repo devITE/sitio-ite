@@ -173,20 +173,23 @@ export const dataCAR = [
 ];
 
 export const dataCA = [
+  // {
+  //   id: 1,
+  //   imgUrl: "https://itetlax.org.mx/assets/img/sesionesCG/SE-0501.jpeg",
+  //   alt: "Sesión del Consejo General",
+  //   itemActive: "active",
+  //   buttonActive: "active",
+  //   ariaCurrent: "true",
+  //   url: "",
+  //   linkToo: "",
+  // },
   {
     id: 1,
-    imgUrl: "https://itetlax.org.mx/assets/img/sesionesCG/SE-0501.jpeg",
-    alt: "Sesión del Consejo General",
+    imgUrl: "https://itetlax.org.mx/assets/img/imgC_A/1.jpeg",
+    alt: "Participación política de las mujeres tlaxcaltecas en el Proceso Electoral Local Ordinario 2020-2021",
     itemActive: "active",
     buttonActive: "active",
     ariaCurrent: "true",
-    url: "",
-    linkToo: "",
-  },
-  {
-    id: 2,
-    imgUrl: "https://itetlax.org.mx/assets/img/imgC_A/1.jpeg",
-    alt: "Participación política de las mujeres tlaxcaltecas en el Proceso Electoral Local Ordinario 2020-2021",
     url: "",
     linkToo: "",
   },

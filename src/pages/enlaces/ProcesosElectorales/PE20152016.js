@@ -8,7 +8,7 @@ import {
   dataResultados2016,
   dataResultadosSeccion2016,
   dataListadoCandidatos2016,
-} from "../../../assets/data/dataProcesosElectorales";
+} from "../../../data/dataProcesosElectorales";
 
 export default class PE20152016 extends Component {
   render() {

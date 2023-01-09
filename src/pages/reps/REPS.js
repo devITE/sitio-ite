@@ -3,7 +3,7 @@ import React, { Component } from "react";
 import CarouselVert from "../../layout/Carousel/CarouselVert/CarouselVert";
 import CarouselVertItem from "../../layout/Carousel/CarouselVert/CarouselVertItem";
 
-import { dataInfografias } from "../../assets/data/dataREPS";
+import { dataInfografias } from "../../data/dataREPS";
 import "./REPS.css";
 
 export default class REPS extends Component {

@@ -7,7 +7,7 @@ import {
   dataDiputaciones20202021,
   dataAyuntamientos20202021,
   dataPresidencias20202021,
-} from "../../../assets/data/dataProcesosElectorales";
+} from "../../../data/dataProcesosElectorales";
 
 export default class PE20202021 extends Component {
   render() {

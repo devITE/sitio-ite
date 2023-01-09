@@ -1,29 +1,25 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import Enlaces from "./enlaces/Enlaces";
-import {
-  dataCIndex,
-  dataCAR,
-  dataCA,
-} from "../../assets/data/dataCarouselIndex";
+import { dataCIndex, dataCAR, dataCA } from "../../data/dataCarouselIndex";
 import Convocatorias from "../../layout/Index/Convocatorias";
 import TablePDF from "../../layout/Index/Estrados";
 import {
   dataEstrados,
   dataConvocatorias,
-} from "../../assets/data/dataEstradosConvocatorias";
+} from "../../data/dataEstradosConvocatorias";
 
 import Informes from "./informes/Informes";
-import { dataInformes } from "../../assets/data/dataInformes";
+import { dataInformes } from "../../data/dataInformes";
 
 import Videoteca from "../../layout/videoteca/Videoteca";
-import { dataVideoteca } from "../../assets/data/dataVideoteca";
+import { dataVideoteca } from "../../data/dataVideoteca";
 import "./Home.css";
 
 import Carousel from "../../layout/Carousel/Carousel/Carousel";
 import CarouselItemIMG from "../../layout/Carousel/CarouselItems/CarouselItemIMG";
-import { dataVideoPodCast } from "../../assets/data/dataVideoPodCast";
-import ModalInit from "../../assets/popupIndex/ModalInit";
+import { dataVideoPodCast } from "../../data/dataVideoPodCast";
+import ModalInit from "../../layout/Modal/ModalInit";
 import "./Home.css";
 
 export default class Home extends Component {
@@ -123,12 +119,12 @@ export default class Home extends Component {
             <h2 className="bottom_title">Sesión en Vivo</h2>
             <div className="Home__video-embed ratio ratio-16x9 w-100">
               <iframe
-                src="https://www.youtube-nocookie.com/embed/MRj4qC4NVWo?rel=0"
+                src="https://www.youtube-nocookie.com/embed/SYCV2SgvjO8?rel=0"
                 title="Sesión En Vivo del CG"
                 allowFullScreen
               ></iframe>
             </div>
-            <h5 className="mt-3 text-center">Sesión Especial 01/12/22</h5>
+            <h5 className="mt-3 text-center">Sesión Especial 06/01/23</h5>
           </div>
           <div>
             <h2 className="bottom_title">Convocatorias</h2>

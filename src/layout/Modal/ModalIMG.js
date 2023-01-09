@@ -8,10 +8,10 @@ const ModalIMG = (props) => {
     >
       <div className="modal-dialog modal-dialog-centered modal-lg">
         <div className="modal-content">
-          <div class="modal-header">
+          <div className="modal-header">
             <button
               type="button"
-              class="btn-close"
+              className="btn-close"
               data-bs-dismiss="modal"
               aria-label="Close"
             ></button>

@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
-import logo from "../assets/img/logoite.png";
 
 export default class Navbar extends Component {
   render() {
@@ -10,7 +9,7 @@ export default class Navbar extends Component {
         <div className="container-fluid">
           <Link to="./" className="navbar-brand">
             <img
-              src={logo}
+              src="https://itetlax.org.mx/assets/img/logoite.png"
               alt="Instituto Tlaxcalteca de Elecciones"
               className="img-fluid Navbar__logoITE"
             />

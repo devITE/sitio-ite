@@ -3,7 +3,7 @@ import NavbarEnlaces from "../../../layout/NavbarEnlaces";
 import Accordion from "../../../layout/Accordion/Accordion";
 import AccordionItem from "../../../layout/Accordion/AccordionItem";
 import ModalIMG from "../../../layout/Modal/ModalIMG";
-import { dataGaleria2019 } from "../../../assets/data/dataGaleria";
+import { dataGaleria2019 } from "../../../data/dataGaleria";
 
 export default class Galeria2019 extends Component {
   render() {

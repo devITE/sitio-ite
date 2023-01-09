@@ -1,7 +1,7 @@
 import React, { useMemo } from "react";
 import TitlePages from "../../../layout/TitlePages";
 import MaterialReactTable from "material-react-table";
-import { dataAcuerdosINE2023 } from "../../../assets/data/dataAcuerdos2023";
+import { dataAcuerdosINE2023 } from "../../../data/dataAcuerdos2023";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
 

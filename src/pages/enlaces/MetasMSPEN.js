@@ -3,7 +3,7 @@ import ListBadge from "../../layout/ListBadge";
 import NavbarEnlaces from "../../layout/NavbarEnlaces";
 import Accordion from "../../layout/Accordion/Accordion";
 import AccordionItem from "../../layout/Accordion/AccordionItem";
-import { dataMSPEN } from "../../assets/data/dataMSPEN";
+import { dataMSPEN } from "../../data/dataMSPEN";
 
 export default class MetasMSPEN extends Component {
   render() {

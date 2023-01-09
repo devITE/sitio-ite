@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import NavbarEnlaces from "../../../layout/NavbarEnlaces";
 import Modal from "../../../layout/Modal/Modal";
 import ListBadge from "../../../layout/ListBadge";
-import { dataResultadosE2021 } from "../../../assets/data/dataProcesosElectorales";
+import { dataResultadosE2021 } from "../../../data/dataProcesosElectorales";
 
 export default class ProcesosElectorales extends Component {
   render() {

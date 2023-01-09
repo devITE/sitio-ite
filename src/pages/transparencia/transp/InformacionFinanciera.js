@@ -6,7 +6,7 @@ import AccordionItem from "../../../layout/Accordion/AccordionItem";
 import {
   dataInfFinanciera,
   dataInfo2016,
-} from "../../../assets/data/dataTransparencia";
+} from "../../../data/dataTransparencia";
 import "../Transparencia.css";
 
 export default class InformacionFinanciera extends Component {

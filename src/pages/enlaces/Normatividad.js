@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import NavbarEnlaces from "../../layout/NavbarEnlaces";
 import ListBadge from "../../layout/ListBadge";
-import { dataNormatividad } from "../.././assets/data/dataNormativad";
+import { dataNormatividad } from "../../data/dataNormativad";
 
 export default class Normatividad extends Component {
   render() {

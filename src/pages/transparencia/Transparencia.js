@@ -3,10 +3,7 @@ import TitlePages from "../../layout/TitlePages";
 import Modal from "../../layout/Modal/Modal";
 import { Link } from "react-router-dom";
 import ListBadge from "../../layout/ListBadge";
-import {
-  dataReglamento,
-  dataJuridico,
-} from "../../assets/data/dataTransparencia";
+import { dataReglamento, dataJuridico } from "../../data/dataTransparencia";
 import "./Transparencia.css";
 
 export default class Transparencia extends Component {

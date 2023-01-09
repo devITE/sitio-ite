@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import NavbarEnlaces from "../../layout/NavbarEnlaces";
-import { dataMemoria } from "../../assets/data/dataMemoriasElectorales";
+import { dataMemoria } from "../../data/dataMemoriasElectorales";
 import "./EnlacesStyle.css";
 
 export default class MemoriasElectorales extends Component {

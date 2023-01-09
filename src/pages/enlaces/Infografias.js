@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import NavbarEnlaces from "../../layout/NavbarEnlaces";
 import ModalIMG from "../../layout/Modal/ModalIMG";
-import { dataInf } from "../../assets/data/dataInfografias";
+import { dataInf } from "../../data/dataInfografias";
 
 import "./EnlacesStyle.css";
 

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import NavbarEnlaces from "../../layout/NavbarEnlaces";
 import ListBadge from "../../layout/ListBadge";
-import { dataPartidosPoliticos } from "../../assets/data/dataEnlacesPP";
+import { dataPartidosPoliticos } from "../../data/dataEnlacesPP";
 
 export default class PartidosPoliticos extends Component {
   render() {

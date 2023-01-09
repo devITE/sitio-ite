@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import TitlePages from "../../../layout/TitlePages";
-import { dataConvenios } from "../../../assets/data/dataTransparencia";
+import { dataConvenios } from "../../../data/dataTransparencia";
 import "../Transparencia.css";
 
 export default class Convenios extends Component {

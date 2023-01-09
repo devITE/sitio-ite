@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import ModalDownload from "../../layout/Modal/ModalDownload";
 import TitlePages from "../../layout/TitlePages";
-import { distLocal, infografias } from "../../assets/data/dataMapas";
+import { distLocal, infografias } from "../../data/dataMapas";
 import "./Mapas.css";
 
 export default class Mapas extends Component {

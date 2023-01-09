@@ -2,7 +2,7 @@ import React, { useMemo } from "react";
 import TitlePages from "../../../layout/TitlePages";
 import MaterialReactTable from "material-react-table";
 import { MenuItem, TextField } from "@mui/material";
-import { dataAcuerdos2005 } from "../../../assets/data/dataAcuerdos";
+import { dataAcuerdos2005 } from "../../../data/dataAcuerdos";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
 
