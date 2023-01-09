@@ -7,7 +7,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import TitlePages from "../../layout/TitlePages";
 import Modal from "../../layout/Modal/Modal";
-import { dataDatosAbiertos } from "../../assets/data/dataTransparencia";
+import { dataDatosAbiertos } from "../../data/dataTransparencia";
 
 export default class DatosAbiertos extends Component {
   render() {

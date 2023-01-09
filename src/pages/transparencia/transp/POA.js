@@ -6,7 +6,7 @@ import {
   dataPOA2018,
   dataPOA2019,
   dataPOA2020,
-} from "../../../assets/data/dataTransparenciaPOA";
+} from "../../../data/dataTransparenciaPOA";
 import "../Transparencia.css";
 
 export default class POA extends Component {

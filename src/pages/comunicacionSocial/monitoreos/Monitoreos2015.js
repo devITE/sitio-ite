@@ -2,7 +2,7 @@ import React, { useMemo } from "react";
 import MaterialReactTable from "material-react-table";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
-import { dataMonitoreos2015 } from "../../../assets/data/dataMonitoreos";
+import { dataMonitoreos2015 } from "../../../data/dataMonitoreos";
 import TitlePages from "../../../layout/TitlePages";
 
 const Monitoreos2015 = () => {

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import TitlePages from "../../../layout/TitlePages";
-import { dataInformesAnuales } from "../../../assets/data/dataTransparencia";
+import { dataInformesAnuales } from "../../../data/dataTransparencia";
 import "../Transparencia.css";
 
 export default class InformesAnuales extends Component {

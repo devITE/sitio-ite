@@ -6,7 +6,7 @@ import AccordionItem from "../../../layout/Accordion/AccordionItem";
 import {
   dataInfContable,
   dataCuentaPublica,
-} from "../../../assets/data/dataTransparencia";
+} from "../../../data/dataTransparencia";
 
 export default class InformacionContable extends Component {
   render() {

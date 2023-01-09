@@ -3,7 +3,7 @@ import TitlePages from "../../../layout/TitlePages";
 import ListBadge from "../../../layout/ListBadge";
 import Accordion from "../../../layout/Accordion/Accordion";
 import AccordionItem from "../../../layout/Accordion/AccordionItem";
-import { dataAvisosPrivacidad } from "../../../assets/data/dataTransparenciaAvisosPrivacidad";
+import { dataAvisosPrivacidad } from "../../../data/dataTransparenciaAvisosPrivacidad";
 import "../Transparencia.css";
 
 export default class AvisosPrivacidad extends Component {

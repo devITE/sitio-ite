@@ -5,7 +5,7 @@ import AccordionItem from "../../../layout/Accordion/AccordionItem";
 import Carousel from "../../../layout/Carousel/Carousel/Carousel";
 import CarouselItemIMG from "../../../layout/Carousel/CarouselItems/CarouselItemIMG";
 
-import { dataGaleria } from "../../../assets/data/dataOIC";
+import { dataGaleria } from "../../../data/dataOIC";
 
 export default class GaleriaOIC extends Component {
   render() {

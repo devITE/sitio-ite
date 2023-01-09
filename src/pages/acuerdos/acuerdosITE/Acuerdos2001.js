@@ -5,7 +5,7 @@ import {
   dataAcuerdos2001,
   dataAA12001,
   dataAA22001,
-} from "../../../assets/data/dataAcuerdos";
+} from "../../../data/dataAcuerdos";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
 

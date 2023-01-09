@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import NavbarEnlaces from "../../../layout/NavbarEnlaces";
 import Modal from "../../../layout/Modal/Modal";
 import ListBadge from "../../../layout/ListBadge";
-import { dataResultados2018 } from "../../../assets/data/dataProcesosElectorales";
+import { dataResultados2018 } from "../../../data/dataProcesosElectorales";
 
 export default class PE2018 extends Component {
   render() {

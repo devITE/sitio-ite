@@ -79,7 +79,7 @@ export default class Acuerdos extends Component {
               rel="noreferrer"
             >
               <img
-                src="https://itetlax.org.mx/assets/img/imgDemA6.png"
+                src="https://itetlax.org.mx/assets/img/imgDemA/6.png"
                 className="img-fluid"
                 alt="INE CG824 2015"
               />
@@ -92,7 +92,7 @@ export default class Acuerdos extends Component {
               rel="noreferrer"
             >
               <img
-                src="https://itetlax.org.mx/assets/img/imgDemA7.png"
+                src="https://itetlax.org.mx/assets/img/imgDemA/7.png"
                 className="img-fluid"
                 alt="INE CG612 2022"
               />
@@ -105,7 +105,7 @@ export default class Acuerdos extends Component {
               rel="noreferrer"
             >
               <img
-                src="https://itetlax.org.mx/assets/img/imgDemA8.png"
+                src="https://itetlax.org.mx/assets/img/imgDemA/8.png"
                 className="img-fluid"
                 alt="INE CG612 2022 ANEXO 1"
               />
@@ -118,7 +118,7 @@ export default class Acuerdos extends Component {
               rel="noreferrer"
             >
               <img
-                src="https://itetlax.org.mx/assets/img/imgDemA9.png"
+                src="https://itetlax.org.mx/assets/img/imgDemA/9.png"
                 className="img-fluid"
                 alt="INE CG612 2022 ANEXO 2"
               />
@@ -131,7 +131,7 @@ export default class Acuerdos extends Component {
               rel="noreferrer"
             >
               <img
-                src="https://itetlax.org.mx/assets/img/imgDemA10.png"
+                src="https://itetlax.org.mx/assets/img/imgDemA/10.png"
                 className="img-fluid"
                 alt="INE CG612 2022 ANEXO 3B"
               />

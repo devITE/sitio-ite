@@ -11,7 +11,7 @@ import {
   dataSemblanza,
   dataDeclaracionPatrimonial,
   dataCodigoEtica,
-} from "../../../assets/data/dataOIC";
+} from "../../../data/dataOIC";
 import "../EnlacesStyle.css";
 
 export default class OIC extends Component {

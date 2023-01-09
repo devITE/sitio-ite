@@ -3,7 +3,7 @@ import NavbarEnlaces from "../../../layout/NavbarEnlaces";
 import Accordion from "../../../layout/Accordion/Accordion";
 import AccordionItem from "../../../layout/Accordion/AccordionItem";
 import ListBadge from "../../../layout/ListBadge";
-import { dataHistorial } from "../../../assets/data/dataProcesosElectorales";
+import { dataHistorial } from "../../../data/dataProcesosElectorales";
 
 export default class HistorialPE extends Component {
   render() {

@@ -3,7 +3,7 @@ import MaterialReactTable from "material-react-table";
 import { MenuItem, TextField } from "@mui/material";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
-import { dataMonitoreos2020 } from "../../../assets/data/dataMonitoreos";
+import { dataMonitoreos2020 } from "../../../data/dataMonitoreos";
 import TitlePages from "../../../layout/TitlePages";
 
 const Monitoreos2020 = () => {

@@ -4,7 +4,7 @@ import MaterialReactTable from "material-react-table";
 import { Box } from "@mui/material";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFileExcel, faFilePdf } from "@fortawesome/free-solid-svg-icons";
-import { dataArt632020 } from "../../../assets/data/dataTransparenciaArt63";
+import { dataArt632020 } from "../../../data/dataTransparenciaArt63";
 
 const Art632020 = () => {
   const columns = useMemo(

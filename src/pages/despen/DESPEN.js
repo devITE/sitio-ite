@@ -4,7 +4,7 @@ import Timer from "../../layout/Timer";
 import ModalInit from "../../layout/Modal/ModalInit";
 import Carousel from "../../layout/Carousel/Carousel/Carousel";
 import CarouselItemIMG from "../../layout/Carousel/CarouselItems/CarouselItemIMG";
-import { dataCarousel } from "../../assets/data/dataDESPEN";
+import { dataCarousel } from "../../data/dataDESPEN";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
 
