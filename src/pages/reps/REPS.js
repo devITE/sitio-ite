@@ -60,7 +60,7 @@ export default class REPS extends Component {
             </h4>
           </div>
           <div className="REPS__header-reps-text pt-3 pb-3">
-            Fecha de actualización: 25/04/2022
+            Fecha de actualización: 10/01/2023
           </div>
         </div>
         <div className="mt-5 row mx-auto text-center text-light REPS__datos-publicos">

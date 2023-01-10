@@ -125,7 +125,7 @@ export default class Integracion extends Component {
                     />
                   </a>
                 </div>
-                <div>
+                {/* <div>
                   <a
                     href="https://itetlax.org.mx/assets/pdf/CG/7.pdf"
                     target="_blank"
@@ -137,7 +137,7 @@ export default class Integracion extends Component {
                       alt="Secretaria Ejecutiva"
                     />
                   </a>
-                </div>
+                </div> */}
               </div>
             </div>
             <div
