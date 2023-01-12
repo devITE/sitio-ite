@@ -17,6 +17,40 @@ export const dataAcuerdos2023 = [
   //       },
   //     ],
   //   },
+  {
+    id: 1,
+    year: "2023",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 01-2023",
+    monthDoc: "ENE",
+    nameDoc: "SE ADECUA EL PRESUPUESTO DE EGRESOS 2023",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/1.pdf",
+    subRows: [
+      {
+        typeDoc: "",
+        nameDoc: "ANEXO ÚNICO",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/1.1.pdf",
+        subRows: "",
+      },
+    ],
+  },
+  {
+    id: 2,
+    year: "2023",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 02-2023",
+    monthDoc: "ENE",
+    nameDoc: "SE ACTUALZA CALENDARIO DE MULTAS 2023",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/2.pdf",
+    subRows: [
+      {
+        typeDoc: "",
+        nameDoc: "ANEXO ÚNICO",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/2.1.pdf",
+        subRows: "",
+      },
+    ],
+  },
 ];
 
 // ------------ A C U E R D O S    I N E ------------
