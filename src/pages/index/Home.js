@@ -48,12 +48,15 @@ export default class Home extends Component {
         </Carousel>
         <div className="mt-4 Home__AR-A">
           <div>
-            <h2 className="bottom_title">Foro</h2>
+            <h2 className="bottom_title">
+              Foro Estatal: Fase informativa de la consulta previa libre e
+              informada
+            </h2>
             <div className="Home__video-embed ratio ratio-16x9 w-100">
               <iframe
-                id="SKyFNPOmv3s"
-                src="https://www.youtube-nocookie.com/embed/SKyFNPOmv3s?rel=0"
-                title="Foro en conmemoración"
+                id="9QQCf_emFwo"
+                src="https://www.youtube-nocookie.com/embed/9QQCf_emFwo?rel=0"
+                title="Foro Estatal: Fase informativa de la consulta previa libre e informada"
                 allowFullScreen
               ></iframe>
             </div>
@@ -119,12 +122,12 @@ export default class Home extends Component {
             <h2 className="bottom_title">Sesión en Vivo</h2>
             <div className="Home__video-embed ratio ratio-16x9 w-100">
               <iframe
-                src="https://www.youtube-nocookie.com/embed/SYCV2SgvjO8?rel=0"
+                src="https://www.youtube-nocookie.com/embed/smZpRyC3XJ0?rel=0"
                 title="Sesión En Vivo del CG"
                 allowFullScreen
               ></iframe>
             </div>
-            <h5 className="mt-3 text-center">Sesión Especial 06/01/23</h5>
+            <h5 className="mt-3 text-center">Sesión Especial 10/01/23</h5>
           </div>
           <div>
             <h2 className="bottom_title">Convocatorias</h2>
