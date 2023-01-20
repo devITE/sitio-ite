@@ -221,6 +221,48 @@ export default class Navbar extends Component {
                   DESPEN
                 </Link>
               </li>
+              {/* <li className="nav-item dropdown disabled">
+                <Link
+                  to="./"
+                  className="nav-link dropdown-toggle"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Archivo
+                </Link>
+                <ul className="dropdown-menu">
+                  <li>
+                    <Link
+                      to="./InstrumentosNormativos"
+                      className="dropdown-item"
+                    >
+                      Instrumentos Normativos
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      to="./PlaneacionArchivistica"
+                      className="dropdown-item"
+                    >
+                      Planeación Archivística
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      to="./InstrumentosArchivisticos"
+                      className="dropdown-item"
+                    >
+                      Instrumentos Archivísticos
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="./InfografiasArchivo" className="dropdown-item">
+                      Infografías
+                    </Link>
+                  </li>
+                </ul>
+              </li> */}
             </ul>
           </div>
         </div>

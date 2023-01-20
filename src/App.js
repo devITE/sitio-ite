@@ -149,6 +149,12 @@ import ParlamentoInfantil from "./pages/culturaCivica/ParlamentoInfantil";
 import ParlamentoJuvenil from "./pages/culturaCivica/ParlamentoJuvenil";
 import ValoresDemocracia from "./pages/culturaCivica/ValoresDemocracia";
 
+//Archivo
+import InfografiasArchivo from "./pages/archivo/InfografiasArchivo";
+import InstrumentosArchivisticos from "./pages/archivo/InstrumentosArchivisticos";
+import InstrumentosNormativos from "./pages/archivo/InstrumentosNormativos";
+import PlaneacionArchivistica from "./pages/archivo/PlaneacionArchivistica";
+
 //Micrositios
 import REPS from "./pages/reps/REPS";
 import DESPEN from "./pages/despen/DESPEN";
@@ -319,6 +325,21 @@ function App() {
           <Route path="/ParlamentoInfantil" element={<ParlamentoInfantil />} />
           <Route path="/ParlamentoJuvenil" element={<ParlamentoJuvenil />} />
           <Route path="/ValoresDemocracia" element={<ValoresDemocracia />} />
+
+          {/* Archivo */}
+          <Route path="/InfografiasArchivo" element={<InfografiasArchivo />} />
+          <Route
+            path="/InstrumentosArchivisticos"
+            element={<InstrumentosArchivisticos />}
+          />
+          <Route
+            path="/InstrumentosNormativos"
+            element={<InstrumentosNormativos />}
+          />
+          <Route
+            path="/PlaneacionArchivistica"
+            element={<PlaneacionArchivistica />}
+          />
 
           {/* Micrositios */}
           <Route path="/REPS" element={<REPS />} />
