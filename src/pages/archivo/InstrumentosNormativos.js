@@ -15,17 +15,17 @@ const InstrumentosNormativos = () => {
         footer: "NO.",
       },
       {
-        accessorKey: "nombre",
+        accessorKey: "nameDoc",
         header: "Normatividad",
         footer: "Normatividad",
       },
       {
-        accessorKey: "publicada",
+        accessorKey: "post",
         header: "Publicada",
         footer: "Publicada",
       },
       {
-        accessorKey: "reforma",
+        accessorKey: "lastUpdate",
         header: "Última Reforma",
         footer: "Última Reforma",
       },
@@ -50,39 +50,99 @@ const InstrumentosNormativos = () => {
           },
         })}
         renderDetailPanel={({ row }) =>
-          (row.original.word === "") & (row.original.pdf === "") ? (
+          (row.original.pdf === "") &
+          (row.original.pdfMobile === "") &
+          (row.original.word === "") ? (
             <span></span>
           ) : (
             <Box id="Box">
-              <div>
-                <div className="row">
-                  <div className="col-md-6">
-                    {row.original.word
-                      ? row.original.word //.substring(14, 100).slice(0, -26)
-                      : []}{" "}
-                    <a
-                      href={row.original.word}
-                      target="_blank"
-                      rel="noreferrer"
-                      className="btn btn-info"
-                    >
-                      <FontAwesomeIcon icon={faFileWord} />
-                    </a>
-                  </div>
-                  <div className="col-md-6">
-                    {row.original.pdf
-                      ? row.original.pdf //.substring(14, 100).slice(0, -25)
-                      : []}{" "}
-                    <a
-                      href={row.original.pdf}
-                      target="_blank"
-                      rel="noreferrer"
-                      className="btn btn-danger"
-                    >
-                      <FontAwesomeIcon icon={faFilePdf} />
-                    </a>
-                  </div>
-                </div>
+              <div className="row">
+                {(row.original.pdf !== "") &
+                (row.original.pdfMobile === "") &
+                (row.original.word !== "") ? (
+                  <>
+                    <div className="col-md-4"></div>
+                    <div className="col-md-2">
+                      <span>PDF </span>
+                      <a
+                        href={row.original.pdf}
+                        target="_blank"
+                        rel="noreferrer"
+                        className="btn btn-danger"
+                      >
+                        <FontAwesomeIcon icon={faFilePdf} />
+                      </a>
+                    </div>
+                    <div className="col-md-2">
+                      <span>Word </span>
+                      <a
+                        href={row.original.word}
+                        target="_blank"
+                        rel="noreferrer"
+                        className="btn btn-primary"
+                      >
+                        <FontAwesomeIcon icon={faFileWord} />
+                      </a>
+                    </div>
+                    <div className="col-md-4"></div>
+                  </>
+                ) : (row.original.pdf !== "") &
+                  (row.original.pdfMobile === "") &
+                  (row.original.word === "") ? (
+                  <>
+                    <div className="col-md-5"></div>
+                    <div className="col-md-2">
+                      <span>PDF </span>
+                      <a
+                        href={row.original.pdf}
+                        target="_blank"
+                        rel="noreferrer"
+                        className="btn btn-danger"
+                      >
+                        <FontAwesomeIcon icon={faFilePdf} />
+                      </a>
+                    </div>
+                    <div className="col-md-5"></div>
+                  </>
+                ) : (
+                  <>
+                    <div className="col-md-3"></div>
+                    <div className="col-md-2">
+                      <span>PDF </span>
+                      <a
+                        href={row.original.pdf}
+                        target="_blank"
+                        rel="noreferrer"
+                        className="btn btn-danger"
+                      >
+                        <FontAwesomeIcon icon={faFilePdf} />
+                      </a>
+                    </div>
+                    <div className="col-md-2">
+                      <span>PDF móvil </span>
+                      <a
+                        href={row.original.pdfMobile}
+                        target="_blank"
+                        className="btn btn-danger"
+                        rel="noreferrer"
+                      >
+                        <FontAwesomeIcon icon={faFilePdf} />
+                      </a>
+                    </div>
+                    <div className="col-md-2">
+                      <span>Word </span>
+                      <a
+                        href={row.original.word}
+                        target="_blank"
+                        rel="noreferrer"
+                        className="btn btn-primary"
+                      >
+                        <FontAwesomeIcon icon={faFileWord} />
+                      </a>
+                    </div>
+                    <div className="col-md-3"></div>
+                  </>
+                )}
               </div>
             </Box>
           )

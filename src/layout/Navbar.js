@@ -205,7 +205,6 @@ export default class Navbar extends Component {
                   </li>
                 </ul>
               </li>
-
               <li className="nav-item">
                 <Link to="./ComunicacionSocial" className="nav-link">
                   Comunicación Social
@@ -257,7 +256,10 @@ export default class Navbar extends Component {
                     </Link>
                   </li>
                   <li>
-                    <Link to="./InfografiasArchivo" className="dropdown-item">
+                    <Link
+                      to="./InfografiasArchivo"
+                      className="dropdown-item disabled"
+                    >
                       Infografías
                     </Link>
                   </li>
