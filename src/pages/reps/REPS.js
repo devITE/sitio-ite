@@ -1,10 +1,14 @@
 import React, { Component } from "react";
-
 import CarouselVert from "../../layout/Carousel/CarouselVert/CarouselVert";
 import CarouselVertItem from "../../layout/Carousel/CarouselVert/CarouselVertItem";
-
 import { dataInfografias } from "../../data/dataREPS";
 import "./REPS.css";
+
+// Fecha actual
+const dt = new Date();
+const year = dt.getFullYear();
+const month = (dt.getMonth() + 1).toString().padStart(2, "0");
+const day = dt.getDate().toString().padStart(2, "0");
 
 export default class REPS extends Component {
   render() {
@@ -60,7 +64,7 @@ export default class REPS extends Component {
             </h4>
           </div>
           <div className="REPS__header-reps-text pt-3 pb-3">
-            Fecha de actualización: 10/01/2023
+            Fecha de actualización: {day + "/" + month + "/" + year}
           </div>
         </div>
         <div className="mt-5 row mx-auto text-center text-light REPS__datos-publicos">
