@@ -223,7 +223,7 @@ export default class Navbar extends Component {
               <li className="nav-item dropdown">
                 <Link
                   to="./"
-                  className="nav-link dropdown-toggle"
+                  className="nav-link dropdown-toggle disabled"
                   role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
@@ -256,10 +256,7 @@ export default class Navbar extends Component {
                     </Link>
                   </li>
                   <li>
-                    <Link
-                      to="./InfografiasArchivo"
-                      className="dropdown-item disabled"
-                    >
+                    <Link to="./InfografiasArchivo" className="dropdown-item">
                       Infografías
                     </Link>
                   </li>
