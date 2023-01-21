@@ -221,7 +221,7 @@ export default class Navbar extends Component {
                   DESPEN
                 </Link>
               </li>
-              {/* <li className="nav-item dropdown disabled">
+              <li className="nav-item dropdown">
                 <Link
                   to="./"
                   className="nav-link dropdown-toggle"
@@ -262,7 +262,7 @@ export default class Navbar extends Component {
                     </Link>
                   </li>
                 </ul>
-              </li> */}
+              </li>
             </ul>
           </div>
         </div>

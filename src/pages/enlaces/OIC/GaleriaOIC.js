@@ -3,7 +3,7 @@ import NavbarEnlaces from "../../../layout/NavbarEnlaces";
 import Accordion from "../../../layout/Accordion/Accordion";
 import AccordionItem from "../../../layout/Accordion/AccordionItem";
 import Carousel from "../../../layout/Carousel/Carousel/Carousel";
-import CarouselItemIMG from "../../../layout/Carousel/CarouselItems/CarouselItemIMG";
+import CarouselItemIMG from "../../../layout/Carousel/Carousel/CarouselItemIMG";
 
 import { dataGaleria } from "../../../data/dataOIC";
 

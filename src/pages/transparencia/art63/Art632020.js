@@ -79,6 +79,11 @@ const Art632020 = () => {
         enableColumnActions={false}
         enableColumnResizing
         enableDensityToggle={false}
+        muiTableProps={{
+          sx: {
+            tableLayout: "fixed",
+          },
+        }}
         muiExpandButtonProps={({ row }) => ({
           sx: {
             display: row.original.subRows === "" ? "none" : "flex",

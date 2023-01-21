@@ -1,9 +1,0 @@
-/* --------------- M E D I A     Q U E R I E S --------------- */
-
-/* mobil */
-@media only screen and (max-width: 767px) {
-  .Video-embed {
-    width: 80% !important;
-    margin: auto;
-  }
-}

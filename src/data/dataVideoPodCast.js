@@ -1,9 +1,6 @@
 export const dataVideoPodCast = [
   {
     id: 1,
-    itemActive: "active",
-    buttonActive: "active",
-    ariaCurrent: "true",
     link: "xNE5v344o0U",
     title: "ITE Comentamos... Invitación",
   },
@@ -212,5 +209,10 @@ export const dataVideoPodCast = [
     id: 37,
     link: "xLDt3JOcLLs",
     title: 'ITE Comentamos... Jornada de talleres "Paridad y Poder"',
+  },
+  {
+    id: 38,
+    link: "vEn7cOdkrWA",
+    title: 'ITE Comentamos... Foro Estatal de la Fase Informativa"',
   },
 ];
