@@ -5,6 +5,7 @@ import {
   faYoutube,
   faFacebook,
   faTwitter,
+  faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
 
 import "./Header.css";
@@ -15,29 +16,45 @@ export default class Header extends Component {
       <>
         <div className="Header__social-network">
           <div className="Header__social-network-individual">
-            <Link
-              to="https://www.youtube.com/channel/UCUBfUX_c54NfhhvZRzK0k1w"
+            <a
+              href="https://www.youtube.com/channel/UCUBfUX_c54NfhhvZRzK0k1w"
+              target="_blank"
+              rel="noreferrer"
               className=" Header__btn-socialnetwork"
             >
               <FontAwesomeIcon icon={faYoutube} />
-            </Link>
+            </a>
           </div>
           <div className="Header__social-network-individual">
-            <Link
-              to="https://twitter.com/share?url=http%3A%2F%2Fitetlax.org.mx%2F"
+            <a
+              href="https://twitter.com/ITETLAX"
+              target="_blank"
+              rel="noreferrer"
               className=" Header__btn-socialnetwork"
             >
               <FontAwesomeIcon icon={faTwitter} />
-            </Link>
+            </a>
           </div>
           <div className="Header__social-network-individual">
-            <Link
-              to="https://es-la.facebook.com/InstitutoTlaxcaltecadeElecciones/"
+            <a
+              href="https://es-la.facebook.com/InstitutoTlaxcaltecadeElecciones/"
+              target="_blank"
+              rel="noreferrer"
               className=" Header__btn-socialnetwork"
             >
               <FontAwesomeIcon icon={faFacebook} />
-            </Link>
+            </a>
           </div>
+          <div className="Header__social-network-individual">
+            <a
+              href="https://www.instagram.com/ite_tlaxcala"
+              target="_blank"
+              rel="noreferrer"
+              className=" Header__btn-socialnetwork"
+            >
+              <FontAwesomeIcon icon={faInstagram} />
+            </a>
+          </div>{" "}
         </div>
         <div className="Header__principal mt-4 ">
           <div>
