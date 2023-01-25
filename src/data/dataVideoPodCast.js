@@ -215,4 +215,9 @@ export const dataVideoPodCast = [
     link: "vEn7cOdkrWA",
     title: 'ITE Comentamos... Foro Estatal de la Fase Informativa"',
   },
+  {
+    id: 39,
+    link: "nbtkcm5WjPE",
+    title: 'ITE Comentamos... Fase Deliberativa de la Consulta Previa"',
+  },
 ];

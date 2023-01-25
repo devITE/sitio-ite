@@ -96,12 +96,12 @@ const Art632020 = () => {
             <Box id="Box">
               <div>
                 <p className="text-strong">
-                  Descarga el archivo de la Fracción:
+                  Descarga el archivo de la Fracción {row.original.fraccion}
                 </p>
                 <div className="row">
                   <div className="col-md-6">
                     {row.original.excel
-                      ? row.original.excel.substring(14, 100).slice(0, -26)
+                      ? row.original.excel.substring(61, 100).slice(0, -5)
                       : []}{" "}
                     <a
                       href={row.original.excel}
@@ -116,7 +116,7 @@ const Art632020 = () => {
                   </div>
                   <div className="col-md-6">
                     {row.original.pdf
-                      ? row.original.pdf.substring(14, 100).slice(0, -25)
+                      ? row.original.pdf.substring(59, 100).slice(0, -4)
                       : []}{" "}
                     <a href={row.original.pdf} target="_blank" rel="noreferrer">
                       <FontAwesomeIcon

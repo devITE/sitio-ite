@@ -1278,6 +1278,7 @@ export const dataArt632018 = [
     actualizacion: "2018",
     excel: "",
     pdf: "",
+    subRows: "",
   },
   {
     no: "4",
@@ -1325,6 +1326,7 @@ export const dataArt632018 = [
     actualizacion: "2018",
     excel: "",
     pdf: "",
+    subRows: "",
   },
   {
     no: "8",
@@ -2375,6 +2377,7 @@ export const dataArt632019 = [
         pdf4: "",
         pdf5: "",
         pdf6: "",
+        subRows: "",
       },
       {
         no: "",
@@ -2396,6 +2399,7 @@ export const dataArt632019 = [
         pdf4: "",
         pdf5: "",
         pdf6: "",
+        subRows: "",
       },
     ],
   },
@@ -7200,6 +7204,7 @@ export const dataArt632022 = [
         excel1: "",
         excel2: "",
         excel3: "",
+        subRows: "",
       },
       {
         no: "",
@@ -7212,6 +7217,7 @@ export const dataArt632022 = [
         excel1: "",
         excel2: "",
         excel3: "",
+        subRows: "",
       },
       {
         no: "",

@@ -96,11 +96,11 @@ const Art672021 = () => {
               (row.original.excel3 === "") ? (
                 <div>
                   <p className="text-strong">
-                    Descarga el archivo de la Fracción:
+                    Descarga los archivo de la Fracción {row.original.letra}
                   </p>
                   <p>
                     {row.original.excel1
-                      ? row.original.excel1.substring(14, 100).slice(0, -26)
+                      ? row.original.excel1.substring(61, 100).slice(0, -5)
                       : []}{" "}
                     <a
                       href={row.original.excel1}
@@ -123,7 +123,7 @@ const Art672021 = () => {
                   </p>
                   <p>
                     {row.original.excel1
-                      ? row.original.excel1.substring(14, 100).slice(0, -26)
+                      ? row.original.excel1.substring(61, 100).slice(0, -5)
                       : []}{" "}
                     <a
                       href={row.original.excel1}
@@ -138,7 +138,7 @@ const Art672021 = () => {
                   </p>
                   <p>
                     {row.original.excel2
-                      ? row.original.excel2.substring(14, 100).slice(0, -26)
+                      ? row.original.excel2.substring(61, 100).slice(0, -5)
                       : []}{" "}
                     <a
                       href={row.original.excel2}
@@ -159,7 +159,7 @@ const Art672021 = () => {
                   </p>
                   <p>
                     {row.original.excel1
-                      ? row.original.excel1.substring(14, 100).slice(0, -26)
+                      ? row.original.excel1.substring(61, 100).slice(0, -5)
                       : []}{" "}
                     <a
                       href={row.original.excel1}
@@ -174,7 +174,7 @@ const Art672021 = () => {
                   </p>
                   <p>
                     {row.original.excel2
-                      ? row.original.excel2.substring(14, 100).slice(0, -26)
+                      ? row.original.excel2.substring(61, 100).slice(0, -5)
                       : []}{" "}
                     <a
                       href={row.original.excel2}
@@ -189,7 +189,7 @@ const Art672021 = () => {
                   </p>
                   <p>
                     {row.original.excel3
-                      ? row.original.excel3.substring(14, 100).slice(0, -26)
+                      ? row.original.excel3.substring(61, 100).slice(0, -5)
                       : []}{" "}
                     <a
                       href={row.original.excel3}

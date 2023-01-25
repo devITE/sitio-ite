@@ -27,12 +27,12 @@ export default class Home extends Component {
     return (
       <>
         <ModalInit
-          imgLink="https://itetlax.org.mx/assets/img/imgC_A/2.jpg"
+          imgLink="https://itetlax.org.mx/assets/despen/img/banner.jpg"
           // url="https://despen.itetlax.org.mx"
           // url={Home__path(`./despen/img/banner.jpg`)}
           url=""
-          linkToo=""
-          // linkToo="/DESPEN"
+          // linkToo=""
+          linkToo="/DESPEN"
         />
 
         <Carousel idCarousel="carouselTopIndex">
@@ -50,14 +50,13 @@ export default class Home extends Component {
         <div className="mt-4 Home__AR-A">
           <div>
             <h2 className="bottom_title">
-              Foro Estatal: Fase informativa de la consulta previa libre e
-              informada
+              Foro: La confianza y participación de la juventud en la democracia
             </h2>
             <div className="Home__video-embed ratio ratio-16x9 w-100">
               <iframe
                 id="9QQCf_emFwo"
-                src="https://www.youtube-nocookie.com/embed/9QQCf_emFwo?rel=0"
-                title="Foro Estatal: Fase informativa de la consulta previa libre e informada"
+                src="https://www.youtube-nocookie.com/embed/PFx8cLd7S4?rel=0"
+                title="Foro: La confianza y participación de la juventud en la democracia"
                 allowFullScreen
               ></iframe>
             </div>
