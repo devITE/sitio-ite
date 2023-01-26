@@ -27,12 +27,10 @@ export default class Home extends Component {
     return (
       <>
         <ModalInit
-          imgLink="https://itetlax.org.mx/assets/despen/img/banner.jpg"
-          // url="https://despen.itetlax.org.mx"
-          // url={Home__path(`./despen/img/banner.jpg`)}
-          url=""
+          imgLink="https://itetlax.org.mx/assets/img/sesionesCG/SS_260123.png"
+          url="https://itetlax.org.mx/assets/img/sesionesCG/SS_260123.png"
           // linkToo=""
-          linkToo="/DESPEN"
+          linkToo=""
         />
 
         <Carousel idCarousel="carouselTopIndex">
