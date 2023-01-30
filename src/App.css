@@ -196,9 +196,11 @@ a {
   margin: 5px 0;
 }
 
-.css-1t54s72-MuiTableCell-root {
+/* .css-1t54s72-MuiTableCell-root {
   padding: 0 !important;
-}
+} */
+
+
 
 table thead tr th,
 table tfoot tr td,

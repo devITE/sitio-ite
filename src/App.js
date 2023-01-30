@@ -92,6 +92,7 @@ import Art632019 from "./pages/transparencia/art63/Art632019";
 import Art632020 from "./pages/transparencia/art63/Art632020";
 import Art632021 from "./pages/transparencia/art63/Art632021";
 import Art632022 from "./pages/transparencia/art63/Art632022";
+import Art632023 from "./pages/transparencia/art63/Art632023";
 
 //Transparencia Artículo 67
 import Articulo67 from "./pages/transparencia/art67/Articulo67";
@@ -260,6 +261,7 @@ function App() {
           <Route path="/Art632020" element={<Art632020 />} />
           <Route path="/Art632021" element={<Art632021 />} />
           <Route path="/Art632022" element={<Art632022 />} />
+          <Route path="/Art632023" element={<Art632023 />} />
 
           {/* Artículo 67 */}
           <Route path="/Articulo67" element={<Articulo67 />} />
