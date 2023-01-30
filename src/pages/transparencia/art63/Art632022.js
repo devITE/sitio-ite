@@ -87,13 +87,15 @@ const Art632022 = () => {
         renderDetailPanel={({ row }) =>
           (row.original.excel1 === "") &
           (row.original.excel2 === "") &
-          (row.original.excel3 === "") ? (
+          (row.original.excel3 === "") &
+          (row.original.excel4==="")? (
             <span></span>
           ) : (
             <Box id="Box">
               {(row.original.excel1 !== "") &
               (row.original.excel2 === "") &
-              (row.original.excel3 === "") ? (
+              (row.original.excel3 === "")&
+              (row.original.excel4==="") ? (
                 <div>
                   <p className="text-strong">
                     Descarga el archivo de la Fracción{" "}
@@ -119,7 +121,8 @@ const Art632022 = () => {
                 </div>
               ) : (row.original.excel1 !== "") &
                 (row.original.excel2 !== "") &
-                (row.original.excel3 === "") ? (
+                (row.original.excel3 === "")&
+                (row.original.excel4==="") ? (
                 <div>
                   <p className="text-strong">
                     Descarga los archivos de la Fracción{" "}
@@ -158,7 +161,65 @@ const Art632022 = () => {
                     </a>
                   </p>
                 </div>
-              ) : (
+              ) :(row.original.excel1 !== "") &
+              (row.original.excel2 !== "") &
+              (row.original.excel3 !== "")&
+              (row.original.excel4==="") ? (
+              <div>
+                <p className="text-strong">
+                  Descarga los archivos de la Fracción{" "}
+                  {row.original.excel1
+                    ? row.original.excel1.substring(72, 100).slice(0, -7)
+                    : []}
+                </p>
+                <p>
+                  {row.original.excel1
+                    ? row.original.excel1.substring(61, 100).slice(0, -5)
+                    : []}{" "}
+                  <a
+                    href={row.original.excel1}
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <FontAwesomeIcon
+                      icon={faFileExcel}
+                      className="btn btn-success"
+                    />
+                  </a>
+                </p>
+                <p>
+                  {row.original.excel2
+                    ? row.original.excel2.substring(61, 100).slice(0, -5)
+                    : []}{" "}
+                  <a
+                    href={row.original.excel2}
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <FontAwesomeIcon
+                      icon={faFileExcel}
+                      className="btn btn-success"
+                    />
+                  </a>
+                </p>
+                <p>
+                  {row.original.excel3
+                    ? row.original.excel3.substring(61, 100).slice(0, -5)
+                    : []}{" "}
+                  <a
+                    href={row.original.excel3}
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <FontAwesomeIcon
+                      icon={faFileExcel}
+                      className="btn btn-success"
+                    />
+                  </a>
+                </p>
+                
+              </div>
+            ): (
                 <div>
                   <p className="text-strong">
                     Descarga los archivos de la Fracción{" "}
@@ -202,6 +263,21 @@ const Art632022 = () => {
                       : []}{" "}
                     <a
                       href={row.original.excel3}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <FontAwesomeIcon
+                        icon={faFileExcel}
+                        className="btn btn-success"
+                      />
+                    </a>
+                  </p>
+                  <p>
+                    {row.original.excel4
+                      ? row.original.excel4.substring(61, 100).slice(0, -5)
+                      : []}{" "}
+                    <a
+                      href={row.original.excel4}
                       target="_blank"
                       rel="noreferrer"
                     >
