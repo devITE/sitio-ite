@@ -27,10 +27,12 @@ export default class Home extends Component {
     return (
       <>
         <ModalInit
-          imgLink="https://itetlax.org.mx/assets/img/sesionesCG/SS_260123.png"
-          url="https://itetlax.org.mx/assets/img/sesionesCG/SS_260123.png"
-          // linkToo=""
+           imgLink="https://itetlax.org.mx/assets/img/sesionesCG/SO-310123.png"
+           url="https://itetlax.org.mx/assets/img/sesionesCG/SO-310123.png"
           linkToo=""
+          // imgLink="https://itetlax.org.mx/assets/despen/img/banner.jpg"
+          // url=""
+          // linkToo="/DESPEN"
         />
 
         <Carousel idCarousel="carouselTopIndex">
@@ -120,12 +122,12 @@ export default class Home extends Component {
             <h2 className="bottom_title">Sesión en Vivo</h2>
             <div className="Home__video-embed ratio ratio-16x9 w-100">
               <iframe
-                src="https://www.youtube-nocookie.com/embed/smZpRyC3XJ0?rel=0"
+                src="https://www.youtube-nocookie.com/embed/g1y1Y-0HOb4?rel=0"
                 title="Sesión En Vivo del CG"
                 allowFullScreen
               ></iframe>
             </div>
-            <h5 className="mt-3 text-center">Sesión Especial 10/01/23</h5>
+            <h5 className="mt-3 text-center">Sesión Solemne 26/01/23</h5>
           </div>
           <div>
             <h2 className="bottom_title">Convocatorias</h2>
