@@ -64,4 +64,19 @@ export const dataAcuerdosINE2023 = [
   //   link: "https://itetlax.org.mx/assets/acuerdos/INE/2022/1.pdf",
   //   subRows: "",
   // },
+  {
+    id: 1,
+    year: "2023",
+    numDoc: "INE CG-03-2023",
+    nameDoc:
+      "ACUERDO POR EL QUE SE APRUEBA LA DESIGNACIÓN DEL CONSEJERO PRESIDENTE DEL OPL DE TLAXCALA",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2023/1.pdf",
+    subRows: [
+      {
+        nameDoc: "ANEXO DICTAMEN TLAX 2022",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2023/1.1.pdf",
+        subRows: "",
+      },
+    ],
+  },
 ];
