@@ -2895,11 +2895,11 @@ export const dataArt672021 = [
           "Articulo. 67 inciso M1 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
         actualizacion: "2021",
         excel1:
-          "https://itetlax.org.mx/assets/excel/transparencia/art67/2021/LTAIPT_A67F01IM1_1.xlsx",
+          "https://itetlax.org.mx/assets/excel/transparencia/art67/2021/LTAIPT_A67F01IM1.xlsx",
         excel2:
-          "https://itetlax.org.mx/assets/excel/transparencia/art67/2021/LTAIPT_A67F01IM1_2.xlsx",
+          ".xlsx",
         excel3:
-          "https://itetlax.org.mx/assets/excel/transparencia/art67/2021/LTAIPT_A67F01IM1_3.xlsx",
+          "",
       },
       {
         no: "",
