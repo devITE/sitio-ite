@@ -1,6 +1,7 @@
 .REPS {
   color: #aa0787;
 }
+
 .REPS__title {
   color: #5840a5 !important;
   font-weight: bolder;
@@ -89,10 +90,12 @@
   flex-direction: row;
   box-shadow: 3px 3px 5px #9c9c9c;
 }
+
 .REPS__enlaces-card-franja {
   background-color: #5840a5;
   width: 2%;
 }
+
 .REPS__enlaces-card-body {
   background-color: #f2f2f2;
   width: 98%;
@@ -100,6 +103,43 @@
   font-weight: 400;
   font-size: 14px;
   color: #aa0787;
+}
+
+/* --------------- T A B L E     A N D     D A T A     T A B L E --------------- */
+#tableREPS th {
+  border: 1px solid #ffffff;
+  text-align: center !important;
+  vertical-align: middle !important;
+  word-wrap: break-word !important;
+  word-break: break-word !important;
+}
+
+#tableREPS td {
+  border-top: 0px;
+  border-bottom: 0px;
+  border-left: 1px solid #b3b3b3;
+  border-right: 1px solid #b3b3b3;
+
+}
+
+#tableREPS table thead tr th,
+#tableREPS table tfoot tr td,
+#tableREPS table thead tr th,
+#tableREPS .MuiFormControl-root,
+#tableREPS .MuiInputBase-root {
+  background-color: #9f8bd1 !important;
+  color: #ffffff !important;
+}
+
+#tableREPS table thead tr th .MuiSvgIcon-root {
+  color: #ffffff !important;
+}
+
+#tableREPS .MuiToolbar-root,
+#tableREPS .MuiBoox-root,
+#tableREPS .MuiButtonBase-root,
+#tableREPS table tbody tr td .MuiSvgIcon-root {
+  color: #9f8bd1 !important;
 }
 
 /* --------------- M E D I A     Q U E R I E S --------------- */
