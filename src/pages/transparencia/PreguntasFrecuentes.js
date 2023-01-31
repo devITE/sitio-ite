@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import TitlePages from "../../layout/TitlePages";
 import "./Transparencia.css";
 
@@ -30,14 +31,14 @@ export default class PreguntasFrecuentes extends Component {
               Comunidad en el siguiente enlace:
             </p>
             <p className="text-center">
-              <a
+              <Link
                 className="btn btn-ite"
-                href="http://localhost:3000/ProcesosElectorales"
+                to="/ProcesosElectorales"
                 target="_blank"
                 rel="noreferrer"
               >
                 Procesos Electorales
-              </a>
+              </Link>
             </p>
             <li className="Preguntas__list">
               ¿Cómo puedo saber quiénes se registraron como candidatos/as a un
