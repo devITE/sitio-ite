@@ -11,7 +11,7 @@ export default class PreguntasFrecuentes extends Component {
         <div className="mt-3">
           <ol type="I" start="1">
             <li className="Preguntas__list">
-              ¿Dónde puedo consultar los resultados Electorales de las
+              ¿Dónde puedo consultar los Resultados Electorales de las
               Elecciones celebradas en el Estado de Tlaxcala?
             </li>
             <strong>Respuesta:</strong>
@@ -28,6 +28,16 @@ export default class PreguntasFrecuentes extends Component {
               Consulta los resultados electorales de las elecciones de
               Gubernaturas, Diputaciones, Ayuntamientos y Presidencias de
               Comunidad en el siguiente enlace:
+            </p>
+            <p className="text-center">
+              <a
+                className="btn btn-ite"
+                href="http://localhost:3000/ProcesosElectorales"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Procesos Electorales
+              </a>
             </p>
             <li className="Preguntas__list">
               ¿Cómo puedo saber quiénes se registraron como candidatos/as a un
@@ -75,7 +85,7 @@ export default class PreguntasFrecuentes extends Component {
             </p>
             <p className="text-center">
               <a
-                className="btn btn-outline-secondary"
+                className="btn btn-ite"
                 href="https://listanominal.ine.mx/scpln/"
                 target="_blank"
                 rel="noreferrer"
@@ -394,6 +404,16 @@ export default class PreguntasFrecuentes extends Component {
               siguiente enlace:
             </p>
           </ol>
+          <p className="text-center">
+            <a
+              className="btn btn-ite"
+              href="https://participacion-ciudadana.itetlax.org.mx/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Microstio Participación Ciudadana
+            </a>
+          </p>
         </div>
       </>
     );
