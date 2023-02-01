@@ -6569,7 +6569,7 @@ export const dataArt632022 = [
           "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F16B_1.xlsx",
         excel2:
           "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F16B_2.xlsx",
-        excel2:
+        excel3:
           "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F16B_3.xlsx",
         excel4: "",
       },
@@ -6774,7 +6774,7 @@ export const dataArt632022 = [
         actualizacion: "2022",
         excel1:
           "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F23D_1.xlsx",
-        excel1:
+        excel2:
           "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F23D_2.xlsx",
         excel3: "",
         excel4: "",
@@ -6980,7 +6980,7 @@ export const dataArt632022 = [
       "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F32_1.xlsx",
     excel2:
       "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F32_2.xlsx",
-    excel2:
+    excel3:
       "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F32_3.xlsx",
     excel4: "",
   },
@@ -7053,7 +7053,7 @@ export const dataArt632022 = [
         actualizacion: "2022",
         excel1:
           "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F34C_1.xlsx",
-        excel1:
+        excel2:
           "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F34C_2.xlsx",
         excel3: "",
         excel4: "",
@@ -7258,7 +7258,7 @@ export const dataArt632022 = [
         actualizacion: "2022",
         excel1:
           "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F38A_1.xlsx",
-        excel1:
+        excel2:
           "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F38A_2.xlsx",
         excel3: "",
         excel4: "",
@@ -7273,7 +7273,7 @@ export const dataArt632022 = [
         actualizacion: "2022",
         excel1:
           "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F38B_1.xlsx",
-        excel1:
+        excel2:
           "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F38B_2.xlsx",
         excel3: "",
         excel4: "",
