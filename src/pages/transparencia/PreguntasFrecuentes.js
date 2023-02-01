@@ -404,17 +404,109 @@ export default class PreguntasFrecuentes extends Component {
               participación ciudadana que contempla nuestra ley, accediendo al
               siguiente enlace:
             </p>
+            <p className="text-center">
+              <a
+                className="btn btn-ite"
+                href="https://participacion-ciudadana.itetlax.org.mx/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Microstio Participación Ciudadana
+              </a>
+            </p>
+            <li className="Preguntas__list">
+              ¿Cuáles son las acciones afirmativas que ha emitido el Instituto
+              Tlaxcalteca de Elecciones?
+            </li>
+            <strong>Respuesta:</strong>
+            <p>
+              Las acciones afirmativas constituyen medidas compensatorias para
+              las personas en situaciones de desventaja, a fin de revertir
+              escenarios de desigualdad histórica y de facto en el ejercicio de
+              sus derechos.
+            </p>
+            <p>
+              Preocupado por cerrar estas brechas de desigualdad histórica y
+              social, y garantizar la inclusión el Instituto Tlaxcalteca de
+              Elecciones ha emitido diversas acciones afirmativas para asegurar
+              la participación en las elecciones de grupos históricamente
+              vulnerados.
+            </p>
+            <p>
+              Consulta las acciones afirmativas de este Órgano Electoral en los
+              siguientes enlaces:
+            </p>
+            <p className="text-center">
+              <a
+                className="btn btn-ite"
+                href="https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2020/47.pdf"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Acuerdo ITE-CG 47/2020
+              </a>{" "}
+              <a
+                className="btn btn-ite"
+                href="https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2020/64.pdf"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Acuerdo ITE-CG 64/2020
+              </a>{" "}
+              <a
+                className="btn btn-ite"
+                href="https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2021/34.pdf"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Acuerdo ITE-CG 34/2021
+              </a>{" "}
+              <a
+                className="btn btn-ite"
+                href="https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2021/132.pdf"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Acuerdo ITE-CG 132/2021
+              </a>{" "}
+              <a
+                className="btn btn-ite"
+                href="https://itetlax.org.mx/assets/pdf/memElect/11.pdf"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Memoria Electoral del Proceso Electoral Local Ordinario 2020 -
+                2021 y Proceso Electoral Extraordinario 2021
+              </a>{" "}
+            </p>
+            <li className="Preguntas__list">
+              ¿Dónde puedo consultar la información relativa a las elecciones
+              que se han llevado a cabo en Tlaxcala?
+            </li>
+            <strong>Respuesta:</strong>
+            <p>
+              Después de cada proceso electoral el Instituto Tlaxcalteca de
+              Elecciones, realiza un concentrado de información e imágenes sobre
+              las actividades realizadas en los procesos electorales ordinarios
+              o extraordinarios que desarrolla. A este documento se le denomina
+              Memoria Electoral.
+            </p>
+            <p>
+              Te invitamos a consultar las memorias electorales que ha elaborado
+              nuestro Instituto a lo largo de diversos procesos electorales
+              accediendo al siguiente enlace:
+            </p>
+            <p className="text-center">
+              <a
+                className="btn btn-ite"
+                href="https://itetlax.org.mx/MemoriasElectorales"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Memorias Electorales
+              </a>
+            </p>
           </ol>
-          <p className="text-center">
-            <a
-              className="btn btn-ite"
-              href="https://participacion-ciudadana.itetlax.org.mx/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Microstio Participación Ciudadana
-            </a>
-          </p>
         </div>
       </>
     );
