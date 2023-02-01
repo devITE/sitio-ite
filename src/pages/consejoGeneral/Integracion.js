@@ -181,7 +181,7 @@ export default class Integracion extends Component {
                     rel="noreferrer"
                   >
                     <img
-                      src="https://itetlax.org.mx/assets/img/intPP/2.jpg"
+                      src="https://itetlax.org.mx/assets/img/intPP/2.png"
                       className="img-fluid hover-ite"
                       alt="pri"
                     />
@@ -220,7 +220,7 @@ export default class Integracion extends Component {
                     rel="noreferrer"
                   >
                     <img
-                      src="https://itetlax.org.mx/assets/img/intPP/5.jpg"
+                      src="https://itetlax.org.mx/assets/img/intPP/5.png"
                       className="img-fluid hover-ite"
                       alt="verde"
                     />
@@ -233,7 +233,7 @@ export default class Integracion extends Component {
                     rel="noreferrer"
                   >
                     <img
-                      src="https://itetlax.org.mx/assets/img/intPP/6.jpg"
+                      src="https://itetlax.org.mx/assets/img/intPP/6.png"
                       className="img-fluid hover-ite"
                       alt="movimiento ciudadano"
                     />
@@ -272,7 +272,7 @@ export default class Integracion extends Component {
                     rel="noreferrer"
                   >
                     <img
-                      src="https://itetlax.org.mx/assets/img/intPP/9.jpg"
+                      src="https://itetlax.org.mx/assets/img/intPP/9.png"
                       className="img-fluid hover-ite"
                       alt="nueva alianza"
                     />
@@ -299,7 +299,7 @@ export default class Integracion extends Component {
                     rel="noreferrer"
                   >
                     <img
-                      src="https://itetlax.org.mx/assets/img/intPP/11.jpg"
+                      src="https://itetlax.org.mx/assets/img/intPP/11.png"
                       className="img-fluid hover-ite"
                       alt="fuerza x mexico"
                     />
