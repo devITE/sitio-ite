@@ -2963,7 +2963,8 @@ export const dataArt672022 = [
       "https://itetlax.org.mx/assets/excel/transparencia/art67/2022/LTAIPT_A67F01IA1_2.xlsx",
     excel3:
       "https://itetlax.org.mx/assets/excel/transparencia/art67/2022/LTAIPT_A67F01IA1_3.xlsx",
-    excel4: "https://itetlax.org.mx/assets/excel/transparencia/art67/2022/LTAIPT_A67F01IA1_4.xlsx",
+    excel4:
+      "https://itetlax.org.mx/assets/excel/transparencia/art67/2022/LTAIPT_A67F01IA1_4.xlsx",
   },
   {
     no: "2",
@@ -2991,7 +2992,8 @@ export const dataArt672022 = [
           "https://itetlax.org.mx/assets/excel/transparencia/art67/2022/LTAIPT2018_A67F01IB1_1.xlsx",
         excel2:
           "https://itetlax.org.mx/assets/excel/transparencia/art67/2022/LTAIPT2018_A67F01IB1_2.xlsx",
-        excel3: "",
+        excel3:
+          "https://itetlax.org.mx/assets/excel/transparencia/art67/2022/LTAIPT2018_A67F01IB1_3.xlsx",
         excel4: "",
       },
       {
@@ -3007,7 +3009,8 @@ export const dataArt672022 = [
           "https://itetlax.org.mx/assets/excel/transparencia/art67/2022/LTAIPT2018_A67F01IB2_1.xlsx",
         excel2:
           "https://itetlax.org.mx/assets/excel/transparencia/art67/2022/LTAIPT2018_A67F01IB2_2.xlsx",
-        excel3: "",
+        excel3:
+          "https://itetlax.org.mx/assets/excel/transparencia/art67/2022/LTAIPT2018_A67F01IB2_3.xlsx",
         excel4: "",
       },
     ],
@@ -3229,7 +3232,8 @@ export const dataArt672022 = [
           "https://itetlax.org.mx/assets/excel/transparencia/art67/2022/LTAIPT2018_A67F01IF1_1.xlsx",
         excel2:
           "https://itetlax.org.mx/assets/excel/transparencia/art67/2022/LTAIPT2018_A67F01IF1_2.xlsx",
-        excel3: "",
+        excel3:
+          "https://itetlax.org.mx/assets/excel/transparencia/art67/2022/LTAIPT2018_A67F01IF1_3.xlsx",
         excel4: "",
       },
       {
@@ -3290,7 +3294,8 @@ export const dataArt672022 = [
           "https://itetlax.org.mx/assets/excel/transparencia/art67/2022/LTAIPT2018_A67F01IG1_1.xlsx",
         excel2:
           "https://itetlax.org.mx/assets/excel/transparencia/art67/2022/LTAIPT_A67F01IG1_2.xlsx",
-        excel3: "https://itetlax.org.mx/assets/excel/transparencia/art67/2022/LTAIPT_A67F01IG1_3.xlsx",
+        excel3:
+          "https://itetlax.org.mx/assets/excel/transparencia/art67/2022/LTAIPT_A67F01IG1_3.xlsx",
         excel4: "",
       },
       {
@@ -3304,7 +3309,8 @@ export const dataArt672022 = [
         actualizacion: "2022",
         excel1:
           "https://itetlax.org.mx/assets/excel/transparencia/art67/2022/LTAIPT_A67F01IG2_1.xlsx",
-        excel2: "https://itetlax.org.mx/assets/excel/transparencia/art67/2022/LTAIPT_A67F01IG2_2.xlsx",
+        excel2:
+          "https://itetlax.org.mx/assets/excel/transparencia/art67/2022/LTAIPT_A67F01IG2_2.xlsx",
         excel3: "",
         excel4: "",
       },
@@ -3318,7 +3324,8 @@ export const dataArt672022 = [
         actualizacion: "2022",
         excel1:
           "https://itetlax.org.mx/assets/excel/transparencia/art67/2022/LTAIPT_A67F01IG3_1.xlsx",
-        excel2: "https://itetlax.org.mx/assets/excel/transparencia/art67/2022/LTAIPT_A67F01IG3_2.xlsx",
+        excel2:
+          "https://itetlax.org.mx/assets/excel/transparencia/art67/2022/LTAIPT_A67F01IG3_2.xlsx",
         excel3: "",
         excel4: "",
       },
@@ -3333,7 +3340,8 @@ export const dataArt672022 = [
         actualizacion: "2022",
         excel1:
           "https://itetlax.org.mx/assets/excel/transparencia/art67/2022/LTAIPT_A67F01IG4_1.xlsx",
-        excel2: "https://itetlax.org.mx/assets/excel/transparencia/art67/2022/LTAIPT_A67F01IG4_2.xlsx",
+        excel2:
+          "https://itetlax.org.mx/assets/excel/transparencia/art67/2022/LTAIPT_A67F01IG4_2.xlsx",
         excel3: "",
         excel4: "",
       },
@@ -3348,7 +3356,8 @@ export const dataArt672022 = [
         actualizacion: "2022",
         excel1:
           "https://itetlax.org.mx/assets/excel/transparencia/art67/2022/LTAIPT_A67F01IG5_1.xlsx",
-        excel2: "https://itetlax.org.mx/assets/excel/transparencia/art67/2022/LTAIPT_A67F01IG5_2.xlsx",
+        excel2:
+          "https://itetlax.org.mx/assets/excel/transparencia/art67/2022/LTAIPT_A67F01IG5_2.xlsx",
         excel3: "",
         excel4: "",
       },
@@ -3363,7 +3372,8 @@ export const dataArt672022 = [
         actualizacion: "2022",
         excel1:
           "https://itetlax.org.mx/assets/excel/transparencia/art67/2022/LTAIPT_A67F01IG6_1.xlsx",
-        excel2: "https://itetlax.org.mx/assets/excel/transparencia/art67/2022/LTAIPT_A67F01IG6_2.xlsx",
+        excel2:
+          "https://itetlax.org.mx/assets/excel/transparencia/art67/2022/LTAIPT_A67F01IG6_2.xlsx",
         excel3: "",
         excel4: "",
       },
@@ -3452,8 +3462,9 @@ export const dataArt672022 = [
       "Los partidos políticos nacionales disfrutarán de las franquicias postales y telegráficas, dentro del territorio nacional, que sean necesarias para el desarrollo de sus actividades, conforme a las reglas establecidas en los artículos 188 de la Ley General de Instituciones y Procedimientos Electorales y 70 de la Ley General de Partidos Políticos correspondiendo al Instituto Nacional Electoral aplicarlas. Para consulta:http://www.ine.mx/archivos3/portal/historico/contenido/Franquicias_Postales/",
     actualizacion: "2022",
     excel1:
-      "https://itetlax.org.mx/assets/excel/transparencia/art67/2022/LTAIPT2018_A67F01IK.xlsx",
-    excel2: "",
+      "https://itetlax.org.mx/assets/excel/transparencia/art67/2022/LTAIPT2018_A67F01IK_1.xlsx",
+    excel2:
+      "https://itetlax.org.mx/assets/excel/transparencia/art67/2022/LTAIPT2018_A67F01IK_2.xlsx",
     excel3: "",
     excel4: "",
   },
@@ -3467,8 +3478,9 @@ export const dataArt672022 = [
       "En el Instituto Tlaxcalteca de Elecciones durante el transcurso del año dos mil dieciséis, ningún partido político nacional se ha colocado en el supuesto de pérdida de registro señalado por el artículo 94 de la Ley General de Partidos Políticos, por ende tampoco se ha actualizado el supuesto de pérdida de acreditación en el ámbito local, previsto en el artículo 45 de la Ley de Partidos Políticos para el Estado de Tlaxcala. Asimismo, en el caso de los partidos políticos con registro local, ninguno se ha colocado en alguno de los supuestos que prevé el artículo 44 de la Ley de Partidos Políticos para el Estado de Tlaxcala, relativos a causales para perder su registro. Se entiende que en ningún caso se ha dado el supuesto de liquidación de patrimonio de partidos políticos nacionales o locales.",
     actualizacion: "2022",
     excel1:
-      "https://itetlax.org.mx/assets/excel/transparencia/art67/2022/LTAIPT2018_A67F01IL.xlsx",
-    excel2: "",
+      "https://itetlax.org.mx/assets/excel/transparencia/art67/2022/LTAIPT2018_A67F01IL_1.xlsx",
+    excel2:
+      "https://itetlax.org.mx/assets/excel/transparencia/art67/2022/LTAIPT2018_A67F01IL_2.xlsx",
     excel3: "",
     excel4: "",
   },
