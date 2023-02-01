@@ -47,7 +47,7 @@ export default class Integracion extends Component {
               tabIndex="0"
             >
               <div className="w-100 Grid__four">
-                <div>
+                {/* <div>
                   <a
                     href="https://itetlax.org.mx/assets/pdf/CG/1.pdf"
                     target="_blank"
@@ -56,10 +56,10 @@ export default class Integracion extends Component {
                     <img
                       src="https://itetlax.org.mx/assets/img/intCG/1.jpg"
                       className="img-fluid hover-ite"
-                      alt="Presidencia"
+                      alt="Consejero Presidente Lic. Emmanuel Ávila González"
                     />
                   </a>
-                </div>
+                </div> */}
                 <div>
                   <a
                     href="https://itetlax.org.mx/assets/pdf/CG/2.pdf"
@@ -122,6 +122,19 @@ export default class Integracion extends Component {
                       src="https://itetlax.org.mx/assets/img/intCG/6.jpg"
                       className="img-fluid hover-ite"
                       alt="Consejera Electoral Yedith Martínez Pinillo"
+                    />
+                  </a>
+                </div>
+                <div>
+                  <a
+                    href="https://itetlax.org.mx/assets/pdf/CG/7.pdf"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img
+                      src="https://itetlax.org.mx/assets/img/intCG/7.jpg"
+                      className="img-fluid hover-ite"
+                      alt="Consejero Electoral Mtro. Juan Carlos Minor Marquez"
                     />
                   </a>
                 </div>
