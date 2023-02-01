@@ -51,6 +51,80 @@ export const dataAcuerdos2023 = [
       },
     ],
   },
+  {
+    id: 3,
+    year: "2023",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 03-2023",
+    monthDoc: "ENE",
+    nameDoc:
+      "SE APRUEBA PROGRAMA PARA OTORGAMIENTO DE TITUTLARIDAD Y PROMOCIÓN DE RANGO SPEN",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/3.pdf",
+    subRows: [
+      {
+        typeDoc: "",
+        nameDoc: "PROGRAMA",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/3.1.pdf",
+        subRows: "",
+      },
+    ],
+  },
+  {
+    id: 4,
+    year: "2023",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 04-2023",
+    monthDoc: "ENE",
+    nameDoc: "REFORMA REGLAMENTO INTERIOR DEL ITE",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/4.pdf",
+    subRows: [
+      {
+        typeDoc: "",
+        nameDoc: "REGLAMENTO INTERIOR",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/4.1.pdf",
+        subRows: "",
+      },
+    ],
+  },
+  {
+    id: 5,
+    year: "2023",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 05-2023",
+    monthDoc: "ENE",
+    nameDoc: "SE DESIGNA ÓRGANO DE ENLACE CON LA DESPEN",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/5.pdf",
+    subRows: "",
+  },
+  {
+    id: 6,
+    year: "2023",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 06-2023",
+    monthDoc: "ENE",
+    nameDoc:
+      "SE APRUEBA PROGRAMA DE SEMINARIOS, CONFERENCIAS, COLOQUIOS, DIPLOMADOS, ETC",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/6.pdf",
+    subRows: [
+      {
+        typeDoc: "",
+        nameDoc: "PROGRAMA DE IMPARTICIÓN",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/6.1.pdf",
+        subRows: "",
+      },
+    ],
+  },
+  {
+    id: 7,
+    year: "2023",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 07-2023",
+    monthDoc: "ENE",
+    nameDoc:
+      "SE AUTORIZA AL CONSEJERO PRESIDENTE FIRMA DE TODO TIPO DE CONVENIOS",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/7.pdf",
+    subRows: "",
+  },
 ];
 
 // ------------ A C U E R D O S    I N E ------------
