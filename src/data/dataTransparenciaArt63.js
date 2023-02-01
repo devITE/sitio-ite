@@ -6654,7 +6654,7 @@ export const dataArt632022 = [
         fundamentoLegal:
           "Articulo. 63 Fraccion XX-B de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
         actualizacion: "2022",
-        excel:
+        excel1:
           "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F21A.xlsx",
         excel2: "",
         excel3: "",
