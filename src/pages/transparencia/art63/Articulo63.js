@@ -68,7 +68,7 @@ export default class Articulo63 extends Component {
               />
             </Link>
           </div>
-          {/* <div>
+          <div>
             <Link to="/Art632023" className="nav-link">
               <img
                 className="img-fluid"
@@ -76,7 +76,7 @@ export default class Articulo63 extends Component {
                 alt="Artículo 63 (2023)"
               />
             </Link>
-          </div> */}
+          </div>
         </div>
         {/* <div className="list-group text-center w-50 mx-auto">
           <Link
