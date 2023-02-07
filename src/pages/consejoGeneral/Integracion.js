@@ -1,8 +1,10 @@
-import React, { Component } from "react";
+import React, { useEffect } from "react";
 import TitlePages from "../../layout/TitlePages";
 
-export default class Integracion extends Component {
-  render() {
+const Integración = () => {
+  useEffect(() => {
+    document.title = `ITE - Integración`;
+  }, []);
     return (
       <>
         <TitlePages title="Integración" subTitle="" />
@@ -312,4 +314,4 @@ export default class Integracion extends Component {
       </>
     );
   }
-}
+  export default Integración;
