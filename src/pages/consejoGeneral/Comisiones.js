@@ -1,9 +1,11 @@
-import React, { Component } from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import TitlePages from "../../layout/TitlePages";
 
-export default class Comisiones extends Component {
-  render() {
+const ComisionesPermanentesyTemporales = () => {
+  useEffect(() => {
+    document.title = `ITE - Comisiones Permanentes y Temporales`;
+  }, []);
     return (
       <>
         <TitlePages title="Comisiones Permanentes y Temporales" subTitle="" />
@@ -21,4 +23,4 @@ export default class Comisiones extends Component {
       </>
     );
   }
-}
+  export default ComisionesPermanentesyTemporales;

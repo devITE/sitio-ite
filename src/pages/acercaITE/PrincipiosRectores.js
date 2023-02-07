@@ -1,9 +1,11 @@
-import React, { Component } from "react";
+import React, { useEffect } from "react";
 import TitlePages from "../../layout/TitlePages";
 import "./PrincipiosRectores.css";
 
-export default class PrincipiosRectores extends Component {
-  render() {
+const PrincipiosRectores = () => {
+  useEffect(() => {
+    document.title = `ITE - Principios Rectores`;
+  }, []);
     return (
       <>
         <TitlePages title="Principios Rectores" subTitle="" />
@@ -141,4 +143,5 @@ export default class PrincipiosRectores extends Component {
       </>
     );
   }
-}
+  export default PrincipiosRectores;
+

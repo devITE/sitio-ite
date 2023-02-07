@@ -1,8 +1,10 @@
-import React, { Component } from "react";
+import React, { useEffect } from "react";
 import TitlePages from "../../layout/TitlePages";
 
-export default class Estructura extends Component {
-  render() {
+const Estructura = () => {
+  useEffect(() => {
+    document.title = `ITE - Estructura`;
+  }, []);
     return (
       <div>
         <TitlePages title="Estructura" subTitle="" />
@@ -62,4 +64,4 @@ export default class Estructura extends Component {
       </div>
     );
   }
-}
+  export default Estructura;

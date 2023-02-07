@@ -1,9 +1,11 @@
-import React, { Component } from "react";
+import React, { useEffect } from "react";
 import TitlePages from "../../layout/TitlePages";
 import "./Historia.css";
 
-export default class Historia extends Component {
-  render() {
+const Historia = () => {
+  useEffect(() => {
+    document.title = `ITE - Historia`;
+  }, []);
     return (
       <>
         <TitlePages title="Historia" subTitle="" />
@@ -380,4 +382,4 @@ export default class Historia extends Component {
       </>
     );
   }
-}
+export default Historia;
