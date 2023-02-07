@@ -167,6 +167,10 @@ export default class PreguntasFrecuentes extends Component {
                     <td>2021</td>
                     <td>$185,782,415.00</td>
                   </tr>
+                  <tr>
+                    <td>2022</td>
+                    <td>$106,128,665.79</td>
+                  </tr>
                 </tbody>
               </table>
             </div>
@@ -193,7 +197,7 @@ export default class PreguntasFrecuentes extends Component {
                 <thead>
                   <tr>
                     <th rowSpan="2">PARTIDO POLÍTICO</th>
-                    <th colSpan="7">EJERCICIO</th>
+                    <th colSpan="8">EJERCICIO</th>
                   </tr>
                   <tr>
                     <th>2014</th>
@@ -203,6 +207,7 @@ export default class PreguntasFrecuentes extends Component {
                     <th>2019</th>
                     <th>2020</th>
                     <th>2021</th>
+                    <th>2022</th>
                   </tr>
                 </thead>
                 <tbody className="table-group-divider">
@@ -215,6 +220,7 @@ export default class PreguntasFrecuentes extends Component {
                     <td>$6,806,348.16</td>
                     <td>$6,227,110.07</td>
                     <td>$9,224,124.08</td>
+                    <td>$6,182,254.86</td>
                   </tr>
                   <tr>
                     <th scope="row">Partido Revolucionario Institucional</th>
@@ -225,6 +231,7 @@ export default class PreguntasFrecuentes extends Component {
                     <td>$3,710,541.24</td>
                     <td>$3,269,389.65</td>
                     <td>$4,832,677.55</td>
+                    <td>$7,924,120.58</td>
                   </tr>
                   <tr>
                     <th scope="row">Partido de la Revolución Democrática</th>
@@ -235,6 +242,7 @@ export default class PreguntasFrecuentes extends Component {
                     <td>$4,148,805.00</td>
                     <td>$3,688,104.90</td>
                     <td>$5,454,360.93</td>
+                    <td>$4,150,946.11</td>
                   </tr>
                   <tr>
                     <th scope="row">Partido del Trabajo</th>
@@ -245,6 +253,7 @@ export default class PreguntasFrecuentes extends Component {
                     <td>$5,462,544.96</td>
                     <td>$4,943,246.37</td>
                     <td>$7,317,919.98</td>
+                    <td>$5,288,732.35</td>
                   </tr>
                   <tr>
                     <th scope="row">Partido Verde Ecologista de México</th>
@@ -255,6 +264,7 @@ export default class PreguntasFrecuentes extends Component {
                     <td>$3,706,266.48</td>
                     <td>$3,265,305.60</td>
                     <td>$4,826,613.79</td>
+                    <td>$3,180,506.22</td>
                   </tr>
                   <tr>
                     <th scope="row">Movimiento Ciudadano</th>
@@ -265,6 +275,7 @@ export default class PreguntasFrecuentes extends Component {
                     <td>$4,297,298.88</td>
                     <td>$3,829,975.32</td>
                     <td>$5,665,001.65</td>
+                    <td>$1,096,520.59</td>
                   </tr>
                   <tr>
                     <th scope="row">Morena</th>
@@ -275,6 +286,7 @@ export default class PreguntasFrecuentes extends Component {
                     <td>$18,417,674.16</td>
                     <td>$17,320,520.01</td>
                     <td>$25,694,956.22</td>
+                    <td>$13,861,256.38</td>
                   </tr>
                   <tr>
                     <th scope="row">Nueva Alianza</th>
@@ -283,6 +295,7 @@ export default class PreguntasFrecuentes extends Component {
                     <td>$3,338,845.00</td>
                     <td>$3,751,199.04</td>
                     <td>$3,555,725.86</td>
+                    <td></td>
                     <td></td>
                     <td></td>
                   </tr>
@@ -295,6 +308,7 @@ export default class PreguntasFrecuentes extends Component {
                     <td></td>
                     <td>$3,357,698.80</td>
                     <td>$4,963,793.69</td>
+                    <td>$3,574,472.74</td>
                   </tr>
                   <tr>
                     <th scope="row">Encuentro Social</th>
@@ -305,6 +319,7 @@ export default class PreguntasFrecuentes extends Component {
                     <td></td>
                     <td></td>
                     <td>$1,646,037.19</td>
+                    <td></td>
                   </tr>
                   <tr>
                     <th scope="row">Encuentro Social Tlaxcala</th>
@@ -315,6 +330,8 @@ export default class PreguntasFrecuentes extends Component {
                     <td></td>
                     <td>$3,009,081.86</td>
                     <td>$4,446,188.11</td>
+                    <td></td>
+
                   </tr>
                   <tr>
                     <th scope="row">Partido Alianza Ciudadana</th>
@@ -325,6 +342,7 @@ export default class PreguntasFrecuentes extends Component {
                     <td>$969,780.86</td>
                     <td>$1,029,693.32</td>
                     <td>$1,646,037.19</td>
+                    <td>$4,079,095.56</td>
                   </tr>
                   <tr>
                     <th scope="row">Partido Socialista</th>
@@ -335,6 +353,7 @@ export default class PreguntasFrecuentes extends Component {
                     <td>$969,780.86</td>
                     <td>$1,029,693.32</td>
                     <td>$1,646,037.19</td>
+                    <td></td>
                   </tr>
                   <tr>
                     <th scope="row">Impacto Social "Sí"</th>
@@ -345,6 +364,29 @@ export default class PreguntasFrecuentes extends Component {
                     <td></td>
                     <td>$514,846.66</td>
                     <td>$1,646,037.19</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Fuerza por México Tlaxcala</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>$3,817,027.52</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Redes Sociales Progresistas Tlaxcala</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>$1,096,520.59</td>
                   </tr>
                 </tbody>
               </table>
