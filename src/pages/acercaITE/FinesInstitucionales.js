@@ -1,10 +1,13 @@
-import React, { Component } from "react";
+import React, { useEffect } from "react";
 import TitlePages from "../../layout/TitlePages";
 
-export default class FinesInstitucionales extends Component {
-  render() {
+const FinesInstitucionales = () => {
+  useEffect(() => {
+    document.title = `ITE - Fines Institucionales`;
+  }, []);
     return (
       <>
+      
         <TitlePages title="Fines Institucionales" subTitle="" />
         <p>
           La Ley de Instituciones y Procedimientos Electorales para el Estado de
@@ -49,4 +52,4 @@ export default class FinesInstitucionales extends Component {
       </>
     );
   }
-}
+  export default FinesInstitucionales;

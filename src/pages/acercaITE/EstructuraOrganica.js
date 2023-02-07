@@ -1,8 +1,10 @@
-import React, { Component } from "react";
+import React, { useEffect } from "react";
 import TitlePages from "../../layout/TitlePages";
 
-export default class EstructuraOrganica extends Component {
-  render() {
+const EstructuraOrganica = () => {
+  useEffect(() => {
+    document.title = `ITE - Estructura Organica`;
+  }, []);
     return (
       <>
         <TitlePages title="Estructura Orgánica" subTitle="" />
@@ -20,4 +22,4 @@ export default class EstructuraOrganica extends Component {
       </>
     );
   }
-}
+  export default EstructuraOrganica;

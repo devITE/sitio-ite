@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import Enlaces from "./enlaces/Enlaces";
 import { dataCIndex, dataCAR, dataCA } from "../../data/dataCarouselIndex";
@@ -22,17 +22,19 @@ import { dataVideoPodCast } from "../../data/dataVideoPodCast";
 import ModalInit from "../../layout/Modal/ModalInit";
 import "./Home.css";
 
-export default class Home extends Component {
-  render() {
+const ITE = () => {
+  useEffect(() => {
+    document.title = `ITE`;
+  }, []);
     return (
       <>
         <ModalInit
-          //  imgLink="https://itetlax.org.mx/assets/img/sesionesCG/SO-310123.png"
-          //  url="https://itetlax.org.mx/assets/img/sesionesCG/SO-310123.png"
-          // linkToo=""
-          imgLink="https://itetlax.org.mx/assets/despen/img/banner.jpg"
-          url=""
-          linkToo="/DESPEN"
+            imgLink="https://itetlax.org.mx/assets/img/sesionesCG/SE-030223.png"
+            url="https://itetlax.org.mx/assets/img/sesionesCG/SE-030223.png"
+           linkToo=""
+          // imgLink="https://itetlax.org.mx/assets/despen/img/banner.jpg"
+          // url=""
+          // linkToo="/DESPEN"
         />
 
         <Carousel idCarousel="carouselTopIndex">
@@ -281,4 +283,4 @@ export default class Home extends Component {
       </>
     );
   }
-}
+  export default ITE;
