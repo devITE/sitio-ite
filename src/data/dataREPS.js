@@ -1,19 +1,19 @@
 export const dataRegistros = [
-  {
-    id: 1,
-    nombre: "MAria Eugenia Flores Hernandez",
-    sexo: "Hombre",
-    cargo: "Gerente",
-    ambito: "publico",
-    sentencia: "Alguna",
-    expediente: "1/01/20",
-    autoridad: "Jefe",
-    conducta: "Mala",
-    fecha: "01/01/2023",
-    sancion: "Mucha",
-    permanenciaReg: "5 años",
-    reincidencia: "Si",
-  },
+  // {
+  //   id: 1,
+  //   nombre: "MAria Eugenia Flores Hernandez",
+  //   sexo: "Hombre",
+  //   cargo: "Gerente",
+  //   ambito: "publico",
+  //   sentencia: "Alguna",
+  //   expediente: "1/01/20",
+  //   autoridad: "Jefe",
+  //   conducta: "Mala",
+  //   fecha: "01/01/2023",
+  //   sancion: "Mucha",
+  //   permanenciaReg: "5 años",
+  //   reincidencia: "Si",
+  // },
 ];
 export const dataInfografias = [
   {
