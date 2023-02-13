@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import ModalDownload from "../../layout/Modal/ModalDownload";
 import TitlePages from "../../layout/TitlePages";
-import { distLocal, infografias } from "../../data/dataMapas";
+import { distLocal, infografias, infografiasdos } from "../../data/dataMapas";
 import "./Mapas.css";
 
 export default class Mapas extends Component {
@@ -53,7 +53,19 @@ export default class Mapas extends Component {
               aria-controls="v-pills-infografias"
               aria-selected="false"
             >
-              Infografías
+              Infografías: Integración de los Distritos Electorales
+            </button>
+            <button
+              className="btn btn-ite"
+              id="v-pills-infografiasdos-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#v-pills-infografiasdos"
+              type="button"
+              role="tab"
+              aria-controls="v-pills-infografiasdos"
+              aria-selected="false"
+            >
+              Infografías: Información relevante
             </button>
           </div>
           <div className="tab-content w-90" id="v-pills-tabContent">
@@ -150,7 +162,44 @@ export default class Mapas extends Component {
                       </a>
                     </div>
                     <div className="Mapas__dist-footer bg-ite">
-                      Distrito {mapa.id}
+                       {mapa.title}
+                    </div>
+                    <ModalDownload
+                      idModal={"mapaDist" + mapa.id}
+                      linkIMG={mapa.link}
+                      altIMG={mapa.title}
+                      downloadModal={mapa.link}
+                    />
+                  </div>
+                ))}
+              </div>
+            </div>
+            <div
+              className="tab-pane fade"
+              id="v-pills-infografiasdos"
+              role="tabpanel"
+              aria-labelledby="v-pills-infografias-tab"
+              tabIndex="0"
+            >
+              <div className="Grid__three">
+                {infografiasdos.map((mapa) => (
+                  <div key={mapa.id} className="hover-ite">
+                    <div>
+                      <a
+                        href="/#"
+                        rel="noreferrer"
+                        data-bs-toggle="modal"
+                        data-bs-target={"#mapaDist" + mapa.id}
+                      >
+                        <img
+                          src={mapa.link}
+                          className="img-fluid w-100 mx-auto"
+                          alt={mapa.title}
+                        />
+                      </a>
+                    </div>
+                    <div className="Mapas__dist-footer bg-ite">
+                       {mapa.title}
                     </div>
                     <ModalDownload
                       idModal={"mapaDist" + mapa.id}

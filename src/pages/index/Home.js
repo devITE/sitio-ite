@@ -29,12 +29,12 @@ const ITE = () => {
   return (
     <>
       <ModalInit
-        // imgLink="https://itetlax.org.mx/assets/img/sesionesCG/SE-030223.png"
-        // url="https://itetlax.org.mx/assets/img/sesionesCG/SE-030223.png"
-        // linkToo=""
-         imgLink="https://itetlax.org.mx/assets/despen/img/banner.jpg"
-         url=""
-         linkToo="/DESPEN"
+        //  imgLink="https://itetlax.org.mx/assets/img/ATCC/ATCC.jpeg"
+        //  url="https://itetlax.org.mx/assets/img/ATCC/ATCC.jpeg"
+        //  linkToo=""
+          imgLink="https://itetlax.org.mx/assets/despen/img/banner.jpg"
+          url=""
+          linkToo="/DESPEN"
       />
 
       <Carousel idCarousel="carouselTopIndex">
@@ -52,12 +52,12 @@ const ITE = () => {
       <div className="mt-4 Home__AR-A">
         <div>
           <h2 className="bottom_title">
-            Foro: La confianza y participación de la juventud en la democracia
+          TALLER LA JUVENTUD EN LA POLÍTICA
           </h2>
           <div className="Home__video-embed ratio ratio-16x9 w-100">
             <iframe
               id="9QQCf_emFwo"
-              src="https://www.youtube-nocookie.com/embed/PFx8cLd7S4?rel=0"
+              src="https://www.youtube-nocookie.com/embed/LUzMhAI17rg?rel=0"
               title="Foro: La confianza y participación de la juventud en la democracia"
               allowFullScreen
             ></iframe>
@@ -124,13 +124,13 @@ const ITE = () => {
           <h2 className="bottom_title">Sesión en Vivo</h2>
           <div className="Home__video-embed ratio ratio-16x9 w-100">
             <iframe
-              src="https://www.youtube-nocookie.com/embed/Qxkfx1E4o0Y?rel=0"
+              src="https://www.youtube-nocookie.com/embed/Y5LiWCuvWn4?rel=0"
               title="Sesión En Vivo del CG"
               allowFullScreen
             ></iframe>
           </div>
           <h5 className="mt-3 text-center">
-          Sesión Presencial Especial del CG 03/02/2023
+          Sesión Presencial Extraordinaria del CG 10/02/2023
           </h5>
         </div>
         <div>

@@ -79,6 +79,8 @@ import Acuerdos2023 from "./pages/acuerdos/acuerdosITE/Acuerdos2023";
 
 //Demarcaciones
 import Acuerdos from "./pages/demarcaciones/Acuerdos";
+import Distritacion2015 from "./pages/demarcaciones/Distritacion2015";
+import Distritacion2022 from "./pages/demarcaciones/Distritacion2022";
 import Mapas from "./pages/demarcaciones/Mapas";
 
 //Transparencia
@@ -248,6 +250,8 @@ function App() {
 
           {/* Demarcaciones */}
           <Route path="/Acuerdos" element={<Acuerdos />} />
+          <Route path="/Distritacion2015" element={<Distritacion2015 />} />
+          <Route path="/Distritacion2022" element={<Distritacion2022 />} />
           <Route path="/Mapas" element={<Mapas />} />
 
           {/* Transparencia */}

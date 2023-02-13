@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-import { Link } from "react-router-dom";
 import TitlePages from "../../layout/TitlePages";
 
 const ComisionesPermanentesyTemporales = () => {
@@ -10,16 +9,17 @@ const ComisionesPermanentesyTemporales = () => {
       <>
         <TitlePages title="Comisiones Permanentes y Temporales" subTitle="" />
 
-        <Link
-          to="https://itetlax.org.mx/assets/img/imgIntITE/1.jpg"
+        <a
+          href="https://itetlax.org.mx/assets/img/imgIntITE/1.jpg"
           target="_blank"
+          rel="noreferrer"
         >
           <img
             src="https://itetlax.org.mx/assets/img/imgIntITE/1.jpg"
             className="img-fluid w-100 mx-auto"
             alt="Comisiones Permanentes"
           />
-        </Link>
+        </a>
       </>
     );
   }

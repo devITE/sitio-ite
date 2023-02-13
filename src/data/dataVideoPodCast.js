@@ -220,4 +220,9 @@ export const dataVideoPodCast = [
     link: "nbtkcm5WjPE",
     title: 'ITE Comentamos... Fase Deliberativa de la Consulta Previa"',
   },
+  {
+    id: 40,
+    link: "2mdjVv6kwXU",
+    title: 'ITE Comentamos... Procedimiento que seguirán las solicitudes de las cinco organizaciones que presentaron su registro para constituirse como partido político"',
+  },
 ];

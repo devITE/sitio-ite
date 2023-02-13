@@ -125,6 +125,111 @@ export const dataAcuerdos2023 = [
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/7.pdf",
     subRows: "",
   },
+  {
+    id: 8,
+    year: "2023",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 08-2023",
+    monthDoc: "FEB",
+    nameDoc: "DOCUMENTOS DEL PROCESO DE CONSULTA",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/8.pdf",
+    subRows: "",
+  },
+  {
+    id: 9,
+    year: "2023",
+    typeDoc: "RESOLUCIÓN",
+    numDoc: "ITE-CG 09-2023",
+    monthDoc: "FEB",
+    nameDoc: "POS CQD-Q-PT-CG-006-2022",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/9.pdf",
+    subRows: [
+      {
+        typeDoc: "",
+        nameDoc: "Voto Concurrente",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/9.1.pdf",
+        subRows: "",
+      },
+    ],
+  },
+  {
+    id: 10,
+    year: "2023",
+    typeDoc: "RESOLUCIÓN",
+    numDoc: "ITE-CG 10-2023",
+    monthDoc: "FEB",
+    nameDoc: "POS CQD-Q-MCCG-007-2022",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/10.pdf",
+    subRows: [
+      {
+        typeDoc: "",
+        nameDoc: "Voto Concurrente",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/10.1.pdf",
+        subRows: "",
+      },
+    ],
+  },
+  {
+    id: 11,
+    year: "2023",
+    typeDoc: "RESOLUCIÓN",
+    numDoc: "ITE-CG 11-2023",
+    monthDoc: "FEB",
+    nameDoc: "POS CQD-Q-MORENA-CG-008-2022",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/11.pdf",
+    subRows: [
+      {
+        typeDoc: "",
+        nameDoc: "Voto Concurrente",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/11.1.pdf",
+        subRows: "",
+      },
+    ],
+  },
+  {
+    id: 12,
+    year: "2023",
+    typeDoc: "RESOLUCIÓN",
+    numDoc: "ITE-CG 12-2023",
+    monthDoc: "FEB",
+    nameDoc: "POS CQD-Q-PAC-CG-009-2022",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/12.pdf",
+    subRows: "",
+  },
+  {
+    id: 13,
+    year: "2023",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 13-2023",
+    monthDoc: "FEB",
+    nameDoc: "SE APRUEBA CONVOCATORIA OBSERVADORES DE CONSULTA",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/13.pdf",
+    subRows: [
+      {
+        typeDoc: "",
+        nameDoc: "Convocatoria Observadores Fase Consultiva observadoras/es",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/13.1.pdf",
+        subRows: "",
+      },
+      
+        {
+      typeDoc: "",
+      nameDoc: "Solicitud de Registro Observadoras/es",
+      link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/13.2.pdf",
+      subRows: "",
+    },
+  ]
+  },
+  {
+    id: 14,
+    year: "2023",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 14-2023",
+    monthDoc: "FEB",
+    nameDoc: "INTEGRACIÓN COMISIONES, COMITÉS Y JGE",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/14.pdf",
+    subRows: "",
+  },
 ];
 
 // ------------ A C U E R D O S    I N E ------------
