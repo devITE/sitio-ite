@@ -133,8 +133,34 @@ export const dataAcuerdos2023 = [
     monthDoc: "FEB",
     nameDoc: "DOCUMENTOS DEL PROCESO DE CONSULTA",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/8.pdf",
-    subRows: "",
-  },
+    subRows: [
+      {
+        typeDoc: "",
+        nameDoc: "ANEXO UNO. GUÍA DE APOYO E INSTRUMENTOS DIDÁCTICOS",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/8.1.pdf",
+        subRows: "",
+      },
+      
+        {
+      typeDoc: "",
+      nameDoc: "ANEXO DOS. CUESTIONARIO CUADERNLLO",
+      link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/8.2.pdf",
+      subRows: "",
+    },
+    {
+      typeDoc: "",
+      nameDoc: "ANEXO TRES. CARTEL DE PARTICIPACIÓN",
+      link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/8.3.pdf",
+      subRows: "",
+    },
+    {
+      typeDoc: "",
+      nameDoc: "ANEXO CUATRO. ESPECIFICACIONES TÉCNICAS MATERIALES",
+      link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/8.4.pdf",
+      subRows: "",
+    },
+  ]
+    },
   {
     id: 9,
     year: "2023",
