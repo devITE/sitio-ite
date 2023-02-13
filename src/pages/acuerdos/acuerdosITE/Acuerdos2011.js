@@ -1,8 +1,11 @@
-import React, { Component } from "react";
+import React, { useEffect } from "react";
 import TitlePages from "../../../layout/TitlePages";
 
-export default class Acuerdos2011 extends Component {
-  render() {
+const AcuerdosITE2011 = () => {
+  useEffect(() => {
+    document.title = `Acuerdos ITE 2011`;
+  }, []);
+
     return (
       <>
         <TitlePages title="Acuerdos Anteriores" subTitle="Acuerdos ITE 2011" />
@@ -21,4 +24,4 @@ export default class Acuerdos2011 extends Component {
       </>
     );
   }
-}
+  export default AcuerdosITE2011;

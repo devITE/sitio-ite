@@ -3,8 +3,8 @@ export const dataCIndex = [
     id: 1,
     imgUrl: "https://itetlax.org.mx/assets/img/imgC_I/afiliado.jpg",
     alt: "Verificación de afiliación",
-    itemActive: "active",
-    buttonActive: "active",
+    itemActive: "",
+    buttonActive: "",
     ariaCurrent: "true",
     url: "https://deppp-partidos.ine.mx/afiliadosPartidos/app/publico/consultaAfiliados/nacionales?execution=e1s1",
     linkToo: "",
@@ -101,6 +101,16 @@ export const dataCIndex = [
     url: "",
     linkToo: "/DESPEN",
   },
+  {
+    id: 15,
+    imgUrl: "https://itetlax.org.mx/assets/img/imgC_I/bannercarrusel.jpeg",
+    alt: "Resgistro Observador/a",
+    itemActive: "active",
+    buttonActive: "active",
+    ariaCurrent: "true",
+    url: "https://itetlax.org.mx/assets/word/carousel/solicitudObservadoras.docx",
+    linkToo: "",
+  },
 ];
 
 export const dataCAR = [
@@ -173,35 +183,33 @@ export const dataCAR = [
 ];
 
 export const dataCA = [
-  // {
-  //   id: 1,
-  //   imgUrl: "https://itetlax.org.mx/assets/img/sesionesCG/SE-1001.jpg",
-  //   alt: "Sesión del Consejo General",
-  //   itemActive: "active",
-  //   buttonActive: "active",
-  //   ariaCurrent: "true",
-  //   url: "",
-  //   linkToo: "",
-  // },
- 
+  //  {
+  //    id: 1,
+  //    imgUrl: "https://itetlax.org.mx/assets/img/sesionesCG/SE-100223.png",
+  //    alt: "Sesión Extraordinaria Presencial del CG 10/02/2023",
+  //    itemActive: "active",
+  //    buttonActive: "active",
+  //    ariaCurrent: "true",
+  //    url: "",
+  //    linkToo: "", 
   {
-    id: 2,
+    id: 1,
     imgUrl: "https://itetlax.org.mx/assets/img/imgC_A/1.jpeg",
     alt: "Participación política de las mujeres tlaxcaltecas en el Proceso Electoral Local Ordinario 2020-2021",
+    itemActive: "",
+    buttonActive: "",
+    ariaCurrent: "true",
+    url: "",
+    linkToo: "",
+  },
+  {
+    id: 2,
+    imgUrl: "https://itetlax.org.mx/assets/img/imgC_A/3.jpg",
+    alt: "Foro Democracia y Redes Sociales",
     itemActive: "active",
     buttonActive: "active",
     ariaCurrent: "true",
     url: "",
     linkToo: "",
   },
-//     {
-//       id: 2,
-//       imgUrl: "https://itetlax.org.mx/assets/img/sesionesCG/SE-030223.png",
-//       alt: "Sesión Ordinaria del Consejo General del ITE",
-//       itemActive: "active",
-//       buttonActive: "active",
-//       ariaCurrent: "true",
-//       url: "",
-//      linkToo: "",
-//   },
 ];

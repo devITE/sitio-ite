@@ -170,7 +170,7 @@ const Integración = () => {
                     rel="noreferrer"
                   >
                     <img
-                      src="https://itetlax.org.mx/assets/img/intPP/2.jpg"
+                      src="https://itetlax.org.mx/assets/img/intPP/2.png"
                       className="img-fluid hover-ite"
                       alt="pri"
                     />
@@ -209,7 +209,7 @@ const Integración = () => {
                     rel="noreferrer"
                   >
                     <img
-                      src="https://itetlax.org.mx/assets/img/intPP/5.jpg"
+                      src="https://itetlax.org.mx/assets/img/intPP/5.png"
                       className="img-fluid hover-ite"
                       alt="verde"
                     />
@@ -222,7 +222,7 @@ const Integración = () => {
                     rel="noreferrer"
                   >
                     <img
-                      src="https://itetlax.org.mx/assets/img/intPP/6.jpg"
+                      src="https://itetlax.org.mx/assets/img/intPP/6.png"
                       className="img-fluid hover-ite"
                       alt="movimiento ciudadano"
                     />
@@ -261,7 +261,7 @@ const Integración = () => {
                     rel="noreferrer"
                   >
                     <img
-                      src="https://itetlax.org.mx/assets/img/intPP/9.jpg"
+                      src="https://itetlax.org.mx/assets/img/intPP/9.png"
                       className="img-fluid hover-ite"
                       alt="nueva alianza"
                     />
@@ -288,7 +288,7 @@ const Integración = () => {
                     rel="noreferrer"
                   >
                     <img
-                      src="https://itetlax.org.mx/assets/img/intPP/11.jpg"
+                      src="https://itetlax.org.mx/assets/img/intPP/11.png"
                       className="img-fluid hover-ite"
                       alt="fuerza x mexico"
                     />
