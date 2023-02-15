@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import ModalDownload from "../../layout/Modal/ModalDownload";
 import TitlePages from "../../layout/TitlePages";
-import { distLocal, infografias, infografiasdos } from "../../data/dataMapas";
+import { distLocal, intDist, infoRel } from "../../data/dataMapas";
 import "./Mapas.css";
 
 export default class Mapas extends Component {
@@ -45,24 +45,24 @@ export default class Mapas extends Component {
             </button>
             <button
               className="btn btn-ite"
-              id="v-pills-infografias-tab"
+              id="v-pills-intDist-tab"
               data-bs-toggle="pill"
-              data-bs-target="#v-pills-infografias"
+              data-bs-target="#v-pills-intDist"
               type="button"
               role="tab"
-              aria-controls="v-pills-infografias"
+              aria-controls="v-pills-intDist"
               aria-selected="false"
             >
               Infografías: Integración de los Distritos Electorales
             </button>
             <button
               className="btn btn-ite"
-              id="v-pills-infografiasdos-tab"
+              id="v-pills-infoRel-tab"
               data-bs-toggle="pill"
-              data-bs-target="#v-pills-infografiasdos"
+              data-bs-target="#v-pills-infoRel"
               type="button"
               role="tab"
-              aria-controls="v-pills-infografiasdos"
+              aria-controls="v-pills-infoRel"
               aria-selected="false"
             >
               Infografías: Información relevante
@@ -108,30 +108,30 @@ export default class Mapas extends Component {
               tabIndex="0"
             >
               <div className="Grid__three">
-                {distLocal.map((mapa) => (
-                  <div key={mapa.id} className="hover-ite">
-                    <div>
+                {distLocal.map((dLocal) => (
+                  <div key={dLocal.id}>
+                    <div className="hover-ite">
                       <a
                         href="/#"
                         rel="noreferrer"
                         data-bs-toggle="modal"
-                        data-bs-target={"#mapaDist" + mapa.id}
+                        data-bs-target={"#mapaDLocal" + dLocal.id}
                       >
                         <img
-                          src={mapa.link}
+                          src={dLocal.link}
                           className="img-fluid w-100 mx-auto"
-                          alt={mapa.title}
+                          alt={dLocal.title}
                         />
                       </a>
                     </div>
                     <div className="Mapas__dist-footer bg-ite">
-                      Distrito {mapa.id}
+                      Distrito {dLocal.id}
                     </div>
                     <ModalDownload
-                      idModal={"mapaDist" + mapa.id}
-                      linkIMG={mapa.link}
-                      altIMG={mapa.title}
-                      downloadModal={mapa.link}
+                      idModal={"mapaDLocal" + dLocal.id}
+                      linkIMG={dLocal.link}
+                      altIMG={dLocal.title}
+                      downloadModal={dLocal.link}
                     />
                   </div>
                 ))}
@@ -139,36 +139,36 @@ export default class Mapas extends Component {
             </div>
             <div
               className="tab-pane fade"
-              id="v-pills-infografias"
+              id="v-pills-intDist"
               role="tabpanel"
-              aria-labelledby="v-pills-infografias-tab"
+              aria-labelledby="v-pills-intDist-tab"
               tabIndex="0"
             >
               <div className="Grid__three">
-                {infografias.map((mapa) => (
-                  <div key={mapa.id} className="hover-ite">
-                    <div>
+                {intDist.map((intDistLocal) => (
+                  <div key={intDistLocal.id}>
+                    <div className="hover-ite">
                       <a
                         href="/#"
                         rel="noreferrer"
                         data-bs-toggle="modal"
-                        data-bs-target={"#mapaDist" + mapa.id}
+                        data-bs-target={"#intDistLocInfo" + intDistLocal.id}
                       >
                         <img
-                          src={mapa.link}
+                          src={intDistLocal.link}
                           className="img-fluid w-100 mx-auto"
-                          alt={mapa.title}
+                          alt={intDistLocal.title}
                         />
                       </a>
                     </div>
                     <div className="Mapas__dist-footer bg-ite">
-                       {mapa.title}
+                      {intDistLocal.title}
                     </div>
                     <ModalDownload
-                      idModal={"mapaDist" + mapa.id}
-                      linkIMG={mapa.link}
-                      altIMG={mapa.title}
-                      downloadModal={mapa.link}
+                      idModal={"intDistLocInfo" + intDistLocal.id}
+                      linkIMG={intDistLocal.link}
+                      altIMG={intDistLocal.title}
+                      downloadModal={intDistLocal.link}
                     />
                   </div>
                 ))}
@@ -176,15 +176,15 @@ export default class Mapas extends Component {
             </div>
             <div
               className="tab-pane fade"
-              id="v-pills-infografiasdos"
+              id="v-pills-infoRel"
               role="tabpanel"
               aria-labelledby="v-pills-infografias-tab"
               tabIndex="0"
             >
               <div className="Grid__three">
-                {infografiasdos.map((mapa) => (
-                  <div key={mapa.id} className="hover-ite">
-                    <div>
+                {infoRel.map((mapa) => (
+                  <div key={mapa.id}>
+                    <div className="hover-ite">
                       <a
                         href="/#"
                         rel="noreferrer"
@@ -199,7 +199,7 @@ export default class Mapas extends Component {
                       </a>
                     </div>
                     <div className="Mapas__dist-footer bg-ite">
-                       {mapa.title}
+                      {mapa.title}
                     </div>
                     <ModalDownload
                       idModal={"mapaDist" + mapa.id}

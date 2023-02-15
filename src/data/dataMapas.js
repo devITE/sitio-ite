@@ -76,7 +76,7 @@ export const distLocal = [
   },
 ];
 
-export const infografias = [
+export const intDist = [
   {
     id: 1,
     link: "https://itetlax.org.mx/assets/img/imgDemA/infografias/1.jpg",
@@ -152,9 +152,8 @@ export const infografias = [
     link: "https://itetlax.org.mx/assets/img/imgDemA/infografias/15.jpg",
     title: "Distrito Local 15",
   },
-]
-  export const infografiasdos = [
-
+];
+export const infoRel = [
   {
     id: 16,
     link: "https://itetlax.org.mx/assets/img/imgDemA/infografias/16.jpg",
@@ -220,5 +219,4 @@ export const infografias = [
     link: "https://itetlax.org.mx/assets/img/imgDemA/infografias/28.jpg",
     title: "¿Sabías qué el municipio de Huamantla...?",
   },
-  
 ];
