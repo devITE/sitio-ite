@@ -49,6 +49,19 @@ const Integración = () => {
               tabIndex="0"
             >
               <div className="w-100 Grid__four">
+              <div>
+                  <a
+                    href="https://itetlax.org.mx/assets/pdf/CG/8.pdf"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img
+                      src="https://itetlax.org.mx/assets/img/intCG/8.jpg"
+                      className="img-fluid hover-ite"
+                      alt="Secretaria Ejecutiva"
+                    />
+                  </a>
+                </div>
                 <div>
                   <a
                     href="https://itetlax.org.mx/assets/pdf/CG/1.pdf"
@@ -58,7 +71,7 @@ const Integración = () => {
                     <img
                       src="https://itetlax.org.mx/assets/img/intCG/1.jpg"
                       className="img-fluid hover-ite"
-                      alt="Presidencia"
+                      alt="Consejero Juan Carlos"
                     />
                   </a>
                 </div>
