@@ -25,3 +25,7 @@ yarn-error.log*
 # FILES
 /src/assets/pdf/~$AcuerdosINE.xlsx
 /src/assets/pdf/~$AcuerdosITE.xlsx
+/src/layout/ButtonTop.css
+/src/layout/ButtonTop.js
+/src/pages/Prueba.js
+/src/pages/reps/REPS.js
