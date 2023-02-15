@@ -24,7 +24,12 @@ export const dataConvocatorias = [
   // },
    {
      id: 1,
-     nameFile: "Convocatoria para participar como observadora u observador en la fase consultiva",
+     nameFile: "Convocatoria para participar como observadora u observador en la fase consultiva (Español)",
      linkFile: "https://itetlax.org.mx/assets/pdf/convocatorias/1.pdf",
    },
+   {
+    id: 2,
+    nameFile: "Convocatoria para participar como observadora u observador en la fase consultiva (Náhualt)",
+    linkFile: "https://itetlax.org.mx/assets/pdf/convocatorias/2.pdf",
+  },
 ];
