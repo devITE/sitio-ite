@@ -19,6 +19,8 @@ const ModalDownload = (props) => {
               href={props.downloadModal}
               download
               target="_blank"
+              without
+              rel="noreferrer"
             >
               Descargar
             </a>
