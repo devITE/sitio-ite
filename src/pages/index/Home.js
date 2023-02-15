@@ -32,9 +32,12 @@ const ITE = () => {
         //  imgLink="https://itetlax.org.mx/assets/img/ATCC/ATCC.jpeg"
         //  url="https://itetlax.org.mx/assets/img/ATCC/ATCC.jpeg"
         //  linkToo=""
-          imgLink="https://itetlax.org.mx/assets/despen/img/banner.jpg"
-          url=""
-          linkToo="/DESPEN"
+          // imgLink="https://itetlax.org.mx/assets/despen/img/banner.jpg"
+          // url=""
+          // linkToo="/DESPEN"
+          imgLink="https://itetlax.org.mx/assets/img/imgPopup/1.png"
+          url="https://itetlax.org.mx/assets/img/imgPopup/1.png"
+          linkToo=""
       />
 
       <Carousel idCarousel="carouselTopIndex">

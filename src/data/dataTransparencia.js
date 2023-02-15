@@ -580,6 +580,20 @@ export const dataCuentaPublica = [
           "https://itetlax.org.mx/assets/pdf/transparencia/infContable/cuentaPub2022/2.pdf",
         typeDocument: "pdf",
       },
+      {
+        id: 3,
+        titleItem: "Cuenta Pública 3er trimestre",
+        linkItem:
+          "https://itetlax.org.mx/assets/pdf/transparencia/infContable/cuentaPub2022/3.pdf",
+        typeDocument: "pdf",
+      },
+      {
+        id: 4,
+        titleItem: "Cuenta Pública 4to trimestre",
+        linkItem:
+          "https://itetlax.org.mx/assets/pdf/transparencia/infContable/cuentaPub2022/4.pdf",
+        typeDocument: "pdf",
+      },
     ],
   },
 ];

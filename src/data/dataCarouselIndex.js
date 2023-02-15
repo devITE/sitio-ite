@@ -194,16 +194,6 @@ export const dataCA = [
   //    linkToo: "", 
   {
     id: 1,
-    imgUrl: "https://itetlax.org.mx/assets/img/imgC_A/1.jpeg",
-    alt: "Participación política de las mujeres tlaxcaltecas en el Proceso Electoral Local Ordinario 2020-2021",
-    itemActive: "",
-    buttonActive: "",
-    ariaCurrent: "true",
-    url: "",
-    linkToo: "",
-  },
-  {
-    id: 2,
     imgUrl: "https://itetlax.org.mx/assets/img/imgC_A/3.jpg",
     alt: "Foro Democracia y Redes Sociales",
     itemActive: "active",
@@ -212,4 +202,25 @@ export const dataCA = [
     url: "",
     linkToo: "",
   },
+  {
+    id: 2,
+    imgUrl: "https://itetlax.org.mx/assets/img/imgC_A/4.jpg",
+    alt: "Foro La representación política de las mujeres en México",
+    itemActive: "",
+    buttonActive: "",
+    ariaCurrent: "true",
+    url: "",
+    linkToo: "",
+  },
+   {
+     id: 3,
+     imgUrl: "https://itetlax.org.mx/assets/img/imgC_A/1.jpeg",
+     alt: "Participación política de las mujeres tlaxcaltecas en el Proceso Electoral Local Ordinario 2020-2021",
+     itemActive: "",
+     buttonActive: "",
+     ariaCurrent: "true",
+     url: "",
+     linkToo: "",
+   },
+
 ];
