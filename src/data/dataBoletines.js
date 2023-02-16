@@ -2472,46 +2472,46 @@ export const dataBoletines2022 = [
 export const dataBoletines2023 = [
   {
     id: 1,
-    yearBoletin: "2022",
+    yearBoletin: "2023",
     monthBoletin: "ENE",
     nameBoletin:
-      "BOLETÍN 01- DECLARA ITE CONCLUSIÓN DEL PROCESO ELECTORAL EXTRAORDINARIO",
-    linkBoletin: "https://itetlax.org.mx/assets/pdf/boletines/2022/1.pdf",
+      "BOLETÍN 01- ACTUALIZA ITE MULTAS A PARTIDOS PARA 2023",
+    linkBoletin: "https://itetlax.org.mx/assets/pdf/boletines/2023/1.pdf",
   },
   {
     id: 2,
-    yearBoletin: "2022",
+    yearBoletin: "2023",
     monthBoletin: "ENE",
     nameBoletin:
-      "BOLETÍN 01- DECLARA ITE CONCLUSIÓN DEL PROCESO ELECTORAL EXTRAORDINARIO",
-    linkBoletin: "https://itetlax.org.mx/assets/pdf/boletines/2022/1.pdf",
+      "BOLETÍN 02- Trabajo conjunto, clave en impulso a participación de juventudes, coinciden panelistsa",
+    linkBoletin: "https://itetlax.org.mx/assets/pdf/boletines/2023/2.pdf",
   }, {
     id: 3,
-    yearBoletin: "2022",
+    yearBoletin: "2023",
     monthBoletin: "ENE",
     nameBoletin:
-      "BOLETÍN 01- DECLARA ITE CONCLUSIÓN DEL PROCESO ELECTORAL EXTRAORDINARIO",
-    linkBoletin: "https://itetlax.org.mx/assets/pdf/boletines/2022/1.pdf",
+      "BOLETÍN 03- RINDE PROTESTA EMMANUEL ÁVILA GONZÁLEZ COMO PRESIDENTE DEL ITE",
+    linkBoletin: "https://itetlax.org.mx/assets/pdf/boletines/2023/3.pdf",
   }, {
     id: 4,
-    yearBoletin: "2022",
-    monthBoletin: "ENE",
+    yearBoletin: "2023",
+    monthBoletin: "FEB",
     nameBoletin:
-      "BOLETÍN 01- DECLARA ITE CONCLUSIÓN DEL PROCESO ELECTORAL EXTRAORDINARIO",
-    linkBoletin: "https://itetlax.org.mx/assets/pdf/boletines/2022/1.pdf",
+      "BOLETÍN 04- EN MAL ESTADO 70% DEL PARQUE VEHICULAR DEL ITE",
+    linkBoletin: "https://itetlax.org.mx/assets/pdf/boletines/2023/4.pdf",
   }, {
     id: 5,
-    yearBoletin: "2022",
-    monthBoletin: "ENE",
+    yearBoletin: "2023",
+    monthBoletin: "FEB",
     nameBoletin:
-      "BOLETÍN 01- DECLARA ITE CONCLUSIÓN DEL PROCESO ELECTORAL EXTRAORDINARIO",
-    linkBoletin: "https://itetlax.org.mx/assets/pdf/boletines/2022/1.pdf",
+      "BOLETÍN 05- REFUERZA ITE ACCIONES DE IMPULSO A PARTICIPACIÓN JUVENIL",
+    linkBoletin: "https://itetlax.org.mx/assets/pdf/boletines/2023/5.pdf",
   }, {
     id: 6,
-    yearBoletin: "2022",
-    monthBoletin: "ENE",
+    yearBoletin: "2023",
+    monthBoletin: "FEB",
     nameBoletin:
-      "BOLETÍN 01- DECLARA ITE CONCLUSIÓN DEL PROCESO ELECTORAL EXTRAORDINARIO",
-    linkBoletin: "https://itetlax.org.mx/assets/pdf/boletines/2022/1.pdf",
+      "BOLETÍN 06- Boletín 006-ABRE ITE CONVOCATORIA PARA OBSERVACIÓN EN CONSULTA A COMUNIDADADES",
+    linkBoletin: "https://itetlax.org.mx/assets/pdf/boletines/2023/6.pdf",
   },
 ];
