@@ -133,6 +133,7 @@ import Boletines2019 from "./pages/comunicacionSocial/boletines/Boletines2019";
 import Boletines2020 from "./pages/comunicacionSocial/boletines/Boletines2020";
 import Boletines2021 from "./pages/comunicacionSocial/boletines/Boletines2021";
 import Boletines2022 from "./pages/comunicacionSocial/boletines/Boletines2022";
+import Boletines2023 from "./pages/comunicacionSocial/boletines/Boletines2023";
 
 import Monitoreo from "./pages/comunicacionSocial/monitoreos/Monitoreo";
 import Monitoreos2015 from "./pages/comunicacionSocial/monitoreos/Monitoreos2015";
@@ -312,6 +313,7 @@ function App() {
           <Route path="/Boletines2020" element={<Boletines2020 />} />
           <Route path="/Boletines2021" element={<Boletines2021 />} />
           <Route path="/Boletines2022" element={<Boletines2022 />} />
+          <Route path="/Boletines2023" element={<Boletines2023 />} />
 
           <Route path="/Monitoreo" element={<Monitoreo />} />
           <Route path="/Monitoreos2015" element={<Monitoreos2015 />} />
