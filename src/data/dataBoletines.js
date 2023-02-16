@@ -2469,3 +2469,49 @@ export const dataBoletines2022 = [
     linkBoletin: "https://itetlax.org.mx/assets/pdf/boletines/2022/48.pdf",
   },
 ];
+export const dataBoletines2023 = [
+  {
+    id: 1,
+    yearBoletin: "2022",
+    monthBoletin: "ENE",
+    nameBoletin:
+      "BOLETÍN 01- DECLARA ITE CONCLUSIÓN DEL PROCESO ELECTORAL EXTRAORDINARIO",
+    linkBoletin: "https://itetlax.org.mx/assets/pdf/boletines/2022/1.pdf",
+  },
+  {
+    id: 2,
+    yearBoletin: "2022",
+    monthBoletin: "ENE",
+    nameBoletin:
+      "BOLETÍN 01- DECLARA ITE CONCLUSIÓN DEL PROCESO ELECTORAL EXTRAORDINARIO",
+    linkBoletin: "https://itetlax.org.mx/assets/pdf/boletines/2022/1.pdf",
+  }, {
+    id: 3,
+    yearBoletin: "2022",
+    monthBoletin: "ENE",
+    nameBoletin:
+      "BOLETÍN 01- DECLARA ITE CONCLUSIÓN DEL PROCESO ELECTORAL EXTRAORDINARIO",
+    linkBoletin: "https://itetlax.org.mx/assets/pdf/boletines/2022/1.pdf",
+  }, {
+    id: 4,
+    yearBoletin: "2022",
+    monthBoletin: "ENE",
+    nameBoletin:
+      "BOLETÍN 01- DECLARA ITE CONCLUSIÓN DEL PROCESO ELECTORAL EXTRAORDINARIO",
+    linkBoletin: "https://itetlax.org.mx/assets/pdf/boletines/2022/1.pdf",
+  }, {
+    id: 5,
+    yearBoletin: "2022",
+    monthBoletin: "ENE",
+    nameBoletin:
+      "BOLETÍN 01- DECLARA ITE CONCLUSIÓN DEL PROCESO ELECTORAL EXTRAORDINARIO",
+    linkBoletin: "https://itetlax.org.mx/assets/pdf/boletines/2022/1.pdf",
+  }, {
+    id: 6,
+    yearBoletin: "2022",
+    monthBoletin: "ENE",
+    nameBoletin:
+      "BOLETÍN 01- DECLARA ITE CONCLUSIÓN DEL PROCESO ELECTORAL EXTRAORDINARIO",
+    linkBoletin: "https://itetlax.org.mx/assets/pdf/boletines/2022/1.pdf",
+  },
+];
