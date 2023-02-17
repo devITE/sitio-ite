@@ -32,12 +32,14 @@ const ITE = () => {
         //  imgLink="https://itetlax.org.mx/assets/img/ATCC/ATCC.jpeg"
         //  url="https://itetlax.org.mx/assets/img/ATCC/ATCC.jpeg"
         //  linkToo=""
-          // imgLink="https://itetlax.org.mx/assets/despen/img/banner.jpg"
-          // url=""
-          // linkToo="/DESPEN"
-          imgLink="https://itetlax.org.mx/assets/img/imgPopup/1.png"
-          url="https://itetlax.org.mx/assets/img/imgPopup/1.png"
-          linkToo=""
+        // imgLink="https://itetlax.org.mx/assets/despen/img/banner.jpg"
+        // url=""
+        // linkToo="/DESPEN"
+        // imgLink="https://itetlax.org.mx/assets/img/imgPopup/1.png"
+        // url="https://itetlax.org.mx/assets/img/imgPopup/1.png"
+        imgLink="https://itetlax.org.mx/assets/img/imgPopup/convocatoriaDESPEN.png"
+        url="https://www.ine.mx/comunidad-ine/convocatoria-concurso-publico-2022-2023-de-ingreso-sistema-ople/"
+        linkToo=""
       />
 
       <Carousel idCarousel="carouselTopIndex">
@@ -54,9 +56,7 @@ const ITE = () => {
       </Carousel>
       <div className="mt-4 Home__AR-A">
         <div>
-          <h2 className="bottom_title">
-          TALLER LA JUVENTUD EN LA POLÍTICA
-          </h2>
+          <h2 className="bottom_title">TALLER LA JUVENTUD EN LA POLÍTICA</h2>
           <div className="Home__video-embed ratio ratio-16x9 w-100">
             <iframe
               id="9QQCf_emFwo"
@@ -133,7 +133,7 @@ const ITE = () => {
             ></iframe>
           </div>
           <h5 className="mt-3 text-center">
-          Sesión Presencial Extraordinaria del CG 10/02/2023
+            Sesión Presencial Extraordinaria del CG 10/02/2023
           </h5>
         </div>
         <div>
