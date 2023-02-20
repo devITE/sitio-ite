@@ -8,10 +8,10 @@ export const dataEstrados = [
   // },
  {
   id: 1,
-  nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 0252",
-  linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/2.pdf",
-  nameFolio: "FOLIO 0252-2023",
-  linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/2.1.pdf",
+  nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 0317-2023",
+  linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/4.pdf",
+  nameFolio: "FOLIO 0317-2023",
+  linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/4.1.pdf",
 },
 ];
 

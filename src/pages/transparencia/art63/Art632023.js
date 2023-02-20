@@ -6,9 +6,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFileExcel } from "@fortawesome/free-solid-svg-icons";
 import { dataArt632023 } from "../../../data/dataObTrans2023";
 
-const Art632022 = () => {
+const Art632023 = () => {
   useEffect(() => {
-    document.title = `ITE - Art. 63 2022`;
+    document.title = `ITE - Art. 63 2023`;
   }, []);
 
   const columns = useMemo(
@@ -277,4 +277,4 @@ const Art632022 = () => {
   );
 };
 
-export default Art632022;
+export default Art632023;

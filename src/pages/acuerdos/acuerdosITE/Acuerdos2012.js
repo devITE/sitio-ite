@@ -1,4 +1,4 @@
-import React, { useMemo } from "react";
+import React, { useMemo, useEffect } from "react";
 import TitlePages from "../../../layout/TitlePages";
 import MaterialReactTable from "material-react-table";
 import { MenuItem, TextField } from "@mui/material";
@@ -6,7 +6,10 @@ import { dataAcuerdos2012 } from "../../../data/dataAcuerdos";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
 
-const Acuerdos2012 = () => {
+const AcuerdosITE2012 = () => {
+  useEffect(() => {
+    document.title = `Acuerdos ITE 2012`;
+  }, []);
   const columns = useMemo(
     () => [
       {
@@ -149,4 +152,4 @@ const Acuerdos2012 = () => {
     </>
   );
 };
-export default Acuerdos2012;
+export default AcuerdosITE2012;

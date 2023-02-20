@@ -1,10 +1,12 @@
-import React, { Component } from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import TitlePages from "../../layout/TitlePages";
 
-export default class Acuerdos extends Component {
-  render() {
-    return (
+const Acuerdos = () => {
+  useEffect(() => {
+    document.title = `ITE - Acuerdos`;
+  }, []);
+    return(
       <>
         <TitlePages title="Acuerdos" subTitle="" />
         
@@ -164,4 +166,4 @@ export default class Acuerdos extends Component {
       </>
     );
   }
-}
+  export default Acuerdos;

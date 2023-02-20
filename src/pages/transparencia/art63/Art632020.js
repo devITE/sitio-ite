@@ -1,4 +1,4 @@
-import React, { useMemo } from "react";
+import React, { useMemo, useEffect } from "react";
 import TitlePages from "../../../layout/TitlePages";
 import MaterialReactTable from "material-react-table";
 import { Box } from "@mui/material";
@@ -7,6 +7,9 @@ import { faFileExcel, faFilePdf } from "@fortawesome/free-solid-svg-icons";
 import { dataArt632020 } from "../../../data/dataTransparenciaArt63";
 
 const Art632020 = () => {
+  useEffect(() => {
+    document.title = `Artículo 63 2020`;
+  }, []);
   const columns = useMemo(
     () => [
       {
