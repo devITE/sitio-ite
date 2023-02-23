@@ -56,11 +56,11 @@ const ITE = () => {
       </Carousel>
       <div className="mt-4 Home__AR-A">
         <div>
-          <h2 className="bottom_title">TALLER LA JUVENTUD EN LA POLÍTICA</h2>
+          <h2 className="bottom_title">Foro: Democracia y Redes Sociales</h2>
           <div className="Home__video-embed ratio ratio-16x9 w-100">
             <iframe
               id="9QQCf_emFwo"
-              src="https://www.youtube-nocookie.com/embed/LUzMhAI17rg?rel=0"
+              src="https://www.youtube-nocookie.com/embed/-4KdCwkpVA4?rel=0"
               title="Foro: La confianza y participación de la juventud en la democracia"
               allowFullScreen
             ></iframe>
