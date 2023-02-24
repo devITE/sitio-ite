@@ -91,22 +91,6 @@ export const dataCIndex = [
     linkToo: "",
   },
   // {
-  //   id: 2,
-  //   imgUrl: "https://itetlax.org.mx/assets/img/imgC_I/convPTlx.jpg",
-  //   alt: "Convocatoria Consejero Presidente(a)",
-  //   url: "https://itetlax.org.mx/assets/pdf/carousel/convocatoriaPresidente.pdf",
-  //   linkToo: "",
-  // },
-
-  // {
-  //   id: 13,
-  //   imgUrl: "https://itetlax.org.mx/assets/img/imgC_I/votaFilm.png",
-  //   alt: "votal Film",
-  //   url: "https://itetlax.org.mx/assets/pdf/carousel/votafilm.pdf",
-  //   linkToo: "",
-  // },
-
-  // {
   //   id: 15,
   //   imgUrl: "https://itetlax.org.mx/assets/img/imgC_I/bannercarrusel.jpeg",
   //   alt: "Resgistro Observador/a",
@@ -188,16 +172,6 @@ export const dataCAR = [
 ];
 
 export const dataCA = [
-  //  {
-  //    id: 1,
-  //    imgUrl: "https://itetlax.org.mx/assets/img/sesionesCG/SE-100223.png",
-  //    alt: "Sesión Extraordinaria Presencial del CG 10/02/2023",
-  //    itemActive: "active",
-  //    buttonActive: "active",
-  //    ariaCurrent: "true",
-  //    url: "",
-  //    linkToo: "",
-
   {
     id: 1,
     imgUrl: "https://itetlax.org.mx/assets/img/imgC_A/5.jpg",
@@ -205,7 +179,7 @@ export const dataCA = [
     itemActive: "active",
     buttonActive: "active",
     ariaCurrent: "true",
-    url: "",
+    url: "https://forms.gle/UfDZHcPhwQYifBSz9",
     linkToo: "",
   },
   {
@@ -217,6 +191,16 @@ export const dataCA = [
   },
   {
     id: 3,
+    imgUrl: "https://itetlax.org.mx/assets/img/sesionesCG/SO-280223.jpeg",
+    alt: "Sesión Ordinaria Presencial del CG 28/02/2023",
+    //    itemActive: "active",
+    //    buttonActive: "active",
+    //    ariaCurrent: "true",
+    url: "https://itetlax.org.mx/assets/img/sesionesCG/SO-280223.jpeg",
+    linkToo: "",
+  },
+  {
+    id: 4,
     imgUrl: "https://itetlax.org.mx/assets/img/imgC_A/1.jpeg",
     alt: "Participación política de las mujeres tlaxcaltecas en el Proceso Electoral Local Ordinario 2020-2021",
     // itemActive: "active",

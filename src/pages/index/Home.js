@@ -40,7 +40,7 @@ const ITE = () => {
         // imgLink="https://itetlax.org.mx/assets/img/imgPopup/convocatoriaDESPEN.png"
         // url="https://www.ine.mx/comunidad-ine/convocatoria-concurso-publico-2022-2023-de-ingreso-sistema-ople/"
         imgLink="https://itetlax.org.mx/assets/img/imgC_A/5.jpg"
-        url="https://itetlax.org.mx/assets/img/imgC_A/5.jpg"
+        url="https://forms.gle/UfDZHcPhwQYifBSz9"
         linkToo=""
       />
 
