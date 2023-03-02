@@ -230,4 +230,9 @@ export const dataVideoPodCast = [
     url: "cCxNQAd5S_E",
     title: 'ITE Comentamos... Foros para promover la reflexión ciudadana',
   },
+  {
+    id: 42,
+    url: "BkiJWMhcwp4",
+    title: '¿Sabías qué en el ITE contamos con 12 plazas que pertenecen al SPEN del Sistema de los Organismos Públicos Locales Electorales?',
+  },
 ];

@@ -256,6 +256,40 @@ export const dataAcuerdos2023 = [
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/14.pdf",
     subRows: "",
   },
+  {
+    id: 15,
+    year: "2023",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 15-2023",
+    monthDoc: "FEB",
+    nameDoc: "SE APRUEBA DICTAMEN GENERAL DE RESULTADOS EVALUACIÓN SPEN",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/15.pdf",
+    subRows: [
+      {
+        typeDoc: "",
+        nameDoc: "ANEXO ÚNICO. DICTAMEN",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/15.1.pdf",
+        subRows: "",
+      },
+  ]
+  },
+  {
+    id: 16,
+    year: "2023",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 16-2023",
+    monthDoc: "FEB",
+    nameDoc: "DESIGNACIÓN DEL PERSONAL QUE INTEGRARÁ LAS MESAS RECEPTORAS DE CONSULTA",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/16.pdf",
+    subRows: [
+      {
+        typeDoc: "",
+        nameDoc: "ANEXO ÚNICO. DICTAMEN",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/16.1.pdf",
+        subRows: "",
+      },
+  ]
+  },
 ];
 
 // ------------ A C U E R D O S    I N E ------------
