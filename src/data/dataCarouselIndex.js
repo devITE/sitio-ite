@@ -184,8 +184,8 @@ export const dataCA = [
   // },
   {
     id: 1,
-    imgUrl: "https://itetlax.org.mx/assets/img/imgC_A/4.jpg",
-    alt: "Foro La representación política de las mujeres en México",
+    imgUrl: "https://itetlax.org.mx/assets/img/imgC_A/9.jpg",
+    alt: "Medusas Sufragistas",
     itemActive: "active",
     buttonActive: "active",
     ariaCurrent: "true",
@@ -195,8 +195,8 @@ export const dataCA = [
 
   {
     id: 2,
-    imgUrl: "https://itetlax.org.mx/assets/img/imgC_A/7.jpg",
-    alt: "Participación política de las mujeres tlaxcaltecas en el Proceso Electoral Local Ordinario 2020-2021",
+    imgUrl: "https://itetlax.org.mx/assets/img/imgC_A/8.jpg",
+    alt: "Conferencia Magistral",
     url: "",
     linkToo: "",
   },

@@ -27,30 +27,48 @@ export const dataNormatividad = [
     pdfMobile: "",
     word: "",
   },
+  {
+    id: 4,
+    nameDoc: "Reglamento del Instituto Tlaxcalteca de Elecciones en Materia de Archivos (Acuerdo ITE-CG 23-2022)",
+    post: "",
+    lastUpdate: "",
+    pdf: "https://itetlax.org.mx/assets/pdf/archivistico/6.pdf",
+    pdfMobile: "",
+    word: "",
+  },
 ];
 
 export const dataPlaneacion = [
   {
     id: 1,
-    nameDoc: "Programa Anual de Desarrollo Archivístico",
+    nameDoc: "Programa Anual de Desarrollo Archivístico 2022",
     post: "",
     lastUpdate: "",
-    pdf: "",
+    pdf: "https://itetlax.org.mx/assets/pdf/archivistico/2.pdf",
     word: "",
-    subRows: "",
+    // subRows: "",
   },
   {
     id: 2,
+    nameDoc: "Programa Anual de Desarrollo Archivístico 2023",
+    post: "",
+    lastUpdate: "",
+    pdf: "https://itetlax.org.mx/assets/pdf/archivistico/3.pdf",
+    word: "",
+    // subRows: "",
+  },
+  {
+    id: 3,
     nameDoc:
       "Informe Anual de Cumplimiento del Programa de Desarrollo Archivístico",
     post: "",
     lastUpdate: "",
-    pdf: "",
+    pdf: "https://itetlax.org.mx/assets/pdf/archivistico/4.pdf",
     word: "",
-    subRows: "",
+    // subRows: "",
   },
   {
-    id: 3,
+    id: 4,
     nameDoc: "Integrantes del Sistema Institucional de Archivo",
     post: "",
     lastUpdate: "",
@@ -58,16 +76,25 @@ export const dataPlaneacion = [
     word: "",
     subRows: "",
   },
+  {
+    id: 5,
+    nameDoc: "Sistema Institucional de Archivos (SIA)",
+    post: "",
+    lastUpdate: "",
+    pdf: "https://itetlax.org.mx/assets/pdf/archivistico/7.pdf",
+    word: "",
+    // subRows: "",
+  },
 ];
 export const dataInstrumentos = [
   {
     id: 1,
     nameDoc: "Cuadro General de Clasificación Archivística",
-    post: "",
+    post: "03/03/2023",
     lastUpdate: "",
-    pdf: "",
+    pdf: "https://itetlax.org.mx/assets/pdf/archivistico/1.pdf",
     word: "",
-    subRows: "",
+    // subRows: "",
   },
   {
     id: 2,
@@ -95,5 +122,14 @@ export const dataInstrumentos = [
     pdf: "",
     word: "",
     subRows: "",
+  },
+  {
+    id: 5,
+    nameDoc: "Ficha Técnica De Valoración Documental",
+    post: "03/03/2023",
+    lastUpdate: "",
+    pdf: "https://itetlax.org.mx/assets/pdf/archivistico/5.pdf",
+    word: "",
+    // subRows: "",
   },
 ];
