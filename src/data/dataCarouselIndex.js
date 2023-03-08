@@ -169,6 +169,13 @@ export const dataCAR = [
     url: "",
     linkToo: "",
   },
+  {
+    id: 10,
+    imgUrl: "https://itetlax.org.mx/assets/img/imgC_AR/10.png",
+    alt: "Convocatoria Certamen IEEM",
+    url: "https://itetlax.org.mx/assets/pdf/Act_Rec/Certamen_IEEM.pdf",
+    linkToo: "",
+  },
 ];
 
 export const dataCA = [
