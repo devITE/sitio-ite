@@ -13,8 +13,8 @@ export default class DESPEN extends Component {
     return (
       <>
         <ModalInit
-          imgLink="https://itetlax.org.mx/assets/despen/img/banner.jpg"
-          url=""
+          imgLink="https://itetlax.org.mx/assets/img/imgPopup/3.png"
+          url="https://www.ine.mx/comunidad-ine/convocatoria-concurso-publico-2022-2023-de-ingreso-sistema-ople/"
           linkToo=""
         />
 
