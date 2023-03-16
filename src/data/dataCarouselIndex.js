@@ -75,13 +75,6 @@ export const dataCIndex = [
   },
   {
     id: 11,
-    imgUrl: "https://itetlax.org.mx/assets/img/imgC_I/despen.png",
-    alt: "Convocatoria DESPEN 2022",
-    url: "",
-    linkToo: "/DESPEN",
-  },
-  {
-    id: 12,
     imgUrl: "https://itetlax.org.mx/assets/img/imgC_I/comunidades.jpeg",
     alt: "micrositioComunidades",
     itemActive: "active",
@@ -191,8 +184,8 @@ export const dataCA = [
   // },
   {
     id: 1,
-    imgUrl: "https://itetlax.org.mx/assets/img/imgC_A/9.jpg",
-    alt: "Medusas Sufragistas",
+    imgUrl: "https://itetlax.org.mx/assets/img/imgC_A/7.jpg",
+    alt: "Participación Política de las mujeres tlaxcaltecas",
     itemActive: "active",
     buttonActive: "active",
     ariaCurrent: "true",
@@ -200,11 +193,4 @@ export const dataCA = [
     linkToo: "",
   },
 
-  {
-    id: 2,
-    imgUrl: "https://itetlax.org.mx/assets/img/imgC_A/8.jpg",
-    alt: "Conferencia Magistral",
-    url: "",
-    linkToo: "",
-  },
 ];
