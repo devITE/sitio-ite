@@ -9,182 +9,106 @@
   margin: 40px 0 0 0;
 }
 
-.Memoria__grid {
-  padding: 0 10px;
-  display: grid;
-}
-
-.Memoria__item {
-  box-shadow: 3px 3px 3px #818181;
-}
-
-.Memoria__item:hover {
-  transition: 0.5s;
-  transform: scale(1.05);
-}
-
-.Memoria__header {
-  background-color: #aa0787;
-  color: #ffffff;
-  text-align: center;
-}
-
-.Infografias__grid {
-  display: grid;
-}
-
-.Infografias__grid-item {
-  border-radius: 5px;
-  box-shadow: 6px 6px 10px #818181;
-}
-
-.Infografias__grid-item:hover {
-  transform: scale(1.05);
-  transition: 0.5s;
-}
-
-.OCI__grid {
-  display: grid;
-}
-
-.hover:hover {
+/* .hover:hover {
   transform: scale(102%);
   transition: cubic-bezier(0.77, 0, 0.175, 1);
-}
+} */
+
 .shadow_card {
   box-shadow: 10px 10px 10px rgb(143, 143, 143) !important;
 }
+
 .shadow_img {
   box-shadow: -10px 10px 8px rgb(46, 46, 46) !important;
 }
-.background_Body {
-  background-color: #aa238d;
+
+.grid-4 {
+  display: grid;
 }
-.background_Foot {
-  background-color: #eeeeee !important;
+
+.grid-4-item {
+  height: 100% !important;
+  box-shadow: 10px 10px 10px rgb(143, 143, 143) !important;
 }
-.rounded_Sup {
-  border-radius: 2% 2% 0% 0%;
+
+.grid-4-item div:nth-child(1) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-a:link,
-a:visited,
-a.hover:hover {
-  text-decoration: none;
-  color: #aa0787 !important;
+
+.grid-4-item div:nth-child(2) {
+  text-align: center;
+  -webkit-text-stroke: 2px #aa0787;
+  letter-spacing: 2px;
+  color: #aa0787;
+  padding: 0px 5px;
 }
+
 
 /* --------------- M E D I A     Q U E R I E S --------------- */
 
 /* general */
 @media only screen and (min-width: 1024px) {
-  .p-auto {
-    padding: 40px !important;
-  }
-  .Memoria__grid {
-    grid-template-columns: auto auto auto auto;
+  .grid-4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     gap: 20px;
   }
 
-  .Memoria__header {
-    background-color: #aa0787;
-    color: #ffffff;
-    padding: 5px 0;
-    text-align: center;
-    font-size: 20px;
+  .grid-4-item div:nth-child(1) {
+    height: 75% !important;
+    padding: 30px 0px !important;
   }
 
-  .Infografias__grid {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 30px;
-  }
-
-  .OCI__grid {
-    grid-template-columns: auto auto auto auto;
-    gap: 30px;
-  }
-  .text__Cargo {
-    color: #aa0787;
-    font-size: 20px;
-    font-weight: 900;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  .text__Nombre {
-    color: #aa0787;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+  .grid-4-item div:nth-child(2) {
+    height: 25% !important;
+    font-size: 20px !important;
   }
 }
 
 /* tablets */
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
-  .p-auto {
-    padding: 20px !important;
-  }
-  .Memoria__grid {
-    grid-template-columns: auto auto auto;
-    gap: 30px;
-  }
-
-  .Memoria__header {
-    font-size: 20px;
-  }
-
-  .Infografias__grid {
+  .grid-4 {
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 30px;
+    grid-template-rows: 1fr 1fr;
+    gap: 15px;
   }
-  .text__Cargo {
-    color: #aa0787;
-    font-size: 20px;
-    font-weight: 900;
-    font-family: Arial, Helvetica, sans-serif;
+
+  .grid-4-item div:nth-child(1) {
+    height: 75% !important;
+    padding: 30px 0px !important;
   }
-  .text__Cargo {
-    color: #aa0787;
-    font-size: 15px;
-    font-weight: 900;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  .text__Nombre {
-    color: #aa0787;
-    font-size: 15px;
-    font-family: Arial, Helvetica, sans-serif;
+
+  .grid-4-item div:nth-child(2) {
+    height: 25% !important;
+    font-size: 15px !important;
   }
 }
 
 /* mobil */
 @media only screen and (max-width: 767px) {
-  .p-auto {
-    padding: 15px !important;
-  }
-  .Memoria__grid {
-    grid-template-columns: auto auto;
+  .grid-4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     gap: 20px;
   }
 
-  .Memoria__header {
-    font-size: 15px;
+  .grid-4-item div:nth-child(1) {
+    height: 60% !important;
+    padding: 0px;
   }
 
-  .Infografias__grid {
-    grid-template-columns: 1fr 1fr;
-    gap: 30px;
+  .grid-4-item div:nth-child(1) img {
+    margin: 10px !important;
   }
-  .text__Cargo {
-    color: #aa0787;
-    font-size: 20px;
-    font-weight: 900;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  .text__Cargo {
-    color: #aa0787;
-    font-size: 15px;
-    font-weight: 900;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  .text__Nombre {
-    color: #aa0787;
-    font-size: 10px;
-    font-family: Arial, Helvetica, sans-serif;
+
+  .grid-4-item div:nth-child(2) {
+    height: 40% !important;
+    font-size: 12px !important;
+
   }
 }
