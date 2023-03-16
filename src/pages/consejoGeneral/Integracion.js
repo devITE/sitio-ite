@@ -49,183 +49,181 @@ const Integración = () => {
             aria-labelledby="v-pills-integracion-tab"
             tabIndex="0"
           >
-            <div className="w-100 Grid__four">
-              {/* PRESIDENTE */}
-              <a
-                href="https://itetlax.org.mx/assets/pdf/CG/1.pdf"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <div className="card hover-ite shadow_card">
-                  <div className="p-auto card-body background_Body rounded_Sup">
+            <div className="w-100 grid-4">
+              <div className="rounded grid-4-item bg-secondary bg-opacity-25">
+                <a
+                  href="https://itetlax.org.mx/assets/pdf/CG/1.pdf"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="nav-link"
+                >
+                  <div className="bg-ite">
                     <img
-                      src="https://itetlax.org.mx/assets/img/consejeros/Emmanuel.png"
-                      className="shadow_img rounded img-fluid shadow_img"
+                      src="https://itetlax.org.mx/assets/img/intCG/1.png"
+                      className="shadow_img rounded img-fluid w-75"
                       alt="Emmanuel Ávila González"
                     />
                   </div>
-                  <div className="card-footer background_Foot">
-                    <p className="text__Cargo">Consejero Presidente</p>
-                    <p className="text__Nombre">
+
+                  <div>
+                    <p>Consejero Presidente</p>
+                    <p>
                       Lic. Emmanuel Ávila <br />
                       González
                     </p>
                   </div>
-                </div>
-              </a>
-              {/* SECRETARIA */}
-              <a
-                href="https://itetlax.org.mx/assets/pdf/CG/8.pdf"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <div className="card hover-ite shadow_card">
-                  <div className=" p-auto card-body background_Body rounded_Sup">
+                </a>
+              </div>
+              <div className="rounded grid-4-item bg-secondary bg-opacity-25">
+                <a
+                  href="https://itetlax.org.mx/assets/pdf/CG/8.pdf"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="nav-link"
+                >
+                  <div className="bg-ite">
                     <img
-                      src="https://itetlax.org.mx/assets/img/consejeros/Elizabeth.png"
-                      className="shadow_img rounded img-fluid shadow_img"
+                      src="https://itetlax.org.mx/assets/img/intCG/2.png"
+                      className="shadow_img rounded img-fluid w-75"
                       alt="Elizabeth Vázquez Alonso"
                     />
                   </div>
-                  <div className="card-footer background_Foot">
-                    <p className="text__Cargo">Secretaria Ejecutiva</p>
-                    <p className="text__Nombre">
-                      Mtra. Elizabeth Vázquez Alonso
-                    </p>
+
+                  <div>
+                    <p>Secretaria Ejecutiva</p>
+                    <p>Mtra. Elizabeth Vázquez Alonso</p>
                   </div>
-                </div>
-              </a>
-              {/* ERIKA */}
-              <a
-                href="https://itetlax.org.mx/assets/pdf/CG/2.pdf"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <div className="card hover-ite shadow_card">
-                  <div className=" p-auto card-body background_Body rounded_Sup">
+                </a>
+              </div>
+              <div className="rounded grid-4-item bg-secondary bg-opacity-25">
+                <a
+                  href="https://itetlax.org.mx/assets/pdf/CG/2.pdf"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="nav-link"
+                >
+                  <div className="bg-ite">
                     <img
-                      src="https://itetlax.org.mx/assets/img/consejeros/Erika.png"
-                      className="shadow_img rounded img-fluid shadow_img"
+                      src="https://itetlax.org.mx/assets/img/intCG/3.png"
+                      className="shadow_img rounded img-fluid w-75"
                       alt="Erika Periañez Rodríguez"
                     />
                   </div>
-                  <div className="card-footer background_Foot">
-                    <p className="text__Cargo">Consejera Electoral</p>
-                    <p className="text__Nombre">
-                      Lic. Erika Periañez Rodríguez
-                    </p>
+
+                  <div>
+                    <p>Consejera Electoral</p>
+                    <p>Lic. Erika Periañez Rodríguez</p>
                   </div>
-                </div>
-              </a>
-              {/* ALDAVE */}
-              <a
-                href="https://itetlax.org.mx/assets/pdf/CG/3.pdf"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <div className="card hover-ite shadow_card">
-                  <div className=" p-auto card-body background_Body rounded_Sup">
+                </a>
+              </div>
+              <div className="rounded grid-4-item bg-secondary bg-opacity-25">
+                <a
+                  href="https://itetlax.org.mx/assets/pdf/CG/3.pdf"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="nav-link"
+                >
+                  <div className="bg-ite">
                     <img
-                      src="https://itetlax.org.mx/assets/img/consejeros/Aldave.png"
-                      className="shadow_img rounded img-fluid shadow_img"
+                      src="https://itetlax.org.mx/assets/img/intCG/4.png"
+                      className="shadow_img rounded img-fluid w-75"
                       alt="Edgar Alfonso Aldave Aguilar"
                     />
                   </div>
-                  <div className="card-footer background_Foot">
-                    <p className="text__Cargo">Consejero Electoral </p>
-                    <p className="text__Nombre">
-                      Lic. Edgar Alfonso Aldave Aguilar
-                    </p>
+
+                  <div>
+                    <p>Consejero Electoral </p>
+                    <p>Lic. Edgar Alfonso Aldave Aguilar</p>
                   </div>
-                </div>
-              </a>
-              {/* JANET */}
-              <a
-                href="https://itetlax.org.mx/assets/pdf/CG/4.pdf"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <div className="card hover-ite shadow_card">
-                  <div className=" p-auto card-body background_Body rounded_Sup">
+                </a>
+              </div>
+              <div className="rounded grid-4-item bg-secondary bg-opacity-25">
+                <a
+                  href="https://itetlax.org.mx/assets/pdf/CG/4.pdf"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="nav-link"
+                >
+                  <div className="bg-ite">
                     <img
-                      src="https://itetlax.org.mx/assets/img/consejeros/Janet.png"
-                      className="shadow_img rounded img-fluid shadow_img"
+                      src="https://itetlax.org.mx/assets/img/intCG/5.png"
+                      className="shadow_img rounded img-fluid w-75"
                       alt="Janet Cervante Ahuatzi"
                     />
                   </div>
-                  <div className="card-footer background_Foot">
-                    <p className="text__Cargo">Consejera Electoral</p>
-                    <p className="text__Nombre">Lic. Janet Cervante Ahuatzi</p>
+
+                  <div>
+                    <p>Consejera Electoral</p>
+                    <p>Lic. Janet Cervante Ahuatzi</p>
                   </div>
-                </div>
-              </a>
-              {/* HERMENEGILDO */}
-              <a
-                href="https://itetlax.org.mx/assets/pdf/CG/5.pdf"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <div className="card hover-ite shadow_card">
-                  <div className=" p-auto card-body background_Body rounded_Sup">
+                </a>
+              </div>
+              <div className="rounded grid-4-item bg-secondary bg-opacity-25">
+                <a
+                  href="https://itetlax.org.mx/assets/pdf/CG/5.pdf"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="nav-link"
+                >
+                  <div className="bg-ite">
                     <img
-                      src="https://itetlax.org.mx/assets/img/consejeros/Neria.png"
-                      className="shadow_img rounded img-fluid shadow_img"
+                      src="https://itetlax.org.mx/assets/img/intCG/6.png"
+                      className="shadow_img rounded img-fluid w-75"
                       alt="Hermenegildo Neria Carreño"
                     />
                   </div>
-                  <div className="card-footer background_Foot">
-                    <p className="text__Cargo">Consejero Electoral</p>
-                    <p className="text__Nombre">
-                      Lic. Hermenegildo Neria Carreño
-                    </p>
+
+                  <div>
+                    <p>Consejero Electoral</p>
+                    <p>Lic. Hermenegildo Neria Carreño</p>
                   </div>
-                </div>
-              </a>
-              {/* YEDITH */}
-              <a
-                href="https://itetlax.org.mx/assets/pdf/CG/6.pdf"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <div className="card hover-ite shadow_card">
-                  <div className=" p-auto card-body background_Body rounded_Sup">
+                </a>
+              </div>
+              <div className="rounded grid-4-item bg-secondary bg-opacity-25">
+                <a
+                  href="https://itetlax.org.mx/assets/pdf/CG/6.pdf"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="nav-link"
+                >
+                  <div className="bg-ite">
                     <img
-                      src="https://itetlax.org.mx/assets/img/consejeros/Yedith.png"
-                      className="shadow_img rounded img-fluid shadow_img"
+                      src="https://itetlax.org.mx/assets/img/intCG/7.png"
+                      className="shadow_img rounded img-fluid w-75"
                       alt="Yedith Martínez Pinillo"
                     />
                   </div>
-                  <div className="card-footer background_Foot">
-                    <p className="text__Cargo">Consejera Electoral</p>
-                    <p className="text__Nombre">
+
+                  <div>
+                    <p>Consejera Electoral</p>
+                    <p>
                       Lic. Yedith Martínez <br />
                       Pinillo
                     </p>
                   </div>
-                </div>
-              </a>
-              {/* JUAN */}
-              <a
-                href="https://itetlax.org.mx/assets/pdf/CG/7.pdf"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <div className="card hover-ite shadow_card">
-                  <div className=" p-auto card-body background_Body rounded_Sup">
+                </a>
+              </div>
+              <div className="rounded grid-4-item bg-secondary bg-opacity-25">
+                <a
+                  href="https://itetlax.org.mx/assets/pdf/CG/7.pdf"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="nav-link"
+                >
+                  <div className="bg-ite">
                     <img
-                      src="https://itetlax.org.mx/assets/img/consejeros/JuanCarlos.png"
-                      className="shadow_img rounded img-fluid shadow_img"
+                      src="https://itetlax.org.mx/assets/img/intCG/8.png"
+                      className="shadow_img rounded img-fluid w-75"
                       alt="Secretaria Ejecutiva"
                     />
                   </div>
-                  <div className="card-footer background_Foot">
-                    <p className="text__Cargo">Consejero Electoral</p>
-                    <p className="text__Nombre">
-                      Mtro. Juan Carlos Minor Marquez
-                    </p>
+
+                  <div>
+                    <p>Consejero Electoral</p>
+                    <p>Mtro. Juan Carlos Minor Marquez</p>
                   </div>
-                </div>
-              </a>
+                </a>
+              </div>
             </div>
           </div>
           <div
