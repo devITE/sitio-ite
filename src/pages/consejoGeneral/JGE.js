@@ -1,8 +1,10 @@
-import React, { Component } from "react";
+import React, { useEffect } from "react";
 import TitlePages from "../../layout/TitlePages";
 
-export default class JGE extends Component {
-  render() {
+const JGE = () => {
+  useEffect(() => {
+    document.title = `ITE - Junta General Ejecutiva`;
+  }, []);
     return (
       <>
         <TitlePages title="Junta General Ejecutiva" subTitle="" />
@@ -20,4 +22,4 @@ export default class JGE extends Component {
       </>
     );
   }
-}
+  export default JGE;

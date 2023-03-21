@@ -1278,6 +1278,7 @@ export const dataArt632018 = [
     actualizacion: "2018",
     excel: "",
     pdf: "",
+    subRows: "",
   },
   {
     no: "4",
@@ -1325,6 +1326,7 @@ export const dataArt632018 = [
     actualizacion: "2018",
     excel: "",
     pdf: "",
+    subRows: "",
   },
   {
     no: "8",
@@ -2375,6 +2377,7 @@ export const dataArt632019 = [
         pdf4: "",
         pdf5: "",
         pdf6: "",
+        subRows: "",
       },
       {
         no: "",
@@ -2396,6 +2399,7 @@ export const dataArt632019 = [
         pdf4: "",
         pdf5: "",
         pdf6: "",
+        subRows: "",
       },
     ],
   },
@@ -6193,6 +6197,7 @@ export const dataArt632022 = [
       "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F01.xlsx",
     excel2: "",
     excel3: "",
+    excel4: "",
   },
   {
     no: "2",
@@ -6205,6 +6210,7 @@ export const dataArt632022 = [
     excel1: "",
     excel2: "",
     excel3: "",
+    excel4: "",
     subRows: [
       {
         no: "",
@@ -6218,6 +6224,7 @@ export const dataArt632022 = [
           "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F02A.xlsx",
         excel2: "",
         excel3: "",
+        excel4: "",
       },
       {
         no: "",
@@ -6231,6 +6238,7 @@ export const dataArt632022 = [
           "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F02B.xlsx",
         excel2: "",
         excel3: "",
+        excel4: "",
       },
     ],
   },
@@ -6246,6 +6254,7 @@ export const dataArt632022 = [
       "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F03.xlsx",
     excel2: "",
     excel3: "",
+    excel4: "",
   },
   {
     no: "4",
@@ -6259,6 +6268,7 @@ export const dataArt632022 = [
       "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F04.xlsx",
     excel2: "",
     excel3: "",
+    excel4: "",
   },
   {
     no: "5",
@@ -6272,7 +6282,9 @@ export const dataArt632022 = [
       "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F05_1.xlsx",
     excel2:
       "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F05_2.xlsx",
-    excel3: "",
+    excel3:
+      "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F05_3.xlsx",
+    excel4: "",
   },
   {
     no: "6",
@@ -6286,7 +6298,9 @@ export const dataArt632022 = [
       "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F06_1.xlsx",
     excel2:
       "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F06_2.xlsx",
-    excel3: "",
+    excel3:
+      "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F06_3.xlsx",
+    excel4: "",
   },
   {
     no: "7",
@@ -6300,6 +6314,7 @@ export const dataArt632022 = [
       "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F07.xlsx",
     excel2: "",
     excel3: "",
+    excel4: "",
   },
   {
     no: "8",
@@ -6312,6 +6327,7 @@ export const dataArt632022 = [
     excel1: "",
     excel2: "",
     excel3: "",
+    excel4: "",
     subRows: [
       {
         no: "",
@@ -6325,7 +6341,9 @@ export const dataArt632022 = [
           "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F08A_1.xlsx",
         excel2:
           "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F08A_2.xlsx",
-        excel3: "",
+        excel3:
+          "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F08A_3.xlsx",
+        excel4: "",
       },
       {
         no: "",
@@ -6339,7 +6357,9 @@ export const dataArt632022 = [
           "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F08B_1.xlsx",
         excel2:
           "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F08B_2.xlsx",
-        excel3: "",
+        excel3:
+          "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F08B_3.xlsx",
+        excel4: "",
       },
     ],
   },
@@ -6355,7 +6375,9 @@ export const dataArt632022 = [
       "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F09_1.xlsx",
     excel2:
       "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F09_2.xlsx",
-    excel3: "",
+    excel3:
+      "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F09_3.xlsx",
+    excel4: "",
   },
   {
     no: "10",
@@ -6368,6 +6390,7 @@ export const dataArt632022 = [
     excel1: "",
     excel2: "",
     excel3: "",
+    excel4: "",
     subRows: [
       {
         no: "",
@@ -6381,6 +6404,7 @@ export const dataArt632022 = [
           "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F10A.xlsx",
         excel2: "",
         excel3: "",
+        excel4: "",
       },
       {
         no: "",
@@ -6395,6 +6419,7 @@ export const dataArt632022 = [
           "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F10B.xlsx",
         excel2: "",
         excel3: "",
+        excel4: "",
       },
     ],
   },
@@ -6410,7 +6435,9 @@ export const dataArt632022 = [
       "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F11_1.xlsx",
     excel2:
       "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F11_2.xlsx",
-    excel3: "",
+    excel3:
+      "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F11_3.xlsx",
+    excel4: "",
   },
   {
     no: "12",
@@ -6425,7 +6452,9 @@ export const dataArt632022 = [
       "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F12_1.xlsx",
     excel2:
       "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F12_2.xlsx",
-    excel3: "",
+    excel3:
+      "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F12_3.xlsx",
+    excel4: "",
   },
   {
     no: "13",
@@ -6439,6 +6468,7 @@ export const dataArt632022 = [
       "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F13.xlsx",
     excel2: "",
     excel3: "",
+    excel4: "",
   },
   {
     no: "14",
@@ -6452,7 +6482,9 @@ export const dataArt632022 = [
       "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F14_1.xlsx",
     excel2:
       "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F14_2.xlsx",
-    excel3: "",
+    excel3:
+      "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F14_3.xlsx",
+    excel4: "",
   },
   {
     no: "15",
@@ -6465,6 +6497,7 @@ export const dataArt632022 = [
     excel1: "",
     excel2: "",
     excel3: "",
+    excel4: "",
     subRows: [
       {
         no: "",
@@ -6477,6 +6510,7 @@ export const dataArt632022 = [
         excel1: "",
         excel2: "",
         excel3: "",
+        excel4: "",
         subRows: "",
       },
       {
@@ -6490,6 +6524,7 @@ export const dataArt632022 = [
         excel1: "",
         excel2: "",
         excel3: "",
+        excel4: "",
         subRows: "",
       },
     ],
@@ -6505,6 +6540,7 @@ export const dataArt632022 = [
     excel1: "",
     excel2: "",
     excel3: "",
+    excel4: "",
     subRows: [
       {
         no: "",
@@ -6515,9 +6551,11 @@ export const dataArt632022 = [
           "Articulo. 63 Fraccion XVI-A de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
         actualizacion: "2022",
         excel1:
-          "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F16A.xlsx",
-        excel2: "",
+          "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F16A_1.xlsx",
+        excel2:
+          "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F16A_2.xlsx",
         excel3: "",
+        excel4: "",
       },
       {
         no: "",
@@ -6531,7 +6569,9 @@ export const dataArt632022 = [
           "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F16B_1.xlsx",
         excel2:
           "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F16B_2.xlsx",
-        excel3: "",
+        excel3:
+          "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F16B_3.xlsx",
+        excel4: "",
       },
     ],
   },
@@ -6547,6 +6587,7 @@ export const dataArt632022 = [
       "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F17.xlsx",
     excel2: "",
     excel3: "",
+    excel4: "",
   },
   {
     no: "18",
@@ -6560,7 +6601,9 @@ export const dataArt632022 = [
       "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F18_1.xlsx",
     excel2:
       "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F18_2.xlsx",
-    excel3: "",
+    excel3:
+      "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F18_3.xlsx",
+    excel4: "",
   },
   {
     no: "19",
@@ -6574,6 +6617,7 @@ export const dataArt632022 = [
       "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F19.xlsx",
     excel2: "",
     excel3: "",
+    excel4: "",
   },
   {
     no: "20",
@@ -6587,6 +6631,7 @@ export const dataArt632022 = [
       "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F20.xlsx",
     excel2: "",
     excel3: "",
+    excel4: "",
   },
   {
     no: "21",
@@ -6599,6 +6644,7 @@ export const dataArt632022 = [
     excel1: "",
     excel2: "",
     excel3: "",
+    excel4: "",
     subRows: [
       {
         no: "",
@@ -6608,10 +6654,11 @@ export const dataArt632022 = [
         fundamentoLegal:
           "Articulo. 63 Fraccion XX-B de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
         actualizacion: "2022",
-        excel:
+        excel1:
           "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F21A.xlsx",
         excel2: "",
         excel3: "",
+        excel4: "",
       },
       {
         no: "",
@@ -6625,7 +6672,9 @@ export const dataArt632022 = [
           "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F21B_1.xlsx",
         excel2:
           "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F21B_2.xlsx",
-        excel3: "",
+        excel3:
+          "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F21B_3.xlsx",
+        excel4: "",
       },
       {
         no: "",
@@ -6635,9 +6684,11 @@ export const dataArt632022 = [
         fundamentoLegal:
           "Articulo. 63 Fraccion XX-C de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
         actualizacion: "2022",
-        excel1: "",
+        excel1:
+          "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F21C.xlsx",
         excel2: "",
         excel3: "",
+        excel4: "",
       },
     ],
   },
@@ -6652,6 +6703,7 @@ export const dataArt632022 = [
     excel1: "",
     excel2: "",
     excel3: "",
+    excel4: "",
     subRows: "",
   },
   {
@@ -6665,6 +6717,7 @@ export const dataArt632022 = [
     excel1: "",
     excel2: "",
     excel3: "",
+    excel4: "",
     subRows: [
       {
         no: "",
@@ -6678,6 +6731,7 @@ export const dataArt632022 = [
           "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F23A.xlsx",
         excel2: "",
         excel3: "",
+        excel4: "",
       },
       {
         no: "",
@@ -6688,9 +6742,11 @@ export const dataArt632022 = [
           "Articulo. 63 Fraccion XXIII-B de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
         actualizacion: "2022",
         excel1:
-          "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F23B.xlsx",
-        excel2: "",
+          "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F23B_1.xlsx",
+        excel2:
+          "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F23B_2.xlsx",
         excel3: "",
+        excel4: "",
       },
       {
         no: "",
@@ -6701,9 +6757,11 @@ export const dataArt632022 = [
           "Articulo. 63 Fraccion XXIII-C de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
         actualizacion: "2022",
         excel1:
-          "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F23C.xlsx",
-        excel2: "",
+          "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F23C_1.xlsx",
+        excel2:
+          "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F23C_2.xlsx",
         excel3: "",
+        excel4: "",
       },
       {
         no: "",
@@ -6715,9 +6773,11 @@ export const dataArt632022 = [
           "Articulo. 63 Fraccion XXIII-D de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
         actualizacion: "2022",
         excel1:
-          "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F23D.xlsx",
-        excel2: "",
+          "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F23D_1.xlsx",
+        excel2:
+          "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F23D_2.xlsx",
         excel3: "",
+        excel4: "",
       },
     ],
   },
@@ -6733,8 +6793,8 @@ export const dataArt632022 = [
       "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F24_1.xlsx",
     excel2:
       "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F24_2.xlsx",
-    excel3:
-      "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F24_3.xlsx",
+    excel3: "",
+    excel4: "",
   },
   {
     no: "25",
@@ -6748,6 +6808,7 @@ export const dataArt632022 = [
       "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F25.xlsx",
     excel2: "",
     excel3: "",
+    excel4: "",
   },
   {
     no: "26",
@@ -6761,7 +6822,9 @@ export const dataArt632022 = [
       "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F26_1.xlsx",
     excel2:
       "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F26_2.xlsx",
-    excel3: "",
+    excel3:
+      "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F26_3.xlsx",
+    excel4: "",
   },
   {
     no: "27",
@@ -6776,7 +6839,9 @@ export const dataArt632022 = [
       "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F27_1.xlsx",
     excel2:
       "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F27_2.xlsx",
-    excel3: "",
+    excel3:
+      "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F27_3.xlsx",
+    excel4: "",
   },
   {
     no: "28",
@@ -6789,6 +6854,7 @@ export const dataArt632022 = [
     excel1: "",
     excel2: "",
     excel3: "",
+    excel4: "",
     subRows: [
       {
         no: "",
@@ -6803,7 +6869,9 @@ export const dataArt632022 = [
           "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F28A_1.xlsx",
         excel2:
           "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F28A_2.xlsx",
-        excel3: "",
+        excel3:
+          "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F28A_3.xlsx",
+        excel4: "",
       },
       {
         no: "",
@@ -6817,7 +6885,9 @@ export const dataArt632022 = [
           "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F28B_1.xlsx",
         excel2:
           "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F28B_2.xlsx",
-        excel3: "",
+        excel3:
+          "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F28B_3.xlsx",
+        excel4: "",
       },
     ],
   },
@@ -6830,10 +6900,11 @@ export const dataArt632022 = [
       "Articulo. 63 Fraccion XXIX de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
     actualizacion: "2022",
     excel1:
-      "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F29_1.xlsx",
+      "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F29.xlsx",
     excel2:
-      "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F29_2.xlsx",
+      "",
     excel3: "",
+    excel4: "",
   },
   {
     no: "30",
@@ -6847,6 +6918,7 @@ export const dataArt632022 = [
       "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F30.xlsx",
     excel2: "",
     excel3: "",
+    excel4: "",
   },
   {
     no: "31",
@@ -6859,6 +6931,7 @@ export const dataArt632022 = [
     excel1: "",
     excel2: "",
     excel3: "",
+    excel4: "",
     subRows: [
       {
         no: "",
@@ -6872,7 +6945,9 @@ export const dataArt632022 = [
           "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F31A_1.xlsx",
         excel2:
           "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F31A_2.xlsx",
-        excel3: "",
+        excel3:
+          "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F31A_3.xlsx",
+        excel4: "",
       },
       {
         no: "",
@@ -6887,7 +6962,9 @@ export const dataArt632022 = [
           "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F31B_1.xlsx",
         excel2:
           "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F31B_2.xlsx",
-        excel3: "",
+        excel3:
+          "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F31B_3.xlsx",
+        excel4: "",
       },
     ],
   },
@@ -6903,7 +6980,9 @@ export const dataArt632022 = [
       "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F32_1.xlsx",
     excel2:
       "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F32_2.xlsx",
-    excel3: "",
+    excel3:
+      "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F32_3.xlsx",
+    excel4: "",
   },
   {
     no: "33",
@@ -6915,10 +6994,11 @@ export const dataArt632022 = [
       "Articulo. 63 Fraccion XXXIII de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
     actualizacion: "2022",
     excel1:
-      "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F33_1.xlsx",
+      "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F33.xlsx",
     excel2:
-      "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F33_2.xlsx",
+      "",
     excel3: "",
+    excel4: "",
   },
   {
     no: "34",
@@ -6931,6 +7011,7 @@ export const dataArt632022 = [
     excel1: "",
     excel2: "",
     excel3: "",
+    excel4: "",
     subRows: [
       {
         no: "",
@@ -6941,9 +7022,11 @@ export const dataArt632022 = [
           "Articulo. 63 Fraccion XXXIV-A de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
         actualizacion: "2022",
         excel1:
-          "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F34A.xlsx",
-        excel2: "",
+          "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F34A_1.xlsx",
+        excel2:
+          "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F34A_2.xlsx",
         excel3: "",
+        excel4: "",
       },
       {
         no: "",
@@ -6954,9 +7037,11 @@ export const dataArt632022 = [
           "Articulo. 63 Fraccion XXXIV-B de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
         actualizacion: "2022",
         excel1:
-          "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F34B.xlsx",
-        excel2: "",
+          "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F34B_1.xlsx",
+        excel2:
+          "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F34B_2.xlsx",
         excel3: "",
+        excel4: "",
       },
       {
         no: "",
@@ -6967,9 +7052,11 @@ export const dataArt632022 = [
           "Articulo. 63 Fraccion XXXIV-C de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
         actualizacion: "2022",
         excel1:
-          "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F34C.xlsx",
-        excel2: "",
+          "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F34C_1.xlsx",
+        excel2:
+          "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F34C_2.xlsx",
         excel3: "",
+        excel4: "",
       },
       {
         no: "",
@@ -6980,9 +7067,11 @@ export const dataArt632022 = [
           "Articulo. 63 Fraccion XXXIV-D de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
         actualizacion: "2022",
         excel1:
-          "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F34D.xlsx",
-        excel2: "",
+          "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F34D_1.xlsx",
+        excel2:
+          "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F34D_2.xlsx",
         excel3: "",
+        excel4: "",
       },
       {
         no: "",
@@ -6993,9 +7082,11 @@ export const dataArt632022 = [
           "Articulo. 63 Fraccion XXXIV-E de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
         actualizacion: "2022",
         excel1:
-          "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F34E.xlsx",
-        excel2: "",
+          "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F34E_1.xlsx",
+        excel2:
+          "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F34E_2.xlsx",
         excel3: "",
+        excel4: "",
       },
       {
         no: "",
@@ -7007,8 +7098,10 @@ export const dataArt632022 = [
         actualizacion: "2022",
         excel1:
           "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F34F.xlsx",
-        excel2: "",
+        excel2:
+          "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F34G.xlsx",
         excel3: "",
+        excel4: "",
       },
       {
         no: "",
@@ -7019,9 +7112,11 @@ export const dataArt632022 = [
           "Articulo. 63 Fraccion XXXIV-G de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
         actualizacion: "2022",
         excel1:
-          "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F34G.xlsx",
-        excel2: "",
+          "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F34G_1.xlsx",
+        excel2:
+          "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F34G_2.xlsx",
         excel3: "",
+        excel4: "",
       },
     ],
   },
@@ -7036,6 +7131,7 @@ export const dataArt632022 = [
     excel1: "",
     excel2: "",
     excel3: "",
+    excel4: "",
     subRows: [
       {
         no: "",
@@ -7046,10 +7142,10 @@ export const dataArt632022 = [
           "Articulo. 63 Fraccion XXXV-A de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
         actualizacion: "2022",
         excel1:
-          "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F35A_1.xlsx",
-        excel2:
-          "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F35A_2.xlsx",
+          "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F35A.xlsx",
+        excel2: "",
         excel3: "",
+        excel4: "",
       },
       {
         no: "",
@@ -7060,10 +7156,10 @@ export const dataArt632022 = [
           "Articulo. 63 Fraccion XXXV-B de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
         actualizacion: "2022",
         excel1:
-          "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F35B_1.xlsx",
-        excel2:
-          "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F35B_2.xlsx",
+          "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F35B.xlsx",
+        excel2: "",
         excel3: "",
+        excel4: "",
       },
       {
         no: "",
@@ -7075,10 +7171,10 @@ export const dataArt632022 = [
           "Articulo. 63 Fraccion XXXV-C de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
         actualizacion: "2022",
         excel1:
-          "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F35C_1.xlsx",
-        excel2:
-          "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F35C_2.xlsx",
+          "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F35C.xlsx",
+        excel2: "",
         excel3: "",
+        excel4: "",
       },
     ],
   },
@@ -7093,6 +7189,7 @@ export const dataArt632022 = [
     excel1: "",
     excel2: "",
     excel3: "",
+    excel4: "",
     subRows: "",
   },
   {
@@ -7106,6 +7203,7 @@ export const dataArt632022 = [
     excel1: "",
     excel2: "",
     excel3: "",
+    excel4: "",
     subRows: [
       {
         no: "",
@@ -7119,6 +7217,7 @@ export const dataArt632022 = [
           "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F37A.xlsx",
         excel2: "",
         excel3: "",
+        excel4: "",
       },
       {
         no: "",
@@ -7132,6 +7231,7 @@ export const dataArt632022 = [
           "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F37B.xlsx",
         excel2: "",
         excel3: "",
+        excel4: "",
       },
     ],
   },
@@ -7146,6 +7246,7 @@ export const dataArt632022 = [
     excel1: "",
     excel2: "",
     excel3: "",
+    excel4: "",
     subRows: [
       {
         no: "",
@@ -7160,6 +7261,7 @@ export const dataArt632022 = [
         excel2:
           "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F38A_2.xlsx",
         excel3: "",
+        excel4: "",
       },
       {
         no: "",
@@ -7174,6 +7276,7 @@ export const dataArt632022 = [
         excel2:
           "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F38B_2.xlsx",
         excel3: "",
+        excel4: "",
       },
     ],
   },
@@ -7188,6 +7291,7 @@ export const dataArt632022 = [
     excel1: "",
     excel2: "",
     excel3: "",
+    excel4: "",
     subRows: [
       {
         no: "",
@@ -7197,9 +7301,10 @@ export const dataArt632022 = [
         fundamentoLegal:
           "Articulo. 63 Fraccion XXXIX-A de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
         actualizacion: "2022",
-        excel1: "",
+        excel1: "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F39A.xlsx",
         excel2: "",
         excel3: "",
+        excel4: "",
       },
       {
         no: "",
@@ -7209,9 +7314,10 @@ export const dataArt632022 = [
         fundamentoLegal:
           "Articulo. 63 Fraccion XXXIX-B de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
         actualizacion: "2022",
-        excel1: "",
+        excel1: "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F39B.xlsx",
         excel2: "",
         excel3: "",
+        excel4: "",
       },
       {
         no: "",
@@ -7225,6 +7331,7 @@ export const dataArt632022 = [
           "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F39C.xlsx",
         excel2: "",
         excel3: "",
+        excel4: "",
       },
       {
         no: "",
@@ -7238,6 +7345,7 @@ export const dataArt632022 = [
           "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F39D.xlsx",
         excel2: "",
         excel3: "",
+        excel4: "",
       },
     ],
   },
@@ -7252,6 +7360,7 @@ export const dataArt632022 = [
     excel1: "",
     excel2: "",
     excel3: "",
+    excel4: "",
     subRows: [
       {
         no: "",
@@ -7266,6 +7375,7 @@ export const dataArt632022 = [
           "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F40A.xlsx",
         excel2: "",
         excel3: "",
+        excel4: "",
       },
       {
         no: "",
@@ -7279,6 +7389,7 @@ export const dataArt632022 = [
           "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F40B.xlsx",
         excel2: "",
         excel3: "",
+        excel4: "",
       },
     ],
   },
@@ -7294,7 +7405,9 @@ export const dataArt632022 = [
       "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F41_1.xlsx",
     excel2:
       "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F41_2.xlsx",
-    excel3: "",
+    excel3:
+      "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F41_3.xlsx",
+    excel4: "",
   },
   {
     no: "42",
@@ -7307,6 +7420,7 @@ export const dataArt632022 = [
     excel1: "",
     excel2: "",
     excel3: "",
+    excel4: "",
     subRows: [
       {
         no: "",
@@ -7320,6 +7434,7 @@ export const dataArt632022 = [
           "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F42A.xlsx",
         excel2: "",
         excel3: "",
+        excel4: "",
       },
       {
         no: "",
@@ -7333,6 +7448,7 @@ export const dataArt632022 = [
           "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F42B.xlsx",
         excel2: "",
         excel3: "",
+        excel4: "",
       },
     ],
   },
@@ -7347,6 +7463,7 @@ export const dataArt632022 = [
     excel1: "",
     excel2: "",
     excel3: "",
+    excel4: "",
     subRows: [
       {
         no: "",
@@ -7361,7 +7478,9 @@ export const dataArt632022 = [
           "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F43A_1.xlsx",
         excel2:
           "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F43A_2.xlsx",
-        excel3: "",
+        excel3:
+          "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F43A_3.xlsx",
+        excel4: "",
       },
       {
         no: "",
@@ -7375,7 +7494,9 @@ export const dataArt632022 = [
           "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F43B_1.xlsx",
         excel2:
           "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F43B_2.xlsx",
-        excel3: "",
+        excel3:
+          "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F43B_3.xlsx",
+        excel4: "",
       },
     ],
   },
@@ -7390,6 +7511,7 @@ export const dataArt632022 = [
     excel1: "",
     excel2: "",
     excel3: "",
+    excel4: "",
     subRows: [
       {
         no: "",
@@ -7402,6 +7524,7 @@ export const dataArt632022 = [
         excel1: "",
         excel2: "",
         excel3: "",
+        excel4: "",
         subRows: "",
       },
       {
@@ -7415,6 +7538,7 @@ export const dataArt632022 = [
         excel1: "",
         excel2: "",
         excel3: "",
+        excel4: "",
         subRows: "",
       },
     ],
@@ -7428,9 +7552,11 @@ export const dataArt632022 = [
       "Articulo. 63 Fraccion XLV de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
     actualizacion: "2022",
     excel1:
-      "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F45.xlsx",
-    excel2: "",
+      "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F45_1.xlsx",
+    excel2:
+      "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F45_2.xlsx",
     excel3: "",
+    excel4: "",
   },
   {
     no: "46",
@@ -7443,6 +7569,7 @@ export const dataArt632022 = [
     excel1: "",
     excel2: "",
     excel3: "",
+    excel4: "",
     subRows: [
       {
         no: "",
@@ -7458,6 +7585,8 @@ export const dataArt632022 = [
           "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F46A_2.xlsx",
         excel3:
           "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F46A_3.xlsx",
+        excel4:
+          "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F46A_4.xlsx",
       },
       {
         no: "",
@@ -7473,6 +7602,8 @@ export const dataArt632022 = [
           "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F46B_2.xlsx",
         excel3:
           "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F46B_3.xlsx",
+        excel4:
+          "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F46B_4.xlsx",
       },
     ],
   },
@@ -7487,6 +7618,7 @@ export const dataArt632022 = [
     excel1: "",
     excel2: "",
     excel3: "",
+    excel4: "",
     subRows: [
       {
         no: "",
@@ -7500,6 +7632,7 @@ export const dataArt632022 = [
           "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F47A.xlsx",
         excel2: "",
         excel3: "",
+        excel4: "",
       },
       {
         no: "",
@@ -7513,6 +7646,7 @@ export const dataArt632022 = [
           "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F47B.xlsx",
         excel2: "",
         excel3: "",
+        excel4: "",
       },
       {
         no: "",
@@ -7526,6 +7660,7 @@ export const dataArt632022 = [
           "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F47C.xlsx",
         excel2: "",
         excel3: "",
+        excel4: "",
       },
     ],
   },
@@ -7541,5 +7676,6 @@ export const dataArt632022 = [
       "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F100.xlsx",
     excel2: "",
     excel3: "",
+    excel4: "",
   },
 ];

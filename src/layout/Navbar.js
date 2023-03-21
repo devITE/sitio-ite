@@ -205,7 +205,6 @@ export default class Navbar extends Component {
                   </li>
                 </ul>
               </li>
-
               <li className="nav-item">
                 <Link to="./ComunicacionSocial" className="nav-link">
                   Comunicación Social
@@ -220,6 +219,61 @@ export default class Navbar extends Component {
                 <Link to="./DESPEN" className="nav-link">
                   DESPEN
                 </Link>
+              </li>
+              <li className="nav-item dropdown">
+                <Link
+                  to="./"
+                  className="nav-link dropdown-toggle"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Archivo
+                </Link>
+                <ul className="dropdown-menu">
+                  <li>
+                    <Link
+                      to="./InstrumentosNormativos"
+                      className="dropdown-item"
+                    >
+                      Instrumentos Normativos
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      to="./PlaneacionArchivistica"
+                      className="dropdown-item"
+                    >
+                      Planeación Archivística
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      to="./InstrumentosArchivisticos"
+                      className="dropdown-item"
+                    >
+                      Instrumentos Archivísticos
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      to="./InfografiasArchivo"
+                      className="dropdown-item disabled"
+                    >
+                      Infografías
+                    </Link>
+                  </li>
+                </ul>
+              </li>
+              <li className="nav-item">
+                <a
+                  href="https://encuesta-satisfaccion.itetlax.org.mx/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="nav-link"
+                >
+                  Encuesta de Satisfacción
+                </a>
               </li>
             </ul>
           </div>

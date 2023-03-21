@@ -1,12 +1,16 @@
-import React, { useMemo } from "react";
+import React, { useMemo, useEffect } from "react";
 import TitlePages from "../../../layout/TitlePages";
 import MaterialReactTable from "material-react-table";
+// import { Box } from "@mui/material";
 import { MenuItem, TextField } from "@mui/material";
 import { dataAcuerdos2023 } from "../../../data/dataAcuerdos2023";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
 
 const Acuerdos2023 = () => {
+  useEffect(() => {
+    document.title = `ITE - Acuerdos ITE 2023`;
+  }, []);
   const columns = useMemo(
     () => [
       {

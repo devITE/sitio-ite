@@ -135,6 +135,20 @@ export default class OIC extends Component {
             </Link>
             <p className="mt-2">Galería</p>
           </div>
+          <div>
+            <a
+              href="https://itetlax.org.mx/assets/pdf/OIC/15.pdf"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <img
+                className="img-fluid"
+                src="https://itetlax.org.mx/assets/img/icons/e16.png"
+                alt="1er. Informe Anual de Actividades OIC"
+              />
+            </a>
+            <p className="mt-2">1er. Informe Anual de Actividades OIC</p>
+          </div>
         </div>
         <Modal
           idModal="EstructuraOrganica"

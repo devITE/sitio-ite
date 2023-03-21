@@ -1,4 +1,4 @@
-import React, { useMemo } from "react";
+import React, { useEffect, useMemo } from "react";
 import TitlePages from "../../../layout/TitlePages";
 import MaterialReactTable from "material-react-table";
 import { Box } from "@mui/material";
@@ -7,6 +7,9 @@ import { faFileExcel, faFilePdf } from "@fortawesome/free-solid-svg-icons";
 import { dataArt632017 } from "../../../data/dataTransparenciaArt63";
 
 const Art632017 = () => {
+  useEffect(() => {
+    document.title = `Artículo 63 2017`;
+  }, []);
   const columns = useMemo(
     () => [
       {
@@ -91,12 +94,12 @@ const Art632017 = () => {
             <Box id="Box">
               <>
                 <p className="text-strong">
-                  Descarga el archivo de la Fracción:
+                  Descarga los archivo de la Fracción {row.original.fraccion}
                 </p>
                 <div className="row">
                   <div className="col-md-6">
                     {row.original.excel
-                      ? row.original.excel.substring(14, 100).slice(0, -26)
+                      ? row.original.excel.substring(61, 100).slice(0, -5)
                       : []}{" "}
                     <a
                       href={row.original.excel}
@@ -111,7 +114,7 @@ const Art632017 = () => {
                   </div>
                   <div className="col-md-6">
                     {row.original.pdf
-                      ? row.original.pdf.substring(14, 100).slice(0, -26)
+                      ? row.original.pdf.substring(59, 100).slice(0, -4)
                       : []}{" "}
                     <a href={row.original.pdf} target="_blank" rel="noreferrer">
                       <FontAwesomeIcon

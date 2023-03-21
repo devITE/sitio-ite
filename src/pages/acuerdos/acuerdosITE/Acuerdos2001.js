@@ -1,4 +1,4 @@
-import React, { useMemo } from "react";
+import React, { useMemo,useEffect } from "react";
 import TitlePages from "../../../layout/TitlePages";
 import MaterialReactTable from "material-react-table";
 import {
@@ -10,6 +10,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
 
 const Acuerdos2001 = () => {
+  useEffect(() => {
+    document.title = `ITE - Acuerdos ITE 2001`;
+  }, []);
   const columns = useMemo(
     () => [
       {

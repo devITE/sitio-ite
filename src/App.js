@@ -79,6 +79,8 @@ import Acuerdos2023 from "./pages/acuerdos/acuerdosITE/Acuerdos2023";
 
 //Demarcaciones
 import Acuerdos from "./pages/demarcaciones/Acuerdos";
+import Distritacion2015 from "./pages/demarcaciones/Distritacion2015";
+import Distritacion2022 from "./pages/demarcaciones/Distritacion2022";
 import Mapas from "./pages/demarcaciones/Mapas";
 
 //Transparencia
@@ -92,6 +94,7 @@ import Art632019 from "./pages/transparencia/art63/Art632019";
 import Art632020 from "./pages/transparencia/art63/Art632020";
 import Art632021 from "./pages/transparencia/art63/Art632021";
 import Art632022 from "./pages/transparencia/art63/Art632022";
+import Art632023 from "./pages/transparencia/art63/Art632023";
 
 //Transparencia Artículo 67
 import Articulo67 from "./pages/transparencia/art67/Articulo67";
@@ -130,6 +133,7 @@ import Boletines2019 from "./pages/comunicacionSocial/boletines/Boletines2019";
 import Boletines2020 from "./pages/comunicacionSocial/boletines/Boletines2020";
 import Boletines2021 from "./pages/comunicacionSocial/boletines/Boletines2021";
 import Boletines2022 from "./pages/comunicacionSocial/boletines/Boletines2022";
+import Boletines2023 from "./pages/comunicacionSocial/boletines/Boletines2023";
 
 import Monitoreo from "./pages/comunicacionSocial/monitoreos/Monitoreo";
 import Monitoreos2015 from "./pages/comunicacionSocial/monitoreos/Monitoreos2015";
@@ -148,6 +152,12 @@ import EleccionesEscolares from "./pages/culturaCivica/EleccionesEscolares";
 import ParlamentoInfantil from "./pages/culturaCivica/ParlamentoInfantil";
 import ParlamentoJuvenil from "./pages/culturaCivica/ParlamentoJuvenil";
 import ValoresDemocracia from "./pages/culturaCivica/ValoresDemocracia";
+
+//Archivo
+import InfografiasArchivo from "./pages/archivo/InfografiasArchivo";
+import InstrumentosArchivisticos from "./pages/archivo/InstrumentosArchivisticos";
+import InstrumentosNormativos from "./pages/archivo/InstrumentosNormativos";
+import PlaneacionArchivistica from "./pages/archivo/PlaneacionArchivistica";
 
 //Micrositios
 import REPS from "./pages/reps/REPS";
@@ -241,6 +251,8 @@ function App() {
 
           {/* Demarcaciones */}
           <Route path="/Acuerdos" element={<Acuerdos />} />
+          <Route path="/Distritacion2015" element={<Distritacion2015 />} />
+          <Route path="/Distritacion2022" element={<Distritacion2022 />} />
           <Route path="/Mapas" element={<Mapas />} />
 
           {/* Transparencia */}
@@ -254,6 +266,7 @@ function App() {
           <Route path="/Art632020" element={<Art632020 />} />
           <Route path="/Art632021" element={<Art632021 />} />
           <Route path="/Art632022" element={<Art632022 />} />
+          <Route path="/Art632023" element={<Art632023 />} />
 
           {/* Artículo 67 */}
           <Route path="/Articulo67" element={<Articulo67 />} />
@@ -300,6 +313,7 @@ function App() {
           <Route path="/Boletines2020" element={<Boletines2020 />} />
           <Route path="/Boletines2021" element={<Boletines2021 />} />
           <Route path="/Boletines2022" element={<Boletines2022 />} />
+          <Route path="/Boletines2023" element={<Boletines2023 />} />
 
           <Route path="/Monitoreo" element={<Monitoreo />} />
           <Route path="/Monitoreos2015" element={<Monitoreos2015 />} />
@@ -319,6 +333,21 @@ function App() {
           <Route path="/ParlamentoInfantil" element={<ParlamentoInfantil />} />
           <Route path="/ParlamentoJuvenil" element={<ParlamentoJuvenil />} />
           <Route path="/ValoresDemocracia" element={<ValoresDemocracia />} />
+
+          {/* Archivo */}
+          <Route path="/InfografiasArchivo" element={<InfografiasArchivo />} />
+          <Route
+            path="/InstrumentosArchivisticos"
+            element={<InstrumentosArchivisticos />}
+          />
+          <Route
+            path="/InstrumentosNormativos"
+            element={<InstrumentosNormativos />}
+          />
+          <Route
+            path="/PlaneacionArchivistica"
+            element={<PlaneacionArchivistica />}
+          />
 
           {/* Micrositios */}
           <Route path="/REPS" element={<REPS />} />

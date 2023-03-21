@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { useEffect } from "react";
 import TitlePages from "../../layout/TitlePages";
 import Modal from "../../layout/Modal/Modal";
 import { Link } from "react-router-dom";
@@ -6,9 +6,11 @@ import ListBadge from "../../layout/ListBadge";
 import { dataReglamento, dataJuridico } from "../../data/dataTransparencia";
 import "./Transparencia.css";
 
-export default class Transparencia extends Component {
-  render() {
-    return (
+const Transparencia = () => {
+  useEffect(() => {
+    document.title = `Transparencia`;
+  }, []);
+      return (
       <>
         <TitlePages title="Transparencia" subTitle="" />
         <div className="w-100 mt-3 Content__grid">
@@ -194,4 +196,4 @@ export default class Transparencia extends Component {
       </>
     );
   }
-}
+  export default Transparencia;

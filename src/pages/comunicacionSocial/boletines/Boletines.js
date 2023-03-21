@@ -58,6 +58,13 @@ export default class Boletines extends Component {
               alt="Boletines 2022"
             />
           </Link>
+          <Link to="/Boletines2023">
+            <img
+              src="https://itetlax.org.mx/assets/img/icons/36.png"
+              className="img-fluid"
+              alt="Boletines 2023"
+            />
+          </Link>
         </div>
       </>
     );

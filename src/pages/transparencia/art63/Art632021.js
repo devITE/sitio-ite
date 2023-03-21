@@ -1,4 +1,4 @@
-import React, { useMemo } from "react";
+import React, { useMemo, useEffect } from "react";
 import TitlePages from "../../../layout/TitlePages";
 import MaterialReactTable from "material-react-table";
 import { Box } from "@mui/material";
@@ -7,6 +7,9 @@ import { faFileExcel } from "@fortawesome/free-solid-svg-icons";
 import { dataArt632021 } from "../../../data/dataTransparenciaArt63";
 
 const Art632021 = () => {
+  useEffect(() => {
+    document.title = `Artículo 63 2021`;
+  }, []);
   const columns = useMemo(
     () => [
       {
@@ -96,11 +99,11 @@ const Art632021 = () => {
               (row.original.excel3 === "") ? (
                 <div>
                   <p className="text-strong">
-                    Descarga el archivo de la Fracción:
+                    Descarga el archivo de la Fracción {row.original.fraccion}
                   </p>
                   <p>
                     {row.original.excel1
-                      ? row.original.excel1.substring(14, 100).slice(0, -26)
+                      ? row.original.excel1.substring(61, 100).slice(0, -5)
                       : []}{" "}
                     <a
                       href={row.original.excel1}
@@ -119,11 +122,11 @@ const Art632021 = () => {
                 (row.original.excel3 === "") ? (
                 <div>
                   <p className="text-strong">
-                    Descarga los archivos de la Fracciones:
+                    Descarga los archivos de la Fracción {row.original.fraccion}
                   </p>
                   <p>
                     {row.original.excel1
-                      ? row.original.excel1.substring(14, 100).slice(0, -26)
+                      ? row.original.excel1.substring(61, 100).slice(0, -5)
                       : []}{" "}
                     <a
                       href={row.original.excel1}
@@ -138,7 +141,7 @@ const Art632021 = () => {
                   </p>
                   <p>
                     {row.original.excel2
-                      ? row.original.excel2.substring(14, 100).slice(0, -26)
+                      ? row.original.excel2.substring(61, 100).slice(0, -5)
                       : []}{" "}
                     <a
                       href={row.original.excel2}
@@ -155,11 +158,11 @@ const Art632021 = () => {
               ) : (
                 <div>
                   <p className="text-strong">
-                    Descarga los archivos de la Fracciones:
+                    Descarga los archivos de la Fracción {row.original.fraccion}
                   </p>
                   <p>
                     {row.original.excel1
-                      ? row.original.excel1.substring(14, 100).slice(0, -26)
+                      ? row.original.excel1.substring(61, 100).slice(0, -5)
                       : []}{" "}
                     <a
                       href={row.original.excel1}
@@ -174,7 +177,7 @@ const Art632021 = () => {
                   </p>
                   <p>
                     {row.original.excel2
-                      ? row.original.excel2.substring(14, 100).slice(0, -26)
+                      ? row.original.excel2.substring(61, 100).slice(0, -5)
                       : []}{" "}
                     <a
                       href={row.original.excel2}
@@ -189,7 +192,7 @@ const Art632021 = () => {
                   </p>
                   <p>
                     {row.original.excel3
-                      ? row.original.excel3.substring(14, 100).slice(0, -26)
+                      ? row.original.excel3.substring(61, 100).slice(0, -5)
                       : []}{" "}
                     <a
                       href={row.original.excel3}

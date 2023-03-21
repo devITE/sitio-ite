@@ -1,366 +1,474 @@
 export const dataNormatividad = [
   {
     id: 1,
-    nameButton: "lFederales",
-    titleButton: "Leyes Federales",
+    nameButton: "lGenerales",
+    titleButton: "Leyes Generales",
     children: [
       {
         id: 1,
-        titleItem: "Constitución Política de los Estados Unidos Mexicanos",
-        typeDocument: "pdf",
-        linkItem:
-          "https://itetlax.org.mx/assets/pdf/normatividad/lFederales/1.pdf",
+        nameDoc: "Ley General de Archivo",
+        post: "DOF 15/06/2018",
+        lastUpdate: "DOF 19/01/2023",
+        pdf: "https://itetlax.org.mx/assets/pdf/normatividad/lGenerales/1.pdf",
+        pdfMobile:
+          "https://itetlax.org.mx/assets/pdf/normatividad/lGenerales/1.1.pdf",
+        word: "https://itetlax.org.mx/assets/word/normatividad/lGenerales/1.doc",
       },
       {
         id: 2,
-        titleItem: "Ley Federal de Consulta Popular",
-        typeDocument: "pdf",
-        linkItem:
-          "https://itetlax.org.mx/assets/pdf/normatividad/lFederales/2.pdf",
+        nameDoc: "Ley General de Instituciones y Procedimientos Electorales",
+        post: "DOF 23/05/2014",
+        lastUpdate: "DOF 20/12/2022",
+        pdf: "https://itetlax.org.mx/assets/pdf/normatividad/lGenerales/2.pdf",
+        pdfMobile:
+          "https://itetlax.org.mx/assets/pdf/normatividad/lGenerales/2.1.pdf",
+        word: "https://itetlax.org.mx/assets/word/normatividad/lGenerales/2.doc",
       },
       {
         id: 3,
-        titleItem: "Ley General de Instituciones y Procedimientos Electorales",
-        typeDocument: "pdf",
-        linkItem:
-          "https://itetlax.org.mx/assets/pdf/normatividad/lFederales/3.pdf",
+        nameDoc: "Ley General de Partidos Políticos",
+        post: "DOF 23/05/2014",
+        lastUpdate: "Notificación 11/10/2022 Sentencia SCJN",
+        pdf: "https://itetlax.org.mx/assets/pdf/normatividad/lGenerales/3.pdf",
+        pdfMobile:
+          "https://itetlax.org.mx/assets/pdf/normatividad/lGenerales/3.1.pdf",
+        word: "https://itetlax.org.mx/assets/word/normatividad/lGenerales/3.doc",
       },
       {
         id: 4,
-        titleItem: "Ley General de Partidos Políticos",
-        typeDocument: "pdf",
-        linkItem:
-          "https://itetlax.org.mx/assets/pdf/normatividad/lFederales/4.pdf",
+        nameDoc:
+          "Ley General de Sistema de Medios de Impugnación en Materia Electoral",
+        post: "DOF 22/11/1996",
+        lastUpdate: "DOF 20/12/2022",
+        pdf: "https://itetlax.org.mx/assets/pdf/normatividad/lGenerales/4.pdf",
+        pdfMobile:
+          "https://itetlax.org.mx/assets/pdf/normatividad/lGenerales/4.1.pdf",
+        word: "https://itetlax.org.mx/assets/word/normatividad/lGenerales/4.doc",
       },
       {
         id: 5,
-        titleItem:
-          "Ley General de Sistema de Medios de Impugnación en Materia Electoral",
-        typeDocument: "pdf",
-        linkItem:
-          "https://itetlax.org.mx/assets/pdf/normatividad/lFederales/5.pdf",
+        nameDoc: "Ley General de Transparencia y Acceso a la Información",
+        post: "DOF 04/05/2015",
+        lastUpdate: "DOF 20/05/2021",
+        pdf: "https://itetlax.org.mx/assets/pdf/normatividad/lGenerales/5.pdf",
+        pdfMobile:
+          "https://itetlax.org.mx/assets/pdf/normatividad/lGenerales/5.1.pdf",
+        word: "https://itetlax.org.mx/assets/word/normatividad/lGenerales/5.pdf",
       },
       {
         id: 6,
-        titleItem: "Ley General de Transparencia y Acceso a la Información",
-        typeDocument: "pdf",
-        linkItem:
-          "https://itetlax.org.mx/assets/pdf/normatividad/lFederales/6.pdf",
+        nameDoc: "Ley General en Materia de Delitos Electorales",
+        post: "DOF 23/05/2014",
+        lastUpdate: "DOF 20/05/2021",
+        pdf: "https://itetlax.org.mx/assets/pdf/normatividad/lGenerales/6.pdf",
+        pdfMobile:
+          "https://itetlax.org.mx/assets/pdf/normatividad/lGenerales/6.1.pdf",
+        word: "https://itetlax.org.mx/assets/word/normatividad/lGenerales/6.pdf",
       },
       {
         id: 7,
-        titleItem: "Ley General en Materia de Delitos Electorales",
-        typeDocument: "pdf",
-        linkItem:
-          "https://itetlax.org.mx/assets/pdf/normatividad/lFederales/7.pdf",
+        nameDoc: "Ley General del Sistema Nacional Anticorrupción",
+        post: "DOF 23/05/2014",
+        lastUpdate: "DOF 20/05/2021",
+        pdf: "https://itetlax.org.mx/assets/pdf/normatividad/lGenerales/7.pdf",
+        pdfMobile:
+          "https://itetlax.org.mx/assets/pdf/normatividad/lGenerales/7.1.pdf",
+        word: "https://itetlax.org.mx/assets/word/normatividad/lGenerales/7.pdf",
       },
       {
         id: 8,
-        titleItem: "Ley General de Archivo",
-        typeDocument: "pdf",
-        linkItem:
-          "https://itetlax.org.mx/assets/pdf/normatividad/lFederales/8.pdf",
+        nameDoc:
+          "Ley General de Protección de Datos Personales en Posesión de Sujetos Obligados",
+        post: "DOF 26/01/2017",
+        lastUpdate: "Sin reforma",
+        pdf: "https://itetlax.org.mx/assets/pdf/normatividad/lGenerales/8.pdf",
+        pdfMobile:
+          "https://itetlax.org.mx/assets/pdf/normatividad/lGenerales/8.1.pdf",
+        word: "https://itetlax.org.mx/assets/word/normatividad/lGenerales/8.pdf",
       },
       {
         id: 9,
-        titleItem: "LLey General del Sistema Nacional Anticorrupción",
-        typeDocument: "pdf",
-        linkItem:
-          "https://itetlax.org.mx/assets/pdf/normatividad/lFederales/9.pdf",
-      },
-      {
-        id: 10,
-        titleItem:
-          "Ley General de Protección de Datos Personales en Posesión de Sujetos Obligados",
-        typeDocument: "pdf",
-        linkItem:
-          "https://itetlax.org.mx/assets/pdf/normatividad/lFederales/10.pdf",
-      },
-      {
-        id: 11,
-        titleItem: "Ley General de Contabilidad Gubernamental",
-        typeDocument: "pdf",
-        linkItem:
-          "https://itetlax.org.mx/assets/pdf/normatividad/lFederales/11.pdf",
+        nameDoc: "Ley General de Contabilidad Gubernamental",
+        post: "DOF 31/12/2018",
+        lastUpdate: "DOF 30/01/2018",
+        pdf: "https://itetlax.org.mx/assets/pdf/normatividad/lGenerales/9.pdf",
+        pdfMobile:
+          "https://itetlax.org.mx/assets/pdf/normatividad/lGenerales/9.1.pdf",
+        word: "https://itetlax.org.mx/assets/word/normatividad/lGenerales/9.pdf",
       },
     ],
   },
   {
     id: 2,
-    nameButton: "lEstatales",
-    titleButton: "Leyes Estatales",
+    nameButton: "lFederales",
+    titleButton: "Leyes Federales",
     children: [
       {
         id: 1,
-        titleItem: "Constitución Política del Estado de Tlaxcala",
-        typeDocument: "pdf",
-        linkItem:
-          "https://itetlax.org.mx/assets/pdf/normatividad/lEstatales/1.pdf",
+        nameDoc: "Constitución Política de los Estados Unidos Mexicanos",
+        post: "DOF 05/02/1917",
+        lastUpdate: "DOF 18/11/2022",
+        pdf: "https://itetlax.org.mx/assets/pdf/normatividad/lFederales/1.pdf",
+        pdfMobile:
+          "https://itetlax.org.mx/assets/pdf/normatividad/lFederales/1.1.pdf",
+        word: "https://itetlax.org.mx/assets/word/normatividad/lFederales/1.doc",
       },
       {
         id: 2,
-        titleItem:
-          "Ley de transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
-        typeDocument: "pdf",
-        linkItem:
-          "https://itetlax.org.mx/assets/pdf/normatividad/lEstatales/2.pdf",
-      },
-      {
-        id: 3,
-        titleItem: "Ley de Archivos del Estado de Tlaxcala",
-        typeDocument: "pdf",
-        linkItem:
-          "https://itetlax.org.mx/assets/pdf/normatividad/lEstatales/3.pdf",
-      },
-      {
-        id: 4,
-        titleItem: "Ley de Consulta Ciudadana para el Estado de Tlaxcala",
-        typeDocument: "pdf",
-        linkItem:
-          "https://itetlax.org.mx/assets/pdf/normatividad/lEstatales/4.pdf",
-      },
-      {
-        id: 5,
-        titleItem:
-          "Ley de Instituciones y Procedimientos Electorales para el Estado de Tlaxcala",
-        typeDocument: "pdf",
-        linkItem:
-          "https://itetlax.org.mx/assets/pdf/normatividad/lEstatales/5.pdf",
-      },
-      {
-        id: 6,
-        titleItem:
-          "Ley de Medios de Impugnación en Materia Electoral para el Estado de Tlaxcala",
-        typeDocument: "pdf",
-        linkItem:
-          "https://itetlax.org.mx/assets/pdf/normatividad/lEstatales/6.pdf",
-      },
-      {
-        id: 7,
-        titleItem: "Ley de Partidos Políticos para el Estado de Tlaxcala",
-        typeDocument: "pdf",
-        linkItem:
-          "https://itetlax.org.mx/assets/pdf/normatividad/lEstatales/7.pdf",
-      },
-      {
-        id: 8,
-        titleItem:
-          "Ley de Protección de Datos Personales en posesion de sujetos obligados para el Estado de Tlaxcala",
-        typeDocument: "pdf",
-        linkItem:
-          "https://itetlax.org.mx/assets/pdf/normatividad/lEstatales/8.pdf",
-      },
-      {
-        id: 9,
-        titleItem:
-          "Ley de Responsabilidades de los Servidores Públicos del Estado de Tlaxcala",
-        typeDocument: "pdf",
-        linkItem:
-          "https://itetlax.org.mx/assets/pdf/normatividad/lEstatales/9.pdf",
-      },
-      {
-        id: 10,
-        titleItem: "Ley del sistema anticorrupcion del estado de tlaxcala",
-        typeDocument: "pdf",
-        linkItem:
-          "https://itetlax.org.mx/assets/pdf/normatividad/lEstatales/10.pdf",
-      },
-      {
-        id: 11,
-        titleItem:
-          "Ley Laboral de los Servidores Públicos del Estado de Tlaxcala y sus Municipios",
-        typeDocument: "pdf",
-        linkItem:
-          "https://itetlax.org.mx/assets/pdf/normatividad/lEstatales/11.pdf",
-      },
-      {
-        id: 12,
-        titleItem:
-          "Ley de Fiscalización Superior para el Estado de Tlaxcala y sus Municipios",
-        typeDocument: "pdf",
-        linkItem:
-          "https://itetlax.org.mx/assets/pdf/normatividad/lEstatales/12.pdf",
-      },
-      {
-        id: 13,
-        titleItem:
-          "Ley de Procedimiento Administrativo del Estado de Tlaxcala y sus Municipios",
-        typeDocument: "pdf",
-        linkItem:
-          "https://itetlax.org.mx/assets/pdf/normatividad/lEstatales/13.pdf",
-      },
-      {
-        id: 14,
-        titleItem: "Ley Municipal del Estado de Tlaxcala",
-        typeDocument: "pdf",
-        linkItem:
-          "https://itetlax.org.mx/assets/pdf/normatividad/lEstatales/14.pdf",
-      },
-      {
-        id: 15,
-        titleItem:
-          "Ley de Entrega  Recepción para el Estado de Tlaxcala y sus Municipios",
-        typeDocument: "pdf",
-        linkItem:
-          "https://itetlax.org.mx/assets/pdf/normatividad/lEstatales/15.pdf",
+        nameDoc: "Ley Federal de Consulta Popular",
+        post: "DOF 14/03/2014",
+        lastUpdate: "DOF 19/05/2021",
+        pdf: "https://itetlax.org.mx/assets/pdf/normatividad/lFederales/2.pdf",
+        pdfMobile:
+          "https://itetlax.org.mx/assets/pdf/normatividad/lFederales/2.1.pdf",
+        word: "https://itetlax.org.mx/assets/word/normatividad/lFederales/2.doc",
       },
     ],
   },
   {
     id: 3,
-    nameButton: "reglamentos",
-    titleButton: "Reglamentos",
+    nameButton: "lEstatales",
+    titleButton: "Leyes Estatales",
     children: [
       {
         id: 1,
-        titleItem:
-          "Reglamento del Instituto Tlaxcalteca de Elecciones en Materia de Transparencia y Acceso a la Información Pública",
-        typeDocument: "pdf",
-        linkItem:
-          "https://itetlax.org.mx/assets/pdf/normatividad/reglamentos/1.pdf",
+        nameDoc:
+          "Constitución Política del Estado Libre y Soberano de Tlaxcala",
+        post: "",
+        lastUpdate: "25/05/2022",
+        pdf: "https://itetlax.org.mx/assets/pdf/normatividad/lEstatales/1.pdf",
+        pdfMobile: "",
+        word: "https://itetlax.org.mx/assets/word/normatividad/lEstatales/1.doc",
       },
       {
         id: 2,
-        titleItem:
-          "Reglamento de Quejas y Denuncias del Instituto Tlaxcalteca de Elecciones",
-        typeDocument: "pdf",
-        linkItem:
-          "https://itetlax.org.mx/assets/pdf/normatividad/reglamentos/2.pdf",
+        nameDoc:
+          "Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
+        post: "",
+        lastUpdate: "13/09/2021",
+        pdf: "https://itetlax.org.mx/assets/pdf/normatividad/lEstatales/2.pdf",
+        pdfMobile: "",
+        word: "https://itetlax.org.mx/assets/word/normatividad/lEstatales/2.docx",
       },
       {
         id: 3,
-        titleItem:
-          "Reglamento de Asistencia Técnica, Jurídica y Logística a las Comunidades que realizan elecciones de Presidentes de Comunidad por el Sistema de Usos y Costumbres",
-        typeDocument: "pdf",
-        linkItem:
-          "https://itetlax.org.mx/assets/pdf/normatividad/reglamentos/3.pdf",
+        nameDoc: "Ley de Archivos del Estado de Tlaxcala",
+        post: "",
+        lastUpdate: "10/05/2021",
+        pdf: "https://itetlax.org.mx/assets/pdf/normatividad/lEstatales/3.pdf",
+        pdfMobile: "",
+        word: "https://itetlax.org.mx/assets/word/normatividad/lEstatales/3.docx",
       },
       {
         id: 4,
-        titleItem:
-          "Reglamento de la Oficialía Electoral del Instituto Tlaxcalteca de Elecciones",
-        typeDocument: "pdf",
-        linkItem:
-          "https://itetlax.org.mx/assets/pdf/normatividad/reglamentos/4.pdf",
+        nameDoc: "Ley de Consulta Ciudadana para el Estado de Tlaxcala",
+        post: "",
+        lastUpdate: "12/05/2009",
+        pdf: "https://itetlax.org.mx/assets/pdf/normatividad/lEstatales/4.pdf",
+        pdfMobile: "",
+        word: "https://itetlax.org.mx/assets/word/normatividad/lEstatales/4.docx",
       },
       {
         id: 5,
-        titleItem:
-          "Reglamento Interior del Instituto Tlaxcalteca de Elecciones",
-        typeDocument: "pdf",
-        linkItem:
-          "https://itetlax.org.mx/assets/pdf/normatividad/reglamentos/5.pdf",
+        nameDoc:
+          "Ley de Instituciones y Procedimientos Electorales para el Estado de Tlaxcala",
+        post: "",
+        lastUpdate: "25/04/2022",
+        pdf: "https://itetlax.org.mx/assets/pdf/normatividad/lEstatales/5.pdf",
+        pdfMobile: "",
+        word: "https://itetlax.org.mx/assets/word/normatividad/lEstatales/5.docx",
       },
       {
         id: 6,
-        titleItem:
-          "Reglamento de los Consejos Distritales y Municipales Electorales del Instituto Tlaxcalteca de Elecciones",
-        typeDocument: "pdf",
-        linkItem:
-          "https://itetlax.org.mx/assets/pdf/normatividad/reglamentos/6.pdf",
+        nameDoc:
+          "Ley de Medios de Impugnación en Materia Electoral para el Estado de Tlaxcala",
+        post: "",
+        lastUpdate: "25/04/2022",
+        pdf: "https://itetlax.org.mx/assets/pdf/normatividad/lEstatales/6.pdf",
+        pdfMobile: "",
+        word: "https://itetlax.org.mx/assets/word/normatividad/lEstatales/6.docx",
       },
       {
         id: 7,
-        titleItem:
-          "Reglamento para la Clasificación y Desclasificación de la Información del Instituto Tlaxcalteca de Elecciones",
-        typeDocument: "pdf",
-        linkItem:
-          "https://itetlax.org.mx/assets/pdf/normatividad/reglamentos/7.pdf",
+        nameDoc: "Ley de Partidos Políticos para el Estado de Tlaxcala",
+        post: "",
+        lastUpdate: "27/08/2020",
+        pdf: "https://itetlax.org.mx/assets/pdf/normatividad/lEstatales/7.pdf",
+        pdfMobile: "",
+        word: "https://itetlax.org.mx/assets/word/normatividad/lEstatales/7.docx",
       },
       {
         id: 8,
-        titleItem:
-          "Reglamento registro cancelación de la acreditación activos de los partidos políticos",
-        typeDocument: "pdf",
-        linkItem:
-          "https://itetlax.org.mx/assets/pdf/normatividad/reglamentos/8.pdf",
+        nameDoc:
+          "Ley de Protección de Datos Personales en posesion de sujetos obligados para el Estado de Tlaxcala",
+        post: "",
+        lastUpdate: "18/07/2017",
+        pdf: "https://itetlax.org.mx/assets/pdf/normatividad/lEstatales/8.pdf",
+        pdfMobile: "",
+        word: "https://itetlax.org.mx/assets/word/normatividad/lEstatales/8.docx",
       },
       {
         id: 9,
-        titleItem:
-          "Reglamento de Comisiones del Instituto Tlaxcalteca de Elecciones",
-        typeDocument: "pdf",
-        linkItem:
-          "https://itetlax.org.mx/assets/pdf/normatividad/reglamentos/9.pdf",
+        nameDoc:
+          "Ley de Responsabilidades de los Servidores Públicos del Estado de Tlaxcala",
+        post: "",
+        lastUpdate: "12/04/2018",
+        pdf: "https://itetlax.org.mx/assets/pdf/normatividad/lEstatales/9.pdf",
+        pdfMobile: "",
+        word: "https://itetlax.org.mx/assets/word/normatividad/lEstatales/9.docx",
       },
       {
         id: 10,
-        titleItem: "Reglamento de sesiones del Consejo General",
-        typeDocument: "pdf",
-        linkItem:
-          "https://itetlax.org.mx/assets/pdf/normatividad/reglamentos/10.pdf",
+        nameDoc: "Ley del sistema anticorrupcion del estado de tlaxcala",
+        post: "",
+        lastUpdate: "14/10/2019",
+        pdf: "https://itetlax.org.mx/assets/pdf/normatividad/lEstatales/10.pdf",
+        pdfMobile: "",
+        word: "https://itetlax.org.mx/assets/word/normatividad/lEstatales/10.docx",
       },
       {
         id: 11,
-        titleItem:
-          "Reglamento del Comité de Igualdad Laboral y No Discriminación del Instituto Tlaxcalteca de Elecciones",
-        typeDocument: "pdf",
-        linkItem:
-          "https://itetlax.org.mx/assets/pdf/normatividad/reglamentos/11.pdf",
+        nameDoc:
+          "Ley Laboral de los Servidores Públicos del Estado de Tlaxcala y sus Municipios",
+        post: "",
+        lastUpdate: "22/12/2021",
+        pdf: "https://itetlax.org.mx/assets/pdf/normatividad/lEstatales/11.pdf",
+        pdfMobile: "",
+        word: "https://itetlax.org.mx/assets/word/normatividad/lEstatales/11.docx",
       },
       {
         id: 12,
-        titleItem:
-          "Reglamento de la Junta General Ejecutiva del Instituto Tlaxcalteca de Elecciones",
-        typeDocument: "pdf",
-        linkItem:
-          "https://itetlax.org.mx/assets/pdf/normatividad/reglamentos/12.pdf",
+        nameDoc:
+          "Ley de Fiscalización Superior para el Estado de Tlaxcala y sus Municipios",
+        post: "",
+        lastUpdate: "29/09/2020",
+        pdf: "https://itetlax.org.mx/assets/pdf/normatividad/lEstatales/12.pdf",
+        pdfMobile: "",
+        word: "https://itetlax.org.mx/assets/word/normatividad/lEstatales/12.docx",
+      },
+      {
+        id: 13,
+        nameDoc:
+          "Ley de Procedimiento Administrativo del Estado de Tlaxcala y sus Municipios",
+        post: "",
+        lastUpdate: "29/09/2020",
+        pdf: "https://itetlax.org.mx/assets/pdf/normatividad/lEstatales/13.pdf",
+        pdfMobile: "",
+        word: "https://itetlax.org.mx/assets/word/normatividad/lEstatales/13.docx",
+      },
+      {
+        id: 14,
+        nameDoc: "Ley Municipal del Estado de Tlaxcala",
+        post: "",
+        lastUpdate: "09/03/2022",
+        pdf: "https://itetlax.org.mx/assets/pdf/normatividad/lEstatales/14.pdf",
+        pdfMobile: "",
+        word: "https://itetlax.org.mx/assets/word/normatividad/lEstatales/14.docx",
+      },
+      {
+        id: 15,
+        nameDoc:
+          "Ley de Entrega  Recepción para el Estado de Tlaxcala y sus Municipios",
+        post: "",
+        lastUpdate: "29/09/2020",
+        pdf: "https://itetlax.org.mx/assets/pdf/normatividad/lEstatales/15.pdf",
+        pdfMobile: "",
+        word: "https://itetlax.org.mx/assets/word/normatividad/lEstatales/15.docx",
       },
     ],
   },
   {
     id: 4,
+    nameButton: "reglamentos",
+    titleButton: "Reglamentos",
+    children: [
+      {
+        id: 1,
+        nameDoc:
+          "Reglamento del Instituto Tlaxcalteca de Elecciones en Materia de Transparencia y Acceso a la Información Pública",
+        post: "",
+        lastUpdate: "",
+        pdf: "https://itetlax.org.mx/assets/pdf/normatividad/reglamentos/1.pdf",
+        pdfMobile: "",
+        word: "",
+      },
+      {
+        id: 2,
+        nameDoc:
+          "Reglamento de Quejas y Denuncias del Instituto Tlaxcalteca de Elecciones",
+        post: "",
+        lastUpdate: "",
+        pdf: "https://itetlax.org.mx/assets/pdf/normatividad/reglamentos/2.pdf",
+        pdfMobile: "",
+        word: "",
+      },
+      {
+        id: 3,
+        nameDoc:
+          "Reglamento de Asistencia Técnica, Jurídica y Logística a las Comunidades que realizan elecciones de Presidentes de Comunidad por el Sistema de Usos y Costumbres",
+        post: "",
+        lastUpdate: "",
+        pdf: "https://itetlax.org.mx/assets/pdf/normatividad/reglamentos/3.pdf",
+        pdfMobile: "",
+        word: "",
+      },
+      {
+        id: 4,
+        nameDoc:
+          "Reglamento de la Oficialía Electoral del Instituto Tlaxcalteca de Elecciones",
+        post: "",
+        lastUpdate: "",
+        pdf: "https://itetlax.org.mx/assets/pdf/normatividad/reglamentos/4.pdf",
+        pdfMobile: "",
+        word: "",
+      },
+      {
+        id: 5,
+        nameDoc: "Reglamento Interior del Instituto Tlaxcalteca de Elecciones",
+        post: "",
+        lastUpdate: "",
+        pdf: "https://itetlax.org.mx/assets/pdf/normatividad/reglamentos/5.pdf",
+        pdfMobile: "",
+        word: "",
+      },
+      {
+        id: 6,
+        nameDoc:
+          "Reglamento de los Consejos Distritales y Municipales Electorales del Instituto Tlaxcalteca de Elecciones",
+        post: "",
+        lastUpdate: "",
+        pdf: "https://itetlax.org.mx/assets/pdf/normatividad/reglamentos/6.pdf",
+        pdfMobile: "",
+        word: "",
+      },
+      {
+        id: 7,
+        nameDoc:
+          "Reglamento para la Clasificación y Desclasificación de la Información del Instituto Tlaxcalteca de Elecciones",
+        post: "",
+        lastUpdate: "",
+        pdf: "https://itetlax.org.mx/assets/pdf/normatividad/reglamentos/7.pdf",
+        pdfMobile: "",
+        word: "",
+      },
+      {
+        id: 8,
+        nameDoc:
+          "Reglamento registro cancelación de la acreditación activos de los partidos políticos",
+        post: "",
+        lastUpdate: "",
+        pdf: "https://itetlax.org.mx/assets/pdf/normatividad/reglamentos/8.pdf",
+        pdfMobile: "",
+        word: "",
+      },
+      {
+        id: 9,
+        nameDoc:
+          "Reglamento de Comisiones del Instituto Tlaxcalteca de Elecciones",
+        post: "",
+        lastUpdate: "",
+        pdf: "https://itetlax.org.mx/assets/pdf/normatividad/reglamentos/9.pdf",
+        pdfMobile: "",
+        word: "",
+      },
+      {
+        id: 10,
+        nameDoc: "Reglamento de sesiones del Consejo General",
+        post: "",
+        lastUpdate: "",
+        pdf: "https://itetlax.org.mx/assets/pdf/normatividad/reglamentos/10.pdf",
+        pdfMobile: "",
+        word: "",
+      },
+      {
+        id: 11,
+        nameDoc:
+          "Reglamento del Comité de Igualdad Laboral y No Discriminación del Instituto Tlaxcalteca de Elecciones",
+        post: "",
+        lastUpdate: "",
+        pdf: "https://itetlax.org.mx/assets/pdf/normatividad/reglamentos/11.pdf",
+        pdfMobile: "",
+        word: "",
+      },
+      {
+        id: 12,
+        nameDoc:
+          "Reglamento de la Junta General Ejecutiva del Instituto Tlaxcalteca de Elecciones",
+        post: "",
+        lastUpdate: "",
+        pdf: "https://itetlax.org.mx/assets/pdf/normatividad/reglamentos/12.pdf",
+        pdfMobile: "",
+        word: "",
+      },
+    ],
+  },
+  {
+    id: 5,
     nameButton: "compendio",
     titleButton: "Compendio Legislativo Electoral",
     children: [
       {
         id: 1,
-        titleItem: "Portada",
-        typeDocument: "pdf",
-        linkItem:
-          "https://itetlax.org.mx/assets/pdf/normatividad/compendio/1.pdf",
+        nameDoc: "Portada",
+        post: "",
+        lastUpdate: "",
+        pdf: "https://itetlax.org.mx/assets/pdf/normatividad/compendio/1.pdf",
+        pdfMobile: "",
+        word: "",
       },
       {
         id: 2,
-        titleItem: "Constitución Local",
-        typeDocument: "pdf",
-        linkItem:
-          "https://itetlax.org.mx/assets/pdf/normatividad/compendio/2.pdf",
+        nameDoc: "Constitución Local",
+        post: "",
+        lastUpdate: "",
+        pdf: "https://itetlax.org.mx/assets/pdf/normatividad/compendio/2.pdf",
+        pdfMobile: "",
+        word: "",
       },
       {
         id: 3,
-        titleItem: "LIPEET",
-        typeDocument: "pdf",
-        linkItem:
-          "https://itetlax.org.mx/assets/pdf/normatividad/compendio/3.pdf",
+        nameDoc: "LIPEET",
+        post: "",
+        lastUpdate: "",
+        pdf: "https://itetlax.org.mx/assets/pdf/normatividad/compendio/3.pdf",
+        pdfMobile: "",
+        word: "",
       },
       {
         id: 4,
-        titleItem: "LPPET",
-        typeDocument: "pdf",
-        linkItem:
-          "https://itetlax.org.mx/assets/pdf/normatividad/compendio/4.pdf",
+        nameDoc: "LPPET",
+        post: "",
+        lastUpdate: "",
+        pdf: "https://itetlax.org.mx/assets/pdf/normatividad/compendio/4.pdf",
+        pdfMobile: "",
+        word: "",
       },
       {
         id: 5,
-        titleItem: "LMIMEET",
-        typeDocument: "pdf",
-        linkItem:
-          "https://itetlax.org.mx/assets/pdf/normatividad/compendio/5.pdf",
+        nameDoc: "LMIMEET",
+        post: "",
+        lastUpdate: "",
+        pdf: "https://itetlax.org.mx/assets/pdf/normatividad/compendio/5.pdf",
+        pdfMobile: "",
+        word: "",
       },
       {
         id: 6,
-        titleItem: "Delitos Electorales",
-        typeDocument: "pdf",
-        linkItem:
-          "https://itetlax.org.mx/assets/pdf/normatividad/compendio/6.pdf",
+        post: "",
+        lastUpdate: "",
+        nameDoc: "Delitos Electorales",
+        pdf: "https://itetlax.org.mx/assets/pdf/normatividad/compendio/6.pdf",
+        pdfMobile: "",
+        word: "",
       },
       {
         id: 7,
-        titleItem: "Reglamentos y Lineamientos",
-        typeDocument: "pdf",
-        linkItem:
-          "https://itetlax.org.mx/assets/pdf/normatividad/compendio/7.pdf",
+        post: "",
+        lastUpdate: "",
+        nameDoc: "Reglamentos y Lineamientos",
+        pdf: "https://itetlax.org.mx/assets/pdf/normatividad/compendio/7.pdf",
+        pdfMobile: "",
+        word: "",
       },
     ],
   },

@@ -3,7 +3,7 @@ import TitlePages from "../../layout/TitlePages";
 import Timer from "../../layout/Timer";
 import ModalInit from "../../layout/Modal/ModalInit";
 import Carousel from "../../layout/Carousel/Carousel/Carousel";
-import CarouselItemIMG from "../../layout/Carousel/CarouselItems/CarouselItemIMG";
+import CarouselItemIMG from "../../layout/Carousel/Carousel/CarouselItemIMG";
 import { dataCarousel } from "../../data/dataDESPEN";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
@@ -13,8 +13,8 @@ export default class DESPEN extends Component {
     return (
       <>
         <ModalInit
-          imgLink="https://itetlax.org.mx/assets/despen/img/banner.jpg"
-          url=""
+          imgLink="https://itetlax.org.mx/assets/img/imgPopup/3.png"
+          url="https://www.ine.mx/comunidad-ine/convocatoria-concurso-publico-2022-2023-de-ingreso-sistema-ople/"
           linkToo=""
         />
 

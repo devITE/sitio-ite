@@ -28,6 +28,7 @@ const TablePDF = ({ items }) => {
               <a
                 className="btn btn-danger btn-sm"
                 href={items.linkFolio}
+                target="_blank"
                 role="button"
                 rel="noreferrer"
               >

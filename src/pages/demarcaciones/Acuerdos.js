@@ -1,14 +1,40 @@
-import React, { Component } from "react";
+import React, { useEffect } from "react";
+import { Link } from "react-router-dom";
 import TitlePages from "../../layout/TitlePages";
 
-export default class Acuerdos extends Component {
-  render() {
-    return (
+const Acuerdos = () => {
+  useEffect(() => {
+    document.title = `ITE - Acuerdos`;
+  }, []);
+    return(
       <>
         <TitlePages title="Acuerdos" subTitle="" />
-        <div className="w-100 Grid__folder">
+        
           <div>
-            <a
+          <div className=" w-100 Grid__folder">
+            <div>
+              <Link to="/Distritacion2015">
+                <img
+                  src="https://itetlax.org.mx/assets/img/imgDemA/13.png"
+                  className="img-fluid"
+                  alt="Distritación 2015"
+                />
+              </Link>
+              <p className="text-strong">Distritación 2015</p>
+            </div>
+            <div>
+              <Link to="/Distritacion2022">
+                <img
+                  src="https://itetlax.org.mx/assets/img/imgDemA/14.png"
+                  className="img-fluid"
+                  alt="Distritación 2022"
+                />
+              </Link>
+              <p className="text-strong">Distritación 2022</p>
+            </div>
+          </div>
+
+          {/* <a
               href="https://itetlax.org.mx/assets/pdf/demarcaciones/acuerdos/INE-CG335-2015.pdf"
               target="_blank"
               rel="noreferrer"
@@ -135,10 +161,9 @@ export default class Acuerdos extends Component {
                 className="img-fluid"
                 alt="INE CG612 2022 ANEXO 3B"
               />
-            </a>
-          </div>
+            </a> */}
         </div>
       </>
     );
   }
-}
+  export default Acuerdos;

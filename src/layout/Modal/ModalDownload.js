@@ -14,10 +14,15 @@ const ModalDownload = (props) => {
             <img className="img-fluid" src={props.linkIMG} alt={props.altIMG} />
           </div>
           <div className="modal-footer">
-            <a href={props.downloadModal} download={props.downloadModal}>
-              <button type="button" className="btn btn-success">
-                Descargar
-              </button>
+            <a
+              className="btn btn-success"
+              href={props.downloadModal}
+              download
+              target="_blank"
+              without
+              rel="noreferrer"
+            >
+              Descargar
             </a>
             <button
               type="button"

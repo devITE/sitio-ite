@@ -1,4 +1,4 @@
-import React, { useMemo } from "react";
+import React, { useMemo, useEffect } from "react";
 import TitlePages from "../../../layout/TitlePages";
 import MaterialReactTable from "material-react-table";
 import { Box } from "@mui/material";
@@ -7,6 +7,9 @@ import { faFileExcel, faFilePdf } from "@fortawesome/free-solid-svg-icons";
 import { dataArt632019 } from "../../../data/dataTransparenciaArt63";
 
 const Art632019 = () => {
+  useEffect(() => {
+    document.title = `Artículo 63 2019`;
+  }, []);
   const columns = useMemo(
     () => [
       {
@@ -101,7 +104,7 @@ const Art632019 = () => {
           ) : (
             <Box id="Box">
               <p className="text-strong">
-                Descarga los archivos de la Fracción:
+                Descarga los archivo de la Fracción {row.original.fraccion}
               </p>
               {(row.original.excel1 !== "") &
               (row.original.excel2 === "") &
@@ -118,7 +121,7 @@ const Art632019 = () => {
                 <div className="row">
                   <div className="col-md-6">
                     {row.original.excel1
-                      ? row.original.excel1.substring(14, 100).slice(0, -26)
+                      ? row.original.excel1.substring(61, 100).slice(0, -5)
                       : []}{" "}
                     <a
                       href={row.original.excel1}
@@ -133,7 +136,7 @@ const Art632019 = () => {
                   </div>
                   <div className="col-md-6">
                     {row.original.pdf1
-                      ? row.original.pdf1.substring(14, 100).slice(0, -25)
+                      ? row.original.pdf1.substring(59, 100).slice(0, -4)
                       : []}{" "}
                     <a
                       href={row.original.pdf1}
@@ -163,7 +166,7 @@ const Art632019 = () => {
                   <div className="row">
                     <div className="col-md-6">
                       {row.original.excel1
-                        ? row.original.excel1.substring(14, 100).slice(0, -26)
+                        ? row.original.excel1.substring(61, 100).slice(0, -5)
                         : []}{" "}
                       <a
                         href={row.original.excel1}
@@ -178,7 +181,7 @@ const Art632019 = () => {
                     </div>
                     <div className="col-md-6">
                       {row.original.pdf1
-                        ? row.original.pdf1.substring(14, 100).slice(0, -25)
+                        ? row.original.pdf1.substring(59, 100).slice(0, -4)
                         : []}{" "}
                       <a
                         href={row.original.pdf1}
@@ -195,7 +198,7 @@ const Art632019 = () => {
                   <div className="row">
                     <div className="col-md-6">
                       {row.original.excel2
-                        ? row.original.excel2.substring(14, 100).slice(0, -26)
+                        ? row.original.excel2.substring(61, 100).slice(0, -5)
                         : []}{" "}
                       <a
                         href={row.original.excel2}
@@ -210,7 +213,7 @@ const Art632019 = () => {
                     </div>
                     <div className="col-md-6">
                       {row.original.pdf2
-                        ? row.original.pdf2.substring(14, 100).slice(0, -25)
+                        ? row.original.pdf2.substring(59, 100).slice(0, -4)
                         : []}{" "}
                       <a
                         href={row.original.pdf2}
@@ -241,7 +244,7 @@ const Art632019 = () => {
                   <div className="row">
                     <div className="col-md-6">
                       {row.original.excel1
-                        ? row.original.excel1.substring(14, 100).slice(0, -26)
+                        ? row.original.excel1.substring(61, 100).slice(0, -5)
                         : []}{" "}
                       <a
                         href={row.original.excel1}
@@ -256,7 +259,7 @@ const Art632019 = () => {
                     </div>
                     <div className="col-md-6">
                       {row.original.pdf1
-                        ? row.original.pdf1.substring(14, 100).slice(0, -25)
+                        ? row.original.pdf1.substring(59, 100).slice(0, -4)
                         : []}{" "}
                       <a
                         href={row.original.pdf1}
@@ -273,7 +276,7 @@ const Art632019 = () => {
                   <div className="row">
                     <div className="col-md-6">
                       {row.original.excel2
-                        ? row.original.excel2.substring(14, 100).slice(0, -26)
+                        ? row.original.excel2.substring(61, 100).slice(0, -5)
                         : []}{" "}
                       <a
                         href={row.original.excel2}
@@ -288,7 +291,7 @@ const Art632019 = () => {
                     </div>
                     <div className="col-md-6">
                       {row.original.pdf2
-                        ? row.original.pdf2.substring(14, 100).slice(0, -25)
+                        ? row.original.pdf2.substring(59, 100).slice(0, -4)
                         : []}{" "}
                       <a
                         href={row.original.pdf2}
@@ -305,7 +308,7 @@ const Art632019 = () => {
                   <div className="row">
                     <div className="col-md-6">
                       {row.original.excel3
-                        ? row.original.excel3.substring(14, 100).slice(0, -26)
+                        ? row.original.excel3.substring(61, 100).slice(0, -5)
                         : []}{" "}
                       <a
                         href={row.original.excel3}
@@ -320,7 +323,7 @@ const Art632019 = () => {
                     </div>
                     <div className="col-md-6">
                       {row.original.pdf3
-                        ? row.original.pdf3.substring(14, 100).slice(0, -25)
+                        ? row.original.pdf3.substring(59, 100).slice(0, -4)
                         : []}{" "}
                       <a
                         href={row.original.pdf3}
@@ -351,7 +354,7 @@ const Art632019 = () => {
                   <div className="row">
                     <div className="col-md-6">
                       {row.original.excel1
-                        ? row.original.excel1.substring(14, 100).slice(0, -26)
+                        ? row.original.excel1.substring(61, 100).slice(0, -5)
                         : []}{" "}
                       <a
                         href={row.original.excel1}
@@ -366,7 +369,7 @@ const Art632019 = () => {
                     </div>
                     <div className="col-md-6">
                       {row.original.pdf1
-                        ? row.original.pdf1.substring(14, 100).slice(0, -25)
+                        ? row.original.pdf1.substring(59, 100).slice(0, -4)
                         : []}{" "}
                       <a
                         href={row.original.pdf1}
@@ -383,7 +386,7 @@ const Art632019 = () => {
                   <div className="row">
                     <div className="col-md-6">
                       {row.original.excel2
-                        ? row.original.excel2.substring(14, 100).slice(0, -26)
+                        ? row.original.excel2.substring(61, 100).slice(0, -5)
                         : []}{" "}
                       <a
                         href={row.original.excel2}
@@ -398,7 +401,7 @@ const Art632019 = () => {
                     </div>
                     <div className="col-md-6">
                       {row.original.pdf2
-                        ? row.original.pdf2.substring(14, 100).slice(0, -25)
+                        ? row.original.pdf2.substring(59, 100).slice(0, -4)
                         : []}{" "}
                       <a
                         href={row.original.pdf2}
@@ -415,7 +418,7 @@ const Art632019 = () => {
                   <div className="row">
                     <div className="col-md-6">
                       {row.original.excel3
-                        ? row.original.excel3.substring(14, 100).slice(0, -26)
+                        ? row.original.excel3.substring(61, 100).slice(0, -5)
                         : []}{" "}
                       <a
                         href={row.original.excel3}
@@ -430,7 +433,7 @@ const Art632019 = () => {
                     </div>
                     <div className="col-md-6">
                       {row.original.pdf3
-                        ? row.original.pdf3.substring(14, 100).slice(0, -25)
+                        ? row.original.pdf3.substring(59, 100).slice(0, -4)
                         : []}{" "}
                       <a
                         href={row.original.pdf3}
@@ -447,7 +450,7 @@ const Art632019 = () => {
                   <div className="row">
                     <div className="col-md-6">
                       {row.original.excel4
-                        ? row.original.excel4.substring(14, 100).slice(0, -26)
+                        ? row.original.excel4.substring(61, 100).slice(0, -5)
                         : []}{" "}
                       <a
                         href={row.original.excel4}
@@ -462,7 +465,7 @@ const Art632019 = () => {
                     </div>
                     <div className="col-md-6">
                       {row.original.pdf4
-                        ? row.original.pdf4.substring(14, 100).slice(0, -25)
+                        ? row.original.pdf4.substring(59, 100).slice(0, -4)
                         : []}{" "}
                       <a
                         href={row.original.pdf4}
@@ -493,7 +496,7 @@ const Art632019 = () => {
                   <div className="row">
                     <div className="col-md-6">
                       {row.original.excel1
-                        ? row.original.excel1.substring(14, 100).slice(0, -26)
+                        ? row.original.excel1.substring(61, 100).slice(0, -5)
                         : []}{" "}
                       <a
                         href={row.original.excel1}
@@ -508,7 +511,7 @@ const Art632019 = () => {
                     </div>
                     <div className="col-md-6">
                       {row.original.pdf1
-                        ? row.original.pdf1.substring(14, 100).slice(0, -25)
+                        ? row.original.pdf1.substring(59, 100).slice(0, -4)
                         : []}{" "}
                       <a
                         href={row.original.pdf1}
@@ -525,7 +528,7 @@ const Art632019 = () => {
                   <div className="row">
                     <div className="col-md-6">
                       {row.original.excel2
-                        ? row.original.excel2.substring(14, 100).slice(0, -26)
+                        ? row.original.excel2.substring(61, 100).slice(0, -5)
                         : []}{" "}
                       <a
                         href={row.original.excel2}
@@ -540,7 +543,7 @@ const Art632019 = () => {
                     </div>
                     <div className="col-md-6">
                       {row.original.pdf2
-                        ? row.original.pdf2.substring(14, 100).slice(0, -25)
+                        ? row.original.pdf2.substring(59, 100).slice(0, -4)
                         : []}{" "}
                       <a
                         href={row.original.pdf2}
@@ -557,7 +560,7 @@ const Art632019 = () => {
                   <div className="row">
                     <div className="col-md-6">
                       {row.original.excel3
-                        ? row.original.excel3.substring(14, 100).slice(0, -26)
+                        ? row.original.excel3.substring(61, 100).slice(0, -5)
                         : []}{" "}
                       <a
                         href={row.original.excel3}
@@ -572,7 +575,7 @@ const Art632019 = () => {
                     </div>
                     <div className="col-md-6">
                       {row.original.pdf3
-                        ? row.original.pdf3.substring(14, 100).slice(0, -25)
+                        ? row.original.pdf3.substring(59, 100).slice(0, -4)
                         : []}{" "}
                       <a
                         href={row.original.pdf3}
@@ -589,7 +592,7 @@ const Art632019 = () => {
                   <div className="row">
                     <div className="col-md-6">
                       {row.original.excel4
-                        ? row.original.excel4.substring(14, 100).slice(0, -26)
+                        ? row.original.excel4.substring(61, 100).slice(0, -5)
                         : []}{" "}
                       <a
                         href={row.original.excel4}
@@ -604,7 +607,7 @@ const Art632019 = () => {
                     </div>
                     <div className="col-md-6">
                       {row.original.pdf4
-                        ? row.original.pdf4.substring(14, 100).slice(0, -25)
+                        ? row.original.pdf4.substring(59, 100).slice(0, -4)
                         : []}{" "}
                       <a
                         href={row.original.pdf4}
@@ -621,7 +624,7 @@ const Art632019 = () => {
                   <div className="row">
                     <div className="col-md-6">
                       {row.original.excel5
-                        ? row.original.excel5.substring(14, 100).slice(0, -26)
+                        ? row.original.excel5.substring(61, 100).slice(0, -5)
                         : []}{" "}
                       <a
                         href={row.original.excel5}
@@ -636,7 +639,7 @@ const Art632019 = () => {
                     </div>
                     <div className="col-md-6">
                       {row.original.pdf5
-                        ? row.original.pdf5.substring(14, 100).slice(0, -25)
+                        ? row.original.pdf5.substring(59, 100).slice(0, -4)
                         : []}{" "}
                       <a
                         href={row.original.pdf5}
@@ -656,7 +659,7 @@ const Art632019 = () => {
                   <div className="row">
                     <div className="col-md-6">
                       {row.original.excel1
-                        ? row.original.excel1.substring(14, 100).slice(0, -26)
+                        ? row.original.excel1.substring(61, 100).slice(0, -5)
                         : []}{" "}
                       <a
                         href={row.original.excel1}
@@ -671,7 +674,7 @@ const Art632019 = () => {
                     </div>
                     <div className="col-md-6">
                       {row.original.pdf1
-                        ? row.original.pdf1.substring(14, 100).slice(0, -25)
+                        ? row.original.pdf1.substring(59, 100).slice(0, -4)
                         : []}{" "}
                       <a
                         href={row.original.pdf1}
@@ -688,7 +691,7 @@ const Art632019 = () => {
                   <div className="row">
                     <div className="col-md-6">
                       {row.original.excel2
-                        ? row.original.excel2.substring(14, 100).slice(0, -26)
+                        ? row.original.excel2.substring(61, 100).slice(0, -5)
                         : []}{" "}
                       <a
                         href={row.original.excel2}
@@ -703,7 +706,7 @@ const Art632019 = () => {
                     </div>
                     <div className="col-md-6">
                       {row.original.pdf2
-                        ? row.original.pdf2.substring(14, 100).slice(0, -25)
+                        ? row.original.pdf2.substring(59, 100).slice(0, -4)
                         : []}{" "}
                       <a
                         href={row.original.pdf2}
@@ -720,7 +723,7 @@ const Art632019 = () => {
                   <div className="row">
                     <div className="col-md-6">
                       {row.original.excel3
-                        ? row.original.excel3.substring(14, 100).slice(0, -26)
+                        ? row.original.excel3.substring(61, 100).slice(0, -5)
                         : []}{" "}
                       <a
                         href={row.original.excel3}
@@ -735,7 +738,7 @@ const Art632019 = () => {
                     </div>
                     <div className="col-md-6">
                       {row.original.pdf3
-                        ? row.original.pdf3.substring(14, 100).slice(0, -25)
+                        ? row.original.pdf3.substring(59, 100).slice(0, -4)
                         : []}{" "}
                       <a
                         href={row.original.pdf3}
@@ -752,7 +755,7 @@ const Art632019 = () => {
                   <div className="row">
                     <div className="col-md-6">
                       {row.original.excel4
-                        ? row.original.excel4.substring(14, 100).slice(0, -26)
+                        ? row.original.excel4.substring(61, 100).slice(0, -5)
                         : []}{" "}
                       <a
                         href={row.original.excel4}
@@ -767,7 +770,7 @@ const Art632019 = () => {
                     </div>
                     <div className="col-md-6">
                       {row.original.pdf4
-                        ? row.original.pdf4.substring(14, 100).slice(0, -25)
+                        ? row.original.pdf4.substring(59, 100).slice(0, -4)
                         : []}{" "}
                       <a
                         href={row.original.pdf4}
@@ -784,7 +787,7 @@ const Art632019 = () => {
                   <div className="row">
                     <div className="col-md-6">
                       {row.original.excel5
-                        ? row.original.excel5.substring(14, 100).slice(0, -26)
+                        ? row.original.excel5.substring(61, 100).slice(0, -5)
                         : []}{" "}
                       <a
                         href={row.original.excel5}
@@ -799,7 +802,7 @@ const Art632019 = () => {
                     </div>
                     <div className="col-md-6">
                       {row.original.pdf5
-                        ? row.original.pdf5.substring(14, 100).slice(0, -25)
+                        ? row.original.pdf5.substring(59, 100).slice(0, -4)
                         : []}{" "}
                       <a
                         href={row.original.pdf5}
@@ -816,7 +819,7 @@ const Art632019 = () => {
                   <div className="row">
                     <div className="col-md-6">
                       {row.original.excel6
-                        ? row.original.excel6.substring(14, 100).slice(0, -26)
+                        ? row.original.excel6.substring(61, 100).slice(0, -5)
                         : []}{" "}
                       <a
                         href={row.original.excel6}
@@ -831,7 +834,7 @@ const Art632019 = () => {
                     </div>
                     <div className="col-md-6">
                       {row.original.pdf6
-                        ? row.original.pdf6.substring(14, 100).slice(0, -25)
+                        ? row.original.pdf6.substring(59, 100).slice(0, -4)
                         : []}{" "}
                       <a
                         href={row.original.pdf6}
