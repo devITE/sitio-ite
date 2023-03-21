@@ -39,8 +39,8 @@ const ITE = () => {
         // url="https://itetlax.org.mx/assets/img/imgPopup/1.png"
         // imgLink="https://itetlax.org.mx/assets/img/imgPopup/convocatoriaDESPEN.png"
         // url="https://www.ine.mx/comunidad-ine/convocatoria-concurso-publico-2022-2023-de-ingreso-sistema-ople/"
-        imgLink="https://itetlax.org.mx/assets/img/imgPopup/4.png"
-        url="https://itetlax.org.mx/assets/img/imgPopup/4.png"
+        imgLink="https://itetlax.org.mx/assets/img/imgC_A/11.jpg"
+        url="https://itetlax.org.mx/assets/img/imgC_A/11.jpg"
         linkToo=""
       />
 
@@ -58,12 +58,12 @@ const ITE = () => {
       </Carousel>
       <div className="mt-4 Home__AR-A">
         <div>
-          <h2 className="bottom_title">Foro "La Representación Política de las Mujeres en México"</h2>
+          <h2 className="bottom_title">Marco de la Conmemoración del día Internacional de la Mujer</h2>
           <div className="Home__video-embed ratio ratio-16x9 w-100">
             <iframe
               id="9QQCf_emFwo"
-              src="https://www.youtube-nocookie.com/embed/K4LYGI6PTmE?rel=0"
-              title="Presentación ITE-Conecta"
+              src="https://www.youtube-nocookie.com/embed/2w3leiAenV0?rel=0"
+              title="Marco de la Conmemoración del día Internacional de la Mujer"
               allowFullScreen
             ></iframe>
           </div>
@@ -129,13 +129,13 @@ const ITE = () => {
           <h2 className="bottom_title">Sesión en Vivo</h2>
           <div className="Home__video-embed ratio ratio-16x9 w-100">
             <iframe
-              src="https://www.youtube-nocookie.com/embed/a3UE7OmL8XU?rel=0"
+              src="https://www.youtube-nocookie.com/embed/eHyYKqMBE9Q?rel=0"
               title="Sesión En Vivo del CG"
               allowFullScreen
             ></iframe>
           </div>
           <h5 className="mt-3 text-center">
-            Sesión Presencial Ordinaria del Consejo General 28/02/2023{" "}
+          Sesión Extraordinaria Presencial del CG 17/03/2023{" "}
           </h5>
         </div>
         <div>
