@@ -212,7 +212,7 @@ export const dataCA = [
     linkToo: "",
   },
   {
-    id: 1,
+    id: 3,
     imgUrl: "https://itetlax.org.mx/assets/img/imgC_A/12.jpg",
     alt: "Sesión Extraordinaria",
     itemActive: "active",
@@ -221,5 +221,14 @@ export const dataCA = [
     url: "https://itetlax.org.mx/assets/img/imgC_A/12.jpg",
     linkToo: "",
   },
-
+  {
+    id: 4,
+    imgUrl: "https://itetlax.org.mx/assets/img/imgC_A/13.jpg",
+    alt: "Sesión Extraordinaria",
+    itemActive: "",
+    buttonActive: "",
+    ariaCurrent: "true",
+    url: "https://forms.gle/nXQrRbptuViEEZYx8",
+    linkToo: "",
+  },
 ];
