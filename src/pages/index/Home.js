@@ -39,8 +39,8 @@ const ITE = () => {
         // url="https://itetlax.org.mx/assets/img/imgPopup/1.png"
         // imgLink="https://itetlax.org.mx/assets/img/imgPopup/convocatoriaDESPEN.png"
         // url="https://www.ine.mx/comunidad-ine/convocatoria-concurso-publico-2022-2023-de-ingreso-sistema-ople/"
-        imgLink="https://itetlax.org.mx/assets/img/imgC_A/11.jpg"
-        url="https://itetlax.org.mx/assets/img/imgC_A/11.jpg"
+        imgLink="https://itetlax.org.mx/assets/img/imgC_A/12.jpg"
+        url="https://itetlax.org.mx/assets/img/imgC_A/12.jpg"
         linkToo=""
       />
 
@@ -58,11 +58,11 @@ const ITE = () => {
       </Carousel>
       <div className="mt-4 Home__AR-A">
         <div>
-          <h2 className="bottom_title">Marco de la Conmemoración del día Internacional de la Mujer</h2>
+          <h2 className="bottom_title">Presentación del Estudio de Votos Nulos del Proceso Electoral Local 2020-2021</h2>
           <div className="Home__video-embed ratio ratio-16x9 w-100">
             <iframe
               id="9QQCf_emFwo"
-              src="https://www.youtube-nocookie.com/embed/2w3leiAenV0?rel=0"
+              src="https://www.youtube-nocookie.com/embed/c7IRKgXk5Rs?rel=0"
               title="Marco de la Conmemoración del día Internacional de la Mujer"
               allowFullScreen
             ></iframe>

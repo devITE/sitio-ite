@@ -191,18 +191,9 @@ export const dataCA = [
   //   url: "https://itetlax.org.mx/assets/img/imgC_A/6.jpg",
   //   linkToo: "",
   // },
+  
   {
     id: 1,
-    imgUrl: "https://itetlax.org.mx/assets/img/imgC_A/11.jpg",
-    alt: "Sesión Extraordinaria",
-    itemActive: "",
-    buttonActive: "",
-    ariaCurrent: "true",
-    url: "https://itetlax.org.mx/assets/img/imgC_A/11.jpg",
-    linkToo: "",
-  },
-  {
-    id: 2,
     imgUrl: "https://itetlax.org.mx/assets/img/imgC_A/7.jpg",
     alt: "Participación Política de las mujeres tlaxcaltecas",
     itemActive: "",
@@ -212,7 +203,7 @@ export const dataCA = [
     linkToo: "",
   },
   {
-    id: 3,
+    id: 2,
     imgUrl: "https://itetlax.org.mx/assets/img/imgC_A/12.jpg",
     alt: "Sesión Extraordinaria",
     itemActive: "active",
@@ -222,7 +213,7 @@ export const dataCA = [
     linkToo: "",
   },
   {
-    id: 4,
+    id: 3,
     imgUrl: "https://itetlax.org.mx/assets/img/imgC_A/13.jpg",
     alt: "Sesión Extraordinaria",
     itemActive: "",
