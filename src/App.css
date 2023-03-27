@@ -177,8 +177,10 @@ a {
 /* --------------- A C C O R D I O N --------------- */
 
 .accordion-button {
-  background-color: #972069 !important;
   color: #ffffff !important;
+  /* background-color: #972069 !important; */
+  /* background-color: #202297 !important; */
+
 }
 
 /* --------------- T A B L E     A N D     D A T A     T A B L E --------------- */
