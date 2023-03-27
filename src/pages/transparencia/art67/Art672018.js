@@ -1,4 +1,4 @@
-import React, { useMemo } from "react";
+import React, { useEffect, useMemo } from "react";
 import TitlePages from "../../../layout/TitlePages";
 import MaterialReactTable from "material-react-table";
 import { Box } from "@mui/material";
@@ -6,9 +6,12 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFileExcel, faFilePdf } from "@fortawesome/free-solid-svg-icons";
 import { dataArt672018 } from "../../../data/dataTransparenciaArt67";
 
+
 const Art672018 = () => {
-  const columns = useMemo(
-    () => [
+  useEffect(() => {
+    document.title = `Artículo 67 2018`;
+  }, []);
+  const columns = useMemo(    () => [
       {
         accessorKey: "no",
         header: "NO.",

@@ -290,6 +290,47 @@ export const dataAcuerdos2023 = [
       },
   ]
   },
+  {
+    id: 17,
+    year: "2023",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 17-2023",
+    monthDoc: "MAR",
+    nameDoc: "SE APRUEBA DICTAMEN NO PRESENTACIÓN SOLICITUD DE REGISTRO ORGANIZACIONES CIUDADANAS",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/17.pdf",
+    subRows: [
+      {
+        typeDoc: "",
+        nameDoc: "ANEXO. DICTAMEN NO PRESENTACIÓN SOLICITUD DE REGISTRO ORGANIZACIONES CIUDADANAS",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/17.1.pdf",
+        subRows: "",
+      },
+      {
+        typeDoc: "",
+        nameDoc: "ANEXO. VOTO CONCURRENTE DEL CONSEJERO HERMENEGILDO NERIA CARREÑO",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/17.2.pdf",
+        subRows: "",
+      },
+  ]
+  },
+  {
+    id: 18,
+    year: "2023",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 18-2023",
+    monthDoc: "MAR",
+    nameDoc: "NOMBRAMIENTO COORDINADORA DE GENERO Y NO DISCRIMINACIÓN",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/18.pdf",
+  },
+  {
+    id: 19,
+    year: "2023",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 19-2023",
+    monthDoc: "MAR",
+    nameDoc: "ACUERDO ITE-CG 19-2023 SE NOMBRA TITULAR DE LA DOECyEC",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/19.pdf",
+  },
 ];
 
 // ------------ A C U E R D O S    I N E ------------

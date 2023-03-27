@@ -1,9 +1,11 @@
-import React, { Component } from "react";
+import React, { useEffect } from "react";
 import TitlePages from "../../../layout/TitlePages";
 import { Link } from "react-router-dom";
 
-export default class Articulo94 extends Component {
-  render() {
+const Articulo94 = () => {
+  useEffect(() => {
+    document.title = `Articulo 94`;
+  }, []);
     return (
       <>
         <TitlePages
@@ -38,4 +40,4 @@ export default class Articulo94 extends Component {
       </>
     );
   }
-}
+  export default Articulo94;

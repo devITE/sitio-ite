@@ -1,10 +1,12 @@
-import React, { Component } from "react";
+import React, { useEffect } from "react";
 import TitlePages from "../../../layout/TitlePages";
 import { dataConvenios } from "../../../data/dataTransparencia";
 import "../Transparencia.css";
 
-export default class Convenios extends Component {
-  render() {
+const Convenios = () => {
+  useEffect(() => {
+    document.title = `Convenios`;
+  }, []);
     return (
       <div>
         <TitlePages title="Transparencia" subTitle="Convenios" />
@@ -27,4 +29,4 @@ export default class Convenios extends Component {
       </div>
     );
   }
-}
+  export default Convenios;
