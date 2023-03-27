@@ -30,17 +30,17 @@ export const dataInf = [
           },
         ],
       },
-      // {
-      //   id: 3,
-      //   titleButton: "Marzo",
-      //   subChildren: [
-      //     {
-      //       id: 1,
-      //       alt: "Sesiones de Consejo General",
-      //       link: "https://itetlax.org.mx/assets/img/imgEInf/2022/8.jpg",
-      //     },
-      //   ],
-      // },
+      {
+        id: 3,
+        titleButton: "Marzo",
+        subChildren: [
+          {
+            id: 1,
+            alt: "Valores de la democracia",
+            link: "https://itetlax.org.mx/assets/img/imgEInf/2023/2.jpg",
+          },
+        ],
+      },
       // {
       //   id: 6,
       //   titleButton: "Junio",
