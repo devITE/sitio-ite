@@ -32,15 +32,12 @@ const ITE = () => {
         //  imgLink="https://itetlax.org.mx/assets/img/ATCC/ATCC.jpeg"
         //  url="https://itetlax.org.mx/assets/img/ATCC/ATCC.jpeg"
         //  linkToo=""
-        // imgLink="https://itetlax.org.mx/assets/despen/img/banner.jpg"
-        // url=""
-        // linkToo="/DESPEN"
         // imgLink="https://itetlax.org.mx/assets/img/imgPopup/1.png"
         // url="https://itetlax.org.mx/assets/img/imgPopup/1.png"
-        // imgLink="https://itetlax.org.mx/assets/img/imgPopup/convocatoriaDESPEN.png"
-        // url="https://www.ine.mx/comunidad-ine/convocatoria-concurso-publico-2022-2023-de-ingreso-sistema-ople/"
-        imgLink="https://itetlax.org.mx/assets/img/imgC_A/12.jpg"
-        url="https://itetlax.org.mx/assets/img/imgC_A/12.jpg"
+        // imgLink="https://itetlax.org.mx/assets/img/imgC_A/12.jpg"
+        // url="https://itetlax.org.mx/assets/img/imgC_A/12.jpg"
+        imgLink="https://itetlax.org.mx/assets/img/imgC_A/foro.jpg"
+        url="https://itetlax.org.mx/assets/img/imgC_A/foro.jpg"
         linkToo=""
       />
 
@@ -58,7 +55,10 @@ const ITE = () => {
       </Carousel>
       <div className="mt-4 Home__AR-A">
         <div>
-          <h2 className="bottom_title">Presentación del Estudio de Votos Nulos del Proceso Electoral Local 2020-2021</h2>
+          <h2 className="bottom_title">
+            Presentación del Estudio de Votos Nulos del Proceso Electoral Local
+            2020-2021
+          </h2>
           <div className="Home__video-embed ratio ratio-16x9 w-100">
             <iframe
               id="9QQCf_emFwo"
@@ -135,7 +135,7 @@ const ITE = () => {
             ></iframe>
           </div>
           <h5 className="mt-3 text-center">
-          Sesión Extraordinaria Presencial del CG 17/03/2023{" "}
+            Sesión Extraordinaria Presencial del CG 17/03/2023{" "}
           </h5>
         </div>
         <div>
