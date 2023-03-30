@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { useEffect } from "react";
 import TitlePages from "../../../layout/TitlePages";
 import ListBadge from "../../../layout/ListBadge";
 import Accordion from "../../../layout/Accordion/Accordion";
@@ -8,8 +8,10 @@ import {
   dataCuentaPublica,
 } from "../../../data/dataTransparencia";
 
-export default class InformacionContable extends Component {
-  render() {
+const InformacionContable = () => {
+  useEffect(() => {
+    document.title = `Información Contable`;
+  }, []);
     return (
       <div>
         <TitlePages title="Transparencia" subTitle="Información Contable" />
@@ -40,4 +42,4 @@ export default class InformacionContable extends Component {
       </div>
     );
   }
-}
+  export default InformacionContable;

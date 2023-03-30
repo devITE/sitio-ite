@@ -4,7 +4,7 @@ import "./Integracion.css";
 
 const Integración = () => {
   useEffect(() => {
-    document.title = `ITE - Integración`;
+    document.title = `Integración`;
   }, []);
   return (
     <>

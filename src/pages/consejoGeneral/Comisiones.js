@@ -3,7 +3,7 @@ import TitlePages from "../../layout/TitlePages";
 
 const ComisionesPermanentesyTemporales = () => {
   useEffect(() => {
-    document.title = `ITE - Comisiones Permanentes y Temporales`;
+    document.title = `Comisiones Permanentes y Temporales`;
   }, []);
     return (
       <>

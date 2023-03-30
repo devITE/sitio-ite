@@ -3,7 +3,7 @@ import TitlePages from "../../layout/TitlePages";
 
 const EstructuraOrganica = () => {
   useEffect(() => {
-    document.title = `ITE - Estructura Organica`;
+    document.title = `Estructura Organica`;
   }, []);
     return (
       <>
