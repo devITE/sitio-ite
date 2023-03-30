@@ -8,7 +8,7 @@ import { dataArt632023 } from "../../../data/dataObTrans2023";
 
 const Art632023 = () => {
   useEffect(() => {
-    document.title = `ITE - Art. 63 2023`;
+    document.title = `Art. 63 2023`;
   }, []);
 
   const columns = useMemo(

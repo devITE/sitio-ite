@@ -3,7 +3,7 @@ import TitlePages from "../../layout/TitlePages";
 
 const Estructura = () => {
   useEffect(() => {
-    document.title = `ITE - Estructura`;
+    document.title = `Estructura`;
   }, []);
     return (
       <div>

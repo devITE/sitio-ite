@@ -301,8 +301,14 @@ export const dataAcuerdos2023 = [
     subRows: [
       {
         typeDoc: "",
-        nameDoc: "ANEXO ÚNICO. DICTAMEN NO PRESENTACIÓN SOLICITUD DE REGISTRO ORGANIZACIONES CIUDADANAS",
+        nameDoc: "ANEXO. DICTAMEN NO PRESENTACIÓN SOLICITUD DE REGISTRO ORGANIZACIONES CIUDADANAS",
         link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/17.1.pdf",
+        subRows: "",
+      },
+      {
+        typeDoc: "",
+        nameDoc: "ANEXO. VOTO CONCURRENTE DEL CONSEJERO HERMENEGILDO NERIA CARREÑO",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/17.2.pdf",
         subRows: "",
       },
   ]

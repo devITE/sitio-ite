@@ -1,12 +1,14 @@
-import React, { Component } from "react";
+import React, { useEffect } from "react";
 import NavbarEnlaces from "../../../layout/NavbarEnlaces";
 import Accordion from "../../../layout/Accordion/Accordion";
 import AccordionItem from "../../../layout/Accordion/AccordionItem";
 import ListBadge from "../../../layout/ListBadge";
 import { dataHistorial } from "../../../data/dataProcesosElectorales";
 
-export default class HistorialPE extends Component {
-  render() {
+const HistorialPE = () => {
+  useEffect(() => {
+    document.title = `Historial de Resultados Electorales (1995 - 2003)`;
+  }, []);
     return (
       <>
         <NavbarEnlaces title="Historial de Resultados Electorales (1995 - 2003)" />
@@ -29,4 +31,4 @@ export default class HistorialPE extends Component {
       </>
     );
   }
-}
+  export default HistorialPE;

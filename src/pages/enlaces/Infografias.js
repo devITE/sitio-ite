@@ -1,12 +1,14 @@
-import React, { Component } from "react";
+import React, { useEffect } from "react";
 import NavbarEnlaces from "../../layout/NavbarEnlaces";
 import ModalIMG from "../../layout/Modal/ModalIMG";
 import { dataInf } from "../../data/dataInfografias";
 
 import "./EnlacesStyle.css";
 
-export default class Infografias extends Component {
-  render() {
+const Inforgrafias = () => {
+  useEffect(() => {
+    document.title = `Infografías`;
+  }, []);
     return (
       <>
         <NavbarEnlaces title="Infografías" />
@@ -132,4 +134,4 @@ export default class Infografias extends Component {
       </>
     );
   }
-}
+  export default Inforgrafias;

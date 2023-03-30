@@ -8,7 +8,7 @@ import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
 
 const Acuerdos2009 = () => {
   useEffect(() => {
-    document.title = `ITE - Acuerdos ITE 2009`;
+    document.title = `Acuerdos ITE 2009`;
   }, []);
   const columns = useMemo(
     () => [

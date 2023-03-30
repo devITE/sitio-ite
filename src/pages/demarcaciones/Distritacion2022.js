@@ -3,7 +3,7 @@ import TitlePages from "../../layout/TitlePages";
 
 const Acuerdos2022 = () => {
   useEffect(() => {
-    document.title = `ITE - Acuerdos 2022`;
+    document.title = `Acuerdos 2022`;
   }, []);
     return (
       <>

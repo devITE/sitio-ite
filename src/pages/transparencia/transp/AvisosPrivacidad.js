@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { useEffect } from "react";
 import TitlePages from "../../../layout/TitlePages";
 import ListBadge from "../../../layout/ListBadge";
 import Accordion from "../../../layout/Accordion/Accordion";
@@ -6,8 +6,10 @@ import AccordionItem from "../../../layout/Accordion/AccordionItem";
 import { dataAvisosPrivacidad } from "../../../data/dataTransparenciaAvisosPrivacidad";
 import "../Transparencia.css";
 
-export default class AvisosPrivacidad extends Component {
-  render() {
+const Privacidad = () => {
+  useEffect(() => {
+    document.title = `Avisos de Privacidad`;
+  }, []);
     return (
       <div>
         <TitlePages title="Transparencia" subTitle="Avisos de Privacidad" />
@@ -30,4 +32,4 @@ export default class AvisosPrivacidad extends Component {
       </div>
     );
   }
-}
+  export default Privacidad;

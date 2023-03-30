@@ -4,7 +4,7 @@ import TitlePages from "../../layout/TitlePages";
 
 const Acuerdos = () => {
   useEffect(() => {
-    document.title = `ITE - Acuerdos`;
+    document.title = `Acuerdos`;
   }, []);
     return(
       <>

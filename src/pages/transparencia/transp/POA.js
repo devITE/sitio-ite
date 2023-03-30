@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { useEffect } from "react";
 import TitlePages from "../../../layout/TitlePages";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
@@ -9,8 +9,10 @@ import {
 } from "../../../data/dataTransparenciaPOA";
 import "../Transparencia.css";
 
-export default class POA extends Component {
-  render() {
+const POA = () => {
+  useEffect(() => {
+    document.title = `POA`;
+  }, []);
     return (
       <>
         <TitlePages
@@ -189,4 +191,4 @@ export default class POA extends Component {
       </>
     );
   }
-}
+  export default POA;

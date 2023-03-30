@@ -3,7 +3,7 @@ import TitlePages from "../../layout/TitlePages";
 
 const JGE = () => {
   useEffect(() => {
-    document.title = `ITE - Junta General Ejecutiva`;
+    document.title = `Junta General Ejecutiva`;
   }, []);
     return (
       <>

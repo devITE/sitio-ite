@@ -1,12 +1,14 @@
-import React, { Component } from "react";
+import React, { useEffect } from "react";
 import ModalDownload from "../../layout/Modal/ModalDownload";
 import TitlePages from "../../layout/TitlePages";
 import { distLocal, intDist, infoRel } from "../../data/dataMapas";
 import "./Mapas.css";
 
-export default class Mapas extends Component {
-  render() {
-    return (
+const Mapas = () => {
+  useEffect(() => {
+    document.title = `Mapas`;
+  }, []);
+  return(
       <>
         <TitlePages
           title="Demarcaciones"
@@ -216,4 +218,4 @@ export default class Mapas extends Component {
       </>
     );
   }
-}
+export default Mapas;

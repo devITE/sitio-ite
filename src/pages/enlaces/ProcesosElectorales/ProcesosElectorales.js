@@ -1,12 +1,14 @@
-import React, { Component } from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import NavbarEnlaces from "../../../layout/NavbarEnlaces";
 import Modal from "../../../layout/Modal/Modal";
 import ListBadge from "../../../layout/ListBadge";
 import { dataResultadosE2021 } from "../../../data/dataProcesosElectorales";
 
-export default class ProcesosElectorales extends Component {
-  render() {
+const ProcesosElectorales = () => {
+  useEffect(() => {
+    document.title = `Procesos Electorales`;
+  }, []);
     return (
       <>
         <NavbarEnlaces title="Procesos Electorales" />
@@ -89,4 +91,4 @@ export default class ProcesosElectorales extends Component {
       </>
     );
   }
-}
+  export default ProcesosElectorales;

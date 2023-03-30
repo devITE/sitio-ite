@@ -4,7 +4,7 @@ import TitlePages from "../../../layout/TitlePages";
 
 const AcuerdosIne = () => {
   useEffect(() => {
-    document.title = `ITE - Acuerdos INE`;
+    document.title = `Acuerdos INE`;
   }, []);
     return (
       <>

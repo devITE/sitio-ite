@@ -1,10 +1,12 @@
-import React, { Component } from "react";
+import React, { useEffect } from "react";
 import TitlePages from "../../../layout/TitlePages";
 import { dataInformesAnuales } from "../../../data/dataTransparencia";
 import "../Transparencia.css";
 
-export default class InformesAnuales extends Component {
-  render() {
+const InformesAnuales = () => {
+  useEffect(() => {
+    document.title = `Informes Anuales`;
+  }, []);
     return (
       <div>
         <TitlePages title="Transparencia" subTitle="Informes Anuales" />
@@ -31,4 +33,4 @@ export default class InformesAnuales extends Component {
       </div>
     );
   }
-}
+  export default InformesAnuales;
