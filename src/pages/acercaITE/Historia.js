@@ -4,7 +4,7 @@ import "./Historia.css";
 
 const Historia = () => {
   useEffect(() => {
-    document.title = `ITE - Historia`;
+    document.title = `Historia`;
   }, []);
     return (
       <>

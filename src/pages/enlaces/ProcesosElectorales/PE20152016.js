@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { useEffect } from "react";
 import Modal from "../../../layout/Modal/Modal";
 import ListBadge from "../../../layout/ListBadge";
 import NavbarEnlaces from "../../../layout/NavbarEnlaces";
@@ -10,8 +10,10 @@ import {
   dataListadoCandidatos2016,
 } from "../../../data/dataProcesosElectorales";
 
-export default class PE20152016 extends Component {
-  render() {
+const PE20152016 = () => {
+  useEffect(() => {
+    document.title = `Proceso Electoral 2015 - 2016`;
+  }, []);
     return (
       <>
         <NavbarEnlaces title="Proceso Electoral 2015 - 2016" />
@@ -239,4 +241,4 @@ export default class PE20152016 extends Component {
       </>
     );
   }
-}
+  export default PE20152016;

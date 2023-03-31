@@ -1,11 +1,13 @@
-import React, { Component } from "react";
+import React, { useEffect } from "react";
 import NavbarEnlaces from "../../../layout/NavbarEnlaces";
 import Modal from "../../../layout/Modal/Modal";
 import ListBadge from "../../../layout/ListBadge";
 import { dataResultados2018 } from "../../../data/dataProcesosElectorales";
 
-export default class PE2018 extends Component {
-  render() {
+const PEE2017 = () => {
+  useEffect(() => {
+    document.title = `Proceso Electoral 2017 - 2018`;
+  }, []);
     return (
       <>
         <NavbarEnlaces title="Proceso Electoral 2017 - 2018" />
@@ -87,4 +89,4 @@ export default class PE2018 extends Component {
       </>
     );
   }
-}
+  export default PEE2017;

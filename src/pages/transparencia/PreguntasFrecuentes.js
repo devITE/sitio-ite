@@ -1,10 +1,12 @@
-import React, { Component } from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import TitlePages from "../../layout/TitlePages";
 import "./Transparencia.css";
 
-export default class PreguntasFrecuentes extends Component {
-  render() {
+const PreguntasFrecuentes = () => {
+  useEffect(() => {
+    document.title = `Preguntas Frecuentes`;
+  }, []);
     return (
       <>
         <TitlePages title="Transparencia" subTitle="Preguntas Frecuentes" />
@@ -553,4 +555,4 @@ export default class PreguntasFrecuentes extends Component {
       </>
     );
   }
-}
+  export default PreguntasFrecuentes;

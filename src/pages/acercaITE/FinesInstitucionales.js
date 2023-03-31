@@ -3,7 +3,7 @@ import TitlePages from "../../layout/TitlePages";
 
 const FinesInstitucionales = () => {
   useEffect(() => {
-    document.title = `ITE - Fines Institucionales`;
+    document.title = `Fines Institucionales`;
   }, []);
     return (
       <>

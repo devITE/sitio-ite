@@ -9,7 +9,7 @@ import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
 
 const Acuerdos2023 = () => {
   useEffect(() => {
-    document.title = `ITE - Acuerdos ITE 2023`;
+    document.title = `Acuerdos ITE 2023`;
   }, []);
   const columns = useMemo(
     () => [

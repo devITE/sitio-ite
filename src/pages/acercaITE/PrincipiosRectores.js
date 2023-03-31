@@ -4,7 +4,7 @@ import "./PrincipiosRectores.css";
 
 const PrincipiosRectores = () => {
   useEffect(() => {
-    document.title = `ITE - Principios Rectores`;
+    document.title = `Principios Rectores`;
   }, []);
     return (
       <>

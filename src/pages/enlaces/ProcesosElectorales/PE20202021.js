@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { useEffect } from "react";
 import NavbarEnlaces from "../../../layout/NavbarEnlaces";
 import Modal from "../../../layout/Modal/Modal";
 import ListBadge from "../../../layout/ListBadge";
@@ -9,9 +9,10 @@ import {
   dataPresidencias20202021,
 } from "../../../data/dataProcesosElectorales";
 
-export default class PE20202021 extends Component {
-  render() {
-    return (
+const PE2020 = () => {
+  useEffect(() => {
+    document.title = `Proceso Electoral 2020 - 2021`;
+  }, []);    return (
       <>
         <NavbarEnlaces title="Proceso Electoral 2020 - 2021" />
         <div className="Content__grid">
@@ -126,4 +127,4 @@ export default class PE20202021 extends Component {
       </>
     );
   }
-}
+export default PE2020;

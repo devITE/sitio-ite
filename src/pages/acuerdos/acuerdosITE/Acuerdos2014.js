@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import TitlePages from "../../../layout/TitlePages";
 const AcuerdosITE2014 = () => {
   useEffect(() => {
-    document.title = `ITE - Acuerdos ITE 2014`;
+    document.title = `Acuerdos ITE 2014`;
   }, []);
   return (
     <>

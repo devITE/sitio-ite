@@ -1,11 +1,13 @@
-import React, { Component } from "react";
+import React, { useEffect } from "react";
 import TitlePages from "../../../layout/TitlePages";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFileWord } from "@fortawesome/free-solid-svg-icons";
 import "../Transparencia.css";
 
-export default class FormatoSolicitud extends Component {
-  render() {
+const Arco = () => {
+  useEffect(() => {
+    document.title = `Formato de solicitud de infomación / ARCO`;
+  }, []);
     return (
       <div>
         <TitlePages
@@ -55,4 +57,4 @@ export default class FormatoSolicitud extends Component {
       </div>
     );
   }
-}
+  export default Arco;

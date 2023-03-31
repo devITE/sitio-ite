@@ -223,16 +223,23 @@ export const dataVideoPodCast = [
   {
     id: 40,
     url: "2mdjVv6kwXU",
-    title: 'ITE Comentamos... Procedimiento que seguirán las solicitudes de las cinco organizaciones que presentaron su registro para constituirse como partido político"',
+    title:
+      'ITE Comentamos... Procedimiento que seguirán las solicitudes de las cinco organizaciones que presentaron su registro para constituirse como partido político"',
   },
   {
     id: 41,
     url: "cCxNQAd5S_E",
-    title: 'ITE Comentamos... Foros para promover la reflexión ciudadana',
+    title: "ITE Comentamos... Foros para promover la reflexión ciudadana",
   },
   {
     id: 42,
     url: "BkiJWMhcwp4",
-    title: '¿Sabías qué en el ITE contamos con 12 plazas que pertenecen al SPEN del Sistema de los Organismos Públicos Locales Electorales?',
+    title:
+      "¿Sabías qué en el ITE contamos con 12 plazas que pertenecen al SPEN del Sistema de los Organismos Públicos Locales Electorales?",
+  },
+  {
+    id: 43,
+    url: "BY7FzAWrDFc",
+    title: "ITE Comentamos... 5° Taller Nacional de Participación Ciudadana",
   },
 ];

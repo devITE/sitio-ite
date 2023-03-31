@@ -1,8 +1,10 @@
-import React, { Component } from "react";
+import React, { useEffect } from "react";
 import NavbarEnlaces from "../../../layout/NavbarEnlaces";
 
-export default class PEE2017 extends Component {
-  render() {
+const PEE2017 = () => {
+  useEffect(() => {
+    document.title = `Proceso Electoral Extraordinario 2017`;
+  }, []);
     return (
       <>
         <NavbarEnlaces title="Proceso Electoral Extraordinario 2017" />
@@ -32,4 +34,4 @@ export default class PEE2017 extends Component {
       </>
     );
   }
-}
+  export default PEE2017;

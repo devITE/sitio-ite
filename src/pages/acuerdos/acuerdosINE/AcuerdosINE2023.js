@@ -7,7 +7,7 @@ import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
 
 const AcuerdosINE2023 = () => {
   useEffect(() => {
-    document.title = `ITE - Acuerdos INE2023`;
+    document.title = `Acuerdos INE2023`;
   }, []);
   const columns = useMemo(
     () => [
