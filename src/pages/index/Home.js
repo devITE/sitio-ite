@@ -36,8 +36,8 @@ const ITE = () => {
         // url="https://itetlax.org.mx/assets/img/imgPopup/1.png"
         // imgLink="https://itetlax.org.mx/assets/img/imgC_A/12.jpg"
         // url="https://itetlax.org.mx/assets/img/imgC_A/12.jpg"
-        imgLink="https://itetlax.org.mx/assets/img/imgC_A/foro.jpg"
-        url="https://itetlax.org.mx/assets/img/imgC_A/foro.jpg"
+        imgLink="https://itetlax.org.mx/assets/img/imgC_A/15.jpg"
+        url="https://itetlax.org.mx/assets/img/imgC_A/15.jpg"
         linkToo=""
       />
 
@@ -56,14 +56,13 @@ const ITE = () => {
       <div className="mt-4 Home__AR-A">
         <div>
           <h2 className="bottom_title">
-            Presentación del Estudio de Votos Nulos del Proceso Electoral Local
-            2020-2021
+            FORO: El Procedimiento Especial Sancionador en la VPcMRG
           </h2>
           <div className="Home__video-embed ratio ratio-16x9 w-100">
             <iframe
               id="9QQCf_emFwo"
-              src="https://www.youtube-nocookie.com/embed/c7IRKgXk5Rs?rel=0"
-              title="Marco de la Conmemoración del día Internacional de la Mujer"
+              src="https://www.youtube-nocookie.com/embed/GJmMrRFChZM?rel=0"
+              title="FORO: El Procedimiento Especial Sancionador en la VPcMRG"
               allowFullScreen
             ></iframe>
           </div>
