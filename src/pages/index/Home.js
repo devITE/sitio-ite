@@ -36,8 +36,8 @@ const ITE = () => {
         // url="https://itetlax.org.mx/assets/img/imgPopup/1.png"
         // imgLink="https://itetlax.org.mx/assets/img/imgC_A/12.jpg"
         // url="https://itetlax.org.mx/assets/img/imgC_A/12.jpg"
-        imgLink="https://itetlax.org.mx/assets/img/imgC_A/evento.jpg"
-        url="https://itetlax.org.mx/assets/img/imgC_A/evento.jpg"
+        imgLink="https://itetlax.org.mx/assets/img/imgC_A/13.jpg"
+        url="https://itetlax.org.mx/assets/img/imgC_A/13.jpg"
         linkToo=""
       />
 
@@ -56,13 +56,13 @@ const ITE = () => {
       <div className="mt-4 Home__AR-A">
         <div>
           <h2 className="bottom_title">
-          Jornada de Talleres "De las Cuotas de Género a la Paridad"
+          Jornada de Talleres "Sensibilización - Introducción al Género"
           </h2>
           <div className="Home__video-embed ratio ratio-16x9 w-100">
             <iframe
               id="9QQCf_emFwo"
-              src="https://www.youtube-nocookie.com/embed/R-P0hjzlu_8?rel=0"
-              title="FORO: El Procedimiento Especial Sancionador en la VPcMRG"
+              src="https://www.youtube-nocookie.com/embed/5bvBdENb7Cs?rel=0"
+              title="Jornada de Talleres"
               allowFullScreen
             ></iframe>
           </div>

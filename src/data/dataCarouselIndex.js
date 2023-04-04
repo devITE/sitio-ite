@@ -190,22 +190,25 @@ export const dataCA = [
     url: "",
     linkToo: "",
   },
- 
+
   {
     id: 2,
     imgUrl: "https://itetlax.org.mx/assets/img/imgC_A/13.jpg",
     alt: "Taller nacional de participación ciudadana",
-    url: "https://forms.gle/nXQrRbptuViEEZYx8",
-    linkToo: "",
-  },
-  {
-    id: 3,
-    imgUrl: "https://itetlax.org.mx/assets/img/imgC_A/evento.jpg",
-    alt: "Sesión Ordinaria 31/03/23",
     itemActive: "active",
     buttonActive: "active",
     ariaCurrent: "true",
-    url: "https://itetlax.org.mx/assets/img/imgC_A/evento.jpg",
+    url: "https://forms.gle/nXQrRbptuViEEZYx8",
     linkToo: "",
   },
+  //  {
+  //    id: 2,
+  //    imgUrl: "https://itetlax.org.mx/assets/img/imgC_A/evento.jpg",
+  //    alt: "Sesión Ordinaria 31/03/23",
+  //    itemActive: "active",
+  //    buttonActive: "active",
+  //    ariaCurrent: "true",
+  //    url: "https://itetlax.org.mx/assets/img/imgC_A/evento.jpg",
+  //    linkToo: "",
+  //  },
 ];
