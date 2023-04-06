@@ -36,8 +36,8 @@ const ITE = () => {
         // url="https://itetlax.org.mx/assets/img/imgPopup/1.png"
         // imgLink="https://itetlax.org.mx/assets/img/imgC_A/12.jpg"
         // url="https://itetlax.org.mx/assets/img/imgC_A/12.jpg"
-        imgLink="https://itetlax.org.mx/assets/img/imgC_A/13.jpg"
-        url="https://itetlax.org.mx/assets/img/imgC_A/13.jpg"
+        imgLink="https://itetlax.org.mx/assets/img/imgC_A/17.jpg"
+        url="https://itetlax.org.mx/assets/img/imgC_A/17.jpg"
         linkToo=""
       />
 

@@ -25,7 +25,7 @@ export const dataNormatividad = [
     lastUpdate: "",
     pdf: "https://itetlax.org.mx/assets/pdf/transparencia/2.pdf",
     pdfMobile: "",
-    word: "",
+    word: "https://itetlax.org.mx/assets/pdf/transparencia/2.docx",
   },
   {
     id: 4,
@@ -93,7 +93,7 @@ export const dataInstrumentos = [
     post: "03/03/2023",
     lastUpdate: "",
     pdf: "https://itetlax.org.mx/assets/pdf/archivistico/1.pdf",
-    word: "",
+    word: "https://itetlax.org.mx/assets/pdf/archivistico/1.docx",
     // subRows: "",
   },
   {
@@ -129,7 +129,7 @@ export const dataInstrumentos = [
     post: "03/03/2023",
     lastUpdate: "",
     pdf: "https://itetlax.org.mx/assets/pdf/archivistico/5.pdf",
-    word: "",
+    word: "https://itetlax.org.mx/assets/pdf/archivistico/5.docx",
     // subRows: "",
   },
 ];
