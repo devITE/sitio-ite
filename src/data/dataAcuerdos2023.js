@@ -412,29 +412,22 @@ export const dataAcuerdos2023 = [
       {
         typeDoc: "",
         nameDoc:
-          "VOTO RAZONADO DEL CONSEJERO ELECTORAL HERMENEGILDO NERIA CARREÑO",
+          "DICTAMEN FIRMADO",
         link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/27.1.pdf",
         subRows: "",
       },
       {
         typeDoc: "",
         nameDoc:
-          "DICTAMEN",
+          "Anexo uno de Dictamen. firmado",
         link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/27.2.pdf",
         subRows: "",
       },
       {
         typeDoc: "",
         nameDoc:
-          "Anexo uno de Dictamen. firmado",
-        link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/27.3.pdf",
-        subRows: "",
-      },
-      {
-        typeDoc: "",
-        nameDoc:
           "Anexo dos de Dictamen. firmado",
-        link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/27.4.pdf",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/27.3.pdf",
         subRows: "",
       },
     ],
@@ -454,6 +447,13 @@ export const dataAcuerdos2023 = [
         nameDoc:
           "DICTAMEN",
         link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/28.1.pdf",
+        subRows: "",
+      },
+      {
+        typeDoc: "",
+        nameDoc:
+          "VOTO RAZONADO DEL CONSEJERO ELECTORAL HERMENEGILDO NERIA CARREÑO",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/28.2.pdf",
         subRows: "",
       },
     ],
