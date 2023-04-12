@@ -36,9 +36,11 @@ const ITE = () => {
         // url="https://itetlax.org.mx/assets/img/imgPopup/1.png"
         // imgLink="https://itetlax.org.mx/assets/img/imgC_A/12.jpg"
         // url="https://itetlax.org.mx/assets/img/imgC_A/12.jpg"
-        imgLink="https://itetlax.org.mx/assets/img/imgC_A/13.jpg"
-        url="https://forms.gle/nXQrRbptuViEEZYx8"
-        linkToo="https://forms.gle/nXQrRbptuViEEZYx8"
+        // imgLink="https://itetlax.org.mx/assets/img/imgC_A/13.jpg"
+        // url="https://forms.gle/nXQrRbptuViEEZYx8"
+        imgLink="https://itetlax.org.mx/assets/img/sesionesCG/SE-110423-1.png"
+        url="https://itetlax.org.mx/assets/img/sesionesCG/SE-110423-1.png"
+        linkToo=""
       />
 
       <Carousel idCarousel="carouselTopIndex">
@@ -56,7 +58,7 @@ const ITE = () => {
       <div className="mt-4 Home__AR-A">
         <div>
           <h2 className="bottom_title">
-          Jornada de Talleres "Sensibilización - Introducción al Género"
+            Jornada de Talleres "Sensibilización - Introducción al Género"
           </h2>
           <div className="Home__video-embed ratio ratio-16x9 w-100">
             <iframe
@@ -69,7 +71,7 @@ const ITE = () => {
         </div>
         <div>
           <h2 className="bottom_title">Enlaces</h2>
-          <div> 
+          <div>
             <Enlaces />
           </div>
         </div>
@@ -134,7 +136,7 @@ const ITE = () => {
             ></iframe>
           </div>
           <h5 className="mt-3 text-center">
-          Sesión Presencial Especial del CG 06/04/2023{" "}
+            Sesión Presencial Especial del CG 06/04/2023{" "}
           </h5>
         </div>
         <div>
