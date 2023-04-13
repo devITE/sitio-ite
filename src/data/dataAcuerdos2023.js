@@ -458,6 +458,72 @@ export const dataAcuerdos2023 = [
       },
     ],
   },
+  {
+    id: 29,
+    year: "2023",
+    typeDoc: "RESOLUCIÓN",
+    numDoc: "ITE-CG 29-2023",
+    monthDoc: "ABR",
+    nameDoc:
+      "SE APRUEBA DICTAMEN CONSOLIDADO DE LA ORGANIZACIÓN CIUDADANA RENOVEMOS TLAXCALA",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/29.pdf",
+    subRows: [
+      {
+        typeDoc: "",
+        nameDoc:
+          "DICTAMEN",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/29.1.pdf",
+        subRows: "",
+      },
+      {
+        typeDoc: "",
+        nameDoc:
+          "Anexo uno de Dictamen",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/29.2.pdf",
+        subRows: "",
+      },
+      {
+        typeDoc: "",
+        nameDoc:
+          "Anexo dos de Dictamen",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/29.3.pdf",
+        subRows: "",
+      },
+    ],
+  },
+  {
+    id: 30,
+    year: "2023",
+    typeDoc: "RESOLUCIÓN",
+    numDoc: "ITE-CG 30-2023",
+    monthDoc: "ABR",
+    nameDoc:
+      "SE APRUEBA DICTAMEN RESPECTO DE SOLICITUD DE REGISTRO COMO PPL DE LA ORGANIZACIÓN RENOVEMOS TLAXCALA A.C",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/30.pdf",
+    subRows: [
+      {
+        typeDoc: "",
+        nameDoc:
+          "DICTAMEN",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/30.1.pdf",
+        subRows: "",
+      },
+      {
+        typeDoc: "",
+        nameDoc:
+          "Anexo de Dictamen",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/30.2.pdf",
+        subRows: "",
+      },
+      {
+        typeDoc: "",
+        nameDoc:
+          "VOTO RAZONADO DEL CONSEJERO ELECTORAL HERMENEGILDO NERIA CARREÑO",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/30.3.pdf",
+        subRows: "",
+      },
+    ],
+  },
 ];
 
 // ------------ A C U E R D O S    I N E ------------

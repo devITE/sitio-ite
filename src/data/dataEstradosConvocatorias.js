@@ -20,6 +20,11 @@ export const dataEstrados = [
     nameFolio: "FOLIO 0991-2023",
     linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/8.1.pdf",
   },
+  {
+    id: 2,
+    nameCedula: "CÉDULA DE FIJACIÓN EN ESTRADOS RESOLUCIONES ITE-CG 20-2023 A LA ITE-CG 25-2023",
+    linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/9.pdf",
+  },
 ];
 
 export const dataConvocatorias = [
