@@ -73,7 +73,7 @@ const Art632023 = () => {
     <>
       <TitlePages
         title="Transparencia"
-        subTitle="Artículo 63. (2022) Obligaciones Comunes"
+        subTitle="Artículo 63. (2023) Obligaciones Comunes"
       />
       <MaterialReactTable
         columns={columns}
