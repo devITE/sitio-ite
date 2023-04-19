@@ -36,10 +36,10 @@ const ITE = () => {
         // url="https://itetlax.org.mx/assets/img/imgPopup/1.png"
         // imgLink="https://itetlax.org.mx/assets/img/imgC_A/12.jpg"
         // url="https://itetlax.org.mx/assets/img/imgC_A/12.jpg"
-        // imgLink="https://itetlax.org.mx/assets/img/imgC_A/13.jpg"
-        // url="https://forms.gle/nXQrRbptuViEEZYx8"
-        imgLink="https://itetlax.org.mx/assets/img/sesionesCG/SE-18042023.jpg"
-        url="https://itetlax.org.mx/assets/img/sesionesCG/SE-18042023.jpg"
+        imgLink="https://itetlax.org.mx/assets/img/imgC_A/13.jpg"
+        url="https://forms.gle/nXQrRbptuViEEZYx8"
+        // imgLink="https://itetlax.org.mx/assets/img/sesionesCG/SE-18042023.jpg"
+        // url="https://itetlax.org.mx/assets/img/sesionesCG/SE-18042023.jpg"
         linkToo=""
       />
 
@@ -130,13 +130,13 @@ const ITE = () => {
           <h2 className="bottom_title">Sesión en Vivo</h2>
           <div className="Home__video-embed ratio ratio-16x9 w-100">
             <iframe
-              src="https://www.youtube-nocookie.com/embed/IAT976CTarU?rel=0"
+              src="https://www.youtube-nocookie.com/embed/6nQmL5fItAo?rel=0"
               title="Sesión En Vivo del CG"
               allowFullScreen
             ></iframe>
           </div>
           <h5 className="mt-3 text-center">
-            Sesión Presencial Especial del CG 11/04/2023{" "}
+            Sesión Presencial Especial del CG 18/04/2023{" "}
           </h5>
         </div>
         <div>
