@@ -55,6 +55,12 @@ const Articulo67 = () => {
           >
             Artículo 67 (2022)
           </Link>
+          <Link
+            to="/Art672023"
+            className="list-group-item list-group-item-action"
+          >
+            Artículo 67 (2023)
+          </Link>
         </div>
       </>
     );
