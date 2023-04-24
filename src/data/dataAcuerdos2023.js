@@ -524,6 +524,124 @@ export const dataAcuerdos2023 = [
       },
     ],
   },
+  {
+    id: 31,
+    year: "2023",
+    typeDoc: "RESOLUCIÓN",
+    numDoc: "ITE-CG 31-2023",
+    monthDoc: "ABR",
+    nameDoc:
+      "SE APRUEBA DICTAMEN RESPECTO DE SOLICITUD DE REGISTRO COMO PPL DE LA ORGANIZACIÓN RENOVEMOS TLAXCALA A.C",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/31.pdf",
+    subRows: [
+      {
+        typeDoc: "",
+        nameDoc:
+          "DICTAMEN CONSOLIDADO",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/31.1.pdf",
+        subRows: "",
+      },
+      {
+        typeDoc: "",
+        nameDoc:
+          "Anexo uno de Dictamen",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/31.2.pdf",
+        subRows: "",
+      },
+      {
+        typeDoc: "",
+        nameDoc:
+          "Anexo dos de Dictamen",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/31.3.pdf",
+        subRows: "",
+      },
+    ],
+  },
+  {
+    id: 32,
+    year: "2023",
+    typeDoc: "RESOLUCIÓN",
+    numDoc: "ITE-CG 32-2023",
+    monthDoc: "ABR",
+    nameDoc:
+      "SE APRUEBA DICTAMEN CONSOLIDADO DE LA ORGANIZACIÓN CIUDADANOS POR CONSTITUIRSE EN ENCUENTRO SOLIDARIO TLAXCALA A.C.",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/32.pdf",
+    subRows: [
+      {
+        typeDoc: "",
+        nameDoc:
+          "DICTAMEN CONSOLIDADO",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/32.1.pdf",
+        subRows: "",
+      },
+      {
+        typeDoc: "",
+        nameDoc:
+          "Anexo uno del Dictamen",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/32.2.pdf",
+        subRows: "",
+      },
+      {
+        typeDoc: "Anexo dos del Dictamen",
+        nameDoc:
+          "Anexo dos del Dictamen",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/32.3.pdf",
+        subRows: "",
+      },
+    ],
+  },
+  {
+    id: 33,
+    year: "2023",
+    typeDoc: "RESOLUCIÓN",
+    numDoc: "ITE-CG 33-2023",
+    monthDoc: "ABR",
+    nameDoc:
+      "SE APRUEBA DICTAMEN RESPECTO DE SOLICITUD DE REGISTRO COMO PPL DE LA ORGANIZACIÓN UNIFICACIÓN Y EVOLUCIÓN",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/33.pdf",
+    subRows: [
+      {
+        typeDoc: "",
+        nameDoc:
+          "DICTAMEN",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/33.1.pdf",
+        subRows: "",
+      },
+      {
+        typeDoc: "",
+        nameDoc:
+          "VOTO RAZONADO CONSEJERO HERMENEGILDO NERIA CARREÑO",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/33.2.pdf",
+        subRows: "",
+      },
+    ],
+  },
+  {
+    id: 34,
+    year: "2023",
+    typeDoc: "RESOLUCIÓN",
+    numDoc: "ITE-CG 34-2023",
+    monthDoc: "ABR",
+    nameDoc:
+      "SE APRUEBA DICTAMEN RESPECTO DE SOLICITUD DE REGISTRO COMO PPL DE LA ORGANIZACIÓN CIUDADANOS POR CONSTITUTIRSE EN ENCUENTRO SOLIDARIO TLAXCALA A.C.",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/34.pdf",
+    subRows: [
+      {
+        typeDoc: "",
+        nameDoc:
+          "DICTAMEN",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/34.1.pdf",
+        subRows: "",
+      },
+      {
+        typeDoc: "RESOLUCIÓN ITE-CG 34-2023 VOTO RAZONADO DEL CONSEJERO ELECTORAL HERMENEGILDO NERIA CARREÑO",
+        nameDoc:
+          "Anexo de Dictamen",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/34.2.pdf",
+        subRows: "",
+      },
+    ],
+  },
 ];
 
 // ------------ A C U E R D O S    I N E ------------

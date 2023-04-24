@@ -38,8 +38,8 @@ const ITE = () => {
         // url="https://itetlax.org.mx/assets/img/imgC_A/12.jpg"
         // imgLink="https://itetlax.org.mx/assets/img/imgC_A/13.jpg"
         // url="https://forms.gle/nXQrRbptuViEEZYx8"
-        imgLink="https://itetlax.org.mx/assets/img/imgC_A/13.jpg"
-        url="https://forms.gle/nXQrRbptuViEEZYx8"
+        imgLink="https://itetlax.org.mx/assets/img/imgC_A/19.jpg"
+        url="https://itetlax.org.mx/assets/img/imgC_A/19.jpg"
         linkToo=""
       />
 
@@ -58,12 +58,12 @@ const ITE = () => {
       <div className="mt-4 Home__AR-A">
         <div>
           <h2 className="bottom_title">
-            Jornada de Talleres "Sensibilización - Introducción al Género"
+          5to. Taller Nacional de Participación Ciudadana
           </h2>
           <div className="Home__video-embed ratio ratio-16x9 w-100">
             <iframe
               id="9QQCf_emFwo"
-              src="https://www.youtube-nocookie.com/embed/5bvBdENb7Cs?rel=0"
+              src="https://www.youtube-nocookie.com/embed/T6u6tDruEAI?rel=0"
               title="Jornada de Talleres"
               allowFullScreen
             ></iframe>

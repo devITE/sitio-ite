@@ -77,20 +77,10 @@ export const dataCIndex = [
     id: 11,
     imgUrl: "https://itetlax.org.mx/assets/img/imgC_I/comunidades.jpeg",
     alt: "micrositioComunidades",
-    // itemActive: "active",
-    // buttonActive: "active",
-    // ariaCurrent: "true",
-    url: "https://ite-comunidades.itetlax.org.mx",
-    linkToo: "",
-  },
-  {
-    id: 12,
-    imgUrl: "https://itetlax.org.mx/assets/img/imgC_I/trinidad.jpg",
-    alt: "evento trinidad",
     itemActive: "active",
     buttonActive: "active",
     ariaCurrent: "true",
-    url: "https://forms.gle/nXQrRbptuViEEZYx8",
+    url: "https://ite-comunidades.itetlax.org.mx",
     linkToo: "",
   },
   // {
@@ -203,12 +193,12 @@ export const dataCA = [
 
   {
     id: 2,
-    imgUrl: "https://itetlax.org.mx/assets/img/imgC_A/13.jpg",
-    alt: "Taller nacional de participación ciudadana",
+    imgUrl: "https://itetlax.org.mx/assets/img/imgC_A/19.jpg",
+    alt: "Evento",
     itemActive: "active",
     buttonActive: "active",
     ariaCurrent: "true",
-    url: "https://forms.gle/nXQrRbptuViEEZYx8",
+    url: "https://itetlax.org.mx/assets/img/imgC_A/19.jpg",
     linkToo: "",
   },
 
