@@ -281,24 +281,24 @@ export const dataAvisosPrivacidad = [
   },
   {
     id: 12,
-    titleItem: "Aviso de privacidad para Registro de Candidaturas",
+    titleItem: "Aviso de privacidad para Registro de Candidaturas para el Proceso Electoral Local Ordinario 2020-2021",
     flushID: "RegistroCandidaturas",
     children: [
       {
         id: 1,
-        titleItem: "Aviso Simplificado: Registro de Candidaturas",
+        titleItem: "Aviso Simplificado: Registro de candidaturas para el Proceso Electoral Local Ordinario 2020-2021",
         linkItem: "https://itetlax.org.mx/assets/pdf/avisosPrivacidad/33.pdf",
         typeDocument: "pdf",
       },
       {
         id: 2,
-        titleItem: "Aviso Integrado: Registro de Candidaturas",
+        titleItem: "Aviso Integrado: Registro de candidaturas para el Proceso Electoral Local Ordinario 2020-2021",
         linkItem: "https://itetlax.org.mx/assets/pdf/avisosPrivacidad/34.pdf",
         typeDocument: "pdf",
       },
       {
         id: 3,
-        titleItem: "Aviso Corto: Registro de Candidaturas",
+        titleItem: "Aviso Corto: Registro de candidaturas para el Proceso Electoral Local Ordinario 2020-2021",
         linkItem: "https://itetlax.org.mx/assets/pdf/avisosPrivacidad/35.pdf",
         typeDocument: "pdf",
       },
@@ -427,6 +427,31 @@ export const dataAvisosPrivacidad = [
         id: 3,
         titleItem: "Aviso Corto: Consulta previa, libre e informada a las Comunidades...",
         linkItem: "https://itetlax.org.mx/assets/pdf/avisosPrivacidad/50.pdf",
+        typeDocument: "pdf",
+      },
+    ],
+  },
+  {
+    id: 18,
+    titleItem: "Aviso de Privacidad Directorio de Autoridades Electas en Tlaxcala",
+    flushID: "DirectorioAutoridades",
+    children: [
+      {
+        id: 1,
+        titleItem: "Aviso Simplificado: Directorio de Autoridades Electas en Tlaxcala",
+        linkItem: "https://itetlax.org.mx/assets/pdf/avisosPrivacidad/51.pdf",
+        typeDocument: "pdf",
+      },
+      {
+        id: 2,
+        titleItem: "Aviso Integrado: Directorio de Autoridades Electas en Tlaxcala",
+        linkItem: "https://itetlax.org.mx/assets/pdf/avisosPrivacidad/52.pdf",
+        typeDocument: "pdf",
+      },
+      {
+        id: 3,
+        titleItem: "Aviso Corto: Directorio de Autoridades Electas en Tlaxcala",
+        linkItem: "https://itetlax.org.mx/assets/pdf/avisosPrivacidad/53.pdf",
         typeDocument: "pdf",
       },
     ],
