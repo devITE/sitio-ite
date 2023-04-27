@@ -202,14 +202,23 @@ export const dataCA = [
     linkToo: "",
   },
 
+
   // {
-  // id: 3,
-  // imgUrl: "https://itetlax.org.mx/assets/img/sesionesCG/SE-18042023.jpg",
-  // alt: "Sesión Especial 18/04/23",
-  // itemActive: "active",
-  // buttonActive: "active",
-  // ariaCurrent: "true",
-  // url: "https://itetlax.org.mx/assets/img/sesionesCG/SE-18042023.jpg",
-  // linkToo: "",
+  //   id: 4,
+  //   imgUrl: "https://itetlax.org.mx/assets/img/sesionesCG/SE-110423-2.png",
+  //   alt: "Sesión Especial 11/04/23",
+  //   url: "https://itetlax.org.mx/assets/img/sesionesCG/SE-110423-2.png",
+  //   linkToo: "",
   // },
+
+  //  {
+  //    id: 2,
+  //    imgUrl: "https://itetlax.org.mx/assets/img/imgC_A/evento.jpg",
+  //    alt: "Sesión Ordinaria 31/03/23",
+  //    itemActive: "active",
+  //    buttonActive: "active",
+  //    ariaCurrent: "true",
+  //    url: "https://itetlax.org.mx/assets/img/imgC_A/evento.jpg",
+  //    linkToo: "",
+  //  },
 ];

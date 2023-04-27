@@ -642,6 +642,58 @@ export const dataAcuerdos2023 = [
       },
     ],
   },
+  {
+    id: 35,
+    year: "2023",
+    typeDoc: "RESOLUCIÓN",
+    numDoc: "ITE-CG 35-2023",
+    monthDoc: "ABR",
+    nameDoc:
+      "SE APRUEBA DICTAMEN CONSOLIDADO DE LA ORGANIZACIÓN CIUDADANA SOCIEDAD INDEPENDIENTE SI",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/35.pdf",
+    subRows: [
+      {
+        typeDoc: "",
+        nameDoc:
+          "DICTAMEN",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/35.1.pdf",
+        subRows: "",
+      },
+      {
+        typeDoc: "Anexo Uno del Dictamen",
+        nameDoc:
+          "Anexo de Dictamen",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/35.2.pdf",
+        subRows: "",
+      },
+    ],
+  },
+  {
+    id: 36,
+    year: "2023",
+    typeDoc: "RESOLUCIÓN",
+    numDoc: "ITE-CG 36-2023",
+    monthDoc: "ABR",
+    nameDoc:
+      " SE APRUEBA DICTAMEN RESPECTO DE SOLICITUD DE REGISTRO COMO PPL DE LA ORGANIZACIÓN CIUDANA DENOMINADA SOCIEDAD INDEPENDIENTE SI",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/36.pdf",
+    subRows: [
+      {
+        typeDoc: "",
+        nameDoc:
+          "DICTAMEN",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/36.1.pdf",
+        subRows: "",
+      },
+      {
+        typeDoc: "RESOLUCIÓN ITE-CG 36-2023 VOTO RAZONADO DEL CONSEJERO ELECTORAL HERMENEGILDO NERIA CARREÑO",
+        nameDoc:
+          "Anexo de Dictamen",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/36.2.pdf",
+        subRows: "",
+      },
+    ],
+  },
 ];
 
 // ------------ A C U E R D O S    I N E ------------
