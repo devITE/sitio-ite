@@ -191,16 +191,25 @@ export const dataCA = [
     linkToo: "",
   },
 
-   {
-     id: 2,
-     imgUrl: "https://itetlax.org.mx/assets/img/imgC_A/21.jpg",
-     alt: "Sesión Ordinaria",
-     itemActive: "active",
-     buttonActive: "active",
-     ariaCurrent: "true",
-     url: "https://itetlax.org.mx/assets/img/imgC_A/21.jpg",
-     linkToo: "",
-   },
+  {
+    id: 2,
+    imgUrl: "https://itetlax.org.mx/assets/img/imgC_A/19.jpg",
+    alt: "Evento",
+    itemActive: "active",
+    buttonActive: "active",
+    ariaCurrent: "true",
+    url: "https://itetlax.org.mx/assets/img/imgC_A/19.jpg",
+    linkToo: "",
+  },
+
+
+  // {
+  //   id: 4,
+  //   imgUrl: "https://itetlax.org.mx/assets/img/sesionesCG/SE-110423-2.png",
+  //   alt: "Sesión Especial 11/04/23",
+  //   url: "https://itetlax.org.mx/assets/img/sesionesCG/SE-110423-2.png",
+  //   linkToo: "",
+  // },
 
   //  {
   //    id: 2,

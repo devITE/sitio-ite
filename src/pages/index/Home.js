@@ -38,8 +38,8 @@ const ITE = () => {
         // url="https://itetlax.org.mx/assets/img/imgC_A/12.jpg"
         // imgLink="https://itetlax.org.mx/assets/img/imgC_A/13.jpg"
         // url="https://forms.gle/nXQrRbptuViEEZYx8"
-        imgLink="https://itetlax.org.mx/assets/img/imgC_A/21.jpg"
-        url="https://itetlax.org.mx/assets/img/imgC_A/21.jpg"
+        imgLink="https://itetlax.org.mx/assets/img/imgC_A/19.jpg"
+        url="https://itetlax.org.mx/assets/img/imgC_A/19.jpg"
         linkToo=""
       />
 
@@ -130,13 +130,13 @@ const ITE = () => {
           <h2 className="bottom_title">Sesión en Vivo</h2>
           <div className="Home__video-embed ratio ratio-16x9 w-100">
             <iframe
-              src="https://www.youtube-nocookie.com/embed/tiv0Lo6HWHg?rel=0"
+              src="https://www.youtube-nocookie.com/embed/IAT976CTarU?rel=0"
               title="Sesión En Vivo del CG"
               allowFullScreen
             ></iframe>
           </div>
           <h5 className="mt-3 text-center">
-          Sesión Presencial Especial del CG 25/04/2023 17:30 HRS.{" "}
+            Sesión Presencial Especial del CG 11/04/2023{" "}
           </h5>
         </div>
         <div>
