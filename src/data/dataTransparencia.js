@@ -154,6 +154,26 @@ export const dataConvenios = [
     title: "TET-ITE",
     url: "https://itetlax.org.mx/assets/pdf/transparencia/convenios/30.pdf",
   },
+  {
+    id: 31,
+    title: "ITE - CIUDADANIA A.C",
+    url: "https://itetlax.org.mx/assets/pdf/transparencia/convenios/31.pdf",
+  },
+  {
+    id: 32,
+    title: "ITE - SECRETARIA DE FINANZAS",
+    url: "https://itetlax.org.mx/assets/pdf/transparencia/convenios/32.pdf",
+  },
+  {
+    id: 33,
+    title: "ITE - UPET",
+    url: "https://itetlax.org.mx/assets/pdf/transparencia/convenios/33.pdf",
+  },
+  {
+    id: 34,
+    title: "ITE - SISTEMA ANTICORRUPCIÓN",
+    url: "https://itetlax.org.mx/assets/pdf/transparencia/convenios/34.pdf",
+  },
 ];
 
 export const dataInformesAnuales = [
