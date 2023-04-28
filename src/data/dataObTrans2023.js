@@ -921,8 +921,8 @@ export const dataArt632023 = [
         fundamentoLegal:
           "Articulo. 63 Fraccion XXXVII-A de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
         actualizacion: "2023",
-        excel1: "",
-        excel2: "",
+        excel1: "https://www.itetlax.org.mx/assets/excel/transparencia/art63/2023/LTAIPT_A63F37A_1.xlsx",
+        excel2: "https://www.itetlax.org.mx/assets/excel/transparencia/art63/2023/LTAIPT_A63F37A_2.xls",
         excel3: "",
         excel4: "",
       },
@@ -934,8 +934,8 @@ export const dataArt632023 = [
         fundamentoLegal:
           "Articulo. 63 Fraccion XXXVII-B de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
         actualizacion: "2023",
-        excel1: "",
-        excel2: "",
+        excel1: "https://www.itetlax.org.mx/assets/excel/transparencia/art63/2023/LTAIPT_A63F37B_1.xlsx",
+        excel2: "https://www.itetlax.org.mx/assets/excel/transparencia/art63/2023/LTAIPT_A63F37B_2.xls",
         excel3: "",
         excel4: "",
       },

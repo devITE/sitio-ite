@@ -187,20 +187,23 @@ export const dataCA = [
     id: 1,
     imgUrl: "https://itetlax.org.mx/assets/img/imgC_A/7.jpg",
     alt: "Participación Política de las mujeres tlaxcaltecas",
+    itemActive: "active",
+    buttonActive: "active",
+    ariaCurrent: "true",
     url: "",
     linkToo: "",
   },
 
-  {
-    id: 2,
-    imgUrl: "https://itetlax.org.mx/assets/img/imgC_A/19.jpg",
-    alt: "Evento",
-    itemActive: "active",
-    buttonActive: "active",
-    ariaCurrent: "true",
-    url: "https://itetlax.org.mx/assets/img/imgC_A/19.jpg",
-    linkToo: "",
-  },
+  // {
+  //   id: 2,
+  //   imgUrl: "https://itetlax.org.mx/assets/img/imgC_A/21.jpg",
+  //   alt: "Evento",
+  //   itemActive: "active",
+  //   buttonActive: "active",
+  //   ariaCurrent: "true",
+  //   url: "https://itetlax.org.mx/assets/img/imgC_A/21.jpg",
+  //   linkToo: "",
+  // },
 
 
   // {
