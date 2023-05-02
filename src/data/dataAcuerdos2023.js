@@ -411,22 +411,19 @@ export const dataAcuerdos2023 = [
     subRows: [
       {
         typeDoc: "",
-        nameDoc:
-          "DICTAMEN FIRMADO",
+        nameDoc: "DICTAMEN FIRMADO",
         link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/27.1.pdf",
         subRows: "",
       },
       {
         typeDoc: "",
-        nameDoc:
-          "Anexo uno de Dictamen. firmado",
+        nameDoc: "Anexo uno de Dictamen. firmado",
         link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/27.2.pdf",
         subRows: "",
       },
       {
         typeDoc: "",
-        nameDoc:
-          "Anexo dos de Dictamen. firmado",
+        nameDoc: "Anexo dos de Dictamen. firmado",
         link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/27.3.pdf",
         subRows: "",
       },
@@ -444,8 +441,7 @@ export const dataAcuerdos2023 = [
     subRows: [
       {
         typeDoc: "",
-        nameDoc:
-          "DICTAMEN",
+        nameDoc: "DICTAMEN",
         link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/28.1.pdf",
         subRows: "",
       },
@@ -470,22 +466,19 @@ export const dataAcuerdos2023 = [
     subRows: [
       {
         typeDoc: "",
-        nameDoc:
-          "DICTAMEN",
+        nameDoc: "DICTAMEN",
         link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/29.1.pdf",
         subRows: "",
       },
       {
         typeDoc: "",
-        nameDoc:
-          "Anexo uno de Dictamen",
+        nameDoc: "Anexo uno de Dictamen",
         link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/29.2.pdf",
         subRows: "",
       },
       {
         typeDoc: "",
-        nameDoc:
-          "Anexo dos de Dictamen",
+        nameDoc: "Anexo dos de Dictamen",
         link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/29.3.pdf",
         subRows: "",
       },
@@ -503,15 +496,13 @@ export const dataAcuerdos2023 = [
     subRows: [
       {
         typeDoc: "",
-        nameDoc:
-          "DICTAMEN",
+        nameDoc: "DICTAMEN",
         link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/30.1.pdf",
         subRows: "",
       },
       {
         typeDoc: "",
-        nameDoc:
-          "Anexo de Dictamen",
+        nameDoc: "Anexo de Dictamen",
         link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/30.2.pdf",
         subRows: "",
       },
@@ -531,27 +522,24 @@ export const dataAcuerdos2023 = [
     numDoc: "ITE-CG 31-2023",
     monthDoc: "ABR",
     nameDoc:
-      "SE APRUEBA DICTAMEN RESPECTO DE SOLICITUD DE REGISTRO COMO PPL DE LA ORGANIZACIÓN RENOVEMOS TLAXCALA A.C",
+      "SE APRUEBA DICTAMEN RESPECTO DE SOLICITUD DE REGISTRO COMO PPL DE LA ORGANIZACIÓN “UNIFICACIÓN Y EVOLUCIÓN”",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/31.pdf",
     subRows: [
       {
         typeDoc: "",
-        nameDoc:
-          "DICTAMEN CONSOLIDADO",
+        nameDoc: "DICTAMEN CONSOLIDADO",
         link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/31.1.pdf",
         subRows: "",
       },
       {
         typeDoc: "",
-        nameDoc:
-          "Anexo uno de Dictamen",
+        nameDoc: "Anexo uno de Dictamen",
         link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/31.2.pdf",
         subRows: "",
       },
       {
         typeDoc: "",
-        nameDoc:
-          "Anexo dos de Dictamen",
+        nameDoc: "Anexo dos de Dictamen",
         link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/31.3.pdf",
         subRows: "",
       },
@@ -569,22 +557,19 @@ export const dataAcuerdos2023 = [
     subRows: [
       {
         typeDoc: "",
-        nameDoc:
-          "DICTAMEN CONSOLIDADO",
+        nameDoc: "DICTAMEN CONSOLIDADO",
         link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/32.1.pdf",
         subRows: "",
       },
       {
         typeDoc: "",
-        nameDoc:
-          "Anexo uno del Dictamen",
+        nameDoc: "Anexo uno del Dictamen",
         link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/32.2.pdf",
         subRows: "",
       },
       {
         typeDoc: "Anexo dos del Dictamen",
-        nameDoc:
-          "Anexo dos del Dictamen",
+        nameDoc: "Anexo dos del Dictamen",
         link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/32.3.pdf",
         subRows: "",
       },
@@ -602,15 +587,13 @@ export const dataAcuerdos2023 = [
     subRows: [
       {
         typeDoc: "",
-        nameDoc:
-          "DICTAMEN",
+        nameDoc: "DICTAMEN",
         link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/33.1.pdf",
         subRows: "",
       },
       {
         typeDoc: "",
-        nameDoc:
-          "VOTO RAZONADO CONSEJERO HERMENEGILDO NERIA CARREÑO",
+        nameDoc: "VOTO RAZONADO CONSEJERO HERMENEGILDO NERIA CARREÑO",
         link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/33.2.pdf",
         subRows: "",
       },
@@ -628,15 +611,14 @@ export const dataAcuerdos2023 = [
     subRows: [
       {
         typeDoc: "",
-        nameDoc:
-          "DICTAMEN",
+        nameDoc: "DICTAMEN",
         link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/34.1.pdf",
         subRows: "",
       },
       {
-        typeDoc: "RESOLUCIÓN ITE-CG 34-2023 VOTO RAZONADO DEL CONSEJERO ELECTORAL HERMENEGILDO NERIA CARREÑO",
-        nameDoc:
-          "Anexo de Dictamen",
+        typeDoc:
+          "RESOLUCIÓN ITE-CG 34-2023 VOTO RAZONADO DEL CONSEJERO ELECTORAL HERMENEGILDO NERIA CARREÑO",
+        nameDoc: "Anexo de Dictamen",
         link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/34.2.pdf",
         subRows: "",
       },
@@ -654,15 +636,13 @@ export const dataAcuerdos2023 = [
     subRows: [
       {
         typeDoc: "",
-        nameDoc:
-          "DICTAMEN",
+        nameDoc: "DICTAMEN",
         link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/35.1.pdf",
         subRows: "",
       },
       {
         typeDoc: "Anexo Uno del Dictamen",
-        nameDoc:
-          "Anexo de Dictamen",
+        nameDoc: "Anexo de Dictamen",
         link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/35.2.pdf",
         subRows: "",
       },
@@ -680,15 +660,14 @@ export const dataAcuerdos2023 = [
     subRows: [
       {
         typeDoc: "",
-        nameDoc:
-          "DICTAMEN",
+        nameDoc: "DICTAMEN",
         link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/36.1.pdf",
         subRows: "",
       },
       {
-        typeDoc: "RESOLUCIÓN ITE-CG 36-2023 VOTO RAZONADO DEL CONSEJERO ELECTORAL HERMENEGILDO NERIA CARREÑO",
-        nameDoc:
-          "Anexo de Dictamen",
+        typeDoc:
+          "RESOLUCIÓN ITE-CG 36-2023 VOTO RAZONADO DEL CONSEJERO ELECTORAL HERMENEGILDO NERIA CARREÑO",
+        nameDoc: "Anexo de Dictamen",
         link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/36.2.pdf",
         subRows: "",
       },
