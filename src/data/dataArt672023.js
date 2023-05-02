@@ -40,7 +40,7 @@ export const dataArt672023 = [
           "En relación a los informes de ingresos y egresos de los partidos políticos, asociaciones y agrupaciones políticas o de ciudadanos, son presentados ante el Instituto Nacional Electoral; en términos de los artículos 41 apartado V, apartado B, inciso a), numeral 6, de la Ley Fundamental, y 32 de la Ley General de Instituciones y Procedimientos Electorales, por ende el Instituto Tlaxcalteca de Elecciones no es la autoridad competente para recibir dicha documentación",
         actualizacion: "2023",
         excel1:
-          "",
+          "https://itetlax.org.mx/assets/excel/transparencia/art67/2023/LTAIPT_A67F01IB1.xlsx",
         excel2: "",
         excel3:
           "",
@@ -56,7 +56,7 @@ export const dataArt672023 = [
           "En relación a los informes de ingresos y egresos de los partidos políticos, asociaciones y agrupaciones políticas o de ciudadanos, son presentados ante el Instituto Nacional Electoral; en términos de los artículos 41 apartado V, apartado B, inciso a), numeral 6, de la Ley Fundamental, y 32 de la Ley General de Instituciones y Procedimientos Electorales, por ende el Instituto Tlaxcalteca de Elecciones no es la autoridad competente para recibir dicha documentación.",
         actualizacion: "2023",
         excel1:
-          "",
+          "https://itetlax.org.mx/assets/excel/transparencia/art67/2023/LTAIPT_A67F01IB2.xlsx",
         excel2: "",
         excel3:
           "",
@@ -278,7 +278,7 @@ export const dataArt672023 = [
           "Articulo. 67 inciso F1 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
         actualizacion: "2023",
         excel1:
-          "",
+          "https://itetlax.org.mx/assets/excel/transparencia/art67/2023/LTAIPT_A67F01IF1.xlsx",
         excel2: "",
         excel3:
           "",
@@ -309,7 +309,7 @@ export const dataArt672023 = [
           "Articulo. 67 inciso F3 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
         actualizacion: "2023",
         excel1:
-          "",
+          "https://itetlax.org.mx/assets/excel/transparencia/art67/2023/LTAIPT_A67F01IF3.xlsx",
         excel2: "",
         excel3: "",
         excel4: "",
@@ -504,7 +504,7 @@ export const dataArt672023 = [
       "Los partidos políticos nacionales disfrutarán de las franquicias postales y telegráficas, dentro del territorio nacional, que sean necesarias para el desarrollo de sus actividades, conforme a las reglas establecidas en los artículos 188 de la Ley General de Instituciones y Procedimientos Electorales y 70 de la Ley General de Partidos Políticos correspondiendo al Instituto Nacional Electoral aplicarlas. Para consulta:http://www.ine.mx/archivos3/portal/historico/contenido/Franquicias_Postales/",
     actualizacion: "2023",
     excel1:
-      "",
+      "https://itetlax.org.mx/assets/excel/transparencia/art67/2023/LTAIPT_A67F01IK.xlsx",
     excel2:
       "",
     excel3: "",
@@ -520,7 +520,7 @@ export const dataArt672023 = [
       "En el Instituto Tlaxcalteca de Elecciones durante el transcurso del año dos mil dieciséis, ningún partido político nacional se ha colocado en el supuesto de pérdida de registro señalado por el artículo 94 de la Ley General de Partidos Políticos, por ende tampoco se ha actualizado el supuesto de pérdida de acreditación en el ámbito local, previsto en el artículo 45 de la Ley de Partidos Políticos para el Estado de Tlaxcala. Asimismo, en el caso de los partidos políticos con registro local, ninguno se ha colocado en alguno de los supuestos que prevé el artículo 44 de la Ley de Partidos Políticos para el Estado de Tlaxcala, relativos a causales para perder su registro. Se entiende que en ningún caso se ha dado el supuesto de liquidación de patrimonio de partidos políticos nacionales o locales.",
     actualizacion: "2023",
     excel1:
-      "",
+      "https://itetlax.org.mx/assets/excel/transparencia/art67/2023/LTAIPT_A67F01IL.xlsx",
     excel2:
       "",
     excel3: "",
