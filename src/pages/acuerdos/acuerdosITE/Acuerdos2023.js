@@ -6,6 +6,7 @@ import { MenuItem, TextField } from "@mui/material";
 import { dataAcuerdos2023 } from "../../../data/dataAcuerdos2023";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
+import HelperDataTable from "../../../layout/HelperDataTable";
 
 const Acuerdos2023 = () => {
   useEffect(() => {
@@ -77,6 +78,7 @@ const Acuerdos2023 = () => {
   return (
     <>
       <TitlePages title="Acuerdos ITE" subTitle="Acuerdos ITE 2023" />
+      <HelperDataTable />
       <MaterialReactTable
         columns={columns}
         data={dataAcuerdos2023}
