@@ -5,6 +5,7 @@ import { MenuItem, TextField } from "@mui/material";
 import { dataAcuerdos2012 } from "../../../data/dataAcuerdos";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
+import HelperDataTable from "../../../layout/HelperDataTable";
 
 const AcuerdosITE2012 = () => {
   useEffect(() => {
@@ -82,6 +83,7 @@ const AcuerdosITE2012 = () => {
   return (
     <>
       <TitlePages title="Acuerdos Anteriores" subTitle="Acuerdos ITE 2012" />
+      <HelperDataTable />
       <MaterialReactTable
         columns={columns}
         data={dataAcuerdos2012}
