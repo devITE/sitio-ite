@@ -30,6 +30,13 @@ export const dataEstrados = [
     nameFolio: "FOLIO 1214-2023",
     linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/13.1.pdf",
   },
+  {
+    id: 4,
+    nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 1220",
+    linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/14.pdf",
+    nameFolio: "FOLIO 1220-2023",
+    linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/14.1.pdf",
+  }, 
 ];
 
 export const dataConvocatorias = [
