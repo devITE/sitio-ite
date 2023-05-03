@@ -1,10 +1,11 @@
-import React, { useMemo,useEffect } from "react";
+import React, { useMemo, useEffect } from "react";
 import TitlePages from "../../../layout/TitlePages";
 import MaterialReactTable from "material-react-table";
 import { MenuItem, TextField } from "@mui/material";
 import { dataAcuerdos2004 } from "../../../data/dataAcuerdos";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
+import HelperDataTable from "../../../layout/HelperDataTable";
 
 const Acuerdos2004 = () => {
   useEffect(() => {
@@ -82,6 +83,7 @@ const Acuerdos2004 = () => {
   return (
     <>
       <TitlePages title="Acuerdos Anteriores" subTitle="Acuerdos ITE 2003" />
+      <HelperDataTable />
       <MaterialReactTable
         columns={columns}
         data={dataAcuerdos2004}

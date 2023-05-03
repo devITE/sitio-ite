@@ -155,6 +155,9 @@ const HelperDataTable = () => {
           </ul>
         </li>
       </ol>
+      <strong>Nota: </strong>En el caso de no visualizar los anexos, en la parte
+      inferior de la tabla se encuentra una barra de desplazamiento, para poder
+      visualizar el resto del texto
     </div>
   );
 };

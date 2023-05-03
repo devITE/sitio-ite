@@ -1,7 +1,8 @@
 import React, { useMemo, useEffect } from "react";
 import TitlePages from "../../../layout/TitlePages";
 import MaterialReactTable from "material-react-table";
-import { MenuItem, TextField, Box } from "@mui/material";
+// import { Box } from "@mui/material";
+import { MenuItem, TextField } from "@mui/material";
 import { dataAcuerdos2022 } from "../../../data/dataAcuerdos";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
@@ -56,20 +57,20 @@ const Acuerdos2022 = () => {
         header: "TÍTULO",
         footer: "TÍTULO",
       },
-      // {
-      //   id: "pdf",
-      //   header: "",
-      //   footer: "",
-      //   enableColumnFilters: false,
-      //   Cell: ({ row }) =>
-      //     row.original.link === "" ? (
-      //       <span></span>
-      //     ) : (
-      //       <a href={row.original.link} target="_blank" rel="noreferrer">
-      //         <FontAwesomeIcon icon={faFilePdf} className="btn btn-danger" />
-      //       </a>
-      //     ),
-      // },
+      {
+        id: "pdf",
+        header: "",
+        footer: "",
+        enableColumnFilters: false,
+        Cell: ({ row }) =>
+          row.original.link === "" ? (
+            <span></span>
+          ) : (
+            <a href={row.original.link} target="_blank" rel="noreferrer">
+              <FontAwesomeIcon icon={faFilePdf} className="btn btn-danger" />
+            </a>
+          ),
+      },
     ],
     []
   );
@@ -91,145 +92,6 @@ const Acuerdos2022 = () => {
             display: row.original.subRows === "" ? "none" : "flex",
           },
         })}
-        renderDetailPanel={({ row }) => (
-          <Box id="Box">
-            {
-              <div className="w-100">
-                <table className="w-50 table table-borderless table-striped mx-auto">
-                  <thead></thead>
-                  <tbody>
-                    <tr>
-                      <td>
-                        {row.original.typeDoc} {row.original.nameDoc}{" "}
-                      </td>
-                      <td>
-                        <a
-                          href={row.original.pdf}
-                          target="_blank"
-                          rel="noreferrer"
-                        >
-                          <FontAwesomeIcon
-                            icon={faFilePdf}
-                            className="btn btn-danger"
-                          />
-                        </a>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td colSpan={2}>
-                        <br />
-                        <strong>ANEXOS</strong>
-                      </td>
-                    </tr>
-                    {(row.original.nameDoc1 === "") &
-                    (row.original.pdf1 === "") &
-                    (row.original.nameDoc2 === "") &
-                    (row.original.pdf2 === "") &
-                    (row.original.nameDoc3 === "") &
-                    (row.original.pdf3 === "") &
-                    (row.original.nameDoc4 === "") &
-                    (row.original.pdf4 === "") ? (
-                      <tr>
-                        <td colSpan={2}>SIN ANEXOS</td>
-                      </tr>
-                    ) : //------------
-                    (row.original.nameDoc1 !== "") &
-                      (row.original.pdf1 !== "") ? (
-                      <tr>
-                        <td>{row.original.nameDoc1} </td>
-                        <td>
-                          <a
-                            href={row.original.pdf1}
-                            target="_blank"
-                            rel="noreferrer"
-                          >
-                            <FontAwesomeIcon
-                              icon={faFilePdf}
-                              className="btn btn-danger"
-                            />
-                          </a>
-                        </td>
-                      </tr>
-                    ) : (
-                      <tr>
-                        <td colSpan={2}>1</td>
-                      </tr>
-                    )}
-                    {(row.original.nameDoc2 !== "") &
-                    (row.original.pdf2 !== "") ? (
-                      <tr>
-                        <td>{row.original.nameDoc2} </td>
-                        <td>
-                          <a
-                            href={row.original.pdf2}
-                            target="_blank"
-                            rel="noreferrer"
-                          >
-                            <FontAwesomeIcon
-                              icon={faFilePdf}
-                              className="btn btn-danger"
-                            />
-                          </a>
-                        </td>
-                      </tr>
-                    ) : (
-                      <tr>
-                        <td colSpan={2}>2</td>
-                      </tr>
-                    )}
-                    {(row.original.nameDoc3 !== "") &
-                    (row.original.pdf3 !== "") ? (
-                      <tr>
-                        <td>{row.original.nameDoc3} </td>
-                        <td>
-                          <a
-                            href={row.original.pdf3}
-                            target="_blank"
-                            rel="noreferrer"
-                          >
-                            <FontAwesomeIcon
-                              icon={faFilePdf}
-                              className="btn btn-danger"
-                            />
-                          </a>
-                        </td>
-                      </tr>
-                    ) : (
-                      <tr>
-                        <td colSpan={2}>3</td>
-                      </tr>
-                    )}
-                    {
-                      (row.original.nameDoc4 !== "") &
-                      (row.original.pdf4 !== "") ? (
-                        <tr>
-                          <td>{row.original.nameDoc4} </td>
-                          <td>
-                            <a
-                              href={row.original.pdf4}
-                              target="_blank"
-                              rel="noreferrer"
-                            >
-                              <FontAwesomeIcon
-                                icon={faFilePdf}
-                                className="btn btn-danger"
-                              />
-                            </a>
-                          </td>
-                        </tr>
-                      ) : (
-                        <tr>
-                          <td colSpan={2}>4</td>
-                        </tr>
-                      )
-                      //-------------
-                    }
-                  </tbody>
-                </table>
-              </div>
-            }
-          </Box>
-        )}
         muiTablePaginationProps={{
           rowsPerPageOptions: [10, 25, 50, 100, 200, 300, 400],
           labelRowsPerPage: "Filas por página",
