@@ -1,879 +1,3 @@
-// ------------ A C U E R D O S    I N E ------------
-export const dataAcuerdosINE2022 = [
-  {
-    id: 1,
-    year: "2022",
-    numDoc: "INE CG-598-2022",
-    nameDoc:
-      "ACUERDO POR EL QUE SE APRUEBA LA DESIGNACIÓN DE LAS PRESIDENCIAS DE LOS OPLES DE LAS ENTIDADES DE AGUASCALIENTES, COAHUILA, NAYARIT, PUEBLA, QUINTANA ROO, SINALOA Y TLAXCALA",
-    link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2022/1.pdf",
-    subRows: "",
-  },
-  {
-    id: 2,
-    year: "2022",
-    numDoc: "INE CG-633-2022",
-    nameDoc:
-      "ACUERDO POR EL QUE SE APRUEBA LA DESIGNACION DEL CONSEJERO PRESIDENTE PROVISIONAL DEL ITE",
-    link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2022/2.pdf",
-    subRows: "",
-  },
-];
-
-export const dataAcuerdosINE2021 = [
-  {
-    id: 1,
-    year: "2021",
-    numDoc: "INE JGE-50-2021",
-    nameDoc: "ACUERDO INCORPORACIÓN TEMPORAL",
-    link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2021/1.pdf",
-    subRows: [
-      {
-        nameDoc: "LINEAMIENTOS OPLE INCORPORACIÓN TEMPORAL",
-        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2021/1.1.pdf",
-        subRows: "",
-      },
-    ],
-  },
-
-  {
-    id: 2,
-    year: "2021",
-    numDoc: "INE JGE-51-2021",
-    nameDoc: "ACUERDO OCUPACIÓN DE ENCARGOS",
-    link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2021/2.pdf",
-    subRows: [
-      {
-        nameDoc: "LINEAMIENTOS OPLE OCUPACIÓN E ENCARGOS",
-        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2021/2.1.pdf",
-        subRows: "",
-      },
-    ],
-  },
-
-  {
-    id: 3,
-    year: "2021",
-    numDoc: "INE CG-1600-2021",
-    nameDoc:
-      "SE APRUEBA EL PLAN INTEGRAL Y LOS CALENDARIOS DE COORDINACIÓN PARA LOS PROCESOS ELECTORALES LOCALES EXTRAORDINARIOS 2021",
-    link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2021/3.pdf",
-    subRows: [
-      {
-        nameDoc: "ANEXO 1 PLAN INTEGRAL Y CALENDARIOS DE COORDINACIÓN",
-        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2021/3.1.pdf",
-        subRows: "",
-      },
-      {
-        nameDoc: "ANEXO 3 CONCENTRADO DE ACTIVIDADES",
-        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2021/3.3.pdf",
-        subRows: "",
-      },
-    ],
-  },
-];
-
-export const dataAcuerdosINE2020 = [
-  {
-    id: 1,
-    year: "2020",
-    numDoc: "INE CG-255-2020",
-    nameDoc: "CONVOCATORIAS OBSERVADORES ELECTORALES",
-    link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2020/1.pdf",
-    subRows: [
-      {
-        nameDoc: "ANEXO 1 (PUNTO 4)",
-        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2020/1.1.pdf",
-        subRows: "",
-      },
-      {
-        nameDoc: "ANEXO 2 (PUNTO 4)",
-        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2020/1.2.pdf",
-        subRows: "",
-      },
-    ],
-  },
-
-  {
-    id: 2,
-    year: "2020",
-    numDoc: "INE CG-270-2020",
-    nameDoc:
-      "BASES Y CRITERIOS PARA EXTRANJEROS QUE ACUDAN A CONOCER EL PROCESO ELECTORAL 2020-2021",
-    link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2020/2.pdf",
-    subRows: [
-      {
-        nameDoc: "ANEXO 1",
-        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2020/2.1.pdf",
-        subRows: "",
-      },
-      {
-        nameDoc: "ANEXO 2",
-        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2020/2.2.pdf",
-        subRows: "",
-      },
-    ],
-  },
-  {
-    id: 3,
-    year: "2020",
-    numDoc: "INE CG-559-2020",
-    nameDoc: "RESOLUCIÓN DEL CONSEJO GENERAL",
-    link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2020/3.pdf",
-    subRows: "",
-  },
-  {
-    id: 4,
-    year: "2020",
-    numDoc: "INE CG-569-2020",
-    nameDoc: "ACUERDO POR EL QUE SE DA RESPUESTA A CONSULTAS",
-    link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2020/4.pdf",
-    subRows: "",
-  },
-
-  {
-    id: 5,
-    year: "2020",
-    numDoc: "INE JGE-160-2020",
-    nameDoc: "ACUERDO DE LA JGE POR EL QUE SE APRUEBAN LINEAMIENTOS",
-    link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2020/5.pdf",
-    subRows: [
-      {
-        nameDoc: "ANEXO 1",
-        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2020/5.1.pdf",
-        subRows: "",
-      },
-    ],
-  },
-  {
-    id: 6,
-    year: "2020",
-    numDoc: "INE CG-187-2020",
-    nameDoc: "RESOLUCIÓN DEL CONSEJO GENERAL",
-    link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2020/6.pdf",
-    subRows: "",
-  },
-  {
-    id: 7,
-    year: "2020",
-    numDoc: "INE CG-289-2020",
-    nameDoc: "RESOLUCIÓN DEL CONSEJO GENERAL",
-    link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2020/7.pdf",
-    subRows: "",
-  },
-  {
-    id: 8,
-    year: "2020",
-    numDoc: "INE CG-694-2020",
-    nameDoc: "RESOLUCIÓN DEL CONSEJO GENERAL",
-    link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2020/8.pdf",
-    subRows: "",
-  },
-];
-
-export const dataAcuerdosINE2016 = [
-  {
-    id: 1,
-    idDoc: "000062",
-    year: "2016",
-    numDoc: "ACUERDOS",
-    nameDoc: "RESPUESTAS DE CONSULTAS DE OPLES",
-    link: "",
-    subRows: [
-      {
-        nameDoc: "ACUERDO INE CVOPL-001-2016",
-        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2016/1.1.pdf",
-        subRows: "",
-      },
-      {
-        nameDoc: "ACUERDO INE CVOPL-002-2016",
-        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2016/1.2.pdf",
-        subRows: "",
-      },
-      {
-        nameDoc: "ACUERDO INE CVOPL-003-2016",
-        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2016/1.3.pdf",
-        subRows: "",
-      },
-      {
-        nameDoc: "ACUERDO INE CVOPL-004-2016",
-        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2016/1.4.pdf",
-        subRows: "",
-      },
-      {
-        nameDoc: "ACUERDO INE CVOPL-005-2016",
-        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2016/1.5.pdf",
-        subRows: "",
-      },
-      {
-        nameDoc: "ACUERDO INE CVOPL-006-2016",
-        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2016/1.6.pdf",
-        subRows: "",
-      },
-      {
-        nameDoc: "ACUERDO INE CVOPL-012-2016",
-        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2016/1.7.pdf",
-        subRows: "",
-      },
-    ],
-  },
-
-  {
-    id: 2,
-    idDoc: "000072",
-    year: "2016",
-    numDoc: "ACUERDOS",
-    nameDoc: "RESPUESTAS DE CONSULTAS DE OPLES",
-    link: "",
-    subRows: [
-      {
-        nameDoc: "ACUERDO INE CVOPL-007-2016-CG865",
-        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2016/2.1.pdf",
-        subRows: "",
-      },
-      {
-        nameDoc: "ACUERDO INE CVOPL-008-2016-CG865",
-        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2016/2.2.pdf",
-        subRows: "",
-      },
-      {
-        nameDoc: "ACUERDO INE CVOPL-010-2016-CG865",
-        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2016/2.3.pdf",
-        subRows: "",
-      },
-      {
-        nameDoc: "ACUERDO INE CVOPL-011-2016-CG865",
-        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2016/2.4.pdf",
-        subRows: "",
-      },
-    ],
-  },
-  {
-    id: 3,
-    idDoc: "000080",
-    year: "2016",
-    numDoc: "INE CG-1047-2016",
-    nameDoc:
-      "ACUERDO DONDE SE REFORMAN Y ADICIONAN DIVERSAS DISPOSICIONES DEL REGLAMENTO DE FISCALIZACIÓN",
-    link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2016/3.pdf",
-    subRows: "",
-  },
-  {
-    id: 4,
-    idDoc: "000118",
-    year: "2016",
-    numDoc: "ESTATUTO",
-    nameDoc: "DEL SERVICIO PROFESIONAL ELECTORAL NACIONAL DOF",
-    link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2016/4.pdf",
-    subRows: "",
-  },
-  {
-    id: 5,
-    idDoc: "000191",
-    year: "2016",
-    numDoc: "CF-001-2016",
-    nameDoc:
-      "MANUAL DE USUARIO PARA PP, COALICIONES, CI PARA LA OPERACIÓN DEL SISTEMA INTEGRAL DE FISCALIZACIÓN",
-    link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2016/5.pdf",
-    subRows: "",
-  },
-  {
-    id: 6,
-    idDoc: "000236",
-    year: "2016",
-    numDoc: "INE CG-47-2016",
-    nameDoc:
-      "ACUERDO PARA LA INTEGRACIÓN DEL CATÁLOGO DE CARGOS Y PUESTOS DEL SERVICIO PROFESIONAL",
-    link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2016/6.pdf",
-    subRows: "",
-  },
-  {
-    id: 7,
-    idDoc: "000244",
-    year: "2016",
-    numDoc: "INE CG-38-2016",
-    nameDoc: "LINEAMIENTOS DE PADRÓN ELECTORAL Y LISTA DE ELECTORES",
-    link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2016/7.pdf",
-    subRows: "",
-  },
-
-  {
-    id: 8,
-    idDoc: "000256",
-    year: "2016",
-    numDoc: "INE CF-004-2016",
-    nameDoc:
-      "LINEAMIENTOS DE REALIZACIÓN DE VISITAS DE VERIFICACIÓN, PROPAGANDA EN VÍA PÚBLICA Y ETC",
-    link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2016/8.pdf",
-    subRows: [
-      {
-        nameDoc: "INE_UTVOPL_033_2016-OPLES_004",
-        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2016/8.1.pdf",
-        subRows: "",
-      },
-    ],
-  },
-  {
-    id: 9,
-    idDoc: "000314",
-    year: "2016",
-    numDoc: "INE CG-61-2016",
-    nameDoc:
-      "CRITERIOS INSTITUCIONALES PARA CONTESTAR CONSULTAS REALIZADAS POR LOS OPLES",
-    link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2016/9.pdf",
-    subRows: "",
-  },
-  {
-    id: 10,
-    idDoc: "000315",
-    year: "2016",
-    numDoc: "INE CG-63-2016",
-    nameDoc:
-      "CRITERIOS PARA GARANTIZAR LA PARIDAD DE GÉNERO EN LA POSTULACIÓN DE CANDIDATURAS",
-    link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2016/10.pdf",
-    subRows: "",
-  },
-
-  {
-    id: 11,
-    idDoc: "000427",
-    year: "2016",
-    numDoc: "ACUERDOS",
-    nameDoc: "INE-CG1012-2015, INE-CG948-2015 E INE-CG950-2015 LINEAMIENTOS JE",
-    link: "",
-    subRows: [
-      {
-        nameDoc: "ANEXO_2-CG1012",
-        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2016/11.1.pdf",
-        subRows: "",
-      },
-      {
-        nameDoc: "ANEXO_4-CG1012",
-        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2016/11.2.pdf",
-        subRows: "",
-      },
-      {
-        nameDoc: "RESUMEN-CG948",
-        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2016/11.3.pdf",
-        subRows: "",
-      },
-    ],
-  },
-];
-
-export const dataAcuerdosINE2015 = [
-  {
-    id: 1,
-    idDoc: "000029",
-    year: "2015",
-    numDoc: "INE CG-824-2015",
-    nameDoc: "APRUEBA DEMARCACIÓN TERRITORIAL DE LOS DISTRITOS UNINOMINALES",
-    link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/1.pdf",
-    subRows: [
-      {
-        nameDoc: "OFICIO TLAXCALA",
-        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/1.1.pdf",
-        subRows: "",
-      },
-    ],
-  },
-
-  {
-    id: 2,
-    idDoc: "000036",
-    year: "2015",
-    numDoc: "INE CG-843-2015",
-    nameDoc: "SE DETERMINA LA INSTANCIA DE PARTIDOS",
-    link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/2.pdf",
-    subRows: [
-      {
-        nameDoc: "OFICIO TLAXCALA",
-        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/2.1.pdf",
-        subRows: "",
-      },
-    ],
-  },
-  {
-    id: 3,
-    idDoc: "000048",
-    year: "2015",
-    numDoc: "INE ACRT-33-2015",
-    nameDoc:
-      "SE MODIFICA ACUERDO INE-ACRT-32-2015 POR PÉRDIDA DE REGISTRO DE PT Y PH",
-    link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/3.pdf",
-    subRows: "",
-  },
-
-  {
-    id: 4,
-    idDoc: "000065",
-    year: "2015",
-    numDoc: "INE CG-861-2015",
-    nameDoc:
-      "SE CREA LA COMISIÓN TEMPORAL PARA EL SEGUIMIENTO DE LOS PROCESOS ELECTORALES 2015-2016",
-    link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/4.pdf",
-    subRows: [
-      {
-        nameDoc: "TLAXCALA-1",
-        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/4.1.pdf",
-        subRows: "",
-      },
-    ],
-  },
-  {
-    id: 5,
-    idDoc: "000084",
-    year: "2015",
-    numDoc: "INE CG-896-2015",
-    nameDoc:
-      "SE RATIFICA Y DESIGNAN A LOS CONSEJEROS ELECTORALES DE LOS PROCESOS ELECTORALES 2015-2016",
-    link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/5.pdf",
-    subRows: "",
-  },
-  {
-    id: 6,
-    idDoc: "000139",
-    year: "2015",
-    numDoc: "INE ACRT-34-2015",
-    nameDoc:
-      "SE ESTABLECEN LOS TÉRMINOS Y CONDICIONES SATELITAL… DE LA TRANSMISIÓN DE LOS PROCESOS ELECTORALES",
-    link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/6.pdf",
-    subRows: "",
-  },
-  {
-    id: 7,
-    idDoc: "000146",
-    year: "2015",
-    numDoc: "INE CG-927-2015",
-    nameDoc:
-      "CRITERIOS GENERALES A EFECTO DE GARANTIZAR EL CUMPLIMIENTO DE PRINCIPIO DE PARIDAD DE GÉNERO",
-    link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/7.pdf",
-    subRows: "",
-  },
-
-  {
-    id: 8,
-    idDoc: "000149",
-    year: "2015",
-    numDoc: "INE CG-861-2015",
-    nameDoc: "ESTRATEGIA DE CAPACITACIÓN Y ASISTENCIA ELECTORAL 2015-2016",
-    link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/8.pdf",
-    subRows: [
-      {
-        nameDoc: "ANEXO 1",
-        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/8.1.pdf",
-        subRows: "",
-      },
-      {
-        nameDoc: "ANEXO 2",
-        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/8.2.pdf",
-        subRows: "",
-      },
-      {
-        nameDoc: "ANEXO 3",
-        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/8.3.pdf",
-        subRows: "",
-      },
-      {
-        nameDoc: "OFICIO INE_UTVOPL_4725_2015_TLAX",
-        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/8.4.pdf",
-        subRows: "",
-      },
-    ],
-  },
-
-  {
-    id: 9,
-    idDoc: "000150",
-    year: "2015",
-    numDoc: "ACUERDOS",
-    nameDoc:
-      "ACATAMIENTOS DE LAS SENTENCIAS DE LA SALA SUPERIOR DE LOS PARTIDOS DEL TRABAJO Y HUMANISTA",
-    link: "",
-    subRows: [
-      {
-        nameDoc: "ACUERDO INE-CG936-2015",
-        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/9.1.pdf",
-        subRows: "",
-      },
-      {
-        nameDoc: "ACUERDO INE-CG937-2015",
-        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/9.2.pdf",
-        subRows: "",
-      },
-      {
-        nameDoc: "CIRCULAR INE-UTVOPL-133-15",
-        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/9.3.pdf",
-        subRows: "",
-      },
-    ],
-  },
-
-  {
-    id: 10,
-    idDoc: "000154",
-    year: "2015",
-    numDoc: "INE CG-921-2015",
-    nameDoc:
-      "LINEAMIENTOS GENERALES PARA EL DISEÑO, IMPLEMENTACIÓN Y OPERACIÓN DEL CONTEO RÁPIDO",
-    link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/10.pdf",
-    subRows: [
-      {
-        nameDoc: "CIRCULAR INE-UTVOPL-145-15",
-        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/10.1.pdf",
-        subRows: "",
-      },
-    ],
-  },
-
-  {
-    id: 11,
-    idDoc: "000155",
-    year: "2015",
-    numDoc: "INE CG-909-2015",
-    nameDoc:
-      "ESTATUTO DEL SERVICIO PROFESIONAL ELECTORAL Y RAMA ADMINISTRATIVA",
-    link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/11.pdf",
-    subRows: [
-      {
-        nameDoc: "CIRCULAR INE-UTVOPL-135-2015",
-        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/11.1.pdf",
-        subRows: "",
-      },
-    ],
-  },
-  {
-    id: 12,
-    idDoc: "000170",
-    year: "2015",
-    numDoc: "INE CG-928-2015",
-    nameDoc:
-      "LINEAMIENTOS QUE OBSERVARÁN LOS OPLES PARA EL REGISTRO DE COALICIONES",
-    link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/12.pdf",
-    subRows: "",
-  },
-  {
-    id: 13,
-    idDoc: "000171",
-    year: "2015",
-    numDoc: "INE CG-935-2015",
-    nameDoc:
-      "LINEAMIENTOS PARA EL PROGRAMA DE RESULTADOS ELECTORALES PRELIMINARES",
-    link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/13.pdf",
-    subRows: "",
-  },
-  {
-    id: 14,
-    idDoc: "000172",
-    year: "2015",
-    numDoc: "INE CG-953-2015",
-    nameDoc:
-      "MEDIDAS ESPECÍFICAS PARA LOS PRESIDENTES DE LA MDC PARA EVITAR LA COMPRA DEL VOTO COACCIÓN E INDUCIÓN",
-    link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/14.pdf",
-    subRows: "",
-  },
-
-  {
-    id: 15,
-    idDoc: "000179",
-    year: "2015",
-    numDoc: "INE CG-951-2015",
-    nameDoc:
-      "CRITERIOS QUE DEBERÁN OBSERVAR LOS OPLES DEL SISTEMA DE SEGUIMIENTO Y DESARROLLO DE LA JORNADA ELECTORAL",
-    link: "",
-    subRows: [
-      {
-        nameDoc: "ACUERDO INE-CG-951-2015",
-        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/15.1.pdf",
-        subRows: "",
-      },
-      {
-        nameDoc: "ACUERDO1 INE-CG-951-2015",
-        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/15.2.pdf",
-        subRows: "",
-      },
-      {
-        nameDoc: "CIRCULAR INE_UTVOPL_154_2015_CG951",
-        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/15.3.pdf",
-        subRows: "",
-      },
-    ],
-  },
-
-  {
-    id: 16,
-    idDoc: "000180",
-    year: "2015",
-    numDoc: "INE CG-9502015",
-    nameDoc:
-      "SE EMITEN LINEAMIENTOS PARA IMPRESIÓN DE DOCUMENTOS Y ELABORACIÓN DE MATERIALES ELECTORALES",
-    link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/16.pdf",
-    subRows: [
-      {
-        nameDoc:
-          "LINEAMIENTOS PARA IMPRESIÓN DE DOCUMENTOS Y ELABORACIÓN DE MATERIALES ELECTORALES",
-        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/16.1.pdf",
-        subRows: "",
-      },
-      {
-        nameDoc: "INE_UTVOPL_169_2015_CG950",
-        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/16.2.pdf",
-        subRows: "",
-      },
-    ],
-  },
-  {
-    id: 17,
-    idDoc: "000181",
-    year: "2015",
-    numDoc: "INE CG-938-2015",
-    nameDoc:
-      "PROCEDIMIENTO DE LIQUIDACIÓN DE LOS PARTIDOS POLÍTICOS NACIONALES QUE NO ALCANZARON EL 3%",
-    link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/17.pdf",
-    subRows: "",
-  },
-
-  {
-    id: 18,
-    idDoc: "000182",
-    year: "2015",
-    numDoc: "INE CG-948-2015",
-    nameDoc: "LINEAMIENTOS DE PARTICIPACIÓN CIUDADANA",
-    link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/18.pdf",
-    subRows: [
-      {
-        nameDoc: "INE-UTVOPL-174-2015",
-        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/18.1.pdf",
-        subRows: "",
-      },
-    ],
-  },
-
-  {
-    id: 19,
-    idDoc: "000183",
-    year: "2015",
-    numDoc: "INE CG-949-2015",
-    nameDoc:
-      "SE PRECISAN LOS ALCANCES DE LAS ATRIBUCIONES DE LAS COMISIÓN TEMPORAL",
-    link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/19.pdf",
-    subRows: [
-      {
-        nameDoc: "CIRCULAR INE-UTVOPL-167-2015",
-        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/19.1.pdf",
-        subRows: "",
-      },
-    ],
-  },
-
-  {
-    id: 20,
-    idDoc: "000184",
-    year: "2015",
-    numDoc: "INE CG-934-2015",
-    nameDoc:
-      "SE PRECISAN LOS ALCANCES DE LAS ATRIBUCIONES DE LAS COMISIÓN TEMPORAL",
-    link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/20.pdf",
-    subRows: [
-      {
-        nameDoc: "CIRCULAR INE-UTVOPL-167-2015",
-        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/20.1.pdf",
-        subRows: "",
-      },
-    ],
-  },
-
-  {
-    id: 21,
-    idDoc: "000185",
-    year: "2015",
-    numDoc: "INE CG-939-2015",
-    nameDoc:
-      "LINEAMIENTOS PARA EL REGISTRO DE LOS OTRORA PARTIDOS NACIONALES PARA OPTAR COMO PARTIDO LOCAL",
-    link: "",
-    subRows: [
-      {
-        nameDoc: "INE-UTVOPL-165-2015",
-        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/21.1.pdf",
-        subRows: "",
-      },
-    ],
-  },
-
-  {
-    id: 22,
-    idDoc: "000185",
-    year: "2015",
-    numDoc: "INE CG-1000-2015",
-    nameDoc:
-      "MODIFICACIÓN DEL REGLAMENTO DE SESIONES DE LOS CONSEJOS LOCALES Y DISTRTITALES DEL INE",
-    link: "",
-    subRows: [
-      {
-        nameDoc: "CIRCULAR INE-UTVOPL-185-2015",
-        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/22.1.pdf",
-        subRows: "",
-      },
-    ],
-  },
-  {
-    id: 23,
-    idDoc: "000292",
-    year: "2015",
-    numDoc: "INE DERFE-1434-2015",
-    nameDoc:
-      "ESTRATEGIA DE INFORMACIÓN EN APOYO A LA ACTUALIZACIÓN DEL PADRÓN ELECTORAL",
-    link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/23.pdf",
-    subRows: "",
-  },
-  {
-    id: 24,
-    idDoc: "000295",
-    year: "2015",
-    numDoc: "INE ACRT-37-2015",
-    nameDoc:
-      "MODIFICAN ACUERDO INE-ACRT-32-2015 CON MOTIVO DE LA PÉRDIDA DE REGISTRO DEL PT Y PH",
-    link: "",
-  },
-
-  {
-    id: 25,
-    idDoc: "000332",
-    year: "2015",
-    numDoc: "RAP-756-2015",
-    nameDoc:
-      "RESOLUCIÓN DEL PT DERIVADA DEL RECURSO DE REVISIÓN SUP-RAP-756-2015",
-    link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/25.pdf",
-    subRows: [
-      {
-        nameDoc: "INE_UTVOPL_197_2015_CG936",
-        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/25.1.pdf",
-        subRows: "",
-      },
-    ],
-  },
-
-  {
-    id: 26,
-    idDoc: "000348",
-    year: "2015",
-    numDoc: "ACUERDOS",
-    nameDoc: "",
-    link: "",
-    subRows: [
-      {
-        nameDoc: "INE ACRT-40-2015 (CATÁLOGO NACIONAL)",
-        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/26.1.pdf",
-        subRows: "",
-      },
-      {
-        nameDoc: "INE CG-980-2015 (PUBLICACIÓN DEL CAT)",
-        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/26.2.pdf",
-        subRows: "",
-      },
-      {
-        nameDoc: "INE ACRT-45-2015 (APROB MODELOS DE PAUTAS)",
-        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/26.3.pdf",
-        subRows: "",
-      },
-      {
-        nameDoc: "INE JGE-160-2015",
-        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/26.4.pdf",
-        subRows: "",
-      },
-    ],
-  },
-  {
-    id: 27,
-    idDoc: "000366",
-    year: "2015",
-    numDoc: "INE VRFE-439-2015",
-    nameDoc:
-      "PLANOS URBANOS, CARTA ELECTORAL MUNICIPAL, PLANOS POR SECCIÓN INDIVIDUAL",
-    link: "",
-  },
-
-  {
-    id: 28,
-    idDoc: "000371",
-    year: "2015",
-    numDoc: "INE CG-824-",
-    nameDoc: "NUEVA DEMARCACIÓN TERRITORIAL",
-    link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/28.pdf",
-    subRows: [
-      {
-        nameDoc: "DESCRIPTIVO DE TLAXCALA",
-        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/28.1.pdf",
-        subRows: "",
-      },
-      {
-        nameDoc: "ESCENARIO FINAL TLAXCALA",
-        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/28.2.pdf",
-        subRows: "",
-      },
-      {
-        nameDoc: "MAPA TLAXCALA",
-        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/28.3.pdf",
-        subRows: "",
-      },
-    ],
-  },
-
-  {
-    id: 29,
-    idDoc: "000391",
-    year: "2015",
-    numDoc: "RAP-1049-2015",
-    nameDoc: "RESOLUCIÓN DEL INE RELATIVO AL REGISTRO DEL PT",
-    link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/29.pdf",
-    subRows: [
-      {
-        nameDoc: "CIRCULAR INE-UTVOPL-210-2015",
-        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/29.1.pdf",
-        subRows: "",
-      },
-    ],
-  },
-
-  {
-    id: 30,
-    idDoc: "000392",
-    year: "2015",
-    numDoc: "ACUERDOS",
-    nameDoc: "ACUERDOS DONDE INCLUYEN AL PT EN LAS PAUTAS DE RADIO Y TV",
-    link: "",
-    subRows: [
-      {
-        nameDoc: "ACUERDO INE ACRT-49-2015",
-        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/30.1.pdf",
-        subRows: "",
-      },
-      {
-        nameDoc: "ACUERDO INE-ACRT-51-2015",
-        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/30.2.pdf",
-        subRows: "",
-      },
-    ],
-  },
-
-  {
-    id: 33,
-    idDoc: "000543",
-    year: "2015",
-    numDoc: "INE CG-813-2015",
-    nameDoc: "DESIGNACIÓN DEL CONSEJO GENERAL DE TLAXCALA",
-    link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/33.pdf",
-    subRows: [
-      {
-        nameDoc: "DICTAMEN TLAXCALA",
-        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/33.1.pdf",
-        subRows: "",
-      },
-    ],
-  },
-];
-
-// ------------ A C U E R D O S    I T E ------------
 export const dataAcuerdos2022 = [
   {
     id: 1,
@@ -882,33 +6,15 @@ export const dataAcuerdos2022 = [
     numDoc: "ITE-CG 01-2022",
     monthDoc: "ENE",
     nameDoc: "ADECUACIÓN DE PRESUPUESTO DE EGRESOS 2022",
-    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2022/1.pdf",
-    subRows: [
-      {
-        typeDoc: "",
-        nameDoc: "ANEXO UNO CALENDARIZADO",
-        link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2022/1.1.pdf",
-        subRows: "",
-      },
-      {
-        typeDoc: "",
-        nameDoc: "ANEXO DOS REMANENTE CONVENIO INE",
-        link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2022/1.2.pdf",
-        subRows: "",
-      },
-      {
-        typeDoc: "",
-        nameDoc: "ANEXO TRES ISR",
-        link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2022/1.3.pdf",
-        subRows: "",
-      },
-      {
-        typeDoc: "",
-        nameDoc: "FE DE ERRATAS",
-        link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2022/1.4.pdf",
-        subRows: "",
-      },
-    ],
+    pdf: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2022/1.pdf",
+    nameDoc1: "ANEXO UNO CALENDARIZADO",
+    pdf1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2022/1.1.pdf",
+    nameDoc2: "ANEXO DOS REMANENTE CONVENIO INE",
+    pdf2: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2022/1.2.pdf",
+    nameDoc3: "ANEXO TRES ISR",
+    pdf3: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2022/1.3.pdf",
+    nameDoc4: "FE DE ERRATAS",
+    pdf4: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2022/1.4.pdf",
   },
 
   {
@@ -918,15 +24,15 @@ export const dataAcuerdos2022 = [
     numDoc: "ITE-CG 02-2022",
     monthDoc: "ENE",
     nameDoc: "ACTUALIZACIÓN CALENDARIZACIÓN DE MULTAS 2022",
-    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2022/2.pdf",
-    subRows: [
-      {
-        typeDoc: "",
-        nameDoc: "CALENDARIZACIÓN DE MULTAS",
-        link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2022/2.1.pdf",
-        subRows: "",
-      },
-    ],
+    pdf: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2022/2.pdf",
+    nameDoc1: "CALENDARIZACIÓN DE MULTAS",
+    pd1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2022/2.1.pdf",
+    nameDoc2: "",
+    pdf2: "",
+    nameDoc3: "",
+    pdf3: "",
+    nameDoc4: "",
+    pdf4: "",
   },
 
   {
@@ -1236,32 +342,38 @@ export const dataAcuerdos2022 = [
         nameDoc: "ANEXO 4",
         link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2022/19.4.pdf",
         subRows: "",
-      },   {
+      },
+      {
         typeDoc: "",
         nameDoc: "ANEXO 5",
         link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2022/19.5.pdf",
         subRows: "",
-      },   {
+      },
+      {
         typeDoc: "",
         nameDoc: "ANEXO 6",
         link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2022/19.6.pdf",
         subRows: "",
-      },   {
+      },
+      {
         typeDoc: "",
         nameDoc: "ANEXO 7",
         link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2022/19.7.pdf",
         subRows: "",
-      },   {
+      },
+      {
         typeDoc: "",
         nameDoc: "ANEXO 8",
         link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2022/19.8.pdf",
         subRows: "",
-      },   {
+      },
+      {
         typeDoc: "",
         nameDoc: "ANEXO 9",
         link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2022/19.9.pdf",
         subRows: "",
-      },   {
+      },
+      {
         typeDoc: "",
         nameDoc: "ANEXO 10",
         link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2022/19.10.pdf",
@@ -2165,6 +1277,883 @@ export const dataAcuerdos2022 = [
     subRows: "",
   },
 ];
+
+// ------------ A C U E R D O S    I N E ------------
+export const dataAcuerdosINE2022 = [
+  {
+    id: 1,
+    year: "2022",
+    numDoc: "INE CG-598-2022",
+    nameDoc:
+      "ACUERDO POR EL QUE SE APRUEBA LA DESIGNACIÓN DE LAS PRESIDENCIAS DE LOS OPLES DE LAS ENTIDADES DE AGUASCALIENTES, COAHUILA, NAYARIT, PUEBLA, QUINTANA ROO, SINALOA Y TLAXCALA",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2022/1.pdf",
+    subRows: "",
+  },
+  {
+    id: 2,
+    year: "2022",
+    numDoc: "INE CG-633-2022",
+    nameDoc:
+      "ACUERDO POR EL QUE SE APRUEBA LA DESIGNACION DEL CONSEJERO PRESIDENTE PROVISIONAL DEL ITE",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2022/2.pdf",
+    subRows: "",
+  },
+];
+
+export const dataAcuerdosINE2021 = [
+  {
+    id: 1,
+    year: "2021",
+    numDoc: "INE JGE-50-2021",
+    nameDoc: "ACUERDO INCORPORACIÓN TEMPORAL",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2021/1.pdf",
+    subRows: [
+      {
+        nameDoc: "LINEAMIENTOS OPLE INCORPORACIÓN TEMPORAL",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2021/1.1.pdf",
+        subRows: "",
+      },
+    ],
+  },
+
+  {
+    id: 2,
+    year: "2021",
+    numDoc: "INE JGE-51-2021",
+    nameDoc: "ACUERDO OCUPACIÓN DE ENCARGOS",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2021/2.pdf",
+    subRows: [
+      {
+        nameDoc: "LINEAMIENTOS OPLE OCUPACIÓN E ENCARGOS",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2021/2.1.pdf",
+        subRows: "",
+      },
+    ],
+  },
+
+  {
+    id: 3,
+    year: "2021",
+    numDoc: "INE CG-1600-2021",
+    nameDoc:
+      "SE APRUEBA EL PLAN INTEGRAL Y LOS CALENDARIOS DE COORDINACIÓN PARA LOS PROCESOS ELECTORALES LOCALES EXTRAORDINARIOS 2021",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2021/3.pdf",
+    subRows: [
+      {
+        nameDoc: "ANEXO 1 PLAN INTEGRAL Y CALENDARIOS DE COORDINACIÓN",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2021/3.1.pdf",
+        subRows: "",
+      },
+      {
+        nameDoc: "ANEXO 3 CONCENTRADO DE ACTIVIDADES",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2021/3.3.pdf",
+        subRows: "",
+      },
+    ],
+  },
+];
+
+export const dataAcuerdosINE2020 = [
+  {
+    id: 1,
+    year: "2020",
+    numDoc: "INE CG-255-2020",
+    nameDoc: "CONVOCATORIAS OBSERVADORES ELECTORALES",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2020/1.pdf",
+    subRows: [
+      {
+        nameDoc: "ANEXO 1 (PUNTO 4)",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2020/1.1.pdf",
+        subRows: "",
+      },
+      {
+        nameDoc: "ANEXO 2 (PUNTO 4)",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2020/1.2.pdf",
+        subRows: "",
+      },
+    ],
+  },
+
+  {
+    id: 2,
+    year: "2020",
+    numDoc: "INE CG-270-2020",
+    nameDoc:
+      "BASES Y CRITERIOS PARA EXTRANJEROS QUE ACUDAN A CONOCER EL PROCESO ELECTORAL 2020-2021",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2020/2.pdf",
+    subRows: [
+      {
+        nameDoc: "ANEXO 1",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2020/2.1.pdf",
+        subRows: "",
+      },
+      {
+        nameDoc: "ANEXO 2",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2020/2.2.pdf",
+        subRows: "",
+      },
+    ],
+  },
+  {
+    id: 3,
+    year: "2020",
+    numDoc: "INE CG-559-2020",
+    nameDoc: "RESOLUCIÓN DEL CONSEJO GENERAL",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2020/3.pdf",
+    subRows: "",
+  },
+  {
+    id: 4,
+    year: "2020",
+    numDoc: "INE CG-569-2020",
+    nameDoc: "ACUERDO POR EL QUE SE DA RESPUESTA A CONSULTAS",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2020/4.pdf",
+    subRows: "",
+  },
+
+  {
+    id: 5,
+    year: "2020",
+    numDoc: "INE JGE-160-2020",
+    nameDoc: "ACUERDO DE LA JGE POR EL QUE SE APRUEBAN LINEAMIENTOS",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2020/5.pdf",
+    subRows: [
+      {
+        nameDoc: "ANEXO 1",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2020/5.1.pdf",
+        subRows: "",
+      },
+    ],
+  },
+  {
+    id: 6,
+    year: "2020",
+    numDoc: "INE CG-187-2020",
+    nameDoc: "RESOLUCIÓN DEL CONSEJO GENERAL",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2020/6.pdf",
+    subRows: "",
+  },
+  {
+    id: 7,
+    year: "2020",
+    numDoc: "INE CG-289-2020",
+    nameDoc: "RESOLUCIÓN DEL CONSEJO GENERAL",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2020/7.pdf",
+    subRows: "",
+  },
+  {
+    id: 8,
+    year: "2020",
+    numDoc: "INE CG-694-2020",
+    nameDoc: "RESOLUCIÓN DEL CONSEJO GENERAL",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2020/8.pdf",
+    subRows: "",
+  },
+];
+
+export const dataAcuerdosINE2016 = [
+  {
+    id: 1,
+    idDoc: "000062",
+    year: "2016",
+    numDoc: "ACUERDOS",
+    nameDoc: "RESPUESTAS DE CONSULTAS DE OPLES",
+    link: "",
+    subRows: [
+      {
+        nameDoc: "ACUERDO INE CVOPL-001-2016",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2016/1.1.pdf",
+        subRows: "",
+      },
+      {
+        nameDoc: "ACUERDO INE CVOPL-002-2016",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2016/1.2.pdf",
+        subRows: "",
+      },
+      {
+        nameDoc: "ACUERDO INE CVOPL-003-2016",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2016/1.3.pdf",
+        subRows: "",
+      },
+      {
+        nameDoc: "ACUERDO INE CVOPL-004-2016",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2016/1.4.pdf",
+        subRows: "",
+      },
+      {
+        nameDoc: "ACUERDO INE CVOPL-005-2016",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2016/1.5.pdf",
+        subRows: "",
+      },
+      {
+        nameDoc: "ACUERDO INE CVOPL-006-2016",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2016/1.6.pdf",
+        subRows: "",
+      },
+      {
+        nameDoc: "ACUERDO INE CVOPL-012-2016",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2016/1.7.pdf",
+        subRows: "",
+      },
+    ],
+  },
+
+  {
+    id: 2,
+    idDoc: "000072",
+    year: "2016",
+    numDoc: "ACUERDOS",
+    nameDoc: "RESPUESTAS DE CONSULTAS DE OPLES",
+    link: "",
+    subRows: [
+      {
+        nameDoc: "ACUERDO INE CVOPL-007-2016-CG865",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2016/2.1.pdf",
+        subRows: "",
+      },
+      {
+        nameDoc: "ACUERDO INE CVOPL-008-2016-CG865",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2016/2.2.pdf",
+        subRows: "",
+      },
+      {
+        nameDoc: "ACUERDO INE CVOPL-010-2016-CG865",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2016/2.3.pdf",
+        subRows: "",
+      },
+      {
+        nameDoc: "ACUERDO INE CVOPL-011-2016-CG865",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2016/2.4.pdf",
+        subRows: "",
+      },
+    ],
+  },
+  {
+    id: 3,
+    idDoc: "000080",
+    year: "2016",
+    numDoc: "INE CG-1047-2016",
+    nameDoc:
+      "ACUERDO DONDE SE REFORMAN Y ADICIONAN DIVERSAS DISPOSICIONES DEL REGLAMENTO DE FISCALIZACIÓN",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2016/3.pdf",
+    subRows: "",
+  },
+  {
+    id: 4,
+    idDoc: "000118",
+    year: "2016",
+    numDoc: "ESTATUTO",
+    nameDoc: "DEL SERVICIO PROFESIONAL ELECTORAL NACIONAL DOF",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2016/4.pdf",
+    subRows: "",
+  },
+  {
+    id: 5,
+    idDoc: "000191",
+    year: "2016",
+    numDoc: "CF-001-2016",
+    nameDoc:
+      "MANUAL DE USUARIO PARA PP, COALICIONES, CI PARA LA OPERACIÓN DEL SISTEMA INTEGRAL DE FISCALIZACIÓN",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2016/5.pdf",
+    subRows: "",
+  },
+  {
+    id: 6,
+    idDoc: "000236",
+    year: "2016",
+    numDoc: "INE CG-47-2016",
+    nameDoc:
+      "ACUERDO PARA LA INTEGRACIÓN DEL CATÁLOGO DE CARGOS Y PUESTOS DEL SERVICIO PROFESIONAL",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2016/6.pdf",
+    subRows: "",
+  },
+  {
+    id: 7,
+    idDoc: "000244",
+    year: "2016",
+    numDoc: "INE CG-38-2016",
+    nameDoc: "LINEAMIENTOS DE PADRÓN ELECTORAL Y LISTA DE ELECTORES",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2016/7.pdf",
+    subRows: "",
+  },
+
+  {
+    id: 8,
+    idDoc: "000256",
+    year: "2016",
+    numDoc: "INE CF-004-2016",
+    nameDoc:
+      "LINEAMIENTOS DE REALIZACIÓN DE VISITAS DE VERIFICACIÓN, PROPAGANDA EN VÍA PÚBLICA Y ETC",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2016/8.pdf",
+    subRows: [
+      {
+        nameDoc: "INE_UTVOPL_033_2016-OPLES_004",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2016/8.1.pdf",
+        subRows: "",
+      },
+    ],
+  },
+  {
+    id: 9,
+    idDoc: "000314",
+    year: "2016",
+    numDoc: "INE CG-61-2016",
+    nameDoc:
+      "CRITERIOS INSTITUCIONALES PARA CONTESTAR CONSULTAS REALIZADAS POR LOS OPLES",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2016/9.pdf",
+    subRows: "",
+  },
+  {
+    id: 10,
+    idDoc: "000315",
+    year: "2016",
+    numDoc: "INE CG-63-2016",
+    nameDoc:
+      "CRITERIOS PARA GARANTIZAR LA PARIDAD DE GÉNERO EN LA POSTULACIÓN DE CANDIDATURAS",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2016/10.pdf",
+    subRows: "",
+  },
+
+  {
+    id: 11,
+    idDoc: "000427",
+    year: "2016",
+    numDoc: "ACUERDOS",
+    nameDoc: "INE-CG1012-2015, INE-CG948-2015 E INE-CG950-2015 LINEAMIENTOS JE",
+    link: "",
+    subRows: [
+      {
+        nameDoc: "ANEXO_2-CG1012",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2016/11.1.pdf",
+        subRows: "",
+      },
+      {
+        nameDoc: "ANEXO_4-CG1012",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2016/11.2.pdf",
+        subRows: "",
+      },
+      {
+        nameDoc: "RESUMEN-CG948",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2016/11.3.pdf",
+        subRows: "",
+      },
+    ],
+  },
+];
+
+export const dataAcuerdosINE2015 = [
+  {
+    id: 1,
+    idDoc: "000029",
+    year: "2015",
+    numDoc: "INE CG-824-2015",
+    nameDoc: "APRUEBA DEMARCACIÓN TERRITORIAL DE LOS DISTRITOS UNINOMINALES",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/1.pdf",
+    subRows: [
+      {
+        nameDoc: "OFICIO TLAXCALA",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/1.1.pdf",
+        subRows: "",
+      },
+    ],
+  },
+
+  {
+    id: 2,
+    idDoc: "000036",
+    year: "2015",
+    numDoc: "INE CG-843-2015",
+    nameDoc: "SE DETERMINA LA INSTANCIA DE PARTIDOS",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/2.pdf",
+    subRows: [
+      {
+        nameDoc: "OFICIO TLAXCALA",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/2.1.pdf",
+        subRows: "",
+      },
+    ],
+  },
+  {
+    id: 3,
+    idDoc: "000048",
+    year: "2015",
+    numDoc: "INE ACRT-33-2015",
+    nameDoc:
+      "SE MODIFICA ACUERDO INE-ACRT-32-2015 POR PÉRDIDA DE REGISTRO DE PT Y PH",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/3.pdf",
+    subRows: "",
+  },
+
+  {
+    id: 4,
+    idDoc: "000065",
+    year: "2015",
+    numDoc: "INE CG-861-2015",
+    nameDoc:
+      "SE CREA LA COMISIÓN TEMPORAL PARA EL SEGUIMIENTO DE LOS PROCESOS ELECTORALES 2015-2016",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/4.pdf",
+    subRows: [
+      {
+        nameDoc: "TLAXCALA-1",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/4.1.pdf",
+        subRows: "",
+      },
+    ],
+  },
+  {
+    id: 5,
+    idDoc: "000084",
+    year: "2015",
+    numDoc: "INE CG-896-2015",
+    nameDoc:
+      "SE RATIFICA Y DESIGNAN A LOS CONSEJEROS ELECTORALES DE LOS PROCESOS ELECTORALES 2015-2016",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/5.pdf",
+    subRows: "",
+  },
+  {
+    id: 6,
+    idDoc: "000139",
+    year: "2015",
+    numDoc: "INE ACRT-34-2015",
+    nameDoc:
+      "SE ESTABLECEN LOS TÉRMINOS Y CONDICIONES SATELITAL… DE LA TRANSMISIÓN DE LOS PROCESOS ELECTORALES",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/6.pdf",
+    subRows: "",
+  },
+  {
+    id: 7,
+    idDoc: "000146",
+    year: "2015",
+    numDoc: "INE CG-927-2015",
+    nameDoc:
+      "CRITERIOS GENERALES A EFECTO DE GARANTIZAR EL CUMPLIMIENTO DE PRINCIPIO DE PARIDAD DE GÉNERO",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/7.pdf",
+    subRows: "",
+  },
+
+  {
+    id: 8,
+    idDoc: "000149",
+    year: "2015",
+    numDoc: "INE CG-861-2015",
+    nameDoc: "ESTRATEGIA DE CAPACITACIÓN Y ASISTENCIA ELECTORAL 2015-2016",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/8.pdf",
+    subRows: [
+      {
+        nameDoc: "ANEXO 1",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/8.1.pdf",
+        subRows: "",
+      },
+      {
+        nameDoc: "ANEXO 2",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/8.2.pdf",
+        subRows: "",
+      },
+      {
+        nameDoc: "ANEXO 3",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/8.3.pdf",
+        subRows: "",
+      },
+      {
+        nameDoc: "OFICIO INE_UTVOPL_4725_2015_TLAX",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/8.4.pdf",
+        subRows: "",
+      },
+    ],
+  },
+
+  {
+    id: 9,
+    idDoc: "000150",
+    year: "2015",
+    numDoc: "ACUERDOS",
+    nameDoc:
+      "ACATAMIENTOS DE LAS SENTENCIAS DE LA SALA SUPERIOR DE LOS PARTIDOS DEL TRABAJO Y HUMANISTA",
+    link: "",
+    subRows: [
+      {
+        nameDoc: "ACUERDO INE-CG936-2015",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/9.1.pdf",
+        subRows: "",
+      },
+      {
+        nameDoc: "ACUERDO INE-CG937-2015",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/9.2.pdf",
+        subRows: "",
+      },
+      {
+        nameDoc: "CIRCULAR INE-UTVOPL-133-15",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/9.3.pdf",
+        subRows: "",
+      },
+    ],
+  },
+
+  {
+    id: 10,
+    idDoc: "000154",
+    year: "2015",
+    numDoc: "INE CG-921-2015",
+    nameDoc:
+      "LINEAMIENTOS GENERALES PARA EL DISEÑO, IMPLEMENTACIÓN Y OPERACIÓN DEL CONTEO RÁPIDO",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/10.pdf",
+    subRows: [
+      {
+        nameDoc: "CIRCULAR INE-UTVOPL-145-15",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/10.1.pdf",
+        subRows: "",
+      },
+    ],
+  },
+
+  {
+    id: 11,
+    idDoc: "000155",
+    year: "2015",
+    numDoc: "INE CG-909-2015",
+    nameDoc:
+      "ESTATUTO DEL SERVICIO PROFESIONAL ELECTORAL Y RAMA ADMINISTRATIVA",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/11.pdf",
+    subRows: [
+      {
+        nameDoc: "CIRCULAR INE-UTVOPL-135-2015",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/11.1.pdf",
+        subRows: "",
+      },
+    ],
+  },
+  {
+    id: 12,
+    idDoc: "000170",
+    year: "2015",
+    numDoc: "INE CG-928-2015",
+    nameDoc:
+      "LINEAMIENTOS QUE OBSERVARÁN LOS OPLES PARA EL REGISTRO DE COALICIONES",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/12.pdf",
+    subRows: "",
+  },
+  {
+    id: 13,
+    idDoc: "000171",
+    year: "2015",
+    numDoc: "INE CG-935-2015",
+    nameDoc:
+      "LINEAMIENTOS PARA EL PROGRAMA DE RESULTADOS ELECTORALES PRELIMINARES",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/13.pdf",
+    subRows: "",
+  },
+  {
+    id: 14,
+    idDoc: "000172",
+    year: "2015",
+    numDoc: "INE CG-953-2015",
+    nameDoc:
+      "MEDIDAS ESPECÍFICAS PARA LOS PRESIDENTES DE LA MDC PARA EVITAR LA COMPRA DEL VOTO COACCIÓN E INDUCIÓN",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/14.pdf",
+    subRows: "",
+  },
+
+  {
+    id: 15,
+    idDoc: "000179",
+    year: "2015",
+    numDoc: "INE CG-951-2015",
+    nameDoc:
+      "CRITERIOS QUE DEBERÁN OBSERVAR LOS OPLES DEL SISTEMA DE SEGUIMIENTO Y DESARROLLO DE LA JORNADA ELECTORAL",
+    link: "",
+    subRows: [
+      {
+        nameDoc: "ACUERDO INE-CG-951-2015",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/15.1.pdf",
+        subRows: "",
+      },
+      {
+        nameDoc: "ACUERDO1 INE-CG-951-2015",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/15.2.pdf",
+        subRows: "",
+      },
+      {
+        nameDoc: "CIRCULAR INE_UTVOPL_154_2015_CG951",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/15.3.pdf",
+        subRows: "",
+      },
+    ],
+  },
+
+  {
+    id: 16,
+    idDoc: "000180",
+    year: "2015",
+    numDoc: "INE CG-9502015",
+    nameDoc:
+      "SE EMITEN LINEAMIENTOS PARA IMPRESIÓN DE DOCUMENTOS Y ELABORACIÓN DE MATERIALES ELECTORALES",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/16.pdf",
+    subRows: [
+      {
+        nameDoc:
+          "LINEAMIENTOS PARA IMPRESIÓN DE DOCUMENTOS Y ELABORACIÓN DE MATERIALES ELECTORALES",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/16.1.pdf",
+        subRows: "",
+      },
+      {
+        nameDoc: "INE_UTVOPL_169_2015_CG950",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/16.2.pdf",
+        subRows: "",
+      },
+    ],
+  },
+  {
+    id: 17,
+    idDoc: "000181",
+    year: "2015",
+    numDoc: "INE CG-938-2015",
+    nameDoc:
+      "PROCEDIMIENTO DE LIQUIDACIÓN DE LOS PARTIDOS POLÍTICOS NACIONALES QUE NO ALCANZARON EL 3%",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/17.pdf",
+    subRows: "",
+  },
+
+  {
+    id: 18,
+    idDoc: "000182",
+    year: "2015",
+    numDoc: "INE CG-948-2015",
+    nameDoc: "LINEAMIENTOS DE PARTICIPACIÓN CIUDADANA",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/18.pdf",
+    subRows: [
+      {
+        nameDoc: "INE-UTVOPL-174-2015",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/18.1.pdf",
+        subRows: "",
+      },
+    ],
+  },
+
+  {
+    id: 19,
+    idDoc: "000183",
+    year: "2015",
+    numDoc: "INE CG-949-2015",
+    nameDoc:
+      "SE PRECISAN LOS ALCANCES DE LAS ATRIBUCIONES DE LAS COMISIÓN TEMPORAL",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/19.pdf",
+    subRows: [
+      {
+        nameDoc: "CIRCULAR INE-UTVOPL-167-2015",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/19.1.pdf",
+        subRows: "",
+      },
+    ],
+  },
+
+  {
+    id: 20,
+    idDoc: "000184",
+    year: "2015",
+    numDoc: "INE CG-934-2015",
+    nameDoc:
+      "SE PRECISAN LOS ALCANCES DE LAS ATRIBUCIONES DE LAS COMISIÓN TEMPORAL",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/20.pdf",
+    subRows: [
+      {
+        nameDoc: "CIRCULAR INE-UTVOPL-167-2015",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/20.1.pdf",
+        subRows: "",
+      },
+    ],
+  },
+
+  {
+    id: 21,
+    idDoc: "000185",
+    year: "2015",
+    numDoc: "INE CG-939-2015",
+    nameDoc:
+      "LINEAMIENTOS PARA EL REGISTRO DE LOS OTRORA PARTIDOS NACIONALES PARA OPTAR COMO PARTIDO LOCAL",
+    link: "",
+    subRows: [
+      {
+        nameDoc: "INE-UTVOPL-165-2015",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/21.1.pdf",
+        subRows: "",
+      },
+    ],
+  },
+
+  {
+    id: 22,
+    idDoc: "000185",
+    year: "2015",
+    numDoc: "INE CG-1000-2015",
+    nameDoc:
+      "MODIFICACIÓN DEL REGLAMENTO DE SESIONES DE LOS CONSEJOS LOCALES Y DISTRTITALES DEL INE",
+    link: "",
+    subRows: [
+      {
+        nameDoc: "CIRCULAR INE-UTVOPL-185-2015",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/22.1.pdf",
+        subRows: "",
+      },
+    ],
+  },
+  {
+    id: 23,
+    idDoc: "000292",
+    year: "2015",
+    numDoc: "INE DERFE-1434-2015",
+    nameDoc:
+      "ESTRATEGIA DE INFORMACIÓN EN APOYO A LA ACTUALIZACIÓN DEL PADRÓN ELECTORAL",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/23.pdf",
+    subRows: "",
+  },
+  {
+    id: 24,
+    idDoc: "000295",
+    year: "2015",
+    numDoc: "INE ACRT-37-2015",
+    nameDoc:
+      "MODIFICAN ACUERDO INE-ACRT-32-2015 CON MOTIVO DE LA PÉRDIDA DE REGISTRO DEL PT Y PH",
+    link: "",
+  },
+
+  {
+    id: 25,
+    idDoc: "000332",
+    year: "2015",
+    numDoc: "RAP-756-2015",
+    nameDoc:
+      "RESOLUCIÓN DEL PT DERIVADA DEL RECURSO DE REVISIÓN SUP-RAP-756-2015",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/25.pdf",
+    subRows: [
+      {
+        nameDoc: "INE_UTVOPL_197_2015_CG936",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/25.1.pdf",
+        subRows: "",
+      },
+    ],
+  },
+
+  {
+    id: 26,
+    idDoc: "000348",
+    year: "2015",
+    numDoc: "ACUERDOS",
+    nameDoc: "",
+    link: "",
+    subRows: [
+      {
+        nameDoc: "INE ACRT-40-2015 (CATÁLOGO NACIONAL)",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/26.1.pdf",
+        subRows: "",
+      },
+      {
+        nameDoc: "INE CG-980-2015 (PUBLICACIÓN DEL CAT)",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/26.2.pdf",
+        subRows: "",
+      },
+      {
+        nameDoc: "INE ACRT-45-2015 (APROB MODELOS DE PAUTAS)",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/26.3.pdf",
+        subRows: "",
+      },
+      {
+        nameDoc: "INE JGE-160-2015",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/26.4.pdf",
+        subRows: "",
+      },
+    ],
+  },
+  {
+    id: 27,
+    idDoc: "000366",
+    year: "2015",
+    numDoc: "INE VRFE-439-2015",
+    nameDoc:
+      "PLANOS URBANOS, CARTA ELECTORAL MUNICIPAL, PLANOS POR SECCIÓN INDIVIDUAL",
+    link: "",
+  },
+
+  {
+    id: 28,
+    idDoc: "000371",
+    year: "2015",
+    numDoc: "INE CG-824-",
+    nameDoc: "NUEVA DEMARCACIÓN TERRITORIAL",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/28.pdf",
+    subRows: [
+      {
+        nameDoc: "DESCRIPTIVO DE TLAXCALA",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/28.1.pdf",
+        subRows: "",
+      },
+      {
+        nameDoc: "ESCENARIO FINAL TLAXCALA",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/28.2.pdf",
+        subRows: "",
+      },
+      {
+        nameDoc: "MAPA TLAXCALA",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/28.3.pdf",
+        subRows: "",
+      },
+    ],
+  },
+
+  {
+    id: 29,
+    idDoc: "000391",
+    year: "2015",
+    numDoc: "RAP-1049-2015",
+    nameDoc: "RESOLUCIÓN DEL INE RELATIVO AL REGISTRO DEL PT",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/29.pdf",
+    subRows: [
+      {
+        nameDoc: "CIRCULAR INE-UTVOPL-210-2015",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/29.1.pdf",
+        subRows: "",
+      },
+    ],
+  },
+
+  {
+    id: 30,
+    idDoc: "000392",
+    year: "2015",
+    numDoc: "ACUERDOS",
+    nameDoc: "ACUERDOS DONDE INCLUYEN AL PT EN LAS PAUTAS DE RADIO Y TV",
+    link: "",
+    subRows: [
+      {
+        nameDoc: "ACUERDO INE ACRT-49-2015",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/30.1.pdf",
+        subRows: "",
+      },
+      {
+        nameDoc: "ACUERDO INE-ACRT-51-2015",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/30.2.pdf",
+        subRows: "",
+      },
+    ],
+  },
+
+  {
+    id: 33,
+    idDoc: "000543",
+    year: "2015",
+    numDoc: "INE CG-813-2015",
+    nameDoc: "DESIGNACIÓN DEL CONSEJO GENERAL DE TLAXCALA",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/33.pdf",
+    subRows: [
+      {
+        nameDoc: "DICTAMEN TLAXCALA",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/33.1.pdf",
+        subRows: "",
+      },
+    ],
+  },
+];
+
+// ------------ A C U E R D O S    I T E ------------
 
 export const dataAcuerdos2021 = [
   {

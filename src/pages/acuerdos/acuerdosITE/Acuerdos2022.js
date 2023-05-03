@@ -1,10 +1,11 @@
 import React, { useMemo, useEffect } from "react";
 import TitlePages from "../../../layout/TitlePages";
 import MaterialReactTable from "material-react-table";
-import { MenuItem, TextField } from "@mui/material";
+import { MenuItem, TextField, Box } from "@mui/material";
 import { dataAcuerdos2022 } from "../../../data/dataAcuerdos";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
+import HelperDataTable from "../../../layout/HelperDataTable";
 
 const Acuerdos2022 = () => {
   useEffect(() => {
@@ -55,20 +56,20 @@ const Acuerdos2022 = () => {
         header: "TÍTULO",
         footer: "TÍTULO",
       },
-      {
-        id: "pdf",
-        header: "",
-        footer: "",
-        enableColumnFilters: false,
-        Cell: ({ row }) =>
-          row.original.link === "" ? (
-            <span></span>
-          ) : (
-            <a href={row.original.link} target="_blank" rel="noreferrer">
-              <FontAwesomeIcon icon={faFilePdf} className="btn btn-danger" />
-            </a>
-          ),
-      },
+      // {
+      //   id: "pdf",
+      //   header: "",
+      //   footer: "",
+      //   enableColumnFilters: false,
+      //   Cell: ({ row }) =>
+      //     row.original.link === "" ? (
+      //       <span></span>
+      //     ) : (
+      //       <a href={row.original.link} target="_blank" rel="noreferrer">
+      //         <FontAwesomeIcon icon={faFilePdf} className="btn btn-danger" />
+      //       </a>
+      //     ),
+      // },
     ],
     []
   );
@@ -76,6 +77,7 @@ const Acuerdos2022 = () => {
   return (
     <>
       <TitlePages title="Acuerdos ITE" subTitle="Acuerdos ITE 2022" />
+      <HelperDataTable />
       <MaterialReactTable
         columns={columns}
         data={dataAcuerdos2022}
@@ -89,6 +91,93 @@ const Acuerdos2022 = () => {
             display: row.original.subRows === "" ? "none" : "flex",
           },
         })}
+        renderDetailPanel={({ row }) => (
+          <Box id="Box">
+            {
+              <div className="w-100">
+                <table className="mx-auto">
+                  <tr>
+                    <td>
+                      {row.original.typeDoc} {row.original.nameDoc}{" "}
+                    </td>
+                    <td>
+                      <a
+                        href={row.original.pdf}
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <FontAwesomeIcon
+                          icon={faFilePdf}
+                          className="btn btn-danger"
+                        />
+                      </a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>{row.original.nameDoc1} </td>
+                    <td>
+                      <a
+                        href={row.original.pdf1}
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <FontAwesomeIcon
+                          icon={faFilePdf}
+                          className="btn btn-danger"
+                        />
+                      </a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>{row.original.nameDoc2} </td>
+                    <td>
+                      <a
+                        href={row.original.pdf2}
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <FontAwesomeIcon
+                          icon={faFilePdf}
+                          className="btn btn-danger"
+                        />
+                      </a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>{row.original.nameDoc3} </td>
+                    <td>
+                      <a
+                        href={row.original.pdf3}
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <FontAwesomeIcon
+                          icon={faFilePdf}
+                          className="btn btn-danger"
+                        />
+                      </a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>{row.original.nameDoc4} </td>
+                    <td>
+                      <a
+                        href={row.original.pdf4}
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <FontAwesomeIcon
+                          icon={faFilePdf}
+                          className="btn btn-danger"
+                        />
+                      </a>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+            }
+          </Box>
+        )}
         muiTablePaginationProps={{
           rowsPerPageOptions: [10, 25, 50, 100, 200, 300, 400],
           labelRowsPerPage: "Filas por página",
