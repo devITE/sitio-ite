@@ -10,12 +10,9 @@ export const dataArt672023 = [
     actualizacion: "2023",
     excel1:
       "https://itetlax.org.mx/assets/excel/transparencia/art67/2023/LTAIPT_A67F01IA1.xlsx",
-    excel2:
-      "",
-    excel3:
-      "",
-    excel4:
-      "",
+    excel2: "",
+    excel3: "",
+    excel4: "",
   },
   {
     no: "2",
@@ -42,8 +39,7 @@ export const dataArt672023 = [
         excel1:
           "https://itetlax.org.mx/assets/excel/transparencia/art67/2023/LTAIPT_A67F01IB1.xlsx",
         excel2: "",
-        excel3:
-          "",
+        excel3: "",
         excel4: "",
       },
       {
@@ -58,8 +54,7 @@ export const dataArt672023 = [
         excel1:
           "https://itetlax.org.mx/assets/excel/transparencia/art67/2023/LTAIPT_A67F01IB2.xlsx",
         excel2: "",
-        excel3:
-          "",
+        excel3: "",
         excel4: "",
       },
     ],
@@ -86,11 +81,11 @@ export const dataArt672023 = [
         fundamentoLegal:
           "Articulo. 67 inciso C1 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
         actualizacion: "2023",
-        excel1:
-          "",
+        excel1: "",
         excel2: "",
         excel3: "",
         excel4: "",
+        subRows: "",
       },
       {
         no: "",
@@ -100,11 +95,11 @@ export const dataArt672023 = [
         fundamentoLegal:
           "Articulo. 67 inciso C2 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
         actualizacion: "2023",
-        excel1:
-          "",
+        excel1: "",
         excel2: "",
         excel3: "",
         excel4: "",
+        subRows: "",
       },
       {
         no: "",
@@ -114,11 +109,11 @@ export const dataArt672023 = [
         fundamentoLegal:
           "Articulo. 67 inciso C3 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
         actualizacion: "2023",
-        excel1:
-          "",
+        excel1: "",
         excel2: "",
         excel3: "",
         excel4: "",
+        subRows: "",
       },
     ],
   },
@@ -143,11 +138,11 @@ export const dataArt672023 = [
         fundamentoLegal:
           "Articulo. 67 inciso D1 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
         actualizacion: "2023",
-        excel1:
-          "",
+        excel1: "",
         excel2: "",
         excel3: "",
         excel4: "",
+        subRows: "",
       },
       {
         no: "",
@@ -158,11 +153,11 @@ export const dataArt672023 = [
         fundamentoLegal:
           "Articulo. 67 inciso D2 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
         actualizacion: "2023",
-        excel1:
-          "",
+        excel1: "",
         excel2: "",
         excel3: "",
         excel4: "",
+        subRows: "",
       },
       {
         no: "",
@@ -172,11 +167,11 @@ export const dataArt672023 = [
         fundamentoLegal:
           "Articulo. 67 inciso D3 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
         actualizacion: "2023",
-        excel1:
-          "",
+        excel1: "",
         excel2: "",
         excel3: "",
         excel4: "",
+        subRows: "",
       },
       {
         no: "",
@@ -187,11 +182,11 @@ export const dataArt672023 = [
         fundamentoLegal:
           "Articulo. 67 inciso D4 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
         actualizacion: "2023",
-        excel1:
-          "",
+        excel1: "",
         excel2: "",
         excel3: "",
         excel4: "",
+        subRows: "",
       },
     ],
   },
@@ -280,8 +275,7 @@ export const dataArt672023 = [
         excel1:
           "https://itetlax.org.mx/assets/excel/transparencia/art67/2023/LTAIPT_A67F01IF1.xlsx",
         excel2: "",
-        excel3:
-          "",
+        excel3: "",
         excel4: "",
       },
       {
@@ -293,11 +287,11 @@ export const dataArt672023 = [
         fundamentoLegal:
           "Articulo. 67 inciso E2 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
         actualizacion: "2023",
-        excel1:
-          "",
+        excel1: "",
         excel2: "",
         excel3: "",
         excel4: "",
+        subRows: "",
       },
       {
         no: "",
@@ -338,12 +332,11 @@ export const dataArt672023 = [
         fundamentoLegal:
           "Articulo. 67 inciso G1 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
         actualizacion: "2023",
-        excel1:
-          "",
+        excel1: "",
         excel2: "",
-        excel3:
-          "",
+        excel3: "",
         excel4: "",
+        subRows: "",
       },
       {
         no: "",
@@ -354,11 +347,11 @@ export const dataArt672023 = [
         fundamentoLegal:
           "Articulo. 67 inciso D2 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
         actualizacion: "2023",
-        excel1:
-          "",
+        excel1: "",
         excel2: "",
         excel3: "",
         excel4: "",
+        subRows: "",
       },
       {
         no: "",
@@ -368,11 +361,11 @@ export const dataArt672023 = [
         fundamentoLegal:
           "Articulo. 67 inciso G3 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
         actualizacion: "2023",
-        excel1:
-          "",
+        excel1: "",
         excel2: "",
         excel3: "",
         excel4: "",
+        subRows: "",
       },
       {
         no: "",
@@ -383,11 +376,11 @@ export const dataArt672023 = [
         fundamentoLegal:
           "Articulo. 67 inciso G4 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
         actualizacion: "2023",
-        excel1:
-          "",
+        excel1: "",
         excel2: "",
         excel3: "",
         excel4: "",
+        subRows: "",
       },
       {
         no: "",
@@ -398,11 +391,11 @@ export const dataArt672023 = [
         fundamentoLegal:
           "Articulo. 67 inciso G5 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
         actualizacion: "2023",
-        excel1:
-          "",
+        excel1: "",
         excel2: "",
         excel3: "",
         excel4: "",
+        subRows: "",
       },
       {
         no: "",
@@ -413,11 +406,11 @@ export const dataArt672023 = [
         fundamentoLegal:
           "Articulo. 67 inciso G6 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala.",
         actualizacion: "2023",
-        excel1:
-          "",
+        excel1: "",
         excel2: "",
         excel3: "",
         excel4: "",
+        subRows: "",
       },
     ],
   },
@@ -444,11 +437,11 @@ export const dataArt672023 = [
         fundamentoLegal:
           "Articulo. 67 inciso H1 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
         actualizacion: "2023",
-        excel1:
-          "",
+        excel1: "",
         excel2: "",
         excel3: "",
         excel4: "",
+        subRows: "",
       },
       {
         no: "",
@@ -458,11 +451,11 @@ export const dataArt672023 = [
         fundamentoLegal:
           "Articulo. 67 inciso H2 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
         actualizacion: "2023",
-        excel1:
-          "",
+        excel1: "",
         excel2: "",
         excel3: "",
         excel4: "",
+        subRows: "",
       },
     ],
   },
@@ -475,11 +468,11 @@ export const dataArt672023 = [
     fundamentoLegal:
       "Articulo. 67 inciso I de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
     actualizacion: "2023",
-    excel1:
-      "",
-          excel2: "",
+    excel1: "",
+    excel2: "",
     excel3: "",
     excel4: "",
+    subRows: "",
   },
   {
     no: "10",
@@ -493,6 +486,7 @@ export const dataArt672023 = [
     excel2: "",
     excel3: "",
     excel4: "",
+    subRows: "",
   },
   {
     no: "11",
@@ -505,10 +499,10 @@ export const dataArt672023 = [
     actualizacion: "2023",
     excel1:
       "https://itetlax.org.mx/assets/excel/transparencia/art67/2023/LTAIPT_A67F01IK.xlsx",
-    excel2:
-      "",
+    excel2: "",
     excel3: "",
     excel4: "",
+    subRows: "",
   },
   {
     no: "12",
@@ -521,8 +515,7 @@ export const dataArt672023 = [
     actualizacion: "2023",
     excel1:
       "https://itetlax.org.mx/assets/excel/transparencia/art67/2023/LTAIPT_A67F01IL.xlsx",
-    excel2:
-      "",
+    excel2: "",
     excel3: "",
     excel4: "",
   },

@@ -7,7 +7,6 @@ import {
   faChevronRight,
   faChevronLeft,
 } from "@fortawesome/free-solid-svg-icons";
-// import "./HelperDataTable.css";
 
 const HelperDataTable = () => {
   return (
