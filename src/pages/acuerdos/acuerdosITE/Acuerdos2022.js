@@ -95,84 +95,136 @@ const Acuerdos2022 = () => {
           <Box id="Box">
             {
               <div className="w-100">
-                <table className="mx-auto">
-                  <tr>
-                    <td>
-                      {row.original.typeDoc} {row.original.nameDoc}{" "}
-                    </td>
-                    <td>
-                      <a
-                        href={row.original.pdf}
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <FontAwesomeIcon
-                          icon={faFilePdf}
-                          className="btn btn-danger"
-                        />
-                      </a>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>{row.original.nameDoc1} </td>
-                    <td>
-                      <a
-                        href={row.original.pdf1}
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <FontAwesomeIcon
-                          icon={faFilePdf}
-                          className="btn btn-danger"
-                        />
-                      </a>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>{row.original.nameDoc2} </td>
-                    <td>
-                      <a
-                        href={row.original.pdf2}
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <FontAwesomeIcon
-                          icon={faFilePdf}
-                          className="btn btn-danger"
-                        />
-                      </a>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>{row.original.nameDoc3} </td>
-                    <td>
-                      <a
-                        href={row.original.pdf3}
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <FontAwesomeIcon
-                          icon={faFilePdf}
-                          className="btn btn-danger"
-                        />
-                      </a>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>{row.original.nameDoc4} </td>
-                    <td>
-                      <a
-                        href={row.original.pdf4}
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <FontAwesomeIcon
-                          icon={faFilePdf}
-                          className="btn btn-danger"
-                        />
-                      </a>
-                    </td>
-                  </tr>
+                <table className="w-50 table table-borderless table-striped mx-auto">
+                  <thead></thead>
+                  <tbody>
+                    <tr>
+                      <td>
+                        {row.original.typeDoc} {row.original.nameDoc}{" "}
+                      </td>
+                      <td>
+                        <a
+                          href={row.original.pdf}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <FontAwesomeIcon
+                            icon={faFilePdf}
+                            className="btn btn-danger"
+                          />
+                        </a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td colSpan={2}>
+                        <br />
+                        <strong>ANEXOS</strong>
+                      </td>
+                    </tr>
+                    {(row.original.nameDoc1 === "") &
+                    (row.original.pdf1 === "") &
+                    (row.original.nameDoc2 === "") &
+                    (row.original.pdf2 === "") &
+                    (row.original.nameDoc3 === "") &
+                    (row.original.pdf3 === "") &
+                    (row.original.nameDoc4 === "") &
+                    (row.original.pdf4 === "") ? (
+                      <tr>
+                        <td colSpan={2}>SIN ANEXOS</td>
+                      </tr>
+                    ) : //------------
+                    (row.original.nameDoc1 !== "") &
+                      (row.original.pdf1 !== "") ? (
+                      <tr>
+                        <td>{row.original.nameDoc1} </td>
+                        <td>
+                          <a
+                            href={row.original.pdf1}
+                            target="_blank"
+                            rel="noreferrer"
+                          >
+                            <FontAwesomeIcon
+                              icon={faFilePdf}
+                              className="btn btn-danger"
+                            />
+                          </a>
+                        </td>
+                      </tr>
+                    ) : (
+                      <tr>
+                        <td colSpan={2}>1</td>
+                      </tr>
+                    )}
+                    {(row.original.nameDoc2 !== "") &
+                    (row.original.pdf2 !== "") ? (
+                      <tr>
+                        <td>{row.original.nameDoc2} </td>
+                        <td>
+                          <a
+                            href={row.original.pdf2}
+                            target="_blank"
+                            rel="noreferrer"
+                          >
+                            <FontAwesomeIcon
+                              icon={faFilePdf}
+                              className="btn btn-danger"
+                            />
+                          </a>
+                        </td>
+                      </tr>
+                    ) : (
+                      <tr>
+                        <td colSpan={2}>2</td>
+                      </tr>
+                    )}
+                    {(row.original.nameDoc3 !== "") &
+                    (row.original.pdf3 !== "") ? (
+                      <tr>
+                        <td>{row.original.nameDoc3} </td>
+                        <td>
+                          <a
+                            href={row.original.pdf3}
+                            target="_blank"
+                            rel="noreferrer"
+                          >
+                            <FontAwesomeIcon
+                              icon={faFilePdf}
+                              className="btn btn-danger"
+                            />
+                          </a>
+                        </td>
+                      </tr>
+                    ) : (
+                      <tr>
+                        <td colSpan={2}>3</td>
+                      </tr>
+                    )}
+                    {
+                      (row.original.nameDoc4 !== "") &
+                      (row.original.pdf4 !== "") ? (
+                        <tr>
+                          <td>{row.original.nameDoc4} </td>
+                          <td>
+                            <a
+                              href={row.original.pdf4}
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              <FontAwesomeIcon
+                                icon={faFilePdf}
+                                className="btn btn-danger"
+                              />
+                            </a>
+                          </td>
+                        </tr>
+                      ) : (
+                        <tr>
+                          <td colSpan={2}>4</td>
+                        </tr>
+                      )
+                      //-------------
+                    }
+                  </tbody>
                 </table>
               </div>
             }
