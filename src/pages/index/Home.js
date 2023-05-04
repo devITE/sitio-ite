@@ -38,8 +38,8 @@ const ITE = () => {
         // url="https://itetlax.org.mx/assets/img/imgC_A/12.jpg"
         // imgLink="https://itetlax.org.mx/assets/img/imgC_A/13.jpg"
         // url="https://forms.gle/nXQrRbptuViEEZYx8"
-        imgLink="https://itetlax.org.mx/assets/img/imgC_A/7.jpg"
-        url="https://itetlax.org.mx/assets/img/imgC_A/7.jpg"
+        imgLink="https://itetlax.org.mx/assets/img/imgC_A/22.png"
+        url="https://portalanterior.ieepcnl.mx/"
         linkToo=""
       />
 
