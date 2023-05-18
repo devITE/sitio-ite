@@ -616,6 +616,20 @@ export const dataCuentaPublica = [
       },
     ],
   },
+  {
+    id: 9,
+    titleItem: "Cuenta Pública 2023",
+    flushID: "cuenta2023",
+    children: [
+      {
+        id: 1,
+        titleItem: "Cuenta Pública 1er Trimestre",
+        linkItem:
+          "https://itetlax.org.mx/assets/pdf/transparencia/infContable/cuentaPub2023/1.pdf",
+        typeDocument: "pdf",
+      },
+    ],
+  },
 ];
 
 export const dataDatosAbiertos = [

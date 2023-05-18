@@ -29,17 +29,10 @@ const ITE = () => {
   return (
     <>
       <ModalInit
-        //  imgLink="https://itetlax.org.mx/assets/img/ATCC/ATCC.jpeg"
-        //  url="https://itetlax.org.mx/assets/img/ATCC/ATCC.jpeg"
-        //  linkToo=""
-        // imgLink="https://itetlax.org.mx/assets/img/imgPopup/1.png"
-        // url="https://itetlax.org.mx/assets/img/imgPopup/1.png"
-        // imgLink="https://itetlax.org.mx/assets/img/imgC_A/12.jpg"
-        // url="https://itetlax.org.mx/assets/img/imgC_A/12.jpg"
-        // imgLink="https://itetlax.org.mx/assets/img/imgC_A/13.jpg"
-        // url="https://forms.gle/nXQrRbptuViEEZYx8"
-        imgLink="https://itetlax.org.mx/assets/img/imgC_A/22.png"
-        url="https://portalanterior.ieepcnl.mx/"
+        // imgLink="https://itetlax.org.mx/assets/img/imgC_A/22.png"
+        // url="https://portalanterior.ieepcnl.mx/"
+        imgLink="https://itetlax.org.mx/assets/img/imgC_A/24.jpg"
+        url="https://itetlax.org.mx/assets/img/imgC_A/24.jpg"
         linkToo=""
       />
 
@@ -58,7 +51,7 @@ const ITE = () => {
       <div className="mt-4 Home__AR-A">
         <div>
           <h2 className="bottom_title">
-          Foro: Los debates electorales en la democracia contemporánea
+            Foro: Los debates electorales en la democracia contemporánea
           </h2>
           <div className="Home__video-embed ratio ratio-16x9 w-100">
             <iframe
@@ -136,7 +129,7 @@ const ITE = () => {
             ></iframe>
           </div>
           <h5 className="mt-3 text-center">
-          Sesión Presencial Ordinaria del Consejo General 28 de abril de 2023{" "}
+            Sesión Presencial Ordinaria del Consejo General 28 de abril de 2023{" "}
           </h5>
         </div>
         <div>

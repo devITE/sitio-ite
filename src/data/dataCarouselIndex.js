@@ -83,16 +83,16 @@ export const dataCIndex = [
     url: "https://ite-comunidades.itetlax.org.mx",
     linkToo: "",
   },
-   {
-     id: 12,
-     imgUrl: "https://itetlax.org.mx/assets/img/imgC_A/23.png",
-     alt: "Resgistro Observador/a",
-     itemActive: "active",
-     buttonActive: "active",
-     ariaCurrent: "true",
-     url: "https://portalanterior.ieepcnl.mx/",
-     linkToo: "",
-   },
+  {
+    id: 12,
+    imgUrl: "https://itetlax.org.mx/assets/img/imgC_A/23.png",
+    alt: "Resgistro Observador/a",
+    itemActive: "active",
+    buttonActive: "active",
+    ariaCurrent: "true",
+    url: "https://portalanterior.ieepcnl.mx/",
+    linkToo: "",
+  },
 ];
 
 export const dataCAR = [
@@ -194,17 +194,27 @@ export const dataCA = [
     linkToo: "",
   },
 
-   {
-     id: 2,
-     imgUrl: "https://itetlax.org.mx/assets/img/imgC_A/22.png",
-     alt: "Evento",
-     itemActive: "active",
-     buttonActive: "active",
-     ariaCurrent: "true",
-     url: "https://portalanterior.ieepcnl.mx/",
-     linkToo: "",
-   },
+  {
+    id: 2,
+    imgUrl: "https://itetlax.org.mx/assets/img/imgC_A/22.png",
+    alt: "VIGÉSIMO CUARTO CERTAMEN DE ENSAYO POLÍTICO",
+    //  itemActive: "active",
+    //  buttonActive: "active",
+    //  ariaCurrent: "true",
+    url: "https://portalanterior.ieepcnl.mx/2023/cepxxiv/",
+    linkToo: "",
+  },
 
+  {
+    id: 3,
+    imgUrl: "https://itetlax.org.mx/assets/img/imgC_A/24.jpg",
+    alt: "Foro",
+    itemActive: "active",
+    buttonActive: "active",
+    ariaCurrent: "true",
+    url: "https://itetlax.org.mx/assets/img/imgC_A/24.jpg",
+    linkToo: "",
+  },
 
   // {
   //   id: 4,
