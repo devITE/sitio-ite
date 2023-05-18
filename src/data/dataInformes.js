@@ -60,4 +60,16 @@ export const dataInformes = [
     alt: "Informe Anual de Actividades 2022",
     link: "https://itetlax.org.mx/assets/pdf/transparencia/infAnuales/8.pdf",
   },
+  {
+    id: 9,
+    url: "https://itetlax.org.mx/assets/img/img_In/10.jpg",
+    alt: "Memoria del Foro #VotoElectrónico: Posibilidades y desafíos para su instrumentación en México",
+    link: "https://bit.ly/3KQdzjo",
+  },
+  {
+    id: 10,
+    url: "https://itetlax.org.mx/assets/img/img_In/11.jpg",
+    alt: "Informe de la exposición: Tecnología Aplicada para Procesos Electorales y de Participación Ciudadana",
+    link: "https://bit.ly/3GvW9G5",
+  },
 ];

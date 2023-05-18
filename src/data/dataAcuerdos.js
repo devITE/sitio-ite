@@ -1236,32 +1236,38 @@ export const dataAcuerdos2022 = [
         nameDoc: "ANEXO 4",
         link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2022/19.4.pdf",
         subRows: "",
-      },   {
+      },
+      {
         typeDoc: "",
         nameDoc: "ANEXO 5",
         link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2022/19.5.pdf",
         subRows: "",
-      },   {
+      },
+      {
         typeDoc: "",
         nameDoc: "ANEXO 6",
         link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2022/19.6.pdf",
         subRows: "",
-      },   {
+      },
+      {
         typeDoc: "",
         nameDoc: "ANEXO 7",
         link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2022/19.7.pdf",
         subRows: "",
-      },   {
+      },
+      {
         typeDoc: "",
         nameDoc: "ANEXO 8",
         link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2022/19.8.pdf",
         subRows: "",
-      },   {
+      },
+      {
         typeDoc: "",
         nameDoc: "ANEXO 9",
         link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2022/19.9.pdf",
         subRows: "",
-      },   {
+      },
+      {
         typeDoc: "",
         nameDoc: "ANEXO 10",
         link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2022/19.10.pdf",

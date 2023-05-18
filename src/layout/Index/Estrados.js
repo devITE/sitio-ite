@@ -22,7 +22,27 @@ const TablePDF = ({ items }) => {
               </a>
             </td>
           </tr>
-          <tr>
+          {items.nameFolio === "" && items.linkFolio === "" ? (
+            <tr>
+              <td colSpan={2}></td>
+            </tr>
+          ) : (
+            <tr>
+              <td className="ps-3">{items.nameFolio}</td>
+              <td>
+                <a
+                  className="btn btn-danger btn-sm"
+                  href={items.linkFolio}
+                  target="_blank"
+                  role="button"
+                  rel="noreferrer"
+                >
+                  <FontAwesomeIcon icon={faFilePdf} />
+                </a>
+              </td>
+            </tr>
+          )}
+          {/* <tr>
             <td className="ps-3">{items.nameFolio}</td>
             <td>
               <a
@@ -35,7 +55,7 @@ const TablePDF = ({ items }) => {
                 <FontAwesomeIcon icon={faFilePdf} />
               </a>
             </td>
-          </tr>
+          </tr> */}
         </tbody>
       ))}
     </table>

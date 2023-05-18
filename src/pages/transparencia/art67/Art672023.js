@@ -1,15 +1,15 @@
-import React, { useMemo, useEffect } from "react";
+import React, { useEffect, useMemo } from "react";
 import TitlePages from "../../../layout/TitlePages";
 import MaterialReactTable from "material-react-table";
 import { Box } from "@mui/material";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFileExcel } from "@fortawesome/free-solid-svg-icons";
-import { dataArt632021 } from "../../../data/dataTransparenciaArt63";
+import { dataArt672023 } from "../../../data/dataArt672023";
 import HelperDataTable from "../../../layout/HelperDataTable";
 
-const Art632021 = () => {
+const Art672023 = () => {
   useEffect(() => {
-    document.title = `Artículo 63 2021`;
+    document.title = `Artículo 67 2023`;
   }, []);
   const columns = useMemo(
     () => [
@@ -22,17 +22,17 @@ const Art632021 = () => {
         enableColumnFilter: false,
       },
       {
-        accessorKey: "fraccion",
-        header: "Fracción",
-        footer: "Fracción",
+        accessorKey: "letra",
+        header: "Letra",
+        footer: "Letra",
         size: 90,
         enableResizing: false,
         enableColumnFilter: false,
       },
       {
-        accessorKey: "titulo",
-        header: "Título",
-        footer: "Título",
+        accessorKey: "descriptivo",
+        header: "Descriptivo",
+        footer: "Descriptivo",
         size: 150,
         enableResizing: false,
       },
@@ -73,12 +73,12 @@ const Art632021 = () => {
     <>
       <TitlePages
         title="Transparencia"
-        subTitle="Artículo 63. (2021) Obligaciones Comunes"
+        subTitle="Artículo 67. (2023) Obligaciones Específicas"
       />
       <HelperDataTable />
       <MaterialReactTable
         columns={columns}
-        data={dataArt632021}
+        data={dataArt672023}
         enableExpanding
         enableExpandAll
         enableColumnActions={false}
@@ -92,16 +92,18 @@ const Art632021 = () => {
         renderDetailPanel={({ row }) =>
           (row.original.excel1 === "") &
           (row.original.excel2 === "") &
-          (row.original.excel3 === "") ? (
+          (row.original.excel3 === "") &
+          (row.original.excel4 === "") ? (
             <span></span>
           ) : (
             <Box id="Box">
               {(row.original.excel1 !== "") &
               (row.original.excel2 === "") &
-              (row.original.excel3 === "") ? (
+              (row.original.excel3 === "") &
+              (row.original.excel4 === "") ? (
                 <div>
                   <p className="text-strong">
-                    Descarga el archivo de la Fracción {row.original.fraccion}
+                    Descarga los archivo de la Fracción {row.original.letra}
                   </p>
                   <p>
                     {row.original.excel1
@@ -121,10 +123,11 @@ const Art632021 = () => {
                 </div>
               ) : (row.original.excel1 !== "") &
                 (row.original.excel2 !== "") &
-                (row.original.excel3 === "") ? (
+                (row.original.excel3 === "") &
+                (row.original.excel4 === "") ? (
                 <div>
                   <p className="text-strong">
-                    Descarga los archivos de la Fracción {row.original.fraccion}
+                    Descarga los archivo de la Fracción {row.original.letra}
                   </p>
                   <p>
                     {row.original.excel1
@@ -157,10 +160,13 @@ const Art632021 = () => {
                     </a>
                   </p>
                 </div>
-              ) : (
+              ) : (row.original.excel1 !== "") &
+                (row.original.excel2 !== "") &
+                (row.original.excel3 !== "") &
+                (row.original.excel4 === "") ? (
                 <div>
                   <p className="text-strong">
-                    Descarga los archivos de la Fracción {row.original.fraccion}
+                    Descarga los archivo de la Fracción {row.original.letra}
                   </p>
                   <p>
                     {row.original.excel1
@@ -198,6 +204,72 @@ const Art632021 = () => {
                       : []}{" "}
                     <a
                       href={row.original.excel3}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <FontAwesomeIcon
+                        icon={faFileExcel}
+                        className="btn btn-success"
+                      />
+                    </a>
+                  </p>
+                </div>
+              ) : (
+                <div>
+                  <p className="text-strong">
+                    Descarga los archivo de la Fracción {row.original.letra}
+                  </p>
+                  <p>
+                    {row.original.excel1
+                      ? row.original.excel1.substring(61, 100).slice(0, -5)
+                      : []}{" "}
+                    <a
+                      href={row.original.excel1}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <FontAwesomeIcon
+                        icon={faFileExcel}
+                        className="btn btn-success"
+                      />
+                    </a>
+                  </p>
+                  <p>
+                    {row.original.excel2
+                      ? row.original.excel2.substring(61, 100).slice(0, -5)
+                      : []}{" "}
+                    <a
+                      href={row.original.excel2}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <FontAwesomeIcon
+                        icon={faFileExcel}
+                        className="btn btn-success"
+                      />
+                    </a>
+                  </p>
+                  <p>
+                    {row.original.excel3
+                      ? row.original.excel3.substring(61, 100).slice(0, -5)
+                      : []}{" "}
+                    <a
+                      href={row.original.excel3}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <FontAwesomeIcon
+                        icon={faFileExcel}
+                        className="btn btn-success"
+                      />
+                    </a>
+                  </p>
+                  <p>
+                    {row.original.excel4
+                      ? row.original.excel4.substring(61, 100).slice(0, -5)
+                      : []}{" "}
+                    <a
+                      href={row.original.excel4}
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -269,4 +341,4 @@ const Art632021 = () => {
   );
 };
 
-export default Art632021;
+export default Art672023;

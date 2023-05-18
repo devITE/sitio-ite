@@ -140,27 +140,27 @@ export const dataAcuerdos2023 = [
         link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/8.1.pdf",
         subRows: "",
       },
-      
-        {
-      typeDoc: "",
-      nameDoc: "ANEXO DOS. CUESTIONARIO CUADERNLLO",
-      link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/8.2.pdf",
-      subRows: "",
-    },
-    {
-      typeDoc: "",
-      nameDoc: "ANEXO TRES. CARTEL DE PARTICIPACIÓN",
-      link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/8.3.pdf",
-      subRows: "",
-    },
-    {
-      typeDoc: "",
-      nameDoc: "ANEXO CUATRO. ESPECIFICACIONES TÉCNICAS MATERIALES",
-      link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/8.4.pdf",
-      subRows: "",
-    },
-  ]
-    },
+
+      {
+        typeDoc: "",
+        nameDoc: "ANEXO DOS. CUESTIONARIO CUADERNLLO",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/8.2.pdf",
+        subRows: "",
+      },
+      {
+        typeDoc: "",
+        nameDoc: "ANEXO TRES. CARTEL DE PARTICIPACIÓN",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/8.3.pdf",
+        subRows: "",
+      },
+      {
+        typeDoc: "",
+        nameDoc: "ANEXO CUATRO. ESPECIFICACIONES TÉCNICAS MATERIALES",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/8.4.pdf",
+        subRows: "",
+      },
+    ],
+  },
   {
     id: 9,
     year: "2023",
@@ -237,14 +237,14 @@ export const dataAcuerdos2023 = [
         link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/13.1.pdf",
         subRows: "",
       },
-      
-        {
-      typeDoc: "",
-      nameDoc: "Solicitud de Registro Observadoras/es",
-      link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/13.2.pdf",
-      subRows: "",
-    },
-  ]
+
+      {
+        typeDoc: "",
+        nameDoc: "Solicitud de Registro Observadoras/es",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/13.2.pdf",
+        subRows: "",
+      },
+    ],
   },
   {
     id: 14,
@@ -271,7 +271,7 @@ export const dataAcuerdos2023 = [
         link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/15.1.pdf",
         subRows: "",
       },
-  ]
+    ],
   },
   {
     id: 16,
@@ -279,7 +279,8 @@ export const dataAcuerdos2023 = [
     typeDoc: "ACUERDO",
     numDoc: "ITE-CG 16-2023",
     monthDoc: "FEB",
-    nameDoc: "DESIGNACIÓN DEL PERSONAL QUE INTEGRARÁ LAS MESAS RECEPTORAS DE CONSULTA",
+    nameDoc:
+      "DESIGNACIÓN DEL PERSONAL QUE INTEGRARÁ LAS MESAS RECEPTORAS DE CONSULTA",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/16.pdf",
     subRows: [
       {
@@ -288,7 +289,7 @@ export const dataAcuerdos2023 = [
         link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/16.1.pdf",
         subRows: "",
       },
-  ]
+    ],
   },
   {
     id: 17,
@@ -296,22 +297,25 @@ export const dataAcuerdos2023 = [
     typeDoc: "ACUERDO",
     numDoc: "ITE-CG 17-2023",
     monthDoc: "MAR",
-    nameDoc: "SE APRUEBA DICTAMEN NO PRESENTACIÓN SOLICITUD DE REGISTRO ORGANIZACIONES CIUDADANAS",
+    nameDoc:
+      "SE APRUEBA DICTAMEN NO PRESENTACIÓN SOLICITUD DE REGISTRO ORGANIZACIONES CIUDADANAS",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/17.pdf",
     subRows: [
       {
         typeDoc: "",
-        nameDoc: "ANEXO. DICTAMEN NO PRESENTACIÓN SOLICITUD DE REGISTRO ORGANIZACIONES CIUDADANAS",
+        nameDoc:
+          "ANEXO. DICTAMEN NO PRESENTACIÓN SOLICITUD DE REGISTRO ORGANIZACIONES CIUDADANAS",
         link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/17.1.pdf",
         subRows: "",
       },
       {
         typeDoc: "",
-        nameDoc: "ANEXO. VOTO CONCURRENTE DEL CONSEJERO HERMENEGILDO NERIA CARREÑO",
+        nameDoc:
+          "ANEXO. VOTO CONCURRENTE DEL CONSEJERO HERMENEGILDO NERIA CARREÑO",
         link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/17.2.pdf",
         subRows: "",
       },
-  ]
+    ],
   },
   {
     id: 18,
@@ -328,8 +332,346 @@ export const dataAcuerdos2023 = [
     typeDoc: "ACUERDO",
     numDoc: "ITE-CG 19-2023",
     monthDoc: "MAR",
-    nameDoc: "ACUERDO ITE-CG 19-2023 SE NOMBRA TITULAR DE LA DOECyEC",
+    nameDoc: "ITE-CG 19-2023 SE NOMBRA TITULAR DE LA DOECyEC",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/19.pdf",
+  },
+  {
+    id: 20,
+    year: "2023",
+    typeDoc: "RESOLUCIÓN",
+    numDoc: "ITE-CG 20-2023",
+    monthDoc: "MAR",
+    nameDoc: "ITE-CG 20-2023 POS CQD-Q-EDT-CG-011-2022",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/20.pdf",
+  },
+  {
+    id: 21,
+    year: "2023",
+    typeDoc: "RESOLUCIÓN",
+    numDoc: "ITE-CG 21-2023",
+    monthDoc: "MAR",
+    nameDoc: "ITE-CG 21-2023 POS CQD-Q-RT-CG-015-2022",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/21.pdf",
+  },
+  {
+    id: 22,
+    year: "2023",
+    typeDoc: "RESOLUCIÓN",
+    numDoc: "ITE-CG 22-2023",
+    monthDoc: "MAR",
+    nameDoc: "ITE-CG 22-2023 POS CQD-Q-CCEST-CG-020-2022",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/22.pdf",
+  },
+  {
+    id: 23,
+    year: "2023",
+    typeDoc: "RESOLUCIÓN",
+    numDoc: "ITE-CG 23-2023",
+    monthDoc: "MAR",
+    nameDoc: "ITE-CG 23-2023 POS CQD-Q-UE-CG-021-2022",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/23.pdf",
+  },
+  {
+    id: 24,
+    year: "2023",
+    typeDoc: "RESOLUCIÓN",
+    numDoc: "ITE-CG 24-2023",
+    monthDoc: "MAR",
+    nameDoc: "POS CQD-Q-SISI-CG-022-2022",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/24.pdf",
+  },
+  {
+    id: 25,
+    year: "2023",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 25-2023",
+    monthDoc: "MAR",
+    nameDoc: "SE APRUEBA DESIGNACIÓN  E INCORPORACIÓN PERSONAS SPEN",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/25.pdf",
+  },
+  {
+    id: 26,
+    year: "2023",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 26-2023",
+    monthDoc: "MAR",
+    nameDoc:
+      "CUMPLIMIENTO SENTENCIA TET-JE-010-2023 Y SE MODIFICA RESOLUCIÓN ITE-CG 09-2023",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/26.pdf",
+  },
+  {
+    id: 27,
+    year: "2023",
+    typeDoc: "RESOLUCIÓN",
+    numDoc: "ITE-CG 27-2023",
+    monthDoc: "ABR",
+    nameDoc:
+      "SE APRUEBA DICTAMEN CONSOLIDADO DE LA ORGANIZACIÓN CIUDADANA ESPACIO DEMOCRÁTICO DE TLAXCALA",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/27.pdf",
+    subRows: [
+      {
+        typeDoc: "",
+        nameDoc: "DICTAMEN FIRMADO",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/27.1.pdf",
+        subRows: "",
+      },
+      {
+        typeDoc: "",
+        nameDoc: "Anexo uno de Dictamen. firmado",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/27.2.pdf",
+        subRows: "",
+      },
+      {
+        typeDoc: "",
+        nameDoc: "Anexo dos de Dictamen. firmado",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/27.3.pdf",
+        subRows: "",
+      },
+    ],
+  },
+  {
+    id: 28,
+    year: "2023",
+    typeDoc: "RESOLUCIÓN",
+    numDoc: "ITE-CG 28-2023",
+    monthDoc: "ABR",
+    nameDoc:
+      "SE APRUEBA DICTAMEN RESPECTO DE SOLICITUD DE REGISTRO COMO PPL DE LA ORGANIZACIÓN ESPACIO DEMOCRÁTICO DE TLAXCALA",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/28.pdf",
+    subRows: [
+      {
+        typeDoc: "",
+        nameDoc: "DICTAMEN",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/28.1.pdf",
+        subRows: "",
+      },
+      {
+        typeDoc: "",
+        nameDoc:
+          "VOTO RAZONADO DEL CONSEJERO ELECTORAL HERMENEGILDO NERIA CARREÑO",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/28.2.pdf",
+        subRows: "",
+      },
+    ],
+  },
+  {
+    id: 29,
+    year: "2023",
+    typeDoc: "RESOLUCIÓN",
+    numDoc: "ITE-CG 29-2023",
+    monthDoc: "ABR",
+    nameDoc:
+      "SE APRUEBA DICTAMEN CONSOLIDADO DE LA ORGANIZACIÓN CIUDADANA RENOVEMOS TLAXCALA",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/29.pdf",
+    subRows: [
+      {
+        typeDoc: "",
+        nameDoc: "DICTAMEN",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/29.1.pdf",
+        subRows: "",
+      },
+      {
+        typeDoc: "",
+        nameDoc: "Anexo uno de Dictamen",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/29.2.pdf",
+        subRows: "",
+      },
+      {
+        typeDoc: "",
+        nameDoc: "Anexo dos de Dictamen",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/29.3.pdf",
+        subRows: "",
+      },
+    ],
+  },
+  {
+    id: 30,
+    year: "2023",
+    typeDoc: "RESOLUCIÓN",
+    numDoc: "ITE-CG 30-2023",
+    monthDoc: "ABR",
+    nameDoc:
+      "SE APRUEBA DICTAMEN RESPECTO DE SOLICITUD DE REGISTRO COMO PPL DE LA ORGANIZACIÓN RENOVEMOS TLAXCALA A.C",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/30.pdf",
+    subRows: [
+      {
+        typeDoc: "",
+        nameDoc: "DICTAMEN",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/30.1.pdf",
+        subRows: "",
+      },
+      {
+        typeDoc: "",
+        nameDoc: "Anexo de Dictamen",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/30.2.pdf",
+        subRows: "",
+      },
+      {
+        typeDoc: "",
+        nameDoc:
+          "VOTO RAZONADO DEL CONSEJERO ELECTORAL HERMENEGILDO NERIA CARREÑO",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/30.3.pdf",
+        subRows: "",
+      },
+    ],
+  },
+  {
+    id: 31,
+    year: "2023",
+    typeDoc: "RESOLUCIÓN",
+    numDoc: "ITE-CG 31-2023",
+    monthDoc: "ABR",
+    nameDoc:
+      "SE APRUEBA DICTAMEN RESPECTO DE SOLICITUD DE REGISTRO COMO PPL DE LA ORGANIZACIÓN “UNIFICACIÓN Y EVOLUCIÓN”",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/31.pdf",
+    subRows: [
+      {
+        typeDoc: "",
+        nameDoc: "DICTAMEN CONSOLIDADO",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/31.1.pdf",
+        subRows: "",
+      },
+      {
+        typeDoc: "",
+        nameDoc: "Anexo uno de Dictamen",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/31.2.pdf",
+        subRows: "",
+      },
+      {
+        typeDoc: "",
+        nameDoc: "Anexo dos de Dictamen",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/31.3.pdf",
+        subRows: "",
+      },
+    ],
+  },
+  {
+    id: 32,
+    year: "2023",
+    typeDoc: "RESOLUCIÓN",
+    numDoc: "ITE-CG 32-2023",
+    monthDoc: "ABR",
+    nameDoc:
+      "SE APRUEBA DICTAMEN CONSOLIDADO DE LA ORGANIZACIÓN CIUDADANOS POR CONSTITUIRSE EN ENCUENTRO SOLIDARIO TLAXCALA A.C.",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/32.pdf",
+    subRows: [
+      {
+        typeDoc: "",
+        nameDoc: "DICTAMEN CONSOLIDADO",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/32.1.pdf",
+        subRows: "",
+      },
+      {
+        typeDoc: "",
+        nameDoc: "Anexo uno del Dictamen",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/32.2.pdf",
+        subRows: "",
+      },
+      {
+        typeDoc: "Anexo dos del Dictamen",
+        nameDoc: "Anexo dos del Dictamen",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/32.3.pdf",
+        subRows: "",
+      },
+    ],
+  },
+  {
+    id: 33,
+    year: "2023",
+    typeDoc: "RESOLUCIÓN",
+    numDoc: "ITE-CG 33-2023",
+    monthDoc: "ABR",
+    nameDoc:
+      "SE APRUEBA DICTAMEN RESPECTO DE SOLICITUD DE REGISTRO COMO PPL DE LA ORGANIZACIÓN UNIFICACIÓN Y EVOLUCIÓN",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/33.pdf",
+    subRows: [
+      {
+        typeDoc: "",
+        nameDoc: "DICTAMEN",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/33.1.pdf",
+        subRows: "",
+      },
+      {
+        typeDoc: "",
+        nameDoc: "VOTO RAZONADO CONSEJERO HERMENEGILDO NERIA CARREÑO",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/33.2.pdf",
+        subRows: "",
+      },
+    ],
+  },
+  {
+    id: 34,
+    year: "2023",
+    typeDoc: "RESOLUCIÓN",
+    numDoc: "ITE-CG 34-2023",
+    monthDoc: "ABR",
+    nameDoc:
+      "SE APRUEBA DICTAMEN RESPECTO DE SOLICITUD DE REGISTRO COMO PPL DE LA ORGANIZACIÓN CIUDADANOS POR CONSTITUTIRSE EN ENCUENTRO SOLIDARIO TLAXCALA A.C.",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/34.pdf",
+    subRows: [
+      {
+        typeDoc: "",
+        nameDoc: "DICTAMEN",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/34.1.pdf",
+        subRows: "",
+      },
+      {
+        typeDoc:
+          "RESOLUCIÓN ITE-CG 34-2023 VOTO RAZONADO DEL CONSEJERO ELECTORAL HERMENEGILDO NERIA CARREÑO",
+        nameDoc: "Anexo de Dictamen",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/34.2.pdf",
+        subRows: "",
+      },
+    ],
+  },
+  {
+    id: 35,
+    year: "2023",
+    typeDoc: "RESOLUCIÓN",
+    numDoc: "ITE-CG 35-2023",
+    monthDoc: "ABR",
+    nameDoc:
+      "SE APRUEBA DICTAMEN CONSOLIDADO DE LA ORGANIZACIÓN CIUDADANA SOCIEDAD INDEPENDIENTE SI",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/35.pdf",
+    subRows: [
+      {
+        typeDoc: "",
+        nameDoc: "DICTAMEN",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/35.1.pdf",
+        subRows: "",
+      },
+      {
+        typeDoc: "Anexo Uno del Dictamen",
+        nameDoc: "Anexo de Dictamen",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/35.2.pdf",
+        subRows: "",
+      },
+    ],
+  },
+  {
+    id: 36,
+    year: "2023",
+    typeDoc: "RESOLUCIÓN",
+    numDoc: "ITE-CG 36-2023",
+    monthDoc: "ABR",
+    nameDoc:
+      " SE APRUEBA DICTAMEN RESPECTO DE SOLICITUD DE REGISTRO COMO PPL DE LA ORGANIZACIÓN CIUDANA DENOMINADA SOCIEDAD INDEPENDIENTE SI",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/36.pdf",
+    subRows: [
+      {
+        typeDoc: "",
+        nameDoc: "DICTAMEN",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/36.1.pdf",
+        subRows: "",
+      },
+      {
+        typeDoc:
+          "RESOLUCIÓN ITE-CG 36-2023 VOTO RAZONADO DEL CONSEJERO ELECTORAL HERMENEGILDO NERIA CARREÑO",
+        nameDoc: "Anexo de Dictamen",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/36.2.pdf",
+        subRows: "",
+      },
+    ],
   },
 ];
 
