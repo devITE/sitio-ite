@@ -87,11 +87,18 @@ export const dataCIndex = [
     id: 12,
     imgUrl: "https://itetlax.org.mx/assets/img/imgC_A/23.png",
     alt: "Resgistro Observador/a",
+    url: "https://portalanterior.ieepcnl.mx/",
+    linkToo: "",
+  },
+  {
+    id: 13,
+    imgUrl: "https://itetlax.org.mx/assets/img/imgC_I/ite-conecta.jpg",
+    alt: "ITE Conecta",
     itemActive: "active",
     buttonActive: "active",
     ariaCurrent: "true",
-    url: "https://portalanterior.ieepcnl.mx/",
-    linkToo: "",
+    url: "",
+    linkToo: "/ITEConecta",
   },
 ];
 
@@ -198,21 +205,10 @@ export const dataCA = [
     id: 2,
     imgUrl: "https://itetlax.org.mx/assets/img/imgC_A/22.png",
     alt: "VIGÉSIMO CUARTO CERTAMEN DE ENSAYO POLÍTICO",
-    //  itemActive: "active",
-    //  buttonActive: "active",
-    //  ariaCurrent: "true",
-    url: "https://portalanterior.ieepcnl.mx/2023/cepxxiv/",
-    linkToo: "",
-  },
-
-  {
-    id: 3,
-    imgUrl: "https://itetlax.org.mx/assets/img/imgC_A/24.jpg",
-    alt: "Foro",
     itemActive: "active",
     buttonActive: "active",
     ariaCurrent: "true",
-    url: "https://itetlax.org.mx/assets/img/imgC_A/24.jpg",
+    url: "https://portalanterior.ieepcnl.mx/2023/cepxxiv/",
     linkToo: "",
   },
 

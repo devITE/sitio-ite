@@ -1,4 +1,4 @@
-import React, { useMemo } from "react";
+import React, { useMemo, useEffect } from "react";
 import CarouselVert from "../../layout/Carousel/CarouselVert/CarouselVert";
 import CarouselVertItem from "../../layout/Carousel/CarouselVert/CarouselVertItem";
 import MaterialReactTable from "material-react-table";
@@ -13,6 +13,9 @@ const month = (dt.getMonth() + 1).toString().padStart(2, "0");
 const day = dt.getDate().toString().padStart(2, "0");
 
 const REPS = () => {
+  useEffect(() => {
+    document.title = `Registro Estatal de Personas Sancionadas`;
+  }, []);
   const columns = useMemo(
     () => [
       {

@@ -1,4 +1,4 @@
-import React, { useMemo } from "react";
+import React, { useMemo, useEffect } from "react";
 import MaterialReactTable from "material-react-table";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
@@ -6,6 +6,9 @@ import { dataMonitoreos2017 } from "../../../data/dataMonitoreos";
 import TitlePages from "../../../layout/TitlePages";
 
 const Monitoreos2017 = () => {
+  useEffect(() => {
+    document.title = `Monitoreos 2017`;
+  }, []);
   const columns = useMemo(
     () => [
       {

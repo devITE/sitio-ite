@@ -1,4 +1,4 @@
-import React, { useMemo } from "react";
+import React, { useMemo, useEffect } from "react";
 import MaterialReactTable from "material-react-table";
 import { MenuItem, TextField } from "@mui/material";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -7,6 +7,9 @@ import { dataMonitoreos2018 } from "../../../data/dataMonitoreos";
 import TitlePages from "../../../layout/TitlePages";
 
 const Monitoreos2018 = () => {
+  useEffect(() => {
+    document.title = `Monitoreos 2018`;
+  }, []);
   const columns = useMemo(
     () => [
       {

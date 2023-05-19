@@ -1,4 +1,4 @@
-import React, { useMemo } from "react";
+import React, { useMemo, useEffect } from "react";
 import NavbarEnlaces from "../../layout/NavbarEnlaces";
 import MaterialReactTable from "material-react-table";
 import { Box } from "@mui/material";
@@ -7,6 +7,9 @@ import { faFileWord, faFilePdf } from "@fortawesome/free-solid-svg-icons";
 import { dataNormatividad } from "../../data/dataNormativad";
 
 const Normatividad = () => {
+  useEffect(() => {
+    document.title = `Normatividad`;
+  }, []);
   const columns = useMemo(
     () => [
       {
