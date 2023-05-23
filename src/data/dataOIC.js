@@ -474,6 +474,59 @@ export const dataGaleria = [
       },
     ],
   },
+  {
+    id: 8,
+    nameItem: 8,
+    titleItem:
+      "Capacitación denominada 'Código de Ética' impartida por el Lic. Jesús George Zamora, Titular del Órgano Interno de Control del Instituto Nacional Electoral (INE)",
+    flushID: "heading8",
+    children: [
+      {
+        id: 1,
+        carouselID: "galeria8",
+        subChildren: [
+          {
+            id: 1,
+            imgUrl: "https://itetlax.org.mx/assets/img/OIC/g7/8.jpg",
+            alt: "Fotografía 1",
+            itemActive: "active",
+            buttonActive: "active",
+            ariaCurrent: "true",
+            url: "https://itetlax.org.mx/assets/img/OIC/g7/8.jpg",
+            linkToo: "",
+          },
+          {
+            id: 2,
+            imgUrl: "https://itetlax.org.mx/assets/img/OIC/g7/9.jpg",
+            alt: "Fotografía 2",
+            url: "https://itetlax.org.mx/assets/img/OIC/g7/9.jpg",
+            linkToo: "",
+          },
+          {
+            id: 3,
+            imgUrl: "https://itetlax.org.mx/assets/img/OIC/g7/10.jpg",
+            alt: "Fotografía 3",
+            url: "https://itetlax.org.mx/assets/img/OIC/g7/10.jpg",
+            linkToo: "",
+          },
+          {
+            id: 4,
+            imgUrl: "https://itetlax.org.mx/assets/img/OIC/g7/11.jpg",
+            alt: "Fotografía 4",
+            url: "https://itetlax.org.mx/assets/img/OIC/g7/11.jpg",
+            linkToo: "",
+          },
+          {
+            id: 5,
+            imgUrl: "https://itetlax.org.mx/assets/img/OIC/g7/12.jpg",
+            alt: "Fotografía 5",
+            url: "https://itetlax.org.mx/assets/img/OIC/g7/12.jpg",
+            linkToo: "",
+          },
+        ],
+      },
+    ],
+  },
 ];
 
 export const dataEstructuraOrganica = [
@@ -560,6 +613,13 @@ export const dataPOA = [
     typeDocument: "pdf",
     linkItem: "https://itetlax.org.mx/assets/pdf/OIC/12.pdf",
   },
+  {
+    id: 2,
+    titleItem: "PROGRAMA OPERATIVO ANUAL DEL OIC 2023",
+    typeDocument: "pdf",
+    linkItem: "https://itetlax.org.mx/assets/pdf/OIC/16.pdf",
+  },
+
 ];
 
 export const dataSemblanza = [
