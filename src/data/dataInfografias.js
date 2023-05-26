@@ -52,6 +52,17 @@ export const dataInf = [
           },
         ],
       },
+      {
+        id: 5,
+        titleButton: "Mayo",
+        subChildren: [
+          {
+            id: 1,
+            alt: "Estudio de participación ciudadana",
+            link: "https://participacion-ciudadana.itetlax.org.mx/assets/img/infografias/7.jpg",
+          },
+        ],
+      },
       // {
       //   id: 6,
       //   titleButton: "Junio",
