@@ -30,9 +30,14 @@ const ITE = () => {
   }, []);
   return (
     <>
-      <ModalInit
+      {/* <ModalInit
         imgLink="https://itetlax.org.mx/assets/img/imgC_A/22.png"
         url="https://portalanterior.ieepcnl.mx/"
+        linkToo=""
+      /> */}
+        <ModalInit
+        imgLink="https://itetlax.org.mx/assets/img/imgC_A/27.jpg"
+        url="https://itetlax.org.mx/assets/img/imgC_A/27.jpg"
         linkToo=""
       />
 
