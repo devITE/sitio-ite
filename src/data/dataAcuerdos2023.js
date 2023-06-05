@@ -673,6 +673,77 @@ export const dataAcuerdos2023 = [
       },
     ],
   },
+  {
+    id: 37,
+    year: "2023",
+    typeDoc: "RESOLUCIÓN",
+    numDoc: "ITE-CG 37-2023",
+    monthDoc: "MAY",
+    nameDoc:
+      "ACUERDO ITE-CG 37-2023 SE READECÚA EL PRESUPUESTO DE EGRESOS 2023",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/37.pdf",
+    subRows: [
+      {
+        typeDoc: "ACUERDO",
+        nameDoc: "ACUERDO ITE-CG 37-2023 ANEXO ÚNICO",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/37.1.pdf",
+        subRows: "",
+      },
+    ],
+  },
+  {
+    id: 38,
+    year: "2023",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 38-2023",
+    monthDoc: "MAY",
+    nameDoc:
+      "ACUERDO ITE-CG 38-2023 SUSPENSIÓN FASE DE EJECUCIÓN DEL PROCESO DE CONSULTA",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/38.pdf",
+  },
+  {
+    id: 39,
+    year: "2023",
+    typeDoc: "RESOLUCIÓN",
+    numDoc: "ITE-CG 39-2023",
+    monthDoc: "ABR",
+    nameDoc:
+      "ACUERDO ITE-CG 39-2023 SE CALENDARIZA REMANENTES NO EJERCIDOS Y CANTIDADES A RETENER POR MULTAS",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/39.pdf",
+    subRows: [
+      {
+        typeDoc: "ACUERDO",
+        nameDoc: "ACUERDO ITE-CG 39-2023 ANEXO UNO",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/39.1.pdf",
+        subRows: "",
+      },
+      {
+        typeDoc:
+          "ACUERDO ITE-CG 39-2023 ANEXO DOS",
+        nameDoc: "Anexo de Dictamen",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/39.2.pdf",
+        subRows: "",
+      },
+    ],
+  },
+  {
+    id: 40,
+    year: "2023",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 40-2023",
+    monthDoc: "MAY",
+    nameDoc:
+      "ACUERDO ITE-CG 40-2023 POR EL QUE SE CALENDARIZA LA RETENCIÓN DE MULTAS",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/40.pdf",
+    subRows: [
+      {
+        typeDoc: "ACUERDO",
+        nameDoc: "ACUERDO ITE-CG 40-2023 ANEXO ÚNICO",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/40.1.pdf",
+        subRows: "",
+      },
+    ],
+  },
 ];
 
 // ------------ A C U E R D O S    I N E ------------

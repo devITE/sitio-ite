@@ -230,14 +230,4 @@ export const dataCA = [
     url: "https://itetlax.org.mx/assets/pdf/agenda/2.pdf",
     linkToo: "",
   },
-  {
-    id: 5,
-    imgUrl: "https://itetlax.org.mx/assets/img/imgC_A/27.jpg",
-    alt: "Sesión Ordinaria 31/03/23",
-    itemActive: "active",
-    buttonActive: "active",
-    ariaCurrent: "true",
-    url: "https://itetlax.org.mx/assets/img/imgC_A/27.jpg",
-    linkToo: "",
-  },
 ];
