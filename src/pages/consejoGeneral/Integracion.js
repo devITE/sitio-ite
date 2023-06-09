@@ -154,7 +154,7 @@ const Integración = () => {
 
                   <div>
                     <p>Consejera Electoral</p>
-                    <p>Lic. Janet Cervante Ahuatzi</p>
+                    <p>Lic. Janet Cervantes Ahuatzi</p>
                   </div>
                 </a>
               </div>

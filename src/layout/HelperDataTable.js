@@ -38,7 +38,7 @@ const HelperDataTable = () => {
           búsqueda, es necesario limpiar el contenido y dar click en el botón
           <strong>
             <svg
-              className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+              className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-vubbuv"
               focusable="false"
               aria-hidden="true"
               viewBox="0 0 24 24"
@@ -54,7 +54,7 @@ const HelperDataTable = () => {
           es necesario dar click en el botón{" "}
           <strong>
             <svg
-              className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+              className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-vubbuv"
               focusable="false"
               aria-hidden="true"
               viewBox="0 0 24 24"
@@ -67,7 +67,7 @@ const HelperDataTable = () => {
           sea por texto o lista. Para ocultarlos, dar click en{" "}
           <strong>
             <svg
-              className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+              className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-vubbuv"
               focusable="false"
               aria-hidden="true"
               viewBox="0 0 24 24"
@@ -82,7 +82,7 @@ const HelperDataTable = () => {
           botón{" "}
           <strong>
             <svg
-              className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+              className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-vubbuv"
               focusable="false"
               aria-hidden="true"
               viewBox="0 0 24 24"
@@ -126,7 +126,7 @@ const HelperDataTable = () => {
               Click en el botón{" "}
               <strong>
                 <svg
-                  className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                  className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-vubbuv"
                   focusable="false"
                   aria-hidden="true"
                   viewBox="0 0 24 24"
@@ -141,7 +141,7 @@ const HelperDataTable = () => {
               Click en el botón{" "}
               <strong>
                 <svg
-                  className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                  className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-vubbuv"
                   focusable="false"
                   aria-hidden="true"
                   viewBox="0 0 24 24"

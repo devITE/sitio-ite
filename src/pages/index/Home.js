@@ -19,6 +19,8 @@ import "./Home.css";
 import Carousel from "../../layout/Carousel/Carousel/Carousel";
 import CarouselItemIMG from "../../layout/Carousel/Carousel/CarouselItemIMG";
 import { dataVideoPodCast } from "../../data/dataVideoPodCast";
+import { dataITEConecta } from "../../data/dataITEConecta";
+
 import ModalInit from "../../layout/Modal/ModalInit";
 import "./Home.css";
 
@@ -28,18 +30,14 @@ const ITE = () => {
   }, []);
   return (
     <>
-      <ModalInit
-        //  imgLink="https://itetlax.org.mx/assets/img/ATCC/ATCC.jpeg"
-        //  url="https://itetlax.org.mx/assets/img/ATCC/ATCC.jpeg"
-        //  linkToo=""
-        // imgLink="https://itetlax.org.mx/assets/img/imgPopup/1.png"
-        // url="https://itetlax.org.mx/assets/img/imgPopup/1.png"
-        // imgLink="https://itetlax.org.mx/assets/img/imgC_A/12.jpg"
-        // url="https://itetlax.org.mx/assets/img/imgC_A/12.jpg"
-        // imgLink="https://itetlax.org.mx/assets/img/imgC_A/13.jpg"
-        // url="https://forms.gle/nXQrRbptuViEEZYx8"
-        imgLink="https://itetlax.org.mx/assets/img/imgC_A/7.jpg"
-        url="https://itetlax.org.mx/assets/img/imgC_A/7.jpg"
+      {/* <ModalInit
+        imgLink="https://itetlax.org.mx/assets/img/imgC_A/22.png"
+        url="https://portalanterior.ieepcnl.mx/"
+        linkToo=""
+      /> */}
+        <ModalInit
+        imgLink="https://itetlax.org.mx/assets/img/imgC_A/25.jpg"
+        url="https://itetlax.org.mx/assets/pdf/agenda/1.pdf"
         linkToo=""
       />
 
@@ -55,16 +53,17 @@ const ITE = () => {
           />
         ))}
       </Carousel>
-      <div className="mt-4 Home__AR-A">
+      <div className="mt-5 Home__AR-A">
         <div>
           <h2 className="bottom_title">
-          Foro: Los debates electorales en la democracia contemporánea
+            Foro: Guía para la Prevención, Atención, Sanción y Reparación
+            Integral de la VPcMRG
           </h2>
           <div className="Home__video-embed ratio ratio-16x9 w-100">
             <iframe
               id="9QQCf_emFwo"
-              src="https://www.youtube-nocookie.com/embed/2LzAzkLADo4?rel=0"
-              title="Jornada de Talleres"
+              src="https://www.youtube-nocookie.com/embed/WNQLnKKYTIE?rel=0"
+              title="Foro: Guía para la Prevención, Atención, Sanción y Reparación Integral de la VPcMRG"
               allowFullScreen
             ></iframe>
           </div>
@@ -76,7 +75,7 @@ const ITE = () => {
           </div>
         </div>
       </div>
-      <div className="mt-4 Home__AR-A">
+      <div className="mt-5 Home__AR-A">
         <div>
           <h2 className="bottom_title">Actividades Recientes</h2>
           <div className="ps-5 pe-5">
@@ -112,9 +111,11 @@ const ITE = () => {
           </div>
         </div>
       </div>
-      <h2 className="mt-4 bottom_title">Informes</h2>
+      <h2 className="bottom_title mt-5">ITE Conecta</h2>
+      <Videoteca items={dataITEConecta} itemsID={"ITEConecta"} />
+      <h2 className="mt-5 bottom_title">Informes</h2>
       <Informes items={dataInformes} itemsID={"itemsInformes"} />
-      <h2 className="bottom_title">Video Podcast</h2>
+      <h2 className="bottom_title mt-5">Video Podcast</h2>
       <Videoteca items={dataVideoPodCast} itemsID={"videoPodcast"} />
       <div className="Home__boxesTriple mt-4">
         <div>
@@ -130,13 +131,13 @@ const ITE = () => {
           <h2 className="bottom_title">Sesión en Vivo</h2>
           <div className="Home__video-embed ratio ratio-16x9 w-100">
             <iframe
-              src="https://www.youtube-nocookie.com/embed/esUePO0F-hY?rel=0"
+              src="https://www.youtube-nocookie.com/embed/Vs-zRlQA0qo?rel=0"
               title="Sesión En Vivo del CG"
               allowFullScreen
             ></iframe>
           </div>
           <h5 className="mt-3 text-center">
-          Sesión Presencial Ordinaria del Consejo General 28 de abril de 2023{" "}
+          Sesión Presencial Extraordinaria del CG 31/05/23{" "}
           </h5>
         </div>
         <div>
@@ -150,7 +151,7 @@ const ITE = () => {
         </div>
       </div>
       <img
-        className="mt-4 img-fluid w-100"
+        className="mt-5 img-fluid w-100"
         src="https://itetlax.org.mx/assets/img/imgHome/micrositios.png"
         alt="micrositios"
       />
@@ -224,7 +225,7 @@ const ITE = () => {
           alt="RNPS"
         />
       </a>
-      <h3 className="mt-4 bottom_title">Videos</h3>
+      <h3 className="mt-5 bottom_title">Videos</h3>
       <Videoteca items={dataVideoteca} itemsID={"videoteca"} />
 
       <div className="Home__pages">

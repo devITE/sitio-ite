@@ -1,12 +1,15 @@
-import React, { Component } from "react";
+import React, { useEffect } from "react";
 import TitlePages from "../../layout/TitlePages";
 
-export default class InfografiasArchivo extends Component {
-  render() {
-    return (
-      <>
-        <TitlePages title="Archivo" subTitle="Infografías" />
-      </>
-    );
-  }
-}
+export const InfografiasArchivo = () => {
+  useEffect(() => {
+    document.title = `Infografias Archivo`;
+  }, []);
+  return (
+    <>
+      <TitlePages title="Archivo" subTitle="Infografías" />
+    </>
+  );
+};
+
+export default InfografiasArchivo;
