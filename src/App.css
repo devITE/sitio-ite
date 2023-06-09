@@ -61,6 +61,10 @@ a {
   width: 20% !important;
 }
 
+.w-40 {
+  width: 40% !important;
+}
+
 .w-80 {
   width: 80% !important;
 }
@@ -196,6 +200,10 @@ a {
 }
 
 .css-12j2us3 {
+  padding: 0 !important;
+}
+
+.css-1dv1fvo {
   padding: 0 !important;
 }
 
