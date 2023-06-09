@@ -36,8 +36,8 @@ const ITE = () => {
         linkToo=""
       /> */}
         <ModalInit
-        imgLink="https://itetlax.org.mx/assets/img/imgC_A/27.jpg"
-        url="https://itetlax.org.mx/assets/img/imgC_A/27.jpg"
+        imgLink="https://itetlax.org.mx/assets/img/imgC_A/25.jpg"
+        url="https://itetlax.org.mx/assets/pdf/agenda/1.pdf"
         linkToo=""
       />
 
@@ -131,13 +131,13 @@ const ITE = () => {
           <h2 className="bottom_title">Sesión en Vivo</h2>
           <div className="Home__video-embed ratio ratio-16x9 w-100">
             <iframe
-              src="https://www.youtube-nocookie.com/embed/esUePO0F-hY?rel=0"
+              src="https://www.youtube-nocookie.com/embed/Vs-zRlQA0qo?rel=0"
               title="Sesión En Vivo del CG"
               allowFullScreen
             ></iframe>
           </div>
           <h5 className="mt-3 text-center">
-            Sesión Presencial Ordinaria del Consejo General 28 de abril de 2023{" "}
+          Sesión Presencial Extraordinaria del CG 31/05/23{" "}
           </h5>
         </div>
         <div>
