@@ -18,6 +18,8 @@ const Acuerdos2023 = () => {
         accessorKey: "monthDoc",
         header: "MES",
         footer: "MES",
+        size: 35,
+        enableResizing: false,
         Filter: ({ header }) => (
           <TextField
             onChange={(e) =>
@@ -50,27 +52,17 @@ const Acuerdos2023 = () => {
         accessorKey: "numDoc",
         header: "ACUERDO",
         footer: "ACUERDO",
+        size: 55,
+        enableResizing: false,
       },
       {
         accessorFn: (row) => `${row.typeDoc} ${row.nameDoc}`,
         id: "titulo",
         header: "TÍTULO",
         footer: "TÍTULO",
+        size: 55,
+        enableResizing: false,
       },
-      // {
-      //   id: "pdf",
-      //   header: "",
-      //   footer: "",
-      //   enableColumnFilters: false,
-      //   Cell: ({ row }) =>
-      //     row.original.link === "" ? (
-      //       <span></span>
-      //     ) : (
-      //       <a href={row.original.link} target="_blank" rel="noreferrer">
-      //         <FontAwesomeIcon icon={faFilePdf} className="btn btn-danger" />
-      //       </a>
-      //     ),
-      // },
     ],
     []
   );
@@ -95,14 +87,14 @@ const Acuerdos2023 = () => {
         renderDetailPanel={({ row }) => (
           <Box id="Box">
             <div className="table-responsive">
-              <table class="table table-hover table-sm table-bordered table align-middle w-40 mx-auto">
+              <table className="table table-hover table-sm table-bordered table align-middle w-40">
                 <thead>
                   <tr></tr>
                 </thead>
                 <tbody>
-                  <tr>
+                  <tr className="table-secondary">
                     <td>
-                      {row.original.typeDoc.toUpperCase()}{" "}
+                      {row.original.typeDoc.toUpperCase()} {row.original.numDoc}{" "}
                       {row.original.nameDoc.toUpperCase()}
                     </td>
                     <td>
@@ -118,6 +110,25 @@ const Acuerdos2023 = () => {
                       </a>
                     </td>
                   </tr>
+                  {!row.original.tileAnexo1 &
+                  !row.original.pdfAnexo1 &
+                  !row.original.tileAnexo2 &
+                  !row.original.pdfAnexo2 &
+                  !row.original.tileAnexo3 &
+                  !row.original.pdfAnexo3 &
+                  !row.original.tileAnexo4 &
+                  !row.original.pdfAnexo4 ? (
+                    <span></span>
+                  ) : (
+                    <tr>
+                      <td colSpan={2}>
+                        <br />
+                        <strong>A N E X O S</strong>
+                        <br />
+                        <br />
+                      </td>
+                    </tr>
+                  )}
                   {!row.original.tileAnexo1 & !row.original.pdfAnexo1 ? (
                     <span></span>
                   ) : (
