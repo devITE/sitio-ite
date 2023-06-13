@@ -459,42 +459,42 @@ export const dataAcuerdos2023 = [
     titleAnexo1: "ANEXO ÚNICO",
     pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/37.1.pdf",
   },
-  // {
-  //   id: 38,
-  //   year: "2023",
-  //   typeDoc: "ACUERDO",
-  //   numDoc: "ITE-CG 38-2023",
-  //   monthDoc: "MAY",
-  //   nameDoc:
-  //     "ACUERDO ITE-CG 38-2023 SUSPENSIÓN FASE DE EJECUCIÓN DEL PROCESO DE CONSULTA",
-  //   link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/38.pdf",
-  // },
-  // {
-  //   id: 39,
-  //   year: "2023",
-  //   typeDoc: "RESOLUCIÓN",
-  //   numDoc: "ITE-CG 39-2023",
-  //   monthDoc: "ABR",
-  //   nameDoc:
-  //     "ACUERDO ITE-CG 39-2023 SE CALENDARIZA REMANENTES NO EJERCIDOS Y CANTIDADES A RETENER POR MULTAS",
-  //   link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/39.pdf",
-  //   titleAnexo1: "ANEXO UNO",
-  //   pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/39.1.pdf",
-  //   titleAnexo2: "ANEXO DOS",
-  //   pdfAnexo2: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/39.2.pdf",
-  // },
-  // {
-  //   id: 40,
-  //   year: "2023",
-  //   typeDoc: "ACUERDO",
-  //   numDoc: "ITE-CG 40-2023",
-  //   monthDoc: "MAY",
-  //   nameDoc:
-  //     "ACUERDO ITE-CG 40-2023 POR EL QUE SE CALENDARIZA LA RETENCIÓN DE MULTAS",
-  //   link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/40.pdf",
-  //   titleAnexo1: "ACUERDO ITE-CG 40-2023 ANEXO ÚNICO",
-  //   pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/40.1.pdf",
-  // },
+  {
+    id: 38,
+    year: "2023",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 38-2023",
+    monthDoc: "MAY",
+    nameDoc:
+      "ACUERDO ITE-CG 38-2023 SUSPENSIÓN FASE DE EJECUCIÓN DEL PROCESO DE CONSULTA",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/38.pdf",
+  },
+  {
+    id: 39,
+    year: "2023",
+    typeDoc: "RESOLUCIÓN",
+    numDoc: "ITE-CG 39-2023",
+    monthDoc: "ABR",
+    nameDoc:
+      "ACUERDO ITE-CG 39-2023 SE CALENDARIZA REMANENTES NO EJERCIDOS Y CANTIDADES A RETENER POR MULTAS",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/39.pdf",
+    titleAnexo1: "ANEXO UNO",
+    pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/39.1.pdf",
+    titleAnexo2: "ANEXO DOS",
+    pdfAnexo2: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/39.2.pdf",
+  },
+  {
+    id: 40,
+    year: "2023",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 40-2023",
+    monthDoc: "MAY",
+    nameDoc:
+      "ACUERDO ITE-CG 40-2023 POR EL QUE SE CALENDARIZA LA RETENCIÓN DE MULTAS",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/40.pdf",
+    titleAnexo1: "ACUERDO ITE-CG 40-2023 ANEXO ÚNICO",
+    pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/40.1.pdf",
+  },
 ];
 
 // ------------ A C U E R D O S    I N E ------------
