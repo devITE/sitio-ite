@@ -118,6 +118,7 @@ const Acuerdos2023 = () => {
                       </a>
                     </td>
                   </tr>
+                  {/* Aquí inicia la inserción de un anexo */}
                   {!row.original.tileAnexo1 & !row.original.pdfAnexo1 ? (
                     <span></span>
                   ) : (
@@ -137,6 +138,7 @@ const Acuerdos2023 = () => {
                       </td>
                     </tr>
                   )}
+                  {/* aqui termina la inserción de un nvo anexo */}
                   {!row.original.tileAnexo2 & !row.original.pdfAnexo2 ? (
                     <span></span>
                   ) : (
