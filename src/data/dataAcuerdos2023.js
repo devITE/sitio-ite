@@ -492,7 +492,7 @@ export const dataAcuerdos2023 = [
     nameDoc:
       "ACUERDO ITE-CG 40-2023 POR EL QUE SE CALENDARIZA LA RETENCIÓN DE MULTAS",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/40.pdf",
-    titleAnexo1: "ACUERDO ITE-CG 40-2023 ANEXO ÚNICO",
+    titleAnexo1: "ANEXO ÚNICO",
     pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/40.1.pdf",
   },
 ];
