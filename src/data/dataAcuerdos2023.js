@@ -12,9 +12,9 @@ export const dataAcuerdos2023 = [
   //   pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/8.1.pdf",
   //t   tileAnexo2: "ANEXO DOS. CUESTIONARIO CUADERNLLO",
   //   pdfAnexo2: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/8.2.pdf",
-  //   tileAnexo3: "ANEXO TRES. CARTEL DE PARTICIPACIÓN",
+  //t   tileAnexo3: "ANEXO TRES. CARTEL DE PARTICIPACIÓN",
   //   pdfAnexo3: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/8.3.pdf",
-  //   tileAnexo4: "ANEXO CUATRO. ESPECIFICACIONES TÉCNICAS MATERIALES",
+  //t   tileAnexo4: "ANEXO CUATRO. ESPECIFICACIONES TÉCNICAS MATERIALES",
   //   pdfAnexo4: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/8.4.pdf",
   // },
 
@@ -106,9 +106,9 @@ export const dataAcuerdos2023 = [
     pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/8.1.pdf",
     titleAnexo2: "ANEXO DOS. CUESTIONARIO CUADERNLLO",
     pdfAnexo2: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/8.2.pdf",
-    tileAnexo3: "ANEXO TRES. CARTEL DE PARTICIPACIÓN",
+    titleAnexo3: "ANEXO TRES. CARTEL DE PARTICIPACIÓN",
     pdfAnexo3: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/8.3.pdf",
-    tileAnexo4: "ANEXO CUATRO. ESPECIFICACIONES TÉCNICAS MATERIALES",
+    titleAnexo4: "ANEXO CUATRO. ESPECIFICACIONES TÉCNICAS MATERIALES",
     pdfAnexo4: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/8.4.pdf",
   },
   {
@@ -309,7 +309,7 @@ export const dataAcuerdos2023 = [
     pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/27.1.pdf",
     titleAnexo2: "Anexo uno de Dictamen. firmado",
     pdfAnexo2: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/27.2.pdf",
-    tileAnexo3: "Anexo dos de Dictamen. firmado",
+    titleAnexo3: "Anexo dos de Dictamen. firmado",
     pdfAnexo3: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/27.3.pdf",
   },
   {
@@ -340,7 +340,7 @@ export const dataAcuerdos2023 = [
     pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/29.1.pdf",
     titleAnexo2: "Anexo uno de Dictamen",
     pdfAnexo2: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/29.2.pdf",
-    tileAnexo3: "Anexo dos de Dictamen",
+    titleAnexo3: "Anexo dos de Dictamen",
     pdfAnexo3: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/29.3.pdf",
   },
   {
@@ -356,7 +356,7 @@ export const dataAcuerdos2023 = [
     pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/30.1.pdf",
     titleAnexo2: "Anexo de Dictamen",
     pdfAnexo2: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/30.2.pdf",
-    tileAnexo3:
+    titleAnexo3:
       "VOTO RAZONADO DEL CONSEJERO ELECTORAL HERMENEGILDO NERIA CARREÑO",
     pdfAnexo3: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/30.3.pdf",
   },
@@ -373,7 +373,7 @@ export const dataAcuerdos2023 = [
     pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/31.1.pdf",
     titleAnexo2: "Anexo uno de Dictamen",
     pdfAnexo2: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/31.2.pdf",
-    tileAnexo3: "Anexo dos de Dictamen",
+    titleAnexo3: "Anexo dos de Dictamen",
     pdfAnexo3: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/31.3.pdf",
   },
   {
@@ -389,7 +389,7 @@ export const dataAcuerdos2023 = [
     pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/32.1.pdf",
     titleAnexo2: "Anexo uno del Dictamen",
     pdfAnexo2: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/32.2.pdf",
-    tileAnexo3: "Anexo dos del Dictamen",
+    titleAnexo3: "Anexo dos del Dictamen",
     pdfAnexo3: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/32.3.pdf",
   },
   {

@@ -111,13 +111,13 @@ const Acuerdos2023 = () => {
                       </a>
                     </td>
                   </tr>
-                  {!row.original.tileAnexo1 &
+                  {!row.original.titleAnexo1 &
                   !row.original.pdfAnexo1 &
-                  !row.original.tileAnexo2 &
+                  !row.original.titleAnexo2 &
                   !row.original.pdfAnexo2 &
-                  !row.original.tileAnexo3 &
+                  !row.original.titleAnexo3 &
                   !row.original.pdfAnexo3 &
-                  !row.original.tileAnexo4 &
+                  !row.original.titleAnexo4 &
                   !row.original.pdfAnexo4 ? (
                     <span></span>
                   ) : (
@@ -130,11 +130,11 @@ const Acuerdos2023 = () => {
                       </td>
                     </tr>
                   )}
-                  {!row.original.tileAnexo1 & !row.original.pdfAnexo1 ? (
+                  {!row.original.titleAnexo1 & !row.original.pdfAnexo1 ? (
                     <span></span>
                   ) : (
                     <tr>
-                      <td>{row.original.tileAnexo1}</td>
+                      <td>{row.original.titleAnexo1.toUpperCase()}</td>
                       <td>
                         <a
                           href={row.original.pdfAnexo1}
@@ -150,11 +150,11 @@ const Acuerdos2023 = () => {
                     </tr>
                   )}
                   {/* aqui termina la inserción de un nvo anexo */}
-                  {!row.original.tileAnexo2 & !row.original.pdfAnexo2 ? (
+                  {!row.original.titleAnexo2 & !row.original.pdfAnexo2 ? (
                     <span></span>
                   ) : (
                     <tr>
-                      <td>{row.original.tileAnexo2}</td>
+                      <td>{row.original.titleAnexo2.toUpperCase()}</td>
                       <td>
                         <a
                           href={row.original.pdfAnexo2}
@@ -169,11 +169,11 @@ const Acuerdos2023 = () => {
                       </td>
                     </tr>
                   )}
-                  {!row.original.tileAnexo3 & !row.original.pdfAnexo3 ? (
+                  {!row.original.titleAnexo3 & !row.original.pdfAnexo3 ? (
                     <span></span>
                   ) : (
                     <tr>
-                      <td>{row.original.tileAnexo3}</td>
+                      <td>{row.original.titleAnexo3.toUpperCase()}</td>
                       <td>
                         <a
                           href={row.original.pdfAnexo3}
@@ -188,11 +188,11 @@ const Acuerdos2023 = () => {
                       </td>
                     </tr>
                   )}
-                  {!row.original.tileAnexo4 & !row.original.pdfAnexo4 ? (
+                  {!row.original.titleAnexo4 & !row.original.pdfAnexo4 ? (
                     <span></span>
                   ) : (
                     <tr>
-                      <td>{row.original.tileAnexo4}</td>
+                      <td>{row.original.titleAnexo4.toUpperCase()}</td>
                       <td>
                         <a
                           href={row.original.pdfAnexo4}
