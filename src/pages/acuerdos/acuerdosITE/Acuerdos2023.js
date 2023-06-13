@@ -18,7 +18,7 @@ const Acuerdos2023 = () => {
         accessorKey: "monthDoc",
         header: "MES",
         footer: "MES",
-        size: 35,
+        size: 30,
         enableResizing: false,
         Filter: ({ header }) => (
           <TextField
@@ -60,7 +60,7 @@ const Acuerdos2023 = () => {
         id: "titulo",
         header: "TÍTULO",
         footer: "TÍTULO",
-        size: 55,
+        size: 255,
         enableResizing: false,
       },
     ],
@@ -78,6 +78,7 @@ const Acuerdos2023 = () => {
         enableExpandAll
         enableColumnActions={false}
         enableDensityToggle={false}
+        enableColumnResizing={false}
         initialState={{ density: "compact" }}
         muiExpandButtonProps={({ row }) => ({
           sx: {
@@ -94,8 +95,8 @@ const Acuerdos2023 = () => {
                 <tbody>
                   <tr className="table-secondary">
                     <td>
-                      {row.original.typeDoc.toUpperCase()} {row.original.numDoc}{" "}
-                      {row.original.nameDoc.toUpperCase()}
+                      {row.original.typeDoc} {row.original.numDoc}{" "}
+                      {row.original.nameDoc}
                     </td>
                     <td>
                       <a
@@ -133,7 +134,7 @@ const Acuerdos2023 = () => {
                     <span></span>
                   ) : (
                     <tr>
-                      <td>{row.original.tileAnexo1.toUpperCase()}</td>
+                      <td>{row.original.tileAnexo1}</td>
                       <td>
                         <a
                           href={row.original.pdfAnexo1}
@@ -152,7 +153,7 @@ const Acuerdos2023 = () => {
                     <span></span>
                   ) : (
                     <tr>
-                      <td>{row.original.tileAnexo2.toUpperCase()}</td>
+                      <td>{row.original.tileAnexo2}</td>
                       <td>
                         <a
                           href={row.original.pdfAnexo2}
@@ -171,7 +172,7 @@ const Acuerdos2023 = () => {
                     <span></span>
                   ) : (
                     <tr>
-                      <td>{row.original.tileAnexo3.toUpperCase()}</td>
+                      <td>{row.original.tileAnexo3}</td>
                       <td>
                         <a
                           href={row.original.pdfAnexo3}
@@ -190,7 +191,7 @@ const Acuerdos2023 = () => {
                     <span></span>
                   ) : (
                     <tr>
-                      <td>{row.original.tileAnexo4.toUpperCase()}</td>
+                      <td>{row.original.tileAnexo4}</td>
                       <td>
                         <a
                           href={row.original.pdfAnexo4}

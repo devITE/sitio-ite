@@ -108,9 +108,43 @@ export const dataCIndex = [
     buttonActive: "active",
     ariaCurrent: "true",
     url: "",
-    linkToo: "https://itetlax.org.mx/assets/img/imgC_I/civica2.jpg",
+    linkToo: "https://itetlax.org.mx/assets/img/imgC_I/civica.jpg",
   },
-
+  {
+    id: 15,
+    imgUrl: "https://itetlax.org.mx/assets/img/imgC_I/civica19.jpg",
+    alt: "Semana Civica",
+    url: "",
+    linkToo: "https://itetlax.org.mx/assets/img/imgC_A/33.jpg",
+  },
+  {
+    id: 16,
+    imgUrl: "https://itetlax.org.mx/assets/img/imgC_I/civica20.jpg",
+    alt: "Semana Civica",
+    url: "",
+    linkToo: "https://itetlax.org.mx/assets/img/imgC_A/34.jpg",
+  },
+  {
+    id: 17,
+    imgUrl: "https://itetlax.org.mx/assets/img/imgC_I/civica21.jpg",
+    alt: "Semana Civica",
+    url: "",
+    linkToo: "https://itetlax.org.mx/assets/img/imgC_A/35.jpg",
+  },
+  {
+    id: 18,
+    imgUrl: "https://itetlax.org.mx/assets/img/imgC_I/civica22.jpg",
+    alt: "Semana Civica",
+    url: "",
+    linkToo: "https://itetlax.org.mx/assets/img/imgC_A/36.jpg",
+  },
+  {
+    id: 19,
+    imgUrl: "https://itetlax.org.mx/assets/img/imgC_I/civica23.jpg",
+    alt: "Semana Civica",
+    url: "",
+    linkToo: "https://itetlax.org.mx/assets/img/imgC_A/37.jpg",
+  },
 ];
 
 export const dataCAR = [
@@ -264,7 +298,7 @@ export const dataCA = [
   {
     id: 3,
     imgUrl: "https://itetlax.org.mx/assets/img/imgC_A/25.jpg",
-     alt: "Concurso Arte Urbano",
+    alt: "Concurso Arte Urbano",
     //  itemActive: "active",
     //  buttonActive: "active",
     //  ariaCurrent: "true",
@@ -316,31 +350,31 @@ export const dataCA = [
   {
     id: 9,
     imgUrl: "https://itetlax.org.mx/assets/img/imgC_A/33.jpg",
-    url: "",
+    url: "https://itetlax.org.mx/assets/img/imgC_A/33.jpg",
     linkToo: "",
   },
   {
     id: 10,
     imgUrl: "https://itetlax.org.mx/assets/img/imgC_A/34.jpg",
-    url: "",
+    url: "https://itetlax.org.mx/assets/img/imgC_A/34.jpg",
     linkToo: "",
   },
   {
     id: 11,
     imgUrl: "https://itetlax.org.mx/assets/img/imgC_A/35.jpg",
-    url: "",
+    url: "https://itetlax.org.mx/assets/img/imgC_A/35.jpg",
     linkToo: "",
   },
   {
     id: 12,
     imgUrl: "https://itetlax.org.mx/assets/img/imgC_A/36.jpg",
-    url: "",
+    url: "https://itetlax.org.mx/assets/img/imgC_A/36.jpg",
     linkToo: "",
   },
   {
     id: 13,
     imgUrl: "https://itetlax.org.mx/assets/img/imgC_A/37.jpg",
-    url: "",
+    url: "https://itetlax.org.mx/assets/img/imgC_A/37.jpg",
     linkToo: "",
   },
 ];

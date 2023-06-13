@@ -67,4 +67,21 @@ export const dataITEConecta = [
     url: "U73JJCsin40",
     title: "ITE Conecta Programa 12, El derecho al uso de las calles",
   },
+  {
+    id: 13,
+    url: "wk8WBxugcIc",
+    title:
+      "ITE Conecta Programa 13, Elecciones escolares con el Mtro. Norberto Sánchez Briones",
+  },
+  {
+    id: 14,
+    url: "8ojbGfeIebM",
+    title: "ITE Conecta Programa 14, Tribus Urbanas, comunidad friki",
+  },
+  {
+    id: 15,
+    url: "WvkDOXUDUR8",
+    title:
+      "ITE Conecta Programa 15, Inclusión, Lengua de Señas Mexicana con Adriana Tecpa Sartillo",
+  },
 ];
