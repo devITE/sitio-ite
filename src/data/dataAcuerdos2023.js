@@ -8,9 +8,9 @@ export const dataAcuerdos2023 = [
   //   monthDoc: "FEB",
   //   nameDoc: "DOCUMENTOS DEL PROCESO DE CONSULTA",
   //   link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/8.pdf",
-  //   tileAnexo1: "ANEXO UNO. GUÍA DE APOYO E INSTRUMENTOS DIDÁCTICOS",
+  //t   tileAnexo1: "ANEXO UNO. GUÍA DE APOYO E INSTRUMENTOS DIDÁCTICOS",
   //   pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/8.1.pdf",
-  //   tileAnexo2: "ANEXO DOS. CUESTIONARIO CUADERNLLO",
+  //t   tileAnexo2: "ANEXO DOS. CUESTIONARIO CUADERNLLO",
   //   pdfAnexo2: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/8.2.pdf",
   //   tileAnexo3: "ANEXO TRES. CARTEL DE PARTICIPACIÓN",
   //   pdfAnexo3: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/8.3.pdf",
@@ -26,7 +26,7 @@ export const dataAcuerdos2023 = [
     monthDoc: "ENE",
     nameDoc: "SE ADECUA EL PRESUPUESTO DE EGRESOS 2023",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/1.pdf",
-    tileAnexo1: "ANEXO ÚNICO",
+    titleAnexo1: "ANEXO ÚNICO",
     pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/1.1.pdf",
   },
   {
@@ -37,7 +37,7 @@ export const dataAcuerdos2023 = [
     monthDoc: "ENE",
     nameDoc: "SE ACTUALZA CALENDARIO DE MULTAS 2023",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/2.pdf",
-    tileAnexo1: "ANEXO ÚNICO",
+    titleAnexo1: "ANEXO ÚNICO",
     pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/2.1.pdf",
   },
   {
@@ -49,7 +49,7 @@ export const dataAcuerdos2023 = [
     nameDoc:
       "SE APRUEBA PROGRAMA PARA OTORGAMIENTO DE TITUTLARIDAD Y PROMOCIÓN DE RANGO SPEN",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/3.pdf",
-    tileAnexo1: "PROGRAMA",
+    titleAnexo1: "PROGRAMA",
     pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/3.1.pdf",
   },
   {
@@ -60,7 +60,7 @@ export const dataAcuerdos2023 = [
     monthDoc: "ENE",
     nameDoc: "REFORMA REGLAMENTO INTERIOR DEL ITE",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/4.pdf",
-    tileAnexo1: "REGLAMENTO INTERIOR",
+    titleAnexo1: "REGLAMENTO INTERIOR",
     pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/4.1.pdf",
   },
   {
@@ -81,7 +81,7 @@ export const dataAcuerdos2023 = [
     nameDoc:
       "SE APRUEBA PROGRAMA DE SEMINARIOS, CONFERENCIAS, COLOQUIOS, DIPLOMADOS, ETC",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/6.pdf",
-    tileAnexo1: "PROGRAMA DE IMPARTICIÓN",
+    titleAnexo1: "PROGRAMA DE IMPARTICIÓN",
     pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/6.1.pdf",
   },
   {
@@ -102,9 +102,9 @@ export const dataAcuerdos2023 = [
     monthDoc: "FEB",
     nameDoc: "DOCUMENTOS DEL PROCESO DE CONSULTA",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/8.pdf",
-    tileAnexo1: "ANEXO UNO. GUÍA DE APOYO E INSTRUMENTOS DIDÁCTICOS",
+    titleAnexo1: "ANEXO UNO. GUÍA DE APOYO E INSTRUMENTOS DIDÁCTICOS",
     pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/8.1.pdf",
-    tileAnexo2: "ANEXO DOS. CUESTIONARIO CUADERNLLO",
+    titleAnexo2: "ANEXO DOS. CUESTIONARIO CUADERNLLO",
     pdfAnexo2: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/8.2.pdf",
     tileAnexo3: "ANEXO TRES. CARTEL DE PARTICIPACIÓN",
     pdfAnexo3: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/8.3.pdf",
@@ -119,7 +119,7 @@ export const dataAcuerdos2023 = [
     monthDoc: "FEB",
     nameDoc: "POS CQD-Q-PT-CG-006-2022",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/9.pdf",
-    tileAnexo1: "Voto Concurrente",
+    titleAnexo1: "Voto Concurrente",
     pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/9.1.pdf",
   },
   {
@@ -130,7 +130,7 @@ export const dataAcuerdos2023 = [
     monthDoc: "FEB",
     nameDoc: "POS CQD-Q-MCCG-007-2022",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/10.pdf",
-    tileAnexo1: "Voto Concurrente",
+    titleAnexo1: "Voto Concurrente",
     pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/10.1.pdf",
   },
   {
@@ -141,7 +141,7 @@ export const dataAcuerdos2023 = [
     monthDoc: "FEB",
     nameDoc: "POS CQD-Q-MORENA-CG-008-2022",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/11.pdf",
-    tileAnexo1: "Voto Concurrente",
+    titleAnexo1: "Voto Concurrente",
     pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/11.1.pdf",
   },
   {
@@ -161,9 +161,9 @@ export const dataAcuerdos2023 = [
     monthDoc: "FEB",
     nameDoc: "SE APRUEBA CONVOCATORIA OBSERVADORES DE CONSULTA",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/13.pdf",
-    tileAnexo1: "Convocatoria Observadores Fase Consultiva",
+    titleAnexo1: "Convocatoria Observadores Fase Consultiva",
     pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/13.1.pdf",
-    tileAnexo2: "Solicitud de Registro Observadoras/es",
+    titleAnexo2: "Solicitud de Registro Observadoras/es",
     pdfAnexo2: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/13.2.pdf",
   },
   {
@@ -183,7 +183,7 @@ export const dataAcuerdos2023 = [
     monthDoc: "FEB",
     nameDoc: "SE APRUEBA DICTAMEN GENERAL DE RESULTADOS EVALUACIÓN SPEN",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/15.pdf",
-    tileAnexo1: "ANEXO ÚNICO. DICTAMEN",
+    titleAnexo1: "ANEXO ÚNICO. DICTAMEN",
     pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/15.1.pdf",
   },
   {
@@ -195,7 +195,7 @@ export const dataAcuerdos2023 = [
     nameDoc:
       "DESIGNACIÓN DEL PERSONAL QUE INTEGRARÁ LAS MESAS RECEPTORAS DE CONSULTA",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/16.pdf",
-    tileAnexo1: "ANEXO ÚNICO. PERSONAL",
+    titleAnexo1: "ANEXO ÚNICO. PERSONAL",
     pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/16.1.pdf",
   },
   {
@@ -207,10 +207,10 @@ export const dataAcuerdos2023 = [
     nameDoc:
       "SE APRUEBA DICTAMEN NO PRESENTACIÓN SOLICITUD DE REGISTRO ORGANIZACIONES CIUDADANAS",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/17.pdf",
-    tileAnexo1:
+    titleAnexo1:
       "ANEXO. DICTAMEN NO PRESENTACIÓN SOLICITUD DE REGISTRO ORGANIZACIONES CIUDADANAS",
     pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/17.1.pdf",
-    tileAnexo2:
+    titleAnexo2:
       "ANEXO. VOTO CONCURRENTE DEL CONSEJERO HERMENEGILDO NERIA CARREÑO",
     pdfAnexo2: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/17.2.pdf",
   },
@@ -305,9 +305,9 @@ export const dataAcuerdos2023 = [
     nameDoc:
       "SE APRUEBA DICTAMEN CONSOLIDADO DE LA ORGANIZACIÓN CIUDADANA ESPACIO DEMOCRÁTICO DE TLAXCALA",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/27.pdf",
-    tileAnexo1: "DICTAMEN FIRMADO",
+    titleAnexo1: "DICTAMEN FIRMADO",
     pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/27.1.pdf",
-    tileAnexo2: "Anexo uno de Dictamen. firmado",
+    titleAnexo2: "Anexo uno de Dictamen. firmado",
     pdfAnexo2: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/27.2.pdf",
     tileAnexo3: "Anexo dos de Dictamen. firmado",
     pdfAnexo3: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/27.3.pdf",
@@ -321,9 +321,9 @@ export const dataAcuerdos2023 = [
     nameDoc:
       "SE APRUEBA DICTAMEN RESPECTO DE SOLICITUD DE REGISTRO COMO PPL DE LA ORGANIZACIÓN ESPACIO DEMOCRÁTICO DE TLAXCALA",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/28.pdf",
-    tileAnexo1: "DICTAMEN",
+    titleAnexo1: "DICTAMEN",
     pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/28.1.pdf",
-    tileAnexo2:
+    titleAnexo2:
       "VOTO RAZONADO DEL CONSEJERO ELECTORAL HERMENEGILDO NERIA CARREÑO",
     pdfAnexo2: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/28.2.pdf",
   },
@@ -336,9 +336,9 @@ export const dataAcuerdos2023 = [
     nameDoc:
       "SE APRUEBA DICTAMEN CONSOLIDADO DE LA ORGANIZACIÓN CIUDADANA RENOVEMOS TLAXCALA",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/29.pdf",
-    tileAnexo1: "DICTAMEN",
+    titleAnexo1: "DICTAMEN",
     pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/29.1.pdf",
-    tileAnexo2: "Anexo uno de Dictamen",
+    titleAnexo2: "Anexo uno de Dictamen",
     pdfAnexo2: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/29.2.pdf",
     tileAnexo3: "Anexo dos de Dictamen",
     pdfAnexo3: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/29.3.pdf",
@@ -352,9 +352,9 @@ export const dataAcuerdos2023 = [
     nameDoc:
       "SE APRUEBA DICTAMEN RESPECTO DE SOLICITUD DE REGISTRO COMO PPL DE LA ORGANIZACIÓN RENOVEMOS TLAXCALA A.C",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/30.pdf",
-    tileAnexo1: "DICTAMEN",
+    titleAnexo1: "DICTAMEN",
     pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/30.1.pdf",
-    tileAnexo2: "Anexo de Dictamen",
+    titleAnexo2: "Anexo de Dictamen",
     pdfAnexo2: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/30.2.pdf",
     tileAnexo3:
       "VOTO RAZONADO DEL CONSEJERO ELECTORAL HERMENEGILDO NERIA CARREÑO",
@@ -369,9 +369,9 @@ export const dataAcuerdos2023 = [
     nameDoc:
       "SE APRUEBA DICTAMEN RESPECTO DE SOLICITUD DE REGISTRO COMO PPL DE LA ORGANIZACIÓN “UNIFICACIÓN Y EVOLUCIÓN”",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/31.pdf",
-    tileAnexo1: "DICTAMEN CONSOLIDADO",
+    titleAnexo1: "DICTAMEN CONSOLIDADO",
     pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/31.1.pdf",
-    tileAnexo2: "Anexo uno de Dictamen",
+    titleAnexo2: "Anexo uno de Dictamen",
     pdfAnexo2: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/31.2.pdf",
     tileAnexo3: "Anexo dos de Dictamen",
     pdfAnexo3: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/31.3.pdf",
@@ -385,9 +385,9 @@ export const dataAcuerdos2023 = [
     nameDoc:
       "SE APRUEBA DICTAMEN CONSOLIDADO DE LA ORGANIZACIÓN CIUDADANOS POR CONSTITUIRSE EN ENCUENTRO SOLIDARIO TLAXCALA A.C.",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/32.pdf",
-    tileAnexo1: "DICTAMEN CONSOLIDADO",
+    titleAnexo1: "DICTAMEN CONSOLIDADO",
     pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/32.1.pdf",
-    tileAnexo2: "Anexo uno del Dictamen",
+    titleAnexo2: "Anexo uno del Dictamen",
     pdfAnexo2: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/32.2.pdf",
     tileAnexo3: "Anexo dos del Dictamen",
     pdfAnexo3: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/32.3.pdf",
@@ -401,9 +401,9 @@ export const dataAcuerdos2023 = [
     nameDoc:
       "SE APRUEBA DICTAMEN RESPECTO DE SOLICITUD DE REGISTRO COMO PPL DE LA ORGANIZACIÓN UNIFICACIÓN Y EVOLUCIÓN",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/33.pdf",
-    tileAnexo1: "DICTAMEN",
+    titleAnexo1: "DICTAMEN",
     pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/33.1.pdf",
-    tileAnexo2: "VOTO RAZONADO CONSEJERO HERMENEGILDO NERIA CARREÑO",
+    titleAnexo2: "VOTO RAZONADO CONSEJERO HERMENEGILDO NERIA CARREÑO",
     pdfAnexo2: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/33.2.pdf",
   },
   {
@@ -415,9 +415,9 @@ export const dataAcuerdos2023 = [
     nameDoc:
       "SE APRUEBA DICTAMEN RESPECTO DE SOLICITUD DE REGISTRO COMO PPL DE LA ORGANIZACIÓN CIUDADANOS POR CONSTITUTIRSE EN ENCUENTRO SOLIDARIO TLAXCALA A.C.",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/34.pdf",
-    tileAnexo1: "DICTAMEN",
+    titleAnexo1: "DICTAMEN",
     pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/34.1.pdf",
-    tileAnexo2: "Anexo de Dictamen",
+    titleAnexo2: "Anexo de Dictamen",
     pdfAnexo2: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/34.2.pdf",
   },
   {
@@ -429,9 +429,9 @@ export const dataAcuerdos2023 = [
     nameDoc:
       "SE APRUEBA DICTAMEN CONSOLIDADO DE LA ORGANIZACIÓN CIUDADANA SOCIEDAD INDEPENDIENTE SI",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/35.pdf",
-    tileAnexo1: "DICTAMEN",
+    titleAnexo1: "DICTAMEN",
     pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/35.1.pdf",
-    tileAnexo2: "Anexo de Dictamen",
+    titleAnexo2: "Anexo de Dictamen",
     pdfAnexo2: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/35.2.pdf",
   },
   {
@@ -443,28 +443,21 @@ export const dataAcuerdos2023 = [
     nameDoc:
       " SE APRUEBA DICTAMEN RESPECTO DE SOLICITUD DE REGISTRO COMO PPL DE LA ORGANIZACIÓN CIUDANA DENOMINADA SOCIEDAD INDEPENDIENTE SI",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/36.pdf",
-    tileAnexo1: "DICTAMEN",
+    titleAnexo1: "DICTAMEN",
     pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/36.1.pdf",
-    tileAnexo2: "Anexo de Dictamen",
+    titleAnexo2: "Anexo de Dictamen",
     pdfAnexo2: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/36.2.pdf",
   },
   {
     id: 37,
     year: "2023",
-    typeDoc: "RESOLUCIÓN",
+    typeDoc: "ACUERDO",
     numDoc: "ITE-CG 37-2023",
     monthDoc: "MAY",
-    nameDoc:
-      "ACUERDO ITE-CG 37-2023 SE READECÚA EL PRESUPUESTO DE EGRESOS 2023",
+    nameDoc: "SE READECÚA EL PRESUPUESTO DE EGRESOS 2023",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/37.pdf",
-    subRows: [
-      {
-        typeDoc: "ACUERDO",
-        nameDoc: "ACUERDO ITE-CG 37-2023 ANEXO ÚNICO",
-        link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/37.1.pdf",
-        subRows: "",
-      },
-    ],
+    titleAnexo1: "ANEXO ÚNICO",
+    pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/37.1.pdf",
   },
   {
     id: 38,
@@ -485,21 +478,10 @@ export const dataAcuerdos2023 = [
     nameDoc:
       "ACUERDO ITE-CG 39-2023 SE CALENDARIZA REMANENTES NO EJERCIDOS Y CANTIDADES A RETENER POR MULTAS",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/39.pdf",
-    subRows: [
-      {
-        typeDoc: "ACUERDO",
-        nameDoc: "ACUERDO ITE-CG 39-2023 ANEXO UNO",
-        link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/39.1.pdf",
-        subRows: "",
-      },
-      {
-        typeDoc:
-          "ACUERDO ITE-CG 39-2023 ANEXO DOS",
-        nameDoc: "Anexo de Dictamen",
-        link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/39.2.pdf",
-        subRows: "",
-      },
-    ],
+    titleAnexo1: "ANEXO UNO",
+    pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/39.1.pdf",
+    titleAnexo2: "ANEXO DOS",
+    pdfAnexo2: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/39.2.pdf",
   },
   {
     id: 40,
@@ -510,14 +492,8 @@ export const dataAcuerdos2023 = [
     nameDoc:
       "ACUERDO ITE-CG 40-2023 POR EL QUE SE CALENDARIZA LA RETENCIÓN DE MULTAS",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/40.pdf",
-    subRows: [
-      {
-        typeDoc: "ACUERDO",
-        nameDoc: "ACUERDO ITE-CG 40-2023 ANEXO ÚNICO",
-        link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/40.1.pdf",
-        subRows: "",
-      },
-    ],
+    titleAnexo1: "ACUERDO ITE-CG 40-2023 ANEXO ÚNICO",
+    pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/40.1.pdf",
   },
 ];
 
