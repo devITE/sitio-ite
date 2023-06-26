@@ -47,87 +47,42 @@ const InstrumentosNormativos = () => {
             display: row.original.subRows === "" ? "none" : "flex",
           },
         })}
-        renderDetailPanel={({ row }) =>
-          (row.original.pdf === "") & (row.original.word === "") ? (
-            <span></span>
-          ) : (
-            <Box id="Box">
-              <div className="row">
-                {(row.original.pdf !== "") & (row.original.word !== "") ? (
-                  <>
-                    <div className="col-md-4"></div>
-                    <div className="col-md-2">
-                      <span>PDF </span>
-                      <a
-                        href={row.original.pdf}
-                        target="_blank"
-                        rel="noreferrer"
-                        className="btn btn-danger"
-                      >
-                        <FontAwesomeIcon icon={faFilePdf} />
-                      </a>
-                    </div>
-                    <div className="col-md-2">
-                      <span>Word </span>
-                      <a
-                        href={row.original.word}
-                        target="_blank"
-                        rel="noreferrer"
-                        className="btn btn-primary"
-                      >
-                        <FontAwesomeIcon icon={faFileWord} />
-                      </a>
-                    </div>
-                    <div className="col-md-4"></div>
-                  </>
-                ) : (row.original.pdf !== "") & (row.original.word === "") ? (
-                  <>
-                    <div className="col-md-5"></div>
-                    <div className="col-md-2">
-                      <span>PDF </span>
-                      <a
-                        href={row.original.pdf}
-                        target="_blank"
-                        rel="noreferrer"
-                        className="btn btn-danger"
-                      >
-                        <FontAwesomeIcon icon={faFilePdf} />
-                      </a>
-                    </div>
-                    <div className="col-md-5"></div>
-                  </>
-                ) : (
-                  <>
-                    <div className="col-md-4"></div>
-                    <div className="col-md-2">
-                      <span>PDF </span>
-                      <a
-                        href={row.original.pdf}
-                        target="_blank"
-                        rel="noreferrer"
-                        className="btn btn-danger"
-                      >
-                        <FontAwesomeIcon icon={faFilePdf} />
-                      </a>
-                    </div>
-                    <div className="col-md-2">
-                      <span>Word </span>
-                      <a
-                        href={row.original.word}
-                        target="_blank"
-                        rel="noreferrer"
-                        className="btn btn-primary"
-                      >
-                        <FontAwesomeIcon icon={faFileWord} />
-                      </a>
-                    </div>
-                    <div className="col-md-4"></div>
-                  </>
-                )}
+        renderDetailPanel={({ row }) => (
+          <Box id="Box">
+            {!row.original.pdf ? (
+              <span></span>
+            ) : (
+
+              <div className="">
+                <span>PDF </span>
+                <a
+                  href={row.original.pdf}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="btn btn-danger"
+                >
+                  <FontAwesomeIcon icon={faFilePdf} />
+                </a>
               </div>
-            </Box>
-          )
-        }
+            )}
+
+            {!row.original.word ? (
+              <span></span>
+            ) : (
+              <div className="">
+                <span>Word </span>
+                <a
+                  href={row.original.word}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="btn btn-primary"
+                >
+                  <FontAwesomeIcon icon={faFileWord} />
+                </a>
+              </div>
+            )}
+          </Box>
+        )}
         muiTablePaginationProps={{
           labelRowsPerPage: "Filas por página",
           getItemAriaLabel: (type) => {

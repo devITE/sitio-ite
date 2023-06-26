@@ -30,16 +30,16 @@ const ITE = () => {
   }, []);
   return (
     <>
-      {/* <ModalInit
+      { <ModalInit
         imgLink="https://itetlax.org.mx/assets/img/imgC_A/22.png"
-        url="https://portalanterior.ieepcnl.mx/"
+        url="https://portalanterior.ieepcnl.mx/2023/cepxxiv/"
+        linkToo=""
+      /> }
+        {/* <ModalInit
+        imgLink="https://itetlax.org.mx/assets/img/imgC_A/32.jpg"
+        url="https://itetlax.org.mx/assets/img/imgC_I/civica2.jpg"
         linkToo=""
       /> */}
-        <ModalInit
-        imgLink="https://itetlax.org.mx/assets/img/imgC_A/25.jpg"
-        url="https://itetlax.org.mx/assets/pdf/agenda/1.pdf"
-        linkToo=""
-      />
 
       <Carousel idCarousel="carouselTopIndex">
         {dataCIndex.map((cIndex) => (
@@ -56,14 +56,13 @@ const ITE = () => {
       <div className="mt-5 Home__AR-A">
         <div>
           <h2 className="bottom_title">
-            Foro: Guía para la Prevención, Atención, Sanción y Reparación
-            Integral de la VPcMRG
+          Clausura / Develación del Mural Ganador "Imagen de la Democracia"
           </h2>
           <div className="Home__video-embed ratio ratio-16x9 w-100">
             <iframe
               id="9QQCf_emFwo"
-              src="https://www.youtube-nocookie.com/embed/WNQLnKKYTIE?rel=0"
-              title="Foro: Guía para la Prevención, Atención, Sanción y Reparación Integral de la VPcMRG"
+              src="https://www.youtube-nocookie.com/embed/QR91RtD3OjM?rel=0"
+              title="2da. Semana de Educación Cívica. Inauguración"
               allowFullScreen
             ></iframe>
           </div>

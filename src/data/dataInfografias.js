@@ -63,6 +63,17 @@ export const dataInf = [
           },
         ],
       },
+      {
+        id: 4,
+        titleButton: "Junio",
+        subChildren: [
+          {
+            id: 1,
+            alt: "  Código de Ética",
+            link: "https://itetlax.org.mx/assets/img/imgEInf/2023/4.jpg",
+          },
+        ],
+      },
       // {
       //   id: 6,
       //   titleButton: "Junio",
