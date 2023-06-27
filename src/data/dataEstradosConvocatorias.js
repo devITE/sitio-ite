@@ -52,5 +52,9 @@ export const dataConvocatorias = [
   //   nameFile: "CÉDULA DE PUBLICITACIÓN FOLIO 3211",
   //   linkFile: "https://itetlax.org.mx/assets/pdf/estrados/1.pdf",
   // },
-
+  {
+       id: 1,
+       nameFile: "Convocatoria  IEEM: XXVI Certamen de Investigación y Ensayo Político",
+       linkFile: "https://itetlax.org.mx/assets/pdf/convocatorias/3.pdf",
+     },
 ];
