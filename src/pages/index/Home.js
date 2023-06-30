@@ -30,16 +30,16 @@ const ITE = () => {
   }, []);
   return (
     <>
-      {/* { <ModalInit
+      { <ModalInit
         imgLink="https://itetlax.org.mx/assets/img/imgC_A/22.png"
         url="https://portalanterior.ieepcnl.mx/2023/cepxxiv/"
         linkToo=""
-      /> } */}
-        { <ModalInit
+      /> } 
+        {/* { <ModalInit
         imgLink="https://itetlax.org.mx/assets/img/imgC_I/sesion.jpg"
         url="https://itetlax.org.mx/assets/img/imgC_I/sesion.jpg"
         linkToo=""
-      /> }
+      /> } */}
 
       <Carousel idCarousel="carouselTopIndex">
         {dataCIndex.map((cIndex) => (
@@ -130,13 +130,13 @@ const ITE = () => {
           <h2 className="bottom_title">Sesión en Vivo</h2>
           <div className="Home__video-embed ratio ratio-16x9 w-100">
             <iframe
-              src="https://www.youtube-nocookie.com/embed/Vs-zRlQA0qo?rel=0"
+              src="https://www.youtube-nocookie.com/embed/iTBHitwF2MI?rel=0"
               title="Sesión En Vivo del CG"
               allowFullScreen
             ></iframe>
           </div>
           <h5 className="mt-3 text-center">
-          Sesión Presencial Extraordinaria del CG 31/05/23{" "}
+          Sesión Presencial Ordinaria del CG 30/06/2023{" "}
           </h5>
         </div>
         <div>

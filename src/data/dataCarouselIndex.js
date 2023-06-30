@@ -288,21 +288,12 @@ export const dataCA = [
     id: 2,
     imgUrl: "https://itetlax.org.mx/assets/img/imgC_A/22.png",
     alt: "VIGÉSIMO CUARTO CERTAMEN DE ENSAYO POLÍTICO",
-    //  itemActive: "active",
-    //  buttonActive: "active",
-    //  ariaCurrent: "true",
+    itemActive: "active",
+    buttonActive: "active",
+    ariaCurrent: "true",
     url: "https://portalanterior.ieepcnl.mx/2023/cepxxiv/",
     linkToo: "",
   },
-  {
-    id: 3,
-    imgUrl: "https://itetlax.org.mx/assets/img/imgC_I/sesion.jpg",
-    alt: "VIGÉSIMO CUARTO CERTAMEN DE ENSAYO POLÍTICO",
-     itemActive: "active",
-     buttonActive: "active",
-     ariaCurrent: "true",
-    url: "https://itetlax.org.mx/assets/img/imgC_I/sesion.jpg",
-    linkToo: "",
-  },
+
    
 ];
