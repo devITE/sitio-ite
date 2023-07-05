@@ -30,16 +30,16 @@ const ITE = () => {
   }, []);
   return (
     <>
-      { <ModalInit
+      {/* { <ModalInit
         imgLink="https://itetlax.org.mx/assets/img/imgC_A/22.png"
         url="https://portalanterior.ieepcnl.mx/2023/cepxxiv/"
         linkToo=""
-      /> } 
-        {/* { <ModalInit
-        imgLink="https://itetlax.org.mx/assets/img/imgC_I/sesion.jpg"
-        url="https://itetlax.org.mx/assets/img/imgC_I/sesion.jpg"
+      /> }  */}
+        { <ModalInit
+        imgLink="https://itetlax.org.mx/assets/img/imgC_A/38.jpg"
+        url="https://itetlax.org.mx/assets/img/imgC_A/38.jpg"
         linkToo=""
-      /> } */}
+      /> }
 
       <Carousel idCarousel="carouselTopIndex">
         {dataCIndex.map((cIndex) => (

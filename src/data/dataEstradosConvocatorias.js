@@ -1,11 +1,11 @@
 export const dataEstrados = [
-  // {
-  //   id: 1,
-  //   nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 3211",
-  //   linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/1.pdf",
-  //   nameFolio: "FOLIO 3211-2022",
-  //   linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/1.1.pdf",
-  // },
+  {//Fecha de baja 10 de julio 2023
+    id: 1,
+    nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 1647-2023",
+    linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/21.pdf",
+    nameFolio: "FOLIO 1647-2023",
+    linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/21.1.pdf",
+  },
 
   // {
   //   id: 1,
@@ -53,8 +53,9 @@ export const dataConvocatorias = [
   //   linkFile: "https://itetlax.org.mx/assets/pdf/estrados/1.pdf",
   // },
   {
-       id: 1,
-       nameFile: "Convocatoria  IEEM: XXVI Certamen de Investigación y Ensayo Político",
-       linkFile: "https://itetlax.org.mx/assets/pdf/convocatorias/3.pdf",
-     },
+    id: 1,
+    nameFile:
+      "Convocatoria  IEEM: XXVI Certamen de Investigación y Ensayo Político",
+    linkFile: "https://itetlax.org.mx/assets/pdf/convocatorias/3.pdf",
+  },
 ];
