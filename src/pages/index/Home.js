@@ -36,8 +36,8 @@ const ITE = () => {
         linkToo=""
       /> }  */}
         { <ModalInit
-        imgLink="https://itetlax.org.mx/assets/img/imgC_A/38.jpg"
-        url="https://itetlax.org.mx/assets/img/imgC_A/38.jpg"
+        imgLink="https://itetlax.org.mx/assets/img/imgC_A/39.jpg"
+        url="https://itetlax.org.mx/assets/img/imgC_A/39.jpg"
         linkToo=""
       /> }
 
@@ -56,13 +56,13 @@ const ITE = () => {
       <div className="mt-5 Home__AR-A">
         <div>
           <h2 className="bottom_title">
-          Clausura / Develación del Mural Ganador "Imagen de la Democracia"
+          Develación de Mural en el ITE
           </h2>
           <div className="Home__video-embed ratio ratio-16x9 w-100">
             <iframe
               id="9QQCf_emFwo"
-              src="https://www.youtube-nocookie.com/embed/QR91RtD3OjM?rel=0"
-              title="2da. Semana de Educación Cívica. Inauguración"
+              src="https://www.youtube-nocookie.com/embed/K8zebWVjY9E?rel=0"
+              title="Develación de Mural en el ITE"
               allowFullScreen
             ></iframe>
           </div>

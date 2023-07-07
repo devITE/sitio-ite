@@ -292,4 +292,24 @@ export const dataVideoPodCast = [
     url: "ZmaIMvSvtio",
     title: "ITE Comentamos... Nueva Distritacion Electoral",
   },
+  {
+    id: 53,
+    url: "PL_USjPHoyw",
+    title: "ITE Comentamos... Videopodcast Consejero Presidente Emmanuel 03 Julio 2023",
+  },
+  {
+    id: 54,
+    url: "PTrLsZ_SaKs",
+    title: "ITE Comentamos... Videopodcast Consejero Hermenegildo 05 de Junio 2023",
+  },
+  {
+    id: 55,
+    url: "zwKHAQFp0pY",
+    title: "ITE Comentamos... Videopodcast Consejera Yedith 29 Mayo 2023",
+  },
+  {
+    id: 56,
+    url: "ULm9qIIMgQU",
+    title: "ITE Comentamos... Videopodcast Consejera Janeth 22 Mayo 2023",
+  },
 ];
