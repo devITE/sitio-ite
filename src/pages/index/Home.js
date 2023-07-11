@@ -30,16 +30,16 @@ const ITE = () => {
   }, []);
   return (
     <>
-      {/* { <ModalInit
+       { <ModalInit
         imgLink="https://itetlax.org.mx/assets/img/imgC_A/22.png"
         url="https://portalanterior.ieepcnl.mx/2023/cepxxiv/"
         linkToo=""
-      /> }  */}
-        { <ModalInit
+      /> }  
+        {/* { <ModalInit
         imgLink="https://itetlax.org.mx/assets/img/imgC_A/39.jpg"
         url="https://itetlax.org.mx/assets/img/imgC_A/39.jpg"
         linkToo=""
-      /> }
+      /> } */}
 
       <Carousel idCarousel="carouselTopIndex">
         {dataCIndex.map((cIndex) => (
@@ -56,13 +56,13 @@ const ITE = () => {
       <div className="mt-5 Home__AR-A">
         <div>
           <h2 className="bottom_title">
-          Develación de Mural en el ITE
+          Taller de Análisis de Sentencias
           </h2>
           <div className="Home__video-embed ratio ratio-16x9 w-100">
             <iframe
               id="9QQCf_emFwo"
-              src="https://www.youtube-nocookie.com/embed/K8zebWVjY9E?rel=0"
-              title="Develación de Mural en el ITE"
+              src="https://www.youtube-nocookie.com/embed/sEHflegbzTc?rel=0"
+              title="Taller de Análisis de Sentencias"
               allowFullScreen
             ></iframe>
           </div>

@@ -295,16 +295,16 @@ export const dataCA = [
     linkToo: "",
   },
 
-  {
-    id: 3,
-    imgUrl: "https://itetlax.org.mx/assets/img/imgC_A/38.jpg",
-    alt: "Parlamento Juvenil",
+  //{
+    //id: 3,
+    //imgUrl: "https://itetlax.org.mx/assets/img/imgC_A/38.jpg",
+    //alt: "Parlamento Juvenil",
     // itemActive: "active",
     // buttonActive: "active",
     // ariaCurrent: "true",
-    url: "https://itetlax.org.mx/assets/img/imgC_A/38.jpg",
-    linkToo: "",
-  },
+    //url: "https://itetlax.org.mx/assets/img/imgC_A/38.jpg",
+    //linkToo: "",
+  //},
   {
     id: 4,
     imgUrl: "https://itetlax.org.mx/assets/img/imgC_A/39.jpg",
