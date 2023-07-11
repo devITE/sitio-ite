@@ -312,4 +312,9 @@ export const dataVideoPodCast = [
     url: "ULm9qIIMgQU",
     title: "ITE Comentamos... Videopodcast Consejera Janeth 22 Mayo 2023",
   },
+  {
+    id: 57,
+    url: "UO0VCvhnYoI",
+    title: "ITE Comentamos... Videopodcast Consejera Janeth Cervantes Ahuatzi",
+  },
 ];
