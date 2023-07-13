@@ -529,74 +529,73 @@ export const dataGaleria = [
   },
  
   
-  
-  // {
-  //   id: 7,
-  //   nameItem: 7,
-  //   titleItem:
-  //     "4.	PRIMER INFORME ANUAL DE ACTIVIDADES DEL ÓRGANO INTERNO DE CONTROL DEL INSTITUTO TLAXCALTECA 2022.",
-  //   flushID: "heading7",
-  //   children: [
-  //     {
-  //       id: 1,
-  //       carouselID: "galeria7",
-  //       subChildren: [
-  //         {
-  //           id: 1,
-  //           imgUrl: "https://itetlax.org.mx/assets/img/OIC/g7/1.jpg",
-  //           alt: "Fotografía 1",
-  //           itemActive: "active",
-  //           buttonActive: "active",
-  //           ariaCurrent: "true",
-  //           url: "https://itetlax.org.mx/assets/img/OIC/g7/1.jpg",
-  //           linkToo: "",
-  //         },
-  //         {
-  //           id: 2,
-  //           imgUrl: "https://itetlax.org.mx/assets/img/OIC/g7/2.jpg",
-  //           alt: "Fotografía 2",
-  //           url: "https://itetlax.org.mx/assets/img/OIC/g7/2.jpg",
-  //           linkToo: "",
-  //         },
-  //         {
-  //           id: 3,
-  //           imgUrl: "https://itetlax.org.mx/assets/img/OIC/g7/3.jpg",
-  //           alt: "Fotografía 3",
-  //           url: "https://itetlax.org.mx/assets/img/OIC/g7/3.jpg",
-  //           linkToo: "",
-  //         },
-  //         {
-  //           id: 4,
-  //           imgUrl: "https://itetlax.org.mx/assets/img/OIC/g7/4.jpg",
-  //           alt: "Fotografía 4",
-  //           url: "https://itetlax.org.mx/assets/img/OIC/g7/4.jpg",
-  //           linkToo: "",
-  //         },
-  //         {
-  //           id: 5,
-  //           imgUrl: "https://itetlax.org.mx/assets/img/OIC/g7/5.jpg",
-  //           alt: "Fotografía 5",
-  //           url: "https://itetlax.org.mx/assets/img/OIC/g7/5.jpg",
-  //           linkToo: "",
-  //         },
-  //         {
-  //           id: 6,
-  //           imgUrl: "https://itetlax.org.mx/assets/img/OIC/g7/6.jpg",
-  //           alt: "Fotografía 6",
-  //           url: "https://itetlax.org.mx/assets/img/OIC/g7/6.jpg",
-  //           linkToo: "",
-  //         },
-  //         {
-  //           id: 7,
-  //           imgUrl: "https://itetlax.org.mx/assets/img/OIC/g7/7.jpg",
-  //           alt: "Fotografía 7",
-  //           url: "https://itetlax.org.mx/assets/img/OIC/g7/7.jpg",
-  //           linkToo: "",
-  //         },
-  //       ],
-  //     },
-  //   ],
-  // },
+  {
+    id: 9,
+    nameItem: 9,
+    titleItem:
+      "QUINTO FORO DE CAPACITACIÓN DURANGO 2023.",
+    flushID: "heading9",
+    children: [
+      {
+        id: 1,
+        carouselID: "galeria9",
+        subChildren: [
+          {
+            id: 1,
+            imgUrl: "https://itetlax.org.mx/assets/img/OIC/g8/1.jpg",
+            alt: "Fotografía 1",
+            itemActive: "active",
+            buttonActive: "active",
+            ariaCurrent: "true",
+            url: "https://itetlax.org.mx/assets/img/OIC/g8/1.jpg",
+            linkToo: "",
+          },
+          {
+            id: 2,
+            imgUrl: "https://itetlax.org.mx/assets/img/OIC/g8/2.jpg",
+            alt: "Fotografía 2",
+            url: "https://itetlax.org.mx/assets/img/OIC/g8/2.jpg",
+            linkToo: "",
+          },
+          {
+            id: 3,
+            imgUrl: "https://itetlax.org.mx/assets/img/OIC/g8/3.jpg",
+            alt: "Fotografía 3",
+            url: "https://itetlax.org.mx/assets/img/OIC/g8/3.jpg",
+            linkToo: "",
+          },
+          {
+            id: 4,
+            imgUrl: "https://itetlax.org.mx/assets/img/OIC/g8/4.jpg",
+            alt: "Fotografía 4",
+            url: "https://itetlax.org.mx/assets/img/OIC/g8/4.jpg",
+            linkToo: "",
+          },
+          {
+            id: 5,
+            imgUrl: "https://itetlax.org.mx/assets/img/OIC/g8/5.jpg",
+            alt: "Fotografía 5",
+            url: "https://itetlax.org.mx/assets/img/OIC/g8/5.jpg",
+            linkToo: "",
+          },
+          {
+            id: 6,
+            imgUrl: "https://itetlax.org.mx/assets/img/OIC/g8/6.jpg",
+            alt: "Fotografía 6",
+            url: "https://itetlax.org.mx/assets/img/OIC/g8/6.jpg",
+            linkToo: "",
+          },
+          {
+            id: 7,
+            imgUrl: "https://itetlax.org.mx/assets/img/OIC/g8/7.jpg",
+            alt: "Fotografía 7",
+            url: "https://itetlax.org.mx/assets/img/OIC/g8/7.jpg",
+            linkToo: "",
+          },
+        ],
+      },
+    ],
+  },
 
 ];
 
@@ -751,5 +750,14 @@ export const dataCodigoEtica = [
     titleItem: "CÓDIGO DE ÉTICA",
     typeDocument: "pdf",
     linkItem: "https://itetlax.org.mx/assets/pdf/OIC/14.pdf",
+  },
+];
+
+export const dataInformes = [
+  {
+    id: 1,
+    titleItem: "PRIMER INFORME ANUAL DE ACTIVIDADES 2022",
+    typeDocument: "pdf",
+    linkItem: "https://itetlax.org.mx/assets/pdf/OIC/15.pdf",
   },
 ];

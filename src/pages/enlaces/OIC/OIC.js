@@ -11,6 +11,7 @@ import {
   dataSemblanza,
   dataDeclaracionPatrimonial,
   dataCodigoEtica,
+  dataInformes
 } from "../../../data/dataOIC";
 import "../EnlacesStyle.css";
 
@@ -139,6 +140,21 @@ export const OIC = () => {
         </div>
         <div>
           <a
+            href="#/"
+            rel="noreferrer"
+            data-bs-toggle="modal"
+            data-bs-target="#Informes"
+          >
+            <img
+              className="img-fluid"
+              src="https://itetlax.org.mx/assets/img/icons/e16.png"
+              alt="Informes"
+            />
+          </a>
+          <p className="mt-2">Informes</p>
+        </div>
+        {/* <div>
+          <a
             href="https://itetlax.org.mx/assets/pdf/OIC/15.pdf"
             rel="noreferrer"
             target="_blank"
@@ -150,7 +166,7 @@ export const OIC = () => {
             />
           </a>
           <p className="mt-2">1er. Informe Anual de Actividades OIC</p>
-        </div>
+        </div> */}
       </div>
       <Modal
         idModal="EstructuraOrganica"
@@ -204,6 +220,14 @@ export const OIC = () => {
         sizeModal=""
         contentModal={
           <ListBadge ifNumbered={""} listsBadgeItem={dataCodigoEtica} />
+        }
+      />
+      <Modal
+        idModal="Informes"
+        titleModal="Informes"
+        sizeModal=""
+        contentModal={
+          <ListBadge ifNumbered={""} listsBadgeItem={dataInformes} />
         }
       />
     </>
