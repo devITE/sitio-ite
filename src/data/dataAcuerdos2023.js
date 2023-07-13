@@ -466,7 +466,7 @@ export const dataAcuerdos2023 = [
     numDoc: "ITE-CG 38-2023",
     monthDoc: "MAY",
     nameDoc:
-      "ACUERDO ITE-CG 38-2023 SUSPENSIÓN FASE DE EJECUCIÓN DEL PROCESO DE CONSULTA",
+      "ITE-CG 38-2023 SUSPENSIÓN FASE DE EJECUCIÓN DEL PROCESO DE CONSULTA",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/38.pdf",
   },
   {
@@ -476,7 +476,7 @@ export const dataAcuerdos2023 = [
     numDoc: "ITE-CG 39-2023",
     monthDoc: "ABR",
     nameDoc:
-      "ACUERDO ITE-CG 39-2023 SE CALENDARIZA REMANENTES NO EJERCIDOS Y CANTIDADES A RETENER POR MULTAS",
+      "ITE-CG 39-2023 SE CALENDARIZA REMANENTES NO EJERCIDOS Y CANTIDADES A RETENER POR MULTAS",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/39.pdf",
     titleAnexo1: "ANEXO UNO",
     pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/39.1.pdf",
@@ -490,10 +490,22 @@ export const dataAcuerdos2023 = [
     numDoc: "ITE-CG 40-2023",
     monthDoc: "MAY",
     nameDoc:
-      "ACUERDO ITE-CG 40-2023 POR EL QUE SE CALENDARIZA LA RETENCIÓN DE MULTAS",
+      "ITE-CG 40-2023 POR EL QUE SE CALENDARIZA LA RETENCIÓN DE MULTAS",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/40.pdf",
     titleAnexo1: "ANEXO ÚNICO",
     pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/40.1.pdf",
+  },
+  {
+    id: 41,
+    year: "2023",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 41-2023",
+    monthDoc: "JUL",
+    nameDoc:
+      "ITE-CG 41-2023 DICTAMEN CONSOLIDADO RESPECTO DE INFORMES MENSUALES DE RECURSOS ORGANIZACIÓN UNIFICACIÓN Y EVOLUCIÓN ENERO A ABRIL 2023",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/41.pdf",
+    titleAnexo1: "ACUERDO ITE-CG 41-2023 DICTAMEN CONSOLIDADO",
+    pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/41.1.pdf",
   },
 ];
 
