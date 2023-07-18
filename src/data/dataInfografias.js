@@ -69,8 +69,19 @@ export const dataInf = [
         subChildren: [
           {
             id: 1,
-            alt: "  Código de Ética",
+            alt: " Código de Ética",
             link: "https://itetlax.org.mx/assets/img/imgEInf/2023/4.jpg",
+          },
+        ],
+      },
+      {
+        id: 4,
+        titleButton: "Julio",
+        subChildren: [
+          {
+            id: 1,
+            alt: "¿Qué son los partidos politicos?",
+            link: "https://itetlax.org.mx/assets/img/imgEInf/2023/5.jpg",
           },
         ],
       },

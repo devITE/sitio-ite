@@ -317,4 +317,10 @@ export const dataVideoPodCast = [
     url: "UO0VCvhnYoI",
     title: "ITE Comentamos... Videopodcast Consejera Janeth Cervantes Ahuatzi",
   },
+
+  {
+    id: 58,
+    url: "2PFIVfStaAw",
+    title: "ITE Comentamos... Videopodcast Consejera Yedith Martinez Pinillo",
+  },
 ];
