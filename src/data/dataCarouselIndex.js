@@ -286,12 +286,12 @@ export const dataCA = [
 
   {
     id: 2,
-    imgUrl: "https://itetlax.org.mx/assets/img/imgC_A/22.png",
+    imgUrl: "https://itetlax.org.mx/assets/img/imgC_A/43.png",
     alt: "VIGÉSIMO CUARTO CERTAMEN DE ENSAYO POLÍTICO",
     itemActive: "active",
     buttonActive: "active",
     ariaCurrent: "true",
-    url: "https://portalanterior.ieepcnl.mx/2023/cepxxiv/",
+    url: "https://itetlax.org.mx/assets/img/imgC_A/43.png",
     linkToo: "",
   },
 

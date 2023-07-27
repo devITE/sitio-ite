@@ -323,4 +323,9 @@ export const dataVideoPodCast = [
     url: "2PFIVfStaAw",
     title: "ITE Comentamos... Videopodcast Consejera Yedith Martinez Pinillo",
   },
+  {
+    id: 59,
+    url: "J1gXObGpKwE",
+    title: "ITE Comentamos... Videopodcast Consejero Hermenegildo Neria Carreño",
+  },
 ];
