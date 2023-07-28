@@ -287,11 +287,21 @@ export const dataCA = [
   {
     id: 2,
     imgUrl: "https://itetlax.org.mx/assets/img/imgC_A/43.png",
-    alt: "VIGÉSIMO CUARTO CERTAMEN DE ENSAYO POLÍTICO",
+    alt: "sesion ordinaria",
     itemActive: "active",
     buttonActive: "active",
     ariaCurrent: "true",
     url: "https://itetlax.org.mx/assets/img/imgC_A/43.png",
+    linkToo: "",
+  },
+  {
+    id: 3,
+    imgUrl: "https://itetlax.org.mx/assets/img/imgC_A/44.png",
+    // alt: "sesion extraoridinaria",
+    // itemActive: "active",
+    // buttonActive: "active",
+    // ariaCurrent: "true",
+    url: "https://itetlax.org.mx/assets/img/imgC_A/44.png",
     linkToo: "",
   },
 
