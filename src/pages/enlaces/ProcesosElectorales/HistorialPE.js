@@ -9,26 +9,26 @@ const HistorialPE = () => {
   useEffect(() => {
     document.title = `Historial de Resultados Electorales (1995 - 2003)`;
   }, []);
-    return (
-      <>
-        <NavbarEnlaces title="Historial de Resultados Electorales (1995 - 2003)" />
-        <Accordion idAccordion="historialPE" clasName={"w-75 mx-auto"}>
-          {dataHistorial.map((infoAccordion) => (
-            <AccordionItem
-              key={infoAccordion.id}
-              flushID={infoAccordion.flushID}
-              titleItem={infoAccordion.titleItem}
-              contentItem={
-                <ListBadge
-                  ifNumbered={""}
-                  listsBadgeItem={infoAccordion.children}
-                />
-              }
-              idAccordion="historialPE"
-            />
-          ))}
-        </Accordion>
-      </>
-    );
-  }
-  export default HistorialPE;
+  return (
+    <>
+      <NavbarEnlaces title="Historial de Resultados Electorales (1995 - 2003)" />
+      <Accordion idAccordion="historialPE" clasName={"w-75 mx-auto"}>
+        {dataHistorial.map((infoAccordion) => (
+          <AccordionItem
+            key={infoAccordion.id}
+            flushID={infoAccordion.flushID}
+            titleItem={infoAccordion.titleItem}
+            contentItem={
+              <ListBadge
+                ifNumbered={""}
+                listsBadgeItem={infoAccordion.children}
+              />
+            }
+            idAccordion="historialPE"
+          />
+        ))}
+      </Accordion>
+    </>
+  );
+};
+export default HistorialPE;

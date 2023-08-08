@@ -1,42 +1,49 @@
 export const dataEstrados = [
-  // {
+  // {//Fecha de baja 10 de julio 2023
   //   id: 1,
-  //   nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 3211",
-  //   linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/1.pdf",
-  //   nameFolio: "FOLIO 3211-2022",
-  //   linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/1.1.pdf",
+  //   nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 1647-2023",
+  //   linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/21.pdf",
+  //   nameFolio: "FOLIO 1647-2023",
+  //   linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/21.1.pdf",
   // },
 
-  {
-    id: 1,
-    nameCedula:
-      "CÉDULA DE FIJACIÓN EN ESTRADOS RESOLUCIONES ITE-CG 20-2023 A LA ITE-CG 25-2023",
-    linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/9.pdf",
-    nameFolio: "",
-    linkFolio: "",
-  },
+  // {
+  //   id: 1,
+  //   nameCedula:
+  //     "CÉDULA DE FIJACIÓN EN ESTRADOS RESOLUCIONES ITE-CG 20-2023 A LA ITE-CG 25-2023",
+  //   linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/9.pdf",
+  //   nameFolio: "",
+  //   linkFolio: "",
+  // },
 
-  {
-    id: 2,
-    nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 1125",
-    linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/12.pdf",
-    nameFolio: "FOLIO 1125-2023",
-    linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/12.1.pdf",
-  },
-  {
-    id: 3,
-    nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 1214",
-    linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/13.pdf",
-    nameFolio: "FOLIO 1214-2023",
-    linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/13.1.pdf",
-  },
-  {
-    id: 4,
-    nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 1319", // BAJA 19/05/23
-    linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/18.pdf",
-    nameFolio: "FOLIO 1319-2023",
-    linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/18.1.pdf",
-  },
+  // {
+  //   id: 2,
+  //   nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 1125",
+  //   linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/12.pdf",
+  //   nameFolio: "FOLIO 1125-2023",
+  //   linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/12.1.pdf",
+  // },
+  // {
+  //   id: 3,
+  //   nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 1214",
+  //   linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/13.pdf",
+  //   nameFolio: "FOLIO 1214-2023",
+  //   linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/13.1.pdf",
+  // },
+  // {
+  //   id: 4,
+  //   nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 1449",
+  //   linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/19.pdf",
+  //   nameFolio: "FOLIO 1449-2023",
+  //   linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/19.1.pdf",
+  // },
+  // {
+  //   id: 5,
+  //   nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 1451",
+  //   linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/20.pdf",
+  //   nameFolio: "FOLIO 1451-2023",
+  //   linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/20.1.pdf",
+  // },
 ];
 
 export const dataConvocatorias = [
@@ -45,4 +52,10 @@ export const dataConvocatorias = [
   //   nameFile: "CÉDULA DE PUBLICITACIÓN FOLIO 3211",
   //   linkFile: "https://itetlax.org.mx/assets/pdf/estrados/1.pdf",
   // },
+  {
+    id: 1,
+    nameFile:
+      "Convocatoria  IEEM: XXVI Certamen de Investigación y Ensayo Político",
+    linkFile: "https://itetlax.org.mx/assets/pdf/convocatorias/3.pdf",
+  },
 ];

@@ -1,9 +1,322 @@
 export const dataGaleria = [
   {
+    id: 8,
+    nameItem: 8,
+    titleItem:
+      "CAPACITACIÓN DENOMINADA “CÓDIGO DE ÉTICA” IMPARTIDA POR EL LIC. JESÚS GEORGE ZAMORA, TITULAR DEL ÓRGANO INTERNO DE CONTROL DEL INSTITUTO NACIONAL ELECTORAL (INE) 2023.",
+    flushID: "heading8",
+    children: [
+      {
+        id: 1,
+        carouselID: "galeria8",
+        subChildren: [
+          {
+            id: 1,
+            imgUrl: "https://itetlax.org.mx/assets/img/OIC/g7/8.jpg",
+            alt: "Fotografía 1",
+            itemActive: "active",
+            buttonActive: "active",
+            ariaCurrent: "true",
+            url: "https://itetlax.org.mx/assets/img/OIC/g7/8.jpg",
+            linkToo: "",
+          },
+          {
+            id: 2,
+            imgUrl: "https://itetlax.org.mx/assets/img/OIC/g7/9.jpg",
+            alt: "Fotografía 2",
+            url: "https://itetlax.org.mx/assets/img/OIC/g7/9.jpg",
+            linkToo: "",
+          },
+          {
+            id: 3,
+            imgUrl: "https://itetlax.org.mx/assets/img/OIC/g7/10.jpg",
+            alt: "Fotografía 3",
+            url: "https://itetlax.org.mx/assets/img/OIC/g7/10.jpg",
+            linkToo: "",
+          },
+          {
+            id: 4,
+            imgUrl: "https://itetlax.org.mx/assets/img/OIC/g7/11.jpg",
+            alt: "Fotografía 4",
+            url: "https://itetlax.org.mx/assets/img/OIC/g7/11.jpg",
+            linkToo: "",
+          },
+          {
+            id: 5,
+            imgUrl: "https://itetlax.org.mx/assets/img/OIC/g7/12.jpg",
+            alt: "Fotografía 5",
+            url: "https://itetlax.org.mx/assets/img/OIC/g7/12.jpg",
+            linkToo: "",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: 7,
+    nameItem: 7,
+    titleItem:
+      "PRIMER INFORME ANUAL DE ACTIVIDADES DEL ÓRGANO INTERNO DE CONTROL DEL INSTITUTO TLAXCALTECA 2022.",
+    flushID: "heading7",
+    children: [
+      {
+        id: 1,
+        carouselID: "galeria7",
+        subChildren: [
+          {
+            id: 1,
+            imgUrl: "https://itetlax.org.mx/assets/img/OIC/g7/1.jpg",
+            alt: "Fotografía 1",
+            itemActive: "active",
+            buttonActive: "active",
+            ariaCurrent: "true",
+            url: "https://itetlax.org.mx/assets/img/OIC/g7/1.jpg",
+            linkToo: "",
+          },
+          {
+            id: 2,
+            imgUrl: "https://itetlax.org.mx/assets/img/OIC/g7/2.jpg",
+            alt: "Fotografía 2",
+            url: "https://itetlax.org.mx/assets/img/OIC/g7/2.jpg",
+            linkToo: "",
+          },
+          {
+            id: 3,
+            imgUrl: "https://itetlax.org.mx/assets/img/OIC/g7/3.jpg",
+            alt: "Fotografía 3",
+            url: "https://itetlax.org.mx/assets/img/OIC/g7/3.jpg",
+            linkToo: "",
+          },
+          {
+            id: 4,
+            imgUrl: "https://itetlax.org.mx/assets/img/OIC/g7/4.jpg",
+            alt: "Fotografía 4",
+            url: "https://itetlax.org.mx/assets/img/OIC/g7/4.jpg",
+            linkToo: "",
+          },
+          {
+            id: 5,
+            imgUrl: "https://itetlax.org.mx/assets/img/OIC/g7/5.jpg",
+            alt: "Fotografía 5",
+            url: "https://itetlax.org.mx/assets/img/OIC/g7/5.jpg",
+            linkToo: "",
+          },
+          {
+            id: 6,
+            imgUrl: "https://itetlax.org.mx/assets/img/OIC/g7/6.jpg",
+            alt: "Fotografía 6",
+            url: "https://itetlax.org.mx/assets/img/OIC/g7/6.jpg",
+            linkToo: "",
+          },
+          {
+            id: 7,
+            imgUrl: "https://itetlax.org.mx/assets/img/OIC/g7/7.jpg",
+            alt: "Fotografía 7",
+            url: "https://itetlax.org.mx/assets/img/OIC/g7/7.jpg",
+            linkToo: "",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: 3,
+    nameItem: 3,
+    titleItem: "PRESENTACIÓN DEL CÓDIGO DE ÉTICA 2022.",
+    flushID: "heading3",
+    children: [
+      {
+        id: 1,
+        carouselID: "galeria3",
+        subChildren: [
+          {
+            id: 1,
+            imgUrl: "https://itetlax.org.mx/assets/img/OIC/g3/1.jpg",
+            alt: "Fotografía 1",
+            itemActive: "active",
+            buttonActive: "active",
+            ariaCurrent: "true",
+            url: "https://itetlax.org.mx/assets/img/OIC/g3/1.jpg",
+            linkToo: "",
+          },
+          {
+            id: 2,
+            imgUrl: "https://itetlax.org.mx/assets/img/OIC/g3/2.jpg",
+            alt: "Fotografía 2",
+            url: "https://itetlax.org.mx/assets/img/OIC/g3/2.jpg",
+            linkToo: "",
+          },
+          {
+            id: 3,
+            imgUrl: "https://itetlax.org.mx/assets/img/OIC/g3/3.jpg",
+            alt: "Fotografía 3",
+            url: "https://itetlax.org.mx/assets/img/OIC/g3/3.jpg",
+            linkToo: "",
+          },
+          {
+            id: 4,
+            imgUrl: "https://itetlax.org.mx/assets/img/OIC/g3/4.jpg",
+            alt: "Fotografía 4",
+            url: "https://itetlax.org.mx/assets/img/OIC/g3/4.jpg",
+            linkToo: "",
+          },
+          {
+            id: 5,
+            imgUrl: "https://itetlax.org.mx/assets/img/OIC/g3/5.jpg",
+            alt: "Fotografía 5",
+            url: "https://itetlax.org.mx/assets/img/OIC/g3/5.jpg",
+            linkToo: "",
+          },
+          {
+            id: 6,
+            imgUrl: "https://itetlax.org.mx/assets/img/OIC/g3/6.jpg",
+            alt: "Fotografía 6",
+            url: "https://itetlax.org.mx/assets/img/OIC/g3/6.jpg",
+            linkToo: "",
+          },
+          {
+            id: 7,
+            imgUrl: "https://itetlax.org.mx/assets/img/OIC/g3/7.jpg",
+            alt: "Fotografía 7",
+            url: "https://itetlax.org.mx/assets/img/OIC/g3/7.jpg",
+            linkToo: "",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: 2,
+    nameItem: 2,
+    titleItem:
+      "CAPACITACIÓN DENOMINADA DECLARACIONES PATRIMONIALES, FALTAS ADMINISTRATIVAS Y CÓDIGO DE ÉTICA 2022.",
+    flushID: "heading2",
+    children: [
+      {
+        id: 1,
+        carouselID: "galeria2",
+        subChildren: [
+          {
+            id: 1,
+            imgUrl: "https://itetlax.org.mx/assets/img/OIC/g2/1.jpg",
+            alt: "Fotografía 1",
+            itemActive: "active",
+            buttonActive: "active",
+            ariaCurrent: "true",
+            url: "https://itetlax.org.mx/assets/img/OIC/g2/1.jpg",
+            linkToo: "",
+          },
+          {
+            id: 2,
+            imgUrl: "https://itetlax.org.mx/assets/img/OIC/g2/2.jpg",
+            alt: "Fotografía 2",
+            url: "https://itetlax.org.mx/assets/img/OIC/g2/2.jpg",
+            linkToo: "",
+          },
+          {
+            id: 3,
+            imgUrl: "https://itetlax.org.mx/assets/img/OIC/g2/3.jpg",
+            alt: "Fotografía 3",
+            url: "https://itetlax.org.mx/assets/img/OIC/g2/3.jpg",
+            linkToo: "",
+          },
+          {
+            id: 4,
+            imgUrl: "https://itetlax.org.mx/assets/img/OIC/g2/4.jpg",
+            alt: "Fotografía 4",
+            url: "https://itetlax.org.mx/assets/img/OIC/g2/4.jpg",
+            linkToo: "",
+          },
+          {
+            id: 5,
+            imgUrl: "https://itetlax.org.mx/assets/img/OIC/g2/5.jpg",
+            alt: "Fotografía 5",
+            url: "https://itetlax.org.mx/assets/img/OIC/g2/5.jpg",
+            linkToo: "",
+          },
+          {
+            id: 6,
+            imgUrl: "https://itetlax.org.mx/assets/img/OIC/g2/6.jpg",
+            alt: "Fotografía 6",
+            url: "https://itetlax.org.mx/assets/img/OIC/g2/6.jpg",
+            linkToo: "",
+          },
+          {
+            id: 7,
+            imgUrl: "https://itetlax.org.mx/assets/img/OIC/g2/7.jpg",
+            alt: "Fotografía 7",
+            url: "https://itetlax.org.mx/assets/img/OIC/g2/7.jpg",
+            linkToo: "",
+          },
+          {
+            id: 8,
+            imgUrl: "https://itetlax.org.mx/assets/img/OIC/g2/8.jpg",
+            alt: "Fotografía 8",
+            url: "https://itetlax.org.mx/assets/img/OIC/g2/8.jpg",
+            linkToo: "",
+          },
+          {
+            id: 9,
+            imgUrl: "https://itetlax.org.mx/assets/img/OIC/g2/9.jpg",
+            alt: "Fotografía 9",
+            url: "https://itetlax.org.mx/assets/img/OIC/g2/9.jpg",
+            linkToo: "",
+          },
+          {
+            id: 10,
+            imgUrl: "https://itetlax.org.mx/assets/img/OIC/g2/10.jpg",
+            alt: "Fotografía 10",
+            url: "https://itetlax.org.mx/assets/img/OIC/g2/10.jpg",
+            linkToo: "",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: 5,
+    nameItem: 5,
+    titleItem:
+      "MESA DE DIÁLOGO PARA PREVENIR LA CORRUPCIÓN EN PROCEDIMIENTOS DE ADQUISICIÓN Y CONTRATACIONES PÚBLICAS 2022.",
+    flushID: "heading5",
+    children: [
+      {
+        id: 1,
+        carouselID: "galeria5",
+        subChildren: [
+          {
+            id: 1,
+            imgUrl: "https://itetlax.org.mx/assets/img/OIC/g5/1.jpg",
+            alt: "Fotografía 1",
+            itemActive: "active",
+            buttonActive: "active",
+            ariaCurrent: "true",
+            url: "https://itetlax.org.mx/assets/img/OIC/g5/1.jpg",
+            linkToo: "",
+          },
+          {
+            id: 2,
+            imgUrl: "https://itetlax.org.mx/assets/img/OIC/g5/2.jpg",
+            alt: "Fotografía 2",
+            url: "https://itetlax.org.mx/assets/img/OIC/g5/2.jpg",
+            linkToo: "",
+          },
+          {
+            id: 3,
+            imgUrl: "https://itetlax.org.mx/assets/img/OIC/g5/3.jpg",
+            alt: "Fotografía 3",
+            url: "https://itetlax.org.mx/assets/img/OIC/g5/3.jpg",
+            linkToo: "",
+          },
+        ],
+      },
+    ],
+  },
+  {
     id: 1,
     nameItem: 1,
     titleItem:
-      "2do. Foro de Capacitación para los Órganos Internos de Control de Institutos Electorales, 15 y 16 de agosto de 2022",
+      "SEGUNDO FORO DE CAPACITACIÓN MONTERREY 2022.",
     flushID: "heading1",
     children: [
       {
@@ -130,242 +443,10 @@ export const dataGaleria = [
     ],
   },
   {
-    id: 2,
-    nameItem: 2,
-    titleItem:
-      "Capacitación denominada Declaraciones Patrimoniales, Faltas Administrativas y Código de Ética",
-    flushID: "heading2",
-    children: [
-      {
-        id: 1,
-        carouselID: "galeria2",
-        subChildren: [
-          {
-            id: 1,
-            imgUrl: "https://itetlax.org.mx/assets/img/OIC/g2/1.jpg",
-            alt: "Fotografía 1",
-            itemActive: "active",
-            buttonActive: "active",
-            ariaCurrent: "true",
-            url: "https://itetlax.org.mx/assets/img/OIC/g2/1.jpg",
-            linkToo: "",
-          },
-          {
-            id: 2,
-            imgUrl: "https://itetlax.org.mx/assets/img/OIC/g2/2.jpg",
-            alt: "Fotografía 2",
-            url: "https://itetlax.org.mx/assets/img/OIC/g2/2.jpg",
-            linkToo: "",
-          },
-          {
-            id: 3,
-            imgUrl: "https://itetlax.org.mx/assets/img/OIC/g2/3.jpg",
-            alt: "Fotografía 3",
-            url: "https://itetlax.org.mx/assets/img/OIC/g2/3.jpg",
-            linkToo: "",
-          },
-          {
-            id: 4,
-            imgUrl: "https://itetlax.org.mx/assets/img/OIC/g2/4.jpg",
-            alt: "Fotografía 4",
-            url: "https://itetlax.org.mx/assets/img/OIC/g2/4.jpg",
-            linkToo: "",
-          },
-          {
-            id: 5,
-            imgUrl: "https://itetlax.org.mx/assets/img/OIC/g2/5.jpg",
-            alt: "Fotografía 5",
-            url: "https://itetlax.org.mx/assets/img/OIC/g2/5.jpg",
-            linkToo: "",
-          },
-          {
-            id: 6,
-            imgUrl: "https://itetlax.org.mx/assets/img/OIC/g2/6.jpg",
-            alt: "Fotografía 6",
-            url: "https://itetlax.org.mx/assets/img/OIC/g2/6.jpg",
-            linkToo: "",
-          },
-          {
-            id: 7,
-            imgUrl: "https://itetlax.org.mx/assets/img/OIC/g2/7.jpg",
-            alt: "Fotografía 7",
-            url: "https://itetlax.org.mx/assets/img/OIC/g2/7.jpg",
-            linkToo: "",
-          },
-          {
-            id: 8,
-            imgUrl: "https://itetlax.org.mx/assets/img/OIC/g2/8.jpg",
-            alt: "Fotografía 8",
-            url: "https://itetlax.org.mx/assets/img/OIC/g2/8.jpg",
-            linkToo: "",
-          },
-          {
-            id: 9,
-            imgUrl: "https://itetlax.org.mx/assets/img/OIC/g2/9.jpg",
-            alt: "Fotografía 9",
-            url: "https://itetlax.org.mx/assets/img/OIC/g2/9.jpg",
-            linkToo: "",
-          },
-          {
-            id: 10,
-            imgUrl: "https://itetlax.org.mx/assets/img/OIC/g2/10.jpg",
-            alt: "Fotografía 10",
-            url: "https://itetlax.org.mx/assets/img/OIC/g2/10.jpg",
-            linkToo: "",
-          },
-        ],
-      },
-    ],
-  },
-  {
-    id: 3,
-    nameItem: 3,
-    titleItem: "Presentación del Código de Ética",
-    flushID: "heading3",
-    children: [
-      {
-        id: 1,
-        carouselID: "galeria3",
-        subChildren: [
-          {
-            id: 1,
-            imgUrl: "https://itetlax.org.mx/assets/img/OIC/g3/1.jpg",
-            alt: "Fotografía 1",
-            itemActive: "active",
-            buttonActive: "active",
-            ariaCurrent: "true",
-            url: "https://itetlax.org.mx/assets/img/OIC/g3/1.jpg",
-            linkToo: "",
-          },
-          {
-            id: 2,
-            imgUrl: "https://itetlax.org.mx/assets/img/OIC/g3/2.jpg",
-            alt: "Fotografía 2",
-            url: "https://itetlax.org.mx/assets/img/OIC/g3/2.jpg",
-            linkToo: "",
-          },
-          {
-            id: 3,
-            imgUrl: "https://itetlax.org.mx/assets/img/OIC/g3/3.jpg",
-            alt: "Fotografía 3",
-            url: "https://itetlax.org.mx/assets/img/OIC/g3/3.jpg",
-            linkToo: "",
-          },
-          {
-            id: 4,
-            imgUrl: "https://itetlax.org.mx/assets/img/OIC/g3/4.jpg",
-            alt: "Fotografía 4",
-            url: "https://itetlax.org.mx/assets/img/OIC/g3/4.jpg",
-            linkToo: "",
-          },
-          {
-            id: 5,
-            imgUrl: "https://itetlax.org.mx/assets/img/OIC/g3/5.jpg",
-            alt: "Fotografía 5",
-            url: "https://itetlax.org.mx/assets/img/OIC/g3/5.jpg",
-            linkToo: "",
-          },
-          {
-            id: 6,
-            imgUrl: "https://itetlax.org.mx/assets/img/OIC/g3/6.jpg",
-            alt: "Fotografía 6",
-            url: "https://itetlax.org.mx/assets/img/OIC/g3/6.jpg",
-            linkToo: "",
-          },
-          {
-            id: 7,
-            imgUrl: "https://itetlax.org.mx/assets/img/OIC/g3/7.jpg",
-            alt: "Fotografía 7",
-            url: "https://itetlax.org.mx/assets/img/OIC/g3/7.jpg",
-            linkToo: "",
-          },
-        ],
-      },
-    ],
-  },
-  {
-    id: 4,
-    nameItem: 4,
-    titleItem:
-      "Toma de protesta Asociación Nacional de Contraloras y Contralores de Institutos Electorales ANCCIEM",
-    flushID: "heading4",
-    children: [
-      {
-        id: 1,
-        carouselID: "galeria4",
-        subChildren: [
-          {
-            id: 1,
-            imgUrl: "https://itetlax.org.mx/assets/img/OIC/g4/1.jpg",
-            alt: "Fotografía 1",
-            itemActive: "active",
-            buttonActive: "active",
-            ariaCurrent: "true",
-            url: "https://itetlax.org.mx/assets/img/OIC/g4/1.jpg",
-            linkToo: "",
-          },
-          {
-            id: 2,
-            imgUrl: "https://itetlax.org.mx/assets/img/OIC/g4/2.jpg",
-            alt: "Fotografía 2",
-            url: "https://itetlax.org.mx/assets/img/OIC/g4/2.jpg",
-            linkToo: "",
-          },
-          {
-            id: 3,
-            imgUrl: "https://itetlax.org.mx/assets/img/OIC/g4/3.jpg",
-            alt: "Fotografía 3",
-            url: "https://itetlax.org.mx/assets/img/OIC/g4/3.jpg",
-            linkToo: "",
-          },
-        ],
-      },
-    ],
-  },
-  {
-    id: 5,
-    nameItem: 5,
-    titleItem:
-      "Mesa de diálogo para prevenir la corrupción en procedimientos de adquisición y contrataciones públicas",
-    flushID: "heading5",
-    children: [
-      {
-        id: 1,
-        carouselID: "galeria5",
-        subChildren: [
-          {
-            id: 1,
-            imgUrl: "https://itetlax.org.mx/assets/img/OIC/g5/1.jpg",
-            alt: "Fotografía 1",
-            itemActive: "active",
-            buttonActive: "active",
-            ariaCurrent: "true",
-            url: "https://itetlax.org.mx/assets/img/OIC/g5/1.jpg",
-            linkToo: "",
-          },
-          {
-            id: 2,
-            imgUrl: "https://itetlax.org.mx/assets/img/OIC/g5/2.jpg",
-            alt: "Fotografía 2",
-            url: "https://itetlax.org.mx/assets/img/OIC/g5/2.jpg",
-            linkToo: "",
-          },
-          {
-            id: 3,
-            imgUrl: "https://itetlax.org.mx/assets/img/OIC/g5/3.jpg",
-            alt: "Fotografía 3",
-            url: "https://itetlax.org.mx/assets/img/OIC/g5/3.jpg",
-            linkToo: "",
-          },
-        ],
-      },
-    ],
-  },
-  {
     id: 6,
     nameItem: 6,
     titleItem:
-      "Primer Foro de Capacitación 2022 para los Órganos Internos de Control de Institutos Electorales",
+      "PRIMER FORO DE CAPACITACIÓN COAHUILA 2022.",
     flushID: "heading6",
     children: [
       {
@@ -406,86 +487,128 @@ export const dataGaleria = [
         ],
       },
     ],
-  },
+  }, 
   {
-    id: 7,
-    nameItem: 7,
+    id: 4,
+    nameItem: 4,
     titleItem:
-      "1er Informe Anual de Actividades del Órgano Interno de Control del Instituto Tlaxcal",
-    flushID: "heading7",
+      "TOMA DE PROTESTA DE ASOCIACIÓN NACIONAL DE CONTRALORAS Y CONTRALORES DEL INSTITUTO ELECTORALES (ANCCIEM) 2022.",
+    flushID: "heading4",
     children: [
       {
         id: 1,
-        carouselID: "galeria7",
+        carouselID: "galeria4",
         subChildren: [
           {
             id: 1,
-            imgUrl: "https://itetlax.org.mx/assets/img/OIC/g7/1.jpg",
+            imgUrl: "https://itetlax.org.mx/assets/img/OIC/g4/1.jpg",
             alt: "Fotografía 1",
             itemActive: "active",
             buttonActive: "active",
             ariaCurrent: "true",
-            url: "https://itetlax.org.mx/assets/img/OIC/g7/1.jpg",
+            url: "https://itetlax.org.mx/assets/img/OIC/g4/1.jpg",
             linkToo: "",
           },
           {
             id: 2,
-            imgUrl: "https://itetlax.org.mx/assets/img/OIC/g7/2.jpg",
+            imgUrl: "https://itetlax.org.mx/assets/img/OIC/g4/2.jpg",
             alt: "Fotografía 2",
-            url: "https://itetlax.org.mx/assets/img/OIC/g7/2.jpg",
+            url: "https://itetlax.org.mx/assets/img/OIC/g4/2.jpg",
             linkToo: "",
           },
           {
             id: 3,
-            imgUrl: "https://itetlax.org.mx/assets/img/OIC/g7/3.jpg",
+            imgUrl: "https://itetlax.org.mx/assets/img/OIC/g4/3.jpg",
             alt: "Fotografía 3",
-            url: "https://itetlax.org.mx/assets/img/OIC/g7/3.jpg",
-            linkToo: "",
-          },
-          {
-            id: 4,
-            imgUrl: "https://itetlax.org.mx/assets/img/OIC/g7/4.jpg",
-            alt: "Fotografía 4",
-            url: "https://itetlax.org.mx/assets/img/OIC/g7/4.jpg",
-            linkToo: "",
-          },
-          {
-            id: 5,
-            imgUrl: "https://itetlax.org.mx/assets/img/OIC/g7/5.jpg",
-            alt: "Fotografía 5",
-            url: "https://itetlax.org.mx/assets/img/OIC/g7/5.jpg",
-            linkToo: "",
-          },
-          {
-            id: 6,
-            imgUrl: "https://itetlax.org.mx/assets/img/OIC/g7/6.jpg",
-            alt: "Fotografía 6",
-            url: "https://itetlax.org.mx/assets/img/OIC/g7/6.jpg",
-            linkToo: "",
-          },
-          {
-            id: 7,
-            imgUrl: "https://itetlax.org.mx/assets/img/OIC/g7/7.jpg",
-            alt: "Fotografía 7",
-            url: "https://itetlax.org.mx/assets/img/OIC/g7/7.jpg",
+            url: "https://itetlax.org.mx/assets/img/OIC/g4/3.jpg",
             linkToo: "",
           },
         ],
       },
     ],
   },
+ 
+  
+  {
+    id: 9,
+    nameItem: 9,
+    titleItem:
+      "QUINTO FORO DE CAPACITACIÓN DURANGO 2023.",
+    flushID: "heading9",
+    children: [
+      {
+        id: 1,
+        carouselID: "galeria9",
+        subChildren: [
+          {
+            id: 1,
+            imgUrl: "https://itetlax.org.mx/assets/img/OIC/g8/1.jpg",
+            alt: "Fotografía 1",
+            itemActive: "active",
+            buttonActive: "active",
+            ariaCurrent: "true",
+            url: "https://itetlax.org.mx/assets/img/OIC/g8/1.jpg",
+            linkToo: "",
+          },
+          {
+            id: 2,
+            imgUrl: "https://itetlax.org.mx/assets/img/OIC/g8/2.jpg",
+            alt: "Fotografía 2",
+            url: "https://itetlax.org.mx/assets/img/OIC/g8/2.jpg",
+            linkToo: "",
+          },
+          {
+            id: 3,
+            imgUrl: "https://itetlax.org.mx/assets/img/OIC/g8/3.jpg",
+            alt: "Fotografía 3",
+            url: "https://itetlax.org.mx/assets/img/OIC/g8/3.jpg",
+            linkToo: "",
+          },
+          {
+            id: 4,
+            imgUrl: "https://itetlax.org.mx/assets/img/OIC/g8/4.jpg",
+            alt: "Fotografía 4",
+            url: "https://itetlax.org.mx/assets/img/OIC/g8/4.jpg",
+            linkToo: "",
+          },
+          {
+            id: 5,
+            imgUrl: "https://itetlax.org.mx/assets/img/OIC/g8/5.jpg",
+            alt: "Fotografía 5",
+            url: "https://itetlax.org.mx/assets/img/OIC/g8/5.jpg",
+            linkToo: "",
+          },
+          {
+            id: 6,
+            imgUrl: "https://itetlax.org.mx/assets/img/OIC/g8/6.jpg",
+            alt: "Fotografía 6",
+            url: "https://itetlax.org.mx/assets/img/OIC/g8/6.jpg",
+            linkToo: "",
+          },
+          {
+            id: 7,
+            imgUrl: "https://itetlax.org.mx/assets/img/OIC/g8/7.jpg",
+            alt: "Fotografía 7",
+            url: "https://itetlax.org.mx/assets/img/OIC/g8/7.jpg",
+            linkToo: "",
+          },
+        ],
+      },
+    ],
+  },
+
 ];
 
 export const dataEstructuraOrganica = [
   {
     id: 1,
-    titleItem: "Estructura Orgánica (Fracción II)",
+    titleItem: "ESTRUCTURA ORGÁNICA ITE",
     typeDocument: "pdf",
     linkItem: "https://itetlax.org.mx/assets/pdf/OIC/1.pdf",
   },
   {
     id: 2,
-    titleItem: "Organigrama del OIC",
+    titleItem: "ORGANIGRAMA OIC",
     typeDocument: "pdf",
     linkItem: "https://itetlax.org.mx/assets/pdf/OIC/2.pdf",
   },
@@ -551,21 +674,50 @@ export const dataNormatividad = [
     typeDocument: "pdf",
     linkItem: "https://itetlax.org.mx/assets/pdf/OIC/11.pdf",
   },
+  {
+    id: 10,
+    titleItem: "CÓDIGO FINANCIERO PARA EL ESTADO DE TLAXCALA Y SUS MUNICIPIOS",
+    typeDocument: "pdf",
+    linkItem: "https://itetlax.org.mx/assets/pdf/OIC/17.pdf",
+  },
+  {
+    id: 11,
+    titleItem: "LEY DE ARCHIVOS DEL ESTADO DE TLAXCALA",
+    typeDocument: "pdf",
+    linkItem: "https://itetlax.org.mx/assets/pdf/OIC/18.pdf",
+  },  {
+    id: 12,
+    titleItem: "LEY DE COORDINACIÓN FISCAL",
+    typeDocument: "pdf",
+    linkItem: "https://itetlax.org.mx/assets/pdf/OIC/19.pdf",
+  },  {
+    id: 13,
+    titleItem: "LEY DEL IMPUESTO SOBRE LA RENTA",
+    typeDocument: "pdf",
+    linkItem: "https://itetlax.org.mx/assets/pdf/OIC/20.pdf",
+  },
 ];
 
 export const dataPOA = [
   {
     id: 1,
-    titleItem: "Programa Operativo Anual 2022",
+    titleItem: "PROGRAMA OPERATIVO ANUAL 2022",
     typeDocument: "pdf",
     linkItem: "https://itetlax.org.mx/assets/pdf/OIC/12.pdf",
   },
+  {
+    id: 2,
+    titleItem: "PROGRAMA OPERATIVO ANUAL 2023",
+    typeDocument: "excel",
+    linkItem: "https://itetlax.org.mx/assets/pdf/OIC/16.xlsx",
+  },
+
 ];
 
 export const dataSemblanza = [
   {
     id: 1,
-    titleItem: "Curriculum Vitae - C.P.Johancy Aquiahuatl Denicia",
+    titleItem: "CURRICULUM VITAE – C.P JOHANCY AQUIAHUATL DENICIA",
     typeDocument: "pdf",
     linkItem: "https://itetlax.org.mx/assets/pdf/OIC/13.pdf",
   },
@@ -574,19 +726,19 @@ export const dataSemblanza = [
 export const dataDeclaracionPatrimonial = [
   {
     id: 1,
-    titleItem: "Link para presentación de la Declaración Patrimonial",
+    titleItem: "LINK PARA PRESENTACIÓN DE LA DECLARACIÓN PATRIMONIAL",
     typeDocument: "link",
-    linkItem: "https://pdetlax.ddns.net/",
+    linkItem: "https://PDE.SAETLAX.ORG/",
   },
   {
     id: 2,
-    titleItem: "Tutorial de llenado de Declaración",
+    titleItem: "TUTORIAL DE LLENADO DE DECLARACIÓN",
     typeDocument: "video",
     linkItem: "https://itetlax.org.mx/assets/video/OIC/1.mp4",
   },
   {
     id: 3,
-    titleItem: "Publicidad de Declaraciones",
+    titleItem: "TIPO DE DECLARACIÓN",
     typeDocument: "img",
     linkItem: "https://itetlax.org.mx/assets/img/OIC/2.jpg",
   },
@@ -595,8 +747,17 @@ export const dataDeclaracionPatrimonial = [
 export const dataCodigoEtica = [
   {
     id: 1,
-    titleItem: "Código de Ética",
+    titleItem: "CÓDIGO DE ÉTICA",
     typeDocument: "pdf",
     linkItem: "https://itetlax.org.mx/assets/pdf/OIC/14.pdf",
+  },
+];
+
+export const dataInformes = [
+  {
+    id: 1,
+    titleItem: "PRIMER INFORME ANUAL DE ACTIVIDADES 2022",
+    typeDocument: "pdf",
+    linkItem: "https://itetlax.org.mx/assets/pdf/OIC/15.pdf",
   },
 ];

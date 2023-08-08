@@ -10,26 +10,26 @@ const Privacidad = () => {
   useEffect(() => {
     document.title = `Avisos de Privacidad`;
   }, []);
-    return (
-      <div>
-        <TitlePages title="Transparencia" subTitle="Avisos de Privacidad" />
-        <Accordion idAccordion="avisosPrivacidad" clasName={"w-75 mx-auto"}>
-          {dataAvisosPrivacidad.map((accordionsItem) => (
-            <AccordionItem
-              key={accordionsItem.id}
-              flushID={accordionsItem.flushID}
-              titleItem={accordionsItem.titleItem}
-              contentItem={
-                <ListBadge
-                  ifNumbered={""}
-                  listsBadgeItem={accordionsItem.children}
-                />
-              }
-              idAccordion="avisosPrivacidad"
-            />
-          ))}
-        </Accordion>
-      </div>
-    );
-  }
-  export default Privacidad;
+  return (
+    <div>
+      <TitlePages title="Transparencia" subTitle="Avisos de Privacidad" />
+      <Accordion idAccordion="avisosPrivacidad" clasName={"w-75 mx-auto"}>
+        {dataAvisosPrivacidad.map((accordionsItem) => (
+          <AccordionItem
+            key={accordionsItem.id}
+            flushID={accordionsItem.flushID}
+            titleItem={accordionsItem.titleItem}
+            contentItem={
+              <ListBadge
+                ifNumbered={""}
+                listsBadgeItem={accordionsItem.children}
+              />
+            }
+            idAccordion="avisosPrivacidad"
+          />
+        ))}
+      </Accordion>
+    </div>
+  );
+};
+export default Privacidad;

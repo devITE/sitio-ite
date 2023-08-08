@@ -137,7 +137,7 @@ const Art632023 = () => {
                   </p>
                   <p>
                     {row.original.excel1
-                      ? row.original.excel1.substring(61, 100).slice(0, -5)
+                      ? row.original.excel1.substring(65, 100).slice(0, -5)
                       : []}{" "}
                     <a
                       href={row.original.excel1}
@@ -152,7 +152,7 @@ const Art632023 = () => {
                   </p>
                   <p>
                     {row.original.excel2
-                      ? row.original.excel2.substring(61, 100).slice(0, -5)
+                      ? row.original.excel2.substring(65, 100).slice(0, -5)
                       : []}{" "}
                     <a
                       href={row.original.excel2}
@@ -179,7 +179,7 @@ const Art632023 = () => {
                   </p>
                   <p>
                     {row.original.excel1
-                      ? row.original.excel1.substring(61, 100).slice(0, -5)
+                      ? row.original.excel1.substring(65, 100).slice(0, -5)
                       : []}{" "}
                     <a
                       href={row.original.excel1}
@@ -194,7 +194,7 @@ const Art632023 = () => {
                   </p>
                   <p>
                     {row.original.excel2
-                      ? row.original.excel2.substring(61, 100).slice(0, -5)
+                      ? row.original.excel2.substring(65, 100).slice(0, -5)
                       : []}{" "}
                     <a
                       href={row.original.excel2}
@@ -209,7 +209,7 @@ const Art632023 = () => {
                   </p>
                   <p>
                     {row.original.excel3
-                      ? row.original.excel3.substring(61, 100).slice(0, -5)
+                      ? row.original.excel3.substring(65, 100).slice(0, -5)
                       : []}{" "}
                     <a
                       href={row.original.excel3}
@@ -233,7 +233,7 @@ const Art632023 = () => {
                   </p>
                   <p>
                     {row.original.excel1
-                      ? row.original.excel1.substring(61, 100).slice(0, -5)
+                      ? row.original.excel1.substring(65, 100).slice(0, -5)
                       : []}{" "}
                     <a
                       href={row.original.excel1}
@@ -248,7 +248,7 @@ const Art632023 = () => {
                   </p>
                   <p>
                     {row.original.excel2
-                      ? row.original.excel2.substring(61, 100).slice(0, -5)
+                      ? row.original.excel2.substring(65, 100).slice(0, -5)
                       : []}{" "}
                     <a
                       href={row.original.excel2}
@@ -263,7 +263,7 @@ const Art632023 = () => {
                   </p>
                   <p>
                     {row.original.excel3
-                      ? row.original.excel3.substring(61, 100).slice(0, -5)
+                      ? row.original.excel3.substring(65, 100).slice(0, -5)
                       : []}{" "}
                     <a
                       href={row.original.excel3}
@@ -278,7 +278,7 @@ const Art632023 = () => {
                   </p>
                   <p>
                     {row.original.excel4
-                      ? row.original.excel4.substring(61, 100).slice(0, -5)
+                      ? row.original.excel4.substring(65, 100).slice(0, -5)
                       : []}{" "}
                     <a
                       href={row.original.excel4}
