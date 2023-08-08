@@ -90,7 +90,14 @@ const Acuerdos2023 = () => {
             <div className="table-responsive">
               <table className="table table-hover table-sm table-bordered table align-middle w-40">
                 <thead>
-                  <tr></tr>
+                  <tr>
+                    <td colSpan={2}>
+                      <br />
+                      <strong>A C U E R D O</strong>
+                      <br />
+                      <br />
+                    </td>
+                  </tr>
                 </thead>
                 <tbody>
                   <tr className="table-secondary">

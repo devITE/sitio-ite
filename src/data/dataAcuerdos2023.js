@@ -531,7 +531,8 @@ export const dataAcuerdos2023 = [
     monthDoc: "JUL",
     nameDoc: "POS EXPEDIENTE CQD-Q-API-CG-003-2023",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/44.pdf",
-  },{
+  },
+  {
     id: 45,
     year: "2023",
     typeDoc: "RESOLUCIÓN",
@@ -539,7 +540,10 @@ export const dataAcuerdos2023 = [
     monthDoc: "JUL",
     nameDoc: "POS EXPEDIENTE CQD-Q-API-CG-004-2023",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/45.pdf",
-  },{
+    titleAnexo1: "FE DE ERRATAS",
+    pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/45.1.pdf",
+  },
+  {
     id: 46,
     year: "2023",
     typeDoc: "RESOLUCIÓN",
@@ -547,7 +551,8 @@ export const dataAcuerdos2023 = [
     monthDoc: "JUL",
     nameDoc: "POS EXPEDIENTE CQD-Q-API-CG-005-2023",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/46.pdf",
-  },{
+  },
+  {
     id: 47,
     year: "2023",
     typeDoc: "RESOLUCIÓN",
@@ -555,7 +560,8 @@ export const dataAcuerdos2023 = [
     monthDoc: "JUL",
     nameDoc: "POS EXPEDIENTE CQD-Q-API-CG-006-2023",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/47.pdf",
-  },{
+  },
+  {
     id: 48,
     year: "2023",
     typeDoc: "RESOLUCIÓN",
@@ -563,7 +569,8 @@ export const dataAcuerdos2023 = [
     monthDoc: "JUL",
     nameDoc: "POS EXPEDIENTE CQD-Q-API-CG-007-2023",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/48.pdf",
-  },{
+  },
+  {
     id: 49,
     year: "2023",
     typeDoc: "RESOLUCIÓN",
@@ -571,7 +578,8 @@ export const dataAcuerdos2023 = [
     monthDoc: "JUL",
     nameDoc: "POS EXPEDIENTE CQD-Q-API-CG-008-2023",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/49.pdf",
-  },{
+  },
+  {
     id: 50,
     year: "2023",
     typeDoc: "RESOLUCIÓN",
@@ -579,7 +587,8 @@ export const dataAcuerdos2023 = [
     monthDoc: "JUL",
     nameDoc: "POS EXPEDIENTE CQD-Q-API-CG-009-2023",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/50.pdf",
-  },{
+  },
+  {
     id: 51,
     year: "2023",
     typeDoc: "RESOLUCIÓN",
@@ -587,7 +596,8 @@ export const dataAcuerdos2023 = [
     monthDoc: "JUL",
     nameDoc: "POS EXPEDIENTE CQD-Q-API-CG-010-2023",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/51.pdf",
-  },{
+  },
+  {
     id: 52,
     year: "2023",
     typeDoc: "RESOLUCIÓN",
@@ -595,7 +605,8 @@ export const dataAcuerdos2023 = [
     monthDoc: "JUL",
     nameDoc: "POS EXPEDIENTE CQD-Q-API-CG-011-2023",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/52.pdf",
-  },{
+  },
+  {
     id: 53,
     year: "2023",
     typeDoc: "RESOLUCIÓN",
@@ -603,7 +614,8 @@ export const dataAcuerdos2023 = [
     monthDoc: "JUL",
     nameDoc: "POS EXPEDIENTE CQD-Q-API-CG-012-2023",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/53.pdf",
-  },{
+  },
+  {
     id: 54,
     year: "2023",
     typeDoc: "RESOLUCIÓN",
@@ -611,7 +623,8 @@ export const dataAcuerdos2023 = [
     monthDoc: "JUL",
     nameDoc: "POS EXPEDIENTE CQD-Q-API-CG-013-2023",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/54.pdf",
-  },{
+  },
+  {
     id: 55,
     year: "2023",
     typeDoc: "RESOLUCIÓN",
@@ -619,7 +632,8 @@ export const dataAcuerdos2023 = [
     monthDoc: "JUL",
     nameDoc: "POS EXPEDIENTE CQD-Q-API-CG-014-2023",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/55.pdf",
-  },{
+  },
+  {
     id: 56,
     year: "2023",
     typeDoc: "RESOLUCIÓN",
@@ -627,7 +641,8 @@ export const dataAcuerdos2023 = [
     monthDoc: "JUL",
     nameDoc: "POS EXPEDIENTE CQD-Q-API-CG-015-2023",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/56.pdf",
-  },{
+  },
+  {
     id: 57,
     year: "2023",
     typeDoc: "RESOLUCIÓN",
@@ -635,6 +650,86 @@ export const dataAcuerdos2023 = [
     monthDoc: "JUL",
     nameDoc: "POS EXPEDIENTE CQD-Q-API-CG-016-2023",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/57.pdf",
+  },
+  {
+    id: 58,
+    year: "2023",
+    typeDoc: "RESOLUCIÓN",
+    numDoc: "ITE-CG 58-2023",
+    monthDoc: "JUL",
+    nameDoc: "SE APRUEBA LA MODIFICACIÓN DE DOCUMENTOS BÁSICOS DEL PAC",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/58.pdf",
+  },
+
+  {
+    id: 58,
+    year: "2023",
+    typeDoc: "RESOLUCIÓN",
+    numDoc: "ITE-CG 58-2023",
+    monthDoc: "JUL",
+    nameDoc: "SE APRUEBA LA MODIFICACIÓN DE DOCUMENTOS BÁSICOS DEL PAC",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/58.pdf",
+  },
+  {
+    id: 59,
+    year: "2023",
+    typeDoc: "RESOLUCIÓN",
+    numDoc: "ITE-CG 59-2023",
+    monthDoc: "JUL",
+    nameDoc: "POS EXPEDIENTE CQD-Q-PRI-CG-033-2023",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/59.pdf",
+  },
+  {
+    id: 60,
+    year: "2023",
+    typeDoc: "RESOLUCIÓN",
+    numDoc: "ITE-CG 60-2023",
+    monthDoc: "JUL",
+    nameDoc: "POS EXPEDIENTE CQD-Q-PRD-CG-034-2023",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/60.pdf",
+  },
+  {
+    id: 61,
+    year: "2023",
+    typeDoc: "RESOLUCIÓN",
+    numDoc: "ITE-CG 61-2023",
+    monthDoc: "JUL",
+    nameDoc: "POS EXPEDIENTE CQD-Q-MC-CG-035-2023",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/61.pdf",
+  },
+  {
+    id: 62,
+    year: "2023",
+    typeDoc: "RESOLUCIÓN",
+    numDoc: "ITE-CG 62-2023",
+    monthDoc: "JUL",
+    nameDoc:
+      "SE DECLARA LA PROCEDENCIA LEGAL Y CONSTITUCIONAL DE MODIFICACIÓN DE DOCUMENTOS BÁSICOS DE NUEVA ALIANZA TLAXCALA",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/62.pdf",
+  },
+  {
+    id: 63,
+    year: "2023",
+    typeDoc: "RESOLUCIÓN",
+    numDoc: "ITE-CG 63-2023",
+    monthDoc: "JUL",
+    nameDoc:
+      "SE APRUEBA DICTAMEN CONSOLIDADO INFORMES MENSUALES RECURSOS FEB-ABRIL CCEST A.C.",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/63.pdf",
+    titleAnexo1: "DICTAMEN",
+    pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/63.1.pdf",
+  },
+  {
+    id: 64,
+    year: "2023",
+    typeDoc: "RESOLUCIÓN",
+    numDoc: "ITE-CG 64-2023",
+    monthDoc: "JUL",
+    nameDoc:
+      "SE APRUEBA DICTAMEN CONSOLIDADO INFORMES MENSUALES RECURSOS FEB-ABRIL EDT A.C.",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/64.pdf",
+    titleAnexo1: "DICTAMEN",
+    pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/64.1.pdf",
   },
 ];
 
@@ -671,5 +766,5 @@ export const dataAcuerdosINE2023 = [
     nameDoc:
       "Aprueba ejercer la facultad de atracción para fechas homologadas para conclusión del periodo de precampañas y recabar apoyo de CI 2023-2024",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2023/2.pdf",
-  }
+  },
 ];
