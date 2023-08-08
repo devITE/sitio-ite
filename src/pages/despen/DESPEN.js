@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { useEffect } from "react";
 import TitlePages from "../../layout/TitlePages";
 import Timer from "../../layout/Timer";
 import ModalInit from "../../layout/Modal/ModalInit";
@@ -8,8 +8,12 @@ import { dataCarousel } from "../../data/dataDESPEN";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
 
-export default class DESPEN extends Component {
-  render() {
+// export default class DESPEN extends Component {
+//   render() {
+  const DESPEN = () => {
+    useEffect(() => {
+      document.title = `DESPEN`;
+    }, []);
     return (
       <>
         <ModalInit
@@ -211,4 +215,5 @@ export default class DESPEN extends Component {
       </>
     );
   }
-}
+
+export default DESPEN;

@@ -1,4 +1,4 @@
-import React, { useMemo } from "react";
+import React, { useMemo, useEffect } from "react";
 import MaterialReactTable from "material-react-table";
 import { MenuItem, TextField } from "@mui/material";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -7,6 +7,9 @@ import { dataBoletines2020 } from "../../../data/dataBoletines";
 import TitlePages from "../../../layout/TitlePages";
 
 const Boletines2020 = () => {
+  useEffect(() => {
+    document.title = `Boletines 2020`;
+  }, []);
   const columns = useMemo(
     () => [
       {

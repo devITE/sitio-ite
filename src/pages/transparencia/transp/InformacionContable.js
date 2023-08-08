@@ -12,34 +12,34 @@ const InformacionContable = () => {
   useEffect(() => {
     document.title = `Información Contable`;
   }, []);
-    return (
-      <div>
-        <TitlePages title="Transparencia" subTitle="Información Contable" />
-        <ListBadge
-          ifNumbered={""}
-          listsBadgeItem={dataInfContable}
-          clasName="w-75 mx-auto"
-        />
-        <br />
-        <br />
-        <TitlePages title="" subTitle="Cuenta Pública" />
-        <Accordion idAccordion="cuentaPublica" clasName={"w-75 mx-auto"}>
-          {dataCuentaPublica.map((accordionsItem) => (
-            <AccordionItem
-              key={accordionsItem.id}
-              flushID={accordionsItem.flushID}
-              titleItem={accordionsItem.titleItem}
-              contentItem={
-                <ListBadge
-                  ifNumbered={""}
-                  listsBadgeItem={accordionsItem.children}
-                />
-              }
-              idAccordion="cuentaPublica"
-            />
-          ))}
-        </Accordion>
-      </div>
-    );
-  }
-  export default InformacionContable;
+  return (
+    <div>
+      <TitlePages title="Transparencia" subTitle="Información Contable" />
+      <ListBadge
+        ifNumbered={""}
+        listsBadgeItem={dataInfContable}
+        clasName="w-75 mx-auto"
+      />
+      <br />
+      <br />
+      <TitlePages title="" subTitle="Cuenta Pública" />
+      <Accordion idAccordion="cuentaPublica" clasName={"w-75 mx-auto"}>
+        {dataCuentaPublica.map((accordionsItem) => (
+          <AccordionItem
+            key={accordionsItem.id}
+            flushID={accordionsItem.flushID}
+            titleItem={accordionsItem.titleItem}
+            contentItem={
+              <ListBadge
+                ifNumbered={""}
+                listsBadgeItem={accordionsItem.children}
+              />
+            }
+            idAccordion="cuentaPublica"
+          />
+        ))}
+      </Accordion>
+    </div>
+  );
+};
+export default InformacionContable;

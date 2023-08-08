@@ -242,4 +242,90 @@ export const dataVideoPodCast = [
     url: "BY7FzAWrDFc",
     title: "ITE Comentamos... 5° Taller Nacional de Participación Ciudadana",
   },
+  {
+    id: 44,
+    url: "-E8xcgi_25E",
+    title:
+      "ITE Comentamos... Acciones para fomentar la participación político electoral en las juventudes",
+  },
+  {
+    id: 45,
+    url: "9OI09aSA6j8",
+    title: "ITE Comentamos... Décimo cuarto Parlamento Infantil Tlaxcala 2023",
+  },
+  {
+    id: 46,
+    url: "KP3XEb2Bsi0",
+    title:
+      "ITE Comentamos... Actividades que estarán desarrollando los miembros del SPEN",
+  },
+  {
+    id: 47,
+    url: "pq_u_sCBrio",
+    title:
+      "ITE Comentamos... 5ta. etapa de la consulta previa, libre e informada",
+  },
+  {
+    id: 48,
+    url: "CpaUJzIHMas",
+    title: "ITE Comentamos... XIV parlamento infantil",
+  },
+  {
+    id: 49,
+    url: "rL01u7QQ-cM",
+    title: "ITE Comentamos... 5to Taller Nacional de Educación Cívica",
+  },
+  {
+    id: 50,
+    url: "JGUA9PFNgVk",
+    title:
+      "ITE Comentamos... Los cargos emanados de procesos electorales locales que son ejercidos por mujeres",
+  },
+  {
+    id: 51,
+    url: "elZPnNqi25k",
+    title:
+      "ITE Comentamos... Los debates electorales en la democracia contemporánea",
+  },
+  {
+    id: 52,
+    url: "ZmaIMvSvtio",
+    title: "ITE Comentamos... Nueva Distritacion Electoral",
+  },
+  {
+    id: 53,
+    url: "PL_USjPHoyw",
+    title: "ITE Comentamos... Videopodcast Consejero Presidente Emmanuel 03 Julio 2023",
+  },
+  {
+    id: 54,
+    url: "PTrLsZ_SaKs",
+    title: "ITE Comentamos... Videopodcast Consejero Hermenegildo 05 de Junio 2023",
+  },
+  {
+    id: 55,
+    url: "zwKHAQFp0pY",
+    title: "ITE Comentamos... Videopodcast Consejera Yedith 29 Mayo 2023",
+  },
+  {
+    id: 56,
+    url: "ULm9qIIMgQU",
+    title: "ITE Comentamos... Videopodcast Consejera Janeth 22 Mayo 2023",
+  },
+  {
+    id: 57,
+    url: "UO0VCvhnYoI",
+    title: "ITE Comentamos... Videopodcast Consejera Janeth Cervantes Ahuatzi",
+  },
+
+  {
+    id: 58,
+    url: "2PFIVfStaAw",
+    title: "ITE Comentamos... Videopodcast Consejera Yedith Martinez Pinillo",
+  },
+  {
+    id: 59,
+    url: "J1gXObGpKwE",
+    title: "ITE Comentamos... Videopodcast Consejero Hermenegildo Neria Carreño",
+  },
 ];

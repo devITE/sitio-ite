@@ -106,7 +106,6 @@ import Art672021 from "./pages/transparencia/art67/Art672021";
 import Art672022 from "./pages/transparencia/art67/Art672022";
 import Art672023 from "./pages/transparencia/art67/Art672023";
 
-
 //Transparencia Artículo 67
 import Articulo94 from "./pages/transparencia/art94/Articulo94";
 import Art942020 from "./pages/transparencia/art94/Art942020";
@@ -146,6 +145,7 @@ import Monitoreos2020 from "./pages/comunicacionSocial/monitoreos/Monitoreos2020
 import Monitoreos2021 from "./pages/comunicacionSocial/monitoreos/Monitoreos2021";
 
 import EspacioIte from "./pages/comunicacionSocial/EspacioIte";
+import ITEConecta from "./pages/comunicacionSocial/ITEConecta";
 
 //Cultura Cívica
 import CulturaCivica from "./pages/culturaCivica/CulturaCivica";
@@ -327,6 +327,7 @@ function App() {
           <Route path="/Monitoreos2021" element={<Monitoreos2021 />} />
 
           <Route path="/EspacioIte" element={<EspacioIte />} />
+          <Route path="/ITEConecta" element={<ITEConecta />} />
           <Route path="/CulturaCivica" element={<CulturaCivica />} />
           <Route path="/ActividadesLudicas" element={<ActividadesLudicas />} />
           <Route

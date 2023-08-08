@@ -19,6 +19,8 @@ import "./Home.css";
 import Carousel from "../../layout/Carousel/Carousel/Carousel";
 import CarouselItemIMG from "../../layout/Carousel/Carousel/CarouselItemIMG";
 import { dataVideoPodCast } from "../../data/dataVideoPodCast";
+import { dataITEConecta } from "../../data/dataITEConecta";
+
 import ModalInit from "../../layout/Modal/ModalInit";
 import "./Home.css";
 
@@ -28,13 +30,16 @@ const ITE = () => {
   }, []);
   return (
     <>
-      <ModalInit
-        // imgLink="https://itetlax.org.mx/assets/img/imgC_A/22.png"
-        // url="https://portalanterior.ieepcnl.mx/"
-        imgLink="https://itetlax.org.mx/assets/img/imgC_A/24.jpg"
-        url="https://itetlax.org.mx/assets/img/imgC_A/24.jpg"
+        {/* { <ModalInit
+        imgLink="https://itetlax.org.mx/assets/img/imgC_A/22.png"
+        url="https://portalanterior.ieepcnl.mx/2023/cepxxiv/"
         linkToo=""
-      />
+      /> } */}
+        { <ModalInit
+        imgLink="https://itetlax.org.mx/assets/img/imgC_A/44.jpg"
+        url="https://itetlax.org.mx/assets/pdf/agenda/4.pdf"
+        linkToo=""
+      /> }
 
       <Carousel idCarousel="carouselTopIndex">
         {dataCIndex.map((cIndex) => (
@@ -48,16 +53,16 @@ const ITE = () => {
           />
         ))}
       </Carousel>
-      <div className="mt-4 Home__AR-A">
+      <div className="mt-5 Home__AR-A">
         <div>
           <h2 className="bottom_title">
-            Foro: Los debates electorales en la democracia contemporánea
+          Taller de Análisis de Sentencias
           </h2>
           <div className="Home__video-embed ratio ratio-16x9 w-100">
             <iframe
               id="9QQCf_emFwo"
-              src="https://www.youtube-nocookie.com/embed/2LzAzkLADo4?rel=0"
-              title="Jornada de Talleres"
+              src="https://www.youtube-nocookie.com/embed/sEHflegbzTc?rel=0"
+              title="Taller de Análisis de Sentencias"
               allowFullScreen
             ></iframe>
           </div>
@@ -69,7 +74,7 @@ const ITE = () => {
           </div>
         </div>
       </div>
-      <div className="mt-4 Home__AR-A">
+      <div className="mt-5 Home__AR-A">
         <div>
           <h2 className="bottom_title">Actividades Recientes</h2>
           <div className="ps-5 pe-5">
@@ -105,9 +110,11 @@ const ITE = () => {
           </div>
         </div>
       </div>
-      <h2 className="mt-4 bottom_title">Informes</h2>
+      <h2 className="bottom_title mt-5">ITE Conecta</h2>
+      <Videoteca items={dataITEConecta} itemsID={"ITEConecta"} />
+      <h2 className="mt-5 bottom_title">Informes</h2>
       <Informes items={dataInformes} itemsID={"itemsInformes"} />
-      <h2 className="bottom_title">Video Podcast</h2>
+      <h2 className="bottom_title mt-5">Video Podcast</h2>
       <Videoteca items={dataVideoPodCast} itemsID={"videoPodcast"} />
       <div className="Home__boxesTriple mt-4">
         <div>
@@ -123,13 +130,13 @@ const ITE = () => {
           <h2 className="bottom_title">Sesión en Vivo</h2>
           <div className="Home__video-embed ratio ratio-16x9 w-100">
             <iframe
-              src="https://www.youtube-nocookie.com/embed/esUePO0F-hY?rel=0"
-              title="Sesión En Vivo del CG"
+              src="https://www.youtube-nocookie.com/embed/yY_ypgaRYto?rel=0"
+              title="Sesión Presencial Ordinaria del CG 28/07/2023"
               allowFullScreen
             ></iframe>
           </div>
           <h5 className="mt-3 text-center">
-            Sesión Presencial Ordinaria del Consejo General 28 de abril de 2023{" "}
+          Sesión Presencial Ordinaria del CG 28/07/2023{" "}
           </h5>
         </div>
         <div>
@@ -143,7 +150,7 @@ const ITE = () => {
         </div>
       </div>
       <img
-        className="mt-4 img-fluid w-100"
+        className="mt-5 img-fluid w-100"
         src="https://itetlax.org.mx/assets/img/imgHome/micrositios.png"
         alt="micrositios"
       />
@@ -217,7 +224,7 @@ const ITE = () => {
           alt="RNPS"
         />
       </a>
-      <h3 className="mt-4 bottom_title">Videos</h3>
+      <h3 className="mt-5 bottom_title">Videos</h3>
       <Videoteca items={dataVideoteca} itemsID={"videoteca"} />
 
       <div className="Home__pages">

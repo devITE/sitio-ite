@@ -1,4 +1,4 @@
-import React, { useMemo } from "react";
+import React, { useMemo, useEffect } from "react";
 import TitlePages from "../../layout/TitlePages";
 import MaterialReactTable from "material-react-table";
 import { Box } from "@mui/material";
@@ -7,6 +7,9 @@ import { faFileWord, faFilePdf } from "@fortawesome/free-solid-svg-icons";
 import { dataInstrumentos } from "../../data/dataArchivo";
 
 const InstrumentosNormativos = () => {
+  useEffect(() => {
+    document.title = `Instrumentos Archivísticos`;
+  }, []);
   const columns = useMemo(
     () => [
       {

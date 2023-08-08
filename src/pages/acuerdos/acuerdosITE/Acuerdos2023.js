@@ -1,7 +1,7 @@
 import React, { useMemo, useEffect } from "react";
 import TitlePages from "../../../layout/TitlePages";
 import MaterialReactTable from "material-react-table";
-// import { Box } from "@mui/material";
+import { Box } from "@mui/material";
 import { MenuItem, TextField } from "@mui/material";
 import { dataAcuerdos2023 } from "../../../data/dataAcuerdos2023";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -18,6 +18,8 @@ const Acuerdos2023 = () => {
         accessorKey: "monthDoc",
         header: "MES",
         footer: "MES",
+        size: 30,
+        enableResizing: false,
         Filter: ({ header }) => (
           <TextField
             onChange={(e) =>
@@ -50,26 +52,16 @@ const Acuerdos2023 = () => {
         accessorKey: "numDoc",
         header: "ACUERDO",
         footer: "ACUERDO",
+        size: 55,
+        enableResizing: false,
       },
       {
         accessorFn: (row) => `${row.typeDoc} ${row.nameDoc}`,
         id: "titulo",
         header: "TÍTULO",
         footer: "TÍTULO",
-      },
-      {
-        id: "pdf",
-        header: "",
-        footer: "",
-        enableColumnFilters: false,
-        Cell: ({ row }) =>
-          row.original.link === "" ? (
-            <span></span>
-          ) : (
-            <a href={row.original.link} target="_blank" rel="noreferrer">
-              <FontAwesomeIcon icon={faFilePdf} className="btn btn-danger" />
-            </a>
-          ),
+        size: 255,
+        enableResizing: false,
       },
     ],
     []
@@ -86,12 +78,147 @@ const Acuerdos2023 = () => {
         enableExpandAll
         enableColumnActions={false}
         enableDensityToggle={false}
+        enableColumnResizing={false}
         initialState={{ density: "compact" }}
         muiExpandButtonProps={({ row }) => ({
           sx: {
             display: row.original.subRows === "" ? "none" : "flex",
           },
         })}
+        renderDetailPanel={({ row }) => (
+          <Box id="Box">
+            <div className="table-responsive">
+              <table className="table table-hover table-sm table-bordered table align-middle w-40">
+                <thead>
+                  <tr>
+                    <td colSpan={2}>
+                      <br />
+                      <strong>A C U E R D O</strong>
+                      <br />
+                      <br />
+                    </td>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr className="table-secondary">
+                    <td>
+                      {row.original.typeDoc} {row.original.numDoc}{" "}
+                      {row.original.nameDoc}
+                    </td>
+                    <td>
+                      <a
+                        href={row.original.link}
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <FontAwesomeIcon
+                          icon={faFilePdf}
+                          className="btn btn-danger"
+                        />
+                      </a>
+                    </td>
+                  </tr>
+                  {!row.original.titleAnexo1 &
+                  !row.original.pdfAnexo1 &
+                  !row.original.titleAnexo2 &
+                  !row.original.pdfAnexo2 &
+                  !row.original.titleAnexo3 &
+                  !row.original.pdfAnexo3 &
+                  !row.original.titleAnexo4 &
+                  !row.original.pdfAnexo4 ? (
+                    <span></span>
+                  ) : (
+                    <tr>
+                      <td colSpan={2}>
+                        <br />
+                        <strong>A N E X O S</strong>
+                        <br />
+                        <br />
+                      </td>
+                    </tr>
+                  )}
+                  {!row.original.titleAnexo1 & !row.original.pdfAnexo1 ? (
+                    <span></span>
+                  ) : (
+                    <tr>
+                      <td>{row.original.titleAnexo1.toUpperCase()}</td>
+                      <td>
+                        <a
+                          href={row.original.pdfAnexo1}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <FontAwesomeIcon
+                            icon={faFilePdf}
+                            className="btn btn-danger"
+                          />
+                        </a>
+                      </td>
+                    </tr>
+                  )}
+                  {/* aqui termina la inserción de un nvo anexo */}
+                  {!row.original.titleAnexo2 & !row.original.pdfAnexo2 ? (
+                    <span></span>
+                  ) : (
+                    <tr>
+                      <td>{row.original.titleAnexo2.toUpperCase()}</td>
+                      <td>
+                        <a
+                          href={row.original.pdfAnexo2}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <FontAwesomeIcon
+                            icon={faFilePdf}
+                            className="btn btn-danger"
+                          />
+                        </a>
+                      </td>
+                    </tr>
+                  )}
+                  {!row.original.titleAnexo3 & !row.original.pdfAnexo3 ? (
+                    <span></span>
+                  ) : (
+                    <tr>
+                      <td>{row.original.titleAnexo3.toUpperCase()}</td>
+                      <td>
+                        <a
+                          href={row.original.pdfAnexo3}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <FontAwesomeIcon
+                            icon={faFilePdf}
+                            className="btn btn-danger"
+                          />
+                        </a>
+                      </td>
+                    </tr>
+                  )}
+                  {!row.original.titleAnexo4 & !row.original.pdfAnexo4 ? (
+                    <span></span>
+                  ) : (
+                    <tr>
+                      <td>{row.original.titleAnexo4.toUpperCase()}</td>
+                      <td>
+                        <a
+                          href={row.original.pdfAnexo4}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <FontAwesomeIcon
+                            icon={faFilePdf}
+                            className="btn btn-danger"
+                          />
+                        </a>
+                      </td>
+                    </tr>
+                  )}
+                </tbody>
+              </table>
+            </div>
+          </Box>
+        )}
         muiTablePaginationProps={{
           rowsPerPageOptions: [10, 25, 50, 100, 200, 300, 400],
           labelRowsPerPage: "Filas por página",

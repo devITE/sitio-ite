@@ -6449,11 +6449,9 @@ export const dataArt632022 = [
       "Articulo. 63 Fraccion XII de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
     actualizacion: "2022",
     excel1:
-      "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F12_1.xlsx",
-    excel2:
-      "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F12_2.xlsx",
-    excel3:
-      "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F12_3.xlsx",
+      "https://itetlax.org.mx/assets/excel/transparencia/art63/2022/LTAIPT_A63F12.xlsx",
+    excel2: "",
+    excel3: "",
     excel4: "",
   },
   {
