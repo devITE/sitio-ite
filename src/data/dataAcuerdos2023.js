@@ -747,9 +747,9 @@ export const dataAcuerdosINE2023 = [
   {
     id: 1,
     year: "2023",
-    numDoc: "INE CG-03-2023",
+    numDoc: "ACUERDO INE CG-03-2023",
     nameDoc:
-      "ACUERDO POR EL QUE SE APRUEBA LA DESIGNACIÓN DEL CONSEJERO PRESIDENTE DEL OPL DE TLAXCALA",
+      "POR EL QUE SE APRUEBA LA DESIGNACIÓN DEL CONSEJERO PRESIDENTE DEL OPL DE TLAXCALA",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2023/1.pdf",
     subRows: [
       {
@@ -760,11 +760,51 @@ export const dataAcuerdosINE2023 = [
     ],
   },
   {
-    id: 1,
+    id: 2,
     year: "2023",
     numDoc: " RESOLUCIÓN INE CG-439-2023",
     nameDoc:
       "Aprueba ejercer la facultad de atracción para fechas homologadas para conclusión del periodo de precampañas y recabar apoyo de CI 2023-2024",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2023/2.pdf",
+  },
+  {
+    id: 3,
+    year: "2023",
+    numDoc: "ACUERDO INE CG-437-2023",
+    nameDoc:
+      "CONVOCATORIAS A CIUDADANÍA PARA OBSERVADORA ELECTORAL PEC 2023-2024 Y PEE QUE DERIVEN, Y ANEXOS",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2023/3.pdf",
+    subRows: [
+      {
+        nameDoc: "CONVOCATORIA INE",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2023/3.1.pdf",
+        subRows: "",
+      },
+      {
+        nameDoc: "CONVOCATORIA OPLE",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2023/3.2.pdf",
+        subRows: "",
+      }, {
+        nameDoc: "ANEXO 1",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2023/3.3.pdf",
+        subRows: "",
+      }, {
+        nameDoc: "ANEXO 2",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2023/3.4.pdf",
+        subRows: "",
+      }, {
+        nameDoc: "ANEXO 3",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2023/3.5.pdf",
+        subRows: "",
+      }, {
+        nameDoc: "ANEXO 4",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2023/3.6.pdf",
+        subRows: "",
+      }, {
+        nameDoc: "ANEXO 5",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2023/3.7.pdf",
+        subRows: "",
+      },
+    ],
   },
 ];

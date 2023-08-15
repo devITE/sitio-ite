@@ -31,13 +31,13 @@ const ITE = () => {
   return (
     <>
         {/* { <ModalInit
-        imgLink="https://itetlax.org.mx/assets/img/imgC_A/22.png"
+        imgLink="https://itetlax.org.mx/assets/img/imgC_A/7.jpg"
         url="https://portalanterior.ieepcnl.mx/2023/cepxxiv/"
         linkToo=""
       /> } */}
         { <ModalInit
-        imgLink="https://itetlax.org.mx/assets/img/imgC_A/44.jpg"
-        url="https://itetlax.org.mx/assets/pdf/agenda/4.pdf"
+        imgLink="https://itetlax.org.mx/assets/img/imgC_A/45.png"
+        url="https://itetlax.org.mx/assets/img/imgC_A/45.png"
         linkToo=""
       /> }
 
@@ -130,13 +130,13 @@ const ITE = () => {
           <h2 className="bottom_title">Sesión en Vivo</h2>
           <div className="Home__video-embed ratio ratio-16x9 w-100">
             <iframe
-              src="https://www.youtube-nocookie.com/embed/yY_ypgaRYto?rel=0"
-              title="Sesión Presencial Ordinaria del CG 28/07/2023"
+              src="https://www.youtube-nocookie.com/embed/PgHhZ3PMJJI"
+              title="Sesión Presencial Extraordinaria del CG 28/07/2023"
               allowFullScreen
             ></iframe>
           </div>
           <h5 className="mt-3 text-center">
-          Sesión Presencial Ordinaria del CG 28/07/2023{" "}
+          Sesión Presencial Extraordinaria del CG 28/07/2023{" "}
           </h5>
         </div>
         <div>
