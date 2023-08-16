@@ -7,14 +7,14 @@ export const dataEstrados = [
   //   linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/21.1.pdf",
   // },
 
-  // {
-  //   id: 1,
-  //   nameCedula:
-  //     "CÉDULA DE FIJACIÓN EN ESTRADOS RESOLUCIONES ITE-CG 20-2023 A LA ITE-CG 25-2023",
-  //   linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/9.pdf",
-  //   nameFolio: "",
-  //   linkFolio: "",
-  // },
+  {//fecha de baja 21 de agosto 2023
+    id: 1,
+    nameCedula:
+      "CÉDULA DE PUBLICITACIÓN FOLIO 1824",
+    linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/22.pdf",
+    nameFolio: "FOLIO 1824-2023",
+    linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/22.1.pdf",
+  },
 
   // {
   //   id: 2,
