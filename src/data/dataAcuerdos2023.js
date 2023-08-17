@@ -710,7 +710,7 @@ export const dataAcuerdos2023 = [
   {
     id: 63,
     year: "2023",
-    typeDoc: "RESOLUCIÓN",
+    typeDoc: "ACUERDO",
     numDoc: "ITE-CG 63-2023",
     monthDoc: "JUL",
     nameDoc:
@@ -722,7 +722,7 @@ export const dataAcuerdos2023 = [
   {
     id: 64,
     year: "2023",
-    typeDoc: "RESOLUCIÓN",
+    typeDoc: "ACUERDO",
     numDoc: "ITE-CG 64-2023",
     monthDoc: "JUL",
     nameDoc:
@@ -730,6 +730,29 @@ export const dataAcuerdos2023 = [
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/64.pdf",
     titleAnexo1: "DICTAMEN",
     pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/64.1.pdf",
+  },
+  {
+    id: 65,
+    year: "2023",
+    typeDoc: "RESOLUCIÓN",
+    numDoc: "ITE-CG 65-2023",
+    monthDoc: "AGO",
+    nameDoc:
+      "SE APRUEBA DICTAMEN CONSOLIDADO INFORMES MENSUALES RECURSOS FEB-ABRIL 2023 RENOVEMOS TLAXCALA",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/65.pdf",
+    titleAnexo1: "DICTAMEN",
+    pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/65.1.pdf",
+  },{
+    id: 66,
+    year: "2023",
+    typeDoc: "RESOLUCIÓN",
+    numDoc: "ITE-CG 66-2023",
+    monthDoc: "AGO",
+    nameDoc:
+      "SE APRUEBA DICTAMEN CONSOLIDADO INFORMES MENSUALES RECURSOS FEB-ABRIL 2023 SOCIEDAD INDEPENDIENTE SI",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/66.pdf",
+    titleAnexo1: "DICTAMEN",
+    pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/66.1.pdf",
   },
 ];
 
