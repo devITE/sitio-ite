@@ -511,7 +511,7 @@ export const dataAcuerdos2023 = [
     typeDoc: "RESOLUCIÓN",
     numDoc: "ITE-CG 42-2023",
     monthDoc: "JUL",
-    nameDoc: " POS EXPEDIENTE CQD-Q-AAC-CG-001-2023.",
+    nameDoc: "POS EXPEDIENTE CQD-Q-AAC-CG-001-2023",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/42.pdf",
   },
   {
@@ -529,7 +529,7 @@ export const dataAcuerdos2023 = [
     typeDoc: "RESOLUCIÓN",
     numDoc: "ITE-CG 44-2023",
     monthDoc: "JUL",
-    nameDoc: "POS EXPEDIENTE CQD-Q-API-CG-003-2023",
+    nameDoc: "POS EXPEDIENTE CQD-Q-HUA-CG-003-2023",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/44.pdf",
   },
   {
@@ -538,7 +538,7 @@ export const dataAcuerdos2023 = [
     typeDoc: "RESOLUCIÓN",
     numDoc: "ITE-CG 45-2023",
     monthDoc: "JUL",
-    nameDoc: "POS EXPEDIENTE CQD-Q-API-CG-004-2023",
+    nameDoc: "POS EXPEDIENTE CQD-Q-IMM-CG-004-2023",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/45.pdf",
     titleAnexo1: "FE DE ERRATAS",
     pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/45.1.pdf",
@@ -549,7 +549,7 @@ export const dataAcuerdos2023 = [
     typeDoc: "RESOLUCIÓN",
     numDoc: "ITE-CG 46-2023",
     monthDoc: "JUL",
-    nameDoc: "POS EXPEDIENTE CQD-Q-API-CG-005-2023",
+    nameDoc: "POS EXPEDIENTE CQD-Q-SLZ-CG-005-2023",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/46.pdf",
   },
   {
@@ -558,7 +558,7 @@ export const dataAcuerdos2023 = [
     typeDoc: "RESOLUCIÓN",
     numDoc: "ITE-CG 47-2023",
     monthDoc: "JUL",
-    nameDoc: "POS EXPEDIENTE CQD-Q-API-CG-006-2023",
+    nameDoc: " POS EXPEDIENTE CQD-Q-NMA-CG-006-2023",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/47.pdf",
   },
   {
@@ -567,7 +567,7 @@ export const dataAcuerdos2023 = [
     typeDoc: "RESOLUCIÓN",
     numDoc: "ITE-CG 48-2023",
     monthDoc: "JUL",
-    nameDoc: "POS EXPEDIENTE CQD-Q-API-CG-007-2023",
+    nameDoc: " POS EXPEDIENTE CQD-Q-TEO-CG-007-2023",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/48.pdf",
   },
   {
@@ -576,7 +576,7 @@ export const dataAcuerdos2023 = [
     typeDoc: "RESOLUCIÓN",
     numDoc: "ITE-CG 49-2023",
     monthDoc: "JUL",
-    nameDoc: "POS EXPEDIENTE CQD-Q-API-CG-008-2023",
+    nameDoc: "POS EXPEDIENTE CQD-Q-TEP-CG-008-2023",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/49.pdf",
   },
   {
@@ -585,7 +585,7 @@ export const dataAcuerdos2023 = [
     typeDoc: "RESOLUCIÓN",
     numDoc: "ITE-CG 50-2023",
     monthDoc: "JUL",
-    nameDoc: "POS EXPEDIENTE CQD-Q-API-CG-009-2023",
+    nameDoc: "POS EXPEDIENTE CQD-Q-TER-CG-009-2023",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/50.pdf",
   },
   {
@@ -594,7 +594,7 @@ export const dataAcuerdos2023 = [
     typeDoc: "RESOLUCIÓN",
     numDoc: "ITE-CG 51-2023",
     monthDoc: "JUL",
-    nameDoc: "POS EXPEDIENTE CQD-Q-API-CG-010-2023",
+    nameDoc: "POS EXPEDIENTE CQD-Q-ZTSS-CG-010-2023",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/51.pdf",
   },
   {
@@ -603,7 +603,7 @@ export const dataAcuerdos2023 = [
     typeDoc: "RESOLUCIÓN",
     numDoc: "ITE-CG 52-2023",
     monthDoc: "JUL",
-    nameDoc: "POS EXPEDIENTE CQD-Q-API-CG-011-2023",
+    nameDoc: "POS EXPEDIENTE CQD-Q-XIC-CG-011-2023",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/52.pdf",
   },
   {
@@ -612,7 +612,7 @@ export const dataAcuerdos2023 = [
     typeDoc: "RESOLUCIÓN",
     numDoc: "ITE-CG 53-2023",
     monthDoc: "JUL",
-    nameDoc: "POS EXPEDIENTE CQD-Q-API-CG-012-2023",
+    nameDoc: "POS EXPEDIENTE CQD-Q-ZAC-CG-012-2023",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/53.pdf",
   },
   {
@@ -621,7 +621,7 @@ export const dataAcuerdos2023 = [
     typeDoc: "RESOLUCIÓN",
     numDoc: "ITE-CG 54-2023",
     monthDoc: "JUL",
-    nameDoc: "POS EXPEDIENTE CQD-Q-API-CG-013-2023",
+    nameDoc: "POS EXPEDIENTE CQD-Q-SJT-CG-013-2023",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/54.pdf",
   },
   {
@@ -630,7 +630,7 @@ export const dataAcuerdos2023 = [
     typeDoc: "RESOLUCIÓN",
     numDoc: "ITE-CG 55-2023",
     monthDoc: "JUL",
-    nameDoc: "POS EXPEDIENTE CQD-Q-API-CG-014-2023",
+    nameDoc: "POS EXPEDIENTE CQD-Q-LC-CG-014-2023",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/55.pdf",
   },
   {
@@ -639,7 +639,7 @@ export const dataAcuerdos2023 = [
     typeDoc: "RESOLUCIÓN",
     numDoc: "ITE-CG 56-2023",
     monthDoc: "JUL",
-    nameDoc: "POS EXPEDIENTE CQD-Q-API-CG-015-2023",
+    nameDoc: "POS EXPEDIENTE CQD-Q-SAN-CG-015-2023",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/56.pdf",
   },
   {
@@ -648,7 +648,7 @@ export const dataAcuerdos2023 = [
     typeDoc: "RESOLUCIÓN",
     numDoc: "ITE-CG 57-2023",
     monthDoc: "JUL",
-    nameDoc: "POS EXPEDIENTE CQD-Q-API-CG-016-2023",
+    nameDoc: "POS EXPEDIENTE CQD-Q-SLA-CG-016-2023",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/57.pdf",
   },
   {

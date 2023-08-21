@@ -23,6 +23,14 @@ export const dataEstrados = [
     nameFolio: "FOLIO 1901-2023",
     linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/23.1.pdf",
   },
+  {//fecha de baja 24 de agosto 2023
+    id: 2,
+    nameCedula:
+      "CÉDULA DE PUBLICITACIÓN FOLIO 1915",
+    linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/24.pdf",
+    nameFolio: "FOLIO 1915-2023",
+    linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/24.1.pdf",
+  },
 
   // {
   //   id: 2,

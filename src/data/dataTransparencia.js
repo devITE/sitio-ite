@@ -174,6 +174,27 @@ export const dataConvenios = [
     title: "ITE - SISTEMA ANTICORRUPCIÓN",
     url: "https://itetlax.org.mx/assets/pdf/transparencia/convenios/34.pdf",
   },
+  {
+    id: 35,
+    title: "CONVENIO MPIO. SAN FRANCISCO TETLANOHCAN",
+    url: "https://itetlax.org.mx/assets/pdf/transparencia/convenios/35.pdf",
+  },{
+    id: 36,
+    title: "CONVENIO RED MUNDIAL DE JOVENES POLITICOS 2022",
+    url: "https://itetlax.org.mx/assets/pdf/transparencia/convenios/36.pdf",
+  },{
+    id: 37,
+    title: "CONVENIO UAT 2022",
+    url: "https://itetlax.org.mx/assets/pdf/transparencia/convenios/37.pdf",
+  },{
+    id: 38,
+    title: "CONVENIO UNAM",
+    url: "https://itetlax.org.mx/assets/pdf/transparencia/convenios/38.pdf",
+  },{
+    id: 39,
+    title: "CONVENIO UPET 2022",
+    url: "https://itetlax.org.mx/assets/pdf/transparencia/convenios/39.pdf",
+  },
 ];
 
 export const dataInformesAnuales = [
