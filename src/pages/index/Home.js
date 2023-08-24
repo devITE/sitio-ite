@@ -56,13 +56,13 @@ const ITE = () => {
       <div className="mt-5 Home__AR-A">
         <div>
           <h2 className="bottom_title">
-          Taller de Análisis de Sentencias
+          Firma de convenio entre el ITE y la A.C -DDESER Tlaxcala
           </h2>
           <div className="Home__video-embed ratio ratio-16x9 w-100">
             <iframe
               id="9QQCf_emFwo"
-              src="https://www.youtube-nocookie.com/embed/sEHflegbzTc?rel=0"
-              title="Taller de Análisis de Sentencias"
+              src="https://www.youtube-nocookie.com/embed/JTgAdpDZoM4?rel=0"
+              title="Firma de convenio entre el ITE y la A.C -DDESER Tlaxcala"
               allowFullScreen
             ></iframe>
           </div>
