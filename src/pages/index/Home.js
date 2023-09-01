@@ -30,14 +30,15 @@ const ITE = () => {
   }, []);
   return (
     <>
+        
         { <ModalInit
         imgLink="https://itetlax.org.mx/assets/img/imgC_A/7.jpg"
-        //url="https://itetlax.org.mx/assets/img/imgC_A/7.jpg"
+       // url="https://itetlax.org.mx/assets/img/imgC_A/7.jpg"
         linkToo=""
       /> }
         {/* { <ModalInit
-        imgLink="https://itetlax.org.mx/assets/img/imgC_A/45.png"
-        url="https://itetlax.org.mx/assets/img/imgC_A/45.png"
+        imgLink="https://itetlax.org.mx/assets/img/imgC_A/51.png"
+        url="https://itetlax.org.mx/assets/img/imgC_A/51.png"
         linkToo=""
       /> } */}
 
@@ -56,12 +57,12 @@ const ITE = () => {
       <div className="mt-5 Home__AR-A">
         <div>
           <h2 className="bottom_title">
-          Firma de convenio entre el ITE y la A.C -DDESER Tlaxcala
+          Firma de Convenio entre el ITE y la CEDH
           </h2>
           <div className="Home__video-embed ratio ratio-16x9 w-100">
             <iframe
               id="9QQCf_emFwo"
-              src="https://www.youtube-nocookie.com/embed/JTgAdpDZoM4?rel=0"
+              src="https://www.youtube-nocookie.com/embed/KU2JD-OPzrc?rel=0"
               title="Firma de convenio entre el ITE y la A.C -DDESER Tlaxcala"
               allowFullScreen
             ></iframe>
@@ -130,13 +131,13 @@ const ITE = () => {
           <h2 className="bottom_title">Sesión en Vivo</h2>
           <div className="Home__video-embed ratio ratio-16x9 w-100">
             <iframe
-              src="https://www.youtube-nocookie.com/embed/gcYp2odEWWc"
-              title="Sesión Presencial Extraordinaria del CG 16/08/2023"
+              src="https://www.youtube-nocookie.com/embed/iKFfrKSOPS8"
+              title="Sesión Presencial Ordinaria del CG 31/08/2023"
               allowFullScreen
             ></iframe>
           </div>
           <h5 className="mt-3 text-center">
-          Sesión Presencial Extraordinaria del CG 16/08/2023{" "}
+          Sesión Presencial Ordinaria del CG 31/08/2023{" "}
           </h5>
         </div>
         <div>

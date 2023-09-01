@@ -285,14 +285,14 @@ export const dataCA = [
   },
   // {
   //   id: 2,
-  //   imgUrl: "https://itetlax.org.mx/assets/img/imgC_A/45.png",
+  //   imgUrl: "https://itetlax.org.mx/assets/img/imgC_A/51.png",
   //   alt: "sesion extraoridinaria del CG",
   //   itemActive: "active",
   //   buttonActive: "active",
   //   ariaCurrent: "true",
-  //   url: "https://itetlax.org.mx/assets/img/imgC_A/45.png",
+  //   url: "https://itetlax.org.mx/assets/img/imgC_A/51.png",
   //   linkToo: "",
-  // },
+  //  },
 
   {
     id: 3,
