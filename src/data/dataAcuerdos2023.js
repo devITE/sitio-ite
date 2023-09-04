@@ -742,7 +742,8 @@ export const dataAcuerdos2023 = [
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/65.pdf",
     titleAnexo1: "DICTAMEN",
     pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/65.1.pdf",
-  },{
+  },
+  {
     id: 66,
     year: "2023",
     typeDoc: "RESOLUCIÓN",
@@ -753,6 +754,56 @@ export const dataAcuerdos2023 = [
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/66.pdf",
     titleAnexo1: "DICTAMEN",
     pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/66.1.pdf",
+  },
+  {
+    id: 67,
+    year: "2023",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 67-2023",
+    monthDoc: "AGO",
+    nameDoc: "RATIFICACIÓN DE LA INSTANCIA INTERNA Y COMISIÓN DEL PREP",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/67.pdf",
+  },
+  {
+    id: 68,
+    year: "2023",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 68-2023",
+    monthDoc: "AGO",
+    nameDoc: "INTEGRACIÓN COMISIONES TEMPORALES",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/68.pdf",
+  },
+  {
+    id: 69,
+    year: "2023",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 69-2023",
+    monthDoc: "AGO",
+    nameDoc:
+      "SE DESIGNA INSTANCIA INTERNA RESPONSABLE DEL SISTEMA CANDIDATAS Y CANDIDATOS, CONÓCELES",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/69.pdf",
+  },
+  {
+    id: 70,
+    year: "2023",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 70-2023",
+    monthDoc: "AGO",
+    nameDoc:
+      "SE APRUEBA INFORME RELATIVO A LA VERIFICACIÓN DE CUMPLIMIENTO DE NÚMERO MÍNIMO DE PERSONAS AFILIADAS A PPL",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/70.pdf",
+    titleAnexo1:
+      "Registros con inconsistencias Fuerza por México Tlaxcala",
+    pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/70.1.pdf",
+    titleAnexo2:
+      "Registros con inconsistencias Nueva Alianza Tlaxcala",
+    pdfAnexo2: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/70.2.pdf",
+    titleAnexo3: "Registros con inconsistencias PAC",
+    pdfAnexo3: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/70.3.pdf",
+    titleAnexo4: "Registros con inconsistencias Redes Sociales Progresistas",
+    pdfAnexo4: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/70.4.pdf",
+    titleAnexo5: "Informe general verificación trianual final",
+    pdfAnexo5: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/70.5.pdf",
   },
 ];
 
@@ -807,23 +858,28 @@ export const dataAcuerdosINE2023 = [
         nameDoc: "CONVOCATORIA OPLE",
         link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2023/3.2.pdf",
         subRows: "",
-      }, {
+      },
+      {
         nameDoc: "ANEXO 1",
         link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2023/3.3.pdf",
         subRows: "",
-      }, {
+      },
+      {
         nameDoc: "ANEXO 2",
         link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2023/3.4.pdf",
         subRows: "",
-      }, {
+      },
+      {
         nameDoc: "ANEXO 3",
         link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2023/3.5.pdf",
         subRows: "",
-      }, {
+      },
+      {
         nameDoc: "ANEXO 4",
         link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2023/3.6.pdf",
         subRows: "",
-      }, {
+      },
+      {
         nameDoc: "ANEXO 5",
         link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2023/3.7.pdf",
         subRows: "",

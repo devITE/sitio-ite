@@ -125,7 +125,10 @@ const Acuerdos2023 = () => {
                   !row.original.titleAnexo3 &
                   !row.original.pdfAnexo3 &
                   !row.original.titleAnexo4 &
-                  !row.original.pdfAnexo4 ? (
+                  !row.original.pdfAnexo4 &
+                  !row.original.titleAnexo5 &
+                  !row.original.pdfAnexo5 ? (
+                  
                     <span></span>
                   ) : (
                     <tr>
@@ -203,6 +206,25 @@ const Acuerdos2023 = () => {
                       <td>
                         <a
                           href={row.original.pdfAnexo4}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <FontAwesomeIcon
+                            icon={faFilePdf}
+                            className="btn btn-danger"
+                          />
+                        </a>
+                      </td>
+                    </tr>
+                  )}
+                  {!row.original.titleAnexo5 & !row.original.pdfAnexo5 ? (
+                    <span></span>
+                  ) : (
+                    <tr>
+                      <td>{row.original.titleAnexo5.toUpperCase()}</td>
+                      <td>
+                        <a
+                          href={row.original.pdfAnexo5}
                           target="_blank"
                           rel="noreferrer"
                         >
