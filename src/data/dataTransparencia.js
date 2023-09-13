@@ -973,6 +973,19 @@ export const dataDatosAbiertos = [
               "https://itetlax.org.mx/assets/excel/transparencia/datosAbiertos/12.xlsx",
             typeDocument: "excel",
           },
+          {
+            id: 6,
+            resourseTitle: "Afiliados a Partido Político listado Fuerza por México",
+            resoursePath:
+              "https://itetlax.org.mx/assets/excel/transparencia/datosAbiertos/16.xlsx",
+            typeDocument: "excel",
+          },{
+            id: 7,
+            resourseTitle: "Afiliados a Partido Político Listado Redes Sociales Progresistas",
+            resoursePath:
+              "https://itetlax.org.mx/assets/excel/transparencia/datosAbiertos/17.xlsx",
+            typeDocument: "excel",
+          },
         ],
       },
     ],

@@ -805,6 +805,42 @@ export const dataAcuerdos2023 = [
     titleAnexo5: "Informe general verificación trianual final",
     pdfAnexo5: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/70.5.pdf",
   },
+  {
+    id: 71,
+    year: "2023",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 71-2023",
+    monthDoc: "SEP",
+    nameDoc:
+      "POR EL QUE SE APRUEBA LA REALIZACIÓN DE LA CONSULTA A PERSONAS, PUEBLOS Y COMUNIDADES INDÍGENAS DEL ESTADO DE TLAXCALA",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/71.pdf",
+    titleAnexo1:
+      "ANEXO 1 Protocolo de la convocatoria",
+    pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/71.1.pdf",
+    titleAnexo2:
+      "ANEXO 2 Convocatoria de consulta",
+    pdfAnexo2: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/71.2.pdf",
+    titleAnexo3: "ANEXO 3 Guía de preguntas",
+    pdfAnexo3: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/71.3.pdf",
+    titleAnexo4: "ANEXO 4 Convocatoria Observación",
+    pdfAnexo4: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/71.4.pdf",
+    titleAnexo5: "ANEXO 4.1 Solicitud de registro observación",
+    pdfAnexo5: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/71.5.pdf",
+    titleAnexo6: "Anexo Protocolo 1 Instrumentos Jurídicos",
+    pdfAnexo6: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/71.6.pdf",
+    titleAnexo7: "Anexo Protocolo 2 Comunidades indígenas",
+    pdfAnexo7: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/71.7.pdf",
+  },
+  {
+    id: 72,
+    year: "2023",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 72-2023",
+    monthDoc: "SEP",
+    nameDoc:
+      "POR EL QUE SE DA RESPUESTA AL ESCRITO PRESENTADO POR AVELINO MEZA RODRÍGUEZ",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/72.pdf",
+  },
 ];
 
 // ------------ A C U E R D O S    I N E ------------

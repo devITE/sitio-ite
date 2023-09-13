@@ -127,7 +127,12 @@ const Acuerdos2023 = () => {
                   !row.original.titleAnexo4 &
                   !row.original.pdfAnexo4 &
                   !row.original.titleAnexo5 &
-                  !row.original.pdfAnexo5 ? (
+                  !row.original.pdfAnexo5 &
+                  !row.original.titleAnexo6 &
+                  !row.original.pdfAnexo6 &
+                  !row.original.titleAnexo7 &
+                  !row.original.pdfAnexo7 
+                  ? (
                   
                     <span></span>
                   ) : (
@@ -225,6 +230,44 @@ const Acuerdos2023 = () => {
                       <td>
                         <a
                           href={row.original.pdfAnexo5}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <FontAwesomeIcon
+                            icon={faFilePdf}
+                            className="btn btn-danger"
+                          />
+                        </a>
+                      </td>
+                    </tr>
+                  )}
+                   {!row.original.titleAnexo6 & !row.original.pdfAnexo6 ? (
+                    <span></span>
+                  ) : (
+                    <tr>
+                      <td>{row.original.titleAnexo6.toUpperCase()}</td>
+                      <td>
+                        <a
+                          href={row.original.pdfAnexo6}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <FontAwesomeIcon
+                            icon={faFilePdf}
+                            className="btn btn-danger"
+                          />
+                        </a>
+                      </td>
+                    </tr>
+                  )}
+                   {!row.original.titleAnexo7 & !row.original.pdfAnexo7 ? (
+                    <span></span>
+                  ) : (
+                    <tr>
+                      <td>{row.original.titleAnexo7.toUpperCase()}</td>
+                      <td>
+                        <a
+                          href={row.original.pdfAnexo7}
                           target="_blank"
                           rel="noreferrer"
                         >
