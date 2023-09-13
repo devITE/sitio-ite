@@ -841,6 +841,16 @@ export const dataAcuerdos2023 = [
       "POR EL QUE SE DA RESPUESTA AL ESCRITO PRESENTADO POR AVELINO MEZA RODRÍGUEZ",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/72.pdf",
   },
+  {
+    id: 73,
+    year: "2023",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 73-2023",
+    monthDoc: "SEP",
+    nameDoc:
+      "CUMPLIMIENTO DE SENTENCIA TET-JE-020-023 EST",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/73.pdf",
+  },
 ];
 
 // ------------ A C U E R D O S    I N E ------------
