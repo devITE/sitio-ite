@@ -31,16 +31,17 @@ const ITE = () => {
   return (
     <>
         
-        {/* { <ModalInit
-        imgLink="https://itetlax.org.mx/assets/img/imgC_A/53.png"
-       url="https://itetlax.org.mx/assets/img/imgC_A/53.png"
-        linkToo=""
-      /> } */}
         { <ModalInit
-        imgLink="https://itetlax.org.mx/assets/img/imgC_A/7.jpg"
-        url="https://itetlax.org.mx/assets/img/imgC_A/7.jpg"
+        imgLink="https://itetlax.org.mx/assets/img/imgC_A/54.png"
+       url="https://itetlax.org.mx/assets/img/imgC_A/54.pdf"
         linkToo=""
       /> }
+{/*       
+        { <ModalInit
+        imgLink="https://itetlax.org.mx/assets/img/imgC_A/58.png"
+        url="https://itetlax.org.mx/assets/img/imgC_A/58.png"
+        linkToo=""
+      /> } */}
 
       <Carousel idCarousel="carouselTopIndex">
         {dataCIndex.map((cIndex) => (
@@ -131,13 +132,13 @@ const ITE = () => {
           <h2 className="bottom_title">Sesión en Vivo</h2>
           <div className="Home__video-embed ratio ratio-16x9 w-100">
             <iframe
-              src="https://www.youtube-nocookie.com/embed/ZXYmIPNQboU"
-              title="Sesión Presencial Especial del CG 12/09/2023"
+              src="https://www.youtube-nocookie.com/embed/Cph2PZNLdG8"
+              title="Sesión Prescencial Especial del CG 15/09/2023"
               allowFullScreen
             ></iframe>
           </div>
           <h5 className="mt-3 text-center">
-          Sesión Presencial Especial del CG 12/09/2023{" "}
+          Sesión Prescencial Especial del CG 15/09/2023{" "}
           </h5>
         </div>
         <div>
