@@ -851,6 +851,30 @@ export const dataAcuerdos2023 = [
       "CUMPLIMIENTO DE SENTENCIA TET-JE-020-023 EST",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/73.pdf",
   },
+  {
+    id: 74,
+    year: "2023",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 74-2023",
+    monthDoc: "SEP",
+    nameDoc:
+      "APROBACIÓN DE CONSULTA A PERSONAS CON DISCAPACIDAD",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/74.pdf",
+    titleAnexo1:
+      "ANEXO 1 Protocolo para la consulta a personas con discapacidad",
+    pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/74.1.pdf",
+    titleAnexo2:
+      "Anexo 1.1 Fundamento Jurídico para la consulta a personas con discapacidad",
+    pdfAnexo2: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/74.2.pdf",
+    titleAnexo3: "Anexo 1.2 Cuestionario de Consulta a personas con discapacidad",
+    pdfAnexo3: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/74.3.pdf",
+    titleAnexo4: "Anexo 2 Convocatoria de Consulta a personas con discapacidad",
+    pdfAnexo4: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/74.4.pdf",
+    titleAnexo5: "Anexo 3 Convocatoria Observador(a) de Consulta a personas con discapacidad",
+    pdfAnexo5: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/74.5.pdf",
+    titleAnexo6: "Anexo 3.1 Solicitud de acreditación para participar observador a personas con discapacidad",
+    pdfAnexo6: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/74.6.pdf",
+  },
 ];
 
 // ------------ A C U E R D O S    I N E ------------

@@ -5,7 +5,7 @@ import { dataInf } from "../../data/dataInfografias";
 
 import "./EnlacesStyle.css";
 
-const Inforgrafias = () => {
+const Infografias = () => {
   useEffect(() => {
     document.title = `Infografías`;
   }, []);
@@ -132,4 +132,4 @@ const Inforgrafias = () => {
     </>
   );
 };
-export default Inforgrafias;
+export default Infografias;
