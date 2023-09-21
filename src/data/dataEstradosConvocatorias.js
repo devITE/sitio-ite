@@ -10,30 +10,28 @@ export const dataEstrados = [
   //fecha de baja 22 de septiembre 2023
   {
     id: 1,
-    nameCedula:
-      "CÉDULA DE PUBLICITACIÓN FOLIO 2164",
-    linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/22.pdf",
+    nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 2164",
+    linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/25.pdf",
     nameFolio: "FOLIO 2164-2023",
     linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/25.1.pdf",
   },
 
-  //fecha de baja 23 de agosto 2023
-  //   id: 1,
-  //   nameCedula:
-  //     "CÉDULA DE PUBLICITACIÓN FOLIO 1901-2023",
-  //   linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/23.pdf",
-  //   nameFolio: "FOLIO 1901-2023",
-  //   linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/23.1.pdf",
-  // },
-  //fecha de baja 24 de agosto 2023
-  //  { id: 2,
-  //   nameCedula:
-  //     "CÉDULA DE PUBLICITACIÓN FOLIO 1915",
-  //   linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/24.pdf",
-  //   nameFolio: "FOLIO 1915-2023",
-  //   linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/24.1.pdf",
-  // },
-
+  //fecha de baja 25 de septiembre 2023
+  {
+    id: 2,
+    nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 2174",
+    linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/26.pdf",
+    nameFolio: "FOLIO 2174-2023",
+    linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/26.1.pdf",
+  },
+  //fecha de baja 26 de septiembre 2023
+  {
+    id: 2,
+    nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 2187",
+    linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/27.pdf",
+    nameFolio: "FOLIO 2187-2023",
+    linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/27.1.pdf",
+  },
 ];
 
 export const dataConvocatorias = [
@@ -42,5 +40,4 @@ export const dataConvocatorias = [
   //   nameFile: "CÉDULA DE PUBLICITACIÓN FOLIO 3211",
   //   linkFile: "https://itetlax.org.mx/assets/pdf/estrados/1.pdf",
   // },
- 
 ];
