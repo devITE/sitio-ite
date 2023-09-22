@@ -319,4 +319,17 @@ export const dataCA = [
     url: "https://itetlax.org.mx/assets/img/imgC_A/59.jpg",
     linkToo: "",
   },
+  {
+    id: 15,
+    imgUrl: "https://itetlax.org.mx/assets/img/imgC_A/60.jpg",
+    alt: "foros",
+    url: "https://itetlax.org.mx/assets/img/imgC_A/60.jpg",
+    linkToo: "",
+  },{
+    id: 16,
+    imgUrl: "https://itetlax.org.mx/assets/img/imgC_A/61.jpg",
+    alt: "foros",
+    url: "https://itetlax.org.mx/assets/img/imgC_A/61.jpg",
+    linkToo: "",
+  },
 ];
