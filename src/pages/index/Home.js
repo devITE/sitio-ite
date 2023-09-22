@@ -31,17 +31,16 @@ const ITE = () => {
   return (
     <>
         
-        { <ModalInit
+        {/* { <ModalInit
         imgLink="https://itetlax.org.mx/assets/img/imgC_A/54.png"
        url="https://itetlax.org.mx/assets/img/imgC_A/54.pdf"
         linkToo=""
-      /> }
-{/*       
-        { <ModalInit
-        imgLink="https://itetlax.org.mx/assets/img/imgC_A/58.png"
-        url="https://itetlax.org.mx/assets/img/imgC_A/58.png"
-        linkToo=""
       /> } */}
+        { <ModalInit
+        imgLink="https://itetlax.org.mx/assets/img/imgC_A/59.jpg"
+        url="https://itetlax.org.mx/assets/img/imgC_A/59.jpg"
+        linkToo=""
+      /> }
 
       <Carousel idCarousel="carouselTopIndex">
         {dataCIndex.map((cIndex) => (
