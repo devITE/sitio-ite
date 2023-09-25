@@ -55,11 +55,21 @@ export const dataCIndex = [
     id: 8,
     imgUrl: "https://itetlax.org.mx/assets/img/imgC_I/ite-conecta.jpg",
     alt: "ITE Conecta",
+    // itemActive: "active",
+    // buttonActive: "active",
+    // ariaCurrent: "true",
+    url: "",
+    linkToo: "/ITEConecta",
+  },
+  {
+    id: 9,
+    imgUrl: "https://itetlax.org.mx/assets/img/imgC_I/discapacidad.jpg",
+    alt: "discapacidad",
     itemActive: "active",
     buttonActive: "active",
     ariaCurrent: "true",
-    url: "",
-    linkToo: "/ITEConecta",
+    url: "https://ite-consulta-pcd.itetlax.org.mx/",
+    linkToo: "",
   },
 ];
 
