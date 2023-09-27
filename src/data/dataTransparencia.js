@@ -947,14 +947,14 @@ export const dataDatosAbiertos = [
           },
           {
             id: 2,
-            resourseTitle: "Afiliados NAT 14-07-2021",
+            resourseTitle: "Afiliados NAT 11-09-2023",
             resoursePath:
               "https://itetlax.org.mx/assets/excel/transparencia/datosAbiertos/9.xlsx",
             typeDocument: "excel",
           },
           {
             id: 3,
-            resourseTitle: "Afiliados PAC 14-07-2021",
+            resourseTitle: "Afiliados PAC 11-09-2023",
             resoursePath:
               "https://itetlax.org.mx/assets/excel/transparencia/datosAbiertos/10.xlsx",
             typeDocument: "excel",
@@ -975,13 +975,13 @@ export const dataDatosAbiertos = [
           },
           {
             id: 6,
-            resourseTitle: "Afiliados a Partido Político listado Fuerza por México",
+            resourseTitle: "Afiliados a Partido Político listado Fuerza por México 11-09-2023",
             resoursePath:
               "https://itetlax.org.mx/assets/excel/transparencia/datosAbiertos/16.xlsx",
             typeDocument: "excel",
           },{
             id: 7,
-            resourseTitle: "Afiliados a Partido Político Listado Redes Sociales Progresistas",
+            resourseTitle: "Afiliados a Partido Político Listado Redes Sociales Progresistas 11-09-2023",
             resoursePath:
               "https://itetlax.org.mx/assets/excel/transparencia/datosAbiertos/17.xlsx",
             typeDocument: "excel",
