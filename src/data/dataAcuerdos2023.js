@@ -956,4 +956,34 @@ export const dataAcuerdosINE2023 = [
       },
     ],
   },
+  {
+    id: 4,
+    year: "2023",
+    numDoc: "ACUERDO INE CG-537-2023",
+    nameDoc:
+      "PERSONAS VISITANTES EXTRANJERAS",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2023/4.pdf",
+    subRows: [
+      {
+        nameDoc: "(Anexo 1) Convocatoria VE 23-24",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2023/4.1.pdf",
+        subRows: "",
+      },
+      {
+        nameDoc: "(Anexo 2) Solicitud acreditación VE 23-24",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2023/4.2.pdf",
+        subRows: "",
+      },
+      {
+        nameDoc: "(Anexo 3) Prog. Trab. Visit. Extranjera 23-24",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2023/4.3.pdf",
+        subRows: "",
+      },
+      {
+        nameDoc: "(Anexo 4) Gafete de acreditación VE 23-24",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2023/4.4.pdf",
+        subRows: "",
+      },
+    ],
+  },
 ];
