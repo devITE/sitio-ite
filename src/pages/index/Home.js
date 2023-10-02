@@ -31,16 +31,16 @@ const ITE = () => {
   return (
     <>
         
-        {/* { <ModalInit
+        { <ModalInit
         imgLink="https://itetlax.org.mx/assets/img/imgC_A/54.png"
        url="https://itetlax.org.mx/assets/img/imgC_A/54.pdf"
         linkToo=""
-      /> } */}
-        { <ModalInit
+      /> }
+        {/* { <ModalInit
         imgLink="https://itetlax.org.mx/assets/img/imgC_A/59.jpg"
         url="https://itetlax.org.mx/assets/img/imgC_A/59.jpg"
         linkToo=""
-      /> }
+      /> } */}
 
       <Carousel idCarousel="carouselTopIndex">
         {dataCIndex.map((cIndex) => (
@@ -131,13 +131,13 @@ const ITE = () => {
           <h2 className="bottom_title">Sesión en Vivo</h2>
           <div className="Home__video-embed ratio ratio-16x9 w-100">
             <iframe
-              src="https://www.youtube-nocookie.com/embed/KzSBQjdeUGg"
-              title="Sesión Presencial Especial del CG 29/09/2023"
+              src="https://www.youtube-nocookie.com/embed/YHG1PmPgXLw"
+              title="Sesión Presencial Ordinaria del CG 29/09/2023"
               allowFullScreen
             ></iframe>
           </div>
           <h5 className="mt-3 text-center">
-          Sesión Presencial Especial del CG 29/09/2023{" "}
+          Sesión Presencial Ordinaria del CG 29/09/2023{" "}
           </h5>
         </div>
         <div>

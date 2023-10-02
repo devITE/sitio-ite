@@ -792,11 +792,9 @@ export const dataAcuerdos2023 = [
     nameDoc:
       "SE APRUEBA INFORME RELATIVO A LA VERIFICACIÓN DE CUMPLIMIENTO DE NÚMERO MÍNIMO DE PERSONAS AFILIADAS A PPL",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/70.pdf",
-    titleAnexo1:
-      "Registros con inconsistencias Fuerza por México Tlaxcala",
+    titleAnexo1: "Registros con inconsistencias Fuerza por México Tlaxcala",
     pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/70.1.pdf",
-    titleAnexo2:
-      "Registros con inconsistencias Nueva Alianza Tlaxcala",
+    titleAnexo2: "Registros con inconsistencias Nueva Alianza Tlaxcala",
     pdfAnexo2: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/70.2.pdf",
     titleAnexo3: "Registros con inconsistencias PAC",
     pdfAnexo3: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/70.3.pdf",
@@ -814,11 +812,9 @@ export const dataAcuerdos2023 = [
     nameDoc:
       "POR EL QUE SE APRUEBA LA REALIZACIÓN DE LA CONSULTA A PERSONAS, PUEBLOS Y COMUNIDADES INDÍGENAS DEL ESTADO DE TLAXCALA",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/71.pdf",
-    titleAnexo1:
-      "ANEXO 1 Protocolo de la convocatoria",
+    titleAnexo1: "ANEXO 1 Protocolo de la convocatoria",
     pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/71.1.pdf",
-    titleAnexo2:
-      "ANEXO 2 Convocatoria de consulta",
+    titleAnexo2: "ANEXO 2 Convocatoria de consulta",
     pdfAnexo2: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/71.2.pdf",
     titleAnexo3: "ANEXO 3 Guía de preguntas",
     pdfAnexo3: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/71.3.pdf",
@@ -847,8 +843,7 @@ export const dataAcuerdos2023 = [
     typeDoc: "ACUERDO",
     numDoc: "ITE-CG 73-2023",
     monthDoc: "SEP",
-    nameDoc:
-      "CUMPLIMIENTO DE SENTENCIA TET-JE-020-023 EST",
+    nameDoc: "CUMPLIMIENTO DE SENTENCIA TET-JE-020-023 EST",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/73.pdf",
   },
   {
@@ -857,8 +852,7 @@ export const dataAcuerdos2023 = [
     typeDoc: "ACUERDO",
     numDoc: "ITE-CG 74-2023",
     monthDoc: "SEP",
-    nameDoc:
-      "APROBACIÓN DE CONSULTA A PERSONAS CON DISCAPACIDAD",
+    nameDoc: "APROBACIÓN DE CONSULTA A PERSONAS CON DISCAPACIDAD",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/74.pdf",
     titleAnexo1:
       "ANEXO 1 Protocolo para la consulta a personas con discapacidad",
@@ -866,14 +860,35 @@ export const dataAcuerdos2023 = [
     titleAnexo2:
       "Anexo 1.1 Fundamento Jurídico para la consulta a personas con discapacidad",
     pdfAnexo2: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/74.2.pdf",
-    titleAnexo3: "Anexo 1.2 Cuestionario de Consulta a personas con discapacidad",
+    titleAnexo3:
+      "Anexo 1.2 Cuestionario de Consulta a personas con discapacidad",
     pdfAnexo3: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/74.3.pdf",
     titleAnexo4: "Anexo 2 Convocatoria de Consulta a personas con discapacidad",
     pdfAnexo4: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/74.4.pdf",
-    titleAnexo5: "Anexo 3 Convocatoria Observador(a) de Consulta a personas con discapacidad",
+    titleAnexo5:
+      "Anexo 3 Convocatoria Observador(a) de Consulta a personas con discapacidad",
     pdfAnexo5: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/74.5.pdf",
-    titleAnexo6: "Anexo 3.1 Solicitud de acreditación para participar observador a personas con discapacidad",
+    titleAnexo6:
+      "Anexo 3.1 Solicitud de acreditación para participar observador a personas con discapacidad",
     pdfAnexo6: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/74.6.pdf",
+  },
+  {
+    id: 75,
+    year: "2023",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 75-2023",
+    monthDoc: "SEP",
+    nameDoc:
+      "SE APRUEBA PROYECTO DE PRESUPUESTO DE EGRESOS DE ESTE INSTITUTO PARA EL EJERCICIO FISCAL 2024",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/75.pdf",
+    titleAnexo1: "Anexo 1 Calendario presupuestal",
+    pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/75.1.pdf",
+    titleAnexo2: "Anexo 2 Financiamiento público PP 2024 AO",
+    pdfAnexo2: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/75.2.pdf",
+    titleAnexo3: "Anexo 3 Financiamiento público PP 2024 OV",
+    pdfAnexo3: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/75.3.pdf",
+    titleAnexo4: "Anexo 4 Financiamiento público PP 2024 AE",
+    pdfAnexo4: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/75.4.pdf",
   },
 ];
 
@@ -960,8 +975,7 @@ export const dataAcuerdosINE2023 = [
     id: 4,
     year: "2023",
     numDoc: "ACUERDO INE CG-537-2023",
-    nameDoc:
-      "PERSONAS VISITANTES EXTRANJERAS",
+    nameDoc: "PERSONAS VISITANTES EXTRANJERAS",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2023/4.pdf",
     subRows: [
       {
