@@ -890,6 +890,40 @@ export const dataAcuerdos2023 = [
     titleAnexo4: "Anexo 4 Financiamiento público PP 2024 AE",
     pdfAnexo4: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/75.4.pdf",
   },
+  {
+    id: 76,
+    year: "2023",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 76-2023",
+    monthDoc: "SEP",
+    nameDoc:
+      "SE DETERMINA LA OPERACIÓN DEL SISTEMA CONÓCELES Y SE APRUEBA PLAN DE TRABAJO",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/76.pdf",
+    titleAnexo1: "PLAN DE TRABAJO",
+    pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/76.1.pdf",
+  },
+  {
+    id: 77,
+    year: "2023",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 77-2023",
+    monthDoc: "SEP",
+    nameDoc:
+      "POR EL QUE SE REQUIERE A FXMT",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/77.pdf",
+  },
+  {
+    id: 78,
+    year: "2023",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 78-2023",
+    monthDoc: "SEP",
+    nameDoc:
+      "ANEXO ÚNICO",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/78.pdf",
+    titleAnexo1: "PLAN DE TRABAJO",
+    pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/78.1.pdf",
+  },
 ];
 
 // ------------ A C U E R D O S    I N E ------------
