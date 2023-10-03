@@ -919,9 +919,9 @@ export const dataAcuerdos2023 = [
     numDoc: "ITE-CG 78-2023",
     monthDoc: "SEP",
     nameDoc:
-      "ANEXO ÚNICO",
+      "SE READECÚA EL PRESUPUESTO DE EGRESOS DE ESTE INSTITUTO",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/78.pdf",
-    titleAnexo1: "PLAN DE TRABAJO",
+    titleAnexo1: "ANEXO ÚNICO",
     pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/78.1.pdf",
   },
 ];
