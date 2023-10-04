@@ -176,24 +176,66 @@ export const dataConvenios = [
   },
   {
     id: 35,
-    title: "CONVENIO MPIO. SAN FRANCISCO TETLANOHCAN",
+    title: "MPIO. SAN FRANCISCO TETLANOHCAN",
     url: "https://itetlax.org.mx/assets/pdf/transparencia/convenios/35.pdf",
-  },{
+  },
+  {
     id: 36,
-    title: "CONVENIO RED MUNDIAL DE JOVENES POLITICOS 2022",
+    title: "RED MUNDIAL DE JOVENES POLITICOS 2022",
     url: "https://itetlax.org.mx/assets/pdf/transparencia/convenios/36.pdf",
-  },{
+  },
+  {
     id: 37,
-    title: "CONVENIO UAT 2022",
+    title: "UAT 2022",
     url: "https://itetlax.org.mx/assets/pdf/transparencia/convenios/37.pdf",
-  },{
+  },
+  {
     id: 38,
-    title: "CONVENIO UNAM",
+    title: "UNAM",
     url: "https://itetlax.org.mx/assets/pdf/transparencia/convenios/38.pdf",
-  },{
+  },
+  {
     id: 39,
-    title: "CONVENIO UPET 2022",
+    title: "UPET 2022",
     url: "https://itetlax.org.mx/assets/pdf/transparencia/convenios/39.pdf",
+  },
+  {
+    id: 40,
+    title: "CEDH 01 SEP 2023",
+    url: "https://itetlax.org.mx/assets/pdf/transparencia/convenios/40.pdf",
+  },
+  {
+    id: 41,
+    title: "COLEGIO DE TLAXCALA, A.C. 17 AGO 2023",
+    url: "https://itetlax.org.mx/assets/pdf/transparencia/convenios/41.pdf",
+  }, {
+    id: 42,
+    title: "DDESER 23 AGO 2023",
+    url: "https://itetlax.org.mx/assets/pdf/transparencia/convenios/42.pdf",
+  }, {
+    id: 43,
+    title: "GENERAL INE-ITE PEC 2023-2024  07 SEP 2023",
+    url: "https://itetlax.org.mx/assets/pdf/transparencia/convenios/43.pdf",
+  }, {
+    id: 44,
+    title: "INPI 01 SEP 23",
+    url: "https://itetlax.org.mx/assets/pdf/transparencia/convenios/44.pdf",
+  }, {
+    id: 45,
+    title: "ITE LA FUNDACION 04 SEP 23",
+    url: "https://itetlax.org.mx/assets/pdf/transparencia/convenios/45.pdf",
+  }, {
+    id: 46,
+    title: "SECRETARÍA DE BIENESTAR TLAXCALA 04 SEP 2023",
+    url: "https://itetlax.org.mx/assets/pdf/transparencia/convenios/46.pdf",
+  }, {
+    id: 47,
+    title: "UAT  21 AGO 23  OK",
+    url: "https://itetlax.org.mx/assets/pdf/transparencia/convenios/47.pdf",
+  }, {
+    id: 48,
+    title: "UAT FACULTAD DERECHO 21 AGO 2023",
+    url: "https://itetlax.org.mx/assets/pdf/transparencia/convenios/48.pdf",
   },
 ];
 
@@ -975,13 +1017,16 @@ export const dataDatosAbiertos = [
           },
           {
             id: 6,
-            resourseTitle: "Afiliados a Partido Político listado Fuerza por México 11-09-2023",
+            resourseTitle:
+              "Afiliados a Partido Político listado Fuerza por México 11-09-2023",
             resoursePath:
               "https://itetlax.org.mx/assets/excel/transparencia/datosAbiertos/16.xlsx",
             typeDocument: "excel",
-          },{
+          },
+          {
             id: 7,
-            resourseTitle: "Afiliados a Partido Político Listado Redes Sociales Progresistas 11-09-2023",
+            resourseTitle:
+              "Afiliados a Partido Político Listado Redes Sociales Progresistas 11-09-2023",
             resoursePath:
               "https://itetlax.org.mx/assets/excel/transparencia/datosAbiertos/17.xlsx",
             typeDocument: "excel",
