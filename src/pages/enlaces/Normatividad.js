@@ -150,7 +150,7 @@ const Normatividad = () => {
                                 <FontAwesomeIcon icon={faFilePdf} />
                               </a>
                             </div>
-                            <div className="col-md-4">
+                            {/* <div className="col-md-4">
                               <span>PDF móvil </span>
                               <a
                                 href={row.original.pdfMobile}
@@ -171,7 +171,7 @@ const Normatividad = () => {
                               >
                                 <FontAwesomeIcon icon={faFileWord} />
                               </a>
-                            </div>
+                            </div> */}
                           </>
                         )}
                       </div>
