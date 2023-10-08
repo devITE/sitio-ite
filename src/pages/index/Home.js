@@ -30,14 +30,15 @@ const ITE = () => {
   }, []);
   return (
     <>
+        
         {/* { <ModalInit
-        imgLink="https://itetlax.org.mx/assets/img/imgC_A/22.png"
-        url="https://portalanterior.ieepcnl.mx/2023/cepxxiv/"
+        imgLink="https://itetlax.org.mx/assets/img/imgC_A/54.png"
+       url="https://itetlax.org.mx/assets/img/imgC_A/54.pdf"
         linkToo=""
       /> } */}
         { <ModalInit
-        imgLink="https://itetlax.org.mx/assets/img/imgC_A/44.jpg"
-        url="https://itetlax.org.mx/assets/pdf/agenda/4.pdf"
+        imgLink="https://itetlax.org.mx/assets/img/imgC_A/ine.PNG"
+        url="https://itetlax.org.mx/assets/pdf/carousel/Convocatoria OE_INE.pdf"
         linkToo=""
       /> }
 
@@ -56,13 +57,13 @@ const ITE = () => {
       <div className="mt-5 Home__AR-A">
         <div>
           <h2 className="bottom_title">
-          Taller de Análisis de Sentencias
+          Firma de Convenio entre el ITE y la CEDH
           </h2>
           <div className="Home__video-embed ratio ratio-16x9 w-100">
             <iframe
               id="9QQCf_emFwo"
-              src="https://www.youtube-nocookie.com/embed/sEHflegbzTc?rel=0"
-              title="Taller de Análisis de Sentencias"
+              src="https://www.youtube-nocookie.com/embed/KU2JD-OPzrc?rel=0"
+              title="Firma de convenio entre el ITE y la A.C -DDESER Tlaxcala"
               allowFullScreen
             ></iframe>
           </div>
@@ -130,13 +131,13 @@ const ITE = () => {
           <h2 className="bottom_title">Sesión en Vivo</h2>
           <div className="Home__video-embed ratio ratio-16x9 w-100">
             <iframe
-              src="https://www.youtube-nocookie.com/embed/yY_ypgaRYto?rel=0"
-              title="Sesión Presencial Ordinaria del CG 28/07/2023"
+              src="https://www.youtube-nocookie.com/embed/YHG1PmPgXLw"
+              title="Sesión Presencial Ordinaria del CG 29/09/2023"
               allowFullScreen
             ></iframe>
           </div>
           <h5 className="mt-3 text-center">
-          Sesión Presencial Ordinaria del CG 28/07/2023{" "}
+          Sesión Presencial Ordinaria del CG 29/09/2023{" "}
           </h5>
         </div>
         <div>

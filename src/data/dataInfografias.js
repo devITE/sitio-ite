@@ -85,6 +85,17 @@ export const dataInf = [
           },
         ],
       },
+      {
+        id: 5,
+        titleButton: "Septiembre",
+        subChildren: [
+          {
+            id: 1,
+            alt: "Proceso de verificación trianual",
+            link: "https://itetlax.org.mx/assets/img/imgEInf/2023/6.jpg",
+          },
+        ],
+      },
       // {
       //   id: 6,
       //   titleButton: "Junio",

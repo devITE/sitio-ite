@@ -511,7 +511,7 @@ export const dataAcuerdos2023 = [
     typeDoc: "RESOLUCIÓN",
     numDoc: "ITE-CG 42-2023",
     monthDoc: "JUL",
-    nameDoc: " POS EXPEDIENTE CQD-Q-AAC-CG-001-2023.",
+    nameDoc: "POS EXPEDIENTE CQD-Q-AAC-CG-001-2023",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/42.pdf",
   },
   {
@@ -529,7 +529,7 @@ export const dataAcuerdos2023 = [
     typeDoc: "RESOLUCIÓN",
     numDoc: "ITE-CG 44-2023",
     monthDoc: "JUL",
-    nameDoc: "POS EXPEDIENTE CQD-Q-API-CG-003-2023",
+    nameDoc: "POS EXPEDIENTE CQD-Q-HUA-CG-003-2023",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/44.pdf",
   },
   {
@@ -538,7 +538,7 @@ export const dataAcuerdos2023 = [
     typeDoc: "RESOLUCIÓN",
     numDoc: "ITE-CG 45-2023",
     monthDoc: "JUL",
-    nameDoc: "POS EXPEDIENTE CQD-Q-API-CG-004-2023",
+    nameDoc: "POS EXPEDIENTE CQD-Q-IMM-CG-004-2023",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/45.pdf",
     titleAnexo1: "FE DE ERRATAS",
     pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/45.1.pdf",
@@ -549,7 +549,7 @@ export const dataAcuerdos2023 = [
     typeDoc: "RESOLUCIÓN",
     numDoc: "ITE-CG 46-2023",
     monthDoc: "JUL",
-    nameDoc: "POS EXPEDIENTE CQD-Q-API-CG-005-2023",
+    nameDoc: "POS EXPEDIENTE CQD-Q-SLZ-CG-005-2023",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/46.pdf",
   },
   {
@@ -558,7 +558,7 @@ export const dataAcuerdos2023 = [
     typeDoc: "RESOLUCIÓN",
     numDoc: "ITE-CG 47-2023",
     monthDoc: "JUL",
-    nameDoc: "POS EXPEDIENTE CQD-Q-API-CG-006-2023",
+    nameDoc: " POS EXPEDIENTE CQD-Q-NMA-CG-006-2023",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/47.pdf",
   },
   {
@@ -567,7 +567,7 @@ export const dataAcuerdos2023 = [
     typeDoc: "RESOLUCIÓN",
     numDoc: "ITE-CG 48-2023",
     monthDoc: "JUL",
-    nameDoc: "POS EXPEDIENTE CQD-Q-API-CG-007-2023",
+    nameDoc: " POS EXPEDIENTE CQD-Q-TEO-CG-007-2023",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/48.pdf",
   },
   {
@@ -576,7 +576,7 @@ export const dataAcuerdos2023 = [
     typeDoc: "RESOLUCIÓN",
     numDoc: "ITE-CG 49-2023",
     monthDoc: "JUL",
-    nameDoc: "POS EXPEDIENTE CQD-Q-API-CG-008-2023",
+    nameDoc: "POS EXPEDIENTE CQD-Q-TEP-CG-008-2023",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/49.pdf",
   },
   {
@@ -585,7 +585,7 @@ export const dataAcuerdos2023 = [
     typeDoc: "RESOLUCIÓN",
     numDoc: "ITE-CG 50-2023",
     monthDoc: "JUL",
-    nameDoc: "POS EXPEDIENTE CQD-Q-API-CG-009-2023",
+    nameDoc: "POS EXPEDIENTE CQD-Q-TER-CG-009-2023",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/50.pdf",
   },
   {
@@ -594,7 +594,7 @@ export const dataAcuerdos2023 = [
     typeDoc: "RESOLUCIÓN",
     numDoc: "ITE-CG 51-2023",
     monthDoc: "JUL",
-    nameDoc: "POS EXPEDIENTE CQD-Q-API-CG-010-2023",
+    nameDoc: "POS EXPEDIENTE CQD-Q-ZTSS-CG-010-2023",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/51.pdf",
   },
   {
@@ -603,7 +603,7 @@ export const dataAcuerdos2023 = [
     typeDoc: "RESOLUCIÓN",
     numDoc: "ITE-CG 52-2023",
     monthDoc: "JUL",
-    nameDoc: "POS EXPEDIENTE CQD-Q-API-CG-011-2023",
+    nameDoc: "POS EXPEDIENTE CQD-Q-XIC-CG-011-2023",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/52.pdf",
   },
   {
@@ -612,7 +612,7 @@ export const dataAcuerdos2023 = [
     typeDoc: "RESOLUCIÓN",
     numDoc: "ITE-CG 53-2023",
     monthDoc: "JUL",
-    nameDoc: "POS EXPEDIENTE CQD-Q-API-CG-012-2023",
+    nameDoc: "POS EXPEDIENTE CQD-Q-ZAC-CG-012-2023",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/53.pdf",
   },
   {
@@ -621,7 +621,7 @@ export const dataAcuerdos2023 = [
     typeDoc: "RESOLUCIÓN",
     numDoc: "ITE-CG 54-2023",
     monthDoc: "JUL",
-    nameDoc: "POS EXPEDIENTE CQD-Q-API-CG-013-2023",
+    nameDoc: "POS EXPEDIENTE CQD-Q-SJT-CG-013-2023",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/54.pdf",
   },
   {
@@ -630,7 +630,7 @@ export const dataAcuerdos2023 = [
     typeDoc: "RESOLUCIÓN",
     numDoc: "ITE-CG 55-2023",
     monthDoc: "JUL",
-    nameDoc: "POS EXPEDIENTE CQD-Q-API-CG-014-2023",
+    nameDoc: "POS EXPEDIENTE CQD-Q-LC-CG-014-2023",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/55.pdf",
   },
   {
@@ -639,7 +639,7 @@ export const dataAcuerdos2023 = [
     typeDoc: "RESOLUCIÓN",
     numDoc: "ITE-CG 56-2023",
     monthDoc: "JUL",
-    nameDoc: "POS EXPEDIENTE CQD-Q-API-CG-015-2023",
+    nameDoc: "POS EXPEDIENTE CQD-Q-SAN-CG-015-2023",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/56.pdf",
   },
   {
@@ -648,7 +648,7 @@ export const dataAcuerdos2023 = [
     typeDoc: "RESOLUCIÓN",
     numDoc: "ITE-CG 57-2023",
     monthDoc: "JUL",
-    nameDoc: "POS EXPEDIENTE CQD-Q-API-CG-016-2023",
+    nameDoc: "POS EXPEDIENTE CQD-Q-SLA-CG-016-2023",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/57.pdf",
   },
   {
@@ -710,7 +710,7 @@ export const dataAcuerdos2023 = [
   {
     id: 63,
     year: "2023",
-    typeDoc: "RESOLUCIÓN",
+    typeDoc: "ACUERDO",
     numDoc: "ITE-CG 63-2023",
     monthDoc: "JUL",
     nameDoc:
@@ -722,7 +722,7 @@ export const dataAcuerdos2023 = [
   {
     id: 64,
     year: "2023",
-    typeDoc: "RESOLUCIÓN",
+    typeDoc: "ACUERDO",
     numDoc: "ITE-CG 64-2023",
     monthDoc: "JUL",
     nameDoc:
@@ -730,6 +730,199 @@ export const dataAcuerdos2023 = [
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/64.pdf",
     titleAnexo1: "DICTAMEN",
     pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/64.1.pdf",
+  },
+  {
+    id: 65,
+    year: "2023",
+    typeDoc: "RESOLUCIÓN",
+    numDoc: "ITE-CG 65-2023",
+    monthDoc: "AGO",
+    nameDoc:
+      "SE APRUEBA DICTAMEN CONSOLIDADO INFORMES MENSUALES RECURSOS FEB-ABRIL 2023 RENOVEMOS TLAXCALA",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/65.pdf",
+    titleAnexo1: "DICTAMEN",
+    pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/65.1.pdf",
+  },
+  {
+    id: 66,
+    year: "2023",
+    typeDoc: "RESOLUCIÓN",
+    numDoc: "ITE-CG 66-2023",
+    monthDoc: "AGO",
+    nameDoc:
+      "SE APRUEBA DICTAMEN CONSOLIDADO INFORMES MENSUALES RECURSOS FEB-ABRIL 2023 SOCIEDAD INDEPENDIENTE SI",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/66.pdf",
+    titleAnexo1: "DICTAMEN",
+    pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/66.1.pdf",
+  },
+  {
+    id: 67,
+    year: "2023",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 67-2023",
+    monthDoc: "AGO",
+    nameDoc: "RATIFICACIÓN DE LA INSTANCIA INTERNA Y COMISIÓN DEL PREP",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/67.pdf",
+  },
+  {
+    id: 68,
+    year: "2023",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 68-2023",
+    monthDoc: "AGO",
+    nameDoc: "INTEGRACIÓN COMISIONES TEMPORALES",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/68.pdf",
+  },
+  {
+    id: 69,
+    year: "2023",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 69-2023",
+    monthDoc: "AGO",
+    nameDoc:
+      "SE DESIGNA INSTANCIA INTERNA RESPONSABLE DEL SISTEMA CANDIDATAS Y CANDIDATOS, CONÓCELES",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/69.pdf",
+  },
+  {
+    id: 70,
+    year: "2023",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 70-2023",
+    monthDoc: "AGO",
+    nameDoc:
+      "SE APRUEBA INFORME RELATIVO A LA VERIFICACIÓN DE CUMPLIMIENTO DE NÚMERO MÍNIMO DE PERSONAS AFILIADAS A PPL",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/70.pdf",
+    titleAnexo1: "Registros con inconsistencias Fuerza por México Tlaxcala",
+    pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/70.1.pdf",
+    titleAnexo2: "Registros con inconsistencias Nueva Alianza Tlaxcala",
+    pdfAnexo2: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/70.2.pdf",
+    titleAnexo3: "Registros con inconsistencias PAC",
+    pdfAnexo3: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/70.3.pdf",
+    titleAnexo4: "Registros con inconsistencias Redes Sociales Progresistas",
+    pdfAnexo4: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/70.4.pdf",
+    titleAnexo5: "Informe general verificación trianual final",
+    pdfAnexo5: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/70.5.pdf",
+  },
+  {
+    id: 71,
+    year: "2023",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 71-2023",
+    monthDoc: "SEP",
+    nameDoc:
+      "POR EL QUE SE APRUEBA LA REALIZACIÓN DE LA CONSULTA A PERSONAS, PUEBLOS Y COMUNIDADES INDÍGENAS DEL ESTADO DE TLAXCALA",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/71.pdf",
+    titleAnexo1: "ANEXO 1 Protocolo de la convocatoria",
+    pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/71.1.pdf",
+    titleAnexo2: "ANEXO 2 Convocatoria de consulta",
+    pdfAnexo2: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/71.2.pdf",
+    titleAnexo3: "ANEXO 3 Guía de preguntas",
+    pdfAnexo3: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/71.3.pdf",
+    titleAnexo4: "ANEXO 4 Convocatoria Observación",
+    pdfAnexo4: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/71.4.pdf",
+    titleAnexo5: "ANEXO 4.1 Solicitud de registro observación",
+    pdfAnexo5: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/71.5.pdf",
+    titleAnexo6: "Anexo Protocolo 1 Instrumentos Jurídicos",
+    pdfAnexo6: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/71.6.pdf",
+    titleAnexo7: "Anexo Protocolo 2 Comunidades indígenas",
+    pdfAnexo7: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/71.7.pdf",
+  },
+  {
+    id: 72,
+    year: "2023",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 72-2023",
+    monthDoc: "SEP",
+    nameDoc:
+      "POR EL QUE SE DA RESPUESTA AL ESCRITO PRESENTADO POR AVELINO MEZA RODRÍGUEZ",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/72.pdf",
+  },
+  {
+    id: 73,
+    year: "2023",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 73-2023",
+    monthDoc: "SEP",
+    nameDoc: "CUMPLIMIENTO DE SENTENCIA TET-JE-020-023 EST",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/73.pdf",
+  },
+  {
+    id: 74,
+    year: "2023",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 74-2023",
+    monthDoc: "SEP",
+    nameDoc: "APROBACIÓN DE CONSULTA A PERSONAS CON DISCAPACIDAD",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/74.pdf",
+    titleAnexo1:
+      "ANEXO 1 Protocolo para la consulta a personas con discapacidad",
+    pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/74.1.pdf",
+    titleAnexo2:
+      "Anexo 1.1 Fundamento Jurídico para la consulta a personas con discapacidad",
+    pdfAnexo2: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/74.2.pdf",
+    titleAnexo3:
+      "Anexo 1.2 Cuestionario de Consulta a personas con discapacidad",
+    pdfAnexo3: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/74.3.pdf",
+    titleAnexo4: "Anexo 2 Convocatoria de Consulta a personas con discapacidad",
+    pdfAnexo4: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/74.4.pdf",
+    titleAnexo5:
+      "Anexo 3 Convocatoria Observador(a) de Consulta a personas con discapacidad",
+    pdfAnexo5: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/74.5.pdf",
+    titleAnexo6:
+      "Anexo 3.1 Solicitud de acreditación para participar observador a personas con discapacidad",
+    pdfAnexo6: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/74.6.pdf",
+  },
+  {
+    id: 75,
+    year: "2023",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 75-2023",
+    monthDoc: "SEP",
+    nameDoc:
+      "SE APRUEBA PROYECTO DE PRESUPUESTO DE EGRESOS DE ESTE INSTITUTO PARA EL EJERCICIO FISCAL 2024",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/75.pdf",
+    titleAnexo1: "Anexo 1 Calendario presupuestal",
+    pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/75.1.pdf",
+    titleAnexo2: "Anexo 2 Financiamiento público PP 2024 AO",
+    pdfAnexo2: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/75.2.pdf",
+    titleAnexo3: "Anexo 3 Financiamiento público PP 2024 OV",
+    pdfAnexo3: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/75.3.pdf",
+    titleAnexo4: "Anexo 4 Financiamiento público PP 2024 AE",
+    pdfAnexo4: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/75.4.pdf",
+  },
+  {
+    id: 76,
+    year: "2023",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 76-2023",
+    monthDoc: "SEP",
+    nameDoc:
+      "SE DETERMINA LA OPERACIÓN DEL SISTEMA CONÓCELES Y SE APRUEBA PLAN DE TRABAJO",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/76.pdf",
+    titleAnexo1: "PLAN DE TRABAJO",
+    pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/76.1.pdf",
+  },
+  {
+    id: 77,
+    year: "2023",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 77-2023",
+    monthDoc: "SEP",
+    nameDoc:
+      "POR EL QUE SE REQUIERE A FXMT",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/77.pdf",
+  },
+  {
+    id: 78,
+    year: "2023",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 78-2023",
+    monthDoc: "SEP",
+    nameDoc:
+      "SE READECÚA EL PRESUPUESTO DE EGRESOS DE ESTE INSTITUTO",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/78.pdf",
+    titleAnexo1: "ANEXO ÚNICO",
+    pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/78.1.pdf",
   },
 ];
 
@@ -747,9 +940,9 @@ export const dataAcuerdosINE2023 = [
   {
     id: 1,
     year: "2023",
-    numDoc: "INE CG-03-2023",
+    numDoc: "ACUERDO INE CG-03-2023",
     nameDoc:
-      "ACUERDO POR EL QUE SE APRUEBA LA DESIGNACIÓN DEL CONSEJERO PRESIDENTE DEL OPL DE TLAXCALA",
+      "POR EL QUE SE APRUEBA LA DESIGNACIÓN DEL CONSEJERO PRESIDENTE DEL OPL DE TLAXCALA",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2023/1.pdf",
     subRows: [
       {
@@ -760,11 +953,85 @@ export const dataAcuerdosINE2023 = [
     ],
   },
   {
-    id: 1,
+    id: 2,
     year: "2023",
     numDoc: " RESOLUCIÓN INE CG-439-2023",
     nameDoc:
       "Aprueba ejercer la facultad de atracción para fechas homologadas para conclusión del periodo de precampañas y recabar apoyo de CI 2023-2024",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2023/2.pdf",
+  },
+  {
+    id: 3,
+    year: "2023",
+    numDoc: "ACUERDO INE CG-437-2023",
+    nameDoc:
+      "CONVOCATORIAS A CIUDADANÍA PARA OBSERVADORA ELECTORAL PEC 2023-2024 Y PEE QUE DERIVEN, Y ANEXOS",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2023/3.pdf",
+    subRows: [
+      {
+        nameDoc: "CONVOCATORIA INE",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2023/3.1.pdf",
+        subRows: "",
+      },
+      {
+        nameDoc: "CONVOCATORIA OPLE",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2023/3.2.pdf",
+        subRows: "",
+      },
+      {
+        nameDoc: "ANEXO 1",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2023/3.3.pdf",
+        subRows: "",
+      },
+      {
+        nameDoc: "ANEXO 2",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2023/3.4.pdf",
+        subRows: "",
+      },
+      {
+        nameDoc: "ANEXO 3",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2023/3.5.pdf",
+        subRows: "",
+      },
+      {
+        nameDoc: "ANEXO 4",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2023/3.6.pdf",
+        subRows: "",
+      },
+      {
+        nameDoc: "ANEXO 5",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2023/3.7.pdf",
+        subRows: "",
+      },
+    ],
+  },
+  {
+    id: 4,
+    year: "2023",
+    numDoc: "ACUERDO INE CG-537-2023",
+    nameDoc: "PERSONAS VISITANTES EXTRANJERAS",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2023/4.pdf",
+    subRows: [
+      {
+        nameDoc: "(Anexo 1) Convocatoria VE 23-24",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2023/4.1.pdf",
+        subRows: "",
+      },
+      {
+        nameDoc: "(Anexo 2) Solicitud acreditación VE 23-24",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2023/4.2.pdf",
+        subRows: "",
+      },
+      {
+        nameDoc: "(Anexo 3) Prog. Trab. Visit. Extranjera 23-24",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2023/4.3.pdf",
+        subRows: "",
+      },
+      {
+        nameDoc: "(Anexo 4) Gafete de acreditación VE 23-24",
+        link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2023/4.4.pdf",
+        subRows: "",
+      },
+    ],
   },
 ];

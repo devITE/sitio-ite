@@ -414,7 +414,7 @@ export const dataArt672023 = [
           "Articulo. 67 inciso G6 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala.",
         actualizacion: "2023",
         excel1:
-          "https://itetlax.org.mx/assets/excel/transparencia/art67/2023/LTAIPT_A67F01IG6.xlsx",
+          "",
         excel2: "",
         excel3: "",
         excel4: "",
@@ -490,7 +490,7 @@ export const dataArt672023 = [
     fundamentoLegal:
       "Articulo. 67 inciso J de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
     actualizacion: "2023",
-    excel1: "",
+    excel1: "https://itetlax.org.mx/assets/excel/transparencia/art67/2023/LTAIPT_A67F01IJ.xlsx",
     excel2: "",
     excel3: "",
     excel4: "",

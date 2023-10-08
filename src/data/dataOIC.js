@@ -597,6 +597,68 @@ export const dataGaleria = [
     ],
   },
 
+  
+  {
+    id: 10,
+    nameItem: 10,
+    titleItem:
+      "ENTREGA DE BIENES ACTUALIZADOS",
+    flushID: "heading10",
+    children: [
+      {
+        id: 1,
+        carouselID: "galeria10",
+        subChildren: [
+          {
+            id: 1,
+            imgUrl: "https://itetlax.org.mx/assets/img/OIC/g9/1.jpeg",
+            alt: "Fotografía 1",
+            itemActive: "active",
+            buttonActive: "active",
+            ariaCurrent: "true",
+            url: "https://itetlax.org.mx/assets/img/OIC/g9/1.jpeg",
+            linkToo: "",
+          },
+          {
+            id: 2,
+            imgUrl: "https://itetlax.org.mx/assets/img/OIC/g9/2.jpeg",
+            alt: "Fotografía 2",
+            url: "https://itetlax.org.mx/assets/img/OIC/g9/2.jpeg",
+            linkToo: "",
+          },
+          {
+            id: 3,
+            imgUrl: "https://itetlax.org.mx/assets/img/OIC/g9/3.jpeg",
+            alt: "Fotografía 3",
+            url: "https://itetlax.org.mx/assets/img/OIC/g9/3.jpeg",
+            linkToo: "",
+          },
+          {
+            id: 4,
+            imgUrl: "https://itetlax.org.mx/assets/img/OIC/g9/4.jpeg",
+            alt: "Fotografía 4",
+            url: "https://itetlax.org.mx/assets/img/OIC/g9/4.jpeg",
+            linkToo: "",
+          },
+          {
+            id: 5,
+            imgUrl: "https://itetlax.org.mx/assets/img/OIC/g9/5.jpeg",
+            alt: "Fotografía 5",
+            url: "https://itetlax.org.mx/assets/img/OIC/g9/5.jpeg",
+            linkToo: "",
+          },
+          {
+            id: 6,
+            imgUrl: "https://itetlax.org.mx/assets/img/OIC/g9/6.jpeg",
+            alt: "Fotografía 6",
+            url: "https://itetlax.org.mx/assets/img/OIC/g9/6.jpeg",
+            linkToo: "",
+          },
+        ],
+      },
+    ],
+  },
+
 ];
 
 export const dataEstructuraOrganica = [
