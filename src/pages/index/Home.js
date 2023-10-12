@@ -38,7 +38,7 @@ const ITE = () => {
       /> } */}
         { <ModalInit
         imgLink="https://itetlax.org.mx/assets/img/imgC_A/ine.PNG"
-        url="https://itetlax.org.mx/assets/pdf/carousel/Convocatoria OE_INE.pdf"
+        url="https://observadores.ine.mx/"
         linkToo=""
       /> }
 

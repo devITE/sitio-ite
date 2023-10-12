@@ -319,7 +319,7 @@ export const dataCA = [
     itemActive: "active",
     buttonActive: "active",
     ariaCurrent: "true",
-    url: "https://itetlax.org.mx/assets/pdf/carousel/Convocatoria OE_INE.pdf",
+    url: "https://observadores.ine.mx/",
     linkToo: "",
   },
 ];
