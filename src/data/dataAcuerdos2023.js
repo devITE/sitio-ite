@@ -924,6 +924,18 @@ export const dataAcuerdos2023 = [
     titleAnexo1: "ANEXO ÚNICO",
     pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/78.1.pdf",
   },
+  {
+    id: 79,
+    year: "2023",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 79-2023",
+    monthDoc: "OCT",
+    nameDoc:
+      "SE CALENDARIZAN LOS REMANENTES DE CAMPAÑA 2020-2021",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/79.pdf",
+    titleAnexo1: "Anexo Único remanentes de campaña 2020-2021",
+    pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/79.1.pdf",
+  },
 ];
 
 // ------------ A C U E R D O S    I N E ------------
