@@ -31,16 +31,16 @@ const ITE = () => {
   return (
     <>
         
-        {/* { <ModalInit
-        imgLink="https://itetlax.org.mx/assets/img/imgC_A/54.png"
-       url="https://itetlax.org.mx/assets/img/imgC_A/54.pdf"
-        linkToo=""
-      /> } */}
         { <ModalInit
-        imgLink="https://itetlax.org.mx/assets/img/imgC_A/ine.PNG"
-        url="https://itetlax.org.mx/assets/pdf/carousel/Convocatoria OE_INE.pdf"
+        imgLink="https://itetlax.org.mx/assets/img/imgC_A/65.png"
+       url="https://itetlax.org.mx/assets/pdf/agenda/65.pdf"
         linkToo=""
       /> }
+        {/* { <ModalInit
+        imgLink="https://itetlax.org.mx/assets/img/imgC_A/ine.PNG"
+        url="https://observadores.ine.mx/"
+        linkToo=""
+      /> } */}
 
       <Carousel idCarousel="carouselTopIndex">
         {dataCIndex.map((cIndex) => (
@@ -205,6 +205,17 @@ const ITE = () => {
           className="mt-3 mb-3 img-fluid w-100"
           src="https://itetlax.org.mx/assets/img/imgHome/iteComunidades.jpg"
           alt="Micrositio ITE Comunidades"
+        />
+      </a>
+      <a
+        href="https://ite-consulta-pcd.itetlax.org.mx/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          className="mt-3 mb-3 img-fluid w-100"
+          src="https://itetlax.org.mx/assets/img/imgC_I/acciones afirmativas.png"
+          alt="Acciones Afirmativas"
         />
       </a>
       <Link to="REPS">
