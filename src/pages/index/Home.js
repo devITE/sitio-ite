@@ -30,13 +30,14 @@ const ITE = () => {
   }, []);
   return (
     <>
-        
-        { <ModalInit
-        imgLink="https://itetlax.org.mx/assets/img/imgC_A/65.png"
-       url="https://itetlax.org.mx/assets/pdf/agenda/65.pdf"
-        linkToo=""
-      /> }
-        {/* { <ModalInit
+      {
+        <ModalInit
+          imgLink="https://itetlax.org.mx/assets/img/imgC_I/banner_ci.jpg"
+          url="https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/82.1.pdf"
+          linkToo=""
+        />
+      }
+      {/* { <ModalInit
         imgLink="https://itetlax.org.mx/assets/img/imgC_A/ine.PNG"
         url="https://observadores.ine.mx/"
         linkToo=""
@@ -57,7 +58,7 @@ const ITE = () => {
       <div className="mt-5 Home__AR-A">
         <div>
           <h2 className="bottom_title">
-          Firma de Convenio entre el ITE y la CEDH
+            Firma de Convenio entre el ITE y la CEDH
           </h2>
           <div className="Home__video-embed ratio ratio-16x9 w-100">
             <iframe
@@ -131,13 +132,13 @@ const ITE = () => {
           <h2 className="bottom_title">Sesión en Vivo</h2>
           <div className="Home__video-embed ratio ratio-16x9 w-100">
             <iframe
-              src="https://www.youtube-nocookie.com/embed/YHG1PmPgXLw"
-              title="Sesión Presencial Ordinaria del CG 29/09/2023"
+              src="https://www.youtube-nocookie.com/embed/77LK5GvCqHw"
+              title="Sesión Presencial Extraordinaria del CG 16/10/2023"
               allowFullScreen
             ></iframe>
           </div>
           <h5 className="mt-3 text-center">
-          Sesión Presencial Ordinaria del CG 29/09/2023{" "}
+            Sesión Presencial Ordinaria del CG 16/10/2023{" "}
           </h5>
         </div>
         <div>

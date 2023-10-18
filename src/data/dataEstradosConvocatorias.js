@@ -1,5 +1,4 @@
 export const dataEstrados = [
-
   //fecha de baja 26 de septiembre 2023
   // {
   //   id: 1,
@@ -37,7 +36,56 @@ export const dataConvocatorias = [
 
   {
     id: 1,
-    nameFile: "¿Quieres participar como Observador/a Electoral? Proceso Electoral Concurrente 2023-2024",
-    linkFile: "https://itetlax.org.mx/assets/pdf/carousel/Convocatoria OE_INE.pdf",
+    nameFile:
+      "¿Quieres participar como Observador/a Electoral? Proceso Electoral Concurrente 2023-2024",
+    linkFile:
+      "https://itetlax.org.mx/assets/pdf/carousel/Convocatoria OE_INE.pdf",
+  },
+  {
+    id: 2,
+    nameFile:
+      "SE APRUEBA CONVOCATORIA CANDIDATURAS INDEPENDIENTES PELO 2023-2024",
+    linkFile: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/82.pdf",
+  },
+  {
+    id: 3,
+    nameFile:
+      "ANEXO UNO CONVOCATORIA CANDIDATURAS INDEPENDIENTES PELO 2023-2024",
+    linkFile: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/82.1.pdf",
+  },
+  {
+    id: 4,
+    nameFile: "1.1 EBP20232024_ESCRITO BP VPCMrG",
+    linkFile: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/82.2.pdf",
+  },
+  {
+    id: 5,
+    nameFile: "1.1.1 EBP120232024_ESCRITO BP NO DEUDOR ALIMENTARIO",
+    linkFile: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/82.3.pdf",
+  },
+  {
+    id: 6,
+    nameFile: "1.2 MC20232024_ESCRITO CONFORMIDAD FISCALIZACIÓN",
+    linkFile: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/82.4.pdf",
+  },
+  {
+    id: 7,
+    nameFile: "1.3 ME20232024_ESCRITO RECURSOS ILÍCITOS",
+    linkFile: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/82.5.pdf",
+  },
+  {
+    id: 8,
+    nameFile: "1.4 MI20232024_FORMATO DE MANIFESTACIÓN DE INTENCIÓN",
+    linkFile: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/82.6.pdf",
+  },
+  {
+    id: 9,
+    nameFile: "1.5 MV20232024_FORMATO DE MANIFESTACIÓN DE VOLUNTAD",
+    linkFile: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/82.7.pdf",
+  },
+  {
+    id: 10,
+    nameFile: "1.6 SR20232024_FORMATO DE SOLICITUD DE REGISTRO CI",
+    linkFile: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/82.8.pdf",
   },
 ];
