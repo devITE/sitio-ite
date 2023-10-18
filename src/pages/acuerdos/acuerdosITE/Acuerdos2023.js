@@ -131,7 +131,15 @@ const Acuerdos2023 = () => {
                   !row.original.titleAnexo6 &
                   !row.original.pdfAnexo6 &
                   !row.original.titleAnexo7 &
-                  !row.original.pdfAnexo7 
+                  !row.original.pdfAnexo8 &
+                  !row.original.titleAnexo8 &
+                  !row.original.pdfAnexo6 &
+                  !row.original.titleAnexo9 &
+                  !row.original.pdfAnexo9 &
+                  !row.original.titleAnexo10 &
+                  !row.original.pdfAnexo10 &
+                  !row.original.titleAnexo11 &
+                  !row.original.pdfAnexo11   
                   ? (
                   
                     <span></span>
@@ -268,6 +276,82 @@ const Acuerdos2023 = () => {
                       <td>
                         <a
                           href={row.original.pdfAnexo7}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <FontAwesomeIcon
+                            icon={faFilePdf}
+                            className="btn btn-danger"
+                          />
+                        </a>
+                      </td>
+                    </tr>
+                  )}
+                  {!row.original.titleAnexo8 & !row.original.pdfAnexo8 ? (
+                    <span></span>
+                  ) : (
+                    <tr>
+                      <td>{row.original.titleAnexo8.toUpperCase()}</td>
+                      <td>
+                        <a
+                          href={row.original.pdfAnexo8}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <FontAwesomeIcon
+                            icon={faFilePdf}
+                            className="btn btn-danger"
+                          />
+                        </a>
+                      </td>
+                    </tr>
+                  )}
+                  {!row.original.titleAnexo9 & !row.original.pdfAnexo9 ? (
+                    <span></span>
+                  ) : (
+                    <tr>
+                      <td>{row.original.titleAnexo9.toUpperCase()}</td>
+                      <td>
+                        <a
+                          href={row.original.pdfAnexo9}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <FontAwesomeIcon
+                            icon={faFilePdf}
+                            className="btn btn-danger"
+                          />
+                        </a>
+                      </td>
+                    </tr>
+                  )}
+                  {!row.original.titleAnexo10 & !row.original.pdfAnexo10 ? (
+                    <span></span>
+                  ) : (
+                    <tr>
+                      <td>{row.original.titleAnexo10.toUpperCase()}</td>
+                      <td>
+                        <a
+                          href={row.original.pdfAnexo10}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <FontAwesomeIcon
+                            icon={faFilePdf}
+                            className="btn btn-danger"
+                          />
+                        </a>
+                      </td>
+                    </tr>
+                  )}
+                  {!row.original.titleAnexo11 & !row.original.pdfAnexo11 ? (
+                    <span></span>
+                  ) : (
+                    <tr>
+                      <td>{row.original.titleAnexo11.toUpperCase()}</td>
+                      <td>
+                        <a
+                          href={row.original.pdfAnexo11}
                           target="_blank"
                           rel="noreferrer"
                         >

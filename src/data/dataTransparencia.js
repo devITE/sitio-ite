@@ -698,6 +698,13 @@ export const dataCuentaPublica = [
           "https://itetlax.org.mx/assets/pdf/transparencia/infContable/cuentaPub2023/2.pdf",
         typeDocument: "pdf",
       },
+      {
+        id: 3,
+        titleItem: "Cuenta Pública 3er Trimestre",
+        linkItem:
+          "https://itetlax.org.mx/assets/pdf/transparencia/infContable/cuentaPub2023/3.pdf",
+        typeDocument: "pdf",
+      },
     ],
   },
 ];

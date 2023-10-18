@@ -88,4 +88,19 @@ export const dataConvocatorias = [
     nameFile: "1.6 SR20232024_FORMATO DE SOLICITUD DE REGISTRO CI",
     linkFile: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/82.8.pdf",
   },
+  {
+    id: 11,
+    nameFile: "ANEXO DOS. MODELO ÚNICO DE ESTATUTO DE ASOCIACIÓN CIVIL CANDIDATURAS INDEPENDIENTES",
+    linkFile: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/82.9.pdf",
+  },
+  {
+    id: 12,
+    nameFile: "ANEXO TRES PORCENTAJE DE APOYO CIUDADANO PELO 2023-2024",
+    linkFile: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/82.10.pdf",
+  },
+  {
+    id: 13,
+    nameFile: "ANEXO CUATRO. TOPE DE GASTOS",
+    linkFile: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/82.11.pdf",
+  },
 ];
