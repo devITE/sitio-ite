@@ -9,22 +9,22 @@ export const dataEstrados = [
   // },
 
   //fecha de baja 18 de octubre 2023
-  {
-    id: 1,
-    nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 2427",
-    linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/29.pdf",
-    nameFolio: "FOLIO 2427-2023",
-    linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/29.1.pdf",
-  },
+  // {
+  //   id: 1,
+  //   nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 2427",
+  //   linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/29.pdf",
+  //   nameFolio: "FOLIO 2427-2023",
+  //   linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/29.1.pdf",
+  // },
 
   //fecha de baja 18 de octubre 2023
-  {
-    id: 2,
-    nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 2435",
-    linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/30.pdf",
-    nameFolio: "FOLIO 2435-2023",
-    linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/30.1.pdf",
-  },
+  // {
+  //   id: 2,
+  //   nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 2435",
+  //   linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/30.pdf",
+  //   nameFolio: "FOLIO 2435-2023",
+  //   linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/30.1.pdf",
+  // },
 ];
 
 export const dataConvocatorias = [

@@ -139,9 +139,9 @@ const Acuerdos2023 = () => {
                   !row.original.titleAnexo10 &
                   !row.original.pdfAnexo10 &
                   !row.original.titleAnexo11 &
-                  !row.original.pdfAnexo11   
-                  ? (
-                  
+                  !row.original.pdfAnexo11 &
+                  !row.original.titleAnexo12 &
+                  !row.original.pdfAnexo11 ? (
                     <span></span>
                   ) : (
                     <tr>
@@ -249,7 +249,7 @@ const Acuerdos2023 = () => {
                       </td>
                     </tr>
                   )}
-                   {!row.original.titleAnexo6 & !row.original.pdfAnexo6 ? (
+                  {!row.original.titleAnexo6 & !row.original.pdfAnexo6 ? (
                     <span></span>
                   ) : (
                     <tr>
@@ -268,7 +268,7 @@ const Acuerdos2023 = () => {
                       </td>
                     </tr>
                   )}
-                   {!row.original.titleAnexo7 & !row.original.pdfAnexo7 ? (
+                  {!row.original.titleAnexo7 & !row.original.pdfAnexo7 ? (
                     <span></span>
                   ) : (
                     <tr>
@@ -352,6 +352,25 @@ const Acuerdos2023 = () => {
                       <td>
                         <a
                           href={row.original.pdfAnexo11}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <FontAwesomeIcon
+                            icon={faFilePdf}
+                            className="btn btn-danger"
+                          />
+                        </a>
+                      </td>
+                    </tr>
+                  )}
+                  {!row.original.titleAnexo12 & !row.original.pdfAnexo12 ? (
+                    <span></span>
+                  ) : (
+                    <tr>
+                      <td>{row.original.titleAnexo12.toUpperCase()}</td>
+                      <td>
+                        <a
+                          href={row.original.pdfAnexo12}
                           target="_blank"
                           rel="noreferrer"
                         >

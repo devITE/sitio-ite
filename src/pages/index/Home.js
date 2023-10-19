@@ -30,18 +30,18 @@ const ITE = () => {
   }, []);
   return (
     <>
-      {
+      {/* {
         <ModalInit
           imgLink="https://itetlax.org.mx/assets/img/imgC_I/banner_ci.jpg"
           url="https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/82.1.pdf"
           linkToo=""
         />
-      }
-      {/* { <ModalInit
+      } */}
+      { <ModalInit
         imgLink="https://itetlax.org.mx/assets/img/imgC_A/ine.PNG"
         url="https://observadores.ine.mx/"
         linkToo=""
-      /> } */}
+      /> }
 
       <Carousel idCarousel="carouselTopIndex">
         {dataCIndex.map((cIndex) => (
