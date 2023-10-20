@@ -987,7 +987,7 @@ export const dataAcuerdos2023 = [
     pdfAnexo10: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/82.10.pdf",
     titleAnexo11: "ANEXO CUATRO. Tope de gastos",
     pdfAnexo11: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/82.11.pdf",
-    titleAnexo12: "FE DE ERRATAS",
+    titleAnexo12: "ACUERDO ITE-CG 82-2023 FE DE ERRATAS.pdf",
     pdfAnexo12: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/82.12.pdf",
   },
   {

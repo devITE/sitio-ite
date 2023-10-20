@@ -75,7 +75,7 @@ export const dataCIndex = [
     itemActive: "active",
     buttonActive: "active",
     ariaCurrent: "true",
-    url: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/82.1.pdf",
+    url: "https://convocatoria-ci.itetlax.org.mx/",
     linkToo: "",
   },
 ];
