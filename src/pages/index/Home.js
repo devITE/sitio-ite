@@ -30,18 +30,20 @@ const ITE = () => {
   }, []);
   return (
     <>
+      {
+        <ModalInit
+          imgLink="https://itetlax.org.mx/assets/img/imgC_A/66.png"
+          url="https://itetlax.org.mx/assets/img/imgC_A/66.png"
+          linkToo=""
+        />
+      }
       {/* {
         <ModalInit
-          imgLink="https://itetlax.org.mx/assets/img/imgC_I/banner_ci.jpg"
-          url="https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/82.1.pdf"
+          imgLink="https://itetlax.org.mx/assets/img/imgC_A/ine.PNG"
+          url="https://observadores.ine.mx/"
           linkToo=""
         />
       } */}
-      { <ModalInit
-        imgLink="https://itetlax.org.mx/assets/img/imgC_A/ine.PNG"
-        url="https://observadores.ine.mx/"
-        linkToo=""
-      /> }
 
       <Carousel idCarousel="carouselTopIndex">
         {dataCIndex.map((cIndex) => (
@@ -58,12 +60,13 @@ const ITE = () => {
       <div className="mt-5 Home__AR-A">
         <div>
           <h2 className="bottom_title">
-            Firma de Convenio entre el ITE y la CEDH
+            70 Aniversario del Reconocimiento de la Ciudadanía de las Mujeres
+            Mexicanas
           </h2>
           <div className="Home__video-embed ratio ratio-16x9 w-100">
             <iframe
               id="9QQCf_emFwo"
-              src="https://www.youtube-nocookie.com/embed/KU2JD-OPzrc?rel=0"
+              src="https://www.youtube-nocookie.com/embed/ILhAQEGkQ3U?rel=0"
               title="Firma de convenio entre el ITE y la A.C -DDESER Tlaxcala"
               allowFullScreen
             ></iframe>
@@ -132,13 +135,13 @@ const ITE = () => {
           <h2 className="bottom_title">Sesión en Vivo</h2>
           <div className="Home__video-embed ratio ratio-16x9 w-100">
             <iframe
-              src="https://www.youtube-nocookie.com/embed/77LK5GvCqHw"
-              title="Sesión Presencial Extraordinaria del CG 16/10/2023"
+              src="https://www.youtube-nocookie.com/embed/QOg-AxzIS98"
+              title="Sesión Presencial Especial del CG 25/10/2023"
               allowFullScreen
             ></iframe>
           </div>
           <h5 className="mt-3 text-center">
-            Sesión Presencial Ordinaria del CG 16/10/2023{" "}
+            Sesión Presencial Especial del CG 25/10/2023{" "}
           </h5>
         </div>
         <div>
