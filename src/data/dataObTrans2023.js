@@ -251,9 +251,8 @@ export const dataArt632023 = [
       "Articulo. 63 Fraccion XII de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
     actualizacion: "2023",
     excel1:
-      "https://www.itetlax.org.mx/assets/excel/transparencia/art63/2023/LTAIPT_A63F12_1.xlsx",
-    excel2:
-      "https://www.itetlax.org.mx/assets/excel/transparencia/art63/2023/LTAIPT_A63F12_2.xlsx",
+      "https://www.itetlax.org.mx/assets/excel/transparencia/art63/2023/LTAIPT_A63F12.xlsx",
+    excel2: "",
     excel3: "",
     excel4: "",
   },
@@ -394,9 +393,8 @@ export const dataArt632023 = [
       "Articulo. 63 Fraccion XVIII de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
     actualizacion: "2023",
     excel1:
-      "https://www.itetlax.org.mx/assets/excel/transparencia/art63/2023/LTAIPT_A63F18_1.xlsx",
-    excel2:
-      "https://www.itetlax.org.mx/assets/excel/transparencia/art63/2023/LTAIPT_A63F18_2.xlsx",
+      "https://www.itetlax.org.mx/assets/excel/transparencia/art63/2023/LTAIPT_A63F18.xlsx",
+    excel2: "",
     excel3: "",
     excel4: "",
   },
@@ -580,9 +578,8 @@ export const dataArt632023 = [
       "Articulo. 63 Fraccion XXIV de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
     actualizacion: "2023",
     excel1:
-      "https://www.itetlax.org.mx/assets/excel/transparencia/art63/2023/LTAIPT_A63F24_1.xlsx",
-    excel2:
-      "https://www.itetlax.org.mx/assets/excel/transparencia/art63/2023/LTAIPT_A63F24_2.xlsx",
+      "https://www.itetlax.org.mx/assets/excel/transparencia/art63/2023/LTAIPT_A63F24.xlsx",
+    excel2: "",
     excel3: "",
     excel4: "",
   },
@@ -770,7 +767,8 @@ export const dataArt632023 = [
     actualizacion: "2023",
     excel1:
       "https://www.itetlax.org.mx/assets/excel/transparencia/art63/2023/LTAIPT_A63F33_1.xlsx",
-    excel2: "https://www.itetlax.org.mx/assets/excel/transparencia/art63/2023/LTAIPT_A63F33_2.xlsx",
+    excel2:
+      "https://www.itetlax.org.mx/assets/excel/transparencia/art63/2023/LTAIPT_A63F33_2.xlsx",
     excel3: "",
     excel4: "",
   },
@@ -1316,7 +1314,8 @@ export const dataArt632023 = [
     actualizacion: "2023",
     excel1:
       "https://www.itetlax.org.mx/assets/excel/transparencia/art63/2023/LTAIPT_A63F45_1.xlsx",
-    excel2: "https://www.itetlax.org.mx/assets/excel/transparencia/art63/2023/LTAIPT_A63F45_2.xlsx",
+    excel2:
+      "https://www.itetlax.org.mx/assets/excel/transparencia/art63/2023/LTAIPT_A63F45_2.xlsx",
     excel3: "",
     excel4: "",
   },
@@ -1345,7 +1344,8 @@ export const dataArt632023 = [
           "https://www.itetlax.org.mx/assets/excel/transparencia/art63/2023/LTAIPT_A63F46A_1.xlsx",
         excel2:
           "https://www.itetlax.org.mx/assets/excel/transparencia/art63/2023/LTAIPT_A63F46A_2.xlsx",
-        excel3: "https://www.itetlax.org.mx/assets/excel/transparencia/art63/2023/LTAIPT_A63F46A_3.xlsx",
+        excel3:
+          "https://www.itetlax.org.mx/assets/excel/transparencia/art63/2023/LTAIPT_A63F46A_3.xlsx",
         excel4: "",
       },
       {
@@ -1360,7 +1360,8 @@ export const dataArt632023 = [
           "https://www.itetlax.org.mx/assets/excel/transparencia/art63/2023/LTAIPT_A63F46B_1.xlsx",
         excel2:
           "https://www.itetlax.org.mx/assets/excel/transparencia/art63/2023/LTAIPT_A63F46B_2.xlsx",
-        excel3: "https://www.itetlax.org.mx/assets/excel/transparencia/art63/2023/LTAIPT_A63F46B_3.xlsx",
+        excel3:
+          "https://www.itetlax.org.mx/assets/excel/transparencia/art63/2023/LTAIPT_A63F46B_3.xlsx",
         excel4: "",
       },
     ],
