@@ -558,7 +558,7 @@ export const dataAcuerdos2023 = [
     typeDoc: "RESOLUCIÓN",
     numDoc: "ITE-CG 47-2023",
     monthDoc: "JUL",
-    nameDoc: " POS EXPEDIENTE CQD-Q-NMA-CG-006-2023",
+    nameDoc: "POS EXPEDIENTE CQD-Q-NMA-CG-006-2023",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/47.pdf",
   },
   {
@@ -567,7 +567,7 @@ export const dataAcuerdos2023 = [
     typeDoc: "RESOLUCIÓN",
     numDoc: "ITE-CG 48-2023",
     monthDoc: "JUL",
-    nameDoc: " POS EXPEDIENTE CQD-Q-TEO-CG-007-2023",
+    nameDoc: "POS EXPEDIENTE CQD-Q-TEO-CG-007-2023",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/48.pdf",
   },
   {
@@ -1045,6 +1045,42 @@ export const dataAcuerdos2023 = [
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/87.pdf",
     titleAnexo1: "PROGRAMAS",
     pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/87.1.pdf",
+  },
+  {
+    id: 88,
+    year: "2023",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 88-2023",
+    monthDoc: "OCT",
+    nameDoc:
+      "CUMPLIMIENTO SENTENCIA EXP. TET-JE-042-2023, MODIFICA RESOLUCIÓN ITE-CG 43-2023 RESPECTO DEL POS CQD-Q-APÍ-CG-002-2023",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/88.pdf",
+    titleAnexo1: "VOTO CONCURRENTE CONSEJERA YEDTIH MARTINEZ PINILLO",
+    pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/88.1.pdf",
+  },
+  {
+    id: 89,
+    year: "2023",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 89-2023",
+    monthDoc: "OCT",
+    nameDoc:
+      "CUMPLIMIENTO SENTENCIA EXP. TET-JE-043-2023, MODIFICA RESOLUCIÓN ITE-CG 56-2023 RESPECTO DEL POS CQD-Q-SAN-CG-015-2023",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/89.pdf",
+    titleAnexo1: "VOTO CONCURRENTE CONSEJERA YEDTIH MARTINEZ PINILLO",
+    pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/89.1.pdf",
+  },
+  {
+    id: 90,
+    year: "2023",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 90-2023",
+    monthDoc: "OCT",
+    nameDoc:
+      "CUMPLIMIENTO SENTENCIA EXP. TET-JE-044-2023, MODIFICA RESOLUCIÓN ITE-CG 42-2023 RESPECTO DEL POS CQD-Q-AAC-CG-001-2023",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/90.pdf",
+    titleAnexo1: "VOTO CONCURRENTE CONSEJERA YEDTIH MARTINEZ PINILLO",
+    pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/90.1.pdf",
   },
 ];
 
