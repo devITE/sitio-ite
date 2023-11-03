@@ -722,3 +722,5 @@ export const dataMonitoreos2021 = [
     linkBoletin: "https://itetlax.org.mx/assets/pdf/monitoreos/2021/46.pdf",
   },
 ];
+export const dataMonitoreos2023 = [];
+export const dataMonitoreos2024 = [];

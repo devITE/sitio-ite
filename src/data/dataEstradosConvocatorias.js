@@ -8,66 +8,6 @@ export const dataEstrados = [
   //   linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/27.1.pdf",
   // },
 
-  //fecha de baja 01 de noviembre 2023
-  {
-    id: 1,
-    nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 2559",
-    linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/31.pdf",
-    nameFolio: "FOLIO 2559-2023",
-    linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/31.1.pdf",
-  },
-
-  //fecha de baja 01 de noviembre 2023
-  {
-    id: 2,
-    nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 2561",
-    linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/32.pdf",
-    nameFolio: "FOLIO 2561-2023",
-    linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/32.1.pdf",
-  },
-  //fecha de baja 01 de noviembre 2023
-  {
-    id: 3,
-    nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 2562",
-    linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/33.pdf",
-    nameFolio: "FOLIO 2562-2023",
-    linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/33.1.pdf",
-  },
-
-  //fecha de baja 01 de noviembre 2023
-  {
-    id: 4,
-    nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 2563",
-    linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/34.pdf",
-    nameFolio: "FOLIO 2563-2023",
-    linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/34.1.pdf",
-  },
-  //fecha de baja 01 de noviembre 2023
-  {
-    id: 5,
-    nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 2564",
-    linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/35.pdf",
-    nameFolio: "FOLIO 2564-2023",
-    linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/35.1.pdf",
-  },
-
-  //fecha de baja 01 de noviembre 2023
-  {
-    id: 6,
-    nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 2565",
-    linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/36.pdf",
-    nameFolio: "FOLIO 2565-2023",
-    linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/36.1.pdf",
-  },
-  //fecha de baja 01 de noviembre 2023
-  {
-    id: 7,
-    nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 2566",
-    linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/37.pdf",
-    nameFolio: "FOLIO 2566-2023",
-    linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/37.1.pdf",
-  },
-
   //fecha de baja: 07 Noviembre 2023
   {
     id: 8,

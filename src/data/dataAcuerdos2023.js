@@ -1082,6 +1082,64 @@ export const dataAcuerdos2023 = [
     titleAnexo1: "VOTO CONCURRENTE CONSEJERA YEDTIH MARTINEZ PINILLO",
     pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/90.1.pdf",
   },
+  {
+    id: 91,
+    year: "2023",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 91-2023",
+    monthDoc: "OCT",
+    nameDoc:
+      "SE INTEGRA COMITÉ TÉCNICO ASESOR PARA EL PROGRAMA DE DE RESULTADOS ELECTORALES PRELIMINARES (COTAPREP), PARA EL PELO 2023-2024",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/91.pdf",
+    titleAnexo1:
+      "Dictamen de Clasificación de Información Confidencial 06-2023",
+    pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/91.7.pdf",
+    titleAnexo2:
+      "Caratula ATI Dictamen de Clasificación de la Información 06-2023",
+    pdfAnexo2: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/91.6.pdf",
+    titleAnexo3: "1. JOSÉ ALFONSO LIMA GUTIÉRREZ",
+    pdfAnexo3: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/91.1.pdf",
+    titleAnexo4: "2. Luis Leal Delgado",
+    pdfAnexo4: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/91.2.pdf",
+    titleAnexo5: "3. Blanca Leticia Dávila Gutiérrez",
+    pdfAnexo5: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/91.3.pdf",
+    titleAnexo6: "4. Juan Felipe Meza López",
+    pdfAnexo6: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/91.4.pdf",
+    titleAnexo7: "5. Norberto Sánchez Briones",
+    pdfAnexo7: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/91.5.pdf",
+  },
+  {
+    id: 92,
+    year: "2023",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 92-2023",
+    monthDoc: "OCT",
+    nameDoc: "SE DESIGNA TITULAR UTCE",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/92.pdf",
+  },
+  {
+    id: 93,
+    year: "2023",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 93-2023",
+    monthDoc: "OCT",
+    nameDoc:
+      "SE CALENDARIZA CANTIDADES A RETENER POR REMANENTES NO EJERCIDOS EJERCICIOS 2020-2021 DE RESOLICIONES DE INE",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/93.pdf",
+    titleAnexo1:
+      "ANEXO ÚNICO. Calendarización remanentes act ord y esp 2020-2021",
+    pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/93.1.pdf",
+  },
+  {
+    id: 94,
+    year: "2023",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 94-2023",
+    monthDoc: "OCT",
+    nameDoc:
+      "SE APRUEBA CATÁLOGO DE PROGRAMAS DE RADIO Y TELEVISIÓN QUE DIFUNDEN NOTICIAS A MONITOREAR DEL PELO 2023-2024",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/94.pdf",
+  },
 ];
 
 // ------------ A C U E R D O S    I N E ------------

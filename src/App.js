@@ -143,6 +143,8 @@ import Monitoreos2017 from "./pages/comunicacionSocial/monitoreos/Monitoreos2017
 import Monitoreos2018 from "./pages/comunicacionSocial/monitoreos/Monitoreos2018";
 import Monitoreos2020 from "./pages/comunicacionSocial/monitoreos/Monitoreos2020";
 import Monitoreos2021 from "./pages/comunicacionSocial/monitoreos/Monitoreos2021";
+import Monitoreos2023 from "./pages/comunicacionSocial/monitoreos/Monitoreos2023";
+import Monitoreos2024 from "./pages/comunicacionSocial/monitoreos/Monitoreos2024";
 
 import EspacioIte from "./pages/comunicacionSocial/EspacioIte";
 import ITEConecta from "./pages/comunicacionSocial/ITEConecta";
@@ -325,6 +327,8 @@ function App() {
           <Route path="/Monitoreos2018" element={<Monitoreos2018 />} />
           <Route path="/Monitoreos2020" element={<Monitoreos2020 />} />
           <Route path="/Monitoreos2021" element={<Monitoreos2021 />} />
+          <Route path="/Monitoreos2023" element={<Monitoreos2023 />} />
+          <Route path="/Monitoreos2024" element={<Monitoreos2024 />} />
 
           <Route path="/EspacioIte" element={<EspacioIte />} />
           <Route path="/ITEConecta" element={<ITEConecta />} />
