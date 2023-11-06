@@ -47,7 +47,8 @@ export const dataNormatividad = [
   },
   {
     id: 6,
-    nameDoc: "Reglamento del Instituto Tlaxcalteca de Elecciones en Materia de Archivos (Acuerdo ITE-CG 23-2022)",
+    nameDoc:
+      "Reglamento del Instituto Tlaxcalteca de Elecciones en Materia de Archivos (Acuerdo ITE-CG 23-2022)",
     post: "",
     lastUpdate: "",
     pdf: "https://itetlax.org.mx/assets/pdf/archivistico/6.pdf",
@@ -108,16 +109,16 @@ export const dataInstrumentos = [
   {
     id: 1,
     nameDoc: "Cuadro General de Clasificación Archivística",
-    post: "03/03/2023",
+    post: "06/11/2023",
     lastUpdate: "",
     pdf: "https://itetlax.org.mx/assets/pdf/archivistico/1.pdf",
-     word: "",
+    word: "https://itetlax.org.mx/assets/pdf/archivistico/1.docx",
     // subRows: "",
   },
   {
     id: 2,
     nameDoc: "Catálogo de Disposición Documental",
-    post: "",
+    post: "06/11/2023",
     lastUpdate: "",
     pdf: "https://itetlax.org.mx/assets/pdf/archivistico/8.pdf",
     word: "https://itetlax.org.mx/assets/pdf/archivistico/8.docx",

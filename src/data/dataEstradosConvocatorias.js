@@ -10,7 +10,7 @@ export const dataEstrados = [
 
   //fecha de baja: 07 Noviembre 2023
   {
-    id: 8,
+    id: 1,
     nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 2648",
     linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/38.pdf",
     nameFolio: "FOLIO 2648-2023",

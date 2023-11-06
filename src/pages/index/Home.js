@@ -244,6 +244,34 @@ const ITE = () => {
       <h3 className="mt-5 bottom_title">Videos</h3>
       <Videoteca items={dataVideoteca} itemsID={"videoteca"} />
 
+      <div className="container">
+        <h3 className="mt-1 bottom_title">Videos INE</h3>
+        <div className="row justify-content-center">
+          <div className="col-md-4">
+            <div className="Home__video-embed ratio ratio-16x9 w-100">
+              <iframe
+                src="https://itetlax.org.mx/assets/video/ine/1.mp4"
+                title="Capsula ine Náhuatl"
+                allowFullScreen
+              ></iframe>
+            </div>
+            <h5 className="mt-3 text-center">Cápsula en Náhuatl </h5>
+          </div>
+          <div className="col-md-4">
+            <div className="Home__video-embed ratio ratio-16x9 w-100">
+              <iframe
+                src="https://itetlax.org.mx/assets/video/ine/2.mp4"
+                title="Capsula ine Otomí"
+                allowFullScreen
+              ></iframe>
+            </div>
+            <h5 className="mt-3 text-center">
+              Cápsula en Yuhmú (variante del Otomí){" "}
+            </h5>
+          </div>
+        </div>
+      </div>
+
       <div className="Home__pages">
         <div>
           <a target="_blank" href="https://ine.mx" rel="noreferrer">
