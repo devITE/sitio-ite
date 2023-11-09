@@ -1140,6 +1140,16 @@ export const dataAcuerdos2023 = [
       "SE APRUEBA CATÁLOGO DE PROGRAMAS DE RADIO Y TELEVISIÓN QUE DIFUNDEN NOTICIAS A MONITOREAR DEL PELO 2023-2024",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/94.pdf",
   },
+  {
+    id: 95,
+    year: "2023",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 95-2023",
+    monthDoc: "NOV",
+    nameDoc:
+      "SE DECLARA LA PROCEDENCIA RESPECTO A LA MODIFICACIÓN DE DOCUMENTOS BÁSICOS DE RSPT",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/95.pdf",
+  },
 ];
 
 // ------------ A C U E R D O S    I N E ------------
