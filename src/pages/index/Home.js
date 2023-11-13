@@ -248,21 +248,47 @@ const ITE = () => {
         <div className="row justify-content-center">
           <div className="col-md-4">
             <div className="Home__video-embed ratio ratio-16x9 w-100">
-              <iframe
+              <video controls>
+                <source
+                  src="https://itetlax.org.mx/assets/video/ine/1.mp4"
+                  type="video/mp4"
+                />
+                <p>
+                  Su navegador no soporta video HTML5. Aquí hay un
+                  <a href="https://itetlax.org.mx/assets/video/ine/1.mp4">
+                    enlace al video
+                  </a>
+                  .
+                </p>
+              </video>
+              {/* <iframe
                 src="https://itetlax.org.mx/assets/video/ine/1.mp4"
                 title="Capsula ine Náhuatl"
                 allowFullScreen
-              ></iframe>
+              ></iframe> */}
             </div>
             <h5 className="mt-3 text-center">Cápsula en Náhuatl </h5>
           </div>
           <div className="col-md-4">
             <div className="Home__video-embed ratio ratio-16x9 w-100">
-              <iframe
+              <video controls>
+                <source
+                  src="https://itetlax.org.mx/assets/video/ine/2.mp4"
+                  type="video/mp4"
+                />
+                <p>
+                  Su navegador no soporta video HTML5. Aquí hay un
+                  <a href="https://itetlax.org.mx/assets/video/ine/2.mp4">
+                    enlace al video
+                  </a>
+                  .
+                </p>
+              </video>
+              {/* <iframe
                 src="https://itetlax.org.mx/assets/video/ine/2.mp4"
                 title="Capsula ine Otomí"
                 allowFullScreen
-              ></iframe>
+              ></iframe> */}
             </div>
             <h5 className="mt-3 text-center">
               Cápsula en Yuhmú (variante del Otomí){" "}

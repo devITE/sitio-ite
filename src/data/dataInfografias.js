@@ -96,6 +96,28 @@ export const dataInf = [
           },
         ],
       },
+      {
+        id: 6,
+        titleButton: "Octubre",
+        subChildren: [
+          {
+            id: 1,
+            alt: "Coordinación de Género y No Discriminación del ITE",
+            link: "https://itetlax.org.mx/assets/img/imgEInf/2022/11.jpg",
+          },
+        ],
+      },
+      {
+        id: 7,
+        titleButton: "Noviembre",
+        subChildren: [
+          {
+            id: 1,
+            alt: "En qué consiste el Procedimiento Especial Sancionador",
+            link: "https://itetlax.org.mx/assets/img/imgEInf/2022/12.jpg",
+          },
+        ],
+      },
       // {
       //   id: 6,
       //   titleButton: "Junio",
