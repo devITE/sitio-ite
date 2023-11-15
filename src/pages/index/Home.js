@@ -32,8 +32,8 @@ const ITE = () => {
     <>
       {/* {
         <ModalInit
-          imgLink="https://itetlax.org.mx/assets/img/imgC_A/67.png"
-          url="https://itetlax.org.mx/assets/img/imgC_A/67.png"
+          imgLink="https://itetlax.org.mx/assets/img/imgC_A/68.png"
+          url="https://itetlax.org.mx/assets/img/imgC_A/67.pdf"
           linkToo=""
         />
       } */}
@@ -44,7 +44,6 @@ const ITE = () => {
           linkToo=""
         />
       }
-
       <Carousel idCarousel="carouselTopIndex">
         {dataCIndex.map((cIndex) => (
           <CarouselItemIMG

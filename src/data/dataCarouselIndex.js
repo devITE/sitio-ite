@@ -76,10 +76,17 @@ export const dataCIndex = [
     id: 11,
     imgUrl: "https://itetlax.org.mx/assets/img/imgC_I/actores-politicos.jpg",
     alt: "Actores Politicos",
+    url: "https://itetlax.org.mx/assets/pdf/comunicacion/lineamientos_radio_television.pdf",
+    linkToo: "",
+  },
+  {
+    id: 12,
+    imgUrl: "https://itetlax.org.mx/assets/img/imgC_I/banner_cdm.jpg",
+    alt: "Actores Politicos",
     itemActive: "active",
     buttonActive: "active",
     ariaCurrent: "true",
-    url: "https://itetlax.org.mx/assets/pdf/comunicacion/lineamientos_radio_television.pdf",
+    url: "https://www.convocatoria-cdm.itetlax.org.mx/",
     linkToo: "",
   },
 ];
