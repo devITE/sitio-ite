@@ -234,4 +234,14 @@ export const dataCA = [
     url: "https://observadores.ine.mx/",
     linkToo: "",
   },
+  // {
+  //   id: 10,
+  //   imgUrl: "https://itetlax.org.mx/assets/img/imgC_A/69.png",
+  //   alt: "observadores ine",
+  //   itemActive: "active",
+  //   buttonActive: "active",
+  //   ariaCurrent: "true",
+  //   url: "https://itetlax.org.mx/assets/img/imgC_A/69.png",
+  //   linkToo: "",
+  // },
 ];

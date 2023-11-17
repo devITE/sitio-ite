@@ -1170,7 +1170,7 @@ export const dataAcuerdos2023 = [
     monthDoc: "NOV",
     nameDoc:
       "SE APRUEBAN PROPUESTAS DE PAUTAS DE RADIO Y TELEVISIÓN DE PP Y CI; DURANTE PRECAMPAÑAS, INTERCAMPAÑAS Y CAMPAÑAS PELO 2023-2024",
-    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/98.pdf",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/97.pdf",
     titleAnexo1: "ANEXO UNO TLAX_23-24_01_PEL_1_A_PRE_CC_17d",
     pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/97.1.pdf",
     titleAnexo2: "ANEXO DOS TLAX_23-24_01_PEL_3_1_CAM_0CI_CC_30d",
@@ -1208,15 +1208,26 @@ export const dataAcuerdos2023 = [
     pdfAnexo6: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/98.6.pdf",
   },
   {
-    id: 98,
+    id: 99,
     year: "2023",
     typeDoc: "ACUERDO",
     numDoc: "ITE-CG 99-2023",
     monthDoc: "NOV",
     nameDoc: "CUMPLIMIENTO DE SENTENCIA TET-JE-015-023 Y ACUMULADOS",
-    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/98.pdf",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/99.pdf",
     titleAnexo1: "ANEXO NÚMERO TRES OCCCEST_AO",
-    pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/98.1.pdf",
+    pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/99.1.pdf",
+  },
+  {
+    id: 100,
+    year: "2023",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 100-2023",
+    monthDoc: "NOV",
+    nameDoc: "SE APRUEBA LA METODOLOGÍA PARA MONITOREO DE RADIO Y TELEVISIÓN",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/100.pdf",
+    titleAnexo1: "Metodología RyT PELO 2023-2024",
+    pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/100.1.pdf",
   },
 ];
 

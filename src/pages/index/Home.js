@@ -32,8 +32,8 @@ const ITE = () => {
     <>
       {/* {
         <ModalInit
-          imgLink="https://itetlax.org.mx/assets/img/imgC_A/68.png"
-          url="https://itetlax.org.mx/assets/img/imgC_A/67.pdf"
+          imgLink="https://itetlax.org.mx/assets/img/imgC_A/69.png"
+          url="https://itetlax.org.mx/assets/img/imgC_A/69.png"
           linkToo=""
         />
       } */}
