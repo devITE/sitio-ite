@@ -59,13 +59,12 @@ const ITE = () => {
       <div className="mt-5 Home__AR-A">
         <div>
           <h2 className="bottom_title">
-            70 Aniversario del Reconocimiento de la Ciudadanía de las Mujeres
-            Mexicanas
+            Panel: Violencia contra las Mujeres, Causas y Desafíos en Tlaxcala
           </h2>
           <div className="Home__video-embed ratio ratio-16x9 w-100">
             <iframe
               id="9QQCf_emFwo"
-              src="https://www.youtube-nocookie.com/embed/ILhAQEGkQ3U?rel=0"
+              src="https://www.youtube-nocookie.com/embed/11cfjjAiJG8?rel=0"
               title="Firma de convenio entre el ITE y la A.C -DDESER Tlaxcala"
               allowFullScreen
             ></iframe>
@@ -134,13 +133,13 @@ const ITE = () => {
           <h2 className="bottom_title">Sesión en Vivo</h2>
           <div className="Home__video-embed ratio ratio-16x9 w-100">
             <iframe
-              src="https://www.youtube-nocookie.com/embed/JTeEiKUDNnc"
-              title="Sesión Presencial Especial del CG 08/11/2023"
+              src="https://www.youtube-nocookie.com/embed/uwGbEYmsyDc"
+              title="Sesión Presencial Especial del CG 17/11/2023"
               allowFullScreen
             ></iframe>
           </div>
           <h5 className="mt-3 text-center">
-            Sesión Presencial Especial del CG 08/11/2023{" "}
+            Sesión Presencial Especial del CG 17/11/2023{" "}
           </h5>
         </div>
         <div>
