@@ -28,6 +28,7 @@ import Infografias from "./pages/enlaces/Infografias";
 import MemoriasElectorales from "./pages/enlaces/MemoriasElectorales";
 import MetasMSPEN from "./pages/enlaces/MetasMSPEN";
 import PartidosPoliticos from "./pages/enlaces/PartidosPoliticos";
+import PersonasDiscapacidad from "./pages/enlaces/PersonasDiscapacidad";
 
 //Acerca de ITE
 import FinesInstitucionales from "./pages/acercaITE/FinesInstitucionales";
@@ -201,6 +202,10 @@ function App() {
           />
           <Route path="/MetasMSPEN" element={<MetasMSPEN />} />
           <Route path="/PartidosPoliticos" element={<PartidosPoliticos />} />
+          <Route
+            path="/PersonasDiscapacidad"
+            element={<PersonasDiscapacidad />}
+          />
 
           {/* Acerca de ITE */}
           <Route
