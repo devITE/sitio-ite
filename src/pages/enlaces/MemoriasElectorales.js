@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import { Link } from "react-router-dom";
 import NavbarEnlaces from "../../layout/NavbarEnlaces";
 import { dataMemoria } from "../../data/dataMemoriasElectorales";
 import "./EnlacesStyle.css";
@@ -19,7 +20,11 @@ export const MemoriasElectorales = () => {
                 {itemMemoria.titleItem}
               </div>
               <div>
-                <a href={itemMemoria.linkItem} target="_blank" rel="noreferrer">
+                <Link
+                  to={itemMemoria.linkItem}
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <img
                     className="img-fluid w-100"
                     src={itemMemoria.imgItem}
@@ -28,7 +33,7 @@ export const MemoriasElectorales = () => {
                       itemMemoria.titleItem
                     }
                   />
-                </a>
+                </Link>
               </div>
             </div>
           ))}

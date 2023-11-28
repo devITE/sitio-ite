@@ -168,6 +168,9 @@ import PlaneacionArchivistica from "./pages/archivo/PlaneacionArchivistica";
 import REPS from "./pages/reps/REPS";
 import DESPEN from "./pages/despen/DESPEN";
 
+//Memoria Electoral
+import MemoriaElectoral20202021 from "./pages/memElect2023/MemoriaElectoral20202021";
+
 function App() {
   return (
     <Router>
@@ -365,6 +368,12 @@ function App() {
           {/* Micrositios */}
           <Route path="/REPS" element={<REPS />} />
           <Route path="/DESPEN" element={<DESPEN />} />
+
+          {/* MemoriaElectoral20202021 */}
+          <Route
+            path="/MemoriaElectoral20202021"
+            element={<MemoriaElectoral20202021 />}
+          />
         </Routes>
       </div>
       <Footer></Footer>
