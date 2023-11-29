@@ -661,15 +661,6 @@ export const dataAcuerdos2023 = [
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/58.pdf",
   },
   {
-    id: 58,
-    year: "2023",
-    typeDoc: "RESOLUCIÓN",
-    numDoc: "ITE-CG 58-2023",
-    monthDoc: "JUL",
-    nameDoc: "SE APRUEBA LA MODIFICACIÓN DE DOCUMENTOS BÁSICOS DEL PAC",
-    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/58.pdf",
-  },
-  {
     id: 59,
     year: "2023",
     typeDoc: "RESOLUCIÓN",
