@@ -210,29 +210,16 @@ export const dataCA = [
     url: "https://farodemocratico.ine.mx/",
     linkToo: "",
   },
-  // {
-  //   id: 7,
-  //   imgUrl: "https://itetlax.org.mx/assets/img/imgC_A/54.png",
-  //   alt: "Convocatoria Personas Indigenas",
-  //   url: "https://itetlax.org.mx/assets/img/imgC_A/54.pdf",
-  //   linkToo: "",
-  // },
-  // {
-  //   id: 8,
-  //   imgUrl: "https://itetlax.org.mx/assets/img/imgC_A/55.png",
-  //   alt: "55",
-  //   url: "https://itetlax.org.mx/assets/img/imgC_A/55.pdf",
-  //   linkToo: "",
-  // },
+
   {
-    id: 9,
+    id: 7,
     imgUrl: "https://itetlax.org.mx/assets/img/imgC_A/56.PNG",
     alt: "56",
     url: "https://itetlax.org.mx/assets/img/imgC_A/56.docx",
     linkToo: "",
   },
   {
-    id: 10,
+    id: 8,
     imgUrl: "https://itetlax.org.mx/assets/img/imgC_A/ine.PNG",
     alt: "observadores ine",
     itemActive: "active",
@@ -241,14 +228,4 @@ export const dataCA = [
     url: "https://observadores.ine.mx/",
     linkToo: "",
   },
-  // {
-  //   id: 10,
-  //   imgUrl: "https://itetlax.org.mx/assets/img/imgC_A/69.png",
-  //   alt: "observadores ine",
-  //   itemActive: "active",
-  //   buttonActive: "active",
-  //   ariaCurrent: "true",
-  //   url: "https://itetlax.org.mx/assets/img/imgC_A/69.png",
-  //   linkToo: "",
-  // },
 ];

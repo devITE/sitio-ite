@@ -1220,6 +1220,17 @@ export const dataAcuerdos2023 = [
     titleAnexo1: "Metodología RyT PELO 2023-2024",
     pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/100.1.pdf",
   },
+  {
+    id: 101,
+    year: "2023",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 101-2023",
+    monthDoc: "NOV",
+    nameDoc: "POR EL QUE SE  READECUA EL PRESUPUESTO DE EGRESOS 2023",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/101.pdf",
+    titleAnexo1: "ANEXO ÚNICO",
+    pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/101.1.pdf",
+  },
 ];
 
 // ------------ A C U E R D O S    I N E ------------
