@@ -7,14 +7,46 @@ export const dataEstrados = [
   //   nameFolio: "FOLIO 2187-2023",
   //   linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/27.1.pdf",
   // },
-  //fecha de baja: 22 Noviembre 2023
-  // {
-  //   id: 1,
-  //   nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 2843",
-  //   linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/39.pdf",
-  //   nameFolio: "FOLIO 2843-2023",
-  //   linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/39.1.pdf",
-  // },
+  //fecha de baja: 08 diciembre 2023
+  {
+    id: 1,
+    nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 3090-2023",
+    linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/40.pdf",
+    nameFolio: "FOLIO 3090-2023",
+    linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/40.1.pdf",
+  },
+  //fecha de baja: 09 diciembre 2023
+  {
+    id: 2,
+    nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 03109",
+    linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/41.pdf",
+    nameFolio: "FOLIO 03109-2023",
+    linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/41.1.pdf",
+  },
+  //fecha de baja: 09 diciembre 2023
+  {
+    id: 3,
+    nameCedula: "CÉDULA PUBLICITACIÓN FOLIO 03117-2023",
+    linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/42.pdf",
+    nameFolio: "FOLIO 03117-2023",
+    linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/42.1.pdf",
+  },
+  //fecha de baja: 09 diciembre 2023
+  {
+    id: 4,
+    nameCedula: "CÉDULA PUBLICITACIÓN FOLIO 3118-2023",
+    linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/43.pdf",
+    nameFolio: "FOLIO 3118-2023",
+    linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/43.1.pdf",
+  },
+  //fecha de baja: 09 diciembre 2023
+  {
+    id: 5,
+    nameCedula: "CÉDULA PUBLICITACIÓN FOLIO 03119-2023",
+    linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/44.pdf",
+    nameFolio: "FOLIO 03119-2023",
+    linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/44.1.pdf",
+  },
 ];
 
 export const dataConvocatorias = [
@@ -93,5 +125,11 @@ export const dataConvocatorias = [
     id: 13,
     nameFile: "ANEXO CUATRO. TOPE DE GASTOS",
     linkFile: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/82.11.pdf",
+  },
+  {
+    id: 14,
+    nameFile:
+      "¿Quieres participar como Observador/a Electoral Local? Proceso Electoral Concurrente 2023-2024",
+    linkFile: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/110.1.pdf",
   },
 ];
