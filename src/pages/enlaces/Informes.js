@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
 import NavbarEnlaces from "../../layout/NavbarEnlaces";
-// import ModalIMG from "../../layout/Modal/ModalIMG";
 import { dataInfor } from "../../data/dataInforms";
-// import ListBadge from "../../layout/ListBadge";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
 
 import "./EnlacesStyle.css";
 
@@ -77,7 +77,6 @@ const Encuestas = () => {
             ))}
           </div>
         </div>
-
         <div className="tab-content w-75" id="v-pills-tabContent">
           {dataInfor.map((infoITEM) =>
             infoITEM.children.map((chilItem) => (
@@ -94,44 +93,31 @@ const Encuestas = () => {
                 }
                 tabIndex="0"
               >
-                sddf
-                {/* <div className="Infografias__grid">
+                <ol className="list-group">
                   {chilItem.subChildren.map((subChilItem) => (
-                    <div key={subChilItem.id}>
+                    <li
+                      key={subChilItem.id}
+                      className="list-group-item d-flex justify-content-between align-items-center"
+                    >
+                      <div className="ms-2 me-auto">
+                        <div>{subChilItem.titleItem}</div>
+                      </div>
                       <a
-                      // href="#/"
-                      // rel="noreferrer"
-                      // data-bs-toggle="modal"
-                      // data-bs-target={
-                      //   "#" +
-                      //   chilItem.titleButton +
-                      //   infoITEM.titleItem +
-                      //   subChilItem.id
-                      // }
+                        href={subChilItem.linkItem}
+                        target="_blank"
+                        rel="noreferrer"
                       >
-                        <img
-                          className="img-fluid Infografias__grid-item"
-                          src={subChilItem.link}
-                          alt={subChilItem.alt}
-                        />
+                        <span className="badge bg-danger">
+                          <FontAwesomeIcon icon={faFilePdf} />
+                        </span>
                       </a>
-                      <ModalIMG
-                        idModal={
-                          chilItem.titleButton +
-                          infoITEM.titleItem +
-                          subChilItem.id
-                        }
-                        linkIMG={subChilItem.link}
-                        altIMG={subChilItem.alt}
-                      />
-                    </div>
+                    </li>
                   ))}
-                </div> */}
+                </ol>
               </div>
             ))
           )}
         </div>
-        <div></div>
       </div>
     </>
   );
