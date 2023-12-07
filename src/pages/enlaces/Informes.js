@@ -8,7 +8,7 @@ import "./EnlacesStyle.css";
 
 const Encuestas = () => {
   useEffect(() => {
-    document.title = `Encuestas y Sondeos de opinión en materia electoral del Proceso Local Ordinario 2023-2024`;
+    document.title = `Encuestas y Sondeos de opinión en materia electoral del Proceso Electoral Local Ordinario 2023-2024`;
   }, []);
   return (
     <>

@@ -129,7 +129,7 @@ export const dataConvocatorias = [
   {
     id: 14,
     nameFile:
-      "¿Quieres participar como Observador/a Electoral Local? Proceso Electoral Concurrente 2023-2024",
+      "¿Quieres participar como Observador/a Electoral Local? para el Proceso Electoral Local Ordinario 2023-2024",
     linkFile: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/110.1.pdf",
   },
 ];

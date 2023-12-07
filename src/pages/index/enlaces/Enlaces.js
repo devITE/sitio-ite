@@ -94,7 +94,7 @@ export const Enlaces = () => {
             />
           </Link>
         </div>
-        <div className="col col-sm-3 col-md-3 col-md-3">
+        {/* <div className="col col-sm-3 col-md-3 col-md-3">
           <br />
           <Link to="/Informes">
             <img
@@ -103,7 +103,7 @@ export const Enlaces = () => {
               className="img-fluid shadow rounded-4"
             />
           </Link>
-        </div>
+        </div> */}
       </div>
       <div className="row mt-2">
         <div className="col col-sm-6 col-md-6 col-md-6 d-flex justify-content-center">
