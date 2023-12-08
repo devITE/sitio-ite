@@ -47,6 +47,14 @@ export const dataEstrados = [
     nameFolio: "FOLIO 03119-2023",
     linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/44.1.pdf",
   },
+  //fecha de baja: 11 diciembre 2023
+  {
+    id: 6,
+    nameCedula: "CÉDULA PUBLICITACIÓN FOLIO 03145-2023",
+    linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/45.pdf",
+    nameFolio: "FOLIO 03145-2023",
+    linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/45.1.pdf",
+  },
 ];
 
 export const dataConvocatorias = [
