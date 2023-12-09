@@ -52,7 +52,7 @@ export const dataEstrados = [
     id: 6,
     nameCedula: "CÉDULA PUBLICITACIÓN FOLIO 3169-2023",
     linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/46.pdf",
-    nameFolio: "FOLIO 3160-2023",
+    nameFolio: "FOLIO 3169-2023",
     linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/46.1.pdf",
   },
 ];
