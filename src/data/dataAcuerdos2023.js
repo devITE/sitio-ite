@@ -1347,6 +1347,16 @@ export const dataAcuerdos2023 = [
     titleAnexo1: "SE EMITE CONVOCATORIA OPLE _ OBSERVADORES",
     pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/110.1.pdf",
   },
+  {
+    id: 111,
+    year: "2023",
+    typeDoc: "RESOLUCIÓN",
+    numDoc: "ITE-CG 111-2023",
+    monthDoc: "DIC",
+    nameDoc:
+      "PROCEDENCIA DE MANIFESTACIONES RESERVADAS EN LA RESOLUCIÓN ITE-CG 109-20213 DE CANDIDATURAS INDEPENDIENTES",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/111.pdf",
+  },
 ];
 
 // ------------ A C U E R D O S    I N E ------------
