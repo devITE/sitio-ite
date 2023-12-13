@@ -7408,7 +7408,8 @@ export const dataAcuerdos2020 = [
     dateDoc: "28-MAY",
     numDoc: "ITE-CG 23-2020",
     monthDoc: "MAY",
-    nameDoc: "",
+    nameDoc:
+      "SE ACTUALIZAN LAS MEDIDAS CON LAS QUE CUENTA EL INSTITUTO CON MOTIVO DE LA PANDEMIA COVID-19, PARA EL REGRESO DE ACTIVIDADES PRESENCIALES DEL ITE",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2020/23.pdf",
     subRows: "",
   },

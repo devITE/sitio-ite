@@ -1357,6 +1357,56 @@ export const dataAcuerdos2023 = [
       "PROCEDENCIA DE MANIFESTACIONES RESERVADAS EN LA RESOLUCIÓN ITE-CG 109-20213 DE CANDIDATURAS INDEPENDIENTES",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/111.pdf",
   },
+  {
+    id: 112,
+    year: "2023",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 112-2023",
+    monthDoc: "DIC",
+    nameDoc:
+      "SE REANUDA LA FASE DE EJECUCIÓN DE CONSULTA A COMUNIDADES POR USOS Y COSTUMBRES",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/112.pdf",
+    titleAnexo1: "Protocolo para el proceso de Consulta UyC",
+    pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/112.1.pdf",
+  },
+  {
+    id: 113,
+    year: "2023",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 113-2023",
+    monthDoc: "DIC",
+    nameDoc: "SE OTORGA ATRIBUCIONES A LA DPAyF DEL ITE",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/113.pdf",
+  },
+  {
+    id: 114,
+    year: "2023",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 114-2023",
+    monthDoc: "DIC",
+    nameDoc:
+      "SE DETERMINA EL NÚMERO DE REGIDURÍAS A ELEGIR EN CADA AYUNTAMIENTO EN PELO 2023-2024",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/114.pdf",
+  },
+  {
+    id: 115,
+    year: "2023",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 115-2023",
+    monthDoc: "DIC",
+    nameDoc:
+      "SE DETERMINA LÍMITES DE FINANCIAMIENTO PRIVADO DE PARTIDOS POLÍTICOS",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/115.pdf",
+  },
+  {
+    id: 116,
+    year: "2023",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 116-2023",
+    monthDoc: "DIC",
+    nameDoc: "SE APRUEBAN LOS TOPES DE GASTOS DE PRECAMPAÑA",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/116.pdf",
+  },
 ];
 
 // ------------ A C U E R D O S    I N E ------------
