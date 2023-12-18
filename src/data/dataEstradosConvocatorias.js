@@ -7,21 +7,14 @@ export const dataEstrados = [
   //   nameFolio: "FOLIO 3169-2023",
   //   linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/46.1.pdf",
   // },
-  //fecha de baja: 15 diciembre 2023
+
+  //fecha de baja: 20 diciembre 2023
   {
     id: 1,
-    nameCedula: "CÉDULA PUBLICITACIÓN FOLIO 3178-2023",
-    linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/47.pdf",
-    nameFolio: "FOLIO 3178-2023",
-    linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/47.1.pdf",
-  },
-  //fecha de baja: 16 diciembre 2023
-  {
-    id: 2,
-    nameCedula: "CONSTANCIA DE PUBLICITACION FOLIO 3203",
-    linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/48.pdf",
-    nameFolio: "FOLIO 3203-2023",
-    linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/48.1.pdf",
+    nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 3257",
+    linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/49.pdf",
+    nameFolio: "FOLIO 3257-2023",
+    linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/49.1.pdf",
   },
 ];
 

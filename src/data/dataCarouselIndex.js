@@ -239,10 +239,17 @@ export const dataCA = [
     id: 8,
     imgUrl: "https://itetlax.org.mx/assets/img/imgC_A/ine.PNG",
     alt: "observadores ine",
+    url: "https://observadores.ine.mx/",
+    linkToo: "",
+  },
+  {
+    id: 9,
+    imgUrl: "https://itetlax.org.mx/assets/img/sesionesCG/SECG-181223.jpg",
+    alt: "SESION DEL CG",
     itemActive: "active",
     buttonActive: "active",
     ariaCurrent: "true",
-    url: "https://observadores.ine.mx/",
+    url: "https://itetlax.org.mx/assets/img/sesionesCG/SECG-181223.jpg",
     linkToo: "",
   },
   // {
