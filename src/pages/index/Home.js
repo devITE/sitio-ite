@@ -30,20 +30,20 @@ const ITE = () => {
   }, []);
   return (
     <>
-      {
+      {/*
         <ModalInit
           imgLink="https://itetlax.org.mx/assets/img/sesionesCG/SECG-181223.jpg"
           url="https://itetlax.org.mx/assets/img/sesionesCG/SECG-181223.jpg"
           linkToo=""
         />
-      }
-      {/*
+  */}
+      {
         <ModalInit
           imgLink="https://itetlax.org.mx/assets/img/imgC_A/ine.PNG"
           url="https://observadores.ine.mx/"
           linkToo=""
         />
-    */}
+      }
       <Carousel idCarousel="carouselTopIndex">
         {dataCIndex.map((cIndex) => (
           <CarouselItemIMG
@@ -133,13 +133,13 @@ const ITE = () => {
           <h2 className="bottom_title">Sesión en Vivo</h2>
           <div className="Home__video-embed ratio ratio-16x9 w-100">
             <iframe
-              src="https://www.youtube-nocookie.com/embed/-MTREoTkp6c"
-              title="Sesión Presencial Extraordinaria del CG 12/12/2023"
+              src="https://www.youtube-nocookie.com/embed/YVspl3isMLQ&a"
+              title="Sesión Presencial Especial del CG 18/12/2023"
               allowFullScreen
             ></iframe>
           </div>
           <h5 className="mt-3 text-center">
-            Sesión Presencial Extraordinaria del CG 12/12/2023{" "}
+            Sesión Presencial Especial del CG 18/12/2023{" "}
           </h5>
         </div>
         <div>

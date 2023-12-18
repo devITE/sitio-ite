@@ -88,12 +88,12 @@ export const dataCIndex = [
   },
   {
     id: 14,
-    imgUrl: "https://itetlax.org.mx/assets/img/imgC_I/convocatoria.jpg",
+    imgUrl: "https://itetlax.org.mx/assets/img/imgC_I/entrevistas.jpg",
     alt: "Convocatoria",
     itemActive: "active",
     buttonActive: "active",
     ariaCurrent: "true",
-    url: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/110.1.pdf",
+    url: "https://itetlax.org.mx/assets/pdf/carousel/folios.pdf",
     linkToo: "",
   },
 ];
@@ -222,17 +222,10 @@ export const dataCA = [
     id: 8,
     imgUrl: "https://itetlax.org.mx/assets/img/imgC_A/ine.PNG",
     alt: "observadores ine",
-    url: "https://observadores.ine.mx/",
-    linkToo: "",
-  },
-  {
-    id: 9,
-    imgUrl: "https://itetlax.org.mx/assets/img/sesionesCG/SECG-181223.jpg",
-    alt: "SESION DEL CG",
     itemActive: "active",
     buttonActive: "active",
     ariaCurrent: "true",
-    url: "https://itetlax.org.mx/assets/img/sesionesCG/SECG-181223.jpg",
+    url: "https://observadores.ine.mx/",
     linkToo: "",
   },
   // {

@@ -1419,6 +1419,21 @@ export const dataAcuerdos2023 = [
     titleAnexo1: "Calendarización",
     pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/117.1.pdf",
   },
+  {
+    id: 118,
+    year: "2023",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 118-2023",
+    monthDoc: "DIC",
+    nameDoc:
+      "SE APRUEBAN DICTÁMENES PARA OTORGAMIENTO DE INCENTIVOS CORRESPONDIENTES AL EJERCICIO 2022 DEL PERSONAL SPEN",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/118.pdf",
+    titleAnexo1: "ANEXO UNO. DICTAMEN OTORGAMIENTO INCENTIVOS MIGUEL",
+    pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/118.1.pdf",
+    titleAnexo2:
+      "ANEXO DOS. DICTAMEN OTORGAMIENTO INCENTIVOS EXCELENCIA MARITZA",
+    pdfAnexo2: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/118.2.pdf",
+  },
 ];
 
 // ------------ A C U E R D O S    I N E ------------
