@@ -80,23 +80,6 @@ export const dataCIndex = [
     linkToo: "",
   },
   {
-    id: 12,
-    imgUrl: "https://itetlax.org.mx/assets/img/imgC_I/banner_cdm.jpg",
-    alt: "Actores Politicos",
-    url: "https://www.convocatoria-cdm.itetlax.org.mx/",
-    linkToo: "",
-  },
-  {
-    id: 12,
-    imgUrl: "https://itetlax.org.mx/assets/img/imgC_I/banner_rd.jpeg",
-    alt: "Convocatoria RD",
-    // itemActive: "active",
-    // buttonActive: "active",
-    // ariaCurrent: "true",
-    url: "https://www.convocatoria-rd.itetlax.org.mx/",
-    linkToo: "",
-  },
-  {
     id: 13,
     imgUrl: "https://itetlax.org.mx/assets/img/imgC_I/consultas.jpg",
     alt: "Consultas Indigenas",
