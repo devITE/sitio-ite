@@ -1407,6 +1407,18 @@ export const dataAcuerdos2023 = [
     nameDoc: "SE APRUEBAN LOS TOPES DE GASTOS DE PRECAMPAÑA",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/116.pdf",
   },
+  {
+    id: 117,
+    year: "2023",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 117-2023",
+    monthDoc: "DIC",
+    nameDoc:
+      "POR EL QUE SE ACTUALIZA CALENDARIZACIÓN DE MULTAS DE PT Y SE DA RESPUESTA A PP",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/117.pdf",
+    titleAnexo1: "Calendarización",
+    pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/117.1.pdf",
+  },
 ];
 
 // ------------ A C U E R D O S    I N E ------------
