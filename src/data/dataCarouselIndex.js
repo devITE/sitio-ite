@@ -83,17 +83,10 @@ export const dataCIndex = [
     id: 13,
     imgUrl: "https://itetlax.org.mx/assets/img/imgC_I/consultas.jpg",
     alt: "Consultas Indigenas",
-    // url: "https://itetlax.org.mx/assets/img/imgC_I/consultas.jpg",
-    linkToo: "",
-  },
-  {
-    id: 14,
-    imgUrl: "https://itetlax.org.mx/assets/img/imgC_I/entrevistas.jpg",
-    alt: "Convocatoria",
+    url: "https://itetlax.org.mx/assets/img/imgC_I/consultas.jpg",
     itemActive: "active",
     buttonActive: "active",
     ariaCurrent: "true",
-    url: "https://itetlax.org.mx/assets/pdf/carousel/folios.pdf",
     linkToo: "",
   },
 ];
