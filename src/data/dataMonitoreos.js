@@ -737,5 +737,12 @@ export const dataMonitoreos2023 = [
     nameBoletin: "Segundo Reporte Quincenal",
     linkBoletin: "https://itetlax.org.mx/assets/pdf/monitoreos/2023/2.pdf",
   },
+  {
+    id: 3,
+    yearBoletin: "2023",
+    monthBoletin: "DIC",
+    nameBoletin: "Tercer Reporte Quincenal",
+    linkBoletin: "https://itetlax.org.mx/assets/pdf/monitoreos/2023/3.pdf",
+  },
 ];
 export const dataMonitoreos2024 = [];
