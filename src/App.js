@@ -165,6 +165,10 @@ import InstrumentosArchivisticos from "./pages/archivo/InstrumentosArchivisticos
 import InstrumentosNormativos from "./pages/archivo/InstrumentosNormativos";
 import PlaneacionArchivistica from "./pages/archivo/PlaneacionArchivistica";
 
+//Convocatorias
+
+import ConvocatoriasApartado from "./pages/ConvocatoriasApartado/ConvocatoriasApartado";
+
 //Micrositios
 import REPS from "./pages/reps/REPS";
 import DESPEN from "./pages/despen/DESPEN";
@@ -365,6 +369,12 @@ function App() {
           <Route
             path="/PlaneacionArchivistica"
             element={<PlaneacionArchivistica />}
+          />
+
+          {/* Convocatorias */}
+          <Route
+            path="/ConvocatoriasApartado"
+            element={<ConvocatoriasApartado />}
           />
 
           {/* Micrositios */}

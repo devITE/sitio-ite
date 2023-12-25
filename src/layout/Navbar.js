@@ -266,6 +266,11 @@ export default class Navbar extends Component {
                 </ul>
               </li>
               <li className="nav-item">
+                <Link to="./ConvocatoriasApartado" className="nav-link">
+                  Convocatorias
+                </Link>
+              </li>
+              <li className="nav-item">
                 <a
                   href="https://encuesta-satisfaccion.itetlax.org.mx/"
                   target="_blank"

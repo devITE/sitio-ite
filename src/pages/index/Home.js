@@ -30,13 +30,13 @@ const ITE = () => {
   }, []);
   return (
     <>
-      {
+      {/*
         <ModalInit
           imgLink="https://itetlax.org.mx/assets/img/sesionesCG/SECG-181223.jpg"
           url="https://itetlax.org.mx/assets/img/sesionesCG/SECG-181223.jpg"
           linkToo=""
         />
-      }
+  */}
       {/*
         <ModalInit
           imgLink="https://itetlax.org.mx/assets/img/imgC_A/ine.PNG"
@@ -44,6 +44,13 @@ const ITE = () => {
           linkToo=""
         />
     */}
+      {
+        <ModalInit
+          imgLink="https://itetlax.org.mx/assets/popupIndex/banner-convocatorias.jpeg"
+          url=""
+          linkToo="/ConvocatoriasApartado"
+        />
+      }
       <Carousel idCarousel="carouselTopIndex">
         {dataCIndex.map((cIndex) => (
           <CarouselItemIMG
