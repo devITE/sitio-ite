@@ -140,11 +140,21 @@ export const dataCAR = [
   {
     id: 7,
     imgUrl: "https://itetlax.org.mx/assets/img/imgC_AR/17.jpg",
-    alt: "Convocatoria",
+    // alt: "Convocatoria",
+    // itemActive: "active",
+    // buttonActive: "active",
+    // ariaCurrent: "true",
+    url: "https://votoextranjero.mx/web/vmre/inicio",
+    linkToo: "",
+  },
+  {
+    id: 8,
+    imgUrl: "https://itetlax.org.mx/assets/img/sesionesCG/SOCG-271223.png",
+    alt: "Sesion del CG",
     itemActive: "active",
     buttonActive: "active",
     ariaCurrent: "true",
-    url: "https://votoextranjero.mx/web/vmre/inicio",
+    url: "https://itetlax.org.mx/assets/img/sesionesCG/SOCG-271223.png",
     linkToo: "",
   },
 ];
