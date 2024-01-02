@@ -118,11 +118,6 @@ export default class Navbar extends Component {
                     </Link>
                   </li>
                   <li>
-                    <Link to="./Acuerdos2018" className="dropdown-item">
-                      2018
-                    </Link>
-                  </li>
-                  <li>
                     <Link to="./Acuerdos2019" className="dropdown-item">
                       2019
                     </Link>

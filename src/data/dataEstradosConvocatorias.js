@@ -15,6 +15,14 @@ export const dataEstrados = [
   //   nameFolio: "FOLIO 3257-2023",
   //   linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/49.1.pdf",
   // },
+  //fecha de baja: 3 enero 2024
+  {
+    id: 1,
+    nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 3363",
+    linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/50.pdf",
+    nameFolio: "FOLIO 3363-2023",
+    linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/50.1.pdf",
+  },
 ];
 
 export const dataConvocatorias = [

@@ -4,7 +4,7 @@ import MaterialReactTable from "material-react-table";
 import { Box } from "@mui/material";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFileExcel } from "@fortawesome/free-solid-svg-icons";
-import { dataArt632023 } from "../../../data/dataObTrans2023";
+import { dataArt632023 } from "../../../data/dataTransparenciaArt63";
 import HelperDataTable from "../../../layout/HelperDataTable";
 
 const Art632023 = () => {

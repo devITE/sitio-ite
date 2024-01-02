@@ -67,6 +67,13 @@ export const Boletines = () => {
             alt="Boletines 2023"
           />
         </Link>
+        <Link to="/Boletines2024">
+          <img
+            src="https://itetlax.org.mx/assets/img/icons/58.png"
+            className="img-fluid"
+            alt="Boletines 2024"
+          />
+        </Link>
       </div>
     </>
   );

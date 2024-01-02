@@ -101,6 +101,18 @@ const Articulo67 = () => {
             />
           </Link>
         </div>
+        <div>
+          <Link
+            to="/Art672024"
+            className="list-group-item list-group-item-action"
+          >
+            <img
+              className="img-fluid"
+              src="https://itetlax.org.mx/assets/img/icons/58.png"
+              alt="Artículo 63 (2024)"
+            />
+          </Link>
+        </div>
       </div>
     </>
   );

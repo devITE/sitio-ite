@@ -1,4 +1,4 @@
-export const dataArt632023 = [
+export const dataArt632024 = [
   {
     no: "1",
     fraccion: "I",
@@ -6,9 +6,8 @@ export const dataArt632023 = [
     cumplimiento: "Aplica",
     fundamentoLegal:
       "Articulo. 63 Fraccion I de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
-    actualizacion: "2023",
-    excel1:
-      "https://www.itetlax.org.mx/assets/excel/transparencia/art63/2023/LTAIPT_A63F01.xlsx",
+    actualizacion: "2024",
+    excel1: "",
     excel2: "",
     excel3: "",
     excel4: "",
@@ -20,7 +19,7 @@ export const dataArt632023 = [
     cumplimiento: "Aplica",
     fundamentoLegal:
       "Articulo. 63 Fraccion II de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
-    actualizacion: "2023",
+    actualizacion: "2024",
     excel1: "",
     excel2: "",
     excel3: "",
@@ -33,9 +32,8 @@ export const dataArt632023 = [
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 63 Fraccion II-A de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
-        actualizacion: "2023",
-        excel1:
-          "https://www.itetlax.org.mx/assets/excel/transparencia/art63/2023/LTAIPT_A63F02A.xlsx",
+        actualizacion: "2024",
+        excel1: "",
         excel2: "",
         excel3: "",
         excel4: "",
@@ -47,9 +45,8 @@ export const dataArt632023 = [
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 63 Fraccion II-B de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
-        actualizacion: "2023",
-        excel1:
-          "https://www.itetlax.org.mx/assets/excel/transparencia/art63/2023/LTAIPT_A63F02B.xlsx",
+        actualizacion: "2024",
+        excel1: "",
         excel2: "",
         excel3: "",
         excel4: "",
@@ -63,9 +60,8 @@ export const dataArt632023 = [
     cumplimiento: "Aplica",
     fundamentoLegal:
       "Articulo. 63 Fraccion III de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
-    actualizacion: "2023",
-    excel1:
-      "https://www.itetlax.org.mx/assets/excel/transparencia/art63/2023/LTAIPT_A63F03.xlsx",
+    actualizacion: "2024",
+    excel1: "",
     excel2: "",
     excel3: "",
     excel4: "",
@@ -77,9 +73,8 @@ export const dataArt632023 = [
     cumplimiento: "Aplica",
     fundamentoLegal:
       "Articulo. 63 Fraccion IV de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
-    actualizacion: "2023",
-    excel1:
-      "https://www.itetlax.org.mx/assets/excel/transparencia/art63/2023/LTAIPT_A63F04.xlsx",
+    actualizacion: "2024",
+    excel1: "",
     excel2: "",
     excel3: "",
     excel4: "",
@@ -91,9 +86,8 @@ export const dataArt632023 = [
     cumplimiento: "Aplica",
     fundamentoLegal:
       "Articulo. 63 Fraccion V de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
-    actualizacion: "2023",
-    excel1:
-      "https://www.itetlax.org.mx/assets/excel/transparencia/art63/2023/LTAIPT_A63F05.xlsx",
+    actualizacion: "2024",
+    excel1: "",
     excel2: "",
     excel3: "",
     excel4: "",
@@ -105,9 +99,8 @@ export const dataArt632023 = [
     cumplimiento: "Aplica",
     fundamentoLegal:
       "Articulo. 63 Fraccion VI de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
-    actualizacion: "2023",
-    excel1:
-      "https://www.itetlax.org.mx/assets/excel/transparencia/art63/2023/LTAIPT_A63F06.xlsx",
+    actualizacion: "2024",
+    excel1: "",
     excel2: "",
     excel3: "",
     excel4: "",
@@ -119,9 +112,8 @@ export const dataArt632023 = [
     cumplimiento: "Aplica",
     fundamentoLegal:
       "Articulo. 63 Fraccion VII de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
-    actualizacion: "2023",
-    excel1:
-      "https://www.itetlax.org.mx/assets/excel/transparencia/art63/2023/LTAIPT_A63F07.xlsx",
+    actualizacion: "2024",
+    excel1: "",
     excel2: "",
     excel3: "",
     excel4: "",
@@ -131,9 +123,8 @@ export const dataArt632023 = [
     fraccion: "VIII",
     titulo: "Remuneración bruta y neta",
     cumplimiento: "Aplica",
-    fundamentoLegal:
-      "Articulo. 63 Fraccion VIII de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
-    actualizacion: "2023",
+    fundamentoLegal: "",
+    actualizacion: "2024",
     excel1: "",
     excel2: "",
     excel3: "",
@@ -146,9 +137,8 @@ export const dataArt632023 = [
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 63 Fraccion VIII-A de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
-        actualizacion: "2023",
-        excel1:
-          "https://www.itetlax.org.mx/assets/excel/transparencia/art63/2023/LTAIPT_A63F08A.xlsx",
+        actualizacion: "2024",
+        excel1: "",
         excel2: "",
         excel3: "",
         excel4: "",
@@ -160,9 +150,8 @@ export const dataArt632023 = [
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 63 Fraccion VIII-B de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
-        actualizacion: "2023",
-        excel1:
-          "https://www.itetlax.org.mx/assets/excel/transparencia/art63/2023/LTAIPT_A63F08B.xlsx",
+        actualizacion: "2024",
+        excel1: "",
         excel2: "",
         excel3: "",
         excel4: "",
@@ -176,9 +165,8 @@ export const dataArt632023 = [
     cumplimiento: "Aplica",
     fundamentoLegal:
       "Articulo. 63 Fraccion I de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
-    actualizacion: "2023",
-    excel1:
-      "https://www.itetlax.org.mx/assets/excel/transparencia/art63/2023/LTAIPT_A63F09.xlsx",
+    actualizacion: "2024",
+    excel1: "",
     excel2: "",
     excel3: "",
     excel4: "",
@@ -190,7 +178,7 @@ export const dataArt632023 = [
     cumplimiento: "Aplica",
     fundamentoLegal:
       "Articulo. 63 Fraccion X de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
-    actualizacion: "2023",
+    actualizacion: "2024",
     excel1: "",
     excel2: "",
     excel3: "",
@@ -203,9 +191,8 @@ export const dataArt632023 = [
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 63 Fraccion X-A de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
-        actualizacion: "2023",
-        excel1:
-          "https://www.itetlax.org.mx/assets/excel/transparencia/art63/2023/LTAIPT_A63F10A.xlsx",
+        actualizacion: "2024",
+        excel1: "",
         excel2: "",
         excel3: "",
         excel4: "",
@@ -218,9 +205,8 @@ export const dataArt632023 = [
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 63 Fraccion X-B de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
-        actualizacion: "2023",
-        excel1:
-          "https://www.itetlax.org.mx/assets/excel/transparencia/art63/2023/LTAIPT_A63F10B.xlsx",
+        actualizacion: "2024",
+        excel1: "",
         excel2: "",
         excel3: "",
         excel4: "",
@@ -234,9 +220,8 @@ export const dataArt632023 = [
     cumplimiento: "Aplica",
     fundamentoLegal:
       "Articulo. 63 Fraccion XI de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
-    actualizacion: "2023",
-    excel1:
-      "https://www.itetlax.org.mx/assets/excel/transparencia/art63/2023/LTAIPT_A63F11.xlsx",
+    actualizacion: "2024",
+    excel1: "",
     excel2: "",
     excel3: "",
     excel4: "",
@@ -249,9 +234,8 @@ export const dataArt632023 = [
     cumplimiento: "Aplica",
     fundamentoLegal:
       "Articulo. 63 Fraccion XII de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
-    actualizacion: "2023",
-    excel1:
-      "https://www.itetlax.org.mx/assets/excel/transparencia/art63/2023/LTAIPT_A63F12.xlsx",
+    actualizacion: "2024",
+    excel1: "",
     excel2: "",
     excel3: "",
     excel4: "",
@@ -263,9 +247,8 @@ export const dataArt632023 = [
     cumplimiento: "Aplica",
     fundamentoLegal:
       "Articulo. 63 Fraccion XIII de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
-    actualizacion: "2023",
-    excel1:
-      "https://www.itetlax.org.mx/assets/excel/transparencia/art63/2023/LTAIPT_A63F13.xlsx",
+    actualizacion: "2024",
+    excel1: "",
     excel2: "",
     excel3: "",
     excel4: "",
@@ -277,9 +260,8 @@ export const dataArt632023 = [
     cumplimiento: "Aplica",
     fundamentoLegal:
       "Articulo. 63 Fraccion XIV de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
-    actualizacion: "2023",
-    excel1:
-      "https://www.itetlax.org.mx/assets/excel/transparencia/art63/2023/LTAIPT_A63F14.xlsx",
+    actualizacion: "2024",
+    excel1: "",
     excel2: "",
     excel3: "",
     excel4: "",
@@ -291,7 +273,7 @@ export const dataArt632023 = [
     cumplimiento: "No Aplica",
     fundamentoLegal:
       "Articulo. 63 Fraccion XV de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
-    actualizacion: "2023",
+    actualizacion: "2024",
     excel1: "",
     excel2: "",
     excel3: "",
@@ -304,7 +286,7 @@ export const dataArt632023 = [
         cumplimiento: "No Aplica",
         fundamentoLegal:
           "Articulo. 63 Fraccion XV-A de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
-        actualizacion: "2023",
+        actualizacion: "2024",
         excel1: "",
         excel2: "",
         excel3: "",
@@ -318,7 +300,7 @@ export const dataArt632023 = [
         cumplimiento: "No Aplica",
         fundamentoLegal:
           "Articulo. 63 Fraccion XV-B de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
-        actualizacion: "2023",
+        actualizacion: "2024",
         excel1: "",
         excel2: "",
         excel3: "",
@@ -334,7 +316,7 @@ export const dataArt632023 = [
     cumplimiento: "Aplica",
     fundamentoLegal:
       "Articulo. 63 Fraccion XVI de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
-    actualizacion: "2023",
+    actualizacion: "2024",
     excel1: "",
     excel2: "",
     excel3: "",
@@ -347,9 +329,8 @@ export const dataArt632023 = [
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 63 Fraccion XVI-A de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
-        actualizacion: "2023",
-        excel1:
-          "https://www.itetlax.org.mx/assets/excel/transparencia/art63/2023/LTAIPT_A63F16A.xlsx",
+        actualizacion: "2024",
+        excel1: "",
         excel2: "",
         excel3: "",
         excel4: "",
@@ -361,9 +342,8 @@ export const dataArt632023 = [
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 63 Fraccion XVI-B de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
-        actualizacion: "2023",
-        excel1:
-          "https://www.itetlax.org.mx/assets/excel/transparencia/art63/2023/LTAIPT_A63F16B.xlsx",
+        actualizacion: "2024",
+        excel1: "",
         excel2: "",
         excel3: "",
         excel4: "",
@@ -377,9 +357,8 @@ export const dataArt632023 = [
     cumplimiento: "Aplica",
     fundamentoLegal:
       "Articulo. 63 Fraccion XVII de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
-    actualizacion: "2023",
-    excel1:
-      "https://www.itetlax.org.mx/assets/excel/transparencia/art63/2023/LTAIPT_A63F17.xlsx",
+    actualizacion: "2024",
+    excel1: "",
     excel2: "",
     excel3: "",
     excel4: "",
@@ -391,9 +370,8 @@ export const dataArt632023 = [
     cumplimiento: "Aplica",
     fundamentoLegal:
       "Articulo. 63 Fraccion XVIII de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
-    actualizacion: "2023",
-    excel1:
-      "https://www.itetlax.org.mx/assets/excel/transparencia/art63/2023/LTAIPT_A63F18.xlsx",
+    actualizacion: "2024",
+    excel1: "",
     excel2: "",
     excel3: "",
     excel4: "",
@@ -405,9 +383,8 @@ export const dataArt632023 = [
     cumplimiento: "Aplica",
     fundamentoLegal:
       "Articulo. 63 Fraccion XIX de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
-    actualizacion: "2023",
-    excel1:
-      "https://www.itetlax.org.mx/assets/excel/transparencia/art63/2023/LTAIPT_A63F19.xlsx",
+    actualizacion: "2024",
+    excel1: "",
     excel2: "",
     excel3: "",
     excel4: "",
@@ -419,9 +396,8 @@ export const dataArt632023 = [
     cumplimiento: "Aplica",
     fundamentoLegal:
       "Articulo. 63 Fraccion XX de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
-    actualizacion: "2023",
-    excel1:
-      "https://www.itetlax.org.mx/assets/excel/transparencia/art63/2023/LTAIPT_A63F20.xlsx",
+    actualizacion: "2024",
+    excel1: "",
     excel2: "",
     excel3: "",
     excel4: "",
@@ -433,7 +409,7 @@ export const dataArt632023 = [
     cumplimiento: "Aplica",
     fundamentoLegal:
       "Articulo. 63 Fraccion XXI de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
-    actualizacion: "2023",
+    actualizacion: "2024",
     excel1: "",
     excel2: "",
     excel3: "",
@@ -446,9 +422,8 @@ export const dataArt632023 = [
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 63 Fraccion XX-B de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
-        actualizacion: "2023",
-        excel1:
-          "https://www.itetlax.org.mx/assets/excel/transparencia/art63/2023/LTAIPT_A63F21A.xlsx",
+        actualizacion: "2024",
+        excel1: "",
         excel2: "",
         excel3: "",
         excel4: "",
@@ -460,9 +435,8 @@ export const dataArt632023 = [
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 63 Fraccion XX-B de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
-        actualizacion: "2023",
-        excel1:
-          "https://www.itetlax.org.mx/assets/excel/transparencia/art63/2023/LTAIPT_A63F21B.xlsx",
+        actualizacion: "2024",
+        excel1: "",
         excel2: "",
         excel3: "",
         excel4: "",
@@ -474,9 +448,8 @@ export const dataArt632023 = [
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 63 Fraccion XX-C de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
-        actualizacion: "2023",
-        excel1:
-          "https://www.itetlax.org.mx/assets/excel/transparencia/art63/2023/LTAIPT_A63F21C.xlsx",
+        actualizacion: "2024",
+        excel1: "",
         excel2: "",
         excel3: "",
         excel4: "",
@@ -490,7 +463,7 @@ export const dataArt632023 = [
     cumplimiento: "No Aplica",
     fundamentoLegal:
       "Articulo. 63 Fraccion XXII de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
-    actualizacion: "2023",
+    actualizacion: "2024",
     excel1: "",
     excel2: "",
     excel3: "",
@@ -504,7 +477,7 @@ export const dataArt632023 = [
     cumplimiento: "Aplica",
     fundamentoLegal:
       "Articulo. 63 Fraccion XXIII de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
-    actualizacion: "2023",
+    actualizacion: "2024",
     excel1: "",
     excel2: "",
     excel3: "",
@@ -517,9 +490,8 @@ export const dataArt632023 = [
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 63 Fraccion XXIII-A de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
-        actualizacion: "2023",
-        excel1:
-          "https://www.itetlax.org.mx/assets/excel/transparencia/art63/2023/LTAIPT_A63F23A.xlsx",
+        actualizacion: "2024",
+        excel1: "",
         excel2: "",
         excel3: "",
         excel4: "",
@@ -531,9 +503,8 @@ export const dataArt632023 = [
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 63 Fraccion XXIII-B de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
-        actualizacion: "2023",
-        excel1:
-          "https://www.itetlax.org.mx/assets/excel/transparencia/art63/2023/LTAIPT_A63F23B.xlsx",
+        actualizacion: "2024",
+        excel1: "",
         excel2: "",
         excel3: "",
         excel4: "",
@@ -545,9 +516,8 @@ export const dataArt632023 = [
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 63 Fraccion XXIII-C de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
-        actualizacion: "2023",
-        excel1:
-          "https://www.itetlax.org.mx/assets/excel/transparencia/art63/2023/LTAIPT_A63F23C.xlsx",
+        actualizacion: "2024",
+        excel1: "",
         excel2: "",
         excel3: "",
         excel4: "",
@@ -560,9 +530,8 @@ export const dataArt632023 = [
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 63 Fraccion XXIII-D de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
-        actualizacion: "2023",
-        excel1:
-          "https://www.itetlax.org.mx/assets/excel/transparencia/art63/2023/LTAIPT_A63F23D.xlsx",
+        actualizacion: "2024",
+        excel1: "",
         excel2: "",
         excel3: "",
         excel4: "",
@@ -576,11 +545,9 @@ export const dataArt632023 = [
     cumplimiento: "Aplica",
     fundamentoLegal:
       "Articulo. 63 Fraccion XXIV de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
-    actualizacion: "2023",
-    excel1:
-      "https://www.itetlax.org.mx/assets/excel/transparencia/art63/2023/LTAIPT_A63F24_1.xlsx",
-    excel2:
-      "https://www.itetlax.org.mx/assets/excel/transparencia/art63/2023/LTAIPT_A63F24_2.xlsx",
+    actualizacion: "2024",
+    excel1: "",
+    excel2: "",
     excel3: "",
     excel4: "",
   },
@@ -591,9 +558,8 @@ export const dataArt632023 = [
     cumplimiento: "Aplica",
     fundamentoLegal:
       "Articulo. 63 Fraccion XXV de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
-    actualizacion: "2023",
-    excel1:
-      "https://www.itetlax.org.mx/assets/excel/transparencia/art63/2023/LTAIPT_A63F25.xlsx",
+    actualizacion: "2024",
+    excel1: "",
     excel2: "",
     excel3: "",
     excel4: "",
@@ -605,9 +571,8 @@ export const dataArt632023 = [
     cumplimiento: "Aplica",
     fundamentoLegal:
       "Articulo. 63 Fraccion XXVI de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
-    actualizacion: "2023",
-    excel1:
-      "https://www.itetlax.org.mx/assets/excel/transparencia/art63/2023/LTAIPT_A63F26.xlsx",
+    actualizacion: "2024",
+    excel1: "",
     excel2: "",
     excel3: "",
     excel4: "",
@@ -620,9 +585,8 @@ export const dataArt632023 = [
     cumplimiento: "Aplica",
     fundamentoLegal:
       "Articulo. 63 Fraccion XXVII de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
-    actualizacion: "2023",
-    excel1:
-      "https://www.itetlax.org.mx/assets/excel/transparencia/art63/2023/LTAIPT_A63F27.xlsx",
+    actualizacion: "2024",
+    excel1: "",
     excel2: "",
     excel3: "",
     excel4: "",
@@ -634,7 +598,7 @@ export const dataArt632023 = [
     cumplimiento: "Aplica",
     fundamentoLegal:
       "Articulo. 63 Fraccion XXVIII de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
-    actualizacion: "2023",
+    actualizacion: "2024",
     excel1: "",
     excel2: "",
     excel3: "",
@@ -648,9 +612,8 @@ export const dataArt632023 = [
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 63 Fraccion XXVIII-A de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
-        actualizacion: "2023",
-        excel1:
-          "https://www.itetlax.org.mx/assets/excel/transparencia/art63/2023/LTAIPT_A63F28A.xlsx",
+        actualizacion: "2024",
+        excel1: "",
         excel2: "",
         excel3: "",
         excel4: "",
@@ -662,9 +625,8 @@ export const dataArt632023 = [
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 63 Fraccion XXVIII-B de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
-        actualizacion: "2023",
-        excel1:
-          "https://www.itetlax.org.mx/assets/excel/transparencia/art63/2023/LTAIPT_A63F28B.xlsx",
+        actualizacion: "2024",
+        excel1: "",
         excel2: "",
         excel3: "",
         excel4: "",
@@ -678,7 +640,7 @@ export const dataArt632023 = [
     cumplimiento: "Aplica",
     fundamentoLegal:
       "Articulo. 63 Fraccion XXIX de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
-    actualizacion: "2023",
+    actualizacion: "2024",
     excel1: "",
     excel2: "",
     excel3: "",
@@ -692,9 +654,8 @@ export const dataArt632023 = [
     cumplimiento: "Aplica",
     fundamentoLegal:
       "Articulo. 63 Fraccion XXX de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
-    actualizacion: "2023",
-    excel1:
-      "https://www.itetlax.org.mx/assets/excel/transparencia/art63/2023/LTAIPT_A63F30.xlsx",
+    actualizacion: "2024",
+    excel1: "",
     excel2: "",
     excel3: "",
     excel4: "",
@@ -706,7 +667,7 @@ export const dataArt632023 = [
     cumplimiento: "Aplica",
     fundamentoLegal:
       "Articulo. 63 Fraccion XXXI de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
-    actualizacion: "2023",
+    actualizacion: "2024",
     excel1: "",
     excel2: "",
     excel3: "",
@@ -719,9 +680,8 @@ export const dataArt632023 = [
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 63 Fraccion XXXI-A de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
-        actualizacion: "2023",
-        excel1:
-          "https://www.itetlax.org.mx/assets/excel/transparencia/art63/2023/LTAIPT_A63F31A.xlsx",
+        actualizacion: "2024",
+        excel1: "",
         excel2: "",
         excel3: "",
         excel4: "",
@@ -734,9 +694,8 @@ export const dataArt632023 = [
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 63 Fraccion XXXI-B de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
-        actualizacion: "2023",
-        excel1:
-          "https://www.itetlax.org.mx/assets/excel/transparencia/art63/2023/LTAIPT_A63F31B.xlsx",
+        actualizacion: "2024",
+        excel1: "",
         excel2: "",
         excel3: "",
         excel4: "",
@@ -750,9 +709,8 @@ export const dataArt632023 = [
     cumplimiento: "Aplica",
     fundamentoLegal:
       "Articulo. 63 Fraccion XXXII de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
-    actualizacion: "2023",
-    excel1:
-      "https://www.itetlax.org.mx/assets/excel/transparencia/art63/2023/LTAIPT_A63F32.xlsx",
+    actualizacion: "2024",
+    excel1: "",
     excel2: "",
     excel3: "",
     excel4: "",
@@ -765,11 +723,9 @@ export const dataArt632023 = [
     cumplimiento: "Aplica",
     fundamentoLegal:
       "Articulo. 63 Fraccion XXXIII de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
-    actualizacion: "2023",
-    excel1:
-      "https://www.itetlax.org.mx/assets/excel/transparencia/art63/2023/LTAIPT_A63F33_1.xlsx",
-    excel2:
-      "https://www.itetlax.org.mx/assets/excel/transparencia/art63/2023/LTAIPT_A63F33_2.xlsx",
+    actualizacion: "2024",
+    excel1: "",
+    excel2: "",
     excel3: "",
     excel4: "",
   },
@@ -780,7 +736,7 @@ export const dataArt632023 = [
     cumplimiento: "Aplica",
     fundamentoLegal:
       "Articulo. 63 Fraccion XXXIV de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
-    actualizacion: "2023",
+    actualizacion: "2024",
     excel1: "",
     excel2: "",
     excel3: "",
@@ -793,9 +749,8 @@ export const dataArt632023 = [
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 63 Fraccion XXXIV-A de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
-        actualizacion: "2023",
-        excel1:
-          "https://www.itetlax.org.mx/assets/excel/transparencia/art63/2023/LTAIPT_A63F34A.xlsx",
+        actualizacion: "2024",
+        excel1: "",
         excel2: "",
         excel3: "",
         excel4: "",
@@ -807,9 +762,8 @@ export const dataArt632023 = [
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 63 Fraccion XXXIV-B de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
-        actualizacion: "2023",
-        excel1:
-          "https://www.itetlax.org.mx/assets/excel/transparencia/art63/2023/LTAIPT_A63F34B.xlsx",
+        actualizacion: "2024",
+        excel1: "",
         excel2: "",
         excel3: "",
         excel4: "",
@@ -821,9 +775,8 @@ export const dataArt632023 = [
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 63 Fraccion XXXIV-C de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
-        actualizacion: "2023",
-        excel1:
-          "https://www.itetlax.org.mx/assets/excel/transparencia/art63/2023/LTAIPT_A63F34C.xlsx",
+        actualizacion: "2024",
+        excel1: "",
         excel2: "",
         excel3: "",
         excel4: "",
@@ -835,9 +788,8 @@ export const dataArt632023 = [
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 63 Fraccion XXXIV-D de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
-        actualizacion: "2023",
-        excel1:
-          "https://www.itetlax.org.mx/assets/excel/transparencia/art63/2023/LTAIPT_A63F34D.xlsx",
+        actualizacion: "2024",
+        excel1: "",
         excel2: "",
         excel3: "",
         excel4: "",
@@ -849,9 +801,8 @@ export const dataArt632023 = [
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 63 Fraccion XXXIV-E de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
-        actualizacion: "2023",
-        excel1:
-          "https://www.itetlax.org.mx/assets/excel/transparencia/art63/2023/LTAIPT_A63F34E.xlsx",
+        actualizacion: "2024",
+        excel1: "",
         excel2: "",
         excel3: "",
         excel4: "",
@@ -863,9 +814,8 @@ export const dataArt632023 = [
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 63 Fraccion XXXIV-F de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
-        actualizacion: "2023",
-        excel1:
-          "https://www.itetlax.org.mx/assets/excel/transparencia/art63/2023/LTAIPT_A63F34F.xlsx",
+        actualizacion: "2024",
+        excel1: "",
         excel2: "",
         excel3: "",
         excel4: "",
@@ -877,9 +827,8 @@ export const dataArt632023 = [
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 63 Fraccion XXXIV-G de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
-        actualizacion: "2023",
-        excel1:
-          "https://www.itetlax.org.mx/assets/excel/transparencia/art63/2023/LTAIPT_A63F34G.xlsx",
+        actualizacion: "2024",
+        excel1: "",
         excel2: "",
         excel3: "",
         excel4: "",
@@ -893,7 +842,7 @@ export const dataArt632023 = [
     cumplimiento: "Aplica",
     fundamentoLegal:
       "Articulo. 63 Fraccion XXXV de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
-    actualizacion: "2023",
+    actualizacion: "2024",
     excel1: "",
     excel2: "",
     excel3: "",
@@ -906,9 +855,8 @@ export const dataArt632023 = [
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 63 Fraccion XXXV-A de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
-        actualizacion: "2023",
-        excel1:
-          "https://www.itetlax.org.mx/assets/excel/transparencia/art63/2023/LTAIPT_A63F35A.xlsx",
+        actualizacion: "2024",
+        excel1: "",
         excel2: "",
         excel3: "",
         excel4: "",
@@ -920,9 +868,8 @@ export const dataArt632023 = [
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 63 Fraccion XXXV-B de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
-        actualizacion: "2023",
-        excel1:
-          "https://www.itetlax.org.mx/assets/excel/transparencia/art63/2023/LTAIPT_A63F35B.xlsx",
+        actualizacion: "2024",
+        excel1: "",
         excel2: "",
         excel3: "",
         excel4: "",
@@ -935,9 +882,8 @@ export const dataArt632023 = [
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 63 Fraccion XXXV-C de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
-        actualizacion: "2023",
-        excel1:
-          "https://www.itetlax.org.mx/assets/excel/transparencia/art63/2023/LTAIPT_A63F35C.xlsx",
+        actualizacion: "2024",
+        excel1: "",
         excel2: "",
         excel3: "",
         excel4: "",
@@ -951,7 +897,7 @@ export const dataArt632023 = [
     cumplimiento: "No Aplica",
     fundamentoLegal:
       "Articulo. 63 Fraccion XXXVI de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
-    actualizacion: "2023",
+    actualizacion: "2024",
     excel1: "",
     excel2: "",
     excel3: "",
@@ -965,7 +911,7 @@ export const dataArt632023 = [
     cumplimiento: "Aplica",
     fundamentoLegal:
       "Articulo. 63 Fraccion XXXVII de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
-    actualizacion: "2023",
+    actualizacion: "2024",
     excel1: "",
     excel2: "",
     excel3: "",
@@ -978,9 +924,8 @@ export const dataArt632023 = [
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 63 Fraccion XXXVII-A de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
-        actualizacion: "2023",
-        excel1:
-          "https://www.itetlax.org.mx/assets/excel/transparencia/art63/2023/LTAIPT_A63F37A.xlsx",
+        actualizacion: "2024",
+        excel1: "",
         excel2: "",
         excel3: "",
         excel4: "",
@@ -992,9 +937,8 @@ export const dataArt632023 = [
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 63 Fraccion XXXVII-B de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
-        actualizacion: "2023",
-        excel1:
-          "https://www.itetlax.org.mx/assets/excel/transparencia/art63/2023/LTAIPT_A63F37B.xlsx",
+        actualizacion: "2024",
+        excel1: "",
         excel2: "",
         excel3: "",
         excel4: "",
@@ -1008,7 +952,7 @@ export const dataArt632023 = [
     cumplimiento: "Aplica",
     fundamentoLegal:
       "Articulo. 63 Fraccion XXXVIII de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
-    actualizacion: "2023",
+    actualizacion: "2024",
     excel1: "",
     excel2: "",
     excel3: "",
@@ -1021,9 +965,8 @@ export const dataArt632023 = [
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 63 Fraccion XXXVIII-A de la Ley de Transparenciaa y Acceso a la Información Pública del Estado de Tlaxcala",
-        actualizacion: "2023",
-        excel1:
-          "https://www.itetlax.org.mx/assets/excel/transparencia/art63/2023/LTAIPT_A63F38A.xlsx",
+        actualizacion: "2024",
+        excel1: "",
         excel2: "",
         excel3: "",
         excel4: "",
@@ -1035,9 +978,8 @@ export const dataArt632023 = [
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 63 Fraccion XXXVIII-B de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
-        actualizacion: "2023",
-        excel1:
-          "https://www.itetlax.org.mx/assets/excel/transparencia/art63/2023/LTAIPT_A63F38B.xlsx",
+        actualizacion: "2024",
+        excel1: "",
         excel2: "",
         excel3: "",
         excel4: "",
@@ -1051,7 +993,7 @@ export const dataArt632023 = [
     cumplimiento: "Aplica",
     fundamentoLegal:
       "Articulo. 63 Fraccion XXXIX de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
-    actualizacion: "2023",
+    actualizacion: "2024",
     excel1: "",
     excel2: "",
     excel3: "",
@@ -1064,9 +1006,8 @@ export const dataArt632023 = [
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 63 Fraccion XXXIX-A de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
-        actualizacion: "2023",
-        excel1:
-          "https://www.itetlax.org.mx/assets/excel/transparencia/art63/2023/LTAIPT_A63F39A.xlsx",
+        actualizacion: "2024",
+        excel1: "",
         excel2: "",
         excel3: "",
         excel4: "",
@@ -1078,9 +1019,8 @@ export const dataArt632023 = [
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 63 Fraccion XXXIX-B de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
-        actualizacion: "2023",
-        excel1:
-          "https://www.itetlax.org.mx/assets/excel/transparencia/art63/2023/LTAIPT_A63F39B.xlsx",
+        actualizacion: "2024",
+        excel1: "",
         excel2: "",
         excel3: "",
         excel4: "",
@@ -1092,9 +1032,8 @@ export const dataArt632023 = [
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 63 Fraccion XXXIX-C de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
-        actualizacion: "2023",
-        excel1:
-          "https://www.itetlax.org.mx/assets/excel/transparencia/art63/2023/LTAIPT_A63F39C.xlsx",
+        actualizacion: "2024",
+        excel1: "",
         excel2: "",
         excel3: "",
         excel4: "",
@@ -1106,9 +1045,8 @@ export const dataArt632023 = [
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 63 Fraccion XXXIX-D de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
-        actualizacion: "2023",
-        excel1:
-          "https://www.itetlax.org.mx/assets/excel/transparencia/art63/2023/LTAIPT_A63F39D.xlsx",
+        actualizacion: "2024",
+        excel1: "",
         excel2: "",
         excel3: "",
         excel4: "",
@@ -1122,7 +1060,7 @@ export const dataArt632023 = [
     cumplimiento: "Aplica",
     fundamentoLegal:
       "Articulo. 63 Fraccion XL de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
-    actualizacion: "2023",
+    actualizacion: "2024",
     excel1: "",
     excel2: "",
     excel3: "",
@@ -1136,9 +1074,8 @@ export const dataArt632023 = [
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 63 Fraccion XL-A de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
-        actualizacion: "2023",
-        excel1:
-          "https://www.itetlax.org.mx/assets/excel/transparencia/art63/2023/LTAIPT_A63F40A.xlsx",
+        actualizacion: "2024",
+        excel1: "",
         excel2: "",
         excel3: "",
         excel4: "",
@@ -1150,9 +1087,8 @@ export const dataArt632023 = [
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 63 Fraccion XL-B de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
-        actualizacion: "2023",
-        excel1:
-          "https://www.itetlax.org.mx/assets/excel/transparencia/art63/2023/LTAIPT_A63F40B.xlsx",
+        actualizacion: "2024",
+        excel1: "",
         excel2: "",
         excel3: "",
         excel4: "",
@@ -1166,9 +1102,8 @@ export const dataArt632023 = [
     cumplimiento: "Aplica",
     fundamentoLegal:
       "Articulo. 63 Fraccion XLI de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
-    actualizacion: "2023",
-    excel1:
-      "https://www.itetlax.org.mx/assets/excel/transparencia/art63/2023/LTAIPT_A63F41.xlsx",
+    actualizacion: "2024",
+    excel1: "",
     excel2: "",
     excel3: "",
     excel4: "",
@@ -1180,7 +1115,7 @@ export const dataArt632023 = [
     cumplimiento: "Aplica",
     fundamentoLegal:
       "Articulo. 63 Fraccion XLII de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
-    actualizacion: "2023",
+    actualizacion: "2024",
     excel1: "",
     excel2: "",
     excel3: "",
@@ -1193,9 +1128,8 @@ export const dataArt632023 = [
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 63 Fraccion XLII-A de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
-        actualizacion: "2023",
-        excel1:
-          "https://www.itetlax.org.mx/assets/excel/transparencia/art63/2023/LTAIPT_A63F42A.xlsx",
+        actualizacion: "2024",
+        excel1: "",
         excel2: "",
         excel3: "",
         excel4: "",
@@ -1207,9 +1141,8 @@ export const dataArt632023 = [
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 63 Fraccion XLII-B de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
-        actualizacion: "2023",
-        excel1:
-          "https://www.itetlax.org.mx/assets/excel/transparencia/art63/2023/LTAIPT_A63F42B.xlsx",
+        actualizacion: "2024",
+        excel1: "",
         excel2: "",
         excel3: "",
         excel4: "",
@@ -1223,7 +1156,7 @@ export const dataArt632023 = [
     cumplimiento: "Aplica",
     fundamentoLegal:
       "Articulo. 63 Fraccion XLIII de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
-    actualizacion: "2023",
+    actualizacion: "2024",
     excel1: "",
     excel2: "",
     excel3: "",
@@ -1237,9 +1170,8 @@ export const dataArt632023 = [
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 63 Fraccion XLIII-A de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
-        actualizacion: "2023",
-        excel1:
-          "https://www.itetlax.org.mx/assets/excel/transparencia/art63/2023/LTAIPT_A63F43A.xlsx",
+        actualizacion: "2024",
+        excel1: "",
         excel2: "",
         excel3: "",
         excel4: "",
@@ -1251,9 +1183,8 @@ export const dataArt632023 = [
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 63 Fraccion XLIII-B de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
-        actualizacion: "2023",
-        excel1:
-          "https://www.itetlax.org.mx/assets/excel/transparencia/art63/2023/LTAIPT_A63F43B.xlsx",
+        actualizacion: "2024",
+        excel1: "",
         excel2: "",
         excel3: "",
         excel4: "",
@@ -1267,7 +1198,7 @@ export const dataArt632023 = [
     cumplimiento: "No Aplica",
     fundamentoLegal:
       "Articulo. 63 Fraccion XLIV de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
-    actualizacion: "2023",
+    actualizacion: "2024",
     excel1: "",
     excel2: "",
     excel3: "",
@@ -1280,7 +1211,7 @@ export const dataArt632023 = [
         cumplimiento: "No Aplica",
         fundamentoLegal:
           "Articulo. 63 Fraccion XLIV-A de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
-        actualizacion: "2023",
+        actualizacion: "2024",
         excel1: "",
         excel2: "",
         excel3: "",
@@ -1294,7 +1225,7 @@ export const dataArt632023 = [
         cumplimiento: "No Aplica",
         fundamentoLegal:
           "Articulo. 63 Fraccion XLIV-B de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
-        actualizacion: "2023",
+        actualizacion: "2024",
         excel1: "",
         excel2: "",
         excel3: "",
@@ -1310,11 +1241,9 @@ export const dataArt632023 = [
     cumplimiento: "Aplica",
     fundamentoLegal:
       "Articulo. 63 Fraccion XLV de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
-    actualizacion: "2023",
-    excel1:
-      "https://www.itetlax.org.mx/assets/excel/transparencia/art63/2023/LTAIPT_A63F45_1.xlsx",
-    excel2:
-      "https://www.itetlax.org.mx/assets/excel/transparencia/art63/2023/LTAIPT_A63F45_2.xlsx",
+    actualizacion: "2024",
+    excel1: "",
+    excel2: "",
     excel3: "",
     excel4: "",
   },
@@ -1325,7 +1254,7 @@ export const dataArt632023 = [
     cumplimiento: "Aplica",
     fundamentoLegal:
       "Articulo. 63 Fraccion XLVI de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
-    actualizacion: "2023",
+    actualizacion: "2024",
     excel1: "",
     excel2: "",
     excel3: "",
@@ -1338,13 +1267,10 @@ export const dataArt632023 = [
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 63 Fraccion XLVI-A de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
-        actualizacion: "2023",
-        excel1:
-          "https://www.itetlax.org.mx/assets/excel/transparencia/art63/2023/LTAIPT_A63F46A_1.xlsx",
-        excel2:
-          "https://www.itetlax.org.mx/assets/excel/transparencia/art63/2023/LTAIPT_A63F46A_2.xlsx",
-        excel3:
-          "https://www.itetlax.org.mx/assets/excel/transparencia/art63/2023/LTAIPT_A63F46A_3.xlsx",
+        actualizacion: "2024",
+        excel1: "",
+        excel2: "",
+        excel3: "",
         excel4: "",
       },
       {
@@ -1354,13 +1280,10 @@ export const dataArt632023 = [
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 63 Fraccion XLVI-B de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
-        actualizacion: "2023",
-        excel1:
-          "https://www.itetlax.org.mx/assets/excel/transparencia/art63/2023/LTAIPT_A63F46B_1.xlsx",
-        excel2:
-          "https://www.itetlax.org.mx/assets/excel/transparencia/art63/2023/LTAIPT_A63F46B_2.xlsx",
-        excel3:
-          "https://www.itetlax.org.mx/assets/excel/transparencia/art63/2023/LTAIPT_A63F46B_3.xlsx",
+        actualizacion: "2024",
+        excel1: "",
+        excel2: "",
+        excel3: "",
         excel4: "",
       },
     ],
@@ -1372,7 +1295,7 @@ export const dataArt632023 = [
     cumplimiento: "Aplica",
     fundamentoLegal:
       "Articulo. 63 Fraccion XLVII de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
-    actualizacion: "2023",
+    actualizacion: "2024",
     excel1: "",
     excel2: "",
     excel3: "",
@@ -1385,9 +1308,8 @@ export const dataArt632023 = [
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 63 Fraccion XLVII-A de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
-        actualizacion: "2023",
-        excel1:
-          "https://www.itetlax.org.mx/assets/excel/transparencia/art63/2023/LTAIPT_A63F47A.xlsx",
+        actualizacion: "2024",
+        excel1: "",
         excel2: "",
         excel3: "",
         excel4: "",
@@ -1399,9 +1321,8 @@ export const dataArt632023 = [
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 63 Fraccion XLVII-B de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
-        actualizacion: "2023",
-        excel1:
-          "https://www.itetlax.org.mx/assets/excel/transparencia/art63/2023/LTAIPT_A63F47B.xlsx",
+        actualizacion: "2024",
+        excel1: "",
         excel2: "",
         excel3: "",
         excel4: "",
@@ -1413,9 +1334,8 @@ export const dataArt632023 = [
         cumplimiento: "Aplica",
         fundamentoLegal:
           "Articulo. 63 Fraccion XLVII-C de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
-        actualizacion: "2023",
-        excel1:
-          "https://www.itetlax.org.mx/assets/excel/transparencia/art63/2023/LTAIPT_A63F47C.xlsx",
+        actualizacion: "2024",
+        excel1: "",
         excel2: "",
         excel3: "",
         excel4: "",
@@ -1429,9 +1349,8 @@ export const dataArt632023 = [
     cumplimiento: "Aplica",
     fundamentoLegal:
       "Articulo. 63 Fraccion C de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
-    actualizacion: "2023",
-    excel1:
-      "https://www.itetlax.org.mx/assets/excel/transparencia/art63/2023/LTAIPT_A63F100.xlsx",
+    actualizacion: "2024",
+    excel1: "",
     excel2: "",
     excel3: "",
     excel4: "",

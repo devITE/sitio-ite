@@ -4,12 +4,12 @@ import MaterialReactTable from "material-react-table";
 import { Box } from "@mui/material";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFileExcel } from "@fortawesome/free-solid-svg-icons";
-import { dataArt672023 } from "../../../data/dataTransparenciaArt67";
+import { dataArt672024 } from "../../../data/dataArt672024";
 import HelperDataTable from "../../../layout/HelperDataTable";
 
-const Art672023 = () => {
+const Art672024 = () => {
   useEffect(() => {
-    document.title = `Artículo 67 2023`;
+    document.title = `Artículo 67 2024`;
   }, []);
   const columns = useMemo(
     () => [
@@ -73,12 +73,12 @@ const Art672023 = () => {
     <>
       <TitlePages
         title="Transparencia"
-        subTitle="Artículo 67. (2023) Obligaciones Específicas"
+        subTitle="Artículo 67. (2024) Obligaciones Específicas"
       />
       <HelperDataTable />
       <MaterialReactTable
         columns={columns}
-        data={dataArt672023}
+        data={dataArt672024}
         enableExpanding
         enableExpandAll
         enableColumnActions={false}
@@ -341,4 +341,4 @@ const Art672023 = () => {
   );
 };
 
-export default Art672023;
+export default Art672024;

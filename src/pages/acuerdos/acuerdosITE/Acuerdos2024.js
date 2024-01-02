@@ -3,14 +3,14 @@ import TitlePages from "../../../layout/TitlePages";
 import MaterialReactTable from "material-react-table";
 import { Box } from "@mui/material";
 import { MenuItem, TextField } from "@mui/material";
-import { dataAcuerdos2023 } from "../../../data/dataAcuerdos";
+import { dataAcuerdos2024 } from "../../../data/dataAcuerdos2024";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
 import HelperDataTable from "../../../layout/HelperDataTable";
 
-const Acuerdos2023 = () => {
+const Acuerdos2024 = () => {
   useEffect(() => {
-    document.title = `Acuerdos ITE 2023`;
+    document.title = `Acuerdos ITE 2024`;
   }, []);
   const columns = useMemo(
     () => [
@@ -69,11 +69,11 @@ const Acuerdos2023 = () => {
 
   return (
     <>
-      <TitlePages title="Acuerdos ITE" subTitle="Acuerdos ITE 2023" />
+      <TitlePages title="Acuerdos ITE" subTitle="Acuerdos ITE 2024" />
       <HelperDataTable />
       <MaterialReactTable
         columns={columns}
-        data={dataAcuerdos2023}
+        data={dataAcuerdos2024}
         enableExpanding
         enableExpandAll
         enableColumnActions={false}
@@ -444,4 +444,4 @@ const Acuerdos2023 = () => {
     </>
   );
 };
-export default Acuerdos2023;
+export default Acuerdos2024;
