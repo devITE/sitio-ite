@@ -1,36 +1,78 @@
 import React, { useMemo, useEffect } from "react";
-import TitlePages from "../../../layout/TitlePages";
 import MaterialReactTable from "material-react-table";
-import { dataAcuerdosINE2023 } from "../../../data/dataAcuerdos";
+import { MenuItem, TextField } from "@mui/material";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
+import { dataMonitoreos2023 } from "../../../data/dataMonitoreos";
+import TitlePages from "../../../layout/TitlePages";
 
-const AcuerdosINE2023 = () => {
+const Monitoreos2023 = () => {
   useEffect(() => {
-    document.title = `Acuerdos INE2023`;
+    document.title = `Monitoreos 2023`;
   }, []);
   const columns = useMemo(
     () => [
       {
-        accessorKey: "numDoc",
-        header: "DOCUMENTO",
-        footer: "DOCUMENTO",
+        accessorKey: "id",
+        header: "NO.",
+        footer: "NO.",
+        size: 55,
+        enableResizing: false,
+        enableColumnFilter: false,
       },
       {
-        accessorKey: "nameDoc",
-        header: "DESCRIPCIÓN",
-        footer: "DESCRIPCIÓN",
+        accessorKey: "monthBoletin",
+        header: "MES",
+        footer: "MES",
+        size: 30,
+        enableResizing: false,
+        Filter: ({ header }) => (
+          <TextField
+            onChange={(e) =>
+              header.column.setFilterValue(e.target.value || undefined)
+            }
+            select
+            value={header.column.getFilterValue() ?? ""}
+            margin="none"
+            placeholder="Filter"
+            variant="standard"
+            fullWidth
+          >
+            <MenuItem value={null}>Todos</MenuItem>
+            <MenuItem value="ENE">Enero</MenuItem>
+            <MenuItem value="FEB">Febrero</MenuItem>
+            <MenuItem value="MAR">Marzo</MenuItem>
+            <MenuItem value="ABR">Abril</MenuItem>
+            <MenuItem value="MAY">Mayo</MenuItem>
+            <MenuItem value="JUN">Junio</MenuItem>
+            <MenuItem value="JUL">Julio</MenuItem>
+            <MenuItem value="AGO">Agosto</MenuItem>
+            <MenuItem value="SEP">Septiembre</MenuItem>
+            <MenuItem value="OCT">Octubre</MenuItem>
+            <MenuItem value="NOV">Noviembre</MenuItem>
+            <MenuItem value="DIC">Diciembre</MenuItem>
+          </TextField>
+        ),
+      },
+      {
+        accessorKey: "nameBoletin",
+        header: "Boletín.",
+        footer: "Boletín.",
+        size: 150,
+        enableResizing: false,
       },
       {
         id: "pdf",
         header: "",
         footer: "",
+        size: 80,
+        enableResizing: false,
         enableColumnFilters: false,
         Cell: ({ row }) =>
-          row.original.link === "" ? (
+          row.original.linkBoletin === "" ? (
             <span></span>
           ) : (
-            <a href={row.original.link} target="_blank" rel="noreferrer">
+            <a href={row.original.linkBoletin} target="_blank" rel="noreferrer">
               <FontAwesomeIcon icon={faFilePdf} className="btn btn-danger" />
             </a>
           ),
@@ -38,25 +80,33 @@ const AcuerdosINE2023 = () => {
     ],
     []
   );
-
   return (
     <>
-      <TitlePages title="Acuerdos INE" subTitle="Acuerdos INE 2023" />
+      <TitlePages
+        title="Comunicación Social"
+        subTitle="Monitoreos 2023
+"
+      />
       <MaterialReactTable
         columns={columns}
-        data={dataAcuerdosINE2023}
-        enableExpanding
-        enableExpandAll
+        data={dataMonitoreos2023}
+        enableExpanding={false}
         enableColumnActions={false}
+        enableColumnResizing
         enableDensityToggle={false}
-        initialState={{ density: "compact" }}
-        muiExpandButtonProps={({ row }) => ({
+        muiTableHeadCellProps={{
           sx: {
-            display: row.original.subRows === "" ? "none" : "flex",
+            backgroundColor: "#972069",
+            color: "#fff",
           },
-        })}
+        }}
+        muiTableFooterCellProps={{
+          sx: {
+            backgroundColor: "#972069",
+            color: "#fff",
+          },
+        }}
         muiTablePaginationProps={{
-          rowsPerPageOptions: [10, 25, 50, 100, 200, 300, 400],
           labelRowsPerPage: "Filas por página",
           getItemAriaLabel: (type) => {
             if (type === "first") {
@@ -83,7 +133,7 @@ const AcuerdosINE2023 = () => {
           clearSort: "Ordenar claro",
           columnActions: "Acciones de columna",
           edit: "Editar",
-          expand: "",
+          expand: "Expandir",
           expandAll: "Expandir todo",
           filterByColumn: "{column}",
           groupByColumn: "Agrupar por {column}",
@@ -112,4 +162,4 @@ const AcuerdosINE2023 = () => {
     </>
   );
 };
-export default AcuerdosINE2023;
+export default Monitoreos2023;

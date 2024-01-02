@@ -2474,8 +2474,7 @@ export const dataBoletines2023 = [
     id: 1,
     yearBoletin: "2023",
     monthBoletin: "ENE",
-    nameBoletin:
-      "BOLETÍN 01- ACTUALIZA ITE MULTAS A PARTIDOS PARA 2023",
+    nameBoletin: "BOLETÍN 01- ACTUALIZA ITE MULTAS A PARTIDOS PARA 2023",
     linkBoletin: "https://itetlax.org.mx/assets/pdf/boletines/2023/1.pdf",
   },
   {
@@ -2485,28 +2484,31 @@ export const dataBoletines2023 = [
     nameBoletin:
       "BOLETÍN 02- Trabajo conjunto, clave en impulso a participación de juventudes, coinciden panelistsa",
     linkBoletin: "https://itetlax.org.mx/assets/pdf/boletines/2023/2.pdf",
-  }, {
+  },
+  {
     id: 3,
     yearBoletin: "2023",
     monthBoletin: "ENE",
     nameBoletin:
       "BOLETÍN 03- RINDE PROTESTA EMMANUEL ÁVILA GONZÁLEZ COMO PRESIDENTE DEL ITE",
     linkBoletin: "https://itetlax.org.mx/assets/pdf/boletines/2023/3.pdf",
-  }, {
+  },
+  {
     id: 4,
     yearBoletin: "2023",
     monthBoletin: "FEB",
-    nameBoletin:
-      "BOLETÍN 04- EN MAL ESTADO 70% DEL PARQUE VEHICULAR DEL ITE",
+    nameBoletin: "BOLETÍN 04- EN MAL ESTADO 70% DEL PARQUE VEHICULAR DEL ITE",
     linkBoletin: "https://itetlax.org.mx/assets/pdf/boletines/2023/4.pdf",
-  }, {
+  },
+  {
     id: 5,
     yearBoletin: "2023",
     monthBoletin: "FEB",
     nameBoletin:
       "BOLETÍN 05- REFUERZA ITE ACCIONES DE IMPULSO A PARTICIPACIÓN JUVENIL",
     linkBoletin: "https://itetlax.org.mx/assets/pdf/boletines/2023/5.pdf",
-  }, {
+  },
+  {
     id: 6,
     yearBoletin: "2023",
     monthBoletin: "FEB",
@@ -2515,3 +2517,5 @@ export const dataBoletines2023 = [
     linkBoletin: "https://itetlax.org.mx/assets/pdf/boletines/2023/6.pdf",
   },
 ];
+
+export const dataBoletines2024 = [];

@@ -118,11 +118,6 @@ export default class Navbar extends Component {
                     </Link>
                   </li>
                   <li>
-                    <Link to="./Acuerdos2018" className="dropdown-item">
-                      2018
-                    </Link>
-                  </li>
-                  <li>
                     <Link to="./Acuerdos2019" className="dropdown-item">
                       2019
                     </Link>
@@ -215,11 +210,11 @@ export default class Navbar extends Component {
                   Cultura Cívica
                 </Link>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <Link to="./DESPEN" className="nav-link">
                   DESPEN
                 </Link>
-              </li>
+              </li> */}
               <li className="nav-item dropdown">
                 <Link
                   to="./"
@@ -264,6 +259,11 @@ export default class Navbar extends Component {
                     </Link>
                   </li>
                 </ul>
+              </li>
+              <li className="nav-item">
+                <Link to="./ConvocatoriasApartado" className="nav-link">
+                  Convocatorias
+                </Link>
               </li>
               <li className="nav-item">
                 <a

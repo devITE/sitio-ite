@@ -83,6 +83,27 @@ export const Enlaces = () => {
             />
           </Link>
         </div>
+
+        <div className="col col-sm-3 col-md-3 col-md-3">
+          <br />
+          <Link to="/PersonasDiscapacidad">
+            <img
+              src="https://itetlax.org.mx/assets/img/icons/dis.jpg"
+              alt="Personas con discapacidad"
+              className="img-fluid shadow rounded-4 Enlaces__link"
+            />
+          </Link>
+        </div>
+        <div className="col col-sm-3 col-md-3 col-md-3">
+          <br />
+          <Link to="/Informes">
+            <img
+              src="https://itetlax.org.mx/assets/img/icons/encuestas.png"
+              alt=" Informes"
+              className="img-fluid shadow rounded-4"
+            />
+          </Link>
+        </div>
       </div>
       <div className="row mt-2">
         <div className="col col-sm-6 col-md-6 col-md-6 d-flex justify-content-center">

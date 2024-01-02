@@ -1,13 +1,13 @@
 import React, { useMemo, useEffect } from "react";
 import TitlePages from "../../../layout/TitlePages";
 import MaterialReactTable from "material-react-table";
-import { dataAcuerdosINE2023 } from "../../../data/dataAcuerdos";
+import { dataAcuerdosINE2024 } from "../../../data/dataAcuerdos2024";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
 
-const AcuerdosINE2023 = () => {
+const AcuerdosINE2024 = () => {
   useEffect(() => {
-    document.title = `Acuerdos INE2023`;
+    document.title = `Acuerdos INE 2024`;
   }, []);
   const columns = useMemo(
     () => [
@@ -41,10 +41,10 @@ const AcuerdosINE2023 = () => {
 
   return (
     <>
-      <TitlePages title="Acuerdos INE" subTitle="Acuerdos INE 2023" />
+      <TitlePages title="Acuerdos INE" subTitle="Acuerdos INE 2024" />
       <MaterialReactTable
         columns={columns}
-        data={dataAcuerdosINE2023}
+        data={dataAcuerdosINE2024}
         enableExpanding
         enableExpandAll
         enableColumnActions={false}
@@ -112,4 +112,4 @@ const AcuerdosINE2023 = () => {
     </>
   );
 };
-export default AcuerdosINE2023;
+export default AcuerdosINE2024;

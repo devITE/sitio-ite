@@ -1,17 +1,18 @@
 import React, { useEffect } from "react";
 import NavbarEnlaces from "../../layout/NavbarEnlaces";
-import ModalIMG from "../../layout/Modal/ModalIMG";
-import { dataInf } from "../../data/dataInfografias";
+import { dataInfor } from "../../data/dataInforms";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
 
 import "./EnlacesStyle.css";
 
-const Infografias = () => {
+const Encuestas = () => {
   useEffect(() => {
-    document.title = `Infografías`;
+    document.title = `Encuestas y Sondeos de opinión en materia electoral del Proceso Electoral Local Ordinario 2023-2024`;
   }, []);
   return (
     <>
-      <NavbarEnlaces title="Infografías" />
+      <NavbarEnlaces title="Encuestas y Sondeos de opinión en materia electoral del Proceso Local Ordinario 2023-2024" />
       <div className="d-flex align-items-start">
         <div
           className="nav flex-column nav-pills me-3 w-25"
@@ -23,7 +24,7 @@ const Infografias = () => {
             className="accordion accordion-flush w-100"
             id="accordionFlushExample"
           >
-            {dataInf.map((infoITEM) => (
+            {dataInfor.map((infoITEM) => (
               <div key={infoITEM.id} className="accordion-item">
                 <h2 className="accordion-header" id="flush-headingOne">
                   <button
@@ -77,7 +78,7 @@ const Infografias = () => {
           </div>
         </div>
         <div className="tab-content w-75" id="v-pills-tabContent">
-          {dataInf.map((infoITEM) =>
+          {dataInfor.map((infoITEM) =>
             infoITEM.children.map((chilItem) => (
               <div
                 key={chilItem.id}
@@ -92,38 +93,27 @@ const Infografias = () => {
                 }
                 tabIndex="0"
               >
-                <div className="Infografias__grid">
+                <ol className="list-group">
                   {chilItem.subChildren.map((subChilItem) => (
-                    <div key={subChilItem.id}>
+                    <li
+                      key={subChilItem.id}
+                      className="list-group-item d-flex justify-content-between align-items-center"
+                    >
+                      <div className="ms-2 me-auto">
+                        <div>{subChilItem.titleItem}</div>
+                      </div>
                       <a
-                        href="#/"
+                        href={subChilItem.linkItem}
+                        target="_blank"
                         rel="noreferrer"
-                        data-bs-toggle="modal"
-                        data-bs-target={
-                          "#" +
-                          chilItem.titleButton +
-                          infoITEM.titleItem +
-                          subChilItem.id
-                        }
                       >
-                        <img
-                          className="img-fluid Infografias__grid-item"
-                          src={subChilItem.link}
-                          alt={subChilItem.alt}
-                        />
+                        <span className="badge bg-danger">
+                          <FontAwesomeIcon icon={faFilePdf} />
+                        </span>
                       </a>
-                      <ModalIMG
-                        idModal={
-                          chilItem.titleButton +
-                          infoITEM.titleItem +
-                          subChilItem.id
-                        }
-                        linkIMG={subChilItem.link}
-                        altIMG={subChilItem.alt}
-                      />
-                    </div>
+                    </li>
                   ))}
-                </div>
+                </ol>
               </div>
             ))
           )}
@@ -132,4 +122,4 @@ const Infografias = () => {
     </>
   );
 };
-export default Infografias;
+export default Encuestas;

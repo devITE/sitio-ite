@@ -20,6 +20,19 @@ const ComisionesPermanentesyTemporales = () => {
             alt="Comisiones Permanentes"
           />
         </a>
+        <br/>
+        <br/> 
+        <a
+          href="https://itetlax.org.mx/assets/img/imgIntITE/conoceles.jpg"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img
+            src="https://itetlax.org.mx/assets/img/imgIntITE/conoceles.jpg"
+            className="img-fluid w-100 mx-auto"
+            alt="Comisiones Permanentes"
+          />
+        </a>
       </>
     );
   }

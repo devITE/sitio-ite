@@ -281,24 +281,28 @@ export const dataAvisosPrivacidad = [
   },
   {
     id: 12,
-    titleItem: "Aviso de privacidad para Registro de Candidaturas para el Proceso Electoral Local Ordinario 2020-2021",
+    titleItem:
+      "Aviso de privacidad para Registro de Candidaturas para el Proceso Electoral Local Ordinario 2020-2021",
     flushID: "RegistroCandidaturas",
     children: [
       {
         id: 1,
-        titleItem: "Aviso Simplificado: Registro de candidaturas para el Proceso Electoral Local Ordinario 2020-2021",
+        titleItem:
+          "Aviso Simplificado: Registro de candidaturas para el Proceso Electoral Local Ordinario 2020-2021",
         linkItem: "https://itetlax.org.mx/assets/pdf/avisosPrivacidad/33.pdf",
         typeDocument: "pdf",
       },
       {
         id: 2,
-        titleItem: "Aviso Integrado: Registro de candidaturas para el Proceso Electoral Local Ordinario 2020-2021",
+        titleItem:
+          "Aviso Integrado: Registro de candidaturas para el Proceso Electoral Local Ordinario 2020-2021",
         linkItem: "https://itetlax.org.mx/assets/pdf/avisosPrivacidad/34.pdf",
         typeDocument: "pdf",
       },
       {
         id: 3,
-        titleItem: "Aviso Corto: Registro de candidaturas para el Proceso Electoral Local Ordinario 2020-2021",
+        titleItem:
+          "Aviso Corto: Registro de candidaturas para el Proceso Electoral Local Ordinario 2020-2021",
         linkItem: "https://itetlax.org.mx/assets/pdf/avisosPrivacidad/35.pdf",
         typeDocument: "pdf",
       },
@@ -408,24 +412,28 @@ export const dataAvisosPrivacidad = [
   },
   {
     id: 17,
-    titleItem: "Aviso de Privacidad Consulta previa, libre e informada a las Comunidades que eligen autoridades por el sistema de usos y costumbres y a las indígenas en el Estado de Tlaxcala",
+    titleItem:
+      "Aviso de Privacidad Consulta previa, libre e informada a las Comunidades que eligen autoridades por el sistema de usos y costumbres y a las indígenas en el Estado de Tlaxcala",
     flushID: "Consultacomunidades",
     children: [
       {
         id: 1,
-        titleItem: "Aviso Simplificado: Consulta previa, libre e informada a las Comunidades...",
+        titleItem:
+          "Aviso Simplificado: Consulta previa, libre e informada a las Comunidades...",
         linkItem: "https://itetlax.org.mx/assets/pdf/avisosPrivacidad/48.pdf",
         typeDocument: "pdf",
       },
       {
         id: 2,
-        titleItem: "Aviso Integrado: Consulta previa, libre e informada a las Comunidades...",
+        titleItem:
+          "Aviso Integrado: Consulta previa, libre e informada a las Comunidades...",
         linkItem: "https://itetlax.org.mx/assets/pdf/avisosPrivacidad/49.pdf",
         typeDocument: "pdf",
       },
       {
         id: 3,
-        titleItem: "Aviso Corto: Consulta previa, libre e informada a las Comunidades...",
+        titleItem:
+          "Aviso Corto: Consulta previa, libre e informada a las Comunidades...",
         linkItem: "https://itetlax.org.mx/assets/pdf/avisosPrivacidad/50.pdf",
         typeDocument: "pdf",
       },
@@ -433,18 +441,21 @@ export const dataAvisosPrivacidad = [
   },
   {
     id: 18,
-    titleItem: "Aviso de Privacidad Directorio de Autoridades Electas en Tlaxcala",
+    titleItem:
+      "Aviso de Privacidad Directorio de Autoridades Electas en Tlaxcala",
     flushID: "DirectorioAutoridades",
     children: [
       {
         id: 1,
-        titleItem: "Aviso Simplificado: Directorio de Autoridades Electas en Tlaxcala",
+        titleItem:
+          "Aviso Simplificado: Directorio de Autoridades Electas en Tlaxcala",
         linkItem: "https://itetlax.org.mx/assets/pdf/avisosPrivacidad/51.pdf",
         typeDocument: "pdf",
       },
       {
         id: 2,
-        titleItem: "Aviso Integrado: Directorio de Autoridades Electas en Tlaxcala",
+        titleItem:
+          "Aviso Integrado: Directorio de Autoridades Electas en Tlaxcala",
         linkItem: "https://itetlax.org.mx/assets/pdf/avisosPrivacidad/52.pdf",
         typeDocument: "pdf",
       },
@@ -452,6 +463,35 @@ export const dataAvisosPrivacidad = [
         id: 3,
         titleItem: "Aviso Corto: Directorio de Autoridades Electas en Tlaxcala",
         linkItem: "https://itetlax.org.mx/assets/pdf/avisosPrivacidad/53.pdf",
+        typeDocument: "pdf",
+      },
+    ],
+  },
+  {
+    id: 19,
+    titleItem:
+      "Aviso de Privacidad Procedimientos de Candidaturas Independientes PELO 2023-2024",
+    flushID: "ProcedimientosCI",
+    children: [
+      {
+        id: 1,
+        titleItem:
+          "Aviso Simplificado: Procedimientos de Candidaturas Independientes PELO 2023-2024",
+        linkItem: "https://itetlax.org.mx/assets/pdf/avisosPrivacidad/54.pdf",
+        typeDocument: "pdf",
+      },
+      {
+        id: 2,
+        titleItem:
+          "Aviso Integrado: Procedimientos de Candidaturas Independientes PELO 2023-2024",
+        linkItem: "https://itetlax.org.mx/assets/pdf/avisosPrivacidad/55.pdf",
+        typeDocument: "pdf",
+      },
+      {
+        id: 3,
+        titleItem:
+          "Aviso Corto: Procedimientos de Candidaturas Independientes PELO 2023-2024",
+        linkItem: "https://itetlax.org.mx/assets/pdf/avisosPrivacidad/56.pdf",
         typeDocument: "pdf",
       },
     ],

@@ -1,0 +1,61 @@
+.Memoria2023__grid {
+    padding: 0 10px;
+    display: grid;
+}
+
+.Memoria2023__item {
+    box-shadow: 3px 3px 3px #818181;
+}
+
+.Memoria2023__item:hover {
+    transition: 0.5s;
+    transform: scale(1.05);
+}
+
+.Memoria2023__header {
+    background-color: #aa0787;
+    color: #ffffff;
+    text-align: center;
+}
+
+/* --------------- M E D I A     Q U E R I E S --------------- */
+
+/* general */
+@media only screen and (min-width: 1024px) {
+    .Memoria2023__grid {
+        grid-template-columns: auto auto auto;
+        gap: 20px;
+    }
+
+    .Memoria2023__header {
+        background-color: #aa0787;
+        color: #ffffff;
+        padding: 5px 0;
+        text-align: center;
+        font-size: 20px;
+    }
+}
+
+/* tablets */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .Memoria2023__grid {
+        grid-template-columns: auto auto auto;
+        gap: 30px;
+    }
+
+    .Memoria2023__header {
+        font-size: 20px;
+    }
+}
+
+/* mobil */
+@media only screen and (max-width: 767px) {
+    .Memoria2023__grid {
+        grid-template-columns: auto auto;
+        gap: 20px;
+    }
+
+    .Memoria2023__header {
+        font-size: 15px;
+    }
+}

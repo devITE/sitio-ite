@@ -30,17 +30,27 @@ const ITE = () => {
   }, []);
   return (
     <>
-        {/* { <ModalInit
-        imgLink="https://itetlax.org.mx/assets/img/imgC_A/22.png"
-        url="https://portalanterior.ieepcnl.mx/2023/cepxxiv/"
-        linkToo=""
-      /> } */}
-        { <ModalInit
-        imgLink="https://itetlax.org.mx/assets/img/imgC_A/44.jpg"
-        url="https://itetlax.org.mx/assets/pdf/agenda/4.pdf"
-        linkToo=""
-      /> }
-
+      {/*
+        <ModalInit
+          imgLink="https://itetlax.org.mx/assets/img/sesionesCG/SECG-181223.jpg"
+          url="https://itetlax.org.mx/assets/img/sesionesCG/SECG-181223.jpg"
+          linkToo=""
+        />
+  */}
+      {/*
+        <ModalInit
+          imgLink="https://itetlax.org.mx/assets/img/imgC_A/ine.PNG"
+          url="https://observadores.ine.mx/"
+          linkToo=""
+        />
+    */}
+      {
+        <ModalInit
+          imgLink="https://itetlax.org.mx/assets/popupIndex/banner-convocatorias.jpeg"
+          url=""
+          linkToo="/ConvocatoriasApartado"
+        />
+      }
       <Carousel idCarousel="carouselTopIndex">
         {dataCIndex.map((cIndex) => (
           <CarouselItemIMG
@@ -56,13 +66,13 @@ const ITE = () => {
       <div className="mt-5 Home__AR-A">
         <div>
           <h2 className="bottom_title">
-          Taller de Análisis de Sentencias
+            Panel: Violencia contra las Mujeres, Causas y Desafíos en Tlaxcala
           </h2>
           <div className="Home__video-embed ratio ratio-16x9 w-100">
             <iframe
               id="9QQCf_emFwo"
-              src="https://www.youtube-nocookie.com/embed/sEHflegbzTc?rel=0"
-              title="Taller de Análisis de Sentencias"
+              src="https://www.youtube-nocookie.com/embed/11cfjjAiJG8?rel=0"
+              title="Firma de convenio entre el ITE y la A.C -DDESER Tlaxcala"
               allowFullScreen
             ></iframe>
           </div>
@@ -130,13 +140,13 @@ const ITE = () => {
           <h2 className="bottom_title">Sesión en Vivo</h2>
           <div className="Home__video-embed ratio ratio-16x9 w-100">
             <iframe
-              src="https://www.youtube-nocookie.com/embed/yY_ypgaRYto?rel=0"
-              title="Sesión Presencial Ordinaria del CG 28/07/2023"
+              src="https://www.youtube-nocookie.com/embed/YVspl3isMLQ&a"
+              title="Sesión Presencial Especial del CG 18/12/2023"
               allowFullScreen
             ></iframe>
           </div>
           <h5 className="mt-3 text-center">
-          Sesión Presencial Ordinaria del CG 28/07/2023{" "}
+            Sesión Presencial Especial del CG 18/12/2023{" "}
           </h5>
         </div>
         <div>
@@ -206,6 +216,17 @@ const ITE = () => {
           alt="Micrositio ITE Comunidades"
         />
       </a>
+      <a
+        href="https://ite-consulta-pcd.itetlax.org.mx/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          className="mt-3 mb-3 img-fluid w-100"
+          src="https://itetlax.org.mx/assets/img/imgC_I/acciones afirmativas.png"
+          alt="Acciones Afirmativas"
+        />
+      </a>
       <Link to="REPS">
         <img
           className="mt-2 img-fluid w-100"
@@ -226,6 +247,60 @@ const ITE = () => {
       </a>
       <h3 className="mt-5 bottom_title">Videos</h3>
       <Videoteca items={dataVideoteca} itemsID={"videoteca"} />
+
+      <div className="container">
+        <h3 className="mt-1 bottom_title">Videos INE</h3>
+        <div className="row justify-content-center">
+          <div className="col-md-4">
+            <div className="Home__video-embed ratio ratio-16x9 w-100">
+              <video controls>
+                <source
+                  src="https://itetlax.org.mx/assets/video/ine/1.mp4"
+                  type="video/mp4"
+                />
+                <p>
+                  Su navegador no soporta video HTML5. Aquí hay un
+                  <a href="https://itetlax.org.mx/assets/video/ine/1.mp4">
+                    enlace al video
+                  </a>
+                  .
+                </p>
+              </video>
+              {/* <iframe
+                src="https://itetlax.org.mx/assets/video/ine/1.mp4"
+                title="Capsula ine Náhuatl"
+                allowFullScreen
+              ></iframe> */}
+            </div>
+            <h5 className="mt-3 text-center">Cápsula en Náhuatl </h5>
+          </div>
+          <div className="col-md-4">
+            <div className="Home__video-embed ratio ratio-16x9 w-100">
+              <video controls>
+                <source
+                  src="https://itetlax.org.mx/assets/video/ine/2.mp4"
+                  type="video/mp4"
+                />
+                <p>
+                  Su navegador no soporta video HTML5. Aquí hay un
+                  <a href="https://itetlax.org.mx/assets/video/ine/2.mp4">
+                    enlace al video
+                  </a>
+                  .
+                </p>
+              </video>
+              {/* <iframe
+                src="https://itetlax.org.mx/assets/video/ine/2.mp4"
+                title="Capsula ine Otomí"
+                allowFullScreen
+              ></iframe> */}
+            </div>
+            <h5 className="mt-3 text-center">
+              Cápsula en Yuhmú (variante del Otomí){" "}
+            </h5>
+          </div>
+        </div>
+      </div>
 
       <div className="Home__pages">
         <div>

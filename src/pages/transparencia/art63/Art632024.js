@@ -1,15 +1,15 @@
-import React, { useEffect, useMemo } from "react";
+import React, { useMemo, useEffect } from "react";
 import TitlePages from "../../../layout/TitlePages";
 import MaterialReactTable from "material-react-table";
 import { Box } from "@mui/material";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFileExcel } from "@fortawesome/free-solid-svg-icons";
-import { dataArt672023 } from "../../../data/dataTransparenciaArt67";
+import { dataArt632024 } from "../../../data/dataArt632024";
 import HelperDataTable from "../../../layout/HelperDataTable";
 
-const Art672023 = () => {
+const Art632024 = () => {
   useEffect(() => {
-    document.title = `Artículo 67 2023`;
+    document.title = `Artículo 63 2024`;
   }, []);
   const columns = useMemo(
     () => [
@@ -22,17 +22,17 @@ const Art672023 = () => {
         enableColumnFilter: false,
       },
       {
-        accessorKey: "letra",
-        header: "Letra",
-        footer: "Letra",
+        accessorKey: "fraccion",
+        header: "Fracción",
+        footer: "Fracción",
         size: 90,
         enableResizing: false,
         enableColumnFilter: false,
       },
       {
-        accessorKey: "descriptivo",
-        header: "Descriptivo",
-        footer: "Descriptivo",
+        accessorKey: "titulo",
+        header: "Título",
+        footer: "Título",
         size: 150,
         enableResizing: false,
       },
@@ -73,12 +73,12 @@ const Art672023 = () => {
     <>
       <TitlePages
         title="Transparencia"
-        subTitle="Artículo 67. (2023) Obligaciones Específicas"
+        subTitle="Artículo 63. (2024) Obligaciones Comunes"
       />
       <HelperDataTable />
       <MaterialReactTable
         columns={columns}
-        data={dataArt672023}
+        data={dataArt632024}
         enableExpanding
         enableExpandAll
         enableColumnActions={false}
@@ -103,11 +103,14 @@ const Art672023 = () => {
               (row.original.excel4 === "") ? (
                 <div>
                   <p className="text-strong">
-                    Descarga los archivo de la Fracción {row.original.letra}
+                    Descarga el archivo de la Fracción{" "}
+                    {row.original.excel1
+                      ? row.original.excel1.substring(72, 100).slice(0, -5)
+                      : []}
                   </p>
                   <p>
                     {row.original.excel1
-                      ? row.original.excel1.substring(61, 100).slice(0, -5)
+                      ? row.original.excel1.substring(65, 100).slice(0, -5)
                       : []}{" "}
                     <a
                       href={row.original.excel1}
@@ -127,11 +130,14 @@ const Art672023 = () => {
                 (row.original.excel4 === "") ? (
                 <div>
                   <p className="text-strong">
-                    Descarga los archivo de la Fracción {row.original.letra}
+                    Descarga los archivos de la Fracción{" "}
+                    {row.original.excel1
+                      ? row.original.excel1.substring(72, 100).slice(0, -7)
+                      : []}
                   </p>
                   <p>
                     {row.original.excel1
-                      ? row.original.excel1.substring(61, 100).slice(0, -5)
+                      ? row.original.excel1.substring(65, 100).slice(0, -5)
                       : []}{" "}
                     <a
                       href={row.original.excel1}
@@ -146,7 +152,7 @@ const Art672023 = () => {
                   </p>
                   <p>
                     {row.original.excel2
-                      ? row.original.excel2.substring(61, 100).slice(0, -5)
+                      ? row.original.excel2.substring(65, 100).slice(0, -5)
                       : []}{" "}
                     <a
                       href={row.original.excel2}
@@ -166,11 +172,14 @@ const Art672023 = () => {
                 (row.original.excel4 === "") ? (
                 <div>
                   <p className="text-strong">
-                    Descarga los archivo de la Fracción {row.original.letra}
+                    Descarga los archivos de la Fracción{" "}
+                    {row.original.excel1
+                      ? row.original.excel1.substring(72, 100).slice(0, -7)
+                      : []}
                   </p>
                   <p>
                     {row.original.excel1
-                      ? row.original.excel1.substring(61, 100).slice(0, -5)
+                      ? row.original.excel1.substring(65, 100).slice(0, -5)
                       : []}{" "}
                     <a
                       href={row.original.excel1}
@@ -185,7 +194,7 @@ const Art672023 = () => {
                   </p>
                   <p>
                     {row.original.excel2
-                      ? row.original.excel2.substring(61, 100).slice(0, -5)
+                      ? row.original.excel2.substring(65, 100).slice(0, -5)
                       : []}{" "}
                     <a
                       href={row.original.excel2}
@@ -200,7 +209,7 @@ const Art672023 = () => {
                   </p>
                   <p>
                     {row.original.excel3
-                      ? row.original.excel3.substring(61, 100).slice(0, -5)
+                      ? row.original.excel3.substring(65, 100).slice(0, -5)
                       : []}{" "}
                     <a
                       href={row.original.excel3}
@@ -217,11 +226,14 @@ const Art672023 = () => {
               ) : (
                 <div>
                   <p className="text-strong">
-                    Descarga los archivo de la Fracción {row.original.letra}
+                    Descarga los archivos de la Fracción{" "}
+                    {row.original.excel1
+                      ? row.original.excel1.substring(72, 100).slice(0, -7)
+                      : []}
                   </p>
                   <p>
                     {row.original.excel1
-                      ? row.original.excel1.substring(61, 100).slice(0, -5)
+                      ? row.original.excel1.substring(65, 100).slice(0, -5)
                       : []}{" "}
                     <a
                       href={row.original.excel1}
@@ -236,7 +248,7 @@ const Art672023 = () => {
                   </p>
                   <p>
                     {row.original.excel2
-                      ? row.original.excel2.substring(61, 100).slice(0, -5)
+                      ? row.original.excel2.substring(65, 100).slice(0, -5)
                       : []}{" "}
                     <a
                       href={row.original.excel2}
@@ -251,7 +263,7 @@ const Art672023 = () => {
                   </p>
                   <p>
                     {row.original.excel3
-                      ? row.original.excel3.substring(61, 100).slice(0, -5)
+                      ? row.original.excel3.substring(65, 100).slice(0, -5)
                       : []}{" "}
                     <a
                       href={row.original.excel3}
@@ -266,7 +278,7 @@ const Art672023 = () => {
                   </p>
                   <p>
                     {row.original.excel4
-                      ? row.original.excel4.substring(61, 100).slice(0, -5)
+                      ? row.original.excel4.substring(65, 100).slice(0, -5)
                       : []}{" "}
                     <a
                       href={row.original.excel4}
@@ -341,4 +353,4 @@ const Art672023 = () => {
   );
 };
 
-export default Art672023;
+export default Art632024;

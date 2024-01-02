@@ -1,49 +1,28 @@
 export const dataEstrados = [
-  // {//Fecha de baja 10 de julio 2023
-  //   id: 1,
-  //   nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 1647-2023",
-  //   linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/21.pdf",
-  //   nameFolio: "FOLIO 1647-2023",
-  //   linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/21.1.pdf",
-  // },
-
+  //fecha de baja: 12 diciembre 2023
   // {
   //   id: 1,
-  //   nameCedula:
-  //     "CÉDULA DE FIJACIÓN EN ESTRADOS RESOLUCIONES ITE-CG 20-2023 A LA ITE-CG 25-2023",
-  //   linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/9.pdf",
-  //   nameFolio: "",
-  //   linkFolio: "",
+  //   nameCedula: "CÉDULA PUBLICITACIÓN FOLIO 3169-2023",
+  //   linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/46.pdf",
+  //   nameFolio: "FOLIO 3169-2023",
+  //   linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/46.1.pdf",
   // },
-
+  //fecha de baja: 20 diciembre 2023
   // {
-  //   id: 2,
-  //   nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 1125",
-  //   linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/12.pdf",
-  //   nameFolio: "FOLIO 1125-2023",
-  //   linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/12.1.pdf",
+  //   id: 1,
+  //   nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 3257",
+  //   linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/49.pdf",
+  //   nameFolio: "FOLIO 3257-2023",
+  //   linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/49.1.pdf",
   // },
-  // {
-  //   id: 3,
-  //   nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 1214",
-  //   linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/13.pdf",
-  //   nameFolio: "FOLIO 1214-2023",
-  //   linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/13.1.pdf",
-  // },
-  // {
-  //   id: 4,
-  //   nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 1449",
-  //   linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/19.pdf",
-  //   nameFolio: "FOLIO 1449-2023",
-  //   linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/19.1.pdf",
-  // },
-  // {
-  //   id: 5,
-  //   nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 1451",
-  //   linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/20.pdf",
-  //   nameFolio: "FOLIO 1451-2023",
-  //   linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/20.1.pdf",
-  // },
+  //fecha de baja: 3 enero 2024
+  {
+    id: 1,
+    nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 3363",
+    linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/50.pdf",
+    nameFolio: "FOLIO 3363-2023",
+    linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/50.1.pdf",
+  },
 ];
 
 export const dataConvocatorias = [
@@ -54,8 +33,105 @@ export const dataConvocatorias = [
   // },
   {
     id: 1,
+    nameFile: "Convocatoria Licitacion ITE-LP-01-2023",
+    linkFile:
+      "https://itetlax.org.mx/assets/pdf/convocatorias/Convocatoria-Licitacion-ITE-LP-01-2023.pdf",
+  },
+  {
+    id: 2,
+    nameFile: "Convocatoria-Licitacion-ITE-LP-02-2023",
+    linkFile:
+      "https://itetlax.org.mx/assets/pdf/convocatorias/Convocatoria-Licitacion-ITE-LP-02-2023.pdf",
+  },
+  {
+    id: 3,
     nameFile:
-      "Convocatoria  IEEM: XXVI Certamen de Investigación y Ensayo Político",
-    linkFile: "https://itetlax.org.mx/assets/pdf/convocatorias/3.pdf",
+      "¿Quieres participar como Observador/a Electoral? Proceso Electoral Concurrente 2023-2024",
+    linkFile:
+      "https://itetlax.org.mx/assets/pdf/carousel/Convocatoria OE_INE.pdf",
+  },
+  {
+    id: 4,
+    nameFile:
+      "SE APRUEBA CONVOCATORIA CANDIDATURAS INDEPENDIENTES PELO 2023-2024",
+    linkFile: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/82.pdf",
+  },
+  {
+    id: 5,
+    nameFile:
+      "ANEXO UNO CONVOCATORIA CANDIDATURAS INDEPENDIENTES PELO 2023-2024",
+    linkFile: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/82.1.pdf",
+  },
+  {
+    id: 6,
+    nameFile: "1.1 EBP20232024_ESCRITO BP VPCMrG",
+    linkFile: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/82.2.pdf",
+  },
+  {
+    id: 7,
+    nameFile: "1.1.1 EBP120232024_ESCRITO BP NO DEUDOR ALIMENTARIO",
+    linkFile: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/82.3.pdf",
+  },
+  {
+    id: 8,
+    nameFile: "1.2 MC20232024_ESCRITO CONFORMIDAD FISCALIZACIÓN",
+    linkFile: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/82.4.pdf",
+  },
+  {
+    id: 9,
+    nameFile: "1.3 ME20232024_ESCRITO RECURSOS ILÍCITOS",
+    linkFile: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/82.5.pdf",
+  },
+  {
+    id: 10,
+    nameFile: "1.4 MI20232024_FORMATO DE MANIFESTACIÓN DE INTENCIÓN",
+    linkFile: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/82.6.pdf",
+  },
+  {
+    id: 11,
+    nameFile: "1.5 MV20232024_FORMATO DE MANIFESTACIÓN DE VOLUNTAD",
+    linkFile: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/82.7.pdf",
+  },
+  {
+    id: 12,
+    nameFile: "1.6 SR20232024_FORMATO DE SOLICITUD DE REGISTRO CI",
+    linkFile: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/82.8.pdf",
+  },
+  {
+    id: 13,
+    nameFile:
+      "ANEXO DOS. MODELO ÚNICO DE ESTATUTO DE ASOCIACIÓN CIVIL CANDIDATURAS INDEPENDIENTES",
+    linkFile: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/82.9.pdf",
+  },
+  {
+    id: 14,
+    nameFile: "ANEXO TRES PORCENTAJE DE APOYO CIUDADANO PELO 2023-2024",
+    linkFile: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/82.10.pdf",
+  },
+  {
+    id: 15,
+    nameFile: "ANEXO CUATRO. TOPE DE GASTOS",
+    linkFile: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/82.11.pdf",
+  },
+  {
+    id: 16,
+    nameFile:
+      "¿Quieres participar como Observador/a Electoral Local? para el Proceso Electoral Local Ordinario 2023-2024",
+    linkFile: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/110.1.pdf",
+  },
+];
+
+export const dataConvocatoriasApartado = [
+  {
+    id: 1,
+    nameFile: "Convocatoria Licitacion ITE-LP-01-2023",
+    linkFile:
+      "https://itetlax.org.mx/assets/pdf/convocatorias/Convocatoria-Licitacion-ITE-LP-01-2023.pdf",
+  },
+  {
+    id: 2,
+    nameFile: "Convocatoria-Licitacion-ITE-LP-02-2023",
+    linkFile:
+      "https://itetlax.org.mx/assets/pdf/convocatorias/Convocatoria-Licitacion-ITE-LP-02-2023.pdf",
   },
 ];

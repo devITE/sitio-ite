@@ -53,6 +53,20 @@ export const Monitoreo = () => {
             alt="/Monitoreos 2021"
           />
         </Link>
+        <Link to="/Monitoreos2023">
+          <img
+            src="https://itetlax.org.mx/assets/img/icons/36.png"
+            className="img-fluid"
+            alt="/Monitoreos 2023"
+          />
+        </Link>
+        <Link to="/Monitoreos2024">
+          <img
+            src="https://itetlax.org.mx/assets/img/icons/2024.png"
+            className="img-fluid"
+            alt="/Monitoreos 2024"
+          />
+        </Link>
       </div>
     </>
   );
