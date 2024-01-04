@@ -3,7 +3,7 @@ import MaterialReactTable from "material-react-table";
 import { MenuItem, TextField } from "@mui/material";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
-import { dataBoletines2024 } from "../../../data/dataBoletines";
+import { dataBoletines2024 } from "../../../data/2024/dataBoletines";
 import TitlePages from "../../../layout/TitlePages";
 
 const Boletines2024 = () => {

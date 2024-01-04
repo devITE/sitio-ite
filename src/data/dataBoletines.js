@@ -2517,5 +2517,3 @@ export const dataBoletines2023 = [
     linkBoletin: "https://itetlax.org.mx/assets/pdf/boletines/2023/6.pdf",
   },
 ];
-
-export const dataBoletines2024 = [];
