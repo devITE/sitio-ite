@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import Enlaces from "./enlaces/Enlaces";
-import { dataCIndex, dataCAR, dataCA } from "../../data/dataCarouselIndex";
+import { dataCIndex, dataCAR, dataCA } from "../../data/2024/dataCarouselIndex";
 import Convocatorias from "../../layout/Index/Convocatorias";
 import TablePDF from "../../layout/Index/Estrados";
 import {

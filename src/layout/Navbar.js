@@ -118,11 +118,6 @@ export default class Navbar extends Component {
                     </Link>
                   </li>
                   <li>
-                    <Link to="./Acuerdos2019" className="dropdown-item">
-                      2019
-                    </Link>
-                  </li>
-                  <li>
                     <Link to="./Acuerdos2020" className="dropdown-item">
                       2020
                     </Link>
@@ -140,6 +135,11 @@ export default class Navbar extends Component {
                   <li>
                     <Link to="./Acuerdos2023" className="dropdown-item">
                       2023
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="./Acuerdos2024" className="dropdown-item">
+                      2024
                     </Link>
                   </li>
                 </ul>

@@ -5,7 +5,7 @@ export const dataInfor = [
     children: [
       {
         id: 1,
-        titleButton: "Diciembre",
+        titleButton: "Enero",
         subChildren: [
           // {
           //   id: 1,
@@ -16,12 +16,6 @@ export const dataInfor = [
           // {
           //   id: 2,
           //   titleItem: "Item 2",
-          //   typeDocument: "pdf",
-          //   linkItem: "www.google.com.mx",
-          // },
-          // {
-          //   id: 3,
-          //   titleItem: "Item 3",
           //   typeDocument: "pdf",
           //   linkItem: "www.google.com.mx",
           // },
@@ -235,24 +229,13 @@ export const dataInfor = [
         id: 1,
         titleButton: "Diciembre",
         subChildren: [
-          // {
-          //   id: 1,
-          //   titleItem: "Item 1",
-          //   typeDocument: "pdf",
-          //   linkItem: "www.google.com.mx",
-          // },
-          // {
-          //   id: 2,
-          //   titleItem: "Item 2",
-          //   typeDocument: "pdf",
-          //   linkItem: "www.google.com.mx",
-          // },
-          // {
-          //   id: 3,
-          //   titleItem: "Item 3",
-          //   typeDocument: "pdf",
-          //   linkItem: "www.google.com.mx",
-          // },
+          {
+            id: 1,
+            titleItem: "Primer Informe PELO 2023-2024",
+            typeDocument: "pdf",
+            linkItem:
+              "https://itetlax.org.mx/assets/pdf/informesPELO2324/1.pdf",
+          },
         ],
       },
     ],

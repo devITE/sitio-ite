@@ -3,7 +3,7 @@ import TitlePages from "../../../layout/TitlePages";
 import MaterialReactTable from "material-react-table";
 import { Box } from "@mui/material";
 import { MenuItem, TextField } from "@mui/material";
-import { dataAcuerdos2024 } from "../../../data/dataAcuerdos2024";
+import { dataAcuerdos2024 } from "../../../data/2024/dataAcuerdos";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
 import HelperDataTable from "../../../layout/HelperDataTable";

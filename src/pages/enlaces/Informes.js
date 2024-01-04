@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import NavbarEnlaces from "../../layout/NavbarEnlaces";
-import { dataInfor } from "../../data/dataInforms";
+import { dataInfor } from "../../data/2024/dataInformesPELO2324";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
 
