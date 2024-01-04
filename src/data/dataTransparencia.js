@@ -302,6 +302,11 @@ export const dataInformesAnuales = [
     title: "2021",
     url: "https://itetlax.org.mx/assets/pdf/transparencia/infAnuales/7.pdf",
   },
+  {
+    id: 8,
+    title: "2022",
+    url: "https://itetlax.org.mx/assets/pdf/transparencia/infAnuales/8.pdf",
+  },
 ];
 
 export const dataInfFinanciera = [
