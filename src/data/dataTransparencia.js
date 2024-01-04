@@ -236,6 +236,22 @@ export const dataConvenios = [
     id: 48,
     title: "UAT FACULTAD DERECHO 21 AGO 2023",
     url: "https://itetlax.org.mx/assets/pdf/transparencia/convenios/48.pdf",
+  }, {
+    id: 49,
+    title: "IEM TET ITE 13 NOV 2023",
+    url: "https://itetlax.org.mx/assets/pdf/transparencia/convenios/49.pdf",
+  }, {
+    id: 50,
+    title: "ITE-PJET 04 DIC 2023",
+    url: "https://itetlax.org.mx/assets/pdf/transparencia/convenios/50.pdf",
+  }, {
+    id: 51,
+    title: "ITE INE SEP 07 DIC 2023",
+    url: "https://itetlax.org.mx/assets/pdf/transparencia/convenios/51.pdf",
+  }, {
+    id: 52,
+    title: "ITE EL COLEGIO DE TLAXCALA 06 DIC 2023",
+    url: "https://itetlax.org.mx/assets/pdf/transparencia/convenios/52.pdf",
   },
 ];
 
