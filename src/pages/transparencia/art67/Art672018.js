@@ -5,7 +5,7 @@ import { Box } from "@mui/material";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFileExcel, faFilePdf } from "@fortawesome/free-solid-svg-icons";
 import { dataArt672018 } from "../../../data/dataTransparenciaArt67";
-import HelperDataTable from "../../../layout/HelperDataTable";
+import Expandible from "../../../layout/HelperDataTable/Expandible";
 
 const Art672018 = () => {
   useEffect(() => {
@@ -75,7 +75,7 @@ const Art672018 = () => {
         title="Transparencia"
         subTitle="Artículo 67. (2018) Obligaciones Específicas"
       />
-      <HelperDataTable />
+      <Expandible />
       <MaterialReactTable
         columns={columns}
         data={dataArt672018}

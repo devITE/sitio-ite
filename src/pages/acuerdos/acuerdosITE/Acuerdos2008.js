@@ -5,7 +5,7 @@ import { MenuItem, TextField } from "@mui/material";
 import { dataAcuerdos2008 } from "../../../data/dataAcuerdos";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
-import HelperDataTable from "../../../layout/HelperDataTable";
+import Expandible from "../../../layout/HelperDataTable/Expandible";
 
 const Acuerdos2008 = () => {
   useEffect(() => {
@@ -83,7 +83,7 @@ const Acuerdos2008 = () => {
   return (
     <>
       <TitlePages title="Acuerdos Anteriores" subTitle="Acuerdos ITE 2008" />
-      <HelperDataTable />
+      <Expandible />
       <MaterialReactTable
         columns={columns}
         data={dataAcuerdos2008}

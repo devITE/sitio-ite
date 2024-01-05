@@ -7,6 +7,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
 import { dataInfContable } from "../../../data/dataTransparencia";
 import { dataCuentaPublicaNew } from "../../../data/2024/dataCuentaPublica";
+import SinExpandir from "../../../layout/HelperDataTable/SinExpandir";
 
 const InformacionContable = () => {
   useEffect(() => {
@@ -89,6 +90,7 @@ const InformacionContable = () => {
       <br />
       <br />
       <TitlePages title="" subTitle="Cuenta Pública" />
+      <SinExpandir />
       <MaterialReactTable
         columns={columns}
         data={dataCuentaPublicaNew}

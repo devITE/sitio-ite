@@ -2266,6 +2266,8 @@ export const dataAcuerdos2023 = [
     pdfAnexo3: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/107.3.pdf",
     titleAnexo4: "ANEXO TRES",
     pdfAnexo4: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/107.4.pdf",
+    titleAnexo5: "FE DE ERRATAS",
+    pdfAnexo5: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/107.5.pdf",
   },
   {
     id: 108,
@@ -14188,6 +14190,18 @@ export const dataAcuerdos2017 = [
 export const dataAcuerdos2016 = [
   {
     id: 1,
+    year: "2023",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 01-2023",
+    monthDoc: "ENE",
+    nameDoc: "SE ADECUA EL PRESUPUESTO DE EGRESOS 2023",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/1.pdf",
+    titleAnexo1: "ANEXO ÚNICO",
+    pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/1.1.pdf",
+  },
+  //////////////////////////////////////////////////////////////////////
+  {
+    id: 1,
     year: "2016",
     typeDoc: "ACUERDO",
     dateDoc: "07-ENE",
@@ -14195,21 +14209,11 @@ export const dataAcuerdos2016 = [
     monthDoc: "ENE",
     nameDoc: "CUMPLIMIENTO SALA SUPERIOR CANDIDATOS INDEPENDIENTES",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/1.pdf",
-    subRows: [
-      {
-        typeDoc: "",
-        nameDoc: "ANEXO 1 FORMATOS DE CANDIDATURAS INDEPENDIENTES",
-        link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/1.1.pdf",
-        subRows: "",
-      },
-      {
-        typeDoc: "",
-        nameDoc:
-          "ANEXO 2 REGLAMENTO PARA EL REGISTRO DE CANDIDATURAS INDEPENDIENTES",
-        link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/1.2.pdf",
-        subRows: "",
-      },
-    ],
+    titleAnexo1: "ANEXO 1 FORMATOS DE CANDIDATURAS INDEPENDIENTES",
+    pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/1.1.pdf",
+    titleAnexo2:
+      "ANEXO 2 REGLAMENTO PARA EL REGISTRO DE CANDIDATURAS INDEPENDIENTES",
+    pdfAnexo2: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/1.2.pdf",
   },
   {
     id: 2,
@@ -14220,7 +14224,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "ENE",
     nameDoc: "COALICIÓN PRI PVEM PNA PS PARA LA ELECCIÓN DE GOBERNADOR",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/2.pdf",
-    subRows: "",
   },
   {
     id: 3,
@@ -14231,7 +14234,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "ENE",
     nameDoc: "ADECUACIÓN PRESUPUESTO",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/3.pdf",
-    subRows: "",
   },
   {
     id: 4,
@@ -14242,9 +14244,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "ENE",
     nameDoc: "ASPIRANTES CANDIDATOS INDEPENDIENTES",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/4.pdf",
-    subRows: "",
   },
-
   {
     id: 5,
     year: "2016",
@@ -14254,16 +14254,9 @@ export const dataAcuerdos2016 = [
     monthDoc: "FEB",
     nameDoc: "RESOLUCIÓN PAC",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/5.pdf",
-    subRows: [
-      {
-        typeDoc: "",
-        nameDoc: "ANEXO DICTAMEN PAC",
-        link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/5.1.pdf",
-        subRows: "",
-      },
-    ],
+    titleAnexo1: "ANEXO DICTAMEN PAC",
+    pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/5.1.pdf",
   },
-
   {
     id: 6,
     year: "2016",
@@ -14273,26 +14266,12 @@ export const dataAcuerdos2016 = [
     monthDoc: "FEB",
     nameDoc: "CONVOCATORIA CONSEJOS DISTRITALES Y MUNICIPALES",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/6.pdf",
-    subRows: [
-      {
-        typeDoc: "",
-        nameDoc: "ANEXO 1 CONVOCATORIA CONSEJOS DISTRITALES Y MUNICIPALES",
-        link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/6.1.pdf",
-        subRows: "",
-      },
-      {
-        typeDoc: "",
-        nameDoc: "ANEXO 2 MANIFIESTO BAJO PROTESTA CDyM",
-        link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/6.2.pdf",
-        subRows: "",
-      },
-      {
-        typeDoc: "",
-        nameDoc: "ANEXO 3 SOLICITUD",
-        link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/6.3.pdf",
-        subRows: "",
-      },
-    ],
+    titleAnexo1: "ANEXO 1 CONVOCATORIA CONSEJOS DISTRITALES Y MUNICIPALES",
+    pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/6.1.pdf",
+    titleAnexo2: "ANEXO 2 MANIFIESTO BAJO PROTESTA CDyM",
+    pdfAnexo2: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/6.2.pdf",
+    titleAnexo3: "ANEXO 3 SOLICITUD",
+    pdfAnexo3: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/6.3.pdf",
   },
   {
     id: 7,
@@ -14303,7 +14282,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "FEB",
     nameDoc: "COMITÉ DE ADQUISICIONES",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/7.pdf",
-    subRows: "",
   },
   {
     id: 8,
@@ -14314,7 +14292,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "FEB",
     nameDoc: "NOMBRAMIENTO DIRECTOR JURÍDICO",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/8.pdf",
-    subRows: "",
   },
   {
     id: 9,
@@ -14325,7 +14302,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "FEB",
     nameDoc: "CANDIDATOS INDEPENDIENTES PRESIDENTES DE COMUNIDAD",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/9.pdf",
-    subRows: "",
   },
   {
     id: 10,
@@ -14336,7 +14312,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAR",
     nameDoc: "DE APOYO CIUDADANO DE AYUNTAMIENTOS Y DIPUTADOS",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/10.pdf",
-    subRows: "",
   },
   {
     id: 11,
@@ -14347,7 +14322,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAR",
     nameDoc: "PLATAFORMA PAN",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/11.pdf",
-    subRows: "",
   },
   {
     id: 12,
@@ -14358,7 +14332,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAR",
     nameDoc: "PLATAFORMA PRI",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/12.pdf",
-    subRows: "",
   },
   {
     id: 13,
@@ -14369,7 +14342,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAR",
     nameDoc: "PLATAFORMA PRD",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/13.pdf",
-    subRows: "",
   },
   {
     id: 14,
@@ -14380,7 +14352,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAR",
     nameDoc: "PLATAFORMA PVEM",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/14.pdf",
-    subRows: "",
   },
   {
     id: 15,
@@ -14391,7 +14362,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAR",
     nameDoc: "PLATAFORMA MC",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/15.pdf",
-    subRows: "",
   },
   {
     id: 16,
@@ -14402,7 +14372,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAR",
     nameDoc: "PLATAFORMA NA",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/16.pdf",
-    subRows: "",
   },
   {
     id: 17,
@@ -14413,7 +14382,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAR",
     nameDoc: "PLATAFORMA PS",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/17.pdf",
-    subRows: "",
   },
   {
     id: 18,
@@ -14424,7 +14392,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAR",
     nameDoc: "PLATAFORMA MORENA.",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/18.pdf",
-    subRows: "",
   },
   {
     id: 19,
@@ -14435,7 +14402,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAR",
     nameDoc: "PLATAFORMA ENC SOC",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/19.pdf",
-    subRows: "",
   },
   {
     id: 20,
@@ -14446,7 +14412,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAR",
     nameDoc: "PLATAFORMA PT",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/20.pdf",
-    subRows: "",
   },
   {
     id: 21,
@@ -14457,7 +14422,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAR",
     nameDoc: "CANDIDATURA COMÚN PRI",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/21.pdf",
-    subRows: "",
   },
   {
     id: 22,
@@ -14468,7 +14432,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAR",
     nameDoc: "CANDIDATURA PRD PT",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/22.pdf",
-    subRows: "",
   },
   {
     id: 23,
@@ -14479,7 +14442,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAR",
     nameDoc: "PRESIDENTE PAC",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/23.pdf",
-    subRows: "",
   },
   {
     id: 24,
@@ -14490,7 +14452,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAR",
     nameDoc: "PLATAFORMA PAC",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/24.pdf",
-    subRows: "",
   },
   {
     id: 25,
@@ -14501,7 +14462,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAR",
     nameDoc: "AMPLIACIÓN DE VERIFICACIÓN DE PORCENTAJE A GOBERNADOR",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/25.pdf",
-    subRows: "",
   },
   {
     id: 26,
@@ -14512,7 +14472,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAR",
     nameDoc: "VERIFICACIÓN DE PORCENTAJE A GOBERNADOR",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/26.pdf",
-    subRows: "",
   },
   {
     id: 27,
@@ -14523,7 +14482,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAR",
     nameDoc: "CONSEJOS DISTRITALES Y MUNICIPALES",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/27.pdf",
-    subRows: "",
   },
   {
     id: 28,
@@ -14534,7 +14492,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAR",
     nameDoc: "PROGRAMA PAN",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/28.pdf",
-    subRows: "",
   },
   {
     id: 29,
@@ -14545,7 +14502,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAR",
     nameDoc: "PROGRAMA PRI",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/29.pdf",
-    subRows: "",
   },
   {
     id: 30,
@@ -14556,7 +14512,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAR",
     nameDoc: "PROGRAMA PRD",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/30.pdf",
-    subRows: "",
   },
   {
     id: 31,
@@ -14567,7 +14522,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAR",
     nameDoc: "PROGRAMA PT",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/31.pdf",
-    subRows: "",
   },
   {
     id: 32,
@@ -14578,7 +14532,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAR",
     nameDoc: "PROGRAMA PVEM",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/32.pdf",
-    subRows: "",
   },
   {
     id: 33,
@@ -14589,7 +14542,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAR",
     nameDoc: "PROGRAMA MC",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/33.pdf",
-    subRows: "",
   },
   {
     id: 34,
@@ -14600,7 +14552,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAR",
     nameDoc: "PROGRAMA PANAL",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/34.pdf",
-    subRows: "",
   },
   {
     id: 35,
@@ -14611,7 +14562,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAR",
     nameDoc: "PROGRAMA PAC",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/35.pdf",
-    subRows: "",
   },
   {
     id: 36,
@@ -14622,7 +14572,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAR",
     nameDoc: "PROGRAMA PS",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/36.pdf",
-    subRows: "",
   },
   {
     id: 37,
@@ -14633,7 +14582,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAR",
     nameDoc: "PROGRAMA MORENA",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/37.pdf",
-    subRows: "",
   },
   {
     id: 38,
@@ -14644,7 +14592,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAR",
     nameDoc: "PROGRAMA PES",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/38.pdf",
-    subRows: "",
   },
   {
     id: 39,
@@ -14655,7 +14602,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAR",
     nameDoc: "BENITO Y MELISSA CANDIDATOS INDEPENDIENTES",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/39.pdf",
-    subRows: "",
   },
   {
     id: 40,
@@ -14666,7 +14612,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAR",
     nameDoc: "PAC BERNARDINO",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/40.pdf",
-    subRows: "",
   },
   {
     id: 41,
@@ -14677,7 +14622,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAR",
     nameDoc: "PRI PVEM PANAL Y PS",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/41.pdf",
-    subRows: "",
   },
   {
     id: 42,
@@ -14688,7 +14632,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAR",
     nameDoc: "PRD PT",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/42.pdf",
-    subRows: "",
   },
   {
     id: 43,
@@ -14699,7 +14642,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAR",
     nameDoc: "PVEM PS",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/43.pdf",
-    subRows: "",
   },
   {
     id: 44,
@@ -14710,7 +14652,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAR",
     nameDoc: "ALFONSO CANO",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/44.pdf",
-    subRows: "",
   },
   {
     id: 45,
@@ -14721,7 +14662,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAR",
     nameDoc: "CUMPLIMIENTO SUP JDC 1181 2016 DE JORGE MORENO DURAN",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/45.pdf",
-    subRows: "",
   },
   {
     id: 46,
@@ -14732,7 +14672,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "DESIGNACIÓN DEL COMITÉ PREP",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/46.pdf",
-    subRows: "",
   },
   {
     id: 47,
@@ -14743,7 +14682,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "SUSTITUCIONES",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/47.pdf",
-    subRows: "",
   },
   {
     id: 48,
@@ -14754,7 +14692,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "FINANCIAMIENTO",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/48.pdf",
-    subRows: "",
   },
   {
     id: 49,
@@ -14765,7 +14702,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "DOCUMENTACIÓN Y MATERIAL ELECTORAL",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/49.pdf",
-    subRows: "",
+    subows: "",
   },
   {
     id: 50,
@@ -14776,7 +14713,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "BOLETAS",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/50.pdf",
-    subRows: "",
   },
   {
     id: 51,
@@ -14787,7 +14723,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "CUMPLIMIENTO JOSÉ EFRÉN SANTACRUZ MOCTEZUMA BUENO",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/51.pdf",
-    subRows: "",
   },
   {
     id: 52,
@@ -14798,7 +14733,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "GOBERNADOR COALICIÓN PRI PVEM NA PS",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/52.pdf",
-    subRows: "",
   },
   {
     id: 53,
@@ -14809,7 +14743,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "GOBERNADOR PAN",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/53.pdf",
-    subRows: "",
   },
   {
     id: 54,
@@ -14820,7 +14753,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "GOBERNADOR PRD",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/54.pdf",
-    subRows: "",
   },
   {
     id: 55,
@@ -14831,7 +14763,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "GOBERNADOR MOVIMIENTO CIUDADANO",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/55.pdf",
-    subRows: "",
   },
   {
     id: 56,
@@ -14842,7 +14773,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "GOBERNADOR PAC",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/56.pdf",
-    subRows: "",
   },
   {
     id: 57,
@@ -14853,7 +14783,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "GOBERNADOR MORENA",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/57.pdf",
-    subRows: "",
   },
   {
     id: 58,
@@ -14864,7 +14793,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "GOBERNADOR PES",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/58.pdf",
-    subRows: "",
   },
   {
     id: 59,
@@ -14875,7 +14803,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "GOBERNADOR INDEPENDIENTE JACOB",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/59.pdf",
-    subRows: "",
   },
   {
     id: 60,
@@ -14886,7 +14813,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "DIPUTADOS MR Y RP PAN",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/60.pdf",
-    subRows: "",
   },
   {
     id: 61,
@@ -14897,7 +14823,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "DIPUTADOS MR Y RP PARTIDO DE LA REVOLUCIÓN DEMOCRÁTICA",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/61.pdf",
-    subRows: "",
   },
   {
     id: 62,
@@ -14908,7 +14833,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "DIPUTADOS MR Y RP DEL PARTIDO DEL TRABAJO",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/62.pdf",
-    subRows: "",
   },
   {
     id: 63,
@@ -14919,7 +14843,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "DIPUTADOS MR Y RP MOVIMIENTO CIUDADANO",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/63.pdf",
-    subRows: "",
   },
   {
     id: 64,
@@ -14930,7 +14853,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "DIPUTADOS MR Y RP PAC",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/64.pdf",
-    subRows: "",
   },
   {
     id: 65,
@@ -14941,7 +14863,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "DIPUTADOS MR Y RP PARTIDO SOCIALISTA",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/65.pdf",
-    subRows: "",
   },
   {
     id: 66,
@@ -14952,7 +14873,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "DIPUTADOS MR Y RP MORENA",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/66.pdf",
-    subRows: "",
   },
   {
     id: 67,
@@ -14963,7 +14883,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "DIPUTADOS MR Y RP ENCUENTRO SOCIAL",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/67.pdf",
-    subRows: "",
   },
   {
     id: 68,
@@ -14974,7 +14893,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "DIPUTADA INDEPENDIENTE MELISA IRASEMA VAZQUEZ MOLINA",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/68.pdf",
-    subRows: "",
   },
   {
     id: 69,
@@ -14985,7 +14903,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "DIPUTADO INDEPENDIENTE BENITO SALDÍVAR SANCHEZ",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/69.pdf",
-    subRows: "",
   },
   {
     id: 70,
@@ -14996,7 +14913,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "DIPUTADO INDEPENDIENTE BENEBERTO SANCHEZ VAZQUEZ",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/70.pdf",
-    subRows: "",
   },
   {
     id: 71,
@@ -15007,7 +14923,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "FINANCIAMIENTO CANDIDATOS INDEPENDIENTES",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/71.pdf",
-    subRows: "",
   },
   {
     id: 72,
@@ -15018,7 +14933,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "MONUMENTOS Y ZONAS ARQUEOLÓGICAS",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/72.pdf",
-    subRows: "",
   },
   {
     id: 73,
@@ -15029,7 +14943,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "CANDIDATURA COMÚN DIPUTADOS",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/73.pdf",
-    subRows: "",
   },
   {
     id: 74,
@@ -15040,7 +14953,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: " TOPES DE CAMPAÑA",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/74.pdf",
-    subRows: "",
   },
   {
     id: 75,
@@ -15051,7 +14963,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "SUSTITUCIÓN CONSEJOS",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/75.pdf",
-    subRows: "",
   },
   {
     id: 76,
@@ -15062,7 +14973,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "CANDIDATOS COMUNES DIPUTADOS PRI PVEM Y PANAL",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/76.pdf",
-    subRows: "",
   },
   {
     id: 77,
@@ -15073,7 +14983,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "CANDIDATOS COMUNES DIPUTADOS PRI Y PANAL",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/77.pdf",
-    subRows: "",
   },
   {
     id: 78,
@@ -15084,7 +14993,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "PVEM MAYORÍA Y RP",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/78.pdf",
-    subRows: "",
   },
   {
     id: 79,
@@ -15095,7 +15003,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "MC MAYORÍA Y RP",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/79.pdf",
-    subRows: "",
   },
   {
     id: 80,
@@ -15106,7 +15013,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "PRI RP",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/80.pdf",
-    subRows: "",
   },
   {
     id: 81,
@@ -15117,7 +15023,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "PANAL RP",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/81.pdf",
-    subRows: "",
   },
   {
     id: 82,
@@ -15139,7 +15044,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "CUMPLIMIENTO SUP JDC 1481 2016 DE JORGE MORENO DURAN",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/83.pdf",
-    subRows: "",
   },
   {
     id: 84,
@@ -15150,7 +15054,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "PREP",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/84.pdf",
-    subRows: "",
   },
   {
     id: 85,
@@ -15161,7 +15064,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "MEDIDAS DE SEGURIDAD",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/85.pdf",
-    subRows: "",
   },
   {
     id: 86,
@@ -15172,7 +15074,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "SUSTITUCIÓN MC",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/86.pdf",
-    subRows: "",
   },
   {
     id: 87,
@@ -15183,7 +15084,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "EMBLEMA INDEPENDIENTES",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/87.pdf",
-    subRows: "",
   },
   {
     id: 88,
@@ -15194,7 +15094,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "SUSTITUCIONES CONSEJOS",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/88.pdf",
-    subRows: "",
   },
   {
     id: 89,
@@ -15205,7 +15104,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "PROMOCIÓN DEL VOTO",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/89.pdf",
-    subRows: "",
   },
   {
     id: 90,
@@ -15216,7 +15114,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "ALFONSO CANO",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/90.pdf",
-    subRows: "",
   },
   {
     id: 91,
@@ -15227,7 +15124,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "ADENDA PRI",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/91.pdf",
-    subRows: "",
   },
   {
     id: 92,
@@ -15238,7 +15134,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "JORGE MORENO",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/92.pdf",
-    subRows: "",
   },
   {
     id: 93,
@@ -15249,7 +15144,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "AYUNTAM. CANDIDATURA COMÚN PRI PVEM NUEVA ALIANZA PS",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/93.pdf",
-    subRows: "",
   },
   {
     id: 94,
@@ -15260,7 +15154,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "AYUNTAM. CANDIDATURA COMÚN PRI PVEM NUEVA ALIANZA",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/94.pdf",
-    subRows: "",
   },
   {
     id: 95,
@@ -15271,7 +15164,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "RESERVA REGISTRO AYUNTAMIENTOS PT",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/95.pdf",
-    subRows: "",
   },
   {
     id: 96,
@@ -15282,7 +15174,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: " AYUNTAM. CANDIDATURA COMÚN PRI PVEM",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/96.pdf",
-    subRows: "",
   },
   {
     id: 97,
@@ -15293,7 +15184,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "AYUNTAM. CANDIDATURA COMÚN PRI NUEVA ALIANZA PS",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/97.pdf",
-    subRows: "",
   },
   {
     id: 98,
@@ -15304,7 +15194,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "CANDIDATURA COMÚN PRI NUEVA ALIANZA",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/98.pdf",
-    subRows: "",
   },
   {
     id: 99,
@@ -15315,7 +15204,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "AYUNTAM. CANDIDATURA COMÚN PRI PS",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/99.pdf",
-    subRows: "",
   },
   {
     id: 100,
@@ -15326,7 +15214,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "RESERVA REGISTRO AYUNTAMIENTOS CANDIDATURA PRD PT",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/100.pdf",
-    subRows: "",
   },
   {
     id: 101,
@@ -15337,7 +15224,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "AYUNTAM. CANDIDATURA COMÚN PVEM PS",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/101.pdf",
-    subRows: "",
   },
   {
     id: 102,
@@ -15348,7 +15234,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "REGISTRO AYUNTAM. PAN",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/102.pdf",
-    subRows: "",
   },
   {
     id: 103,
@@ -15359,7 +15244,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "REGISTRO AYUNTAM. PRI",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/103.pdf",
-    subRows: "",
   },
   {
     id: 104,
@@ -15370,7 +15254,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "REGISTRO AYUNTAM. PVEM",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/104.pdf",
-    subRows: "",
   },
   {
     id: 105,
@@ -15381,7 +15264,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "RESERVA REGISTRO AYUNTAMIENTO MOVIMIENTO CIUDADANO",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/105.pdf",
-    subRows: "",
   },
   {
     id: 106,
@@ -15392,7 +15274,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "RESERVA NUEVA ALIANZA",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/106.pdf",
-    subRows: "",
   },
   {
     id: 107,
@@ -15403,7 +15284,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "RESERVA AYUNTAMIENTOS PAC",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/107.pdf",
-    subRows: "",
   },
   {
     id: 108,
@@ -15414,7 +15294,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "REGISTRO AYUNTAM. PS",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/108.pdf",
-    subRows: "",
   },
   {
     id: 109,
@@ -15425,7 +15304,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "MORENA AYUNTAMIENTOS",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/109.pdf",
-    subRows: "",
   },
   {
     id: 110,
@@ -15436,7 +15314,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "RESERVA REGISTRO AYUNTAMIENTO PES",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/110.pdf",
-    subRows: "",
   },
   {
     id: 111,
@@ -15447,7 +15324,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "MUNICIPIOS INDEPENDIENTES",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/111.pdf",
-    subRows: "",
   },
   {
     id: 112,
@@ -15458,7 +15334,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "RESERVA REGISTRO AYUNTAMIENTOS PRD",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/112.pdf",
-    subRows: "",
   },
   {
     id: 113,
@@ -15469,9 +15344,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "SUSTITUCIÓN DIPUTADO PAN",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/113.pdf",
-    subRows: "",
   },
-
   {
     id: 115,
     year: "2016",
@@ -15481,7 +15354,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "FINANCIAMIENTO AYUNTAMIENTOS",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/115.pdf",
-    subRows: "",
   },
   {
     id: 116,
@@ -15492,7 +15364,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "COMUNIDADES INDEPENDIENTES",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/116.pdf",
-    subRows: "",
   },
   {
     id: 117,
@@ -15503,7 +15374,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "RESERVA REGISTRO PRESIDENCIAS DE COMUNIDAD PAN",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/117.pdf",
-    subRows: "",
   },
   {
     id: 118,
@@ -15514,7 +15384,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "RESERVA REGISTRO PRESIDENCIAS DE COMUNIDAD PRI",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/118.pdf",
-    subRows: "",
   },
   {
     id: 119,
@@ -15525,7 +15394,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "RESERVA REGISTRO PRESIDENCIAS DE COMUNIDAD PRD",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/119.pdf",
-    subRows: "",
   },
   {
     id: 120,
@@ -15536,7 +15404,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "RESERVA REGISTRO PRESIDENCIAS DE COMUNIDAD PT",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/120.pdf",
-    subRows: "",
   },
   {
     id: 121,
@@ -15547,7 +15414,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "RESERVA REGISTRO PRESIDENCIAS DE COMUNIDAD PVEM",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/121.pdf",
-    subRows: "",
   },
   {
     id: 122,
@@ -15558,7 +15424,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "RESERVA DE COMUNIDAD MC",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/122.pdf",
-    subRows: "",
   },
   {
     id: 123,
@@ -15569,7 +15434,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "RESERVA REGISTRO PRESIDENCIAS DE COMUNIDAD NUEVA ALIANZA",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/123.pdf",
-    subRows: "",
   },
   {
     id: 124,
@@ -15580,7 +15444,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "RESERVA REGISTRO PRESIDENCIAS DE COMUNIDAD PAC",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/124.pdf",
-    subRows: "",
   },
   {
     id: 125,
@@ -15602,7 +15465,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "RESERVA REGISTRO PRESIDENCIAS DE COMUNIDAD MORENA",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/126.pdf",
-    subRows: "",
   },
   {
     id: 127,
@@ -15613,7 +15475,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "RESERVA REGISTRO PRESIDENCIAS DE COMUNIDAD PES",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/127.pdf",
-    subRows: "",
   },
   {
     id: 128,
@@ -15624,7 +15485,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "TOPES AYUNTAMIENTOS",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/128.pdf",
-    subRows: "",
   },
   {
     id: 129,
@@ -15635,7 +15495,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "DISTRIBUCIÓN A CADA CANDIDATO",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/129.pdf",
-    subRows: "",
   },
   {
     id: 130,
@@ -15646,7 +15505,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "DIRIGENCIA PAC",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/130.pdf",
-    subRows: "",
   },
   {
     id: 131,
@@ -15657,7 +15515,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "SUSTITUCIÓN DIPUTADO PT",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/131.pdf",
-    subRows: "",
   },
   {
     id: 132,
@@ -15668,7 +15525,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "SUSTITUCIÓN DIPUTADO PAC",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/132.pdf",
-    subRows: "",
   },
   {
     id: 133,
@@ -15679,7 +15535,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "SUSTITUCIÓN DIPUTADO PAN",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/133.pdf",
-    subRows: "",
   },
   {
     id: 134,
@@ -15690,7 +15545,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "SUSTITUCIÓN AYUNTAMIENTO SANTA CRUZ TLAXCALA PAN",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/134.pdf",
-    subRows: "",
   },
   {
     id: 135,
@@ -15701,7 +15555,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "SUSTITUCIÓN AYUNTAMIENTO TEPETITLA DE LARDIZÁBAL PAN",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/135.pdf",
-    subRows: "",
   },
   {
     id: 136,
@@ -15712,7 +15565,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "CÓMPUTOS",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/136.pdf",
-    subRows: "",
   },
   {
     id: 137,
@@ -15723,7 +15575,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "ABR",
     nameDoc: "SUSTITUCIÓN PVEM AYUNTAMIENTOS",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/137.pdf",
-    subRows: "",
   },
   {
     id: 138,
@@ -15734,7 +15585,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "REGISTRO AYUNTAM. PAC",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/138.pdf",
-    subRows: "",
   },
   {
     id: 139,
@@ -15745,7 +15595,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "SUSTITUCIÓN AYUNTAMIENTO APETATITLÁN PAN",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/139.pdf",
-    subRows: "",
   },
   {
     id: 140,
@@ -15756,7 +15605,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "REGISTRO AYUNTAMIENTOS DEFINITIVO MC",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/140.pdf",
-    subRows: "",
   },
   {
     id: 141,
@@ -15767,7 +15615,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "AYUNTAMIENTOS PRD PT",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/141.pdf",
-    subRows: "",
   },
   {
     id: 142,
@@ -15778,7 +15625,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "AYUNTAMIENTOS PRD",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/142.pdf",
-    subRows: "",
   },
   {
     id: 143,
@@ -15789,7 +15635,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "MOVIMIENTO CIUDADANO PRESIDENCIAS DE COMUNIDAD",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/143.pdf",
-    subRows: "",
   },
   {
     id: 144,
@@ -15800,7 +15645,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "PVEM COMUNIDADES",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/144.pdf",
-    subRows: "",
   },
   {
     id: 145,
@@ -15811,7 +15655,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "SUSTITUCIÓN DIPUTADO PAC",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/145.pdf",
-    subRows: "",
   },
   {
     id: 146,
@@ -15822,7 +15665,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "AYUNTAMIENTOS PES FINAL",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/146.pdf",
-    subRows: "",
   },
   {
     id: 147,
@@ -15833,7 +15675,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "AYUNTAM. NUEVA ALIANZA",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/147.pdf",
-    subRows: "",
   },
   {
     id: 148,
@@ -15844,7 +15685,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "AYUNTAMIENTOS PT",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/148.pdf",
-    subRows: "",
   },
   {
     id: 149,
@@ -15855,7 +15695,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "DE PRESIDENCIAS DE COMUNIDAD PAN",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/149.pdf",
-    subRows: "",
   },
   {
     id: 150,
@@ -15866,7 +15705,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "DE PRESIDENCIAS DE COMUNIDAD PRI",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/150.pdf",
-    subRows: "",
   },
   {
     id: 151,
@@ -15877,7 +15715,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "PRESIDENCIAS DE COMUNIDAD PAC",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/151.pdf",
-    subRows: "",
   },
   {
     id: 152,
@@ -15888,7 +15725,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "RESERVA COMUNIDAD MORENA",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/152.pdf",
-    subRows: "",
   },
   {
     id: 153,
@@ -15899,7 +15735,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "RESERVA COMUNIDAD PES",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/153.pdf",
-    subRows: "",
   },
   {
     id: 154,
@@ -15910,7 +15745,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "RESERVA PRESIDENCIAS DE COMUNIDAD PRD",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/154.pdf",
-    subRows: "",
   },
   {
     id: 155,
@@ -15921,7 +15755,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "RESERVA PT",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/155.pdf",
-    subRows: "",
   },
   {
     id: 156,
@@ -15932,7 +15765,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "RESERVA PRESIDENCIAS DE COMUNIDAD PNA",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/156.pdf",
-    subRows: "",
   },
   {
     id: 157,
@@ -15943,7 +15775,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "RESERVA PRESIDENCIAS DE COMUNIDAD PS",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/157.pdf",
-    subRows: "",
   },
   {
     id: 158,
@@ -15954,7 +15785,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "SUSTITUCIÓN DIPUTADOS DISTRITO 12 Y 3 FORMULA",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/158.pdf",
-    subRows: "",
   },
   {
     id: 159,
@@ -15965,7 +15795,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "COMUNIDADES PRD",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/159.pdf",
-    subRows: "",
   },
   {
     id: 160,
@@ -15976,7 +15805,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "PRESIDENCIAS DE COMUNIDAD PNA",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/160.pdf",
-    subRows: "",
   },
   {
     id: 161,
@@ -15987,7 +15815,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "PAC PRESIDENCIAS DE COMUNIDAD DEFINITIVO",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/161.pdf",
-    subRows: "",
   },
   {
     id: 162,
@@ -15998,7 +15825,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "SUSTITUCIÓN GOBERNADOR PES",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/162.pdf",
-    subRows: "",
   },
   {
     id: 163,
@@ -16009,7 +15835,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "SUSTITUCIÓN DIPUTADO DISTRITO 03 PVEM",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/163.pdf",
-    subRows: "",
   },
   {
     id: 164,
@@ -16020,7 +15845,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "COMUNIDADES PT",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/164.pdf",
-    subRows: "",
   },
   {
     id: 165,
@@ -16031,7 +15855,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "COMUNIDADES FINAL PES",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/165.pdf",
-    subRows: "",
   },
   {
     id: 166,
@@ -16042,7 +15865,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "COMUNIDADES FINAL PS",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/166.pdf",
-    subRows: "",
   },
   {
     id: 167,
@@ -16053,7 +15875,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "COMUNIDADES FINAL MORENA",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/167.pdf",
-    subRows: "",
   },
   {
     id: 168,
@@ -16064,7 +15885,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "SUSTITUCIÓN AYUNTAMIENTO SAN FRANCISCO TETLANOHCAN PRD",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/168.pdf",
-    subRows: "",
   },
   {
     id: 169,
@@ -16075,7 +15895,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "SUSTITUCIÓN AYUNTAMIENTO APETATITLÁN MC PENDIENTE",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/169.pdf",
-    subRows: "",
   },
   {
     id: 170,
@@ -16086,7 +15905,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "SUSTITUCIÓN AYUNTAMIENTO TZOMPANTEPEC PRD",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/170.pdf",
-    subRows: "",
   },
   {
     id: 171,
@@ -16097,7 +15915,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "SUSTITUCIÓN AYUNTAMIENTO MUÑOZ DE DOMINGO ARENAS PNA",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/171.pdf",
-    subRows: "",
   },
   {
     id: 172,
@@ -16108,7 +15925,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "SOBRENOMBRES 2016",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/172.pdf",
-    subRows: "",
   },
   {
     id: 173,
@@ -16119,7 +15935,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "CUMPLIMIENTO RESOLUCIÓN INE CG299 2016",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/173.pdf",
-    subRows: "",
   },
   {
     id: 174,
@@ -16130,7 +15945,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "SUSTITUCIÓN AYUNTAMIENTO DE EMILIANO ZAPATA MORENA",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/174.pdf",
-    subRows: "",
   },
 
   {
@@ -16142,9 +15956,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "SUSTITUCIÓN DIPUTADA 15 PS",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/176.pdf",
-    subRows: "",
   },
-
   {
     id: 177,
     year: "2016",
@@ -16154,26 +15966,12 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "PROGRAMA OPERACIÓN SIJE",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/177.pdf",
-    subRows: [
-      {
-        typeDoc: "",
-        nameDoc: "ANEXO 1 F1_01",
-        link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/177.1.pdf",
-        subRows: "",
-      },
-      {
-        typeDoc: "",
-        nameDoc: "AMEXO 2 PROGRAMA OPERACIÓN SIJE",
-        link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/177.2.pdf",
-        subRows: "",
-      },
-      {
-        typeDoc: "",
-        nameDoc: "ANEXO 3 SIJE_LMD_F2",
-        link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/177.3.pdf",
-        subRows: "",
-      },
-    ],
+    titleAnexo1: "ANEXO 1 F1_01",
+    pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/177.1.pdf",
+    titleAnexo2: "AMEXO 2 PROGRAMA OPERACIÓN SIJE",
+    pdfAnexo2: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/177.2.pdf",
+    titleAnexo3: "ANEXO 3 SIJE_LMD_F2",
+    pdfAnexo3: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/177.3.pdf",
   },
   {
     id: 178,
@@ -16184,7 +15982,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "PT",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/178.pdf",
-    subRows: "",
   },
   {
     id: 179,
@@ -16195,7 +15992,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "SUSTITUCIÓN PC SANTA CRUZ PORVENIR IXTACUIXTA NA",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/179.pdf",
-    subRows: "",
   },
   {
     id: 180,
@@ -16206,7 +16002,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "SUSTITUCIÓN PC COLONIA REFORMA CHIAUTEMPAN PS",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/180.pdf",
-    subRows: "",
   },
   {
     id: 181,
@@ -16217,7 +16012,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "SUSTITUCION PC SUPLENTE ACUITLAPILCO PS",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/181.pdf",
-    subRows: "",
   },
   {
     id: 182,
@@ -16228,7 +16022,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "SUSTITUCIÓN PC TLALTEMPAN MORENA",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/182.pdf",
-    subRows: "",
   },
   {
     id: 183,
@@ -16239,7 +16032,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "ACUERDO SUSTITUCIÓN PRI DTO 01 MAY RELAT",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/183.pdf",
-    subRows: "",
   },
   {
     id: 184,
@@ -16250,7 +16042,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "BODEGAS CUMPLIMIENTO ACUERDO INE CG122 2016",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/184.pdf",
-    subRows: "",
   },
   {
     id: 185,
@@ -16261,7 +16052,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "SUSTITUCION DE INTEGRANTES DE CONSEJO",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/185.pdf",
-    subRows: "",
   },
   {
     id: 186,
@@ -16272,7 +16062,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "CANDIDATURA COMÚN PRI PVEM NUEVA ALIANZA PS",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/186.pdf",
-    subRows: "",
   },
   {
     id: 187,
@@ -16283,7 +16072,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "CANDIDATURA COMÚN PRI PVEM",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/187.pdf",
-    subRows: "",
   },
   {
     id: 188,
@@ -16294,7 +16082,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "CANDIDATURA COMÚN PRI NUEVA ALIANZA PS",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/188.pdf",
-    subRows: "",
   },
   {
     id: 189,
@@ -16305,7 +16092,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "CANDIDATURA COMUN PRD PT",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/189.pdf",
-    subRows: "",
   },
   {
     id: 190,
@@ -16316,7 +16102,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "REGISTRO AYUNTAM PRI",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/190.pdf",
-    subRows: "",
   },
   {
     id: 191,
@@ -16327,7 +16112,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "CASILLAS ESPECIALES",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/191.pdf",
-    subRows: "",
   },
   {
     id: 192,
@@ -16338,7 +16122,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "SUSTITUCIÓN AYUNTAMIENTO XILOXOXTLA PAN",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/192.pdf",
-    subRows: "",
   },
   {
     id: 193,
@@ -16349,7 +16132,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "SUSTITUCIÓN AYUNTAMIENTO BENITO JUÁREZ PRI",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/193.pdf",
-    subRows: "",
   },
   {
     id: 194,
@@ -16360,7 +16142,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "SUSTITUCIÓN PC ATLANGATEPEC PAN",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/194.pdf",
-    subRows: "",
   },
   {
     id: 195,
@@ -16371,7 +16152,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "SUSTITUCIÓN CONSEJOS MUNICIPALES",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/195.pdf",
-    subRows: "",
   },
   {
     id: 196,
@@ -16382,7 +16162,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "SUSTITUCIÓN SEGUNDA REGIDORA ATLANGATEPEC PRI",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/196.pdf",
-    subRows: "",
   },
   {
     id: 197,
@@ -16393,7 +16172,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "SUSTITUCIÓN LÁZARO CARDENAS PRI",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/197.pdf",
-    subRows: "",
   },
   {
     id: 198,
@@ -16404,7 +16182,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "SUSTITUCIÓN PRIMERA REGIDORA SANTA CRUZ TLAXCALA PT",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/198.pdf",
-    subRows: "",
   },
   {
     id: 199,
@@ -16415,7 +16192,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "SUSTITUCIÓN PC TLAXCO PRI",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/199.pdf",
-    subRows: "",
   },
   {
     id: 200,
@@ -16426,7 +16202,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "SUSTITUCIÓN PC SANTA CARINA AYOMETLA PT",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/200.pdf",
-    subRows: "",
   },
   {
     id: 201,
@@ -16437,7 +16212,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "CAMBIO DE DOMICILIO DE CATD",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/201.pdf",
-    subRows: "",
   },
   {
     id: 202,
@@ -16448,7 +16222,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "SUSTITUCIÓN DIPUTADO MR 4 MORENA",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/202.pdf",
-    subRows: "",
   },
   {
     id: 203,
@@ -16459,7 +16232,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "SUSTITUCIÓN DIPUTADO RPP 3 MORENA",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/203.pdf",
-    subRows: "",
   },
   {
     id: 204,
@@ -16470,7 +16242,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "SUSTITUCIÓN SANTA ISABEL XILOXOXTLA PRD PT",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/204.pdf",
-    subRows: "",
   },
   {
     id: 205,
@@ -16481,7 +16252,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "SUSTITUCIÓN PRIMER REGIDOR HUAMANTLA PVEM",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/205.pdf",
-    subRows: "",
   },
   {
     id: 206,
@@ -16492,7 +16262,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "SUSTITUCIÓN PC RANCHERIA ALTAMIRA DE GUADALUPE HUAMANTLA MORENA",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/206.pdf",
-    subRows: "",
   },
   {
     id: 207,
@@ -16503,7 +16272,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "SUSTITUCIÓN PC SAN JORGE TEXOQUIPAN PANOTLA MORENA",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/207.pdf",
-    subRows: "",
   },
   {
     id: 208,
@@ -16514,7 +16282,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "SUSTITUCION PRESIDENTE COMUNIDAD ACUITLAPILCO PT",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/208.pdf",
-    subRows: "",
   },
   {
     id: 209,
@@ -16525,7 +16292,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "SUSTITUCION DE COMUNIDAD PT",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/209.pdf",
-    subRows: "",
   },
   {
     id: 210,
@@ -16536,7 +16302,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "SUSTITUCIÓN AYUNTAMIENTO PAC",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/210.pdf",
-    subRows: "",
   },
   {
     id: 211,
@@ -16547,7 +16312,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "SUSTITUCIÓN PRIMER REGIDOR CALPULALPAN PES",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/211.pdf",
-    subRows: "",
   },
   {
     id: 212,
@@ -16558,7 +16322,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "MORENA SORTEO",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/212.pdf",
-    subRows: "",
   },
   {
     id: 213,
@@ -16569,7 +16332,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "PAC SORTEO",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/213.pdf",
-    subRows: "",
   },
   {
     id: 214,
@@ -16580,7 +16342,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "PES SORTEO",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/214.pdf",
-    subRows: "",
   },
   {
     id: 215,
@@ -16591,7 +16352,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "PNA SORTEO",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/215.pdf",
-    subRows: "",
   },
   {
     id: 216,
@@ -16602,7 +16362,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "CUMPLIMIENTO SALA REGIONAL PRD PANOTLA",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/216.pdf",
-    subRows: "",
   },
   {
     id: 217,
@@ -16613,7 +16372,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "CUMPLIMIENTO SALA REGIONAL PRD APIZACO",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/217.pdf",
-    subRows: "",
   },
   {
     id: 218,
@@ -16624,7 +16382,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "COMUNIDADES PARTIDO DEL TRABAJO",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/218.pdf",
-    subRows: "",
   },
   {
     id: 219,
@@ -16635,7 +16392,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "COMUNIDADES MOVIMIENTO CIUDADANO",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/219.pdf",
-    subRows: "",
   },
   {
     id: 220,
@@ -16646,7 +16402,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "COMUNIDADES PRD",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/220.pdf",
-    subRows: "",
   },
   {
     id: 221,
@@ -16657,7 +16412,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "COMUNIDADES MORENA",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/221.pdf",
-    subRows: "",
   },
   {
     id: 222,
@@ -16668,7 +16422,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "PREP PLAN DE SEGURIDAD Y CONTINUIDAD",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/222.pdf",
-    subRows: "",
   },
   {
     id: 223,
@@ -16679,7 +16432,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "SUSTITUCIÓN PAN DTTO. 10 PAN",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/223.pdf",
-    subRows: "",
   },
   {
     id: 224,
@@ -16690,7 +16442,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "SUSTITUCIÓN PC XALOZTOC PRI",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/224.pdf",
-    subRows: "",
   },
   {
     id: 225,
@@ -16701,7 +16452,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "SUSTITUCIÓN PRI SEXTA REGIDORA EL CARMEN TEQUEXQUITLA PRI",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/225.pdf",
-    subRows: "",
   },
   {
     id: 226,
@@ -16712,7 +16462,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "SUSTITUCIÓN SINDICO Y SEGUNDO REGIDOR CALPULALPAN",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/226.pdf",
-    subRows: "",
   },
   {
     id: 227,
@@ -16723,7 +16472,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "PROYECTO SUSTITUCIÓN AYUNTAMIENTO TETLATLAHUCA PAC.",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/227.pdf",
-    subRows: "",
   },
   {
     id: 228,
@@ -16734,7 +16482,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "SUSTITUCIÓN PRESIDENCIA DE COM PS BARRIO SAN ANTONIO ATLTZAYANCA",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/228.pdf",
-    subRows: "",
   },
   {
     id: 229,
@@ -16745,7 +16492,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "SUSTITUCION DIPUTADO SUPLENTE PAN MR OCTAVIO ALEJANDRO ESPEJEL",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/229.pdf",
-    subRows: "",
   },
   {
     id: 230,
@@ -16756,7 +16502,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "SORTEO PT",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/230.pdf",
-    subRows: "",
   },
 
   {
@@ -16768,7 +16513,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "REGISTRO MC CUMPLIMIENTO",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/232.pdf",
-    subRows: "",
   },
   {
     id: 233,
@@ -16779,7 +16523,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "SUSTITUCIÓN AYUNTAMIENTO YAUHQUEMEHCAN PRI",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/233.pdf",
-    subRows: "",
   },
   {
     id: 234,
@@ -16790,7 +16533,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "SUSTITUCIÓN SÍNDICO PROPIETARIO AYOMETLA PRI",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/234.pdf",
-    subRows: "",
   },
   {
     id: 235,
@@ -16801,7 +16543,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "SUSTITUCIÓN AYUNTAMIENTO PRESIDENTE SUPLENTE TETLA PRD",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/235.pdf",
-    subRows: "",
   },
   {
     id: 236,
@@ -16812,7 +16553,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "SUSTITUCIÓN PT LÁZARO CÁRDENAS",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/236.pdf",
-    subRows: "",
   },
   {
     id: 237,
@@ -16823,7 +16563,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "SUSTITUCIÓN AYUNTAMIENTO PNA 01 06 16 2 ",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/237.pdf",
-    subRows: "",
   },
   {
     id: 238,
@@ -16834,7 +16573,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "MAY",
     nameDoc: "ENTE AUDITOR PREP",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/238.pdf",
-    subRows: "",
   },
   {
     id: 239,
@@ -16845,7 +16583,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "JUN",
     nameDoc: "SUSTITUCIÓN PS TETLA",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/239.pdf",
-    subRows: "",
   },
   {
     id: 240,
@@ -16856,7 +16593,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "JUN",
     nameDoc: "SUSTITUCIÓN PS PTE SUP Y 1REG PROP MUÑOZ DE DOMINGO ARENAS",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/240.pdf",
-    subRows: "",
   },
   {
     id: 241,
@@ -16867,7 +16603,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "JUN",
     nameDoc: "PROYECTO SUSTITUCIÓN LAZARO CARDENAS PRI",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/241.pdf",
-    subRows: "",
   },
   {
     id: 242,
@@ -16878,7 +16613,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "JUN",
     nameDoc: "SUSTITUCIÓN PRESIDENCIA DE COM BARRIO LA PRECIOSA HUAMANTLA PNA",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/242.pdf",
-    subRows: "",
   },
   {
     id: 243,
@@ -16889,7 +16623,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "JUN",
     nameDoc: "SUSTITUCIÓN SEGUNDA REGIDORA PROP AYUNT PNA",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/243.pdf",
-    subRows: "",
   },
   {
     id: 244,
@@ -16901,7 +16634,6 @@ export const dataAcuerdos2016 = [
     nameDoc:
       "SUSTITUCIÓN DIPUTADA SUPLENTE MR MARIA DEL ROCIO RAMIREZ DIEGUEZ PAN",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/244.pdf",
-    subRows: "",
   },
   {
     id: 245,
@@ -16912,7 +16644,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "JUN",
     nameDoc: "SUSTITUCIÓN DE PAN NANACAMILPA",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/245.pdf",
-    subRows: "",
   },
   {
     id: 246,
@@ -16923,7 +16654,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "JUN",
     nameDoc: "SUSTITUCIÓN PAN LA MAGDALENA",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/246.pdf",
-    subRows: "",
+    subRow: "",
   },
   {
     id: 247,
@@ -16934,7 +16665,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "JUN",
     nameDoc: "SUSTITUCIÓN PRESIDENTA SUPLENTE TZOMPANTEPEC PES",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/247.pdf",
-    subRows: "",
   },
   {
     id: 248,
@@ -16945,7 +16675,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "JUN",
     nameDoc: "SUSTITUCIÓN FORMULA DIPUTADA MR TLAXCO PES",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/248.pdf",
-    subRows: "",
   },
   {
     id: 249,
@@ -16956,7 +16685,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "JUN",
     nameDoc: "SUSTITUCIÓN 2DA SECCIÓN TEOTLALPAN TETLA PT",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/249.pdf",
-    subRows: "",
   },
   {
     id: 250,
@@ -16967,7 +16695,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "JUN",
     nameDoc: "SUSTITUCIÓN AYUNTAMIENTO PT 29 05 2016",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/250.pdf",
-    subRows: "",
   },
   {
     id: 251,
@@ -16978,7 +16705,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "JUN",
     nameDoc: "SUSTITUCIÓN PRESIDENCIA DE COM PS CHIMALPA TLAXCALA",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/251.pdf",
-    subRows: "",
   },
   {
     id: 252,
@@ -16989,7 +16715,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "JUN",
     nameDoc: "SUSTITUCIÓN  CONSEJO DISTRITAL Y MUNICIPALES3",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/252.pdf",
-    subRows: "",
   },
   {
     id: 253,
@@ -17000,7 +16725,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "JUN",
     nameDoc: "SUSTITUCIÓN PAN CALPULALPAN DIPUTADO LOCAL SUPLENTE DITO. 01",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/253.pdf",
-    subRows: "",
   },
   {
     id: 254,
@@ -17011,7 +16735,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "JUN",
     nameDoc: "SUSTITUCIÓN AYUNTAMIENTO NA 02 06 16",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/254.pdf",
-    subRows: "",
   },
   {
     id: 255,
@@ -17022,7 +16745,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "JUN",
     nameDoc: "CUMPLIMIENTO SENTENCIA TET PT",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/255.pdf",
-    subRows: "",
   },
   {
     id: 256,
@@ -17033,7 +16755,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "JUN",
     nameDoc: "SUSTITUCIÓN AYUNTAMIENTO LA MAGDALENA TLALTELULCO PAN",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/256.pdf",
-    subRows: "",
   },
   {
     id: 257,
@@ -17044,7 +16765,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "JUN",
     nameDoc: "SUSTITUCIÓN 1ER. REGIDOR AYUNTAMIENTO ZACATELCO PAN",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/257.pdf",
-    subRows: "",
   },
   {
     id: 258,
@@ -17055,7 +16775,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "JUN",
     nameDoc: "SUSTITUCIÓN AYUNTAMIENTO DE APIZACO PRI",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/258.pdf",
-    subRows: "",
   },
   {
     id: 259,
@@ -17066,7 +16785,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "JUN",
     nameDoc: "SUSTITUCIÓN AYUNTAMIENTO 2DO. REGIDOR PRD",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/259.pdf",
-    subRows: "",
   },
   {
     id: 260,
@@ -17077,7 +16795,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "JUN",
     nameDoc: "SUSTITUCIÓN PTE. MPAL APIZACO VERDE",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/260.pdf",
-    subRows: "",
   },
   {
     id: 261,
@@ -17089,7 +16806,6 @@ export const dataAcuerdos2016 = [
     nameDoc:
       "SUSTITUCIÓN AYUNTAMIENTO YAHUQUEMEHCAN Y PRIMER REGIDOR PROP Y SUP VERDE",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/261.pdf",
-    subRows: "",
   },
   {
     id: 262,
@@ -17100,7 +16816,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "JUN",
     nameDoc: "SUSTITUCIÓN AYUNTAMIENTO TETLATLAHUCA PT",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/262.pdf",
-    subRows: "",
   },
   {
     id: 263,
@@ -17111,7 +16826,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "JUN",
     nameDoc: "SUSTITUCIÓN AYUNTAMIENTO TERRENATE 2 REGIDOR PANAL",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/263.pdf",
-    subRows: "",
   },
   {
     id: 264,
@@ -17122,7 +16836,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "JUN",
     nameDoc: "SUSTITUCIÓN AYUNTAMIENTO TLAXCO PANAL",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/264.pdf",
-    subRows: "",
   },
   {
     id: 265,
@@ -17133,7 +16846,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "JUN",
     nameDoc: "SUSTITUCIÓN AYUNTAMIENTO DE ATLTZAYANCA MORENA",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/265.pdf",
-    subRows: "",
   },
   {
     id: 266,
@@ -17144,7 +16856,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "JUN",
     nameDoc: "SUSTITUCIÓN AYUNTAMIENTO NATIVITAS MORENA",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/266.pdf",
-    subRows: "",
   },
   {
     id: 267,
@@ -17155,7 +16866,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "JUN",
     nameDoc: "SUSTITUCIÓN AYUNTAMIENTO TLAXCALA MORENA",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/267.pdf",
-    subRows: "",
   },
   {
     id: 268,
@@ -17167,7 +16877,6 @@ export const dataAcuerdos2016 = [
     nameDoc:
       "SUSTITUCIÓN PRIMER REGIDORA PROPIETARIA Y SUPLENTE TETLA DE LA SOLIDARIDAD MORENA",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/268.pdf",
-    subRows: "",
   },
   {
     id: 269,
@@ -17178,7 +16887,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "JUN",
     nameDoc: "SUSTITUCIÓN TERCER REGIDORA SUPLENTE TOTOLAC MORENA",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/269.pdf",
-    subRows: "",
   },
   {
     id: 270,
@@ -17189,7 +16897,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "JUN",
     nameDoc: "SUSTITUCIÓN AYUNTAMIENTO HUAMANTLA 1REGIDOR PAC",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/270.pdf",
-    subRows: "",
   },
   {
     id: 271,
@@ -17200,7 +16907,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "JUN",
     nameDoc: "SUSTITUCIÓN PRESIDENCIA DE COMUNIDAD DE COLHUACA CONTLA PAC",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/271.pdf",
-    subRows: "",
   },
   {
     id: 272,
@@ -17211,7 +16917,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "JUN",
     nameDoc: "SUSTITUCIÓN  CONSEJERO ELECTORAL CONSEJO DISTRITAL 10 HUAMANTLA",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/272.pdf",
-    subRows: "",
   },
   {
     id: 273,
@@ -17222,7 +16927,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "JUN",
     nameDoc: "CELULARES",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/273.pdf",
-    subRows: "",
   },
   {
     id: 274,
@@ -17233,7 +16937,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "JUN",
     nameDoc: "SUSTITUCIÓN 1ER. REGIDOR MUNICIPAL APIZACO PRD",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/274.pdf",
-    subRows: "",
   },
   {
     id: 275,
@@ -17244,7 +16947,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "JUN",
     nameDoc: "SUSTITUCIÓN PRIMER REGIDORA PROPIETARIA SAN JUAN HUACTZINCO PVEM",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/275.pdf",
-    subRows: "",
   },
   {
     id: 276,
@@ -17256,7 +16958,6 @@ export const dataAcuerdos2016 = [
     nameDoc:
       "SUSTITUCIÓN AYUNTAMIENTO SAN FRANCISCO TETLANOHCAN Y AMAXAC DE GUERRERO PVEM",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/276.pdf",
-    subRows: "",
   },
   {
     id: 277,
@@ -17267,7 +16968,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "JUN",
     nameDoc: "SUSTITUCIÓN AYUNTAMIENTO PVEM MUN CONTLA DE JUAN C 1ER REGIDOR",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/277.pdf",
-    subRows: "",
   },
   {
     id: 278,
@@ -17278,7 +16978,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "JUN",
     nameDoc: "SUSTITUCIÓN PC SAN HIPÓLITO CHIMALPA PT",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/278.pdf",
-    subRows: "",
   },
   {
     id: 279,
@@ -17290,7 +16989,6 @@ export const dataAcuerdos2016 = [
     nameDoc:
       "SUSTITUCIÓN PRIMER REGIDORA PROPIETARIA APETATITLÁN DE ANTONIO CARVAJAL  PES",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/279.pdf",
-    subRows: "",
   },
   {
     id: 280,
@@ -17301,7 +16999,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "JUN",
     nameDoc: "SUSTITUCIÓN AYUNTAMIENTO PES 1 REGIDOR TEACALCO SPM",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/280.pdf",
-    subRows: "",
   },
   {
     id: 281,
@@ -17312,7 +17009,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "JUN",
     nameDoc: "SUSTITUCIÓN AYUNTAMIENTO PES 1ER Y4TO REGIDOR SPM",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/281.pdf",
-    subRows: "",
   },
 
   {
@@ -17324,7 +17020,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "JUN",
     nameDoc: "MODELO OPERATIVO PAQUETES",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/283.pdf",
-    subRows: "",
   },
   {
     id: 284,
@@ -17335,7 +17030,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "JUN",
     nameDoc: "SUTITUCIÓN AYUNTAMIENTO TENANCINGO Y SAN DAMIÁN TEXOLOC MORENA",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/284.pdf",
-    subRows: "",
   },
   {
     id: 285,
@@ -17346,7 +17040,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "JUN",
     nameDoc: "PROCEDIMIENTO CONTINUACIÓN COMPUTO DISTRITAL 14",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/285.pdf",
-    subRows: "",
   },
   {
     id: 286,
@@ -17357,7 +17050,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "JUN",
     nameDoc: "CÓMPUTO Y DECLARACIÓN DE VALIDEZ GOBERNADOR",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/286.pdf",
-    subRows: "",
   },
   {
     id: 287,
@@ -17369,7 +17061,6 @@ export const dataAcuerdos2016 = [
     nameDoc:
       "CANCELACIÓN DE REGISTRO POR NO ALCANZAR EL 325 SECRETARÍA 16 06 2016",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/287.pdf",
-    subRows: "",
   },
   {
     id: 288,
@@ -17380,7 +17071,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "JUN",
     nameDoc: "ASIGNACIÓN DIPUTADOS DE REPRESENTACIÓN PROPORCIONAL",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/288.pdf",
-    subRows: "",
   },
   {
     id: 289,
@@ -17391,7 +17081,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "JUN",
     nameDoc: "ASIGNACIÓN REGIDURÍAS",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/289.pdf",
-    subRows: "",
   },
   {
     id: 290,
@@ -17403,7 +17092,6 @@ export const dataAcuerdos2016 = [
     nameDoc:
       "CUMPLIMIENTO TRIBUNAL ELECTORAL DE TLAXCALA AYUNTAMIENTO DE APIZACO PRI",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/290.pdf",
-    subRows: "",
   },
   {
     id: 291,
@@ -17414,7 +17102,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "JUN",
     nameDoc: "RETIRO PROPAGANDA POLÍTICA",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/291.pdf",
-    subRows: "",
   },
   {
     id: 292,
@@ -17425,7 +17112,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "JUN",
     nameDoc: "SERVICIO PROFESIONAL ELECTORAL NACIONAL",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/292.pdf",
-    subRows: "",
   },
   {
     id: 293,
@@ -17436,7 +17122,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "JUL",
     nameDoc: "REGIDURÍAS ITE CUMPLIMIENTO DE SENTENCIA TET JDC 250 2016",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/293.pdf",
-    subRows: "",
   },
   {
     id: 294,
@@ -17458,7 +17143,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "JUL",
     nameDoc: "COMITÉ DE TRANSPARENCIA",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/295.pdf",
-    subRows: "",
   },
   {
     id: 296,
@@ -17469,7 +17153,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "AGO",
     nameDoc: "SANCIÓN PAC",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/296.pdf",
-    subRows: "",
   },
 
   {
@@ -17479,16 +17162,9 @@ export const dataAcuerdos2016 = [
     dateDoc: "30-AGO",
     numDoc: "ITE-CG 297-2016",
     monthDoc: "AGO",
-    nameDoc: "",
-    link: "",
-    subRows: [
-      {
-        typeDoc: "",
-        nameDoc: "ANEXO PRESUPUESTO AGOSTO",
-        link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/297.1.pdf",
-        subRows: "",
-      },
-    ],
+    nameDoc: "SANCIÓN-PAC",
+    titleAnexo1: "ANEXO PRESUPUESTO AGOSTO",
+    pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/297.1.pdf",
   },
   {
     id: 298,
@@ -17499,7 +17175,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "SEP",
     nameDoc: "REGIDORA AMAXAC DE GUERRERO PVEM",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/298.pdf",
-    subRows: "",
   },
   {
     id: 299,
@@ -17511,7 +17186,6 @@ export const dataAcuerdos2016 = [
     nameDoc:
       "DESIGNACIÓN DE PERSONAL PARA RECUENTO DE VOTOS MUNICIPIO TZOMPANTEPEC",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/299.pdf",
-    subRows: "",
   },
   {
     id: 300,
@@ -17522,7 +17196,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "SEP",
     nameDoc: "DECLARACIÓN DE VALIDEZ TZOMPANTEPEC",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/300.pdf",
-    subRows: "",
   },
   {
     id: 301,
@@ -17533,7 +17206,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "SEP",
     nameDoc: "DESIGNACIÓN DE PERSONAL PARA RECUENTO DE VOTOS NANACAMILPA",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/301.pdf",
-    subRows: "",
   },
   {
     id: 302,
@@ -17545,7 +17217,6 @@ export const dataAcuerdos2016 = [
     nameDoc:
       "DESIGNACIÓN DE PERSONAL PARA RECUENTO DE VOTOS DISTRITO 12 TEOLOCHOLCO",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/302.pdf",
-    subRows: "",
   },
   {
     id: 303,
@@ -17556,9 +17227,7 @@ export const dataAcuerdos2016 = [
     monthDoc: "SEP",
     nameDoc: "DECLARACIÓN DE VALIDEZ DISTRITO 12 TEOLOCHOLCO PRI PVEM PNA",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/303.pdf",
-    subRows: "",
   },
-
   {
     id: 304,
     year: "2016",
@@ -17568,22 +17237,11 @@ export const dataAcuerdos2016 = [
     monthDoc: "SEP",
     nameDoc: "VIOLENCIA POLÍTICA",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/304.pdf",
-    subRows: [
-      {
-        typeDoc: "",
-        nameDoc: "DICTAMEN PROTOCOLO VIOLENCIA CONTRA MUJERES",
-        link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/304.1.pdf",
-        subRows: "",
-      },
-      {
-        typeDoc: "",
-        nameDoc: "ANEXO ÚNICO DE DICTAMEN PROTOCOLO VIOLENCIA CONTRA MUJERES",
-        link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/304.2.pdf",
-        subRows: "",
-      },
-    ],
+    titleAnexo1: "DICTAMEN PROTOCOLO VIOLENCIA CONTRA MUJERES",
+    pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/304.1.pdf",
+    titleAnexo2: "ANEXO ÚNICO DE DICTAMEN PROTOCOLO VIOLENCIA CONTRA MUJERES",
+    pdfAnexo2: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/304.2.pdf",
   },
-
   {
     id: 305,
     year: "2016",
@@ -17593,16 +17251,9 @@ export const dataAcuerdos2016 = [
     monthDoc: "SEP",
     nameDoc: "MODIFICACIÓN SERVICIO PROFESIONAL ELECTORAL NACIONAL",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/305.pdf",
-    subRows: [
-      {
-        typeDoc: "",
-        nameDoc: "ANEXO 1",
-        link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/305.1.pdf",
-        subRows: "",
-      },
-    ],
+    titleAnexo1: "ANEXO 1",
+    pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/305.1.pdf",
   },
-
   {
     id: 306,
     year: "2016",
@@ -17612,14 +17263,8 @@ export const dataAcuerdos2016 = [
     monthDoc: "SEP",
     nameDoc: "ACUERDO PRESUPUESTO 2017",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/306.pdf",
-    subRows: [
-      {
-        typeDoc: "",
-        nameDoc: "ANEXO 1",
-        link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/306.1.pdf",
-        subRows: "",
-      },
-    ],
+    titleAnexo1: "ANEXO 1",
+    pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/306.1.pdf",
   },
   {
     id: 307,
@@ -17630,7 +17275,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "OCT",
     nameDoc: "MULTAS PREVISTAS EN LA RESOLUCIÓN INE CG598 2016",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/307.pdf",
-    subRows: "",
   },
   {
     id: 308,
@@ -17641,7 +17285,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "OCT",
     nameDoc: "INTEGRACIÓN DE SANTA CRUZ QUILEHTLA",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/308.pdf",
-    subRows: "",
   },
   {
     id: 309,
@@ -17652,7 +17295,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "NOV",
     nameDoc: "INTEGRACIÓN AYUNTAMIENTO CONTLA",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/309.pdf",
-    subRows: "",
   },
 
   {
@@ -17665,7 +17307,6 @@ export const dataAcuerdos2016 = [
     nameDoc:
       "DE EJECUCIÓN DE MULTAS EN LA RESOLUCIÓN INE CG598 2016 Y EL ACUERDO INE CG700 2016 MOVIMIENTO CIUDADANO",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/311.pdf",
-    subRows: "",
   },
   {
     id: 312,
@@ -17676,7 +17317,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "NOV",
     nameDoc: "FINANCIAMIENTO PÚBLICO",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/312.pdf",
-    subRows: "",
   },
   {
     id: 313,
@@ -17687,7 +17327,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "NOV",
     nameDoc: "CIENCIA Y TECNOLOGÍA",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/313.pdf",
-    subRows: "",
   },
   {
     id: 314,
@@ -17698,7 +17337,6 @@ export const dataAcuerdos2016 = [
     monthDoc: "NOV",
     nameDoc: "MULTAS PARTIDOS PRI Y MORENA",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/314.pdf",
-    subRows: "",
   },
   {
     id: 315,
@@ -17710,7 +17348,6 @@ export const dataAcuerdos2016 = [
     nameDoc:
       "DONDE SE READECUA EL PRESUPUESTO DE EGRESOS PARA EL EJERCICIO FISCAL 2016",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/315.pdf",
-    subRows: "",
   },
   {
     id: 316,
@@ -17722,7 +17359,6 @@ export const dataAcuerdos2016 = [
     nameDoc:
       "DECLARACIÓN DE LA VALIDEZ E INTEGRACIÓN DE LA LXII LEGISLATURA DEL CONGRESO",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2016/316.pdf",
-    subRows: "",
   },
 ];
 
@@ -25107,7 +24743,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "ENE",
     nameDoc: "SOBRE CREACION DE COMISIONES",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/1.pdf",
-    subRows: "",
   },
   {
     id: 2,
@@ -25118,7 +24753,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "ENE",
     nameDoc: "INTEGRAR LA JUNTA GENERAL EJECUTIVA",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/2.pdf",
-    subRows: "",
   },
   {
     id: 3,
@@ -25129,7 +24763,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "ENE",
     nameDoc: "RETRIBUCION CONSEJEROS",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/3.pdf",
-    subRows: "",
   },
   {
     id: 4,
@@ -25140,7 +24773,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "ENE",
     nameDoc: "PROCEDIMIENTOS PJS",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/4.pdf",
-    subRows: "",
   },
   {
     id: 5,
@@ -25151,7 +24783,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "ENE",
     nameDoc: "CONVOCATORIA DIRECCIONES",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/5.pdf",
-    subRows: "",
   },
   {
     id: 6,
@@ -25162,7 +24793,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "FEB",
     nameDoc: "SUSPENSIÓN DEMARCACIÓN DISTRITAL",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/6.pdf",
-    subRows: "",
   },
   {
     id: 7,
@@ -25173,7 +24803,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "FEB",
     nameDoc: "FECHA DE INICIO DEL PROCESO ELECTORAL",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/7.pdf",
-    subRows: "",
   },
   {
     id: 8,
@@ -25184,7 +24813,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "FEB",
     nameDoc: "REGIDORES 04",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/8.pdf",
-    subRows: "",
   },
   {
     id: 9,
@@ -25195,7 +24823,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "FEB",
     nameDoc: "NOMBRAMIENTO DIRECTOR DE ORGANIZACION",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/9.pdf",
-    subRows: "",
   },
   {
     id: 10,
@@ -25206,7 +24833,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "FEB",
     nameDoc: "NOMBRAMIENTO DIRECTOR DEL SERVICIO PROFESIONAL",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/10.pdf",
-    subRows: "",
   },
   {
     id: 11,
@@ -25217,7 +24843,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "FEB",
     nameDoc: "NOMBRAMIENTO DIRECTOS ASUNTOS JURIDICOS",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/11.pdf",
-    subRows: "",
   },
   {
     id: 12,
@@ -25228,7 +24853,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "FEB",
     nameDoc: "CONVENIO UVT",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/12.pdf",
-    subRows: "",
   },
   {
     id: 13,
@@ -25239,7 +24863,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "MAR",
     nameDoc: "DE SECCIONAMIENTO",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/13.pdf",
-    subRows: "",
   },
   {
     id: 14,
@@ -25250,7 +24873,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "MAR",
     nameDoc: "RATIFICACIÓN DE VIGENCIA NORMATIVIDAD",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/14.pdf",
-    subRows: "",
   },
   {
     id: 15,
@@ -25261,7 +24883,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "MAR",
     nameDoc: "COMITE ADQUISICIONES",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/15.pdf",
-    subRows: "",
   },
   {
     id: 16,
@@ -25273,7 +24894,6 @@ export const dataAcuerdos2004 = [
     nameDoc:
       "REGLAMENTO INTERIOR DEL INSTITUTO ELECTORAL DE TLAXCALA. EN LO GENERAL",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/16.pdf",
-    subRows: "",
   },
   {
     id: 17,
@@ -25284,7 +24904,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "MAR",
     nameDoc: "REGLAMENTO DE SESIONES DEL CONSEJO GENERAL. EN LO GENERAL",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/17.pdf",
-    subRows: "",
   },
   {
     id: 18,
@@ -25296,7 +24915,6 @@ export const dataAcuerdos2004 = [
     nameDoc:
       "REGLAMENTO SESIONES CONSEJOS DISTRITALES Y MUNICIPALES. EN LO GENERAL",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/18.pdf",
-    subRows: "",
   },
   {
     id: 19,
@@ -25307,7 +24925,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "MAR",
     nameDoc: "REGLAMENTO SESIONES JUNTA GENERAL EJECUTIVA. EN LO GENERAL",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/19.pdf",
-    subRows: "",
   },
   {
     id: 20,
@@ -25318,7 +24935,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "MAR",
     nameDoc: "DEL ESTATUTO DEL SERVICIO PROFESIONAL ELECTORAL. EN LO GENERAL",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/20.pdf",
-    subRows: "",
   },
   {
     id: 21,
@@ -25330,7 +24946,6 @@ export const dataAcuerdos2004 = [
     nameDoc:
       "REGLAMENTO DE ASISTENCIA TECNICA, ELECCIÓNES POR USOS Y COSTUMBRES. EN LO GENERAL",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/21.pdf",
-    subRows: "",
   },
   {
     id: 22,
@@ -25342,7 +24957,6 @@ export const dataAcuerdos2004 = [
     nameDoc:
       "REGLAMENTO PARA EL CONOCIMIENTO DE LAS FALTAS Y APLICACIÓN DE SANCIONES ADMINISTRATIVAS. EN LO GENERAL",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/22.pdf",
-    subRows: "",
   },
   {
     id: 23,
@@ -25354,7 +24968,6 @@ export const dataAcuerdos2004 = [
     nameDoc:
       "REGLAMENTO DEL PROCEDIMIENTO PARA LA PÉRDIDA DE REGISTRO O CANCELACIÓN DE ACREDITACIÓN. EN LO GENERAL",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/23.pdf",
-    subRows: "",
   },
   {
     id: 24,
@@ -25365,7 +24978,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "MAR",
     nameDoc: "REGLAMENTO DE PRECAMPAÑAS. EN LO GENERAL",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/24.pdf",
-    subRows: "",
   },
   {
     id: 25,
@@ -25377,7 +24989,6 @@ export const dataAcuerdos2004 = [
     nameDoc:
       "NORMATIVIDAD RELATIVA A LA FISCALIZACIÓN DEL ORIGEN.... EN LO GENERAL",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/25.pdf",
-    subRows: "",
   },
   {
     id: 26,
@@ -25389,7 +25000,6 @@ export const dataAcuerdos2004 = [
     nameDoc:
       "LINEAMIENTOS Y CRITERIOS A ENCUENTAS, SONDEOS Y ESTUDIOS DE OPINIÓN PUBLICA. EN LO GENERAL",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/26.pdf",
-    subRows: "",
   },
   {
     id: 27,
@@ -25400,7 +25010,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "ABR",
     nameDoc: "ESTRUCTURA OPERATIVA ORGANIZACIÓN",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/27.pdf",
-    subRows: "",
   },
   {
     id: 28,
@@ -25411,7 +25020,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "ABR",
     nameDoc: "CONVOCATORIA COORDINADORES",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/28.pdf",
-    subRows: "",
   },
   {
     id: 29,
@@ -25422,7 +25030,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "ABR",
     nameDoc: "QUE AUTORIZA AL PRESIDENTE CONVENIO IFE",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/29.pdf",
-    subRows: "",
   },
   {
     id: 30,
@@ -25433,7 +25040,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "ABR",
     nameDoc: "INICIATIVA",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/30.pdf",
-    subRows: "",
   },
   {
     id: 31,
@@ -25444,7 +25050,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "ABR",
     nameDoc: "CONVOCATORIA ELECCIONES",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/31.pdf",
-    subRows: "",
   },
 
   {
@@ -25456,14 +25061,8 @@ export const dataAcuerdos2004 = [
     monthDoc: "ABR",
     nameDoc: "CALENDARIO",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/32.pdf",
-    subRows: [
-      {
-        typeDoc: "",
-        nameDoc: "CALENDARIO ELECTORAL 2004",
-        link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/32.1.pdf",
-        subRows: "",
-      },
-    ],
+    titleAnexo1: "CALENDARIO ELECTORAL 2004",
+    pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/32.1.pdf",
   },
   {
     id: 33,
@@ -25474,7 +25073,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "ABR",
     nameDoc: "ACUERDO-CRITERIO- REGIDOR ACUAMANALA-PDTE",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/33.pdf",
-    subRows: "",
   },
   {
     id: 34,
@@ -25485,7 +25083,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "ABR",
     nameDoc: "DE OBSERVACIÓN ELECTORAL",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/34.pdf",
-    subRows: "",
   },
   {
     id: 35,
@@ -25496,7 +25093,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "ABR",
     nameDoc: "MONITOREO",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/35.pdf",
-    subRows: "",
   },
   {
     id: 36,
@@ -25507,7 +25103,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "MAY",
     nameDoc: "ACCIÓN NACIONAL",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/36.pdf",
-    subRows: "",
   },
   {
     id: 37,
@@ -25518,7 +25113,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "MAY",
     nameDoc: "PARTIDO REVOLUCIONARIO INSTITUCIONAL",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/37.pdf",
-    subRows: "",
   },
   {
     id: 38,
@@ -25529,7 +25123,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "MAY",
     nameDoc: "PARTIDO DE LA REVOLUCIÓN DEMOCRÁTICA",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/38.pdf",
-    subRows: "",
   },
   {
     id: 39,
@@ -25540,7 +25133,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "MAY",
     nameDoc: "PARTIDO DEL TRABAJO",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/39.pdf",
-    subRows: "",
   },
   {
     id: 40,
@@ -25551,7 +25143,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "MAY",
     nameDoc: "VERDE ECOLOGISTA",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/40.pdf",
-    subRows: "",
   },
   {
     id: 41,
@@ -25562,7 +25153,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "MAY",
     nameDoc: "CONVERGENCIA",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/41.pdf",
-    subRows: "",
   },
   {
     id: 42,
@@ -25573,7 +25163,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "MAY",
     nameDoc: "CENTRO DEMOCRATICO",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/42.pdf",
-    subRows: "",
   },
   {
     id: 43,
@@ -25584,7 +25173,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "MAY",
     nameDoc: "JUSTICIA SOCIAL",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/43.pdf",
-    subRows: "",
   },
   {
     id: 44,
@@ -25595,7 +25183,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "MAY",
     nameDoc: "SOCIEDAD NACIONALISTA",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/44.pdf",
-    subRows: "",
   },
   {
     id: 45,
@@ -25606,7 +25193,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "MAY",
     nameDoc: "ALIANZA SOCIAL",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/45.pdf",
-    subRows: "",
   },
   {
     id: 46,
@@ -25617,7 +25203,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "MAY",
     nameDoc: "LIBERAL MEXICANO",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/46.pdf",
-    subRows: "",
   },
   {
     id: 47,
@@ -25628,7 +25213,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "MAY",
     nameDoc: "MÉXICO POSIBLE",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/47.pdf",
-    subRows: "",
   },
   {
     id: 48,
@@ -25639,7 +25223,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "MAY",
     nameDoc: "FUERZA CIUDADANA",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/48.pdf",
-    subRows: "",
   },
   {
     id: 49,
@@ -25650,7 +25233,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "MAY",
     nameDoc: "OBSERVADORES",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/49.pdf",
-    subRows: "",
   },
   {
     id: 50,
@@ -25661,7 +25243,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "MAY",
     nameDoc: "PROGRAMA DE TRABAJO DIR. ORG",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/50.pdf",
-    subRows: "",
   },
   {
     id: 51,
@@ -25672,7 +25253,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "MAY",
     nameDoc: "EQUIDAD DE GÉNERO",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/51.pdf",
-    subRows: "",
   },
   {
     id: 52,
@@ -25683,7 +25263,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "MAY",
     nameDoc: "PARTIDO JUSTICIA SOCIAL SUP-JDC-809-2002",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/52.pdf",
-    subRows: "",
   },
   {
     id: 53,
@@ -25694,7 +25273,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "MAY",
     nameDoc: "CONVOCATORIA CONSEJOS DISTRITALES Y MUNICIPALES",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/53.pdf",
-    subRows: "",
   },
   {
     id: 54,
@@ -25705,7 +25283,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "JUN",
     nameDoc: "REESTRUCTURACION DE PRESUPUESTO 2004",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/54.pdf",
-    subRows: "",
   },
   {
     id: 55,
@@ -25716,7 +25293,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "JUN",
     nameDoc: "INSACULACIÓN MES BASE",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/55.pdf",
-    subRows: "",
   },
   {
     id: 56,
@@ -25727,7 +25303,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "JUN",
     nameDoc: "PROTECCIÓN DE LA ZONAS Y MONUMENTOS HISTÓRICOS",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/56.pdf",
-    subRows: "",
   },
   {
     id: 57,
@@ -25738,7 +25313,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "JUN",
     nameDoc: "ADICIÓN OBSERVACION ELECTORAL",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/57.pdf",
-    subRows: "",
   },
   {
     id: 58,
@@ -25749,7 +25323,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "JUN",
     nameDoc: "PAN",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/58.pdf",
-    subRows: "",
   },
   {
     id: 59,
@@ -25760,7 +25333,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "JUN",
     nameDoc: "PRI",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/59.pdf",
-    subRows: "",
   },
   {
     id: 60,
@@ -25771,7 +25343,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "JUN",
     nameDoc: "PRD",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/60.pdf",
-    subRows: "",
   },
   {
     id: 61,
@@ -25782,7 +25353,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "JUN",
     nameDoc: "PT",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/61.pdf",
-    subRows: "",
   },
   {
     id: 62,
@@ -25793,7 +25363,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "JUN",
     nameDoc: "CONVERGENCIA",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/62.pdf",
-    subRows: "",
   },
   {
     id: 63,
@@ -25804,7 +25373,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "JUN",
     nameDoc: "PJS",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/63.pdf",
-    subRows: "",
   },
   {
     id: 64,
@@ -25815,7 +25383,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "JUN",
     nameDoc: "PSN",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/64.pdf",
-    subRows: "",
   },
   {
     id: 65,
@@ -25826,7 +25393,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "JUN",
     nameDoc: "PLM",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/65.pdf",
-    subRows: "",
   },
   {
     id: 66,
@@ -25837,7 +25403,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "JUN",
     nameDoc: "MEX POSIBLE",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/66.pdf",
-    subRows: "",
   },
   {
     id: 67,
@@ -25848,7 +25413,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "JUN",
     nameDoc: "FUERZ CIUD",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/67.pdf",
-    subRows: "",
   },
   {
     id: 68,
@@ -25859,7 +25423,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "JUL",
     nameDoc: "INTEGRACIÓN CONSEJOS DISTRITALES",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/68.pdf",
-    subRows: "",
   },
   {
     id: 69,
@@ -25870,7 +25433,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "JUL",
     nameDoc: "SE FACULTA AL PRESIDENTE",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/69.pdf",
-    subRows: "",
   },
   {
     id: 70,
@@ -25881,7 +25443,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "JUL",
     nameDoc: "ACREDITACIÓN PRI",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/70.pdf",
-    subRows: "",
   },
   {
     id: 71,
@@ -25892,7 +25453,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "JUL",
     nameDoc: "DE LA QUEJA 001-2004",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/71.pdf",
-    subRows: "",
   },
   {
     id: 72,
@@ -25903,7 +25463,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "JUL",
     nameDoc: "EXCLUSIÓN POBLACIONES DE LA CONVOCATORIA",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/72.pdf",
-    subRows: "",
   },
   {
     id: 73,
@@ -25914,7 +25473,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "JUL",
     nameDoc: "INCLUSIÓN POBLACIONES",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/73.pdf",
-    subRows: "",
   },
   {
     id: 74,
@@ -25925,7 +25483,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "JUL",
     nameDoc: "CATÁLOGO DE COMUNIDADES USOS Y COSTUMBRES",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/74.pdf",
-    subRows: "",
   },
   {
     id: 75,
@@ -25936,7 +25493,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "JUL",
     nameDoc: "INTEGRACIÓN CONSEJOS MUNICIPALES",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/75.pdf",
-    subRows: "",
   },
   {
     id: 76,
@@ -25947,7 +25503,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "JUL",
     nameDoc: "ACREDITACIÓN PAN",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/76.pdf",
-    subRows: "",
   },
   {
     id: 77,
@@ -25958,7 +25513,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "JUL",
     nameDoc: "ACREDITACIÓN PT",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/77.pdf",
-    subRows: "",
   },
   {
     id: 78,
@@ -25969,7 +25523,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "JUL",
     nameDoc: "LICITACIÓN MATERIAL ELECTORAL",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/78.pdf",
-    subRows: "",
   },
   {
     id: 79,
@@ -25980,7 +25533,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "JUL",
     nameDoc: "SUSTITUCIÓN CONSEJEROS DISTRITALES",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/79.pdf",
-    subRows: "",
   },
 
   {
@@ -25992,7 +25544,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "SEP",
     nameDoc: "REGISTRO GOBERNADOR MARIANO",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/108.pdf",
-    subRows: "",
   },
   {
     id: 109,
@@ -26003,7 +25554,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "SEP",
     nameDoc: "REGISTRO GOBERNADOR HECTOR",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/109.pdf",
-    subRows: "",
   },
   {
     id: 110,
@@ -26014,7 +25564,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "SEP",
     nameDoc: "REGISTRO GOBERNADOR GELACIO",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/110.pdf",
-    subRows: "",
   },
   {
     id: 111,
@@ -26025,7 +25574,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "SEP",
     nameDoc: "REGISTRO DIPUTADOS PAN",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/111.pdf",
-    subRows: "",
   },
   {
     id: 112,
@@ -26036,7 +25584,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "SEP",
     nameDoc: "REGISTRO DIPUTADOS PRI-PVEM",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/112.pdf",
-    subRows: "",
   },
   {
     id: 113,
@@ -26047,7 +25594,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "SEP",
     nameDoc: "REGISTRO DIPUTADOS PRD",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/113.pdf",
-    subRows: "",
   },
   {
     id: 114,
@@ -26058,7 +25604,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "SEP",
     nameDoc: "REGISTRO DIPUTADOS PT",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/114.pdf",
-    subRows: "",
   },
   {
     id: 115,
@@ -26069,7 +25614,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "SEP",
     nameDoc: "REGISTRO DIPUTADOS CONVERG",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/115.pdf",
-    subRows: "",
   },
   {
     id: 116,
@@ -26080,7 +25624,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "SEP",
     nameDoc: "REGISTRO DIPUTADOS PCDT",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/116.pdf",
-    subRows: "",
   },
   {
     id: 117,
@@ -26091,7 +25634,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "SEP",
     nameDoc: "REGISTRO DIPUTADOS PJS",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/117.pdf",
-    subRows: "",
   },
   {
     id: 118,
@@ -26102,7 +25644,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "SEP",
     nameDoc: "ASIGNACIÓN PRERROGATIVAS PRESI",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/118.pdf",
-    subRows: "",
   },
   {
     id: 119,
@@ -26113,7 +25654,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "SEP",
     nameDoc: "LINEAMIENTOS FISC MEDIOS",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/119.pdf",
-    subRows: "",
   },
   {
     id: 120,
@@ -26124,7 +25664,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "SEP",
     nameDoc: "TIEMPOS Y ESPACIOS FORMA IGUALITARIA",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/120.pdf",
-    subRows: "",
   },
   {
     id: 121,
@@ -26135,7 +25674,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "SEP",
     nameDoc: "DE SANTIAGO TLACOCHCALCO",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/121.pdf",
-    subRows: "",
   },
   {
     id: 122,
@@ -26146,7 +25684,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "SEP",
     nameDoc: "FECHA LÍMITE PRES. COM",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/122.pdf",
-    subRows: "",
   },
   {
     id: 123,
@@ -26157,7 +25694,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "SEP",
     nameDoc: "COMISION CONSULTA INFANTIL 2004",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/123.pdf",
-    subRows: "",
   },
   {
     id: 124,
@@ -26168,7 +25704,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "SEP",
     nameDoc: "SUSTITUCION D. XIX, CUAXOMULCO Y TLAXCALA",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/124.pdf",
-    subRows: "",
   },
   {
     id: 125,
@@ -26179,7 +25714,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "SEP",
     nameDoc: "PLATAFORMA PRES D COM PAN",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/125.pdf",
-    subRows: "",
   },
   {
     id: 126,
@@ -26190,7 +25724,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "SEP",
     nameDoc: "PLATAFORMA PRI MUNIC",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/126.pdf",
-    subRows: "",
   },
   {
     id: 127,
@@ -26201,7 +25734,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "SEP",
     nameDoc: "PLATAFORMA PRES D COM PT",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/127.pdf",
-    subRows: "",
   },
   {
     id: 128,
@@ -26212,7 +25744,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "SEP",
     nameDoc: "PLATAFORMA AYUNT Y P.C.PVEM",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/128.pdf",
-    subRows: "",
   },
   {
     id: 129,
@@ -26223,7 +25754,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "SEP",
     nameDoc: "PLATAFORMA PJS MUNICIP",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/129.pdf",
-    subRows: "",
   },
   {
     id: 130,
@@ -26234,7 +25764,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "SEP",
     nameDoc: "SUSTITUCIÓN DIPUTADOS PCDT 2004",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/130.pdf",
-    subRows: "",
   },
   {
     id: 131,
@@ -26245,7 +25774,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "SEP",
     nameDoc: "CRITERIOS LEY MUNICIPAL",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/131.pdf",
-    subRows: "",
   },
 
   {
@@ -26257,7 +25785,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "SEP",
     nameDoc: "COM BOLET Y REG CAND",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/134.pdf",
-    subRows: "",
   },
   {
     id: 135,
@@ -26268,7 +25795,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "SEP",
     nameDoc: "SUSTITUCIONES CONSEJOS DISTRITALES Y MUNICIPALES",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/135.pdf",
-    subRows: "",
   },
   {
     id: 136,
@@ -26279,7 +25805,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "SEP",
     nameDoc: "DICTAMEN OBSERVADORES 2a LISTA OK",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/136.pdf",
-    subRows: "",
   },
   {
     id: 137,
@@ -26290,7 +25815,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "SEP",
     nameDoc: "SECCIÓN SÉPTIMA DE CONTLA",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/137.pdf",
-    subRows: "",
   },
   {
     id: 138,
@@ -26301,7 +25825,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "SEP",
     nameDoc: "DEFINICIÓN SITUACIÓN JURÍDICA P",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/138.pdf",
-    subRows: "",
   },
   {
     id: 139,
@@ -26312,7 +25835,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "SEP",
     nameDoc: "SUSTITUCIONES DIPUTADOS CONVERGENCIA",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/139.pdf",
-    subRows: "",
   },
   {
     id: 140,
@@ -26323,7 +25845,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "SEP",
     nameDoc: "QUEJA EXP. 10-2004",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/140.pdf",
-    subRows: "",
   },
   {
     id: 141,
@@ -26334,7 +25855,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "SEP",
     nameDoc: "REGISTRO GOBERNADOR MARÍA DEL CARMEN",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/141.pdf",
-    subRows: "",
   },
   {
     id: 142,
@@ -26345,7 +25865,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "SEP",
     nameDoc: "SUSTITUCIÓN DIPUT PT",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/142.pdf",
-    subRows: "",
   },
   {
     id: 143,
@@ -26356,7 +25875,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "SEP",
     nameDoc: "SUSTIT DIP PJS",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/143.pdf",
-    subRows: "",
   },
   {
     id: 144,
@@ -26367,7 +25885,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "SEP",
     nameDoc: "TERCERA ETAPA OBSERVADORES",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/144.pdf",
-    subRows: "",
   },
   {
     id: 145,
@@ -26378,7 +25895,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "SEP",
     nameDoc: "SUTITUCIÓN ATLAGATEPEC 20-09-04",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/145.pdf",
-    subRows: "",
   },
   {
     id: 146,
@@ -26389,7 +25905,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "SEP",
     nameDoc: "SUSTITUCION DIPUT PAN",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/146.pdf",
-    subRows: "",
   },
   {
     id: 147,
@@ -26400,7 +25915,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "SEP",
     nameDoc: "ESCRITO DE PROTESTA",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/147.pdf",
-    subRows: "",
   },
   {
     id: 148,
@@ -26411,7 +25925,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "SEP",
     nameDoc: "INCLUIR A TERRENATE CHIPILO VOTO CONST",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/148.pdf",
-    subRows: "",
   },
   {
     id: 149,
@@ -26422,7 +25935,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "SEP",
     nameDoc: "INCLUIR SANTA MARTHA SECCIÓN TERCERA DE XALOZTOC VOTO CONST",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/149.pdf",
-    subRows: "",
   },
 
   {
@@ -26434,14 +25946,8 @@ export const dataAcuerdos2004 = [
     monthDoc: "OCT",
     nameDoc: "REGISTRO AYUNTAMIENTOS",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/155.pdf",
-    subRows: [
-      {
-        typeDoc: "",
-        nameDoc: "ANEXO 1 REGISTROS DE AYUNTAMIENTOS",
-        link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/155.1.pdf",
-        subRows: "",
-      },
-    ],
+    titleAnexo1: "ANEXO 1 REGISTROS DE AYUNTAMIENTOS",
+    pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/155.1.pdf",
   },
 
   {
@@ -26453,14 +25959,8 @@ export const dataAcuerdos2004 = [
     monthDoc: "OCT",
     nameDoc: "REGISTRO PRESIDENTES DE COMUNIDAD",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/156.pdf",
-    subRows: [
-      {
-        typeDoc: "",
-        nameDoc: "ANEXO REGISTROS DE PRESIDENCIAS DE COMUNIDAD",
-        link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/156.1.pdf",
-        subRows: "",
-      },
-    ],
+    titleAnexo1: "ANEXO REGISTROS DE PRESIDENCIAS DE COMUNIDAD",
+    pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/156.1.pdf",
   },
   {
     id: 157,
@@ -26471,7 +25971,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "OCT",
     nameDoc: "NO REGISTRO AYUNTAMIENTOS",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/157.pdf",
-    subRows: "",
   },
   {
     id: 158,
@@ -26482,7 +25981,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "OCT",
     nameDoc: "NO REGISTRO PRESIDENCIAS DE COMUNIDAD",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/158.pdf",
-    subRows: "",
   },
   {
     id: 159,
@@ -26493,7 +25991,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "OCT",
     nameDoc: "ASIGNACIÓN PRERROGATIVAS AYUNTAMIENTOS",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/159.pdf",
-    subRows: "",
   },
   {
     id: 160,
@@ -26504,7 +26001,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "OCT",
     nameDoc: "SUSTITUCIÓN DIPUTADOS PCDT y PC",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/160.pdf",
-    subRows: "",
   },
   {
     id: 161,
@@ -26515,7 +26011,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "OCT",
     nameDoc: "SUSTITUCIÓN TOTAL DE AYUNTAMIENTOS",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/161.pdf",
-    subRows: "",
   },
   {
     id: 162,
@@ -26526,7 +26021,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "OCT",
     nameDoc: "NO APRUEBA SUSTITUCIÓN AYUNTAMIENTOS",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/162.pdf",
-    subRows: "",
   },
   {
     id: 163,
@@ -26538,7 +26032,6 @@ export const dataAcuerdos2004 = [
     nameDoc:
       "SUSTITUCIÓN CONSEJOS DISTRITALES VII,XVI y XIX y CONSEJOS MUNICIPALES",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/163.pdf",
-    subRows: "",
   },
   {
     id: 164,
@@ -26549,7 +26042,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "OCT",
     nameDoc: "TRANSFERENCIA PARA PROGRAMAS DEL IET",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/164.pdf",
-    subRows: "",
   },
   {
     id: 165,
@@ -26560,7 +26052,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "OCT",
     nameDoc: "CUMPLIMIENTO VICTOR CESAR",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/165.pdf",
-    subRows: "",
   },
   {
     id: 166,
@@ -26571,7 +26062,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "OCT",
     nameDoc: "QUEJA EXP. 011-2004",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/166.pdf",
-    subRows: "",
   },
   {
     id: 167,
@@ -26582,7 +26072,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "OCT",
     nameDoc: "CUMPLIMIENTO EJECUTORIA",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/167.pdf",
-    subRows: "",
   },
   {
     id: 168,
@@ -26593,7 +26082,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "OCT",
     nameDoc: "REGISTRO CESAR TETLA",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/168.pdf",
-    subRows: "",
   },
   {
     id: 169,
@@ -26604,7 +26092,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "OCT",
     nameDoc: "CUMPLIMIENTO DE BOLETAS ELECTORALES",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/169.pdf",
-    subRows: "",
   },
   {
     id: 170,
@@ -26615,7 +26102,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "OCT",
     nameDoc: "CUMPLIMIENTO TZOMPANTEPEC",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/170.pdf",
-    subRows: "",
   },
   {
     id: 171,
@@ -26626,7 +26112,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "OCT",
     nameDoc: "REGISTRO SECCION SEXTA BARRIO GRANDE ok",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/171.pdf",
-    subRows: "",
   },
   {
     id: 172,
@@ -26637,7 +26122,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "OCT",
     nameDoc: "SUSTIT. DIP SUPLEN ok",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/172.pdf",
-    subRows: "",
   },
   {
     id: 173,
@@ -26648,7 +26132,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "OCT",
     nameDoc: "SUSTITUCION AYUNTS COMPLETO",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/173.pdf",
-    subRows: "",
   },
   {
     id: 174,
@@ -26659,7 +26142,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "OCT",
     nameDoc: "004-2004",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/174.pdf",
-    subRows: "",
   },
   {
     id: 175,
@@ -26670,7 +26152,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "OCT",
     nameDoc: "008-2004",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/175.pdf",
-    subRows: "",
   },
   {
     id: 176,
@@ -26681,7 +26162,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "OCT",
     nameDoc: "EGRESOS 2005",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/176.pdf",
-    subRows: "",
   },
   {
     id: 177,
@@ -26692,7 +26172,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "OCT",
     nameDoc: "EXCLUSIÓN SANTA MARTHA",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/177.pdf",
-    subRows: "",
   },
   {
     id: 178,
@@ -26703,7 +26182,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "OCT",
     nameDoc: "CUMPLIMIENTO CALPULALPAN",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/178.pdf",
-    subRows: "",
   },
   {
     id: 179,
@@ -26714,7 +26192,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "OCT",
     nameDoc: "CUMPLIMIENTO TLAXCO",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/179.pdf",
-    subRows: "",
   },
   {
     id: 180,
@@ -26725,7 +26202,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "OCT",
     nameDoc: "CUMPLIMIENTO TZOMPANTEPEC XALTOCANok",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/180.pdf",
-    subRows: "",
   },
   {
     id: 181,
@@ -26736,7 +26212,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "OCT",
     nameDoc: "CUMPLIMIENTO PAPALOTLA NATIVITAS",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/181.pdf",
-    subRows: "",
   },
   {
     id: 182,
@@ -26747,7 +26222,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "OCT",
     nameDoc: "APETATITLAN VICTOR HUGO",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/182.pdf",
-    subRows: "",
   },
   {
     id: 183,
@@ -26758,7 +26232,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "OCT",
     nameDoc: "TZOMPANTEPEC CUMPLIMIENTO",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/183.pdf",
-    subRows: "",
   },
   {
     id: 184,
@@ -26769,7 +26242,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "OCT",
     nameDoc: "CUMPLIMIENTO TENANCINGO",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/184.pdf",
-    subRows: "",
   },
   {
     id: 185,
@@ -26780,7 +26252,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "OCT",
     nameDoc: "CUMPLIMIENTO JOSE ANTONIO AGUILAR DURAN",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/185.pdf",
-    subRows: "",
   },
   {
     id: 186,
@@ -26791,7 +26262,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "OCT",
     nameDoc: "CUMPLIMENTO REGIDOR",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/186.pdf",
-    subRows: "",
   },
   {
     id: 187,
@@ -26802,7 +26272,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "OCT",
     nameDoc: "AMPLIACIÓN DEL CG 105/2004 ACREDITACIÓN REPRESENTANTES GENERALES",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/105_a.pdf",
-    subRows: "",
   },
   {
     id: 188,
@@ -26813,7 +26282,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "OCT",
     nameDoc: "INTEGRACION,NUMERO Y UBICACION DECASILLAS",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/187.pdf",
-    subRows: "",
   },
   {
     id: 189,
@@ -26824,7 +26292,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "OCT",
     nameDoc: "LISTA NOMINAL-PRESIDENCIAS DE COMUNIDAD",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/188.pdf",
-    subRows: "",
   },
   {
     id: 190,
@@ -26835,7 +26302,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "OCT",
     nameDoc: "CIERRE DE CAMPAÑA",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/189.pdf",
-    subRows: "",
   },
   {
     id: 191,
@@ -26846,7 +26312,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "OCT",
     nameDoc: "SUSTITUCIONES DE AYUNTAMIENTOS",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/190.pdf",
-    subRows: "",
   },
   {
     id: 192,
@@ -26857,7 +26322,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "OCT",
     nameDoc: "SUSTITUCIONES CONSEJOS DIST Y MUNIC",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/191.pdf",
-    subRows: "",
   },
   {
     id: 193,
@@ -26868,7 +26332,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "OCT",
     nameDoc: "MEDIDAS DE SEGURIDAD DE LAS BOLETAS ELECTORALES",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/192.pdf",
-    subRows: "",
   },
   {
     id: 194,
@@ -26879,7 +26342,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "OCT",
     nameDoc: "SUP-JDC-554-2004",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/193.pdf",
-    subRows: "",
   },
   {
     id: 195,
@@ -26890,7 +26352,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "OCT",
     nameDoc: "SARJE",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/194.pdf",
-    subRows: "",
   },
   {
     id: 196,
@@ -26901,7 +26362,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "OCT",
     nameDoc: "SUSTITUCIÓN DIP SUP Y 1 REG PROP PRD PRESENTADO EN SESIÓN",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/195.pdf",
-    subRows: "",
   },
   {
     id: 197,
@@ -26912,7 +26372,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "OCT",
     nameDoc: "LISTA 3 OBSERVADORES",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/196.pdf",
-    subRows: "",
   },
   {
     id: 198,
@@ -26923,7 +26382,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "OCT",
     nameDoc: "TOPES DE CAMPAÑA COMUNIDADES",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/197.pdf",
-    subRows: "",
   },
   {
     id: 199,
@@ -26934,7 +26392,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "OCT",
     nameDoc: "REC.REV. 01",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/198.pdf",
-    subRows: "",
   },
   {
     id: 200,
@@ -26945,7 +26402,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "OCT",
     nameDoc: "REC.REV. 02",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/199.pdf",
-    subRows: "",
   },
   {
     id: 201,
@@ -26956,7 +26412,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "OCT",
     nameDoc: "QUEJA 025-04",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/200.pdf",
-    subRows: "",
   },
   {
     id: 202,
@@ -26967,7 +26422,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "OCT",
     nameDoc: "QUEJA 036-04",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/201.pdf",
-    subRows: "",
   },
   {
     id: 203,
@@ -26978,7 +26432,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "OCT",
     nameDoc: "MODIFICACIÓN DE ACTAS",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/202.pdf",
-    subRows: "",
   },
   {
     id: 204,
@@ -26989,7 +26442,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "NOV",
     nameDoc: "CUMPLIMIENTO PJS II T173-04",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/203.pdf",
-    subRows: "",
   },
   {
     id: 205,
@@ -27000,7 +26452,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "NOV",
     nameDoc: "SUSTITUCION CONSEJOS DTALES. Y MPALES",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/204.pdf",
-    subRows: "",
   },
   {
     id: 206,
@@ -27011,7 +26462,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "NOV",
     nameDoc: "CONVENIO IET-IEDF",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/205.pdf",
-    subRows: "",
   },
   {
     id: 207,
@@ -27022,7 +26472,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "NOV",
     nameDoc: "QUEJA 031-04",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/206.pdf",
-    subRows: "",
   },
   {
     id: 208,
@@ -27033,7 +26482,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "NOV",
     nameDoc: "QUEJA 099-04",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/207.pdf",
-    subRows: "",
   },
   {
     id: 209,
@@ -27044,7 +26492,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "NOV",
     nameDoc: "QUEJA 101-2004",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/208.pdf",
-    subRows: "",
   },
   {
     id: 210,
@@ -27055,7 +26502,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "NOV",
     nameDoc: "SUSTITUCIONES PVEM SESION 03-11-04",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/209.pdf",
-    subRows: "",
   },
   {
     id: 211,
@@ -27066,7 +26512,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "NOV",
     nameDoc: "CUMPLIMIENTO APETATI VICTOR",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/210.pdf",
-    subRows: "",
   },
   {
     id: 212,
@@ -27077,7 +26522,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "NOV",
     nameDoc: "SUSTITUCIÓN INTEGRANTES DE MESAS DIR. DE CAS",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/211.pdf",
-    subRows: "",
   },
   {
     id: 213,
@@ -27088,7 +26532,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "NOV",
     nameDoc: "CUMPLIMIENTO ISABEL",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/212.pdf",
-    subRows: "",
   },
   {
     id: 214,
@@ -27099,7 +26542,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "NOV",
     nameDoc: "CUMPLIMIENTO REGIDOR PCDT",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/213.pdf",
-    subRows: "",
   },
   {
     id: 215,
@@ -27110,7 +26552,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "NOV",
     nameDoc: "SUSTITUCIONES PCDT Y PRD",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/214.pdf",
-    subRows: "",
   },
   {
     id: 216,
@@ -27121,7 +26562,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "NOV",
     nameDoc: "SUSTITUCIONES DE FUNCIONARIOS MESAS DIRECTIVAS DE CASILLA",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/215.pdf",
-    subRows: "",
   },
   {
     id: 217,
@@ -27132,7 +26572,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "NOV",
     nameDoc: "SUSTITUCIONES CONSEJOS MUNICIPALES",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/216.pdf",
-    subRows: "",
   },
   {
     id: 218,
@@ -27143,7 +26582,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "NOV",
     nameDoc: "REC.REV.03-2004",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/217.pdf",
-    subRows: "",
   },
   {
     id: 219,
@@ -27154,7 +26592,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "NOV",
     nameDoc: "REC.REV.04-2004",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/218.pdf",
-    subRows: "",
   },
   {
     id: 220,
@@ -27165,7 +26602,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "NOV",
     nameDoc: "QUEJA 26-04",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/219.pdf",
-    subRows: "",
   },
   {
     id: 221,
@@ -27176,7 +26612,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "NOV",
     nameDoc: "QUEJA 65-04",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/220.pdf",
-    subRows: "",
   },
   {
     id: 222,
@@ -27187,7 +26622,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "NOV",
     nameDoc: "EXPEDIENTE 096-04",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/221.pdf",
-    subRows: "",
   },
   {
     id: 223,
@@ -27198,7 +26632,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "NOV",
     nameDoc: "QUEJA 102-04",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/222.pdf",
-    subRows: "",
   },
   {
     id: 224,
@@ -27209,7 +26642,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "NOV",
     nameDoc: "CUMPLIMIENTO TLAXCO PAN",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/223.pdf",
-    subRows: "",
   },
   {
     id: 225,
@@ -27220,7 +26652,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "NOV",
     nameDoc: "CUMPLIMIENTO SANTA MARTHA XALOSTOC",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/224.pdf",
-    subRows: "",
   },
   {
     id: 226,
@@ -27231,7 +26662,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "NOV",
     nameDoc: "REC.REV.05-2004",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/225.pdf",
-    subRows: "",
   },
   {
     id: 227,
@@ -27242,7 +26672,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "NOV",
     nameDoc: "CUMPLIMIENTO SUP-JRC-623-2004 MARCO EDGARDO SÁNCHEZ ORTEGA",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/226.pdf",
-    subRows: "",
   },
   {
     id: 228,
@@ -27253,7 +26682,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "NOV",
     nameDoc: "CUMPLIMIENTO SARJE",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/227.pdf",
-    subRows: "",
   },
   {
     id: 229,
@@ -27264,7 +26692,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "NOV",
     nameDoc: "SUST REGIDORES 13-11-04",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/228.pdf",
-    subRows: "",
   },
   {
     id: 230,
@@ -27275,7 +26702,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "NOV",
     nameDoc: "SUST DIPUTADOS 13-11-04",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/229.pdf",
-    subRows: "",
   },
   {
     id: 231,
@@ -27286,7 +26712,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "NOV",
     nameDoc: "IMPRESION BOLETAS EXTRAS",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/230.pdf",
-    subRows: "",
   },
   {
     id: 232,
@@ -27297,7 +26722,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "NOV",
     nameDoc: "REVOCACIÓN MARCO EDGARDO",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/231.pdf",
-    subRows: "",
   },
   {
     id: 233,
@@ -27308,7 +26732,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "NOV",
     nameDoc: "GOBERNADOR",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/232.pdf",
-    subRows: "",
   },
   {
     id: 234,
@@ -27319,7 +26742,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "NOV",
     nameDoc: "ASIGNACIÓN DIPUTADOS RP",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/233.pdf",
-    subRows: "",
   },
   {
     id: 235,
@@ -27330,7 +26752,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "NOV",
     nameDoc: "ESCRUT Y COMPUT TETLANOHCAN,LA MAGDALENA,ESPAÑITA",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/234.pdf",
-    subRows: "",
   },
   {
     id: 236,
@@ -27341,7 +26762,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "NOV",
     nameDoc: "CÓMPUTO TETLANOHCAN, TLALTELULCO Y ESPAÑITA",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/235.pdf",
-    subRows: "",
   },
   {
     id: 237,
@@ -27352,7 +26772,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "NOV",
     nameDoc: "INTEGRACIÓN AYUNTAMIENTOS 2004 XALOZTOC",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/236.pdf",
-    subRows: "",
   },
   {
     id: 238,
@@ -27363,7 +26782,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "DIC",
     nameDoc: "EXPEDIENTE 005-2004",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/237.pdf",
-    subRows: "",
   },
   {
     id: 239,
@@ -27374,7 +26792,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "DIC",
     nameDoc: "EXPEDIENTE 006-2004",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/238.pdf",
-    subRows: "",
   },
   {
     id: 240,
@@ -27385,7 +26802,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "DIC",
     nameDoc: "EXPEDIENTE 015-2004",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/239.pdf",
-    subRows: "",
   },
   {
     id: 241,
@@ -27396,7 +26812,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "DIC",
     nameDoc: "EXPEDIENTE 022-2004",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/240.pdf",
-    subRows: "",
   },
   {
     id: 242,
@@ -27407,7 +26822,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "DIC",
     nameDoc: "EXPEDIENTE 027-2004",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/241.pdf",
-    subRows: "",
   },
   {
     id: 243,
@@ -27418,7 +26832,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "DIC",
     nameDoc: "EXPEDIENTE 029-2004",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/242.pdf",
-    subRows: "",
   },
   {
     id: 244,
@@ -27429,7 +26842,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "DIC",
     nameDoc: "EXPEDIENTE 030-2004",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/243.pdf",
-    subRows: "",
   },
   {
     id: 245,
@@ -27440,7 +26852,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "DIC",
     nameDoc: "EXPEDIENTE 034-2004",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/244.pdf",
-    subRows: "",
   },
   {
     id: 246,
@@ -27451,7 +26862,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "DIC",
     nameDoc: "EXPEDIENTE 057-2004",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/245.pdf",
-    subRows: "",
   },
   {
     id: 247,
@@ -27462,7 +26872,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "DIC",
     nameDoc: "EXPEDIENTE 075-2004",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/246.pdf",
-    subRows: "",
   },
 
   {
@@ -27474,7 +26883,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "DIC",
     nameDoc: "EXPEDIENTE 077-2004",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/248.pdf",
-    subRows: "",
   },
   {
     id: 250,
@@ -27485,7 +26893,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "DIC",
     nameDoc: "EXPEDIENTE 092-2004",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/249.pdf",
-    subRows: "",
   },
   {
     id: 251,
@@ -27496,7 +26903,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "DIC",
     nameDoc: "EXPEDIENTE 094-2004",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/250.pdf",
-    subRows: "",
   },
   {
     id: 252,
@@ -27507,7 +26913,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "DIC",
     nameDoc: "EXPEDIENTE 098-2004",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/251.pdf",
-    subRows: "",
   },
   {
     id: 253,
@@ -27518,7 +26923,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "DIC",
     nameDoc: "EXPEDIENTE 104-2004",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/252.pdf",
-    subRows: "",
   },
   {
     id: 254,
@@ -27529,7 +26933,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "DIC",
     nameDoc: "EXPEDIENTE 105-2004",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/253.pdf",
-    subRows: "",
   },
   {
     id: 255,
@@ -27540,7 +26943,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "DIC",
     nameDoc: "EXPEDIENTE 108-2004",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/254.pdf",
-    subRows: "",
   },
   {
     id: 256,
@@ -27551,7 +26953,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "DIC",
     nameDoc: "EXPEDIENTE 113-2004",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/255.pdf",
-    subRows: "",
   },
   {
     id: 257,
@@ -27562,7 +26963,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "DIC",
     nameDoc: "EXPEDIENTE 116-2004",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/256.pdf",
-    subRows: "",
   },
   {
     id: 258,
@@ -27573,7 +26973,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "DIC",
     nameDoc: "EXPEDIENTE 118-2004",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/257.pdf",
-    subRows: "",
   },
   {
     id: 259,
@@ -27584,7 +26983,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "DIC",
     nameDoc: "EXPEDIENTE 119-2004",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/258.pdf",
-    subRows: "",
   },
   {
     id: 260,
@@ -27595,7 +26993,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "DIC",
     nameDoc: "EXPEDIENTE 122-2004",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/259.pdf",
-    subRows: "",
   },
   {
     id: 261,
@@ -27606,7 +27003,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "DIC",
     nameDoc: "EXPEDIENTE-124-2004",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/260.pdf",
-    subRows: "",
   },
   {
     id: 262,
@@ -27617,7 +27013,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "DIC",
     nameDoc: "EXPEDIENTE 127-2004",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/261.pdf",
-    subRows: "",
   },
   {
     id: 263,
@@ -27628,7 +27023,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "DIC",
     nameDoc: "EXPEDIENTE 132-2004",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/262.pdf",
-    subRows: "",
   },
   {
     id: 264,
@@ -27639,7 +27033,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "DIC",
     nameDoc: "EXPEDIENTE 133-2004",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/263.pdf",
-    subRows: "",
   },
   {
     id: 265,
@@ -27650,7 +27043,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "DIC",
     nameDoc: "EXPEDIENTE 135-2004",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/264.pdf",
-    subRows: "",
   },
   {
     id: 266,
@@ -27661,7 +27053,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "DIC",
     nameDoc: "EXPEDIENTE 144-2004",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/265.pdf",
-    subRows: "",
   },
   {
     id: 267,
@@ -27672,7 +27063,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "DIC",
     nameDoc: "EXPEDIENTE 145-2004",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/266.pdf",
-    subRows: "",
   },
   {
     id: 268,
@@ -27683,7 +27073,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "DIC",
     nameDoc: "EXPEDIENTE 146-2004",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/267.pdf",
-    subRows: "",
   },
   {
     id: 269,
@@ -27694,7 +27083,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "DIC",
     nameDoc: "EXPEDIENTE 150-2004",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/268.pdf",
-    subRows: "",
   },
   {
     id: 270,
@@ -27705,7 +27093,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "DIC",
     nameDoc: "EXPEDIENTE 152-2004",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/269.pdf",
-    subRows: "",
   },
   {
     id: 271,
@@ -27716,7 +27103,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "DIC",
     nameDoc: "EXPEDIENTE 153-2004",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/270.pdf",
-    subRows: "",
   },
   {
     id: 272,
@@ -27727,7 +27113,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "DIC",
     nameDoc: "RECURSO DE RESOLUCIÓN 06-2004",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/271.pdf",
-    subRows: "",
   },
   {
     id: 273,
@@ -27738,7 +27123,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "DIC",
     nameDoc: "REC.REV.07-2004 Y ACUMULADO",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/272.pdf",
-    subRows: "",
   },
   {
     id: 274,
@@ -27749,7 +27133,6 @@ export const dataAcuerdos2004 = [
     monthDoc: "DIC",
     nameDoc: "READECUACIÓN PRESUPUESTO 2005",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2004/273.pdf",
-    subRows: "",
   },
 ];
 
@@ -27762,7 +27145,6 @@ export const dataAcuerdos2003 = [
     monthDoc: "FEB",
     nameDoc: "CALENDARIO DE SESIONES ORDINARIAS 2003",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2003/1.pdf",
-    subRows: "",
   },
   {
     id: 2,
@@ -27772,7 +27154,6 @@ export const dataAcuerdos2003 = [
     monthDoc: "ABR",
     nameDoc: "FINANCIAMIENTO CONVERGENCIA",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2003/2.pdf",
-    subRows: "",
   },
   {
     id: 3,
@@ -27782,7 +27163,6 @@ export const dataAcuerdos2003 = [
     monthDoc: "ABR",
     nameDoc: "FINANCIAMIENTO FC",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2003/3.pdf",
-    subRows: "",
   },
   {
     id: 4,
@@ -27792,7 +27172,6 @@ export const dataAcuerdos2003 = [
     monthDoc: "ABR",
     nameDoc: "FINANCIAMIENTO MP",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2003/4.pdf",
-    subRows: "",
   },
   {
     id: 5,
@@ -27802,7 +27181,6 @@ export const dataAcuerdos2003 = [
     monthDoc: "ABR",
     nameDoc: "FINANCIAMIENTO PAN",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2003/5.pdf",
-    subRows: "",
   },
   {
     id: 6,
@@ -27812,7 +27190,6 @@ export const dataAcuerdos2003 = [
     monthDoc: "ABR",
     nameDoc: "FINANCIAMIENTO PAS",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2003/6.pdf",
-    subRows: "",
   },
   {
     id: 7,
@@ -27822,7 +27199,6 @@ export const dataAcuerdos2003 = [
     monthDoc: "ABR",
     nameDoc: "FINANCIAMIENTO PCDT",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2003/7.pdf",
-    subRows: "",
   },
   {
     id: 8,
@@ -27832,7 +27208,6 @@ export const dataAcuerdos2003 = [
     monthDoc: "ABR",
     nameDoc: "FINANCIAMIENTO PJS",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2003/8.pdf",
-    subRows: "",
   },
   {
     id: 9,
@@ -27842,7 +27217,6 @@ export const dataAcuerdos2003 = [
     monthDoc: "ABR",
     nameDoc: "FINANCIAMIENTO PLM",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2003/9.pdf",
-    subRows: "",
   },
   {
     id: 10,
@@ -27852,7 +27226,6 @@ export const dataAcuerdos2003 = [
     monthDoc: "ABR",
     nameDoc: "FINANCIAMIENTO PRD",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2003/10.pdf",
-    subRows: "",
   },
   {
     id: 11,
@@ -27862,7 +27235,6 @@ export const dataAcuerdos2003 = [
     monthDoc: "ABR",
     nameDoc: "FINANCIAMIENTO PRI",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2003/11.pdf",
-    subRows: "",
   },
   {
     id: 12,
@@ -27872,7 +27244,6 @@ export const dataAcuerdos2003 = [
     monthDoc: "ABR",
     nameDoc: "FINANCIAMIENTO PSN",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2003/12.pdf",
-    subRows: "",
   },
   {
     id: 13,
@@ -27882,7 +27253,6 @@ export const dataAcuerdos2003 = [
     monthDoc: "ABR",
     nameDoc: "FINANCIAMIENTO PT",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2003/13.pdf",
-    subRows: "",
   },
   {
     id: 14,
@@ -27892,7 +27262,6 @@ export const dataAcuerdos2003 = [
     monthDoc: "ABR",
     nameDoc: "FINANCIAMIENTO PVEM",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2003/14.pdf",
-    subRows: "",
   },
   {
     id: 15,
@@ -27902,7 +27271,6 @@ export const dataAcuerdos2003 = [
     monthDoc: "MAY",
     nameDoc: "DICTAMEN PT",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2003/15.pdf",
-    subRows: "",
   },
   {
     id: 16,
@@ -27912,7 +27280,6 @@ export const dataAcuerdos2003 = [
     monthDoc: "MAY",
     nameDoc: "DICTAMEN CONVERGENCIA",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2003/16.pdf",
-    subRows: "",
   },
   {
     id: 17,
@@ -27922,7 +27289,6 @@ export const dataAcuerdos2003 = [
     monthDoc: "MAY",
     nameDoc: "DICTAMEN PCDT",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2003/17.pdf",
-    subRows: "",
   },
   {
     id: 18,
@@ -27932,7 +27298,6 @@ export const dataAcuerdos2003 = [
     monthDoc: "MAY",
     nameDoc: "DICTAMEN PJS",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2003/18.pdf",
-    subRows: "",
   },
   {
     id: 19,
@@ -27942,7 +27307,6 @@ export const dataAcuerdos2003 = [
     monthDoc: "MAY",
     nameDoc: "DICTAMEN PRD",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2003/19.pdf",
-    subRows: "",
   },
   {
     id: 20,
@@ -27952,7 +27316,6 @@ export const dataAcuerdos2003 = [
     monthDoc: "MAY",
     nameDoc: "DICTAMEN PRI",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2003/20.pdf",
-    subRows: "",
   },
   {
     id: 21,
@@ -27962,7 +27325,6 @@ export const dataAcuerdos2003 = [
     monthDoc: "MAY",
     nameDoc: "DICTAMEN PVEM",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2003/21.pdf",
-    subRows: "",
   },
   {
     id: 22,
@@ -27972,7 +27334,6 @@ export const dataAcuerdos2003 = [
     monthDoc: "JUN",
     nameDoc: "TRANSFERENCIA",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2003/22.pdf",
-    subRows: "",
   },
   {
     id: 23,
@@ -27982,7 +27343,6 @@ export const dataAcuerdos2003 = [
     monthDoc: "JUN",
     nameDoc: "DECLARACIÓN CONSTITUCIONAL PCDT",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2003/23.pdf",
-    subRows: "",
   },
   {
     id: 24,
@@ -27993,7 +27353,6 @@ export const dataAcuerdos2003 = [
     nameDoc:
       "METODOLOGÍA Y PROCEDIMIENTO, NUEVOS PARTIDOS POLÍEDTICOS ESTATALES",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2003/24.pdf",
-    subRows: "",
   },
   {
     id: 25,
@@ -28003,7 +27362,6 @@ export const dataAcuerdos2003 = [
     monthDoc: "NOV",
     nameDoc: "PRESUPUESTO DE EGRESOS 2003",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2003/25.pdf",
-    subRows: "",
   },
   {
     id: 26,
@@ -28013,7 +27371,6 @@ export const dataAcuerdos2003 = [
     monthDoc: "DIC",
     nameDoc: "COMISIÓN DEMARCACIÓN",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2003/26.pdf",
-    subRows: "",
   },
   {
     id: 27,
@@ -28023,7 +27380,6 @@ export const dataAcuerdos2003 = [
     monthDoc: "DIC",
     nameDoc: "PJS",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2003/27.pdf",
-    subRows: "",
   },
 ];
 
