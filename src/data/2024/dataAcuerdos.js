@@ -29,6 +29,16 @@ export const dataAcuerdos2024 = [
     titleAnexo4: "ANEXO TRES",
     pdfAnexo4: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/2.4.pdf",
   },
+  {
+    id: 3,
+    year: "2024",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 03-2024",
+    monthDoc: "ENE",
+    nameDoc:
+      "ACUERDO ITE-CG 03-2024 SE DESIGNA TITULAR DE LA DPAyF",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/3.pdf",
+  },
 ];
 
 // ------------ A C U E R D O S    I N E ------------
