@@ -32,18 +32,6 @@ export const dataConvocatorias = [
   //   linkFile: "https://itetlax.org.mx/assets/pdf/estrados/1.pdf",
   // },
   {
-    id: 1,
-    nameFile: "Convocatoria Licitacion ITE-LP-01-2023",
-    linkFile:
-      "https://itetlax.org.mx/assets/pdf/convocatorias/Convocatoria-Licitacion-ITE-LP-01-2023.pdf",
-  },
-  {
-    id: 2,
-    nameFile: "Convocatoria-Licitacion-ITE-LP-02-2023",
-    linkFile:
-      "https://itetlax.org.mx/assets/pdf/convocatorias/Convocatoria-Licitacion-ITE-LP-02-2023.pdf",
-  },
-  {
     id: 3,
     nameFile:
       "¿Quieres participar como Observador/a Electoral? Proceso Electoral Concurrente 2023-2024",
