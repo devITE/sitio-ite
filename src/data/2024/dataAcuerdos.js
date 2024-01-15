@@ -35,9 +35,80 @@ export const dataAcuerdos2024 = [
     typeDoc: "ACUERDO",
     numDoc: "ITE-CG 03-2024",
     monthDoc: "ENE",
-    nameDoc:
-      "ACUERDO ITE-CG 03-2024 SE DESIGNA TITULAR DE LA DPAyF",
+    nameDoc: "ACUERDO ITE-CG 03-2024 SE DESIGNA TITULAR DE LA DPAyF",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/3.pdf",
+  },
+  {
+    id: 4,
+    year: "2024",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 04-2024",
+    monthDoc: "ENE",
+    nameDoc:
+      "POR EL QUE SE APRUEBA EL INFORME DE OTORGAMIENTO DE INCENTIVOS 2023 PERSONAL SPEN",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/4.pdf",
+    titleAnexo1: "Informe otorgamiento incentivos",
+    pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/4.1.pdf",
+  },
+  {
+    id: 5,
+    year: "2024",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 05-2024",
+    monthDoc: "ENE",
+    nameDoc:
+      "SE ORDENA DIFUNDIR GASTO CALENDARIZADO PARA FINANCIAMIENTO DE PP 2024",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/5.pdf",
+    titleAnexo1: "ANEXO UNO",
+    pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/5.1.pdf",
+    titleAnexo2: "ANEXO DOS",
+    pdfAnexo2: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/5.2.pdf",
+    titleAnexo3: "ANEXO TRES",
+    pdfAnexo3: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/5.3.pdf",
+  },
+  {
+    id: 6,
+    year: "2024",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 06-2024",
+    monthDoc: "ENE",
+    nameDoc:
+      "SE ACTUALIZA CALENDARIZACIÓN DE CANTIDADES A RETENER PRI, MC Y PT",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/6.pdf",
+    titleAnexo1: "ANEXO UNICO",
+    pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/6.1.pdf",
+  },
+  {
+    id: 7,
+    year: "2024",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 07-2024",
+    monthDoc: "ENE",
+    nameDoc:
+      "CALENDARIZACIÓN DE REMANENTES DE FINANCIAMIENTO PÚBLICO DE CAMPAÑA NO EJERCIDOS 2020-2021, ACUERDO INE-CG232-2023",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/7.pdf",
+    titleAnexo1: "ANEXO UNICO",
+    pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/7.1.pdf",
+  },
+  {
+    id: 8,
+    year: "2024",
+    typeDoc: "RESOLUCION",
+    numDoc: "ITE-CG 08-2024",
+    monthDoc: "ENE",
+    nameDoc:
+      "SE DECLARA LA PROCEDENCIA RESPECTO DE MODIFICACIÓN DE DOCUMENTOS BÁSICOS NUEVA ALIANZA TLAXCALA",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/8.pdf",
+  },
+  {
+    id: 9,
+    year: "2024",
+    typeDoc: "RESOLUCION",
+    numDoc: "ITE-CG 09-2024",
+    monthDoc: "ENE",
+    nameDoc:
+      "SE NOMBRA A LA COORDINADORA DE GÉNERO Y NO DISCRIMINACIÓN DE ESTE INSTITUTO.",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/8.pdf",
   },
 ];
 
