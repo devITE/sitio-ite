@@ -108,7 +108,7 @@ export const dataAcuerdos2024 = [
     monthDoc: "ENE",
     nameDoc:
       "SE NOMBRA A LA COORDINADORA DE GÉNERO Y NO DISCRIMINACIÓN DE ESTE INSTITUTO.",
-    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/8.pdf",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/9.pdf",
   },
 ];
 
