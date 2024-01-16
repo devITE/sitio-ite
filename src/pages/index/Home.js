@@ -18,7 +18,7 @@ import "./Home.css";
 
 import Carousel from "../../layout/Carousel/Carousel/Carousel";
 import CarouselItemIMG from "../../layout/Carousel/Carousel/CarouselItemIMG";
-import { dataVideoPodCast } from "../../data/dataVideoPodCast";
+// import { dataVideoPodCast } from "../../data/dataVideoPodCast";
 import { dataITEConecta } from "../../data/dataITEConecta";
 
 import ModalInit from "../../layout/Modal/ModalInit";
@@ -125,8 +125,8 @@ const ITE = () => {
       <Videoteca items={dataITEConecta} itemsID={"ITEConecta"} />
       <h2 className="mt-5 bottom_title">Informes</h2>
       <Informes items={dataInformes} itemsID={"itemsInformes"} />
-      <h2 className="bottom_title mt-5">Video Podcast</h2>
-      <Videoteca items={dataVideoPodCast} itemsID={"videoPodcast"} />
+      {/* <h2 className="bottom_title mt-5">Video Podcast</h2> */}
+      {/* <Videoteca items={dataVideoPodCast} itemsID={"videoPodcast"} /> */}
       <div className="Home__boxesTriple mt-4">
         <div>
           <h2 className="bottom_title">Estrados Electrónicos</h2>
@@ -254,11 +254,22 @@ const ITE = () => {
         <div className="row justify-content-center">
           <div className="col-md-4">
             <div className="Home__video-embed ratio ratio-16x9 w-100">
+              <iframe
+                src="https://www.youtube-nocookie.com/embed/jvOZFERXuiM"
+                title="SCápsula en Náhuatl"
+                allowFullScreen
+              ></iframe>
+            </div>
+            <a
+              href="https://youtu.be/jvOZFERXuiM"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <h5 className="mt-3 text-center">Cápsula en Náhuatl</h5>
+            </a>
+            {/* <div className="Home__video-embed ratio ratio-16x9 w-100">
               <video controls>
-                <source
-                  src="https://itetlax.org.mx/assets/video/ine/1.mp4"
-                  type="video/mp4"
-                />
+                <source src="https://youtu.be/jvOZFERXuiM" type="video/mp4" />
                 <p>
                   Su navegador no soporta video HTML5. Aquí hay un
                   <a href="https://itetlax.org.mx/assets/video/ine/1.mp4">
@@ -267,16 +278,11 @@ const ITE = () => {
                   .
                 </p>
               </video>
-              {/* <iframe
-                src="https://itetlax.org.mx/assets/video/ine/1.mp4"
-                title="Capsula ine Náhuatl"
-                allowFullScreen
-              ></iframe> */}
             </div>
-            <h5 className="mt-3 text-center">Cápsula en Náhuatl </h5>
+            <h5 className="mt-3 text-center">Cápsula en Náhuatl </h5> */}
           </div>
           <div className="col-md-4">
-            <div className="Home__video-embed ratio ratio-16x9 w-100">
+            {/* <div className="Home__video-embed ratio ratio-16x9 w-100">
               <video controls>
                 <source
                   src="https://itetlax.org.mx/assets/video/ine/2.mp4"
@@ -290,15 +296,26 @@ const ITE = () => {
                   .
                 </p>
               </video>
-              {/* <iframe
-                src="https://itetlax.org.mx/assets/video/ine/2.mp4"
-                title="Capsula ine Otomí"
-                allowFullScreen
-              ></iframe> */}
             </div>
             <h5 className="mt-3 text-center">
-              Cápsula en Yuhmú (variante del Otomí){" "}
-            </h5>
+              Cápsula en Yuhmú (variante del Otomí)
+            </h5> */}
+            <div className="Home__video-embed ratio ratio-16x9 w-100">
+              <iframe
+                src="https://www.youtube-nocookie.com/embed/EEHZkyv-sTE"
+                title="Cápsula en Yuhmú (variante del Otomí)"
+                allowFullScreen
+              ></iframe>
+            </div>
+            <a
+              href="https://youtu.be/jvOZFERXuiM"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <h5 className="mt-3 text-center">
+                Cápsula en Yuhmú (variante del Otomí)
+              </h5>
+            </a>
           </div>
         </div>
       </div>
