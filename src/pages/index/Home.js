@@ -24,6 +24,8 @@ import { dataITEConecta } from "../../data/dataITEConecta";
 import ModalInit from "../../layout/Modal/ModalInit";
 import "./Home.css";
 
+import Timer from "../../layout/Timer";
+
 const ITE = () => {
   useEffect(() => {
     document.title = `ITE`;
@@ -85,6 +87,7 @@ const ITE = () => {
           </div>
         </div>
       </div>
+      <Timer deadline="January 24, 2024 22:26:59 GMT-6" />
       <div className="mt-5 Home__AR-A">
         <div>
           <h2 className="bottom_title">Actividades Recientes</h2>

@@ -1,13 +1,11 @@
 import React, { useState, useEffect } from "react";
 import "./Timer.css";
 
-const Timer = () => {
+const Timer = ({ deadline }) => {
   const [days, setDays] = useState(0);
   const [hours, setHours] = useState(0);
   const [minutes, setMinutes] = useState(0);
   const [seconds, setSeconds] = useState(0);
-
-  const deadline = "January 04, 2023 22:26:59 GMT-6";
 
   const getTime = () => {
     const time = Date.parse(deadline) - Date.now();
@@ -19,10 +17,10 @@ const Timer = () => {
   };
 
   useEffect(() => {
-    const interval = setInterval(() => getTime(deadline), 1000);
+    const interval = setInterval(() => getTime(), 1000);
 
     return () => clearInterval(interval);
-  }, []);
+  }, [deadline]);
 
   return (
     <div className="Timer">
@@ -53,4 +51,5 @@ const Timer = () => {
     </div>
   );
 };
+
 export default Timer;
