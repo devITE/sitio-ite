@@ -17,7 +17,7 @@ export const dataEstrados = [
     linkFolio: "",
   },
 
-  //fecha de baja: enero 2024
+  //fecha de baja: 20 enero 2024
   {
     id: 1,
     nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 0182",

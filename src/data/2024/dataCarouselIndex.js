@@ -105,6 +105,13 @@ export const dataCIndex = [
     imgUrl: "https://itetlax.org.mx/assets/img/imgC_I/banner-folios.jpg",
     alt: "Folios Entrevista",
     url: "https://itetlax.org.mx/assets/pdf/agenda/folios_entrevista.pdf",
+    linkToo: "",
+  },
+  {
+    id: 16,
+    imgUrl: "https://itetlax.org.mx/assets/img/imgC_I/banner_arc.jpg",
+    alt: "Convocatoria a Aux de R.C",
+    url: "https://convocatoria-aux-rc.itetlax.org.mx/",
     itemActive: "active",
     buttonActive: "active",
     ariaCurrent: "true",
