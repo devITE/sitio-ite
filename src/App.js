@@ -176,7 +176,6 @@ import ConvocatoriasApartado from "./pages/ConvocatoriasApartado/ConvocatoriasAp
 
 //Micrositios
 import REPS from "./pages/reps/REPS";
-// import DESPEN from "./pages/despen/DESPEN";
 
 //Memoria Electoral
 import MemoriaElectoral20202021 from "./pages/memElect2023/MemoriaElectoral20202021";
@@ -389,7 +388,6 @@ function App() {
 
           {/* Micrositios */}
           <Route path="/REPS" element={<REPS />} />
-          {/* <Route path="/DESPEN" element={<DESPEN />} /> */}
 
           {/* MemoriaElectoral20202021 */}
           <Route
