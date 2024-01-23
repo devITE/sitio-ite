@@ -18,22 +18,22 @@ export const dataEstrados = [
   },
 
   //fecha de baja: 20 enero 2024
-  {
-    id: 1,
-    nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 0182",
-    linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/51.pdf",
-    nameFolio: "FOLIO 0182-2024",
-    linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/51.1.pdf",
-  },
+  // {
+  //   id: 1,
+  //   nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 0182",
+  //   linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/51.pdf",
+  //   nameFolio: "FOLIO 0182-2024",
+  //   linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/51.1.pdf",
+  // },
 ];
 
 export const dataConvocatorias = [
-  {
-    id: 1,
-    nameFile: "Convocatoria-Licitacion-Publica-Nacional-ITE-01-2024",
-    linkFile:
-      "https://itetlax.org.mx/assets/pdf/convocatorias/Convocatoria-Licitacion-Publica-Nacional-ITE-01-2024.pdf",
-  },
+  // {
+  //   id: 1,
+  //   nameFile: "Convocatoria-Licitacion-Publica-Nacional-ITE-01-2024",
+  //   linkFile:
+  //     "https://itetlax.org.mx/assets/pdf/convocatorias/Convocatoria-Licitacion-Publica-Nacional-ITE-01-2024.pdf",
+  // },
   {
     id: 2,
     nameFile:
@@ -131,10 +131,22 @@ export const dataConvocatoriasApartado = [
   //   linkFile:
   //     "https://itetlax.org.mx/assets/pdf/convocatorias/Convocatoria-Licitacion-ITE-LP-02-2023.pdf",
   // },
+  // {
+  //   id: 3,
+  //   nameFile: "Convocatoria-Licitacion-Publica-Nacional-ITE-01-2024",
+  //   linkFile:
+  //     "https://itetlax.org.mx/assets/pdf/convocatorias/Convocatoria-Licitacion-Publica-Nacional-ITE-01-2024.pdf",
+  // },
   {
-    id: 3,
-    nameFile: "Convocatoria-Licitacion-Publica-Nacional-ITE-01-2024",
+    id: 1,
+    nameFile: "Convocatoria Licitacion ITE-LP-02-2024 OA",
     linkFile:
-      "https://itetlax.org.mx/assets/pdf/convocatorias/Convocatoria-Licitacion-Publica-Nacional-ITE-01-2024.pdf",
+      "https://itetlax.org.mx/assets/pdf/convocatorias/Convocatoria-Licitacion-ITE-LP-02-2024-OA.pdf",
+  },
+  {
+    id: 2,
+    nameFile: "Convocatoria Licitacion ITE-LP-03-2024 ao",
+    linkFile:
+      "https://itetlax.org.mx/assets/pdf/convocatorias/Convocatoria-Licitacion-ITE-LP-03-2024-ao.pdf",
   },
 ];

@@ -32,25 +32,25 @@ const ITE = () => {
     <>
       {/*
         <ModalInit
-          imgLink="https://itetlax.org.mx/assets/img/sesionesCG/SECG-181223.jpg"
-          url="https://itetlax.org.mx/assets/img/sesionesCG/SECG-181223.jpg"
+          imgLink="https://itetlax.org.mx/assets/img/sesionesCG/SECG19012024.png"
+          url="https://itetlax.org.mx/assets/img/sesionesCG/SECG19012024.png"
           linkToo=""
         />
       */}
-      {
+      {/*
         <ModalInit
           imgLink="https://itetlax.org.mx/assets/img/imgC_A/ine.PNG"
           url="https://observadores.ine.mx/"
           linkToo=""
         />
+    */}
+      {
+        <ModalInit
+          imgLink="https://itetlax.org.mx/assets/img/imgPopup/consultaconvo.jpg"
+          url=""
+          linkToo="/ConvocatoriasApartado"
+        />
       }
-      {/*
-         <ModalInit
-        imgLink="https://itetlax.org.mx/assets/popupIndex/banner-convocatorias.jpeg"
-        url=""
-        linkToo="/ConvocatoriasApartado"
-      /> 
-      */}
 
       <Carousel idCarousel="carouselTopIndex">
         {dataCIndex.map((cIndex) => (
