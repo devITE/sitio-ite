@@ -24,7 +24,7 @@ import { dataITEConecta } from "../../data/dataITEConecta";
 import ModalInit from "../../layout/Modal/ModalInit";
 import "./Home.css";
 
-import Timer from "../../layout/Timer";
+// import Timer from "../../layout/Timer";
 
 const ITE = () => {
   useEffect(() => {
@@ -46,14 +46,18 @@ const ITE = () => {
           linkToo=""
         />
     */}
-      {
+      {/*
         <ModalInit
           imgLink="https://itetlax.org.mx/assets/img/imgPopup/consultaconvo.jpg"
           url=""
           linkToo="/ConvocatoriasApartado"
         />
-      }
-
+      */}
+      <ModalInit
+        imgLink="https://itetlax.org.mx/assets/img/imgPopup/resultados_examen.png"
+        url="https://itetlax.org.mx/assets/popup/resultados_examen.pdf"
+        linkToo=""
+      />
       <Carousel idCarousel="carouselTopIndex">
         {dataCIndex.map((cIndex) => (
           <CarouselItemIMG
@@ -87,7 +91,7 @@ const ITE = () => {
           </div>
         </div>
       </div>
-      <Timer deadline="January 24, 2024 22:26:59 GMT-6" />
+      {/* <Timer deadline="January 24, 2024 22:26:59 GMT-6" /> */}
       <div className="mt-5 Home__AR-A">
         <div>
           <h2 className="bottom_title">Actividades Recientes</h2>
