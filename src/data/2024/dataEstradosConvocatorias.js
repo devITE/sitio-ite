@@ -7,24 +7,24 @@ export const dataEstrados = [
   //   nameFolio: "FOLIO 3257-2023",
   //   linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/49.1.pdf",
   // },
-  {
-    id: 1,
-    nameCedula:
-      "Folios para el examen para integrar los Consejos Distritales y Municipales",
-    linkCedula:
-      "https://itetlax.org.mx/assets/pdf/agenda/folios_entrevista.pdf",
-    nameFolio: "",
-    linkFolio: "",
-  },
-
-  //fecha de baja: 20 enero 2024
   // {
   //   id: 1,
-  //   nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 0182",
-  //   linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/51.pdf",
-  //   nameFolio: "FOLIO 0182-2024",
-  //   linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/51.1.pdf",
+  //   nameCedula:
+  //     "Folios para el examen para integrar los Consejos Distritales y Municipales",
+  //   linkCedula:
+  //     "https://itetlax.org.mx/assets/pdf/agenda/folios_entrevista.pdf",
+  //   nameFolio: "",
+  //   linkFolio: "",
   // },
+
+  // fecha de baja: 30 enero 2024
+  {
+    id: 1,
+    nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 0349",
+    linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/52.pdf",
+    nameFolio: "FOLIO 0349-2024",
+    linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/52.1.pdf",
+  },
 ];
 
 export const dataConvocatorias = [

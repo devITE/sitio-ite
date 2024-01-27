@@ -7,7 +7,7 @@ import TablePDF from "../../layout/Index/Estrados";
 import {
   dataEstrados,
   dataConvocatorias,
-} from "../../data/dataEstradosConvocatorias";
+} from "../../data/2024/dataEstradosConvocatorias";
 
 import Informes from "./informes/Informes";
 import { dataInformes } from "../../data/dataInformes";
