@@ -167,13 +167,10 @@ const ITE = () => {
           </div>
         </div>
       </div>
-      <img
-        className="mt-5 img-fluid w-100"
-        src="https://itetlax.org.mx/assets/img/imgHome/micrositios.png"
-        alt="micrositios"
-      />
-      <div className="Home__micrositios">
-        <div>
+
+      <h3 className="mt-5 bottom_title">Micrositios</h3>
+      <div className="row">
+        <div className="col-12 col-md-3">
           <a
             href="https://ite-genero.itetlax.org.mx"
             target="_blank"
@@ -186,7 +183,7 @@ const ITE = () => {
             />
           </a>
         </div>
-        <div>
+        <div className="col-12 col-md-3">
           <a
             href="https://covid19.itetlax.org.mx"
             target="_blank"
@@ -199,7 +196,7 @@ const ITE = () => {
             />
           </a>
         </div>
-        <div>
+        <div className="col-12 col-md-3">
           <a
             href="https://participacion-ciudadana.itetlax.org.mx"
             target="_blank"
@@ -209,6 +206,19 @@ const ITE = () => {
               className="mt-2 img-fluid"
               src="https://itetlax.org.mx/assets/img/imgHome/participacionciudadana.png"
               alt="Micrositio Participación Ciudadana"
+            />
+          </a>
+        </div>
+        <div className="col-12 col-md-3">
+          <a
+            href="https://ite-consulta-pcd.itetlax.org.mx/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              className="mt-2 img-fluid"
+              src="https://itetlax.org.mx/assets/img/imgC_I/acciones afirmativas.png"
+              alt="Acciones Afirmativas"
             />
           </a>
         </div>
@@ -224,35 +234,31 @@ const ITE = () => {
           alt="Micrositio ITE Comunidades"
         />
       </a>
-      <a
-        href="https://ite-consulta-pcd.itetlax.org.mx/"
-        target="_blank"
-        rel="noreferrer"
-      >
-        <img
-          className="mt-3 mb-3 img-fluid w-100"
-          src="https://itetlax.org.mx/assets/img/imgC_I/acciones afirmativas.png"
-          alt="Acciones Afirmativas"
-        />
-      </a>
-      <Link to="REPS">
-        <img
-          className="mt-2 img-fluid w-100"
-          src="https://itetlax.org.mx/assets/img/reps/1.png"
-          alt="REPS"
-        />
-      </Link>
-      <a
-        href="https://www.ine.mx/actores-politicos/registro-nacional-de-personas-sancionadas/"
-        target="_blank"
-        rel="noreferrer"
-      >
-        <img
-          className="mt-2 mb-2 img-fluid w-100"
-          src="https://itetlax.org.mx/assets/img/imgHome/RNPS.png"
-          alt="RNPS"
-        />
-      </a>
+      <div className="row">
+        <div className="col-md-6">
+          <Link to="REPS">
+            <img
+              className="mt-2 img-fluid w-100"
+              src="https://itetlax.org.mx/assets/img/reps/1.png"
+              alt="REPS"
+            />
+          </Link>
+        </div>
+        <div className="col-md-6">
+          <a
+            href="https://www.ine.mx/actores-politicos/registro-nacional-de-personas-sancionadas/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              className="mt-2 mb-2 img-fluid w-100"
+              src="https://itetlax.org.mx/assets/img/imgHome/RNPS.png"
+              alt="RNPS"
+            />
+          </a>
+        </div>
+      </div>
+
       <h3 className="mt-5 bottom_title">Videos</h3>
       <Videoteca items={dataVideoteca} itemsID={"videoteca"} />
 
