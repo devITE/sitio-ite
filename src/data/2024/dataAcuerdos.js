@@ -128,6 +128,15 @@ export const dataAcuerdos2024 = [
     titleAnexo4: "ANEXO TRES",
     pdfAnexo4: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/10.4.pdf",
   },
+  {
+    id: 11,
+    year: "2024",
+    typeDoc: "RESOLUCION",
+    numDoc: "ITE-CG 11-2024",
+    monthDoc: "ENE",
+    nameDoc: "REGISTRO CONVENIO DE COALICIÓN FUERZA Y CORAZON POR TLAXCALA",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/11.pdf",
+  },
 ];
 
 // ------------ A C U E R D O S    I N E ------------
