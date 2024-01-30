@@ -89,7 +89,6 @@ export const dataArt672023 = [
         excel2: "",
         excel3: "",
         excel4: "",
-        subRows: "",
       },
       {
         no: "",
@@ -104,7 +103,6 @@ export const dataArt672023 = [
         excel2: "",
         excel3: "",
         excel4: "",
-        subRows: "",
       },
       {
         no: "",
@@ -119,7 +117,6 @@ export const dataArt672023 = [
         excel2: "",
         excel3: "",
         excel4: "",
-        subRows: "",
       },
     ],
   },
@@ -499,7 +496,6 @@ export const dataArt672023 = [
     excel2: "",
     excel3: "",
     excel4: "",
-    subRows: "",
   },
   {
     no: "11",

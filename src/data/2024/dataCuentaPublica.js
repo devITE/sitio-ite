@@ -197,4 +197,10 @@ export const dataCuentaPublicaNew = [
     title: "Cuenta Pública 3er Trimestre",
     link: "https://itetlax.org.mx/assets/pdf/transparencia/infContable/cuentaPub2023/3.pdf",
   },
+  // {
+  //   id: 31,
+  //   year: "2023",
+  //   title: "Cuenta Pública 4to Trimestre",
+  //   link: "https://itetlax.org.mx/assets/pdf/transparencia/infContable/cuentaPub2023/4.pdf",
+  // },
 ];
