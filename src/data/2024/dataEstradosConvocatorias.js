@@ -28,9 +28,9 @@ export const dataEstrados = [
   // fecha de baja: 3 febrer0 2024
   {
     id: 2,
-    nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 0394",
+    nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 0392",
     linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/53.pdf",
-    nameFolio: "FOLIO 0349-2024",
+    nameFolio: "FOLIO 0392-2024",
     linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/53.1.pdf",
   },
 ];
