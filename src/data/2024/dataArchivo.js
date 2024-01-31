@@ -12,8 +12,10 @@ export const dataNormatividad = [
   {
     id: 2,
     nameDoc: "Ley de Archivos del Estado de Tlaxcala",
-    post: "10/05/2021",
-    lastUpdate: "10/05/2021",
+    // post: "10/05/2021",
+    post: "",
+    lastUpdate: "",
+    // lastUpdate: "10/05/2021",
     pdf: "https://itetlax.org.mx/assets/pdf/normatividad/lEstatales/3.pdf",
     pdfMobile: "",
     word: "https://itetlax.org.mx/assets/word/normatividad/lEstatales/3.docx",
