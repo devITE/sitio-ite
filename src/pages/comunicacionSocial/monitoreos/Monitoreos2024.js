@@ -3,7 +3,11 @@ import MaterialReactTable from "material-react-table";
 import { MenuItem, TextField } from "@mui/material";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
-import { dataMonitoreos2024 } from "../../../data/2024/dataMonitoreos";
+import {
+  dataMonitoreoMIyD,
+  dataMonitoreoPG,
+  dataMonitoreoRyT,
+} from "../../../data/2024/dataMonitoreos";
 import TitlePages from "../../../layout/TitlePages";
 
 const Monitoreos2024 = () => {
@@ -15,7 +19,7 @@ const Monitoreos2024 = () => {
       {
         accessorKey: "id",
         header: "NO.",
-        footer: "NO.",
+        // footer: "NO.",
         size: 55,
         enableResizing: false,
         enableColumnFilter: false,
@@ -23,7 +27,7 @@ const Monitoreos2024 = () => {
       {
         accessorKey: "monthBoletin",
         header: "MES",
-        footer: "MES",
+        // footer: "MES",
         size: 30,
         enableResizing: false,
         Filter: ({ header }) => (
@@ -57,14 +61,14 @@ const Monitoreos2024 = () => {
       {
         accessorKey: "nameBoletin",
         header: "Boletín.",
-        footer: "Boletín.",
+        // footer: "Boletín.",
         size: 150,
         enableResizing: false,
       },
       {
         id: "pdf",
         header: "",
-        footer: "",
+        // footer: "",
         size: 80,
         enableResizing: false,
         enableColumnFilters: false,
@@ -82,14 +86,181 @@ const Monitoreos2024 = () => {
   );
   return (
     <>
-      <TitlePages title="Comunicación Social" subTitle="Monitoreos 2024" />
+      <TitlePages title="Comunicación Social" subTitle="" />
+      <br />
+      <br />
+      <div className="w-50 mx-auto">
+        <TitlePages title="" subTitle="Monitoreo con perspectiva de género" />
+      </div>
       <MaterialReactTable
         columns={columns}
-        data={dataMonitoreos2024}
+        data={dataMonitoreoPG}
         enableExpanding={false}
         enableColumnActions={false}
         enableColumnResizing
         enableDensityToggle={false}
+        enableTopToolbar={false}
+        enablePagination={false}
+        muiTableHeadCellProps={{
+          sx: {
+            backgroundColor: "#972069",
+            color: "#fff",
+          },
+        }}
+        muiTableFooterCellProps={{
+          sx: {
+            backgroundColor: "#972069",
+            color: "#fff",
+          },
+        }}
+        muiTablePaginationProps={{
+          labelRowsPerPage: "Filas por página",
+          getItemAriaLabel: (type) => {
+            if (type === "first") {
+              return "inicio";
+            }
+            if (type === "last") {
+              return "fin";
+            }
+            if (type === "next") {
+              return "siguiente";
+            }
+            if (type === "previous") {
+              return "anterior";
+            }
+          },
+          labelDisplayedRows: ({ from, to, count }) =>
+            `${from}-${to} de ${count !== -1 ? count : `${to} para`}`,
+        }}
+        localization={{
+          actions: "Acciones",
+          cancel: "Cancelar",
+          clearFilter: "Limpiar filtro",
+          clearSearch: "Borrar búsqueda",
+          clearSort: "Ordenar claro",
+          columnActions: "Acciones de columna",
+          edit: "Editar",
+          expand: "Expandir",
+          expandAll: "Expandir todo",
+          filterByColumn: "{column}",
+          groupByColumn: "Agrupar por {column}",
+          groupedBy: "Agrupados por ",
+          hideAll: "Ocultar todo",
+          hideColumn: "Ocultar columna de {column}",
+          rowActions: "Acciones de fila",
+          save: "Salvar",
+          search: "Búsqueda",
+          selectedCountOfRowCountRowsSelected:
+            "{selectedCount} de {rowCount} fila(s) seleccionadas",
+          showAll: "Mostrar todo",
+          showHideColumns: "Mostrar/Ocultar columnas",
+          showHideFilters: "Alternar filtros",
+          showHideSearch: "Alternar búsqueda",
+          sortByColumnAsc: "Ordenar por {column} ascendente",
+          sortByColumnDesc: "Ordenar por {column} descendiendo",
+          thenBy: ", entonces por ",
+          toggleDensity: "Alternar relleno denso",
+          toggleFullScreen: "Alternar pantalla completa",
+          toggleSelectAll: "Seleccionar todo",
+          toggleSelectRow: "Seleccionar fila",
+          ungroupByColumn: "Desagrupar por {column}",
+        }}
+      />
+      <br />
+      <br />
+      <br />
+      <div className="w-50 mx-auto">
+        <TitlePages title="" subTitle="Monitoreo radio y televisión" />
+      </div>
+      <MaterialReactTable
+        columns={columns}
+        data={dataMonitoreoRyT}
+        enableExpanding={false}
+        enableColumnActions={false}
+        enableColumnResizing
+        enableDensityToggle={false}
+        enableTopToolbar={false}
+        enablePagination={false}
+        muiTableHeadCellProps={{
+          sx: {
+            backgroundColor: "#972069",
+            color: "#fff",
+          },
+        }}
+        muiTableFooterCellProps={{
+          sx: {
+            backgroundColor: "#972069",
+            color: "#fff",
+          },
+        }}
+        muiTablePaginationProps={{
+          labelRowsPerPage: "Filas por página",
+          getItemAriaLabel: (type) => {
+            if (type === "first") {
+              return "inicio";
+            }
+            if (type === "last") {
+              return "fin";
+            }
+            if (type === "next") {
+              return "siguiente";
+            }
+            if (type === "previous") {
+              return "anterior";
+            }
+          },
+          labelDisplayedRows: ({ from, to, count }) =>
+            `${from}-${to} de ${count !== -1 ? count : `${to} para`}`,
+        }}
+        localization={{
+          actions: "Acciones",
+          cancel: "Cancelar",
+          clearFilter: "Limpiar filtro",
+          clearSearch: "Borrar búsqueda",
+          clearSort: "Ordenar claro",
+          columnActions: "Acciones de columna",
+          edit: "Editar",
+          expand: "Expandir",
+          expandAll: "Expandir todo",
+          filterByColumn: "{column}",
+          groupByColumn: "Agrupar por {column}",
+          groupedBy: "Agrupados por ",
+          hideAll: "Ocultar todo",
+          hideColumn: "Ocultar columna de {column}",
+          rowActions: "Acciones de fila",
+          save: "Salvar",
+          search: "Búsqueda",
+          selectedCountOfRowCountRowsSelected:
+            "{selectedCount} de {rowCount} fila(s) seleccionadas",
+          showAll: "Mostrar todo",
+          showHideColumns: "Mostrar/Ocultar columnas",
+          showHideFilters: "Alternar filtros",
+          showHideSearch: "Alternar búsqueda",
+          sortByColumnAsc: "Ordenar por {column} ascendente",
+          sortByColumnDesc: "Ordenar por {column} descendiendo",
+          thenBy: ", entonces por ",
+          toggleDensity: "Alternar relleno denso",
+          toggleFullScreen: "Alternar pantalla completa",
+          toggleSelectAll: "Seleccionar todo",
+          toggleSelectRow: "Seleccionar fila",
+          ungroupByColumn: "Desagrupar por {column}",
+        }}
+      />
+      <br />
+      <br />
+      <br />
+      <div className="w-50 mx-auto">
+        <TitlePages title="" subTitle="Monitoreo medios impresos y digitales" />
+      </div>
+      <MaterialReactTable
+        columns={columns}
+        data={dataMonitoreoMIyD}
+        enableExpanding={false}
+        enableColumnActions={false}
+        enableColumnResizing
+        enableDensityToggle={false}
+        enableTopToolbar={false}
+        enablePagination={false}
         muiTableHeadCellProps={{
           sx: {
             backgroundColor: "#972069",
