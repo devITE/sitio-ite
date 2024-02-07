@@ -7,18 +7,13 @@ export const dataInfor = [
         id: 1,
         titleButton: "Enero",
         subChildren: [
-          // {
-          //   id: 1,
-          //   titleItem: "Item 1",
-          //   typeDocument: "pdf",
-          //   linkItem: "www.google.com.mx",
-          // },
-          // {
-          //   id: 2,
-          //   titleItem: "Item 2",
-          //   typeDocument: "pdf",
-          //   linkItem: "www.google.com.mx",
-          // },
+          {
+            id: 1,
+            titleItem: "Segundo Informe PELO 2023-2024",
+            typeDocument: "pdf",
+            linkItem:
+              "https://itetlax.org.mx/assets/pdf/informesPELO2324/2.pdf",
+          },
         ],
       },
       {

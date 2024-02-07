@@ -97,4 +97,11 @@ export const dataMonitoreoMIyD = [
     nameBoletin: "Quinto Informe Quincenal",
     linkBoletin: "https://itetlax.org.mx/assets/pdf/monitoreos/2024/miyd/1.pdf",
   },
+  {
+    id: 2,
+    yearBoletin: "2024",
+    monthBoletin: "ENE",
+    nameBoletin: "Sexto Informe Quincenal",
+    linkBoletin: "https://itetlax.org.mx/assets/pdf/monitoreos/2024/miyd/2.pdf",
+  },
 ];
