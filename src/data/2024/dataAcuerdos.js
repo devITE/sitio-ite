@@ -235,7 +235,7 @@ export const dataAcuerdos2024 = [
     typeDoc: "ACUERDO",
     numDoc: "ITE-CG 20-2024",
     monthDoc: "ENE",
-    nameDoc: "SE DESIGNA ENTE AUDITOR PREP PELO 23-24",
+    nameDoc: "SE DESIGNA ENTE AUDITOR DEL PREP PELO 23-24",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/20.pdf",
   },
 ];
