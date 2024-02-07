@@ -220,6 +220,24 @@ export const dataAcuerdos2024 = [
     titleAnexo4: "ANEXO TRES",
     pdfAnexo4: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/18.4.pdf",
   },
+  {
+    id: 19,
+    year: "2024",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 19-2024",
+    monthDoc: "ENE",
+    nameDoc: "AJUSTE FRL PLAZO DE VERIFICACIÓN DEL APOYO CIUDADANO PELO 23-24",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/19.pdf",
+  },
+  {
+    id: 20,
+    year: "2024",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 20-2024",
+    monthDoc: "ENE",
+    nameDoc: "SE DESIGNA ENTE AUDITOR PREP PELO 23-24",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/20.pdf",
+  },
 ];
 
 // ------------ A C U E R D O S    I N E ------------
