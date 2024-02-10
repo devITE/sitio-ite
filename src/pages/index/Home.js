@@ -39,20 +39,18 @@ const ITE = () => {
           linkToo=""
         />
       */}
-      {/*
-        <ModalInit
-          imgLink="https://itetlax.org.mx/assets/img/imgC_A/ine.PNG"
-          url="https://observadores.ine.mx/"
-          linkToo=""
-        />
-    */}
-      {
+      <ModalInit
+        imgLink="https://itetlax.org.mx/assets/img/imgC_A/ine.PNG"
+        url="https://observadores.ine.mx/"
+        linkToo=""
+      />
+      {/* {
         <ModalInit
           imgLink="https://itetlax.org.mx/assets/img/imgPopup/consultaconvo.jpg"
           url=""
           linkToo="/ConvocatoriasApartado"
         />
-      }
+      } */}
       {/* <ModalInit
         imgLink="https://itetlax.org.mx/assets/img/imgPopup/resultados_examen.png"
         url="https://itetlax.org.mx/assets/popup/resultados_examen.pdf"
@@ -148,13 +146,13 @@ const ITE = () => {
           <h2 className="bottom_title">Sesión en Vivo</h2>
           <div className="Home__video-embed ratio ratio-16x9 w-100">
             <iframe
-              src="https://www.youtube-nocookie.com/embed/hKTkaFsXQnY"
+              src="https://www.youtube-nocookie.com/embed/77LK5GvCqHw?si=vKTcjrlYn_qdxWMX"
               title="Sesión Presencial Especial del CG 18/12/2024"
               allowFullScreen
             ></iframe>
           </div>
           <h5 className="mt-3 text-center">
-            Sesión Presencial Especial del CG 12/01/2024{" "}
+            Sesión Presencial Extraordinaria del CG 06/02/2024{" "}
           </h5>
         </div>
         <div>
