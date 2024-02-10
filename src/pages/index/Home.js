@@ -3,11 +3,7 @@ import { Link } from "react-router-dom";
 import Enlaces from "./enlaces/Enlaces";
 import { dataCIndex, dataCAR, dataCA } from "../../data/2024/dataCarouselIndex";
 import Convocatorias from "../../layout/Index/Convocatorias";
-// import TablePDF from "../../layout/Index/Estrados";
-import {
-  // dataEstrados,
-  dataConvocatorias,
-} from "../../data/2024/dataEstradosConvocatorias";
+import { dataConvocatorias } from "../../data/2024/dataEstradosConvocatorias";
 
 import Informes from "./informes/Informes";
 import { dataInformes } from "../../data/dataInformes";
@@ -23,8 +19,7 @@ import { dataITEConecta } from "../../data/dataITEConecta";
 
 import ModalInit from "../../layout/Modal/ModalInit";
 import "./Home.css";
-
-// import Timer from "../../layout/Timer";
+import LaunchCountdown from "../../layout/Timer/LaunchCountdown";
 
 const ITE = () => {
   useEffect(() => {
@@ -32,6 +27,10 @@ const ITE = () => {
   }, []);
   return (
     <>
+      <div className="mt-5 mb-5">
+        <LaunchCountdown />
+      </div>
+
       {/*
         <ModalInit
           imgLink="https://itetlax.org.mx/assets/img/sesionesCG/SECG19012024.png"
@@ -68,6 +67,7 @@ const ITE = () => {
           />
         ))}
       </Carousel>
+
       <div className="mt-5 Home__AR-A">
         <div>
           <h2 className="bottom_title">
@@ -89,7 +89,6 @@ const ITE = () => {
           </div>
         </div>
       </div>
-      {/* <Timer deadline="January 24, 2024 22:26:59 GMT-6" /> */}
       <div className="mt-5 Home__AR-A">
         <div>
           <h2 className="bottom_title">Actividades Recientes</h2>

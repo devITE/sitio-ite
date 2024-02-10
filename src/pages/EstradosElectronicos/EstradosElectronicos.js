@@ -7,7 +7,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
 import { dataAcuerdos2024 } from "../../data/2024/dataAcuerdos";
 import { dataEstrados } from "../../data/2024/dataEstradosConvocatorias";
-// import Expandible from "../../layout/HelperDataTable/Expandible";
 import TablePDF from "../../layout/Index/Estrados";
 
 const EstradosElectronicos = () => {
@@ -85,7 +84,6 @@ const EstradosElectronicos = () => {
       <div className="w-75 mx-auto mt-5">
         <TitlePages title="" subTitle="Acuerdos 2024" />
       </div>
-      {/* <Expandible /> */}
       <MaterialReactTable
         columns={columns}
         data={dataAcuerdos2024}

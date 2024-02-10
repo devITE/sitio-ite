@@ -1,0 +1,216 @@
+/* Importing a Google Font */
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@700&display=swap");
+
+/* Global CSS Reset */
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: "Red Hat Text", sans-serif;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+/* Custom CSS Variables */
+:root {
+    /* Colors */
+    --Grayish_blue: hsl(237, 18%, 59%);
+    --Soft_red: hsl(345, 95%, 68%);
+    --White: hsl(0, 0%, 100%);
+    --Dark_desaturated_blue: hsl(236, 21%, 26%);
+    --Very_dark_blue: hsl(235, 16%, 14%);
+    --Very_dark_blac_blue: hsl(234, 17%, 12%);
+
+    /* font size */
+    --h-text: 1.1rem;
+    --p-text: 1.8rem;
+    --s-text: 0.5rem;
+
+    /* custom-shape */
+    --circle-width: 0.25em;
+    --circle-height: 0.45em;
+}
+
+/* Font Styles */
+.heading {
+    font-size: var(--h-text);
+    color: var(--White);
+    letter-spacing: 0.5ch;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.primary {
+    font-size: var(--p-text);
+    color: var(--Soft_red);
+    text-align: center;
+}
+
+.sub-heading {
+    font-size: var(--s-text);
+    color: var(--Grayish_blue);
+    text-align: center;
+    letter-spacing: 0.5ch;
+    margin-top: 1em;
+}
+
+/* General CSS */
+
+main {
+    min-height: 100%;
+    display: grid;
+    justify-content: center;
+}
+
+.background {
+    background-color: var(--Very_dark_blue);
+    background-image: url(https://i.postimg.cc/rmwYwjnp/bg-stars.png),
+        url(https://i.postimg.cc/hGg5HcVT/pattern-hills.png);
+    background-position: top, bottom;
+    background-repeat: repeat-x;
+    background-size: 100% 75%, 100% 25%;
+    position: relative;
+    z-index: 2;
+}
+
+.background::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 75%;
+    background-color: #322338;
+    filter: blur(100px);
+    opacity: 0.35;
+    z-index: -1;
+}
+
+.container {
+    margin: 1em;
+}
+
+.center {
+    align-self: flex-end;
+}
+
+.countdown-timer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1em;
+}
+
+.timer-box {
+    width: 4rem;
+    padding: 0.5rem;
+    text-align: center;
+    background-color: var(--Dark_desaturated_blue);
+    position: relative;
+    border-radius: 0.25em;
+}
+
+.sheet {
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    left: 0;
+    top: 0;
+    right: 0;
+    background-color: var(--Very_dark_blue);
+    opacity: 0.35;
+}
+
+.flip {
+    transition: transform 1s;
+    transform: translate(0%, 100%) scaleY(-1);
+}
+
+.circle-left {
+    width: var(--circle-width);
+    height: var(--circle-height);
+    position: absolute;
+    background-color: var(--Very_dark_blac_blue);
+    border-top-right-radius: 100%;
+    border-bottom-right-radius: 100%;
+    top: 45%;
+    left: 0;
+}
+
+.circle-right {
+    width: var(--circle-width);
+    height: var(--circle-height);
+    position: absolute;
+    background-color: var(--Very_dark_blac_blue);
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+    top: 45%;
+    right: 0;
+}
+
+.bottom {
+    align-self: end;
+    margin-bottom: 4em;
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+
+.social-icon {
+    cursor: pointer;
+}
+
+.social-icon:hover {
+    filter: brightness(0) saturate(100%) invert(54%) sepia(7%) saturate(5054%) hue-rotate(297deg) brightness(99%) contrast(99%);
+}
+
+/* Media Queries for Responsive Design */
+@media (min-width: 430px) {
+    :root {
+        --h-text: 1.25rem;
+        --p-text: 2rem;
+        --s-text: 0.5rem;
+
+        --circle-width: 0.35em;
+        --circle-height: 0.65em;
+    }
+
+    .timer-box {
+        width: 5rem;
+        padding: 0.75rem;
+    }
+}
+
+@media (min-width: 550px) {
+    :root {
+        --p-text: 3rem;
+        --s-text: 0.75rem;
+
+        --circle-width: 0.4em;
+        --circle-height: 0.7em;
+    }
+
+    .timer-box {
+        width: 6rem;
+        padding: 0.75rem;
+    }
+}
+
+@media (min-width: 800px) {
+    :root {
+        --p-text: 4rem;
+    }
+
+    .timer-box {
+        width: 8rem;
+        padding: 1rem;
+    }
+}
