@@ -135,12 +135,19 @@ const ITE = () => {
       <div className="Home__boxesTriple mt-4">
         <div>
           <h2 className="bottom_title">Estrados Electrónicos</h2>
-          <div>
+          <div className=" h-100 d-flex justify-content-center align-items-center">
+            <Link to="EstradosElectronicos" className="btn btn-ite fs-2">
+              Consulta aquí los
+              <br />
+              <b>Estrados Electrónicos</b>
+            </Link>
+          </div>
+          {/* <div>
             <TablePDF
               items={dataEstrados}
               itemsID={"listEstradosElectronicos"}
             />
-          </div>
+          </div> */}
         </div>
         <div>
           <h2 className="bottom_title">Sesión en Vivo</h2>
