@@ -16,7 +16,13 @@ export const dataEstrados = [
     nameFolio: "",
     linkFolio: "",
   },
-
+  {
+    id: 1,
+    nameCedula: "Resolución ITE-CG 17/2024",
+    linkCedula: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/17.pdf",
+    nameFolio: "",
+    linkFolio: "",
+  },
   // // fecha de baja: 30 enero 2024
   // {
   //   id: 1,
