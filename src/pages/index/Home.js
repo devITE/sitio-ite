@@ -19,7 +19,9 @@ import { dataITEConecta } from "../../data/dataITEConecta";
 
 import ModalInit from "../../layout/Modal/ModalInit";
 import "./Home.css";
-import LaunchCountdown from "../../layout/Timer/LaunchCountdown";
+
+import FlipClockCountdown from "@leenguyen/react-flip-clock-countdown";
+import "@leenguyen/react-flip-clock-countdown/dist/index.css";
 
 const ITE = () => {
   useEffect(() => {
@@ -27,10 +29,14 @@ const ITE = () => {
   }, []);
   return (
     <>
-      <div className="mt-5 mb-5">
-        <LaunchCountdown />
+      <h1 className="text-center fw-bolder">Elecciones 2024</h1>
+      <p className="text-center text-dark fs-3 fw-bolder mb-0">faltan:</p>
+      <div className=" d-flex justify-content-center align-items-center mt-3 mb-5">
+        <FlipClockCountdown
+          to="2024-06-02 08:00:00"
+          labels={["Días", "Horas", "Minutos", "Segundos"]}
+        />
       </div>
-
       {/*
         <ModalInit
           imgLink="https://itetlax.org.mx/assets/img/sesionesCG/SECG19012024.png"
