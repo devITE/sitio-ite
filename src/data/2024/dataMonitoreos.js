@@ -10,7 +10,7 @@ export const dataMonitoreoPG = [
     id: 2,
     yearBoletin: "2024",
     monthBoletin: "ENE",
-    nameBoletin: "Segundo Informe Semanal",
+    nameBoletin: "Segundo Reporte Semanal",
     linkBoletin: "https://itetlax.org.mx/assets/pdf/monitoreos/2024/pg/2.pdf",
   },
   {
@@ -24,7 +24,7 @@ export const dataMonitoreoPG = [
     id: 4,
     yearBoletin: "2024",
     monthBoletin: "ENE",
-    nameBoletin: "Tercer Informe Semanal",
+    nameBoletin: "Tercer Reporte Semanal",
     linkBoletin: "https://itetlax.org.mx/assets/pdf/monitoreos/2024/pg/4.pdf",
   },
   {
@@ -62,7 +62,7 @@ export const dataMonitoreoRyT = [
     id: 3,
     yearBoletin: "2024",
     monthBoletin: "ENE",
-    nameBoletin: "Primer Reporte Quincenal",
+    nameBoletin: "Primer Informe Quincenal",
     linkBoletin: "https://itetlax.org.mx/assets/pdf/monitoreos/2024/ryt/3.pdf",
   },
   {
