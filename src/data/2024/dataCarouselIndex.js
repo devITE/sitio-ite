@@ -119,6 +119,13 @@ export const dataCIndex = [
     imgUrl: "https://itetlax.org.mx/assets/img/imgC_I/folios_entrevistas.jpeg",
     alt: "Convocatoria a Aux de R.C",
     url: "https://itetlax.org.mx/assets/pdf/carousel/folios_entrevistas.pdf",
+    linkToo: "",
+  },
+  {
+    id: 17,
+    imgUrl: "https://itetlax.org.mx/assets/img/imgC_I/folios_arc.jpeg",
+    alt: "Convocatoria a Aux de R.C",
+    url: "https://itetlax.org.mx/assets/pdf/carousel/FOLIOS_PARA_ENTREVISTAS_ 30-01-2024.pdf",
     itemActive: "active",
     buttonActive: "active",
     ariaCurrent: "true",

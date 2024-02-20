@@ -130,6 +130,12 @@ export const dataConvocatorias = [
       "¿Quieres participar como Observador/a Electoral Local? para el Proceso Electoral Local Ordinario 2023-2024",
     linkFile: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/110.1.pdf",
   },
+  {
+    id: 17,
+    nameFile: "Convocatoria Licitacion ITE-LP-04-2024",
+    linkFile:
+      "https://itetlax.org.mx/assets/pdf/convocatorias/Convocatoria-Licitacion-ITE-LP-04-2024.pdf",
+  },
 ];
 
 export const dataConvocatoriasApartado = [
@@ -151,16 +157,22 @@ export const dataConvocatoriasApartado = [
   //   linkFile:
   //     "https://itetlax.org.mx/assets/pdf/convocatorias/Convocatoria-Licitacion-Publica-Nacional-ITE-01-2024.pdf",
   // },
+  // {
+  //   id: 1,
+  //   nameFile: "Convocatoria Licitacion ITE-LP-02-2024 OA",
+  //   linkFile:
+  //     "https://itetlax.org.mx/assets/pdf/convocatorias/Convocatoria-Licitacion-ITE-LP-02-2024-OA.pdf",
+  // },
+  // {
+  //   id: 2,
+  //   nameFile: "Convocatoria Licitacion ITE-LP-03-2024 ao",
+  //   linkFile:
+  //     "https://itetlax.org.mx/assets/pdf/convocatorias/Convocatoria-Licitacion-ITE-LP-03-2024-ao.pdf",
+  // },
   {
     id: 1,
-    nameFile: "Convocatoria Licitacion ITE-LP-02-2024 OA",
+    nameFile: "Convocatoria Licitacion ITE-LP-04-2024",
     linkFile:
-      "https://itetlax.org.mx/assets/pdf/convocatorias/Convocatoria-Licitacion-ITE-LP-02-2024-OA.pdf",
-  },
-  {
-    id: 2,
-    nameFile: "Convocatoria Licitacion ITE-LP-03-2024 ao",
-    linkFile:
-      "https://itetlax.org.mx/assets/pdf/convocatorias/Convocatoria-Licitacion-ITE-LP-03-2024-ao.pdf",
+      "https://itetlax.org.mx/assets/pdf/convocatorias/Convocatoria-Licitacion-ITE-LP-04-2024.pdf",
   },
 ];
