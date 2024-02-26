@@ -131,9 +131,9 @@ const AcuerdosINE2024 = () => {
                   !row.original.titleAnexo6 &
                   !row.original.pdfAnexo6 &
                   !row.original.titleAnexo7 &
-                  !row.original.pdfAnexo8 &
+                  !row.original.pdfAnexo7 &
                   !row.original.titleAnexo8 &
-                  !row.original.pdfAnexo6 &
+                  !row.original.pdfAnexo8 &
                   !row.original.titleAnexo9 &
                   !row.original.pdfAnexo9 &
                   !row.original.titleAnexo10 &
@@ -141,7 +141,25 @@ const AcuerdosINE2024 = () => {
                   !row.original.titleAnexo11 &
                   !row.original.pdfAnexo11 &
                   !row.original.titleAnexo12 &
-                  !row.original.pdfAnexo11 ? (
+                  !row.original.pdfAnexo12 &
+                  !row.original.titleAnexo13 &
+                  !row.original.pdfAnexo13 &
+                  !row.original.titleAnexo14 &
+                  !row.original.pdfAnexo14 &
+                  !row.original.titleAnexo15 &
+                  !row.original.pdfAnexo15 &
+                  !row.original.titleAnexo16 &
+                  !row.original.pdfAnexo16 &
+                  !row.original.titleAnexo17 &
+                  !row.original.pdfAnexo17 &
+                  !row.original.titleAnexo18 &
+                  !row.original.pdfAnexo18 &
+                  !row.original.titleAnexo19 &
+                  !row.original.pdfAnexo19 &
+                  !row.original.titleAnexo20 &
+                  !row.original.pdfAnexo20 &
+                  !row.original.titleAnexo21 &
+                  !row.original.pdfAnexo21 ? (
                     <span></span>
                   ) : (
                     <tr>
@@ -371,6 +389,177 @@ const AcuerdosINE2024 = () => {
                       <td>
                         <a
                           href={row.original.pdfAnexo12}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <FontAwesomeIcon
+                            icon={faFilePdf}
+                            className="btn btn-danger"
+                          />
+                        </a>
+                      </td>
+                    </tr>
+                  )}
+                  {!row.original.titleAnexo13 & !row.original.pdfAnexo13 ? (
+                    <span></span>
+                  ) : (
+                    <tr>
+                      <td>{row.original.titleAnexo13.toUpperCase()}</td>
+                      <td>
+                        <a
+                          href={row.original.pdfAnexo13}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <FontAwesomeIcon
+                            icon={faFilePdf}
+                            className="btn btn-danger"
+                          />
+                        </a>
+                      </td>
+                    </tr>
+                  )}
+                  {!row.original.titleAnexo14 & !row.original.pdfAnexo14 ? (
+                    <span></span>
+                  ) : (
+                    <tr>
+                      <td>{row.original.titleAnexo14.toUpperCase()}</td>
+                      <td>
+                        <a
+                          href={row.original.pdfAnexo14}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <FontAwesomeIcon
+                            icon={faFilePdf}
+                            className="btn btn-danger"
+                          />
+                        </a>
+                      </td>
+                    </tr>
+                  )}
+                  {!row.original.titleAnexo15 & !row.original.pdfAnexo15 ? (
+                    <span></span>
+                  ) : (
+                    <tr>
+                      <td>{row.original.titleAnexo15.toUpperCase()}</td>
+                      <td>
+                        <a
+                          href={row.original.pdfAnexo15}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <FontAwesomeIcon
+                            icon={faFilePdf}
+                            className="btn btn-danger"
+                          />
+                        </a>
+                      </td>
+                    </tr>
+                  )}
+                  {!row.original.titleAnexo16 & !row.original.pdfAnexo16 ? (
+                    <span></span>
+                  ) : (
+                    <tr>
+                      <td>{row.original.titleAnexo16.toUpperCase()}</td>
+                      <td>
+                        <a
+                          href={row.original.pdfAnexo16}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <FontAwesomeIcon
+                            icon={faFilePdf}
+                            className="btn btn-danger"
+                          />
+                        </a>
+                      </td>
+                    </tr>
+                  )}
+                  {!row.original.titleAnexo17 & !row.original.pdfAnexo17 ? (
+                    <span></span>
+                  ) : (
+                    <tr>
+                      <td>{row.original.titleAnexo17.toUpperCase()}</td>
+                      <td>
+                        <a
+                          href={row.original.pdfAnexo17}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <FontAwesomeIcon
+                            icon={faFilePdf}
+                            className="btn btn-danger"
+                          />
+                        </a>
+                      </td>
+                    </tr>
+                  )}
+                  {!row.original.titleAnexo18 & !row.original.pdfAnexo18 ? (
+                    <span></span>
+                  ) : (
+                    <tr>
+                      <td>{row.original.titleAnexo18.toUpperCase()}</td>
+                      <td>
+                        <a
+                          href={row.original.pdfAnexo18}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <FontAwesomeIcon
+                            icon={faFilePdf}
+                            className="btn btn-danger"
+                          />
+                        </a>
+                      </td>
+                    </tr>
+                  )}
+                  {!row.original.titleAnexo19 & !row.original.pdfAnexo19 ? (
+                    <span></span>
+                  ) : (
+                    <tr>
+                      <td>{row.original.titleAnexo19.toUpperCase()}</td>
+                      <td>
+                        <a
+                          href={row.original.pdfAnexo19}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <FontAwesomeIcon
+                            icon={faFilePdf}
+                            className="btn btn-danger"
+                          />
+                        </a>
+                      </td>
+                    </tr>
+                  )}
+                  {!row.original.titleAnexo20 & !row.original.pdfAnexo20 ? (
+                    <span></span>
+                  ) : (
+                    <tr>
+                      <td>{row.original.titleAnexo20.toUpperCase()}</td>
+                      <td>
+                        <a
+                          href={row.original.pdfAnexo20}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <FontAwesomeIcon
+                            icon={faFilePdf}
+                            className="btn btn-danger"
+                          />
+                        </a>
+                      </td>
+                    </tr>
+                  )}
+                  {!row.original.titleAnexo21 & !row.original.pdfAnexo21 ? (
+                    <span></span>
+                  ) : (
+                    <tr>
+                      <td>{row.original.titleAnexo21.toUpperCase()}</td>
+                      <td>
+                        <a
+                          href={row.original.pdfAnexo21}
                           target="_blank"
                           rel="noreferrer"
                         >
