@@ -22,7 +22,7 @@ export const MemoriasElectorales = () => {
               <div>
                 <Link
                   to={itemMemoria.linkItem}
-                  target="_blank"
+                  // target="_blank"
                   rel="noreferrer"
                 >
                   <img

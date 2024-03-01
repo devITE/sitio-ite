@@ -226,7 +226,7 @@ export const dataAcuerdos2024 = [
     year: "2024",
     typeDoc: "ACUERDO",
     numDoc: "ITE-CG 18-2024",
-    monthDoc: "ENE",
+    monthDoc: "FEB",
     nameDoc: "CUMPLIMIENTO A LA SENTENCIA TET-JE-071-2023",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/18.pdf",
     titleAnexo1: "LINEAMIENTOS PARA EL REGISTRO DE CANDIDATURAS",
@@ -243,7 +243,7 @@ export const dataAcuerdos2024 = [
     year: "2024",
     typeDoc: "ACUERDO",
     numDoc: "ITE-CG 19-2024",
-    monthDoc: "ENE",
+    monthDoc: "FEB",
     nameDoc: "AJUSTE FRL PLAZO DE VERIFICACIÓN DEL APOYO CIUDADANO PELO 23-24",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/19.pdf",
   },
@@ -252,7 +252,7 @@ export const dataAcuerdos2024 = [
     year: "2024",
     typeDoc: "ACUERDO",
     numDoc: "ITE-CG 20-2024",
-    monthDoc: "ENE",
+    monthDoc: "FEB",
     nameDoc: "SE DESIGNA ENTE AUDITOR DEL PREP PELO 23-24",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/20.pdf",
   },
@@ -261,7 +261,7 @@ export const dataAcuerdos2024 = [
     year: "2024",
     typeDoc: "ACUERDO",
     numDoc: "ITE-CG 21-2024",
-    monthDoc: "ENE",
+    monthDoc: "FEB",
     nameDoc: "POR EL QUE SE APRUEBA EL DICTAMEN DE DOCUMENTACIÓN CON EMBLEMAS",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/21.pdf",
     titleAnexo1: "ANEXO UNICO",
@@ -272,10 +272,63 @@ export const dataAcuerdos2024 = [
     year: "2024",
     typeDoc: "ACUERDO",
     numDoc: "ITE-CG 22-2024",
-    monthDoc: "ENE",
+    monthDoc: "FEB",
     nameDoc:
       "POR EL QUE SE DA RESPUESTA A CONSULTAS DE ACCIONES A GRUPOS DE ATENCIÓN PRIORITARIA",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/22.pdf",
+  },
+  {
+    id: 23,
+    year: "2024",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 23-2024",
+    monthDoc: "FEB",
+    nameDoc:
+      "POR EL QUE SE APRUEBA EL PROTOCOLO PARA LA DETECCIÓN, RECOLECCIÓN, ENTREGA E INTERCAMBIO DE PAQUETES PELO 2023-2024",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/23.pdf",
+    titleAnexo1:
+      "ANEXO ÚNICO PROTOCOLO PARA LA DETECCIÓN, RECOLECCIÓN, ENTREGA E INTERCAMBIO DE PAQUETES PELO 2023-2024",
+    pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/23.1.pdf",
+    titleAnexo2:
+      "ANEXO UNO DEL PROTOCOLO PARA LA DETECCIÓN, RECOLECCIÓN, ENTREGA E INTERCAMBIO DE PAQUETES PELO 2023-2024",
+    pdfAnexo2: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/23.2.pdf",
+    titleAnexo3:
+      "ANEXO DOS DEL PROTOCOLO PARA LA DETECCIÓN, RECOLECCIÓN, ENTREGA E INTERCAMBIO DE PAQUETES PELO 2023-2024",
+    pdfAnexo3: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/23.3.pdf",
+    titleAnexo4:
+      "ANEXO TRES DEL PROTOCOLO PARA LA DETECCIÓN, RECOLECCIÓN, ENTREGA E INTERCAMBIO DE PAQUETES PELO 2023-2024",
+    pdfAnexo4: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/23.4.pdf",
+    titleAnexo5:
+      "ANEXO CUATRO DEL PROTOCOLO PARA LA DETECCIÓN, RECOLECCIÓN, ENTREGA E INTERCAMBIO DE PAQUETES PELO 2023-2024",
+    pdfAnexo5: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/23.5.pdf",
+  },
+  {
+    id: 24,
+    year: "2024",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 24-2024",
+    monthDoc: "FEB",
+    nameDoc:
+      "POR EL QUE SE APRUEBA LA DESIGNACIÓN DE LOS LUGARES QUE OCUPARAN LAS BODEGAS ELECTORALES PELO 2023-2024",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/24.pdf",
+    titleAnexo1: "ANEXO ÚNICO",
+    pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/24.1.pdf",
+  },
+  {
+    id: 25,
+    year: "2024",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 25-2024",
+    monthDoc: "FEB",
+    nameDoc:
+      "POR EL QUE SE APRUEBAN LINEAMIENTOS DE DESARROLLO DE CÓMPUTO Y CUADERNILLO DE VOTOS PELO 2023-2024",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/25.pdf",
+    titleAnexo1:
+      "ANEXCO UNO LINEAMIENTOS PARA EL DESARROLLO DE LOS CÓMPUTOS ELECTORALES PELO 2023-2024",
+    pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/25.1.pdf",
+    titleAnexo2:
+      "ANEXO DOS CUADERNILLO DE CONSULTA DE VOTOS VÁLIDOS Y NULOES PELO 2023-2024",
+    pdfAnexo2: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/25.2.pdf",
   },
 ];
 

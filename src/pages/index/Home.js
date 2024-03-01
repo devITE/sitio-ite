@@ -158,13 +158,13 @@ const ITE = () => {
           <h2 className="bottom_title">Sesión en Vivo</h2>
           <div className="Home__video-embed ratio ratio-16x9 w-100">
             <iframe
-              src="https://www.youtube-nocookie.com/embed/77LK5GvCqHw?si=vKTcjrlYn_qdxWMX"
-              title="Sesión Presencial Especial del CG 18/12/2024"
+              src="https://www.youtube-nocookie.com/embed/E3yjl5TRtg8?si=6YXe12Hgf70_GmxO"
+              title="Sesión Presencial Especial del CG 29/03/2024"
               allowFullScreen
             ></iframe>
           </div>
           <h5 className="mt-3 text-center">
-            Sesión Presencial Extraordinaria del CG 06/02/2024{" "}
+            Sesión Presencial Extraordinaria del CG 29/03/2024{" "}
           </h5>
         </div>
         <div>

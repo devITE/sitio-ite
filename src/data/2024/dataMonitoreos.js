@@ -41,6 +41,28 @@ export const dataMonitoreoPG = [
     nameBoletin: "Primer Informe Mensual",
     linkBoletin: "https://itetlax.org.mx/assets/pdf/monitoreos/2024/pg/6.pdf",
   },
+  {
+    id: 7,
+    yearBoletin: "2024",
+    monthBoletin: "ENE",
+    nameBoletin: "Primer Informe Quincenal",
+    linkBoletin: "https://itetlax.org.mx/assets/pdf/monitoreos/2024/pg/7.pdf",
+  },
+  {
+    id: 8,
+    yearBoletin: "2024",
+    monthBoletin: "ENE",
+    nameBoletin:
+      "Informe Quincenal Intercampaña del 22 de enero al 5 de febrero",
+    linkBoletin: "https://itetlax.org.mx/assets/pdf/monitoreos/2024/pg/8.pdf",
+  },
+  {
+    id: 9,
+    yearBoletin: "2024",
+    monthBoletin: "FEB",
+    nameBoletin: "Informe Quincenal Intercampaña del 6 al 20 de febrero",
+    linkBoletin: "https://itetlax.org.mx/assets/pdf/monitoreos/2024/pg/9.pdf",
+  },
 ];
 
 export const dataMonitoreoRyT = [
@@ -86,6 +108,21 @@ export const dataMonitoreoRyT = [
     monthBoletin: "ENE",
     nameBoletin: "Primer Informe Mensual",
     linkBoletin: "https://itetlax.org.mx/assets/pdf/monitoreos/2024/ryt/6.pdf",
+  },
+  {
+    id: 7,
+    yearBoletin: "2024",
+    monthBoletin: "ENE",
+    nameBoletin:
+      "Informe Quincenal Intercampaña del 22 de enero al 5 de febrero",
+    linkBoletin: "https://itetlax.org.mx/assets/pdf/monitoreos/2024/ryt/7.pdf",
+  },
+  {
+    id: 8,
+    yearBoletin: "2024",
+    monthBoletin: "FEB",
+    nameBoletin: "Informe Quincenal Intercampaña del 6 al 20 de febrero",
+    linkBoletin: "https://itetlax.org.mx/assets/pdf/monitoreos/2024/ryt/8.pdf",
   },
 ];
 

@@ -273,7 +273,6 @@ export const dataCA = [
     url: "https://farodemocratico.ine.mx/",
     linkToo: "",
   },
-
   {
     id: 7,
     imgUrl: "https://itetlax.org.mx/assets/img/imgC_A/56.PNG",
@@ -281,16 +280,7 @@ export const dataCA = [
     url: "https://itetlax.org.mx/assets/img/imgC_A/56.docx",
     linkToo: "",
   },
-  {
-    id: 8,
-    imgUrl: "https://itetlax.org.mx/assets/img/imgC_A/ine.PNG",
-    alt: "observadores ine",
-    itemActive: "active",
-    buttonActive: "active",
-    ariaCurrent: "true",
-    url: "https://observadores.ine.mx/",
-    linkToo: "",
-  },
+
   // {
   //   id: 9,
   //   imgUrl: "https://itetlax.org.mx/assets/img/imgPopup/consultaconvo.jpg",
@@ -298,14 +288,14 @@ export const dataCA = [
   //   url: "",
   //   linkToo: "ConvocatoriasApartado",
   // },
-  // {
-  //   id: 10,
-  //   imgUrl: "https://itetlax.org.mx/assets/img/sesionesCG/SOCG29012024.png",
-  //   alt: "Sesión del CG",
-  //   itemActive: "active",
-  //   buttonActive: "active",
-  //   ariaCurrent: "true",
-  //   url: "https://itetlax.org.mx/assets/img/sesionesCG/SOCG29012024.png",
-  //   linkToo: "",
-  // },
+  {
+    id: 8,
+    imgUrl: "https://itetlax.org.mx/assets/img/sesionesCG/SECG010324.jpg",
+    alt: "Sesión del CG",
+    itemActive: "active",
+    buttonActive: "active",
+    ariaCurrent: "true",
+    url: "https://itetlax.org.mx/assets/img/sesionesCG/SECG010324.jpg",
+    linkToo: "",
+  },
 ];
