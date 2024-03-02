@@ -330,6 +330,34 @@ export const dataAcuerdos2024 = [
       "ANEXO DOS CUADERNILLO DE CONSULTA DE VOTOS VÁLIDOS Y NULOES PELO 2023-2024",
     pdfAnexo2: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/25.2.pdf",
   },
+  {
+    id: 26,
+    year: "2024",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 26-2024",
+    monthDoc: "FEB",
+    nameDoc:
+      "POR EL QUE SE CALENDARIZA MULTA PENDIENTE POR PAGAR AL PARTIDO MORENA",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/26.pdf",
+    titleAnexo1: "ANEXO ÚNICO",
+    pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/26.1.pdf",
+  },
+  {
+    id: 27,
+    year: "2024",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 27-2024",
+    monthDoc: "FEB",
+    nameDoc:
+      "POR EL QUE SE DETERMINAN LOS TOPES DE GASTO DE CAMPAÑA EN EL PELO 2023-2024",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/27.pdf",
+    titleAnexo1: "ANEXO UNO",
+    pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/27.1.pdf",
+    titleAnexo2: "ANEXO DOS",
+    pdfAnexo2: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/27.2.pdf",
+    titleAnexo3: "ANEXO TRES",
+    pdfAnexo3: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/27.3.pdf",
+  },
 ];
 
 // ------------ A C U E R D O S    I N E ------------
