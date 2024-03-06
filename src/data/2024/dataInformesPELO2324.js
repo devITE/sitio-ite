@@ -20,12 +20,12 @@ export const dataInfor = [
         id: 2,
         titleButton: "Febrero",
         subChildren: [
-          // {
-          //   id: 1,
-          //   titleItem: "Item 1",
-          //   typeDocument: "pdf",
-          //   linkItem: "www.google.com.mx",
-          // },
+          {
+            id: 1,
+            titleItem: "Tercer Informe PELO 2023-2024",
+            typeDocument: "pdf",
+            linkItem: "https://itetlax.org.mx/assets/pdf/informesPELO2324/3.pd",
+          },
           // {
           //   id: 2,
           //   titleItem: "Item 2",

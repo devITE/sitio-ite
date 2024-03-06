@@ -44,17 +44,17 @@ const ITE = () => {
           linkToo=""
         />
       */}
-      {/* <ModalInit
+      <ModalInit
         imgLink="https://itetlax.org.mx/assets/img/imgC_A/ine.PNG"
         url="https://observadores.ine.mx/"
         linkToo=""
-      /> */}
+      />
 
-      <ModalInit
+      {/* <ModalInit
         imgLink="https://itetlax.org.mx/assets/img/imgPopup/consultaconvo.jpg"
         url=""
         linkToo="/ConvocatoriasApartado"
-      />
+      /> */}
 
       {/* <ModalInit
         imgLink="https://itetlax.org.mx/assets/img/imgPopup/resultados_examen.png"
