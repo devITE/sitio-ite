@@ -22,7 +22,7 @@ const InformesAnuales = () => {
                 />
               </a>
               <p className="mt-2">
-                Informe anual de actividades
+                Informe Anual de Actividades
                 <br />
                 {informe.title}
               </p>

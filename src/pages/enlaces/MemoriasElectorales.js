@@ -11,6 +11,24 @@ export const MemoriasElectorales = () => {
   return (
     <>
       <NavbarEnlaces title="Memorias Electorales" />
+      <div className="Memoria__grid w-50">
+        <div className="Memoria__item">
+          <div className="Memoria__header w-100">
+            Memoria Electoral 2020 - 2021 Anexos
+            <div>
+              <Link to="/MemoriaElectoral20202021" rel="noreferrer">
+                <img
+                  className="img-fluid w-25"
+                  src="https://itetlax.org.mx/assets/img/memElect/11.1.png"
+                  alt="Memoria Electoral del Proceso Electoral 2021"
+                />
+              </Link>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br />
+      <br />
       <div className="Memoria__grid">
         {dataMemoria
           .sort((a, b) => b.id - a.id)

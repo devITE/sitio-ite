@@ -1,17 +1,19 @@
 import React, { useMemo, useEffect } from "react";
-import TitlePages from "../../../layout/TitlePages";
+import TitlePages from "../../layout/TitlePages";
 import MaterialReactTable from "material-react-table";
 import { Box } from "@mui/material";
 import { MenuItem, TextField } from "@mui/material";
-import { dataAcuerdos2023 } from "../../../data/dataAcuerdos";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
-import Expandible from "../../../layout/HelperDataTable/Expandible";
+import { dataAcuerdos2024 } from "../../data/2024/dataAcuerdos";
+import { dataEstrados } from "../../data/2024/dataEstradosConvocatorias";
+import TablePDF from "../../layout/Index/Estrados";
 
-const Acuerdos2023 = () => {
+const EstradosElectronicos = () => {
   useEffect(() => {
-    document.title = `Acuerdos ITE 2023`;
+    document.title = `Estrados Electrónicos`;
   }, []);
+
   const columns = useMemo(
     () => [
       {
@@ -69,11 +71,22 @@ const Acuerdos2023 = () => {
 
   return (
     <>
-      <TitlePages title="Acuerdos ITE" subTitle="Acuerdos ITE 2023" />
-      <Expandible />
+      <TitlePages title="Estrados Electrónicos" subTitle="" />
+
+      <div className="w-75 mx-auto mt-5">
+        <TitlePages title="" subTitle="Medios de impugnación" />
+      </div>
+      <div className="w-50 mx-auto">
+        <TablePDF items={dataEstrados} itemsID={"listEstradosElectronicos"} />
+      </div>
+      <br />
+      <br />
+      <div className="w-75 mx-auto mt-5">
+        <TitlePages title="" subTitle="Acuerdos 2024" />
+      </div>
       <MaterialReactTable
         columns={columns}
-        data={dataAcuerdos2023}
+        data={dataAcuerdos2024}
         enableExpanding
         enableExpandAll
         enableColumnActions={false}
@@ -441,7 +454,10 @@ const Acuerdos2023 = () => {
           ungroupByColumn: "Desagrupar por {column}",
         }}
       />
+      <br />
+      <br />
     </>
   );
 };
-export default Acuerdos2023;
+
+export default EstradosElectronicos;

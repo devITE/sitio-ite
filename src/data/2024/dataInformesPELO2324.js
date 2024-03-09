@@ -5,38 +5,27 @@ export const dataInfor = [
     children: [
       {
         id: 1,
-        titleButton: "Diciembre",
+        titleButton: "Enero",
         subChildren: [
-          // {
-          //   id: 1,
-          //   titleItem: "Item 1",
-          //   typeDocument: "pdf",
-          //   linkItem: "www.google.com.mx",
-          // },
-          // {
-          //   id: 2,
-          //   titleItem: "Item 2",
-          //   typeDocument: "pdf",
-          //   linkItem: "www.google.com.mx",
-          // },
-          // {
-          //   id: 3,
-          //   titleItem: "Item 3",
-          //   typeDocument: "pdf",
-          //   linkItem: "www.google.com.mx",
-          // },
+          {
+            id: 1,
+            titleItem: "Segundo Informe PELO 2023-2024",
+            typeDocument: "pdf",
+            linkItem:
+              "https://itetlax.org.mx/assets/pdf/informesPELO2324/2.pdf",
+          },
         ],
       },
       {
         id: 2,
         titleButton: "Febrero",
         subChildren: [
-          // {
-          //   id: 1,
-          //   titleItem: "Item 1",
-          //   typeDocument: "pdf",
-          //   linkItem: "www.google.com.mx",
-          // },
+          {
+            id: 1,
+            titleItem: "Tercer Informe PELO 2023-2024",
+            typeDocument: "pdf",
+            linkItem: "https://itetlax.org.mx/assets/pdf/informesPELO2324/3.pd",
+          },
           // {
           //   id: 2,
           //   titleItem: "Item 2",
@@ -235,24 +224,13 @@ export const dataInfor = [
         id: 1,
         titleButton: "Diciembre",
         subChildren: [
-          // {
-          //   id: 1,
-          //   titleItem: "Item 1",
-          //   typeDocument: "pdf",
-          //   linkItem: "www.google.com.mx",
-          // },
-          // {
-          //   id: 2,
-          //   titleItem: "Item 2",
-          //   typeDocument: "pdf",
-          //   linkItem: "www.google.com.mx",
-          // },
-          // {
-          //   id: 3,
-          //   titleItem: "Item 3",
-          //   typeDocument: "pdf",
-          //   linkItem: "www.google.com.mx",
-          // },
+          {
+            id: 1,
+            titleItem: "Primer Informe PELO 2023-2024",
+            typeDocument: "pdf",
+            linkItem:
+              "https://itetlax.org.mx/assets/pdf/informesPELO2324/1.pdf",
+          },
         ],
       },
     ],

@@ -9,7 +9,7 @@ export const Enlaces = () => {
   return (
     <div className="w-100">
       <div className="row">
-        <div className="col col-sm-3 col-md-3 col-md-3">
+        <div className="col-6 col-md-3 mt-2">
           <Link to="/ProcesosElectorales">
             <img
               src="https://itetlax.org.mx/assets/img/icons/e1.png"
@@ -18,7 +18,7 @@ export const Enlaces = () => {
             />
           </Link>
         </div>
-        <div className="col col-sm-3 col-md-3 col-md-3">
+        <div className="col-6 col-md-3 mt-2">
           <Link to="/Normatividad">
             <img
               src="https://itetlax.org.mx/assets/img/icons/e2.png"
@@ -27,7 +27,7 @@ export const Enlaces = () => {
             />
           </Link>
         </div>
-        <div className="col col-sm-3 col-md-3 col-md-3">
+        <div className="col-6 col-md-3 mt-2">
           <Link to="/Galeria">
             <img
               src="https://itetlax.org.mx/assets/img/icons/e3.png"
@@ -36,7 +36,7 @@ export const Enlaces = () => {
             />
           </Link>
         </div>
-        <div className="col col-sm-3 col-md-3 col-md-3">
+        <div className="col-6 col-md-3 mt-2">
           <Link to="/OIC">
             <img
               src="https://itetlax.org.mx/assets/img/icons/e4.png"
@@ -45,9 +45,7 @@ export const Enlaces = () => {
             />
           </Link>
         </div>
-      </div>
-      <div className="row mt-2">
-        <div className="col col-sm-3 col-md-3 col-md-3">
+        <div className="col-6 col-md-3 mt-2">
           <Link to="/PartidosPoliticos">
             <img
               src="https://itetlax.org.mx/assets/img/icons/e5.png"
@@ -56,7 +54,7 @@ export const Enlaces = () => {
             />
           </Link>
         </div>
-        <div className="col col-sm-3 col-md-3 col-md-3">
+        <div className="col-6 col-md-3 mt-2">
           <Link to="/Infografias">
             <img
               src="https://itetlax.org.mx/assets/img/icons/e6.png"
@@ -65,7 +63,7 @@ export const Enlaces = () => {
             />
           </Link>
         </div>
-        <div className="col col-sm-3 col-md-3 col-md-3">
+        <div className="col-6 col-md-3 mt-2">
           <Link to="/MemoriasElectorales">
             <img
               src="https://itetlax.org.mx/assets/img/icons/e7.png"
@@ -74,7 +72,7 @@ export const Enlaces = () => {
             />
           </Link>
         </div>
-        <div className="col col-sm-3 col-md-3 col-md-3">
+        <div className="col-6 col-md-3 mt-2">
           <Link to="/MetasMSPEN">
             <img
               src="https://itetlax.org.mx/assets/img/icons/e8.png"
@@ -83,9 +81,7 @@ export const Enlaces = () => {
             />
           </Link>
         </div>
-
-        <div className="col col-sm-3 col-md-3 col-md-3">
-          <br />
+        <div className="col-6 col-md-3 mt-2">
           <Link to="/PersonasDiscapacidad">
             <img
               src="https://itetlax.org.mx/assets/img/icons/dis.jpg"
@@ -94,8 +90,7 @@ export const Enlaces = () => {
             />
           </Link>
         </div>
-        <div className="col col-sm-3 col-md-3 col-md-3">
-          <br />
+        <div className="col-6 col-md-3 mt-2">
           <Link to="/Informes">
             <img
               src="https://itetlax.org.mx/assets/img/icons/encuestas.png"
@@ -106,7 +101,7 @@ export const Enlaces = () => {
         </div>
       </div>
       <div className="row mt-2">
-        <div className="col col-sm-6 col-md-6 col-md-6 d-flex justify-content-center">
+        <div className="col-12 col-md-6 mt-2">
           <a
             href="https://www.plataformadetransparencia.org.mx/"
             rel="noreferrer"
@@ -114,11 +109,11 @@ export const Enlaces = () => {
             <img
               src="https://itetlax.org.mx/assets/img/icons/e9.png"
               alt="Plataforma Nacional de Transparencia"
-              className="img-fluid shadow rounded-4"
+              className="img-fluid shadow rounded-4 w-100"
             />
           </a>
         </div>
-        <div className="col col-sm-6 col-md-6 col-md-6 d-flex justify-content-center">
+        <div className="col-12 col-md-6 mt-2">
           <a
             href="http://consultapublicamx.inai.org.mx:8080/vut-web/?idSujetoObigadoParametro=5387&idEntidadParametro=29&idSectorParametro=24"
             rel="noreferrer"
@@ -126,7 +121,7 @@ export const Enlaces = () => {
             <img
               src="https://itetlax.org.mx/assets/img/icons/e10.png"
               alt="Consulta Publica"
-              className="img-fluid shadow rounded-4"
+              className="img-fluid shadow rounded-4 w-100"
             />
           </a>
         </div>

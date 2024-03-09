@@ -4,7 +4,7 @@ import MaterialReactTable from "material-react-table";
 import { Box } from "@mui/material";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFileWord, faFilePdf } from "@fortawesome/free-solid-svg-icons";
-import { dataPlaneacion } from "../../data/dataArchivo";
+import { dataPlaneacion } from "../../data/2024/dataArchivo";
 
 const InstrumentosNormativos = () => {
   useEffect(() => {
@@ -52,7 +52,6 @@ const InstrumentosNormativos = () => {
             {!row.original.pdf ? (
               <span></span>
             ) : (
-
               <div className="">
                 <span>PDF </span>
                 <a

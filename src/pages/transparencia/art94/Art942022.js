@@ -5,7 +5,6 @@ import { Box } from "@mui/material";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFileExcel } from "@fortawesome/free-solid-svg-icons";
 import { dataArt942022 } from "../../../data/dataTransparenciaArt94";
-import HelperDataTable from "../../../layout/HelperDataTable";
 
 const Art942022 = () => {
   useEffect(() => {
@@ -66,7 +65,6 @@ const Art942022 = () => {
   return (
     <>
       <TitlePages title="Transparencia" subTitle="Artículo 94. (2022)" />
-      <HelperDataTable />
       <MaterialReactTable
         columns={columns}
         data={dataArt942022}

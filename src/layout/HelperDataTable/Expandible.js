@@ -8,7 +8,7 @@ import {
   faChevronLeft,
 } from "@fortawesome/free-solid-svg-icons";
 
-const HelperDataTable = () => {
+const HelperDataTableExpandible = () => {
   return (
     <div className="mb-3">
       <h5>Ayuda en tabla de registros</h5>
@@ -161,4 +161,4 @@ const HelperDataTable = () => {
     </div>
   );
 };
-export default HelperDataTable;
+export default HelperDataTableExpandible;

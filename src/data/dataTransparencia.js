@@ -208,34 +208,61 @@ export const dataConvenios = [
     id: 41,
     title: "COLEGIO DE TLAXCALA, A.C. 17 AGO 2023",
     url: "https://itetlax.org.mx/assets/pdf/transparencia/convenios/41.pdf",
-  }, {
+  },
+  {
     id: 42,
     title: "DDESER 23 AGO 2023",
     url: "https://itetlax.org.mx/assets/pdf/transparencia/convenios/42.pdf",
-  }, {
+  },
+  {
     id: 43,
     title: "GENERAL INE-ITE PEC 2023-2024  07 SEP 2023",
     url: "https://itetlax.org.mx/assets/pdf/transparencia/convenios/43.pdf",
-  }, {
+  },
+  {
     id: 44,
     title: "INPI 01 SEP 23",
     url: "https://itetlax.org.mx/assets/pdf/transparencia/convenios/44.pdf",
-  }, {
+  },
+  {
     id: 45,
     title: "ITE LA FUNDACION 04 SEP 23",
     url: "https://itetlax.org.mx/assets/pdf/transparencia/convenios/45.pdf",
-  }, {
+  },
+  {
     id: 46,
     title: "SECRETARÍA DE BIENESTAR TLAXCALA 04 SEP 2023",
     url: "https://itetlax.org.mx/assets/pdf/transparencia/convenios/46.pdf",
-  }, {
+  },
+  {
     id: 47,
     title: "UAT  21 AGO 23  OK",
     url: "https://itetlax.org.mx/assets/pdf/transparencia/convenios/47.pdf",
-  }, {
+  },
+  {
     id: 48,
     title: "UAT FACULTAD DERECHO 21 AGO 2023",
     url: "https://itetlax.org.mx/assets/pdf/transparencia/convenios/48.pdf",
+  },
+  {
+    id: 49,
+    title: "IEM TET ITE 13 NOV 2023",
+    url: "https://itetlax.org.mx/assets/pdf/transparencia/convenios/49.pdf",
+  },
+  {
+    id: 50,
+    title: "ITE-PJET 04 DIC 2023",
+    url: "https://itetlax.org.mx/assets/pdf/transparencia/convenios/50.pdf",
+  },
+  {
+    id: 51,
+    title: "ITE INE SEP 07 DIC 2023",
+    url: "https://itetlax.org.mx/assets/pdf/transparencia/convenios/51.pdf",
+  },
+  {
+    id: 52,
+    title: "ITE EL COLEGIO DE TLAXCALA 06 DIC 2023",
+    url: "https://itetlax.org.mx/assets/pdf/transparencia/convenios/52.pdf",
   },
 ];
 
@@ -274,6 +301,11 @@ export const dataInformesAnuales = [
     id: 7,
     title: "2021",
     url: "https://itetlax.org.mx/assets/pdf/transparencia/infAnuales/7.pdf",
+  },
+  {
+    id: 8,
+    title: "2022",
+    url: "https://itetlax.org.mx/assets/pdf/transparencia/infAnuales/8.pdf",
   },
 ];
 
@@ -412,302 +444,302 @@ export const dataInfContable = [
   },
 ];
 
-export const dataCuentaPublica = [
-  {
-    id: 1,
-    titleItem: "Cuenta Pública 2014 - 2015",
-    flushID: "cuenta1415",
-    children: [
-      {
-        id: 1,
-        titleItem: "Cuenta Pública 2014",
-        linkItem:
-          "https://itetlax.org.mx/assets/pdf/transparencia/infContable/cuentaPub/1.pdf",
-        typeDocument: "pdf",
-      },
-      {
-        id: 2,
-        titleItem: "Cuenta Pública 2015",
-        linkItem:
-          "https://itetlax.org.mx/assets/pdf/transparencia/infContable/cuentaPub/2.pdf",
-        typeDocument: "pdf",
-      },
-    ],
-  },
-  {
-    id: 2,
-    titleItem: "Cuenta Pública 2016",
-    flushID: "cuenta16",
-    children: [
-      {
-        id: 1,
-        titleItem: "Cuenta Pública 1er trimestre",
-        linkItem:
-          "https://itetlax.org.mx/assets/pdf/transparencia/infContable/cuentaPub2016/1.pdf",
-        typeDocument: "pdf",
-      },
-      {
-        id: 2,
-        titleItem: "Cuenta Pública 2do trimestre",
-        linkItem:
-          "https://itetlax.org.mx/assets/pdf/transparencia/infContable/cuentaPub2016/2.pdf",
-        typeDocument: "pdf",
-      },
-      {
-        id: 3,
-        titleItem: "Cuenta Pública 3er trimestre",
-        linkItem:
-          "https://itetlax.org.mx/assets/pdf/transparencia/infContable/cuentaPub2016/3.pdf",
-        typeDocument: "pdf",
-      },
-      {
-        id: 4,
-        titleItem: "Cuenta Pública 4to trimestre",
-        linkItem:
-          "https://itetlax.org.mx/assets/pdf/transparencia/infContable/cuentaPub2016/4.pdf",
-        typeDocument: "pdf",
-      },
-    ],
-  },
-  {
-    id: 3,
-    titleItem: "Cuenta Pública 2017",
-    flushID: "cuenta17",
-    children: [
-      {
-        id: 1,
-        titleItem: "Cuenta Pública 1er trimestre",
-        linkItem:
-          "https://itetlax.org.mx/assets/pdf/transparencia/infContable/cuentaPub2017/1.pdf",
-        typeDocument: "pdf",
-      },
-      {
-        id: 2,
-        titleItem: "Cuenta Pública 2do trimestre",
-        linkItem:
-          "https://itetlax.org.mx/assets/pdf/transparencia/infContable/cuentaPub2017/2.pdf",
-        typeDocument: "pdf",
-      },
-      {
-        id: 3,
-        titleItem: "Cuenta Pública 3er trimestre",
-        linkItem:
-          "https://itetlax.org.mx/assets/pdf/transparencia/infContable/cuentaPub2017/3.pdf",
-        typeDocument: "pdf",
-      },
-      {
-        id: 4,
-        titleItem: "Cuenta Pública 4to trimestre",
-        linkItem:
-          "https://itetlax.org.mx/assets/pdf/transparencia/infContable/cuentaPub2017/4.pdf",
-        typeDocument: "pdf",
-      },
-    ],
-  },
-  {
-    id: 4,
-    titleItem: "Cuenta Pública 2018",
-    flushID: "cuenta18",
-    children: [
-      {
-        id: 1,
-        titleItem: "Cuenta Pública 1er trimestre",
-        linkItem:
-          "https://itetlax.org.mx/assets/pdf/transparencia/infContable/cuentaPub2018/1.pdf",
-        typeDocument: "pdf",
-      },
-      {
-        id: 2,
-        titleItem: "Cuenta Pública 2do trimestre",
-        linkItem:
-          "https://itetlax.org.mx/assets/pdf/transparencia/infContable/cuentaPub2018/2.pdf",
-        typeDocument: "pdf",
-      },
-      {
-        id: 3,
-        titleItem: "Cuenta Pública 3er trimestre",
-        linkItem:
-          "https://itetlax.org.mx/assets/pdf/transparencia/infContable/cuentaPub2018/3.pdf",
-        typeDocument: "pdf",
-      },
-      {
-        id: 4,
-        titleItem: "Cuenta Pública 4to trimestre",
-        linkItem:
-          "https://itetlax.org.mx/assets/pdf/transparencia/infContable/cuentaPub2018/4.pdf",
-        typeDocument: "pdf",
-      },
-    ],
-  },
-  {
-    id: 5,
-    titleItem: "Cuenta Pública 2019",
-    flushID: "cuenta19",
-    children: [
-      {
-        id: 1,
-        titleItem: "Cuenta Pública 1er trimestre",
-        linkItem:
-          "https://itetlax.org.mx/assets/pdf/transparencia/infContable/cuentaPub2019/1.pdf",
-        typeDocument: "pdf",
-      },
-      {
-        id: 2,
-        titleItem: "Cuenta Pública 2do trimestre",
-        linkItem:
-          "https://itetlax.org.mx/assets/pdf/transparencia/infContable/cuentaPub2019/2.pdf",
-        typeDocument: "pdf",
-      },
-      {
-        id: 3,
-        titleItem: "Cuenta Pública 3er trimestre",
-        linkItem:
-          "https://itetlax.org.mx/assets/pdf/transparencia/infContable/cuentaPub2019/3.pdf",
-        typeDocument: "pdf",
-      },
-      {
-        id: 4,
-        titleItem: "Cuenta Pública 4to trimestre",
-        linkItem:
-          "https://itetlax.org.mx/assets/pdf/transparencia/infContable/cuentaPub2019/4.pdf",
-        typeDocument: "pdf",
-      },
-    ],
-  },
-  {
-    id: 6,
-    titleItem: "Cuenta Pública 2020",
-    flushID: "cuenta20",
-    children: [
-      {
-        id: 1,
-        titleItem: "Cuenta Pública 1er trimestre",
-        linkItem:
-          "https://itetlax.org.mx/assets/pdf/transparencia/infContable/cuentaPub2020/1.pdf",
-        typeDocument: "pdf",
-      },
-      {
-        id: 2,
-        titleItem: "Cuenta Pública 2do trimestre",
-        linkItem:
-          "https://itetlax.org.mx/assets/pdf/transparencia/infContable/cuentaPub2020/2.pdf",
-        typeDocument: "pdf",
-      },
-      {
-        id: 3,
-        titleItem: "Cuenta Pública 3er trimestre",
-        linkItem:
-          "https://itetlax.org.mx/assets/pdf/transparencia/infContable/cuentaPub2020/3.pdf",
-        typeDocument: "pdf",
-      },
-      {
-        id: 4,
-        titleItem: "Cuenta Pública 4to trimestre",
-        linkItem:
-          "https://itetlax.org.mx/assets/pdf/transparencia/infContable/cuentaPub2020/4.pdf",
-        typeDocument: "pdf",
-      },
-    ],
-  },
-  {
-    id: 7,
-    titleItem: "Cuenta Pública 2021",
-    flushID: "cuenta21",
-    children: [
-      {
-        id: 1,
-        titleItem: "Cuenta Pública 1er trimestre",
-        linkItem:
-          "https://itetlax.org.mx/assets/pdf/transparencia/infContable/cuentaPub2021/1.pdf",
-        typeDocument: "pdf",
-      },
-      {
-        id: 2,
-        titleItem: "Cuenta Pública 2do trimestre",
-        linkItem:
-          "https://itetlax.org.mx/assets/pdf/transparencia/infContable/cuentaPub2021/2.pdf",
-        typeDocument: "pdf",
-      },
-      {
-        id: 3,
-        titleItem: "Cuenta Pública 3er trimestre",
-        linkItem:
-          "https://itetlax.org.mx/assets/pdf/transparencia/infContable/cuentaPub2021/3.pdf",
-        typeDocument: "pdf",
-      },
-      {
-        id: 4,
-        titleItem: "Cuenta Pública 4to trimestre",
-        linkItem:
-          "https://itetlax.org.mx/assets/pdf/transparencia/infContable/cuentaPub2021/4.pdf",
-        typeDocument: "pdf",
-      },
-    ],
-  },
-  {
-    id: 8,
-    titleItem: "Cuenta Pública 2022",
-    flushID: "cuenta2",
-    children: [
-      {
-        id: 1,
-        titleItem: "Cuenta Pública 1er trimestre",
-        linkItem:
-          "https://itetlax.org.mx/assets/pdf/transparencia/infContable/cuentaPub2022/1.pdf",
-        typeDocument: "pdf",
-      },
-      {
-        id: 2,
-        titleItem: "Cuenta Pública 2do trimestre",
-        linkItem:
-          "https://itetlax.org.mx/assets/pdf/transparencia/infContable/cuentaPub2022/2.pdf",
-        typeDocument: "pdf",
-      },
-      {
-        id: 3,
-        titleItem: "Cuenta Pública 3er trimestre",
-        linkItem:
-          "https://itetlax.org.mx/assets/pdf/transparencia/infContable/cuentaPub2022/3.pdf",
-        typeDocument: "pdf",
-      },
-      {
-        id: 4,
-        titleItem: "Cuenta Pública 4to trimestre",
-        linkItem:
-          "https://itetlax.org.mx/assets/pdf/transparencia/infContable/cuentaPub2022/4.pdf",
-        typeDocument: "pdf",
-      },
-    ],
-  },
-  {
-    id: 9,
-    titleItem: "Cuenta Pública 2023",
-    flushID: "cuenta2023",
-    children: [
-      {
-        id: 1,
-        titleItem: "Cuenta Pública 1er Trimestre",
-        linkItem:
-          "https://itetlax.org.mx/assets/pdf/transparencia/infContable/cuentaPub2023/1.pdf",
-        typeDocument: "pdf",
-      },
-      {
-        id: 2,
-        titleItem: "Cuenta Pública 2do Trimestre",
-        linkItem:
-          "https://itetlax.org.mx/assets/pdf/transparencia/infContable/cuentaPub2023/2.pdf",
-        typeDocument: "pdf",
-      },
-      {
-        id: 3,
-        titleItem: "Cuenta Pública 3er Trimestre",
-        linkItem:
-          "https://itetlax.org.mx/assets/pdf/transparencia/infContable/cuentaPub2023/3.pdf",
-        typeDocument: "pdf",
-      },
-    ],
-  },
-];
+// export const dataCuentaPublica = [
+//   {
+//     id: 1,
+//     titleItem: "Cuenta Pública 2014 - 2015",
+//     flushID: "cuenta1415",
+//     children: [
+//       {
+//         id: 1,
+//         titleItem: "Cuenta Pública 2014",
+//         linkItem:
+//           "https://itetlax.org.mx/assets/pdf/transparencia/infContable/cuentaPub/1.pdf",
+//         typeDocument: "pdf",
+//       },
+//       {
+//         id: 2,
+//         titleItem: "Cuenta Pública 2015",
+//         linkItem:
+//           "https://itetlax.org.mx/assets/pdf/transparencia/infContable/cuentaPub/2.pdf",
+//         typeDocument: "pdf",
+//       },
+//     ],
+//   },
+//   {
+//     id: 2,
+//     titleItem: "Cuenta Pública 2016",
+//     flushID: "cuenta16",
+//     children: [
+//       {
+//         id: 1,
+//         titleItem: "Cuenta Pública 1er trimestre",
+//         linkItem:
+//           "https://itetlax.org.mx/assets/pdf/transparencia/infContable/cuentaPub2016/1.pdf",
+//         typeDocument: "pdf",
+//       },
+//       {
+//         id: 2,
+//         titleItem: "Cuenta Pública 2do trimestre",
+//         linkItem:
+//           "https://itetlax.org.mx/assets/pdf/transparencia/infContable/cuentaPub2016/2.pdf",
+//         typeDocument: "pdf",
+//       },
+//       {
+//         id: 3,
+//         titleItem: "Cuenta Pública 3er trimestre",
+//         linkItem:
+//           "https://itetlax.org.mx/assets/pdf/transparencia/infContable/cuentaPub2016/3.pdf",
+//         typeDocument: "pdf",
+//       },
+//       {
+//         id: 4,
+//         titleItem: "Cuenta Pública 4to trimestre",
+//         linkItem:
+//           "https://itetlax.org.mx/assets/pdf/transparencia/infContable/cuentaPub2016/4.pdf",
+//         typeDocument: "pdf",
+//       },
+//     ],
+//   },
+//   {
+//     id: 3,
+//     titleItem: "Cuenta Pública 2017",
+//     flushID: "cuenta17",
+//     children: [
+//       {
+//         id: 1,
+//         titleItem: "Cuenta Pública 1er trimestre",
+//         linkItem:
+//           "https://itetlax.org.mx/assets/pdf/transparencia/infContable/cuentaPub2017/1.pdf",
+//         typeDocument: "pdf",
+//       },
+//       {
+//         id: 2,
+//         titleItem: "Cuenta Pública 2do trimestre",
+//         linkItem:
+//           "https://itetlax.org.mx/assets/pdf/transparencia/infContable/cuentaPub2017/2.pdf",
+//         typeDocument: "pdf",
+//       },
+//       {
+//         id: 3,
+//         titleItem: "Cuenta Pública 3er trimestre",
+//         linkItem:
+//           "https://itetlax.org.mx/assets/pdf/transparencia/infContable/cuentaPub2017/3.pdf",
+//         typeDocument: "pdf",
+//       },
+//       {
+//         id: 4,
+//         titleItem: "Cuenta Pública 4to trimestre",
+//         linkItem:
+//           "https://itetlax.org.mx/assets/pdf/transparencia/infContable/cuentaPub2017/4.pdf",
+//         typeDocument: "pdf",
+//       },
+//     ],
+//   },
+//   {
+//     id: 4,
+//     titleItem: "Cuenta Pública 2018",
+//     flushID: "cuenta18",
+//     children: [
+//       {
+//         id: 1,
+//         titleItem: "Cuenta Pública 1er trimestre",
+//         linkItem:
+//           "https://itetlax.org.mx/assets/pdf/transparencia/infContable/cuentaPub2018/1.pdf",
+//         typeDocument: "pdf",
+//       },
+//       {
+//         id: 2,
+//         titleItem: "Cuenta Pública 2do trimestre",
+//         linkItem:
+//           "https://itetlax.org.mx/assets/pdf/transparencia/infContable/cuentaPub2018/2.pdf",
+//         typeDocument: "pdf",
+//       },
+//       {
+//         id: 3,
+//         titleItem: "Cuenta Pública 3er trimestre",
+//         linkItem:
+//           "https://itetlax.org.mx/assets/pdf/transparencia/infContable/cuentaPub2018/3.pdf",
+//         typeDocument: "pdf",
+//       },
+//       {
+//         id: 4,
+//         titleItem: "Cuenta Pública 4to trimestre",
+//         linkItem:
+//           "https://itetlax.org.mx/assets/pdf/transparencia/infContable/cuentaPub2018/4.pdf",
+//         typeDocument: "pdf",
+//       },
+//     ],
+//   },
+//   {
+//     id: 5,
+//     titleItem: "Cuenta Pública 2019",
+//     flushID: "cuenta19",
+//     children: [
+//       {
+//         id: 1,
+//         titleItem: "Cuenta Pública 1er trimestre",
+//         linkItem:
+//           "https://itetlax.org.mx/assets/pdf/transparencia/infContable/cuentaPub2019/1.pdf",
+//         typeDocument: "pdf",
+//       },
+//       {
+//         id: 2,
+//         titleItem: "Cuenta Pública 2do trimestre",
+//         linkItem:
+//           "https://itetlax.org.mx/assets/pdf/transparencia/infContable/cuentaPub2019/2.pdf",
+//         typeDocument: "pdf",
+//       },
+//       {
+//         id: 3,
+//         titleItem: "Cuenta Pública 3er trimestre",
+//         linkItem:
+//           "https://itetlax.org.mx/assets/pdf/transparencia/infContable/cuentaPub2019/3.pdf",
+//         typeDocument: "pdf",
+//       },
+//       {
+//         id: 4,
+//         titleItem: "Cuenta Pública 4to trimestre",
+//         linkItem:
+//           "https://itetlax.org.mx/assets/pdf/transparencia/infContable/cuentaPub2019/4.pdf",
+//         typeDocument: "pdf",
+//       },
+//     ],
+//   },
+//   {
+//     id: 6,
+//     titleItem: "Cuenta Pública 2020",
+//     flushID: "cuenta20",
+//     children: [
+//       {
+//         id: 1,
+//         titleItem: "Cuenta Pública 1er trimestre",
+//         linkItem:
+//           "https://itetlax.org.mx/assets/pdf/transparencia/infContable/cuentaPub2020/1.pdf",
+//         typeDocument: "pdf",
+//       },
+//       {
+//         id: 2,
+//         titleItem: "Cuenta Pública 2do trimestre",
+//         linkItem:
+//           "https://itetlax.org.mx/assets/pdf/transparencia/infContable/cuentaPub2020/2.pdf",
+//         typeDocument: "pdf",
+//       },
+//       {
+//         id: 3,
+//         titleItem: "Cuenta Pública 3er trimestre",
+//         linkItem:
+//           "https://itetlax.org.mx/assets/pdf/transparencia/infContable/cuentaPub2020/3.pdf",
+//         typeDocument: "pdf",
+//       },
+//       {
+//         id: 4,
+//         titleItem: "Cuenta Pública 4to trimestre",
+//         linkItem:
+//           "https://itetlax.org.mx/assets/pdf/transparencia/infContable/cuentaPub2020/4.pdf",
+//         typeDocument: "pdf",
+//       },
+//     ],
+//   },
+//   {
+//     id: 7,
+//     titleItem: "Cuenta Pública 2021",
+//     flushID: "cuenta21",
+//     children: [
+//       {
+//         id: 1,
+//         titleItem: "Cuenta Pública 1er trimestre",
+//         linkItem:
+//           "https://itetlax.org.mx/assets/pdf/transparencia/infContable/cuentaPub2021/1.pdf",
+//         typeDocument: "pdf",
+//       },
+//       {
+//         id: 2,
+//         titleItem: "Cuenta Pública 2do trimestre",
+//         linkItem:
+//           "https://itetlax.org.mx/assets/pdf/transparencia/infContable/cuentaPub2021/2.pdf",
+//         typeDocument: "pdf",
+//       },
+//       {
+//         id: 3,
+//         titleItem: "Cuenta Pública 3er trimestre",
+//         linkItem:
+//           "https://itetlax.org.mx/assets/pdf/transparencia/infContable/cuentaPub2021/3.pdf",
+//         typeDocument: "pdf",
+//       },
+//       {
+//         id: 4,
+//         titleItem: "Cuenta Pública 4to trimestre",
+//         linkItem:
+//           "https://itetlax.org.mx/assets/pdf/transparencia/infContable/cuentaPub2021/4.pdf",
+//         typeDocument: "pdf",
+//       },
+//     ],
+//   },
+//   {
+//     id: 8,
+//     titleItem: "Cuenta Pública 2022",
+//     flushID: "cuenta2",
+//     children: [
+//       {
+//         id: 1,
+//         titleItem: "Cuenta Pública 1er trimestre",
+//         linkItem:
+//           "https://itetlax.org.mx/assets/pdf/transparencia/infContable/cuentaPub2022/1.pdf",
+//         typeDocument: "pdf",
+//       },
+//       {
+//         id: 2,
+//         titleItem: "Cuenta Pública 2do trimestre",
+//         linkItem:
+//           "https://itetlax.org.mx/assets/pdf/transparencia/infContable/cuentaPub2022/2.pdf",
+//         typeDocument: "pdf",
+//       },
+//       {
+//         id: 3,
+//         titleItem: "Cuenta Pública 3er trimestre",
+//         linkItem:
+//           "https://itetlax.org.mx/assets/pdf/transparencia/infContable/cuentaPub2022/3.pdf",
+//         typeDocument: "pdf",
+//       },
+//       {
+//         id: 4,
+//         titleItem: "Cuenta Pública 4to trimestre",
+//         linkItem:
+//           "https://itetlax.org.mx/assets/pdf/transparencia/infContable/cuentaPub2022/4.pdf",
+//         typeDocument: "pdf",
+//       },
+//     ],
+//   },
+//   {
+//     id: 9,
+//     titleItem: "Cuenta Pública 2023",
+//     flushID: "cuenta2023",
+//     children: [
+//       {
+//         id: 1,
+//         titleItem: "Cuenta Pública 1er Trimestre",
+//         linkItem:
+//           "https://itetlax.org.mx/assets/pdf/transparencia/infContable/cuentaPub2023/1.pdf",
+//         typeDocument: "pdf",
+//       },
+//       {
+//         id: 2,
+//         titleItem: "Cuenta Pública 2do Trimestre",
+//         linkItem:
+//           "https://itetlax.org.mx/assets/pdf/transparencia/infContable/cuentaPub2023/2.pdf",
+//         typeDocument: "pdf",
+//       },
+//       {
+//         id: 3,
+//         titleItem: "Cuenta Pública 3er Trimestre",
+//         linkItem:
+//           "https://itetlax.org.mx/assets/pdf/transparencia/infContable/cuentaPub2023/3.pdf",
+//         typeDocument: "pdf",
+//       },
+//     ],
+//   },
+// ];
 
 export const dataDatosAbiertos = [
   {

@@ -168,6 +168,34 @@ a {
   page-break-inside: avoid;
 }
 
+._2aOn7 {
+  color: #972069 !important;
+  font-weight: bolder !important;
+}
+
+._106d2 {
+  background: #972069 !important;
+  font-weight: bolder !important;
+  border-radius: 0 0 10px 10px !important;
+}
+
+._SKh-V, ._2v-d4 {
+  background: #6b164b !important;
+  font-weight: bolder !important;
+  color: #dddddd !important;
+  border-radius: 10px 10px 0 0 !important;
+
+}
+
+@media only screen and (max-width: 767px) {
+  ._qWTcH {
+    --fcc-digit-block-width: 30px !important;
+    --fcc-digit-block-height: 40px !important;
+    --fcc-digit-font-size: 25px !important;
+    --fcc-label-font-size: 15px;
+  }
+}
+
 /* --------------- M O D A L --------------- */
 
 .modal-header {

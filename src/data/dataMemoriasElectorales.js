@@ -59,12 +59,12 @@ export const dataMemoria = [
     imgItem: "https://itetlax.org.mx/assets/img/memElect/10.jpg",
     linkItem: "https://itetlax.org.mx/assets/pdf/memElect/10.pdf",
   },
-  {
-    id: 11,
-    titleItem: "2020 - 2021 Anexos",
-    imgItem: "https://itetlax.org.mx/assets/img/memElect/11.1.png",
-    linkItem: "/MemoriaElectoral20202021",
-  },
+  // {
+  //   id: 11,
+  //   titleItem: "2020 - 2021 Anexos",
+  //   imgItem: "https://itetlax.org.mx/assets/img/memElect/11.1.png",
+  //   linkItem: "/MemoriaElectoral20202021",
+  // },
   {
     id: 12,
     titleItem: "2020 - 2021",

@@ -315,8 +315,7 @@ export const dataGaleria = [
   {
     id: 1,
     nameItem: 1,
-    titleItem:
-      "SEGUNDO FORO DE CAPACITACIÓN MONTERREY 2022.",
+    titleItem: "SEGUNDO FORO DE CAPACITACIÓN MONTERREY 2022.",
     flushID: "heading1",
     children: [
       {
@@ -445,8 +444,7 @@ export const dataGaleria = [
   {
     id: 6,
     nameItem: 6,
-    titleItem:
-      "PRIMER FORO DE CAPACITACIÓN COAHUILA 2022.",
+    titleItem: "PRIMER FORO DE CAPACITACIÓN COAHUILA 2022.",
     flushID: "heading6",
     children: [
       {
@@ -487,7 +485,7 @@ export const dataGaleria = [
         ],
       },
     ],
-  }, 
+  },
   {
     id: 4,
     nameItem: 4,
@@ -527,13 +525,11 @@ export const dataGaleria = [
       },
     ],
   },
- 
-  
+
   {
     id: 9,
     nameItem: 9,
-    titleItem:
-      "QUINTO FORO DE CAPACITACIÓN DURANGO 2023.",
+    titleItem: "QUINTO FORO DE CAPACITACIÓN DURANGO 2023.",
     flushID: "heading9",
     children: [
       {
@@ -597,12 +593,10 @@ export const dataGaleria = [
     ],
   },
 
-  
   {
     id: 10,
     nameItem: 10,
-    titleItem:
-      "ENTREGA DE BIENES ACTUALIZADOS",
+    titleItem: "ENTREGA DE BIENES ACTUALIZADOS",
     flushID: "heading10",
     children: [
       {
@@ -658,7 +652,6 @@ export const dataGaleria = [
       },
     ],
   },
-
 ];
 
 export const dataEstructuraOrganica = [
@@ -747,12 +740,14 @@ export const dataNormatividad = [
     titleItem: "LEY DE ARCHIVOS DEL ESTADO DE TLAXCALA",
     typeDocument: "pdf",
     linkItem: "https://itetlax.org.mx/assets/pdf/OIC/18.pdf",
-  },  {
+  },
+  {
     id: 12,
     titleItem: "LEY DE COORDINACIÓN FISCAL",
     typeDocument: "pdf",
     linkItem: "https://itetlax.org.mx/assets/pdf/OIC/19.pdf",
-  },  {
+  },
+  {
     id: 13,
     titleItem: "LEY DEL IMPUESTO SOBRE LA RENTA",
     typeDocument: "pdf",
@@ -773,7 +768,6 @@ export const dataPOA = [
     typeDocument: "excel",
     linkItem: "https://itetlax.org.mx/assets/pdf/OIC/16.xlsx",
   },
-
 ];
 
 export const dataSemblanza = [
@@ -796,7 +790,7 @@ export const dataDeclaracionPatrimonial = [
     id: 2,
     titleItem: "TUTORIAL DE LLENADO DE DECLARACIÓN",
     typeDocument: "video",
-    linkItem: "https://itetlax.org.mx/assets/video/OIC/1.mp4",
+    linkItem: "https://youtu.be/hM8Wu_0s0ys",
   },
   {
     id: 3,

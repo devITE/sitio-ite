@@ -4,7 +4,7 @@ import MaterialReactTable from "material-react-table";
 import { Box } from "@mui/material";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFileWord, faFilePdf } from "@fortawesome/free-solid-svg-icons";
-import { dataInstrumentos } from "../../data/dataArchivo";
+import { dataInstrumentos } from "../../data/2024/dataArchivo";
 
 const InstrumentosNormativos = () => {
   useEffect(() => {
