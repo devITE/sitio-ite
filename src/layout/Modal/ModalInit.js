@@ -9,6 +9,7 @@ export default function ModalInit({ url, linkToo, imgLink }) {
   return (
     <>
       <Modal
+        size="lg"
         show={show}
         onHide={handleClose}
         aria-labelledby="contained-modal-title-vcenter"
