@@ -90,9 +90,9 @@ export const dataCIndex = [
     id: 13,
     imgUrl: "https://itetlax.org.mx/assets/img/imgC_I/banner_cdm.jpg",
     alt: "Convocatoria CDM",
-    itemActive: "active",
-    buttonActive: "active",
-    ariaCurrent: "true",
+    // itemActive: "active",
+    // buttonActive: "active",
+    // ariaCurrent: "true",
     url: "https://convocatoria-cdm.itetlax.org.mx/",
     linkToo: "",
   },
@@ -138,16 +138,25 @@ export const dataCIndex = [
   //   url: "https://itetlax.org.mx/assets/pdf/carousel/resultados_rc.pdf",
   //   linkToo: "",
   // },
-  // {
-  //   id: 19,
-  //   imgUrl: "https://itetlax.org.mx/assets/img/imgC_I/entrevistas_rc.jpg",
-  //   alt: "Entrevistas R.C",
-  //   url: "https://itetlax.org.mx/assets/pdf/carousel/entrevistas_rc.pdf",
-  //   itemActive: "active",
-  //   buttonActive: "active",
-  //   ariaCurrent: "true",
-  //   linkToo: "",
-  // },
+  {
+    id: 19,
+    imgUrl:
+      "https://itetlax.org.mx/assets/img/imgC_I/BANER_SELECCIONADOS_RC.jpg",
+    alt: "SELECCIONADOS R.C",
+    url: "https://itetlax.org.mx/assets/pdf/carousel/FOLIOS_SELECCIONADOS_RC.pdf",
+    itemActive: "active",
+    buttonActive: "active",
+    ariaCurrent: "true",
+    linkToo: "",
+  },
+  {
+    id: 19,
+    imgUrl:
+      "https://itetlax.org.mx/assets/img/imgC_I/BANNER_CALIFICACIONES.jpg",
+    alt: "CALIFICACIONES R.C",
+    url: "https://itetlax.org.mx/assets/pdf/carousel/BANNER_CALIFICACIONES_RC.pdf",
+    linkToo: "",
+  },
 ];
 
 export const dataCAR = [

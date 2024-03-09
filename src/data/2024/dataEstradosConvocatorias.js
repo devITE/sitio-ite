@@ -23,37 +23,21 @@ export const dataEstrados = [
     nameFolio: "",
     linkFolio: "",
   },
-  // // fecha de baja: 01 MARZO 2024
-  // {
-  //   id: 2,
-  //   nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 0762",
-  //   linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/56.pdf",
-  //   nameFolio: "FOLIO 0762-2024",
-  //   linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/56.1.pdf",
-  // },
-  // // fecha de baja: 01 MARZO 2024
-  // {
-  //   id: 2,
-  //   nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 0847",
-  //   linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/57.pdf",
-  //   nameFolio: "FOLIO 0847-2024",
-  //   linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/57.1.pdf",
-  // },
-  // fecha de baja: 05 MARZO 2024
+  // fecha de baja: 09 MARZO 2024
   {
     id: 2,
-    nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 0848",
-    linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/58.pdf",
-    nameFolio: "FOLIO 0848-2024",
-    linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/58.1.pdf",
+    nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 0905",
+    linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/60.pdf",
+    nameFolio: "FOLIO 0905-2024",
+    linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/60.1.pdf",
   },
-  // fecha de baja: 05 MARZO 2024
+  // fecha de baja: 10 MARZO 2024
   {
     id: 2,
-    nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 0875",
-    linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/59.pdf",
-    nameFolio: "FOLIO 0875-2024",
-    linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/59.1.pdf",
+    nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 0921",
+    linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/61.pdf",
+    nameFolio: "FOLIO 0921-2024",
+    linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/61.1.pdf",
   },
 ];
 
