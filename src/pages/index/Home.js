@@ -44,11 +44,11 @@ const ITE = () => {
           linkToo=""
         />
       */}
-      <ModalInit
+      {/* <ModalInit
         imgLink="https://itetlax.org.mx/assets/img/imgC_A/ine.PNG"
         url="https://observadores.ine.mx/"
         linkToo=""
-      />
+      /> */}
 
       {/* <ModalInit
         imgLink="https://itetlax.org.mx/assets/img/imgPopup/consultaconvo.jpg"
@@ -56,11 +56,11 @@ const ITE = () => {
         linkToo="/ConvocatoriasApartado"
       /> */}
 
-      {/* <ModalInit
-        imgLink="https://itetlax.org.mx/assets/img/imgPopup/resultados_examen.png"
-        url="https://itetlax.org.mx/assets/popup/resultados_examen.pdf"
+      <ModalInit
+        imgLink="https://itetlax.org.mx/assets/img/aviso.png"
+        url="https://itetlax.org.mx/assets/img/aviso.png"
         linkToo=""
-      /> */}
+      />
       <Carousel idCarousel="carouselTopIndex">
         {dataCIndex.map((cIndex) => (
           <CarouselItemIMG
