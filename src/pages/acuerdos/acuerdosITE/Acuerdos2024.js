@@ -10,7 +10,7 @@ import Expandible from "../../../layout/HelperDataTable/Expandible";
 
 const AcuerdosITE2024 = () => {
   useEffect(() => {
-    document.title = `Acuerdos INE 2024`;
+    document.title = `Acuerdos ITE 2024`;
   }, []);
   const columns = useMemo(
     () => [

@@ -9,36 +9,19 @@ export const dataEstrados = [
   // },
   {
     id: 1,
-    nameCedula:
-      "Folios para el examen para integrar los Consejos Distritales y Municipales",
-    linkCedula:
-      "https://itetlax.org.mx/assets/pdf/agenda/folios_entrevista.pdf",
-    nameFolio: "",
-    linkFolio: "",
-  },
-  {
-    id: 1,
     nameCedula: "Resolución ITE-CG 17/2024",
     linkCedula: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/17.pdf",
     nameFolio: "",
     linkFolio: "",
   },
-  // fecha de baja: 09 MARZO 2024
-  {
-    id: 2,
-    nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 0905",
-    linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/60.pdf",
-    nameFolio: "FOLIO 0905-2024",
-    linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/60.1.pdf",
-  },
-  // fecha de baja: 10 MARZO 2024
-  {
-    id: 2,
-    nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 0921",
-    linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/61.pdf",
-    nameFolio: "FOLIO 0921-2024",
-    linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/61.1.pdf",
-  },
+  // fecha de baja: 12 MARZO 2024
+  // {
+  //   id: 6,
+  //   nameCedula: "OFICIO ITE-DOECyEC-365-33/2024",
+  //   linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/65.pdf",
+  //   nameFolio: "",
+  //   linkFolio: "",
+  // },
 ];
 
 export const dataConvocatorias = [
