@@ -14,14 +14,30 @@ export const dataEstrados = [
     nameFolio: "",
     linkFolio: "",
   },
-  // fecha de baja: 12 MARZO 2024
-  // {
-  //   id: 6,
-  //   nameCedula: "OFICIO ITE-DOECyEC-365-33/2024",
-  //   linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/65.pdf",
-  //   nameFolio: "",
-  //   linkFolio: "",
-  // },
+  // fecha de baja: 22 MARZO 2024
+  {
+    id: 1,
+    nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 01115",
+    linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/66.pdf",
+    nameFolio: "FOLIO 01115-2024",
+    linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/66.1.pdf",
+  },
+  // fecha de baja: 22 MARZO 2024
+  {
+    id: 2,
+    nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 01117",
+    linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/67.pdf",
+    nameFolio: "FOLIO 01117-2024",
+    linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/67.1.pdf",
+  },
+  // fecha de baja: 23 MARZO 2024
+  {
+    id: 2,
+    nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 01124",
+    linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/68.pdf",
+    nameFolio: "FOLIO 01124-2024",
+    linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/68.1.pdf",
+  },
 ];
 
 export const dataConvocatorias = [
