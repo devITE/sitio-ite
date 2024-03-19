@@ -219,10 +219,17 @@ export const dataCAR = [
     id: 9,
     imgUrl: "https://itetlax.org.mx/assets/img/imgPopup/resultados_examen.png",
     alt: "Candidaturas independientes",
+    url: "https://itetlax.org.mx/assets/popup/resultados_examen.pdf",
+    linkToo: "",
+  },
+  {
+    id: 9,
+    imgUrl: "https://itetlax.org.mx/assets/img/convocatoria_formulario.png",
+    alt: "SEL CAEL",
     itemActive: "active",
     buttonActive: "active",
     ariaCurrent: "true",
-    url: "https://itetlax.org.mx/assets/popup/resultados_examen.pdf",
+    url: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/31.1.pdf",
     linkToo: "",
   },
 ];
