@@ -496,4 +496,27 @@ export const dataAvisosPrivacidad = [
       },
     ],
   },
+
+  {
+    id: 20,
+    titleItem:
+      "Aviso de Privacidad Sistema de Candidatas y Candidatos Conóceles para el PELO 2023-2024",
+    flushID: "AvisoConoceles",
+    children: [
+      {
+        id: 1,
+        titleItem:
+          "Aviso Simplificado: Sistema de Candidatas y Candidatos Conóceles para el PELO 2023-2024",
+        linkItem: "https://itetlax.org.mx/assets/pdf/avisosPrivacidad/57.pdf",
+        typeDocument: "pdf",
+      },
+      {
+        id: 2,
+        titleItem:
+          "Aviso Integrado: Sistema de Candidatas y Candidatos Conóceles para el PELO 2023-2024",
+        linkItem: "https://itetlax.org.mx/assets/pdf/avisosPrivacidad/58.pdf",
+        typeDocument: "pdf",
+      },
+    ],
+  },
 ];

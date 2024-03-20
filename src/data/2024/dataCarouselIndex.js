@@ -76,6 +76,9 @@ export const dataCIndex = [
     id: 11,
     imgUrl: "https://itetlax.org.mx/assets/img/imgC_I/actores-politicos.jpg",
     alt: "Actores Politicos",
+    itemActive: "active",
+    buttonActive: "active",
+    ariaCurrent: "true",
     url: "https://itetlax.org.mx/assets/pdf/comunicacion/lineamientos_radio_television.pdf",
     linkToo: "",
   },
@@ -86,16 +89,13 @@ export const dataCIndex = [
     url: "https://ite-consulta-pcd.itetlax.org.mx/pages/pi/",
     linkToo: "",
   },
-  {
-    id: 13,
-    imgUrl: "https://itetlax.org.mx/assets/img/imgC_I/banner_cdm.jpg",
-    alt: "Convocatoria CDM",
-    // itemActive: "active",
-    // buttonActive: "active",
-    // ariaCurrent: "true",
-    url: "https://convocatoria-cdm.itetlax.org.mx/",
-    linkToo: "",
-  },
+  // {
+  //   id: 13,
+  //   imgUrl: "https://itetlax.org.mx/assets/img/imgC_I/banner_cdm.jpg",
+  //   alt: "Convocatoria CDM",
+  //   url: "https://convocatoria-cdm.itetlax.org.mx/",
+  //   linkToo: "",
+  // },
   // {
   //   id: 14,
   //   imgUrl: "https://itetlax.org.mx/assets/img/imgC_I/banner_licitacion.jpg",
@@ -138,25 +138,21 @@ export const dataCIndex = [
   //   url: "https://itetlax.org.mx/assets/pdf/carousel/resultados_rc.pdf",
   //   linkToo: "",
   // },
-  {
-    id: 19,
-    imgUrl:
-      "https://itetlax.org.mx/assets/img/imgC_I/BANER_SELECCIONADOS_RC.jpg",
-    alt: "SELECCIONADOS R.C",
-    url: "https://itetlax.org.mx/assets/pdf/carousel/FOLIOS_SELECCIONADOS_RC.pdf",
-    itemActive: "active",
-    buttonActive: "active",
-    ariaCurrent: "true",
-    linkToo: "",
-  },
-  {
-    id: 19,
-    imgUrl:
-      "https://itetlax.org.mx/assets/img/imgC_I/BANNER_CALIFICACIONES.jpg",
-    alt: "CALIFICACIONES R.C",
-    url: "https://itetlax.org.mx/assets/pdf/carousel/BANNER_CALIFICACIONES_RC.pdf",
-    linkToo: "",
-  },
+  // {
+  //   id: 19,
+  //   imgUrl:
+  //     "https://itetlax.org.mx/assets/img/imgC_I/BANER_SELECCIONADOS_RC.jpg",
+  //   alt: "SELECCIONADOS R.C",
+  //   url: "https://itetlax.org.mx/assets/pdf/carousel/FOLIOS_SELECCIONADOS_RC.pdf",
+  // },
+  // {
+  //   id: 19,
+  //   imgUrl:
+  //     "https://itetlax.org.mx/assets/img/imgC_I/BANNER_CALIFICACIONES.jpg",
+  //   alt: "CALIFICACIONES R.C",
+  //   url: "https://itetlax.org.mx/assets/pdf/carousel/BANNER_CALIFICACIONES_RC.pdf",
+  //   linkToo: "",
+  // },
 ];
 
 export const dataCAR = [
@@ -223,10 +219,17 @@ export const dataCAR = [
     id: 9,
     imgUrl: "https://itetlax.org.mx/assets/img/imgPopup/resultados_examen.png",
     alt: "Candidaturas independientes",
+    url: "https://itetlax.org.mx/assets/popup/resultados_examen.pdf",
+    linkToo: "",
+  },
+  {
+    id: 9,
+    imgUrl: "https://itetlax.org.mx/assets/img/convocatoria_formulario.png",
+    alt: "SEL CAEL",
     itemActive: "active",
     buttonActive: "active",
     ariaCurrent: "true",
-    url: "https://itetlax.org.mx/assets/popup/resultados_examen.pdf",
+    url: "https://reg-cael-sel.itetlax.org.mx/",
     linkToo: "",
   },
 ];

@@ -423,6 +423,63 @@ export const dataAcuerdos2024 = [
     titleAnexo3: "ANEXO TRES",
     pdfAnexo3: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/30.3.pdf",
   },
+  {
+    id: 31,
+    year: "2024",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 31-2024",
+    monthDoc: "MAR",
+    nameDoc: "POR EL QUE SE APRUEBA LA CONVOCATORIA CAES Y SE",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/31.pdf",
+    titleAnexo1: "ANEXO ÚNICO CONVOCATORIA SE Y CAE",
+    pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/31.1.pdf",
+  },
+  {
+    id: 32,
+    year: "2024",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 32-2024",
+    monthDoc: "MAR",
+    nameDoc:
+      "POR EL QUE SE DA RESPUESTA A DIVERSAS COMUNIDADES NAHUAS Y EQUIPARABLES",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/32.pdf",
+  },
+  {
+    id: 33,
+    year: "2024",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 33-2024",
+    monthDoc: "MAR",
+    nameDoc:
+      "POR EL QUE SE APRUEBA LA INTEGRACIÓN DE CONSEJOS DISTRITALES Y MUNICIPALES",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/33.pdf",
+    titleAnexo1: "ANEXO UNO INTEGRACIÓN CONSEJOS DISTRITALES",
+    pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/33.1.pdf",
+    titleAnexo2: "ANEXO DOS INTEGRACIÓN CONSEJOS MUNICIPALES",
+    pdfAnexo2: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/33.2.pdf",
+    titleAnexo3: "ANEXO TRES LISTA DE RESERVA",
+    pdfAnexo3: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/33.3.pdf",
+  },
+  {
+    id: 34,
+    year: "2024",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 34-2024",
+    monthDoc: "MAR",
+    nameDoc:
+      "POR EL QUE SE APRUEBA LA SUSTICIONES DE CONSEJOS DISTRITALES ELECTORALES",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/34.pdf",
+  },
+  {
+    id: 35,
+    year: "2024",
+    typeDoc: "RESOLUCIÓN",
+    numDoc: "ITE-CG 35-2024",
+    monthDoc: "MAR",
+    nameDoc:
+      "RESPECTO A LA SOLICITUD DE REGISTRO DEL CONVENIO DE CANDIDATURA COMÚN SIGAMOS HACIENDO HISTORIA EN TLAXCALA",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/35.pdf",
+  },
 ];
 
 // ------------ A C U E R D O S    I N E ------------

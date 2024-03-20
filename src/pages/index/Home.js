@@ -50,17 +50,18 @@ const ITE = () => {
         linkToo=""
       /> */}
 
+      <ModalInit
+        imgLink="https://itetlax.org.mx/assets/img/convocatoria_formulario.png"
+        url="https://reg-cael-sel.itetlax.org.mx/"
+        linkToo=""
+      />
+
       {/* <ModalInit
         imgLink="https://itetlax.org.mx/assets/img/imgPopup/consultaconvo.jpg"
         url=""
         linkToo="/ConvocatoriasApartado"
       /> */}
 
-      <ModalInit
-        imgLink="https://itetlax.org.mx/assets/img/aviso.png"
-        url="https://itetlax.org.mx/assets/img/aviso.png"
-        linkToo=""
-      />
       <Carousel idCarousel="carouselTopIndex">
         {dataCIndex.map((cIndex) => (
           <CarouselItemIMG
