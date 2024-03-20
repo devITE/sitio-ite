@@ -229,7 +229,7 @@ export const dataCAR = [
     itemActive: "active",
     buttonActive: "active",
     ariaCurrent: "true",
-    url: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/31.1.pdf",
+    url: "https://reg-cael-sel.itetlax.org.mx/",
     linkToo: "",
   },
 ];
