@@ -480,6 +480,20 @@ export const dataAcuerdos2024 = [
       "RESPECTO A LA SOLICITUD DE REGISTRO DEL CONVENIO DE CANDIDATURA COMÚN SIGAMOS HACIENDO HISTORIA EN TLAXCALA",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/35.pdf",
   },
+  {
+    id: 36,
+    year: "2024",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 36-2024",
+    monthDoc: "MAR",
+    nameDoc:
+      "POR EL QUE SE APRUEBA LA DISTRIBUCIÓN DEL FINANCIAMIENTO PUBLICO",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/36.pdf",
+    titleAnexo1: "ANEXO UNO",
+    pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/36.1.pdf",
+    titleAnexo2: "ANEXO DOS",
+    pdfAnexo2: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/36.2.pdf",
+  },
 ];
 
 // ------------ A C U E R D O S    I N E ------------
