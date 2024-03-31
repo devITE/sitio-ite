@@ -303,7 +303,7 @@ export const dataCA = [
     itemActive: "active",
     buttonActive: "active",
     ariaCurrent: "true",
-    url: "https://itetlax.org.mx/assets/img/sesionesCG/SECG310324.png",
+    url: "https://itetlax.org.mx/assets/img/sesionesCG/SECG310324.pdf",
     linkToo: "ConvocatoriasApartado",
   },
   // {
