@@ -503,7 +503,7 @@ export const dataAcuerdos2024 = [
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/37.pdf",
     titleAnexo1: "DICTAMEN",
     pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/37.1.pdf",
-  },
+  }, //
   {
     id: 38,
     year: "2024",
