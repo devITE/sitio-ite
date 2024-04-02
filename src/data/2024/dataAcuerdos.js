@@ -486,8 +486,7 @@ export const dataAcuerdos2024 = [
     typeDoc: "ACUERDO",
     numDoc: "ITE-CG 36-2024",
     monthDoc: "MAR",
-    nameDoc:
-      "POR EL QUE SE APRUEBA LA DISTRIBUCIÓN DEL FINANCIAMIENTO PUBLICO",
+    nameDoc: "POR EL QUE SE APRUEBA LA DISTRIBUCIÓN DEL FINANCIAMIENTO PUBLICO",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/36.pdf",
     titleAnexo1: "ANEXO UNO",
     pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/36.1.pdf",
