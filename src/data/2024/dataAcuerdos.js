@@ -487,7 +487,7 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 36-2024",
     monthDoc: "MAR",
     nameDoc: "POR EL QUE SE APRUEBA LA DISTRIBUCIÓN DE FINANCIAMIENTO PÚBLICO",
-    link: "https://itetlax.org.mx/assets/pdf/ITE/2024/36.pdf",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/36.pdf",
     titleAnexo1: "ANEXO 1",
     pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/36.1.pdf",
     titleAnexo2: "ANEXO 2",
@@ -500,7 +500,7 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 37-2024",
     monthDoc: "MAR",
     nameDoc: "DICTAMEN DE RESULTADOS SPEN",
-    link: "https://itetlax.org.mx/assets/pdf/ITE/2024/37.pdf",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/37.pdf",
     titleAnexo1: "DICTAMEN",
     pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/37.1.pdf",
   },
@@ -511,7 +511,7 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 38-2024",
     monthDoc: "MAR",
     nameDoc: "POR EL QUE SE DESIGNA ENCARGADA DE LA COORDINACIÓN DE ARCHIVOS",
-    link: "https://itetlax.org.mx/assets/pdf/ITE/2024/38.pdf",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/38.pdf",
   },
   {
     id: 39,
@@ -520,7 +520,7 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 39-2024",
     monthDoc: "MAR",
     nameDoc: "INTEGRACIÓN COMISIÓN DE DEBATES",
-    link: "https://itetlax.org.mx/assets/pdf/ITE/2024/39.pdf",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/39.pdf",
   },
   {
     id: 40,
@@ -529,7 +529,7 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 40-2024",
     monthDoc: "MAR",
     nameDoc: "POR EL QUE SE APRUEBA EL PROGRAMA OPERATIVO DE RED DE CANDIDATAS",
-    link: "https://itetlax.org.mx/assets/pdf/ITE/2024/40.pdf",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/40.pdf",
     titleAnexo1: "PROGRAMA OPERATIVO DE LA RED DE CANDIDATAS",
     pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/40.1.pdf",
   },
@@ -540,7 +540,7 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 41-2024",
     monthDoc: "MAR",
     nameDoc: "FECHA  PUBLICACIÓN DEL SISTEMA CONÓCELES",
-    link: "https://itetlax.org.mx/assets/pdf/ITE/2024/41.pdf",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/41.pdf",
   },
   {
     id: 42,
@@ -549,7 +549,7 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 42-2024",
     monthDoc: "MAR",
     nameDoc: "SUSTITUCIÓN DE INTEGRANTES DE CONSEJOS DISTRITALES Y MUNICIPALES",
-    link: "https://itetlax.org.mx/assets/pdf/ITE/2024/42.pdf",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/42.pdf",
   },
   {
     id: 43,
@@ -558,7 +558,7 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 43-2024",
     monthDoc: "MAR",
     nameDoc: "POR EL QUE SE DESIGNA AL PERSONAL BODEGAS ELECTORALES",
-    link: "https://itetlax.org.mx/assets/pdf/ITE/2024/43.pdf",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/43.pdf",
     titleAnexo1: "ANEXO ÚNICO",
     pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/43.1.pdf",
   },
@@ -569,7 +569,7 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 44-2024",
     monthDoc: "MAR",
     nameDoc: "POR EL QUE SE APRUEBA LA DISTRIBUCIÓN DE FINANCIAMIENTO PÚBLICO",
-    link: "https://itetlax.org.mx/assets/pdf/ITE/2024/44.pdf",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/44.pdf",
     titleAnexo1: "ANEXO UNICO INFORME MATERIALES DIDÁCTICOS",
     pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/44.1.pdf",
     titleAnexo2: "ANEXO DEL INFORME PASO A PASO 4 DE JUNIO",
@@ -589,7 +589,7 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 45-2024",
     monthDoc: "MAR",
     nameDoc: "SE REGISTRA LA PLATAFORMA ELECTORAL DEL PRD",
-    link: "https://itetlax.org.mx/assets/pdf/ITE/2024/45.pdf",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/45.pdf",
   },
   {
     id: 46,
@@ -598,7 +598,7 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 46-2024",
     monthDoc: "MAR",
     nameDoc: "SE REGISTRA LA PLATAFORMA ELECTORAL DEL PT",
-    link: "https://itetlax.org.mx/assets/pdf/ITE/2024/46.pdf",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/46.pdf",
   },
   {
     id: 47,
@@ -607,7 +607,7 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 47-2024",
     monthDoc: "MAR",
     nameDoc: "SE REGISTRA LA PLATAFORMA ELECTORAL DEL PVEM",
-    link: "https://itetlax.org.mx/assets/pdf/ITE/2024/47.pdf",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/47.pdf",
   },
   {
     id: 48,
@@ -616,7 +616,7 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 48-2024",
     monthDoc: "MAR",
     nameDoc: "SE REGISTRA LA PLATAFORMA ELECTORAL DEL MC",
-    link: "https://itetlax.org.mx/assets/pdf/ITE/2024/48.pdf",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/48.pdf",
   },
   {
     id: 49,
@@ -625,7 +625,7 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 49-2024",
     monthDoc: "MAR",
     nameDoc: "SE REGISTRA LA PLATAFORMA ELECTORAL DEL PAC",
-    link: "https://itetlax.org.mx/assets/pdf/ITE/2024/49.pdf",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/49.pdf",
   },
   {
     id: 50,
@@ -634,7 +634,7 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 50-2024",
     monthDoc: "MAR",
     nameDoc: "SE REGISTRA LA PLATAFORMA ELECTORAL DEL MORENA",
-    link: "https://itetlax.org.mx/assets/pdf/ITE/2024/50.pdf",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/50.pdf",
   },
   {
     id: 51,
@@ -643,7 +643,7 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 51-2024",
     monthDoc: "MAR",
     nameDoc: "SE REGISTRA LA PLATAFORMA ELECTORAL DEL PNAT",
-    link: "https://itetlax.org.mx/assets/pdf/ITE/2024/51.pdf",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/51.pdf",
   },
   {
     id: 52,
@@ -652,7 +652,7 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 52-2024",
     monthDoc: "MAR",
     nameDoc: "SE REGISTRA LA PLATAFORMA ELECTORAL DEL RSPT",
-    link: "https://itetlax.org.mx/assets/pdf/ITE/2024/52.pdf",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/52.pdf",
   },
   {
     id: 53,
@@ -661,7 +661,7 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 53-2024",
     monthDoc: "MAR",
     nameDoc: "SE REGISTRA LA PLATAFORMA ELECTORAL DEL FXMT",
-    link: "https://itetlax.org.mx/assets/pdf/ITE/2024/53.pdf",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/53.pdf",
   },
   {
     id: 54,
@@ -670,7 +670,7 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 54-2024",
     monthDoc: "MAR",
     nameDoc: "SE REGISTRA LA PLATAFORMA ELECTORAL DEL PAN",
-    link: "https://itetlax.org.mx/assets/pdf/ITE/2024/54.pdf",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/54.pdf",
   },
   {
     id: 55,
@@ -679,7 +679,7 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 55-2024",
     monthDoc: "MAR",
     nameDoc: "SE REGISTRA LA PLATAFORMA ELECTORAL DEL PRI",
-    link: "https://itetlax.org.mx/assets/pdf/ITE/2024/55.pdf",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/55.pdf",
   },
   {
     id: 56,
@@ -688,7 +688,7 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 56-2024",
     monthDoc: "MAR",
     nameDoc: "SE REGISTRA PROGRAMA DE GOBIERNO DEL PAN",
-    link: "https://itetlax.org.mx/assets/pdf/ITE/2024/56.pdf",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/56.pdf",
   },
   {
     id: 57,
@@ -697,7 +697,7 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 57-2024",
     monthDoc: "MAR",
     nameDoc: "SE REGISTRA PROGRAMA DE GOBIERNO DEL PRI",
-    link: "https://itetlax.org.mx/assets/pdf/ITE/2024/57.pdf",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/57.pdf",
   },
   {
     id: 58,
@@ -706,7 +706,7 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 58-2024",
     monthDoc: "MAR",
     nameDoc: "SE REGISTRA PROGRAMA DE GOBIERNO DEL PRD",
-    link: "https://itetlax.org.mx/assets/pdf/ITE/2024/58.pdf",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/58.pdf",
   },
   {
     id: 59,
@@ -715,7 +715,7 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 59-2024",
     monthDoc: "MAR",
     nameDoc: "SE REGISTRA PROGRAMA DE GOBIERNO DEL PT",
-    link: "https://itetlax.org.mx/assets/pdf/ITE/2024/59.pdf",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/59.pdf",
   },
   {
     id: 60,
@@ -724,7 +724,7 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 60-2024",
     monthDoc: "MAR",
     nameDoc: "SE REGISTRA PROGRAMA DE GOBIERNO DEL PVEM",
-    link: "https://itetlax.org.mx/assets/pdf/ITE/2024/60.pdf",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/60.pdf",
   },
   {
     id: 61,
@@ -733,7 +733,7 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 61-2024",
     monthDoc: "MAR",
     nameDoc: "SE REGISTRA PROGRAMA DE GOBIERNO DEL MC",
-    link: "https://itetlax.org.mx/assets/pdf/ITE/2024/61.pdf",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/61.pdf",
   },
   {
     id: 62,
@@ -742,7 +742,7 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 62-2024",
     monthDoc: "MAR",
     nameDoc: "SE REGISTRA PROGRAMA DE GOBIERNO DEL PAC",
-    link: "https://itetlax.org.mx/assets/pdf/ITE/2024/62.pdf",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/62.pdf",
   },
   {
     id: 63,
@@ -751,7 +751,7 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 63-2024",
     monthDoc: "MAR",
     nameDoc: "SE REGISTRA PROGRAMA DE GOBIERNO DEL MORENA",
-    link: "https://itetlax.org.mx/assets/pdf/ITE/2024/63.pdf",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/63.pdf",
   },
   {
     id: 64,
@@ -760,7 +760,7 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 64-2024",
     monthDoc: "MAR",
     nameDoc: "SE REGISTRA PROGRAMA DE GOBIERNO DEL NAT",
-    link: "https://itetlax.org.mx/assets/pdf/ITE/2024/64.pdf",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/64.pdf",
   },
   {
     id: 65,
@@ -769,7 +769,7 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 65-2024",
     monthDoc: "MAR",
     nameDoc: "SE REGISTRA PROGRAMA DE GOBIERNO DEL RSPT",
-    link: "https://itetlax.org.mx/assets/pdf/ITE/2024/65.pdf",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/65.pdf",
   },
   {
     id: 66,
@@ -778,7 +778,7 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 66-2024",
     monthDoc: "MAR",
     nameDoc: "SE REGISTRA PROGRAMA DE GOBIERNO DEL FXMT",
-    link: "https://itetlax.org.mx/assets/pdf/ITE/2024/66.pdf",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/66.pdf",
   },
 ];
 
