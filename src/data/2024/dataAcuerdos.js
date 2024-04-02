@@ -492,7 +492,7 @@ export const dataAcuerdos2024 = [
     pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/36.1.pdf",
     titleAnexo2: "ANEXO DOS",
     pdfAnexo2: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/36.2.pdf",
-  },
+  }, //
 ];
 
 // ------------ A C U E R D O S    I N E ------------
