@@ -37,23 +37,23 @@ const ITE = () => {
           labels={["Días", "Horas", "Minutos", "Segundos"]}
         />
       </div>
-      
-        <ModalInit
-          imgLink="https://itetlax.org.mx/assets/img/sesionesCG/SECG19012024.png"
-          url="https://itetlax.org.mx/assets/img/sesionesCG/SECG19012024.pdf"
-          linkToo=""
-        />
-      
+
+      <ModalInit
+        imgLink="https://itetlax.org.mx/assets/img/sesionesCG/SECG19012024.png"
+        url="https://itetlax.org.mx/assets/img/sesionesCG/SECG19012024.pdf"
+        linkToo=""
+      />
+
       {/* <ModalInit
         imgLink="https://itetlax.org.mx/assets/img/imgC_A/ine.PNG"
         url="https://observadores.ine.mx/"
         linkToo=""
       /> */}
-      {/*<ModalInit
+      <ModalInit
         imgLink="https://itetlax.org.mx/assets/img/convocatoria_formulario.png"
         url="https://reg-cael-sel.itetlax.org.mx/"
         linkToo=""
-    />*/}
+      />
       {/* <ModalInit
         imgLink="https://itetlax.org.mx/assets/img/imgPopup/consultaconvo.jpg"
         url=""
