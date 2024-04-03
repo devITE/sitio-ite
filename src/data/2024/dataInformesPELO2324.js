@@ -24,7 +24,7 @@ export const dataInfor = [
             id: 1,
             titleItem: "Tercer Informe PELO 2023-2024",
             typeDocument: "pdf",
-            linkItem: "https://itetlax.org.mx/assets/pdf/informesPELO2324/3.pd",
+            linkItem: "https://itetlax.org.mx/assets/pdf/informesPELO2324/3.pdf",
           },
           // {
           //   id: 2,
@@ -38,12 +38,12 @@ export const dataInfor = [
         id: 3,
         titleButton: "Marzo",
         subChildren: [
-          // {
-          //   id: 1,
-          //   titleItem: "Item 1",
-          //   typeDocument: "pdf",
-          //   linkItem: "www.google.com.mx",
-          // },
+          {
+            id: 1,
+            titleItem: "Cuarto Informe PELO 2023-2024",
+            typeDocument: "pdf",
+            linkItem: "https://itetlax.org.mx/assets/pdf/informesPELO2324/4.pdf",
+          },
           // {
           //   id: 2,
           //   titleItem: "Item 2",
