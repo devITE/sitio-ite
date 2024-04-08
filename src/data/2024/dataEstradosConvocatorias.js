@@ -15,13 +15,13 @@ export const dataEstrados = [
     linkFolio: "",
   },
   // fecha de baja: 03 ABRIL 2024
-  {
-    id: 2,
-    nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 01329",
-    linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/71.pdf",
-    nameFolio: "FOLIO 01329-2024",
-    linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/71.1.pdf",
-  },
+  // {
+  //   id: 2,
+  //   nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 01329",
+  //   linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/71.pdf",
+  //   nameFolio: "FOLIO 01329-2024",
+  //   linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/71.1.pdf",
+  // },
 ];
 
 export const dataConvocatorias = [
@@ -154,8 +154,8 @@ export const dataConvocatoriasApartado = [
   // },
   {
     id: 1,
-    nameFile: "Convocatoria Licitacion ITE-LP-04-2024",
+    nameFile: "Convocatoria Licitacion ITE-LP-05-2024",
     linkFile:
-      "https://itetlax.org.mx/assets/pdf/convocatorias/Convocatoria-Licitacion-ITE-LP-04-2024.pdf",
+      "https://itetlax.org.mx/assets/pdf/convocatorias/Convocatoria-Licitacion-ITE-LP-05-2024.pdf",
   },
 ];

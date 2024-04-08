@@ -70,6 +70,13 @@ export const dataMonitoreoPG = [
     nameBoletin: "Informe Quincenal del 21 de febrero al 6 de marzo",
     linkBoletin: "https://itetlax.org.mx/assets/pdf/monitoreos/2024/pg/10.pdf",
   },
+  {
+    id: 11,
+    yearBoletin: "2024",
+    monthBoletin: "MAR",
+    nameBoletin: "Informe Quincenal del 07 al 21 de marzo",
+    linkBoletin: "https://itetlax.org.mx/assets/pdf/monitoreos/2024/pg/11.pdf",
+  },
 ];
 
 export const dataMonitoreoRyT = [
@@ -178,6 +185,4 @@ export const dataMonitoreoMIyD = [
     nameBoletin: "Noveno Informe Quincenal",
     linkBoletin: "https://itetlax.org.mx/assets/pdf/monitoreos/2024/miyd/5.pdf",
   },
-
-
 ];
