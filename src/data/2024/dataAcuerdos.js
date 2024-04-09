@@ -963,6 +963,24 @@ export const dataAcuerdos2024 = [
     titleAnexo1: "MANUAL REGISTRO CANDIDATURAS",
     pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/83.1.pdf",
   },
+  {
+    id: 84,
+    year: "2024",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 84-2024",
+    monthDoc: "ABR",
+    nameDoc: "SE DA RESPUESTA A PERSONAS",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/84.pdf",
+  },
+  {
+    id: 85,
+    year: "2024",
+    typeDoc: "RESOLUCION",
+    numDoc: "ITE-CG 85-2024",
+    monthDoc: "ABR",
+    nameDoc: "MODIFICACIÓN CONVENIO COALICION F Y C",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/85.pdf",
+  },
 ];
 
 // ------------ A C U E R D O S    I N E ------------
