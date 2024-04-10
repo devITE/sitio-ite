@@ -38,6 +38,30 @@ export const dataEstrados = [
     nameFolio: "FOLIO 01570-2024",
     linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/74.1.pdf",
   },
+  // fecha de baja: 13 DE ABRIL 2024
+  {
+    id: 5,
+    nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 01571",
+    linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/75.pdf",
+    nameFolio: "FOLIO 01571-2024",
+    linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/75.1.pdf",
+  },
+  // fecha de baja: 13 DE ABRIL 2024
+  {
+    id: 6,
+    nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 01572",
+    linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/76.pdf",
+    nameFolio: "FOLIO 01572-2024",
+    linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/76.1.pdf",
+  },
+  // fecha de baja: 13 DE ABRIL 2024
+  {
+    id: 7,
+    nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 01573",
+    linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/77.pdf",
+    nameFolio: "FOLIO 01573-2024",
+    linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/77.1.pdf",
+  },
 ];
 
 export const dataConvocatorias = [
