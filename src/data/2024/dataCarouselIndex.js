@@ -303,15 +303,7 @@ export const dataCA = [
     url: "https://itetlax.org.mx/assets/img/imgC_A/cep-convocatoria.pdf",
     linkToo: "",
   },
-  /* {
-     id: 9,
-     imgUrl: "https://itetlax.org.mx/assets/img/sesionesCG/SECG09042024.png",
-     alt: "SESION CG",
-     ariaCurrent: "true",
-     url: "https://itetlax.org.mx/assets/img/sesionesCG/SECG09042024.pdf",
-     linkToo: "",
-   }, */
-   {
+  {
     id: 10,
     imgUrl: "https://itetlax.org.mx/assets/img/imgC_A/sedes.png",
     alt: "EXAMEN",
@@ -353,14 +345,4 @@ export const dataCA = [
     url: "",
     linkToo: "",
   },
-  // {
-  //   id: 8,
-  //   imgUrl: "https://itetlax.org.mx/assets/img/sesionesCG/SECG010324.jpg",
-  //   alt: "Sesión del CG",
-  //   itemActive: "active",
-  //   buttonActive: "active",
-  //   ariaCurrent: "true",
-  //   url: "https://itetlax.org.mx/assets/img/sesionesCG/SECG010324.jpg",
-  //   linkToo: "",
-  // },
 ];
