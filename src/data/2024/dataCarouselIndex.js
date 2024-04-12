@@ -217,12 +217,12 @@ export const dataCAR = [
   },
   {
     id: 9,
-    imgUrl: "https://itetlax.org.mx/assets/img/sesionesCG/SECG07042024.png",
+    imgUrl: "https://itetlax.org.mx/assets/img/sesionesCG/SECG130424.png",
     alt: "Candidaturas independientes",
     itemActive: "active",
     buttonActive: "active",
     ariaCurrent: "true",
-    url: "https://itetlax.org.mx/assets/img/sesionesCG/SECG07042024.png",
+    url: "https://itetlax.org.mx/assets/img/sesionesCG/SECG130424.pdf",
     linkToo: "",
   },
   {
