@@ -14,13 +14,12 @@ export const dataEstrados = [
     nameFolio: "",
     linkFolio: "",
   },
-  // fecha de baja: 12 DE ABRIL 2024
   {
     id: 2,
-    nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 01529",
-    linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/72.pdf",
-    nameFolio: "FOLIO 01529-2024",
-    linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/72.1.pdf",
+    nameCedula: "RESOLUCION ITE-CG 89-2024",
+    linkCedula: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/89.pdf",
+    nameFolio: "",
+    linkFolio: "",
   },
   // fecha de baja: 13 DE ABRIL 2024
   {
