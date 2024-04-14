@@ -9,7 +9,7 @@ export const dataEstrados = [
   // },
   {
     id: 1,
-    nameCedula: "Resolución ITE-CG 17/2024",
+    nameCedula: "RESOLUCION ITE-CG 17/2024",
     linkCedula: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/17.pdf",
     nameFolio: "",
     linkFolio: "",
@@ -22,119 +22,13 @@ export const dataEstrados = [
     linkFolio: "",
   },
   // fecha de baja: 13 DE ABRIL 2024
-  {
-    id: 3,
-    nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 01564",
-    linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/73.pdf",
-    nameFolio: "FOLIO 01564-2024",
-    linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/73.1.pdf",
-  },
-  // fecha de baja: 13 DE ABRIL 2024
-  {
-    id: 4,
-    nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 01570",
-    linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/74.pdf",
-    nameFolio: "FOLIO 01570-2024",
-    linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/74.1.pdf",
-  },
-  // fecha de baja: 13 DE ABRIL 2024
-  {
-    id: 5,
-    nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 01571",
-    linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/75.pdf",
-    nameFolio: "FOLIO 01571-2024",
-    linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/75.1.pdf",
-  },
-  // fecha de baja: 13 DE ABRIL 2024
-  {
-    id: 6,
-    nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 01572",
-    linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/76.pdf",
-    nameFolio: "FOLIO 01572-2024",
-    linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/76.1.pdf",
-  },
-  // fecha de baja: 13 DE ABRIL 2024
-  {
-    id: 7,
-    nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 01573",
-    linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/77.pdf",
-    nameFolio: "FOLIO 01573-2024",
-    linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/77.1.pdf",
-  },
-
-  // fecha de baja: 13 DE ABRIL 2024
-  {
-    id: 8,
-    nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 01577",
-    linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/01577.pdf",
-    nameFolio: "FOLIO 01577-2024",
-    linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/01577.1.pdf",
-  },
-  // fecha de baja: 13 DE ABRIL 2024
-  {
-    id: 9,
-    nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 01578",
-    linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/01578.pdf",
-    nameFolio: "FOLIO 01578-2024",
-    linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/01578.1.pdf",
-  },
-  // fecha de baja: 13 DE ABRIL 2024
-  {
-    id: 10,
-    nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 01579",
-    linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/01579.pdf",
-    nameFolio: "FOLIO 01579-2024",
-    linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/01579.1.pdf",
-  },
-  // fecha de baja: 13 DE ABRIL 2024
-  {
-    id: 11,
-    nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 01580",
-    linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/01580.pdf",
-    nameFolio: "FOLIO 01580-2024",
-    linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/01580.1.pdf",
-  },
-
-  // fecha de baja: 13 DE ABRIL 2024
-  {
-    id: 12,
-    nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 01581",
-    linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/78.pdf",
-    nameFolio: "FOLIO 01581-2024",
-    linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/78.1.pdf",
-  },
-  // fecha de baja: 13 DE ABRIL 2024
-  {
-    id: 13,
-    nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 01582",
-    linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/01582.pdf",
-    nameFolio: "FOLIO 01582-2024",
-    linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/01582.1.pdf",
-  },
-  // fecha de baja: 13 DE ABRIL 2024
-  {
-    id: 14,
-    nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 01583",
-    linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/01583.pdf",
-    nameFolio: "FOLIO 01583-2024",
-    linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/01583.1.pdf",
-  },
-  // fecha de baja: 13 DE ABRIL 2024
-  {
-    id: 15,
-    nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 01584",
-    linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/01584.pdf",
-    nameFolio: "FOLIO 01584-2024",
-    linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/01584.1.pdf",
-  },
-  // fecha de baja: 13 DE ABRIL 2024
-  {
-    id: 16,
-    nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 01585",
-    linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/01585.pdf",
-    nameFolio: "FOLIO 01585-2024",
-    linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/01585.1.pdf",
-  },
+  // {
+  //   id: 16,
+  //   nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 01585",
+  //   linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/01585.pdf",
+  //   nameFolio: "FOLIO 01585-2024",
+  //   linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/01585.1.pdf",
+  // },
 ];
 
 export const dataConvocatorias = [
