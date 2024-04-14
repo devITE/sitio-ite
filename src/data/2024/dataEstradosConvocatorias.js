@@ -233,6 +233,12 @@ export const dataConvocatorias = [
     linkFile:
       "https://itetlax.org.mx/assets/pdf/convocatorias/Convocatoria-Licitacion-ITE-LP-04-2024.pdf",
   },
+  {
+    id: 18,
+    nameFile: "Convocatoria Licitacion ITE-LP-05-2024",
+    linkFile:
+      "https://itetlax.org.mx/assets/pdf/convocatorias/Convocatoria-Licitacion-ITE-LP-05-2024.pdf",
+  },
 ];
 
 export const dataConvocatoriasApartado = [

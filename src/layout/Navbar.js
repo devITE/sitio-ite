@@ -210,11 +210,11 @@ export default class Navbar extends Component {
                   Cultura Cívica
                 </Link>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <Link to="./DESPEN" className="nav-link">
                   DESPEN
                 </Link>
-              </li>
+              </li> */}
               <li className="nav-item dropdown">
                 <Link
                   to="./"
@@ -260,11 +260,11 @@ export default class Navbar extends Component {
                   </li>
                 </ul>
               </li>
-              {/* <li className="nav-item">
+              <li className="nav-item">
                 <Link to="./ConvocatoriasApartado" className="nav-link">
                   Convocatorias
                 </Link>
-              </li> */}
+              </li>
               <li className="nav-item">
                 <a
                   href="https://encuesta-satisfaccion.itetlax.org.mx/"
