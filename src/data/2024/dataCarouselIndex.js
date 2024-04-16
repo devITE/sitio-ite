@@ -225,13 +225,33 @@ export const dataCAR = [
     url: "https://itetlax.org.mx/assets/img/sesionesCG/SECG130424.pdf",
     linkToo: "",
   },
-  {
-    id: 10,
-    imgUrl: "https://itetlax.org.mx/assets/img/convocatoria_formulario.png",
-    alt: "SEL CAEL",
-    url: "https://reg-cael-sel.itetlax.org.mx/",
-    linkToo: "",
-  },
+  // {
+  //   id: 8,
+  //   imgUrl: "https://itetlax.org.mx/assets/img/imgC_AR/18.jpg",
+  //   alt: "Candidaturas independientes",
+  //   url: "https://itetlax.org.mx/assets/carousel/listado_ci.pdf",
+  //   linkToo: "",
+  // },
+  // {
+  //   id: 9,
+  //   imgUrl: "https://itetlax.org.mx/assets/img/sesionesCG/SECG07042024.png",
+  //   alt: "Candidaturas independientes",
+  //   itemActive: "active",
+  //   buttonActive: "active",
+  //   ariaCurrent: "true",
+  //   url: "https://itetlax.org.mx/assets/img/sesionesCG/SECG07042024.png",
+  //   linkToo: "",
+  // },
+  // {
+  //   id: 10,
+  //   imgUrl: "https://itetlax.org.mx/assets/img/convocatoria_formulario.png",
+  //   alt: "SEL CAEL",
+  //   itemActive: "active",
+  //   buttonActive: "active",
+  //   ariaCurrent: "true",
+  //   url: "https://reg-cael-sel.itetlax.org.mx/",
+  //   linkToo: "",
+  // },
 ];
 
 export const dataCA = [
