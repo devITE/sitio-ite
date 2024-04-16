@@ -50,12 +50,6 @@ const ITE = () => {
         linkToo=""
       /> */}
 
-      {/* <ModalInit
-        imgLink="https://itetlax.org.mx/assets/img/convocatoria_formulario.png"
-        url="https://reg-cael-sel.itetlax.org.mx/"
-        linkToo=""
-      /> */}
-
       <ModalInit
         imgLink="https://itetlax.org.mx/assets/img/imgPopup/consultaconvo.jpg"
         url=""
