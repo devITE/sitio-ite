@@ -148,10 +148,18 @@ export const dataCAR = [
     id: 8,
     imgUrl: "https://itetlax.org.mx/assets/img/imgC_AR/18.jpg",
     alt: "Candidaturas independientes",
+
+    url: "https://itetlax.org.mx/assets/carousel/listado_ci.pdf",
+    linkToo: "",
+  },
+  {
+    id: 9,
+    imgUrl: "https://itetlax.org.mx/assets/img/imgC_AR/folios_sel_cael.png",
+    alt: "Candidaturas independientes",
     itemActive: "active",
     buttonActive: "active",
     ariaCurrent: "true",
-    url: "https://itetlax.org.mx/assets/carousel/listado_ci.pdf",
+    url: "https://itetlax.org.mx/assets/carousel/folios_sel_cael.pdf",
     linkToo: "",
   },
   // {
