@@ -54,8 +54,7 @@ const ITE = () => {
         imgLink="https://itetlax.org.mx/assets/img/imgPopup/consultaconvo.jpg"
         url=""
         linkToo="/ConvocatoriasApartado"
-      />
-
+      /> 
       <Carousel idCarousel="carouselTopIndex">
         {dataCIndex.map((cIndex) => (
           <CarouselItemIMG
