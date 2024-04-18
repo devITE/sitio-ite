@@ -76,8 +76,6 @@ export const dataCIndex = [
     id: 11,
     imgUrl: "https://itetlax.org.mx/assets/img/imgC_I/actores-politicos.jpg",
     alt: "Actores Politicos",
-    itemActive: "active",
-    buttonActive: "active",
     ariaCurrent: "true",
     url: "https://itetlax.org.mx/assets/pdf/comunicacion/lineamientos_radio_television.pdf",
     linkToo: "",
@@ -89,6 +87,17 @@ export const dataCIndex = [
     url: "https://ite-consulta-pcd.itetlax.org.mx/pages/pi/",
     linkToo: "",
   },
+  {
+    id: 11,
+    imgUrl: "https://itetlax.org.mx/assets/img/imgC_I/folios_entrevistas.png",
+    alt: "Folios Entrevistas",
+    itemActive: "active",
+    buttonActive: "active",
+    ariaCurrent: "true",
+    url: "https://itetlax.org.mx/assets/pdf/ci/2.pdf",
+    linkToo: "",
+  },
+  
 ];
 
 export const dataCAR = [
@@ -247,10 +256,18 @@ export const dataCA = [
     id: 8,
     imgUrl: "https://itetlax.org.mx/assets/img/imgC_A/cep-convocatoria.jpg",
     alt: "56",
+    ariaCurrent: "true",
+    url: "https://itetlax.org.mx/assets/img/imgC_A/cep-convocatoria.pdf",
+    linkToo: "",
+  },
+  {
+    id: 9,
+    imgUrl: "https://itetlax.org.mx/assets/img/sesionesCG/SECG16042024.png",
+    alt: "SESIÓN EXTRAORDINARIA DEL CONSEJO GENERAL",
     itemActive: "active",
     buttonActive: "active",
     ariaCurrent: "true",
-    url: "https://itetlax.org.mx/assets/img/imgC_A/cep-convocatoria.pdf",
+    url: "https://itetlax.org.mx/assets/img/sesionesCG/SECG16042024.pdf",
     linkToo: "",
   },
   // {
