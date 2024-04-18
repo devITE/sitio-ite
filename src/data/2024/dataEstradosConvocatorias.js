@@ -29,6 +29,20 @@ export const dataEstrados = [
     nameFolio: "FOLIO 01752-2024",
     linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/1752.1.pdf",
   },
+  {
+    id: 4,
+    nameCedula: "RESOLUCION ITE-CG 102-2024",
+    linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/102.1.pdf",
+    nameFolio: "",
+    linkFolio: "",
+  },
+  {
+    id: 5,
+    nameCedula: "FE DE ERRATAS RESOLUCION ITE-CG 102-2024",
+    linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/102.2.pdf",
+    nameFolio: "",
+    linkFolio: "",
+  },
 ];
 
 export const dataConvocatorias = [
