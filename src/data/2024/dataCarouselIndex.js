@@ -148,10 +148,17 @@ export const dataCAR = [
     id: 8,
     imgUrl: "https://itetlax.org.mx/assets/img/imgC_AR/18.jpg",
     alt: "Candidaturas independientes",
+    url: "https://itetlax.org.mx/assets/carousel/listado_ci.pdf",
+    linkToo: "",
+  },
+  {
+    id: 9,
+    imgUrl: "https://itetlax.org.mx/assets/img/imgC_AR/banner_sel_cael2.jpeg",
+    alt: "Convocatoria SEL CAEL",
     itemActive: "active",
     buttonActive: "active",
     ariaCurrent: "true",
-    url: "https://itetlax.org.mx/assets/carousel/listado_ci.pdf",
+    url: "https://reg-cael-sel.itetlax.org.mx",
     linkToo: "",
   },
   // {

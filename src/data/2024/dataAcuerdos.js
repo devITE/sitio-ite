@@ -1204,6 +1204,26 @@ export const dataAcuerdos2024 = [
     nameDoc: "SUSTITUCIONES CONSEJOS MUNICIPALES",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/108.pdf",
   },
+  {
+    id: 109,
+    year: "2024",
+    typeDoc: "RESOLUCION",
+    numDoc: "ITE-CG 109-2024",
+    monthDoc: "ABR",
+    nameDoc: "SOLICITUD DE REGISTRO DIP PT",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/109.pdf",
+  },
+  {
+    id: 110,
+    year: "2024",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 110-2024",
+    monthDoc: "ABR",
+    nameDoc: "CONVOCATORIA CAES Y SE",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/110.pdf",
+    titleAnexo1: "CONVOCATORIA SE Y CAE",
+    pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/110.1.pdf",
+  },
 ];
 
 // ------------ A C U E R D O S    I N E ------------
