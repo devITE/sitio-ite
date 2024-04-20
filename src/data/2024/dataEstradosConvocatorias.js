@@ -21,30 +21,23 @@ export const dataEstrados = [
     nameFolio: "",
     linkFolio: "",
   },
-  // fecha de baja: 18 DE ABRIL 2024
   {
     id: 3,
-    nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 01752",
-    linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/1752.pdf",
-    nameFolio: "FOLIO 01752-2024",
-    linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/1752.1.pdf",
-  },
-  {
-    id: 4,
     nameCedula: "RESOLUCION ITE-CG 102-2024",
     linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/102.1.pdf",
     nameFolio: "",
     linkFolio: "",
   },
   {
-    id: 5,
+    id: 4,
     nameCedula: "FE DE ERRATAS RESOLUCION ITE-CG 102-2024",
     linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/102.2.pdf",
     nameFolio: "",
     linkFolio: "",
   },
+  // fecha de baja 24 de abril
   {
-    id: 6,
+    id: 5,
     nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 01932",
     linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/103.1.pdf",
     nameFolio: "FOLIO 01932-2024",

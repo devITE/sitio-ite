@@ -261,20 +261,13 @@ export const dataCA = [
     id: 8,
     imgUrl: "https://itetlax.org.mx/assets/img/imgC_A/cep-convocatoria.jpg",
     alt: "56",
+    itemActive: "active",
+    buttonActive: "active",
     ariaCurrent: "true",
     url: "https://itetlax.org.mx/assets/img/imgC_A/cep-convocatoria.pdf",
     linkToo: "",
   },
-  {
-    id: 9,
-    imgUrl: "https://itetlax.org.mx/assets/img/sesionesCG/SECG16042024.png",
-    alt: "SESIÓN EXTRAORDINARIA DEL CONSEJO GENERAL",
-    itemActive: "active",
-    buttonActive: "active",
-    ariaCurrent: "true",
-    url: "https://itetlax.org.mx/assets/img/sesionesCG/SECG16042024.pdf",
-    linkToo: "",
-  },
+
   // {
   //   id: 10,
   //   imgUrl: "https://itetlax.org.mx/assets/img/imgC_A/sedes.png",
