@@ -1224,6 +1224,15 @@ export const dataAcuerdos2024 = [
     titleAnexo1: "CONVOCATORIA SE Y CAE",
     pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/110.1.pdf",
   },
+  {
+    id: 111,
+    year: "2024",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 111-2024",
+    monthDoc: "ABR",
+    nameDoc: "INCLUSION DE SOBRENOMBRES",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/111.pdf",
+  },
 ];
 
 // ------------ A C U E R D O S    I N E ------------
