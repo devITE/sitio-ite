@@ -76,7 +76,6 @@ export const dataCIndex = [
     id: 11,
     imgUrl: "https://itetlax.org.mx/assets/img/imgC_I/actores-politicos.jpg",
     alt: "Actores Politicos",
-    ariaCurrent: "true",
     url: "https://itetlax.org.mx/assets/pdf/comunicacion/lineamientos_radio_television.pdf",
     linkToo: "",
   },
@@ -88,16 +87,15 @@ export const dataCIndex = [
     linkToo: "",
   },
   {
-    id: 11,
-    imgUrl: "https://itetlax.org.mx/assets/img/imgC_I/folios_entrevistas.png",
-    alt: "Folios Entrevistas",
+    id: 13,
+    imgUrl: "https://itetlax.org.mx/assets/img/imgC_I/banner_convocatoria.png",
+    alt: "Actores Politicos",
     itemActive: "active",
     buttonActive: "active",
     ariaCurrent: "true",
-    url: "https://itetlax.org.mx/assets/pdf/ci/2.pdf",
+    url: "https://reg-cael-sel.itetlax.org.mx/",
     linkToo: "",
   },
-  
 ];
 
 export const dataCAR = [
@@ -163,7 +161,7 @@ export const dataCAR = [
   {
     id: 9,
     imgUrl: "https://itetlax.org.mx/assets/img/imgC_AR/banner_sel_cael2.jpeg",
-    alt: "Convocatoria SEL CAEL",
+    alt: "Convocatoria SEL CAEL Segunda",
     itemActive: "active",
     buttonActive: "active",
     ariaCurrent: "true",
