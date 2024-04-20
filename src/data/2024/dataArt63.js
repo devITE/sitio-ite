@@ -11,6 +11,7 @@ export const dataArt632024 = [
     excel2: "",
     excel3: "",
     excel4: "",
+    subRows: "",
   },
   {
     no: "2",
@@ -37,6 +38,7 @@ export const dataArt632024 = [
         excel2: "",
         excel3: "",
         excel4: "",
+        subRows: "",
       },
       {
         no: "",
@@ -50,6 +52,7 @@ export const dataArt632024 = [
         excel2: "",
         excel3: "",
         excel4: "",
+        subRows: "",
       },
     ],
   },
@@ -65,6 +68,7 @@ export const dataArt632024 = [
     excel2: "",
     excel3: "",
     excel4: "",
+    subRows: "",
   },
   {
     no: "4",
@@ -78,6 +82,7 @@ export const dataArt632024 = [
     excel2: "",
     excel3: "",
     excel4: "",
+    subRows: "",
   },
   {
     no: "5",
@@ -91,6 +96,7 @@ export const dataArt632024 = [
     excel2: "",
     excel3: "",
     excel4: "",
+    subRows: "",
   },
   {
     no: "6",
@@ -104,6 +110,7 @@ export const dataArt632024 = [
     excel2: "",
     excel3: "",
     excel4: "",
+    subRows: "",
   },
   {
     no: "7",
@@ -117,6 +124,7 @@ export const dataArt632024 = [
     excel2: "",
     excel3: "",
     excel4: "",
+    subRows: "",
   },
   {
     no: "8",
@@ -142,6 +150,7 @@ export const dataArt632024 = [
         excel2: "",
         excel3: "",
         excel4: "",
+        subRows: "",
       },
       {
         no: "",
@@ -155,6 +164,7 @@ export const dataArt632024 = [
         excel2: "",
         excel3: "",
         excel4: "",
+        subRows: "",
       },
     ],
   },
@@ -196,6 +206,7 @@ export const dataArt632024 = [
         excel2: "",
         excel3: "",
         excel4: "",
+        subRows: "",
       },
       {
         no: "",
@@ -210,6 +221,7 @@ export const dataArt632024 = [
         excel2: "",
         excel3: "",
         excel4: "",
+        subRows: "",
       },
     ],
   },
@@ -225,6 +237,7 @@ export const dataArt632024 = [
     excel2: "",
     excel3: "",
     excel4: "",
+    subRows: "",
   },
   {
     no: "12",
@@ -239,6 +252,7 @@ export const dataArt632024 = [
     excel2: "",
     excel3: "",
     excel4: "",
+    subRows: "",
   },
   {
     no: "13",
@@ -252,6 +266,7 @@ export const dataArt632024 = [
     excel2: "",
     excel3: "",
     excel4: "",
+    subRows: "",
   },
   {
     no: "14",
@@ -265,6 +280,7 @@ export const dataArt632024 = [
     excel2: "",
     excel3: "",
     excel4: "",
+    subRows: "",
   },
   {
     no: "15",
@@ -334,6 +350,7 @@ export const dataArt632024 = [
         excel2: "",
         excel3: "",
         excel4: "",
+        subRows: "",
       },
       {
         no: "",
@@ -347,6 +364,7 @@ export const dataArt632024 = [
         excel2: "",
         excel3: "",
         excel4: "",
+        subRows: "",
       },
     ],
   },
@@ -362,6 +380,7 @@ export const dataArt632024 = [
     excel2: "",
     excel3: "",
     excel4: "",
+    subRows: "",
   },
   {
     no: "18",
@@ -375,6 +394,7 @@ export const dataArt632024 = [
     excel2: "",
     excel3: "",
     excel4: "",
+    subRows: "",
   },
   {
     no: "19",
@@ -388,6 +408,7 @@ export const dataArt632024 = [
     excel2: "",
     excel3: "",
     excel4: "",
+    subRows: "",
   },
   {
     no: "20",
@@ -401,6 +422,7 @@ export const dataArt632024 = [
     excel2: "",
     excel3: "",
     excel4: "",
+    subRows: "",
   },
   {
     no: "21",
@@ -427,6 +449,7 @@ export const dataArt632024 = [
         excel2: "",
         excel3: "",
         excel4: "",
+        subRows: "",
       },
       {
         no: "",
@@ -440,6 +463,7 @@ export const dataArt632024 = [
         excel2: "",
         excel3: "",
         excel4: "",
+        subRows: "",
       },
       {
         no: "",
@@ -453,6 +477,7 @@ export const dataArt632024 = [
         excel2: "",
         excel3: "",
         excel4: "",
+        subRows: "",
       },
     ],
   },
@@ -495,6 +520,7 @@ export const dataArt632024 = [
         excel2: "",
         excel3: "",
         excel4: "",
+        subRows: "",
       },
       {
         no: "",
@@ -508,6 +534,7 @@ export const dataArt632024 = [
         excel2: "",
         excel3: "",
         excel4: "",
+        subRows: "",
       },
       {
         no: "",
@@ -521,6 +548,7 @@ export const dataArt632024 = [
         excel2: "",
         excel3: "",
         excel4: "",
+        subRows: "",
       },
       {
         no: "",
@@ -535,6 +563,7 @@ export const dataArt632024 = [
         excel2: "",
         excel3: "",
         excel4: "",
+        subRows: "",
       },
     ],
   },
@@ -550,6 +579,7 @@ export const dataArt632024 = [
     excel2: "",
     excel3: "",
     excel4: "",
+    subRows: "",
   },
   {
     no: "25",
@@ -563,6 +593,7 @@ export const dataArt632024 = [
     excel2: "",
     excel3: "",
     excel4: "",
+    subRows: "",
   },
   {
     no: "26",
@@ -576,6 +607,7 @@ export const dataArt632024 = [
     excel2: "",
     excel3: "",
     excel4: "",
+    subRows: "",
   },
   {
     no: "27",
@@ -590,6 +622,7 @@ export const dataArt632024 = [
     excel2: "",
     excel3: "",
     excel4: "",
+    subRows: "",
   },
   {
     no: "28",
@@ -617,6 +650,7 @@ export const dataArt632024 = [
         excel2: "",
         excel3: "",
         excel4: "",
+        subRows: "",
       },
       {
         no: "",
@@ -630,6 +664,7 @@ export const dataArt632024 = [
         excel2: "",
         excel3: "",
         excel4: "",
+        subRows: "",
       },
     ],
   },
@@ -659,6 +694,7 @@ export const dataArt632024 = [
     excel2: "",
     excel3: "",
     excel4: "",
+    subRows: "",
   },
   {
     no: "31",
@@ -685,6 +721,7 @@ export const dataArt632024 = [
         excel2: "",
         excel3: "",
         excel4: "",
+        subRows: "",
       },
       {
         no: "",
@@ -699,6 +736,7 @@ export const dataArt632024 = [
         excel2: "",
         excel3: "",
         excel4: "",
+        subRows: "",
       },
     ],
   },
@@ -714,6 +752,7 @@ export const dataArt632024 = [
     excel2: "",
     excel3: "",
     excel4: "",
+    subRows: "",
   },
   {
     no: "33",
@@ -728,6 +767,7 @@ export const dataArt632024 = [
     excel2: "",
     excel3: "",
     excel4: "",
+    subRows: "",
   },
   {
     no: "34",
@@ -754,6 +794,7 @@ export const dataArt632024 = [
         excel2: "",
         excel3: "",
         excel4: "",
+        subRows: "",
       },
       {
         no: "",
@@ -767,6 +808,7 @@ export const dataArt632024 = [
         excel2: "",
         excel3: "",
         excel4: "",
+        subRows: "",
       },
       {
         no: "",
@@ -780,6 +822,7 @@ export const dataArt632024 = [
         excel2: "",
         excel3: "",
         excel4: "",
+        subRows: "",
       },
       {
         no: "",
@@ -793,6 +836,7 @@ export const dataArt632024 = [
         excel2: "",
         excel3: "",
         excel4: "",
+        subRows: "",
       },
       {
         no: "",
@@ -806,6 +850,7 @@ export const dataArt632024 = [
         excel2: "",
         excel3: "",
         excel4: "",
+        subRows: "",
       },
       {
         no: "",
@@ -819,6 +864,7 @@ export const dataArt632024 = [
         excel2: "",
         excel3: "",
         excel4: "",
+        subRows: "",
       },
       {
         no: "",
@@ -832,6 +878,7 @@ export const dataArt632024 = [
         excel2: "",
         excel3: "",
         excel4: "",
+        subRows: "",
       },
     ],
   },
@@ -860,6 +907,7 @@ export const dataArt632024 = [
         excel2: "",
         excel3: "",
         excel4: "",
+        subRows: "",
       },
       {
         no: "",
@@ -873,6 +921,7 @@ export const dataArt632024 = [
         excel2: "",
         excel3: "",
         excel4: "",
+        subRows: "",
       },
       {
         no: "",
@@ -887,6 +936,7 @@ export const dataArt632024 = [
         excel2: "",
         excel3: "",
         excel4: "",
+        subRows: "",
       },
     ],
   },
@@ -925,10 +975,12 @@ export const dataArt632024 = [
         fundamentoLegal:
           "Articulo. 63 Fraccion XXXVII-A de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
         actualizacion: "2024",
-        excel1: "",
+        excel1:
+          "https://www.itetlax.org.mx/assets/excel/transparencia/art63/2023/LTAIPT_A63F37A.xlsx",
         excel2: "",
         excel3: "",
         excel4: "",
+        subRows: "",
       },
       {
         no: "",
@@ -938,10 +990,12 @@ export const dataArt632024 = [
         fundamentoLegal:
           "Articulo. 63 Fraccion XXXVII-B de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
         actualizacion: "2024",
-        excel1: "",
+        excel1:
+          "https://www.itetlax.org.mx/assets/excel/transparencia/art63/2023/LTAIPT_A63F37B.xlsx",
         excel2: "",
         excel3: "",
         excel4: "",
+        subRows: "",
       },
     ],
   },
@@ -970,6 +1024,7 @@ export const dataArt632024 = [
         excel2: "",
         excel3: "",
         excel4: "",
+        subRows: "",
       },
       {
         no: "",
@@ -983,6 +1038,7 @@ export const dataArt632024 = [
         excel2: "",
         excel3: "",
         excel4: "",
+        subRows: "",
       },
     ],
   },
@@ -1011,6 +1067,7 @@ export const dataArt632024 = [
         excel2: "",
         excel3: "",
         excel4: "",
+        subRows: "",
       },
       {
         no: "",
@@ -1024,6 +1081,7 @@ export const dataArt632024 = [
         excel2: "",
         excel3: "",
         excel4: "",
+        subRows: "",
       },
       {
         no: "",
@@ -1037,6 +1095,7 @@ export const dataArt632024 = [
         excel2: "",
         excel3: "",
         excel4: "",
+        subRows: "",
       },
       {
         no: "",
@@ -1050,6 +1109,7 @@ export const dataArt632024 = [
         excel2: "",
         excel3: "",
         excel4: "",
+        subRows: "",
       },
     ],
   },
@@ -1079,6 +1139,7 @@ export const dataArt632024 = [
         excel2: "",
         excel3: "",
         excel4: "",
+        subRows: "",
       },
       {
         no: "",
@@ -1092,6 +1153,7 @@ export const dataArt632024 = [
         excel2: "",
         excel3: "",
         excel4: "",
+        subRows: "",
       },
     ],
   },
@@ -1107,6 +1169,7 @@ export const dataArt632024 = [
     excel2: "",
     excel3: "",
     excel4: "",
+    subRows: "",
   },
   {
     no: "42",
@@ -1133,6 +1196,7 @@ export const dataArt632024 = [
         excel2: "",
         excel3: "",
         excel4: "",
+        subRows: "",
       },
       {
         no: "",
@@ -1146,6 +1210,7 @@ export const dataArt632024 = [
         excel2: "",
         excel3: "",
         excel4: "",
+        subRows: "",
       },
     ],
   },
@@ -1175,6 +1240,7 @@ export const dataArt632024 = [
         excel2: "",
         excel3: "",
         excel4: "",
+        subRows: "",
       },
       {
         no: "",
@@ -1188,6 +1254,7 @@ export const dataArt632024 = [
         excel2: "",
         excel3: "",
         excel4: "",
+        subRows: "",
       },
     ],
   },
@@ -1246,6 +1313,7 @@ export const dataArt632024 = [
     excel2: "",
     excel3: "",
     excel4: "",
+    subRows: "",
   },
   {
     no: "46",
@@ -1272,6 +1340,7 @@ export const dataArt632024 = [
         excel2: "",
         excel3: "",
         excel4: "",
+        subRows: "",
       },
       {
         no: "",
@@ -1285,6 +1354,7 @@ export const dataArt632024 = [
         excel2: "",
         excel3: "",
         excel4: "",
+        subRows: "",
       },
     ],
   },
@@ -1313,6 +1383,7 @@ export const dataArt632024 = [
         excel2: "",
         excel3: "",
         excel4: "",
+        subRows: "",
       },
       {
         no: "",
@@ -1326,6 +1397,7 @@ export const dataArt632024 = [
         excel2: "",
         excel3: "",
         excel4: "",
+        subRows: "",
       },
       {
         no: "",
@@ -1339,6 +1411,7 @@ export const dataArt632024 = [
         excel2: "",
         excel3: "",
         excel4: "",
+        subRows: "",
       },
     ],
   },
@@ -1354,5 +1427,6 @@ export const dataArt632024 = [
     excel2: "",
     excel3: "",
     excel4: "",
+    subRows: "",
   },
 ];
