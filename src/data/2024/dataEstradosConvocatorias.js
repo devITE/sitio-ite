@@ -91,6 +91,14 @@ export const dataEstrados = [
     nameFolio: "FOLIO 1945-2024",
     linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/1945.1.pdf",
   },
+  // fecha de baja 24 de abril
+  {
+    id: 12,
+    nameCedula: "CÉDULA DE PUBLICOTACIÓN FOLIO 01982",
+    linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/1982.pdf",
+    nameFolio: "FOLIO 01982-2024",
+    linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/1982.1.pdf",
+  },
 ];
 
 export const dataConvocatorias = [
