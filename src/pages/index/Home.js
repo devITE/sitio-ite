@@ -51,10 +51,16 @@ const ITE = () => {
       /> */}
 
       <ModalInit
+        imgLink="https://itetlax.org.mx/assets/img/imgC_AR/banner_sel_cael2.jpeg"
+        url="https://reg-cael-sel.itetlax.org.mx/"
+        linkToo=""
+      />
+
+      {/* <ModalInit
         imgLink="https://itetlax.org.mx/assets/img/imgPopup/consultaconvo.jpg"
         url=""
         linkToo="/ConvocatoriasApartado"
-      /> 
+      />  */}
       <Carousel idCarousel="carouselTopIndex">
         {dataCIndex.map((cIndex) => (
           <CarouselItemIMG
@@ -71,13 +77,14 @@ const ITE = () => {
       <div className="mt-5 Home__AR-A">
         <div>
           <h2 className="bottom_title">
-            Panel: Violencia contra las Mujeres, Causas y Desafíos en Tlaxcala
+            Foro "Protocolo de personas con discapacidad en el Proceso Electoral
+            Concurrente 2023-2024"
           </h2>
           <div className="Home__video-embed ratio ratio-16x9 w-100">
             <iframe
               id="9QQCf_emFwo"
-              src="https://www.youtube-nocookie.com/embed/11cfjjAiJG8?rel=0"
-              title="Firma de convenio entre el ITE y la A.C -DDESER Tlaxcala"
+              src="https://www.youtube-nocookie.com/embed/yFECy9X-b_c?si=oi0ZGw4cI4oeKqku"
+              title='Foro "Protocolo de personas con discapacidad en el Proceso Electoral Concurrente 2023-2024"'
               allowFullScreen
             ></iframe>
           </div>
@@ -152,13 +159,13 @@ const ITE = () => {
           <h2 className="bottom_title">Sesión en Vivo</h2>
           <div className="Home__video-embed ratio ratio-16x9 w-100">
             <iframe
-              src="https://www.youtube-nocookie.com/embed/E3yjl5TRtg8?si=6YXe12Hgf70_GmxO"
-              title="Sesión Presencial Especial del CG 29/03/2024"
+              src="https://www.youtube-nocookie.com/embed/D-UM7EbgzBg?si=PMhMw7npz1ML_z-6"
+              title="Sesión Presencial Especial del CG 09/04/2024"
               allowFullScreen
             ></iframe>
           </div>
           <h5 className="mt-3 text-center">
-            Sesión Presencial Extraordinaria del CG 29/03/2024{" "}
+            Sesión Presencial Especial del CG 09/04/2024{" "}
           </h5>
         </div>
         <div>
