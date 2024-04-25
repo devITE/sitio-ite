@@ -217,7 +217,8 @@ export const dataMonitoreoMIyD = [
     id: 7,
     yearBoletin: "2024",
     monthBoletin: "ABR",
-    nameBoletin: "Decimo Informe Quincenal de, 31 de marzo al 14 de abril",
+    nameBoletin:
+      "Decimo Primer Informe Quincenal de, 31 de marzo al 14 de abril",
     linkBoletin: "https://itetlax.org.mx/assets/pdf/monitoreos/2024/miyd/8.pdf",
   },
 ];
