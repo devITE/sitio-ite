@@ -35,73 +35,9 @@ export const dataEstrados = [
     nameFolio: "",
     linkFolio: "",
   },
-  // fecha de baja 24 de abril
-  {
-    id: 5,
-    nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 01932",
-    linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/1932.1.pdf",
-    nameFolio: "FOLIO 01932-2024",
-    linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/1932.1.pdf",
-  },
-  // fecha de baja 24 de abril
-  {
-    id: 6,
-    nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 1940",
-    linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/1940.pdf",
-    nameFolio: "FOLIO 1940-2024",
-    linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/1940.1.pdf",
-  },
-  // fecha de baja 24 de abril
-  {
-    id: 7,
-    nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 1941",
-    linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/1941.pdf",
-    nameFolio: "FOLIO 1941-2024",
-    linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/1941.1.pdf",
-  },
-  // fecha de baja 24 de abril
-  {
-    id: 8,
-    nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 1942",
-    linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/1942.pdf",
-    nameFolio: "FOLIO 1942-2024",
-    linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/1942.1.pdf",
-  },
-  // fecha de baja 24 de abril
-  {
-    id: 9,
-    nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 1943",
-    linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/1943.pdf",
-    nameFolio: "FOLIO 1943-2024",
-    linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/1943.1.pdf",
-  },
-  // fecha de baja 24 de abril
-  {
-    id: 10,
-    nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 1944",
-    linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/1944.pdf",
-    nameFolio: "FOLIO 1944-2024",
-    linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/1944.1.pdf",
-  },
-  // fecha de baja 24 de abril
-  {
-    id: 11,
-    nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 1945",
-    linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/1945.pdf",
-    nameFolio: "FOLIO 1945-2024",
-    linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/1945.1.pdf",
-  },
-  // fecha de baja 24 de abril
-  {
-    id: 12,
-    nameCedula: "CÉDULA DE PUBLICOTACIÓN FOLIO 01982",
-    linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/1982.pdf",
-    nameFolio: "FOLIO 01982-2024",
-    linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/1982.1.pdf",
-  },
   // fecha de baja 26 de abril
   {
-    id: 12,
+    id: 5,
     nameCedula: "CÉDULA DE PUBLICOTACIÓN FOLIO 02022",
     linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/2022.pdf",
     nameFolio: "FOLIO 02022-2024",
