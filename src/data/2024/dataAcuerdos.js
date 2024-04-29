@@ -1265,10 +1265,17 @@ export const dataAcuerdos2024 = [
     typeDoc: "ACUERDO",
     numDoc: "ITE-CG 114-2024",
     monthDoc: "ABR",
-    nameDoc: "READECUACIÓN DE PRESUPUESTO",
+    nameDoc: "CUMPLIMIENTO DE SENTENCIA TET-JE-043-2024",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/114.pdf",
-    titleAnexo1: "CUMPLIMIENTO DE SENTENCIA TET-JE-043-2024",
-    pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/114.1.pdf",
+  },
+  {
+    id: 115,
+    year: "2024",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 115-2024",
+    monthDoc: "ABR",
+    nameDoc: "CUMPLIMIENTO DE SENTENCIA TET-JE-042-2024",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/115.pdf",
   },
 ];
 
