@@ -38,11 +38,11 @@ const ITE = () => {
         />
       </div>
 
-      {/* <ModalInit
-        imgLink="https://itetlax.org.mx/assets/img/sesionesCG/SECG02042024.png"
-        url="https://itetlax.org.mx/assets/img/sesionesCG/SECG02042024.pdf"
+      <ModalInit
+        imgLink="https://itetlax.org.mx/assets/img/sesionesCG/SOCG290424.png"
+        url="https://itetlax.org.mx/assets/img/sesionesCG/SOCG290424.png"
         linkToo=""
-      /> */}
+      />
 
       <ModalInit
         imgLink="https://itetlax.org.mx/assets/img/imgC_A/ine.PNG"
@@ -50,11 +50,11 @@ const ITE = () => {
         linkToo=""
       />
 
-      {/* <ModalInit
-        imgLink="https://itetlax.org.mx/assets/img/imgC_AR/banner_sel_cael2.jpeg"
-        url="https://reg-cael-sel.itetlax.org.mx/"
+      <ModalInit
+        imgLink="https://itetlax.org.mx/assets/img/imgC_AR/conoceles.png"
+        url="http://conocelestlaxcala2024.org.mx/"
         linkToo=""
-      /> */}
+      />
 
       {/* <ModalInit
         imgLink="https://itetlax.org.mx/assets/img/imgPopup/consultaconvo.jpg"

@@ -89,9 +89,6 @@ export const dataCIndex = [
   {
     id: 13,
     imgUrl: "https://itetlax.org.mx/assets/carousel/resultados_sel.png",
-    itemActive: "active",
-    buttonActive: "active",
-    ariaCurrent: "true",
     alt: "Resultados SEL",
     url: "https://itetlax.org.mx/assets/carousel/resultados_sel.pdf",
     linkToo: "",
@@ -101,6 +98,17 @@ export const dataCIndex = [
     imgUrl: "https://itetlax.org.mx/assets/carousel/resultados_cael.png",
     alt: "Resultados CAEL",
     url: "https://itetlax.org.mx/assets/carousel/resultados_cael.pdf",
+    linkToo: "",
+  },
+  {
+    id: 15,
+    imgUrl:
+      "https://itetlax.org.mx/assets/pd/carousel/Examen_2da_Convocatoria.png",
+    alt: "2da convocTa CAEL",
+    itemActive: "active",
+    buttonActive: "active",
+    ariaCurrent: "true",
+    url: "https://itetlax.org.mx/assets/pdf/carousel/Examen_2da_Convocatoria.pdf",
     linkToo: "",
   },
 ];
@@ -256,10 +264,17 @@ export const dataCA = [
     id: 8,
     imgUrl: "https://itetlax.org.mx/assets/img/imgC_A/cep-convocatoria.jpg",
     alt: "56",
+    url: "https://itetlax.org.mx/assets/img/imgC_A/cep-convocatoria.pdf",
+    linkToo: "",
+  },
+  {
+    id: 9,
+    imgUrl: "https://itetlax.org.mx/assets/img/imgC_AR/docs_sel_cael.jpg",
+    alt: "56",
     itemActive: "active",
     buttonActive: "active",
     ariaCurrent: "true",
-    url: "https://itetlax.org.mx/assets/img/imgC_A/cep-convocatoria.pdf",
+    url: "https://itetlax.org.mx/assets/img/imgC_AR/docs_sel_cael.jpg",
     linkToo: "",
   },
 ];
