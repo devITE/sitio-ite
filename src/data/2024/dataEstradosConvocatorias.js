@@ -35,13 +35,13 @@ export const dataEstrados = [
     nameFolio: "",
     linkFolio: "",
   },
-  // fecha de baja 26 de abril
+  // fecha de baja 6 de mayo
   {
     id: 5,
-    nameCedula: "CÉDULA DE PUBLICOTACIÓN FOLIO 02022",
-    linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/2022.pdf",
-    nameFolio: "FOLIO 02022-2024",
-    linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/2022.1.pdf",
+    nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 02332",
+    linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/2332.pdf",
+    nameFolio: "FOLIO 02332-2024",
+    linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/2332.1.pdf",
   },
 ];
 

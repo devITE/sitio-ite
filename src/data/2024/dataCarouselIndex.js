@@ -105,10 +105,32 @@ export const dataCIndex = [
     imgUrl:
       "https://itetlax.org.mx/assets/pd/carousel/Examen_2da_Convocatoria.png",
     alt: "2da convocTa CAEL",
+
+    url: "https://itetlax.org.mx/assets/pdf/carousel/Examen_2da_Convocatoria.pdf",
+    linkToo: "",
+  },
+  {
+    id: 16,
+    imgUrl: "https://itetlax.org.mx/assets/img/imgC_I/voto.png",
+    alt: "Promocion del voto",
+    url: "https://www.facebook.com/InstitutoTlaxcaltecadeElecciones?mibextid=LQQJ4d",
+    linkToo: "",
+  },
+  {
+    id: 17,
+    imgUrl: "https://itetlax.org.mx/assets/img/imgC_I/parlamento_juvenil.png",
+    alt: "Promocion del voto",
+    url: "https://itetlax.org.mx/assets/img/imgC_I/parlamento_juvenil.pdf",
+    linkToo: "",
+  },
+  {
+    id: 18,
+    imgUrl: "https://itetlax.org.mx/assets/carousel/resultados_finales.jpg",
+    alt: "RESULTADOS FINALES",
     itemActive: "active",
     buttonActive: "active",
     ariaCurrent: "true",
-    url: "https://itetlax.org.mx/assets/pdf/carousel/Examen_2da_Convocatoria.pdf",
+    url: "https://itetlax.org.mx/assets/carousel/resultados_finales.pdf",
     linkToo: "",
   },
 ];

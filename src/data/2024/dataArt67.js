@@ -40,6 +40,7 @@ export const dataArt672024 = [
         excel2: "",
         excel3: "",
         excel4: "",
+        subRows: "",
       },
       {
         no: "",
@@ -54,6 +55,7 @@ export const dataArt672024 = [
         excel2: "",
         excel3: "",
         excel4: "",
+        subRows: "",
       },
     ],
   },
@@ -214,6 +216,7 @@ export const dataArt672024 = [
         excel2: "",
         excel3: "",
         excel4: "",
+        subRows: "",
       },
       {
         no: "",
@@ -228,6 +231,7 @@ export const dataArt672024 = [
         excel2: "",
         excel3: "",
         excel4: "",
+        subRows: "",
       },
       {
         no: "",
@@ -242,6 +246,7 @@ export const dataArt672024 = [
         excel2: "",
         excel3: "",
         excel4: "",
+        subRows: "",
       },
     ],
   },
@@ -267,7 +272,8 @@ export const dataArt672024 = [
         fundamentoLegal:
           "Articulo. 67 inciso F1 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
         actualizacion: "2024",
-        excel1: "",
+        excel1:
+          "https://www.itetlax.org.mx/assets/excel/transparencia/art67/2024/LTAIPT_A67F01IJ.xlsx",
         excel2: "",
         excel3: "",
         excel4: "",
@@ -300,6 +306,7 @@ export const dataArt672024 = [
         excel2: "",
         excel3: "",
         excel4: "",
+        subRows: "",
       },
     ],
   },
@@ -509,6 +516,7 @@ export const dataArt672024 = [
     excel2: "",
     excel3: "",
     excel4: "",
+    subRows: "",
   },
   {
     no: "13",
@@ -536,6 +544,7 @@ export const dataArt672024 = [
         excel2: "",
         excel3: "",
         excel4: "",
+        subRows: "",
       },
       {
         no: "",
@@ -550,6 +559,7 @@ export const dataArt672024 = [
         excel2: "",
         excel3: "",
         excel4: "",
+        subRows: "",
       },
       {
         no: "",
@@ -564,6 +574,7 @@ export const dataArt672024 = [
         excel2: "",
         excel3: "",
         excel4: "",
+        subRows: "",
       },
       {
         no: "",
@@ -578,6 +589,7 @@ export const dataArt672024 = [
         excel2: "",
         excel3: "",
         excel4: "",
+        subRows: "",
       },
     ],
   },
