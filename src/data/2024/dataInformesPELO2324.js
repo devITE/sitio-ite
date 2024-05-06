@@ -24,7 +24,8 @@ export const dataInfor = [
             id: 1,
             titleItem: "Tercer Informe PELO 2023-2024",
             typeDocument: "pdf",
-            linkItem: "https://itetlax.org.mx/assets/pdf/informesPELO2324/3.pdf",
+            linkItem:
+              "https://itetlax.org.mx/assets/pdf/informesPELO2324/3.pdf",
           },
           // {
           //   id: 2,
@@ -42,7 +43,8 @@ export const dataInfor = [
             id: 1,
             titleItem: "Cuarto Informe PELO 2023-2024",
             typeDocument: "pdf",
-            linkItem: "https://itetlax.org.mx/assets/pdf/informesPELO2324/4.pdf",
+            linkItem:
+              "https://itetlax.org.mx/assets/pdf/informesPELO2324/4.pdf",
           },
           // {
           //   id: 2,
@@ -234,5 +236,43 @@ export const dataInfor = [
         ],
       },
     ],
+  },
+];
+
+export const dataInformesPELO = [
+  {
+    id: 1,
+    year: "2023",
+    monthDoc: "Diciembre",
+    title: "Primer Informe PELO 2023-2024",
+    link: "https://itetlax.org.mx/assets/pdf/informesPELO2324/1.pdf",
+  },
+  {
+    id: 2,
+    year: "2024",
+    monthDoc: "Enero",
+    title: "Segundo Informe PELO 2023-2024",
+    link: "https://itetlax.org.mx/assets/pdf/informesPELO2324/2.pdf",
+  },
+  {
+    id: 3,
+    year: "2024",
+    monthDoc: "Febrero",
+    title: "Tercer Informe PELO 2023-2024",
+    link: "https://itetlax.org.mx/assets/pdf/informesPELO2324/3.pdf",
+  },
+  {
+    id: 4,
+    year: "2024",
+    monthDoc: "Marzo",
+    title: "Cuarto Informe PELO 2023-2024",
+    link: "https://itetlax.org.mx/assets/pdf/informesPELO2324/4.pdf",
+  },
+  {
+    id: 5,
+    year: "2024",
+    monthDoc: "Abril",
+    title: "Quinto Informe PELO 2023-2024",
+    link: "https://itetlax.org.mx/assets/pdf/informesPELO2324/5.pdf",
   },
 ];
