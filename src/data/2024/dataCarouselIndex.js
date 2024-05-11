@@ -126,11 +126,17 @@ export const dataCIndex = [
   {
     id: 18,
     imgUrl: "https://itetlax.org.mx/assets/carousel/resultados_finales.jpg",
-    alt: "RESULTADOS FINALES",
+    url: "https://itetlax.org.mx/assets/carousel/resultados_finales.pdf",
+    linkToo: "",
+  },
+  {
+    id: 18,
+    imgUrl: "https://itetlax.org.mx/assets/img/imgC_I/banner_auxiliares.png",
+    alt: "CONOVATORIA AUXILIARES",
     itemActive: "active",
     buttonActive: "active",
     ariaCurrent: "true",
-    url: "https://itetlax.org.mx/assets/carousel/resultados_finales.pdf",
+    url: "https://itetlax.org.mx/assets/img/imgC_I/banner_auxiliares.pdf",
     linkToo: "",
   },
 ];

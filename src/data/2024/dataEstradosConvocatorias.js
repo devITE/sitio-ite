@@ -35,45 +35,37 @@ export const dataEstrados = [
     nameFolio: "",
     linkFolio: "",
   },
-  // fecha de baja 6 de mayo
+  // fecha de baja 10 de mayo
   {
-    id: 5,
-    nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 02332",
-    linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/2332.pdf",
-    nameFolio: "FOLIO 02332-2024",
-    linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/2332.1.pdf",
+    id: 10,
+    nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 2513",
+    linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/2513.pdf",
+    nameFolio: "FOLIO 2513-2024",
+    linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/2513.1.pdf",
   },
-  // fecha de baja 6 de mayo
+  // fecha de baja 13 de mayo
   {
-    id: 6,
-    nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 2468",
-    linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/2468.pdf",
-    nameFolio: "FOLIO 2468-2024",
-    linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/2468.1.pdf",
+    id: 10,
+    nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 2668",
+    linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/2668.pdf",
+    nameFolio: "FOLIO 2668-2024",
+    linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/2668.1.pdf",
   },
-  // fecha de baja 6 de mayo
+  // fecha de baja 13 de mayo
   {
-    id: 7,
-    nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 2469",
-    linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/2469.pdf",
-    nameFolio: "FOLIO 2469-2024",
-    linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/2469.1.pdf",
+    id: 10,
+    nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 2669",
+    linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/2669.pdf",
+    nameFolio: "FOLIO 2669-2024",
+    linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/2669.1.pdf",
   },
-  // fecha de baja 6 de mayo
+  // fecha de baja 13 de mayo
   {
-    id: 8,
-    nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 2470",
-    linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/2470.pdf",
-    nameFolio: "FOLIO 2470-2024",
-    linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/2470.1.pdf",
-  },
-  // fecha de baja 6 de mayo
-  {
-    id: 9,
-    nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 2471",
-    linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/2471.pdf",
-    nameFolio: "FOLIO 2471-2024",
-    linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/2471.1.pdf",
+    id: 10,
+    nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 2670",
+    linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/2670.pdf",
+    nameFolio: "FOLIO 2670-2024",
+    linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/2670.1.pdf",
   },
 ];
 
