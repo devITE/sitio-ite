@@ -37,7 +37,7 @@ export const dataEstrados = [
   },
   // fecha de baja 10 de mayo
   {
-    id: 10,
+    id: 5,
     nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 2513",
     linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/2513.pdf",
     nameFolio: "FOLIO 2513-2024",
@@ -45,7 +45,7 @@ export const dataEstrados = [
   },
   // fecha de baja 13 de mayo
   {
-    id: 10,
+    id: 6,
     nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 2668",
     linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/2668.pdf",
     nameFolio: "FOLIO 2668-2024",
@@ -53,7 +53,7 @@ export const dataEstrados = [
   },
   // fecha de baja 13 de mayo
   {
-    id: 10,
+    id: 7,
     nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 2669",
     linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/2669.pdf",
     nameFolio: "FOLIO 2669-2024",
@@ -61,11 +61,39 @@ export const dataEstrados = [
   },
   // fecha de baja 13 de mayo
   {
-    id: 10,
+    id: 8,
     nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 2670",
     linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/2670.pdf",
     nameFolio: "FOLIO 2670-2024",
     linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/2670.1.pdf",
+  },
+  {
+    id: 9,
+    nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 2706",
+    linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/2706.pdf",
+    nameFolio: "FOLIO 2706-2024",
+    linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/2706.1.pdf",
+  },
+  {
+    id: 10,
+    nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 2713",
+    linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/2713.pdf",
+    nameFolio: "FOLIO 2713-2024",
+    linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/2713.1.pdf",
+  },
+  {
+    id: 11,
+    nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 2729",
+    linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/2729.pdf",
+    nameFolio: "FOLIO 2729-2024",
+    linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/2729.1.pdf",
+  },
+  {
+    id: 12,
+    nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 2744",
+    linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/2744.pdf",
+    nameFolio: "FOLIO 2744-2024",
+    linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/2744.1.pdf",
   },
 ];
 
