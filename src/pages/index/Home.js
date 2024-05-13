@@ -181,19 +181,6 @@ const ITE = () => {
 
       <h3 className="mt-5 bottom_title">Micrositios</h3>
       <div className="row">
-      <div className="col-12 col-md-3">
-          <a
-            href="https://ite-convocatoria.itetlax.org.mx"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img
-              className="mt-2 img-fluid"
-              src="https://itetlax.org.mx/assets/img/imgHome/itegenero.png"
-              alt="Micrositio ITE Género"
-            />
-          </a>
-        </div>
         <div className="col-12 col-md-3">
           <a
             href="https://ite-genero.itetlax.org.mx"

@@ -136,7 +136,7 @@ export const dataCIndex = [
     itemActive: "active",
     buttonActive: "active",
     ariaCurrent: "true",
-    url: "https://itetlax.org.mx/assets/img/imgC_I/banner_auxiliares.pdf",
+    url: "https://convocatoria-ag.itetlax.org.mx/",
     linkToo: "",
   },
 ];
