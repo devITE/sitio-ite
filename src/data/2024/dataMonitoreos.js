@@ -98,6 +98,13 @@ export const dataMonitoreoPG = [
     nameBoletin: "Informe Quincenal del 21 al 29 de abril",
     linkBoletin: "https://itetlax.org.mx/assets/pdf/monitoreos/2024/pg/14.pdf",
   },
+  {
+    id: 15,
+    yearBoletin: "2024",
+    monthBoletin: "MAY",
+    nameBoletin: "Informe Semanal del 30 de abril al 06 de mayo",
+    linkBoletin: "https://itetlax.org.mx/assets/pdf/monitoreos/2024/pg/15.pdf",
+  },
 ];
 
 export const dataMonitoreoRyT = [
