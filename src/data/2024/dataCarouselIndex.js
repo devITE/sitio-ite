@@ -87,29 +87,6 @@ export const dataCIndex = [
     linkToo: "",
   },
   {
-    id: 13,
-    imgUrl: "https://itetlax.org.mx/assets/carousel/resultados_sel.png",
-    alt: "Resultados SEL",
-    url: "https://itetlax.org.mx/assets/carousel/resultados_sel.pdf",
-    linkToo: "",
-  },
-  {
-    id: 14,
-    imgUrl: "https://itetlax.org.mx/assets/carousel/resultados_cael.png",
-    alt: "Resultados CAEL",
-    url: "https://itetlax.org.mx/assets/carousel/resultados_cael.pdf",
-    linkToo: "",
-  },
-  {
-    id: 15,
-    imgUrl:
-      "https://itetlax.org.mx/assets/pd/carousel/Examen_2da_Convocatoria.png",
-    alt: "2da convocTa CAEL",
-
-    url: "https://itetlax.org.mx/assets/pdf/carousel/Examen_2da_Convocatoria.pdf",
-    linkToo: "",
-  },
-  {
     id: 16,
     imgUrl: "https://itetlax.org.mx/assets/img/imgC_I/voto.png",
     alt: "Promocion del voto",
@@ -130,7 +107,7 @@ export const dataCIndex = [
     linkToo: "",
   },
   {
-    id: 19,
+    id: 18,
     imgUrl: "https://itetlax.org.mx/assets/img/imgC_I/banner_auxiliares.png",
     alt: "CONOVATORIA AUXILIARES",
     ariaCurrent: "true",
