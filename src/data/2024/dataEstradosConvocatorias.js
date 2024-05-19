@@ -79,6 +79,15 @@ export const dataEstrados = [
     nameFolio: "FOLIO 2976-2024",
     linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/2976.1.pdf",
   },
+
+  //BAJAR 22 DE MAYO
+  {
+    id: 9,
+    nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 2980",
+    linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/2980.pdf",
+    nameFolio: "FOLIO 2980-2024",
+    linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/2980.1.pdf",
+  },
 ];
 
 export const dataConvocatorias = [
