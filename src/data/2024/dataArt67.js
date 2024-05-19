@@ -212,11 +212,11 @@ export const dataArt672024 = [
         fundamentoLegal:
           "Articulo. 67 inciso E1 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
         actualizacion: "2024",
-        excel1: "",
+        excel1:
+          "https://itetlax.org.mx/assets/excel/transparencia/art67/2023/LTAIPT_A67F01IE1.xlsx",
         excel2: "",
         excel3: "",
         excel4: "",
-        subRows: "",
       },
       {
         no: "",
@@ -227,11 +227,11 @@ export const dataArt672024 = [
         fundamentoLegal:
           "Articulo. 67 inciso E2 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
         actualizacion: "2024",
-        excel1: "",
+        excel1:
+          "https://itetlax.org.mx/assets/excel/transparencia/art67/2023/LTAIPT_A67F01IE2.xlsx",
         excel2: "",
         excel3: "",
         excel4: "",
-        subRows: "",
       },
       {
         no: "",
@@ -242,11 +242,11 @@ export const dataArt672024 = [
         fundamentoLegal:
           "Articulo. 67 inciso E3 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
         actualizacion: "2024",
-        excel1: "",
+        excel1:
+          "https://itetlax.org.mx/assets/excel/transparencia/art67/2023/LTAIPT_A67F01IE3.xlsx",
         excel2: "",
         excel3: "",
         excel4: "",
-        subRows: "",
       },
     ],
   },
@@ -540,7 +540,8 @@ export const dataArt672024 = [
         fundamentoLegal:
           "Articulo. 67 inciso M1 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
         actualizacion: "2024",
-        excel1: "",
+        excel1:
+          "https://itetlax.org.mx/assets/excel/transparencia/art67/2023/LTAIPT_A67F01IM1.xlsx",
         excel2: "",
         excel3: "",
         excel4: "",
@@ -555,11 +556,11 @@ export const dataArt672024 = [
         fundamentoLegal:
           "Articulo. 67 inciso M2 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
         actualizacion: "2024",
-        excel1: "",
+        excel1:
+          "https://itetlax.org.mx/assets/excel/transparencia/art67/2023/LTAIPT_A67F01IM2.xlsx",
         excel2: "",
         excel3: "",
         excel4: "",
-        subRows: "",
       },
       {
         no: "",
@@ -570,11 +571,11 @@ export const dataArt672024 = [
         fundamentoLegal:
           "Articulo. 67 inciso M3 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
         actualizacion: "2024",
-        excel1: "",
+        excel1:
+          "https://itetlax.org.mx/assets/excel/transparencia/art67/2023/LTAIPT_A67F01IM3.xlsx",
         excel2: "",
         excel3: "",
         excel4: "",
-        subRows: "",
       },
       {
         no: "",
@@ -585,11 +586,11 @@ export const dataArt672024 = [
         fundamentoLegal:
           "Articulo. 67 inciso M4 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
         actualizacion: "2024",
-        excel1: "",
+        excel1:
+          "https://itetlax.org.mx/assets/excel/transparencia/art67/2023/LTAIPT_A67F01IM4.xlsx",
         excel2: "",
         excel3: "",
         excel4: "",
-        subRows: "",
       },
     ],
   },

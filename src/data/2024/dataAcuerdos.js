@@ -358,6 +358,8 @@ export const dataAcuerdos2024 = [
     titleAnexo3: "ANEXO TRES",
     pdfAnexo3: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/27.3.pdf",
   },
+  //ACUERDO 28 MEDIDAS DE PROTECCION DE DATOS PERSONALES
+
   {
     id: 29,
     year: "2024",
@@ -581,7 +583,6 @@ export const dataAcuerdos2024 = [
     titleAnexo5: "ANEXO DEL INFORME MATERIAL DIDACTICO CUADERNILLO",
     pdfAnexo5: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/44.5.pdf",
   },
-
   {
     id: 45,
     year: "2024",
@@ -1660,7 +1661,7 @@ export const dataAcuerdos2024 = [
     titleAnexo3: "DICTAMEN PRI COM",
     pdfAnexo3: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/142.3.pdf",
   },
-  /* MAYO */
+  // falta el acuerdo 143
   {
     id: 144,
     year: "2024",
@@ -1676,7 +1677,8 @@ export const dataAcuerdos2024 = [
     typeDoc: "RESOLUCION",
     numDoc: "ITE-CG 145-2024",
     monthDoc: "MAY",
-    nameDoc: "SUSTITUCIONES DIP FXMT, PAC Y COALICIÓN FUERZA Y CORAZÓN POR TLAXCALA",
+    nameDoc:
+      "SUSTITUCIONES DIP FXMT, PAC Y COALICIÓN FUERZA Y CORAZÓN POR TLAXCALA",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/145.pdf",
   },
   {
@@ -2227,6 +2229,7 @@ export const dataAcuerdos2024 = [
     titleAnexo2: "ANEXO DOS PORCENTAJE DE VOTACION PC FXMT",
     pdfAnexo2: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/185.2.pdf",
   },
+  //falta el 187
   {
     id: 186,
     year: "2024",
@@ -2249,6 +2252,7 @@ export const dataAcuerdos2024 = [
     nameDoc: "SUSTITUCION CONSEJOS DISTRATALES Y MUNICIPALES",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/188.pdf",
   },
+  // falta el 189
   {
     id: 191,
     year: "2024",
@@ -2259,7 +2263,6 @@ export const dataAcuerdos2024 = [
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/191.pdf",
   },
 ];
-
 
 // ------------ A C U E R D O S    I N E ------------
 export const dataAcuerdosINE2024 = [
