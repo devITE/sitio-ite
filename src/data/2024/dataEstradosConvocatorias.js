@@ -109,6 +109,34 @@ export const dataEstrados = [
     nameFolio: "FOLIO 2870-2024",
     linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/2870.1.pdf",
   },
+  {
+    id: 19,
+    nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 2984",
+    linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/2984.pdf",
+    nameFolio: "FOLIO 2984-2024",
+    linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/2984.1.pdf",
+  },
+  {
+    id: 20,
+    nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 2985",
+    linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/2985.pdf",
+    nameFolio: "FOLIO 2985-2024",
+    linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/2985.1.pdf",
+  },
+  {
+    id: 21,
+    nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 2986",
+    linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/2986.pdf",
+    nameFolio: "FOLIO 2986-2024",
+    linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/2986.1.pdf",
+  },
+  {
+    id: 22,
+    nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 2987",
+    linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/2987.pdf",
+    nameFolio: "FOLIO 2987-2024",
+    linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/2987.1.pdf",
+  },
 ];
 
 export const dataConvocatorias = [
