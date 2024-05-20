@@ -2252,7 +2252,7 @@ export const dataAcuerdos2024 = [
     nameDoc: "SUSTITUCION CONSEJOS DISTRATALES Y MUNICIPALES",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/188.pdf",
   },
-  // falta el 189
+  // falta el 189 y 190
   {
     id: 191,
     year: "2024",
@@ -2261,6 +2261,15 @@ export const dataAcuerdos2024 = [
     monthDoc: "MAY",
     nameDoc: "SUSTITUCION MC Y PRD",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/191.pdf",
+  },
+  {
+    id: 193,
+    year: "2024",
+    typeDoc: "RESOLUCION",
+    numDoc: "ITE-CG 193-2024",
+    monthDoc: "MAY",
+    nameDoc: "SUSTITUCIONES MORENA Y MC",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/193.pdf",
   },
 ];
 

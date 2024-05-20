@@ -110,16 +110,15 @@ export const dataCIndex = [
     id: 18,
     imgUrl: "https://itetlax.org.mx/assets/img/imgC_I/banner_auxiliares.png",
     alt: "CONOVATORIA AUXILIARES",
-    ariaCurrent: "true",
     url: "https://convocatoria-ag.itetlax.org.mx/",
     linkToo: "",
   },
   {
     id: 20,
-    imgUrl: "https://itetlax.org.mx/assets/carousel/examen_permanente.png",
+    imgUrl: "https://itetlax.org.mx/assets/pdf/carousel/resultados.png",
     itemActive: "active",
     buttonActive: "active",
-    url: "https://itetlax.org.mx/assets/carousel/examen_permanente.pdf",
+    url: "https://itetlax.org.mx/assets/pdf/carousel/resultados.pdf",
     linkToo: "",
   },
 ];
