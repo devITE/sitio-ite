@@ -98,7 +98,7 @@ const ITE = () => {
       </div>
       <div className="mt-5 Home__AR-A">
         <div>
-          <h2 className="bottom_title">Actividades Recientes</h2>
+          <h2 className="bottom_title">Actividades de Interes</h2>
           <div className="ps-5 pe-5">
             <Carousel idCarousel="carouselActividadesRecientes">
               {dataCAR.map((cAR) => (

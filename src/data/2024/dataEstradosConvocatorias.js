@@ -35,13 +35,13 @@ export const dataEstrados = [
     nameFolio: "",
     linkFolio: "",
   },
-  //BAJAR 18 DE MAYO
+  //BAJAR 20 DE MAYO
   {
     id: 5,
-    nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 2813",
-    linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/2813.pdf",
-    nameFolio: "FOLIO 2813-2024",
-    linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/2813.1.pdf",
+    nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 2870",
+    linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/2870.pdf",
+    nameFolio: "FOLIO 2870-2024",
+    linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/2870.1.pdf",
   },
 
   //BAJAR 22 DE MAYO
@@ -82,60 +82,59 @@ export const dataEstrados = [
 
   //BAJAR 22 DE MAYO
   {
-    id: 9,
+    id: 10,
     nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 2980",
     linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/2980.pdf",
     nameFolio: "FOLIO 2980-2024",
     linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/2980.1.pdf",
   },
+  //BAJAR 23 DE MAYO
   {
-    id: 16,
-    nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 2813",
-    linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/2813.pdf",
-    nameFolio: "FOLIO 2813-2024",
-    linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/2813.1.pdf",
-  },
-  {
-    id: 17,
-    nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 2815",
-    linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/2815.pdf",
-    nameFolio: "FOLIO 2815-2024",
-    linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/2815.1.pdf",
-  },
-  {
-    id: 18,
-    nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 2870",
-    linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/2870.pdf",
-    nameFolio: "FOLIO 2870-2024",
-    linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/2870.1.pdf",
-  },
-  {
-    id: 19,
+    id: 11,
     nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 2984",
     linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/2984.pdf",
     nameFolio: "FOLIO 2984-2024",
     linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/2984.1.pdf",
   },
+  //BAJAR 23 DE MAYO
   {
-    id: 20,
+    id: 12,
     nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 2985",
     linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/2985.pdf",
     nameFolio: "FOLIO 2985-2024",
     linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/2985.1.pdf",
   },
+  //BAJAR 23 DE MAYO
   {
-    id: 21,
+    id: 13,
     nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 2986",
     linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/2986.pdf",
     nameFolio: "FOLIO 2986-2024",
     linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/2986.1.pdf",
   },
+  //BAJAR 23 DE MAYO
   {
-    id: 22,
+    id: 14,
     nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 2987",
     linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/2987.pdf",
     nameFolio: "FOLIO 2987-2024",
     linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/2987.1.pdf",
+  },
+  //BAJAR 24 DE MAYO
+  {
+    id: 15,
+    nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 3007",
+    linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/3007.pdf",
+    nameFolio: "FOLIO 3007-2024",
+    linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/3007.1.pdf",
+  },
+  //BAJAR 24 DE MAYO
+  {
+    id: 16,
+    nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 3008",
+    linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/3008.pdf",
+    nameFolio: "FOLIO 3008-2024",
+    linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/3008.1.pdf",
   },
 ];
 

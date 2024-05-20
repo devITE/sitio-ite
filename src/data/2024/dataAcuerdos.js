@@ -2229,7 +2229,6 @@ export const dataAcuerdos2024 = [
     titleAnexo2: "ANEXO DOS PORCENTAJE DE VOTACION PC FXMT",
     pdfAnexo2: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/185.2.pdf",
   },
-  //falta el 187
   {
     id: 186,
     year: "2024",
@@ -2244,6 +2243,17 @@ export const dataAcuerdos2024 = [
     pdfAnexo2: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/186.2.pdf",
   },
   {
+    id: 187,
+    year: "2024",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 187-2024",
+    monthDoc: "MAY",
+    nameDoc: "CONVOCATORIA PERMANENTE SEL CAEL",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/187.pdf",
+    titleAnexo1: "CONVOCATORIA",
+    pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/187.1.pdf",
+  },
+  {
     id: 188,
     year: "2024",
     typeDoc: "ACUERDO",
@@ -2252,7 +2262,26 @@ export const dataAcuerdos2024 = [
     nameDoc: "SUSTITUCION CONSEJOS DISTRATALES Y MUNICIPALES",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/188.pdf",
   },
-  // falta el 189 y 190
+  {
+    id: 189,
+    year: "2024",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 189-2024",
+    monthDoc: "MAY",
+    nameDoc: "PERSONAL DESIGNADO PARA SELLADO",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/189.pdf",
+    titleAnexo1: "ANEXO UNICO, PERSONAL PARA SELLADO",
+    pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/189.1.pdf",
+  },
+  {
+    id: 190,
+    year: "2024",
+    typeDoc: "RESOLUCION",
+    numDoc: "ITE-CG 190-2024",
+    monthDoc: "MAY",
+    nameDoc: "SOBRENOMBRES",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/190.pdf",
+  },
   {
     id: 191,
     year: "2024",
@@ -2261,6 +2290,15 @@ export const dataAcuerdos2024 = [
     monthDoc: "MAY",
     nameDoc: "SUSTITUCION MC Y PRD",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/191.pdf",
+  },
+  {
+    id: 192,
+    year: "2024",
+    typeDoc: "RESOLUCION",
+    numDoc: "ITE-CG 192-2024",
+    monthDoc: "MAY",
+    nameDoc: "SUSTITUCION MORENA",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/192.pdf",
   },
   {
     id: 193,
