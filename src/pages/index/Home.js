@@ -44,11 +44,11 @@ const ITE = () => {
         linkToo=""
       /> */}
 
-      <ModalInit
+      {/* <ModalInit
         imgLink="https://itetlax.org.mx/assets/img/imgC_A/ine.PNG"
         url="https://observadores.ine.mx/"
         linkToo=""
-      />
+      /> */}
 
       <ModalInit
         imgLink="https://itetlax.org.mx/assets/img/imgC_AR/conoceles.png"

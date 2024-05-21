@@ -145,13 +145,13 @@ export const dataConvocatorias = [
   //   linkFile:
   //     "https://itetlax.org.mx/assets/pdf/convocatorias/Convocatoria-Licitacion-Publica-Nacional-ITE-01-2024.pdf",
   // },
-  {
-    id: 2,
-    nameFile:
-      "¿Quieres participar como Observador/a Electoral? Proceso Electoral Concurrente 2023-2024",
-    linkFile:
-      "https://itetlax.org.mx/assets/pdf/carousel/Convocatoria OE_INE.pdf",
-  },
+  // {
+  //   id: 2,
+  //   nameFile:
+  //     "¿Quieres participar como Observador/a Electoral? Proceso Electoral Concurrente 2023-2024",
+  //   linkFile:
+  //     "https://itetlax.org.mx/assets/pdf/carousel/Convocatoria OE_INE.pdf",
+  // },
   // {
   //   id: 3,
   //   nameFile:
@@ -215,12 +215,12 @@ export const dataConvocatorias = [
   //   nameFile: "ANEXO CUATRO. TOPE DE GASTOS",
   //   linkFile: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/82.11.pdf",
   // },
-  {
-    id: 15,
-    nameFile:
-      "¿Quieres participar como Observador/a Electoral Local? para el Proceso Electoral Local Ordinario 2023-2024",
-    linkFile: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/110.1.pdf",
-  },
+  // {
+  //   id: 15,
+  //   nameFile:
+  //     "¿Quieres participar como Observador/a Electoral Local? para el Proceso Electoral Local Ordinario 2023-2024",
+  //   linkFile: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/110.1.pdf",
+  // },
   // {
   //   id: 17,
   //   nameFile: "Convocatoria Licitacion ITE-LP-04-2024",
