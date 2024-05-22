@@ -35,15 +35,6 @@ export const dataEstrados = [
     nameFolio: "",
     linkFolio: "",
   },
-  //BAJAR 20 DE MAYO
-  {
-    id: 5,
-    nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 2870",
-    linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/2870.pdf",
-    nameFolio: "FOLIO 2870-2024",
-    linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/2870.1.pdf",
-  },
-
   //BAJAR 22 DE MAYO
   {
     id: 6,
@@ -135,6 +126,15 @@ export const dataEstrados = [
     linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/3008.pdf",
     nameFolio: "FOLIO 3008-2024",
     linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/3008.1.pdf",
+  },
+
+  //BAJAR 25 DE MAYO
+  {
+    id: 17,
+    nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 3092",
+    linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/3092.pdf",
+    nameFolio: "FOLIO 3092-2024",
+    linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/3092.1.pdf",
   },
 ];
 

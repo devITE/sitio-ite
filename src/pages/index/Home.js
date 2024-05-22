@@ -291,39 +291,8 @@ const ITE = () => {
             >
               <h5 className="mt-3 text-center">Cápsula en Náhuatl</h5>
             </a>
-            {/* <div className="Home__video-embed ratio ratio-16x9 w-100">
-              <video controls>
-                <source src="https://youtu.be/jvOZFERXuiM" type="video/mp4" />
-                <p>
-                  Su navegador no soporta video HTML5. Aquí hay un
-                  <a href="https://itetlax.org.mx/assets/video/ine/1.mp4">
-                    enlace al video
-                  </a>
-                  .
-                </p>
-              </video>
-            </div>
-            <h5 className="mt-3 text-center">Cápsula en Náhuatl </h5> */}
           </div>
           <div className="col-md-4">
-            {/* <div className="Home__video-embed ratio ratio-16x9 w-100">
-              <video controls>
-                <source
-                  src="https://itetlax.org.mx/assets/video/ine/2.mp4"
-                  type="video/mp4"
-                />
-                <p>
-                  Su navegador no soporta video HTML5. Aquí hay un
-                  <a href="https://itetlax.org.mx/assets/video/ine/2.mp4">
-                    enlace al video
-                  </a>
-                  .
-                </p>
-              </video>
-            </div>
-            <h5 className="mt-3 text-center">
-              Cápsula en Yuhmú (variante del Otomí)
-            </h5> */}
             <div className="Home__video-embed ratio ratio-16x9 w-100">
               <iframe
                 src="https://www.youtube-nocookie.com/embed/EEHZkyv-sTE"
@@ -338,6 +307,63 @@ const ITE = () => {
             >
               <h5 className="mt-3 text-center">
                 Cápsula en Yuhmú (variante del Otomí)
+              </h5>
+            </a>
+          </div>
+
+          <div className="col-md-4">
+            <div className="Home__video-embed ratio ratio-16x9 w-100">
+              <iframe
+                src="https://www.youtube-nocookie.com/embed/SvfEVaA6jF8"
+                title="Votación de Personas con Discapacidad"
+                allowFullScreen
+              ></iframe>
+            </div>
+            <a
+              href="https://youtu.be/SvfEVaA6jF8"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <h5 className="mt-3 text-center">
+                Votación de Personas con Discapacidad
+              </h5>
+            </a>
+          </div>
+
+          <div className="col-md-4">
+            <div className="Home__video-embed ratio ratio-16x9 w-100">
+              <iframe
+                src="https://www.youtube-nocookie.com/embed/7sg3kvUYxRY"
+                title="Voto de Personas con Discapacidad Trans, No Binarias"
+                allowFullScreen
+              ></iframe>
+            </div>
+            <a
+              href="https://youtu.be/7sg3kvUYxRY"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <h5 className="mt-3 text-center">
+                Voto de Personas con Discapacidad Trans, No Binarias
+              </h5>
+            </a>
+          </div>
+
+          <div className="col-md-4">
+            <div className="Home__video-embed ratio ratio-16x9 w-100">
+              <iframe
+                src="https://www.youtube-nocookie.com/embed/dizDZWMNJxE"
+                title="Proceso de Votación de las Personas con Discapacidad"
+                allowFullScreen
+              ></iframe>
+            </div>
+            <a
+              href="https://youtu.be/dizDZWMNJxE"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <h5 className="mt-3 text-center">
+                Proceso de Votación de las Personas con Discapacidad
               </h5>
             </a>
           </div>
