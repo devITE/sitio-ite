@@ -2321,7 +2321,7 @@ export const dataAcuerdosINE2024 = [
     monthDoc: "ENE",
     nameDoc:
       "SE APRUEBAN LAS CONVOCATORIAS PARA LA SELECCIÓN Y DESIGNACIÓN DE LA CONSEJERA PRESIDENTA DEL OPL DE CHIAPAS ASÍ COMO DE LAS CONSEJERAS O CONSEJEROS ELECTORALES DE LOS OPL DE LAS ENTIDADES DE BAJA CALIFORNIA SUR, CAMPECHE, CIUDAD DE MÉXICO, COLIMA, ESTADO DE MÉXICO, GUANAJUATO, GUERRERO, JALISCO, MICHOACAN, MORELOS, NUEVO LEÓN, OAXACA, QUERÉTARO, SAN LUIS POTOSÍ, SONORA, TABASCO, TLAXCALA, VERACRUZ, YUCATAN Y ZACATECAS",
-    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/10.pdf",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2024/1.pdf",
     titleAnexo1: "Punto 4 Convocatoria Baja California Sur 2024",
     pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2024/1.1.pdf",
     titleAnexo2: "Punto 4 Convocatoria Campeche 2024",
@@ -2364,5 +2364,14 @@ export const dataAcuerdosINE2024 = [
     pdfAnexo20: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/1.20.pdf",
     titleAnexo21: "Punto 4 Convocatoria Zacatecas 2024",
     pdfAnexo21: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/1.21.pdf",
+  },
+  {
+    id: 1,
+    year: "2024",
+    typeDoc: "ACUERDO",
+    numDoc: "A09/INE/TLAX/JD03/13-05-2024",
+    monthDoc: "MAY",
+    nameDoc: "SE APRUEBAN LOS AJUSTES A LA UBICACIÓN DE CASILLA ELECTORAL",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2024/2.pdf",
   },
 ];
