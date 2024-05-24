@@ -2103,11 +2103,11 @@ export const dataAcuerdos2024 = [
     typeDoc: "RESOLUCION",
     numDoc: "ITE-CG 176-2024",
     monthDoc: "MAY",
-    nameDoc: "REQUERIMIENTO SOLICITUD REGISTRO PC PVEM",
+    nameDoc: "REQUERIMIENTO SOLICITUD REGISTRO PC PNAT",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/176.pdf",
-    titleAnexo1: "ANEXO UNO POSTULACIONES PC PVEM",
+    titleAnexo1: "ANEXO UNO POSTULACIONES PC PNAT",
     pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/176.1.pdf",
-    titleAnexo2: "ANEXO DOS PORCENTAJE DE VOTACION PC PVEM",
+    titleAnexo2: "ANEXO DOS PORCENTAJE DE VOTACION PC PNAT",
     pdfAnexo2: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/176.2.pdf",
   },
   {
@@ -2309,6 +2309,33 @@ export const dataAcuerdos2024 = [
     nameDoc: "SUSTITUCIONES MORENA Y MC",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/193.pdf",
   },
+  {
+    id: 194,
+    year: "2024",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 194-2024",
+    monthDoc: "MAY",
+    nameDoc: "CUMPLIMIENTO SENTENCIA TET-JE-095-2024. PRD",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/194.pdf",
+  },
+  {
+    id: 195,
+    year: "2024",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 195-2024",
+    monthDoc: "MAY",
+    nameDoc: "PRONUNCIAMIENTO ACCION AFIRMATIVA MIGRANTES",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/195.pdf",
+  },
+  {
+    id: 197,
+    year: "2024",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 197-2024",
+    monthDoc: "MAY",
+    nameDoc: "SOBRENOMBRES",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/197.pdf",
+  },
 ];
 
 // ------------ A C U E R D O S    I N E ------------
@@ -2321,7 +2348,7 @@ export const dataAcuerdosINE2024 = [
     monthDoc: "ENE",
     nameDoc:
       "SE APRUEBAN LAS CONVOCATORIAS PARA LA SELECCIÓN Y DESIGNACIÓN DE LA CONSEJERA PRESIDENTA DEL OPL DE CHIAPAS ASÍ COMO DE LAS CONSEJERAS O CONSEJEROS ELECTORALES DE LOS OPL DE LAS ENTIDADES DE BAJA CALIFORNIA SUR, CAMPECHE, CIUDAD DE MÉXICO, COLIMA, ESTADO DE MÉXICO, GUANAJUATO, GUERRERO, JALISCO, MICHOACAN, MORELOS, NUEVO LEÓN, OAXACA, QUERÉTARO, SAN LUIS POTOSÍ, SONORA, TABASCO, TLAXCALA, VERACRUZ, YUCATAN Y ZACATECAS",
-    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/10.pdf",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2024/1.pdf",
     titleAnexo1: "Punto 4 Convocatoria Baja California Sur 2024",
     pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2024/1.1.pdf",
     titleAnexo2: "Punto 4 Convocatoria Campeche 2024",
@@ -2364,5 +2391,14 @@ export const dataAcuerdosINE2024 = [
     pdfAnexo20: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/1.20.pdf",
     titleAnexo21: "Punto 4 Convocatoria Zacatecas 2024",
     pdfAnexo21: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/1.21.pdf",
+  },
+  {
+    id: 1,
+    year: "2024",
+    typeDoc: "ACUERDO",
+    numDoc: "A09/INE/TLAX/JD03/13-05-2024",
+    monthDoc: "MAY",
+    nameDoc: "SE APRUEBAN LOS AJUSTES A LA UBICACIÓN DE CASILLA ELECTORAL",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2024/2.pdf",
   },
 ];
