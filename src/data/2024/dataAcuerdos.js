@@ -2309,6 +2309,33 @@ export const dataAcuerdos2024 = [
     nameDoc: "SUSTITUCIONES MORENA Y MC",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/193.pdf",
   },
+  {
+    id: 194,
+    year: "2024",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 194-2024",
+    monthDoc: "MAY",
+    nameDoc: "CUMPLIMIENTO SENTENCIA TET-JE-095-2024. PRD",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/194.pdf",
+  },
+  {
+    id: 195,
+    year: "2024",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 195-2024",
+    monthDoc: "MAY",
+    nameDoc: "PRONUNCIAMIENTO ACCION AFIRMATIVA MIGRANTES",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/195.pdf",
+  },
+  {
+    id: 197,
+    year: "2024",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 197-2024",
+    monthDoc: "MAY",
+    nameDoc: "SOBRENOMBRES",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/197.pdf",
+  },
 ];
 
 // ------------ A C U E R D O S    I N E ------------
