@@ -168,6 +168,14 @@ export const dataEstrados = [
     nameFolio: "FOLIO 3107-2024",
     linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/3107.1.pdf",
   },
+  //BAJAR 27 DE MAYO
+  {
+    id: 21,
+    nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 3157",
+    linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/3157.pdf",
+    nameFolio: "FOLIO 3157-2024",
+    linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/3157.1.pdf",
+  },
 ];
 
 export const dataConvocatorias = [
