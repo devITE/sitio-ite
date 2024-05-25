@@ -35,17 +35,10 @@ export const dataEstrados = [
     nameFolio: "",
     linkFolio: "",
   },
-  {
-    id: 5,
-    nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 3007",
-    linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/3007.pdf",
-    nameFolio: "FOLIO 3007-2024",
-    linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/3007.1.pdf",
-  },
 
   //BAJAR 25 DE MAYO
   {
-    id: 6,
+    id: 5,
     nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 3092",
     linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/3092.pdf",
     nameFolio: "FOLIO 3092-2024",
@@ -54,7 +47,7 @@ export const dataEstrados = [
 
   //BAJAR 26 DE MAYO
   {
-    id: 7,
+    id: 6,
     nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 3105",
     linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/3105.pdf",
     nameFolio: "FOLIO 3105-2024",
@@ -63,7 +56,7 @@ export const dataEstrados = [
 
   //BAJAR 26 DE MAYO
   {
-    id: 8,
+    id: 7,
     nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 3106",
     linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/3106.pdf",
     nameFolio: "FOLIO 3106-2024",
@@ -72,7 +65,7 @@ export const dataEstrados = [
 
   //BAJAR 26 DE MAYO
   {
-    id: 9,
+    id: 8,
     nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 3107",
     linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/3107.pdf",
     nameFolio: "FOLIO 3107-2024",
@@ -81,7 +74,7 @@ export const dataEstrados = [
 
   //BAJAR 26 DE MAYO
   {
-    id: 10,
+    id: 9,
     nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 3157",
     linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/3157.pdf",
     nameFolio: "FOLIO 3157-2024",
@@ -96,121 +89,9 @@ export const dataConvocatorias = [
   //   linkFile:
   //     "https://itetlax.org.mx/assets/pdf/convocatorias/Convocatoria-Licitacion-Publica-Nacional-ITE-01-2024.pdf",
   // },
-  // {
-  //   id: 2,
-  //   nameFile:
-  //     "¿Quieres participar como Observador/a Electoral? Proceso Electoral Concurrente 2023-2024",
-  //   linkFile:
-  //     "https://itetlax.org.mx/assets/pdf/carousel/Convocatoria OE_INE.pdf",
-  // },
-  // {
-  //   id: 3,
-  //   nameFile:
-  //     "SE APRUEBA CONVOCATORIA CANDIDATURAS INDEPENDIENTES PELO 2023-2024",
-  //   linkFile: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/82.pdf",
-  // },
-  // {
-  //   id: 4,
-  //   nameFile:
-  //     "ANEXO UNO CONVOCATORIA CANDIDATURAS INDEPENDIENTES PELO 2023-2024",
-  //   linkFile: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/82.1.pdf",
-  // },
-  // {
-  //   id: 5,
-  //   nameFile: "1.1 EBP20232024_ESCRITO BP VPCMrG",
-  //   linkFile: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/82.2.pdf",
-  // },
-  // {
-  //   id: 6,
-  //   nameFile: "1.1.1 EBP120232024_ESCRITO BP NO DEUDOR ALIMENTARIO",
-  //   linkFile: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/82.3.pdf",
-  // },
-  // {
-  //   id: 7,
-  //   nameFile: "1.2 MC20232024_ESCRITO CONFORMIDAD FISCALIZACIÓN",
-  //   linkFile: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/82.4.pdf",
-  // },
-  // {
-  //   id: 8,
-  //   nameFile: "1.3 ME20232024_ESCRITO RECURSOS ILÍCITOS",
-  //   linkFile: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/82.5.pdf",
-  // },
-  // {
-  //   id: 9,
-  //   nameFile: "1.4 MI20232024_FORMATO DE MANIFESTACIÓN DE INTENCIÓN",
-  //   linkFile: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/82.6.pdf",
-  // },
-  // {
-  //   id: 10,
-  //   nameFile: "1.5 MV20232024_FORMATO DE MANIFESTACIÓN DE VOLUNTAD",
-  //   linkFile: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/82.7.pdf",
-  // },
-  // {
-  //   id: 11,
-  //   nameFile: "1.6 SR20232024_FORMATO DE SOLICITUD DE REGISTRO CI",
-  //   linkFile: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/82.8.pdf",
-  // },
-  // {
-  //   id: 12,
-  //   nameFile:
-  //     "ANEXO DOS. MODELO ÚNICO DE ESTATUTO DE ASOCIACIÓN CIVIL CANDIDATURAS INDEPENDIENTES",
-  //   linkFile: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/82.9.pdf",
-  // },
-  // {
-  //   id: 13,
-  //   nameFile: "ANEXO TRES PORCENTAJE DE APOYO CIUDADANO PELO 2023-2024",
-  //   linkFile: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/82.10.pdf",
-  // },
-  // {
-  //   id: 14,
-  //   nameFile: "ANEXO CUATRO. TOPE DE GASTOS",
-  //   linkFile: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/82.11.pdf",
-  // },
-  // {
-  //   id: 15,
-  //   nameFile:
-  //     "¿Quieres participar como Observador/a Electoral Local? para el Proceso Electoral Local Ordinario 2023-2024",
-  //   linkFile: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/110.1.pdf",
-  // },
-  // {
-  //   id: 17,
-  //   nameFile: "Convocatoria Licitacion ITE-LP-04-2024",
-  //   linkFile:
-  //     "https://itetlax.org.mx/assets/pdf/convocatorias/Convocatoria-Licitacion-ITE-LP-04-2024.pdf",
-  // },
 ];
 
 export const dataConvocatoriasApartado = [
-  // {
-  //   id: 1,
-  //   nameFile: "Convocatoria Licitacion ITE-LP-01-2023",
-  //   linkFile:
-  //     "https://itetlax.org.mx/assets/pdf/convocatorias/Convocatoria-Licitacion-ITE-LP-01-2023.pdf",
-  // },
-  // {
-  //   id: 2,
-  //   nameFile: "Convocatoria-Licitacion-ITE-LP-02-2023",
-  //   linkFile:
-  //     "https://itetlax.org.mx/assets/pdf/convocatorias/Convocatoria-Licitacion-ITE-LP-02-2023.pdf",
-  // },
-  // {
-  //   id: 3,
-  //   nameFile: "Convocatoria-Licitacion-Publica-Nacional-ITE-01-2024",
-  //   linkFile:
-  //     "https://itetlax.org.mx/assets/pdf/convocatorias/Convocatoria-Licitacion-Publica-Nacional-ITE-01-2024.pdf",
-  // },
-  // {
-  //   id: 1,
-  //   nameFile: "Convocatoria Licitacion ITE-LP-02-2024 OA",
-  //   linkFile:
-  //     "https://itetlax.org.mx/assets/pdf/convocatorias/Convocatoria-Licitacion-ITE-LP-02-2024-OA.pdf",
-  // },
-  // {
-  //   id: 2,
-  //   nameFile: "Convocatoria Licitacion ITE-LP-03-2024 ao",
-  //   linkFile:
-  //     "https://itetlax.org.mx/assets/pdf/convocatorias/Convocatoria-Licitacion-ITE-LP-03-2024-ao.pdf",
-  // },
   {
     id: 1,
     nameFile: "Convocatoria Licitacion ITE-LP-06-2024",
