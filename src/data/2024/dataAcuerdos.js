@@ -2328,6 +2328,15 @@ export const dataAcuerdos2024 = [
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/195.pdf",
   },
   {
+    id: 196,
+    year: "2024",
+    typeDoc: "RESOLUCIÓN",
+    numDoc: "ITE-CG 196-2024",
+    monthDoc: "MAY",
+    nameDoc: "SUSTITUCIONES PT Y PAC",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/196.pdf",
+  },
+  {
     id: 197,
     year: "2024",
     typeDoc: "ACUERDO",
@@ -2335,6 +2344,24 @@ export const dataAcuerdos2024 = [
     monthDoc: "MAY",
     nameDoc: "SOBRENOMBRES",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/197.pdf",
+  },
+  {
+    id: 198,
+    year: "2024",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 198-2024",
+    monthDoc: "MAY",
+    nameDoc: "SUSTITUCION CONSEJOS D Y M",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/198.pdf",
+  },
+  {
+    id: 199,
+    year: "2024",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 199-2024",
+    monthDoc: "MAY",
+    nameDoc: "SE DA RESPUESTA AL CIUDADANO BERNARDO RODRIGUEZ",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/199.pdf",
   },
 ];
 
