@@ -105,6 +105,13 @@ export const dataMonitoreoPG = [
     nameBoletin: "Informe Semanal del 30 de abril al 06 de mayo",
     linkBoletin: "https://itetlax.org.mx/assets/pdf/monitoreos/2024/pg/15.pdf",
   },
+  {
+    id: 16,
+    yearBoletin: "2024",
+    monthBoletin: "MAY",
+    nameBoletin: "Reporte Semanal del 07 de abril al 13 de mayo",
+    linkBoletin: "https://itetlax.org.mx/assets/pdf/monitoreos/2024/pg/16.pdf",
+  },
 ];
 
 export const dataMonitoreoRyT = [
@@ -170,36 +177,50 @@ export const dataMonitoreoRyT = [
     id: 9,
     yearBoletin: "2024",
     monthBoletin: "FEB",
-    nameBoletin: "Informe Quincenal  del 21 de febrero al 6 de marzo",
+    nameBoletin: "Informe Quincenal del 21 de febrero al 6 de marzo",
     linkBoletin: "https://itetlax.org.mx/assets/pdf/monitoreos/2024/ryt/9.pdf",
   },
   {
     id: 10,
     yearBoletin: "2024",
     monthBoletin: "MAR",
-    nameBoletin: "Informe Quincenal  del 7 al 21 de marzo",
+    nameBoletin: "Informe Quincenal del 07 al 21 de marzo",
     linkBoletin: "https://itetlax.org.mx/assets/pdf/monitoreos/2024/ryt/10.pdf",
   },
   {
     id: 11,
     yearBoletin: "2024",
     monthBoletin: "MAR",
-    nameBoletin: "Informe Quincenal  del 22 de marzo al 5 de abril",
+    nameBoletin: "Informe Quincenal del 22 de marzo al 5 de abril",
     linkBoletin: "https://itetlax.org.mx/assets/pdf/monitoreos/2024/ryt/11.pdf",
   },
   {
     id: 12,
     yearBoletin: "2024",
     monthBoletin: "ABR",
-    nameBoletin: "Informe Quincenal  del 06 de abril al 20 de abril",
+    nameBoletin: "Informe Quincenal del 06 de abril al 20 de abril",
     linkBoletin: "https://itetlax.org.mx/assets/pdf/monitoreos/2024/ryt/12.pdf",
   },
   {
     id: 13,
     yearBoletin: "2024",
     monthBoletin: "ABR",
-    nameBoletin: "Informe Quincenal  del 21 al 29 de abril",
+    nameBoletin: "Informe Quincenal del 21 al 29 de abril",
     linkBoletin: "https://itetlax.org.mx/assets/pdf/monitoreos/2024/ryt/13.pdf",
+  },
+  {
+    id: 14,
+    yearBoletin: "2024",
+    monthBoletin: "MAY",
+    nameBoletin: "Informe Quincenal del 30 de abril al 06 de mayo",
+    linkBoletin: "https://itetlax.org.mx/assets/pdf/monitoreos/2024/ryt/14.pdf",
+  },
+  {
+    id: 15,
+    yearBoletin: "2024",
+    monthBoletin: "MAY",
+    nameBoletin: "Informe Quincenal del 07 al 13 de mayo",
+    linkBoletin: "https://itetlax.org.mx/assets/pdf/monitoreos/2024/ryt/15.pdf",
   },
 ];
 
@@ -261,5 +282,12 @@ export const dataMonitoreoMIyD = [
     monthBoletin: "ABR",
     nameBoletin: "Duodécimo Informe Quincenal",
     linkBoletin: "https://itetlax.org.mx/assets/pdf/monitoreos/2024/miyd/8.pdf",
+  },
+  {
+    id: 9,
+    yearBoletin: "2024",
+    monthBoletin: "ABR",
+    nameBoletin: "Decimotercer Informe Quincenal",
+    linkBoletin: "https://itetlax.org.mx/assets/pdf/monitoreos/2024/miyd/9.pdf",
   },
 ];
