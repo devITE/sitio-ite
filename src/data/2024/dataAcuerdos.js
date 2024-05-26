@@ -2363,6 +2363,15 @@ export const dataAcuerdos2024 = [
     nameDoc: "SE DA RESPUESTA AL CIUDADANO BERNARDO RODRIGUEZ",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/199.pdf",
   },
+  {
+    id: 200,
+    year: "2024",
+    typeDoc: "RESOLUCIÓN",
+    numDoc: "ITE-CG 200-2024",
+    monthDoc: "MAY",
+    nameDoc: "SUSTITUCIONES FxMT Y PAN",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/200.pdf",
+  },
 ];
 
 // ------------ A C U E R D O S    I N E ------------
