@@ -2372,6 +2372,17 @@ export const dataAcuerdos2024 = [
     nameDoc: "SUSTITUCIONES FxMT Y PAN",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/200.pdf",
   },
+  {
+    id: 201,
+    year: "2024",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 201-2024",
+    monthDoc: "MAY",
+    nameDoc: "SE MODIFICA PTO DEL PREP",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/201.pdf",
+    titleAnexo1: "ANEXO ÚNICO PTO DEL PREP",
+    pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/201.1.pdf",
+  },
 ];
 
 // ------------ A C U E R D O S    I N E ------------
