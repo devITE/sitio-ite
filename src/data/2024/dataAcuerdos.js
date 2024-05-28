@@ -1704,6 +1704,8 @@ export const dataAcuerdos2024 = [
     pdfAnexo2: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/147.2.pdf",
     titleAnexo3: "DICTAMEN MC AYUNTAMIENTOS",
     pdfAnexo3: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/147.3.pdf",
+    titleAnexo3: "FE DE ERRATAS",
+    pdfAnexo3: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/147.4.pdf",
   },
   {
     id: 148,
@@ -1721,6 +1723,8 @@ export const dataAcuerdos2024 = [
     pdfAnexo3: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/148.3.pdf",
     titleAnexo4: "ANEXO CUATRO SOBRENOMBRES MORENA",
     pdfAnexo4: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/148.4.pdf",
+    titleAnexo5: "FE DE ERRATAS",
+    pdfAnexo5: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/148.5.pdf",
   },
   {
     id: 149,
@@ -1736,6 +1740,8 @@ export const dataAcuerdos2024 = [
     pdfAnexo2: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/149.2.pdf",
     titleAnexo3: "DICTAMEN PAC AYUNTAMIENTOS",
     pdfAnexo3: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/149.3.pdf",
+    titleAnexo4: "FE DE ERRATAS",
+    pdfAnexo4: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/149.4.pdf",
   },
   {
     id: 150,
@@ -1751,6 +1757,8 @@ export const dataAcuerdos2024 = [
     pdfAnexo2: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/150.2.pdf",
     titleAnexo3: "DICTAMEN PT AYUNTAMIENTOS",
     pdfAnexo3: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/150.3.pdf",
+    titleAnexo4: "FE DE ERRATAS",
+    pdfAnexo4: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/150.4.pdf",
   },
   {
     id: 151,
@@ -1766,6 +1774,8 @@ export const dataAcuerdos2024 = [
     pdfAnexo2: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/151.2.pdf",
     titleAnexo3: "DICTAMEN PRD AYUNTAMIENTOS",
     pdfAnexo3: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/151.3.pdf",
+    titleAnexo4: "FE DE ERRATAS",
+    pdfAnexo4: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/151.4.pdf",
   },
   {
     id: 152,
@@ -1826,6 +1836,8 @@ export const dataAcuerdos2024 = [
     pdfAnexo2: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/155.2.pdf",
     titleAnexo3: "DICTAMEN PRI AYUNTAMIENTOS",
     pdfAnexo3: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/155.3.pdf",
+    titleAnexo4: "FE DE ERRATAS",
+    pdfAnexo4: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/155.4.pdf",
   },
   {
     id: 156,
@@ -1880,6 +1892,8 @@ export const dataAcuerdos2024 = [
     pdfAnexo2: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/159.2.pdf",
     titleAnexo3: "POSTULACIONES AYUNTAMIENTOS  COALICION",
     pdfAnexo3: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/159.3.pdf",
+    titleAnexo4: "FE DE ERRATAS",
+    pdfAnexo4: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/159.4.pdf",
   },
   {
     id: 160,
@@ -1895,6 +1909,8 @@ export const dataAcuerdos2024 = [
     pdfAnexo2: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/160.2.pdf",
     titleAnexo3: "DICTAMEN RSPT AYUNTAMIENTOS",
     pdfAnexo3: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/160.3.pdf",
+    titleAnexo4: "FE DE ERRATAS",
+    pdfAnexo4: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/160.4.pdf",
   },
   {
     id: 161,
@@ -1925,6 +1941,8 @@ export const dataAcuerdos2024 = [
     pdfAnexo2: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/162.2.pdf",
     titleAnexo3: "DICTAMEN FXMT AYUNTAMIENTOS",
     pdfAnexo3: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/162.3.pdf",
+    titleAnexo4: "FE DE ERRATAS",
+    pdfAnexo4: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/162.4.pdf",
   },
   {
     id: 163,
@@ -1940,6 +1958,8 @@ export const dataAcuerdos2024 = [
     pdfAnexo2: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/163.2.pdf",
     titleAnexo3: "DICTAMEN NAT AYUNTAMIENTOS",
     pdfAnexo3: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/163.3.pdf",
+    titleAnexo4: "FE DE ERRATAS",
+    pdfAnexo4: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/163.4.pdf",
   },
   {
     id: 164,
@@ -2068,6 +2088,8 @@ export const dataAcuerdos2024 = [
     pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/173.1.pdf",
     titleAnexo2: "ANEXO DOS PORCENTAJE DE VOTACION PC PVEM",
     pdfAnexo2: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/173.2.pdf",
+    titleAnexo3: "FE DE ERRATAS",
+    pdfAnexo3: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/173.3.pdf",
   },
   {
     id: 174,
@@ -2122,6 +2144,8 @@ export const dataAcuerdos2024 = [
     pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/177.1.pdf",
     titleAnexo2: "ANEXO DOS PORCENTAJE DE VOTACION PC RSPT",
     pdfAnexo2: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/177.2.pdf",
+    titleAnexo3: "FE DE ERRATAS",
+    pdfAnexo3: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/177.3.pdf",
   },
   {
     id: 178,
@@ -2135,6 +2159,8 @@ export const dataAcuerdos2024 = [
     pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/178.1.pdf",
     titleAnexo2: "ANEXO DOS PORCENTAJE DE VOTACION PC PAN",
     pdfAnexo2: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/178.2.pdf",
+    titleAnexo3: "FE DE ERRATAS",
+    pdfAnexo3: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/178.3.pdf",
   },
   {
     id: 179,
@@ -2148,6 +2174,8 @@ export const dataAcuerdos2024 = [
     pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/179.1.pdf",
     titleAnexo2: "ANEXO DOS PORCENTAJE DE VOTACION PC PAC",
     pdfAnexo2: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/179.2.pdf",
+    titleAnexo3: "FE DE ERRATAS",
+    pdfAnexo3: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/179.3.pdf",
   },
   {
     id: 180,
@@ -2176,6 +2204,8 @@ export const dataAcuerdos2024 = [
     pdfAnexo2: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/181.2.pdf",
     titleAnexo3: "DICTAMEN PT PC",
     pdfAnexo3: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/181.3.pdf",
+    titleAnexo4: "FE DE ERRATAS",
+    pdfAnexo4: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/181.4.pdf",
   },
   {
     id: 182,
@@ -2189,6 +2219,8 @@ export const dataAcuerdos2024 = [
     pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/182.1.pdf",
     titleAnexo2: "ANEXO DOS PORCENTAJE DE VOTACION PC PRI",
     pdfAnexo2: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/182.2.pdf",
+    titleAnexo3: "FE DE ERRATAS",
+    pdfAnexo3: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/182.3.pdf",
   },
   {
     id: 183,
@@ -2202,6 +2234,8 @@ export const dataAcuerdos2024 = [
     pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/183.1.pdf",
     titleAnexo2: "ANEXO DOS PORCENTAJE DE VOTACION PC MC",
     pdfAnexo2: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/183.2.pdf",
+    titleAnexo3: "FE DE ERRATAS",
+    pdfAnexo3: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/183.3.pdf",
   },
   {
     id: 184,
@@ -2215,6 +2249,8 @@ export const dataAcuerdos2024 = [
     pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/184.1.pdf",
     titleAnexo2: "ANEXO DOS PORCENTAJE DE VOTACION PC MORENA",
     pdfAnexo2: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/184.2.pdf",
+    titleAnexo3: "FE DE ERRATAS",
+    pdfAnexo3: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/184.3.pdf",
   },
   {
     id: 185,
@@ -2228,6 +2264,8 @@ export const dataAcuerdos2024 = [
     pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/185.1.pdf",
     titleAnexo2: "ANEXO DOS PORCENTAJE DE VOTACION PC FXMT",
     pdfAnexo2: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/185.2.pdf",
+    titleAnexo3: "FE DE ERRATAS",
+    pdfAnexo3: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/185.3.pdf",
   },
   {
     id: 186,
@@ -2241,6 +2279,8 @@ export const dataAcuerdos2024 = [
     pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/186.1.pdf",
     titleAnexo2: "ANEXO DOS PORCENTAJE DE VOTACION PC NAT",
     pdfAnexo2: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/186.2.pdf",
+    titleAnexo3: "FE DE ERRATAS",
+    pdfAnexo3: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/186.3.pdf",
   },
   {
     id: 187,
@@ -2382,6 +2422,20 @@ export const dataAcuerdos2024 = [
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/201.pdf",
     titleAnexo1: "ANEXO ÚNICO PTO DEL PREP",
     pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/201.1.pdf",
+  },
+  {
+    id: 202,
+    year: "2024",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 202-2024",
+    monthDoc: "MAY",
+    nameDoc: "DESIGNACION DE LAS CASILLAS Y PROCEDIMIENTOS DE VERIFICACIÓN",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/202.pdf",
+    titleAnexo1: "ANEXO UNO SELECCIÓN DE CASILLAS",
+    pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/202.1.pdf",
+    titleAnexo2:
+      "ANEXO DOS PROCEDIMIENTOS PARA LA VERIFICACIÓN DE LAS MEDIDAS DE SEGURIDAD",
+    pdfAnexo2: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/202.2.pdf",
   },
 ];
 
