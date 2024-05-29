@@ -7,42 +7,22 @@ export const dataEstrados = [
   //   nameFolio: "FOLIO 3257-2023",
   //   linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/49.1.pdf",
   // },
-  {
-    id: 1,
-    nameCedula: "RESOLUCION ITE-CG 17/2024",
-    linkCedula: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/17.pdf",
-    nameFolio: "",
-    linkFolio: "",
-  },
-  {
-    id: 2,
-    nameCedula: "RESOLUCION ITE-CG 89-2024",
-    linkCedula: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/89.pdf",
-    nameFolio: "",
-    linkFolio: "",
-  },
-  {
-    id: 3,
-    nameCedula: "RESOLUCION ITE-CG 102-2024",
-    linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/102.1.pdf",
-    nameFolio: "",
-    linkFolio: "",
-  },
-  {
-    id: 4,
-    nameCedula: "FE DE ERRATAS RESOLUCION ITE-CG 102-2024",
-    linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/102.2.pdf",
-    nameFolio: "",
-    linkFolio: "",
-  },
 
   //BAJAR 27 DE MAYO
   {
-    id: 5,
-    nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 3315",
-    linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/3315.pdf",
-    nameFolio: "FOLIO 3315-2024",
-    linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/3315.1.pdf",
+    id: 1,
+    nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 3370",
+    linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/3370.pdf",
+    nameFolio: "FOLIO 3370-2024",
+    linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/3370.1.pdf",
+  },
+  //BAJAR 1 DE JUNIO
+  {
+    id: 2,
+    nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 3410",
+    linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/3410.pdf",
+    nameFolio: "FOLIO 3410-2024",
+    linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/3410.1.pdf",
   },
 ];
 
