@@ -222,6 +222,13 @@ export const dataMonitoreoRyT = [
     nameBoletin: "Informe Quincenal del 07 al 13 de mayo",
     linkBoletin: "https://itetlax.org.mx/assets/pdf/monitoreos/2024/ryt/15.pdf",
   },
+  {
+    id: 16,
+    yearBoletin: "2024",
+    monthBoletin: "MAY",
+    nameBoletin: "Informe semanal del 14 al 20 de mayo",
+    linkBoletin: "https://itetlax.org.mx/assets/pdf/monitoreos/2024/ryt/16.pdf",
+  },
 ];
 
 export const dataMonitoreoMIyD = [
