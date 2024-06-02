@@ -31,11 +31,19 @@ export const dataEstrados = [
   
   //Bajar 01-JUN-24
   {
-    id: 5,
+    id: 1,
     nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 3370",
     linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/3370.pdf",
     nameFolio: "FOLIO 3370-2024",
     linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/3370.1.pdf",
+  },
+  //Bajar 01-JUN-24
+  {
+    id: 2,
+    nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 3410",
+    linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/3410.pdf",
+    nameFolio: "FOLIO 3410-2024",
+    linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/3410.1.pdf",
   },
 ];
 

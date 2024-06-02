@@ -180,12 +180,21 @@ export const dataCAR = [
     url: "https://itetlax.org.mx/assets/img/imgC_AR/como_votar.jpg",
     linkToo: "",
   },
+  
   {
     id: 11,
-    imgUrl: "https://itetlax.org.mx/assets/img/imgC_AR/encarte.png",
+    imgUrl: "https://itetlax.org.mx/assets/img/imgC_AR/ITE_INE.png",
     alt: "Convocatoria",
     itemActive: "active",
     buttonActive: "active",
+    ariaCurrent: "true",
+    url: "https://itetlax.org.mx/assets/img/imgC_AR/3402_EXCEL.xlsx",
+    linkToo: "",
+  },
+  {
+    id: 12,
+    imgUrl: "https://itetlax.org.mx/assets/img/imgC_AR/encarte.png",
+    alt: "Convocatoria",
     ariaCurrent: "true",
     url: "https://ubicatucasilla.ine.mx/ ",
     linkToo: "",
