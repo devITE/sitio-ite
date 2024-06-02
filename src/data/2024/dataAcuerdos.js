@@ -2413,6 +2413,17 @@ export const dataAcuerdos2024 = [
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/200.pdf",
   },
   {
+    id: 201,
+    year: "2024",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 201-2024",
+    monthDoc: "MAY",
+    nameDoc: "SE MODIFICA PTO DEL PREP",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/201.pdf",
+    titleAnexo1: "ANEXO ÚNICO PTO DEL PREP",
+    pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/201.1.pdf",
+  },
+  {
     id: 202,
     year: "2024",
     typeDoc: "ACUERDO",
@@ -2422,7 +2433,8 @@ export const dataAcuerdos2024 = [
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/202.pdf",
     titleAnexo1: "ANEXO UNO SELECCIÓN DE CASILLAS",
     pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/202.1.pdf",
-    titleAnexo2: "ANEXO DOS PROCEDIMIENTOS PARA LA VERIFICACIÓN DE LAS MEDIDAS DE SEGURIDAD",
+    titleAnexo2:
+      "ANEXO DOS PROCEDIMIENTOS PARA LA VERIFICACIÓN DE LAS MEDIDAS DE SEGURIDAD",
     pdfAnexo2: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/202.2.pdf",
   },
 ];
