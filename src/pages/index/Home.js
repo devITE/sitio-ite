@@ -17,11 +17,11 @@ import CarouselItemIMG from "../../layout/Carousel/Carousel/CarouselItemIMG";
 // import { dataVideoPodCast } from "../../data/dataVideoPodCast";
 import { dataITEConecta } from "../../data/dataITEConecta";
 
-import ModalInit from "../../layout/Modal/ModalInit";
+// import ModalInit from "../../layout/Modal/ModalInit";
 import "./Home.css";
 
-import FlipClockCountdown from "@leenguyen/react-flip-clock-countdown";
-import "@leenguyen/react-flip-clock-countdown/dist/index.css";
+// import FlipClockCountdown from "@leenguyen/react-flip-clock-countdown";
+// import "@leenguyen/react-flip-clock-countdown/dist/index.css";
 
 const ITE = () => {
   useEffect(() => {
@@ -29,15 +29,6 @@ const ITE = () => {
   }, []);
   return (
     <>
-      <h1 className="text-center fw-bolder">Elecciones 2024</h1>
-      <p className="text-center text-dark fs-3 fw-bolder mb-0">faltan:</p>
-      <div className=" d-flex justify-content-center align-items-center mt-3 mb-5">
-        <FlipClockCountdown
-          to="2024-06-02 08:00:00"
-          labels={["Días", "Horas", "Minutos", "Segundos"]}
-        />
-      </div>
-
       {/* <ModalInit
         imgLink="https://itetlax.org.mx/assets/img/sesionesCG/sesionA.png"
         url="https://itetlax.org.mx/assets/img/sesionesCG/sesionA.png"
@@ -45,16 +36,10 @@ const ITE = () => {
       /> */}
 
       {/* <ModalInit
-        imgLink="https://itetlax.org.mx/assets/img/imgC_A/ine.PNG"
-        url="https://observadores.ine.mx/"
-        linkToo=""
-      /> */}
-
-      <ModalInit
         imgLink="https://itetlax.org.mx/assets/img/imgC_AR/conoceles.png"
         url="http://conocelestlaxcala2024.org.mx/"
         linkToo=""
-      />
+      /> */}
 
       {/* <ModalInit
         imgLink="https://itetlax.org.mx/assets/img/imgPopup/consultaconvo.jpg"

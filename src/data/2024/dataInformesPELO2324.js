@@ -275,4 +275,11 @@ export const dataInformesPELO = [
     title: "Quinto Informe PELO 2023-2024",
     link: "https://itetlax.org.mx/assets/pdf/informesPELO2324/5.pdf",
   },
+  {
+    id: 6,
+    year: "2024",
+    monthDoc: "Mayo",
+    title: "Sexto Informe PELO 2023-2024",
+    link: "https://itetlax.org.mx/assets/pdf/informesPELO2324/6.pdf",
+  },
 ];
