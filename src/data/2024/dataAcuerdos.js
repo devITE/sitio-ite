@@ -2472,7 +2472,7 @@ export const dataAcuerdos2024 = [
     id: 207,
     year: "2024",
     typeDoc: "ACUERDO",
-    numDoc: "ITE-CG 206-2024",
+    numDoc: "ITE-CG 207-2024",
     monthDoc: "MAY",
     nameDoc: "SUSTITUCION DE CONSEJOS MUNICIPALES",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/207.pdf",
