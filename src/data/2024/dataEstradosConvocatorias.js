@@ -377,6 +377,23 @@ export const dataEstrados = [
     linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/4024.1.pdf",
   },
   
+  //BAJAR 14 DE JUNIO
+  {
+    id: 43,
+    nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 4014",
+    linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/4014.pdf",
+    nameFolio: "FOLIO 4014-2024",
+    linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/4014.1.pdf",
+  },
+
+  //BAJAR 14 DE JUNIO
+  {
+    id: 44,
+    nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 4026",
+    linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/4026.pdf",
+    nameFolio: "FOLIO 4026-2024",
+    linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/4026.1.pdf",
+  },
 ];
 
 export const dataConvocatorias = [
