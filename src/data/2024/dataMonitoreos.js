@@ -229,6 +229,20 @@ export const dataMonitoreoRyT = [
     nameBoletin: "Informe semanal del 14 al 20 de mayo",
     linkBoletin: "https://itetlax.org.mx/assets/pdf/monitoreos/2024/ryt/16.pdf",
   },
+  {
+    id: 17,
+    yearBoletin: "2024",
+    monthBoletin: "MAY",
+    nameBoletin: "Informe semanal del 21 al 27 de mayo",
+    linkBoletin: "https://itetlax.org.mx/assets/pdf/monitoreos/2024/ryt/17.pdf",
+  },
+  {
+    id: 18,
+    yearBoletin: "2024",
+    monthBoletin: "MAY",
+    nameBoletin: "Informe semanal del 28 al 29 de mayo",
+    linkBoletin: "https://itetlax.org.mx/assets/pdf/monitoreos/2024/ryt/18.pdf",
+  },
 ];
 
 export const dataMonitoreoMIyD = [
