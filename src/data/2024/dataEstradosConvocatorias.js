@@ -344,6 +344,15 @@ export const dataEstrados = [
   //BAJAR 14 DE JUNIO
   {
     id: 39,
+    nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 4020",
+    linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/4020.pdf",
+    nameFolio: "FOLIO 4020-2024",
+    linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/4020.1.pdf",
+  },
+
+  //BAJAR 14 DE JUNIO
+  {
+    id: 40,
     nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 4021",
     linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/4021.pdf",
     nameFolio: "FOLIO 4021-2024",
@@ -352,7 +361,7 @@ export const dataEstrados = [
 
   //BAJAR 14 DE JUNIO
   {
-    id: 40,
+    id: 41,
     nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 4023",
     linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/4023.pdf",
     nameFolio: "FOLIO 4023-2024",
@@ -361,7 +370,7 @@ export const dataEstrados = [
 
   //BAJAR 14 DE JUNIO
   {
-    id: 41,
+    id: 42,
     nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 4024",
     linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/4024.pdf",
     nameFolio: "FOLIO 4024-2024",
