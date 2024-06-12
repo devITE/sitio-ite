@@ -170,6 +170,11 @@ export const dataEstrados = [
     id: 40,
     numCedula: "4013",
   },
+
+  {
+    id: 40,
+    numCedula: "4029",
+  },
 ];
 
 export const dataConvocatorias = [
