@@ -80,12 +80,20 @@ export const dataCIndex = [
     id: 13,
     imgUrl: "https://itetlax.org.mx/assets/carousel/convocatoria_iaip.png",
     alt: "",
-    itemActive: "active",
-    buttonActive: "active",
-    ariaCurrent: "true",
     url: "https://itetlax.org.mx/assets/carousel/convocatoria.jpg",
     linkToo: "",
   },
+  {
+    id: 9,
+    imgUrl: "https://itetlax.org.mx/assets/img/carousel/concurso_tet.jpg",
+    alt: "56",
+    itemActive: "active",
+    buttonActive: "active",
+    ariaCurrent: "true",
+    url: "https://itetlax.org.mx/assets/img/carousel/concurso_tet2.jpg",
+    linkToo: "",
+  },
+
   // {
   //   id: 14,
   //   imgUrl: "https://itetlax.org.mx/assets/carousel/aceptados_ag.jpg",
@@ -206,17 +214,10 @@ export const dataCA = [
   {
     id: 8,
     imgUrl: "https://itetlax.org.mx/assets/img/imgC_A/cep-convocatoria.jpg",
-    url: "https://itetlax.org.mx/assets/img/imgC_A/cep-convocatoria.pdf",
-    linkToo: "",
-  },
-  {
-    id: 9,
-    imgUrl: "https://itetlax.org.mx/assets/img/carousel/concurso_tet.jpg",
-    alt: "56",
     itemActive: "active",
     buttonActive: "active",
     ariaCurrent: "true",
-    url: "https://itetlax.org.mx/assets/img/carousel/concurso_tet2.jpg",
+    url: "https://itetlax.org.mx/assets/img/imgC_A/cep-convocatoria.pdf",
     linkToo: "",
   },
 ];
