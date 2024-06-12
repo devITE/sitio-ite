@@ -64,104 +64,108 @@ export const dataEstrados = [
   },
   {
     id: 15,
-    numCedula: "3954",
+    numCedula: "3953",
   },
   {
     id: 16,
-    numCedula: "3955",
+    numCedula: "3954",
   },
   {
     id: 17,
-    numCedula: "3956",
+    numCedula: "3955",
   },
   {
     id: 18,
-    numCedula: "3957",
+    numCedula: "3956",
   },
   {
     id: 19,
-    numCedula: "3959",
+    numCedula: "3957",
   },
   {
     id: 20,
-    numCedula: "3962",
+    numCedula: "3959",
   },
   {
     id: 21,
-    numCedula: "3965",
+    numCedula: "3962",
   },
   {
     id: 22,
-    numCedula: "3976",
+    numCedula: "3965",
   },
   {
     id: 23,
-    numCedula: "3979",
+    numCedula: "3976",
   },
   {
     id: 24,
+    numCedula: "3979",
+  },
+  {
+    id: 25,
     numCedula: "3983",
   },
 
   //BAJAR 14 DE JUNIO
   {
-    id: 25,
+    id: 26,
     numCedula: "3998",
   },
   {
-    id: 26,
+    id: 27,
     numCedula: "3999",
   },
   {
-    id: 27,
+    id: 28,
     numCedula: "4000",
   },
   {
-    id: 28,
+    id: 29,
     numCedula: "4001",
   },
   {
-    id: 29,
+    id: 30,
     numCedula: "4003",
   },
   {
-    id: 30,
+    id: 31,
     numCedula: "4012",
   },
   {
-    id: 31,
+    id: 32,
     numCedula: "4013",
   },
   {
-    id: 32,
+    id: 33,
     numCedula: "4014",
   },
   {
-    id: 33,
+    id: 34,
     numCedula: "4018",
   },
   {
-    id: 34,
+    id: 35,
     numCedula: "4019",
   },
   {
-    id: 35,
+    id: 36,
     numCedula: "4020",
   },
   {
-    id: 36,
+    id: 37,
     numCedula: "4026",
   },
   {
-    id: 37,
+    id: 38,
     numCedula: "4029",
   },
   {
-    id: 38,
+    id: 39,
     numCedula: "4053",
   },
   {
-    id: 39,
+    id: 40,
     numCedula: "4076",
   },
 ];
