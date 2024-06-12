@@ -206,11 +206,17 @@ export const dataCA = [
   {
     id: 8,
     imgUrl: "https://itetlax.org.mx/assets/img/imgC_A/cep-convocatoria.jpg",
+    url: "https://itetlax.org.mx/assets/img/imgC_A/cep-convocatoria.pdf",
+    linkToo: "",
+  },
+  {
+    id: 9,
+    imgUrl: "https://itetlax.org.mx/assets/img/carousel/concurso_tet.jpg",
     alt: "56",
     itemActive: "active",
     buttonActive: "active",
     ariaCurrent: "true",
-    url: "https://itetlax.org.mx/assets/img/imgC_A/cep-convocatoria.pdf",
+    url: "https://itetlax.org.mx/assets/img/carousel/concurso_tet2.jpg",
     linkToo: "",
   },
 ];
