@@ -156,22 +156,30 @@ export const dataEstrados = [
   // bajar el 15 de junio
   {
     id: 37,
-    numCedula: "4026",
+    numCedula: "4023",
   },
   {
     id: 38,
-    numCedula: "4029",
+    numCedula: "4024",
   },
   {
     id: 39,
-    numCedula: "4053",
+    numCedula: "4026",
   },
   {
     id: 40,
-    numCedula: "4076",
+    numCedula: "4029",
   },
   {
     id: 41,
+    numCedula: "4053",
+  },
+  {
+    id: 42,
+    numCedula: "4076",
+  },
+  {
+    id: 43,
     numCedula: "4079",
   },
 ];
