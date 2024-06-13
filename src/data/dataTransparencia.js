@@ -264,6 +264,26 @@ export const dataConvenios = [
     title: "ITE EL COLEGIO DE TLAXCALA 06 DIC 2023",
     url: "https://itetlax.org.mx/assets/pdf/transparencia/convenios/52.pdf",
   },
+  {
+    id: 53,
+    title: "ITE y el Instituto Estatal Electoral de Chihuahua",
+    url: "https://itetlax.org.mx/assets/pdf/transparencia/convenios/53.pdf",
+  },
+  {
+    id: 54,
+    title: "INE ITE Y GOBIERNO DEL ESTADO",
+    url: "https://itetlax.org.mx/assets/pdf/transparencia/convenios/54.pdf",
+  },
+  {
+    id: 55,
+    title: "ITE Y AMCEE",
+    url: "https://itetlax.org.mx/assets/pdf/transparencia/convenios/55.pdf",
+  },
+  {
+    id: 56,
+    title: "ITE y SF",
+    url: "https://itetlax.org.mx/assets/pdf/transparencia/convenios/56.pdf",
+  },
 ];
 
 export const dataInformesAnuales = [

@@ -7,7 +7,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
 import { dataAcuerdos2024 } from "../../data/2024/dataAcuerdos";
 import { dataEstrados } from "../../data/2024/dataEstradosConvocatorias";
-import TablePDF from "../../layout/Index/Estrados";
+import Expandible from "../../layout/HelperDataTable/Expandible";
 
 const EstradosElectronicos = () => {
   useEffect(() => {
@@ -69,16 +69,149 @@ const EstradosElectronicos = () => {
     []
   );
 
+  const columnsEstrados = useMemo(
+    () => [
+      {
+        accessorFn: (row) => `MEDIO DE IMPUGNACIÓN 0${row.numCedula}`,
+        id: "titulo",
+        header: "TÍTULO",
+        footer: "TÍTULO",
+        size: 255,
+        enableResizing: false,
+      },
+    ],
+    []
+  );
   return (
     <>
       <TitlePages title="Estrados Electrónicos" subTitle="" />
 
+      <Expandible />
+
       <div className="w-75 mx-auto mt-5">
         <TitlePages title="" subTitle="Medios de impugnación" />
       </div>
-      <div className="w-50 mx-auto">
-        <TablePDF items={dataEstrados} itemsID={"listEstradosElectronicos"} />
-      </div>
+      {/* -------------------------------------------- */}
+      <MaterialReactTable
+        columns={columnsEstrados}
+        data={dataEstrados}
+        enableExpanding
+        enableExpandAll
+        enableColumnActions={false}
+        enableDensityToggle={false}
+        enableColumnResizing={false}
+        initialState={{ density: "compact" }}
+        muiExpandButtonProps={({ row }) => ({
+          sx: {
+            display: row.original.subRows === "" ? "none" : "flex",
+          },
+        })}
+        renderDetailPanel={({ row }) => (
+          <Box id="Box">
+            <div className="table-responsive">
+              <table className="table table-hover table-sm table-bordered table align-middle w-50">
+                <thead></thead>
+                <tbody>
+                  <tr className="table-secondary">
+                    <td>
+                      CÉDULA DE PUBLICITACIÓN FOLIO 0{row.original.numCedula}
+                    </td>
+                    <td>
+                      <a
+                        href={
+                          "https://itetlax.org.mx/assets/pdf/estrados/" +
+                          row.original.numCedula +
+                          ".pdf"
+                        }
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <FontAwesomeIcon
+                          icon={faFilePdf}
+                          className="btn btn-danger"
+                        />
+                      </a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>FOLIO 0{row.original.numCedula}-2024</td>
+                    <td>
+                      <a
+                        href={
+                          "https://itetlax.org.mx/assets/pdf/estrados/" +
+                          row.original.numCedula +
+                          ".1.pdf"
+                        }
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <FontAwesomeIcon
+                          icon={faFilePdf}
+                          className="btn btn-danger"
+                        />
+                      </a>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </Box>
+        )}
+        muiTablePaginationProps={{
+          rowsPerPageOptions: [10, 25, 50, 100, 200, 300, 400],
+          labelRowsPerPage: "Filas por página",
+          getItemAriaLabel: (type) => {
+            if (type === "first") {
+              return "inicio";
+            }
+            if (type === "last") {
+              return "fin";
+            }
+            if (type === "next") {
+              return "siguiente";
+            }
+            if (type === "previous") {
+              return "anterior";
+            }
+          },
+          labelDisplayedRows: ({ from, to, count }) =>
+            `${from}-${to} de ${count !== -1 ? count : `${to} para`}`,
+        }}
+        localization={{
+          actions: "Acciones",
+          cancel: "Cancelar",
+          clearFilter: "Limpiar filtro",
+          clearSearch: "Borrar búsqueda",
+          clearSort: "Ordenar claro",
+          columnActions: "Acciones de columna",
+          edit: "Editar",
+          expand: "",
+          expandAll: "Expandir todo",
+          filterByColumn: "{column}",
+          groupByColumn: "Agrupar por {column}",
+          groupedBy: "Agrupados por ",
+          hideAll: "Ocultar todo",
+          hideColumn: "Ocultar columna de {column}",
+          rowActions: "Acciones de fila",
+          save: "Salvar",
+          search: "Búsqueda",
+          selectedCountOfRowCountRowsSelected:
+            "{selectedCount} de {rowCount} fila(s) seleccionadas",
+          showAll: "Mostrar todo",
+          showHideColumns: "Mostrar/Ocultar columnas",
+          showHideFilters: "Alternar filtros",
+          showHideSearch: "Alternar búsqueda",
+          sortByColumnAsc: "Ordenar por {column} ascendente",
+          sortByColumnDesc: "Ordenar por {column} descendiendo",
+          thenBy: ", entonces por ",
+          toggleDensity: "Alternar relleno denso",
+          toggleFullScreen: "Alternar pantalla completa",
+          toggleSelectAll: "Seleccionar todo",
+          toggleSelectRow: "Seleccionar fila",
+          ungroupByColumn: "Desagrupar por {column}",
+        }}
+      />
+      {/* -------------------------------------------- */}
       <br />
       <br />
       <div className="w-75 mx-auto mt-5">

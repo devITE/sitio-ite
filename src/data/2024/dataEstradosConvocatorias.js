@@ -2,49 +2,228 @@ export const dataEstrados = [
   //fecha de baja: XX enero 2024
   // {
   //   id: 1,
-  //   nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 3257",
-  //   linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/49.pdf",
-  //   nameFolio: "FOLIO 3257-2023",
-  //   linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/49.1.pdf",
+  //   numCedula: "3257",
   // },
+
+  //BAJAR 13 DE JUNIO
   {
     id: 1,
-    nameCedula: "Resolución ITE-CG 17/2024",
-    linkCedula: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/17.pdf",
-    nameFolio: "",
-    linkFolio: "",
+    numCedula: "3927",
   },
-  // fecha de baja: 22 MARZO 2024
   {
     id: 2,
-    nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 01115",
-    linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/66.pdf",
-    nameFolio: "FOLIO 01115-2024",
-    linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/66.1.pdf",
+    numCedula: "3928",
   },
-  // fecha de baja: 22 MARZO 2024
   {
     id: 3,
-    nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 01117",
-    linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/67.pdf",
-    nameFolio: "FOLIO 01117-2024",
-    linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/67.1.pdf",
+    numCedula: "3929",
   },
-  // fecha de baja: 23 MARZO 2024
   {
     id: 4,
-    nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 01124",
-    linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/68.pdf",
-    nameFolio: "FOLIO 01124-2024",
-    linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/68.1.pdf",
+    numCedula: "3931",
   },
-  // fecha de baja: 23 MARZO 2024
   {
     id: 5,
-    nameCedula: "CÉDULA DE PUBLICITACIÓN FOLIO 01141",
-    linkCedula: "https://itetlax.org.mx/assets/pdf/estrados/69.pdf",
-    nameFolio: "FOLIO 01141-2024",
-    linkFolio: "https://itetlax.org.mx/assets/pdf/estrados/69.1.pdf",
+    numCedula: "3933",
+  },
+  {
+    id: 6,
+    numCedula: "3937",
+  },
+  {
+    id: 7,
+    numCedula: "3938",
+  },
+  {
+    id: 8,
+    numCedula: "3939",
+  },
+  {
+    id: 9,
+    numCedula: "3943",
+  },
+  {
+    id: 10,
+    numCedula: "3944",
+  },
+  {
+    id: 11,
+    numCedula: "3945",
+  },
+  {
+    id: 12,
+    numCedula: "3949",
+  },
+  {
+    id: 13,
+    numCedula: "3950",
+  },
+  {
+    id: 14,
+    numCedula: "3951",
+  },
+  {
+    id: 15,
+    numCedula: "3953",
+  },
+  {
+    id: 16,
+    numCedula: "3954",
+  },
+  {
+    id: 17,
+    numCedula: "3955",
+  },
+  {
+    id: 18,
+    numCedula: "3956",
+  },
+  {
+    id: 19,
+    numCedula: "3957",
+  },
+  {
+    id: 20,
+    numCedula: "3959",
+  },
+  {
+    id: 21,
+    numCedula: "3962",
+  },
+  {
+    id: 22,
+    numCedula: "3965",
+  },
+  {
+    id: 23,
+    numCedula: "3976",
+  },
+  {
+    id: 24,
+    numCedula: "3979",
+  },
+  {
+    id: 25,
+    numCedula: "3983",
+  },
+
+  //BAJAR 14 DE JUNIO
+  {
+    id: 26,
+    numCedula: "3998",
+  },
+  {
+    id: 27,
+    numCedula: "3999",
+  },
+  {
+    id: 28,
+    numCedula: "4000",
+  },
+  {
+    id: 29,
+    numCedula: "4001",
+  },
+  {
+    id: 30,
+    numCedula: "4003",
+  },
+  {
+    id: 31,
+    numCedula: "4012",
+  },
+  {
+    id: 32,
+    numCedula: "4013",
+  },
+  {
+    id: 33,
+    numCedula: "4014",
+  },
+  {
+    id: 34,
+    numCedula: "4018",
+  },
+  {
+    id: 35,
+    numCedula: "4019",
+  },
+  {
+    id: 36,
+    numCedula: "4020",
+  },
+
+  // bajar el 15 de junio
+  {
+    id: 37,
+    numCedula: "4023",
+  },
+  {
+    id: 38,
+    numCedula: "4024",
+  },
+  {
+    id: 39,
+    numCedula: "4026",
+  },
+  {
+    id: 40,
+    numCedula: "4029",
+  },
+  {
+    id: 41,
+    numCedula: "4053",
+  },
+  {
+    id: 42,
+    numCedula: "4075",
+  },
+  {
+    id: 43,
+    numCedula: "4076",
+  },
+  {
+    id: 44,
+    numCedula: "4079",
+  },
+
+  //bajar el 16 de junio
+  {
+    id: 45,
+    numCedula: "4151",
+  },
+
+  {
+    id: 46,
+    numCedula: "4138",
+  },
+  {
+    id: 47,
+    numCedula: "4114",
+  },
+  {
+    id: 48,
+    numCedula: "4115",
+  },
+  {
+    id: 49,
+    numCedula: "4149",
+  },
+  {
+    id: 50,
+    numCedula: "4145",
+  },
+  {
+    id: 51,
+    numCedula: "4147",
+  },
+  {
+    id: 52,
+    numCedula: "4152",
+  },
+  {
+    id: 53,
+    numCedula: "4168",
   },
 ];
 
@@ -55,131 +234,13 @@ export const dataConvocatorias = [
   //   linkFile:
   //     "https://itetlax.org.mx/assets/pdf/convocatorias/Convocatoria-Licitacion-Publica-Nacional-ITE-01-2024.pdf",
   // },
-  {
-    id: 2,
-    nameFile:
-      "¿Quieres participar como Observador/a Electoral? Proceso Electoral Concurrente 2023-2024",
-    linkFile:
-      "https://itetlax.org.mx/assets/pdf/carousel/Convocatoria OE_INE.pdf",
-  },
-  {
-    id: 3,
-    nameFile:
-      "SE APRUEBA CONVOCATORIA CANDIDATURAS INDEPENDIENTES PELO 2023-2024",
-    linkFile: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/82.pdf",
-  },
-  {
-    id: 4,
-    nameFile:
-      "ANEXO UNO CONVOCATORIA CANDIDATURAS INDEPENDIENTES PELO 2023-2024",
-    linkFile: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/82.1.pdf",
-  },
-  {
-    id: 5,
-    nameFile: "1.1 EBP20232024_ESCRITO BP VPCMrG",
-    linkFile: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/82.2.pdf",
-  },
-  {
-    id: 6,
-    nameFile: "1.1.1 EBP120232024_ESCRITO BP NO DEUDOR ALIMENTARIO",
-    linkFile: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/82.3.pdf",
-  },
-  {
-    id: 7,
-    nameFile: "1.2 MC20232024_ESCRITO CONFORMIDAD FISCALIZACIÓN",
-    linkFile: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/82.4.pdf",
-  },
-  {
-    id: 8,
-    nameFile: "1.3 ME20232024_ESCRITO RECURSOS ILÍCITOS",
-    linkFile: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/82.5.pdf",
-  },
-  {
-    id: 9,
-    nameFile: "1.4 MI20232024_FORMATO DE MANIFESTACIÓN DE INTENCIÓN",
-    linkFile: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/82.6.pdf",
-  },
-  {
-    id: 10,
-    nameFile: "1.5 MV20232024_FORMATO DE MANIFESTACIÓN DE VOLUNTAD",
-    linkFile: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/82.7.pdf",
-  },
-  {
-    id: 11,
-    nameFile: "1.6 SR20232024_FORMATO DE SOLICITUD DE REGISTRO CI",
-    linkFile: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/82.8.pdf",
-  },
-  {
-    id: 12,
-    nameFile:
-      "ANEXO DOS. MODELO ÚNICO DE ESTATUTO DE ASOCIACIÓN CIVIL CANDIDATURAS INDEPENDIENTES",
-    linkFile: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/82.9.pdf",
-  },
-  {
-    id: 13,
-    nameFile: "ANEXO TRES PORCENTAJE DE APOYO CIUDADANO PELO 2023-2024",
-    linkFile: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/82.10.pdf",
-  },
-  {
-    id: 14,
-    nameFile: "ANEXO CUATRO. TOPE DE GASTOS",
-    linkFile: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/82.11.pdf",
-  },
-  {
-    id: 15,
-    nameFile:
-      "¿Quieres participar como Observador/a Electoral Local? para el Proceso Electoral Local Ordinario 2023-2024",
-    linkFile: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/110.1.pdf",
-  },
-  {
-    id: 16,
-    nameFile:
-      "¿Quieres participar como Observador/a Electoral Local? para el Proceso Electoral Local Ordinario 2023-2024",
-    linkFile: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/110.1.pdf",
-  },
-  {
-    id: 17,
-    nameFile: "Convocatoria Licitacion ITE-LP-04-2024",
-    linkFile:
-      "https://itetlax.org.mx/assets/pdf/convocatorias/Convocatoria-Licitacion-ITE-LP-04-2024.pdf",
-  },
 ];
 
 export const dataConvocatoriasApartado = [
-  // {
-  //   id: 1,
-  //   nameFile: "Convocatoria Licitacion ITE-LP-01-2023",
-  //   linkFile:
-  //     "https://itetlax.org.mx/assets/pdf/convocatorias/Convocatoria-Licitacion-ITE-LP-01-2023.pdf",
-  // },
-  // {
-  //   id: 2,
-  //   nameFile: "Convocatoria-Licitacion-ITE-LP-02-2023",
-  //   linkFile:
-  //     "https://itetlax.org.mx/assets/pdf/convocatorias/Convocatoria-Licitacion-ITE-LP-02-2023.pdf",
-  // },
-  // {
-  //   id: 3,
-  //   nameFile: "Convocatoria-Licitacion-Publica-Nacional-ITE-01-2024",
-  //   linkFile:
-  //     "https://itetlax.org.mx/assets/pdf/convocatorias/Convocatoria-Licitacion-Publica-Nacional-ITE-01-2024.pdf",
-  // },
-  // {
-  //   id: 1,
-  //   nameFile: "Convocatoria Licitacion ITE-LP-02-2024 OA",
-  //   linkFile:
-  //     "https://itetlax.org.mx/assets/pdf/convocatorias/Convocatoria-Licitacion-ITE-LP-02-2024-OA.pdf",
-  // },
-  // {
-  //   id: 2,
-  //   nameFile: "Convocatoria Licitacion ITE-LP-03-2024 ao",
-  //   linkFile:
-  //     "https://itetlax.org.mx/assets/pdf/convocatorias/Convocatoria-Licitacion-ITE-LP-03-2024-ao.pdf",
-  // },
   {
     id: 1,
-    nameFile: "Convocatoria Licitacion ITE-LP-04-2024",
+    nameFile: "Convocatoria Licitacion ITE-LP-06-2024",
     linkFile:
-      "https://itetlax.org.mx/assets/pdf/convocatorias/Convocatoria-Licitacion-ITE-LP-04-2024.pdf",
+      "https://itetlax.org.mx/assets/pdf/convocatorias/Convocatoria-ITE-LP-06-2024.pdf",
   },
 ];

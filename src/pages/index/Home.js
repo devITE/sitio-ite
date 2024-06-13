@@ -17,11 +17,11 @@ import CarouselItemIMG from "../../layout/Carousel/Carousel/CarouselItemIMG";
 // import { dataVideoPodCast } from "../../data/dataVideoPodCast";
 import { dataITEConecta } from "../../data/dataITEConecta";
 
-import ModalInit from "../../layout/Modal/ModalInit";
+// import ModalInit from "../../layout/Modal/ModalInit";
 import "./Home.css";
 
-import FlipClockCountdown from "@leenguyen/react-flip-clock-countdown";
-import "@leenguyen/react-flip-clock-countdown/dist/index.css";
+// import FlipClockCountdown from "@leenguyen/react-flip-clock-countdown";
+// import "@leenguyen/react-flip-clock-countdown/dist/index.css";
 
 const ITE = () => {
   useEffect(() => {
@@ -29,39 +29,23 @@ const ITE = () => {
   }, []);
   return (
     <>
-      <h1 className="text-center fw-bolder">Elecciones 2024</h1>
-      <p className="text-center text-dark fs-3 fw-bolder mb-0">faltan:</p>
-      <div className=" d-flex justify-content-center align-items-center mt-3 mb-5">
-        <FlipClockCountdown
-          to="2024-06-02 08:00:00"
-          labels={["Días", "Horas", "Minutos", "Segundos"]}
-        />
-      </div>
-      {/*
-        <ModalInit
-          imgLink="https://itetlax.org.mx/assets/img/sesionesCG/SECG19012024.png"
-          url="https://itetlax.org.mx/assets/img/sesionesCG/SECG19012024.png"
-          linkToo=""
-        />
-      */}
       {/* <ModalInit
-        imgLink="https://itetlax.org.mx/assets/img/imgC_A/ine.PNG"
-        url="https://observadores.ine.mx/"
+        imgLink="https://itetlax.org.mx/assets/img/sesionesCG/sesionA.png"
+        url="https://itetlax.org.mx/assets/img/sesionesCG/sesionA.png"
         linkToo=""
       /> */}
 
-      <ModalInit
-        imgLink="https://itetlax.org.mx/assets/img/convocatoria_formulario.png"
-        url="https://reg-cael-sel.itetlax.org.mx/"
+      {/* <ModalInit
+        imgLink="https://itetlax.org.mx/assets/img/imgC_AR/conoceles.png"
+        url="http://conocelestlaxcala2024.org.mx/"
         linkToo=""
-      />
+      /> */}
 
       {/* <ModalInit
         imgLink="https://itetlax.org.mx/assets/img/imgPopup/consultaconvo.jpg"
         url=""
         linkToo="/ConvocatoriasApartado"
-      /> */}
-
+      />  */}
       <Carousel idCarousel="carouselTopIndex">
         {dataCIndex.map((cIndex) => (
           <CarouselItemIMG
@@ -78,13 +62,14 @@ const ITE = () => {
       <div className="mt-5 Home__AR-A">
         <div>
           <h2 className="bottom_title">
-            Panel: Violencia contra las Mujeres, Causas y Desafíos en Tlaxcala
+            Foro "Protocolo de personas con discapacidad en el Proceso Electoral
+            Concurrente 2023-2024"
           </h2>
           <div className="Home__video-embed ratio ratio-16x9 w-100">
             <iframe
               id="9QQCf_emFwo"
-              src="https://www.youtube-nocookie.com/embed/11cfjjAiJG8?rel=0"
-              title="Firma de convenio entre el ITE y la A.C -DDESER Tlaxcala"
+              src="https://www.youtube-nocookie.com/embed/yFECy9X-b_c?si=oi0ZGw4cI4oeKqku"
+              title='Foro "Protocolo de personas con discapacidad en el Proceso Electoral Concurrente 2023-2024"'
               allowFullScreen
             ></iframe>
           </div>
@@ -98,7 +83,7 @@ const ITE = () => {
       </div>
       <div className="mt-5 Home__AR-A">
         <div>
-          <h2 className="bottom_title">Actividades Recientes</h2>
+          <h2 className="bottom_title">Actividades de Interes</h2>
           <div className="ps-5 pe-5">
             <Carousel idCarousel="carouselActividadesRecientes">
               {dataCAR.map((cAR) => (
@@ -159,13 +144,13 @@ const ITE = () => {
           <h2 className="bottom_title">Sesión en Vivo</h2>
           <div className="Home__video-embed ratio ratio-16x9 w-100">
             <iframe
-              src="https://www.youtube-nocookie.com/embed/E3yjl5TRtg8?si=6YXe12Hgf70_GmxO"
-              title="Sesión Presencial Especial del CG 29/03/2024"
+              src="https://www.youtube-nocookie.com/embed/D-UM7EbgzBg?si=PMhMw7npz1ML_z-6"
+              title="Sesión Presencial Especial del CG 09/04/2024"
               allowFullScreen
             ></iframe>
           </div>
           <h5 className="mt-3 text-center">
-            Sesión Presencial Extraordinaria del CG 29/03/2024{" "}
+            Sesión Presencial Especial del CG 09/04/2024{" "}
           </h5>
         </div>
         <div>
@@ -291,39 +276,8 @@ const ITE = () => {
             >
               <h5 className="mt-3 text-center">Cápsula en Náhuatl</h5>
             </a>
-            {/* <div className="Home__video-embed ratio ratio-16x9 w-100">
-              <video controls>
-                <source src="https://youtu.be/jvOZFERXuiM" type="video/mp4" />
-                <p>
-                  Su navegador no soporta video HTML5. Aquí hay un
-                  <a href="https://itetlax.org.mx/assets/video/ine/1.mp4">
-                    enlace al video
-                  </a>
-                  .
-                </p>
-              </video>
-            </div>
-            <h5 className="mt-3 text-center">Cápsula en Náhuatl </h5> */}
           </div>
           <div className="col-md-4">
-            {/* <div className="Home__video-embed ratio ratio-16x9 w-100">
-              <video controls>
-                <source
-                  src="https://itetlax.org.mx/assets/video/ine/2.mp4"
-                  type="video/mp4"
-                />
-                <p>
-                  Su navegador no soporta video HTML5. Aquí hay un
-                  <a href="https://itetlax.org.mx/assets/video/ine/2.mp4">
-                    enlace al video
-                  </a>
-                  .
-                </p>
-              </video>
-            </div>
-            <h5 className="mt-3 text-center">
-              Cápsula en Yuhmú (variante del Otomí)
-            </h5> */}
             <div className="Home__video-embed ratio ratio-16x9 w-100">
               <iframe
                 src="https://www.youtube-nocookie.com/embed/EEHZkyv-sTE"
@@ -338,6 +292,63 @@ const ITE = () => {
             >
               <h5 className="mt-3 text-center">
                 Cápsula en Yuhmú (variante del Otomí)
+              </h5>
+            </a>
+          </div>
+
+          <div className="col-md-4">
+            <div className="Home__video-embed ratio ratio-16x9 w-100">
+              <iframe
+                src="https://www.youtube-nocookie.com/embed/SvfEVaA6jF8"
+                title="Votación de Personas con Discapacidad"
+                allowFullScreen
+              ></iframe>
+            </div>
+            <a
+              href="https://youtu.be/SvfEVaA6jF8"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <h5 className="mt-3 text-center">
+                Votación de Personas con Discapacidad
+              </h5>
+            </a>
+          </div>
+
+          <div className="col-md-4">
+            <div className="Home__video-embed ratio ratio-16x9 w-100">
+              <iframe
+                src="https://www.youtube-nocookie.com/embed/7sg3kvUYxRY"
+                title="Voto de Personas con Discapacidad Trans, No Binarias"
+                allowFullScreen
+              ></iframe>
+            </div>
+            <a
+              href="https://youtu.be/7sg3kvUYxRY"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <h5 className="mt-3 text-center">
+                Voto de Personas con Discapacidad Trans, No Binarias
+              </h5>
+            </a>
+          </div>
+
+          <div className="col-md-4">
+            <div className="Home__video-embed ratio ratio-16x9 w-100">
+              <iframe
+                src="https://www.youtube-nocookie.com/embed/dizDZWMNJxE"
+                title="Proceso de Votación de las Personas con Discapacidad"
+                allowFullScreen
+              ></iframe>
+            </div>
+            <a
+              href="https://youtu.be/dizDZWMNJxE"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <h5 className="mt-3 text-center">
+                Proceso de Votación de las Personas con Discapacidad
               </h5>
             </a>
           </div>

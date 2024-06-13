@@ -1,4 +1,4 @@
-import React, { useMemo,useEffect } from "react";
+import React, { useMemo, useEffect } from "react";
 import TitlePages from "../../../layout/TitlePages";
 import MaterialReactTable from "material-react-table";
 import {
@@ -20,7 +20,7 @@ const Acuerdos2001 = () => {
         header: "FECHA",
       },
       {
-        accessorFn: (row) => `${row.typeDoc} ${row.nameDoc}`,
+        accessorFn: (row) => `${row.numCedula} ${row.numCedula}`,
         id: "titulo",
         header: "TÍTULO",
       },

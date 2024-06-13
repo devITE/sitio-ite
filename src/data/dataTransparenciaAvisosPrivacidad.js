@@ -496,7 +496,6 @@ export const dataAvisosPrivacidad = [
       },
     ],
   },
-
   {
     id: 20,
     titleItem:
@@ -515,6 +514,35 @@ export const dataAvisosPrivacidad = [
         titleItem:
           "Aviso Integrado: Sistema de Candidatas y Candidatos Conóceles para el PELO 2023-2024",
         linkItem: "https://itetlax.org.mx/assets/pdf/avisosPrivacidad/58.pdf",
+        typeDocument: "pdf",
+      },
+    ],
+  },
+  {
+    id: 21,
+    titleItem:
+      "Aviso de Privacidad Atención a mujeres posibles víctimas de Violencia Política contra las Mujeres en Razón de Género",
+    flushID: "AtencionVPCMRG",
+    children: [
+      {
+        id: 1,
+        titleItem:
+          "Aviso Simplificado: Atención a mujeres posibles víctimas de Violencia Política contra las Mujeres en Razón de Género",
+        linkItem: "https://itetlax.org.mx/assets/pdf/avisosPrivacidad/59.pdf",
+        typeDocument: "pdf",
+      },
+      {
+        id: 2,
+        titleItem:
+          "Aviso Integrado: Atención a mujeres posibles víctimas de Violencia Política contra las Mujeres en Razón de Género",
+        linkItem: "https://itetlax.org.mx/assets/pdf/avisosPrivacidad/60.pdf",
+        typeDocument: "pdf",
+      },
+      {
+        id: 3,
+        titleItem:
+          "Aviso Corto: Atención a mujeres posibles víctimas de Violencia Política contra las Mujeres en Razón de Género",
+        linkItem: "https://itetlax.org.mx/assets/pdf/avisosPrivacidad/61.pdf",
         typeDocument: "pdf",
       },
     ],
