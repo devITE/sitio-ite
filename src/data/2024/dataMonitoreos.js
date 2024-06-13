@@ -140,6 +140,14 @@ export const dataMonitoreoPG = [
     nameBoletin: "Tercer Informe Quincenal del 30 de abril al 14 de mayo",
     linkBoletin: "https://itetlax.org.mx/assets/pdf/monitoreos/2024/pg/20.pdf",
   },
+  {
+    id: 21,
+    yearBoletin: "2024",
+    monthBoletin: "MAY",
+    nameBoletin: "Cuarto Informe Quincenal del 15 al 29 de mayo",
+    linkBoletin: "https://itetlax.org.mx/assets/pdf/monitoreos/2024/pg/21.pdf",
+  },
+
 
 ];
 
@@ -340,4 +348,12 @@ export const dataMonitoreoMIyD = [
     nameBoletin: "Decimotercer Informe Quincenal",
     linkBoletin: "https://itetlax.org.mx/assets/pdf/monitoreos/2024/miyd/9.pdf",
   },
+  {
+    id: 9,
+    yearBoletin: "2024",
+    monthBoletin: "MAY",
+    nameBoletin: "Decimocuarto Informe Quincenal",
+    linkBoletin: "https://itetlax.org.mx/assets/pdf/monitoreos/2024/miyd/10.pdf",
+  },
+
 ];

@@ -175,11 +175,15 @@ export const dataEstrados = [
     numCedula: "4053",
   },
   {
-    id: 42,
+    id: 40,
+    numCedula: "4075",
+  },
+  {
+    id: 41,
     numCedula: "4076",
   },
   {
-    id: 43,
+    id: 42,
     numCedula: "4079",
   },
 ];
