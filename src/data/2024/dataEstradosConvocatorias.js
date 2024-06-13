@@ -186,6 +186,41 @@ export const dataEstrados = [
     id: 44,
     numCedula: "4079",
   },
+
+  //bajar el 16 de junio
+  {
+    id: 45,
+    numCedula: "4151",
+  },
+
+  {
+    id: 46,
+    numCedula: "4138",
+  },
+  {
+    id: 47,
+    numCedula: "4114",
+  },
+  {
+    id: 48,
+    numCedula: "4115",
+  },
+  {
+    id: 49,
+    numCedula: "4149",
+  },
+  {
+    id: 50,
+    numCedula: "4145",
+  },
+  {
+    id: 51,
+    numCedula: "4147",
+  },
+  {
+    id: 52,
+    numCedula: "4152",
+  },
 ];
 
 export const dataConvocatorias = [
