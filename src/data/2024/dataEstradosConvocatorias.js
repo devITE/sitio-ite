@@ -180,6 +180,11 @@ export const dataEstrados = [
     id: 62,
     numCedula: "4217",
   },
+  //Fecha de baja 17 de Junio
+  {
+    id: 63,
+    numCedula: "4229",
+  },
 ];
 
 export const dataConvocatorias = [
