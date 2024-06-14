@@ -5,87 +5,7 @@ export const dataEstrados = [
   //   numCedula: "3257",
   // },
 
-  //BAJAR 13 DE JUNIO
-  {
-    id: 1,
-    numCedula: "3927",
-  },
-  {
-    id: 2,
-    numCedula: "3928",
-  },
-  {
-    id: 3,
-    numCedula: "3929",
-  },
-  {
-    id: 4,
-    numCedula: "3931",
-  },
-  {
-    id: 5,
-    numCedula: "3933",
-  },
-  {
-    id: 6,
-    numCedula: "3937",
-  },
-  {
-    id: 7,
-    numCedula: "3938",
-  },
-  {
-    id: 8,
-    numCedula: "3939",
-  },
-  {
-    id: 9,
-    numCedula: "3943",
-  },
-  {
-    id: 10,
-    numCedula: "3944",
-  },
-  {
-    id: 11,
-    numCedula: "3945",
-  },
-  {
-    id: 12,
-    numCedula: "3949",
-  },
-  {
-    id: 13,
-    numCedula: "3950",
-  },
-  {
-    id: 14,
-    numCedula: "3951",
-  },
-  {
-    id: 15,
-    numCedula: "3953",
-  },
-  {
-    id: 16,
-    numCedula: "3954",
-  },
-  {
-    id: 17,
-    numCedula: "3955",
-  },
-  {
-    id: 18,
-    numCedula: "3956",
-  },
-  {
-    id: 19,
-    numCedula: "3957",
-  },
-  {
-    id: 20,
-    numCedula: "3959",
-  },
+  //BAJAR 14 DE JUNIO
   {
     id: 21,
     numCedula: "3962",
@@ -107,7 +27,6 @@ export const dataEstrados = [
     numCedula: "3983",
   },
 
-  //BAJAR 14 DE JUNIO
   {
     id: 26,
     numCedula: "3998",
@@ -224,6 +143,42 @@ export const dataEstrados = [
   {
     id: 53,
     numCedula: "4168",
+  },
+  {
+    id: 54,
+    numCedula: "4182",
+  },
+  {
+    id: 55,
+    numCedula: "4186",
+  },
+  {
+    id: 56,
+    numCedula: "4192",
+  },
+  {
+    id: 57,
+    numCedula: "4193",
+  },
+  {
+    id: 58,
+    numCedula: "4198",
+  },
+  {
+    id: 59,
+    numCedula: "4215",
+  },
+  {
+    id: 60,
+    numCedula: "4214",
+  },
+  {
+    id: 61,
+    numCedula: "4216",
+  },
+  {
+    id: 62,
+    numCedula: "4217",
   },
 ];
 
