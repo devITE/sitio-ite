@@ -2458,15 +2458,6 @@ export const dataAcuerdos2023 = [
     nameDoc: "POS CQD-Q-ACR-CG-032-2023",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/124.pdf",
   },
-  {
-    id: 124,
-    year: "2023",
-    typeDoc: "RESOLUCIÓN",
-    numDoc: "ITE-CG 124-2023",
-    monthDoc: "DIC",
-    nameDoc: "POS CQD-Q-ACR-CG-032-2023",
-    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2023/124.pdf",
-  },
 ];
 
 export const dataAcuerdos2022 = [
