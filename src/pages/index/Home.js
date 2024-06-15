@@ -144,8 +144,8 @@ const ITE = () => {
           <h2 className="bottom_title">Sesión en Vivo</h2>
           <div className="Home__video-embed ratio ratio-16x9 w-100">
             <iframe
-              src="https://www.youtube-nocookie.com/embed/D-UM7EbgzBg?si=PMhMw7npz1ML_z-6"
-              title="Sesión Presencial Especial del CG 09/04/2024"
+              src="https://www.youtube-nocookie.com/embed/nN1VdgLPX6w?si=e7gpI_KuMHOXTz3w"
+              title="Sesión Presencial Permanente del CG 09/06/2024"
               allowFullScreen
             ></iframe>
           </div>
