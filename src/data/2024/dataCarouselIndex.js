@@ -84,7 +84,7 @@ export const dataCIndex = [
     linkToo: "",
   },
   {
-    id: 9,
+    id: 14,
     imgUrl: "https://itetlax.org.mx/assets/img/carousel/concurso_tet.jpg",
     alt: "56",
     itemActive: "active",
@@ -157,7 +157,7 @@ export const dataCAR = [
     linkToo: "",
   },
   {
-    id: 9,
+    id: 7,
     imgUrl: "https://itetlax.org.mx/assets/img/imgC_AR/cartel_te.jpg",
     alt: "Convocatoria",
     itemActive: "active",
@@ -212,7 +212,7 @@ export const dataCA = [
     linkToo: "",
   },
   {
-    id: 8,
+    id: 7,
     imgUrl: "https://itetlax.org.mx/assets/img/imgC_A/cep-convocatoria.jpg",
     itemActive: "active",
     buttonActive: "active",

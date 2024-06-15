@@ -42,7 +42,7 @@ export const dataInformes = [
     link: "https://itetlax.org.mx/assets/pdf/auditoria/11.pdf",
   },
   {
-    id: 7,
+    id: 8,
     url: "https://itetlax.org.mx/assets/img/img_In/12.jpg",
     alt: "Reporte Auditoria",
     link: "https://itetlax.org.mx/assets/pdf/auditoria/REPORTE_AUDITORIA_OPL_2024.pdf",
