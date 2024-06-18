@@ -161,7 +161,8 @@ export const dataNormatividad = [
       },
       {
         id: 8,
-        nameDoc: "Ley General de Transparencia y Acceso a la Información Pública",
+        nameDoc:
+          "Ley General de Transparencia y Acceso a la Información Pública",
         post: "DOF 04/05/2015",
         lastUpdate: "DOF 20/05/2021)",
         pdf: "https://itetlax.org.mx/assets/pdf/normatividad/lFederales/8.pdf",
@@ -175,7 +176,8 @@ export const dataNormatividad = [
       },
       {
         id: 10,
-        nameDoc: "Ley General de Protección de Datos Personales en Posesión de Sujetos Obligados",
+        nameDoc:
+          "Ley General de Protección de Datos Personales en Posesión de Sujetos Obligados",
         post: "DOF 26/01/2017",
         lastUpdate: "Sin reforma",
         pdf: "https://itetlax.org.mx/assets/pdf/normatividad/lFederales/10.pdf",
@@ -196,12 +198,13 @@ export const dataNormatividad = [
       },
       {
         id: 13,
-        nameDoc: "Ley General de Acceso de las Mujeres a una Vida Libre de Violencia",
+        nameDoc:
+          "Ley General de Acceso de las Mujeres a una Vida Libre de Violencia",
         post: "DOF 01/02/2007",
         lastUpdate: "DOF 08/05/2023)",
         pdf: "https://itetlax.org.mx/assets/pdf/normatividad/lFederales/13.pdf",
       },
-      
+
       {
         id: 14,
         nameDoc: "Ley Federal del Trabajo",
@@ -211,7 +214,8 @@ export const dataNormatividad = [
       },
       {
         id: 15,
-        nameDoc: "Ley Federal de Transparencia y Acceso a la Información Pública",
+        nameDoc:
+          "Ley Federal de Transparencia y Acceso a la Información Pública",
         post: "DOF 09/05/2016",
         lastUpdate: "DOF 20/05/2021)",
         pdf: "https://itetlax.org.mx/assets/pdf/normatividad/lFederales/15.pdf",
@@ -547,6 +551,15 @@ export const dataNormatividad = [
         post: "27/11/2015",
         lastUpdate: "Sin reforma",
         pdf: "https://itetlax.org.mx/assets/pdf/normatividad/reglamentos/17.pdf",
+        pdfMobile: "",
+        word: "",
+      },
+      {
+        id: 18,
+        nameDoc: "Reglamento de Asistencia",
+        post: "",
+        lastUpdate: "",
+        pdf: "https://itetlax.org.mx/assets/pdf/normatividad/reglamentos/18.pdf",
         pdfMobile: "",
         word: "",
       },
