@@ -1,0 +1,20 @@
+.error-404 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    background-color: #f7f7f7;
+    padding: 20px;
+}
+
+.error-404 p:nth-child(1) {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+.error-404 p {
+    margin-bottom: 20px;
+}

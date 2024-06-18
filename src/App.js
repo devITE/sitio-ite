@@ -180,6 +180,7 @@ import REPS from "./pages/reps/REPS";
 //Memoria Electoral
 import MemoriaElectoral20202021 from "./pages/memElect2023/MemoriaElectoral20202021";
 import EstradosElectronicos from "./pages/EstradosElectronicos/EstradosElectronicos";
+import NotFound from "./layout/NotFound";
 
 function App() {
   return (
@@ -188,6 +189,8 @@ function App() {
       <Navbar></Navbar>
       <div className="mt-3 App__container">
         <Routes>
+          <Route path="*" element={<NotFound />} />
+
           <Route exact path="/" element={<Home />} />
 
           {/* Enlaces */}

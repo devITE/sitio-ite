@@ -2615,6 +2615,186 @@ export const dataAcuerdos2024 = [
     nameDoc: "ASIGNACION DIPTACIONES RP",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/223.pdf",
   },
+  {
+    id: 224,
+    year: "2024",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 224-2024",
+    monthDoc: "JUN",
+    nameDoc: "ASIGNACION REGIDURIAS",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/224.pdf",
+    titleAnexo1: "1. Tlaxcala",
+    pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/224.1.pdf",
+    titleAnexo2: "2. Huamantla",
+    pdfAnexo2: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/224.2.pdf",
+    titleAnexo3: "3. San Pablo del Monte",
+    pdfAnexo3: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/224.3.pdf",
+    titleAnexo4: "4. Apizaco",
+    pdfAnexo4: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/224.4.pdf",
+    titleAnexo5: "5. Chiautempan",
+    pdfAnexo5: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/224.5.pdf",
+    titleAnexo6: "6. Calpulalpan",
+    pdfAnexo6: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/224.6.pdf",
+    titleAnexo7: "7. Zacatelco",
+    pdfAnexo7: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/224.7.pdf",
+    titleAnexo8: "8. Tlaxco",
+    pdfAnexo8: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/224.8.pdf",
+    titleAnexo9: "9. Yauhquemehcan",
+    pdfAnexo9: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/224.9.pdf",
+    titleAnexo10: "10. Ixtacuixtla",
+    pdfAnexo10:
+      "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/224.10.pdf",
+    titleAnexo11: "11. Contla de Juan Cuamatzi",
+    pdfAnexo11:
+      "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/224.11.pdf",
+    titleAnexo12: "12. Tetla de la Solidaridad",
+    pdfAnexo12:
+      "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/224.12.pdf",
+    titleAnexo13: "13. Papalotla de Xicohtencatl",
+    pdfAnexo13:
+      "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/224.13.pdf",
+    titleAnexo14: "14. Panotla",
+    pdfAnexo14:
+      "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/224.14.pdf",
+    titleAnexo15: "15. Nativitas",
+    pdfAnexo15:
+      "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/224.15.pdf",
+    titleAnexo16: "16. Xaloztoc",
+    pdfAnexo16:
+      "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/224.16.pdf",
+    titleAnexo17: "17. Teolocholco",
+    pdfAnexo17:
+      "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/224.17.pdf",
+    titleAnexo18: "18. Santa Cruz Tlaxcala",
+    pdfAnexo18:
+      "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/224.18.pdf",
+    titleAnexo19: "19. Totolac",
+    pdfAnexo19:
+      "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/224.19.pdf",
+    titleAnexo20: "20. Tepetitla",
+    pdfAnexo20:
+      "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/224.20.pdf",
+    titleAnexo21: "21. La Magdalena Tlatelulco",
+    pdfAnexo21:
+      "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/224.21.pdf",
+    titleAnexo22: "22. Nanacamilpa de Mariano Matamoros",
+    pdfAnexo22:
+      "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/224.22.pdf",
+    titleAnexo23: "23. Atltzayanca",
+    pdfAnexo23:
+      "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/224.23.pdf",
+    titleAnexo24: "24. Tzompantepec",
+    pdfAnexo24:
+      "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/224.24.pdf",
+    titleAnexo25: "25. El Carmen Tequextitla",
+    pdfAnexo25:
+      "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/224.25.pdf",
+    titleAnexo26: "26. Cuapiaxtla",
+    pdfAnexo26:
+      "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/224.26.pdf",
+    titleAnexo27: "27. Apetatitlán de Antonio Carvajal",
+    pdfAnexo27:
+      "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/224.27.pdf",
+    titleAnexo28: "28. Terrenate",
+    pdfAnexo28:
+      "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/224.28.pdf",
+    titleAnexo29: "29. Hueyotlipan",
+    pdfAnexo29:
+      "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/224.29.pdf",
+    titleAnexo30: "30. Xicohtzinco",
+    pdfAnexo30:
+      "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/224.30.pdf",
+    titleAnexo31: "31. Tetlatlahuca",
+    pdfAnexo31:
+      "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/224.31.pdf",
+    titleAnexo32: "32. Tepeyanco",
+    pdfAnexo32:
+      "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/224.32.pdf",
+    titleAnexo33: "33. Tenancigo",
+    pdfAnexo33:
+      "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/224.33.pdf",
+    titleAnexo34: "34. San Francisco Tetlanohcan",
+    pdfAnexo34:
+      "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/224.34.pdf",
+    titleAnexo35: "35. Mazatecochco de José María Morelos",
+    pdfAnexo35:
+      "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/224.35.pdf",
+    titleAnexo36: "36. Amaxac de Guerrero",
+    pdfAnexo36:
+      "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/224.36.pdf",
+    titleAnexo37: "37. Xaltocan",
+    pdfAnexo37:
+      "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/224.37.pdf",
+    titleAnexo38: "38. Santa Catarina Ayometla",
+    pdfAnexo38:
+      "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/224.38.pdf",
+    titleAnexo39: "39. Sanctorum de Lázaro Cardenas",
+    pdfAnexo39:
+      "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/224.39.pdf",
+    titleAnexo40: "40. Españita",
+    pdfAnexo40:
+      "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/224.40.pdf",
+    titleAnexo41: "41. Zitlaltepec",
+    pdfAnexo41:
+      "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/224.41.pdf",
+    titleAnexo42: "42. Santa Ana Nopalucan",
+    pdfAnexo42:
+      "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/224.42.pdf",
+    titleAnexo43: "43. Santa Cruz Quilehtla",
+    pdfAnexo43:
+      "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/224.43.pdf",
+    titleAnexo44: "44. San Juan Huactzinco",
+    pdfAnexo44:
+      "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/224.44.pdf",
+    titleAnexo45: "45. Ixtenco",
+    pdfAnexo45:
+      "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/224.45.pdf",
+    titleAnexo46: "46. Atlangatepec",
+    pdfAnexo46:
+      "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/224.46.pdf",
+    titleAnexo47: "47. San José Teacalco",
+    pdfAnexo47:
+      "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/224.47.pdf",
+    titleAnexo48: "48. Acuamanala de Miguel Hidalgo",
+    pdfAnexo48:
+      "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/224.48.pdf",
+    titleAnexo49: "49. Tocatlan",
+    pdfAnexo49:
+      "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/224.49.pdf",
+    titleAnexo50: "50. Benito Juárez",
+    pdfAnexo50:
+      "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/224.50.pdf",
+    titleAnexo51: "51. Cuaxomulco",
+    pdfAnexo51:
+      "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/224.51.pdf",
+    titleAnexo52: "52. San Damian Texoloc",
+    pdfAnexo52:
+      "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/224.52.pdf",
+    titleAnexo53: "53. San Lorenzo Axocomanitla",
+    pdfAnexo53:
+      "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/224.53.pdf",
+    titleAnexo54: "54. Santa Isabel Xiloxoxtla",
+    pdfAnexo54:
+      "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/224.54.pdf",
+    titleAnexo55: "55. Emiliano Zapata",
+    pdfAnexo55:
+      "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/224.55.pdf",
+    titleAnexo56: "56. Muñoz de Domingo Arenas",
+    pdfAnexo56:
+      "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/224.56.pdf",
+    titleAnexo57: "57. Santa Apolonia Teacalco",
+    pdfAnexo57:
+      "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/224.57.pdf",
+    titleAnexo58: "58. San Jeronimo Zacualpan",
+    pdfAnexo58:
+      "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/224.58.pdf",
+    titleAnexo59: "59. Lázaro Cárdenas",
+    pdfAnexo59:
+      "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/224.59.pdf",
+    titleAnexo60: "60. San Lucas Tecopilco",
+    pdfAnexo60:
+      "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/224.60.pdf",
+  },
 ];
 
 // ------------ A C U E R D O S    I N E ------------

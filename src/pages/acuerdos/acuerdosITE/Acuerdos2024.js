@@ -159,7 +159,105 @@ const AcuerdosITE2024 = () => {
                   !row.original.titleAnexo20 &
                   !row.original.pdfAnexo20 &
                   !row.original.titleAnexo21 &
-                  !row.original.pdfAnexo21 ? (
+                  !row.original.pdfAnexo21 &
+                  !row.original.titleAnexo22 &
+                  !row.original.pdfAnexo22 &
+                  !row.original.titleAnexo23 &
+                  !row.original.pdfAnexo23 &
+                  !row.original.titleAnexo24 &
+                  !row.original.pdfAnexo24 &
+                  !row.original.titleAnexo25 &
+                  !row.original.pdfAnexo25 &
+                  !row.original.titleAnexo26 &
+                  !row.original.pdfAnexo26 &
+                  !row.original.titleAnexo27 &
+                  !row.original.pdfAnexo27 &
+                  !row.original.titleAnexo28 &
+                  !row.original.pdfAnexo28 &
+                  !row.original.titleAnexo29 &
+                  !row.original.pdfAnexo29 &
+                  !row.original.titleAnexo30 &
+                  !row.original.pdfAnexo30 &
+                  !row.original.titleAnexo31 &
+                  !row.original.pdfAnexo31 &
+                  !row.original.titleAnexo32 &
+                  !row.original.pdfAnexo32 &
+                  !row.original.titleAnexo33 &
+                  !row.original.pdfAnexo33 &
+                  !row.original.titleAnexo34 &
+                  !row.original.pdfAnexo34 &
+                  !row.original.titleAnexo35 &
+                  !row.original.pdfAnexo35 &
+                  !row.original.titleAnexo36 &
+                  !row.original.pdfAnexo36 &
+                  !row.original.titleAnexo37 &
+                  !row.original.pdfAnexo37 &
+                  !row.original.titleAnexo38 &
+                  !row.original.pdfAnexo38 &
+                  !row.original.titleAnexo39 &
+                  !row.original.pdfAnexo39 &
+                  !row.original.titleAnexo40 &
+                  !row.original.pdfAnexo40 &
+                  !row.original.titleAnexo41 &
+                  !row.original.pdfAnexo41 &
+                  !row.original.titleAnexo42 &
+                  !row.original.pdfAnexo42 &
+                  !row.original.titleAnexo43 &
+                  !row.original.pdfAnexo43 &
+                  !row.original.titleAnexo44 &
+                  !row.original.pdfAnexo44 &
+                  !row.original.titleAnexo45 &
+                  !row.original.pdfAnexo45 &
+                  !row.original.titleAnexo46 &
+                  !row.original.pdfAnexo46 &
+                  !row.original.titleAnexo47 &
+                  !row.original.pdfAnexo47 &
+                  !row.original.titleAnexo48 &
+                  !row.original.pdfAnexo48 &
+                  !row.original.titleAnexo49 &
+                  !row.original.pdfAnexo49 &
+                  !row.original.titleAnexo50 &
+                  !row.original.pdfAnexo50 &
+                  !row.original.titleAnexo51 &
+                  !row.original.pdfAnexo51 &
+                  !row.original.titleAnexo52 &
+                  !row.original.pdfAnexo52 &
+                  !row.original.titleAnexo53 &
+                  !row.original.pdfAnexo53 &
+                  !row.original.titleAnexo54 &
+                  !row.original.pdfAnexo54 &
+                  !row.original.titleAnexo55 &
+                  !row.original.pdfAnexo55 &
+                  !row.original.titleAnexo56 &
+                  !row.original.pdfAnexo56 &
+                  !row.original.titleAnexo57 &
+                  !row.original.pdfAnexo57 &
+                  !row.original.titleAnexo58 &
+                  !row.original.pdfAnexo58 &
+                  !row.original.titleAnexo59 &
+                  !row.original.pdfAnexo59 &
+                  !row.original.titleAnexo60 &
+                  !row.original.pdfAnexo60 &
+                  !row.original.titleAnexo61 &
+                  !row.original.pdfAnexo61 &
+                  !row.original.titleAnexo62 &
+                  !row.original.pdfAnexo62 &
+                  !row.original.titleAnexo63 &
+                  !row.original.pdfAnexo63 &
+                  !row.original.titleAnexo64 &
+                  !row.original.pdfAnexo64 &
+                  !row.original.titleAnexo65 &
+                  !row.original.pdfAnexo65 &
+                  !row.original.titleAnexo66 &
+                  !row.original.pdfAnexo66 &
+                  !row.original.titleAnexo67 &
+                  !row.original.pdfAnexo67 &
+                  !row.original.titleAnexo68 &
+                  !row.original.pdfAnexo68 &
+                  !row.original.titleAnexo69 &
+                  !row.original.pdfAnexo69 &
+                  !row.original.titleAnexo70 &
+                  !row.original.pdfAnexo70 ? (
                     <span></span>
                   ) : (
                     <tr>
@@ -552,6 +650,7 @@ const AcuerdosITE2024 = () => {
                       </td>
                     </tr>
                   )}
+                  {/*  */}
                   {!row.original.titleAnexo21 & !row.original.pdfAnexo21 ? (
                     <span></span>
                   ) : (
@@ -560,6 +659,938 @@ const AcuerdosITE2024 = () => {
                       <td>
                         <a
                           href={row.original.pdfAnexo21}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <FontAwesomeIcon
+                            icon={faFilePdf}
+                            className="btn btn-danger"
+                          />
+                        </a>
+                      </td>
+                    </tr>
+                  )}
+                  {!row.original.titleAnexo22 & !row.original.pdfAnexo22 ? (
+                    <span></span>
+                  ) : (
+                    <tr>
+                      <td>{row.original.titleAnexo22.toUpperCase()}</td>
+                      <td>
+                        <a
+                          href={row.original.pdfAnexo22}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <FontAwesomeIcon
+                            icon={faFilePdf}
+                            className="btn btn-danger"
+                          />
+                        </a>
+                      </td>
+                    </tr>
+                  )}
+                  {!row.original.titleAnexo23 & !row.original.pdfAnexo23 ? (
+                    <span></span>
+                  ) : (
+                    <tr>
+                      <td>{row.original.titleAnexo23.toUpperCase()}</td>
+                      <td>
+                        <a
+                          href={row.original.pdfAnexo23}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <FontAwesomeIcon
+                            icon={faFilePdf}
+                            className="btn btn-danger"
+                          />
+                        </a>
+                      </td>
+                    </tr>
+                  )}
+                  {!row.original.titleAnexo24 & !row.original.pdfAnexo24 ? (
+                    <span></span>
+                  ) : (
+                    <tr>
+                      <td>{row.original.titleAnexo24.toUpperCase()}</td>
+                      <td>
+                        <a
+                          href={row.original.pdfAnexo24}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <FontAwesomeIcon
+                            icon={faFilePdf}
+                            className="btn btn-danger"
+                          />
+                        </a>
+                      </td>
+                    </tr>
+                  )}
+                  {!row.original.titleAnexo25 & !row.original.pdfAnexo25 ? (
+                    <span></span>
+                  ) : (
+                    <tr>
+                      <td>{row.original.titleAnexo25.toUpperCase()}</td>
+                      <td>
+                        <a
+                          href={row.original.pdfAnexo25}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <FontAwesomeIcon
+                            icon={faFilePdf}
+                            className="btn btn-danger"
+                          />
+                        </a>
+                      </td>
+                    </tr>
+                  )}
+                  {!row.original.titleAnexo26 & !row.original.pdfAnexo26 ? (
+                    <span></span>
+                  ) : (
+                    <tr>
+                      <td>{row.original.titleAnexo26.toUpperCase()}</td>
+                      <td>
+                        <a
+                          href={row.original.pdfAnexo26}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <FontAwesomeIcon
+                            icon={faFilePdf}
+                            className="btn btn-danger"
+                          />
+                        </a>
+                      </td>
+                    </tr>
+                  )}
+                  {!row.original.titleAnexo27 & !row.original.pdfAnexo27 ? (
+                    <span></span>
+                  ) : (
+                    <tr>
+                      <td>{row.original.titleAnexo27.toUpperCase()}</td>
+                      <td>
+                        <a
+                          href={row.original.pdfAnexo27}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <FontAwesomeIcon
+                            icon={faFilePdf}
+                            className="btn btn-danger"
+                          />
+                        </a>
+                      </td>
+                    </tr>
+                  )}
+                  {!row.original.titleAnexo28 & !row.original.pdfAnexo28 ? (
+                    <span></span>
+                  ) : (
+                    <tr>
+                      <td>{row.original.titleAnexo28.toUpperCase()}</td>
+                      <td>
+                        <a
+                          href={row.original.pdfAnexo28}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <FontAwesomeIcon
+                            icon={faFilePdf}
+                            className="btn btn-danger"
+                          />
+                        </a>
+                      </td>
+                    </tr>
+                  )}
+                  {!row.original.titleAnexo29 & !row.original.pdfAnexo29 ? (
+                    <span></span>
+                  ) : (
+                    <tr>
+                      <td>{row.original.titleAnexo29.toUpperCase()}</td>
+                      <td>
+                        <a
+                          href={row.original.pdfAnexo29}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <FontAwesomeIcon
+                            icon={faFilePdf}
+                            className="btn btn-danger"
+                          />
+                        </a>
+                      </td>
+                    </tr>
+                  )}
+                  {!row.original.titleAnexo30 & !row.original.pdfAnexo30 ? (
+                    <span></span>
+                  ) : (
+                    <tr>
+                      <td>{row.original.titleAnexo30.toUpperCase()}</td>
+                      <td>
+                        <a
+                          href={row.original.pdfAnexo30}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <FontAwesomeIcon
+                            icon={faFilePdf}
+                            className="btn btn-danger"
+                          />
+                        </a>
+                      </td>
+                    </tr>
+                  )}
+                  {!row.original.titleAnexo31 & !row.original.pdfAnexo31 ? (
+                    <span></span>
+                  ) : (
+                    <tr>
+                      <td>{row.original.titleAnexo31.toUpperCase()}</td>
+                      <td>
+                        <a
+                          href={row.original.pdfAnexo31}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <FontAwesomeIcon
+                            icon={faFilePdf}
+                            className="btn btn-danger"
+                          />
+                        </a>
+                      </td>
+                    </tr>
+                  )}
+                  {!row.original.titleAnexo32 & !row.original.pdfAnexo32 ? (
+                    <span></span>
+                  ) : (
+                    <tr>
+                      <td>{row.original.titleAnexo32.toUpperCase()}</td>
+                      <td>
+                        <a
+                          href={row.original.pdfAnexo32}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <FontAwesomeIcon
+                            icon={faFilePdf}
+                            className="btn btn-danger"
+                          />
+                        </a>
+                      </td>
+                    </tr>
+                  )}
+                  {!row.original.titleAnexo33 & !row.original.pdfAnexo33 ? (
+                    <span></span>
+                  ) : (
+                    <tr>
+                      <td>{row.original.titleAnexo33.toUpperCase()}</td>
+                      <td>
+                        <a
+                          href={row.original.pdfAnexo33}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <FontAwesomeIcon
+                            icon={faFilePdf}
+                            className="btn btn-danger"
+                          />
+                        </a>
+                      </td>
+                    </tr>
+                  )}
+                  {!row.original.titleAnexo34 & !row.original.pdfAnexo34 ? (
+                    <span></span>
+                  ) : (
+                    <tr>
+                      <td>{row.original.titleAnexo34.toUpperCase()}</td>
+                      <td>
+                        <a
+                          href={row.original.pdfAnexo34}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <FontAwesomeIcon
+                            icon={faFilePdf}
+                            className="btn btn-danger"
+                          />
+                        </a>
+                      </td>
+                    </tr>
+                  )}
+                  {!row.original.titleAnexo35 & !row.original.pdfAnexo35 ? (
+                    <span></span>
+                  ) : (
+                    <tr>
+                      <td>{row.original.titleAnexo35.toUpperCase()}</td>
+                      <td>
+                        <a
+                          href={row.original.pdfAnexo35}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <FontAwesomeIcon
+                            icon={faFilePdf}
+                            className="btn btn-danger"
+                          />
+                        </a>
+                      </td>
+                    </tr>
+                  )}
+                  {!row.original.titleAnexo36 & !row.original.pdfAnexo36 ? (
+                    <span></span>
+                  ) : (
+                    <tr>
+                      <td>{row.original.titleAnexo36.toUpperCase()}</td>
+                      <td>
+                        <a
+                          href={row.original.pdfAnexo36}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <FontAwesomeIcon
+                            icon={faFilePdf}
+                            className="btn btn-danger"
+                          />
+                        </a>
+                      </td>
+                    </tr>
+                  )}
+                  {!row.original.titleAnexo37 & !row.original.pdfAnexo37 ? (
+                    <span></span>
+                  ) : (
+                    <tr>
+                      <td>{row.original.titleAnexo37.toUpperCase()}</td>
+                      <td>
+                        <a
+                          href={row.original.pdfAnexo37}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <FontAwesomeIcon
+                            icon={faFilePdf}
+                            className="btn btn-danger"
+                          />
+                        </a>
+                      </td>
+                    </tr>
+                  )}
+                  {!row.original.titleAnexo38 & !row.original.pdfAnexo38 ? (
+                    <span></span>
+                  ) : (
+                    <tr>
+                      <td>{row.original.titleAnexo38.toUpperCase()}</td>
+                      <td>
+                        <a
+                          href={row.original.pdfAnexo38}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <FontAwesomeIcon
+                            icon={faFilePdf}
+                            className="btn btn-danger"
+                          />
+                        </a>
+                      </td>
+                    </tr>
+                  )}
+                  {!row.original.titleAnexo39 & !row.original.pdfAnexo39 ? (
+                    <span></span>
+                  ) : (
+                    <tr>
+                      <td>{row.original.titleAnexo39.toUpperCase()}</td>
+                      <td>
+                        <a
+                          href={row.original.pdfAnexo39}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <FontAwesomeIcon
+                            icon={faFilePdf}
+                            className="btn btn-danger"
+                          />
+                        </a>
+                      </td>
+                    </tr>
+                  )}
+                  {!row.original.titleAnexo40 & !row.original.pdfAnexo40 ? (
+                    <span></span>
+                  ) : (
+                    <tr>
+                      <td>{row.original.titleAnexo40.toUpperCase()}</td>
+                      <td>
+                        <a
+                          href={row.original.pdfAnexo40}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <FontAwesomeIcon
+                            icon={faFilePdf}
+                            className="btn btn-danger"
+                          />
+                        </a>
+                      </td>
+                    </tr>
+                  )}
+                  {!row.original.titleAnexo41 & !row.original.pdfAnexo41 ? (
+                    <span></span>
+                  ) : (
+                    <tr>
+                      <td>{row.original.titleAnexo41.toUpperCase()}</td>
+                      <td>
+                        <a
+                          href={row.original.pdfAnexo41}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <FontAwesomeIcon
+                            icon={faFilePdf}
+                            className="btn btn-danger"
+                          />
+                        </a>
+                      </td>
+                    </tr>
+                  )}
+                  {!row.original.titleAnexo42 & !row.original.pdfAnexo42 ? (
+                    <span></span>
+                  ) : (
+                    <tr>
+                      <td>{row.original.titleAnexo42.toUpperCase()}</td>
+                      <td>
+                        <a
+                          href={row.original.pdfAnexo42}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <FontAwesomeIcon
+                            icon={faFilePdf}
+                            className="btn btn-danger"
+                          />
+                        </a>
+                      </td>
+                    </tr>
+                  )}
+                  {!row.original.titleAnexo43 & !row.original.pdfAnexo43 ? (
+                    <span></span>
+                  ) : (
+                    <tr>
+                      <td>{row.original.titleAnexo43.toUpperCase()}</td>
+                      <td>
+                        <a
+                          href={row.original.pdfAnexo43}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <FontAwesomeIcon
+                            icon={faFilePdf}
+                            className="btn btn-danger"
+                          />
+                        </a>
+                      </td>
+                    </tr>
+                  )}
+                  {!row.original.titleAnexo44 & !row.original.pdfAnexo44 ? (
+                    <span></span>
+                  ) : (
+                    <tr>
+                      <td>{row.original.titleAnexo44.toUpperCase()}</td>
+                      <td>
+                        <a
+                          href={row.original.pdfAnexo44}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <FontAwesomeIcon
+                            icon={faFilePdf}
+                            className="btn btn-danger"
+                          />
+                        </a>
+                      </td>
+                    </tr>
+                  )}
+                  {!row.original.titleAnexo45 & !row.original.pdfAnexo45 ? (
+                    <span></span>
+                  ) : (
+                    <tr>
+                      <td>{row.original.titleAnexo45.toUpperCase()}</td>
+                      <td>
+                        <a
+                          href={row.original.pdfAnexo45}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <FontAwesomeIcon
+                            icon={faFilePdf}
+                            className="btn btn-danger"
+                          />
+                        </a>
+                      </td>
+                    </tr>
+                  )}
+                  {!row.original.titleAnexo46 & !row.original.pdfAnexo46 ? (
+                    <span></span>
+                  ) : (
+                    <tr>
+                      <td>{row.original.titleAnexo46.toUpperCase()}</td>
+                      <td>
+                        <a
+                          href={row.original.pdfAnexo46}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <FontAwesomeIcon
+                            icon={faFilePdf}
+                            className="btn btn-danger"
+                          />
+                        </a>
+                      </td>
+                    </tr>
+                  )}
+                  {!row.original.titleAnexo47 & !row.original.pdfAnexo47 ? (
+                    <span></span>
+                  ) : (
+                    <tr>
+                      <td>{row.original.titleAnexo47.toUpperCase()}</td>
+                      <td>
+                        <a
+                          href={row.original.pdfAnexo47}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <FontAwesomeIcon
+                            icon={faFilePdf}
+                            className="btn btn-danger"
+                          />
+                        </a>
+                      </td>
+                    </tr>
+                  )}
+                  {!row.original.titleAnexo48 & !row.original.pdfAnexo48 ? (
+                    <span></span>
+                  ) : (
+                    <tr>
+                      <td>{row.original.titleAnexo48.toUpperCase()}</td>
+                      <td>
+                        <a
+                          href={row.original.pdfAnexo48}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <FontAwesomeIcon
+                            icon={faFilePdf}
+                            className="btn btn-danger"
+                          />
+                        </a>
+                      </td>
+                    </tr>
+                  )}
+                  {!row.original.titleAnexo49 & !row.original.pdfAnexo49 ? (
+                    <span></span>
+                  ) : (
+                    <tr>
+                      <td>{row.original.titleAnexo49.toUpperCase()}</td>
+                      <td>
+                        <a
+                          href={row.original.pdfAnexo49}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <FontAwesomeIcon
+                            icon={faFilePdf}
+                            className="btn btn-danger"
+                          />
+                        </a>
+                      </td>
+                    </tr>
+                  )}
+                  {!row.original.titleAnexo50 & !row.original.pdfAnexo50 ? (
+                    <span></span>
+                  ) : (
+                    <tr>
+                      <td>{row.original.titleAnexo50.toUpperCase()}</td>
+                      <td>
+                        <a
+                          href={row.original.pdfAnexo50}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <FontAwesomeIcon
+                            icon={faFilePdf}
+                            className="btn btn-danger"
+                          />
+                        </a>
+                      </td>
+                    </tr>
+                  )}
+                  {!row.original.titleAnexo51 & !row.original.pdfAnexo51 ? (
+                    <span></span>
+                  ) : (
+                    <tr>
+                      <td>{row.original.titleAnexo51.toUpperCase()}</td>
+                      <td>
+                        <a
+                          href={row.original.pdfAnexo51}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <FontAwesomeIcon
+                            icon={faFilePdf}
+                            className="btn btn-danger"
+                          />
+                        </a>
+                      </td>
+                    </tr>
+                  )}
+                  {!row.original.titleAnexo52 & !row.original.pdfAnexo52 ? (
+                    <span></span>
+                  ) : (
+                    <tr>
+                      <td>{row.original.titleAnexo52.toUpperCase()}</td>
+                      <td>
+                        <a
+                          href={row.original.pdfAnexo52}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <FontAwesomeIcon
+                            icon={faFilePdf}
+                            className="btn btn-danger"
+                          />
+                        </a>
+                      </td>
+                    </tr>
+                  )}
+                  {!row.original.titleAnexo53 & !row.original.pdfAnexo53 ? (
+                    <span></span>
+                  ) : (
+                    <tr>
+                      <td>{row.original.titleAnexo53.toUpperCase()}</td>
+                      <td>
+                        <a
+                          href={row.original.pdfAnexo53}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <FontAwesomeIcon
+                            icon={faFilePdf}
+                            className="btn btn-danger"
+                          />
+                        </a>
+                      </td>
+                    </tr>
+                  )}
+                  {!row.original.titleAnexo54 & !row.original.pdfAnexo54 ? (
+                    <span></span>
+                  ) : (
+                    <tr>
+                      <td>{row.original.titleAnexo54.toUpperCase()}</td>
+                      <td>
+                        <a
+                          href={row.original.pdfAnexo54}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <FontAwesomeIcon
+                            icon={faFilePdf}
+                            className="btn btn-danger"
+                          />
+                        </a>
+                      </td>
+                    </tr>
+                  )}
+                  {!row.original.titleAnexo55 & !row.original.pdfAnexo55 ? (
+                    <span></span>
+                  ) : (
+                    <tr>
+                      <td>{row.original.titleAnexo55.toUpperCase()}</td>
+                      <td>
+                        <a
+                          href={row.original.pdfAnexo55}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <FontAwesomeIcon
+                            icon={faFilePdf}
+                            className="btn btn-danger"
+                          />
+                        </a>
+                      </td>
+                    </tr>
+                  )}
+                  {!row.original.titleAnexo56 & !row.original.pdfAnexo56 ? (
+                    <span></span>
+                  ) : (
+                    <tr>
+                      <td>{row.original.titleAnexo56.toUpperCase()}</td>
+                      <td>
+                        <a
+                          href={row.original.pdfAnexo56}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <FontAwesomeIcon
+                            icon={faFilePdf}
+                            className="btn btn-danger"
+                          />
+                        </a>
+                      </td>
+                    </tr>
+                  )}
+                  {!row.original.titleAnexo57 & !row.original.pdfAnexo57 ? (
+                    <span></span>
+                  ) : (
+                    <tr>
+                      <td>{row.original.titleAnexo57.toUpperCase()}</td>
+                      <td>
+                        <a
+                          href={row.original.pdfAnexo57}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <FontAwesomeIcon
+                            icon={faFilePdf}
+                            className="btn btn-danger"
+                          />
+                        </a>
+                      </td>
+                    </tr>
+                  )}
+                  {!row.original.titleAnexo58 & !row.original.pdfAnexo58 ? (
+                    <span></span>
+                  ) : (
+                    <tr>
+                      <td>{row.original.titleAnexo58.toUpperCase()}</td>
+                      <td>
+                        <a
+                          href={row.original.pdfAnexo58}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <FontAwesomeIcon
+                            icon={faFilePdf}
+                            className="btn btn-danger"
+                          />
+                        </a>
+                      </td>
+                    </tr>
+                  )}
+                  {!row.original.titleAnexo59 & !row.original.pdfAnexo59 ? (
+                    <span></span>
+                  ) : (
+                    <tr>
+                      <td>{row.original.titleAnexo59.toUpperCase()}</td>
+                      <td>
+                        <a
+                          href={row.original.pdfAnexo59}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <FontAwesomeIcon
+                            icon={faFilePdf}
+                            className="btn btn-danger"
+                          />
+                        </a>
+                      </td>
+                    </tr>
+                  )}
+                  {!row.original.titleAnexo60 & !row.original.pdfAnexo60 ? (
+                    <span></span>
+                  ) : (
+                    <tr>
+                      <td>{row.original.titleAnexo60.toUpperCase()}</td>
+                      <td>
+                        <a
+                          href={row.original.pdfAnexo60}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <FontAwesomeIcon
+                            icon={faFilePdf}
+                            className="btn btn-danger"
+                          />
+                        </a>
+                      </td>
+                    </tr>
+                  )}
+                  {!row.original.titleAnexo61 & !row.original.pdfAnexo61 ? (
+                    <span></span>
+                  ) : (
+                    <tr>
+                      <td>{row.original.titleAnexo61.toUpperCase()}</td>
+                      <td>
+                        <a
+                          href={row.original.pdfAnexo61}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <FontAwesomeIcon
+                            icon={faFilePdf}
+                            className="btn btn-danger"
+                          />
+                        </a>
+                      </td>
+                    </tr>
+                  )}
+                  {!row.original.titleAnexo62 & !row.original.pdfAnexo62 ? (
+                    <span></span>
+                  ) : (
+                    <tr>
+                      <td>{row.original.titleAnexo62.toUpperCase()}</td>
+                      <td>
+                        <a
+                          href={row.original.pdfAnexo62}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <FontAwesomeIcon
+                            icon={faFilePdf}
+                            className="btn btn-danger"
+                          />
+                        </a>
+                      </td>
+                    </tr>
+                  )}
+                  {!row.original.titleAnexo63 & !row.original.pdfAnexo63 ? (
+                    <span></span>
+                  ) : (
+                    <tr>
+                      <td>{row.original.titleAnexo63.toUpperCase()}</td>
+                      <td>
+                        <a
+                          href={row.original.pdfAnexo63}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <FontAwesomeIcon
+                            icon={faFilePdf}
+                            className="btn btn-danger"
+                          />
+                        </a>
+                      </td>
+                    </tr>
+                  )}
+                  {!row.original.titleAnexo64 & !row.original.pdfAnexo64 ? (
+                    <span></span>
+                  ) : (
+                    <tr>
+                      <td>{row.original.titleAnexo64.toUpperCase()}</td>
+                      <td>
+                        <a
+                          href={row.original.pdfAnexo64}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <FontAwesomeIcon
+                            icon={faFilePdf}
+                            className="btn btn-danger"
+                          />
+                        </a>
+                      </td>
+                    </tr>
+                  )}
+                  {!row.original.titleAnexo65 & !row.original.pdfAnexo65 ? (
+                    <span></span>
+                  ) : (
+                    <tr>
+                      <td>{row.original.titleAnexo65.toUpperCase()}</td>
+                      <td>
+                        <a
+                          href={row.original.pdfAnexo65}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <FontAwesomeIcon
+                            icon={faFilePdf}
+                            className="btn btn-danger"
+                          />
+                        </a>
+                      </td>
+                    </tr>
+                  )}
+                  {!row.original.titleAnexo66 & !row.original.pdfAnexo66 ? (
+                    <span></span>
+                  ) : (
+                    <tr>
+                      <td>{row.original.titleAnexo66.toUpperCase()}</td>
+                      <td>
+                        <a
+                          href={row.original.pdfAnexo66}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <FontAwesomeIcon
+                            icon={faFilePdf}
+                            className="btn btn-danger"
+                          />
+                        </a>
+                      </td>
+                    </tr>
+                  )}
+                  {!row.original.titleAnexo67 & !row.original.pdfAnexo67 ? (
+                    <span></span>
+                  ) : (
+                    <tr>
+                      <td>{row.original.titleAnexo67.toUpperCase()}</td>
+                      <td>
+                        <a
+                          href={row.original.pdfAnexo67}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <FontAwesomeIcon
+                            icon={faFilePdf}
+                            className="btn btn-danger"
+                          />
+                        </a>
+                      </td>
+                    </tr>
+                  )}
+                  {!row.original.titleAnexo68 & !row.original.pdfAnexo68 ? (
+                    <span></span>
+                  ) : (
+                    <tr>
+                      <td>{row.original.titleAnexo68.toUpperCase()}</td>
+                      <td>
+                        <a
+                          href={row.original.pdfAnexo68}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <FontAwesomeIcon
+                            icon={faFilePdf}
+                            className="btn btn-danger"
+                          />
+                        </a>
+                      </td>
+                    </tr>
+                  )}
+                  {!row.original.titleAnexo69 & !row.original.pdfAnexo69 ? (
+                    <span></span>
+                  ) : (
+                    <tr>
+                      <td>{row.original.titleAnexo69.toUpperCase()}</td>
+                      <td>
+                        <a
+                          href={row.original.pdfAnexo69}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <FontAwesomeIcon
+                            icon={faFilePdf}
+                            className="btn btn-danger"
+                          />
+                        </a>
+                      </td>
+                    </tr>
+                  )}
+                  {/*  */}
+                  {!row.original.titleAnexo70 & !row.original.pdfAnexo70 ? (
+                    <span></span>
+                  ) : (
+                    <tr>
+                      <td>{row.original.titleAnexo70.toUpperCase()}</td>
+                      <td>
+                        <a
+                          href={row.original.pdfAnexo70}
                           target="_blank"
                           rel="noreferrer"
                         >
