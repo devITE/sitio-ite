@@ -9,7 +9,7 @@ import Informes from "./informes/Informes";
 import { dataInformes } from "../../data/dataInformes";
 
 import Videoteca from "../../layout/videoteca/Videoteca";
-import { dataVideoteca } from "../../data/dataVideoteca";
+// import { dataVideoteca } from "../../data/dataVideoteca";
 import "./Home.css";
 
 import Carousel from "../../layout/Carousel/Carousel/Carousel";
@@ -62,13 +62,12 @@ const ITE = () => {
       <div className="mt-5 Home__AR-A">
         <div>
           <h2 className="bottom_title">
-            Foro "Protocolo de personas con discapacidad en el Proceso Electoral
-            Concurrente 2023-2024"
+            Conversatorio Universitario "Mecanismos de Participación Ciudadana"
           </h2>
           <div className="Home__video-embed ratio ratio-16x9 w-100">
             <iframe
               id="9QQCf_emFwo"
-              src="https://www.youtube-nocookie.com/embed/yFECy9X-b_c?si=oi0ZGw4cI4oeKqku"
+              src="https://www.youtube-nocookie.com/embed/2mMrjubl1Ow?si=ZebMgVqaPuyG0x4S"
               title='Foro "Protocolo de personas con discapacidad en el Proceso Electoral Concurrente 2023-2024"'
               allowFullScreen
             ></iframe>
@@ -255,10 +254,10 @@ const ITE = () => {
         </div>
       </div>
 
-      <h3 className="mt-5 bottom_title">Videos</h3>
-      <Videoteca items={dataVideoteca} itemsID={"videoteca"} />
+      {/* <h3 className="mt-5 bottom_title">Videos</h3>
+      <Videoteca items={dataVideoteca} itemsID={"videoteca"} /> */}
 
-      <div className="container">
+      <div className="mt-5 container">
         <h3 className="mt-1 bottom_title">Videos INE</h3>
         <div className="row justify-content-center">
           <div className="col-md-4">

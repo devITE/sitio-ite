@@ -11,24 +11,24 @@ export const dataInformes = [
     alt: "Catálogo de Presidencias de Comunidad",
     link: "https://itetlax.org.mx/assets/pdf/informes/6.pdf",
   },
-  {
-    id: 3,
-    url: "https://itetlax.org.mx/assets/img/img_In/4.jpg",
-    alt: "Informe Anual de Actividades 2020",
-    link: "https://itetlax.org.mx/assets/pdf/transparencia/infAnuales/6.pdf",
-  },
-  {
-    id: 4,
-    url: "https://itetlax.org.mx/assets/img/img_In/8.png",
-    alt: "Informe Anual de Actividades 2021",
-    link: "https://itetlax.org.mx/assets/pdf/transparencia/infAnuales/7.pdf",
-  },
-  {
-    id: 5,
-    url: "https://itetlax.org.mx/assets/img/img_In/9.png",
-    alt: "Informe Anual de Actividades 2022",
-    link: "https://itetlax.org.mx/assets/pdf/transparencia/infAnuales/8.pdf",
-  },
+  // {
+  //   id: 3,
+  //   url: "https://itetlax.org.mx/assets/img/img_In/4.jpg",
+  //   alt: "Informe Anual de Actividades 2020",
+  //   link: "https://itetlax.org.mx/assets/pdf/transparencia/infAnuales/6.pdf",
+  // },
+  // {
+  //   id: 4,
+  //   url: "https://itetlax.org.mx/assets/img/img_In/8.png",
+  //   alt: "Informe Anual de Actividades 2021",
+  //   link: "https://itetlax.org.mx/assets/pdf/transparencia/infAnuales/7.pdf",
+  // },
+  // {
+  //   id: 5,
+  //   url: "https://itetlax.org.mx/assets/img/img_In/9.png",
+  //   alt: "Informe Anual de Actividades 2022",
+  //   link: "https://itetlax.org.mx/assets/pdf/transparencia/infAnuales/8.pdf",
+  // },
   {
     id: 6,
     url: "https://itetlax.org.mx/assets/img/img_In/10.jpg",

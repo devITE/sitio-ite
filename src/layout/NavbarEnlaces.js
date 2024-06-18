@@ -95,6 +95,15 @@ const NavbarEnlaces = (props) => {
             />
           </Link>
         </div>
+        {/* <div className="NavbarEnlaces__item">
+          <Link to="/InformesAnualesITE">
+            <img
+              src="https://itetlax.org.mx/assets/img/icons/e26.png"
+              alt=" InformesAnualesITE"
+              className="img-fluid shadow rounded-4"
+            />
+          </Link>
+        </div> */}
       </div>
       <div className="Enlances__title mb-4">{props.title}</div>
     </>

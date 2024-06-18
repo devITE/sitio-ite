@@ -94,13 +94,17 @@ export const dataCIndex = [
     linkToo: "",
   },
 
-  // {
-  //   id: 14,
-  //   imgUrl: "https://itetlax.org.mx/assets/carousel/aceptados_ag.jpg",
-  //   alt: "",
-  //   url: "https://itetlax.org.mx/assets/carousel/aceptados_ag.pdf",
-  //   linkToo: "",
-  // },
+  {
+    id: 15,
+    imgUrl: "https://itetlax.org.mx/assets/carousel/quien_oppm.png",
+    alt: "quien observatorios",
+    itemActive: "active",
+    buttonActive: "active",
+    ariaCurrent: "true",
+    url: "https://itetlax.org.mx/assets/carousel/quien_oppm.pdf",
+    linkToo: "",
+  },
+
   // // {
   //   id: 15,
   //   imgUrl: "https://itetlax.org.mx/assets/carousel/resultados_cp_cael.png",

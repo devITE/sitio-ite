@@ -99,6 +99,15 @@ export const Enlaces = () => {
             />
           </Link>
         </div>
+        {/* <div className="col-6 col-md-3 mt-2">
+          <Link to="/InformesAnualesITE">
+            <img
+              src="https://itetlax.org.mx/assets/img/icons/e26.png"
+              alt="Enlaces"
+              className="img-fluid shadow rounded-4"
+            />
+          </Link>
+        </div> */}
       </div>
       <div className="row mt-2">
         <div className="col-12 col-md-6 mt-2">

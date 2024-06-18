@@ -30,6 +30,7 @@ import MetasMSPEN from "./pages/enlaces/MetasMSPEN";
 import PartidosPoliticos from "./pages/enlaces/PartidosPoliticos";
 import PersonasDiscapacidad from "./pages/enlaces/PersonasDiscapacidad";
 import Informes from "./pages/enlaces/Informes";
+import InformesAnualesITE from "./pages/enlaces/InformesAnualesITE";
 
 //Acerca de ITE
 import FinesInstitucionales from "./pages/acercaITE/FinesInstitucionales";
@@ -223,6 +224,7 @@ function App() {
             element={<PersonasDiscapacidad />}
           />
           <Route path="/Informes" element={<Informes />} />
+          <Route path="/InformesAnualesITE" element={<InformesAnualesITE />} />
 
           {/* Acerca de ITE */}
           <Route

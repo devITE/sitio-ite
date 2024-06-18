@@ -4,13 +4,13 @@ import NavbarEnlaces from "../../layout/NavbarEnlaces";
 import { dataMemoria } from "../../data/dataMemoriasElectorales";
 import "./EnlacesStyle.css";
 
-export const MemoriasElectorales = () => {
+export const InformesAnualesITE = () => {
   useEffect(() => {
     document.title = `Memorias Electorales`;
   }, []);
   return (
     <>
-      <NavbarEnlaces title="Memorias Electorales" />
+      <NavbarEnlaces title="Informes Anuales ITE" />
       <div className="Memoria__grid">
         {dataMemoria
           .sort((a, b) => b.id - a.id)
@@ -42,4 +42,4 @@ export const MemoriasElectorales = () => {
   );
 };
 
-export default MemoriasElectorales;
+export default InformesAnualesITE;
