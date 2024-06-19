@@ -78,7 +78,7 @@ const ProcesosElectorales = () => {
           </a>
           <p className="mt-2">Proceso Electoral Extraordinario 2021</p>
         </div>
-        <div>
+        {/* <div>
           <Link to="/PE20232024">
             <img
               className="img-fluid"
@@ -87,7 +87,7 @@ const ProcesosElectorales = () => {
             />
           </Link>
           <p className="mt-2">Proceso Electoral 2023 - 2024</p>
-        </div>
+        </div> */}
       </div>
       {/* Modal */}
       <Modal
