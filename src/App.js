@@ -15,6 +15,7 @@ import PE20152016 from "./pages/enlaces/ProcesosElectorales/PE20152016";
 import PEE2017 from "./pages/enlaces/ProcesosElectorales/PEE2017";
 import PE2018 from "./pages/enlaces/ProcesosElectorales/PE2018";
 import PE20202021 from "./pages/enlaces/ProcesosElectorales/PE20202021";
+import PE20232024 from "./pages/enlaces/ProcesosElectorales/PE20232024";
 import Normatividad from "./pages/enlaces/Normatividad";
 import Galeria from "./pages/enlaces/Galeria/Galeria";
 import Galeria2016 from "./pages/enlaces/Galeria/Galeria2016";
@@ -203,6 +204,7 @@ function App() {
           <Route path="/PEE2017" element={<PEE2017 />} />
           <Route path="/PE2018" element={<PE2018 />} />
           <Route path="/PE20202021" element={<PE20202021 />} />
+          <Route path="/PE20232024" element={<PE20232024 />} />
           <Route path="/HistorialPE" element={<HistorialPE />} />
           <Route path="/Normatividad" element={<Normatividad />} />
           <Route path="/Galeria" element={<Galeria />} />

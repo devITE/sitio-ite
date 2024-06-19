@@ -556,7 +556,8 @@ export const dataNormatividad = [
       },
       {
         id: 18,
-        nameDoc: "Reglamento de Asistencia",
+        nameDoc:
+          "Reglamento de Asistencia Técnica, Jurídica y Logística a las Comunidades que realizan elecciones de Presidentes de Comunidad por el Sistema de Usos y Costumbres",
         post: "",
         lastUpdate: "",
         pdf: "https://itetlax.org.mx/assets/pdf/normatividad/reglamentos/18.pdf",

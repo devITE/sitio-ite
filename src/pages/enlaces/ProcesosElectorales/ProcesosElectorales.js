@@ -78,6 +78,16 @@ const ProcesosElectorales = () => {
           </a>
           <p className="mt-2">Proceso Electoral Extraordinario 2021</p>
         </div>
+        <div>
+          <Link to="/PE20232024">
+            <img
+              className="img-fluid"
+              src="https://itetlax.org.mx/assets/img/icons/e19.png"
+              alt="Proceso Electoral 2023 - 2024"
+            />
+          </Link>
+          <p className="mt-2">Proceso Electoral 2023 - 2024</p>
+        </div>
       </div>
       {/* Modal */}
       <Modal

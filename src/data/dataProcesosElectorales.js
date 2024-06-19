@@ -1,3 +1,134 @@
+export const dataElectos2024 = [
+  {
+    id: 1,
+    titleItem: "Electos 2024",
+    typeDocument: "excel",
+    linkItem:
+      "https://itetlax.org.mx/assets/excel/procesosElect/PE20232024/1.xlsx",
+  },
+];
+
+// export const dataDiputaciones20232024 = [
+//   {
+//     id: 1,
+//     titleItem: "2021_SEE_DIP_LOC_MR_TLAX_CAS",
+//     typeDocument: "excel",
+//     linkItem:
+//       "https://itetlax.org.mx/assets/excel/procesosElect/PE20232024/10.xlsx",
+//   },
+//   {
+//     id: 2,
+//     titleItem: "2024_SEE_DIP_LOC_MR_TLAX_DIS",
+//     typeDocument: "excel",
+//     linkItem:
+//       "https://itetlax.org.mx/assets/excel/procesosElect/PE20232024/11.xlsx",
+//   },
+//   {
+//     id: 3,
+//     titleItem: "2024_SEE_DIP_LOC_MR_TLAX_DISCAND",
+//     typeDocument: "excel",
+//     linkItem:
+//       "https://itetlax.org.mx/assets/excel/procesosElect/PE20232024/12.xlsx",
+//   },
+//   {
+//     id: 4,
+//     titleItem: "2024_SEE_DIP_LOC_MR_TLAX_DISPP",
+//     typeDocument: "excel",
+//     linkItem:
+//       "https://itetlax.org.mx/assets/excel/procesosElect/PE20232024/13.xlsx",
+//   },
+//   {
+//     id: 5,
+//     titleItem: "2024_SEE_DIP_LOC_MR_TLAX_MUN",
+//     typeDocument: "excel",
+//     linkItem:
+//       "https://itetlax.org.mx/assets/excel/procesosElect/PE20232024/14.xlsx",
+//   },
+//   {
+//     id: 6,
+//     titleItem: "2024_SEE_DIP_LOC_MR_TLAX_SEC",
+//     typeDocument: "excel",
+//     linkItem:
+//       "https://itetlax.org.mx/assets/excel/procesosElect/PE20232024/15.xlsx",
+//   },
+// ];
+
+// export const dataAyuntamientos20232024 = [
+//   {
+//     id: 1,
+//     titleItem: "2024_SEE_AYUN_TLAX_CAS",
+//     typeDocument: "excel",
+//     linkItem:
+//       "https://itetlax.org.mx/assets/excel/procesosElect/PE20232024/16.xlsx",
+//   },
+//   {
+//     id: 2,
+//     titleItem: "2024_SEE_AYUN_TLAX_MUN",
+//     typeDocument: "excel",
+//     linkItem:
+//       "https://itetlax.org.mx/assets/excel/procesosElect/PE20232024/17.xlsx",
+//   },
+//   {
+//     id: 3,
+//     titleItem: "2024_SEE_AYUN_TLAX_MUNCAND",
+//     typeDocument: "excel",
+//     linkItem:
+//       "https://itetlax.org.mx/assets/excel/procesosElect/PE20232024/18.xlsx",
+//   },
+//   {
+//     id: 4,
+//     titleItem: "2024_SEE_AYUN_TLAX_MUNPP",
+//     typeDocument: "excel",
+//     linkItem:
+//       "https://itetlax.org.mx/assets/excel/procesosElect/PE20232024/19.xlsx",
+//   },
+//   {
+//     id: 5,
+//     titleItem: "2024_SEE_AYUN_TLAX_SEC",
+//     typeDocument: "excel",
+//     linkItem:
+//       "https://itetlax.org.mx/assets/excel/procesosElect/PE20232024/20.xlsx",
+//   },
+// ];
+
+// export const dataPresidencias20232024 = [
+//   {
+//     id: 1,
+//     titleItem: "2024_SEE_PRE_COM_TLAX_CAS",
+//     typeDocument: "excel",
+//     linkItem:
+//       "https://itetlax.org.mx/assets/excel/procesosElect/PE20232024/21.xlsx",
+//   },
+//   {
+//     id: 2,
+//     titleItem: "2024_SEE_PRE_COM_TLAX_MUN",
+//     typeDocument: "excel",
+//     linkItem:
+//       "https://itetlax.org.mx/assets/excel/procesosElect/PE20232024/22.xlsx",
+//   },
+//   {
+//     id: 3,
+//     titleItem: "2024_SEE_PRE_COM_TLAX_MUNCAND",
+//     typeDocument: "excel",
+//     linkItem:
+//       "https://itetlax.org.mx/assets/excel/procesosElect/PE20232024/23.xlsx",
+//   },
+//   {
+//     id: 4,
+//     titleItem: "2024_SEE_PRE_COM_TLAX_MUNPP",
+//     typeDocument: "excel",
+//     linkItem:
+//       "https://itetlax.org.mx/assets/excel/procesosElect/PE20232024/24.xlsx",
+//   },
+//   {
+//     id: 5,
+//     titleItem: "2024_SEE_PRE_COM_TLAX_SEC",
+//     typeDocument: "excel",
+//     linkItem:
+//       "https://itetlax.org.mx/assets/excel/procesosElect/PE20232024/25.xlsx",
+//   },
+// ];
+
 export const dataResultadosE2021 = [
   {
     id: 1,
