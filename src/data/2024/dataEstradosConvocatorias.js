@@ -5,11 +5,6 @@ export const dataEstrados = [
   //   numCedula: "3257",
   // },
 
-  //bajar el 18 de junio
-  {
-    id: 1,
-    numCedula: "4252",
-  },
   //bajar el 19 de junio
   {
     id: 2,
@@ -23,6 +18,43 @@ export const dataEstrados = [
   {
     id: 4,
     numCedula: "4333",
+  },
+  // bajar el 22 de junio
+  {
+    id: 5,
+    numCedula: "4366",
+  },
+  {
+    id: 6,
+    numCedula: "4369",
+  },
+  {
+    id: 7,
+    numCedula: "4376",
+  },
+  {
+    id: 8,
+    numCedula: "4386",
+  },
+  {
+    id: 9,
+    numCedula: "4387",
+  },
+  {
+    id: 10,
+    numCedula: "4388",
+  },
+  {
+    id: 11,
+    numCedula: "4390",
+  },
+  {
+    id: 12,
+    numCedula: "4391",
+  },
+  {
+    id: 13,
+    numCedula: "4392",
   },
 ];
 
