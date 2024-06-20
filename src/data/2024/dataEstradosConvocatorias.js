@@ -5,80 +5,197 @@ export const dataEstrados = [
   //   numCedula: "3257",
   // },
 
-  //bajar el 19 de junio
-  {
-    id: 1,
-    numCedula: "4267",
-  },
-  //bajar el 19 de junio
-  {
-    id: 2,
-    numCedula: "4281",
-  },
   // bajar el 21 de junio
   {
-    id: 4,
+    id: 1,
     numCedula: "4333",
   },
   // bajar el 22 de junio
   {
-    id: 5,
+    id: 2,
     numCedula: "4366",
   },
   // bajar el 22 de junio
   {
-    id: 6,
+    id: 3,
     numCedula: "4369",
   },
   // bajar el 22 de junio
   {
-    id: 7,
+    id: 4,
     numCedula: "4376",
   },
   // bajar el 22 de junio
   {
-    id: 8,
+    id: 5,
     numCedula: "4386",
   },
   // bajar el 22 de junio
   {
-    id: 9,
+    id: 6,
     numCedula: "4387",
   },
   // bajar el 22 de junio
   {
-    id: 10,
+    id: 7,
     numCedula: "4388",
   },
   // bajar el 21 de junio
   {
-    id: 11,
+    id: 8,
     numCedula: "4390",
   },
   //bajar el 21 de junio
   {
-    id: 12,
+    id: 9,
     numCedula: "4391",
   },
   // bajar el 22 de junio
   {
-    id: 13,
+    id: 10,
     numCedula: "4392",
   },
   // bajar el 23 de junio
   {
-    id: 14,
+    id: 11,
     numCedula: "4410",
   },
   // bajar el 23 de junio
   {
-    id: 15,
+    id: 12,
     numCedula: "4417",
   },
   // bajar el 23 de junio
   {
-    id: 16,
+    id: 13,
     numCedula: "4429",
+  },
+  // bajar el 23 de junio
+  {
+    id: 14,
+    numCedula: "4432",
+  },
+  // bajar el 23 de junio
+  {
+    id: 15,
+    numCedula: "4438",
+  },
+  // bajar el 23 de junio
+  {
+    id: 16,
+    numCedula: "4439",
+  },
+
+  // bajar el 23 de junio
+  {
+    id: 17,
+    numCedula: "4445",
+  },
+  // bajar el 23 de junio
+  {
+    id: 18,
+    numCedula: "4440",
+  },
+  // bajar el 22 de junio
+  {
+    id: 19,
+    numCedula: "4443",
+  },
+  // bajar el 23 de junio
+  {
+    id: 20,
+    numCedula: "4446",
+  },
+  // bajar el 23 de junio
+  {
+    id: 21,
+    numCedula: "4447",
+  },
+  // bajar el 23 de junio
+  {
+    id: 22,
+    numCedula: "4450",
+  },
+  // bajar el 23 de junio
+  {
+    id: 23,
+    numCedula: "4452",
+  },
+  // bajar el 23 de junio
+  {
+    id: 24,
+    numCedula: "4453",
+  },
+  // bajar el 22 de junio
+  {
+    id: 25,
+    numCedula: "4442",
+  },
+  // bajar el 22 de junio
+  {
+    id: 26,
+    numCedula: "4461",
+  },
+  // bajar el 23 de junio
+  {
+    id: 27,
+    numCedula: "4457",
+  },
+  // bajar el 22 de junio
+  {
+    id: 28,
+    numCedula: "4462",
+  },
+  // bajar el 23 de junio
+  {
+    id: 29,
+    numCedula: "4459",
+  },
+  // bajar el 23 de junio
+  {
+    id: 30,
+    numCedula: "4463",
+  },
+  // bajar el 22 de junio
+  {
+    id: 31,
+    numCedula: "4469",
+  },
+  // bajar el 22 de junio
+  {
+    id: 32,
+    numCedula: "4467",
+  },
+  // bajar el 23 de junio
+  {
+    id: 34,
+    numCedula: "4468",
+  },
+  // bajar el 23 de junio
+  {
+    id: 35,
+    numCedula: "4470",
+  },
+  // bajar el 22 de junio
+  {
+    id: 36,
+    numCedula: "4466",
+  },
+
+  // bajar el 22 de junio
+  {
+    id: 37,
+    numCedula: "4473",
+  },
+  // bajar el 22 de junio
+  {
+    id: 38,
+    numCedula: "4465",
+  },
+  // bajar el 22 de junio
+  {
+    id: 39,
+    numCedula: "4481",
   },
 ];
 
