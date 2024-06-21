@@ -263,6 +263,48 @@ export const dataEstrados = [
     id: 52,
     numCedula: "4487",
   },
+  // bajar el 24 de junio
+  {
+    id: 53,
+    numCedula: "4506",
+  },
+
+  // bajar el 24 de junio
+  {
+    id: 54,
+    numCedula: "4526",
+  },
+  // bajar el 23 de junio
+  {
+    id: 55,
+    numCedula: "4528",
+  },
+  // bajar el 23 de junio
+  {
+    id: 56,
+    numCedula: "4527",
+  },
+  // bajar el 24 de junio
+  {
+    id: 57,
+    numCedula: "4529",
+  },
+  // bajar el 24 de junio
+  {
+    id: 58,
+    numCedula: "4506",
+  },
+
+  // bajar el 24 de junio
+  {
+    id: 59,
+    numCedula: "4535",
+  },
+  // bajar el 24 de junio
+  {
+    id: 60,
+    numCedula: "4536",
+  },
 ];
 
 export const dataConvocatorias = [
