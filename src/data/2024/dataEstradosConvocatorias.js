@@ -305,6 +305,11 @@ export const dataEstrados = [
     id: 60,
     numCedula: "4536",
   },
+  // bajar el 24 de junio
+  {
+    id: 61,
+    numCedula: "4550",
+  },
 ];
 
 export const dataConvocatorias = [
