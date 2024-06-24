@@ -358,7 +358,7 @@ export const dataMonitoreoMIyD = [
     id: 11,
     yearBoletin: "2024",
     monthBoletin: "JUN",
-    nameBoletin: "DecimoQUINTO Informe Quincenal",
+    nameBoletin: "Decimoquinto Informe Quincenal",
     linkBoletin:
       "https://itetlax.org.mx/assets/pdf/monitoreos/2024/miyd/11.pdf",
   },
