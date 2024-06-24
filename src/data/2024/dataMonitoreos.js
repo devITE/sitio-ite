@@ -102,7 +102,7 @@ export const dataMonitoreoPG = [
     id: 15,
     yearBoletin: "2024",
     monthBoletin: "MAY",
-    nameBoletin: "Informe Semanal del 30 de abril al 06 de mayo",
+    nameBoletin: "Reporte Semanal del 30 de abril al 06 de mayo",
     linkBoletin: "https://itetlax.org.mx/assets/pdf/monitoreos/2024/pg/15.pdf",
   },
   {
@@ -261,21 +261,21 @@ export const dataMonitoreoRyT = [
     id: 16,
     yearBoletin: "2024",
     monthBoletin: "MAY",
-    nameBoletin: "Informe semanal del 14 al 20 de mayo",
+    nameBoletin: "Reporte semanal del 14 al 20 de mayo",
     linkBoletin: "https://itetlax.org.mx/assets/pdf/monitoreos/2024/ryt/16.pdf",
   },
   {
     id: 17,
     yearBoletin: "2024",
     monthBoletin: "MAY",
-    nameBoletin: "Informe semanal del 21 al 27 de mayo",
+    nameBoletin: "Reporte semanal del 21 al 27 de mayo",
     linkBoletin: "https://itetlax.org.mx/assets/pdf/monitoreos/2024/ryt/17.pdf",
   },
   {
     id: 18,
     yearBoletin: "2024",
     monthBoletin: "MAY",
-    nameBoletin: "Informe semanal del 28 al 29 de mayo",
+    nameBoletin: "Reporte semanal del 28 al 29 de mayo",
     linkBoletin: "https://itetlax.org.mx/assets/pdf/monitoreos/2024/ryt/18.pdf",
   },
 ];
