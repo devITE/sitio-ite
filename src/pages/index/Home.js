@@ -17,7 +17,7 @@ import CarouselItemIMG from "../../layout/Carousel/Carousel/CarouselItemIMG";
 // import { dataVideoPodCast } from "../../data/dataVideoPodCast";
 import { dataITEConecta } from "../../data/dataITEConecta";
 
-// import ModalInit from "../../layout/Modal/ModalInit";
+import ModalInit from "../../layout/Modal/ModalInit";
 import "./Home.css";
 
 // import FlipClockCountdown from "@leenguyen/react-flip-clock-countdown";
@@ -29,17 +29,17 @@ const ITE = () => {
   }, []);
   return (
     <>
-      {/* <ModalInit
+      {/*<ModalInit
         imgLink="https://itetlax.org.mx/assets/img/sesionesCG/sesionA.png"
         url="https://itetlax.org.mx/assets/img/sesionesCG/sesionA.png"
         linkToo=""
-      /> */}
+      />*/}
 
-      {/* <ModalInit
-        imgLink="https://itetlax.org.mx/assets/img/imgC_AR/conoceles.png"
-        url="http://conocelestlaxcala2024.org.mx/"
+      <ModalInit
+        imgLink="https://itetlax.org.mx/assets/img/imgPopup/SO_2806241600.png"
+        url=""
         linkToo=""
-      /> */}
+      />
 
       {/* <ModalInit
         imgLink="https://itetlax.org.mx/assets/img/imgPopup/consultaconvo.jpg"
