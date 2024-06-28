@@ -1,0 +1,7 @@
+.cookie-banner {
+    z-index: 1000;
+    background-color: #960E63;
+    opacity: 0.9;
+    width: 100%;
+    padding: 10px 0;
+}
