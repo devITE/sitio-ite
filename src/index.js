@@ -3,7 +3,7 @@ import ReactDOM from "react-dom/client";
 import ReactGA from "react-ga";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import CookieConsentBanner from "./layout/CookieConsentBanner/CookieConsentBanner";
+// import CookieConsentBanner from "./layout/CookieConsentBanner/CookieConsentBanner";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.js";
 
@@ -17,7 +17,7 @@ ReactGA.initialize("G-65XQG4Y5N3", {
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <CookieConsentBanner />
+    {/* <CookieConsentBanner /> */}
     <App />
   </React.StrictMode>
 );
