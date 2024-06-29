@@ -154,6 +154,13 @@ export const dataMonitoreoPG = [
     nameBoletin: "Segundo Informe Mensual del 30 de abril al 29 de mayo",
     linkBoletin: "https://itetlax.org.mx/assets/pdf/monitoreos/2024/pg/22.pdf",
   },
+  {
+    id: 22,
+    yearBoletin: "2024",
+    monthBoletin: "JUN",
+    nameBoletin: "INFORME FINAL DE GÉNERO 2024",
+    linkBoletin: "https://itetlax.org.mx/assets/pdf/monitoreos/2024/pg/23.pdf",
+  },
 ];
 
 export const dataMonitoreoRyT = [
@@ -309,6 +316,14 @@ export const dataMonitoreoRyT = [
     linkBoletin:
       "https://itetlax.org.mx/assets/pdf/monitoreos/2024/ryt/rt1.pdf",
   },
+  {
+    id: 22,
+    yearBoletin: "2024",
+    monthBoletin: "JUN",
+    nameBoletin: "Informe Final Radio y televisión",
+    linkBoletin:
+      "https://itetlax.org.mx/assets/pdf/monitoreos/2024/ryt/22.pdf",
+  },
 ];
 
 export const dataMonitoreoMIyD = [
@@ -392,5 +407,13 @@ export const dataMonitoreoMIyD = [
     nameBoletin: "Decimoquinto Informe Quincenal",
     linkBoletin:
       "https://itetlax.org.mx/assets/pdf/monitoreos/2024/miyd/11.pdf",
+  },
+  {
+    id: 12,
+    yearBoletin: "2024",
+    monthBoletin: "JUN",
+    nameBoletin: "INFORME FINAL DEL 02 DE NOVIEMBRE DE 2023 AL 13 DE JUNIO 2024  ",
+    linkBoletin:
+      "https://itetlax.org.mx/assets/pdf/monitoreos/2024/miyd/12.pdf",
   },
 ];
