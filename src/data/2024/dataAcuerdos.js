@@ -2795,6 +2795,41 @@ export const dataAcuerdos2024 = [
     pdfAnexo60:
       "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/224.60.pdf",
   },
+  {
+    id: 225,
+    year: "2024",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 225-2024",
+    monthDoc: "JUN",
+    nameDoc: "POR EL QUE SE CALENDARIZAN MULTAS",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/225.pdf",
+    titleAnexo1: "ANEXO ÚNICO",
+    pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/225.1.pdf",
+  },
+  {
+    id: 226,
+    year: "2024",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 226-2024",
+    monthDoc: "JUN",
+    nameDoc: "READUCA PRESUEPUESTO",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/226.pdf",
+    titleAnexo1: "ANEXO ÚNICO",
+    pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/226.1.pdf",
+  },
+  {
+    id: 227,
+    year: "2024",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 227-2024",
+    monthDoc: "JUN",
+    nameDoc: "RETIRO DE PROPAGANDA",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/227.pdf",
+    titleAnexo1: "ANEXO ÚNICO",
+    pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/227.1.pdf",
+    titleAnexo2: "ANEXO ÚNICO",
+    pdfAnexo2: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/227.2.pdf",
+  },
 ];
 
 // ------------ A C U E R D O S    I N E ------------

@@ -284,6 +284,26 @@ export const dataConvenios = [
     title: "ITE y SF",
     url: "https://itetlax.org.mx/assets/pdf/transparencia/convenios/56.pdf",
   },
+  {
+    id: 57,
+    title: "ITE y CANIRAC",
+    url: "https://itetlax.org.mx/assets/pdf/transparencia/convenios/57.pdf",
+  },
+  {
+    id: 58,
+    title: "ITE y LA SMyT",
+    url: "https://itetlax.org.mx/assets/pdf/transparencia/convenios/58.pdf",
+  },
+  {
+    id: 59,
+    title: "ITE y SAET",
+    url: "https://itetlax.org.mx/assets/pdf/transparencia/convenios/59.pdf",
+  },
+  {
+    id: 60,
+    title: "ITE y Dirección de atención a migrantes",
+    url: "https://itetlax.org.mx/assets/pdf/transparencia/convenios/60.pdf",
+  },
 ];
 
 export const dataInformesAnuales = [

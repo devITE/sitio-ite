@@ -35,11 +35,11 @@ const ITE = () => {
         linkToo=""
       />*/}
 
-      <ModalInit
+      {/* <ModalInit
         imgLink="https://itetlax.org.mx/assets/img/imgPopup/SO_2806241600.png"
         url=""
         linkToo=""
-      />
+    /> */ }
 
       {/* <ModalInit
         imgLink="https://itetlax.org.mx/assets/img/imgPopup/consultaconvo.jpg"
