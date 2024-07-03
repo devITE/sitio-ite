@@ -2830,6 +2830,15 @@ export const dataAcuerdos2024 = [
     titleAnexo2: "ANEXO ÚNICO",
     pdfAnexo2: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/227.2.pdf",
   },
+  {
+    id: 228,
+    year: "2024",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 228-2024",
+    monthDoc: "JUL",
+    nameDoc: "DESIGNACION PERSONAL RECUENTO SANTA CRUZ TECHACHALCO PANOTLA",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/228.pdf",
+  },
 ];
 
 // ------------ A C U E R D O S    I N E ------------
