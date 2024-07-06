@@ -8,22 +8,7 @@ export const dataEstrados = [
   // bajar el 26 de junio
   {
     id: 1,
-    numCedula: "4625",
-  },
-  // bajar el 26 de junio
-  {
-    id: 2,
-    numCedula: "4626",
-  },
-  // bajar el 30 de junio
-  {
-    id: 3,
-    numCedula: "4708",
-  },
-  // bajar el 01 de julio
-  {
-    id: 4,
-    numCedula: "4755",
+    numCedula: "4991",
   },
 ];
 

@@ -10,6 +10,15 @@ const AcuerdosAnteriores = () => {
     <>
       <TitlePages title="Acuerdos Anteriores" subTitle="" />
       <div className="w-100 mt-5 Grid__folder">
+      <div>
+          <Link to="/Acuerdos2019">
+            <img
+              className="img-fluid"
+              src="https://itetlax.org.mx/assets/img/icons/32.png"
+              alt="Acuerdos 2019"
+            />
+          </Link>
+        </div>
         <div>
           <Link to="/Acuerdos2018">
             <img
