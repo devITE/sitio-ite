@@ -51,6 +51,7 @@
   },
   "devDependencies": {
     "depcheck": "^1.4.7",
-    "eslint-config-react-app": "^7.0.1"
+    "eslint-config-react-app": "^7.0.1",
+    "@babel/plugin-proposal-private-property-in-object": "^7.19.0"
   }
 }
