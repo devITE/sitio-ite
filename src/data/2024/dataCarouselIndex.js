@@ -93,18 +93,6 @@ export const dataCIndex = [
     url: "https://itetlax.org.mx/assets/img/carousel/concurso_tet2.jpg",
     linkToo: "",
   },
-
-  {
-    id: 15,
-    imgUrl: "https://itetlax.org.mx/assets/carousel/quien_oppm.png",
-    alt: "quien observatorios",
-    itemActive: "active",
-    buttonActive: "active",
-    ariaCurrent: "true",
-    url: "https://itetlax.org.mx/assets/carousel/quien_oppm.pdf",
-    linkToo: "",
-  },
-
   // // {
   //   id: 15,
   //   imgUrl: "https://itetlax.org.mx/assets/carousel/resultados_cp_cael.png",
