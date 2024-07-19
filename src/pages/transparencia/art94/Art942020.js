@@ -1,6 +1,9 @@
 import React, { useEffect, useMemo } from "react";
 import TitlePages from "../../../layout/TitlePages";
-import MaterialReactTable from "material-react-table";
+import {
+  MaterialReactTable,
+  useMaterialReactTable,
+} from "material-react-table";
 import { Box } from "@mui/material";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFileExcel, faFilePdf } from "@fortawesome/free-solid-svg-icons";
@@ -11,6 +14,9 @@ const Art942020 = () => {
   useEffect(() => {
     document.title = `Artículo 94 2020`;
   }, []);
+
+  const data = { dataArt942020 };
+
   const columns = useMemo(
     () => [
       {
@@ -63,13 +69,19 @@ const Art942020 = () => {
     []
   );
 
+  const table = useMaterialReactTable({
+    columns,
+    data,
+  });
+
   return (
     <>
       <TitlePages title="Transparencia" subTitle="Artículo 94. (2020)" />
       <Expandible />
       <MaterialReactTable
-        columns={columns}
-        data={dataArt942020}
+        // columns={columns}
+        // data={dataArt942020}
+        table={table}
         enableExpanding
         enableExpandAll
         enableTopToolbar={false}
