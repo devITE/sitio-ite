@@ -1,7 +1,11 @@
 import React, { useEffect, useMemo } from "react";
 import TitlePages from "../../../layout/TitlePages";
 import ListBadge from "../../../layout/ListBadge";
-import MaterialReactTable from "material-react-table";
+import {
+  MaterialReactTable,
+  useMaterialReactTable,
+} from "material-react-table";
+import { MRT_Localization_ES } from "material-react-table/locales/es";
 import { MenuItem, TextField } from "@mui/material";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
@@ -20,14 +24,12 @@ const InformacionContable = () => {
         accessorKey: "id",
         header: "ID",
         footer: "ID",
-        size: 30,
         enableResizing: false,
       },
       {
         accessorKey: "year",
         header: "AÑO",
         footer: "AÑO",
-        size: 30,
         enableResizing: false,
         Filter: ({ header }) => (
           <TextField
@@ -79,6 +81,29 @@ const InformacionContable = () => {
     ],
     []
   );
+
+  const table = useMaterialReactTable({
+    columns,
+    data: dataCuentaPublicaNew,
+    enableColumnActions: false,
+    enableDensityToggle: false,
+    enableColumnResizing: true,
+    muiExpandButtonProps: ({ row }) => ({
+      sx: {
+        display: row.original.subRows === "" ? "none" : "flex",
+      },
+    }),
+    muiPaginationProps: {
+      rowsPerPageOptions: [10, 25, 50, 100, 200, 300, 400],
+    },
+    localization: {
+      ...MRT_Localization_ES,
+      pagination: {
+        rowsPerPage: "Filas por página",
+      },
+    },
+  });
+
   return (
     <div>
       <TitlePages title="Transparencia" subTitle="Información Contable" />
@@ -91,72 +116,7 @@ const InformacionContable = () => {
       <br />
       <TitlePages title="" subTitle="Cuenta Pública" />
       <SinExpandir />
-      <MaterialReactTable
-        columns={columns}
-        data={dataCuentaPublicaNew}
-        enableColumnActions={false}
-        enableDensityToggle={false}
-        enableColumnResizing={false}
-        initialState={{ density: "compact" }}
-        muiExpandButtonProps={({ row }) => ({
-          sx: {
-            display: row.original.subRows === "" ? "none" : "flex",
-          },
-        })}
-        muiTablePaginationProps={{
-          rowsPerPageOptions: [10, 25, 50, 100, 200, 300, 400],
-          labelRowsPerPage: "Filas por página",
-          getItemAriaLabel: (type) => {
-            if (type === "first") {
-              return "inicio";
-            }
-            if (type === "last") {
-              return "fin";
-            }
-            if (type === "next") {
-              return "siguiente";
-            }
-            if (type === "previous") {
-              return "anterior";
-            }
-          },
-          labelDisplayedRows: ({ from, to, count }) =>
-            `${from}-${to} de ${count !== -1 ? count : `${to} para`}`,
-        }}
-        localization={{
-          actions: "Acciones",
-          cancel: "Cancelar",
-          clearFilter: "Limpiar filtro",
-          clearSearch: "Borrar búsqueda",
-          clearSort: "Ordenar claro",
-          columnActions: "Acciones de columna",
-          edit: "Editar",
-          expand: "",
-          expandAll: "Expandir todo",
-          filterByColumn: "{column}",
-          groupByColumn: "Agrupar por {column}",
-          groupedBy: "Agrupados por ",
-          hideAll: "Ocultar todo",
-          hideColumn: "Ocultar columna de {column}",
-          rowActions: "Acciones de fila",
-          save: "Salvar",
-          search: "Búsqueda",
-          selectedCountOfRowCountRowsSelected:
-            "{selectedCount} de {rowCount} fila(s) seleccionadas",
-          showAll: "Mostrar todo",
-          showHideColumns: "Mostrar/Ocultar columnas",
-          showHideFilters: "Alternar filtros",
-          showHideSearch: "Alternar búsqueda",
-          sortByColumnAsc: "Ordenar por {column} ascendente",
-          sortByColumnDesc: "Ordenar por {column} descendiendo",
-          thenBy: ", entonces por ",
-          toggleDensity: "Alternar relleno denso",
-          toggleFullScreen: "Alternar pantalla completa",
-          toggleSelectAll: "Seleccionar todo",
-          toggleSelectRow: "Seleccionar fila",
-          ungroupByColumn: "Desagrupar por {column}",
-        }}
-      />
+      <MaterialReactTable table={table} />
     </div>
   );
 };
