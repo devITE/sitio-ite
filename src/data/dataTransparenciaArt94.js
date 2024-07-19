@@ -26,16 +26,3 @@ export const dataArt942021 = [
     pdf: "https://itetlax.org.mx/assets/pdf/transparencia/art94/2021/LTAIPT_A94F1.pdf",
   },
 ];
-export const dataArt942022 = [
-  {
-    no: "1",
-    fraccion: "I",
-    titulo: "Índice de los expedientes reservados",
-    cumplimiento: "Aplica",
-    fundamentoLegal:
-      "Artículo. 94 Fracción I de la Ley de Transparencia y acceso a la información para el Estado de Tlaxcala",
-    actualizacion: "2022",
-    excel: "",
-    subRows: "",
-  },
-];
