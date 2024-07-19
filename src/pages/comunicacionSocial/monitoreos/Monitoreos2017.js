@@ -1,5 +1,8 @@
 import React, { useMemo, useEffect } from "react";
-import MaterialReactTable from "material-react-table";
+import {
+  MaterialReactTable,
+  useMaterialReactTable,
+} from "material-react-table";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
 import { dataMonitoreos2017 } from "../../../data/dataMonitoreos";
@@ -9,6 +12,7 @@ const Monitoreos2017 = () => {
   useEffect(() => {
     document.title = `Monitoreos 2017`;
   }, []);
+
   const columns = useMemo(
     () => [
       {
@@ -48,24 +52,27 @@ const Monitoreos2017 = () => {
     ],
     []
   );
+
+  const table = useMaterialReactTable({
+    columns,
+    data: dataMonitoreos2017,
+    enableTopToolbar: false,
+    enableBottomToolbar: false,
+    enableColumnActions: false,
+    enableDensityToggle: false,
+    initialState: { density: "compact" },
+    muiTableHeadCellProps: {
+      sx: {
+        backgroundColor: "#972069",
+        color: "#fff",
+      },
+    },
+  });
+
   return (
     <>
       <TitlePages title="Comunicación Social" subTitle="Monitoreos 2017" />
-      <MaterialReactTable
-        columns={columns}
-        data={dataMonitoreos2017}
-        enableTopToolbar={false}
-        enableBottomToolbar={false}
-        enableColumnActions={false}
-        enableDensityToggle={false}
-        initialState={{ density: "compact" }}
-        muiTableHeadCellProps={{
-          sx: {
-            backgroundColor: "#972069",
-            color: "#fff",
-          },
-        }}
-      />
+      <MaterialReactTable table={table} />
     </>
   );
 };
