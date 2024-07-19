@@ -1,6 +1,10 @@
 import React, { useMemo, useEffect } from "react";
 import TitlePages from "../../../layout/TitlePages";
-import MaterialReactTable from "material-react-table";
+import {
+  MaterialReactTable,
+  useMaterialReactTable,
+} from "material-react-table";
+import { MRT_Localization_ES } from "material-react-table/locales/es";
 import { Box } from "@mui/material";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFileExcel } from "@fortawesome/free-solid-svg-icons";
@@ -11,6 +15,7 @@ const Art632023 = () => {
   useEffect(() => {
     document.title = `Artículo 63 2023`;
   }, []);
+
   const columns = useMemo(
     () => [
       {
@@ -69,6 +74,69 @@ const Art632023 = () => {
     []
   );
 
+  const getExcelFileLinks = (files) => {
+    return files.map((file, index) =>
+      file ? (
+        <p key={index}>
+          {file.substring(61, 100).slice(0, -5)}{" "}
+          <a href={file} target="_blank" rel="noreferrer">
+            <FontAwesomeIcon icon={faFileExcel} className="btn btn-success" />
+          </a>
+        </p>
+      ) : null
+    );
+  };
+
+  const renderTransparencia = ({ row }) => {
+    const files = [
+      row.original.excel1,
+      row.original.excel2,
+      row.original.excel3,
+      row.original.excel4,
+    ].filter(Boolean);
+
+    if (files.length === 0) {
+      return <span></span>;
+    }
+
+    const fraccion = files[0].substring(72, 100).slice(0, -7);
+
+    return (
+      <Box id="Box">
+        <p className="text-strong">
+          Descarga {files.length > 1 ? "los archivos" : "el archivo"} de la
+          Fracción {fraccion}
+        </p>
+        {getExcelFileLinks(files)}
+      </Box>
+    );
+  };
+
+  const table = useMaterialReactTable({
+    columns,
+    data: dataArt632023,
+    enableExpanding: true,
+    enableExpandAll: true,
+    enableColumnActions: false,
+    enableColumnResizing: true,
+    enableDensityToggle: false,
+    muiExpandButtonProps: ({ row }) => ({
+      sx: {
+        display: row.original.subRows === "" ? "none" : "flex",
+      },
+    }),
+    muiPaginationProps: {
+      rowsPerPageOptions: [10, 25, 50, 100, 200, 300, 400],
+    },
+    localization: {
+      ...MRT_Localization_ES,
+      pagination: {
+        rowsPerPage: "Filas por página",
+      },
+    },
+    renderDetailPanel: renderTransparencia,
+  });
+
   return (
     <>
       <TitlePages
@@ -76,279 +144,7 @@ const Art632023 = () => {
         subTitle="Artículo 63. (2023) Obligaciones Comunes"
       />
       <Expandible />
-      <MaterialReactTable
-        columns={columns}
-        data={dataArt632023}
-        enableExpanding
-        enableExpandAll
-        enableColumnActions={false}
-        enableColumnResizing
-        enableDensityToggle={false}
-        muiExpandButtonProps={({ row }) => ({
-          sx: {
-            display: row.original.subRows === "" ? "none" : "flex",
-          },
-        })}
-        renderDetailPanel={({ row }) =>
-          (row.original.excel1 === "") &
-          (row.original.excel2 === "") &
-          (row.original.excel3 === "") &
-          (row.original.excel4 === "") ? (
-            <span></span>
-          ) : (
-            <Box id="Box">
-              {(row.original.excel1 !== "") &
-              (row.original.excel2 === "") &
-              (row.original.excel3 === "") &
-              (row.original.excel4 === "") ? (
-                <div>
-                  <p className="text-strong">
-                    Descarga el archivo de la Fracción{" "}
-                    {row.original.excel1
-                      ? row.original.excel1.substring(72, 100).slice(0, -5)
-                      : []}
-                  </p>
-                  <p>
-                    {row.original.excel1
-                      ? row.original.excel1.substring(65, 100).slice(0, -5)
-                      : []}{" "}
-                    <a
-                      href={row.original.excel1}
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <FontAwesomeIcon
-                        icon={faFileExcel}
-                        className="btn btn-success"
-                      />
-                    </a>
-                  </p>
-                </div>
-              ) : (row.original.excel1 !== "") &
-                (row.original.excel2 !== "") &
-                (row.original.excel3 === "") &
-                (row.original.excel4 === "") ? (
-                <div>
-                  <p className="text-strong">
-                    Descarga los archivos de la Fracción{" "}
-                    {row.original.excel1
-                      ? row.original.excel1.substring(72, 100).slice(0, -7)
-                      : []}
-                  </p>
-                  <p>
-                    {row.original.excel1
-                      ? row.original.excel1.substring(65, 100).slice(0, -5)
-                      : []}{" "}
-                    <a
-                      href={row.original.excel1}
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <FontAwesomeIcon
-                        icon={faFileExcel}
-                        className="btn btn-success"
-                      />
-                    </a>
-                  </p>
-                  <p>
-                    {row.original.excel2
-                      ? row.original.excel2.substring(65, 100).slice(0, -5)
-                      : []}{" "}
-                    <a
-                      href={row.original.excel2}
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <FontAwesomeIcon
-                        icon={faFileExcel}
-                        className="btn btn-success"
-                      />
-                    </a>
-                  </p>
-                </div>
-              ) : (row.original.excel1 !== "") &
-                (row.original.excel2 !== "") &
-                (row.original.excel3 !== "") &
-                (row.original.excel4 === "") ? (
-                <div>
-                  <p className="text-strong">
-                    Descarga los archivos de la Fracción{" "}
-                    {row.original.excel1
-                      ? row.original.excel1.substring(72, 100).slice(0, -7)
-                      : []}
-                  </p>
-                  <p>
-                    {row.original.excel1
-                      ? row.original.excel1.substring(65, 100).slice(0, -5)
-                      : []}{" "}
-                    <a
-                      href={row.original.excel1}
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <FontAwesomeIcon
-                        icon={faFileExcel}
-                        className="btn btn-success"
-                      />
-                    </a>
-                  </p>
-                  <p>
-                    {row.original.excel2
-                      ? row.original.excel2.substring(65, 100).slice(0, -5)
-                      : []}{" "}
-                    <a
-                      href={row.original.excel2}
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <FontAwesomeIcon
-                        icon={faFileExcel}
-                        className="btn btn-success"
-                      />
-                    </a>
-                  </p>
-                  <p>
-                    {row.original.excel3
-                      ? row.original.excel3.substring(65, 100).slice(0, -5)
-                      : []}{" "}
-                    <a
-                      href={row.original.excel3}
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <FontAwesomeIcon
-                        icon={faFileExcel}
-                        className="btn btn-success"
-                      />
-                    </a>
-                  </p>
-                </div>
-              ) : (
-                <div>
-                  <p className="text-strong">
-                    Descarga los archivos de la Fracción{" "}
-                    {row.original.excel1
-                      ? row.original.excel1.substring(72, 100).slice(0, -7)
-                      : []}
-                  </p>
-                  <p>
-                    {row.original.excel1
-                      ? row.original.excel1.substring(65, 100).slice(0, -5)
-                      : []}{" "}
-                    <a
-                      href={row.original.excel1}
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <FontAwesomeIcon
-                        icon={faFileExcel}
-                        className="btn btn-success"
-                      />
-                    </a>
-                  </p>
-                  <p>
-                    {row.original.excel2
-                      ? row.original.excel2.substring(65, 100).slice(0, -5)
-                      : []}{" "}
-                    <a
-                      href={row.original.excel2}
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <FontAwesomeIcon
-                        icon={faFileExcel}
-                        className="btn btn-success"
-                      />
-                    </a>
-                  </p>
-                  <p>
-                    {row.original.excel3
-                      ? row.original.excel3.substring(65, 100).slice(0, -5)
-                      : []}{" "}
-                    <a
-                      href={row.original.excel3}
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <FontAwesomeIcon
-                        icon={faFileExcel}
-                        className="btn btn-success"
-                      />
-                    </a>
-                  </p>
-                  <p>
-                    {row.original.excel4
-                      ? row.original.excel4.substring(65, 100).slice(0, -5)
-                      : []}{" "}
-                    <a
-                      href={row.original.excel4}
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <FontAwesomeIcon
-                        icon={faFileExcel}
-                        className="btn btn-success"
-                      />
-                    </a>
-                  </p>
-                </div>
-              )}
-            </Box>
-          )
-        }
-        muiTablePaginationProps={{
-          labelRowsPerPage: "Filas por página",
-          getItemAriaLabel: (type) => {
-            if (type === "first") {
-              return "inicio";
-            }
-            if (type === "last") {
-              return "fin";
-            }
-            if (type === "next") {
-              return "siguiente";
-            }
-            if (type === "previous") {
-              return "anterior";
-            }
-          },
-          labelDisplayedRows: ({ from, to, count }) =>
-            `${from}-${to} de ${count !== -1 ? count : `${to} para`}`,
-        }}
-        localization={{
-          actions: "Acciones",
-          cancel: "Cancelar",
-          clearFilter: "Limpiar filtro",
-          clearSearch: "Borrar búsqueda",
-          clearSort: "Ordenar claro",
-          columnActions: "Acciones de columna",
-          edit: "Editar",
-          expand: "Expandir",
-          expandAll: "Expandir todo",
-          filterByColumn: "{column}",
-          groupByColumn: "Agrupar por {column}",
-          groupedBy: "Agrupados por ",
-          hideAll: "Ocultar todo",
-          hideColumn: "Ocultar columna de {column}",
-          rowActions: "Acciones de fila",
-          save: "Salvar",
-          search: "Búsqueda",
-          selectedCountOfRowCountRowsSelected:
-            "{selectedCount} de {rowCount} fila(s) seleccionadas",
-          showAll: "Mostrar todo",
-          showHideColumns: "Mostrar/Ocultar columnas",
-          showHideFilters: "Alternar filtros",
-          showHideSearch: "Alternar búsqueda",
-          sortByColumnAsc: "Ordenar por {column} ascendente",
-          sortByColumnDesc: "Ordenar por {column} descendiendo",
-          thenBy: ", entonces por ",
-          toggleDensity: "Alternar relleno denso",
-          toggleFullScreen: "Alternar pantalla completa",
-          toggleSelectAll: "Seleccionar todo",
-          toggleSelectRow: "Seleccionar fila",
-          ungroupByColumn: "Desagrupar por {column}",
-        }}
-      />
+      <MaterialReactTable table={table} />
     </>
   );
 };
