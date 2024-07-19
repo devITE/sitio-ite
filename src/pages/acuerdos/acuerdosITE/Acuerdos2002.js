@@ -1,16 +1,77 @@
 import React, { useMemo, useEffect } from "react";
 import TitlePages from "../../../layout/TitlePages";
-import MaterialReactTable from "material-react-table";
-import { MenuItem, TextField } from "@mui/material";
+import {
+  MaterialReactTable,
+  useMaterialReactTable,
+} from "material-react-table";
+import { MRT_Localization_ES } from "material-react-table/locales/es";
+import { Box, MenuItem, TextField } from "@mui/material";
 import { dataAcuerdos2002, dataAA2002 } from "../../../data/dataAcuerdos";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
 import SinExpandir from "../../../layout/HelperDataTable/SinExpandir";
 
+const PdfLink = ({ url }) => (
+  <a href={url} target="_blank" rel="noreferrer">
+    <FontAwesomeIcon icon={faFilePdf} className="btn btn-danger" />
+  </a>
+);
+
+const TableRow = ({ title, url }) =>
+  title && url ? (
+    <tr>
+      <td>{title.toUpperCase()}</td>
+      <td>
+        <PdfLink url={url} />
+      </td>
+    </tr>
+  ) : null;
+
 const Acuerdos2002 = () => {
   useEffect(() => {
     document.title = `Acuerdos ITE 2002`;
   }, []);
+
+  const renderDetailPanelAcuerdos = ({ row }) => (
+    <Box id="Box">
+      <div className="table-responsive">
+        <table className="table table-hover table-sm table-bordered table align-middle w-40">
+          <thead>
+            <tr>
+              <td colSpan={2}>
+                <br />
+                <strong>A C U E R D O</strong>
+                <br />
+                <br />
+              </td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr className="table-secondary">
+              <td>
+                {row.original.typeDoc} {row.original.numDoc}{" "}
+                {row.original.nameDoc}
+              </td>
+              <td>
+                <PdfLink url={row.original.link} />
+              </td>
+            </tr>
+            {[...Array(70)].map((_, i) => {
+              const index = i + 1;
+              return (
+                <TableRow
+                  key={index}
+                  title={row.original[`titleAnexo${index}`]}
+                  url={row.original[`pdfAnexo${index}`]}
+                />
+              );
+            })}
+          </tbody>
+        </table>
+      </div>
+    </Box>
+  );
+
   const columns = useMemo(
     () => [
       {
@@ -75,6 +136,33 @@ const Acuerdos2002 = () => {
     []
   );
 
+  const table = useMaterialReactTable({
+    columns,
+    data: dataAcuerdos2002,
+    enableExpanding: true,
+    enableExpandAll: true,
+    enableSorting: false,
+    enableHiding: false,
+    enableColumnActions: false,
+    enableDensityToggle: false,
+    initialState: { density: "compact" },
+    muiExpandButtonProps: ({ row }) => ({
+      sx: {
+        display: row.original.subRows === "" ? "none" : "flex",
+      },
+    }),
+    renderDetailPanel: renderDetailPanelAcuerdos,
+    muiPaginationProps: {
+      rowsPerPageOptions: [10, 25, 50, 100, 200, 300, 400],
+    },
+    localization: {
+      ...MRT_Localization_ES,
+      pagination: {
+        rowsPerPage: "Filas por página",
+      },
+    },
+  });
+
   const columnsAA = useMemo(
     () => [
       {
@@ -134,74 +222,40 @@ const Acuerdos2002 = () => {
     ],
     []
   );
+  const tableAA = useMaterialReactTable({
+    columns: columnsAA,
+    data: dataAA2002,
+    enableExpanding: true,
+    enableExpandAll: true,
+    enableSorting: false,
+    enableHiding: false,
+    enableColumnActions: false,
+    enableDensityToggle: false,
+    initialState: { density: "compact" },
+    muiExpandButtonProps: ({ row }) => ({
+      sx: {
+        display: row.original.subRows === "" ? "none" : "flex",
+      },
+    }),
+    renderDetailPanel: renderDetailPanelAcuerdos,
+    muiPaginationProps: {
+      rowsPerPageOptions: [10, 25, 50, 100, 200, 300, 400],
+    },
+    localization: {
+      ...MRT_Localization_ES,
+      pagination: {
+        rowsPerPage: "Filas por página",
+      },
+    },
+  });
 
   return (
     <>
       <TitlePages title="Acuerdos Anteriores" subTitle="Acuerdos ITE 2002" />
       <SinExpandir />
-      <MaterialReactTable
-        columns={columns}
-        data={dataAcuerdos2002}
-        enableExpanding
-        enableExpandAll={false}
-        enableColumnActions={false}
-        enableDensityToggle={false}
-        initialState={{ density: "compact" }}
-        muiExpandButtonProps={({ row }) => ({
-          sx: {
-            display: row.original.subRows === "" ? "none" : "flex",
-          },
-        })}
-        localization={{
-          actions: "Acciones",
-          cancel: "Cancelar",
-          clearFilter: "Limpiar filtro",
-          clearSearch: "Borrar búsqueda",
-          clearSort: "Ordenar claro",
-          columnActions: "Acciones de columna",
-          edit: "Editar",
-          expand: "",
-          expandAll: "Expandir todo",
-          filterByColumn: "{column}",
-          groupByColumn: "Agrupar por {column}",
-          groupedBy: "Agrupados por ",
-          hideAll: "Ocultar todo",
-          hideColumn: "Ocultar columna de {column}",
-          rowActions: "Acciones de fila",
-          save: "Salvar",
-          search: "Búsqueda",
-          selectedCountOfRowCountRowsSelected:
-            "{selectedCount} de {rowCount} fila(s) seleccionadas",
-          showAll: "Mostrar todo",
-          showHideColumns: "Mostrar/Ocultar columnas",
-          showHideFilters: "Alternar filtros",
-          showHideSearch: "Alternar búsqueda",
-          sortByColumnAsc: "Ordenar por {column} ascendente",
-          sortByColumnDesc: "Ordenar por {column} descendiendo",
-          thenBy: ", entonces por ",
-          toggleDensity: "Alternar relleno denso",
-          toggleFullScreen: "Alternar pantalla completa",
-          toggleSelectAll: "Seleccionar todo",
-          toggleSelectRow: "Seleccionar fila",
-          ungroupByColumn: "Desagrupar por {column}",
-        }}
-      />
+      <MaterialReactTable table={table} />
       <TitlePages title="" subTitle="Acuerdos ITE Aprobados 2002" />
-      <MaterialReactTable
-        columns={columnsAA}
-        data={dataAA2002}
-        enablePagination={false}
-        enableTopToolbar={false}
-        enableColumnActions={false}
-        enableDensityToggle={false}
-        initialState={{ density: "compact" }}
-        muiTableHeadCellProps={{
-          sx: {
-            backgroundColor: "#972069",
-            color: "#fff",
-          },
-        }}
-      />
+      <MaterialReactTable table={tableAA} />
     </>
   );
 };

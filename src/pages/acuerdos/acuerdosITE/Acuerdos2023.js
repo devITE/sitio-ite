@@ -80,7 +80,8 @@ const AcuerdosITE2023 = () => {
         size: 55,
       },
       {
-        accessorFn: (row) => `${row.typeDoc} ${row.nameDoc}`,
+        accessorFn: (row) =>
+          row.nameDoc ? `${row.typeDoc} ${row.nameDoc}` : "",
         id: "titulo",
         header: "TÍTULO",
         footer: "TÍTULO",
@@ -108,10 +109,10 @@ const AcuerdosITE2023 = () => {
             <tr className="table-secondary">
               <td>
                 {row.original.typeDoc} {row.original.numDoc}{" "}
-                {row.original.nameDoc}
+                {row.original.nameDoc || ""}
               </td>
               <td>
-                <PdfLink url={row.original.link} />
+                {row.original.link && <PdfLink url={row.original.link} />}
               </td>
             </tr>
             {[...Array(70)].map((_, i) => {
@@ -165,4 +166,5 @@ const AcuerdosITE2023 = () => {
     </>
   );
 };
+
 export default AcuerdosITE2023;
