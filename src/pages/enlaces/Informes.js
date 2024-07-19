@@ -1,6 +1,9 @@
 import React, { useMemo, useEffect } from "react";
 import NavbarEnlaces from "../../layout/NavbarEnlaces";
-import MaterialReactTable from "material-react-table";
+import {
+  MaterialReactTable,
+  useMaterialReactTable,
+} from "material-react-table";
 import { MenuItem, TextField } from "@mui/material";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
@@ -83,22 +86,24 @@ const Encuestas = () => {
     []
   );
 
+  const table = useMaterialReactTable({
+    columns,
+    data: dataInformesPELO,
+    enableExpanding: false,
+    enableExpandAll: true,
+    enableColumnActions: false,
+    enableDensityToggle: false,
+    enableColumnResizing: false,
+    enableTopToolbar: false,
+    enablePagination: false,
+    initialState: { density: "compact" },
+  });
+
   return (
     <>
       <NavbarEnlaces title="Encuestas y Sondeos de opinión en materia electoral del Proceso Local Ordinario 2023-2024" />
 
-      <MaterialReactTable
-        columns={columns}
-        data={dataInformesPELO}
-        enableExpanding={false}
-        enableExpandAll
-        enableColumnActions={false}
-        enableDensityToggle={false}
-        enableColumnResizing={false}
-        enableTopToolbar={false}
-        enablePagination={false}
-        initialState={{ density: "compact" }}
-      />
+      <MaterialReactTable table={table} />
     </>
   );
 };
