@@ -47,13 +47,8 @@ import Estructura from "./pages/consejoGeneral/Estructura";
 
 //Acuerdos INE
 import AcuerdosINE from "./pages/acuerdos/acuerdosINE/AcuerdosINE";
-import AcuerdosINE2015 from "./pages/acuerdos/acuerdosINE/AcuerdosINE2015";
-import AcuerdosINE2016 from "./pages/acuerdos/acuerdosINE/AcuerdosINE2016";
-import AcuerdosINE2020 from "./pages/acuerdos/acuerdosINE/AcuerdosINE2020";
-import AcuerdosINE2021 from "./pages/acuerdos/acuerdosINE/AcuerdosINE2021";
-import AcuerdosINE2022 from "./pages/acuerdos/acuerdosINE/AcuerdosINE2022";
-import AcuerdosINE2023 from "./pages/acuerdos/acuerdosINE/AcuerdosINE2023";
 import AcuerdosINE2024 from "./pages/acuerdos/acuerdosINE/AcuerdosINE2024";
+import AcuerdosTableINE from "./pages/acuerdos/acuerdosINE/AcuerdosTableINE";
 
 //Acuerdos ITE
 import AcuerdosAnteriores from "./pages/acuerdos/AcuerdosAnteriores";
@@ -272,12 +267,31 @@ function App() {
           <Route path="/Acuerdos2024" element={<Acuerdos2024 />} />
 
           {/* Acuerdos INE */}
-          <Route path="/AcuerdosINE2015" element={<AcuerdosINE2015 />} />
-          <Route path="/AcuerdosINE2016" element={<AcuerdosINE2016 />} />
-          <Route path="/AcuerdosINE2020" element={<AcuerdosINE2020 />} />
-          <Route path="/AcuerdosINE2021" element={<AcuerdosINE2021 />} />
-          <Route path="/AcuerdosINE2022" element={<AcuerdosINE2022 />} />
-          <Route path="/AcuerdosINE2023" element={<AcuerdosINE2023 />} />
+          <Route
+            path="/AcuerdosINE2015"
+            element={<AcuerdosTableINE year="2015" />}
+          />
+          <Route
+            path="/AcuerdosINE2016"
+            element={<AcuerdosTableINE year="2016" />}
+          />
+          <Route
+            path="/AcuerdosINE2020"
+            element={<AcuerdosTableINE year="2020" />}
+          />
+          <Route
+            path="/AcuerdosINE2021"
+            element={<AcuerdosTableINE year="2021" />}
+          />
+          <Route
+            path="/AcuerdosINE2022"
+            element={<AcuerdosTableINE year="2022" />}
+          />
+          <Route
+            path="/AcuerdosINE2023"
+            element={<AcuerdosTableINE year="2023" />}
+          />
+
           <Route path="/AcuerdosINE2024" element={<AcuerdosINE2024 />} />
 
           {/* Demarcaciones */}

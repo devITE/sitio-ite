@@ -8,6 +8,7 @@ import { MRT_Localization_ES } from "material-react-table/locales/es";
 import { Box } from "@mui/material";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
+import { dataAcuerdosINE } from "../../../data/dataAcuerdos"; // Ajusta la ruta según la ubicación real del archivo
 import Expandible from "../../../layout/HelperDataTable/Expandible";
 
 const PdfLink = ({ url }) => (
@@ -26,7 +27,9 @@ const TableRow = ({ title, url }) =>
     </tr>
   ) : null;
 
-const AcuerdosTable = ({ data, year }) => {
+const AcuerdosTableINE = ({ year }) => {
+  const data = useMemo(() => dataAcuerdosINE[year] || [], [year]);
+
   useEffect(() => {
     document.title = `Acuerdos INE ${year}`;
   }, [year]);
@@ -141,4 +144,4 @@ const AcuerdosTable = ({ data, year }) => {
   );
 };
 
-export default AcuerdosTable;
+export default AcuerdosTableINE;
