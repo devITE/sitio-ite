@@ -1,6 +1,10 @@
 import React, { useMemo, useEffect } from "react";
 import NavbarEnlaces from "../../layout/NavbarEnlaces";
-import MaterialReactTable from "material-react-table";
+import {
+  MaterialReactTable,
+  useMaterialReactTable,
+} from "material-react-table";
+import { MRT_Localization_ES } from "material-react-table/locales/es";
 import { Box } from "@mui/material";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFileWord, faFilePdf } from "@fortawesome/free-solid-svg-icons";
@@ -10,6 +14,7 @@ const Normatividad = () => {
   useEffect(() => {
     document.title = `Normatividad`;
   }, []);
+
   const columns = useMemo(
     () => [
       {
@@ -29,6 +34,67 @@ const Normatividad = () => {
       },
     ],
     []
+  );
+
+  const renderDetailPanel = ({ row }) => {
+    const { pdf, pdfMobile, word } = row.original;
+
+    const renderFile = (file, icon, className) =>
+      file ? (
+        <div className="col-md-4">
+          <span>{icon === faFilePdf ? "PDF" : "Word"} </span>
+          <a
+            href={file}
+            target="_blank"
+            rel="noreferrer"
+            className={`btn ${className}`}
+          >
+            <FontAwesomeIcon icon={icon} />
+          </a>
+        </div>
+      ) : null;
+
+    return (
+      <Box id="Box">
+        <div className="row">
+          {renderFile(pdf, faFilePdf, "btn-danger")}
+          {renderFile(word, faFileWord, "btn-primary")}
+          {renderFile(pdfMobile, faFilePdf, "btn-danger")}
+        </div>
+      </Box>
+    );
+  };
+
+  const tableConfigs = useMemo(
+    () =>
+      dataNormatividad.map((buttonNormatividad) => ({
+        columns,
+        data: buttonNormatividad.children || [],
+        enableExpanding: true,
+        enableExpandAll: true,
+        enableColumnActions: false,
+        enableColumnResizing: true,
+        enableDensityToggle: false,
+        muiExpandButtonProps: ({ row }) => ({
+          sx: {
+            display:
+              row.original.subRows && row.original.subRows.length === 0
+                ? "none"
+                : "flex",
+          },
+        }),
+        muiTablePaginationProps: {
+          rowsPerPageOptions: [10, 25, 50, 100, 200, 300, 400],
+        },
+        localization: {
+          ...MRT_Localization_ES,
+          pagination: {
+            rowsPerPage: "Filas por página",
+          },
+        },
+        renderDetailPanel,
+      })),
+    [columns, dataNormatividad]
   );
 
   return (
@@ -58,184 +124,27 @@ const Normatividad = () => {
           ))}
         </div>
         <div className="tab-content w-75" id="v-pills-tabContent">
-          {dataNormatividad.map((buttonNormatividad) => (
-            <div
-              key={buttonNormatividad.id}
-              className="tab-pane fade"
-              id={"v-pills-" + buttonNormatividad.nameButton}
-              role="tabpanel"
-              aria-labelledby={
-                "v-pills-" + buttonNormatividad.nameButton + "-tab"
-              }
-              tabIndex="0"
-            >
-              <MaterialReactTable
-                columns={columns}
-                data={buttonNormatividad.children}
-                enableExpanding
-                enableExpandAll
-                enableColumnActions={false}
-                enableColumnResizing
-                enableDensityToggle={false}
-                muiExpandButtonProps={({ row }) => ({
-                  sx: {
-                    display: row.original.subRows === "" ? "none" : "flex",
-                  },
-                })}
-                renderDetailPanel={({ row }) =>
-                  (row.original.pdf === "") &
-                  (row.original.pdfMobile === "") &
-                  (row.original.word === "") ? (
-                    <span></span>
-                  ) : (
-                    <Box id="Box">
-                      <div className="row">
-                        {(row.original.pdf !== "") &
-                        (row.original.pdfMobile === "") &
-                        (row.original.word !== "") ? (
-                          <>
-                            <div className="col-md-2"></div>
-                            <div className="col-md-4">
-                              <span>PDF </span>
-                              <a
-                                href={row.original.pdf}
-                                target="_blank"
-                                rel="noreferrer"
-                                className="btn btn-danger"
-                              >
-                                <FontAwesomeIcon icon={faFilePdf} />
-                              </a>
-                            </div>
-                            <div className="col-md-4">
-                              <span>Word </span>
-                              <a
-                                href={row.original.word}
-                                target="_blank"
-                                rel="noreferrer"
-                                className="btn btn-primary"
-                              >
-                                <FontAwesomeIcon icon={faFileWord} />
-                              </a>
-                            </div>
-                            <div className="col-md-2"></div>
-                          </>
-                        ) : (row.original.pdf !== "") &
-                          (row.original.pdfMobile === "") &
-                          (row.original.word === "") ? (
-                          <>
-                            <div className="col-md-4"></div>
-                            <div className="col-md-4">
-                              <span>PDF </span>
-                              <a
-                                href={row.original.pdf}
-                                target="_blank"
-                                rel="noreferrer"
-                                className="btn btn-danger"
-                              >
-                                <FontAwesomeIcon icon={faFilePdf} />
-                              </a>
-                            </div>
-                            <div className="col-md-4"></div>
-                          </>
-                        ) : (
-                          <>
-                            <div className="col-md-4">
-                              <span>PDF </span>
-                              <a
-                                href={row.original.pdf}
-                                target="_blank"
-                                rel="noreferrer"
-                                className="btn btn-danger"
-                              >
-                                <FontAwesomeIcon icon={faFilePdf} />
-                              </a>
-                            </div>
-                            {/* <div className="col-md-4">
-                              <span>PDF móvil </span>
-                              <a
-                                href={row.original.pdfMobile}
-                                target="_blank"
-                                className="btn btn-danger"
-                                rel="noreferrer"
-                              >
-                                <FontAwesomeIcon icon={faFilePdf} />
-                              </a>
-                            </div>
-                            <div className="col-md-4">
-                              <span>Word </span>
-                              <a
-                                href={row.original.word}
-                                target="_blank"
-                                rel="noreferrer"
-                                className="btn btn-primary"
-                              >
-                                <FontAwesomeIcon icon={faFileWord} />
-                              </a>
-                            </div> */}
-                          </>
-                        )}
-                      </div>
-                    </Box>
-                  )
+          {dataNormatividad.map((buttonNormatividad, index) => {
+            const tableConfig = tableConfigs[index];
+            return (
+              <div
+                key={buttonNormatividad.id}
+                className="tab-pane fade"
+                id={"v-pills-" + buttonNormatividad.nameButton}
+                role="tabpanel"
+                aria-labelledby={
+                  "v-pills-" + buttonNormatividad.nameButton + "-tab"
                 }
-                muiTablePaginationProps={{
-                  labelRowsPerPage: "Filas por página",
-                  getItemAriaLabel: (type) => {
-                    if (type === "first") {
-                      return "inicio";
-                    }
-                    if (type === "last") {
-                      return "fin";
-                    }
-                    if (type === "next") {
-                      return "siguiente";
-                    }
-                    if (type === "previous") {
-                      return "anterior";
-                    }
-                  },
-                  labelDisplayedRows: ({ from, to, count }) =>
-                    `${from}-${to} de ${count !== -1 ? count : `${to} para`}`,
-                }}
-                localization={{
-                  actions: "Acciones",
-                  cancel: "Cancelar",
-                  clearFilter: "Limpiar filtro",
-                  clearSearch: "Borrar búsqueda",
-                  clearSort: "Ordenar claro",
-                  columnActions: "Acciones de columna",
-                  edit: "Editar",
-                  expand: "Expandir",
-                  expandAll: "Expandir todo",
-                  filterByColumn: "{column}",
-                  groupByColumn: "Agrupar por {column}",
-                  groupedBy: "Agrupados por ",
-                  hideAll: "Ocultar todo",
-                  hideColumn: "Ocultar columna de {column}",
-                  rowActions: "Acciones de fila",
-                  save: "Salvar",
-                  search: "Búsqueda",
-                  selectedCountOfRowCountRowsSelected:
-                    "{selectedCount} de {rowCount} fila(s) seleccionadas",
-                  showAll: "Mostrar todo",
-                  showHideColumns: "Mostrar/Ocultar columnas",
-                  showHideFilters: "Alternar filtros",
-                  showHideSearch: "Alternar búsqueda",
-                  sortByColumnAsc: "Ordenar por {column} ascendente",
-                  sortByColumnDesc: "Ordenar por {column} descendiendo",
-                  thenBy: ", entonces por ",
-                  toggleDensity: "Alternar relleno denso",
-                  toggleFullScreen: "Alternar pantalla completa",
-                  toggleSelectAll: "Seleccionar todo",
-                  toggleSelectRow: "Seleccionar fila",
-                  ungroupByColumn: "Desagrupar por {column}",
-                }}
-              />
-            </div>
-          ))}
+                tabIndex="0"
+              >
+                <MaterialReactTable {...tableConfig} />
+              </div>
+            );
+          })}
         </div>
       </div>
     </>
   );
 };
+
 export default Normatividad;
