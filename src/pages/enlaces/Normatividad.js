@@ -1,9 +1,6 @@
 import React, { useMemo, useEffect } from "react";
 import NavbarEnlaces from "../../layout/NavbarEnlaces";
-import {
-  MaterialReactTable,
-  useMaterialReactTable,
-} from "material-react-table";
+import { MaterialReactTable } from "material-react-table";
 import { MRT_Localization_ES } from "material-react-table/locales/es";
 import { Box } from "@mui/material";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -94,7 +91,7 @@ const Normatividad = () => {
         },
         renderDetailPanel,
       })),
-    [columns, dataNormatividad]
+    [columns] // Aquí eliminamos 'dataNormatividad' de las dependencias
   );
 
   return (

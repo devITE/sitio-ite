@@ -4,7 +4,6 @@ import {
   MaterialReactTable,
   useMaterialReactTable,
 } from "material-react-table";
-import { MRT_Localization_ES } from "material-react-table/locales/es";
 import { Box } from "@mui/material";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFileExcel, faFilePdf } from "@fortawesome/free-solid-svg-icons";

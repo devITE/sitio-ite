@@ -10006,7 +10006,7 @@ export const dataAcuerdos2017 = [
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2017/80.pdf",
     titleAnexo1:
       "ANEXO 1 VOTO CONCURRENTE CONSEJERA ELECTORAL DORA RODRÍGUEZ SORIANO",
-    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2017/80.1.pdf",
+    pdfAnexo1: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2017/80.1.pdf",
   },
   {
     id: 81,

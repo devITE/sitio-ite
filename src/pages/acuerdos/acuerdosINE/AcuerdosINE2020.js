@@ -5,7 +5,7 @@ import {
   useMaterialReactTable,
 } from "material-react-table";
 import { MRT_Localization_ES } from "material-react-table/locales/es";
-import { Box, MenuItem, TextField } from "@mui/material";
+import { Box } from "@mui/material";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
 import { dataAcuerdosINE2020 } from "../../../data/dataAcuerdos";
