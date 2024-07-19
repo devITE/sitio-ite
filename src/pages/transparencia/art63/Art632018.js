@@ -1,9 +1,13 @@
-import React, { useMemo, useEffect } from "react";
+import React, { useEffect, useMemo, useCallback } from "react";
 import TitlePages from "../../../layout/TitlePages";
-import MaterialReactTable from "material-react-table";
+import {
+  MaterialReactTable,
+  useMaterialReactTable,
+} from "material-react-table";
+import { MRT_Localization_ES } from "material-react-table/locales/es";
 import { Box } from "@mui/material";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFileExcel } from "@fortawesome/free-solid-svg-icons";
+import { faFileExcel, faFilePdf } from "@fortawesome/free-solid-svg-icons";
 import { dataArt632018 } from "../../../data/dataTransparenciaArt63";
 import Expandible from "../../../layout/HelperDataTable/Expandible";
 
@@ -11,6 +15,7 @@ const Art632018 = () => {
   useEffect(() => {
     document.title = `Artículo 63 2018`;
   }, []);
+
   const columns = useMemo(
     () => [
       {
@@ -69,121 +74,74 @@ const Art632018 = () => {
     []
   );
 
+  const renderFileLink = (file, icon, className) =>
+    file ? (
+      <>
+        {file.substring(file.lastIndexOf("/") + 1, file.length - 4)}{" "}
+        <a href={file} target="_blank" rel="noreferrer">
+          <FontAwesomeIcon icon={icon} className={`btn ${className}`} />
+        </a>
+      </>
+    ) : null;
+
+  const renderDetailPanel = useCallback(
+    ({ row }) =>
+      row.original.excel === "" && row.original.pdf === "" ? (
+        <span></span>
+      ) : (
+        <Box id="Box">
+          <>
+            <p className="text-strong">
+              Descarga los archivo de la Fracción {row.original.fraccion}
+            </p>
+            <div className="row">
+              <div className="col-md-6">
+                {renderFileLink(row.original.excel, faFileExcel, "btn-success")}
+              </div>
+              <div className="col-md-6">
+                {renderFileLink(row.original.pdf, faFilePdf, "btn-danger")}
+              </div>
+            </div>
+          </>
+        </Box>
+      ),
+    []
+  );
+
+  const table = useMaterialReactTable({
+    columns,
+    data: dataArt632018,
+    enableExpanding: true,
+    enableExpandAll: true,
+    enableColumnActions: false,
+    enableColumnResizing: true,
+    enableDensityToggle: false,
+    muiExpandButtonProps: ({ row }) => ({
+      sx: {
+        display: row.original.subRows === "" ? "none" : "flex",
+      },
+    }),
+    renderDetailPanel,
+    muiPaginationProps: {
+      rowsPerPageOptions: [10, 25, 50, 100, 200, 300, 400],
+    },
+    localization: {
+      ...MRT_Localization_ES,
+      pagination: {
+        rowsPerPage: "Filas por página",
+      },
+    },
+  });
+
   return (
-    <div>
+    <>
       <TitlePages
         title="Transparencia"
         subTitle="Artículo 63. (2018) Obligaciones Comunes"
       />
       <Expandible />
-      <MaterialReactTable
-        columns={columns}
-        data={dataArt632018}
-        enableExpanding
-        enableExpandAll
-        enableColumnActions={false}
-        enableColumnResizing
-        enableDensityToggle={false}
-        muiExpandButtonProps={({ row }) => ({
-          sx: {
-            display: row.original.subRows === "" ? "none" : "flex",
-          },
-        })}
-        renderDetailPanel={({ row }) =>
-          (row.original.excel === "") & (row.original.pdf === "") ? (
-            <span></span>
-          ) : (
-            <Box id="Box">
-              <>
-                <p className="text-strong">
-                  Descarga los archivo de la Fracción {row.original.fraccion}
-                </p>
-                <div className="row">
-                  <div className="col-md-6">
-                    {row.original.excel
-                      ? row.original.excel.substring(61, 100).slice(0, -5)
-                      : []}{" "}
-                    <a
-                      href={row.original.excel}
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <FontAwesomeIcon
-                        icon={faFileExcel}
-                        className="btn btn-success"
-                      />
-                    </a>
-                  </div>
-                  <div className="col-md-6">
-                    {row.original.pdf
-                      ? row.original.pdf.substring(61, 100).slice(0, -4)
-                      : []}{" "}
-                    <a href={row.original.pdf} target="_blank" rel="noreferrer">
-                      <FontAwesomeIcon
-                        icon={faFileExcel}
-                        className="btn btn-danger"
-                      />
-                    </a>
-                  </div>
-                </div>
-              </>
-            </Box>
-          )
-        }
-        muiTablePaginationProps={{
-          labelRowsPerPage: "Filas por página",
-          getItemAriaLabel: (type) => {
-            if (type === "first") {
-              return "inicio";
-            }
-            if (type === "last") {
-              return "fin";
-            }
-            if (type === "next") {
-              return "siguiente";
-            }
-            if (type === "previous") {
-              return "anterior";
-            }
-          },
-          labelDisplayedRows: ({ from, to, count }) =>
-            `${from}-${to} de ${count !== -1 ? count : `${to} para`}`,
-        }}
-        localization={{
-          actions: "Acciones",
-          cancel: "Cancelar",
-          clearFilter: "Limpiar filtro",
-          clearSearch: "Borrar búsqueda",
-          clearSort: "Ordenar claro",
-          columnActions: "Acciones de columna",
-          edit: "Editar",
-          expand: "Expandir",
-          expandAll: "Expandir todo",
-          filterByColumn: "{column}",
-          groupByColumn: "Agrupar por {column}",
-          groupedBy: "Agrupados por ",
-          hideAll: "Ocultar todo",
-          hideColumn: "Ocultar columna de {column}",
-          rowActions: "Acciones de fila",
-          save: "Salvar",
-          search: "Búsqueda",
-          selectedCountOfRowCountRowsSelected:
-            "{selectedCount} de {rowCount} fila(s) seleccionadas",
-          showAll: "Mostrar todo",
-          showHideColumns: "Mostrar/Ocultar columnas",
-          showHideFilters: "Alternar filtros",
-          showHideSearch: "Alternar búsqueda",
-          sortByColumnAsc: "Ordenar por {column} ascendente",
-          sortByColumnDesc: "Ordenar por {column} descendiendo",
-          thenBy: ", entonces por ",
-          toggleDensity: "Alternar relleno denso",
-          toggleFullScreen: "Alternar pantalla completa",
-          toggleSelectAll: "Seleccionar todo",
-          toggleSelectRow: "Seleccionar fila",
-          ungroupByColumn: "Desagrupar por {column}",
-        }}
-      />
-    </div>
+      <MaterialReactTable table={table} />
+    </>
   );
 };
 
