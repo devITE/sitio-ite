@@ -1,5 +1,9 @@
 import React, { useMemo, useEffect } from "react";
-import MaterialReactTable from "material-react-table";
+import {
+  MaterialReactTable,
+  useMaterialReactTable,
+} from "material-react-table";
+import { MRT_Localization_ES } from "material-react-table/locales/es";
 import { MenuItem, TextField } from "@mui/material";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
@@ -10,6 +14,7 @@ const Boletines2019 = () => {
   useEffect(() => {
     document.title = `Boletines 2019`;
   }, []);
+
   const columns = useMemo(
     () => [
       {
@@ -80,71 +85,32 @@ const Boletines2019 = () => {
     ],
     []
   );
+
+  const table = useMaterialReactTable({
+    columns,
+    data: dataBoletines2019,
+    enableSorting: false,
+    enableHiding: false,
+    enableColumnActions: false,
+    enableDensityToggle: false,
+    initialState: { density: "compact" },
+    muiPaginationProps: {
+      rowsPerPageOptions: [10, 25, 50, 100, 200, 300, 400],
+    },
+    localization: {
+      ...MRT_Localization_ES,
+      pagination: {
+        rowsPerPage: "Filas por página",
+      },
+    },
+  });
+
   return (
-    <div>
+    <>
       <TitlePages title="Comunicación Social" subTitle="Boletines 2019" />
 
-      <MaterialReactTable
-        columns={columns}
-        data={dataBoletines2019}
-        enableExpanding={false}
-        enableColumnActions={false}
-        enableColumnResizing
-        enableDensityToggle={false}
-        muiTablePaginationProps={{
-          labelRowsPerPage: "Filas por página",
-          getItemAriaLabel: (type) => {
-            if (type === "first") {
-              return "inicio";
-            }
-            if (type === "last") {
-              return "fin";
-            }
-            if (type === "next") {
-              return "siguiente";
-            }
-            if (type === "previous") {
-              return "anterior";
-            }
-          },
-          labelDisplayedRows: ({ from, to, count }) =>
-            `${from}-${to} de ${count !== -1 ? count : `${to} para`}`,
-        }}
-        localization={{
-          actions: "Acciones",
-          cancel: "Cancelar",
-          clearFilter: "Limpiar filtro",
-          clearSearch: "Borrar búsqueda",
-          clearSort: "Ordenar claro",
-          columnActions: "Acciones de columna",
-          edit: "Editar",
-          expand: "Expandir",
-          expandAll: "Expandir todo",
-          filterByColumn: "{column}",
-          groupByColumn: "Agrupar por {column}",
-          groupedBy: "Agrupados por ",
-          hideAll: "Ocultar todo",
-          hideColumn: "Ocultar columna de {column}",
-          rowActions: "Acciones de fila",
-          save: "Salvar",
-          search: "Búsqueda",
-          selectedCountOfRowCountRowsSelected:
-            "{selectedCount} de {rowCount} fila(s) seleccionadas",
-          showAll: "Mostrar todo",
-          showHideColumns: "Mostrar/Ocultar columnas",
-          showHideFilters: "Alternar filtros",
-          showHideSearch: "Alternar búsqueda",
-          sortByColumnAsc: "Ordenar por {column} ascendente",
-          sortByColumnDesc: "Ordenar por {column} descendiendo",
-          thenBy: ", entonces por ",
-          toggleDensity: "Alternar relleno denso",
-          toggleFullScreen: "Alternar pantalla completa",
-          toggleSelectAll: "Seleccionar todo",
-          toggleSelectRow: "Seleccionar fila",
-          ungroupByColumn: "Desagrupar por {column}",
-        }}
-      />
-    </div>
+      <MaterialReactTable table={table} />
+    </>
   );
 };
 export default Boletines2019;
