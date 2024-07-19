@@ -15,7 +15,7 @@
     "@testing-library/user-event": "^14.4.3",
     "bootstrap": "^5.2.3",
     "caniuse-lite": "^1.0.30001639",
-    "material-react-table": "^1.15.1",
+    "material-react-table": "^2.13.0",
     "react": "^18.2.0",
     "react-bootstrap": "^2.7.2",
     "react-dom": "^18.2.0",
@@ -50,8 +50,8 @@
     ]
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.19.0",
     "depcheck": "^1.4.7",
-    "eslint-config-react-app": "^7.0.1",
-    "@babel/plugin-proposal-private-property-in-object": "^7.19.0"
+    "eslint-config-react-app": "^7.0.1"
   }
 }
