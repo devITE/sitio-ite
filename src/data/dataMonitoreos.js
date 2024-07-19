@@ -216,7 +216,7 @@ export const dataMonitoreos2017 = [
     linkBoletin: "https://itetlax.org.mx/assets/pdf/monitoreos/2017/9.pdf",
   },
   {
-    id: 8,
+    id: 10,
     yearBoletin: "2017",
     monthBoletin: "DIC",
     nameBoletin: "Segundo-Informe-Quincenal-PELO-2018",
