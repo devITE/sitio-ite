@@ -1,11 +1,15 @@
 import React, { useMemo, useEffect } from "react";
 import CarouselVert from "../../layout/Carousel/CarouselVert/CarouselVert";
 import CarouselVertItem from "../../layout/Carousel/CarouselVert/CarouselVertItem";
-import MaterialReactTable from "material-react-table";
+import {
+  MaterialReactTable,
+  useMaterialReactTable,
+} from "material-react-table";
+import { MRT_Localization_ES } from "material-react-table/locales/es";
 import { dataRegistros, dataInfografias } from "../../data/dataREPS";
 import "./REPS.css";
 
-console.log(dataRegistros.length);
+// console.log(dataRegistros.length);
 // Fecha actual
 const dt = new Date();
 const year = dt.getFullYear();
@@ -16,6 +20,7 @@ const REPS = () => {
   useEffect(() => {
     document.title = `Registro Estatal de Personas Sancionadas`;
   }, []);
+
   const columns = useMemo(
     () => [
       {
@@ -105,6 +110,26 @@ const REPS = () => {
     ],
     []
   );
+
+  const table = useMaterialReactTable({
+    columns,
+    data: dataRegistros,
+    enableTopToolbar: false,
+    enableBottomToolbar: false,
+    enableColumnActions: false,
+    enableColumnResizing: true,
+    enableDensityToggle: false,
+    muiPaginationProps: {
+      rowsPerPageOptions: [10, 25, 50, 100, 200, 300, 400],
+    },
+    localization: {
+      ...MRT_Localization_ES,
+      pagination: {
+        rowsPerPage: "Filas por página",
+      },
+    },
+  });
+
   return (
     <div className="REPS">
       <img
@@ -172,70 +197,7 @@ const REPS = () => {
       </div>
       <br />
       <div id="tableREPS">
-        <MaterialReactTable
-          columns={columns}
-          data={dataRegistros}
-          // enableExpanding
-          // enableExpandAll
-          enableTopToolbar={false}
-          enableBottomToolbar={false}
-          enableColumnActions={false}
-          enableColumnResizing
-          enableDensityToggle={false}
-          muiTablePaginationProps={{
-            labelRowsPerPage: "Filas por página",
-            getItemAriaLabel: (type) => {
-              if (type === "first") {
-                return "inicio";
-              }
-              if (type === "last") {
-                return "fin";
-              }
-              if (type === "next") {
-                return "siguiente";
-              }
-              if (type === "previous") {
-                return "anterior";
-              }
-            },
-            labelDisplayedRows: ({ from, to, count }) =>
-              `${from}-${to} de ${count !== -1 ? count : `${to} para`}`,
-          }}
-          localization={{
-            actions: "Acciones",
-            cancel: "Cancelar",
-            clearFilter: "Limpiar filtro",
-            clearSearch: "Borrar búsqueda",
-            clearSort: "Ordenar claro",
-            columnActions: "Acciones de columna",
-            edit: "Editar",
-            expand: "Expandir",
-            expandAll: "Expandir todo",
-            filterByColumn: "{column}",
-            groupByColumn: "Agrupar por {column}",
-            groupedBy: "Agrupados por ",
-            hideAll: "Ocultar todo",
-            hideColumn: "Ocultar columna de {column}",
-            noRecordsToDisplay: "Sin registros",
-            rowActions: "Acciones de fila",
-            save: "Salvar",
-            search: "Búsqueda",
-            selectedCountOfRowCountRowsSelected:
-              "{selectedCount} de {rowCount} fila(s) seleccionadas",
-            showAll: "Mostrar todo",
-            showHideColumns: "Mostrar/Ocultar columnas",
-            showHideFilters: "Alternar filtros",
-            showHideSearch: "Alternar búsqueda",
-            sortByColumnAsc: "Ordenar por {column} ascendente",
-            sortByColumnDesc: "Ordenar por {column} descendiendo",
-            thenBy: ", entonces por ",
-            toggleDensity: "Alternar relleno denso",
-            toggleFullScreen: "Alternar pantalla completa",
-            toggleSelectAll: "Seleccionar todo",
-            toggleSelectRow: "Seleccionar fila",
-            ungroupByColumn: "Desagrupar por {column}",
-          }}
-        />
+        <MaterialReactTable table={table} />
       </div>
       {/* <div className="mt-5 table-responsive REPS__table-public-data">
         <table className="mb-0 table table-bordered">
