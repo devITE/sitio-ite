@@ -2839,6 +2839,15 @@ export const dataAcuerdos2024 = [
     nameDoc: "DESIGNACION PERSONAL RECUENTO SANTA CRUZ TECHACHALCO PANOTLA",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/228.pdf",
   },
+  {
+    id: 229,
+    year: "2024",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 229-2024",
+    monthDoc: "JUL",
+    nameDoc: "DESIGNACION PERSONAL RECUENTO EMILIANO ZAPATA PANOTLA",
+    link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/229.pdf",
+  },
 ];
 
 // ------------ A C U E R D O S    I N E ------------
