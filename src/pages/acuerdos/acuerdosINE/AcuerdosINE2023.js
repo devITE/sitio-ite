@@ -1,16 +1,44 @@
 import React, { useMemo, useEffect } from "react";
 import TitlePages from "../../../layout/TitlePages";
-import MaterialReactTable from "material-react-table";
-import { dataAcuerdosINE2023 } from "../../../data/dataAcuerdos";
+import {
+  MaterialReactTable,
+  useMaterialReactTable,
+} from "material-react-table";
+import { MRT_Localization_ES } from "material-react-table/locales/es";
+import { Box, MenuItem, TextField } from "@mui/material";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
+import { dataAcuerdosINE2023 } from "../../../data/dataAcuerdos";
+import Expandible from "../../../layout/HelperDataTable/Expandible";
+
+const PdfLink = ({ url }) => (
+  <a href={url} target="_blank" rel="noreferrer">
+    <FontAwesomeIcon icon={faFilePdf} className="btn btn-danger" />
+  </a>
+);
+
+const TableRow = ({ title, url }) =>
+  title && url ? (
+    <tr>
+      <td>{title.toUpperCase()}</td>
+      <td>
+        <PdfLink url={url} />
+      </td>
+    </tr>
+  ) : null;
 
 const AcuerdosINE2023 = () => {
   useEffect(() => {
-    document.title = `Acuerdos INE2023`;
+    document.title = `Acuerdos INE 2023`;
   }, []);
+
   const columns = useMemo(
     () => [
+      {
+        accessorKey: "idDoc",
+        header: "ID",
+        footer: "ID",
+      },
       {
         accessorKey: "numDoc",
         header: "DOCUMENTO",
@@ -39,77 +67,79 @@ const AcuerdosINE2023 = () => {
     []
   );
 
+  const renderDetailPanelAcuerdos = ({ row }) => (
+    <Box id="Box">
+      <div className="table-responsive">
+        <table className="table table-hover table-sm table-bordered table align-middle w-40">
+          <thead>
+            <tr>
+              <td colSpan={2}>
+                <br />
+                <strong>A C U E R D O</strong>
+                <br />
+                <br />
+              </td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr className="table-secondary">
+              <td>
+                {row.original.numDoc} {row.original.nameDoc || ""}
+              </td>
+              <td>
+                {row.original.link && <PdfLink url={row.original.link} />}
+              </td>
+            </tr>
+            {[...Array(70)].map((_, i) => {
+              const index = i + 1;
+              return (
+                <TableRow
+                  key={index}
+                  title={row.original[`titleAnexo${index}`]}
+                  url={row.original[`pdfAnexo${index}`]}
+                />
+              );
+            })}
+          </tbody>
+        </table>
+      </div>
+    </Box>
+  );
+
+  const tableAcuerdos = useMaterialReactTable({
+    columns,
+    data: dataAcuerdosINE2023,
+    enableExpanding: true,
+    enableExpandAll: true,
+    enableSorting: false,
+    enableHiding: false,
+    enableColumnActions: false,
+    enableDensityToggle: false,
+    initialState: { density: "compact" },
+    muiExpandButtonProps: ({ row }) => ({
+      sx: {
+        display: row.original.subRows === "" ? "none" : "flex",
+      },
+    }),
+    renderDetailPanel: renderDetailPanelAcuerdos,
+    muiPaginationProps: {
+      rowsPerPageOptions: [10, 25, 50, 100, 200, 300, 400],
+    },
+    localization: {
+      ...MRT_Localization_ES,
+      pagination: {
+        rowsPerPage: "Filas por página",
+      },
+    },
+  });
+
   return (
     <>
       <TitlePages title="Acuerdos INE" subTitle="Acuerdos INE 2023" />
-      <MaterialReactTable
-        columns={columns}
-        data={dataAcuerdosINE2023}
-        enableExpanding
-        enableExpandAll
-        enableColumnActions={false}
-        enableDensityToggle={false}
-        initialState={{ density: "compact" }}
-        muiExpandButtonProps={({ row }) => ({
-          sx: {
-            display: row.original.subRows === "" ? "none" : "flex",
-          },
-        })}
-        muiTablePaginationProps={{
-          rowsPerPageOptions: [10, 25, 50, 100, 200, 300, 400],
-          labelRowsPerPage: "Filas por página",
-          getItemAriaLabel: (type) => {
-            if (type === "first") {
-              return "inicio";
-            }
-            if (type === "last") {
-              return "fin";
-            }
-            if (type === "next") {
-              return "siguiente";
-            }
-            if (type === "previous") {
-              return "anterior";
-            }
-          },
-          labelDisplayedRows: ({ from, to, count }) =>
-            `${from}-${to} de ${count !== -1 ? count : `${to} para`}`,
-        }}
-        localization={{
-          actions: "Acciones",
-          cancel: "Cancelar",
-          clearFilter: "Limpiar filtro",
-          clearSearch: "Borrar búsqueda",
-          clearSort: "Ordenar claro",
-          columnActions: "Acciones de columna",
-          edit: "Editar",
-          expand: "",
-          expandAll: "Expandir todo",
-          filterByColumn: "{column}",
-          groupByColumn: "Agrupar por {column}",
-          groupedBy: "Agrupados por ",
-          hideAll: "Ocultar todo",
-          hideColumn: "Ocultar columna de {column}",
-          rowActions: "Acciones de fila",
-          save: "Salvar",
-          search: "Búsqueda",
-          selectedCountOfRowCountRowsSelected:
-            "{selectedCount} de {rowCount} fila(s) seleccionadas",
-          showAll: "Mostrar todo",
-          showHideColumns: "Mostrar/Ocultar columnas",
-          showHideFilters: "Alternar filtros",
-          showHideSearch: "Alternar búsqueda",
-          sortByColumnAsc: "Ordenar por {column} ascendente",
-          sortByColumnDesc: "Ordenar por {column} descendiendo",
-          thenBy: ", entonces por ",
-          toggleDensity: "Alternar relleno denso",
-          toggleFullScreen: "Alternar pantalla completa",
-          toggleSelectAll: "Seleccionar todo",
-          toggleSelectRow: "Seleccionar fila",
-          ungroupByColumn: "Desagrupar por {column}",
-        }}
-      />
+      <Expandible />
+      <MaterialReactTable table={tableAcuerdos} />
     </>
   );
 };
+
 export default AcuerdosINE2023;
