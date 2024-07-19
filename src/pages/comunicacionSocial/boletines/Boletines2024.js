@@ -1,5 +1,8 @@
 import React, { useMemo, useEffect } from "react";
-import MaterialReactTable from "material-react-table";
+import {
+  MaterialReactTable,
+  useMaterialReactTable,
+} from "material-react-table";
 import { MenuItem, TextField } from "@mui/material";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
@@ -10,6 +13,9 @@ const Boletines2024 = () => {
   useEffect(() => {
     document.title = `Boletines 2024`;
   }, []);
+
+  const data = { dataBoletines2024 };
+
   const columns = useMemo(
     () => [
       {
@@ -80,13 +86,20 @@ const Boletines2024 = () => {
     ],
     []
   );
+
+  const table = useMaterialReactTable({
+    columns,
+    data,
+  });
+
   return (
     <>
       <TitlePages title="Comunicación Social" subTitle="Boletines 2024" />
 
       <MaterialReactTable
-        columns={columns}
-        data={dataBoletines2024}
+        // columns={columns}
+        // data={dataBoletines2024}
+        table={table}
         enableExpanding={false}
         enableColumnActions={false}
         enableColumnResizing
