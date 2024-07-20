@@ -8,6 +8,7 @@ import { MRT_Localization_ES } from "material-react-table/locales/es";
 import { Box, MenuItem, TextField } from "@mui/material";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
+import { dataAcuerdosITE } from "../../../data/dataAcuerdos";
 import Expandible from "../../../layout/HelperDataTable/Expandible";
 
 const PdfLink = ({ url }) => (
@@ -26,12 +27,14 @@ const TableRow = ({ title, url }) =>
     </tr>
   ) : null;
 
-const AcuerdosTable = ({ data, year }) => {
+const AcuerdosTableITE = ({ year }) => {
+  const data = useMemo(() => dataAcuerdosITE[year] || [], [year]);
+
   useEffect(() => {
-    document.title = `Acuerdos ITE ${year}`;
+    document.title = `Acuerdos INE ${year}`;
   }, [year]);
 
-  const columnsAcuerdos = useMemo(
+  const columns = useMemo(
     () => [
       {
         accessorKey: "monthDoc",
@@ -131,7 +134,7 @@ const AcuerdosTable = ({ data, year }) => {
   );
 
   const tableAcuerdos = useMaterialReactTable({
-    columns: columnsAcuerdos,
+    columns,
     data: data,
     enableExpanding: true,
     enableExpandAll: true,
@@ -159,11 +162,11 @@ const AcuerdosTable = ({ data, year }) => {
 
   return (
     <>
-      <TitlePages title="Acuerdos ITE" subTitle={`Acuerdos ITE ${year}`} />
+      <TitlePages title="Acuerdos INE" subTitle={`Acuerdos INE ${year}`} />
       <Expandible />
       <MaterialReactTable table={tableAcuerdos} />
     </>
   );
 };
 
-export default AcuerdosTable;
+export default AcuerdosTableITE;

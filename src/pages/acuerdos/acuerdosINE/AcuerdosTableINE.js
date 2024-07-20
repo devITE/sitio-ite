@@ -5,7 +5,7 @@ import {
   useMaterialReactTable,
 } from "material-react-table";
 import { MRT_Localization_ES } from "material-react-table/locales/es";
-import { Box } from "@mui/material";
+import { Box, MenuItem, TextField } from "@mui/material";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
 import { dataAcuerdosINE } from "../../../data/dataAcuerdos"; // Ajusta la ruta según la ubicación real del archivo
@@ -37,33 +37,57 @@ const AcuerdosTableINE = ({ year }) => {
   const columns = useMemo(
     () => [
       {
-        accessorKey: "idDoc",
-        header: "ID",
-        footer: "ID",
+        accessorKey: "monthDoc",
+        header: "MES",
+        footer: "MES",
+        size: 30,
+        Filter: ({ header }) => (
+          <TextField
+            onChange={(e) =>
+              header.column.setFilterValue(e.target.value || undefined)
+            }
+            select
+            value={header.column.getFilterValue() ?? ""}
+            margin="none"
+            placeholder="Filter"
+            variant="standard"
+            fullWidth
+          >
+            <MenuItem value={null}>Todos</MenuItem>
+            {[
+              "ENE",
+              "FEB",
+              "MAR",
+              "ABR",
+              "MAY",
+              "JUN",
+              "JUL",
+              "AGO",
+              "SEP",
+              "OCT",
+              "NOV",
+              "DIC",
+            ].map((month) => (
+              <MenuItem key={month} value={month}>
+                {month}
+              </MenuItem>
+            ))}
+          </TextField>
+        ),
       },
       {
         accessorKey: "numDoc",
-        header: "DOCUMENTO",
-        footer: "DOCUMENTO",
+        header: "ACUERDO",
+        footer: "ACUERDO",
+        size: 55,
       },
       {
-        accessorKey: "nameDoc",
-        header: "DESCRIPCIÓN",
-        footer: "DESCRIPCIÓN",
-      },
-      {
-        id: "pdf",
-        header: "",
-        footer: "",
-        enableColumnFilters: false,
-        Cell: ({ row }) =>
-          row.original.link === "" ? (
-            <span></span>
-          ) : (
-            <a href={row.original.link} target="_blank" rel="noreferrer">
-              <FontAwesomeIcon icon={faFilePdf} className="btn btn-danger" />
-            </a>
-          ),
+        accessorFn: (row) =>
+          row.nameDoc ? `${row.typeDoc} ${row.nameDoc}` : "",
+        id: "titulo",
+        header: "TÍTULO",
+        footer: "TÍTULO",
+        size: 255,
       },
     ],
     []
@@ -86,7 +110,8 @@ const AcuerdosTableINE = ({ year }) => {
           <tbody>
             <tr className="table-secondary">
               <td>
-                {row.original.numDoc} {row.original.nameDoc || ""}
+                {row.original.typeDoc} {row.original.numDoc}{" "}
+                {row.original.nameDoc || ""}
               </td>
               <td>
                 {row.original.link && <PdfLink url={row.original.link} />}

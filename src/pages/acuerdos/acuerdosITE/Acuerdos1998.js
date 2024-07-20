@@ -1,5 +1,5 @@
 import React from "react";
-import AcuerdosTable from "./AcuerdosTable";
+import AcuerdosTable from "./AcuerdosTableITE";
 import { dataAcuerdos1998 } from "../../../data/dataAcuerdos";
 
 const Acuerdos1998 = () => {
