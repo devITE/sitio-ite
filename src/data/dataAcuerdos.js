@@ -3,7 +3,6 @@ export const dataAcuerdosINE = {
   2023: [
     {
       id: 1,
-      year: "2023",
       numDoc: "ACUERDO INE CG-03-2023",
       nameDoc:
         "POR EL QUE SE APRUEBA LA DESIGNACIÓN DEL CONSEJERO PRESIDENTE DEL OPL DE TLAXCALA",
@@ -13,7 +12,6 @@ export const dataAcuerdosINE = {
     },
     {
       id: 2,
-      year: "2023",
       numDoc: " RESOLUCIÓN INE CG-439-2023",
       nameDoc:
         "Aprueba ejercer la facultad de atracción para fechas homologadas para conclusión del periodo de precampañas y recabar apoyo de CI 2023-2024",
@@ -21,7 +19,6 @@ export const dataAcuerdosINE = {
     },
     {
       id: 3,
-      year: "2023",
       numDoc: "ACUERDO INE CG-437-2023",
       nameDoc:
         "CONVOCATORIAS A CIUDADANÍA PARA OBSERVADORA ELECTORAL PEC 2023-2024 Y PEE QUE DERIVEN, Y ANEXOS",
@@ -43,7 +40,6 @@ export const dataAcuerdosINE = {
     },
     {
       id: 4,
-      year: "2023",
       numDoc: "ACUERDO INE CG-537-2023",
       nameDoc: "PERSONAS VISITANTES EXTRANJERAS",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2023/4.pdf",
@@ -61,7 +57,6 @@ export const dataAcuerdosINE = {
   2022: [
     {
       id: 1,
-      year: "2022",
       numDoc: "INE CG-598-2022",
       nameDoc:
         "ACUERDO POR EL QUE SE APRUEBA LA DESIGNACIÓN DE LAS PRESIDENCIAS DE LOS OPLES DE LAS ENTIDADES DE AGUASCALIENTES, COAHUILA, NAYARIT, PUEBLA, QUINTANA ROO, SINALOA Y TLAXCALA",
@@ -69,7 +64,6 @@ export const dataAcuerdosINE = {
     },
     {
       id: 2,
-      year: "2022",
       numDoc: "INE CG-633-2022",
       nameDoc:
         "ACUERDO POR EL QUE SE APRUEBA LA DESIGNACION DEL CONSEJERO PRESIDENTE PROVISIONAL DEL ITE",
@@ -80,7 +74,6 @@ export const dataAcuerdosINE = {
   2021: [
     {
       id: 1,
-      year: "2021",
       numDoc: "INE JGE-50-2021",
       nameDoc: "ACUERDO INCORPORACIÓN TEMPORAL",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2021/1.pdf",
@@ -89,7 +82,6 @@ export const dataAcuerdosINE = {
     },
     {
       id: 2,
-      year: "2021",
       numDoc: "INE JGE-51-2021",
       nameDoc: "ACUERDO OCUPACIÓN DE ENCARGOS",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2021/2.pdf",
@@ -98,7 +90,6 @@ export const dataAcuerdosINE = {
     },
     {
       id: 3,
-      year: "2021",
       numDoc: "INE CG-1600-2021",
       nameDoc:
         "SE APRUEBA EL PLAN INTEGRAL Y LOS CALENDARIOS DE COORDINACIÓN PARA LOS PROCESOS ELECTORALES LOCALES EXTRAORDINARIOS 2021",
@@ -113,7 +104,6 @@ export const dataAcuerdosINE = {
   2020: [
     {
       id: 1,
-      year: "2020",
       numDoc: "INE CG-255-2020",
       nameDoc: "CONVOCATORIAS OBSERVADORES ELECTORALES",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2020/1.pdf",
@@ -124,7 +114,6 @@ export const dataAcuerdosINE = {
     },
     {
       id: 2,
-      year: "2020",
       numDoc: "INE CG-270-2020",
       nameDoc:
         "BASES Y CRITERIOS PARA EXTRANJEROS QUE ACUDAN A CONOCER EL PROCESO ELECTORAL 2020-2021",
@@ -136,21 +125,18 @@ export const dataAcuerdosINE = {
     },
     {
       id: 3,
-      year: "2020",
       numDoc: "INE CG-559-2020",
       nameDoc: "RESOLUCIÓN DEL CONSEJO GENERAL",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2020/3.pdf",
     },
     {
       id: 4,
-      year: "2020",
       numDoc: "INE CG-569-2020",
       nameDoc: "ACUERDO POR EL QUE SE DA RESPUESTA A CONSULTAS",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2020/4.pdf",
     },
     {
       id: 5,
-      year: "2020",
       numDoc: "INE JGE-160-2020",
       nameDoc: "ACUERDO DE LA JGE POR EL QUE SE APRUEBAN LINEAMIENTOS",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2020/5.pdf",
@@ -159,21 +145,18 @@ export const dataAcuerdosINE = {
     },
     {
       id: 6,
-      year: "2020",
       numDoc: "INE CG-187-2020",
       nameDoc: "RESOLUCIÓN DEL CONSEJO GENERAL",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2020/6.pdf",
     },
     {
       id: 7,
-      year: "2020",
       numDoc: "INE CG-289-2020",
       nameDoc: "RESOLUCIÓN DEL CONSEJO GENERAL",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2020/7.pdf",
     },
     {
       id: 8,
-      year: "2020",
       numDoc: "INE CG-694-2020",
       nameDoc: "RESOLUCIÓN DEL CONSEJO GENERAL",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2020/8.pdf",
@@ -184,7 +167,6 @@ export const dataAcuerdosINE = {
     {
       id: 1,
       idDoc: "000062",
-      year: "2016",
       numDoc: "ACUERDOS",
       nameDoc: "RESPUESTAS DE CONSULTAS DE OPLES",
       link: "",
@@ -206,7 +188,6 @@ export const dataAcuerdosINE = {
     {
       id: 2,
       idDoc: "000072",
-      year: "2016",
       numDoc: "ACUERDOS",
       nameDoc: "RESPUESTAS DE CONSULTAS DE OPLES",
       link: "",
@@ -222,7 +203,6 @@ export const dataAcuerdosINE = {
     {
       id: 3,
       idDoc: "000080",
-      year: "2016",
       numDoc: "INE CG-1047-2016",
       nameDoc:
         "ACUERDO DONDE SE REFORMAN Y ADICIONAN DIVERSAS DISPOSICIONES DEL REGLAMENTO DE FISCALIZACIÓN",
@@ -231,7 +211,6 @@ export const dataAcuerdosINE = {
     {
       id: 4,
       idDoc: "000118",
-      year: "2016",
       numDoc: "ESTATUTO",
       nameDoc: "DEL SERVICIO PROFESIONAL ELECTORAL NACIONAL DOF",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2016/4.pdf",
@@ -239,7 +218,6 @@ export const dataAcuerdosINE = {
     {
       id: 5,
       idDoc: "000191",
-      year: "2016",
       numDoc: "CF-001-2016",
       nameDoc:
         "MANUAL DE USUARIO PARA PP, COALICIONES, CI PARA LA OPERACIÓN DEL SISTEMA INTEGRAL DE FISCALIZACIÓN",
@@ -248,7 +226,6 @@ export const dataAcuerdosINE = {
     {
       id: 6,
       idDoc: "000236",
-      year: "2016",
       numDoc: "INE CG-47-2016",
       nameDoc:
         "ACUERDO PARA LA INTEGRACIÓN DEL CATÁLOGO DE CARGOS Y PUESTOS DEL SERVICIO PROFESIONAL",
@@ -257,7 +234,6 @@ export const dataAcuerdosINE = {
     {
       id: 7,
       idDoc: "000244",
-      year: "2016",
       numDoc: "INE CG-38-2016",
       nameDoc: "LINEAMIENTOS DE PADRÓN ELECTORAL Y LISTA DE ELECTORES",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2016/7.pdf",
@@ -265,7 +241,6 @@ export const dataAcuerdosINE = {
     {
       id: 8,
       idDoc: "000256",
-      year: "2016",
       numDoc: "INE CF-004-2016",
       nameDoc:
         "LINEAMIENTOS DE REALIZACIÓN DE VISITAS DE VERIFICACIÓN, PROPAGANDA EN VÍA PÚBLICA Y ETC",
@@ -276,7 +251,6 @@ export const dataAcuerdosINE = {
     {
       id: 9,
       idDoc: "000314",
-      year: "2016",
       numDoc: "INE CG-61-2016",
       nameDoc:
         "CRITERIOS INSTITUCIONALES PARA CONTESTAR CONSULTAS REALIZADAS POR LOS OPLES",
@@ -285,7 +259,6 @@ export const dataAcuerdosINE = {
     {
       id: 10,
       idDoc: "000315",
-      year: "2016",
       numDoc: "INE CG-63-2016",
       nameDoc:
         "CRITERIOS PARA GARANTIZAR LA PARIDAD DE GÉNERO EN LA POSTULACIÓN DE CANDIDATURAS",
@@ -294,7 +267,6 @@ export const dataAcuerdosINE = {
     {
       id: 11,
       idDoc: "000427",
-      year: "2016",
       numDoc: "ACUERDOS",
       nameDoc:
         "INE-CG1012-2015, INE-CG948-2015 E INE-CG950-2015 LINEAMIENTOS JE",
@@ -312,7 +284,6 @@ export const dataAcuerdosINE = {
     {
       id: 1,
       idDoc: "000029",
-      year: "2015",
       numDoc: "INE CG-824-2015",
       nameDoc: "APRUEBA DEMARCACIÓN TERRITORIAL DE LOS DISTRITOS UNINOMINALES",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/1.pdf",
@@ -322,7 +293,6 @@ export const dataAcuerdosINE = {
     {
       id: 2,
       idDoc: "000036",
-      year: "2015",
       numDoc: "INE CG-843-2015",
       nameDoc: "SE DETERMINA LA INSTANCIA DE PARTIDOS",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/2.pdf",
@@ -332,7 +302,6 @@ export const dataAcuerdosINE = {
     {
       id: 3,
       idDoc: "000048",
-      year: "2015",
       numDoc: "INE ACRT-33-2015",
       nameDoc:
         "SE MODIFICA ACUERDO INE-ACRT-32-2015 POR PÉRDIDA DE REGISTRO DE PT Y PH",
@@ -341,7 +310,6 @@ export const dataAcuerdosINE = {
     {
       id: 4,
       idDoc: "000065",
-      year: "2015",
       numDoc: "INE CG-861-2015",
       nameDoc:
         "SE CREA LA COMISIÓN TEMPORAL PARA EL SEGUIMIENTO DE LOS PROCESOS ELECTORALES 2015-2016",
@@ -352,7 +320,6 @@ export const dataAcuerdosINE = {
     {
       id: 5,
       idDoc: "000084",
-      year: "2015",
       numDoc: "INE CG-896-2015",
       nameDoc:
         "SE RATIFICA Y DESIGNAN A LOS CONSEJEROS ELECTORALES DE LOS PROCESOS ELECTORALES 2015-2016",
@@ -361,7 +328,6 @@ export const dataAcuerdosINE = {
     {
       id: 6,
       idDoc: "000139",
-      year: "2015",
       numDoc: "INE ACRT-34-2015",
       nameDoc:
         "SE ESTABLECEN LOS TÉRMINOS Y CONDICIONES SATELITAL… DE LA TRANSMISIÓN DE LOS PROCESOS ELECTORALES",
@@ -370,7 +336,6 @@ export const dataAcuerdosINE = {
     {
       id: 7,
       idDoc: "000146",
-      year: "2015",
       numDoc: "INE CG-927-2015",
       nameDoc:
         "CRITERIOS GENERALES A EFECTO DE GARANTIZAR EL CUMPLIMIENTO DE PRINCIPIO DE PARIDAD DE GÉNERO",
@@ -379,7 +344,6 @@ export const dataAcuerdosINE = {
     {
       id: 8,
       idDoc: "000149",
-      year: "2015",
       numDoc: "INE CG-861-2015",
       nameDoc: "ESTRATEGIA DE CAPACITACIÓN Y ASISTENCIA ELECTORAL 2015-2016",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/8.pdf",
@@ -395,7 +359,6 @@ export const dataAcuerdosINE = {
     {
       id: 9,
       idDoc: "000150",
-      year: "2015",
       numDoc: "ACUERDOS",
       nameDoc:
         "ACATAMIENTOS DE LAS SENTENCIAS DE LA SALA SUPERIOR DE LOS PARTIDOS DEL TRABAJO Y HUMANISTA",
@@ -410,7 +373,6 @@ export const dataAcuerdosINE = {
     {
       id: 10,
       idDoc: "000154",
-      year: "2015",
       numDoc: "INE CG-921-2015",
       nameDoc:
         "LINEAMIENTOS GENERALES PARA EL DISEÑO, IMPLEMENTACIÓN Y OPERACIÓN DEL CONTEO RÁPIDO",
@@ -421,7 +383,6 @@ export const dataAcuerdosINE = {
     {
       id: 11,
       idDoc: "000155",
-      year: "2015",
       numDoc: "INE CG-909-2015",
       nameDoc:
         "ESTATUTO DEL SERVICIO PROFESIONAL ELECTORAL Y RAMA ADMINISTRATIVA",
@@ -432,7 +393,6 @@ export const dataAcuerdosINE = {
     {
       id: 12,
       idDoc: "000170",
-      year: "2015",
       numDoc: "INE CG-928-2015",
       nameDoc:
         "LINEAMIENTOS QUE OBSERVARÁN LOS OPLES PARA EL REGISTRO DE COALICIONES",
@@ -441,7 +401,6 @@ export const dataAcuerdosINE = {
     {
       id: 13,
       idDoc: "000171",
-      year: "2015",
       numDoc: "INE CG-935-2015",
       nameDoc:
         "LINEAMIENTOS PARA EL PROGRAMA DE RESULTADOS ELECTORALES PRELIMINARES",
@@ -450,7 +409,6 @@ export const dataAcuerdosINE = {
     {
       id: 14,
       idDoc: "000172",
-      year: "2015",
       numDoc: "INE CG-953-2015",
       nameDoc:
         "MEDIDAS ESPECÍFICAS PARA LOS PRESIDENTES DE LA MDC PARA EVITAR LA COMPRA DEL VOTO COACCIÓN E INDUCIÓN",
@@ -459,7 +417,6 @@ export const dataAcuerdosINE = {
     {
       id: 15,
       idDoc: "000179",
-      year: "2015",
       numDoc: "INE CG-951-2015",
       nameDoc:
         "CRITERIOS QUE DEBERÁN OBSERVAR LOS OPLES DEL SISTEMA DE SEGUIMIENTO Y DESARROLLO DE LA JORNADA ELECTORAL",
@@ -474,7 +431,6 @@ export const dataAcuerdosINE = {
     {
       id: 16,
       idDoc: "000180",
-      year: "2015",
       numDoc: "INE CG-9502015",
       nameDoc:
         "SE EMITEN LINEAMIENTOS PARA IMPRESIÓN DE DOCUMENTOS Y ELABORACIÓN DE MATERIALES ELECTORALES",
@@ -488,7 +444,6 @@ export const dataAcuerdosINE = {
     {
       id: 17,
       idDoc: "000181",
-      year: "2015",
       numDoc: "INE CG-938-2015",
       nameDoc:
         "PROCEDIMIENTO DE LIQUIDACIÓN DE LOS PARTIDOS POLÍTICOS NACIONALES QUE NO ALCANZARON EL 3%",
@@ -497,7 +452,6 @@ export const dataAcuerdosINE = {
     {
       id: 18,
       idDoc: "000182",
-      year: "2015",
       numDoc: "INE CG-948-2015",
       nameDoc: "LINEAMIENTOS DE PARTICIPACIÓN CIUDADANA",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/18.pdf",
@@ -507,7 +461,6 @@ export const dataAcuerdosINE = {
     {
       id: 19,
       idDoc: "000183",
-      year: "2015",
       numDoc: "INE CG-949-2015",
       nameDoc:
         "SE PRECISAN LOS ALCANCES DE LAS ATRIBUCIONES DE LAS COMISIÓN TEMPORAL",
@@ -518,7 +471,6 @@ export const dataAcuerdosINE = {
     {
       id: 20,
       idDoc: "000184",
-      year: "2015",
       numDoc: "INE CG-934-2015",
       nameDoc:
         "SE PRECISAN LOS ALCANCES DE LAS ATRIBUCIONES DE LAS COMISIÓN TEMPORAL",
@@ -529,7 +481,6 @@ export const dataAcuerdosINE = {
     {
       id: 21,
       idDoc: "000185",
-      year: "2015",
       numDoc: "INE CG-939-2015",
       nameDoc:
         "LINEAMIENTOS PARA EL REGISTRO DE LOS OTRORA PARTIDOS NACIONALES PARA OPTAR COMO PARTIDO LOCAL",
@@ -540,7 +491,6 @@ export const dataAcuerdosINE = {
     {
       id: 22,
       idDoc: "000185",
-      year: "2015",
       numDoc: "INE CG-1000-2015",
       nameDoc:
         "MODIFICACIÓN DEL REGLAMENTO DE SESIONES DE LOS CONSEJOS LOCALES Y DISTRTITALES DEL INE",
@@ -551,7 +501,6 @@ export const dataAcuerdosINE = {
     {
       id: 23,
       idDoc: "000292",
-      year: "2015",
       numDoc: "INE DERFE-1434-2015",
       nameDoc:
         "ESTRATEGIA DE INFORMACIÓN EN APOYO A LA ACTUALIZACIÓN DEL PADRÓN ELECTORAL",
@@ -560,7 +509,6 @@ export const dataAcuerdosINE = {
     {
       id: 24,
       idDoc: "000295",
-      year: "2015",
       numDoc: "INE ACRT-37-2015",
       nameDoc:
         "MODIFICAN ACUERDO INE-ACRT-32-2015 CON MOTIVO DE LA PÉRDIDA DE REGISTRO DEL PT Y PH",
@@ -569,7 +517,6 @@ export const dataAcuerdosINE = {
     {
       id: 25,
       idDoc: "000332",
-      year: "2015",
       numDoc: "RAP-756-2015",
       nameDoc:
         "RESOLUCIÓN DEL PT DERIVADA DEL RECURSO DE REVISIÓN SUP-RAP-756-2015",
@@ -580,7 +527,6 @@ export const dataAcuerdosINE = {
     {
       id: 26,
       idDoc: "000348",
-      year: "2015",
       numDoc: "ACUERDOS",
       nameDoc: "",
       link: "",
@@ -596,7 +542,6 @@ export const dataAcuerdosINE = {
     {
       id: 27,
       idDoc: "000366",
-      year: "2015",
       numDoc: "INE VRFE-439-2015",
       nameDoc:
         "PLANOS URBANOS, CARTA ELECTORAL MUNICIPAL, PLANOS POR SECCIÓN INDIVIDUAL",
@@ -606,7 +551,6 @@ export const dataAcuerdosINE = {
     {
       id: 28,
       idDoc: "000371",
-      year: "2015",
       numDoc: "INE CG-824-",
       nameDoc: "NUEVA DEMARCACIÓN TERRITORIAL",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/28.pdf",
@@ -620,7 +564,6 @@ export const dataAcuerdosINE = {
     {
       id: 29,
       idDoc: "000391",
-      year: "2015",
       numDoc: "RAP-1049-2015",
       nameDoc: "RESOLUCIÓN DEL INE RELATIVO AL REGISTRO DEL PT",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/29.pdf",
@@ -630,7 +573,6 @@ export const dataAcuerdosINE = {
     {
       id: 30,
       idDoc: "000392",
-      year: "2015",
       numDoc: "ACUERDOS",
       nameDoc: "ACUERDOS DONDE INCLUYEN AL PT EN LAS PAUTAS DE RADIO Y TV",
       link: "",
@@ -642,7 +584,6 @@ export const dataAcuerdosINE = {
     {
       id: 33,
       idDoc: "000543",
-      year: "2015",
       numDoc: "INE CG-813-2015",
       nameDoc: "DESIGNACIÓN DEL CONSEJO GENERAL DE TLAXCALA",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2015/33.pdf",
@@ -657,7 +598,6 @@ export const dataAcuerdosITE = {
   2023: [
     {
       id: 1,
-      year: "2023",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 01-2023",
       monthDoc: "ENE",
@@ -668,7 +608,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 2,
-      year: "2023",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 02-2023",
       monthDoc: "ENE",
@@ -679,7 +618,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 3,
-      year: "2023",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 03-2023",
       monthDoc: "ENE",
@@ -691,7 +629,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 4,
-      year: "2023",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 04-2023",
       monthDoc: "ENE",
@@ -702,7 +639,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 5,
-      year: "2023",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 05-2023",
       monthDoc: "ENE",
@@ -711,7 +647,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 6,
-      year: "2023",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 06-2023",
       monthDoc: "ENE",
@@ -723,7 +658,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 7,
-      year: "2023",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 07-2023",
       monthDoc: "ENE",
@@ -733,7 +667,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 8,
-      year: "2023",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 08-2023",
       monthDoc: "FEB",
@@ -750,7 +683,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 9,
-      year: "2023",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 09-2023",
       monthDoc: "FEB",
@@ -761,7 +693,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 10,
-      year: "2023",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 10-2023",
       monthDoc: "FEB",
@@ -772,7 +703,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 11,
-      year: "2023",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 11-2023",
       monthDoc: "FEB",
@@ -783,7 +713,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 12,
-      year: "2023",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 12-2023",
       monthDoc: "FEB",
@@ -792,7 +721,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 13,
-      year: "2023",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 13-2023",
       monthDoc: "FEB",
@@ -805,7 +733,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 14,
-      year: "2023",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 14-2023",
       monthDoc: "FEB",
@@ -814,7 +741,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 15,
-      year: "2023",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 15-2023",
       monthDoc: "FEB",
@@ -825,7 +751,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 16,
-      year: "2023",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 16-2023",
       monthDoc: "FEB",
@@ -837,7 +762,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 17,
-      year: "2023",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 17-2023",
       monthDoc: "MAR",
@@ -852,7 +776,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 18,
-      year: "2023",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 18-2023",
       monthDoc: "MAR",
@@ -861,7 +784,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 19,
-      year: "2023",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 19-2023",
       monthDoc: "MAR",
@@ -870,7 +792,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 20,
-      year: "2023",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 20-2023",
       monthDoc: "MAR",
@@ -879,7 +800,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 21,
-      year: "2023",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 21-2023",
       monthDoc: "MAR",
@@ -888,7 +808,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 22,
-      year: "2023",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 22-2023",
       monthDoc: "MAR",
@@ -897,7 +816,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 23,
-      year: "2023",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 23-2023",
       monthDoc: "MAR",
@@ -906,7 +824,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 24,
-      year: "2023",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 24-2023",
       monthDoc: "MAR",
@@ -915,7 +832,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 25,
-      year: "2023",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 25-2023",
       monthDoc: "MAR",
@@ -924,7 +840,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 26,
-      year: "2023",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 26-2023",
       monthDoc: "MAR",
@@ -934,7 +849,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 27,
-      year: "2023",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 27-2023",
       monthDoc: "ABR",
@@ -950,7 +864,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 28,
-      year: "2023",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 28-2023",
       monthDoc: "ABR",
@@ -965,7 +878,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 29,
-      year: "2023",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 29-2023",
       monthDoc: "ABR",
@@ -981,7 +893,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 30,
-      year: "2023",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 30-2023",
       monthDoc: "ABR",
@@ -998,7 +909,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 31,
-      year: "2023",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 31-2023",
       monthDoc: "ABR",
@@ -1014,7 +924,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 32,
-      year: "2023",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 32-2023",
       monthDoc: "ABR",
@@ -1030,7 +939,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 33,
-      year: "2023",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 33-2023",
       monthDoc: "ABR",
@@ -1044,7 +952,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 34,
-      year: "2023",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 34-2023",
       monthDoc: "ABR",
@@ -1058,7 +965,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 35,
-      year: "2023",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 35-2023",
       monthDoc: "ABR",
@@ -1072,7 +978,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 36,
-      year: "2023",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 36-2023",
       monthDoc: "ABR",
@@ -1086,7 +991,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 37,
-      year: "2023",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 37-2023",
       monthDoc: "MAY",
@@ -1097,7 +1001,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 38,
-      year: "2023",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 38-2023",
       monthDoc: "MAY",
@@ -1106,7 +1009,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 39,
-      year: "2023",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 39-2023",
       monthDoc: "ABR",
@@ -1120,7 +1022,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 40,
-      year: "2023",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 40-2023",
       monthDoc: "MAY",
@@ -1131,7 +1032,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 41,
-      year: "2023",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 41-2023",
       monthDoc: "JUL",
@@ -1143,7 +1043,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 42,
-      year: "2023",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 42-2023",
       monthDoc: "JUL",
@@ -1152,7 +1051,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 43,
-      year: "2023",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 43-2023",
       monthDoc: "JUL",
@@ -1161,7 +1059,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 44,
-      year: "2023",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 44-2023",
       monthDoc: "JUL",
@@ -1170,7 +1067,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 45,
-      year: "2023",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 45-2023",
       monthDoc: "JUL",
@@ -1181,7 +1077,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 46,
-      year: "2023",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 46-2023",
       monthDoc: "JUL",
@@ -1190,7 +1085,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 47,
-      year: "2023",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 47-2023",
       monthDoc: "JUL",
@@ -1199,7 +1093,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 48,
-      year: "2023",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 48-2023",
       monthDoc: "JUL",
@@ -1208,7 +1101,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 49,
-      year: "2023",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 49-2023",
       monthDoc: "JUL",
@@ -1217,7 +1109,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 50,
-      year: "2023",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 50-2023",
       monthDoc: "JUL",
@@ -1226,7 +1117,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 51,
-      year: "2023",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 51-2023",
       monthDoc: "JUL",
@@ -1235,7 +1125,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 52,
-      year: "2023",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 52-2023",
       monthDoc: "JUL",
@@ -1244,7 +1133,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 53,
-      year: "2023",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 53-2023",
       monthDoc: "JUL",
@@ -1253,7 +1141,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 54,
-      year: "2023",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 54-2023",
       monthDoc: "JUL",
@@ -1262,7 +1149,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 55,
-      year: "2023",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 55-2023",
       monthDoc: "JUL",
@@ -1271,7 +1157,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 56,
-      year: "2023",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 56-2023",
       monthDoc: "JUL",
@@ -1280,7 +1165,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 57,
-      year: "2023",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 57-2023",
       monthDoc: "JUL",
@@ -1289,7 +1173,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 58,
-      year: "2023",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 58-2023",
       monthDoc: "JUL",
@@ -1298,7 +1181,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 59,
-      year: "2023",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 59-2023",
       monthDoc: "JUL",
@@ -1307,7 +1189,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 60,
-      year: "2023",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 60-2023",
       monthDoc: "JUL",
@@ -1316,7 +1197,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 61,
-      year: "2023",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 61-2023",
       monthDoc: "JUL",
@@ -1325,7 +1205,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 62,
-      year: "2023",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 62-2023",
       monthDoc: "JUL",
@@ -1335,7 +1214,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 63,
-      year: "2023",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 63-2023",
       monthDoc: "JUL",
@@ -1347,7 +1225,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 64,
-      year: "2023",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 64-2023",
       monthDoc: "JUL",
@@ -1359,7 +1236,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 65,
-      year: "2023",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 65-2023",
       monthDoc: "AGO",
@@ -1371,7 +1247,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 66,
-      year: "2023",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 66-2023",
       monthDoc: "AGO",
@@ -1383,7 +1258,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 67,
-      year: "2023",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 67-2023",
       monthDoc: "AGO",
@@ -1392,7 +1266,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 68,
-      year: "2023",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 68-2023",
       monthDoc: "AGO",
@@ -1401,7 +1274,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 69,
-      year: "2023",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 69-2023",
       monthDoc: "AGO",
@@ -1411,7 +1283,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 70,
-      year: "2023",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 70-2023",
       monthDoc: "AGO",
@@ -1431,7 +1302,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 71,
-      year: "2023",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 71-2023",
       monthDoc: "SEP",
@@ -1455,7 +1325,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 72,
-      year: "2023",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 72-2023",
       monthDoc: "SEP",
@@ -1465,7 +1334,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 73,
-      year: "2023",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 73-2023",
       monthDoc: "SEP",
@@ -1474,7 +1342,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 74,
-      year: "2023",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 74-2023",
       monthDoc: "SEP",
@@ -1501,7 +1368,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 75,
-      year: "2023",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 75-2023",
       monthDoc: "SEP",
@@ -1519,7 +1385,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 76,
-      year: "2023",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 76-2023",
       monthDoc: "SEP",
@@ -1531,7 +1396,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 77,
-      year: "2023",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 77-2023",
       monthDoc: "SEP",
@@ -1540,7 +1404,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 78,
-      year: "2023",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 78-2023",
       monthDoc: "SEP",
@@ -1551,7 +1414,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 79,
-      year: "2023",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 79-2023",
       monthDoc: "OCT",
@@ -1562,7 +1424,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 80,
-      year: "2023",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 80-2023",
       monthDoc: "OCT",
@@ -1573,7 +1434,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 81,
-      year: "2023",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 81-2023",
       monthDoc: "OCT",
@@ -1584,7 +1444,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 82,
-      year: "2023",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 82-2023",
       monthDoc: "OCT",
@@ -1623,7 +1482,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 83,
-      year: "2023",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 83-2023",
       monthDoc: "OCT",
@@ -1635,7 +1493,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 84,
-      year: "2023",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 84-2023",
       monthDoc: "OCT",
@@ -1647,7 +1504,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 85,
-      year: "2023",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 85-2023",
       monthDoc: "OCT",
@@ -1656,7 +1512,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 86,
-      year: "2023",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 86-2023",
       monthDoc: "OCT",
@@ -1668,7 +1523,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 87,
-      year: "2023",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 87-2023",
       monthDoc: "OCT",
@@ -1680,7 +1534,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 88,
-      year: "2023",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 88-2023",
       monthDoc: "OCT",
@@ -1692,7 +1545,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 89,
-      year: "2023",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 89-2023",
       monthDoc: "OCT",
@@ -1704,7 +1556,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 90,
-      year: "2023",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 90-2023",
       monthDoc: "OCT",
@@ -1716,7 +1567,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 91,
-      year: "2023",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 91-2023",
       monthDoc: "OCT",
@@ -1742,7 +1592,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 92,
-      year: "2023",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 92-2023",
       monthDoc: "OCT",
@@ -1751,7 +1600,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 93,
-      year: "2023",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 93-2023",
       monthDoc: "OCT",
@@ -1764,7 +1612,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 94,
-      year: "2023",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 94-2023",
       monthDoc: "OCT",
@@ -1774,7 +1621,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 95,
-      year: "2023",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 95-2023",
       monthDoc: "NOV",
@@ -1784,7 +1630,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 96,
-      year: "2023",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 96-2023",
       monthDoc: "NOV",
@@ -1796,7 +1641,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 97,
-      year: "2023",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 97-2023",
       monthDoc: "NOV",
@@ -1818,7 +1662,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 98,
-      year: "2023",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 98-2023",
       monthDoc: "NOV",
@@ -1841,7 +1684,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 99,
-      year: "2023",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 99-2023",
       monthDoc: "NOV",
@@ -1852,7 +1694,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 100,
-      year: "2023",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 100-2023",
       monthDoc: "NOV",
@@ -1864,7 +1705,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 101,
-      year: "2023",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 101-2023",
       monthDoc: "NOV",
@@ -1876,7 +1716,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 102,
-      year: "2023",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 102-2023",
       monthDoc: "NOV",
@@ -1886,7 +1725,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 103,
-      year: "2023",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 103-2023",
       monthDoc: "NOV",
@@ -1896,7 +1734,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 104,
-      year: "2023",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 104-2023",
       monthDoc: "NOV",
@@ -1918,7 +1755,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 105,
-      year: "2023",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 105-2023",
       monthDoc: "NOV",
@@ -1934,7 +1770,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 106,
-      year: "2023",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 106-2023",
       monthDoc: "NOV",
@@ -1943,7 +1778,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 107,
-      year: "2023",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 107-2023",
       monthDoc: "NOV",
@@ -1967,7 +1801,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 108,
-      year: "2023",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 108-2023",
       monthDoc: "NOV",
@@ -1987,7 +1820,6 @@ export const dataAcuerdosITE = {
 
     {
       id: 109,
-      year: "2023",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 109-2023",
       monthDoc: "NOV",
@@ -1996,7 +1828,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 110,
-      year: "2023",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 110-2023",
       monthDoc: "DIC",
@@ -2009,7 +1840,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 111,
-      year: "2023",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 111-2023",
       monthDoc: "DIC",
@@ -2019,7 +1849,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 112,
-      year: "2023",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 112-2023",
       monthDoc: "DIC",
@@ -2032,7 +1861,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 113,
-      year: "2023",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 113-2023",
       monthDoc: "DIC",
@@ -2041,7 +1869,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 114,
-      year: "2023",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 114-2023",
       monthDoc: "DIC",
@@ -2051,7 +1878,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 115,
-      year: "2023",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 115-2023",
       monthDoc: "DIC",
@@ -2061,7 +1887,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 116,
-      year: "2023",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 116-2023",
       monthDoc: "DIC",
@@ -2070,7 +1895,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 117,
-      year: "2023",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 117-2023",
       monthDoc: "DIC",
@@ -2083,7 +1907,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 118,
-      year: "2023",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 118-2023",
       monthDoc: "DIC",
@@ -2100,7 +1923,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 119,
-      year: "2023",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 119-2023",
       monthDoc: "DIC",
@@ -2112,7 +1934,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 120,
-      year: "2023",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 120-2023",
       monthDoc: "DIC",
@@ -2124,7 +1945,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 121,
-      year: "2023",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 121-2023",
       monthDoc: "DIC",
@@ -2137,7 +1957,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 122,
-      year: "2023",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 122-2023",
       monthDoc: "DIC",
@@ -2150,7 +1969,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 123,
-      year: "2023",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 123-2023",
       monthDoc: "DIC",
@@ -2159,7 +1977,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 124,
-      year: "2023",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 124-2023",
       monthDoc: "DIC",
@@ -2168,7 +1985,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 124,
-      year: "2023",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 124-2023",
       monthDoc: "DIC",
@@ -2180,7 +1996,6 @@ export const dataAcuerdosITE = {
   2022: [
     {
       id: 1,
-      year: "2022",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 01-2022",
       monthDoc: "ENE",
@@ -2197,7 +2012,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 2,
-      year: "2022",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 02-2022",
       monthDoc: "ENE",
@@ -2208,7 +2022,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 3,
-      year: "2022",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 03-2022",
       monthDoc: "ENE",
@@ -2219,7 +2032,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 4,
-      year: "2022",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 04-2022",
       monthDoc: "ENE",
@@ -2231,7 +2043,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 5,
-      year: "2022",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 05-2022",
       monthDoc: "ENE",
@@ -2243,7 +2054,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 6,
-      year: "2022",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 06-2022",
       monthDoc: "ENE",
@@ -2256,7 +2066,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 7,
-      year: "2022",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 07-2022",
       monthDoc: "ENE",
@@ -2267,7 +2076,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 8,
-      year: "2022",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 08-2022",
       monthDoc: "ENE",
@@ -2276,7 +2084,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 9,
-      year: "2022",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 09-2022",
       monthDoc: "FEB",
@@ -2302,7 +2109,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 10,
-      year: "2022",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 10-2022",
       monthDoc: "FEB",
@@ -2311,7 +2117,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 11,
-      year: "2022",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 11-2022",
       monthDoc: "FEB",
@@ -2321,7 +2126,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 12,
-      year: "2022",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 12-2022",
       monthDoc: "FEB",
@@ -2330,7 +2134,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 13,
-      year: "2022",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 13-2022",
       monthDoc: "FEB",
@@ -2343,7 +2146,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 14,
-      year: "2022",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 14-2022",
       monthDoc: "FEB",
@@ -2354,7 +2156,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 15,
-      year: "2022",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 15-2022",
       monthDoc: "FEB",
@@ -2366,7 +2167,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 16,
-      year: "2022",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 16-2022",
       monthDoc: "FEB",
@@ -2375,7 +2175,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 17,
-      year: "2022",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 17-2022",
       monthDoc: "FEB",
@@ -2387,7 +2186,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 18,
-      year: "2022",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 18-2022",
       monthDoc: "FEB",
@@ -2397,7 +2195,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 19,
-      year: "2022",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 19-2022",
       monthDoc: "MAR",
@@ -2430,7 +2227,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 20,
-      year: "2022",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 20-2022",
       monthDoc: "MAR",
@@ -2452,7 +2248,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 21,
-      year: "2022",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 21-2022",
       monthDoc: "MAR",
@@ -2468,7 +2263,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 22,
-      year: "2022",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 22-2022",
       monthDoc: "MAR",
@@ -2477,7 +2271,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 23,
-      year: "2022",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 23-2022",
       monthDoc: "MAR",
@@ -2488,7 +2281,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 24,
-      year: "2022",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 24-2022",
       monthDoc: "MAR",
@@ -2499,7 +2291,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 25,
-      year: "2022",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 25-2022",
       monthDoc: "MAR",
@@ -2510,7 +2301,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 26,
-      year: "2022",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 26-2022",
       monthDoc: "MAR",
@@ -2520,7 +2310,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 27,
-      year: "2022",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 27-2022",
       monthDoc: "ABR",
@@ -2529,7 +2318,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 28,
-      year: "2022",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 28-2022",
       monthDoc: "ABR",
@@ -2540,7 +2328,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 29,
-      year: "2022",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 29-2022",
       monthDoc: "ABR",
@@ -2550,7 +2337,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 30,
-      year: "2022",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 30-2022",
       monthDoc: "ABR",
@@ -2562,7 +2348,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 31,
-      year: "2022",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 31-2022",
       monthDoc: "ABR",
@@ -2576,7 +2361,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 32,
-      year: "2022",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 32-2022",
       monthDoc: "ABR",
@@ -2587,7 +2371,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 33,
-      year: "2022",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 33-2022",
       monthDoc: "MAY",
@@ -2596,7 +2379,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 34,
-      year: "2022",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 34-2022",
       monthDoc: "MAY",
@@ -2610,7 +2392,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 35,
-      year: "2022",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 35-2022",
       monthDoc: "JUN",
@@ -2624,7 +2405,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 36,
-      year: "2022",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 36-2022",
       monthDoc: "JUN",
@@ -2633,7 +2413,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 37,
-      year: "2022",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 37-2022",
       monthDoc: "JUN",
@@ -2643,7 +2422,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 38,
-      year: "2022",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 38-2022",
       monthDoc: "JUN",
@@ -2652,7 +2430,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 39,
-      year: "2022",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 39-2022",
       monthDoc: "JUN",
@@ -2665,7 +2442,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 40,
-      year: "2022",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 40-2022",
       monthDoc: "JUN",
@@ -2679,7 +2455,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 41,
-      year: "2022",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 41-2022",
       monthDoc: "JUN",
@@ -2691,7 +2466,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 42,
-      year: "2022",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 42-2022",
       monthDoc: "JUL",
@@ -2704,7 +2478,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 43,
-      year: "2022",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 43-2022",
       monthDoc: "JUL",
@@ -2715,7 +2488,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 44,
-      year: "2022",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 44-2022",
       monthDoc: "JUL",
@@ -2724,7 +2496,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 45,
-      year: "2022",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 045-2022",
       monthDoc: "",
@@ -2736,7 +2507,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 46,
-      year: "2022",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 46-2022",
       monthDoc: "JUL",
@@ -2752,7 +2522,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 47,
-      year: "2022",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 47-2022",
       monthDoc: "AGO",
@@ -2762,7 +2531,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 48,
-      year: "2022",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 48-2022",
       monthDoc: "AGO",
@@ -2771,7 +2539,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 49,
-      year: "2022",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 49-2022",
       monthDoc: "AGO",
@@ -2781,7 +2548,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 50,
-      year: "2022",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 50-2022",
       monthDoc: "AGO",
@@ -2793,7 +2559,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 51,
-      year: "2022",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 51-2022",
       monthDoc: "AGO",
@@ -2805,7 +2570,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 52,
-      year: "2022",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 52-2022",
       monthDoc: "SEP",
@@ -2819,7 +2583,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 53,
-      year: "2022",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 53-2022",
       monthDoc: "SEP",
@@ -2829,7 +2592,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 54,
-      year: "2022",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 54-2022",
       monthDoc: "SEP",
@@ -2838,7 +2600,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 55,
-      year: "2022",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 55-2022",
       monthDoc: "SEP",
@@ -2853,7 +2614,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 56,
-      year: "2022",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 56-2022",
       monthDoc: "SEP",
@@ -2862,7 +2622,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 57,
-      year: "2022",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 57-2022",
       monthDoc: "SEP",
@@ -2875,7 +2634,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 58,
-      year: "2022",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 58-2022",
       monthDoc: "SEP",
@@ -2886,7 +2644,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 59,
-      year: "2022",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 59-2022",
       monthDoc: "SEP",
@@ -2898,7 +2655,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 60,
-      year: "2022",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 60-2022",
       monthDoc: "SEP",
@@ -2910,7 +2666,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 61,
-      year: "2022",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 61-2022",
       monthDoc: "SEP",
@@ -2922,7 +2677,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 62,
-      year: "2022",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 62-2022",
       monthDoc: "OCT",
@@ -2932,7 +2686,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 63,
-      year: "2022",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 63-2022",
       monthDoc: "OCT",
@@ -2946,7 +2699,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 64,
-      year: "2022",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 64-2022",
       monthDoc: "OCT",
@@ -2958,7 +2710,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 65,
-      year: "2022",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 65-2022",
       monthDoc: "NOV",
@@ -2968,7 +2719,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 66,
-      year: "2022",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 66-2022",
       monthDoc: "NOV",
@@ -2980,7 +2730,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 67,
-      year: "2022",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 67-2022",
       monthDoc: "NOV",
@@ -2991,7 +2740,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 68,
-      year: "2022",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 68-2022",
       monthDoc: "NOV",
@@ -3002,7 +2750,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 69,
-      year: "2022",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 69-2022",
       monthDoc: "DIC",
@@ -3014,7 +2761,6 @@ export const dataAcuerdosITE = {
   2021: [
     {
       id: 1,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 01-2021",
       monthDoc: "ENE",
@@ -3023,7 +2769,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 2,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 02-2021",
       monthDoc: "ENE",
@@ -3032,7 +2777,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 3,
-      year: "2021",
       typeDoc: "",
       numDoc: "ITE-CG 03-2021",
       monthDoc: "ENE",
@@ -3041,7 +2785,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 4,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 04-2021",
       monthDoc: "ENE",
@@ -3053,7 +2796,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 5,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 05-2021",
       monthDoc: "ENE",
@@ -3064,7 +2806,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 6,
-      year: "2021",
       typeDoc: "",
       numDoc: "ITE-CG 06-2021",
       monthDoc: "ENE",
@@ -3080,7 +2821,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 7,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 07-2021",
       monthDoc: "ENE",
@@ -3089,7 +2829,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 8,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 08-2021",
       monthDoc: "ENE",
@@ -3106,7 +2845,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 9,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 09-2021",
       monthDoc: "ENE",
@@ -3117,7 +2855,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 10,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 10-2021",
       monthDoc: "ENE",
@@ -3130,7 +2867,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 11,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 11-2021",
       monthDoc: "ENE",
@@ -3139,7 +2875,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 12,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 12-2021",
       monthDoc: "ENE",
@@ -3148,7 +2883,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 13,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 13-2021",
       monthDoc: "ENE",
@@ -3157,7 +2891,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 14,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 14-2021",
       monthDoc: "ENE",
@@ -3166,7 +2899,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 15,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 15-2021",
       monthDoc: "ENE",
@@ -3175,7 +2907,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 16,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 16-2021",
       monthDoc: "ENE",
@@ -3184,7 +2915,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 17,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 17-2021",
       monthDoc: "ENE",
@@ -3193,7 +2923,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 18,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 18-2021",
       monthDoc: "ENE",
@@ -3202,7 +2931,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 19,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 19-2021",
       monthDoc: "ENE",
@@ -3212,7 +2940,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 20,
-      year: "2021",
       typeDoc: "",
       numDoc: "ITE-CG 20-2021",
       monthDoc: "ENE",
@@ -3227,7 +2954,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 21,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 21-2021",
       monthDoc: "ENE",
@@ -3240,7 +2966,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 22,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 22-2021",
       monthDoc: "ENE",
@@ -3252,7 +2977,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 23,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 23-2021",
       monthDoc: "FEB",
@@ -3261,7 +2985,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 24,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 24-2021",
       monthDoc: "FEB",
@@ -3270,7 +2993,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 25,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 25-2021",
       monthDoc: "FEB",
@@ -3279,7 +3001,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 26,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 26-2021",
       monthDoc: "FEB",
@@ -3290,7 +3011,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 27,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 27-2021",
       monthDoc: "FEB",
@@ -3299,7 +3019,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 28,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 28-2021",
       monthDoc: "FEB",
@@ -3308,7 +3027,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 29,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 29-2021",
       monthDoc: "FEB",
@@ -3317,7 +3035,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 30,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 30-2021",
       monthDoc: "FEB",
@@ -3326,7 +3043,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 31,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 31-2021",
       monthDoc: "FEB",
@@ -3335,7 +3051,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 32,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 32-2021",
       monthDoc: "FEB",
@@ -3344,7 +3059,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 33,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 33-2021",
       monthDoc: "FEB",
@@ -3353,7 +3067,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 34,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 34-2021",
       monthDoc: "FEB",
@@ -3364,7 +3077,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 35,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 35-2021",
       monthDoc: "FEB",
@@ -3373,7 +3085,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 36,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 36-2021",
       monthDoc: "FEB",
@@ -3382,7 +3093,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 37,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 37-2021",
       monthDoc: "FEB",
@@ -3391,7 +3101,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 38,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 38-2021",
       monthDoc: "FEB",
@@ -3400,7 +3109,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 39,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 39-2021",
       monthDoc: "FEB",
@@ -3409,7 +3117,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 40,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 40-2021",
       monthDoc: "FEB",
@@ -3418,7 +3125,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 41,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 41-2021",
       monthDoc: "FEB",
@@ -3433,7 +3139,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 42,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 42-2021",
       monthDoc: "FEB",
@@ -3447,7 +3152,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 43,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 43-2021",
       monthDoc: "FEB",
@@ -3461,7 +3165,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 44,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 44-2021",
       monthDoc: "FEB",
@@ -3470,7 +3173,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 45,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 45-2021",
       monthDoc: "FEB",
@@ -3481,7 +3183,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 46,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 46-2021",
       monthDoc: "MAR",
@@ -3491,7 +3192,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 47,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 47-2021",
       monthDoc: "MAR",
@@ -3500,7 +3200,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 48,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 48-2021",
       monthDoc: "MAR",
@@ -3509,7 +3208,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 49,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 49-2021",
       monthDoc: "MAR",
@@ -3518,7 +3216,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 50,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 50-2021",
       monthDoc: "MAR",
@@ -3535,7 +3232,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 51,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 51-2021",
       monthDoc: "MAR",
@@ -3547,7 +3243,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 52,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 52-2021",
       monthDoc: "MAR",
@@ -3556,7 +3251,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 53,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 53-2021",
       monthDoc: "MAR",
@@ -3571,7 +3265,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 54,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 54-2021",
       monthDoc: "MAR",
@@ -3586,7 +3279,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 55,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 55-2021",
       monthDoc: "MAR",
@@ -3595,7 +3287,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 56,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 56-2021",
       monthDoc: "MAR",
@@ -3604,7 +3295,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 57,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 57-2021",
       monthDoc: "MAR",
@@ -3613,7 +3303,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 58,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 58-2021",
       monthDoc: "MAR",
@@ -3622,7 +3311,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 59,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 59-2021",
       monthDoc: "MAR",
@@ -3631,7 +3319,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 60,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 60-2021",
       monthDoc: "MAR",
@@ -3640,7 +3327,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 61,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 61-2021",
       monthDoc: "MAR",
@@ -3649,7 +3335,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 62,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 62-2021",
       monthDoc: "MAR",
@@ -3658,7 +3343,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 63,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 63-2021",
       monthDoc: "MAR",
@@ -3669,7 +3353,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 64,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 64-2021",
       monthDoc: "MAR",
@@ -3678,7 +3361,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 65,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 65-2021",
       monthDoc: "MAR",
@@ -3687,7 +3369,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 66,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 66-2021",
       monthDoc: "MAR",
@@ -3699,7 +3380,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 67,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 67-2021",
       monthDoc: "MAR",
@@ -3710,7 +3390,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 68,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 68-2021",
       monthDoc: "MAR",
@@ -3719,7 +3398,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 69,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 69-2021",
       monthDoc: "MAR",
@@ -3728,7 +3406,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 70,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 70-2021",
       monthDoc: "MAR",
@@ -3737,7 +3414,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 71,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 71-2021",
       monthDoc: "MAR",
@@ -3746,7 +3422,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 72,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 72-2021",
       monthDoc: "MAR",
@@ -3755,7 +3430,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 73,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 73-2021",
       monthDoc: "MAR",
@@ -3764,7 +3438,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 74,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 74-2021",
       monthDoc: "MAR",
@@ -3773,7 +3446,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 75,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 75-2021",
       monthDoc: "MAR",
@@ -3782,7 +3454,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 76,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 76-2021",
       monthDoc: "MAR",
@@ -3791,7 +3462,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 77,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 77-2021",
       monthDoc: "MAR",
@@ -3800,7 +3470,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 78,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 78-2021",
       monthDoc: "MAR",
@@ -3809,7 +3478,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 79,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 79-2021",
       monthDoc: "MAR",
@@ -3818,7 +3486,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 80,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 80-2021",
       monthDoc: "MAR",
@@ -3827,7 +3494,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 81,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 81-2021",
       monthDoc: "MAR",
@@ -3836,7 +3502,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 82,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 82-2021",
       monthDoc: "MAR",
@@ -3845,7 +3510,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 83,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 83-2021",
       monthDoc: "MAR",
@@ -3854,7 +3518,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 84,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 84-2021",
       monthDoc: "MAR",
@@ -3863,7 +3526,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 85,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 85-2021",
       monthDoc: "MAR",
@@ -3872,7 +3534,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 86,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 86-2021",
       monthDoc: "MAR",
@@ -3881,7 +3542,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 87,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 87-2021",
       monthDoc: "MAR",
@@ -3890,7 +3550,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 88,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 88-2021",
       monthDoc: "MAR",
@@ -3899,7 +3558,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 89,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 89-2021",
       monthDoc: "MAR",
@@ -3908,7 +3566,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 90,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 90-2021",
       monthDoc: "MAR",
@@ -3917,7 +3574,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 91,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 91-2021",
       monthDoc: "MAR",
@@ -3926,7 +3582,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 92,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 92-2021",
       monthDoc: "MAR",
@@ -3935,7 +3590,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 93,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 93-2021",
       monthDoc: "MAR",
@@ -3944,7 +3598,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 94,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 94-2021",
       monthDoc: "MAR",
@@ -3953,7 +3606,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 95,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 95-2021",
       monthDoc: "MAR",
@@ -3962,7 +3614,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 96,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 96-2021",
       monthDoc: "MAR",
@@ -3971,7 +3622,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 97,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 97-2021",
       monthDoc: "MAR",
@@ -3980,7 +3630,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 98,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 98-2021",
       monthDoc: "MAR",
@@ -3989,7 +3638,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 99,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 99-2021",
       monthDoc: "MAR",
@@ -4000,7 +3648,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 100,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 100-2021",
       monthDoc: "ABR",
@@ -4010,7 +3657,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 101,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 101-2021",
       monthDoc: "ABR",
@@ -4020,7 +3666,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 102,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 102-2021",
       monthDoc: "ABR",
@@ -4029,7 +3674,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 103,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 103-2021",
       monthDoc: "ABR",
@@ -4038,7 +3682,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 104,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 104-2021",
       monthDoc: "ABR",
@@ -4048,7 +3691,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 105,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 105-2021",
       monthDoc: "ABR",
@@ -4057,7 +3699,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 106,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 106-2021",
       monthDoc: "ABR",
@@ -4066,7 +3707,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 107,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 107-2021",
       monthDoc: "ABR",
@@ -4078,7 +3718,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 108,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 108-2021",
       monthDoc: "ABR",
@@ -4090,7 +3729,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 109,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 109-2021",
       monthDoc: "ABR",
@@ -4102,7 +3740,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 110,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 110-2021",
       monthDoc: "ABR",
@@ -4114,7 +3751,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 111,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 111-2021",
       monthDoc: "ABR",
@@ -4126,7 +3762,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 112,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 112-2021",
       monthDoc: "ABR",
@@ -4135,7 +3770,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 113,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 113-2021",
       monthDoc: "ABR",
@@ -4147,7 +3781,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 114,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 114-2021",
       monthDoc: "ABR",
@@ -4159,7 +3792,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 115,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 115-2021",
       monthDoc: "ABR",
@@ -4174,7 +3806,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 116,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 116-2021",
       monthDoc: "ABR",
@@ -4183,7 +3814,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 117,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 117-2021",
       monthDoc: "ABR",
@@ -4195,7 +3825,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 118,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 118-2021",
       monthDoc: "ABR",
@@ -4207,7 +3836,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 119,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 119-2021",
       monthDoc: "ABR",
@@ -4219,7 +3847,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 120,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 120-2021",
       monthDoc: "ABR",
@@ -4228,7 +3855,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 121,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 121-2021",
       monthDoc: "ABR",
@@ -4240,7 +3866,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 122,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 122-2021",
       monthDoc: "ABR",
@@ -4252,7 +3877,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 123,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 123-2021",
       monthDoc: "ABR",
@@ -4264,7 +3888,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 124,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 124-2021",
       monthDoc: "ABR",
@@ -4276,7 +3899,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 125,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 125-2021",
       monthDoc: "ABR",
@@ -4289,7 +3911,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 126,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 126-2021",
       monthDoc: "ABR",
@@ -4298,7 +3919,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 127,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 127-2021",
       monthDoc: "ABR",
@@ -4307,7 +3927,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 128,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 128-2021",
       monthDoc: "ABR",
@@ -4316,7 +3935,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 129,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 129-2021",
       monthDoc: "ABR",
@@ -4334,7 +3952,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 130,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 130-2021",
       monthDoc: "ABR",
@@ -4343,7 +3960,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 131,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 131-2021",
       monthDoc: "ABR",
@@ -4352,7 +3968,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 132,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 132-2021",
       monthDoc: "ABR",
@@ -4370,7 +3985,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 133,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 133-2021",
       monthDoc: "ABR",
@@ -4379,7 +3993,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 134,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 134-2021",
       monthDoc: "ABR",
@@ -4391,7 +4004,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 135,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 135-2021",
       monthDoc: "ABR",
@@ -4403,7 +4015,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 136,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 136-2021",
       monthDoc: "ABR",
@@ -4415,7 +4026,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 137,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 137-2021",
       monthDoc: "ABR",
@@ -4424,7 +4034,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 138,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 138-2021",
       monthDoc: "ABR",
@@ -4433,7 +4042,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 139,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 139-2021",
       monthDoc: "ABR",
@@ -4442,7 +4050,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 140,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 140-2021",
       monthDoc: "ABR",
@@ -4457,7 +4064,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 141,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 141-2021",
       monthDoc: "ABR",
@@ -4469,7 +4075,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 142,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 142-2021",
       monthDoc: "ABR",
@@ -4479,7 +4084,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 143,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 143-2021",
       monthDoc: "ABR",
@@ -4488,7 +4092,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 144,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 144-2021",
       monthDoc: "ABR",
@@ -4497,7 +4100,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 145,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 145-2021",
       monthDoc: "ABR",
@@ -4509,7 +4111,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 146,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 146-2021",
       monthDoc: "ABR",
@@ -4524,7 +4125,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 147,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 147-2021",
       monthDoc: "ABR",
@@ -4539,7 +4139,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 148,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 148-2021",
       monthDoc: "ABR",
@@ -4554,7 +4153,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 149,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 149-2021",
       monthDoc: "ABR",
@@ -4569,7 +4167,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 150,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 150-2021",
       monthDoc: "ABR",
@@ -4584,7 +4181,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 151,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 151-2021",
       monthDoc: "ABR",
@@ -4599,7 +4195,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 152,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 152-2021",
       monthDoc: "ABR",
@@ -4614,7 +4209,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 153,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 153-2021",
       monthDoc: "ABR",
@@ -4629,7 +4223,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 154,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 154-2021",
       monthDoc: "ABR",
@@ -4644,7 +4237,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 155,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 155-2021",
       monthDoc: "ABR",
@@ -4659,7 +4251,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 156,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 156-2021",
       monthDoc: "ABR",
@@ -4674,7 +4265,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 157,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 157-2021",
       monthDoc: "ABR",
@@ -4686,7 +4276,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 158,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 158-2021",
       monthDoc: "ABR",
@@ -4698,7 +4287,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 159,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 159-2021",
       monthDoc: "ABR",
@@ -4710,7 +4298,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 160,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 160-2021",
       monthDoc: "ABR",
@@ -4722,7 +4309,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 161,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 161-2021",
       monthDoc: "ABR",
@@ -4734,7 +4320,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 162,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 162-2021",
       monthDoc: "ABR",
@@ -4746,7 +4331,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 163,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 163-2021",
       monthDoc: "ABR",
@@ -4758,7 +4342,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 164,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 164-2021",
       monthDoc: "ABR",
@@ -4770,7 +4353,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 165,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 165-2021",
       monthDoc: "ABR",
@@ -4782,7 +4364,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 166,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 166-2021",
       monthDoc: "ABR",
@@ -4794,7 +4375,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 167,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 167-2021",
       monthDoc: "ABR",
@@ -4806,7 +4386,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 168,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 168-2021",
       monthDoc: "ABR",
@@ -4818,7 +4397,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 169,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 169-2021",
       monthDoc: "ABR",
@@ -4830,7 +4408,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 170,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 170-2021",
       monthDoc: "ABR",
@@ -4842,7 +4419,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 171,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 171-2021",
       monthDoc: "ABR",
@@ -4854,7 +4430,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 172,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 172-2021",
       monthDoc: "ABR",
@@ -4866,7 +4441,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 173,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 173-2021",
       monthDoc: "ABR",
@@ -4878,7 +4452,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 174,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 174-2021",
       monthDoc: "ABR",
@@ -4890,7 +4463,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 175,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 175-2021",
       monthDoc: "ABR",
@@ -4902,7 +4474,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 176,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 176-2021",
       monthDoc: "ABR",
@@ -4917,7 +4488,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 177,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 177-2021",
       monthDoc: "ABR",
@@ -4929,7 +4499,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 178,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 178-2021",
       monthDoc: "ABR",
@@ -4938,7 +4507,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 179,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 179-2021",
       monthDoc: "MAY",
@@ -4953,7 +4521,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 180,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 180-2021",
       monthDoc: "MAY",
@@ -4965,7 +4532,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 181,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 181-2021",
       monthDoc: "MAY",
@@ -4977,7 +4543,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 182,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 182-2021",
       monthDoc: "MAY",
@@ -4989,7 +4554,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 183,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 183-2021",
       monthDoc: "MAY",
@@ -5004,7 +4568,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 184,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 184-2021",
       monthDoc: "MAY",
@@ -5019,7 +4582,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 185,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 185-2021",
       monthDoc: "MAY",
@@ -5031,7 +4593,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 186,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 186-2021",
       monthDoc: "MAY",
@@ -5041,7 +4602,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 187,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 187-2021",
       monthDoc: "MAY",
@@ -5056,7 +4616,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 188,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 188-2021",
       monthDoc: "MAY",
@@ -5071,7 +4630,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 189,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 189-2021",
       monthDoc: "MAY",
@@ -5086,7 +4644,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 190,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 190-2021",
       monthDoc: "MAY",
@@ -5101,7 +4658,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 191,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 191-2021",
       monthDoc: "MAY",
@@ -5110,7 +4666,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 192,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 192-2021",
       monthDoc: "MAY",
@@ -5125,7 +4680,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 193,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 193-2021",
       monthDoc: "MAY",
@@ -5137,7 +4691,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 194,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 194-2021",
       monthDoc: "MAY",
@@ -5149,7 +4702,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 195,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 195-2021",
       monthDoc: "MAY",
@@ -5165,7 +4717,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 196,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 196-2021",
       monthDoc: "MAY",
@@ -5180,7 +4731,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 197,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 197-2021",
       monthDoc: "MAY",
@@ -5189,7 +4739,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 198,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 197-2021",
       monthDoc: "MAY",
@@ -5201,7 +4750,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 199,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 198-2021",
       monthDoc: "MAY",
@@ -5216,7 +4764,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 200,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 199-2021",
       monthDoc: "MAY",
@@ -5234,7 +4781,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 201,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 200-2021",
       monthDoc: "MAY",
@@ -5246,7 +4792,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 202,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 201-2021",
       monthDoc: "MAY",
@@ -5261,7 +4806,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 203,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 202-2021",
       monthDoc: "MAY",
@@ -5273,7 +4817,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 204,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 203-2021",
       monthDoc: "MAY",
@@ -5288,7 +4831,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 205,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 204-2021",
       monthDoc: "MAY",
@@ -5303,7 +4845,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 206,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 205-2021",
       monthDoc: "MAY",
@@ -5315,7 +4856,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 207,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 206-2021",
       monthDoc: "MAY",
@@ -5327,7 +4867,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 208,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 207-2021",
       monthDoc: "MAY",
@@ -5339,7 +4878,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 209,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 208-2021",
       monthDoc: "MAY",
@@ -5348,7 +4886,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 210,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 209-2021",
       monthDoc: "MAY",
@@ -5357,7 +4894,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 211,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 210-2021",
       monthDoc: "MAY",
@@ -5366,7 +4902,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 212,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 211-2021",
       monthDoc: "MAY",
@@ -5378,7 +4913,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 213,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 212-2021",
       monthDoc: "MAY",
@@ -5387,7 +4921,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 214,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 213-2021",
       monthDoc: "MAY",
@@ -5396,7 +4929,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 215,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 214-2021",
       monthDoc: "MAY",
@@ -5405,7 +4937,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 216,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 215-2021",
       monthDoc: "MAY",
@@ -5414,7 +4945,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 217,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 216-2021",
       monthDoc: "MAY",
@@ -5423,7 +4953,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 218,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 217-2021",
       monthDoc: "MAY",
@@ -5435,7 +4964,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 219,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 218-2021",
       monthDoc: "MAY",
@@ -5450,7 +4978,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 220,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 219-2021",
       monthDoc: "MAY",
@@ -5466,7 +4993,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 221,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 220-2021",
       monthDoc: "MAY",
@@ -5476,7 +5002,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 222,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 221-2021",
       monthDoc: "MAY",
@@ -5485,7 +5010,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 223,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 222-2021",
       monthDoc: "MAY",
@@ -5494,7 +5018,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 224,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 223-2021",
       monthDoc: "MAY",
@@ -5506,7 +5029,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 225,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 224-2021",
       monthDoc: "MAY",
@@ -5515,7 +5037,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 226,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 225-2021",
       monthDoc: "MAY",
@@ -5524,7 +5045,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 227,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 226-2021",
       monthDoc: "MAY",
@@ -5533,7 +5053,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 228,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 227-2021",
       monthDoc: "MAY",
@@ -5543,7 +5062,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 229,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 228-2021",
       monthDoc: "MAY",
@@ -5552,7 +5070,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 230,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 229-2021",
       monthDoc: "MAY",
@@ -5561,7 +5078,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 231,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 230-2021",
       monthDoc: "JUN",
@@ -5573,7 +5089,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 232,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 231-2021",
       monthDoc: "JUN",
@@ -5583,7 +5098,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 233,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 232-2021",
       monthDoc: "JUN",
@@ -5593,7 +5107,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 234,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 233-2021",
       monthDoc: "JUN",
@@ -5602,7 +5115,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 235,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 234-2021",
       monthDoc: "JUN",
@@ -5611,7 +5123,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 236,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 235-2021",
       monthDoc: "JUN",
@@ -5623,7 +5134,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 237,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 236-2021",
       monthDoc: "JUN",
@@ -5636,7 +5146,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 238,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 237-2021",
       monthDoc: "JUN",
@@ -5646,7 +5155,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 239,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 238-2021",
       monthDoc: "JUN",
@@ -5655,7 +5163,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 240,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 239-2021",
       monthDoc: "JUN",
@@ -5664,7 +5171,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 241,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 240-2021",
       monthDoc: "JUN",
@@ -5673,7 +5179,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 242,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 241-2021",
       monthDoc: "JUN",
@@ -5682,7 +5187,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 243,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 242-2021",
       monthDoc: "JUN",
@@ -5691,7 +5195,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 244,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 243-2021",
       monthDoc: "JUN",
@@ -5700,7 +5203,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 245,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 244-2021",
       monthDoc: "JUN",
@@ -5709,7 +5211,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 246,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 245-2021",
       monthDoc: "JUN",
@@ -5718,7 +5219,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 247,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 246-2021",
       monthDoc: "JUN",
@@ -5727,7 +5227,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 248,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 247-2021",
       monthDoc: "JUN",
@@ -5748,7 +5247,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 249,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 248-2021",
       monthDoc: "JUN",
@@ -5757,7 +5255,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 250,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 249-2021",
       monthDoc: "JUN",
@@ -5766,7 +5263,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 251,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 250-2021",
       monthDoc: "JUN",
@@ -5775,7 +5271,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 252,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 251-2021",
       monthDoc: "JUN",
@@ -5797,7 +5292,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 253,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 252-2021",
       monthDoc: "JUN",
@@ -5809,7 +5303,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 254,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 253-2021",
       monthDoc: "JUL",
@@ -5824,7 +5317,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 255,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 254-2021",
       monthDoc: "JUL",
@@ -5836,7 +5328,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 256,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 255-2021",
       monthDoc: "JUL",
@@ -5845,7 +5336,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 257,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 256-2021",
       monthDoc: "JUL",
@@ -5857,7 +5347,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 258,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 257-2021",
       monthDoc: "JUL",
@@ -5866,7 +5355,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 259,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 258-2021",
       monthDoc: "JUL",
@@ -5878,7 +5366,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 260,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 259-2021",
       monthDoc: "JUL",
@@ -5890,7 +5377,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 261,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 260-2021",
       monthDoc: "JUL",
@@ -5899,7 +5385,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 265,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 261-2021",
       monthDoc: "AGO",
@@ -5908,7 +5393,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 263,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 262-2021",
       monthDoc: "AGO",
@@ -5921,7 +5405,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 264,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 263-2021",
       monthDoc: "AGO",
@@ -5933,7 +5416,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 265,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 264-2021",
       monthDoc: "AGO",
@@ -5942,7 +5424,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 266,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 265-2021",
       monthDoc: "AGO",
@@ -5951,7 +5432,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 267,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 266-2021",
       monthDoc: "AGO",
@@ -5960,7 +5440,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 268,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 267-2021",
       monthDoc: "AGO",
@@ -5972,7 +5451,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 269,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 268-2021",
       monthDoc: "SEP",
@@ -5981,7 +5459,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 270,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 269-2021",
       monthDoc: "SEP",
@@ -5990,7 +5467,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 271,
-      year: "2021",
       typeDoc: "DICTAMEN",
       numDoc: "ITE-CG 270-2021",
       monthDoc: "SEP",
@@ -5999,7 +5475,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 272,
-      year: "2021",
       typeDoc: "DICTAMEN",
       numDoc: "ITE-CG 271-2021",
       monthDoc: "SEP",
@@ -6008,7 +5483,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 273,
-      year: "2021",
       typeDoc: "DICTAMEN",
       numDoc: "ITE-CG 272-2021",
       monthDoc: "SEP",
@@ -6017,7 +5491,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 274,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 273-2021",
       monthDoc: "SEP",
@@ -6035,7 +5508,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 275,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 274-2021",
       monthDoc: "SEP",
@@ -6047,7 +5519,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 276,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 275-2021",
       monthDoc: "SEP",
@@ -6056,7 +5527,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 277,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 276-2021",
       monthDoc: "SEP",
@@ -6068,7 +5538,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 278,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 277-2021",
       monthDoc: "OCT",
@@ -6077,7 +5546,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 279,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 278-2021",
       monthDoc: "OCT",
@@ -6087,7 +5555,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 280,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 279-2021",
       monthDoc: "OCT",
@@ -6099,7 +5566,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 281,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 280-2021",
       monthDoc: "OCT",
@@ -6108,7 +5574,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 282,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 281-2021",
       monthDoc: "OCT",
@@ -6118,7 +5583,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 283,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 282-2021",
       monthDoc: "OCT",
@@ -6127,7 +5591,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 284,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 283-2021",
       monthDoc: "OCT",
@@ -6136,7 +5599,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 285,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 284-2021",
       monthDoc: "OCT",
@@ -6153,7 +5615,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 286,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 285-2021",
       monthDoc: "OCT",
@@ -6165,7 +5626,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 287,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 286-2021",
       monthDoc: "OCT",
@@ -6174,7 +5634,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 288,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 287-2021",
       monthDoc: "OCT",
@@ -6188,7 +5647,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 289,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 288-2021",
       monthDoc: "NOV",
@@ -6198,7 +5656,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 290,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 289-2021",
       monthDoc: "NOV",
@@ -6210,7 +5667,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 291,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 290-2021",
       monthDoc: "NOV",
@@ -6229,7 +5685,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 292,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 291-2021",
       monthDoc: "NOV",
@@ -6238,7 +5693,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 293,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 292-2021",
       monthDoc: "NOV",
@@ -6247,7 +5701,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 294,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 293-2021",
       monthDoc: "NOV",
@@ -6256,7 +5709,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 295,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 294-2021",
       monthDoc: "NOV",
@@ -6265,7 +5717,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 296,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 295-2021",
       monthDoc: "NOV",
@@ -6274,7 +5725,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 297,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 296-2021",
       monthDoc: "NOV",
@@ -6283,7 +5733,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 298,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 297-2021",
       monthDoc: "NOV",
@@ -6292,7 +5741,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 299,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 298-2021",
       monthDoc: "NOV",
@@ -6301,7 +5749,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 300,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 299-2021",
       monthDoc: "NOV",
@@ -6310,7 +5757,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 301,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 300-2021",
       monthDoc: "NOV",
@@ -6323,7 +5769,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 302,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 301-2021",
       monthDoc: "NOV",
@@ -6342,7 +5787,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 303,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 302-2021",
       monthDoc: "NOV",
@@ -6351,7 +5795,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 304,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 303-2021",
       monthDoc: "NOV",
@@ -6360,7 +5803,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 305,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 304-2021",
       monthDoc: "NOV",
@@ -6369,7 +5811,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 306,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 305-2021",
       monthDoc: "NOV",
@@ -6378,7 +5819,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 307,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 306-2021",
       monthDoc: "NOV",
@@ -6387,7 +5827,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 308,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 307-2021",
       monthDoc: "NOV",
@@ -6396,7 +5835,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 309,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 308-2021",
       monthDoc: "NOV",
@@ -6405,7 +5843,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 310,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 309-2021",
       monthDoc: "NOV",
@@ -6414,7 +5851,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 311,
-      year: "2021",
       typeDoc: "RESOLUCIÓNNOV",
       nameDoc:
         "FE DE ERRATAS DE RESOLUCIONES ITE CG 304 2021, ITE CG 305 2021 E ITE CG 309 2021",
@@ -6422,7 +5858,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 312,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 310-2021",
       monthDoc: "NOV",
@@ -6431,7 +5866,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 313,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 311-2021",
       monthDoc: "NOV",
@@ -6440,7 +5874,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 314,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 312-2021",
       monthDoc: "NOV",
@@ -6449,7 +5882,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 315,
-      year: "2021",
       typeDoc: "RESOLUCIÓN",
       numDoc: "ITE-CG 313-2021",
       monthDoc: "NOV",
@@ -6459,7 +5891,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 316,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 314-2021",
       monthDoc: "NOV",
@@ -6469,7 +5900,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 317,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 315-2021",
       monthDoc: "NOV",
@@ -6484,7 +5914,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 318,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 316-2021",
       monthDoc: "NOV",
@@ -6499,7 +5928,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 319,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 317-2021",
       monthDoc: "NOV",
@@ -6511,7 +5939,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 320,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 318-2021",
       monthDoc: "NOV",
@@ -6523,7 +5950,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 321,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 319-2021",
       monthDoc: "NOV",
@@ -6535,7 +5961,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 322,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 320-2021",
       monthDoc: "NOV",
@@ -6549,7 +5974,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 323,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 321-2021",
       monthDoc: "NOV",
@@ -6558,7 +5982,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 324,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 322-2021",
       monthDoc: "DIC",
@@ -6567,7 +5990,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 325,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 323-2021",
       monthDoc: "DIC",
@@ -6576,7 +5998,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 326,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 324-2021",
       monthDoc: "DIC",
@@ -6585,7 +6006,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 327,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 325-2021",
       monthDoc: "DIC",
@@ -6594,7 +6014,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 328,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 326-2021",
       monthDoc: "DIC",
@@ -6603,7 +6022,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 329,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 327-2021",
       monthDoc: "DIC",
@@ -6612,7 +6030,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 330,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 328-2021",
       monthDoc: "DIC",
@@ -6622,7 +6039,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 331,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 329-2021",
       monthDoc: "DIC",
@@ -6634,7 +6050,6 @@ export const dataAcuerdosITE = {
     },
     {
       id: 332,
-      year: "2021",
       typeDoc: "ACUERDO",
       numDoc: "ITE-CG 330-2021",
       monthDoc: "DIC",
@@ -6646,9 +6061,7 @@ export const dataAcuerdosITE = {
   2020: [
     {
       id: 1,
-      year: "2020",
       typeDoc: "ACUERDO",
-      dateDoc: "15-ENE",
       numDoc: "ITE-CG 01-2020",
       monthDoc: "ENE",
       nameDoc: "ADECUACIÓN DE PRESUPUESTO 2020",
@@ -6658,9 +6071,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 2,
-      year: "2020",
       typeDoc: "ACUERDO",
-      dateDoc: "15-ENE",
       numDoc: "ITE-CG 02-2020",
       monthDoc: "ENE",
       nameDoc: "ACTUALIZACIÓN DE MULTAS",
@@ -6672,9 +6083,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 3,
-      year: "2020",
       typeDoc: "ACUERDO",
-      dateDoc: "15-ENE",
       numDoc: "ITE-CG 03-2020",
       monthDoc: "ENE",
       nameDoc: "RESPUESTA A FRANCISCO SOSA HERNÁNDEZ",
@@ -6682,9 +6091,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 4,
-      year: "2020",
       typeDoc: "ACUERDO",
-      dateDoc: "30-ENE",
       numDoc: "ITE-CG 04-2020",
       monthDoc: "ENE",
       nameDoc: "FORMA DE EJECUTAR MULTAS",
@@ -6694,9 +6101,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 5,
-      year: "2020",
       typeDoc: "ACUERDO",
-      dateDoc: "30-ENE",
       numDoc: "ITE-CG 05-2020",
       monthDoc: "ENE",
       nameDoc: "APROBACIÓN DE PROGRAMA DE IMPARTICIÓN DE CURSOS",
@@ -6706,9 +6111,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 6,
-      year: "2020",
       typeDoc: "ACUERDO",
-      dateDoc: "30-ENE",
       numDoc: "ITE-CG 06-2020",
       monthDoc: "ENE",
       nameDoc: "PLAN ANUAL DE DESARROLLO ARCHIVÍSTICO",
@@ -6718,9 +6121,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 7,
-      year: "2020",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "27-FEB",
       numDoc: "ITE-CG 07-2020",
       monthDoc: "FEB",
       nameDoc: "CQD Q CG 001 2019",
@@ -6728,9 +6129,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 8,
-      year: "2020",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "27-FEB",
       numDoc: "ITE-CG 08-2020",
       monthDoc: "FEB",
       nameDoc: "CQD Q CG 002 2019",
@@ -6738,9 +6137,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 9,
-      year: "2020",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "27-FEB",
       numDoc: "ITE-CG 09-2020",
       monthDoc: "FEB",
       nameDoc: "CQD Q CG 003 2019",
@@ -6748,9 +6145,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 10,
-      year: "2020",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "27-FEB",
       numDoc: "ITE-CG 10-2020",
       monthDoc: "FEB",
       nameDoc: "CQD Q CG 004 2019",
@@ -6758,9 +6153,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 11,
-      year: "2020",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "27-FEB",
       numDoc: "ITE-CG 11-2020",
       monthDoc: "FEB",
       nameDoc: "CQD Q CG 005 2019",
@@ -6768,9 +6161,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 12,
-      year: "2020",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "27-FEB",
       numDoc: "ITE-CG 12-2020",
       monthDoc: "FEB",
       nameDoc: "CQD Q CG 006 2019",
@@ -6778,9 +6169,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 13,
-      year: "2020",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "27-FEB",
       numDoc: "ITE-CG 13-2020",
       monthDoc: "FEB",
       nameDoc: "CQD Q CG 007 2019",
@@ -6788,9 +6177,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 14,
-      year: "2020",
       typeDoc: "ACUERDO",
-      dateDoc: "27-FEB",
       numDoc: "ITE-CG 14-2020",
       monthDoc: "FEB",
       nameDoc: "ÓRGANO ENLACE",
@@ -6798,9 +6185,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 15,
-      year: "2020",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "27-FEB",
       numDoc: "ITE-CG 15-2020",
       monthDoc: "FEB",
       nameDoc: "PS",
@@ -6808,9 +6193,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 16,
-      year: "2020",
       typeDoc: "ACUERDO",
-      dateDoc: "19-MAR",
       numDoc: "ITE-CG 16-2020",
       monthDoc: "MAR",
       nameDoc: "COVID-19",
@@ -6818,9 +6201,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 17,
-      year: "2020",
       typeDoc: "ACUERDO",
-      dateDoc: "16-ABR",
       numDoc: "ITE-CG 17-2020",
       monthDoc: "ABR",
       nameDoc: "AMPLIACIÓN DE MEDIDAS COVID-19",
@@ -6830,9 +6211,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 18,
-      year: "2020",
       typeDoc: "ACUERDO",
-      dateDoc: "13-MAY",
       numDoc: "ITE-CG 18-2020",
       monthDoc: "MAY",
       nameDoc: "RESPUESTA OFICIO DEL PVEM",
@@ -6840,9 +6219,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 19,
-      year: "2020",
       typeDoc: "ACUERDO",
-      dateDoc: "13-MAY",
       numDoc: "ITE-CG 19-2020",
       monthDoc: "MAY",
       nameDoc: "CRITERIOS PARA RENUNCIA DE FINANCIAMIENTO PÚBLICO",
@@ -6850,9 +6227,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 20,
-      year: "2020",
       typeDoc: "ACUERDO",
-      dateDoc: "13-MAY",
       numDoc: "ITE-CG 20-2020",
       monthDoc: "MAY",
       nameDoc: "MODIFICACIÓN AL PROGRAMA DE CAPACITACIÓN 2020",
@@ -6862,9 +6237,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 21,
-      year: "2020",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "22-MAY",
       numDoc: "ITE-CG 21-2020",
       monthDoc: "MAY",
       nameDoc: "MEDIDAS CAUTELARES CQD-Q-PRD-CG-009-2020",
@@ -6872,9 +6245,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 22,
-      year: "2020",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "22-MAY",
       numDoc: "ITE-CG 22-2020",
       monthDoc: "MAY",
       nameDoc: "MEDIDAS CAUTELARES CQD-Q-PRD-CG-010-2020",
@@ -6882,9 +6253,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 23,
-      year: "2020",
       typeDoc: "",
-      dateDoc: "28-MAY",
       numDoc: "ITE-CG 23-2020",
       monthDoc: "MAY",
       nameDoc:
@@ -6893,9 +6262,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 24,
-      year: "2020",
       typeDoc: "ACUERDO",
-      dateDoc: "16-JUN",
       numDoc: "ITE-CG 24-2020",
       monthDoc: "JUN",
       nameDoc: "READECUACIÓN AL PRESUPUESTO",
@@ -6905,9 +6272,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 25,
-      year: "2020",
       typeDoc: "ACUERDO",
-      dateDoc: "30-JUN",
       numDoc: "ITE-CG 25-2020",
       monthDoc: "JUN",
       nameDoc: "RESULTADOS DE EVALUACIÓN SPEN",
@@ -6917,9 +6282,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 26,
-      year: "2020",
       typeDoc: "ACUERDO",
-      dateDoc: "14-AGO",
       numDoc: "ITE-CG 26-2020",
       monthDoc: "AGO",
       nameDoc:
@@ -6930,9 +6293,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 27,
-      year: "2020",
       typeDoc: "ACUERDO",
-      dateDoc: "14-AGO",
       numDoc: "ITE-CG 27-2020",
       monthDoc: "AGO",
       nameDoc: "READECUACIÓN DEL PRESUPUESTO DE EGRESOS",
@@ -6942,9 +6303,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 28,
-      year: "2020",
       typeDoc: "ACUERDO",
-      dateDoc: "14-AGO",
       numDoc: "ITE-CG 28-2020",
       monthDoc: "AGO",
       nameDoc: "MANUAL DE ELECCIONES ESCOLARES",
@@ -6954,9 +6313,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 29,
-      year: "2020",
       typeDoc: "ACUERDO",
-      dateDoc: "10-SEP",
       numDoc: "ITE-CG 29-2020",
       monthDoc: "SEP",
       nameDoc: "RATIFICACIÓN DE LA INSTANCIA INTERNA PREP",
@@ -6964,9 +6321,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 30,
-      year: "2020",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "10-SEP",
       numDoc: "ITE-CG 30-2020",
       monthDoc: "SEP",
       nameDoc: "MEDIDAS CAUTELARES CQD-Q-RACF-CG-014-2020",
@@ -6974,9 +6329,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 31,
-      year: "2020",
       typeDoc: "ACUERDO",
-      dateDoc: "17-SEP",
       numDoc: "ITE-CG 31-2020",
       monthDoc: "SEP",
       nameDoc: "REFORMAS REGLAMENTO USOS Y COSTUMBRES",
@@ -6988,9 +6341,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 32,
-      year: "2020",
       typeDoc: "ACUERDO",
-      dateDoc: "24-SEP",
       numDoc: "ITE-CG 32-2020",
       monthDoc: "SEP",
       nameDoc: "DESIGNACIÓN DEL TITULAR DE LA UTCE",
@@ -6998,9 +6349,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 33,
-      year: "2020",
       typeDoc: "ACUERDO",
-      dateDoc: "29-SEP",
       numDoc: "ITE-CG 33-2020",
       monthDoc: "SEP",
       nameDoc: "PROYECTO DE PRESUPUESTO DE EGRESOS 2021",
@@ -7010,9 +6359,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 34,
-      year: "2020",
       typeDoc: "ACUERDO",
-      dateDoc: "29-SEP",
       numDoc: "ITE-CG 34-2020",
       monthDoc: "SEP",
       nameDoc: "PROPUESTA DE PAQUETE ELECTORAL DISTRITAL Y MUNICIPAL",
@@ -7025,9 +6372,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 35,
-      year: "2020",
       typeDoc: "ACUERDO",
-      dateDoc: "29-SEP",
       numDoc: "ITE-CG 35-2020",
       monthDoc: "SEP",
       nameDoc: "ESTATUTO CANDIDATURAS INDEPENDIENTES",
@@ -7037,9 +6382,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 36,
-      year: "2020",
       typeDoc: "ACUERDO",
-      dateDoc: "12-OCT",
       numDoc: "ITE-CG 36-2020",
       monthDoc: "OCT",
       nameDoc: "INTEGRACIÓN Y ADECUACIÓN COMISIONES",
@@ -7047,9 +6390,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 37,
-      year: "2020",
       typeDoc: "ACUERDO",
-      dateDoc: "12-OCT",
       numDoc: "ITE-CG 37-2020",
       monthDoc: "OCT",
       nameDoc:
@@ -7061,9 +6402,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 38,
-      year: "2020",
       typeDoc: "ACUERDO",
-      dateDoc: "12-OCT",
       numDoc: "ITE-CG 38-2020",
       monthDoc: "OCT",
       nameDoc: "REGLAMENTO DE TRANSPARENCIA",
@@ -7074,9 +6413,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 39,
-      year: "2020",
       typeDoc: "ACUERDO",
-      dateDoc: "12-OCT",
       numDoc: "ITE-CG 39-2020",
       monthDoc: "OCT",
       nameDoc: "DESIGNACIÓN DE TITULAR CONSULTA CIUDADANA",
@@ -7084,9 +6421,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 40,
-      year: "2020",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "",
       numDoc: "ITE-CG 40-2020",
       monthDoc: "OCT",
       nameDoc: "ACREDITACIÓN ENCUENTRO SOLIDARIO",
@@ -7094,9 +6429,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 41,
-      year: "2020",
       typeDoc: "ACUERDO",
-      dateDoc: "15-OCT",
       numDoc: "ITE-CG 41-2020",
       monthDoc: "OCT",
       nameDoc: "READECUACIÓN DE PRERROGATIVAS PARTIDOS",
@@ -7110,9 +6443,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 42,
-      year: "2020",
       typeDoc: "ACUERDO",
-      dateDoc: "15-OCT",
       numDoc: "ITE-CG 42-2020",
       monthDoc: "OCT",
       nameDoc: "ACTUALIZACIÓN DE MULTAS",
@@ -7123,9 +6454,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 43,
-      year: "2020",
       typeDoc: "ACUERDO",
-      dateDoc: "15-OCT",
       numDoc: "ITE-CG 43-2020",
       monthDoc: "OCT",
       nameDoc: "APROBACIÓN DE CALENDARIO ELECTORAL 2020-2021",
@@ -7136,9 +6465,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 44,
-      year: "2020",
       typeDoc: "ACUERDO",
-      dateDoc: "15-OCT",
       numDoc: "ITE-CG 44-2020",
       monthDoc: "OCT",
       nameDoc:
@@ -7150,9 +6477,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 45,
-      year: "2020",
       typeDoc: "ACUERDO",
-      dateDoc: "23-OCT",
       numDoc: "ITE-CG 45-2020",
       monthDoc: "OCT",
       nameDoc: "CONVOCATORIA A ELECCIONES PELO 2021",
@@ -7163,9 +6488,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 46,
-      year: "2020",
       typeDoc: "ACUERDO",
-      dateDoc: "23-OCT",
       numDoc: "ITE-CG 46-2020",
       monthDoc: "OCT",
       nameDoc: "CONVOCATORIA CANDIDATURAS INDEPENDIENTES PELO 2020-2021",
@@ -7195,9 +6518,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 47,
-      year: "2020",
       typeDoc: "ACUERDO",
-      dateDoc: "30-OCT",
       numDoc: "ITE-CG 47-2020",
       monthDoc: "OCT",
       nameDoc: "LINEAMIENTOS DE PARIDAD DE GÉNERO",
@@ -7211,9 +6532,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 48,
-      year: "2020",
       typeDoc: "ACUERDO",
-      dateDoc: "30-OCT",
       numDoc: "ITE-CG 48-2020",
       monthDoc: "OCT",
       nameDoc: "READECUACIÓN DEL PRESUPUESTO",
@@ -7225,9 +6544,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 49,
-      year: "2020",
       typeDoc: "ACUERDO",
-      dateDoc: "30-OCT",
       numDoc: "ITE-CG 49-2020",
       monthDoc: "OCT",
       nameDoc: "ROTACIÓN JGE",
@@ -7235,9 +6552,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 50,
-      year: "2020",
       typeDoc: "ACUERDO",
-      dateDoc: "30-OCT",
       numDoc: "ITE-CG 50-2020",
       monthDoc: "OCT",
       nameDoc: "RESPUESTA OFICIO IXCOTLA",
@@ -7247,9 +6562,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 51,
-      year: "2020",
       typeDoc: "ACUERDO",
-      dateDoc: "30-OCT",
       numDoc: "ITE-CG 51-2020",
       monthDoc: "OCT",
       nameDoc: "INCENTIVOS DEL SPEN",
@@ -7263,9 +6576,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 52,
-      year: "2020",
       typeDoc: "ACUERDO",
-      dateDoc: "30-OCT",
       numDoc: "ITE-CG 52-2020",
       monthDoc: "OCT",
       nameDoc: "PONDERACIONES SPEN",
@@ -7273,9 +6584,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 52,
-      year: "2020",
       typeDoc: "ACUERDO",
-      dateDoc: "30-OCT",
       numDoc: "ITE-CG 52-2020",
       monthDoc: "OCT",
       nameDoc: "PONDERACIONES SPEN",
@@ -7283,9 +6592,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 53,
-      year: "2020",
       typeDoc: "",
-      dateDoc: "06-NOV",
       numDoc: "ITE-CG 53-2020",
       monthDoc: "NOV",
       nameDoc: "INTEGRACIÓN COTAPREP 2020",
@@ -7310,9 +6617,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 54,
-      year: "2020",
       typeDoc: "",
-      dateDoc: "11-NOV",
       numDoc: "ITE-CG 54-2020",
       monthDoc: "NOV",
       nameDoc: "REFORMA AL REGLAMENTO DE ADQUISICIONES",
@@ -7324,9 +6629,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 55,
-      year: "2020",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "11-NOV",
       numDoc: "ITE-CG 55-2020",
       monthDoc: "NOV",
       nameDoc: "ACREDITACIÓN REDES SOCIALES PROGRESISTAS",
@@ -7334,9 +6637,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 56,
-      year: "2020",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "11-NOV",
       numDoc: "ITE-CG 56-2020",
       monthDoc: "NOV",
       nameDoc: "ACREDITACIÓN FUERZA SOCIAL POR MÉXICO",
@@ -7344,9 +6645,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 57,
-      year: "2020",
       typeDoc: "ACUERDO",
-      dateDoc: "12-NOV",
       numDoc: "ITE-CG 57-2020",
       monthDoc: "NOV",
       nameDoc: "PAUTAS DE RADIO Y TV",
@@ -7364,9 +6663,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 58,
-      year: "2020",
       typeDoc: "ACUERDO",
-      dateDoc: "26-NOV",
       numDoc: "ITE-CG 58-2020",
       monthDoc: "NOV",
       nameDoc: "LINEAMIENTOS LIBERTAD DE EXPRESIÓN",
@@ -7378,9 +6675,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 59,
-      year: "2020",
       typeDoc: "ACUERDO",
-      dateDoc: "26-NOV",
       numDoc: "ITE-CG 59-2020",
       monthDoc: "NOV",
       nameDoc: "CATALOGO DE PROGRAMAS DE RADIO Y TELEVISIÓN",
@@ -7388,9 +6683,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 60,
-      year: "2020",
       typeDoc: "ACUERDO",
-      dateDoc: "26-NOV",
       numDoc: "ITE-CG 60-2020",
       monthDoc: "NOV",
       nameDoc: "SENTENCIA TET-JE-43-2020 Y ACUMULADOS",
@@ -7402,9 +6695,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 61,
-      year: "2020",
       typeDoc: "ACUERDO",
-      dateDoc: "26-NOV",
       numDoc: "ITE-CG 61-2020",
       monthDoc: "NOV",
       nameDoc: "READECUACIÓN PRERROGATIVAS PARTIDOS 2020",
@@ -7418,9 +6709,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 62,
-      year: "2020",
       typeDoc: "ACUERDO",
-      dateDoc: "26-NOV",
       numDoc: "ITE-CG 62-2020",
       monthDoc: "NOV",
       nameDoc: "ACTUALIZACIÓN DE MULTAS",
@@ -7430,9 +6719,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 63,
-      year: "2020",
       typeDoc: "ACUERDO",
-      dateDoc: "28-NOV",
       numDoc: "ITE-CG 63-2020",
       monthDoc: "NOV",
       nameDoc: "ACCIÓN AFIRMATIVA",
@@ -7446,9 +6733,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 64,
-      year: "2020",
       typeDoc: "ACUERDO",
-      dateDoc: "28-NOV",
       numDoc: "ITE-CG 64-2020",
       monthDoc: "NOV",
       nameDoc: "LINEAMIENTOS DE REGISTRO",
@@ -7458,9 +6743,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 65,
-      year: "2020",
       typeDoc: "ACUERDO",
-      dateDoc: "29-NOV",
       numDoc: "ITE-CG 65-2020",
       monthDoc: "NOV",
       nameDoc: "CONVOCATORIA OBSERVADORES ELECTORALES",
@@ -7472,9 +6755,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 66,
-      year: "2020",
       typeDoc: "ACUERDO",
-      dateDoc: "30-NOV",
       numDoc: "ITE-CG 66-2020",
       monthDoc: "NOV",
       nameDoc: "READECUACIÓN AL PRESUPUESTO",
@@ -7484,9 +6765,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 67,
-      year: "2020",
       typeDoc: "ACUERDO",
-      dateDoc: "03-DIC",
       numDoc: "ITE-CG 67-2020",
       monthDoc: "DIC",
       nameDoc: "ACUERDO TOPES DE PRECAMPAÑA 2020-2021",
@@ -7496,9 +6775,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 69,
-      year: "2020",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "10-DIC",
       numDoc: "ITE-CG 69-2020",
       monthDoc: "DIC",
       nameDoc: "MODIFICACIONES ESTATUTOS PAC",
@@ -7508,9 +6785,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 70,
-      year: "2020",
       typeDoc: "ACUERDO",
-      dateDoc: "14-DIC",
       numDoc: "ITE-CG 70-2020",
       monthDoc: "DIC",
       nameDoc: "CONVOCATORIA A CONSEJOS DISTRITALES Y MUNICIPALES",
@@ -7524,9 +6799,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 71,
-      year: "2020",
       typeDoc: "ACUERDO",
-      dateDoc: "14-DIC",
       numDoc: "ITE-CG 71-2020",
       monthDoc: "DIC",
       nameDoc:
@@ -7538,9 +6811,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 72,
-      year: "2020",
       typeDoc: "ACUERDO",
-      dateDoc: "14-DIC",
       numDoc: "ITE-CG 72-2020",
       monthDoc: "DIC",
       nameDoc:
@@ -7551,9 +6822,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 73,
-      year: "2020",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "17-DIC",
       numDoc: "ITE-CG 73-2020",
       monthDoc: "DIC",
       nameDoc: "MEDIDAS CAUTELARES CQD-PE-MRR-CG-002-2020",
@@ -7561,9 +6830,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 74,
-      year: "2020",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "20-DIC",
       numDoc: "ITE-CG 74-2020",
       monthDoc: "DIC",
       nameDoc: "ESTATUTOS PES TLAXCALA",
@@ -7573,9 +6840,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 75,
-      year: "2020",
       typeDoc: "ACUERDO",
-      dateDoc: "22-DIC",
       numDoc: "ITE-CG 75-2020",
       monthDoc: "DIC",
       nameDoc: "ASIGNACIÓN REGIDURÍAS",
@@ -7583,9 +6848,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 76,
-      year: "2020",
       typeDoc: "ACUERDO",
-      dateDoc: "22-DIC",
       numDoc: "ITE-CG 76-2020",
       monthDoc: "DIC",
       nameDoc: "REGLAS BÁSICAS DE DEBATES",
@@ -7593,9 +6856,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 77,
-      year: "2020",
       typeDoc: "ACUERDO",
-      dateDoc: "22-DIC",
       numDoc: "ITE-CG 77-2020",
       monthDoc: "DIC",
       nameDoc: "REFORMA EL REGLAMENTO DE QUEJAS Y DENUNCIAS DEL ITE",
@@ -7607,9 +6868,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 78,
-      year: "2020",
       typeDoc: "ACUERDO",
-      dateDoc: "22-DIC",
       numDoc: "ITE-CG 78-2020",
       monthDoc: "DIC",
       nameDoc: "DESIGNACIÓN E INCORPORACIÓN GANADORAS SPEN 2020",
@@ -7617,9 +6876,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 79,
-      year: "2020",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "24-DIC",
       numDoc: "ITE-CG 79-2020",
       monthDoc: "DIC",
       nameDoc: "PROCEDENCIA MANIFESTACIONES INDEPENDIENTES",
@@ -7627,9 +6884,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 80,
-      year: "2020",
       typeDoc: "ACUERDO",
-      dateDoc: "24-DIC",
       numDoc: "ITE-CG 80-2020",
       monthDoc: "DIC",
       nameDoc:
@@ -7640,9 +6895,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 81,
-      year: "2020",
       typeDoc: "ACUERDO",
-      dateDoc: "24-DIC",
       numDoc: "ITE-CG 81-2020",
       monthDoc: "DIC",
       nameDoc: "READECUACIÓN AL PRESUPUESTO",
@@ -7654,9 +6907,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 82,
-      year: "2020",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "24-DIC",
       numDoc: "ITE-CG 82-2020",
       monthDoc: "DIC",
       nameDoc: "CQD-Q-CG-001-2020 PAN",
@@ -7664,9 +6915,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 83,
-      year: "2020",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "24-DIC",
       numDoc: "ITE-CG 83-2020",
       monthDoc: "DIC",
       nameDoc: "CQD-Q-CG-002-2020 PRI",
@@ -7674,9 +6923,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 84,
-      year: "2020",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "24-DIC",
       numDoc: "ITE-CG 84-2020",
       monthDoc: "DIC",
       nameDoc: "CQD-Q-CG-003-2020 PRD",
@@ -7684,9 +6931,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 85,
-      year: "2020",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "24-DIC",
       numDoc: "ITE-CG 85-2020",
       monthDoc: "DIC",
       nameDoc: "CQD-Q-CG-004-2020 PT",
@@ -7694,9 +6939,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 86,
-      year: "2020",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "24-DIC",
       numDoc: "ITE-CG 86-2020",
       monthDoc: "DIC",
       nameDoc: "CQD-Q-CG-005-2020 PVEM",
@@ -7704,9 +6947,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 87,
-      year: "2020",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "24-DIC",
       numDoc: "ITE-CG 87-2020",
       monthDoc: "DIC",
       nameDoc: "CQD-Q-CG-006-2020 NA TLAXCALA",
@@ -7714,9 +6955,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 88,
-      year: "2020",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "24-DIC",
       numDoc: "ITE-CG 88-2020",
       monthDoc: "DIC",
       nameDoc: "CQD-Q-CG-007-2020 MORENA",
@@ -7724,9 +6963,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 89,
-      year: "2020",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "24-DIC",
       numDoc: "ITE-CG 89-2020",
       monthDoc: "DIC",
       nameDoc: "CQD-Q-CG-008-2020 PES TLAXCALA",
@@ -7734,9 +6971,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 90,
-      year: "2020",
       typeDoc: "ACUERDO",
-      dateDoc: "25-DIC",
       numDoc: "ITE-CG 90-2020",
       monthDoc: "DIC",
       nameDoc: "SE DA CUMPLIMIENTO A TET-JE-038-2020",
@@ -7748,9 +6983,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 91,
-      year: "2020",
       typeDoc: "ACUERDO",
-      dateDoc: "29-DIC",
       numDoc: "ITE-CG 91-2020",
       monthDoc: "DIC",
       nameDoc: "SE DA CUMPLIMIENTO A LA SENTENCIA TET-JE-055-2020",
@@ -7761,9 +6994,7 @@ export const dataAcuerdosITE = {
   2019: [
     {
       id: 1,
-      year: "2019",
       typeDoc: "ACUERDO",
-      dateDoc: "31-ENE",
       numDoc: "ITE-CG 01-2019",
       monthDoc: "ENE",
       nameDoc: "READECUACIÓN DE PRERROGATIVAS",
@@ -7773,9 +7004,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 2,
-      year: "2019",
       typeDoc: "ACUERDO",
-      dateDoc: "31-ENE",
       numDoc: "ITE-CG 02-2019",
       monthDoc: "ENE",
       nameDoc: "MULTAS PENDIENTES A PARTIDOS POLÍTICOS",
@@ -7785,9 +7014,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 3,
-      year: "2019",
       typeDoc: "ACUERDO",
-      dateDoc: "14-FEB",
       numDoc: "ITE-CG 03-2019",
       monthDoc: "FEB",
       nameDoc: "ADECUACIÓN PRESUPUESTO EJERCICIO FISCAL 2019",
@@ -7797,9 +7024,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 4,
-      year: "2019",
       typeDoc: "ACUERDO",
-      dateDoc: "14-FEB",
       numDoc: "ITE-CG 04-2019",
       monthDoc: "FEB",
       nameDoc: "DELEGACIÓN DE ESTUDIOS DOCUMENTACIÓN ELECTORAL",
@@ -7807,9 +7032,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 5,
-      year: "2019",
       typeDoc: "ACUERDO",
-      dateDoc: "14-FEB",
       numDoc: "ITE-CG 05-2019",
       monthDoc: "FEB",
       nameDoc: "APROBACIÓN DE PROGRAMA DE IMPARTICIÓN DE CURSOS",
@@ -7819,9 +7042,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 6,
-      year: "2019",
       typeDoc: "ACUERDO",
-      dateDoc: "14-FEB",
       numDoc: "ITE-CG 06-2019",
       monthDoc: "FEB",
       nameDoc: "DESIGNACIÓN TITULARES ÁREA TÉCNICA",
@@ -7829,9 +7050,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 7,
-      year: "2019",
       typeDoc: "ACUERDO",
-      dateDoc: "28-FEB",
       numDoc: "ITE-CG 07-2019",
       monthDoc: "FEB",
       nameDoc: "FORMA DE EJECUTAR LAS MULTAS",
@@ -7841,9 +7060,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 8,
-      year: "2019",
       typeDoc: "ACUERDO",
-      dateDoc: "28-FEB",
       numDoc: "ITE-CG 08-2019",
       monthDoc: "FEB",
       nameDoc: "INTEGRACIÓN COMISIONES",
@@ -7851,9 +7068,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 9,
-      year: "2019",
       typeDoc: "ACUERDO",
-      dateDoc: "28-FEB",
       numDoc: "ITE-CG 09-2019",
       monthDoc: "FEB",
       nameDoc: "COMITÉ DE ADQUISICIONES",
@@ -7861,9 +7076,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 10,
-      year: "2019",
       typeDoc: "ACUERDO",
-      dateDoc: "21-MAR",
       numDoc: "ITE-CG 10-2019",
       monthDoc: "MAR",
       nameDoc: "CUMPLIMIENTO SENTENCIA SALA REG PTE COMUNIDAD IXCOTLA",
@@ -7874,9 +7087,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 11,
-      year: "2019",
       typeDoc: "ACUERDO",
-      dateDoc: "29-MAR",
       numDoc: "ITE-CG 11-2019",
       monthDoc: "MAR",
       nameDoc: "RETENCIÓN POR RETIRO DE PROPAGANDA ELECTORAL",
@@ -7884,9 +7095,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 12,
-      year: "2019",
       typeDoc: "",
-      dateDoc: "29-MAR",
       numDoc: "ITE-CG 12-2019",
       monthDoc: "MAR",
       nameDoc: "COMISIÓN DE GOBIERNO INTERNO",
@@ -7896,9 +7105,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 13,
-      year: "2019",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "29-MAR",
       numDoc: "ITE-CG 13-2019",
       monthDoc: "MAR",
       nameDoc: "IMPACTO SOCIAL SI",
@@ -7908,9 +7115,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 14,
-      year: "2019",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "15-ABR",
       numDoc: "ITE-CG 14-2019",
       monthDoc: "ABR",
       nameDoc: "DICTAMEN ENCUENTRO SOCIAL TLAXCALA",
@@ -7920,9 +7125,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 15,
-      year: "2019",
       typeDoc: "ACUERDO",
-      dateDoc: "30-ABR",
       numDoc: "ITE-CG 15-2019",
       monthDoc: "ABR",
       nameDoc: "READECUACIÓN PRERROGATIVAS PARTIDOS",
@@ -7934,9 +7137,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 16,
-      year: "2019",
       typeDoc: "ACUERDO",
-      dateDoc: "30-ABR",
       numDoc: "ITE-CG 16-2019",
       monthDoc: "ABR",
       nameDoc: "MULTAS PENDIENTES",
@@ -7946,9 +7147,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 17,
-      year: "2019",
       typeDoc: "ACUERDO",
-      dateDoc: "30-ABR",
       numDoc: "ITE-CG 17-2019",
       monthDoc: "ABR",
       nameDoc: "ACTUALIZACIÓN CANTIDADES A RETENER RESPECTO DE MULTAS",
@@ -7958,9 +7157,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 18,
-      year: "2019",
       typeDoc: "",
-      dateDoc: "16-MAY",
       numDoc: "ITE-CG 18-2019",
       monthDoc: "MAY",
       nameDoc: "RESULTADOS DE EVALUACIÓN",
@@ -7970,9 +7167,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 19,
-      year: "2019",
       typeDoc: "ACUERDO",
-      dateDoc: "30-MAY",
       numDoc: "ITE-CG 19-2019",
       monthDoc: "MAY",
       nameDoc: "SE ADECÚAN COMISIONES",
@@ -7980,9 +7175,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 20,
-      year: "2019",
       typeDoc: "ACUERDO",
-      dateDoc: "28-JUN",
       numDoc: "ITE-CG 20-2019",
       monthDoc: "JUN",
       nameDoc: "REFORMA REGLAMENTO INTERIOR DEL ITE",
@@ -7992,9 +7185,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 21,
-      year: "2019",
       typeDoc: "ACUERDO",
-      dateDoc: "28-JUN",
       numDoc: "ITE-CG 21-2019",
       monthDoc: "JUN",
       nameDoc: "REFORMA REGLAMENTO DE LA JGE",
@@ -8004,9 +7195,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 22,
-      year: "2019",
       typeDoc: "ACUERDO",
-      dateDoc: "28-JUN",
       numDoc: "ITE-CG 22-2019",
       monthDoc: "JUN",
       nameDoc: "MANUAL DE CONTROL DE BIENES",
@@ -8016,9 +7205,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 23,
-      year: "2019",
       typeDoc: "ACUERDO",
-      dateDoc: "28-JUN",
       numDoc: "ITE-CG 23-2019",
       monthDoc: "JUN",
       nameDoc: "MANUAL DE ORGANIZACIÓN DEL ITE",
@@ -8028,9 +7215,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 24,
-      year: "2019",
       typeDoc: "ACUERDO",
-      dateDoc: "04-JUL",
       numDoc: "ITE-CG 24-2019",
       monthDoc: "JUL",
       nameDoc: "INTEGRACIÓN DE COMISIÓN SPEN",
@@ -8038,9 +7223,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 25,
-      year: "2019",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "18-JUL",
       numDoc: "ITE-CG 25-2019",
       monthDoc: "JUL",
       nameDoc: "DICTÁMENES DE IMPACTO SOCIAL SI",
@@ -8052,9 +7235,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 26,
-      year: "2019",
       typeDoc: "ACUERDO",
-      dateDoc: "14-AGO",
       numDoc: "ITE-CG 26-2019",
       monthDoc: "AGO",
       nameDoc: "INCENTIVOS SPEN",
@@ -8068,9 +7249,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 27,
-      year: "2019",
       typeDoc: "ACUERDO",
-      dateDoc: "27-SEP",
       numDoc: "ITE-CG 27-2019",
       monthDoc: "SEP",
       nameDoc: "ACUERDO DEL PRESUPUESTO DE EGRESOS 2020",
@@ -8082,9 +7261,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 28,
-      year: "2019",
       typeDoc: "ACUERDO",
-      dateDoc: "28-SEP",
       numDoc: "ITE-CG 28-2019",
       monthDoc: "SEP",
       nameDoc: "COMITÉ DE IGUALDAD LABORAL",
@@ -8092,9 +7269,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 29,
-      year: "2019",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "14-OCT",
       numDoc: "ITE-CG 29-2019",
       monthDoc: "OCT",
       nameDoc: "RESOLUCIÓN DE LAS MODIFICACIONES DE LOS ESTATUTOS DEL PAC",
@@ -8102,9 +7277,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 30,
-      year: "2019",
       typeDoc: "ACUERDO",
-      dateDoc: "14-OCT",
       numDoc: "ITE-CG 30-2019",
       monthDoc: "OCT",
       nameDoc: "RENDIMIENTOS Y RECURSO NO EROGADO",
@@ -8114,9 +7287,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 31,
-      year: "2019",
       typeDoc: "ACUERDO",
-      dateDoc: "14-OCT",
       numDoc: "ITE-CG 31-2019",
       monthDoc: "OCT",
       nameDoc: "FORMA DE RETENER MONTOS REMANENTES NO EJERCIDOS",
@@ -8126,9 +7297,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 32,
-      year: "2019",
       typeDoc: "ACUERDO",
-      dateDoc: "14-OCT",
       numDoc: "ITE-CG 32-2019",
       monthDoc: "OCT",
       nameDoc: "FORMA DE EJECUTAR MULTAS",
@@ -8138,9 +7307,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 33,
-      year: "2019",
       typeDoc: "ACUERDO",
-      dateDoc: "23-OCT",
       numDoc: "ITE-CG 33-2019",
       monthDoc: "OCT",
       nameDoc: "COMISIÓN DE QUEJAS Y DENUNCIAS",
@@ -8150,9 +7317,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 34,
-      year: "2019",
       typeDoc: "ACUERDO",
-      dateDoc: "31-OCT",
       numDoc: "ITE-CG 34-2019",
       monthDoc: "OCT",
       nameDoc: "JGE",
@@ -8160,9 +7325,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 35,
-      year: "2019",
       typeDoc: "ACUERDO",
-      dateDoc: "31-OCT",
       numDoc: "ITE-CG 35-2019",
       monthDoc: "OCT",
       nameDoc: "REGLAMENTO DE ADQUISICIONES",
@@ -8174,9 +7337,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 36,
-      year: "2019",
       typeDoc: "ACUERDO",
-      dateDoc: "31-OCT",
       numDoc: "ITE-CG 36-2019",
       monthDoc: "OCT",
       nameDoc: "DESIGNACIÓN TITULAR ÁREA TÉCNICA DE TRANSPARENCIA",
@@ -8186,9 +7347,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 37,
-      year: "2019",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "08-NOV",
       numDoc: "ITE-CG 37-2019",
       monthDoc: "NOV",
       nameDoc: "NUEVA ALIANZA",
@@ -8196,9 +7355,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 38,
-      year: "2019",
       typeDoc: "ACUERDO",
-      dateDoc: "08-NOV",
       numDoc: "ITE-CG 38-2019",
       monthDoc: "NOV",
       nameDoc: "SERVICIOS ESPECIALIZADOS",
@@ -8208,9 +7365,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 39,
-      year: "2019",
       typeDoc: "ACUERDO",
-      dateDoc: "27-NOV",
       numDoc: "ITE-CG 39-2019",
       monthDoc: "NOV",
       nameDoc: "RENDIMIENTOS FINANCIEROS",
@@ -8222,9 +7377,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 40,
-      year: "2019",
       typeDoc: "ACUERDO",
-      dateDoc: "27-NOV",
       numDoc: "ITE-CG 40-2019",
       monthDoc: "NOV",
       nameDoc: "REGLAMENTO COMITÉ DE IGUALDAD",
@@ -8235,9 +7388,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 41,
-      year: "2019",
       typeDoc: "ACUERDO",
-      dateDoc: "12-DIC",
       numDoc: "ITE-CG 41-2019",
       monthDoc: "DIC",
       nameDoc: "SISTEMA INSTITUCIONAL DE ARCHIVOS",
@@ -8245,9 +7396,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 42,
-      year: "2019",
       typeDoc: "ACUERDO",
-      dateDoc: "12-DIC",
       numDoc: "ITE-CG 42-2019",
       monthDoc: "DIC",
       nameDoc: "SE EMITE CÓDIGO DE CONDUCTA",
@@ -8258,9 +7407,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 43,
-      year: "2019",
       typeDoc: "ACUERDO",
-      dateDoc: "12-DIC",
       numDoc: "ITE-CG 43-2019",
       monthDoc: "DIC",
       nameDoc: "READECUACIÓN DEL PRESUPUESTO",
@@ -8270,9 +7417,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 44,
-      year: "2019",
       typeDoc: "ACUERDO",
-      dateDoc: "12-DIC",
       numDoc: "ITE-CG 44-2019",
       monthDoc: "DIC",
       nameDoc: "OFICIO DE REQUERIMIENTO",
@@ -8283,9 +7428,7 @@ export const dataAcuerdosITE = {
   2018: [
     {
       id: 1,
-      year: "2018",
       typeDoc: "ACUERDO",
-      dateDoc: "01-ENE",
       numDoc: "ITE-CG 01-2018",
       monthDoc: "ENE",
       nameDoc: "ACUERDO CONVOCATORIA OBSERVADORES PROCESO ELECTORAL LOCAL 2018",
@@ -8295,9 +7438,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 2,
-      year: "2018",
       typeDoc: "ACUERDO",
-      dateDoc: "03-ENE",
       numDoc: "ITE-CG 02-2018",
       monthDoc: "ENE",
       nameDoc: "ACUERDO CATALOGO DE PROGRAMAS DE RADIO Y TELEVISIÓN PELO 2018",
@@ -8307,9 +7448,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 3,
-      year: "2018",
       typeDoc: "ACUERDO",
-      dateDoc: "06-ENE",
       numDoc: "ITE-CG 03-2018",
       monthDoc: "ENE",
       nameDoc:
@@ -8318,9 +7457,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 4,
-      year: "2018",
       typeDoc: "ACUERDO",
-      dateDoc: "13-ENE",
       numDoc: "ITE-CG 04-2018",
       monthDoc: "ENE",
       nameDoc:
@@ -8337,9 +7474,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 5,
-      year: "2018",
       typeDoc: "ACUERDO",
-      dateDoc: "19-ENE",
       numDoc: "ITE-CG 05-2018",
       monthDoc: "ENE",
       nameDoc:
@@ -8352,9 +7487,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 6,
-      year: "2018",
       typeDoc: "ACUERDO",
-      dateDoc: "19-ENE",
       numDoc: "ITE-CG 06-2018",
       monthDoc: "ENE",
       nameDoc:
@@ -8366,9 +7499,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 7,
-      year: "2018",
       typeDoc: "ACUERDO",
-      dateDoc: "25-ENE",
       numDoc: "ITE-CG 07-2018",
       monthDoc: "ENE",
       nameDoc:
@@ -8379,9 +7510,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 8,
-      year: "2018",
       typeDoc: "",
-      dateDoc: "30-ENE",
       numDoc: "ITE-CG 08-2018",
       monthDoc: "ENE",
       nameDoc: "",
@@ -8391,9 +7520,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 9,
-      year: "2018",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "01-FEB",
       numDoc: "ITE-CG 09-2018",
       monthDoc: "FEB",
       nameDoc:
@@ -8402,9 +7529,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 10,
-      year: "2018",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "02-FEB",
       numDoc: "ITE-CG 10-2018",
       monthDoc: "FEB",
       nameDoc:
@@ -8417,9 +7542,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 11,
-      year: "2018",
       typeDoc: "ACUERDO",
-      dateDoc: "06-FEB",
       numDoc: "ITE-CG 11-2018",
       monthDoc: "FEB",
       nameDoc:
@@ -8432,9 +7555,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 12,
-      year: "2018",
       typeDoc: "ACUERDO",
-      dateDoc: "16-FEB",
       numDoc: "ITE-CG 12-2018",
       monthDoc: "FEB",
       nameDoc:
@@ -8443,9 +7564,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 13,
-      year: "2018",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "16-FEB",
       numDoc: "ITE-CG 13-2018",
       monthDoc: "FEB",
       nameDoc: "RESOLUCIÓN CANDIDATURA COMÚN PRI PVEM PANAL Y PS",
@@ -8453,9 +7572,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 14,
-      year: "2018",
       typeDoc: "ACUERDO",
-      dateDoc: "20-FEB",
       numDoc: "ITE-CG 14-2018",
       monthDoc: "FEB",
       nameDoc:
@@ -8464,9 +7581,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 15,
-      year: "2018",
       typeDoc: "ACUERDO",
-      dateDoc: "27-FEB",
       numDoc: "ITE-CG 15-2018",
       monthDoc: "FEB",
       nameDoc:
@@ -8477,9 +7592,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 16,
-      year: "2018",
       typeDoc: "ACUERDO",
-      dateDoc: "02-MAR",
       numDoc: "ITE-CG 16-2018",
       monthDoc: "MAR",
       nameDoc: "ACUERDO CUMPLIMIENTO SENTENCIA TET JE 002 2018",
@@ -8490,9 +7603,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 17,
-      year: "2018",
       typeDoc: "ACUERDO",
-      dateDoc: "07-MAR",
       numDoc: "ITE-CG 17-2018",
       monthDoc: "MAR",
       nameDoc: "ACUERDO LINEAMIENTOS REGISTRO DE CANDIDATOS",
@@ -8502,9 +7613,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 18,
-      year: "2018",
       typeDoc: "ACUERDO",
-      dateDoc: "07-MAR",
       numDoc: "ITE-CG 21-2018",
       monthDoc: "MAR",
       nameDoc: "ACUERDO LINEAMIENTOS DE DEBATES",
@@ -8514,9 +7623,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 19,
-      year: "2018",
       typeDoc: "ACUERDO",
-      dateDoc: "07-MAR",
       numDoc: "ITE-CG 19-2018",
       monthDoc: "MAR",
       nameDoc:
@@ -8527,9 +7634,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 20,
-      year: "2018",
       typeDoc: "ACUERDO",
-      dateDoc: "07-MAR",
       numDoc: "ITE-CG 20-2018",
       monthDoc: "MAR",
       nameDoc: "ACUERDO DE CLASIFICACIÓN Y DESCLASIFICACIÓN DE LA INFORMACIÓN",
@@ -8540,9 +7645,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 21,
-      year: "2018",
       typeDoc: "ACUERDO",
-      dateDoc: "07-MAR",
       numDoc: "ITE-CG 21-2018",
       monthDoc: "MAR",
       nameDoc: "ACUERDO DE LINEAMIENTOS PARA LA PROTECCIÓN DE DATOS PERSONALES",
@@ -8553,9 +7656,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 22,
-      year: "2018",
       typeDoc: "ACUERDO",
-      dateDoc: "13-MAR",
       numDoc: "ITE-CG 22-2018",
       monthDoc: "MAR",
       nameDoc: "ACUERDO INTEGRACIÓN CONSEJOS DISTRITALES",
@@ -8568,9 +7669,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 23,
-      year: "2018",
       typeDoc: "ACUERDO",
-      dateDoc: "13-MAR",
       numDoc: "ITE-CG 23-2018",
       monthDoc: "MAR",
       nameDoc: "ACUERDO DE UBICACIÓN DE LOS CATD",
@@ -8583,9 +7682,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 24,
-      year: "2018",
       typeDoc: "ACUERDO",
-      dateDoc: "13-MAR",
       numDoc: "ITE-CG 24-2018",
       monthDoc: "MAR",
       nameDoc: "ACUERDO DE TOPES DE GASTO DE CAMPAÑA",
@@ -8595,9 +7692,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 25,
-      year: "2018",
       typeDoc: "ACUERDO",
-      dateDoc: "13-MAR",
       numDoc: "ITE-CG 25-2018",
       monthDoc: "MAR",
       nameDoc: "ACUERDO PLATAFORMA ELECTORAL PT",
@@ -8605,9 +7700,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 26,
-      year: "2018",
       typeDoc: "ACUERDO",
-      dateDoc: "13-MAR",
       numDoc: "ITE-CG 26-2018",
       monthDoc: "MAR",
       nameDoc: "ACUERDO PLATAFORMA ELECTORAL MC",
@@ -8615,9 +7708,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 27,
-      year: "2018",
       typeDoc: "ACUERDO",
-      dateDoc: "13-MAR",
       numDoc: "ITE-CG 27-2018",
       monthDoc: "MAR",
       nameDoc: "ACUERDO PLATAFORMA ELECTORAL PAC",
@@ -8625,9 +7716,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 28,
-      year: "2018",
       typeDoc: "ACUERDO",
-      dateDoc: "13-MAR",
       numDoc: "ITE-CG 28-2018",
       monthDoc: "MAR",
       nameDoc: "ACUERDO PLATAFORMA ELECTORAL MORENA",
@@ -8635,9 +7724,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 29,
-      year: "2018",
       typeDoc: "ACUERDO",
-      dateDoc: "13-MAR",
       numDoc: "ITE-CG 29-2018",
       monthDoc: "MAR",
       nameDoc: "ACUERDO PLATAFORMA ELECTORAL PES",
@@ -8645,9 +7732,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 30,
-      year: "2018",
       typeDoc: "ACUERDO",
-      dateDoc: "15-MAR",
       numDoc: "ITE-CG 30-2018",
       monthDoc: "MAR",
       nameDoc: "ACUERDO SOBRE CUMPLIMIENTO DEL PORCENTAJE APOYO CIUDADANO",
@@ -8655,9 +7740,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 31,
-      year: "2018",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "15-MAR",
       numDoc: "ITE-CG 31-2018",
       monthDoc: "MAR",
       nameDoc: "RESOLUCIÓN MODIFICACIÓN AL CONVENIO DE COALICIÓN",
@@ -8667,9 +7750,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 32,
-      year: "2018",
       typeDoc: "ACUERDO",
-      dateDoc: "28-MAR",
       numDoc: "ITE-CG 32-2018",
       monthDoc: "MAR",
       nameDoc:
@@ -8678,9 +7759,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 33,
-      year: "2018",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "20-ABR",
       numDoc: "ITE-CG 33-2018",
       monthDoc: "ABR",
       nameDoc:
@@ -8694,9 +7773,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 34,
-      year: "2018",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "20-ABR",
       numDoc: "ITE-CG 34-2018",
       monthDoc: "ABR",
       nameDoc:
@@ -8709,9 +7786,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 35,
-      year: "2018",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "20-ABR",
       numDoc: "ITE-CG 35-2018",
       monthDoc: "ABR",
       nameDoc:
@@ -8720,9 +7795,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 36,
-      year: "2018",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "20-ABR",
       numDoc: "ITE-CG 36-2018",
       monthDoc: "ABR",
       nameDoc:
@@ -8731,9 +7804,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 37,
-      year: "2018",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "20-ABR",
       numDoc: "ITE-CG 37-2018",
       monthDoc: "ABR",
       nameDoc: "RESOLUCIÓN REGISTRO DE CANDIDATOS PT MAYORÍA Y RP",
@@ -8741,9 +7812,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 38,
-      year: "2018",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "20-ABR",
       numDoc: "ITE-CG 38-2018",
       monthDoc: "ABR",
       nameDoc: "RESOLUCIÓN REGISTRO DE CANDIDATOS MC MAYORÍA RELATIVA Y RP",
@@ -8751,9 +7820,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 39,
-      year: "2018",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "20-ABR",
       numDoc: "ITE-CG 39-2018",
       monthDoc: "ABR",
       nameDoc: "RESOLUCIÓN REGISTRO DE CANDIDATOS PANAL MAYORÍA RELATIVA Y RP",
@@ -8761,9 +7828,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 40,
-      year: "2018",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "20-ABR",
       numDoc: "ITE-CG 40-2018",
       monthDoc: "ABR",
       nameDoc: "RESOLUCIÓN REGISTRO DE CANDIDATOS MORENA MAYORÍA Y RP",
@@ -8773,9 +7838,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 41,
-      year: "2018",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "20-ABR",
       numDoc: "ITE-CG 41-2018",
       monthDoc: "ABR",
       nameDoc: "RESOLUCIÓN REGISTRO DE CANDIDATOS PES MAYORÍA Y RP",
@@ -8783,9 +7846,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 42,
-      year: "2018",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "20-ABR",
       numDoc: "ITE-CG 42-2018",
       monthDoc: "ABR",
       nameDoc: "RESOLUCIÓN REGISTRO DE CANDIDATOS PAN RP",
@@ -8797,9 +7858,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 43,
-      year: "2018",
       typeDoc: "",
-      dateDoc: "20-ABR",
       numDoc: "ITE-CG 43-2018",
       monthDoc: "ABR",
       nameDoc: "RESOLUCIÓN REGISTRO DE CANDIDATOS PRI RP",
@@ -8807,9 +7866,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 44,
-      year: "2018",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "20-ABR",
       numDoc: "ITE-CG 44-2018",
       monthDoc: "ABR",
       nameDoc: "RESOLUCIÓN REGISTRO DE CANDIDATOS PRD RP",
@@ -8822,9 +7879,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 45,
-      year: "2018",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "20-ABR",
       numDoc: "ITE-CG 45-2018",
       monthDoc: "ABR",
       nameDoc: "REGISTRO DE CANDIDATOS PVEM",
@@ -8832,9 +7887,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 46,
-      year: "2018",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "20-ABR",
       numDoc: "ITE-CG 46-2018",
       monthDoc: "ABR",
       nameDoc: "REGISTRO DE CANDIDATOS PAC RP",
@@ -8842,9 +7895,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 47,
-      year: "2018",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "20-ABR",
       numDoc: "ITE-CG 47-2018",
       monthDoc: "ABR",
       nameDoc: "REGISTRO DE CANDIDATOS PS RP",
@@ -8852,9 +7903,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 48,
-      year: "2018",
       typeDoc: "ACUERDO",
-      dateDoc: "21-ABR",
       numDoc: "ITE-CG 48-2018",
       monthDoc: "ABR",
       nameDoc: "READECUACIÓN AL PRESUPUESTO 2018 ISR",
@@ -8864,9 +7913,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 49,
-      year: "2018",
       typeDoc: "ACUERDO",
-      dateDoc: "21-ABR",
       numDoc: "ITE-CG 49-2018",
       monthDoc: "ABR",
       nameDoc: "READECUACIÓN AL PRESUPUESTO 2018",
@@ -8878,9 +7925,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 50,
-      year: "2018",
       typeDoc: "ACUERDO",
-      dateDoc: "21-ABR",
       numDoc: "ITE-CG 50-2018",
       monthDoc: "ABR",
       nameDoc: "DESIGNACIÓN E INCORPORACIÓN SPEN SISTEMA OPLE",
@@ -8888,9 +7933,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 51,
-      year: "2018",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "30-ABR",
       numDoc: "ITE-CG 51-2018",
       monthDoc: "ABR",
       nameDoc: "DIPUTADOS DE MAYORÍA RELATIVA Y RP PARTIDO MC",
@@ -8900,9 +7943,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 52,
-      year: "2018",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "30-ABR",
       numDoc: "ITE-CG 52-2018",
       monthDoc: "ABR",
       nameDoc: "POR LOS PRINCIPIOS DE MAYORÍA RELATIVA Y RP PES",
@@ -8910,9 +7951,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 53,
-      year: "2018",
       typeDoc: "ACUERDO",
-      dateDoc: "30-ABR",
       numDoc: "ITE-CG 53-2018",
       monthDoc: "DIC",
       nameDoc: "HORA DE INICIO Y CIERRE PREP",
@@ -8922,9 +7961,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 54,
-      year: "2018",
       typeDoc: "ACUERDO",
-      dateDoc: "30-ABR",
       numDoc: "ITE-CG 54-2018",
       monthDoc: "ABR",
       nameDoc:
@@ -8933,9 +7970,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 55,
-      year: "2018",
       typeDoc: "ACUERDO",
-      dateDoc: "30-ABR",
       numDoc: "ITE-CG 55-2018",
       monthDoc: "ABR",
       nameDoc: "SUSTITUCIONES DE CONSEJOS DISTRITALES 10 Y 15",
@@ -8943,9 +7978,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 60,
-      year: "2018",
       typeDoc: "ACUERDO",
-      dateDoc: "18-MAY",
       numDoc: "ITE-CG 60-2018",
       monthDoc: "MAY",
       nameDoc:
@@ -8954,9 +7987,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 61,
-      year: "2018",
       typeDoc: "ACUERDO",
-      dateDoc: "18-MAY",
       numDoc: "ITE-CG 61-2018",
       monthDoc: "MAY",
       nameDoc:
@@ -8965,9 +7996,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 62,
-      year: "2018",
       typeDoc: "ACUERDO",
-      dateDoc: "18-MAY",
       numDoc: "ITE-CG 62-2018",
       monthDoc: "MAY",
       nameDoc:
@@ -8978,9 +8007,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 63,
-      year: "2018",
       typeDoc: "ACUERDO",
-      dateDoc: "18-MAY",
       numDoc: "ITE-CG 63-2018",
       monthDoc: "MAY",
       nameDoc:
@@ -8989,9 +8016,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 64,
-      year: "2018",
       typeDoc: "ACUERDO",
-      dateDoc: "18-MAY",
       numDoc: "ITE-CG 64-2018",
       monthDoc: "MAY",
       nameDoc:
@@ -9000,9 +8025,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 65,
-      year: "2018",
       typeDoc: "ACUERDO",
-      dateDoc: "18-MAY",
       numDoc: "ITE-CG 65-2018",
       monthDoc: "MAY",
       nameDoc:
@@ -9011,9 +8034,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 66,
-      year: "2018",
       typeDoc: "ACUERDO",
-      dateDoc: "20-MAY",
       numDoc: "ITE-CG 66-2018",
       monthDoc: "MAY",
       nameDoc:
@@ -9022,9 +8043,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 67,
-      year: "2018",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "21-MAY",
       numDoc: "ITE-CG 67-2018",
       monthDoc: "MAY",
       nameDoc:
@@ -9033,9 +8052,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 68,
-      year: "2018",
       typeDoc: "ACUERDO",
-      dateDoc: "26-MAY",
       numDoc: "ITE-CG 68-2018",
       monthDoc: "MAY",
       nameDoc:
@@ -9044,9 +8061,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 69,
-      year: "2018",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "29-MAY",
       numDoc: "ITE-CG 69-2018",
       monthDoc: "MAY",
       nameDoc:
@@ -9055,9 +8070,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 70,
-      year: "2018",
       typeDoc: "ACUERDO",
-      dateDoc: "29-MAY",
       numDoc: "ITE-CG 70-2018",
       monthDoc: "MAY",
       nameDoc: "ACUERDO NO INCLUSIÓN DE NOMBRES E INCLUSIÓN DE SOBRENOMBRES",
@@ -9065,9 +8078,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 71,
-      year: "2018",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "06-JUN",
       numDoc: "ITE-CG 71-2018",
       monthDoc: "JUN",
       nameDoc: "RESOLUCIÓN DE SUSTITUCIÓN MOVIMIENTO CIUDADANO DISTRITO 06",
@@ -9075,9 +8086,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 72,
-      year: "2018",
       typeDoc: "ACUERDO",
-      dateDoc: "06-JUN",
       numDoc: "ITE-CG 72-2018",
       monthDoc: "JUN",
       nameDoc:
@@ -9089,9 +8098,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 73,
-      year: "2018",
       typeDoc: "ACUERDO",
-      dateDoc: "06-JUN",
       numDoc: "ITE-CG 73-2018",
       monthDoc: "JUN",
       nameDoc:
@@ -9100,9 +8107,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 74,
-      year: "2018",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "20-JUN",
       numDoc: "ITE-CG 74-2018",
       monthDoc: "JUN",
       nameDoc:
@@ -9111,9 +8116,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 75,
-      year: "2018",
       typeDoc: "ACUERDO",
-      dateDoc: "20-JUN",
       numDoc: "ITE-CG 75-2018",
       monthDoc: "JUN",
       nameDoc:
@@ -9122,9 +8125,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 76,
-      year: "2018",
       typeDoc: "ACUERDO",
-      dateDoc: "22-JUN",
       numDoc: "ITE-CG 76-2018",
       monthDoc: "JUN",
       nameDoc:
@@ -9133,9 +8134,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 77,
-      year: "2018",
       typeDoc: "ACUERDO",
-      dateDoc: "24-JUN",
       numDoc: "ITE-CG 77-2018",
       monthDoc: "JUN",
       nameDoc:
@@ -9144,9 +8143,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 78,
-      year: "2018",
       typeDoc: "ACUERDO",
-      dateDoc: "29-JUN",
       numDoc: "ITE-CG 78-2018",
       monthDoc: "JUN",
       nameDoc:
@@ -9155,9 +8152,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 79,
-      year: "2018",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "29-JUN",
       numDoc: "ITE-CG 79-2018",
       monthDoc: "JUN",
       nameDoc:
@@ -9166,9 +8161,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 80,
-      year: "2018",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "29-JUN",
       numDoc: "ITE-CG 80-2018",
       monthDoc: "JUN",
       nameDoc:
@@ -9177,9 +8170,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 81,
-      year: "2018",
       typeDoc: "ACUERDO",
-      dateDoc: "29-JUN",
       numDoc: "ITE-CG 81-2018",
       monthDoc: "JUN",
       nameDoc:
@@ -9188,9 +8179,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 82,
-      year: "2018",
       typeDoc: "ACUERDO",
-      dateDoc: "29-JUN",
       numDoc: "ITE-CG 82-2018",
       monthDoc: "JUN",
       nameDoc:
@@ -9199,9 +8188,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 83,
-      year: "2018",
       typeDoc: "ACUERDO",
-      dateDoc: "29-JUN",
       numDoc: "ITE-CG 83-2018",
       monthDoc: "JUN",
       nameDoc: "",
@@ -9212,9 +8199,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 85,
-      year: "2018",
       typeDoc: "ACUERDO",
-      dateDoc: "",
       numDoc: "ITE-CG 85-2018",
       monthDoc: "AGO",
       nameDoc: "RETIRO DE LA PROPAGANDA",
@@ -9224,9 +8209,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 86,
-      year: "2018",
       typeDoc: "ACUERDO",
-      dateDoc: "",
       numDoc: "ITE-CG 86-2018",
       monthDoc: "AGO",
       nameDoc:
@@ -9237,9 +8220,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 87,
-      year: "2018",
       typeDoc: "ACUERDO",
-      dateDoc: "02-AGO",
       numDoc: "ITE-CG 87-2018",
       monthDoc: "AGO",
       nameDoc:
@@ -9250,9 +8231,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 88,
-      year: "2018",
       typeDoc: "ACUERDO",
-      dateDoc: "",
       numDoc: "ITE-CG 88-2018",
       monthDoc: "AGO",
       nameDoc:
@@ -9261,9 +8240,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 89,
-      year: "2018",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "31-AGO",
       numDoc: "ITE-CG 89-2018",
       monthDoc: "AGO",
       nameDoc:
@@ -9272,9 +8249,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 90,
-      year: "2018",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "31-AGO",
       numDoc: "ITE-CG 90-2018",
       monthDoc: "AGO",
       nameDoc:
@@ -9283,9 +8258,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 91,
-      year: "2018",
       typeDoc: "ACUERDO",
-      dateDoc: "19-SEP",
       numDoc: "ITE-CG 91-2018",
       monthDoc: "SEP",
       nameDoc: "INTEGRACIÓN DE LA JUNTA GENERAL",
@@ -9293,9 +8266,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 92,
-      year: "2018",
       typeDoc: "ACUERDO",
-      dateDoc: "19-SEP",
       numDoc: "ITE-CG 92-2018",
       monthDoc: "SEP",
       nameDoc: "INTEGRACIÓN DE COMISIONES",
@@ -9303,9 +8274,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 93,
-      year: "2018",
       typeDoc: "ACUERDO",
-      dateDoc: "26-SEP",
       numDoc: "ITE-CG 93-2018",
       monthDoc: "SEP",
       nameDoc: "SE DECLARA LA CANCELACIÓN DE LA ACREDITACIÓN DE PANAL Y PES",
@@ -9313,9 +8282,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 94,
-      year: "2018",
       typeDoc: "ACUERDO",
-      dateDoc: "27-SEP",
       numDoc: "ITE-CG 94-2018",
       monthDoc: "SEP",
       nameDoc: "PROYECTO DE ACUERDO PRESUPUESTO DE EGRESOS 2019",
@@ -9329,9 +8296,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 95,
-      year: "2018",
       typeDoc: "ACUERDO",
-      dateDoc: "26-OCT",
       numDoc: "ITE-CG 95-2018",
       monthDoc: "OCT",
       nameDoc: "READECUACIÓN AL PRESUPUESTO 2018 ISR",
@@ -9341,9 +8306,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 96,
-      year: "2018",
       typeDoc: "ACUERDO",
-      dateDoc: "31-OCT",
       numDoc: "ITE-CG 96-2018",
       monthDoc: "OCT",
       nameDoc: "DESTRUCCIÓN DE MATERIAL ELECTORAL",
@@ -9351,9 +8314,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 97,
-      year: "2018",
       typeDoc: "ACUERDO",
-      dateDoc: "13-NOV",
       numDoc: "ITE-CG 97-2018",
       monthDoc: "NOV",
       nameDoc: "OFICIO PRESENTADO POR NUEVA ALIANZA",
@@ -9361,9 +8322,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 98,
-      year: "2018",
       typeDoc: "ACUERDO",
-      dateDoc: "13-NOV",
       numDoc: "ITE-CG 98-2018",
       monthDoc: "NOV",
       nameDoc: "ESCRITO PRESENTADO POR ENCUENTRO SOCIAL",
@@ -9371,9 +8330,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 99,
-      year: "2018",
       typeDoc: "ACUERDO",
-      dateDoc: "13-NOV",
       numDoc: "ITE-CG 99-2018",
       monthDoc: "NOV",
       nameDoc: "ADECUACIÓN DE COMISIONES",
@@ -9381,9 +8338,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 100,
-      year: "2018",
       typeDoc: "ACUERDO",
-      dateDoc: "13-NOV",
       numDoc: "ITE-CG 100-2018",
       monthDoc: "NOV",
       nameDoc: "DESIGNACIÓN DE DIRECTORA DOECYEC",
@@ -9391,9 +8346,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 101,
-      year: "2018",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "14-DIC",
       numDoc: "ITE-CG 101-2018",
       monthDoc: "DIC",
       nameDoc: "DICTAMEN NUEVA ALIANZA TLAXCALA",
@@ -9404,9 +8357,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 102,
-      year: "2018",
       typeDoc: "ACUERDO",
-      dateDoc: "18-DIC",
       numDoc: "ITE-CG 102-2018",
       monthDoc: "DIC",
       nameDoc: "READECUACIÓN AL PRESUPUESTO 2018 ISR",
@@ -9420,9 +8371,7 @@ export const dataAcuerdosITE = {
   2017: [
     {
       id: 1,
-      year: "2017",
       typeDoc: "ACUERDO",
-      dateDoc: "",
       numDoc: "ITE-CG 01-2017",
       monthDoc: "ENE",
       nameDoc: "ADECUACIÓN DEL PRESUPUESTO 2017",
@@ -9432,9 +8381,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 2,
-      year: "2017",
       typeDoc: "ACUERDO",
-      dateDoc: "31-ENE",
       numDoc: "ITE-CG 02-2017",
       monthDoc: "FEB",
       nameDoc:
@@ -9443,9 +8390,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 3,
-      year: "2017",
       typeDoc: "ACUERDO",
-      dateDoc: "15-FEB",
       numDoc: "ITE-CG 03-2017",
       monthDoc: "FEB",
       nameDoc:
@@ -9457,9 +8402,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 4,
-      year: "2017",
       typeDoc: "ACUERDO",
-      dateDoc: "15-FEB",
       numDoc: "ITE-CG 04-2017",
       monthDoc: "FEB",
       nameDoc:
@@ -9470,9 +8413,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 5,
-      year: "2017",
       typeDoc: "ACUERDO",
-      dateDoc: "15-FEB",
       numDoc: "ITE-CG 05-2017",
       monthDoc: "FEB",
       nameDoc: "DESIGNACIÓN DEL DIRECTOR DE ASUNTOS JURÍDICOS",
@@ -9480,9 +8421,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 6,
-      year: "2017",
       typeDoc: "ACUERDO",
-      dateDoc: "17-FEB",
       numDoc: "ITE-CG 06-2017",
       monthDoc: "FEB",
       nameDoc:
@@ -9493,9 +8432,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 7,
-      year: "2017",
       typeDoc: "ACUERDO",
-      dateDoc: "23-MAR",
       numDoc: "ITE-CG 06-2017",
       monthDoc: "MAR",
       nameDoc: "CALENDARIO PARA EL PROCESO ELECTORAL EXTRAORDINARIO 2017",
@@ -9505,9 +8442,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 8,
-      year: "2017",
       typeDoc: "ACUERDO",
-      dateDoc: "23-MAR",
       numDoc: "ITE-CG 08-2017",
       monthDoc: "MAR",
       nameDoc:
@@ -9516,9 +8451,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 9,
-      year: "2017",
       typeDoc: "ACUERDO",
-      dateDoc: "23-MAR",
       numDoc: "ITE-CG 09-2017",
       monthDoc: "MAR",
       nameDoc:
@@ -9527,9 +8460,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 10,
-      year: "2017",
       typeDoc: "ACUERDO",
-      dateDoc: "23-MAR",
       numDoc: "ITE-CG 10-2017",
       monthDoc: "MAR",
       nameDoc:
@@ -9540,9 +8471,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 11,
-      year: "2017",
       typeDoc: "ACUERDO",
-      dateDoc: "28-MAR",
       numDoc: "ITE-CG 11-2017",
       monthDoc: "MAR",
       nameDoc: "MULTAS PARTIDO ALIANZA CIUDADANA",
@@ -9550,9 +8479,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 12,
-      year: "2017",
       typeDoc: "ACUERDO",
-      dateDoc: "28-MAR",
       numDoc: "ITE-CG 12-2017",
       monthDoc: "MAR",
       nameDoc: "DICTAMEN PARA FORMACIÓN DE PARTIDO POLÍTICO",
@@ -9562,9 +8489,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 13,
-      year: "2017",
       typeDoc: "ACUERDO",
-      dateDoc: "28-MAR",
       numDoc: "ITE-CG 13-2017",
       monthDoc: "MAR",
       nameDoc: "DICTAMEN PARTIDO JOVEN",
@@ -9574,9 +8499,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 14,
-      year: "2017",
       typeDoc: "ACUERDO",
-      dateDoc: "28-MAR",
       numDoc: "ITE-CG 14-2017",
       monthDoc: "MAR",
       nameDoc: "DICTAMEN PARTIDO LIBERAL DE TLAXCALA",
@@ -9586,9 +8509,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 15,
-      year: "2017",
       typeDoc: "ACUERDO",
-      dateDoc: "28-MAR",
       numDoc: "ITE-CG 15-2017",
       monthDoc: "MAR",
       nameDoc: "DICTAMEN PARTIDO AUTÉNTICO DE LA REVOLUCIÓN MEXICANA",
@@ -9598,9 +8519,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 16,
-      year: "2017",
       typeDoc: "ACUERDO",
-      dateDoc: "28-MAR",
       numDoc: "ITE-CG 16-2017",
       monthDoc: "MAR",
       nameDoc: "DICTAMEN IMPACTO SOCIAL SI",
@@ -9610,9 +8529,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 17,
-      year: "2017",
       typeDoc: "ACUERDO",
-      dateDoc: "29-MAR",
       numDoc: "ITE-CG 17-2017",
       monthDoc: "MAR",
       nameDoc: "PARA CRITERIOS DE PARIDAD DE GÉNERO",
@@ -9622,9 +8539,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 18,
-      year: "2017",
       typeDoc: "ACUERDO",
-      dateDoc: "29-MAR",
       numDoc: "ITE-CG 18-2017",
       monthDoc: "MAR",
       nameDoc: "LISTADO ADICIONAL LA PROVIDENCIA SANCTORUM DE LÁZARO CÁRDENAS",
@@ -9632,9 +8547,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 19,
-      year: "2017",
       typeDoc: "ACUERDO",
-      dateDoc: "13-ABR",
       numDoc: "ITE-CG 19-2017",
       monthDoc: "ABR",
       nameDoc:
@@ -9643,9 +8556,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 20,
-      year: "2017",
       typeDoc: "ACUERDO",
-      dateDoc: "19-ABR",
       numDoc: "ITE-CG 20-2017",
       monthDoc: "ABR",
       nameDoc:
@@ -9654,9 +8565,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 21,
-      year: "2017",
       typeDoc: "ACUERDO",
-      dateDoc: "19-ABR",
       numDoc: "ITE-CG 21-2017",
       monthDoc: "ABR",
       nameDoc: "PROGRAMA DE PROMOCIÓN DEL VOTO ELECCIONES EXTRAORDINARIAS 2017",
@@ -9667,9 +8576,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 22,
-      year: "2017",
       typeDoc: "ACUERDO",
-      dateDoc: "19-ABR",
       numDoc: "ITE-CG 22-2017",
       monthDoc: "ABR",
       nameDoc: "PROCEDIMIENTOS Y PLAZOS PREP",
@@ -9683,9 +8590,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 23,
-      year: "2017",
       typeDoc: "ACUERDO",
-      dateDoc: "19-ABR",
       numDoc: "ITE-CG 23-2017",
       monthDoc: "ABR",
       nameDoc:
@@ -9694,9 +8599,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 24,
-      year: "2017",
       typeDoc: "ACUERDO",
-      dateDoc: "29-ABR",
       numDoc: "ITE-CG 24-2017",
       monthDoc: "ABR",
       nameDoc:
@@ -9705,9 +8608,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 25,
-      year: "2017",
       typeDoc: "ACUERDO",
-      dateDoc: "08-MAY",
       numDoc: "ITE-CG 25-2017",
       monthDoc: "MAY",
       nameDoc: "MANUAL DE REGISTRO DE CANDIDATOS PROCESO EXTRAORDINARIO 2017",
@@ -9717,9 +8618,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 26,
-      year: "2017",
       typeDoc: "ACUERDO",
-      dateDoc: "08-MAY",
       numDoc: "ITE-CG 26-2017",
       monthDoc: "MAY",
       nameDoc: "PARA DESIGNACIÓN DE AUTORIDADES PARA SERVICIO PROFESIONAL",
@@ -9727,9 +8626,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 27,
-      year: "2017",
       typeDoc: "ACUERDO",
-      dateDoc: "08-MAY",
       numDoc: "ITE-CG 27-2017",
       monthDoc: "MAY",
       nameDoc: "PROGRAMA DE GOBIERNO COMÚN PAN",
@@ -9737,9 +8634,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 28,
-      year: "2017",
       typeDoc: "ACUERDO",
-      dateDoc: "08-MAY",
       numDoc: "ITE-CG 28-2017",
       monthDoc: "MAY",
       nameDoc: "PROGRAMA DE GOBIERNO COMÚN PRI",
@@ -9747,9 +8642,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 29,
-      year: "2017",
       typeDoc: "ACUERDO",
-      dateDoc: "08-MAY",
       numDoc: "ITE-CG 29-2017",
       monthDoc: "MAY",
       nameDoc: "PROGRAMA DE GOBIERNO COMÚN PRD",
@@ -9757,9 +8650,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 30,
-      year: "2017",
       typeDoc: "ACUERDO",
-      dateDoc: "08-MAY",
       numDoc: "ITE-CG 30-2017",
       monthDoc: "MAY",
       nameDoc: "PROGRAMA DE GOBIERNO COMÚN PT",
@@ -9767,9 +8658,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 31,
-      year: "2017",
       typeDoc: "ACUERDO",
-      dateDoc: "08-MAY",
       numDoc: "ITE-CG 31-2017",
       monthDoc: "MAY",
       nameDoc: "PROGRAMA DE GOBIERNO COMÚN PAC",
@@ -9777,9 +8666,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 32,
-      year: "2017",
       typeDoc: "ACUERDO",
-      dateDoc: "08-MAY",
       numDoc: "ITE-CG 32-2017",
       monthDoc: "MAY",
       nameDoc: "PROGRAMA DE GOBIERNO COMÚN PS",
@@ -9787,9 +8674,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 33,
-      year: "2017",
       typeDoc: "ACUERDO",
-      dateDoc: "08-MAY",
       numDoc: "ITE-CG 33-2017",
       monthDoc: "MAY",
       nameDoc: "PROGRAMA DE GOBIERNO COMÚN MORENA",
@@ -9797,9 +8682,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 34,
-      year: "2017",
       typeDoc: "ACUERDO",
-      dateDoc: "08-MAY",
       numDoc: "ITE-CG 34-2017",
       monthDoc: "MAY",
       nameDoc: "PREP PROCESO ELECTORAL EXTRAORDINARIO 2017",
@@ -9809,9 +8692,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 35,
-      year: "2017",
       typeDoc: "ACUERDO",
-      dateDoc: "12-MAY",
       numDoc: "ITE-CG 35-2017",
       monthDoc: "MAY",
       nameDoc: "MODELO OPERATIVO REMISIÓN Y RECEPCIÓN PAQUETES ELECTORALES",
@@ -9823,9 +8704,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 36,
-      year: "2017",
       typeDoc: "ACUERDO",
-      dateDoc: "12-MAY",
       numDoc: "ITE-CG 36-2017",
       monthDoc: "MAY",
       nameDoc:
@@ -9837,9 +8716,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 37,
-      year: "2017",
       typeDoc: "ACUERDO",
-      dateDoc: "16-MAY",
       numDoc: "ITE-CG 37-2017",
       monthDoc: "MAY",
       nameDoc: "REQUERIMIENTO PARIDAD PAN",
@@ -9849,9 +8726,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 38,
-      year: "2017",
       typeDoc: "ACUERDO",
-      dateDoc: "16-MAY",
       numDoc: "ITE-CG 38-2017",
       monthDoc: "MAY",
       nameDoc: "REQUERIMIENTO PARIDAD PT",
@@ -9859,9 +8734,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 39,
-      year: "2017",
       typeDoc: "",
-      dateDoc: "16-MAY",
       numDoc: "ITE-CG 39-2017",
       monthDoc: "MAY",
       nameDoc: "REQUERIMIENTO PARIDAD PAC",
@@ -9871,9 +8744,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 40,
-      year: "2017",
       typeDoc: "ACUERDO",
-      dateDoc: "19-MAY",
       numDoc: "ITE-CG 40-2017",
       monthDoc: "MAY",
       nameDoc: "PRESIDENCIAS DE COMUNIDAD PRI",
@@ -9881,9 +8752,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 41,
-      year: "2017",
       typeDoc: "ACUERDO",
-      dateDoc: "19-MAY",
       numDoc: "ITE-CG 41-2017",
       monthDoc: "MAY",
       nameDoc: "PRESIDENCIAS DE COMUNIDAD PRD",
@@ -9891,9 +8760,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 42,
-      year: "2017",
       typeDoc: "ACUERDO",
-      dateDoc: "19-MAY",
       numDoc: "ITE-CG 42-2017",
       monthDoc: "MAY",
       nameDoc: "PRESIDENCIAS DE COMUNIDAD PS",
@@ -9901,9 +8768,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 43,
-      year: "2017",
       typeDoc: "ACUERDO",
-      dateDoc: "19-MAY",
       numDoc: "ITE-CG 43-2017",
       monthDoc: "MAY",
       nameDoc: "PRESIDENCIAS DE COMUNIDAD MORENA",
@@ -9911,9 +8776,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 44,
-      year: "2017",
       typeDoc: "ACUERDO",
-      dateDoc: "19-MAY",
       numDoc: "ITE-CG 44-2017",
       monthDoc: "MAY",
       nameDoc: "PRESIDENCIAS DE COMUNIDAD PAN",
@@ -9921,9 +8784,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 45,
-      year: "2017",
       typeDoc: "ACUERDO",
-      dateDoc: "19-MAY",
       numDoc: "ITE-CG 45-2017",
       monthDoc: "MAY",
       nameDoc: "PRESIDENCIAS DE COMUNIDAD PARTIDO DEL TRABAJO",
@@ -9931,9 +8792,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 46,
-      year: "2017",
       typeDoc: "ACUERDO",
-      dateDoc: "19-MAY",
       numDoc: "ITE-CG 46-2017",
       monthDoc: "MAY",
       nameDoc: "PRESIDENCIAS DE COMUNIDAD PAC",
@@ -9941,9 +8800,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 47,
-      year: "2017",
       typeDoc: "ACUERDO",
-      dateDoc: "19-MAY",
       numDoc: "ITE-CG 47-2017",
       monthDoc: "MAY",
       nameDoc: "MEDIDAS DE SEGURIDAD",
@@ -9951,9 +8808,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 48,
-      year: "2017",
       typeDoc: "ACUERDO",
-      dateDoc: "31-MAY",
       numDoc: "ITE-CG 48-2017",
       monthDoc: "MAY",
       nameDoc: "CUMPLIMIENTO SENTENCIA SCM JRC 12 2017",
@@ -9961,9 +8816,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 49,
-      year: "2017",
       typeDoc: "ACUERDO",
-      dateDoc: "06-JUN",
       numDoc: "ITE-CG 49-2017",
       monthDoc: "JUN",
       nameDoc: "RECUENTO BARRIO DE SANTIAGO",
@@ -9971,9 +8824,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 50,
-      year: "2017",
       typeDoc: "ACUERDO",
-      dateDoc: "06-JUN",
       numDoc: "ITE-CG 50-2017",
       monthDoc: "JUN",
       nameDoc: "RECUENTO SAN JOSÉ TOXOPA",
@@ -9981,9 +8832,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 51,
-      year: "2017",
       typeDoc: "ACUERDO",
-      dateDoc: "06-JUN",
       numDoc: "ITE-CG 51-2017",
       monthDoc: "JUN",
       nameDoc: "PERSONAL AUXILIAR PARA CÓMPUTO PEE 2017",
@@ -9991,9 +8840,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 52,
-      year: "2017",
       typeDoc: "ACUERDO",
-      dateDoc: "07-JUN",
       numDoc: "ITE-CG 52-2017",
       monthDoc: "JUN",
       nameDoc: "VALIDEZ DE ELECCIÓN DE LA COMUNIDAD SAN CRISTÓBAL ZACACALCO",
@@ -10001,9 +8848,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 53,
-      year: "2017",
       typeDoc: "ACUERDO",
-      dateDoc: "07-JUN",
       numDoc: "ITE-CG 53-2017",
       monthDoc: "JUN",
       nameDoc: "VALIDEZ DE ELECCIÓN DE LA COMUNIDAD LA PROVIDENCIA",
@@ -10011,9 +8856,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 54,
-      year: "2017",
       typeDoc: "ACUERDO",
-      dateDoc: "07-JUN",
       numDoc: "ITE-CG 54-2017",
       monthDoc: "JUN",
       nameDoc: "VALIDEZ DE ELECCIÓN DE LA COMUNIDAD SAN MIGUEL BUENAVISTA",
@@ -10021,9 +8864,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 55,
-      year: "2017",
       typeDoc: "ACUERDO",
-      dateDoc: "07-JUN",
       numDoc: "ITE-CG 55-2017",
       monthDoc: "JUN",
       nameDoc:
@@ -10032,9 +8873,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 56,
-      year: "2017",
       typeDoc: "ACUERDO",
-      dateDoc: "07-JUN",
       numDoc: "ITE-CG 56-2017",
       monthDoc: "JUN",
       nameDoc: "VALIDEZ DE ELECCIÓN DE LA COMUNIDAD SAN JOSÉ TEXOPA",
@@ -10045,9 +8884,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 57,
-      year: "2017",
       typeDoc: "ACUERDO",
-      dateDoc: "07-JUN",
       numDoc: "ITE-CG 57-2017",
       monthDoc: "JUN",
       nameDoc: "VALIDEZ DE ELECCIÓN DE LA COMUNIDAD BARRIO DE SANTIAGO",
@@ -10058,9 +8895,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 58,
-      year: "2017",
       typeDoc: "ACUERDO",
-      dateDoc: "07-JUN",
       numDoc: "ITE-CG 58-2017",
       monthDoc: "JUN",
       nameDoc: "VALIDEZ DE ELECCIÓN DE LA COMUNIDAD LA GARITA",
@@ -10068,9 +8903,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 59,
-      year: "2017",
       typeDoc: "ACUERDO",
-      dateDoc: "09-JUN",
       numDoc: "ITE-CG 59-2017",
       monthDoc: "JUN",
       nameDoc: "LINEAMIENTOS DE RETIRO DE PROPAGANDA ELECTORAL PEE 2017",
@@ -10078,9 +8911,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 60,
-      year: "2017",
       typeDoc: "ACUERDO",
-      dateDoc: "27-JUN",
       numDoc: "ITE-CG 60-2017",
       monthDoc: "JUN",
       nameDoc: "FORMATOS PARA ORGANIZACIONES DE CIUDADANOS",
@@ -10094,9 +8925,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 61,
-      year: "2017",
       typeDoc: "ACUERDO",
-      dateDoc: "27-JUN",
       numDoc: "ITE-CG 61-2017",
       monthDoc: "JUN",
       nameDoc: "FISCALIZACIÓN ORGANIZACIONES DE CIUDADANOS",
@@ -10106,9 +8935,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 62,
-      year: "2017",
       typeDoc: "ACUERDO",
-      dateDoc: "05-JUL",
       numDoc: "ITE-CG 62-2017",
       monthDoc: "JUL",
       nameDoc:
@@ -10117,9 +8944,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 63,
-      year: "2017",
       typeDoc: "ACUERDO",
-      dateDoc: "17-JUL",
       numDoc: "ITE-CG 63-2017",
       monthDoc: "JUL",
       nameDoc: "ADECUACIÓN AL PRESUPUESTO 2017",
@@ -10127,9 +8952,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 64,
-      year: "2017",
       typeDoc: "ACUERDO",
-      dateDoc: "17-JUL",
       numDoc: "ITE-CG 64-2017",
       monthDoc: "JUL",
       nameDoc: "REMANENTES 2017",
@@ -10137,9 +8960,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 65,
-      year: "2017",
       typeDoc: "ACUERDO",
-      dateDoc: "17-JUL",
       numDoc: "ITE-CG 65-2017",
       monthDoc: "JUL",
       nameDoc: "MULTAS 2017",
@@ -10147,9 +8968,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 66,
-      year: "2017",
       typeDoc: "ACUERDO",
-      dateDoc: "21-JUL",
       numDoc: "ITE-CG 66-2017",
       monthDoc: "JUL",
       nameDoc: "DESTRUCCIÓN DE MATERIAL ELECTORAL",
@@ -10157,9 +8976,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 67,
-      year: "2017",
       typeDoc: "ACUERDO",
-      dateDoc: "16-AGO",
       numDoc: "ITE-CG 67-2017",
       monthDoc: "AGO",
       nameDoc: "MULTA INE CG810 2017",
@@ -10167,9 +8984,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 68,
-      year: "2017",
       typeDoc: "ACUERDO",
-      dateDoc: "16-AGO",
       numDoc: "ITE-CG 68-2017",
       monthDoc: "AGO",
       nameDoc: "PERSONAL HABILITADO PARA ASAMBLEAS",
@@ -10177,9 +8992,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 69,
-      year: "2017",
       typeDoc: "ACUERDO",
-      dateDoc: "29-AGO",
       numDoc: "ITE-CG 69-2017",
       monthDoc: "AGO",
       nameDoc: "FIRMA DE CONVENIOS",
@@ -10187,9 +9000,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 70,
-      year: "2017",
       typeDoc: "ACUERDO",
-      dateDoc: "29-AGO",
       numDoc: "ITE-CG 70-2017",
       monthDoc: "AGO",
       nameDoc: "LINEAMIENTOS CÓMPUTOS DISTRITALES 2017 2018",
@@ -10202,9 +9013,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 71,
-      year: "2017",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "29-AGO",
       numDoc: "ITE-CG 71-2017",
       monthDoc: "AGO",
       nameDoc: "PARTIDO ALIANZA CIUDADANA",
@@ -10214,9 +9023,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 72,
-      year: "2017",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "29-AGO",
       numDoc: "ITE-CG 72-2017",
       monthDoc: "AGO",
       nameDoc: "PARTIDO SOCIALISTA",
@@ -10226,9 +9033,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 73,
-      year: "2017",
       typeDoc: "ACUERDO",
-      dateDoc: "25-SEP",
       numDoc: "ITE-CG 73-2017",
       monthDoc: "SEP",
       nameDoc: "ADECUACIÓN PRESUPUESTO 2017",
@@ -10240,9 +9045,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 74,
-      year: "2017",
       typeDoc: "ACUERDO",
-      dateDoc: "25-SEP",
       numDoc: "ITE-CG 74-2017",
       monthDoc: "SEP",
       nameDoc: "PROYECTO DE PRESUPUESTO DE EGRESOS 2018",
@@ -10252,9 +9055,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 75,
-      year: "2017",
       typeDoc: "ACUERDO",
-      dateDoc: "12-OCT",
       numDoc: "ITE-CG 75-2017",
       monthDoc: "OCT",
       nameDoc: "DESIGNACIÓN DE DIRECTORES Y TITULARES",
@@ -10268,9 +9069,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 76,
-      year: "2017",
       typeDoc: "ACUERDO",
-      dateDoc: "12-OCT",
       numDoc: "ITE-CG 76-2017",
       monthDoc: "OCT",
       nameDoc:
@@ -10282,9 +9081,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 77,
-      year: "2017",
       typeDoc: "ACUERDO",
-      dateDoc: "20-OCT",
       numDoc: "ITE-CG 77-2017",
       monthDoc: "OCT",
       nameDoc: "CALENDARIO PROCESO ELECTORAL ORDINARIO 2018",
@@ -10294,9 +9091,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 78,
-      year: "2017",
       typeDoc: "ACUERDO",
-      dateDoc: "20-OCT",
       numDoc: "ITE-CG 78-2017",
       monthDoc: "OCT",
       nameDoc: "CONVOCATORIA PROCESO ELECTORAL ORDINARIO 2018",
@@ -10304,9 +9099,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 79,
-      year: "2017",
       typeDoc: "ACUERDO",
-      dateDoc: "20-OCT",
       numDoc: "ITE-CG 79-2017",
       monthDoc: "OCT",
       nameDoc: "MANUAL DE PROCEDIMIENTO LABORAL DISCIPLINARIO",
@@ -10316,9 +9109,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 80,
-      year: "2017",
       typeDoc: "ACUERDO",
-      dateDoc: "20-OCT",
       numDoc: "ITE-CG 80-2017",
       monthDoc: "OCT",
       nameDoc: "SERVICIO PROFESIONAL ELECTORAL NACIONAL OPLE",
@@ -10329,9 +9120,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 81,
-      year: "2017",
       typeDoc: "ACUERDO",
-      dateDoc: "13-NOV",
       numDoc: "ITE-CG 81-2017",
       monthDoc: "NOV",
       nameDoc: "MODELO ÚNICO ESTATUTO CANDIDATOS INDEPENDIENTES",
@@ -10341,9 +9130,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 82,
-      year: "2017",
       typeDoc: "ACUERDO",
-      dateDoc: "13-NOV",
       numDoc: "ITE-CG 82-2017",
       monthDoc: "NOV",
       nameDoc: "PERSONAL HABILITADO PARA ASAMBLEA ESTATAL IMPACTO SOCIAL SI",
@@ -10351,9 +9138,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 83,
-      year: "2017",
       typeDoc: "ACUERDO",
-      dateDoc: "23-NOV",
       numDoc: "ITE-CG 83-2017",
       monthDoc: "NOV",
       nameDoc: "METODOLOGÍA DE MONITOREO DE MEDIOS",
@@ -10361,9 +9146,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 84,
-      year: "2017",
       typeDoc: "ACUERDO",
-      dateDoc: "23-NOV",
       numDoc: "ITE-CG 84-2017",
       monthDoc: "NOV",
       nameDoc: "CONVOCATORIA CANDIDATOS INDEPENDIENTES",
@@ -10385,9 +9168,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 85,
-      year: "2017",
       typeDoc: "ACUERDO",
-      dateDoc: "30-NOV",
       numDoc: "ITE-CG 85-2017",
       monthDoc: "NOV",
       nameDoc: "PAUTAS RADIO Y TELEVISIÓN",
@@ -10395,9 +9176,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 86,
-      year: "2017",
       typeDoc: "ACUERDO",
-      dateDoc: "30-NOV",
       numDoc: "ITE-CG 86-2017",
       monthDoc: "NOV",
       nameDoc: "TITULAR ÁREA TÉCNICA DE TRANSPARENCIA",
@@ -10405,9 +9184,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 87,
-      year: "2017",
       typeDoc: "ACUERDO",
-      dateDoc: "30-NOV",
       numDoc: "ITE-CG 87-2017",
       monthDoc: "NOV",
       nameDoc: "DESIGNACIÓN DE LA INSTANCIA INTERNA PREP",
@@ -10415,9 +9192,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 88,
-      year: "2017",
       typeDoc: "ACUERDO",
-      dateDoc: "",
       numDoc: "ITE-CG 88-2017",
       monthDoc: "DIC",
       nameDoc:
@@ -10429,9 +9204,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 89,
-      year: "2017",
       typeDoc: "ACUERDO",
-      dateDoc: "13-DIC",
       numDoc: "ITE-CG 89-2017",
       monthDoc: "DIC",
       nameDoc: "PROYECTO DE TOPES DE PRECAMPAÑA 2018",
@@ -10439,9 +9212,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 90,
-      year: "2017",
       typeDoc: "ACUERDO",
-      dateDoc: "13-DIC",
       numDoc: "ITE-CG 90-2017",
       monthDoc: "DIC",
       nameDoc: "LINEAMIENTOS GENERALES DE PARIDAD DE GÉNERO",
@@ -10451,9 +9222,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 91,
-      year: "2017",
       typeDoc: "ACUERDO",
-      dateDoc: "13-DIC",
       numDoc: "ITE-CG 91-2017",
       monthDoc: "DIC",
       nameDoc: "LINEAMIENTOS DE VERIFICACIÓN DE APOYO CIUDADANO",
@@ -10464,9 +9233,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 92,
-      year: "2017",
       typeDoc: "ACUERDO",
-      dateDoc: "13-DIC",
       numDoc: "ITE-CG 92-2017",
       monthDoc: "DIC",
       nameDoc: "INTEGRACIÓN COTAPREP 2018",
@@ -10474,9 +9241,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 93,
-      year: "2017",
       typeDoc: "ACUERDO",
-      dateDoc: "13-DIC",
       numDoc: "ITE-CG 93-2017",
       monthDoc: "DIC",
       nameDoc: "DESIGNACIÓN DEL TITULAR DEL ÁREA TÉCNICA DE INFORMÁTICA",
@@ -10484,9 +9249,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 94,
-      year: "2017",
       typeDoc: "ACUERDO",
-      dateDoc: "13-DIC",
       numDoc: "ITE-CG 94-2017",
       monthDoc: "DIC",
       nameDoc: "LINEAMIENTOS RADIO Y TELEVISIÓN",
@@ -10496,9 +9259,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 95,
-      year: "2017",
       typeDoc: "ACUERDO",
-      dateDoc: "13-DIC",
       numDoc: "ITE-CG 95-2017",
       monthDoc: "DIC",
       nameDoc: "REFORMA REGLAMENTO DE QUEJAS Y DENUNCIAS",
@@ -10508,9 +9269,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 96,
-      year: "2017",
       typeDoc: "ACUERDO",
-      dateDoc: "13-DIC",
       numDoc: "ITE-CG 96-2017",
       monthDoc: "DIC",
       nameDoc: "DESIGNACIÓN DEL PERSONAL APERTURA DE BODEGA PEE 2017",
@@ -10518,9 +9277,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 97,
-      year: "2017",
       typeDoc: "ACUERDO",
-      dateDoc: "14-DIC",
       numDoc: "ITE-CG 97-2017",
       monthDoc: "DIC",
       nameDoc: "METODOLOGÍA MONITOREO",
@@ -10528,9 +9285,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 98,
-      year: "2017",
       typeDoc: "ACUERDO",
-      dateDoc: "14-DIC",
       numDoc: "ITE-CG 98-2017",
       monthDoc: "DIC",
       nameDoc: "SERVICIO PROFESIONAL ELECTORAL NACIONAL OPLE",
@@ -10538,9 +9293,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 99,
-      year: "2017",
       typeDoc: "ACUERDO",
-      dateDoc: "14-DIC",
       numDoc: "ITE-CG 99-2017",
       monthDoc: "DIC",
       nameDoc: "ADECUACIÓN A PRESUPUESTO",
@@ -10548,9 +9301,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 100,
-      year: "2017",
       typeDoc: "ACUERDO",
-      dateDoc: "18-DIC",
       numDoc: "ITE-CG 100-2017",
       monthDoc: "DIC",
       nameDoc: "DOCUMENTOS Y MATERIALES ELECTORALES",
@@ -10565,9 +9316,7 @@ export const dataAcuerdosITE = {
   2016: [
     {
       id: 1,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "07-ENE",
       numDoc: "ITE-CG 01-2016",
       monthDoc: "ENE",
       nameDoc: "CUMPLIMIENTO SALA SUPERIOR CANDIDATOS INDEPENDIENTES",
@@ -10580,9 +9329,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 2,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "10-ENE",
       numDoc: "ITE-CG 02-2016",
       monthDoc: "ENE",
       nameDoc: "COALICIÓN PRI PVEM PNA PS PARA LA ELECCIÓN DE GOBERNADOR",
@@ -10590,9 +9337,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 3,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "20-ENE",
       numDoc: "ITE-CG 03-2016",
       monthDoc: "ENE",
       nameDoc: "ADECUACIÓN PRESUPUESTO",
@@ -10600,9 +9345,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 4,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "20-ENE",
       numDoc: "ITE-CG 04-2016",
       monthDoc: "ENE",
       nameDoc: "ASPIRANTES CANDIDATOS INDEPENDIENTES",
@@ -10610,9 +9353,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 5,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "04-FEB",
       numDoc: "ITE-CG 05-2016",
       monthDoc: "FEB",
       nameDoc: "RESOLUCIÓN PAC",
@@ -10622,9 +9363,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 6,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "10-FEB",
       numDoc: "ITE-CG 06-2016",
       monthDoc: "FEB",
       nameDoc: "CONVOCATORIA CONSEJOS DISTRITALES Y MUNICIPALES",
@@ -10638,9 +9377,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 7,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "20-FEB",
       numDoc: "ITE-CG 07-2016",
       monthDoc: "FEB",
       nameDoc: "COMITÉ DE ADQUISICIONES",
@@ -10648,9 +9385,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 8,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "20-FEB",
       numDoc: "ITE-CG 08-2016",
       monthDoc: "FEB",
       nameDoc: "NOMBRAMIENTO DIRECTOR JURÍDICO",
@@ -10658,9 +9393,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 9,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "21-FEB",
       numDoc: "ITE-CG 09-2016",
       monthDoc: "FEB",
       nameDoc: "CANDIDATOS INDEPENDIENTES PRESIDENTES DE COMUNIDAD",
@@ -10668,9 +9401,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 10,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "02-MAR",
       numDoc: "ITE-CG 10-2016",
       monthDoc: "MAR",
       nameDoc: "DE APOYO CIUDADANO DE AYUNTAMIENTOS Y DIPUTADOS",
@@ -10678,9 +9409,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 11,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "06-MAR",
       numDoc: "ITE-CG 11-2016",
       monthDoc: "MAR",
       nameDoc: "PLATAFORMA PAN",
@@ -10688,9 +9417,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 12,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "06-MAR",
       numDoc: "ITE-CG 12-2016",
       monthDoc: "MAR",
       nameDoc: "PLATAFORMA PRI",
@@ -10698,9 +9425,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 13,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "06-MAR",
       numDoc: "ITE-CG 13-2016",
       monthDoc: "MAR",
       nameDoc: "PLATAFORMA PRD",
@@ -10708,9 +9433,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 14,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "06-MAR",
       numDoc: "ITE-CG 14-2016",
       monthDoc: "MAR",
       nameDoc: "PLATAFORMA PVEM",
@@ -10718,9 +9441,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 15,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "06-MAR",
       numDoc: "ITE-CG 15-2016",
       monthDoc: "MAR",
       nameDoc: "PLATAFORMA MC",
@@ -10728,9 +9449,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 16,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "06-MAR",
       numDoc: "ITE-CG 16-2016",
       monthDoc: "MAR",
       nameDoc: "PLATAFORMA NA",
@@ -10738,9 +9457,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 17,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "06-MAR",
       numDoc: "ITE-CG 17-2016",
       monthDoc: "MAR",
       nameDoc: "PLATAFORMA PS",
@@ -10748,9 +9465,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 18,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "06-MAR",
       numDoc: "ITE-CG 18-2016",
       monthDoc: "MAR",
       nameDoc: "PLATAFORMA MORENA.",
@@ -10758,9 +9473,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 19,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "06-MAR",
       numDoc: "ITE-CG 19-2016",
       monthDoc: "MAR",
       nameDoc: "PLATAFORMA ENC SOC",
@@ -10768,9 +9481,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 20,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "06-MAR",
       numDoc: "ITE-CG 20-2016",
       monthDoc: "MAR",
       nameDoc: "PLATAFORMA PT",
@@ -10778,9 +9489,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 21,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "06-MAR",
       numDoc: "ITE-CG 21-2016",
       monthDoc: "MAR",
       nameDoc: "CANDIDATURA COMÚN PRI",
@@ -10788,9 +9497,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 22,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "06-MAR",
       numDoc: "ITE-CG 22-2016",
       monthDoc: "MAR",
       nameDoc: "CANDIDATURA PRD PT",
@@ -10798,9 +9505,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 23,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "12-MAR",
       numDoc: "ITE-CG 23-2016",
       monthDoc: "MAR",
       nameDoc: "PRESIDENTE PAC",
@@ -10808,9 +9513,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 24,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "12-MAR",
       numDoc: "ITE-CG 24-2016",
       monthDoc: "MAR",
       nameDoc: "PLATAFORMA PAC",
@@ -10818,9 +9521,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 25,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "12-MAR",
       numDoc: "ITE-CG 25-2016",
       monthDoc: "MAR",
       nameDoc: "AMPLIACIÓN DE VERIFICACIÓN DE PORCENTAJE A GOBERNADOR",
@@ -10828,9 +9529,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 26,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "15-MAR",
       numDoc: "ITE-CG 26-2016",
       monthDoc: "MAR",
       nameDoc: "VERIFICACIÓN DE PORCENTAJE A GOBERNADOR",
@@ -10838,9 +9537,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 27,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "15-MAR",
       numDoc: "ITE-CG 27-2016",
       monthDoc: "MAR",
       nameDoc: "CONSEJOS DISTRITALES Y MUNICIPALES",
@@ -10848,9 +9545,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 28,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "24-MAR",
       numDoc: "ITE-CG 28-2016",
       monthDoc: "MAR",
       nameDoc: "PROGRAMA PAN",
@@ -10858,9 +9553,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 29,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "24-MAR",
       numDoc: "ITE-CG 29-2016",
       monthDoc: "MAR",
       nameDoc: "PROGRAMA PRI",
@@ -10868,9 +9561,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 30,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "24-MAR",
       numDoc: "ITE-CG 30-2016",
       monthDoc: "MAR",
       nameDoc: "PROGRAMA PRD",
@@ -10878,9 +9569,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 31,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "24-MAR",
       numDoc: "ITE-CG 31-2016",
       monthDoc: "MAR",
       nameDoc: "PROGRAMA PT",
@@ -10888,9 +9577,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 32,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "24-MAR",
       numDoc: "ITE-CG 32-2016",
       monthDoc: "MAR",
       nameDoc: "PROGRAMA PVEM",
@@ -10898,9 +9585,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 33,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "24-MAR",
       numDoc: "ITE-CG 33-2016",
       monthDoc: "MAR",
       nameDoc: "PROGRAMA MC",
@@ -10908,9 +9593,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 34,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "24-MAR",
       numDoc: "ITE-CG 34-2016",
       monthDoc: "MAR",
       nameDoc: "PROGRAMA PANAL",
@@ -10918,9 +9601,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 35,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "24-MAR",
       numDoc: "ITE-CG 35-2016",
       monthDoc: "MAR",
       nameDoc: "PROGRAMA PAC",
@@ -10928,9 +9609,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 36,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "24-MAR",
       numDoc: "ITE-CG 36-2016",
       monthDoc: "MAR",
       nameDoc: "PROGRAMA PS",
@@ -10938,9 +9617,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 37,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "24-MAR",
       numDoc: "ITE-CG 37-2016",
       monthDoc: "MAR",
       nameDoc: "PROGRAMA MORENA",
@@ -10948,9 +9625,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 38,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "24-MAR",
       numDoc: "ITE-CG 38-2016",
       monthDoc: "MAR",
       nameDoc: "PROGRAMA PES",
@@ -10958,9 +9633,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 39,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "24-MAR",
       numDoc: "ITE-CG 39-2016",
       monthDoc: "MAR",
       nameDoc: "BENITO Y MELISSA CANDIDATOS INDEPENDIENTES",
@@ -10968,9 +9641,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 40,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "25-MAR",
       numDoc: "ITE-CG 40-2016",
       monthDoc: "MAR",
       nameDoc: "PAC BERNARDINO",
@@ -10978,9 +9649,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 41,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "25-MAR",
       numDoc: "ITE-CG 41-2016",
       monthDoc: "MAR",
       nameDoc: "PRI PVEM PANAL Y PS",
@@ -10988,9 +9657,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 42,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "25-MAR",
       numDoc: "ITE-CG 42-2016",
       monthDoc: "MAR",
       nameDoc: "PRD PT",
@@ -10998,9 +9665,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 43,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "25-MAR",
       numDoc: "ITE-CG 43-2016",
       monthDoc: "MAR",
       nameDoc: "PVEM PS",
@@ -11008,9 +9673,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 44,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "25-MAR",
       numDoc: "ITE-CG 44-2016",
       monthDoc: "MAR",
       nameDoc: "ALFONSO CANO",
@@ -11018,9 +9681,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 45,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "30-MAR",
       numDoc: "ITE-CG 45-2016",
       monthDoc: "MAR",
       nameDoc: "CUMPLIMIENTO SUP JDC 1181 2016 DE JORGE MORENO DURAN",
@@ -11028,9 +9689,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 46,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "01-ABR",
       numDoc: "ITE-CG 46-2016",
       monthDoc: "ABR",
       nameDoc: "DESIGNACIÓN DEL COMITÉ PREP",
@@ -11038,9 +9697,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 47,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "01-ABR",
       numDoc: "ITE-CG 47-2016",
       monthDoc: "ABR",
       nameDoc: "SUSTITUCIONES",
@@ -11048,9 +9705,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 48,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "01-ABR",
       numDoc: "ITE-CG 48-2016",
       monthDoc: "ABR",
       nameDoc: "FINANCIAMIENTO",
@@ -11058,9 +9713,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 49,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "01-ABR",
       numDoc: "ITE-CG 49-2016",
       monthDoc: "ABR",
       nameDoc: "DOCUMENTACIÓN Y MATERIAL ELECTORAL",
@@ -11069,9 +9722,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 50,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "01-ABR",
       numDoc: "ITE-CG 50-2016",
       monthDoc: "ABR",
       nameDoc: "BOLETAS",
@@ -11079,9 +9730,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 51,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "01-ABR",
       numDoc: "ITE-CG 51-2016",
       monthDoc: "ABR",
       nameDoc: "CUMPLIMIENTO JOSÉ EFRÉN SANTACRUZ MOCTEZUMA BUENO",
@@ -11089,9 +9738,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 52,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "02-ABR",
       numDoc: "ITE-CG 52-2016",
       monthDoc: "ABR",
       nameDoc: "GOBERNADOR COALICIÓN PRI PVEM NA PS",
@@ -11099,9 +9746,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 53,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "02-ABR",
       numDoc: "ITE-CG 53-2016",
       monthDoc: "ABR",
       nameDoc: "GOBERNADOR PAN",
@@ -11109,9 +9754,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 54,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "02-ABR",
       numDoc: "ITE-CG 54-2016",
       monthDoc: "ABR",
       nameDoc: "GOBERNADOR PRD",
@@ -11119,9 +9762,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 55,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "02-ABR",
       numDoc: "ITE-CG 55-2016",
       monthDoc: "ABR",
       nameDoc: "GOBERNADOR MOVIMIENTO CIUDADANO",
@@ -11129,9 +9770,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 56,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "02-ABR",
       numDoc: "ITE-CG 56-2016",
       monthDoc: "ABR",
       nameDoc: "GOBERNADOR PAC",
@@ -11139,9 +9778,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 57,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "02-ABR",
       numDoc: "ITE-CG 57-2016",
       monthDoc: "ABR",
       nameDoc: "GOBERNADOR MORENA",
@@ -11149,9 +9786,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 58,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "02-ABR",
       numDoc: "ITE-CG 58-2016",
       monthDoc: "ABR",
       nameDoc: "GOBERNADOR PES",
@@ -11159,9 +9794,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 59,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "02-ABR",
       numDoc: "ITE-CG 59-2016",
       monthDoc: "ABR",
       nameDoc: "GOBERNADOR INDEPENDIENTE JACOB",
@@ -11169,9 +9802,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 60,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "02-ABR",
       numDoc: "ITE-CG 60-2016",
       monthDoc: "ABR",
       nameDoc: "DIPUTADOS MR Y RP PAN",
@@ -11179,9 +9810,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 61,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "02-ABR",
       numDoc: "ITE-CG 61-2016",
       monthDoc: "ABR",
       nameDoc: "DIPUTADOS MR Y RP PARTIDO DE LA REVOLUCIÓN DEMOCRÁTICA",
@@ -11189,9 +9818,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 62,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "02-ABR",
       numDoc: "ITE-CG 62-2016",
       monthDoc: "ABR",
       nameDoc: "DIPUTADOS MR Y RP DEL PARTIDO DEL TRABAJO",
@@ -11199,9 +9826,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 63,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "02-ABR",
       numDoc: "ITE-CG 63-2016",
       monthDoc: "ABR",
       nameDoc: "DIPUTADOS MR Y RP MOVIMIENTO CIUDADANO",
@@ -11209,9 +9834,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 64,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "02-ABR",
       numDoc: "ITE-CG 64-2016",
       monthDoc: "ABR",
       nameDoc: "DIPUTADOS MR Y RP PAC",
@@ -11219,9 +9842,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 65,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "02-ABR",
       numDoc: "ITE-CG 65-2016",
       monthDoc: "ABR",
       nameDoc: "DIPUTADOS MR Y RP PARTIDO SOCIALISTA",
@@ -11229,9 +9850,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 66,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "02-ABR",
       numDoc: "ITE-CG 66-2016",
       monthDoc: "ABR",
       nameDoc: "DIPUTADOS MR Y RP MORENA",
@@ -11239,9 +9858,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 67,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "02-ABR",
       numDoc: "ITE-CG 67-2016",
       monthDoc: "ABR",
       nameDoc: "DIPUTADOS MR Y RP ENCUENTRO SOCIAL",
@@ -11249,9 +9866,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 68,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "02-ABR",
       numDoc: "ITE-CG 68-2016",
       monthDoc: "ABR",
       nameDoc: "DIPUTADA INDEPENDIENTE MELISA IRASEMA VAZQUEZ MOLINA",
@@ -11259,9 +9874,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 69,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "02-ABR",
       numDoc: "ITE-CG 69-2016",
       monthDoc: "ABR",
       nameDoc: "DIPUTADO INDEPENDIENTE BENITO SALDÍVAR SANCHEZ",
@@ -11269,9 +9882,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 70,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "02-ABR",
       numDoc: "ITE-CG 70-2016",
       monthDoc: "ABR",
       nameDoc: "DIPUTADO INDEPENDIENTE BENEBERTO SANCHEZ VAZQUEZ",
@@ -11279,9 +9890,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 71,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "02-ABR",
       numDoc: "ITE-CG 71-2016",
       monthDoc: "ABR",
       nameDoc: "FINANCIAMIENTO CANDIDATOS INDEPENDIENTES",
@@ -11289,9 +9898,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 72,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "02-ABR",
       numDoc: "ITE-CG 72-2016",
       monthDoc: "ABR",
       nameDoc: "MONUMENTOS Y ZONAS ARQUEOLÓGICAS",
@@ -11299,9 +9906,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 73,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "02-ABR",
       numDoc: "ITE-CG 73-2016",
       monthDoc: "ABR",
       nameDoc: "CANDIDATURA COMÚN DIPUTADOS",
@@ -11309,9 +9914,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 74,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "03-ABR",
       numDoc: "ITE-CG 74-2016",
       monthDoc: "ABR",
       nameDoc: " TOPES DE CAMPAÑA",
@@ -11319,9 +9922,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 75,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "03-ABR",
       numDoc: "ITE-CG 75-2016",
       monthDoc: "ABR",
       nameDoc: "SUSTITUCIÓN CONSEJOS",
@@ -11329,9 +9930,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 76,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "08-ABR",
       numDoc: "ITE-CG 76-2016",
       monthDoc: "ABR",
       nameDoc: "CANDIDATOS COMUNES DIPUTADOS PRI PVEM Y PANAL",
@@ -11339,9 +9938,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 77,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "08-ABR",
       numDoc: "ITE-CG 77-2016",
       monthDoc: "ABR",
       nameDoc: "CANDIDATOS COMUNES DIPUTADOS PRI Y PANAL",
@@ -11349,9 +9946,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 78,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "08-ABR",
       numDoc: "ITE-CG 78-2016",
       monthDoc: "ABR",
       nameDoc: "PVEM MAYORÍA Y RP",
@@ -11359,9 +9954,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 79,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "08-ABR",
       numDoc: "ITE-CG 79-2016",
       monthDoc: "ABR",
       nameDoc: "MC MAYORÍA Y RP",
@@ -11369,9 +9962,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 80,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "08-ABR",
       numDoc: "ITE-CG 80-2016",
       monthDoc: "ABR",
       nameDoc: "PRI RP",
@@ -11379,9 +9970,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 81,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "08-ABR",
       numDoc: "ITE-CG 81-2016",
       monthDoc: "ABR",
       nameDoc: "PANAL RP",
@@ -11389,9 +9978,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 82,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "08-ABR",
       numDoc: "ITE-CG 82-2016",
       monthDoc: "ABR",
       nameDoc: "ADQUISICIÓN",
@@ -11399,9 +9986,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 83,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "14-ABR",
       numDoc: "ITE-CG 83-2016",
       monthDoc: "ABR",
       nameDoc: "CUMPLIMIENTO SUP JDC 1481 2016 DE JORGE MORENO DURAN",
@@ -11409,9 +9994,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 84,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "18-ABR",
       numDoc: "ITE-CG 84-2016",
       monthDoc: "ABR",
       nameDoc: "PREP",
@@ -11419,9 +10002,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 85,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "18-ABR",
       numDoc: "ITE-CG 85-2016",
       monthDoc: "ABR",
       nameDoc: "MEDIDAS DE SEGURIDAD",
@@ -11429,9 +10010,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 86,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "18-ABR",
       numDoc: "ITE-CG 86-2016",
       monthDoc: "ABR",
       nameDoc: "SUSTITUCIÓN MC",
@@ -11439,9 +10018,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 87,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "18-ABR",
       numDoc: "ITE-CG 87-2016",
       monthDoc: "ABR",
       nameDoc: "EMBLEMA INDEPENDIENTES",
@@ -11449,9 +10026,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 88,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "18-ABR",
       numDoc: "ITE-CG 88-2016",
       monthDoc: "ABR",
       nameDoc: "SUSTITUCIONES CONSEJOS",
@@ -11459,9 +10034,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 89,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "18-ABR",
       numDoc: "ITE-CG 89-2016",
       monthDoc: "ABR",
       nameDoc: "PROMOCIÓN DEL VOTO",
@@ -11469,9 +10042,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 90,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "21-ABR",
       numDoc: "ITE-CG 90-2016",
       monthDoc: "ABR",
       nameDoc: "ALFONSO CANO",
@@ -11479,9 +10050,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 91,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "21-ABR",
       numDoc: "ITE-CG 91-2016",
       monthDoc: "ABR",
       nameDoc: "ADENDA PRI",
@@ -11489,9 +10058,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 92,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "25-ABR",
       numDoc: "ITE-CG 92-2016",
       monthDoc: "ABR",
       nameDoc: "JORGE MORENO",
@@ -11499,9 +10066,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 93,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "29-ABR",
       numDoc: "ITE-CG 93-2016",
       monthDoc: "ABR",
       nameDoc: "AYUNTAM. CANDIDATURA COMÚN PRI PVEM NUEVA ALIANZA PS",
@@ -11509,9 +10074,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 94,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "29-ABR",
       numDoc: "ITE-CG 94-2016",
       monthDoc: "ABR",
       nameDoc: "AYUNTAM. CANDIDATURA COMÚN PRI PVEM NUEVA ALIANZA",
@@ -11519,9 +10082,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 95,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "29-ABR",
       numDoc: "ITE-CG 95-2016",
       monthDoc: "ABR",
       nameDoc: "RESERVA REGISTRO AYUNTAMIENTOS PT",
@@ -11529,9 +10090,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 96,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "29-ABR",
       numDoc: "ITE-CG 96-2016",
       monthDoc: "ABR",
       nameDoc: " AYUNTAM. CANDIDATURA COMÚN PRI PVEM",
@@ -11539,9 +10098,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 97,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "29-ABR",
       numDoc: "ITE-CG 97-2016",
       monthDoc: "ABR",
       nameDoc: "AYUNTAM. CANDIDATURA COMÚN PRI NUEVA ALIANZA PS",
@@ -11549,9 +10106,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 98,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "29-ABR",
       numDoc: "ITE-CG 98-2016",
       monthDoc: "ABR",
       nameDoc: "CANDIDATURA COMÚN PRI NUEVA ALIANZA",
@@ -11559,9 +10114,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 99,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "29-ABR",
       numDoc: "ITE-CG 99-2016",
       monthDoc: "ABR",
       nameDoc: "AYUNTAM. CANDIDATURA COMÚN PRI PS",
@@ -11569,9 +10122,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 100,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "29-ABR",
       numDoc: "ITE-CG 100-2016",
       monthDoc: "ABR",
       nameDoc: "RESERVA REGISTRO AYUNTAMIENTOS CANDIDATURA PRD PT",
@@ -11579,9 +10130,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 101,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "29-ABR",
       numDoc: "ITE-CG 101-2016",
       monthDoc: "ABR",
       nameDoc: "AYUNTAM. CANDIDATURA COMÚN PVEM PS",
@@ -11589,9 +10138,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 102,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "29-ABR",
       numDoc: "ITE-CG 102-2016",
       monthDoc: "ABR",
       nameDoc: "REGISTRO AYUNTAM. PAN",
@@ -11599,9 +10146,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 103,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "29-ABR",
       numDoc: "ITE-CG 103-2016",
       monthDoc: "ABR",
       nameDoc: "REGISTRO AYUNTAM. PRI",
@@ -11609,9 +10154,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 104,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "29-ABR",
       numDoc: "ITE-CG 104-2016",
       monthDoc: "ABR",
       nameDoc: "REGISTRO AYUNTAM. PVEM",
@@ -11619,9 +10162,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 105,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "29-ABR",
       numDoc: "ITE-CG 105-2016",
       monthDoc: "ABR",
       nameDoc: "RESERVA REGISTRO AYUNTAMIENTO MOVIMIENTO CIUDADANO",
@@ -11629,9 +10170,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 106,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "29-ABR",
       numDoc: "ITE-CG 106-2016",
       monthDoc: "ABR",
       nameDoc: "RESERVA NUEVA ALIANZA",
@@ -11639,9 +10178,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 107,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "29-ABR",
       numDoc: "ITE-CG 107-2016",
       monthDoc: "ABR",
       nameDoc: "RESERVA AYUNTAMIENTOS PAC",
@@ -11649,9 +10186,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 108,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "29-ABR",
       numDoc: "ITE-CG 108-2016",
       monthDoc: "ABR",
       nameDoc: "REGISTRO AYUNTAM. PS",
@@ -11659,9 +10194,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 109,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "29-ABR",
       numDoc: "ITE-CG 109-2016",
       monthDoc: "ABR",
       nameDoc: "MORENA AYUNTAMIENTOS",
@@ -11669,9 +10202,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 110,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "29-ABR",
       numDoc: "ITE-CG 110-2016",
       monthDoc: "ABR",
       nameDoc: "RESERVA REGISTRO AYUNTAMIENTO PES",
@@ -11679,9 +10210,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 111,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "29-ABR",
       numDoc: "ITE-CG 111-2016",
       monthDoc: "ABR",
       nameDoc: "MUNICIPIOS INDEPENDIENTES",
@@ -11689,9 +10218,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 112,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "29-ABR",
       numDoc: "ITE-CG 112-2016",
       monthDoc: "ABR",
       nameDoc: "RESERVA REGISTRO AYUNTAMIENTOS PRD",
@@ -11699,9 +10226,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 113,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "29-ABR",
       numDoc: "ITE-CG 113-2016",
       monthDoc: "ABR",
       nameDoc: "SUSTITUCIÓN DIPUTADO PAN",
@@ -11709,9 +10234,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 115,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "29-ABR",
       numDoc: "ITE-CG 115-2016",
       monthDoc: "ABR",
       nameDoc: "FINANCIAMIENTO AYUNTAMIENTOS",
@@ -11719,9 +10242,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 116,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "29-ABR",
       numDoc: "ITE-CG 116-2016",
       monthDoc: "ABR",
       nameDoc: "COMUNIDADES INDEPENDIENTES",
@@ -11729,9 +10250,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 117,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "29-ABR",
       numDoc: "ITE-CG 117-2016",
       monthDoc: "ABR",
       nameDoc: "RESERVA REGISTRO PRESIDENCIAS DE COMUNIDAD PAN",
@@ -11739,9 +10258,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 118,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "29-ABR",
       numDoc: "ITE-CG 118-2016",
       monthDoc: "ABR",
       nameDoc: "RESERVA REGISTRO PRESIDENCIAS DE COMUNIDAD PRI",
@@ -11749,9 +10266,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 119,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "29-ABR",
       numDoc: "ITE-CG 119-2016",
       monthDoc: "ABR",
       nameDoc: "RESERVA REGISTRO PRESIDENCIAS DE COMUNIDAD PRD",
@@ -11759,9 +10274,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 120,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "29-ABR",
       numDoc: "ITE-CG 120-2016",
       monthDoc: "ABR",
       nameDoc: "RESERVA REGISTRO PRESIDENCIAS DE COMUNIDAD PT",
@@ -11769,9 +10282,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 121,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "29-ABR",
       numDoc: "ITE-CG 121-2016",
       monthDoc: "ABR",
       nameDoc: "RESERVA REGISTRO PRESIDENCIAS DE COMUNIDAD PVEM",
@@ -11779,9 +10290,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 122,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "29-ABR",
       numDoc: "ITE-CG 122-2016",
       monthDoc: "ABR",
       nameDoc: "RESERVA DE COMUNIDAD MC",
@@ -11789,9 +10298,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 123,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "29-ABR",
       numDoc: "ITE-CG 123-2016",
       monthDoc: "ABR",
       nameDoc: "RESERVA REGISTRO PRESIDENCIAS DE COMUNIDAD NUEVA ALIANZA",
@@ -11799,9 +10306,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 124,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "29-ABR",
       numDoc: "ITE-CG 124-2016",
       monthDoc: "ABR",
       nameDoc: "RESERVA REGISTRO PRESIDENCIAS DE COMUNIDAD PAC",
@@ -11809,9 +10314,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 125,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "29-ABR",
       numDoc: "ITE-CG 125-2016",
       monthDoc: "ABR",
       nameDoc: "RESERVA REGISTRO PRESIDENCIAS DE COMUNIDAD PS",
@@ -11819,9 +10322,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 126,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "29-ABR",
       numDoc: "ITE-CG 126-2016",
       monthDoc: "ABR",
       nameDoc: "RESERVA REGISTRO PRESIDENCIAS DE COMUNIDAD MORENA",
@@ -11829,9 +10330,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 127,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "29-ABR",
       numDoc: "ITE-CG 127-2016",
       monthDoc: "ABR",
       nameDoc: "RESERVA REGISTRO PRESIDENCIAS DE COMUNIDAD PES",
@@ -11839,9 +10338,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 128,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "30-ABR",
       numDoc: "ITE-CG 128-2016",
       monthDoc: "ABR",
       nameDoc: "TOPES AYUNTAMIENTOS",
@@ -11849,9 +10346,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 129,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "30-ABR",
       numDoc: "ITE-CG 129-2016",
       monthDoc: "ABR",
       nameDoc: "DISTRIBUCIÓN A CADA CANDIDATO",
@@ -11859,9 +10354,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 130,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "30-ABR",
       numDoc: "ITE-CG 130-2016",
       monthDoc: "ABR",
       nameDoc: "DIRIGENCIA PAC",
@@ -11869,9 +10362,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 131,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "30-ABR",
       numDoc: "ITE-CG 131-2016",
       monthDoc: "ABR",
       nameDoc: "SUSTITUCIÓN DIPUTADO PT",
@@ -11879,9 +10370,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 132,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "30-ABR",
       numDoc: "ITE-CG 132-2016",
       monthDoc: "ABR",
       nameDoc: "SUSTITUCIÓN DIPUTADO PAC",
@@ -11889,9 +10378,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 133,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "30-ABR",
       numDoc: "ITE-CG 133-2016",
       monthDoc: "ABR",
       nameDoc: "SUSTITUCIÓN DIPUTADO PAN",
@@ -11899,9 +10386,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 134,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "30-ABR",
       numDoc: "ITE-CG 134-2016",
       monthDoc: "ABR",
       nameDoc: "SUSTITUCIÓN AYUNTAMIENTO SANTA CRUZ TLAXCALA PAN",
@@ -11909,9 +10394,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 135,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "30-ABR",
       numDoc: "ITE-CG 135-2016",
       monthDoc: "ABR",
       nameDoc: "SUSTITUCIÓN AYUNTAMIENTO TEPETITLA DE LARDIZÁBAL PAN",
@@ -11919,9 +10402,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 136,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "30-ABR",
       numDoc: "ITE-CG 136-2016",
       monthDoc: "ABR",
       nameDoc: "CÓMPUTOS",
@@ -11929,9 +10410,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 137,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "30-ABR",
       numDoc: "ITE-CG 137-2016",
       monthDoc: "ABR",
       nameDoc: "SUSTITUCIÓN PVEM AYUNTAMIENTOS",
@@ -11939,9 +10418,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 138,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "02-MAY",
       numDoc: "ITE-CG 138-2016",
       monthDoc: "MAY",
       nameDoc: "REGISTRO AYUNTAM. PAC",
@@ -11949,9 +10426,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 139,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "02-MAY",
       numDoc: "ITE-CG 139-2016",
       monthDoc: "MAY",
       nameDoc: "SUSTITUCIÓN AYUNTAMIENTO APETATITLÁN PAN",
@@ -11959,9 +10434,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 140,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "02-MAY",
       numDoc: "ITE-CG 140-2016",
       monthDoc: "MAY",
       nameDoc: "REGISTRO AYUNTAMIENTOS DEFINITIVO MC",
@@ -11969,9 +10442,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 141,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "03-MAY",
       numDoc: "ITE-CG 141-2016",
       monthDoc: "MAY",
       nameDoc: "AYUNTAMIENTOS PRD PT",
@@ -11979,9 +10450,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 142,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "03-MAY",
       numDoc: "ITE-CG 142-2016",
       monthDoc: "MAY",
       nameDoc: "AYUNTAMIENTOS PRD",
@@ -11989,9 +10458,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 143,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "03-MAY",
       numDoc: "ITE-CG 143-2016",
       monthDoc: "MAY",
       nameDoc: "MOVIMIENTO CIUDADANO PRESIDENCIAS DE COMUNIDAD",
@@ -11999,9 +10466,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 144,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "03-MAY",
       numDoc: "ITE-CG 144-2016",
       monthDoc: "MAY",
       nameDoc: "PVEM COMUNIDADES",
@@ -12009,9 +10474,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 145,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "05-MAY",
       numDoc: "ITE-CG 145-2016",
       monthDoc: "MAY",
       nameDoc: "SUSTITUCIÓN DIPUTADO PAC",
@@ -12019,9 +10482,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 146,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "05-MAY",
       numDoc: "ITE-CG 146-2016",
       monthDoc: "MAY",
       nameDoc: "AYUNTAMIENTOS PES FINAL",
@@ -12029,9 +10490,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 147,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "05-MAY",
       numDoc: "ITE-CG 147-2016",
       monthDoc: "MAY",
       nameDoc: "AYUNTAM. NUEVA ALIANZA",
@@ -12039,9 +10498,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 148,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "05-MAY",
       numDoc: "ITE-CG 148-2016",
       monthDoc: "MAY",
       nameDoc: "AYUNTAMIENTOS PT",
@@ -12049,9 +10506,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 149,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "07-MAY",
       numDoc: "ITE-CG 149-2016",
       monthDoc: "MAY",
       nameDoc: "DE PRESIDENCIAS DE COMUNIDAD PAN",
@@ -12059,9 +10514,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 150,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "07-MAY",
       numDoc: "ITE-CG 150-2016",
       monthDoc: "MAY",
       nameDoc: "DE PRESIDENCIAS DE COMUNIDAD PRI",
@@ -12069,9 +10522,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 151,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "07-MAY",
       numDoc: "ITE-CG 151-2016",
       monthDoc: "MAY",
       nameDoc: "PRESIDENCIAS DE COMUNIDAD PAC",
@@ -12079,9 +10530,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 152,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "07-MAY",
       numDoc: "ITE-CG 152-2016",
       monthDoc: "MAY",
       nameDoc: "RESERVA COMUNIDAD MORENA",
@@ -12089,9 +10538,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 153,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "07-MAY",
       numDoc: "ITE-CG 153-2016",
       monthDoc: "MAY",
       nameDoc: "RESERVA COMUNIDAD PES",
@@ -12099,9 +10546,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 154,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "07-MAY",
       numDoc: "ITE-CG 154-2016",
       monthDoc: "MAY",
       nameDoc: "RESERVA PRESIDENCIAS DE COMUNIDAD PRD",
@@ -12109,9 +10554,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 155,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "07-MAY",
       numDoc: "ITE-CG 155-2016",
       monthDoc: "MAY",
       nameDoc: "RESERVA PT",
@@ -12119,9 +10562,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 156,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "07-MAY",
       numDoc: "ITE-CG 156-2016",
       monthDoc: "MAY",
       nameDoc: "RESERVA PRESIDENCIAS DE COMUNIDAD PNA",
@@ -12129,9 +10570,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 157,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "07-MAY",
       numDoc: "ITE-CG 157-2016",
       monthDoc: "MAY",
       nameDoc: "RESERVA PRESIDENCIAS DE COMUNIDAD PS",
@@ -12139,9 +10578,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 158,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "07-MAY",
       numDoc: "ITE-CG 158-2016",
       monthDoc: "MAY",
       nameDoc: "SUSTITUCIÓN DIPUTADOS DISTRITO 12 Y 3 FORMULA",
@@ -12149,9 +10586,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 159,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "07-MAY",
       numDoc: "ITE-CG 159-2016",
       monthDoc: "MAY",
       nameDoc: "COMUNIDADES PRD",
@@ -12159,9 +10594,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 160,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "07-MAY",
       numDoc: "ITE-CG 160-2016",
       monthDoc: "MAY",
       nameDoc: "PRESIDENCIAS DE COMUNIDAD PNA",
@@ -12169,9 +10602,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 161,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "07-MAY",
       numDoc: "ITE-CG 161-2016",
       monthDoc: "MAY",
       nameDoc: "PAC PRESIDENCIAS DE COMUNIDAD DEFINITIVO",
@@ -12179,9 +10610,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 162,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "08-MAY",
       numDoc: "ITE-CG 162-2016",
       monthDoc: "MAY",
       nameDoc: "SUSTITUCIÓN GOBERNADOR PES",
@@ -12189,9 +10618,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 163,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "08-MAY",
       numDoc: "ITE-CG 163-2016",
       monthDoc: "MAY",
       nameDoc: "SUSTITUCIÓN DIPUTADO DISTRITO 03 PVEM",
@@ -12199,9 +10626,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 164,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "08-MAY",
       numDoc: "ITE-CG 164-2016",
       monthDoc: "MAY",
       nameDoc: "COMUNIDADES PT",
@@ -12209,9 +10634,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 165,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "08-MAY",
       numDoc: "ITE-CG 165-2016",
       monthDoc: "MAY",
       nameDoc: "COMUNIDADES FINAL PES",
@@ -12219,9 +10642,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 166,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "08-MAY",
       numDoc: "ITE-CG 166-2016",
       monthDoc: "MAY",
       nameDoc: "COMUNIDADES FINAL PS",
@@ -12229,9 +10650,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 167,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "08-MAY",
       numDoc: "ITE-CG 167-2016",
       monthDoc: "MAY",
       nameDoc: "COMUNIDADES FINAL MORENA",
@@ -12239,9 +10658,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 168,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "11-MAY",
       numDoc: "ITE-CG 168-2016",
       monthDoc: "MAY",
       nameDoc: "SUSTITUCIÓN AYUNTAMIENTO SAN FRANCISCO TETLANOHCAN PRD",
@@ -12249,9 +10666,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 169,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "11-MAY",
       numDoc: "ITE-CG 169-2016",
       monthDoc: "MAY",
       nameDoc: "SUSTITUCIÓN AYUNTAMIENTO APETATITLÁN MC PENDIENTE",
@@ -12259,9 +10674,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 170,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "11-MAY",
       numDoc: "ITE-CG 170-2016",
       monthDoc: "MAY",
       nameDoc: "SUSTITUCIÓN AYUNTAMIENTO TZOMPANTEPEC PRD",
@@ -12269,9 +10682,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 171,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "11-MAY",
       numDoc: "ITE-CG 171-2016",
       monthDoc: "MAY",
       nameDoc: "SUSTITUCIÓN AYUNTAMIENTO MUÑOZ DE DOMINGO ARENAS PNA",
@@ -12279,9 +10690,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 172,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "11-MAY",
       numDoc: "ITE-CG 172-2016",
       monthDoc: "MAY",
       nameDoc: "SOBRENOMBRES 2016",
@@ -12289,9 +10698,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 173,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "12-MAY",
       numDoc: "ITE-CG 173-2016",
       monthDoc: "MAY",
       nameDoc: "CUMPLIMIENTO RESOLUCIÓN INE CG299 2016",
@@ -12299,9 +10706,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 174,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "13-MAY",
       numDoc: "ITE-CG 174-2016",
       monthDoc: "MAY",
       nameDoc: "SUSTITUCIÓN AYUNTAMIENTO DE EMILIANO ZAPATA MORENA",
@@ -12309,9 +10714,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 176,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "13-MAY",
       numDoc: "ITE-CG 176-2016",
       monthDoc: "MAY",
       nameDoc: "SUSTITUCIÓN DIPUTADA 15 PS",
@@ -12319,9 +10722,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 177,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "14-MAY",
       numDoc: "ITE-CG 177-2016",
       monthDoc: "MAY",
       nameDoc: "PROGRAMA OPERACIÓN SIJE",
@@ -12338,9 +10739,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 178,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "14-MAY",
       numDoc: "ITE-CG 178-2016",
       monthDoc: "MAY",
       nameDoc: "PT",
@@ -12348,9 +10747,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 179,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "14-MAY",
       numDoc: "ITE-CG 179-2016",
       monthDoc: "MAY",
       nameDoc: "SUSTITUCIÓN PC SANTA CRUZ PORVENIR IXTACUIXTA NA",
@@ -12358,9 +10755,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 180,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "14-MAY",
       numDoc: "ITE-CG 180-2016",
       monthDoc: "MAY",
       nameDoc: "SUSTITUCIÓN PC COLONIA REFORMA CHIAUTEMPAN PS",
@@ -12368,9 +10763,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 181,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "14-MAY",
       numDoc: "ITE-CG 181-2016",
       monthDoc: "MAY",
       nameDoc: "SUSTITUCION PC SUPLENTE ACUITLAPILCO PS",
@@ -12378,9 +10771,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 182,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "14-MAY",
       numDoc: "ITE-CG 182-2016",
       monthDoc: "MAY",
       nameDoc: "SUSTITUCIÓN PC TLALTEMPAN MORENA",
@@ -12388,9 +10779,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 183,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "14-MAY",
       numDoc: "ITE-CG 183-2016",
       monthDoc: "MAY",
       nameDoc: "ACUERDO SUSTITUCIÓN PRI DTO 01 MAY RELAT",
@@ -12398,9 +10787,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 184,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "15-MAY",
       numDoc: "ITE-CG 184-2016",
       monthDoc: "MAY",
       nameDoc: "BODEGAS CUMPLIMIENTO ACUERDO INE CG122 2016",
@@ -12408,9 +10795,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 185,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "15-MAY",
       numDoc: "ITE-CG 185-2016",
       monthDoc: "MAY",
       nameDoc: "SUSTITUCION DE INTEGRANTES DE CONSEJO",
@@ -12418,9 +10803,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 186,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "15-MAY",
       numDoc: "ITE-CG 186-2016",
       monthDoc: "MAY",
       nameDoc: "CANDIDATURA COMÚN PRI PVEM NUEVA ALIANZA PS",
@@ -12428,9 +10811,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 187,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "15-MAY",
       numDoc: "ITE-CG 187-2016",
       monthDoc: "MAY",
       nameDoc: "CANDIDATURA COMÚN PRI PVEM",
@@ -12438,9 +10819,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 188,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "15-MAY",
       numDoc: "ITE-CG 188-2016",
       monthDoc: "MAY",
       nameDoc: "CANDIDATURA COMÚN PRI NUEVA ALIANZA PS",
@@ -12448,9 +10827,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 189,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "15-MAY",
       numDoc: "ITE-CG 189-2016",
       monthDoc: "MAY",
       nameDoc: "CANDIDATURA COMUN PRD PT",
@@ -12458,9 +10835,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 190,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "15-MAY",
       numDoc: "ITE-CG 190-2016",
       monthDoc: "MAY",
       nameDoc: "REGISTRO AYUNTAM PRI",
@@ -12468,9 +10843,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 191,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "17-MAY",
       numDoc: "ITE-CG 191-2016",
       monthDoc: "MAY",
       nameDoc: "CASILLAS ESPECIALES",
@@ -12478,9 +10851,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 192,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "18-MAY",
       numDoc: "ITE-CG 192-2016",
       monthDoc: "MAY",
       nameDoc: "SUSTITUCIÓN AYUNTAMIENTO XILOXOXTLA PAN",
@@ -12488,9 +10859,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 193,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "18-MAY",
       numDoc: "ITE-CG 193-2016",
       monthDoc: "MAY",
       nameDoc: "SUSTITUCIÓN AYUNTAMIENTO BENITO JUÁREZ PRI",
@@ -12498,9 +10867,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 194,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "18-MAY",
       numDoc: "ITE-CG 194-2016",
       monthDoc: "MAY",
       nameDoc: "SUSTITUCIÓN PC ATLANGATEPEC PAN",
@@ -12508,9 +10875,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 195,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "18-MAY",
       numDoc: "ITE-CG 195-2016",
       monthDoc: "MAY",
       nameDoc: "SUSTITUCIÓN CONSEJOS MUNICIPALES",
@@ -12518,9 +10883,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 196,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "18-MAY",
       numDoc: "ITE-CG 196-2016",
       monthDoc: "MAY",
       nameDoc: "SUSTITUCIÓN SEGUNDA REGIDORA ATLANGATEPEC PRI",
@@ -12528,9 +10891,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 197,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "18-MAY",
       numDoc: "ITE-CG 197-2016",
       monthDoc: "MAY",
       nameDoc: "SUSTITUCIÓN LÁZARO CARDENAS PRI",
@@ -12538,9 +10899,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 198,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "18-MAY",
       numDoc: "ITE-CG 198-2016",
       monthDoc: "MAY",
       nameDoc: "SUSTITUCIÓN PRIMERA REGIDORA SANTA CRUZ TLAXCALA PT",
@@ -12548,9 +10907,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 199,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "18-MAY",
       numDoc: "ITE-CG 199-2016",
       monthDoc: "MAY",
       nameDoc: "SUSTITUCIÓN PC TLAXCO PRI",
@@ -12558,9 +10915,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 200,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "18-MAY",
       numDoc: "ITE-CG 200-2016",
       monthDoc: "MAY",
       nameDoc: "SUSTITUCIÓN PC SANTA CARINA AYOMETLA PT",
@@ -12568,9 +10923,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 201,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "18-MAY",
       numDoc: "ITE-CG 201-2016",
       monthDoc: "MAY",
       nameDoc: "CAMBIO DE DOMICILIO DE CATD",
@@ -12578,9 +10931,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 202,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "19-MAY",
       numDoc: "ITE-CG 202-2016",
       monthDoc: "MAY",
       nameDoc: "SUSTITUCIÓN DIPUTADO MR 4 MORENA",
@@ -12588,9 +10939,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 203,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "19-MAY",
       numDoc: "ITE-CG 203-2016",
       monthDoc: "MAY",
       nameDoc: "SUSTITUCIÓN DIPUTADO RPP 3 MORENA",
@@ -12598,9 +10947,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 204,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "19-MAY",
       numDoc: "ITE-CG 204-2016",
       monthDoc: "MAY",
       nameDoc: "SUSTITUCIÓN SANTA ISABEL XILOXOXTLA PRD PT",
@@ -12608,9 +10955,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 205,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "19-MAY",
       numDoc: "ITE-CG 205-2016",
       monthDoc: "MAY",
       nameDoc: "SUSTITUCIÓN PRIMER REGIDOR HUAMANTLA PVEM",
@@ -12618,9 +10963,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 206,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "19-MAY",
       numDoc: "ITE-CG 206-2016",
       monthDoc: "MAY",
       nameDoc:
@@ -12629,9 +10972,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 207,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "19-MAY",
       numDoc: "ITE-CG 207-2016",
       monthDoc: "MAY",
       nameDoc: "SUSTITUCIÓN PC SAN JORGE TEXOQUIPAN PANOTLA MORENA",
@@ -12639,9 +10980,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 208,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "20-MAY",
       numDoc: "ITE-CG 208-2016",
       monthDoc: "MAY",
       nameDoc: "SUSTITUCION PRESIDENTE COMUNIDAD ACUITLAPILCO PT",
@@ -12649,9 +10988,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 209,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "20-MAY",
       numDoc: "ITE-CG 209-2016",
       monthDoc: "MAY",
       nameDoc: "SUSTITUCION DE COMUNIDAD PT",
@@ -12659,9 +10996,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 210,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "20-MAY",
       numDoc: "ITE-CG 210-2016",
       monthDoc: "MAY",
       nameDoc: "SUSTITUCIÓN AYUNTAMIENTO PAC",
@@ -12669,9 +11004,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 211,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "20-MAY",
       numDoc: "ITE-CG 211-2016",
       monthDoc: "MAY",
       nameDoc: "SUSTITUCIÓN PRIMER REGIDOR CALPULALPAN PES",
@@ -12679,9 +11012,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 212,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "22-MAY",
       numDoc: "ITE-CG 212-2016",
       monthDoc: "MAY",
       nameDoc: "MORENA SORTEO",
@@ -12689,9 +11020,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 213,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "22-MAY",
       numDoc: "ITE-CG 213-2016",
       monthDoc: "MAY",
       nameDoc: "PAC SORTEO",
@@ -12699,9 +11028,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 214,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "22-MAY",
       numDoc: "ITE-CG 214-2016",
       monthDoc: "MAY",
       nameDoc: "PES SORTEO",
@@ -12709,9 +11036,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 215,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "22-MAY",
       numDoc: "ITE-CG 215-2016",
       monthDoc: "MAY",
       nameDoc: "PNA SORTEO",
@@ -12719,9 +11044,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 216,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "",
       numDoc: "ITE-CG 216-2016",
       monthDoc: "MAY",
       nameDoc: "CUMPLIMIENTO SALA REGIONAL PRD PANOTLA",
@@ -12729,9 +11052,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 217,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "",
       numDoc: "ITE-CG 217-2016",
       monthDoc: "MAY",
       nameDoc: "CUMPLIMIENTO SALA REGIONAL PRD APIZACO",
@@ -12739,9 +11060,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 218,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "",
       numDoc: "ITE-CG 218-2016",
       monthDoc: "MAY",
       nameDoc: "COMUNIDADES PARTIDO DEL TRABAJO",
@@ -12749,9 +11068,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 219,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "",
       numDoc: "ITE-CG 219-2016",
       monthDoc: "MAY",
       nameDoc: "COMUNIDADES MOVIMIENTO CIUDADANO",
@@ -12759,9 +11076,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 220,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "",
       numDoc: "ITE-CG 220-2016",
       monthDoc: "MAY",
       nameDoc: "COMUNIDADES PRD",
@@ -12769,9 +11084,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 221,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "",
       numDoc: "ITE-CG 221-2016",
       monthDoc: "MAY",
       nameDoc: "COMUNIDADES MORENA",
@@ -12779,9 +11092,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 222,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "",
       numDoc: "ITE-CG 222-2016",
       monthDoc: "MAY",
       nameDoc: "PREP PLAN DE SEGURIDAD Y CONTINUIDAD",
@@ -12789,9 +11100,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 223,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "",
       numDoc: "ITE-CG 223-2016",
       monthDoc: "MAY",
       nameDoc: "SUSTITUCIÓN PAN DTTO. 10 PAN",
@@ -12799,9 +11108,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 224,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "",
       numDoc: "ITE-CG 224-2016",
       monthDoc: "MAY",
       nameDoc: "SUSTITUCIÓN PC XALOZTOC PRI",
@@ -12809,9 +11116,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 225,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "",
       numDoc: "ITE-CG 225-2016",
       monthDoc: "MAY",
       nameDoc: "SUSTITUCIÓN PRI SEXTA REGIDORA EL CARMEN TEQUEXQUITLA PRI",
@@ -12819,9 +11124,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 226,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "",
       numDoc: "ITE-CG 226-2016",
       monthDoc: "MAY",
       nameDoc: "SUSTITUCIÓN SINDICO Y SEGUNDO REGIDOR CALPULALPAN",
@@ -12829,9 +11132,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 227,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "",
       numDoc: "ITE-CG 227-2016",
       monthDoc: "MAY",
       nameDoc: "PROYECTO SUSTITUCIÓN AYUNTAMIENTO TETLATLAHUCA PAC.",
@@ -12839,9 +11140,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 228,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "",
       numDoc: "ITE-CG 228-2016",
       monthDoc: "MAY",
       nameDoc:
@@ -12850,9 +11149,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 229,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "",
       numDoc: "ITE-CG 229-2016",
       monthDoc: "MAY",
       nameDoc: "SUSTITUCION DIPUTADO SUPLENTE PAN MR OCTAVIO ALEJANDRO ESPEJEL",
@@ -12860,9 +11157,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 230,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "",
       numDoc: "ITE-CG 230-2016",
       monthDoc: "MAY",
       nameDoc: "SORTEO PT",
@@ -12870,9 +11165,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 232,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "",
       numDoc: "ITE-CG 232-2016",
       monthDoc: "MAY",
       nameDoc: "REGISTRO MC CUMPLIMIENTO",
@@ -12880,9 +11173,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 233,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "",
       numDoc: "ITE-CG 233-2016",
       monthDoc: "MAY",
       nameDoc: "SUSTITUCIÓN AYUNTAMIENTO YAUHQUEMEHCAN PRI",
@@ -12890,9 +11181,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 234,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "",
       numDoc: "ITE-CG 234-2016",
       monthDoc: "MAY",
       nameDoc: "SUSTITUCIÓN SÍNDICO PROPIETARIO AYOMETLA PRI",
@@ -12900,9 +11189,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 235,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "",
       numDoc: "ITE-CG 235-2016",
       monthDoc: "MAY",
       nameDoc: "SUSTITUCIÓN AYUNTAMIENTO PRESIDENTE SUPLENTE TETLA PRD",
@@ -12910,9 +11197,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 236,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "",
       numDoc: "ITE-CG 236-2016",
       monthDoc: "MAY",
       nameDoc: "SUSTITUCIÓN PT LÁZARO CÁRDENAS",
@@ -12920,9 +11205,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 237,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "",
       numDoc: "ITE-CG 237-2016",
       monthDoc: "MAY",
       nameDoc: "SUSTITUCIÓN AYUNTAMIENTO PNA 01 06 16 2 ",
@@ -12930,9 +11213,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 238,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "",
       numDoc: "ITE-CG 238-2016",
       monthDoc: "MAY",
       nameDoc: "ENTE AUDITOR PREP",
@@ -12940,9 +11221,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 239,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "",
       numDoc: "ITE-CG 239-2016",
       monthDoc: "JUN",
       nameDoc: "SUSTITUCIÓN PS TETLA",
@@ -12950,9 +11229,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 240,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "",
       numDoc: "ITE-CG 240-2016",
       monthDoc: "JUN",
       nameDoc: "SUSTITUCIÓN PS PTE SUP Y 1REG PROP MUÑOZ DE DOMINGO ARENAS",
@@ -12960,9 +11237,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 241,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "",
       numDoc: "ITE-CG 241-2016",
       monthDoc: "JUN",
       nameDoc: "PROYECTO SUSTITUCIÓN LAZARO CARDENAS PRI",
@@ -12970,9 +11245,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 242,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "",
       numDoc: "ITE-CG 242-2016",
       monthDoc: "JUN",
       nameDoc:
@@ -12981,9 +11254,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 243,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "",
       numDoc: "ITE-CG 243-2016",
       monthDoc: "JUN",
       nameDoc: "SUSTITUCIÓN SEGUNDA REGIDORA PROP AYUNT PNA",
@@ -12991,9 +11262,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 244,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "",
       numDoc: "ITE-CG 244-2016",
       monthDoc: "JUN",
       nameDoc:
@@ -13002,9 +11271,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 245,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "",
       numDoc: "ITE-CG 245-2016",
       monthDoc: "JUN",
       nameDoc: "SUSTITUCIÓN DE PAN NANACAMILPA",
@@ -13012,9 +11279,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 246,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "",
       numDoc: "ITE-CG 246-2016",
       monthDoc: "JUN",
       nameDoc: "SUSTITUCIÓN PAN LA MAGDALENA",
@@ -13023,9 +11288,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 247,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "",
       numDoc: "ITE-CG 247-2016",
       monthDoc: "JUN",
       nameDoc: "SUSTITUCIÓN PRESIDENTA SUPLENTE TZOMPANTEPEC PES",
@@ -13033,9 +11296,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 248,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "",
       numDoc: "ITE-CG 248-2016",
       monthDoc: "JUN",
       nameDoc: "SUSTITUCIÓN FORMULA DIPUTADA MR TLAXCO PES",
@@ -13043,9 +11304,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 249,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "",
       numDoc: "ITE-CG 249-2016",
       monthDoc: "JUN",
       nameDoc: "SUSTITUCIÓN 2DA SECCIÓN TEOTLALPAN TETLA PT",
@@ -13053,9 +11312,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 250,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "",
       numDoc: "ITE-CG 250-2016",
       monthDoc: "JUN",
       nameDoc: "SUSTITUCIÓN AYUNTAMIENTO PT 29 05 2016",
@@ -13063,9 +11320,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 251,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "",
       numDoc: "ITE-CG 251-2016",
       monthDoc: "JUN",
       nameDoc: "SUSTITUCIÓN PRESIDENCIA DE COM PS CHIMALPA TLAXCALA",
@@ -13073,9 +11328,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 252,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "",
       numDoc: "ITE-CG 252-2016",
       monthDoc: "JUN",
       nameDoc: "SUSTITUCIÓN  CONSEJO DISTRITAL Y MUNICIPALES3",
@@ -13083,9 +11336,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 253,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "",
       numDoc: "ITE-CG 253-2016",
       monthDoc: "JUN",
       nameDoc: "SUSTITUCIÓN PAN CALPULALPAN DIPUTADO LOCAL SUPLENTE DITO. 01",
@@ -13093,9 +11344,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 254,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "",
       numDoc: "ITE-CG 254-2016",
       monthDoc: "JUN",
       nameDoc: "SUSTITUCIÓN AYUNTAMIENTO NA 02 06 16",
@@ -13103,9 +11352,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 255,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "03-JUN",
       numDoc: "ITE-CG 255-2016",
       monthDoc: "JUN",
       nameDoc: "CUMPLIMIENTO SENTENCIA TET PT",
@@ -13113,9 +11360,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 256,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "04-JUN",
       numDoc: "ITE-CG 256-2016",
       monthDoc: "JUN",
       nameDoc: "SUSTITUCIÓN AYUNTAMIENTO LA MAGDALENA TLALTELULCO PAN",
@@ -13123,9 +11368,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 257,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "04-JUN",
       numDoc: "ITE-CG 257-2016",
       monthDoc: "JUN",
       nameDoc: "SUSTITUCIÓN 1ER. REGIDOR AYUNTAMIENTO ZACATELCO PAN",
@@ -13133,9 +11376,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 258,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "04-JUN",
       numDoc: "ITE-CG 258-2016",
       monthDoc: "JUN",
       nameDoc: "SUSTITUCIÓN AYUNTAMIENTO DE APIZACO PRI",
@@ -13143,9 +11384,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 259,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "04-JUN",
       numDoc: "ITE-CG 259-2016",
       monthDoc: "JUN",
       nameDoc: "SUSTITUCIÓN AYUNTAMIENTO 2DO. REGIDOR PRD",
@@ -13153,9 +11392,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 260,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "04-JUN",
       numDoc: "ITE-CG 260-2016",
       monthDoc: "JUN",
       nameDoc: "SUSTITUCIÓN PTE. MPAL APIZACO VERDE",
@@ -13163,9 +11400,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 261,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "04-JUN",
       numDoc: "ITE-CG 261-2016",
       monthDoc: "JUN",
       nameDoc:
@@ -13174,9 +11409,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 262,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "04-JUN",
       numDoc: "ITE-CG 262-2016",
       monthDoc: "JUN",
       nameDoc: "SUSTITUCIÓN AYUNTAMIENTO TETLATLAHUCA PT",
@@ -13184,9 +11417,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 263,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "04-JUN",
       numDoc: "ITE-CG 263-2016",
       monthDoc: "JUN",
       nameDoc: "SUSTITUCIÓN AYUNTAMIENTO TERRENATE 2 REGIDOR PANAL",
@@ -13194,9 +11425,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 264,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "04-JUN",
       numDoc: "ITE-CG 264-2016",
       monthDoc: "JUN",
       nameDoc: "SUSTITUCIÓN AYUNTAMIENTO TLAXCO PANAL",
@@ -13204,9 +11433,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 265,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "04-JUN",
       numDoc: "ITE-CG 265-2016",
       monthDoc: "JUN",
       nameDoc: "SUSTITUCIÓN AYUNTAMIENTO DE ATLTZAYANCA MORENA",
@@ -13214,9 +11441,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 266,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "04-JUN",
       numDoc: "ITE-CG 266-2016",
       monthDoc: "JUN",
       nameDoc: "SUSTITUCIÓN AYUNTAMIENTO NATIVITAS MORENA",
@@ -13224,9 +11449,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 267,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "04-JUN",
       numDoc: "ITE-CG 267-2016",
       monthDoc: "JUN",
       nameDoc: "SUSTITUCIÓN AYUNTAMIENTO TLAXCALA MORENA",
@@ -13234,9 +11457,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 268,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "04-JUN",
       numDoc: "ITE-CG 268-2016",
       monthDoc: "JUN",
       nameDoc:
@@ -13245,9 +11466,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 269,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "04-JUN",
       numDoc: "ITE-CG 269-2016",
       monthDoc: "JUN",
       nameDoc: "SUSTITUCIÓN TERCER REGIDORA SUPLENTE TOTOLAC MORENA",
@@ -13255,9 +11474,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 270,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "04-JUN",
       numDoc: "ITE-CG 270-2016",
       monthDoc: "JUN",
       nameDoc: "SUSTITUCIÓN AYUNTAMIENTO HUAMANTLA 1REGIDOR PAC",
@@ -13265,9 +11482,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 271,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "04-JUN",
       numDoc: "ITE-CG 271-2016",
       monthDoc: "JUN",
       nameDoc: "SUSTITUCIÓN PRESIDENCIA DE COMUNIDAD DE COLHUACA CONTLA PAC",
@@ -13275,9 +11490,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 272,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "04-JUN",
       numDoc: "ITE-CG 272-2016",
       monthDoc: "JUN",
       nameDoc:
@@ -13286,9 +11499,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 273,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "04-JUN",
       numDoc: "ITE-CG 273-2016",
       monthDoc: "JUN",
       nameDoc: "CELULARES",
@@ -13296,9 +11507,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 274,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "04-JUN",
       numDoc: "ITE-CG 274-2016",
       monthDoc: "JUN",
       nameDoc: "SUSTITUCIÓN 1ER. REGIDOR MUNICIPAL APIZACO PRD",
@@ -13306,9 +11515,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 275,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "04-JUN",
       numDoc: "ITE-CG 275-2016",
       monthDoc: "JUN",
       nameDoc:
@@ -13317,9 +11524,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 276,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "04-JUN",
       numDoc: "ITE-CG 276-2016",
       monthDoc: "JUN",
       nameDoc:
@@ -13328,9 +11533,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 277,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "04-JUN",
       numDoc: "ITE-CG 277-2016",
       monthDoc: "JUN",
       nameDoc: "SUSTITUCIÓN AYUNTAMIENTO PVEM MUN CONTLA DE JUAN C 1ER REGIDOR",
@@ -13338,9 +11541,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 278,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "04-JUN",
       numDoc: "ITE-CG 278-2016",
       monthDoc: "JUN",
       nameDoc: "SUSTITUCIÓN PC SAN HIPÓLITO CHIMALPA PT",
@@ -13348,9 +11549,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 279,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "04-JUN",
       numDoc: "ITE-CG 279-2016",
       monthDoc: "JUN",
       nameDoc:
@@ -13359,9 +11558,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 280,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "04-JUN",
       numDoc: "ITE-CG 280-2016",
       monthDoc: "JUN",
       nameDoc: "SUSTITUCIÓN AYUNTAMIENTO PES 1 REGIDOR TEACALCO SPM",
@@ -13369,9 +11566,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 281,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "04-JUN",
       numDoc: "ITE-CG 281-2016",
       monthDoc: "JUN",
       nameDoc: "SUSTITUCIÓN AYUNTAMIENTO PES 1ER Y4TO REGIDOR SPM",
@@ -13379,9 +11574,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 283,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "04-JUN",
       numDoc: "ITE-CG 283-2016",
       monthDoc: "JUN",
       nameDoc: "MODELO OPERATIVO PAQUETES",
@@ -13389,9 +11582,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 284,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "04-JUN",
       numDoc: "ITE-CG 284-2016",
       monthDoc: "JUN",
       nameDoc: "SUTITUCIÓN AYUNTAMIENTO TENANCINGO Y SAN DAMIÁN TEXOLOC MORENA",
@@ -13399,9 +11590,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 285,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "10-JUN",
       numDoc: "ITE-CG 285-2016",
       monthDoc: "JUN",
       nameDoc: "PROCEDIMIENTO CONTINUACIÓN COMPUTO DISTRITAL 14",
@@ -13409,9 +11598,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 286,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "12-JUN",
       numDoc: "ITE-CG 286-2016",
       monthDoc: "JUN",
       nameDoc: "CÓMPUTO Y DECLARACIÓN DE VALIDEZ GOBERNADOR",
@@ -13419,9 +11606,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 287,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "12-JUN",
       numDoc: "ITE-CG 287-2016",
       monthDoc: "JUN",
       nameDoc:
@@ -13430,9 +11615,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 288,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "12-JUN",
       numDoc: "ITE-CG 288-2016",
       monthDoc: "JUN",
       nameDoc: "ASIGNACIÓN DIPUTADOS DE REPRESENTACIÓN PROPORCIONAL",
@@ -13440,9 +11623,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 289,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "12-JUN",
       numDoc: "ITE-CG 289-2016",
       monthDoc: "JUN",
       nameDoc: "ASIGNACIÓN REGIDURÍAS",
@@ -13450,9 +11631,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 290,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "30-JUN",
       numDoc: "ITE-CG 290-2016",
       monthDoc: "JUN",
       nameDoc:
@@ -13461,9 +11640,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 291,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "30-JUN",
       numDoc: "ITE-CG 291-2016",
       monthDoc: "JUN",
       nameDoc: "RETIRO PROPAGANDA POLÍTICA",
@@ -13471,9 +11648,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 292,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "30-JUN",
       numDoc: "ITE-CG 292-2016",
       monthDoc: "JUN",
       nameDoc: "SERVICIO PROFESIONAL ELECTORAL NACIONAL",
@@ -13481,9 +11656,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 293,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "26-JUL",
       numDoc: "ITE-CG 293-2016",
       monthDoc: "JUL",
       nameDoc: "REGIDURÍAS ITE CUMPLIMIENTO DE SENTENCIA TET JDC 250 2016",
@@ -13491,9 +11664,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 294,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "31-JUL",
       numDoc: "ITE-CG 294-2016",
       monthDoc: "JUL",
       nameDoc: "ADECUACIÓN COMISIONES PERMANENTES",
@@ -13501,9 +11672,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 295,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "31-JUL",
       numDoc: "ITE-CG 295-2016",
       monthDoc: "JUL",
       nameDoc: "COMITÉ DE TRANSPARENCIA",
@@ -13511,9 +11680,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 296,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "18-AGO",
       numDoc: "ITE-CG 296-2016",
       monthDoc: "AGO",
       nameDoc: "SANCIÓN PAC",
@@ -13521,9 +11688,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 297,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "30-AGO",
       numDoc: "ITE-CG 297-2016",
       monthDoc: "AGO",
       nameDoc: "SANCIÓN-PAC",
@@ -13533,9 +11698,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 298,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "11-SEP",
       numDoc: "ITE-CG 298-2016",
       monthDoc: "SEP",
       nameDoc: "REGIDORA AMAXAC DE GUERRERO PVEM",
@@ -13543,9 +11706,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 299,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "13-SEP",
       numDoc: "ITE-CG 299-2016",
       monthDoc: "SEP",
       nameDoc:
@@ -13554,9 +11715,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 300,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "13-SEP",
       numDoc: "ITE-CG 300-2016",
       monthDoc: "SEP",
       nameDoc: "DECLARACIÓN DE VALIDEZ TZOMPANTEPEC",
@@ -13564,9 +11723,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 301,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "14-SEP",
       numDoc: "ITE-CG 301-2016",
       monthDoc: "SEP",
       nameDoc: "DESIGNACIÓN DE PERSONAL PARA RECUENTO DE VOTOS NANACAMILPA",
@@ -13574,9 +11731,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 302,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "17-SEP",
       numDoc: "ITE-CG 302-2016",
       monthDoc: "SEP",
       nameDoc:
@@ -13585,9 +11740,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 303,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "17-SEP",
       numDoc: "ITE-CG 303-2016",
       monthDoc: "SEP",
       nameDoc: "DECLARACIÓN DE VALIDEZ DISTRITO 12 TEOLOCHOLCO PRI PVEM PNA",
@@ -13595,9 +11748,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 304,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "29-SEP",
       numDoc: "ITE-CG 304-2016",
       monthDoc: "SEP",
       nameDoc: "VIOLENCIA POLÍTICA",
@@ -13611,9 +11762,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 305,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "29-SEP",
       numDoc: "ITE-CG 305-2016",
       monthDoc: "SEP",
       nameDoc: "MODIFICACIÓN SERVICIO PROFESIONAL ELECTORAL NACIONAL",
@@ -13624,9 +11773,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 306,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "29-SEP",
       numDoc: "ITE-CG 306-2016",
       monthDoc: "SEP",
       nameDoc: "ACUERDO PRESUPUESTO 2017",
@@ -13637,9 +11784,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 307,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "14-OCT",
       numDoc: "ITE-CG 307-2016",
       monthDoc: "OCT",
       nameDoc: "MULTAS PREVISTAS EN LA RESOLUCIÓN INE CG598 2016",
@@ -13647,9 +11792,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 308,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "25-OCT",
       numDoc: "ITE-CG 308-2016",
       monthDoc: "OCT",
       nameDoc: "INTEGRACIÓN DE SANTA CRUZ QUILEHTLA",
@@ -13657,9 +11800,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 309,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "11-NOV",
       numDoc: "ITE-CG 309-2016",
       monthDoc: "NOV",
       nameDoc: "INTEGRACIÓN AYUNTAMIENTO CONTLA",
@@ -13667,9 +11808,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 311,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "11-NOV",
       numDoc: "ITE-CG 311-2016",
       monthDoc: "NOV",
       nameDoc:
@@ -13678,9 +11817,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 312,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "30-NOV",
       numDoc: "ITE-CG 312-2016",
       monthDoc: "NOV",
       nameDoc: "FINANCIAMIENTO PÚBLICO",
@@ -13688,9 +11825,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 313,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "30-NOV",
       numDoc: "ITE-CG 313-2016",
       monthDoc: "NOV",
       nameDoc: "CIENCIA Y TECNOLOGÍA",
@@ -13698,9 +11833,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 314,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "30-NOV",
       numDoc: "ITE-CG 314-2016",
       monthDoc: "NOV",
       nameDoc: "MULTAS PARTIDOS PRI Y MORENA",
@@ -13708,9 +11841,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 315,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "12-DIC",
       numDoc: "ITE-CG 315-2016",
       monthDoc: "DIC",
       nameDoc:
@@ -13719,9 +11850,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 316,
-      year: "2016",
       typeDoc: "ACUERDO",
-      dateDoc: "12-DIC",
       numDoc: "ITE-CG 316-2016",
       monthDoc: "DIC",
       nameDoc:
@@ -13733,9 +11862,7 @@ export const dataAcuerdosITE = {
   2015: [
     {
       id: 1,
-      year: "2015",
       typeDoc: "ACUERDO",
-      dateDoc: "09-ENE",
       numDoc: "ITE-CG 01-2015",
       monthDoc: "ENE",
       nameDoc: "INTEGRACIÓN DE JUNTA GENERAL EJECUTIVA",
@@ -13743,9 +11870,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 2,
-      year: "2015",
       typeDoc: "ACUERDO",
-      dateDoc: "13-ENE",
       numDoc: "ITE-CG 02-2015",
       monthDoc: "ENE",
       nameDoc: "ADECUACIÓN PRESUPUESTO DE EGRESOS EJERCICIO FISCAL 2015",
@@ -13755,9 +11880,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 3,
-      year: "2015",
       typeDoc: "ACUERDO",
-      dateDoc: "15-ENE",
       numDoc: "ITE-CG 03-2015",
       monthDoc: "ENE",
       nameDoc: "PROGRAMA ANUAL IET",
@@ -13765,9 +11888,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 4,
-      year: "2015",
       typeDoc: "ACUERDO",
-      dateDoc: "30-ENE",
       numDoc: "ITE-CG 04-2015",
       monthDoc: "ENE",
       nameDoc: "CUMPLIMIENTO SALA ELECTORAL PANAL 2015",
@@ -13777,9 +11898,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 5,
-      year: "2015",
       typeDoc: "ACUERDO",
-      dateDoc: "13-MAR",
       numDoc: "ITE-CG 05-2015",
       monthDoc: "MAR",
       nameDoc: "REMISIÓN DE INFORMES ANUALES 2014",
@@ -13787,9 +11906,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 6,
-      year: "2015",
       typeDoc: "ACUERDO",
-      dateDoc: "28-MAY",
       numDoc: "ITE-CG 06-2015",
       monthDoc: "MAY",
       nameDoc: "DICTAMEN INFORME ANUAL PAN",
@@ -13797,9 +11914,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 7,
-      year: "2015",
       typeDoc: "ACUERDO",
-      dateDoc: "28-MAY",
       numDoc: "ITE-CG 07-2015",
       monthDoc: "MAY",
       nameDoc: "DICTAMEN INFORME ANUAL PRI",
@@ -13807,9 +11922,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 8,
-      year: "2015",
       typeDoc: "ACUERDO",
-      dateDoc: "28-MAY",
       numDoc: "ITE-CG 08-2015",
       monthDoc: "MAY",
       nameDoc: "DICTAMEN INFORME ANUAL PRD",
@@ -13817,9 +11930,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 9,
-      year: "2015",
       typeDoc: "ACUERDO",
-      dateDoc: "28-MAY",
       numDoc: "ITE-CG 09-2015",
       monthDoc: "MAY",
       nameDoc: "DICTAMEN INFORME ANUAL PT",
@@ -13827,9 +11938,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 10,
-      year: "2015",
       typeDoc: "ACUERDO",
-      dateDoc: "28-MAY",
       numDoc: "ITE-CG 10-2015",
       monthDoc: "MAY",
       nameDoc: "DICTAMEN INFORME ANUAL PVEM",
@@ -13837,9 +11946,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 11,
-      year: "2015",
       typeDoc: "ACUERDO",
-      dateDoc: "28-MAY",
       numDoc: "ITE-CG 11-2015",
       monthDoc: "MAY",
       nameDoc: "DICTAMEN INFORME ANUAL MC",
@@ -13847,9 +11954,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 12,
-      year: "2015",
       typeDoc: "ACUERDO",
-      dateDoc: "28-MAY",
       numDoc: "ITE-CG 12-2015",
       monthDoc: "MAY",
       nameDoc: "DICTAMEN INFORME ANUAL PANAL",
@@ -13857,9 +11962,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 13,
-      year: "2015",
       typeDoc: "ACUERDO",
-      dateDoc: "28-MAY",
       numDoc: "ITE-CG 13-2015",
       monthDoc: "MAY",
       nameDoc: "DICTAMEN INFORME ANUAL PAC",
@@ -13867,9 +11970,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 14,
-      year: "2015",
       typeDoc: "ACUERDO",
-      dateDoc: "28-MAY",
       numDoc: "ITE-CG 14-2015",
       monthDoc: "MAY",
       nameDoc: "DICTAMEN INFORME ANUAL PS",
@@ -13877,9 +11978,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 15,
-      year: "2015",
       typeDoc: "ACUERDO",
-      dateDoc: "28-MAY",
       numDoc: "ITE-CG 15-2015",
       monthDoc: "MAY",
       nameDoc: "DICTAMEN INFORME ANUAL MORENA",
@@ -13887,9 +11986,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 16,
-      year: "2015",
       typeDoc: "ACUERDO",
-      dateDoc: "28-MAY",
       numDoc: "ITE-CG 16-2015",
       monthDoc: "MAY",
       nameDoc: "DICTAMEN INFORME ANUAL HUMANISTA",
@@ -13897,9 +11994,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 17,
-      year: "2015",
       typeDoc: "ACUERDO",
-      dateDoc: "28-MAY",
       numDoc: "ITE-CG 17-2015",
       monthDoc: "MAY",
       nameDoc: "DICTAMEN INFORME ANUAL ENCUENTRO SOCIAL",
@@ -13907,9 +12002,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 18,
-      year: "2015",
       typeDoc: "ACUERDO",
-      dateDoc: "28-MAY",
       numDoc: "ITE-CG 18-2015",
       monthDoc: "MAY",
       nameDoc: "QUEJA 001",
@@ -13917,9 +12010,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 19,
-      year: "2015",
       typeDoc: "ACUERDO",
-      dateDoc: "28-MAY",
       numDoc: "ITE-CG 19-2015",
       monthDoc: "MAY",
       nameDoc: "QUEJA 003",
@@ -13927,9 +12018,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 20,
-      year: "2015",
       typeDoc: "ACUERDO",
-      dateDoc: "08-JUN",
       numDoc: "ITE-CG 20-2015",
       monthDoc: "JUN",
       nameDoc: "MODIFICACIÓN SANCIÓN PANAL",
@@ -13939,9 +12028,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 21,
-      year: "2015",
       typeDoc: "ACUERDO",
-      dateDoc: "12-JUN",
       numDoc: "ITE-CG 21-2015",
       monthDoc: "JUN",
       nameDoc: "SANCIÓN INFORME ANUAL 2014 PAN",
@@ -13951,9 +12038,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 22,
-      year: "2015",
       typeDoc: "ACUERDO",
-      dateDoc: "12-JUN",
       numDoc: "ITE-CG 22-2015",
       monthDoc: "JUN",
       nameDoc: "SANCIÓN INFORME ANUAL 2014 PRD",
@@ -13963,9 +12048,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 23,
-      year: "2015",
       typeDoc: "ACUERDO",
-      dateDoc: "12-JUN",
       numDoc: "ITE-CG 23-2015",
       monthDoc: "JUN",
       nameDoc: "SANCIÓN INFORME ANUAL 2014 PAC",
@@ -13975,9 +12058,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 24,
-      year: "2015",
       typeDoc: "ACUERDO",
-      dateDoc: "12-JUN",
       numDoc: "ITE-CG 24-2015",
       monthDoc: "JUN",
       nameDoc: "SANCIÓN INFORME ANUAL 2014 MORENA",
@@ -13987,9 +12068,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 25,
-      year: "2015",
       typeDoc: "ACUERDO",
-      dateDoc: "12-JUN",
       numDoc: "ITE-CG 25-2015",
       monthDoc: "JUN",
       nameDoc: "QUEJA CQYDIET-002-2015",
@@ -13999,9 +12078,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 26,
-      year: "2015",
       typeDoc: "ACUERDO",
-      dateDoc: "17-JUL",
       numDoc: "ITE-CG 26-2015",
       monthDoc: "JUL",
       nameDoc: "SANCIÓN INFORME ANUAL 2014 PRI",
@@ -14009,9 +12086,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 27,
-      year: "2015",
       typeDoc: "ACUERDO",
-      dateDoc: "17-JUL",
       numDoc: "ITE-CG 27-2015",
       monthDoc: "JUL",
       nameDoc: "SANCIÓN INFORME ANUAL 2014 PT",
@@ -14019,9 +12094,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 28,
-      year: "2015",
       typeDoc: "ACUERDO",
-      dateDoc: "17-JUL",
       numDoc: "ITE-CG 28-2015",
       monthDoc: "JUL",
       nameDoc: "SANCIÓN INFORME ANUAL 2014 PVEM",
@@ -14029,9 +12102,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 29,
-      year: "2015",
       typeDoc: "ACUERDO",
-      dateDoc: "17-JUL",
       numDoc: "ITE-CG 29-2015",
       monthDoc: "JUL",
       nameDoc: "SANCIÓN INFORME ANUAL 2014 MC",
@@ -14039,9 +12110,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 30,
-      year: "2015",
       typeDoc: "ACUERDO",
-      dateDoc: "17-JUL",
       numDoc: "ITE-CG 30-2015",
       monthDoc: "JUL",
       nameDoc: "SANCIÓN INFORME ANUAL 2014 PNA",
@@ -14049,9 +12118,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 31,
-      year: "2015",
       typeDoc: "ACUERDO",
-      dateDoc: "17-JUL",
       numDoc: "ITE-CG 31-2015",
       monthDoc: "JUL",
       nameDoc: "SANCIÓN INFORME ANUAL 2014 PS",
@@ -14059,9 +12126,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 32,
-      year: "2015",
       typeDoc: "ACUERDO",
-      dateDoc: "17-JUL",
       numDoc: "ITE-CG 32-2015",
       monthDoc: "JUL",
       nameDoc: "SANCIÓN INFORME ANUAL 2014 ENCUENTRO SOCIAL",
@@ -14069,9 +12134,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 33,
-      year: "2015",
       typeDoc: "ACUERDO",
-      dateDoc: "28-AGO",
       numDoc: "ITE-CG 33-2015",
       monthDoc: "AGO",
       nameDoc: "AJUSTE SANCIÓN FISCALIZACIÓN PT",
@@ -14079,9 +12142,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 34,
-      year: "2015",
       typeDoc: "ACUERDO",
-      dateDoc: "18-SEP",
       numDoc: "CG0 01-2015",
       monthDoc: "SEP",
       nameDoc: "INTEGRACIÓN DE COMISIONES ITE",
@@ -14089,9 +12150,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 36,
-      year: "2015",
       typeDoc: "ACUERDO",
-      dateDoc: "18-SEP",
       numDoc: "CG0 03-2015",
       monthDoc: "SEP",
       nameDoc: "INTEGRACIÓN DE JUNTA GENERAL EJECUTIVA",
@@ -14099,9 +12158,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 37,
-      year: "2015",
       typeDoc: "ACUERDO",
-      dateDoc: "18-SEP",
       numDoc: "CG0 04-2015",
       monthDoc: "SEP",
       nameDoc: "LOGO ITE",
@@ -14109,9 +12166,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 38,
-      year: "2015",
       typeDoc: "ACUERDO",
-      dateDoc: "30-SEP",
       numDoc: "CG0 05-2015",
       monthDoc: "SEP",
       nameDoc: "LINEAMIENTOS PERDIDA Y CANCELACIÓN DE REGISTRO",
@@ -14119,9 +12174,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 39,
-      year: "2015",
       typeDoc: "ACUERDO",
-      dateDoc: "30-SEP",
       numDoc: "CG0 06-2015",
       monthDoc: "SEP",
       nameDoc: "PERDIDA DE ACREDITACIÓN PARTIDO DEL TRABAJO",
@@ -14129,9 +12182,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 40,
-      year: "2015",
       typeDoc: "ACUERDO",
-      dateDoc: "30-SEP",
       numDoc: "CG0 07-2015",
       monthDoc: "SEP",
       nameDoc: "PERDIDA DE ACREDITACIÓN PARTIDO HUMANISTA",
@@ -14139,9 +12190,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 41,
-      year: "2015",
       typeDoc: "ACUERDO",
-      dateDoc: "30-SEP",
       numDoc: "CG0 08-2015",
       monthDoc: "SEP",
       nameDoc: "PRESUPUESTO DE EGRESOS 2016",
@@ -14149,9 +12198,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 43,
-      year: "2015",
       typeDoc: "ACUERDO",
-      dateDoc: "29-OCT",
       numDoc: "CG0 010-2015",
       monthDoc: "OCT",
       nameDoc: "CUMPLIMIENTO SALA ELECTORAL PAC",
@@ -14159,9 +12206,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 44,
-      year: "2015",
       typeDoc: "ACUERDO",
-      dateDoc: "29-OCT",
       numDoc: "CG0 011-2015",
       monthDoc: "OCT",
       nameDoc: "METODOLOGÍA MONITOREO",
@@ -14169,9 +12214,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 45,
-      year: "2015",
       typeDoc: "ACUERDO",
-      dateDoc: "29-OCT",
       numDoc: "CG0 012-2015",
       monthDoc: "OCT",
       nameDoc: "LINEAMIENTOS DEBATES",
@@ -14179,9 +12222,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 46,
-      year: "2015",
       typeDoc: "ACUERDO",
-      dateDoc: "29-OCT",
       numDoc: "CG0 013-2015",
       monthDoc: "OCT",
       nameDoc: "CRITERIOS CIERRES DE CAMPAÑA",
@@ -14189,9 +12230,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 47,
-      year: "2015",
       typeDoc: "ACUERDO",
-      dateDoc: "29-OCT",
       numDoc: "CG0 014-2015",
       monthDoc: "OCT",
       nameDoc: "LINEAMIENTOS CONSULTA CIUDADANA",
@@ -14199,9 +12238,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 48,
-      year: "2015",
       typeDoc: "ACUERDO",
-      dateDoc: "29-OCT",
       numDoc: "CG0 015-2015",
       monthDoc: "OCT",
       nameDoc: "LINEAMIENTOS PROTECCIÓN DE DATOS",
@@ -14209,9 +12246,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 49,
-      year: "2015",
       typeDoc: "ACUERDO",
-      dateDoc: "30-OCT",
       numDoc: "ITE-CG 016-2015",
       monthDoc: "OCT",
       nameDoc: "LINEAMIENTOS REGISTRO DE CANDIDATOS",
@@ -14222,9 +12257,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 50,
-      year: "2015",
       typeDoc: "ACIERDO",
-      dateDoc: "30-OCT",
       numDoc: "ITE-CG 017-2015",
       monthDoc: "OCT",
       nameDoc: "",
@@ -14235,9 +12268,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 52,
-      year: "2015",
       typeDoc: "ACUERDO",
-      dateDoc: "10-NOV",
       numDoc: "CG0 019-2015",
       monthDoc: "NOV",
       nameDoc: "PRESUPUESTO FINAL",
@@ -14245,9 +12276,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 53,
-      year: "2015",
       typeDoc: "ACUERDO",
-      dateDoc: "10-NOV",
       numDoc: "CG0 020-2015",
       monthDoc: "NOV",
       nameDoc: "REGLAMENTO USOS Y COSTUMBRES",
@@ -14255,9 +12284,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 54,
-      year: "2015",
       typeDoc: "ACUERDO",
-      dateDoc: "19-NOV",
       numDoc: "CG0 021-2015",
       monthDoc: "NOV",
       nameDoc: "PAUTAS RADIO Y TELEVISIÓN",
@@ -14265,9 +12292,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 55,
-      year: "2015",
       typeDoc: "ACUERDO",
-      dateDoc: "27-NOV",
       numDoc: "CG0 022-2015",
       monthDoc: "NOV",
       nameDoc: "DEL REGLAMENTO DE CANDIDATOS INDEPENDIENTES",
@@ -14275,9 +12300,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 56,
-      year: "2015",
       typeDoc: "ACUERDO",
-      dateDoc: "27-NOV",
       numDoc: "CG0 023-2015",
       monthDoc: "NOV",
       nameDoc: "DEL ESTATUTO A.C. CANDIDATOS INDEPENDIENTES",
@@ -14285,9 +12308,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 61,
-      year: "2015",
       typeDoc: "ACUERDO",
-      dateDoc: "30-NOV",
       numDoc: "CG0 028-2015",
       monthDoc: "NOV",
       nameDoc: "REGLAMENTO CONSTITUCIÓN DE PARTIDOS",
@@ -14295,9 +12316,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 63,
-      year: "2015",
       typeDoc: "ACUERDO",
-      dateDoc: "30-NOV",
       numDoc: "CG0 030-2015",
       monthDoc: "NOV",
       nameDoc: "SECRETARIO Y DIRECTORES",
@@ -14305,9 +12324,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 68,
-      year: "2015",
       typeDoc: "ACUERDO",
-      dateDoc: "12-DIC",
       numDoc: "CG0 035-2015",
       monthDoc: "DIC",
       nameDoc: "TOPES DE PRECAMPAÑA",
@@ -14315,9 +12332,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 73,
-      year: "2015",
       typeDoc: "ACUERDO",
-      dateDoc: "15-DIC",
       numDoc: "ITE-CG 040-2015",
       monthDoc: "DIC",
       nameDoc: "",
@@ -14328,9 +12343,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 74,
-      year: "2015",
       typeDoc: "ACUERDO",
-      dateDoc: "16-DIC",
       numDoc: "CG0 041-2015",
       monthDoc: "DIC",
       nameDoc: "CUMPLIMIENTO FISCALIZACIÓN PAN",
@@ -14338,9 +12351,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 75,
-      year: "2015",
       typeDoc: "ACUERDO",
-      dateDoc: "16-DIC",
       numDoc: "CG0 042-2015",
       monthDoc: "DIC",
       nameDoc: "CUMPLIMIENTO FISCALIZACIÓN PT",
@@ -14348,9 +12359,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 77,
-      year: "2015",
       typeDoc: "ACUERDO",
-      dateDoc: "24-DIC",
       numDoc: "ITE-CG 044-2015",
       monthDoc: "DIC",
       nameDoc: "CUMPLIMIENTO SALA DF CONVOCATORIA CANDIDATOS INDEPENDIENTES",
@@ -14361,9 +12370,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 78,
-      year: "2015",
       typeDoc: "ACUERDO",
-      dateDoc: "24-DIC",
       numDoc: "CG0 045-2015",
       monthDoc: "DIC",
       nameDoc: "MODIFICACIÓN NÚMERO DE APOYO CIUDADANO",
@@ -14371,9 +12378,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 79,
-      year: "2015",
       typeDoc: "ACUERDO",
-      dateDoc: "24-DIC",
       numDoc: "CG0 046-2015",
       monthDoc: "DIC",
       nameDoc: "RADIO Y TV",
@@ -14381,9 +12386,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 80,
-      year: "2015",
       typeDoc: "ACUERDO",
-      dateDoc: "30-DIC",
       numDoc: "ITE-CG 047-2015",
       monthDoc: "DIC",
       nameDoc: "PLÁSTICOS",
@@ -14397,9 +12400,7 @@ export const dataAcuerdosITE = {
   2012: [
     {
       id: 1,
-      year: "2012",
       typeDoc: "ACUERDO",
-      dateDoc: "12-ENE",
       numDoc: "ITE-CG 01-2012",
       monthDoc: "ENE",
       nameDoc: "SE ADECUA EL PROYECTO DE PRESUPUESTO",
@@ -14407,9 +12408,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 2,
-      year: "2012",
       typeDoc: "ACUERDO",
-      dateDoc: "13-MAR",
       numDoc: "ITE-CG 02-2012",
       monthDoc: "MAR",
       nameDoc: "INFORMES ANUALES 2011",
@@ -14417,9 +12416,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 3,
-      year: "2012",
       typeDoc: "ACUERDO",
-      dateDoc: "25-MAR",
       numDoc: "ITE-CG 03-2012",
       monthDoc: "MAR",
       nameDoc: "DICTAMEN DEL PAN",
@@ -14427,9 +12424,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 4,
-      year: "2012",
       typeDoc: "ACUERDO",
-      dateDoc: "25-MAR",
       numDoc: "ITE-CG 04-2012",
       monthDoc: "MAR",
       nameDoc: "DICTAMEN DEL PRI",
@@ -14437,9 +12432,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 5,
-      year: "2012",
       typeDoc: "ACUERDO",
-      dateDoc: "25-MAR",
       numDoc: "ITE-CG 05-2012",
       monthDoc: "MAR",
       nameDoc: "DICTAMEN DEL PRD",
@@ -14447,9 +12440,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 6,
-      year: "2012",
       typeDoc: "ACUERDO",
-      dateDoc: "25-MAR",
       numDoc: "ITE-CG 06-2012",
       monthDoc: "MAR",
       nameDoc: "DICTAMEN DEL PT",
@@ -14457,9 +12448,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 7,
-      year: "2012",
       typeDoc: "ACUERDO",
-      dateDoc: "25-MAR",
       numDoc: "ITE-CG 07-2012",
       monthDoc: "MAR",
       nameDoc: "DICTAMEN DEL PVEM",
@@ -14467,9 +12456,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 8,
-      year: "2012",
       typeDoc: "ACUERDO",
-      dateDoc: "25-MAR",
       numDoc: "ITE-CG 08-2012",
       monthDoc: "MAR",
       nameDoc: "DICTAMEN DEL PMC",
@@ -14477,9 +12464,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 9,
-      year: "2012",
       typeDoc: "ACUERDO",
-      dateDoc: "25-MAR",
       numDoc: "ITE-CG 09-2012",
       monthDoc: "MAR",
       nameDoc: "DICTAMEN DEL PANAL",
@@ -14487,9 +12472,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 10,
-      year: "2012",
       typeDoc: "ACUERDO",
-      dateDoc: "25-MAR",
       numDoc: "ITE-CG 10-2012",
       monthDoc: "MAR",
       nameDoc: "DICTAMEN DEL PAC",
@@ -14497,9 +12480,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 11,
-      year: "2012",
       typeDoc: "ACUERDO",
-      dateDoc: "25-MAR",
       numDoc: "ITE-CG 11-2012",
       monthDoc: "MAR",
       nameDoc: "DICTAMEN DEL PS",
@@ -14507,9 +12488,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 12,
-      year: "2012",
       typeDoc: "ACUERDO",
-      dateDoc: "13-JUN",
       numDoc: "ITE-CG 12-2012",
       monthDoc: "JUN",
       nameDoc: "RESOLUCIÓN DEL PAN",
@@ -14517,9 +12496,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 13,
-      year: "2012",
       typeDoc: "ACUERDO",
-      dateDoc: "13-JUN",
       numDoc: "ITE-CG 13-2012",
       monthDoc: "JUN",
       nameDoc: "RESOLUCIÓN DEL PRI",
@@ -14527,9 +12504,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 14,
-      year: "2012",
       typeDoc: "ACUERDO",
-      dateDoc: "13-JUN",
       numDoc: "ITE-CG 14-2012",
       monthDoc: "JUN",
       nameDoc: "RESOLUCIÓN DEL PRD",
@@ -14537,9 +12512,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 15,
-      year: "2012",
       typeDoc: "ACUERDO",
-      dateDoc: "13-JUN",
       numDoc: "ITE-CG 15-2012",
       monthDoc: "JUN",
       nameDoc: "RESOLUCIÓN DEL PT",
@@ -14547,9 +12520,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 16,
-      year: "2012",
       typeDoc: "ACUERDO",
-      dateDoc: "13-JUN",
       numDoc: "ITE-CG 16-2012",
       monthDoc: "JUN",
       nameDoc: "RESOLUCIÓN DEL PVEM",
@@ -14557,9 +12528,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 17,
-      year: "2012",
       typeDoc: "ACUERDO",
-      dateDoc: "13-JUN",
       numDoc: "ITE-CG 17-2012",
       monthDoc: "JUN",
       nameDoc: "RESOLUCIÓN DEL MC",
@@ -14567,9 +12536,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 18,
-      year: "2012",
       typeDoc: "ACUERDO",
-      dateDoc: "13-JUN",
       numDoc: "ITE-CG 18-2012",
       monthDoc: "JUN",
       nameDoc: "RESOLUCIÓN DEL PANAL",
@@ -14577,9 +12544,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 19,
-      year: "2012",
       typeDoc: "ACUERDO",
-      dateDoc: "13-JUN",
       numDoc: "ITE-CG 19-2012",
       monthDoc: "JUN",
       nameDoc: "RESOLUCIÓN DEL PAC",
@@ -14587,9 +12552,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 20,
-      year: "2012",
       typeDoc: "ACUERDO",
-      dateDoc: "13-JUN",
       numDoc: "ITE-CG 20-2012",
       monthDoc: "JUN",
       nameDoc: "RESOLUCIÓN DEL PS",
@@ -14597,9 +12560,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 21,
-      year: "2012",
       typeDoc: "ACUERDO",
-      dateDoc: "28-SEP",
       numDoc: "ITE-CG 21-2012",
       monthDoc: "SEP",
       nameDoc: "ACUERDO PRESUPUESTO 2013",
@@ -14607,9 +12568,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 22,
-      year: "2012",
       typeDoc: "ACUERDO",
-      dateDoc: "22-OCT",
       numDoc: "ITE-CG 22-2012",
       monthDoc: "OCT",
       nameDoc: "RESOLUCIÓN DE LA SALA UNITARIA ADMINISTRATIVA ELECTORAL",
@@ -14617,9 +12576,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 23,
-      year: "2012",
       typeDoc: "ACUERDO",
-      dateDoc: "31-OCT",
       numDoc: "ITE-CG 23-2012",
       monthDoc: "OCT",
       nameDoc: "CALENDARIO ELECTORAL 2013",
@@ -14629,9 +12586,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 24,
-      year: "2012",
       typeDoc: "ACUERDO",
-      dateDoc: "31-OCT",
       numDoc: "ITE-CG 24-2012",
       monthDoc: "OCT",
       nameDoc: "CONVOCATORIA A ELECCIONES 2013",
@@ -14639,9 +12594,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 25,
-      year: "2012",
       typeDoc: "ACUERDO",
-      dateDoc: "29-NOV",
       numDoc: "ITE-CG 25-2012",
       monthDoc: "NOV",
       nameDoc: "ACUERDO DE ENCUESTAS Y ESTUDIOS DE OPINIÓN 2013",
@@ -14649,9 +12602,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 26,
-      year: "2012",
       typeDoc: "ACUERDO",
-      dateDoc: "06-DIC",
       numDoc: "ITE-CG 26-2012",
       monthDoc: "DIC",
       nameDoc: "ACUERDO DE LA INTEGRACIÓN DE LAS COMISIONES",
@@ -14659,9 +12610,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 27,
-      year: "2012",
       typeDoc: "ACUERDO",
-      dateDoc: "06-DIC",
       numDoc: "ITE-CG 27-2012",
       monthDoc: "DIC",
       nameDoc: "ACUERDO MONITOREO 2012",
@@ -14669,9 +12618,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 28,
-      year: "2012",
       typeDoc: "ACUERDO",
-      dateDoc: "06-DIC",
       numDoc: "ITE-CG 28-2012",
       monthDoc: "DIC",
       nameDoc: "ACUERDO SECCIONAMIENTO 2012",
@@ -14679,9 +12626,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 29,
-      year: "2012",
       typeDoc: "ACUERDO",
-      dateDoc: "06-DIC",
       numDoc: "ITE-CG 29-2012",
       monthDoc: "DIC",
       nameDoc: "ACUERDO AUTORIZA FIRMA DE CONVENIO 2012",
@@ -14689,9 +12634,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 30,
-      year: "2012",
       typeDoc: "ACUERDO",
-      dateDoc: "12-DIC",
       numDoc: "ITE-CG 30-2012",
       monthDoc: "DIC",
       nameDoc: "ACUERDO TOPES DE PRECAMPAÑAS 2013",
@@ -14699,9 +12642,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 31,
-      year: "2012",
       typeDoc: "ACUERDO",
-      dateDoc: "29-DIC",
       numDoc: "ITE-CG 31-2012",
       monthDoc: "DIC",
       nameDoc: "ACUERDO DE RADIO Y TV FINAL",
@@ -14709,9 +12650,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 32,
-      year: "2012",
       typeDoc: "ACUERDO",
-      dateDoc: "29-DIC",
       numDoc: "ITE-CG 32-2012",
       monthDoc: "DIC",
       nameDoc: "ACUERDO DE FISCALIZACIÓN DE MEDIOS",
@@ -14719,9 +12658,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 33,
-      year: "2012",
       typeDoc: "ACUERDO",
-      dateDoc: "29-DIC",
       numDoc: "ITE-CG 33-2012",
       monthDoc: "DIC",
       nameDoc: "ACUERDO DE PAUTADO",
@@ -14732,9 +12669,7 @@ export const dataAcuerdosITE = {
   2009: [
     {
       id: 1,
-      year: "2009",
       typeDoc: "ACUERDO",
-      dateDoc: "14-ENE",
       numDoc: "ITE-CG 01-2009",
       monthDoc: "ENE",
       nameDoc: "ACUERDO CONSEJO GENERAL METODOLOGIA PARTIDO POPULAR",
@@ -14746,9 +12681,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 2,
-      year: "2009",
       typeDoc: "ACUERDO",
-      dateDoc: "15-ENE",
       numDoc: "ITE-CG 02-2009",
       monthDoc: "ENE",
       nameDoc: "ACUERDO INFORME LABORES 2008",
@@ -14756,9 +12689,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 3,
-      year: "2009",
       typeDoc: "ACUERDO",
-      dateDoc: "11-FEB",
       numDoc: "ITE-CG 03-2009",
       monthDoc: "FEB",
       nameDoc: "ACUERDO POR EL QUE SE DECLARA NO PROCEDENTE REGISTRO DEL PLT",
@@ -14770,9 +12701,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 4,
-      year: "2009",
       typeDoc: "ACUERDO",
-      dateDoc: "09-MAR",
       numDoc: "ITE-CG 04-2009",
       monthDoc: "MAR",
       nameDoc: "ACUERDO CUMPLIMIENTO ART. 114 CIPEET",
@@ -14780,9 +12709,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 5,
-      year: "2009",
       typeDoc: "ACUERDO",
-      dateDoc: "31-MAR",
       numDoc: "ITE-CG 05-2009",
       monthDoc: "MAR",
       nameDoc:
@@ -14795,9 +12722,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 6,
-      year: "2009",
       typeDoc: "ACUERDO",
-      dateDoc: "31-MAR",
       numDoc: "ITE-CG 06-2009",
       monthDoc: "MAR",
       nameDoc: "CUMPLIMENTACION_PCDT TOCA 137-2008",
@@ -14805,9 +12730,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 7,
-      year: "2009",
       typeDoc: "ACUERDO",
-      dateDoc: "30-ABR",
       numDoc: "ITE-CG 07-2009",
       monthDoc: "ABR",
       nameDoc: "ACUERDO JUNTA GENERAL EJECUTIVA",
@@ -14815,9 +12738,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 8,
-      year: "2009",
       typeDoc: "ACUERDO",
-      dateDoc: "29-MAY",
       numDoc: "ITE-CG 08-2009",
       monthDoc: "MAY",
       nameDoc:
@@ -14828,9 +12749,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 9,
-      year: "2009",
       typeDoc: "ACUERDO",
-      dateDoc: "02-JUN",
       numDoc: "ITE-CG 09-2009",
       monthDoc: "JUN",
       nameDoc: "DICTAMEN PAN",
@@ -14838,9 +12757,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 10,
-      year: "2009",
       typeDoc: "ACUERDO",
-      dateDoc: "02-JUN",
       numDoc: "ITE-CG 10-2009",
       monthDoc: "JUN",
       nameDoc: "DICTAMEN PRI",
@@ -14848,9 +12765,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 11,
-      year: "2009",
       typeDoc: "ACUERDO",
-      dateDoc: "02-JUN",
       numDoc: "ITE-CG 11-2009",
       monthDoc: "JUN",
       nameDoc: "DICTAMEN PRD",
@@ -14858,9 +12773,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 12,
-      year: "2009",
       typeDoc: "ACUERDO",
-      dateDoc: "02-JUN",
       numDoc: "ITE-CG 12-2009",
       monthDoc: "JUN",
       nameDoc: "DICTAMEN PT",
@@ -14868,9 +12781,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 13,
-      year: "2009",
       typeDoc: "ACUERDO",
-      dateDoc: "02-JUN",
       numDoc: "ITE-CG 13-2009",
       monthDoc: "JUN",
       nameDoc: "DICTAMEN VERDE",
@@ -14878,9 +12789,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 14,
-      year: "2009",
       typeDoc: "ACUERDO",
-      dateDoc: "02-JUN",
       numDoc: "ITE-CG 14-2009",
       monthDoc: "JUN",
       nameDoc: "DICTAMEN CONVERGENCIA",
@@ -14888,9 +12797,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 15,
-      year: "2009",
       typeDoc: "ACUERDO",
-      dateDoc: "02-JUN",
       numDoc: "ITE-CG 15-2009",
       monthDoc: "JUN",
       nameDoc: "DICTAMEN NUEVA ALIANZA",
@@ -14898,9 +12805,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 16,
-      year: "2009",
       typeDoc: "ACUERDO",
-      dateDoc: "02-JUN",
       numDoc: "ITE-CG 16-2009",
       monthDoc: "JUN",
       nameDoc: "DICTAMEN PSD",
@@ -14908,9 +12813,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 17,
-      year: "2009",
       typeDoc: "ACUERDO",
-      dateDoc: "02-JUN",
       numDoc: "ITE-CG 17-2009",
       monthDoc: "JUN",
       nameDoc: "DICTAMEN PAC",
@@ -14918,9 +12821,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 18,
-      year: "2009",
       typeDoc: "ACUERDO",
-      dateDoc: "02-JUN",
       numDoc: "ITE-CG 18-2009",
       monthDoc: "JUN",
       nameDoc: "DICTAMEN PS",
@@ -14928,9 +12829,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 19,
-      year: "2009",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "02-JUL",
       numDoc: "ITE-CG 19-2009",
       monthDoc: "JUL",
       nameDoc: "SANCIÓN PAN",
@@ -14938,9 +12837,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 20,
-      year: "2009",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "02-JUL",
       numDoc: "ITE-CG 20-2009",
       monthDoc: "JUL",
       nameDoc: "SANCIÓN PRI",
@@ -14948,9 +12845,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 21,
-      year: "2009",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "02-JUL",
       numDoc: "ITE-CG 21-2009",
       monthDoc: "JUL",
       nameDoc: "SANCIÓN PRD",
@@ -14958,9 +12853,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 22,
-      year: "2009",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "02-JUL",
       numDoc: "ITE-CG 22-2009",
       monthDoc: "JUL",
       nameDoc: "SANCIÓN PT",
@@ -14968,9 +12861,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 23,
-      year: "2009",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "02-JUL",
       numDoc: "ITE-CG 23-2009",
       monthDoc: "JUL",
       nameDoc: "SANCIÓN PVEM",
@@ -14978,9 +12869,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 24,
-      year: "2009",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "02-JUL",
       numDoc: "ITE-CG 24-2009",
       monthDoc: "JUL",
       nameDoc: "SANCIÓN NUEVA ALIANZA",
@@ -14988,9 +12877,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 25,
-      year: "2009",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "02-JUL",
       numDoc: "ITE-CG 25-2009",
       monthDoc: "JUL",
       nameDoc: "SANCIÓN SD",
@@ -14998,9 +12885,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 26,
-      year: "2009",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "02-JUL",
       numDoc: "ITE-CG 26-2009",
       monthDoc: "JUL",
       nameDoc: "SANCIÓN PAC",
@@ -15008,9 +12893,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 27,
-      year: "2009",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "02-JUL",
       numDoc: "ITE-CG 27-2009",
       monthDoc: "JUL",
       nameDoc: "SANCIÓN PS",
@@ -15018,9 +12901,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 28,
-      year: "2009",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "08-JUL",
       numDoc: "ITE-CG 28-2009",
       monthDoc: "JUL",
       nameDoc: "ACUERDO READECUACIÓN DE COMISIONES",
@@ -15028,9 +12909,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 29,
-      year: "2009",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "03-AGO",
       numDoc: "ITE-CG 29-2009",
       monthDoc: "AGO",
       nameDoc: "RESOLUCIÓN CUMPLIMIENTO PARTIDO POPULAR",
@@ -15038,9 +12917,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 30,
-      year: "2009",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "21-AGO",
       numDoc: "ITE-CG 30-2009",
       monthDoc: "AGO",
       nameDoc: "RESOLUCIÓN REGISTRO PARTIDO POPULAR",
@@ -15048,9 +12925,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 31,
-      year: "2009",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "24-AGO",
       numDoc: "ITE-CG 31-2009",
       monthDoc: "AGO",
       nameDoc: "RESOLUCIÓN REGISTRO PARTIDO LIBERAL TLAXCALTECA",
@@ -15058,9 +12933,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 32,
-      year: "2009",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "24-AGO",
       numDoc: "ITE-CG 32-2009",
       monthDoc: "AGO",
       nameDoc: "RESOLUCIÓN REGISTRO PARTIDO DEL PUEBLO TLAXCALTECA",
@@ -15068,9 +12941,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 33,
-      year: "2009",
       typeDoc: "ACUERDO",
-      dateDoc: "31-AGO",
       numDoc: "ITE-CG 33-2009",
       monthDoc: "AGO",
       nameDoc: "ACUERDO REESTRUCTURA COMITÉ DE INFORMACIÓN",
@@ -15078,9 +12949,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 34,
-      year: "2009",
       typeDoc: "ACUERDO",
-      dateDoc: "31-AGO",
       numDoc: "ITE-CG 34-2009",
       monthDoc: "AGO",
       nameDoc: "ACUERDO READECUACIÓN PRESUPUESTO FINANCIAMIENTO PP 2009",
@@ -15088,9 +12957,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 35,
-      year: "2009",
       typeDoc: "ACUERDO",
-      dateDoc: "04-SEP",
       numDoc: "ITE-CG 35-2009",
       monthDoc: "SEP",
       nameDoc: "ACUERDO INICIO DE PÉRDIDA DE SOCIALDEMOCRÁTA",
@@ -15098,9 +12965,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 36,
-      year: "2009",
       typeDoc: "ACUERDO",
-      dateDoc: "04-SEP",
       numDoc: "ITE-CG 36-2009",
       monthDoc: "SEP",
       nameDoc: "READECUACIÓN FINANCIAMIENTO",
@@ -15108,9 +12973,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 37,
-      year: "2009",
       typeDoc: "ACUERDO",
-      dateDoc: "30-SEP",
       numDoc: "ITE-CG 37-2009",
       monthDoc: "SEP",
       nameDoc: "PRESUPUESTO 2010",
@@ -15118,9 +12981,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 38,
-      year: "2009",
       typeDoc: "ACUERDO",
-      dateDoc: "30-OCT",
       numDoc: "ITE-CG 38-2009",
       monthDoc: "OCT",
       nameDoc: "CALENDARIO Y FECHA DE INICIO PROCESO ELECTORAL",
@@ -15130,9 +12991,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 39,
-      year: "2009",
       typeDoc: "ACUERDO",
-      dateDoc: "30-OCT",
       numDoc: "ITE-CG 39-2009",
       monthDoc: "OCT",
       nameDoc: "CONVOCATORIA 2010",
@@ -15140,9 +12999,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 40,
-      year: "2009",
       typeDoc: "ACUERDO",
-      dateDoc: "30-OCT",
       numDoc: "ITE-CG 40-2009",
       monthDoc: "OCT",
       nameDoc: "DICTAMEN SOCIALDEMÓCRATA",
@@ -15152,9 +13009,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 41,
-      year: "2009",
       typeDoc: "ACUERDO",
-      dateDoc: "27-NOV",
       numDoc: "ITE-CG 41-2009",
       monthDoc: "NOV",
       nameDoc: "INFORME 2009",
@@ -15162,9 +13017,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 42,
-      year: "2009",
       typeDoc: "ACUERDO",
-      dateDoc: "27-NOV",
       numDoc: "ITE-CG 42-2009",
       monthDoc: "NOV",
       nameDoc: "SECCIONAMIENTO",
@@ -15172,9 +13025,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 43,
-      year: "2009",
       typeDoc: "ACUERDO",
-      dateDoc: "27-NOV",
       numDoc: "ITE-CG 43-2009",
       monthDoc: "NOV",
       nameDoc: "MONITOREO 2010",
@@ -15182,9 +13033,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 44,
-      year: "2009",
       typeDoc: "ACUERDO",
-      dateDoc: "27-NOV",
       numDoc: "ITE-CG 44-2009",
       monthDoc: "NOV",
       nameDoc: "ENCUESTAS Y ESTUDIOS DE OPINION 2010",
@@ -15192,9 +13041,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 45,
-      year: "2009",
       typeDoc: "ACUERDO",
-      dateDoc: "04-DIC",
       numDoc: "ITE-CG 45-2009",
       monthDoc: "DIC",
       nameDoc: "INTEGRACIÓN DE COMISIONES 2009",
@@ -15202,9 +13049,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 46,
-      year: "2009",
       typeDoc: "ACUERDO",
-      dateDoc: "14-DIC",
       numDoc: "ITE-CG 46-2009",
       monthDoc: "DIC",
       nameDoc: "AUTORIZA FIRMA DE CONVENIO",
@@ -15212,9 +13057,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 47,
-      year: "2009",
       typeDoc: "ACUERDO",
-      dateDoc: "14-DIC",
       numDoc: "ITE-CG 47-2009",
       monthDoc: "DIC",
       nameDoc: "REGLAMENTO PARA EL CONOCIMIENTO DE LAS FALTAS Y SANCIONES",
@@ -15222,9 +13065,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 48,
-      year: "2009",
       typeDoc: "ACUERDO",
-      dateDoc: "14-DIC",
       numDoc: "ITE-CG 48-2009",
       monthDoc: "DIC",
       nameDoc: "FISCALIZACION MONITOREO",
@@ -15232,9 +13073,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 49,
-      year: "2009",
       typeDoc: "ACUERDO",
-      dateDoc: "22-DIC",
       numDoc: "CG0 49-2009",
       monthDoc: "DIC",
       nameDoc: "READECUACIÓN COMISIONES",
@@ -15242,9 +13081,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 50,
-      year: "2009",
       typeDoc: "ACUERDO",
-      dateDoc: "31-DIC",
       numDoc: "CG0 50-2009",
       monthDoc: "DIC",
       nameDoc: "REGLAMENTO INFORMACION",
@@ -15252,9 +13089,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 51,
-      year: "2009",
       typeDoc: "ACUERDO",
-      dateDoc: "31-DIC",
       numDoc: "CG0 51-2009",
       monthDoc: "DIC",
       nameDoc: "TOPES DE PRECAMPAÑAS",
@@ -15265,9 +13100,7 @@ export const dataAcuerdosITE = {
   2008: [
     {
       id: 1,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "11-ENE",
       numDoc: "ITE-CG 01-2008",
       monthDoc: "ENE",
       nameDoc: "QUEJA 02-07",
@@ -15275,9 +13108,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 2,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "11-ENE",
       numDoc: "ITE-CG 02-2008",
       monthDoc: "ENE",
       nameDoc: "QUEJA 07-07",
@@ -15285,9 +13116,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 3,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "11-ENE",
       numDoc: "ITE-CG 03-2008",
       monthDoc: "ENE",
       nameDoc: "QUEJA 16-07",
@@ -15295,9 +13124,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 4,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "11-ENE",
       numDoc: "ITE-CG 04-2008",
       monthDoc: "ENE",
       nameDoc: "QUEJA 17-07",
@@ -15305,9 +13132,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 5,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "11-ENE",
       numDoc: "ITE-CG 05-2008",
       monthDoc: "ENE",
       nameDoc: "QUEJA 18-07",
@@ -15315,9 +13140,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 6,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "11-ENE",
       numDoc: "ITE-CG 06-2008",
       monthDoc: "ENE",
       nameDoc: "QUEJA 19-07",
@@ -15325,9 +13148,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 7,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "11-ENE",
       numDoc: "ITE-CG 07-2008",
       monthDoc: "ENE",
       nameDoc: "QUEJA 20-07",
@@ -15335,9 +13156,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 8,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "11-ENE",
       numDoc: "ITE-CG 08-2008",
       monthDoc: "ENE",
       nameDoc: "QUEJA 21-07",
@@ -15345,9 +13164,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 9,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "11-ENE",
       numDoc: "ITE-CG 09-2008",
       monthDoc: "ENE",
       nameDoc: "QUEJA 22-07",
@@ -15355,9 +13172,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 10,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "11-ENE",
       numDoc: "ITE-CG 10-2008",
       monthDoc: "ENE",
       nameDoc: "QUEJA 24-07",
@@ -15365,9 +13180,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 11,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "11-ENE",
       numDoc: "ITE-CG 11-2008",
       monthDoc: "ENE",
       nameDoc: "QUEJA 25-07",
@@ -15375,9 +13188,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 12,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "11-ENE",
       numDoc: "ITE-CG 12-2008",
       monthDoc: "ENE",
       nameDoc: "QUEJA 27-07",
@@ -15385,9 +13196,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 13,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "11-ENE",
       numDoc: "ITE-CG 13-2008",
       monthDoc: "ENE",
       nameDoc: "QUEJA 28-07",
@@ -15395,9 +13204,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 14,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "11-ENE",
       numDoc: "ITE-CG 14-2008",
       monthDoc: "ENE",
       nameDoc: "QUEJA 29-07",
@@ -15405,9 +13212,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 15,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "11-ENE",
       numDoc: "ITE-CG 15-2008",
       monthDoc: "ENE",
       nameDoc: "QUEJA 30-07",
@@ -15415,9 +13220,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 16,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "11-ENE",
       numDoc: "ITE-CG 16-2008",
       monthDoc: "ENE",
       nameDoc: "QUEJA 31-07",
@@ -15425,9 +13228,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 17,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "11-ENE",
       numDoc: "ITE-CG 17-2008",
       monthDoc: "ENE",
       nameDoc: "QUEJA 32-07",
@@ -15435,9 +13236,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 18,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "11-ENE",
       numDoc: "ITE-CG 18-2008",
       monthDoc: "ENE",
       nameDoc: "QUEJA 34-07",
@@ -15445,9 +13244,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 19,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "11-ENE",
       numDoc: "ITE-CG 19-2008",
       monthDoc: "ENE",
       nameDoc: "QUEJA 40-07",
@@ -15455,9 +13252,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 20,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "11-ENE",
       numDoc: "ITE-CG 20-2008",
       monthDoc: "ENE",
       nameDoc: "QUEJA 41-07",
@@ -15465,9 +13260,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 21,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "11-ENE",
       numDoc: "ITE-CG 21-2008",
       monthDoc: "ENE",
       nameDoc: "QUEJA 42-07",
@@ -15475,9 +13268,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 22,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "11-ENE",
       numDoc: "ITE-CG 22-2008",
       monthDoc: "ENE",
       nameDoc: "QUEJA 43-07",
@@ -15485,9 +13276,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 23,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "11-ENE",
       numDoc: "ITE-CG 23-2008",
       monthDoc: "ENE",
       nameDoc: "QUEJA 47-07",
@@ -15495,9 +13284,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 24,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "11-ENE",
       numDoc: "ITE-CG 24-2008",
       monthDoc: "ENE",
       nameDoc: "QUEJA 49-07",
@@ -15505,9 +13292,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 25,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "11-ENE",
       numDoc: "ITE-CG 25-2008",
       monthDoc: "ENE",
       nameDoc: "QUEJA 50-07",
@@ -15515,9 +13300,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 26,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "11-ENE",
       numDoc: "ITE-CG 26-2008",
       monthDoc: "ENE",
       nameDoc: "QUEJA 51-07",
@@ -15525,9 +13308,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 27,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "11-ENE",
       numDoc: "ITE-CG 27-2008",
       monthDoc: "ENE",
       nameDoc: "QUEJA 52-07",
@@ -15535,9 +13316,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 28,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "11-ENE",
       numDoc: "ITE-CG 28-2008",
       monthDoc: "ENE",
       nameDoc: "QUEJA 53-07",
@@ -15545,9 +13324,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 29,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "11-ENE",
       numDoc: "ITE-CG 29-2008",
       monthDoc: "ENE",
       nameDoc: "QUEJA 54-07",
@@ -15555,9 +13332,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 30,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "11-ENE",
       numDoc: "ITE-CG 30-2008",
       monthDoc: "ENE",
       nameDoc: "QUEJA 56-07",
@@ -15565,9 +13340,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 31,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "11-ENE",
       numDoc: "ITE-CG 31-2008",
       monthDoc: "ENE",
       nameDoc: "QUEJA 57-07",
@@ -15575,9 +13348,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 32,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "11-ENE",
       numDoc: "ITE-CG 32-2008",
       monthDoc: "ENE",
       nameDoc: "QUEJA 58-07",
@@ -15585,9 +13356,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 33,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "11-ENE",
       numDoc: "ITE-CG 33-2008",
       monthDoc: "ENE",
       nameDoc: "QUEJA 59-07",
@@ -15595,9 +13364,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 34,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "11-ENE",
       numDoc: "ITE-CG 34-2008",
       monthDoc: "ENE",
       nameDoc: "QUEJA 60-07",
@@ -15605,9 +13372,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 35,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "11-ENE",
       numDoc: "ITE-CG 35-2008",
       monthDoc: "ENE",
       nameDoc: "QUEJA 64-07",
@@ -15615,9 +13380,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 36,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "11-ENE",
       numDoc: "ITE-CG 36-2008",
       monthDoc: "ENE",
       nameDoc: "QUEJA 69-07",
@@ -15625,9 +13388,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 37,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "11-ENE",
       numDoc: "ITE-CG 37-2008",
       monthDoc: "ENE",
       nameDoc: "QUEJA 70-07",
@@ -15635,9 +13396,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 38,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "11-ENE",
       numDoc: "ITE-CG 38-2008",
       monthDoc: "ENE",
       nameDoc: "QUEJA 71-07",
@@ -15645,9 +13404,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 39,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "11-ENE",
       numDoc: "ITE-CG 39-2008",
       monthDoc: "ENE",
       nameDoc: "QUEJA 73-07",
@@ -15655,9 +13412,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 40,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "11-ENE",
       numDoc: "ITE-CG 40-2008",
       monthDoc: "ENE",
       nameDoc: "QUEJA 74-07",
@@ -15665,9 +13420,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 41,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "11-ENE",
       numDoc: "ITE-CG 41-2008",
       monthDoc: "ENE",
       nameDoc: "QUEJA 75-07",
@@ -15675,9 +13428,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 42,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "11-ENE",
       numDoc: "ITE-CG 42-2008",
       monthDoc: "ENE",
       nameDoc: "QUEJA 78-07",
@@ -15685,9 +13436,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 43,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "11-ENE",
       numDoc: "ITE-CG 43-2008",
       monthDoc: "ENE",
       nameDoc: "QUEJA 80-07",
@@ -15695,9 +13444,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 44,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "11-ENE",
       numDoc: "ITE-CG 44-2008",
       monthDoc: "ENE",
       nameDoc: "QUEJA 81-07",
@@ -15705,9 +13452,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 45,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "11-ENE",
       numDoc: "ITE-CG 45-2008",
       monthDoc: "ENE",
       nameDoc: "QUEJA 83-07",
@@ -15715,9 +13460,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 46,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "11-ENE",
       numDoc: "ITE-CG 46-2008",
       monthDoc: "ENE",
       nameDoc: "QUEJA 84-07",
@@ -15725,9 +13468,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 47,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "11-ENE",
       numDoc: "ITE-CG 47-2008",
       monthDoc: "ENE",
       nameDoc: "QUEJA 85-07",
@@ -15735,9 +13476,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 48,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "11-ENE",
       numDoc: "ITE-CG 48-2008",
       monthDoc: "ENE",
       nameDoc: "QUEJA 87-07",
@@ -15745,9 +13484,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 49,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "11-ENE",
       numDoc: "ITE-CG 49-2008",
       monthDoc: "ENE",
       nameDoc: "QUEJA 88-07",
@@ -15755,9 +13492,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 50,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "11-ENE",
       numDoc: "ITE-CG 50-2008",
       monthDoc: "ENE",
       nameDoc: "QUEJA 90-07",
@@ -15765,9 +13500,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 51,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "11-ENE",
       numDoc: "ITE-CG 51-2008",
       monthDoc: "ENE",
       nameDoc: "QUEJA 93-07",
@@ -15775,9 +13508,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 52,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "11-ENE",
       numDoc: "ITE-CG 52-2008",
       monthDoc: "ENE",
       nameDoc: "QUEJA 94-07",
@@ -15785,9 +13516,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 53,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "11-ENE",
       numDoc: "ITE-CG 53-2008",
       monthDoc: "ENE",
       nameDoc: "QUEJA 96-07",
@@ -15795,9 +13524,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 54,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "11-ENE",
       numDoc: "ITE-CG 54-2008",
       monthDoc: "ENE",
       nameDoc: "QUEJA 97-07",
@@ -15805,9 +13532,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 55,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "11-ENE",
       numDoc: "ITE-CG 55-2008",
       monthDoc: "ENE",
       nameDoc: "QUEJA 99-07",
@@ -15815,9 +13540,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 56,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "11-ENE",
       numDoc: "ITE-CG 56-2008",
       monthDoc: "ENE",
       nameDoc: "QUEJA 101-07",
@@ -15825,9 +13548,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 57,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "11-ENE",
       numDoc: "ITE-CG 57-2008",
       monthDoc: "ENE",
       nameDoc: "QUEJA 103-07",
@@ -15835,9 +13556,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 58,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "11-ENE",
       numDoc: "ITE-CG 58-2008",
       monthDoc: "ENE",
       nameDoc: "QUEJA 104-07",
@@ -15845,9 +13564,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 59,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "11-ENE",
       numDoc: "ITE-CG 59-2008",
       monthDoc: "ENE",
       nameDoc: "QUEJA 105-07",
@@ -15855,9 +13572,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 60,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "11-ENE",
       numDoc: "ITE-CG 60-2008",
       monthDoc: "ENE",
       nameDoc: "QUEJA 106-07",
@@ -15865,9 +13580,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 61,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "11-ENE",
       numDoc: "ITE-CG 61-2008",
       monthDoc: "ENE",
       nameDoc: "QUEJA 109-07",
@@ -15875,9 +13588,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 62,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "11-ENE",
       numDoc: "ITE-CG 62-2008",
       monthDoc: "ENE",
       nameDoc: "QUEJA 01-07",
@@ -15885,9 +13596,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 63,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "11-ENE",
       numDoc: "ITE-CG 63-2008",
       monthDoc: "ENE",
       nameDoc: "QUEJA 08-07",
@@ -15895,9 +13604,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 64,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "11-ENE",
       numDoc: "ITE-CG 64-2008",
       monthDoc: "ENE",
       nameDoc: "QUEJA 26-07",
@@ -15905,9 +13612,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 65,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "11-ENE",
       numDoc: "ITE-CG 65-2008",
       monthDoc: "ENE",
       nameDoc: "QUEJA 48-07",
@@ -15915,9 +13620,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 66,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "11-ENE",
       numDoc: "ITE-CG 66-2008",
       monthDoc: "ENE",
       nameDoc: "QUEJA 72-07",
@@ -15925,9 +13628,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 67,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "11-ENE",
       numDoc: "ITE-CG 67-2008",
       monthDoc: "ENE",
       nameDoc: "QUEJA 77-07",
@@ -15935,9 +13636,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 68,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "11-ENE",
       numDoc: "ITE-CG 68-2008",
       monthDoc: "ENE",
       nameDoc: "QUEJA 79-07",
@@ -15945,9 +13644,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 69,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "11-ENE",
       numDoc: "ITE-CG 69-2008",
       monthDoc: "ENE",
       nameDoc: "QUEJA 108-07",
@@ -15955,9 +13652,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 70,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "11-ENE",
       numDoc: "ITE-CG 70-2008",
       monthDoc: "ENE",
       nameDoc: "QUEJA 102-07",
@@ -15965,9 +13660,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 71,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "11-ENE",
       numDoc: "ITE-CG 71-2008",
       monthDoc: "ENE",
       nameDoc: "QUEJA 91-07",
@@ -15975,9 +13668,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 72,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "11-ENE",
       numDoc: "ITE-CG 72-2008",
       monthDoc: "ENE",
       nameDoc: "QUEJA 95-07",
@@ -15985,9 +13676,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 73,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "11-ENE",
       numDoc: "ITE-CG 73-2008",
       monthDoc: "ENE",
       nameDoc: "QUEJA 44-07",
@@ -15995,9 +13684,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 74,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "11-ENE",
       numDoc: "ITE-CG 74-2008",
       monthDoc: "ENE",
       nameDoc: "QUEJA 45-07",
@@ -16005,9 +13692,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 75,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "11-ENE",
       numDoc: "ITE-CG 75-2008",
       monthDoc: "ENE",
       nameDoc: "QUEJA 92-07",
@@ -16015,9 +13700,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 76,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "11-ENE",
       numDoc: "ITE-CG 76-2008",
       monthDoc: "ENE",
       nameDoc: "QUEJA 68-07",
@@ -16025,9 +13708,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 77,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "11-ENE",
       numDoc: "ITE-CG 77-2008",
       monthDoc: "ENE",
       nameDoc: "QUEJA 98-07",
@@ -16035,9 +13716,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 78,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "12-ENE",
       numDoc: "ITE-CG 78-2008",
       monthDoc: "ENE",
       nameDoc: "INTEGRACIÓN LIX LEGISLATURA",
@@ -16045,9 +13724,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 79,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "14-ENE",
       numDoc: "ITE-CG 79-2008",
       monthDoc: "ENE",
       nameDoc: "ELEGIBILIDAD AYUNTAMIENTO DE CHIAUTEMPAN",
@@ -16055,9 +13732,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 80,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "14-ENE",
       numDoc: "ITE-CG 80-2008",
       monthDoc: "ENE",
       nameDoc: "QUEJA 04-07",
@@ -16065,9 +13740,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 81,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "14-ENE",
       numDoc: "ITE-CG 81-2008",
       monthDoc: "ENE",
       nameDoc: "QUEJA 05-07",
@@ -16075,9 +13748,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 82,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "14-ENE",
       numDoc: "ITE-CG 82-2008",
       monthDoc: "ENE",
       nameDoc: "QUEJA 06-07",
@@ -16085,9 +13756,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 83,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "14-ENE",
       numDoc: "ITE-CG 83-2008",
       monthDoc: "ENE",
       nameDoc: "QUEJA 23-07",
@@ -16095,9 +13764,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 84,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "14-ENE",
       numDoc: "ITE-CG 84-2008",
       monthDoc: "ENE",
       nameDoc: "QUEJA 33-07",
@@ -16105,9 +13772,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 85,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "14-ENE",
       numDoc: "ITE-CG 85-2008",
       monthDoc: "ENE",
       nameDoc: "QUEJA 36-07",
@@ -16115,9 +13780,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 86,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "14-ENE",
       numDoc: "ITE-CG 86-2008",
       monthDoc: "ENE",
       nameDoc: "QUEJA 37-07",
@@ -16125,9 +13788,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 87,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "14-ENE",
       numDoc: "ITE-CG 87-2008",
       monthDoc: "ENE",
       nameDoc: "QUEJA 38-07",
@@ -16135,9 +13796,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 88,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "14-ENE",
       numDoc: "ITE-CG 88-2008",
       monthDoc: "ENE",
       nameDoc: "QUEJA 39-07",
@@ -16145,9 +13804,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 89,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "14-ENE",
       numDoc: "ITE-CG 89-2008",
       monthDoc: "ENE",
       nameDoc: "QUEJA 46-07",
@@ -16155,9 +13812,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 90,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "14-ENE",
       numDoc: "ITE-CG 90-2008",
       monthDoc: "ENE",
       nameDoc: "QUEJA 55-07",
@@ -16165,9 +13820,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 91,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "14-ENE",
       numDoc: "ITE-CG 91-2008",
       monthDoc: "ENE",
       nameDoc: "QUEJA 61-07",
@@ -16175,9 +13828,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 92,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "14-ENE",
       numDoc: "ITE-CG 92-2008",
       monthDoc: "ENE",
       nameDoc: "QUEJA 62-07",
@@ -16185,9 +13836,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 93,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "14-ENE",
       numDoc: "ITE-CG 93-2008",
       monthDoc: "ENE",
       nameDoc: "QUEJA 63-07",
@@ -16195,9 +13844,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 94,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "14-ENE",
       numDoc: "ITE-CG 94-2008",
       monthDoc: "ENE",
       nameDoc: "QUEJA 65-07",
@@ -16205,9 +13852,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 95,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "14-ENE",
       numDoc: "ITE-CG 95-2008",
       monthDoc: "ENE",
       nameDoc: "QUEJA 67-07",
@@ -16215,9 +13860,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 96,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "14-ENE",
       numDoc: "ITE-CG 96-2008",
       monthDoc: "ENE",
       nameDoc: "QUEJA 76-07",
@@ -16225,9 +13868,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 97,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "14-ENE",
       numDoc: "ITE-CG 97-2008",
       monthDoc: "ENE",
       nameDoc: "QUEJA 82-07",
@@ -16235,9 +13876,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 98,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "14-ENE",
       numDoc: "ITE-CG 98-2008",
       monthDoc: "ENE",
       nameDoc: "QUEJA 86-07",
@@ -16245,9 +13884,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 99,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "14-ENE",
       numDoc: "ITE-CG 99-2008",
       monthDoc: "ENE",
       nameDoc: "QUEJA 89-07",
@@ -16255,9 +13892,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 100,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "14-ENE",
       numDoc: "ITE-CG 100-2008",
       monthDoc: "ENE",
       nameDoc: "QUEJA 100-07",
@@ -16265,9 +13900,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 101,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "14-ENE",
       numDoc: "ITE-CG 101-2008",
       monthDoc: "ENE",
       nameDoc: "QUEJA 107-07",
@@ -16275,9 +13908,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 102,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "14-ENE",
       numDoc: "ITE-CG 102-2008",
       monthDoc: "ENE",
       nameDoc: "QUEJA 110-07",
@@ -16285,9 +13916,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 103,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "14-ENE",
       numDoc: "ITE-CG 103-2008",
       monthDoc: "ENE",
       nameDoc: "QUEJA 66-07",
@@ -16295,9 +13924,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 104,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "31-ENE",
       numDoc: "ITE-CG 104-2008",
       monthDoc: "ENE",
       nameDoc: "NORMATIVIDAD REGLAMENTO 2008 ULTIMO",
@@ -16305,9 +13932,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 105,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "07-FEB",
       numDoc: "ITE-CG 105-2008",
       monthDoc: "FEB",
       nameDoc: "CALENDARIO ELECCIÓN EXTRAORDINARIA",
@@ -16318,9 +13943,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 106,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "12-FEB",
       numDoc: "ITE-CG 106-2008",
       monthDoc: "FEB",
       nameDoc:
@@ -16329,9 +13952,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 107,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "14-FEB",
       numDoc: "ITE-CG 107-2008",
       monthDoc: "FEB",
       nameDoc: "PLATAFORMA PS",
@@ -16339,9 +13960,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 108,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "19-FEB",
       numDoc: "ITE-CG 108-2008",
       monthDoc: "FEB",
       nameDoc: "REGISTRO CANDIDATOS PARTIDO SOCIALISTA POCITOS",
@@ -16349,9 +13968,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 109,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "19-FEB",
       numDoc: "ITE-CG 109-2008",
       monthDoc: "FEB",
       nameDoc: "REGISTRO CANDIDATOS CIUDADANIA POCITOS",
@@ -16359,9 +13976,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 110,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "13-MAR",
       numDoc: "ITE-CG 110-2008",
       monthDoc: "MAR",
       nameDoc: "APROBACIÓN INFORME GENERAL 2007",
@@ -16369,9 +13984,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 111,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "31-MAR",
       numDoc: "ITE-CG 111-2008",
       monthDoc: "MAR",
       nameDoc: "RENOVACIÓN COMISIÓN DEMARCACIÓN DISTRITAL",
@@ -16379,9 +13992,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 112,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "04-ABR",
       numDoc: "ITE-CG 112-2008",
       monthDoc: "ABR",
       nameDoc: "SELECCIÓN MATERIAL Y DOCUMENTACIÓN ELECTORAL",
@@ -16389,9 +14000,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 113,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "04-ABR",
       numDoc: "ITE-CG 113-2008",
       monthDoc: "ABR",
       nameDoc: "REGIMEN DE FINANCIAMIENTO Y FISCALIZACIÓN 2008",
@@ -16414,9 +14023,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 114,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "30-ABR",
       numDoc: "ITE-CG 114-2008",
       monthDoc: "ABR",
       nameDoc: "JUNTA GENERAL EJECUTIVA",
@@ -16424,9 +14031,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 115,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "29-MAY",
       numDoc: "ITE-CG 115-2008",
       monthDoc: "MAY",
       nameDoc: "ACCESO A LA INFORMACION 29-05-08",
@@ -16434,9 +14039,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 116,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "23-JUN",
       numDoc: "ITE-CG 116-2008",
       monthDoc: "JUN",
       nameDoc: "DICTAMEN PAN",
@@ -16444,9 +14047,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 117,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "23-JUN",
       numDoc: "ITE-CG 117-2008",
       monthDoc: "JUN",
       nameDoc: "DICTAMEN PRI",
@@ -16454,9 +14055,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 118,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "23-JUN",
       numDoc: "ITE-CG 118-2008",
       monthDoc: "JUN",
       nameDoc: "DICTAMEN PRD",
@@ -16464,9 +14063,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 119,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "23-JUN",
       numDoc: "ITE-CG 119-2008",
       monthDoc: "JUN",
       nameDoc: "DICTAMEN PT",
@@ -16474,9 +14071,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 120,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "23-JUN",
       numDoc: "ITE-CG 120-2008",
       monthDoc: "JUN",
       nameDoc: "DICTAMEN PVEM",
@@ -16484,9 +14079,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 121,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "23-JUN",
       numDoc: "ITE-CG 121-2008",
       monthDoc: "JUN",
       nameDoc: "DICTAMEN CONVERGENCIA",
@@ -16494,9 +14087,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 122,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "23-JUN",
       numDoc: "ITE-CG 122-2008",
       monthDoc: "JUN",
       nameDoc: "DICTAMEN PNA",
@@ -16504,9 +14095,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 123,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "23-JUN",
       numDoc: "ITE-CG 123-2008",
       monthDoc: "JUN",
       nameDoc: "DICTAMEN PAS",
@@ -16514,9 +14103,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 124,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "23-JUN",
       numDoc: "ITE-CG 124-2008",
       monthDoc: "JUN",
       nameDoc: "DICTAMEN PAC",
@@ -16524,9 +14111,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 125,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "23-JUN",
       numDoc: "ITE-CG 125-2008",
       monthDoc: "JUN",
       nameDoc: "DICTAMEN PS-1",
@@ -16534,9 +14119,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 126,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "23-JUN",
       numDoc: "ITE-CG 126-2008",
       monthDoc: "JUN",
       nameDoc: "DICTAMEN PCDT",
@@ -16544,9 +14127,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 127,
-      year: "2008",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "30-JUN",
       numDoc: "ITE-CG 127-2008",
       monthDoc: "JUN",
       nameDoc: "ACUERDO CUMPL. RESOLUCIÓN NORMATIVIDAD",
@@ -16554,9 +14135,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 128,
-      year: "2008",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "31-JUL",
       numDoc: "ITE-CG 128-2008",
       monthDoc: "JUL",
       nameDoc: "SANCIÓN PAN",
@@ -16564,9 +14143,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 129,
-      year: "2008",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "31-JUL",
       numDoc: "ITE-CG 129-2008",
       monthDoc: "JUL",
       nameDoc: "SANCIÓN PRI",
@@ -16574,9 +14151,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 130,
-      year: "2008",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "31-JUL",
       numDoc: "ITE-CG 130-2008",
       monthDoc: "JUL",
       nameDoc: "SANCIÓN PRD",
@@ -16584,9 +14159,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 131,
-      year: "2008",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "31-JUL",
       numDoc: "ITE-CG 131-2008",
       monthDoc: "JUL",
       nameDoc: "SANCIÓN PT",
@@ -16594,9 +14167,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 132,
-      year: "2008",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "31-JUL",
       numDoc: "ITE-CG 132-2008",
       monthDoc: "JUL",
       nameDoc: "SANCIÓN PVEM",
@@ -16604,9 +14175,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 133,
-      year: "2008",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "31-JUL",
       numDoc: "ITE-CG 133-2008",
       monthDoc: "JUL",
       nameDoc: "SANCIÓN PAS",
@@ -16614,9 +14183,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 134,
-      year: "2008",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "31-JUL",
       numDoc: "ITE-CG 134-2008",
       monthDoc: "JUL",
       nameDoc: "SANCIÓN PS",
@@ -16624,9 +14191,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 135,
-      year: "2008",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "31-JUL",
       numDoc: "ITE-CG 135-2008",
       monthDoc: "JUL",
       nameDoc: "SANCIÓN PCDT",
@@ -16634,9 +14199,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 136,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "15-AGO",
       numDoc: "ITE-CG 136-2008",
       monthDoc: "AGO",
       nameDoc: "REDISTRITACIÓN 2",
@@ -16644,9 +14207,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 137,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "30-SEP",
       numDoc: "ITE-CG 137-2008",
       monthDoc: "SEP",
       nameDoc: "PRESUPUESTO 2009",
@@ -16654,9 +14215,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 138,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "31-OCT",
       numDoc: "ITE-CG 138-2008",
       monthDoc: "OCT",
       nameDoc: "PRERROGATIVAS PS",
@@ -16664,9 +14223,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 139,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "23-DIC",
       numDoc: "ITE-CG 139-2008",
       monthDoc: "DIC",
       nameDoc: "METODOLOGIA LIBERAL TLAXCALTECA",
@@ -16680,9 +14237,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 140,
-      year: "2008",
       typeDoc: "ACUERDO",
-      dateDoc: "23-DIC",
       numDoc: "ITE-CG 140-2008",
       monthDoc: "DIC",
       nameDoc: "ACUERDO JAVIER HERNANDEZ ATLAHAPA",
@@ -16693,9 +14248,7 @@ export const dataAcuerdosITE = {
   2007: [
     {
       id: 1,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "04-ENE",
       numDoc: "ITE-CG 01-2007",
       monthDoc: "ENE",
       nameDoc: "CUMPLIMIENTO RESOLUCIÓN TOCA 96-2006 PCDT-1",
@@ -16703,9 +14256,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 2,
-      year: "2007",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "31-ENE",
       numDoc: "ITE-CG 02-2007",
       monthDoc: "ENE",
       nameDoc: "TOCA 55-2006 PCDT",
@@ -16713,9 +14264,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 3,
-      year: "2007",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "31-ENE",
       numDoc: "ITE-CG 03-2007",
       monthDoc: "ENE",
       nameDoc: "TOCA 56-2006 PCDT",
@@ -16723,9 +14272,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 4,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "31-ENE",
       numDoc: "ITE-CG 04-2007",
       monthDoc: "ENE",
       nameDoc: "CALENDARIO ELECTORAL",
@@ -16735,9 +14282,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 5,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "16-FEB",
       numDoc: "ITE-CG 05-2007",
       monthDoc: "FEB",
       nameDoc: "CONVOCATORIA JURÍDICO Y ADMINISTRATIVO",
@@ -16745,9 +14290,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 6,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "28-FEB",
       numDoc: "ITE-CG 06-2007",
       monthDoc: "FEB",
       nameDoc: "DETERMINACIÓN REGIDORES 2007 1",
@@ -16755,9 +14298,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 7,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "28-FEB",
       numDoc: "ITE-CG 07-2007",
       monthDoc: "FEB",
       nameDoc: "FECHA INICIO PROCESO ELECTORAL 2007-1",
@@ -16765,9 +14306,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 8,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "13-MAR",
       numDoc: "ITE-CG 08-2007",
       monthDoc: "MAR",
       nameDoc: "PCDT",
@@ -16775,9 +14314,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 9,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "15-MAR",
       numDoc: "ITE-CG 09-2007",
       monthDoc: "MAR",
       nameDoc: "DICTAMEN PS",
@@ -16785,9 +14322,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 10,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "30-MAR",
       numDoc: "ITE-CG 10-2007",
       monthDoc: "MAR",
       nameDoc: "ADOPCIÓN SECCIONAMIENTO ELECTORAL",
@@ -16795,9 +14330,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 11,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "30-MAR",
       numDoc: "ITE-CG 11-2007",
       monthDoc: "MAR",
       nameDoc: "DE INFORMÁTICA",
@@ -16805,9 +14338,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 12,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "30-MAR",
       numDoc: "ITE-CG 12-2007",
       monthDoc: "MAR",
       nameDoc: "DE COMUNICACION SOCIAL",
@@ -16815,9 +14346,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 13,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "14-ABR",
       numDoc: "ITE-CG 13-2007",
       monthDoc: "ABR",
       nameDoc: "CATALOGO USOS Y COSTUMBRES",
@@ -16825,9 +14354,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 14,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "14-ABR",
       numDoc: "ITE-CG 14-2007",
       monthDoc: "ABR",
       nameDoc: "RATIFICACIÓN DE VIGENCIA NORMATIVIDAD",
@@ -16838,9 +14365,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 15,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "20-ABR",
       numDoc: "ITE-CG 15-2007",
       monthDoc: "ABR",
       nameDoc: "MONITOREO",
@@ -16848,9 +14373,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 16,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "27-ABR",
       numDoc: "ITE-CG 16-2007",
       monthDoc: "ABR",
       nameDoc: "DIRECTOR DE ASUNTOS JURÍDICOS",
@@ -16858,9 +14381,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 17,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "27-ABR",
       numDoc: "ITE-CG 17-2007",
       monthDoc: "ABR",
       nameDoc: "DIRECTOR DE PRERROGATIVAS",
@@ -16868,9 +14389,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 18,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "09-MAY",
       numDoc: "ITE-CG 18-2007",
       monthDoc: "MAY",
       nameDoc: "CONVOCATORIA ELECCIONES",
@@ -16878,9 +14397,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 19,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "09-MAY",
       numDoc: "ITE-CG 19-2007",
       monthDoc: "MAY",
       nameDoc: "COMITÉ DE ADQUISICIONES",
@@ -16888,9 +14405,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 20,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "09-MAY",
       numDoc: "ITE-CG 20-2007",
       monthDoc: "MAY",
       nameDoc: "NUEVO LOGOTIPO",
@@ -16898,9 +14413,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 21,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "13-MAY",
       numDoc: "ITE-CG 21-2007",
       monthDoc: "MAY",
       nameDoc: "DICTAMEN DEL PAN",
@@ -16908,9 +14421,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 22,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "13-MAY",
       numDoc: "ITE-CG 22-2007",
       monthDoc: "MAY",
       nameDoc: "DICTAMEN DEL PRI",
@@ -16918,9 +14429,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 23,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "13-MAY",
       numDoc: "ITE-CG 23-2007",
       monthDoc: "MAY",
       nameDoc: "DICTAMEN DEL PRD",
@@ -16928,9 +14437,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 24,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "13-MAY",
       numDoc: "ITE-CG 24-2007",
       monthDoc: "MAY",
       nameDoc: "DICTAMEN DEL PT",
@@ -16938,9 +14445,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 25,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "13-MAY",
       numDoc: "ITE-CG 25-2007",
       monthDoc: "MAY",
       nameDoc: "DICTAMEN DEL PVEM",
@@ -16948,9 +14453,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 26,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "13-MAY",
       numDoc: "ITE-CG 26-2007",
       monthDoc: "MAY",
       nameDoc: "DICTAMEN DEL CONVERGENCIA",
@@ -16958,9 +14461,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 27,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "13-MAY",
       numDoc: "ITE-CG 27-2007",
       monthDoc: "MAY",
       nameDoc: "DICTAMEN DEL PCDT",
@@ -16968,9 +14469,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 28,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "13-MAY",
       numDoc: "ITE-CG 28-2007",
       monthDoc: "MAY",
       nameDoc: "DICTAMEN DEL NUEVA ALIANZA",
@@ -16978,9 +14477,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 29,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "13-MAY",
       numDoc: "ITE-CG 29-2007",
       monthDoc: "MAY",
       nameDoc: "DICTAMEN DE ALTERNATIVA SOCIAL DEMÓCRATA Y CAMPESINA",
@@ -16988,9 +14485,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 30,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "25-MAY",
       numDoc: "ITE-CG 30-2007",
       monthDoc: "MAY",
       nameDoc: "LINEAMIENTOS Y CONVOCATORIA PARA OBSERVADORES",
@@ -16998,9 +14493,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 31,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "31-MAY",
       numDoc: "ITE-CG 31-2007",
       monthDoc: "MAY",
       nameDoc: "IFE-IET",
@@ -17008,9 +14501,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 32,
-      year: "2007",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "31-MAY",
       numDoc: "ITE-CG 32-2007",
       monthDoc: "MAY",
       nameDoc: "SANCIÓN ",
@@ -17018,9 +14509,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 33,
-      year: "2007",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "31-MAY",
       numDoc: "ITE-CG 33-2007",
       monthDoc: "MAY",
       nameDoc: "SANCIÓN ",
@@ -17028,9 +14517,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 34,
-      year: "2007",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "31-MAY",
       numDoc: "ITE-CG 34-2007",
       monthDoc: "MAY",
       nameDoc: "SANCIÓN ",
@@ -17038,9 +14525,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 35,
-      year: "2007",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "31-MAY",
       numDoc: "ITE-CG 35-2007",
       monthDoc: "MAY",
       nameDoc: "SANCIÓN ",
@@ -17048,9 +14533,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 36,
-      year: "2007",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "31-MAY",
       numDoc: "ITE-CG 36-2007",
       monthDoc: "MAY",
       nameDoc: "SANCIÓN ",
@@ -17058,9 +14541,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 37,
-      year: "2007",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "31-MAY",
       numDoc: "ITE-CG 37-2007",
       monthDoc: "MAY",
       nameDoc: "SANCIÓN ",
@@ -17068,9 +14549,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 38,
-      year: "2007",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "31-MAY",
       numDoc: "ITE-CG 38-2007",
       monthDoc: "MAY",
       nameDoc: "SANCIÓN ",
@@ -17078,9 +14557,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 39,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "12-JUN",
       numDoc: "ITE-CG 39-2007",
       monthDoc: "JUN",
       nameDoc: "AMPLIACIÓN PLAZO OBSERVADORES 2007",
@@ -17088,9 +14565,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 40,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "15-JUN",
       numDoc: "ITE-CG 40-2007",
       monthDoc: "JUN",
       nameDoc: "CONVOCATORIA CONSEJOS DISTRITALES Y MUNICIPALES 2007",
@@ -17098,9 +14573,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 41,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "26-JUN",
       numDoc: "ITE-CG 41-2007",
       monthDoc: "JUN",
       nameDoc: "PT",
@@ -17108,9 +14581,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 42,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "28-JUN",
       numDoc: "ITE-CG 42-2007",
       monthDoc: "JUN",
       nameDoc: "DIRECTOR DE ORGANIZACIÓN",
@@ -17118,9 +14589,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 43,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "28-JUN",
       numDoc: "ITE-CG 43-2007",
       monthDoc: "JUN",
       nameDoc: "AMPLIACIÓN PLAZO CONSEJOS DISTRITALES Y MUNICIPALES",
@@ -17128,9 +14597,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 44,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "13-JUL",
       numDoc: "ITE-CG 44-2007",
       monthDoc: "JUL",
       nameDoc: "INSACULACIÓN",
@@ -17138,9 +14605,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 45,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "27-JUL",
       numDoc: "ITE-CG 45-2007",
       monthDoc: "JUL",
       nameDoc: "CUMPLIMIENTO PT",
@@ -17148,9 +14613,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 46,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "31-JUL",
       numDoc: "ITE-CG 46-2007",
       monthDoc: "JUL",
       nameDoc: "PROTECCIÓN DE ZONAS",
@@ -17158,9 +14621,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 47,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "03-AGO",
       numDoc: "ITE-CG 47-2007",
       monthDoc: "AGO",
       nameDoc: "COALICIÓN ALIANZA PROGRESO PARA TLAXCALA",
@@ -17168,9 +14629,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 48,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "03-AGO",
       numDoc: "ITE-CG 48-2007",
       monthDoc: "AGO",
       nameDoc: "COALICIÓN ALIANZA SIGLO XXI",
@@ -17178,9 +14637,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 49,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "09-AGO",
       numDoc: "ITE-CG 49-2007",
       monthDoc: "AGO",
       nameDoc: "RESULTADO INSACULACIÓN",
@@ -17188,9 +14645,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 50,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "15-AGO",
       numDoc: "ITE-CG 50-2007",
       monthDoc: "AGO",
       nameDoc: "INTEGRACIÓN DE LOS CONSEJOS DISTRITALES",
@@ -17198,9 +14653,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 51,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "15-AGO",
       numDoc: "ITE-CG 51-2007",
       monthDoc: "AGO",
       nameDoc: "CRITERIOS CANDIDATOS",
@@ -17208,9 +14661,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 52,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "15-AGO",
       numDoc: "ITE-CG 52-2007",
       monthDoc: "AGO",
       nameDoc: "PLATAFORMAS PRD",
@@ -17218,9 +14669,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 53,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "15-AGO",
       numDoc: "ITE-CG 53-2007",
       monthDoc: "AGO",
       nameDoc: "PROYECTO DE ACUERDO PLATAFORMA ELECTORAL PT",
@@ -17228,9 +14677,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 54,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "15-AGO",
       numDoc: "ITE-CG 54-2007",
       monthDoc: "AGO",
       nameDoc: "PLATAFORMA CONVERGENCIA",
@@ -17238,9 +14685,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 55,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "15-AGO",
       numDoc: "ITE-CG 55-2007",
       monthDoc: "AGO",
       nameDoc: "PLATAFORMA PCDT",
@@ -17248,9 +14693,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 56,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "15-AGO",
       numDoc: "ITE-CG 56-2007",
       monthDoc: "AGO",
       nameDoc: "PLATAFORMA NUEVA ALIANZA",
@@ -17258,9 +14701,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 57,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "15-AGO",
       numDoc: "ITE-CG 57-2007",
       monthDoc: "AGO",
       nameDoc: "PLATAFORMA ALTERNATIVA SOCIAL DEMÓCRATA",
@@ -17268,9 +14709,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 58,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "15-AGO",
       numDoc: "ITE-CG 58-2007",
       monthDoc: "AGO",
       nameDoc: "PROYECTO DE ACUERDO PLATAFORMA ELECTORAL PS",
@@ -17278,9 +14717,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 59,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "15-AGO",
       numDoc: "ITE-CG 59-2007",
       monthDoc: "AGO",
       nameDoc: "DE COMISIÓN DE MEDIOS DE COMUNICACIÓN",
@@ -17288,9 +14725,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 60,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "15-AGO",
       numDoc: "ITE-CG 60-2007",
       monthDoc: "AGO",
       nameDoc: "COMISIONES BOLETAS Y REGISTRO CANDIDATOS",
@@ -17298,9 +14733,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 61,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "31-AGO",
       numDoc: "ITE-CG 61-2007",
       monthDoc: "AGO",
       nameDoc: "COALICIÓN APIZACO",
@@ -17308,9 +14741,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 62,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "31-AGO",
       numDoc: "ITE-CG 62-2007",
       monthDoc: "AGO",
       nameDoc: "COALICIÓN ALIANZA SIGLO XXI",
@@ -17318,9 +14749,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 63,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "31-AGO",
       numDoc: "ITE-CG 63-2007",
       monthDoc: "AGO",
       nameDoc: "COAL.AYUN. PRI, VERDE,PS. MPIO. TENANCINGO Y TLAX",
@@ -17328,9 +14757,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 64,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "31-AGO",
       numDoc: "ITE-CG 64-2007",
       monthDoc: "AGO",
       nameDoc: "COALICIÓN PAN-PAC AYUNTAMIENTOS",
@@ -17338,9 +14765,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 65,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "31-AGO",
       numDoc: "ITE-CG 65-2007",
       monthDoc: "AGO",
       nameDoc: "COALICIÓN PAN-PAN PRESIDENTES DE COMUNIDAD",
@@ -17348,9 +14773,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 66,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "31-AGO",
       numDoc: "ITE-CG 66-2007",
       monthDoc: "AGO",
       nameDoc: "PLATAFORMA PRD",
@@ -17358,9 +14781,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 67,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "03-SEP",
       numDoc: "ITE-CG 67-2007",
       monthDoc: "SEP",
       nameDoc: "REGISTRO DIPUTADOS PARTIDO DEL TRABAJO",
@@ -17368,9 +14789,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 68,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "03-SEP",
       numDoc: "ITE-CG 68-2007",
       monthDoc: "SEP",
       nameDoc: "REGISTRO DE CANDIDATOS A DIPUTADOS ALTERNATIVA SOCIALDEMÓCRATA",
@@ -17378,9 +14797,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 69,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "03-SEP",
       numDoc: "ITE-CG 69-2007",
       monthDoc: "SEP",
       nameDoc: "REGISTRO DE CANDIDATOS A DIPUTADOS CONVERGENCIA",
@@ -17388,9 +14805,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 70,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "03-SEP",
       numDoc: "ITE-CG 70-2007",
       monthDoc: "SEP",
       nameDoc: "REGISTRO DE CANDIDATOS A DIPUTADOS PAN-PAC",
@@ -17398,9 +14813,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 71,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "03-SEP",
       numDoc: "ITE-CG 71-2007",
       monthDoc: "SEP",
       nameDoc: "REGISTRO DE CANDIDATOS A DIPUTADOS PRI-PVEM",
@@ -17408,9 +14821,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 72,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "03-SEP",
       numDoc: "ITE-CG 72-2007",
       monthDoc: "SEP",
       nameDoc: "REGISTRO DE CANDIDATOS A DIPUTADOS PARTIDO NUEVA ALIANZA",
@@ -17418,9 +14829,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 73,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "03-SEP",
       numDoc: "ITE-CG 73-2007",
       monthDoc: "SEP",
       nameDoc:
@@ -17429,9 +14838,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 74,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "03-SEP",
       numDoc: "ITE-CG 74-2007",
       monthDoc: "SEP",
       nameDoc: "REGISTRO DE CANDIDATOS A DIPUTADOS PARTIDO SOCIALISTA",
@@ -17439,9 +14846,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 75,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "03-SEP",
       numDoc: "ITE-CG 75-2007",
       monthDoc: "SEP",
       nameDoc:
@@ -17450,9 +14855,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 76,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "03-SEP",
       numDoc: "ITE-CG 76-2007",
       monthDoc: "SEP",
       nameDoc: "DISTRIBUCIÓN FINANCIAMIENTO OBTENCIÓN DEL VOTO",
@@ -17460,9 +14863,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 77,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "03-SEP",
       numDoc: "ITE-CG 77-2007",
       monthDoc: "SEP",
       nameDoc: "TOPES DE CAMPAÑA 2007",
@@ -17470,9 +14871,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 78,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "03-SEP",
       numDoc: "ITE-CG 78-2007",
       monthDoc: "SEP",
       nameDoc: "ASIGNACIÓN TIEMPOS Y ESPACIOS",
@@ -17480,9 +14879,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 79,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "03-SEP",
       numDoc: "ITE-CG 79-2007",
       monthDoc: "SEP",
       nameDoc: "CARACTERÍSTICAS BASES LICITACIÓN Y ANEXO",
@@ -17490,9 +14887,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 80,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "12-SEP",
       numDoc: "ITE-CG 80-2007",
       monthDoc: "SEP",
       nameDoc: "INTEGRACIÓN DE CONSEJOS MUNICIPALES 2007",
@@ -17500,9 +14895,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 81,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "14-SEP",
       numDoc: "ITE-CG 81-2007",
       monthDoc: "SEP",
       nameDoc: "PLATAFORMA PARTIDO REVOLUCIONARIO INSTITUCIONAL",
@@ -17510,9 +14903,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 82,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "14-SEP",
       numDoc: "ITE-CG 82-2007",
       monthDoc: "SEP",
       nameDoc: "PLATAFORMA PVEM",
@@ -17520,9 +14911,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 83,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "14-SEP",
       numDoc: "ITE-CG 83-2007",
       monthDoc: "SEP",
       nameDoc: "MODIFICACIÓN COALICIÓN PRI-PVEM-CONV",
@@ -17530,9 +14919,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 84,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "14-SEP",
       numDoc: "ITE-CG 84-2007",
       monthDoc: "SEP",
       nameDoc: "PLATAFORMA CONVERGENCIA AY PC",
@@ -17540,9 +14927,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 85,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "14-SEP",
       numDoc: "ITE-CG 85-2007",
       monthDoc: "SEP",
       nameDoc: "PLATAFORMA NUEVA ALIANZA AY PC",
@@ -17550,9 +14935,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 86,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "14-SEP",
       numDoc: "ITE-CG 86-2007",
       monthDoc: "SEP",
       nameDoc: "PLATAFORMA ALTERNATIVA SOCIAL DEMÓCRATA MUNICIPIOS",
@@ -17560,9 +14943,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 87,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "14-SEP",
       numDoc: "ITE-CG 87-2007",
       monthDoc: "SEP",
       nameDoc: "SUSTITUCIÓN CONVERGENCIA DIP PROP DTTO. XV",
@@ -17570,9 +14951,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 88,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "14-SEP",
       numDoc: "ITE-CG 88-2007",
       monthDoc: "SEP",
       nameDoc: "SUSTITUCIÓN DE CANDIDATO DIP PROP DISTRITO XVI CONVERGENCIA",
@@ -17580,9 +14959,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 89,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "14-SEP",
       numDoc: "ITE-CG 89-2007",
       monthDoc: "SEP",
       nameDoc: "SUSTITUCIÓN DE CANDIDATO IV CONVERGENCIA",
@@ -17590,9 +14967,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 90,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "14-SEP",
       numDoc: "ITE-CG 90-2007",
       monthDoc: "SEP",
       nameDoc: "SUSTITUCIÓN DE CANDIDATO DIPUTADO SUPLENTE I - PRD",
@@ -17600,9 +14975,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 91,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "14-SEP",
       numDoc: "ITE-CG 91-2007",
       monthDoc: "SEP",
       nameDoc:
@@ -17611,9 +14984,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 92,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "14-SEP",
       numDoc: "ITE-CG 92-2007",
       monthDoc: "SEP",
       nameDoc: "SUSTITUCIÓN NUEVA ALIANZA PROPIETARIO FORMULA",
@@ -17621,9 +14992,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 93,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "14-SEP",
       numDoc: "ITE-CG 93-2007",
       monthDoc: "SEP",
       nameDoc: "SUSTITUCIÓN SUPLENTE NUEVA ALIANZA 1",
@@ -17631,9 +15000,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 94,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "14-SEP",
       numDoc: "ITE-CG 94-2007",
       monthDoc: "SEP",
       nameDoc: "SUSTITUCIÓN SUPLENTE DTTO V ALIANZA PROGRESO P TLAX",
@@ -17641,9 +15008,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 95,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "14-SEP",
       numDoc: "ITE-CG 95-2007",
       monthDoc: "SEP",
       nameDoc: "SUSTITUCIÓN DE PRD DISTRITO XIX, PROPIETARIOS",
@@ -17651,9 +15016,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 96,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "14-SEP",
       numDoc: "ITE-CG 96-2007",
       monthDoc: "SEP",
       nameDoc: "MODIFICACIÓN DEL ACUERDO CG 51-2007",
@@ -17661,9 +15024,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 97,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "25-SEP",
       numDoc: "ITE-CG 97-2007",
       monthDoc: "SEP",
       nameDoc: "LICITACIÓN ADQUISIÓN MATERIAL ELECTORAL",
@@ -17673,9 +15034,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 98,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "28-SEP",
       numDoc: "ITE-CG 98-2007",
       monthDoc: "SEP",
       nameDoc: "PRESUPUESTO 2008",
@@ -17683,9 +15042,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 99,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "30-SEP",
       numDoc: "ITE-CG 99-2007",
       monthDoc: "SEP",
       nameDoc: "SUST. DIP. PS DTTO. XIV",
@@ -17693,9 +15050,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 100,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "30-SEP",
       numDoc: "ITE-CG 100-2007",
       monthDoc: "SEP",
       nameDoc: "SUST. DIP. PS DTTO. II",
@@ -17703,9 +15058,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 102,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "30-SEP",
       numDoc: "ITE-CG 102-2007",
       monthDoc: "SEP",
       nameDoc: "SUSTITUCIÓN DE CANDIDATO DIP PT DTTO",
@@ -17713,9 +15066,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 103,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "30-SEP",
       numDoc: "ITE-CG 103-2007",
       monthDoc: "SEP",
       nameDoc: "SUSTITUCIÓN DE CANDIDATO PROPIETARIO DISTRITO XVIII PRD",
@@ -17723,9 +15074,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 104,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "30-SEP",
       numDoc: "ITE-CG 104-2007",
       monthDoc: "SEP",
       nameDoc: "SUSTITUCIÓN DE CANDIDATO SUPLENTE DISTRITO XVIII PRD",
@@ -17733,9 +15082,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 105,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "30-SEP",
       numDoc: "ITE-CG 105-2007",
       monthDoc: "SEP",
       nameDoc: "SUSTITUCIÓN DE CANDIDATO SUPLENTE FORMULA 13 CONVERGENCIA",
@@ -17743,9 +15090,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 106,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "30-SEP",
       numDoc: "ITE-CG 106-2007",
       monthDoc: "SEP",
       nameDoc: "SUST DIP PROP. DTTO XIX PS",
@@ -17753,9 +15098,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 107,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "30-SEP",
       numDoc: "ITE-CG 107-2007",
       monthDoc: "SEP",
       nameDoc: "SUSTITUCIÓN ALTERNATIVA VI PROPIETARIO",
@@ -17763,9 +15106,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 108,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "30-SEP",
       numDoc: "ITE-CG 108-2007",
       monthDoc: "SEP",
       nameDoc: "SUSTITUCIÓN ALTERNATIVA VI SUPLENTE",
@@ -17773,9 +15114,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 109,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "30-SEP",
       numDoc: "ITE-CG 109-2007",
       monthDoc: "SEP",
       nameDoc: "SUSTITUCIÓN CONSEJEROS DISTRITALES 30 SEPTIEMBRE ULTIMO",
@@ -17783,9 +15122,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 110,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "30-SEP",
       numDoc: "ITE-CG 110-2007",
       monthDoc: "SEP",
       nameDoc: "SUSTITUCIÓN CONSEJEROS MUNICIPALES 30 SEPTIEMBRE",
@@ -17793,9 +15130,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 111,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "01-OCT",
       numDoc: "ITE-CG 111-2007",
       monthDoc: "OCT",
       nameDoc: "CUMPLIMIENTO RESOLUCIÓN TOCA 182-2007 PRD",
@@ -17803,9 +15138,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 112,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "04-OCT",
       numDoc: "ITE-CG 112-2007",
       monthDoc: "OCT",
       nameDoc: "REG. AYTO. Y PTES COM. PAN-PAC2007",
@@ -17813,9 +15146,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 113,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "04-OCT",
       numDoc: "ITE-CG 113-2007",
       monthDoc: "OCT",
       nameDoc: "ALIANZA SIGLO XXI INTEGRANTES DE AYUNTAMIENTO",
@@ -17823,9 +15154,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 114,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "04-OCT",
       numDoc: "ITE-CG 114-2007",
       monthDoc: "OCT",
       nameDoc: "AYUNTAMIENTOS DE TLAXCALA, TENANCINGO. ALIANZA SIGLO XXI",
@@ -17833,9 +15162,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 115,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "04-OCT",
       numDoc: "ITE-CG 115-2007",
       monthDoc: "OCT",
       nameDoc: "ALIANZA POR APIZACO",
@@ -17843,9 +15170,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 116,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "04-OCT",
       numDoc: "ITE-CG 116-2007",
       monthDoc: "OCT",
       nameDoc: "PRI INTEGRANTES DE AYUNTAMIENTO",
@@ -17853,9 +15178,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 117,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "04-OCT",
       numDoc: "ITE-CG 117-2007",
       monthDoc: "OCT",
       nameDoc: "REGISTRO AYUNTAMIENTOS PRD",
@@ -17863,9 +15186,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 118,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "04-OCT",
       numDoc: "ITE-CG 118-2007",
       monthDoc: "OCT",
       nameDoc: "REGISTRO AYTOS Y PCS PT (DE ACDO A MODELO)",
@@ -17873,9 +15194,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 119,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "04-OCT",
       numDoc: "ITE-CG 119-2007",
       monthDoc: "OCT",
       nameDoc: "PVEM INTEGRANTES DE AYUNTAMIENTO",
@@ -17883,9 +15202,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 120,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "04-OCT",
       numDoc: "ITE-CG 120-2007",
       monthDoc: "OCT",
       nameDoc: "INTEGRANTES AYUNTAMIENTO CONVERGENCIA",
@@ -17893,9 +15210,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 121,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "04-OCT",
       numDoc: "ITE-CG 121-2007",
       monthDoc: "OCT",
       nameDoc: "INTEGRANTES AYUNTAMIENTO PCDT",
@@ -17903,9 +15218,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 122,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "04-OCT",
       numDoc: "ITE-CG 122-2007",
       monthDoc: "OCT",
       nameDoc: "INTEGRANTES AYUNTAMIENTO NUEVA ALIANZA",
@@ -17913,9 +15226,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 123,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "04-OCT",
       numDoc: "ITE-CG 123-2007",
       monthDoc: "OCT",
       nameDoc: "INTEGRANTES AYUNTAMIENTO ALTERNATIVA",
@@ -17923,9 +15234,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 124,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "04-OCT",
       numDoc: "ITE-CG 124-2007",
       monthDoc: "OCT",
       nameDoc: "INTEGRANTES AYUNTAMIENTO PARTIDO SOCIALISTA",
@@ -17933,9 +15242,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 125,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "04-OCT",
       numDoc: "ITE-CG 125-2007",
       monthDoc: "OCT",
       nameDoc: "REGISTRO PRESIDENTES DE COMUNIDAD",
@@ -17943,9 +15250,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 126,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "04-OCT",
       numDoc: "ITE-CG 126-2007",
       monthDoc: "OCT",
       nameDoc: "SUSTITUCIÓN DE PARTIDO DEL TRABAJO DISTRITO XIX PROPIETARIO",
@@ -17953,9 +15258,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 127,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "04-OCT",
       numDoc: "ITE-CG 127-2007",
       monthDoc: "OCT",
       nameDoc: "PRESIDENTE COMUNIDAD JOSÉ NAZARIO RAFAEL MONTIEL ESTRELLA",
@@ -17963,9 +15266,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 128,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "04-OCT",
       numDoc: "ITE-CG 128-2007",
       monthDoc: "OCT",
       nameDoc: "PRESIDENTE COMUNIDAD JOSE PEDRO TRINIDAD BARRIO SAN ANTONIO",
@@ -17973,9 +15274,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 129,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "04-OCT",
       numDoc: "ITE-CG 129-2007",
       monthDoc: "OCT",
       nameDoc: "NEGACIÓN DE REGISTRO DEL SR. OLIMPO-ATÍPICO",
@@ -17983,9 +15282,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 130,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "04-OCT",
       numDoc: "ITE-CG 130-2007",
       monthDoc: "OCT",
       nameDoc: "FALTA CREDENCIAL PARA VOTAR VÍCTOR FERNANDO GALLEGOS",
@@ -17993,9 +15290,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 131,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "04-OCT",
       numDoc: "ITE-CG 131-2007",
       monthDoc: "OCT",
       nameDoc: "FALTA CREDENCIAL PARA VOTAR CASO ATÍPICO",
@@ -18003,9 +15298,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 132,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "04-OCT",
       numDoc: "ITE-CG 132-2007",
       monthDoc: "OCT",
       nameDoc: "DISTRIBUCIÓN DE FINANCIAMIENTO PÚBLICO PARA AYUNTAMIENTOS",
@@ -18013,9 +15306,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 133,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "04-OCT",
       numDoc: "ITE-CG 133-2007",
       monthDoc: "OCT",
       nameDoc:
@@ -18024,9 +15315,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 134,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "10-OCT",
       numDoc: "ITE-CG 134-2007",
       monthDoc: "OCT",
       nameDoc: "CUMPL. RESOLUCIÓN TOCA 184-2007 ACUERDO CG 75-2007 PRD",
@@ -18034,9 +15323,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 135,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "12-OCT",
       numDoc: "ITE-CG 135-2007",
       monthDoc: "OCT",
       nameDoc: " SE AUTORIZA LA COMPRA DE BOLETAS Y ACTAS 2007",
@@ -18044,9 +15331,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 136,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "12-OCT",
       numDoc: "ITE-CG 136-2007",
       monthDoc: "OCT",
       nameDoc:
@@ -18055,9 +15340,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 137,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "12-OCT",
       numDoc: "ITE-CG 137-2007",
       monthDoc: "OCT",
       nameDoc: "SUSTITUCIÓN REGISTRO SINDICO PANAL",
@@ -18065,9 +15348,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 138,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "12-OCT",
       numDoc: "ITE-CG 138-2007",
       monthDoc: "OCT",
       nameDoc: "SUSTITUCIÓN REGIDOR QUINTO Y SEXTO DEL PT, TEPETITLA",
@@ -18075,9 +15356,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 139,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "12-OCT",
       numDoc: "ITE-CG 139-2007",
       monthDoc: "OCT",
       nameDoc:
@@ -18086,9 +15365,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 140,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "12-OCT",
       numDoc: "ITE-CG 140-2007",
       monthDoc: "OCT",
       nameDoc: "SUSTITUCIÓN DIP. SUPL. PARTIDO DEL TRABAJO DISTRITO IV",
@@ -18096,9 +15373,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 141,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "12-OCT",
       numDoc: "ITE-CG 141-2007",
       monthDoc: "OCT",
       nameDoc: "SUSTITUCIÓN SINDICO PT SANTA CRUZ TLAX",
@@ -18106,9 +15381,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 142,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "12-OCT",
       numDoc: "ITE-CG 142-2007",
       monthDoc: "OCT",
       nameDoc:
@@ -18117,9 +15390,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 143,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "12-OCT",
       numDoc: "ITE-CG 143-2007",
       monthDoc: "OCT",
       nameDoc: "SUSTITUCIÓN QUINTO REGIDOR ALIANZA PROGRESO PARA TLAXCALA",
@@ -18127,9 +15398,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 144,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "12-OCT",
       numDoc: "ITE-CG 144-2007",
       monthDoc: "OCT",
       nameDoc: "SUSTITUCIÓN PRIMER REGIDOR PARTIDO SOCIALISTA",
@@ -18137,9 +15406,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 145,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "12-OCT",
       numDoc: "ITE-CG 145-2007",
       monthDoc: "OCT",
       nameDoc:
@@ -18148,9 +15415,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 146,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "12-OCT",
       numDoc: "ITE-CG 146-2007",
       monthDoc: "OCT",
       nameDoc: "SUSTITUCIÓN PC TEPATLAXCO, PARTIDO SOCIALISTA",
@@ -18158,9 +15423,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 147,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "12-OCT",
       numDoc: "ITE-CG 147-2007",
       monthDoc: "OCT",
       nameDoc: "SUST. REGIDORES.AYTO. CALPULALPAN.07",
@@ -18168,9 +15431,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 148,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "12-OCT",
       numDoc: "ITE-CG 148-2007",
       monthDoc: "OCT",
       nameDoc: "SUSTITUCIÓN TETLATLAHUACA CASTRO",
@@ -18178,9 +15439,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 149,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "12-OCT",
       numDoc: "ITE-CG 149-2007",
       monthDoc: "OCT",
       nameDoc: "SUSTITUCIÓN DE CANDIDATO SUPLENTE FORMULA 4 ALIANZA",
@@ -18188,9 +15447,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 150,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "12-OCT",
       numDoc: "ITE-CG 150-2007",
       monthDoc: "OCT",
       nameDoc: "RENUNCIA DE PRES.DE COM.TEXCALAC TLAX",
@@ -18198,9 +15455,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 151,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "15-OCT",
       numDoc: "ITE-CG 151-2007",
       monthDoc: "OCT",
       nameDoc: "CUMPLIMIENTO TOCA 185-2007. LIC. EZEQUIEL",
@@ -18208,9 +15463,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 152,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "19-OCT",
       numDoc: "ITE-CG 152-2007",
       monthDoc: "OCT",
       nameDoc: "NUMERO E INTEGRACION DE CASILLAS 2007",
@@ -18218,9 +15471,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 153,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "19-OCT",
       numDoc: "ITE-CG 153-2007",
       monthDoc: "OCT",
       nameDoc: "RENUNCIA DE PRES.DE COM.TEXCALAC TLAX",
@@ -18228,9 +15479,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 154,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "19-OCT",
       numDoc: "ITE-CG 154-2007",
       monthDoc: "OCT",
       nameDoc: "SUST. SINDICO AYTO. NATIVITAS",
@@ -18238,9 +15487,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 155,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "19-OCT",
       numDoc: "ITE-CG 155-2007",
       monthDoc: "OCT",
       nameDoc:
@@ -18249,9 +15496,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 156,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "19-OCT",
       numDoc: "ITE-CG 156-2007",
       monthDoc: "OCT",
       nameDoc: "SUSTITUCIÓN PRIMER REGIDOR ALTZAYANCAHERLINDO",
@@ -18259,9 +15504,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 157,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "19-OCT",
       numDoc: "ITE-CG 157-2007",
       monthDoc: "OCT",
       nameDoc: "SUST. DTO. XVI ALTERNATIVA",
@@ -18269,9 +15512,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 158,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "19-OCT",
       numDoc: "ITE-CG 158-2007",
       monthDoc: "OCT",
       nameDoc: "SUST. SINDICO, PROP Y SUPLET. ATLANGATEPEC",
@@ -18279,9 +15520,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 159,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "19-OCT",
       numDoc: "ITE-CG 159-2007",
       monthDoc: "OCT",
       nameDoc: "SUSTITUCIÓN SR TEPETITLA DE LARDIZABAL CASTRO",
@@ -18289,9 +15528,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 160,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "19-OCT",
       numDoc: "ITE-CG 160-2007",
       monthDoc: "OCT",
       nameDoc: "SUSTITUCIÓN QUINTO REGIDOR PARTIDO DEL TRABAJO",
@@ -18299,9 +15536,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 161,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "19-OCT",
       numDoc: "ITE-CG 161-2007",
       monthDoc: "OCT",
       nameDoc: "TERCER REGIDOR SN. PABLO MONTE",
@@ -18309,9 +15544,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 162,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "19-OCT",
       numDoc: "ITE-CG 162-2007",
       monthDoc: "OCT",
       nameDoc: "SUST.DIP. XV.ALTER.SOCIALDEM",
@@ -18319,9 +15552,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 163,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "19-OCT",
       numDoc: "ITE-CG 163-2007",
       monthDoc: "OCT",
       nameDoc: "SUSTITUCIÓN TETLATLAHUACA CASTRO",
@@ -18329,9 +15560,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 164,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "19-OCT",
       numDoc: "ITE-CG 164-2007",
       monthDoc: "OCT",
       nameDoc: "PRIMER REGIDOR PROPIETARIO HUAMANTLA PT",
@@ -18339,9 +15568,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 165,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "19-OCT",
       numDoc: "ITE-CG 165-2007",
       monthDoc: "OCT",
       nameDoc: "SUST. PC SEGUNDA SECCION MAZATECOCHCO PT",
@@ -18349,9 +15576,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 166,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "19-OCT",
       numDoc: "ITE-CG 166-2007",
       monthDoc: "OCT",
       nameDoc: "PARTIDO SOCIALISTA SUSTITUCION PRIMERO Y SEGUNDO REGIDOR",
@@ -18359,9 +15584,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 167,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "19-OCT",
       numDoc: "ITE-CG 167-2007",
       monthDoc: "OCT",
       nameDoc: "SUSTITUCIÓN CONSEJEROS ELECTORALES MUNICIPALES 19 OCTUBRE",
@@ -18369,9 +15592,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 168,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "19-OCT",
       numDoc: "ITE-CG 168-2007",
       monthDoc: "OCT",
       nameDoc: "SUSTITUCIÓN PT SINDICO TERRENATE",
@@ -18379,9 +15600,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 169,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "20-OCT",
       numDoc: "ITE-CG 169-2007",
       monthDoc: "OCT",
       nameDoc: "CUMPLIMIENTO TOCA 202-2007 VÍCTOR FERNANDO GALLEGOS",
@@ -18389,9 +15608,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 170,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "21-OCT",
       numDoc: "ITE-CG 170-2007",
       monthDoc: "OCT",
       nameDoc: "COMUNIDAD ZARAGOZA SECCIÓN 0335",
@@ -18399,9 +15616,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 171,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "21-OCT",
       numDoc: "ITE-CG 171-2007",
       monthDoc: "OCT",
       nameDoc: "SANTA CRUZ TETELA SECCIÓN 0150-1",
@@ -18409,9 +15624,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 172,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "21-OCT",
       numDoc: "ITE-CG 172-2007",
       monthDoc: "OCT",
       nameDoc: "DISTINCION LISTA NOMINAL COMUNIDADES 2007-1",
@@ -18419,9 +15632,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 173,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "21-OCT",
       numDoc: "ITE-CG 173-2007",
       monthDoc: "OCT",
       nameDoc: "CIERRE CAMPAÑAS 2007",
@@ -18429,9 +15640,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 174,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "21-OCT",
       numDoc: "ITE-CG 174-2007",
       monthDoc: "OCT",
       nameDoc: "SUSTIT.PRIM. REGIDOR. DEL PAN-PAC, SAN J. ZACUALPAN",
@@ -18439,9 +15648,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 175,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "21-OCT",
       numDoc: "ITE-CG 175-2007",
       monthDoc: "OCT",
       nameDoc: "TERCER REGIDOR PROPIETARIO NANACAMILPA PAN-PAC",
@@ -18449,9 +15656,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 176,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "21-OCT",
       numDoc: "ITE-CG 176-2007",
       monthDoc: "OCT",
       nameDoc: "SUST. PRESIDENTE DE COM. TERRENATE PRD",
@@ -18459,9 +15664,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 177,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "21-OCT",
       numDoc: "ITE-CG 177-2007",
       monthDoc: "OCT",
       nameDoc: "SUSTICIÓN REGISTRO SINDICO PROPIETARIO PRD HUAMANTLA",
@@ -18469,9 +15672,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 178,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "21-OCT",
       numDoc: "ITE-CG 178-2007",
       monthDoc: "OCT",
       nameDoc: "SUST. SEGUNDA SECCION MAZATECOCHCO PT",
@@ -18479,9 +15680,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 179,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "21-OCT",
       numDoc: "ITE-CG 179-2007",
       monthDoc: "OCT",
       nameDoc: "SUST. SR SAN PABLO DEL MONTE PT",
@@ -18489,9 +15688,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 180,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "21-OCT",
       numDoc: "ITE-CG 180-2007",
       monthDoc: "OCT",
       nameDoc: "SUSTITUCIÓN PRESIDENTE MUNICIPAL PARTIDO DEL TRABAJO",
@@ -18499,9 +15696,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 181,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "21-OCT",
       numDoc: "ITE-CG 181-2007",
       monthDoc: "OCT",
       nameDoc: "TERCER REGIDOR TERRENATE PT",
@@ -18509,9 +15704,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 182,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "21-OCT",
       numDoc: "ITE-CG 182-2007",
       monthDoc: "OCT",
       nameDoc: "SUSTITUCIÓN REGISTRO TERCER REGIDOR PANOTLA PNA",
@@ -18519,9 +15712,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 183,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "21-OCT",
       numDoc: "ITE-CG 183-2007",
       monthDoc: "OCT",
       nameDoc: "SUSTITUCIÓN NUEVA ALIANZA SINDICO",
@@ -18529,9 +15720,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 184,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "21-OCT",
       numDoc: "ITE-CG 184-2007",
       monthDoc: "OCT",
       nameDoc:
@@ -18540,9 +15729,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 185,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "21-OCT",
       numDoc: "ITE-CG 185-2007",
       monthDoc: "OCT",
       nameDoc: "SUSTITUCIÓN DIPUTADO SUPLENTE ALTERNATIVA",
@@ -18550,9 +15737,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 186,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "21-OCT",
       numDoc: "ITE-CG 186-2007",
       monthDoc: "OCT",
       nameDoc: "SUSTITUCION ALTERNATIVA SOCIAL DEMOCRATA DIPUTADO DISTRITO X",
@@ -18560,9 +15745,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 187,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "21-OCT",
       numDoc: "ITE-CG 187-2007",
       monthDoc: "OCT",
       nameDoc: "QUINTO REGIDOR SAN JUAN HUACTZINCO PS",
@@ -18570,9 +15753,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 188,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "21-OCT",
       numDoc: "ITE-CG 188-2007",
       monthDoc: "OCT",
       nameDoc: "SUSTITUCIÓN PDTE.COMUNIDADTLAXCO PS",
@@ -18580,9 +15761,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 189,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "21-OCT",
       numDoc: "ITE-CG 189-2007",
       monthDoc: "OCT",
       nameDoc: "SUSTITUCIÓN REGIDOR ALIANZA SIGLO XXI",
@@ -18590,9 +15769,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 190,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "21-OCT",
       numDoc: "ITE-CG 190-2007",
       monthDoc: "OCT",
       nameDoc: "SUSTITUCIÓN regiDOR ALIANZA siglo xxI xicotzigo",
@@ -18600,9 +15777,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 191,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "21-OCT",
       numDoc: "ITE-CG 191-2007",
       monthDoc: "OCT",
       nameDoc: "SUSTI. PRI-VERDE TEPEYANCO PRIMER REGIDOR",
@@ -18610,9 +15785,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 192,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "21-OCT",
       numDoc: "ITE-CG 192-2007",
       monthDoc: "OCT",
       nameDoc: "SUSTI. PRI-VERDE ACUAMANALA DE MIGUEL HIDALGO SEGUNDO REGIDOR",
@@ -18620,9 +15793,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 193,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "21-OCT",
       numDoc: "ITE-CG 193-2007",
       monthDoc: "OCT",
       nameDoc: "SUSTITUCIÓN ACUAMANALA EA",
@@ -18630,9 +15801,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 194,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "21-OCT",
       numDoc: "ITE-CG 194-2007",
       monthDoc: "OCT",
       nameDoc: "SUSTITUCIÓN TEPEYANCO EA",
@@ -18640,9 +15809,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 195,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "21-OCT",
       numDoc: "ITE-CG 195-2007",
       monthDoc: "OCT",
       nameDoc: "SUSTITUCIÓN PRIMER REGIDOR Psocialista HUAMANTLA",
@@ -18650,9 +15817,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 196,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "21-OCT",
       numDoc: "ITE-CG 196-2007",
       monthDoc: "OCT",
       nameDoc: "SUSTITUCIÓN Tercer Regidor Calpulalapan Alianza Siglo XXI",
@@ -18660,9 +15825,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 197,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "21-OCT",
       numDoc: "ITE-CG 197-2007",
       monthDoc: "OCT",
       nameDoc: "SUSTITUCIÓN PRIMER REGIDOR ALIANZA SIGLO XXI SANCTORUM",
@@ -18670,9 +15833,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 198,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "21-OCT",
       numDoc: "ITE-CG 198-2007",
       monthDoc: "OCT",
       nameDoc: "SUSTITUCIÓN Segundo Regidor Yauhquemecan Alianza Siglo XXI",
@@ -18680,9 +15841,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 199,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "21-OCT",
       numDoc: "ITE-CG 199-2007",
       monthDoc: "OCT",
       nameDoc: "SUSTITUCIÓN DE CANDIDATO SUPLENTE FORMULA 4 alianza SIGLO XXI",
@@ -18690,9 +15849,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 200,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "21-OCT",
       numDoc: "ITE-CG 200-2007",
       monthDoc: "OCT",
       nameDoc: "SUSTITUCIÓN CONTLA PARTIDOSOCIALISTA",
@@ -18700,9 +15857,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 201,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "21-OCT",
       numDoc: "ITE-CG 201-2007",
       monthDoc: "OCT",
       nameDoc: "SUSTITUCIÓN CONSEJEROS ELECTORALES MUNICIPALES 21 OCTUBRE",
@@ -18710,9 +15865,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 202,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "21-OCT",
       numDoc: "ITE-CG 202-2007",
       monthDoc: "OCT",
       nameDoc: "SUSTITUCIÓN REGIDORES.AYTO, TEPEYANCO. P.R.D.07",
@@ -18720,9 +15873,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 203,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "23-OCT",
       numDoc: "ITE-CG 203-2007",
       monthDoc: "OCT",
       nameDoc: "NÚMERO Y UBICACIÓN DE CASILLAS",
@@ -18730,9 +15881,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 204,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "24-OCT",
       numDoc: "ITE-CG 204-2007",
       monthDoc: "OCT",
       nameDoc: "SANTA CRUZ TETELA SECCIÓN 0150",
@@ -18740,9 +15889,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 205,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "24-OCT",
       numDoc: "ITE-CG 205-2007",
       monthDoc: "OCT",
       nameDoc: "SUSTITUCIÓN XALTOCAN ALIANZA PROGRESO P TLAX",
@@ -18750,9 +15897,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 206,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "24-OCT",
       numDoc: "ITE-CG 206-2007",
       monthDoc: "OCT",
       nameDoc: "CONVERGENCIA SEXTO SUPLENTE",
@@ -18760,9 +15905,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 207,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "24-OCT",
       numDoc: "ITE-CG 207-2007",
       monthDoc: "OCT",
       nameDoc: "SEGUNDO REGIDOR YAUHQUEMECAN PCDT",
@@ -18770,9 +15913,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 208,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "24-OCT",
       numDoc: "ITE-CG 208-2007",
       monthDoc: "OCT",
       nameDoc: "SUSTITUCIÓN SEGUNDO REGIDOR PSOCIALISTA HUAMANTLA",
@@ -18780,9 +15921,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 209,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "24-OCT",
       numDoc: "ITE-CG 209-2007",
       monthDoc: "OCT",
       nameDoc:
@@ -18791,9 +15930,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 210,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "24-OCT",
       numDoc: "ITE-CG 210-2007",
       monthDoc: "OCT",
       nameDoc: "SUSTITUCIÓN SINDICO AYUNTAMIENTO APIZACO PS",
@@ -18801,9 +15938,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 211,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "24-OCT",
       numDoc: "ITE-CG 211-2007",
       monthDoc: "OCT",
       nameDoc:
@@ -18812,9 +15947,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 212,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "31-OCT",
       numDoc: "ITE-CG 212-2007",
       monthDoc: "OCT",
       nameDoc: "SUSTITUCIÓN TERCER REGIDOR SUPLENTE TZOMPANTEPEC PT",
@@ -18822,9 +15955,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 213,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "31-OCT",
       numDoc: "ITE-CG 213-2007",
       monthDoc: "OCT",
       nameDoc: "SUSTITUCIÓN SINDICO MUNICIPAL PROPIETARIO TLAXCO PS",
@@ -18832,9 +15963,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 214,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "31-OCT",
       numDoc: "ITE-CG 214-2007",
       monthDoc: "OCT",
       nameDoc: "SUSTITUCIÓN PRIMER REGIDOR SAN PABLO DEL MONTE PCDT",
@@ -18842,9 +15971,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 215,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "31-OCT",
       numDoc: "ITE-CG 215-2007",
       monthDoc: "OCT",
       nameDoc: "SEGUNDO REGIDOR TLAXCALA PAN-PAC",
@@ -18852,9 +15979,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 216,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "31-OCT",
       numDoc: "ITE-CG 216-2007",
       monthDoc: "OCT",
       nameDoc: "SUSTITUCIÓN DIPUTADO SUPLENTE XVI. ALTERNATIVA",
@@ -18862,9 +15987,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 217,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "31-OCT",
       numDoc: "ITE-CG 217-2007",
       monthDoc: "OCT",
       nameDoc: "SUSTITUCIÓN CONSEJEROS DISTRITALES Y MUNICIPALES 30 OCTUBRE",
@@ -18872,9 +15995,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 218,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "02-NOV",
       numDoc: "ITE-CG 218-2007",
       monthDoc: "NOV",
       nameDoc: "CUMPLIMIENTO TOCA 223-2007 OLIMPO",
@@ -18882,9 +16003,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 219,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "02-NOV",
       numDoc: "ITE-CG 219-2007",
       monthDoc: "NOV",
       nameDoc: "CUMPLIMIENTO TOCA 215-2007",
@@ -18892,9 +16011,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 220,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "02-NOV",
       numDoc: "ITE-CG 220-2007",
       monthDoc: "NOV",
       nameDoc: "CUMPLIMIENTO TOCA 219-2007",
@@ -18902,9 +16019,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 221,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "02-NOV",
       numDoc: "ITE-CG 221-2007",
       monthDoc: "NOV",
       nameDoc: "SUSTITUCIÓN FUNCIONARIOS CASILLA 2007",
@@ -18912,9 +16027,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 222,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "02-NOV",
       numDoc: "ITE-CG 222-2007",
       monthDoc: "NOV",
       nameDoc: "SUSTITUCIÓN CONSEJERO MUNICIPAL DE ZACATELCO",
@@ -18922,9 +16035,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 223,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "08-NOV",
       numDoc: "ITE-CG 223-2007",
       monthDoc: "NOV",
       nameDoc: "CUMPLIMIENTO QUEJA TOCA 217.2007",
@@ -18935,9 +16046,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 224,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "08-NOV",
       numDoc: "ITE-CG 224-2007",
       monthDoc: "NOV",
       nameDoc: "DICTAMEN CUMPLIMIENTO QUEJA TOCA 217.2007",
@@ -18945,9 +16054,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 225,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "08-NOV",
       numDoc: "ITE-CG 225-2007",
       monthDoc: "NOV",
       nameDoc: "CUMPLIMIENTO TOCA 218-2007 PRD",
@@ -18955,9 +16062,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 226,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "08-NOV",
       numDoc: "ITE-CG 226-2007",
       monthDoc: "NOV",
       nameDoc: "CUMPLIMIENTO TOCA 207-2007",
@@ -18965,9 +16070,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 227,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "08-NOV",
       numDoc: "ITE-CG 227-2007",
       monthDoc: "NOV",
       nameDoc: "COMISION INFORMÁTICA Y RESULTADOS ELECTORALES",
@@ -18975,9 +16078,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 228,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "08-NOV",
       numDoc: "ITE-CG 228-2007",
       monthDoc: "NOV",
       nameDoc: "SARJE 2007",
@@ -18985,9 +16086,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 229,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "08-NOV",
       numDoc: "ITE-CG 229-2007",
       monthDoc: "NOV",
       nameDoc: "SUSTITUCIÓN CONSEJERO ELECTORAL PROPIETARIO DISTRITO XI",
@@ -18995,9 +16094,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 230,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "08-NOV",
       numDoc: "ITE-CG 230-2007",
       monthDoc: "NOV",
       nameDoc: "CUMPLIMIENTO TOCA 216-2007 ESPAÑITA PRD",
@@ -19005,9 +16102,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 231,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "08-NOV",
       numDoc: "ITE-CG 231-2007",
       monthDoc: "NOV",
       nameDoc: "SUSTITUCIÓN SEGUNDO Y TERCER REGIDOR XALTOCAN PRD",
@@ -19015,9 +16110,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 232,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "08-NOV",
       numDoc: "ITE-CG 232-2007",
       monthDoc: "NOV",
       nameDoc: "SUSTITUCIÓN SÍNDICO PROPIETARIO CUAPIAXTLA PRD",
@@ -19025,9 +16118,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 233,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "08-NOV",
       numDoc: "ITE-CG 233-2007",
       monthDoc: "NOV",
       nameDoc: "SUSTITUCIÓN TERCER REGIDOR PROP Y SUPSAN PABLO MONTE PRD",
@@ -19035,9 +16126,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 234,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "08-NOV",
       numDoc: "ITE-CG 234-2007",
       monthDoc: "NOV",
       nameDoc: "SUSTITUCIÓN PRIMER REGIDOR PROPIETARIO XALOZTOC PT",
@@ -19045,9 +16134,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 235,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "08-NOV",
       numDoc: "ITE-CG 235-2007",
       monthDoc: "NOV",
       nameDoc: "SUSTITUCIÓN PRIMER Y TERCER REGIDOR CUAPIAXTLA PT",
@@ -19055,9 +16142,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 236,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "08-NOV",
       numDoc: "ITE-CG 236-2007",
       monthDoc: "NOV",
       nameDoc: "SUSTITUCIÓN PRIMER REGIDOR SUPLENTE TERRENATE PAS",
@@ -19065,9 +16150,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 237,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "08-NOV",
       numDoc: "ITE-CG 237-2007",
       monthDoc: "NOV",
       nameDoc:
@@ -19076,9 +16159,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 238,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "08-NOV",
       numDoc: "ITE-CG 238-2007",
       monthDoc: "NOV",
       nameDoc: "SUSTITUCIÓN DIPUTADO SUPLENTE DISTRITO III PAS",
@@ -19086,9 +16167,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 239,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "08-NOV",
       numDoc: "ITE-CG 239-2007",
       monthDoc: "NOV",
       nameDoc: "SUSTITUCIÓN CUARTO REGIDOR XICOHTZINCO PS",
@@ -19096,9 +16175,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 240,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "08-NOV",
       numDoc: "ITE-CG 240-2007",
       monthDoc: "NOV",
       nameDoc: "SUSTITUCIÓN PRIMER REGIDOR YAUQUEMEHCAN PS",
@@ -19106,9 +16183,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 241,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "08-NOV",
       numDoc: "ITE-CG 241-2007",
       monthDoc: "NOV",
       nameDoc: "SUSTITUCIÓN SEGUNDO REGIDOR PROPIETARIO TLAXCO PS",
@@ -19116,9 +16191,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 242,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "08-NOV",
       numDoc: "ITE-CG 242-2007",
       monthDoc: "NOV",
       nameDoc:
@@ -19127,9 +16200,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 243,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "08-NOV",
       numDoc: "ITE-CG 243-2007",
       monthDoc: "NOV",
       nameDoc: "SUSTITUCIÓN DIPUTADO SUPLENTE DISTRITO XIII PS",
@@ -19137,9 +16208,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 244,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "08-NOV",
       numDoc: "ITE-CG 244-2007",
       monthDoc: "NOV",
       nameDoc: "INTEGRACIÓN DE LA COMISION MEMORIA PROCESO ORDINARIA2007",
@@ -19147,9 +16216,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 245,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "08-NOV",
       numDoc: "ITE-CG 245-2007",
       monthDoc: "NOV",
       nameDoc:
@@ -19158,9 +16225,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 246,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "08-NOV",
       numDoc: "ITE-CG 246-2007",
       monthDoc: "NOV",
       nameDoc: "SUSTITUCIÓN CONSEJERO PROP. MPAL TZOMPANTEPEC",
@@ -19168,9 +16233,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 247,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "08-NOV",
       numDoc: "ITE-CG 247-2007",
       monthDoc: "NOV",
       nameDoc: "SUSTITUCIONES DE FUNCIONARIOS DE MDC",
@@ -19184,9 +16247,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 248,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "08-NOV",
       numDoc: "ITE-CG 248-2007",
       monthDoc: "NOV",
       nameDoc: "CAMBIO UBICACIÓN DE CASILLA BÁSICA SECCIÓN 0021 APIZACO",
@@ -19194,9 +16255,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 249,
-      year: "2007",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "09-NOV",
       numDoc: "ITE-CG 249-2007",
       monthDoc: "NOV",
       nameDoc: "TOCA 213-2007 SANCTUORUM PRI",
@@ -19204,9 +16263,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 250,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "09-NOV",
       numDoc: "ITE-CG 250-2007",
       monthDoc: "NOV",
       nameDoc: "SUSTITUCIÓN CHIAUTEMPAN PCDT",
@@ -19214,9 +16271,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 251,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "10-NOV",
       numDoc: "ITE-CG 251-2007",
       monthDoc: "NOV",
       nameDoc: "SUSTITUCIÓN ALIANZA PROGRESO TLAXCALA",
@@ -19224,9 +16279,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 252,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "10-NOV",
       numDoc: "ITE-CG 252-2007",
       monthDoc: "NOV",
       nameDoc: "PARTIDO DEL TRABAJO ",
@@ -19234,9 +16287,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 253,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "10-NOV",
       numDoc: "ITE-CG 253-2007",
       monthDoc: "NOV",
       nameDoc: "SUSTITUCIÓN 2DO.REG. PT. TLAXCALA",
@@ -19244,9 +16295,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 254,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "10-NOV",
       numDoc: "ITE-CG 254-2007",
       monthDoc: "NOV",
       nameDoc: "SUSTITUCIÓN SINDICO SEGUNDO Y TERCER REGIDOR APIZACO PT CASTRO",
@@ -19254,9 +16303,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 255,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "10-NOV",
       numDoc: "ITE-CG 255-2007",
       monthDoc: "NOV",
       nameDoc: "SUSTITUCIONES PARTIDO DEL PT",
@@ -19264,9 +16311,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 256,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "10-NOV",
       numDoc: "ITE-CG 256-2007",
       monthDoc: "NOV",
       nameDoc: "SUSTITUCIÓN PARTIDO VERDE NANACAMILPA",
@@ -19274,9 +16319,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 257,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "10-NOV",
       numDoc: "ITE-CG 257-2007",
       monthDoc: "NOV",
       nameDoc: "SUSTITUCIÓN REGIDORES CALPULALPAN PCDT",
@@ -19284,9 +16327,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 258,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "10-NOV",
       numDoc: "ITE-CG 258-2007",
       monthDoc: "NOV",
       nameDoc: "SUSTITUCIÓN REGIDORES ESPAÑITA NUEVA ALIANZA",
@@ -19294,9 +16335,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 259,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "10-NOV",
       numDoc: "ITE-CG 259-2007",
       monthDoc: "NOV",
       nameDoc: "SUSTITUCIÓN ALTERNATIVA APETATITLAN PAS",
@@ -19304,9 +16343,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 260,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "10-NOV",
       numDoc: "ITE-CG 260-2007",
       monthDoc: "NOV",
       nameDoc: "SUSTITUCIÓN ALTERNATIVA SAN PABLO DEL MONTE DAVID",
@@ -19314,9 +16351,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 261,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "10-NOV",
       numDoc: "ITE-CG 261-2007",
       monthDoc: "NOV",
       nameDoc: "SUSTITUCIÓN REGIDORES TETLATLAHUCA PS",
@@ -19324,9 +16359,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 262,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "10-NOV",
       numDoc: "ITE-CG 262-2007",
       monthDoc: "NOV",
       nameDoc: "SUSTITUCIÓN DIPUTADO FORMULA E PS",
@@ -19334,9 +16367,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 263,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "10-NOV",
       numDoc: "ITE-CG 263-2007",
       monthDoc: "NOV",
       nameDoc: "OBSERVADORES ELECTORALES",
@@ -19344,9 +16375,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 264,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "10-NOV",
       numDoc: "ITE-CG 264-2007",
       monthDoc: "NOV",
       nameDoc: "SUSTITUCIÓN DIP. SUPL. TEPEYANCO PT",
@@ -19354,9 +16383,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 265,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "10-NOV",
       numDoc: "ITE-CG 265-2007",
       monthDoc: "NOV",
       nameDoc: "SUSTITUCIÓN AYUNTAMIENTO ZITLATEPEC PAN-PAC",
@@ -19364,9 +16391,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 266,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "10-NOV",
       numDoc: "ITE-CG 266-2007",
       monthDoc: "NOV",
       nameDoc: "SUSTITUCIÓN CONSEJERO PROPIETARIO DISTRITO II",
@@ -19374,9 +16399,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 267,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "10-NOV",
       numDoc: "ITE-CG 267-2007",
       monthDoc: "NOV",
       nameDoc:
@@ -19385,9 +16408,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 268,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "16-NOV",
       numDoc: "ITE-CG 268-2007",
       monthDoc: "NOV",
       nameDoc: "PLURIS 2007",
@@ -19395,9 +16416,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 269,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "16-NOV",
       numDoc: "ITE-CG 269-2007",
       monthDoc: "NOV",
       nameDoc: "ASIGNACIÓN REGIDURIAS AYUNTAMIENTOS",
@@ -19405,9 +16424,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 270,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "19-NOV",
       numDoc: "ITE-CG 270-2007",
       monthDoc: "NOV",
       nameDoc: "MODIFICACIÓN ACUERDO 269 ASIGNACIÓN REGIDURIAS 2007",
@@ -19415,9 +16432,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 271,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "15-DIC",
       numDoc: "ITE-CG 271-2007",
       monthDoc: "DIC",
       nameDoc: "CUMPLIMIENTO PLURINOMINALES",
@@ -19425,9 +16440,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 272,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "28-DIC",
       numDoc: "ITE-CG 272-2007",
       monthDoc: "DIC",
       nameDoc: "CUMPLIMIENTO DISTRITO V",
@@ -19435,9 +16448,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 273,
-      year: "2007",
       typeDoc: "ACUERDO",
-      dateDoc: "28-DIC",
       numDoc: "ITE-CG 273-2007",
       monthDoc: "DIC",
       nameDoc: "PÉRDIDA DE REGISTRO PCDT",
@@ -19451,9 +16462,7 @@ export const dataAcuerdosITE = {
   2006: [
     {
       id: 1,
-      year: "2006",
       typeDoc: "ACUERDO",
-      dateDoc: "28-FEB",
       numDoc: "ITE-CG 01-2006",
       monthDoc: "FEB",
       nameDoc: "INTEGRACIÓN JUNTA GENERAL EJECUTIVA",
@@ -19461,9 +16470,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 2,
-      year: "2006",
       typeDoc: "ACUERDO",
-      dateDoc: "28-FEB",
       numDoc: "ITE-CG 02-2006",
       monthDoc: "FEB",
       nameDoc: "INFORME ANUAL 2005",
@@ -19471,9 +16478,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 3,
-      year: "2006",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "",
       numDoc: "ITE-CG 03-2006",
       monthDoc: "MAR",
       nameDoc: "01-06",
@@ -19481,9 +16486,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 4,
-      year: "2006",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "",
       numDoc: "ITE-CG 04-2006",
       monthDoc: "MAR",
       nameDoc: "04-06",
@@ -19491,9 +16494,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 5,
-      year: "2006",
       typeDoc: "ACUERDO",
-      dateDoc: "27-ABR",
       numDoc: "ITE-CG 05-2006",
       monthDoc: "ABR",
       nameDoc: "COBAT, IFE, IET",
@@ -19501,9 +16502,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 6,
-      year: "2006",
       typeDoc: "ACUERDO",
-      dateDoc: "17-MAY",
       numDoc: "ITE-CG 06-2006",
       monthDoc: "MAY",
       nameDoc: "INFORME ANUAL RELATIVO A LOS INGRESOS Y EGRESOS DEL 2005 PAN",
@@ -19511,9 +16510,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 7,
-      year: "2006",
       typeDoc: "ACUERDO",
-      dateDoc: "17-MAY",
       numDoc: "ITE-CG 07-2006",
       monthDoc: "MAY",
       nameDoc: "INFORME ANUAL RELATIVO A LOS INGRESOS Y EGRESOS DEL 2005 PRI",
@@ -19521,9 +16518,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 8,
-      year: "2006",
       typeDoc: "ACUERDO",
-      dateDoc: "17-MAY",
       numDoc: "ITE-CG 08-2006",
       monthDoc: "MAY",
       nameDoc: "INFORME ANUAL RELATIVO A LOS INGRESOS Y EGRESOS DEL 2005 PRD",
@@ -19531,9 +16526,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 9,
-      year: "2006",
       typeDoc: "ACUERDO",
-      dateDoc: "17-MAY",
       numDoc: "ITE-CG 09-2006",
       monthDoc: "MAY",
       nameDoc: "INFORME ANUAL RELATIVO A LOS INGRESOS Y EGRESOS DEL 2005 PT",
@@ -19541,9 +16534,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 10,
-      year: "2006",
       typeDoc: "ACUERDO",
-      dateDoc: "17-MAY",
       numDoc: "ITE-CG 10-2006",
       monthDoc: "MAY",
       nameDoc: "INFORME ANUAL RELATIVO A LOS INGRESOS Y EGRESOS DEL 2005 PVEM",
@@ -19551,9 +16542,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 11,
-      year: "2006",
       typeDoc: "ACUERDO",
-      dateDoc: "17-MAY",
       numDoc: "ITE-CG 11-2006",
       monthDoc: "MAY",
       nameDoc:
@@ -19562,9 +16551,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 12,
-      year: "2006",
       typeDoc: "ACUERDO",
-      dateDoc: "17-MAY",
       numDoc: "ITE-CG 12-2006",
       monthDoc: "MAY",
       nameDoc: "INFORME ANUAL RELATIVO A LOS INGRESOS Y EGRESOS DEL 2005 PCDT",
@@ -19572,9 +16559,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 13,
-      year: "2006",
       typeDoc: "ACUERDO",
-      dateDoc: "17-MAY",
       numDoc: "ITE-CG 13-2006",
       monthDoc: "MAY",
       nameDoc: "INFORME ANUAL RELATIVO A LOS INGRESOS Y EGRESOS DEL 2005 PNA",
@@ -19582,9 +16567,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 14,
-      year: "2006",
       typeDoc: "ACUERDO",
-      dateDoc: "17-MAY",
       numDoc: "ITE-CG 14-2006",
       monthDoc: "MAY",
       nameDoc: "INFORME ANUAL RELATIVO A LOS INGRESOS Y EGRESOS DEL 2005 PASDC",
@@ -19592,9 +16575,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 15,
-      year: "2006",
       typeDoc: "ACUERDO",
-      dateDoc: "21-JUN",
       numDoc: "ITE-CG 15-2006",
       monthDoc: "JUN",
       nameDoc: "ESTATUTOS",
@@ -19604,9 +16585,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 16,
-      year: "2006",
       typeDoc: "ACUERDO",
-      dateDoc: "21-JUN",
       numDoc: "ITE-CG 16-2006",
       monthDoc: "JUN",
       nameDoc: "COMISION EJECUTIVA",
@@ -19616,9 +16595,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 17,
-      year: "2006",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "28-JUN",
       numDoc: "ITE-CG 17-2006",
       monthDoc: "JUN",
       nameDoc: "SANCIÓN PAN",
@@ -19626,9 +16603,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 18,
-      year: "2006",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "28-JUN",
       numDoc: "ITE-CG 18-2006",
       monthDoc: "JUN",
       nameDoc: "SANCIÓN PRI",
@@ -19636,9 +16611,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 19,
-      year: "2006",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "28-JUN",
       numDoc: "ITE-CG 19-2006",
       monthDoc: "JUN",
       nameDoc: "SANCIÓN PRD",
@@ -19646,9 +16619,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 20,
-      year: "2006",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "28-JUN",
       numDoc: "ITE-CG 20-2006",
       monthDoc: "JUN",
       nameDoc: "SANCIÓN PT",
@@ -19656,9 +16627,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 21,
-      year: "2006",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "28-JUN",
       numDoc: "ITE-CG 21-2006",
       monthDoc: "JUN",
       nameDoc: "SANCIÓN CONVERGENCIA",
@@ -19666,9 +16635,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 22,
-      year: "2006",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "28-JUN",
       numDoc: "ITE-CG 22-2006",
       monthDoc: "JUN",
       nameDoc: "SANCIÓN PCDT",
@@ -19676,9 +16643,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 23,
-      year: "2006",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "28-JUN",
       numDoc: "ITE-CG 23-2006",
       monthDoc: "JUN",
       nameDoc: "SANCIÓN NA",
@@ -19686,9 +16651,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 24,
-      year: "2006",
       typeDoc: "ACUERDO",
-      dateDoc: "30-JUN",
       numDoc: "ITE-CG 24-2006",
       monthDoc: "JUN",
       nameDoc: "REESTRUCTURA COMISIÓN DEMARCACIÓN DISTRITAL",
@@ -19696,9 +16659,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 25,
-      year: "2006",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "30-JUN",
       numDoc: "ITE-CG 25-2006",
       monthDoc: "JUN",
       nameDoc: "QUEJA 05-2006",
@@ -19706,9 +16667,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 26,
-      year: "2006",
       typeDoc: "ACUERDO",
-      dateDoc: "29-SEP",
       numDoc: "ITE-CG 26-2006",
       monthDoc: "SEP",
       nameDoc: "PRESUPUESTO 2006",
@@ -19716,9 +16675,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 27,
-      year: "2006",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "16-OCT",
       numDoc: "ITE-CG 27-2006",
       monthDoc: "OCT",
       nameDoc: "CUMPLIMIENTO SANCIÓN PCDT",
@@ -19726,9 +16683,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 28,
-      year: "2006",
       typeDoc: "ACUERDO",
-      dateDoc: "16-OCT",
       numDoc: "ITE-CG 28-2006",
       monthDoc: "OCT",
       nameDoc: "NORMATIVIDAD CONSULTA CIUDADANA 2006",
@@ -19736,9 +16691,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 29,
-      year: "2006",
       typeDoc: "ACUERDO",
-      dateDoc: "27-OCT",
       numDoc: "ITE-CG 29-2006",
       monthDoc: "OCT",
       nameDoc: "LINEAMIENTOS NUEVOS PARTIDOS",
@@ -19746,9 +16699,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 30,
-      year: "2006",
       typeDoc: "ACUERDO",
-      dateDoc: "30-NOV",
       numDoc: "ITE-CG 30-2006",
       monthDoc: "NOV",
       nameDoc: "INFORME 2006",
@@ -19756,9 +16707,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 31,
-      year: "2006",
       typeDoc: "ACUERDO",
-      dateDoc: "",
       numDoc: "ITE-CG 31-2006",
       monthDoc: "DIC",
       nameDoc: "CUMPLIMIENTO TOCA 962006 CG 152006 PCDT",
@@ -19766,9 +16715,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 32,
-      year: "2006",
       typeDoc: "ACUERDO",
-      dateDoc: "11-DIC",
       numDoc: "ITE-CG 32-2006",
       monthDoc: "DIC",
       nameDoc: "SOBRE CREACION DE COMISIONES",
@@ -19776,9 +16723,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 33,
-      year: "2006",
       typeDoc: "ACUERDO",
-      dateDoc: "08-DIC",
       numDoc: "ITE-CG 33-2006",
       monthDoc: "DIC",
       nameDoc: "COMISIÓN JUNTA GENERAL EJECUTIVA",
@@ -19786,9 +16731,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 34,
-      year: "2006",
       typeDoc: "ACUERDO",
-      dateDoc: "22-DIC",
       numDoc: "ITE-CG 34-2006",
       monthDoc: "DIC",
       nameDoc: "PAC",
@@ -19796,9 +16739,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 35,
-      year: "2006",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "31-DIC",
       numDoc: "ITE-CG 35-2006",
       monthDoc: "DIC",
       nameDoc: "PS",
@@ -19811,9 +16752,7 @@ export const dataAcuerdosITE = {
   2005: [
     {
       id: 1,
-      year: "2005",
       typeDoc: "ACUERDO",
-      dateDoc: "12-ENE",
       numDoc: "ITE-CG 01-2005",
       monthDoc: "ENE",
       nameDoc: "INTEGRACION LVIII LEGISLATURA",
@@ -19821,9 +16760,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 2,
-      year: "2005",
       typeDoc: "ACUERDO",
-      dateDoc: "31-ENE",
       numDoc: "ITE-CG 02-2005",
       monthDoc: "ENE",
       nameDoc: "SELECCIÓN Y SEPARACIÓN DE MATERIAL ELECTORAL",
@@ -19831,9 +16768,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 3,
-      year: "2005",
       typeDoc: "ACUERDO",
-      dateDoc: "31-ENE",
       numDoc: "ITE-CG 03-2005",
       monthDoc: "ENE",
       nameDoc: "PÉRDIDA DE REGISTRO PJS",
@@ -19841,9 +16776,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 4,
-      year: "2005",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "31-ENE",
       numDoc: "ITE-CG 04-2005",
       monthDoc: "ENE",
       nameDoc: "EXPEDIENTE 114-2004",
@@ -19851,9 +16784,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 5,
-      year: "2005",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "31-ENE",
       numDoc: "ITE-CG 05-2005",
       monthDoc: "ENE",
       nameDoc: "EXPEDIENTE 129-2004",
@@ -19861,9 +16792,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 6,
-      year: "2005",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "31-ENE",
       numDoc: "ITE-CG 06-2005",
       monthDoc: "ENE",
       nameDoc: "EXPEDIENTE 140-2004",
@@ -19871,9 +16800,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 7,
-      year: "2005",
       typeDoc: "ACUERDO",
-      dateDoc: "28-FEB",
       numDoc: "ITE-CG 07-2005",
       monthDoc: "FEB",
       nameDoc: "INTEGRACIÓN JUNTA GENERAL EJECUTIVA",
@@ -19881,9 +16808,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 8,
-      year: "2005",
       typeDoc: "ACUERDO",
-      dateDoc: "14-MAR",
       numDoc: "ITE-CG 08-2005",
       monthDoc: "MAR",
       nameDoc: "INFORME ANUAL",
@@ -19891,9 +16816,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 9,
-      year: "2005",
       typeDoc: "ACUERDO",
-      dateDoc: "14-MAR",
       numDoc: "ITE-CG 09-2005",
       monthDoc: "MAR",
       nameDoc: "AMPLIACIÓN PRESUPUESTO",
@@ -19901,9 +16824,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 10,
-      year: "2005",
       typeDoc: "ACUERDO",
-      dateDoc: "27-ABR",
       numDoc: "ITE-CG 10-2005",
       monthDoc: "ABR",
       nameDoc: "DESTRUCCIÓN O RECICLAJE DE LA DOCUMENTACIÓN ELECTORAL",
@@ -19911,9 +16832,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 11,
-      year: "2005",
       typeDoc: "ACUERDO",
-      dateDoc: "27-ABR",
       numDoc: "ITE-CG 11-2005",
       monthDoc: "ABR",
       nameDoc: "COMISION GOBIERNO INTERNO",
@@ -19921,9 +16840,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 12,
-      year: "2005",
       typeDoc: "ACUERDO",
-      dateDoc: "30-MAY",
       numDoc: "ITE-CG 12-2005",
       monthDoc: "MAY",
       nameDoc: "COMISIÓN EDITORIAL",
@@ -19931,9 +16848,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 13,
-      year: "2005",
       typeDoc: "ACUERDO",
-      dateDoc: "06-JUN",
       numDoc: "ITE-CG 13-2005",
       monthDoc: "JUN",
       nameDoc: "DICTAMEN PAN",
@@ -19941,9 +16856,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 14,
-      year: "2005",
       typeDoc: "ACUERDO",
-      dateDoc: "06-JUN",
       numDoc: "ITE-CG 14-2005",
       monthDoc: "JUN",
       nameDoc: "DICTAMEN PRI",
@@ -19951,9 +16864,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 15,
-      year: "2005",
       typeDoc: "ACUERDO",
-      dateDoc: "06-JUN",
       numDoc: "ITE-CG 15-2005",
       monthDoc: "JUN",
       nameDoc: "DICTAMEN PRD",
@@ -19961,9 +16872,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 16,
-      year: "2005",
       typeDoc: "ACUERDO",
-      dateDoc: "06-JUN",
       numDoc: "ITE-CG 16-2005",
       monthDoc: "JUN",
       nameDoc: "DICTAMEN PT",
@@ -19971,9 +16880,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 17,
-      year: "2005",
       typeDoc: "ACUERDO",
-      dateDoc: "06-JUN",
       numDoc: "ITE-CG 17-2005",
       monthDoc: "JUN",
       nameDoc: "DICTAMEN PVEM",
@@ -19981,9 +16888,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 18,
-      year: "2005",
       typeDoc: "ACUERDO",
-      dateDoc: "06-JUN",
       numDoc: "ITE-CG 18-2005",
       monthDoc: "JUN",
       nameDoc: "DICTAMEN CONVERGENCIA",
@@ -19991,9 +16896,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 19,
-      year: "2005",
       typeDoc: "ACUERDO",
-      dateDoc: "06-JUN",
       numDoc: "ITE-CG 19-2005",
       monthDoc: "JUN",
       nameDoc: "DICTAMEN PCDT",
@@ -20001,9 +16904,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 20,
-      year: "2005",
       typeDoc: "ACUERDO",
-      dateDoc: "06-JUN",
       numDoc: "ITE-CG 20-2005",
       monthDoc: "JUN",
       nameDoc: "DICTAMEN PJS",
@@ -20011,9 +16912,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 21,
-      year: "2005",
       typeDoc: "ACUERDO",
-      dateDoc: "30-JUN",
       numDoc: "ITE-CG 21-2005",
       monthDoc: "JUN",
       nameDoc: "REDISTRITACIÓN",
@@ -20021,9 +16920,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 22,
-      year: "2005",
       typeDoc: "ACUERDO",
-      dateDoc: "30-JUN",
       numDoc: "ITE-CG 22-2005",
       monthDoc: "JUN",
       nameDoc: "CONVENIO IET-UAM-UAT",
@@ -20031,9 +16928,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 23,
-      year: "2005",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "01-JUL",
       numDoc: "ITE-CG 23-2005",
       monthDoc: "JUL",
       nameDoc: "SANCIÓN PAN",
@@ -20041,9 +16936,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 24,
-      year: "2005",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "01-JUL",
       numDoc: "ITE-CG 24-2005",
       monthDoc: "JUL",
       nameDoc: "SANCIÓN PRI",
@@ -20051,9 +16944,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 25,
-      year: "2005",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "01-JUL",
       numDoc: "ITE-CG 25-2005",
       monthDoc: "JUL",
       nameDoc: "SANCIÓN PT",
@@ -20061,9 +16952,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 26,
-      year: "2005",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "01-JUL",
       numDoc: "ITE-CG 26-2005",
       monthDoc: "JUL",
       nameDoc: "SANCIÓN VERDE ECOLOGISTA",
@@ -20071,9 +16960,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 27,
-      year: "2005",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "01-JUL",
       numDoc: "ITE-CG 27-2005",
       monthDoc: "JUL",
       nameDoc: "SANCIÓN CONVERGENCIA",
@@ -20081,9 +16968,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 28,
-      year: "2005",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "01-JUL",
       numDoc: "ITE-CG 28-2005",
       monthDoc: "JUL",
       nameDoc: "SANCIÓN CENTRO DEMOCRATICO",
@@ -20091,9 +16976,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 29,
-      year: "2005",
       typeDoc: "ACUERDO",
-      dateDoc: "01-JUL",
       numDoc: "ITE-CG 29-2005",
       monthDoc: "JUL",
       nameDoc: "SANCIÓN PJS",
@@ -20101,9 +16984,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 30,
-      year: "2005",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "01-JUL",
       numDoc: "ITE-CG 30-2005",
       monthDoc: "JUL",
       nameDoc: "CONVENIO INSTITUTOS",
@@ -20111,9 +16992,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 31,
-      year: "2005",
       typeDoc: "ACUERDO",
-      dateDoc: "15-JUL",
       numDoc: "ITE-CG 31-2005",
       monthDoc: "JUL",
       nameDoc: "SANCIÓN PRD",
@@ -20121,9 +17000,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 32,
-      year: "2005",
       typeDoc: "ACUERDO",
-      dateDoc: "15-JUL",
       numDoc: "ITE-CG 32-2005",
       monthDoc: "JUL",
       nameDoc: "APLICACION DE MINISTRACIONES",
@@ -20131,9 +17008,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 33,
-      year: "2005",
       typeDoc: "ACUERDO",
-      dateDoc: "15-AGO",
       numDoc: "ITE-CG 33-2005",
       monthDoc: "AGO",
       nameDoc: "INFORMACIÓN",
@@ -20141,9 +17016,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 34,
-      year: "2005",
       typeDoc: "ACUERDO",
-      dateDoc: "30-AGO",
       numDoc: "ITE-CG 34-2005",
       monthDoc: "AGO",
       nameDoc: "IET-AYUNTAMIENTOS",
@@ -20153,9 +17026,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 35,
-      year: "2005",
       typeDoc: "ACUERDO",
-      dateDoc: "30-AGO",
       numDoc: "ITE-CG 35-2005",
       monthDoc: "AGO",
       nameDoc: "MODIFICATORIO",
@@ -20163,9 +17034,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 36,
-      year: "2005",
       typeDoc: "ACUERDO",
-      dateDoc: "30-SEP",
       numDoc: "ITE-CG 36-2005",
       monthDoc: "SEP",
       nameDoc: "PRESUPUESTO 2006",
@@ -20173,9 +17042,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 37,
-      year: "2005",
       typeDoc: "ACUERDO",
-      dateDoc: "30-SEP",
       numDoc: "ITE-CG 37-2005",
       monthDoc: "SEP",
       nameDoc: "DESINCORPORACIÓN VEHÍCULOS",
@@ -20183,9 +17050,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 38,
-      year: "2005",
       typeDoc: "ACUERDO",
-      dateDoc: "18-OCT",
       numDoc: "ITE-CG 38-2005",
       monthDoc: "OCT",
       nameDoc: "ACREDITACIÓN NUEVA ALIANZA",
@@ -20193,9 +17058,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 39,
-      year: "2005",
       typeDoc: "ACUERDO",
-      dateDoc: "25-OCT",
       numDoc: "ITE-CG 39-2005",
       monthDoc: "OCT",
       nameDoc: "ACREDITACIÓN ALTERNATIVA SOCIALDEMÓCRATA Y CAMPESINA",
@@ -20203,9 +17066,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 40,
-      year: "2005",
       typeDoc: "ACUERDO",
-      dateDoc: "30-NOV",
       numDoc: "ITE-CG 40-2005",
       monthDoc: "NOV",
       nameDoc: "FINANCIAMIENTO NUEVOS PARTIDOS",
@@ -20213,9 +17074,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 41,
-      year: "2005",
       typeDoc: "ACUERDO",
-      dateDoc: "02-DIC",
       numDoc: "ITE-CG 41-2005",
       monthDoc: "DIC",
       nameDoc: "PRD",
@@ -20223,9 +17082,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 42,
-      year: "2005",
       typeDoc: "ACUERDO",
-      dateDoc: "05-DIC",
       numDoc: "ITE-CG 42-2005",
       monthDoc: "DIC",
       nameDoc: "APLICACIÓN MINISTRACIONES PRD",
@@ -20233,9 +17090,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 43,
-      year: "2005",
       typeDoc: "ACUERDO",
-      dateDoc: "30-DIC",
       numDoc: "ITE-CG 43-2005",
       monthDoc: "DIC",
       nameDoc: "REGISTRO PAC",
@@ -20246,9 +17101,7 @@ export const dataAcuerdosITE = {
   2004: [
     {
       id: 1,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "08-ENE",
       numDoc: "ITE-CG 01-2004",
       monthDoc: "ENE",
       nameDoc: "SOBRE CREACION DE COMISIONES",
@@ -20256,9 +17109,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 2,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "08-ENE",
       numDoc: "ITE-CG 02-2004",
       monthDoc: "ENE",
       nameDoc: "INTEGRAR LA JUNTA GENERAL EJECUTIVA",
@@ -20266,9 +17117,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 3,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "21-ENE",
       numDoc: "ITE-CG 03-2004",
       monthDoc: "ENE",
       nameDoc: "RETRIBUCION CONSEJEROS",
@@ -20276,9 +17125,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 4,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "21-ENE",
       numDoc: "ITE-CG 04-2004",
       monthDoc: "ENE",
       nameDoc: "PROCEDIMIENTOS PJS",
@@ -20286,9 +17133,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 5,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "21-ENE",
       numDoc: "ITE-CG 05-2004",
       monthDoc: "ENE",
       nameDoc: "CONVOCATORIA DIRECCIONES",
@@ -20296,9 +17141,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 6,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "26-FEB",
       numDoc: "ITE-CG 06-2004",
       monthDoc: "FEB",
       nameDoc: "SUSPENSIÓN DEMARCACIÓN DISTRITAL",
@@ -20306,9 +17149,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 7,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "26-FEB",
       numDoc: "ITE-CG 07-2004",
       monthDoc: "FEB",
       nameDoc: "FECHA DE INICIO DEL PROCESO ELECTORAL",
@@ -20316,9 +17157,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 8,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "26-FEB",
       numDoc: "ITE-CG 08-2004",
       monthDoc: "FEB",
       nameDoc: "REGIDORES 04",
@@ -20326,9 +17165,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 9,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "26-FEB",
       numDoc: "ITE-CG 09-2004",
       monthDoc: "FEB",
       nameDoc: "NOMBRAMIENTO DIRECTOR DE ORGANIZACION",
@@ -20336,9 +17173,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 10,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "26-FEB",
       numDoc: "ITE-CG 10-2004",
       monthDoc: "FEB",
       nameDoc: "NOMBRAMIENTO DIRECTOR DEL SERVICIO PROFESIONAL",
@@ -20346,9 +17181,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 11,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "26-FEB",
       numDoc: "ITE-CG 11-2004",
       monthDoc: "FEB",
       nameDoc: "NOMBRAMIENTO DIRECTOS ASUNTOS JURIDICOS",
@@ -20356,9 +17189,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 12,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "26-FEB",
       numDoc: "ITE-CG 12-2004",
       monthDoc: "FEB",
       nameDoc: "CONVENIO UVT",
@@ -20366,9 +17197,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 13,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "26-MAR",
       numDoc: "ITE-CG 13-2004",
       monthDoc: "MAR",
       nameDoc: "DE SECCIONAMIENTO",
@@ -20376,9 +17205,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 14,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "26-MAR",
       numDoc: "ITE-CG 14-2004",
       monthDoc: "MAR",
       nameDoc: "RATIFICACIÓN DE VIGENCIA NORMATIVIDAD",
@@ -20386,9 +17213,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 15,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "26-MAR",
       numDoc: "ITE-CG 15-2004",
       monthDoc: "MAR",
       nameDoc: "COMITE ADQUISICIONES",
@@ -20396,9 +17221,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 16,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "26-MAR",
       numDoc: "ITE-CG 16-2004",
       monthDoc: "MAR",
       nameDoc:
@@ -20407,9 +17230,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 17,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "26-MAR",
       numDoc: "ITE-CG 17-2004",
       monthDoc: "MAR",
       nameDoc: "REGLAMENTO DE SESIONES DEL CONSEJO GENERAL. EN LO GENERAL",
@@ -20417,9 +17238,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 18,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "26-MAR",
       numDoc: "ITE-CG 18-2004",
       monthDoc: "MAR",
       nameDoc:
@@ -20428,9 +17247,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 19,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "26-MAR",
       numDoc: "ITE-CG 19-2004",
       monthDoc: "MAR",
       nameDoc: "REGLAMENTO SESIONES JUNTA GENERAL EJECUTIVA. EN LO GENERAL",
@@ -20438,9 +17255,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 20,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "26-MAR",
       numDoc: "ITE-CG 20-2004",
       monthDoc: "MAR",
       nameDoc: "DEL ESTATUTO DEL SERVICIO PROFESIONAL ELECTORAL. EN LO GENERAL",
@@ -20448,9 +17263,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 21,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "26-MAR",
       numDoc: "ITE-CG 21-2004",
       monthDoc: "MAR",
       nameDoc:
@@ -20459,9 +17272,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 22,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "26-MAR",
       numDoc: "ITE-CG 22-2004",
       monthDoc: "MAR",
       nameDoc:
@@ -20470,9 +17281,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 23,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "26-MAR",
       numDoc: "ITE-CG 23-2004",
       monthDoc: "MAR",
       nameDoc:
@@ -20481,9 +17290,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 24,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "26-MAR",
       numDoc: "ITE-CG 24-2004",
       monthDoc: "MAR",
       nameDoc: "REGLAMENTO DE PRECAMPAÑAS. EN LO GENERAL",
@@ -20491,9 +17298,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 25,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "26-MAR",
       numDoc: "ITE-CG 25-2004",
       monthDoc: "MAR",
       nameDoc:
@@ -20502,9 +17307,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 26,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "26-MAR",
       numDoc: "ITE-CG 26-2004",
       monthDoc: "MAR",
       nameDoc:
@@ -20513,9 +17316,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 27,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "20-ABR",
       numDoc: "ITE-CG 27-2004",
       monthDoc: "ABR",
       nameDoc: "ESTRUCTURA OPERATIVA ORGANIZACIÓN",
@@ -20523,9 +17324,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 28,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "20-ABR",
       numDoc: "ITE-CG 28-2004",
       monthDoc: "ABR",
       nameDoc: "CONVOCATORIA COORDINADORES",
@@ -20533,9 +17332,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 29,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "20-ABR",
       numDoc: "ITE-CG 29-2004",
       monthDoc: "ABR",
       nameDoc: "QUE AUTORIZA AL PRESIDENTE CONVENIO IFE",
@@ -20543,9 +17340,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 30,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "20-ABR",
       numDoc: "ITE-CG 30-2004",
       monthDoc: "ABR",
       nameDoc: "INICIATIVA",
@@ -20553,9 +17348,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 31,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "30-ABR",
       numDoc: "ITE-CG 31-2004",
       monthDoc: "ABR",
       nameDoc: "CONVOCATORIA ELECCIONES",
@@ -20563,9 +17356,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 32,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "30-ABR",
       numDoc: "ITE-CG 32-2004",
       monthDoc: "ABR",
       nameDoc: "CALENDARIO",
@@ -20575,9 +17366,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 33,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "30-ABR",
       numDoc: "ITE-CG 33-2004",
       monthDoc: "ABR",
       nameDoc: "ACUERDO-CRITERIO- REGIDOR ACUAMANALA-PDTE",
@@ -20585,9 +17374,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 34,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "30-ABR",
       numDoc: "ITE-CG 34-2004",
       monthDoc: "ABR",
       nameDoc: "DE OBSERVACIÓN ELECTORAL",
@@ -20595,9 +17382,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 35,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "30-ABR",
       numDoc: "ITE-CG 35-2004",
       monthDoc: "ABR",
       nameDoc: "MONITOREO",
@@ -20605,9 +17390,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 36,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "28-MAY",
       numDoc: "ITE-CG 36-2004",
       monthDoc: "MAY",
       nameDoc: "ACCIÓN NACIONAL",
@@ -20615,9 +17398,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 37,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "28-MAY",
       numDoc: "ITE-CG 37-2004",
       monthDoc: "MAY",
       nameDoc: "PARTIDO REVOLUCIONARIO INSTITUCIONAL",
@@ -20625,9 +17406,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 38,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "28-MAY",
       numDoc: "ITE-CG 38-2004",
       monthDoc: "MAY",
       nameDoc: "PARTIDO DE LA REVOLUCIÓN DEMOCRÁTICA",
@@ -20635,9 +17414,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 39,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "28-MAY",
       numDoc: "ITE-CG 39-2004",
       monthDoc: "MAY",
       nameDoc: "PARTIDO DEL TRABAJO",
@@ -20645,9 +17422,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 40,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "28-MAY",
       numDoc: "ITE-CG 40-2004",
       monthDoc: "MAY",
       nameDoc: "VERDE ECOLOGISTA",
@@ -20655,9 +17430,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 41,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "28-MAY",
       numDoc: "ITE-CG 41-2004",
       monthDoc: "MAY",
       nameDoc: "CONVERGENCIA",
@@ -20665,9 +17438,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 42,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "28-MAY",
       numDoc: "ITE-CG 42-2004",
       monthDoc: "MAY",
       nameDoc: "CENTRO DEMOCRATICO",
@@ -20675,9 +17446,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 43,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "28-MAY",
       numDoc: "ITE-CG 43-2004",
       monthDoc: "MAY",
       nameDoc: "JUSTICIA SOCIAL",
@@ -20685,9 +17454,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 44,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "28-MAY",
       numDoc: "ITE-CG 44-2004",
       monthDoc: "MAY",
       nameDoc: "SOCIEDAD NACIONALISTA",
@@ -20695,9 +17462,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 45,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "28-MAY",
       numDoc: "ITE-CG 45-2004",
       monthDoc: "MAY",
       nameDoc: "ALIANZA SOCIAL",
@@ -20705,9 +17470,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 46,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "28-MAY",
       numDoc: "ITE-CG 46-2004",
       monthDoc: "MAY",
       nameDoc: "LIBERAL MEXICANO",
@@ -20715,9 +17478,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 47,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "28-MAY",
       numDoc: "ITE-CG 47-2004",
       monthDoc: "MAY",
       nameDoc: "MÉXICO POSIBLE",
@@ -20725,9 +17486,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 48,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "28-MAY",
       numDoc: "ITE-CG 48-2004",
       monthDoc: "MAY",
       nameDoc: "FUERZA CIUDADANA",
@@ -20735,9 +17494,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 49,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "28-MAY",
       numDoc: "ITE-CG 49-2004",
       monthDoc: "MAY",
       nameDoc: "OBSERVADORES",
@@ -20745,9 +17502,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 50,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "28-MAY",
       numDoc: "ITE-CG 50-2004",
       monthDoc: "MAY",
       nameDoc: "PROGRAMA DE TRABAJO DIR. ORG",
@@ -20755,9 +17510,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 51,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "28-MAY",
       numDoc: "ITE-CG 51-2004",
       monthDoc: "MAY",
       nameDoc: "EQUIDAD DE GÉNERO",
@@ -20765,9 +17518,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 52,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "28-MAY",
       numDoc: "ITE-CG 52-2004",
       monthDoc: "MAY",
       nameDoc: "PARTIDO JUSTICIA SOCIAL SUP-JDC-809-2002",
@@ -20775,9 +17526,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 53,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "28-MAY",
       numDoc: "ITE-CG 53-2004",
       monthDoc: "MAY",
       nameDoc: "CONVOCATORIA CONSEJOS DISTRITALES Y MUNICIPALES",
@@ -20785,9 +17534,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 54,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "04-JUN",
       numDoc: "ITE-CG 54-2004",
       monthDoc: "JUN",
       nameDoc: "REESTRUCTURACION DE PRESUPUESTO 2004",
@@ -20795,9 +17542,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 55,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "29-JUN",
       numDoc: "ITE-CG 55-2004",
       monthDoc: "JUN",
       nameDoc: "INSACULACIÓN MES BASE",
@@ -20805,9 +17550,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 56,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "29-JUN",
       numDoc: "ITE-CG 56-2004",
       monthDoc: "JUN",
       nameDoc: "PROTECCIÓN DE LA ZONAS Y MONUMENTOS HISTÓRICOS",
@@ -20815,9 +17558,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 57,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "29-JUN",
       numDoc: "ITE-CG 57-2004",
       monthDoc: "JUN",
       nameDoc: "ADICIÓN OBSERVACION ELECTORAL",
@@ -20825,9 +17566,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 58,
-      year: "2004",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "29-JUN",
       numDoc: "ITE-CG 58-2004",
       monthDoc: "JUN",
       nameDoc: "PAN",
@@ -20835,9 +17574,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 59,
-      year: "2004",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "29-JUN",
       numDoc: "ITE-CG 59-2004",
       monthDoc: "JUN",
       nameDoc: "PRI",
@@ -20845,9 +17582,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 60,
-      year: "2004",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "29-JUN",
       numDoc: "ITE-CG 60-2004",
       monthDoc: "JUN",
       nameDoc: "PRD",
@@ -20855,9 +17590,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 61,
-      year: "2004",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "29-JUN",
       numDoc: "ITE-CG 61-2004",
       monthDoc: "JUN",
       nameDoc: "PT",
@@ -20865,9 +17598,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 62,
-      year: "2004",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "29-JUN",
       numDoc: "ITE-CG 62-2004",
       monthDoc: "JUN",
       nameDoc: "CONVERGENCIA",
@@ -20875,9 +17606,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 63,
-      year: "2004",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "29-JUN",
       numDoc: "ITE-CG 63-2004",
       monthDoc: "JUN",
       nameDoc: "PJS",
@@ -20885,9 +17614,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 64,
-      year: "2004",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "29-JUN",
       numDoc: "ITE-CG 64-2004",
       monthDoc: "JUN",
       nameDoc: "PSN",
@@ -20895,9 +17622,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 65,
-      year: "2004",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "29-JUN",
       numDoc: "ITE-CG 65-2004",
       monthDoc: "JUN",
       nameDoc: "PLM",
@@ -20905,9 +17630,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 66,
-      year: "2004",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "29-JUN",
       numDoc: "ITE-CG 66-2004",
       monthDoc: "JUN",
       nameDoc: "MEX POSIBLE",
@@ -20915,9 +17638,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 67,
-      year: "2004",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "29-JUN",
       numDoc: "ITE-CG 67-2004",
       monthDoc: "JUN",
       nameDoc: "FUERZ CIUD",
@@ -20925,9 +17646,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 68,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "15-JUL",
       numDoc: "ITE-CG 68-2004",
       monthDoc: "JUL",
       nameDoc: "INTEGRACIÓN CONSEJOS DISTRITALES",
@@ -20935,9 +17654,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 69,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "20-JUL",
       numDoc: "ITE-CG 69-2004",
       monthDoc: "JUL",
       nameDoc: "SE FACULTA AL PRESIDENTE",
@@ -20945,9 +17662,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 70,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "20-JUL",
       numDoc: "ITE-CG 70-2004",
       monthDoc: "JUL",
       nameDoc: "ACREDITACIÓN PRI",
@@ -20955,9 +17670,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 71,
-      year: "2004",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "20-JUL",
       numDoc: "ITE-CG 71-2004",
       monthDoc: "JUL",
       nameDoc: "DE LA QUEJA 001-2004",
@@ -20965,9 +17678,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 72,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "30-JUL",
       numDoc: "ITE-CG 72-2004",
       monthDoc: "JUL",
       nameDoc: "EXCLUSIÓN POBLACIONES DE LA CONVOCATORIA",
@@ -20975,9 +17686,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 73,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "30-JUL",
       numDoc: "ITE-CG 73-2004",
       monthDoc: "JUL",
       nameDoc: "INCLUSIÓN POBLACIONES",
@@ -20985,9 +17694,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 74,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "30-JUL",
       numDoc: "ITE-CG 74-2004",
       monthDoc: "JUL",
       nameDoc: "CATÁLOGO DE COMUNIDADES USOS Y COSTUMBRES",
@@ -20995,9 +17702,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 75,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "30-JUL",
       numDoc: "ITE-CG 75-2004",
       monthDoc: "JUL",
       nameDoc: "INTEGRACIÓN CONSEJOS MUNICIPALES",
@@ -21005,9 +17710,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 76,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "30-JUL",
       numDoc: "ITE-CG 76-2004",
       monthDoc: "JUL",
       nameDoc: "ACREDITACIÓN PAN",
@@ -21015,9 +17718,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 77,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "30-JUL",
       numDoc: "ITE-CG 77-2004",
       monthDoc: "JUL",
       nameDoc: "ACREDITACIÓN PT",
@@ -21025,9 +17726,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 78,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "30-JUL",
       numDoc: "ITE-CG 78-2004",
       monthDoc: "JUL",
       nameDoc: "LICITACIÓN MATERIAL ELECTORAL",
@@ -21035,9 +17734,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 79,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "30-JUL",
       numDoc: "ITE-CG 79-2004",
       monthDoc: "JUL",
       nameDoc: "SUSTITUCIÓN CONSEJEROS DISTRITALES",
@@ -21045,9 +17742,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 108,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "03-SEP",
       numDoc: "ITE-CG 108-2004",
       monthDoc: "SEP",
       nameDoc: "REGISTRO GOBERNADOR MARIANO",
@@ -21055,9 +17750,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 109,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "03-SEP",
       numDoc: "ITE-CG 109-2004",
       monthDoc: "SEP",
       nameDoc: "REGISTRO GOBERNADOR HECTOR",
@@ -21065,9 +17758,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 110,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "03-SEP",
       numDoc: "ITE-CG 110-2004",
       monthDoc: "SEP",
       nameDoc: "REGISTRO GOBERNADOR GELACIO",
@@ -21075,9 +17766,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 111,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "03-SEP",
       numDoc: "ITE-CG 111-2004",
       monthDoc: "SEP",
       nameDoc: "REGISTRO DIPUTADOS PAN",
@@ -21085,9 +17774,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 112,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "03-SEP",
       numDoc: "ITE-CG 112-2004",
       monthDoc: "SEP",
       nameDoc: "REGISTRO DIPUTADOS PRI-PVEM",
@@ -21095,9 +17782,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 113,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "03-SEP",
       numDoc: "ITE-CG 113-2004",
       monthDoc: "SEP",
       nameDoc: "REGISTRO DIPUTADOS PRD",
@@ -21105,9 +17790,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 114,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "03-SEP",
       numDoc: "ITE-CG 114-2004",
       monthDoc: "SEP",
       nameDoc: "REGISTRO DIPUTADOS PT",
@@ -21115,9 +17798,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 115,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "03-SEP",
       numDoc: "ITE-CG 115-2004",
       monthDoc: "SEP",
       nameDoc: "REGISTRO DIPUTADOS CONVERG",
@@ -21125,9 +17806,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 116,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "03-SEP",
       numDoc: "ITE-CG 116-2004",
       monthDoc: "SEP",
       nameDoc: "REGISTRO DIPUTADOS PCDT",
@@ -21135,9 +17814,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 117,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "03-SEP",
       numDoc: "ITE-CG 117-2004",
       monthDoc: "SEP",
       nameDoc: "REGISTRO DIPUTADOS PJS",
@@ -21145,9 +17822,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 118,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "03-SEP",
       numDoc: "ITE-CG 118-2004",
       monthDoc: "SEP",
       nameDoc: "ASIGNACIÓN PRERROGATIVAS PRESI",
@@ -21155,9 +17830,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 119,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "03-SEP",
       numDoc: "ITE-CG 119-2004",
       monthDoc: "SEP",
       nameDoc: "LINEAMIENTOS FISC MEDIOS",
@@ -21165,9 +17838,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 120,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "03-SEP",
       numDoc: "ITE-CG 120-2004",
       monthDoc: "SEP",
       nameDoc: "TIEMPOS Y ESPACIOS FORMA IGUALITARIA",
@@ -21175,9 +17846,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 121,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "03-SEP",
       numDoc: "ITE-CG 121-2004",
       monthDoc: "SEP",
       nameDoc: "DE SANTIAGO TLACOCHCALCO",
@@ -21185,9 +17854,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 122,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "03-SEP",
       numDoc: "ITE-CG 122-2004",
       monthDoc: "SEP",
       nameDoc: "FECHA LÍMITE PRES. COM",
@@ -21195,9 +17862,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 123,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "03-SEP",
       numDoc: "ITE-CG 123-2004",
       monthDoc: "SEP",
       nameDoc: "COMISION CONSULTA INFANTIL 2004",
@@ -21205,9 +17870,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 124,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "03-SEP",
       numDoc: "ITE-CG 124-2004",
       monthDoc: "SEP",
       nameDoc: "SUSTITUCION D. XIX, CUAXOMULCO Y TLAXCALA",
@@ -21215,9 +17878,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 125,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "03-SEP",
       numDoc: "ITE-CG 125-2004",
       monthDoc: "SEP",
       nameDoc: "PLATAFORMA PRES D COM PAN",
@@ -21225,9 +17886,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 126,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "14-SEP",
       numDoc: "ITE-CG 126-2004",
       monthDoc: "SEP",
       nameDoc: "PLATAFORMA PRI MUNIC",
@@ -21235,9 +17894,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 127,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "14-SEP",
       numDoc: "ITE-CG 127-2004",
       monthDoc: "SEP",
       nameDoc: "PLATAFORMA PRES D COM PT",
@@ -21245,9 +17902,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 128,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "14-SEP",
       numDoc: "ITE-CG 128-2004",
       monthDoc: "SEP",
       nameDoc: "PLATAFORMA AYUNT Y P.C.PVEM",
@@ -21255,9 +17910,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 129,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "14-SEP",
       numDoc: "ITE-CG 129-2004",
       monthDoc: "SEP",
       nameDoc: "PLATAFORMA PJS MUNICIP",
@@ -21265,9 +17918,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 130,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "14-SEP",
       numDoc: "ITE-CG 130-2004",
       monthDoc: "SEP",
       nameDoc: "SUSTITUCIÓN DIPUTADOS PCDT 2004",
@@ -21275,9 +17926,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 131,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "14-SEP",
       numDoc: "ITE-CG 131-2004",
       monthDoc: "SEP",
       nameDoc: "CRITERIOS LEY MUNICIPAL",
@@ -21285,9 +17934,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 134,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "14-SEP",
       numDoc: "ITE-CG 134-2004",
       monthDoc: "SEP",
       nameDoc: "COM BOLET Y REG CAND",
@@ -21295,9 +17942,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 135,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "14-SEP",
       numDoc: "ITE-CG 135-2004",
       monthDoc: "SEP",
       nameDoc: "SUSTITUCIONES CONSEJOS DISTRITALES Y MUNICIPALES",
@@ -21305,9 +17950,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 136,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "14-SEP",
       numDoc: "ITE-CG 136-2004",
       monthDoc: "SEP",
       nameDoc: "DICTAMEN OBSERVADORES 2a LISTA OK",
@@ -21315,9 +17958,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 137,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "14-SEP",
       numDoc: "ITE-CG 137-2004",
       monthDoc: "SEP",
       nameDoc: "SECCIÓN SÉPTIMA DE CONTLA",
@@ -21325,9 +17966,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 138,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "14-SEP",
       numDoc: "ITE-CG 138-2004",
       monthDoc: "SEP",
       nameDoc: "DEFINICIÓN SITUACIÓN JURÍDICA P",
@@ -21335,9 +17974,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 139,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "14-SEP",
       numDoc: "ITE-CG 139-2004",
       monthDoc: "SEP",
       nameDoc: "SUSTITUCIONES DIPUTADOS CONVERGENCIA",
@@ -21345,9 +17982,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 140,
-      year: "2004",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "14-SEP",
       numDoc: "ITE-CG 140-2004",
       monthDoc: "SEP",
       nameDoc: "QUEJA EXP. 10-2004",
@@ -21355,9 +17990,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 141,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "14-SEP",
       numDoc: "ITE-CG 141-2004",
       monthDoc: "SEP",
       nameDoc: "REGISTRO GOBERNADOR MARÍA DEL CARMEN",
@@ -21365,9 +17998,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 142,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "14-SEP",
       numDoc: "ITE-CG 142-2004",
       monthDoc: "SEP",
       nameDoc: "SUSTITUCIÓN DIPUT PT",
@@ -21375,9 +18006,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 143,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "16-SEP",
       numDoc: "ITE-CG 143-2004",
       monthDoc: "SEP",
       nameDoc: "SUSTIT DIP PJS",
@@ -21385,9 +18014,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 144,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "22-SEP",
       numDoc: "ITE-CG 144-2004",
       monthDoc: "SEP",
       nameDoc: "TERCERA ETAPA OBSERVADORES",
@@ -21395,9 +18022,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 145,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "22-SEP",
       numDoc: "ITE-CG 145-2004",
       monthDoc: "SEP",
       nameDoc: "SUTITUCIÓN ATLAGATEPEC 20-09-04",
@@ -21405,9 +18030,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 146,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "22-SEP",
       numDoc: "ITE-CG 146-2004",
       monthDoc: "SEP",
       nameDoc: "SUSTITUCION DIPUT PAN",
@@ -21415,9 +18038,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 147,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "22-SEP",
       numDoc: "ITE-CG 147-2004",
       monthDoc: "SEP",
       nameDoc: "ESCRITO DE PROTESTA",
@@ -21425,9 +18046,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 148,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "22-SEP",
       numDoc: "ITE-CG 148-2004",
       monthDoc: "SEP",
       nameDoc: "INCLUIR A TERRENATE CHIPILO VOTO CONST",
@@ -21435,9 +18054,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 149,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "22-SEP",
       numDoc: "ITE-CG 149-2004",
       monthDoc: "SEP",
       nameDoc: "INCLUIR SANTA MARTHA SECCIÓN TERCERA DE XALOZTOC VOTO CONST",
@@ -21445,9 +18062,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 155,
-      year: "2004",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "04-OCT",
       numDoc: "ITE-CG 155-2004",
       monthDoc: "OCT",
       nameDoc: "REGISTRO AYUNTAMIENTOS",
@@ -21458,9 +18073,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 156,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "04-OCT",
       numDoc: "ITE-CG 156-2004",
       monthDoc: "OCT",
       nameDoc: "REGISTRO PRESIDENTES DE COMUNIDAD",
@@ -21471,9 +18084,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 157,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "13-OCT",
       numDoc: "ITE-CG 157-2004",
       monthDoc: "OCT",
       nameDoc: "NO REGISTRO AYUNTAMIENTOS",
@@ -21481,9 +18092,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 158,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "13-OCT",
       numDoc: "ITE-CG 158-2004",
       monthDoc: "OCT",
       nameDoc: "NO REGISTRO PRESIDENCIAS DE COMUNIDAD",
@@ -21491,9 +18100,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 159,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "13-OCT",
       numDoc: "ITE-CG 159-2004",
       monthDoc: "OCT",
       nameDoc: "ASIGNACIÓN PRERROGATIVAS AYUNTAMIENTOS",
@@ -21501,9 +18108,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 160,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "13-OCT",
       numDoc: "ITE-CG 160-2004",
       monthDoc: "OCT",
       nameDoc: "SUSTITUCIÓN DIPUTADOS PCDT y PC",
@@ -21511,9 +18116,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 161,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "13-OCT",
       numDoc: "ITE-CG 161-2004",
       monthDoc: "OCT",
       nameDoc: "SUSTITUCIÓN TOTAL DE AYUNTAMIENTOS",
@@ -21521,9 +18124,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 162,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "13-OCT",
       numDoc: "ITE-CG 162-2004",
       monthDoc: "OCT",
       nameDoc: "NO APRUEBA SUSTITUCIÓN AYUNTAMIENTOS",
@@ -21531,9 +18132,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 163,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "13-OCT",
       numDoc: "ITE-CG 163-2004",
       monthDoc: "OCT",
       nameDoc:
@@ -21542,9 +18141,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 164,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "13-OCT",
       numDoc: "ITE-CG 164-2004",
       monthDoc: "OCT",
       nameDoc: "TRANSFERENCIA PARA PROGRAMAS DEL IET",
@@ -21552,9 +18149,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 165,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "13-OCT",
       numDoc: "ITE-CG 165-2004",
       monthDoc: "OCT",
       nameDoc: "CUMPLIMIENTO VICTOR CESAR",
@@ -21562,9 +18157,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 166,
-      year: "2004",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "13-OCT",
       numDoc: "ITE-CG 166-2004",
       monthDoc: "OCT",
       nameDoc: "QUEJA EXP. 011-2004",
@@ -21572,9 +18165,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 167,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "16-OCT",
       numDoc: "ITE-CG 167-2004",
       monthDoc: "OCT",
       nameDoc: "CUMPLIMIENTO EJECUTORIA",
@@ -21582,9 +18173,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 168,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "16-OCT",
       numDoc: "ITE-CG 168-2004",
       monthDoc: "OCT",
       nameDoc: "REGISTRO CESAR TETLA",
@@ -21592,9 +18181,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 169,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "20-OCT",
       numDoc: "ITE-CG 169-2004",
       monthDoc: "OCT",
       nameDoc: "CUMPLIMIENTO DE BOLETAS ELECTORALES",
@@ -21602,9 +18189,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 170,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "20-OCT",
       numDoc: "ITE-CG 170-2004",
       monthDoc: "OCT",
       nameDoc: "CUMPLIMIENTO TZOMPANTEPEC",
@@ -21612,9 +18197,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 171,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "20-OCT",
       numDoc: "ITE-CG 171-2004",
       monthDoc: "OCT",
       nameDoc: "REGISTRO SECCION SEXTA BARRIO GRANDE ok",
@@ -21622,9 +18205,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 172,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "20-OCT",
       numDoc: "ITE-CG 172-2004",
       monthDoc: "OCT",
       nameDoc: "SUSTIT. DIP SUPLEN ok",
@@ -21632,9 +18213,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 173,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "20-OCT",
       numDoc: "ITE-CG 173-2004",
       monthDoc: "OCT",
       nameDoc: "SUSTITUCION AYUNTS COMPLETO",
@@ -21642,9 +18221,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 174,
-      year: "2004",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "20-OCT",
       numDoc: "ITE-CG 174-2004",
       monthDoc: "OCT",
       nameDoc: "004-2004",
@@ -21652,9 +18229,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 175,
-      year: "2004",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "20-OCT",
       numDoc: "ITE-CG 175-2004",
       monthDoc: "OCT",
       nameDoc: "008-2004",
@@ -21662,9 +18237,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 176,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "20-OCT",
       numDoc: "ITE-CG 176-2004",
       monthDoc: "OCT",
       nameDoc: "EGRESOS 2005",
@@ -21672,9 +18245,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 177,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "20-OCT",
       numDoc: "ITE-CG 177-2004",
       monthDoc: "OCT",
       nameDoc: "EXCLUSIÓN SANTA MARTHA",
@@ -21682,9 +18253,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 178,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "20-OCT",
       numDoc: "ITE-CG 178-2004",
       monthDoc: "OCT",
       nameDoc: "CUMPLIMIENTO CALPULALPAN",
@@ -21692,9 +18261,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 179,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "20-OCT",
       numDoc: "ITE-CG 179-2004",
       monthDoc: "OCT",
       nameDoc: "CUMPLIMIENTO TLAXCO",
@@ -21702,9 +18269,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 180,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "20-OCT",
       numDoc: "ITE-CG 180-2004",
       monthDoc: "OCT",
       nameDoc: "CUMPLIMIENTO TZOMPANTEPEC XALTOCANok",
@@ -21712,9 +18277,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 181,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "20-OCT",
       numDoc: "ITE-CG 181-2004",
       monthDoc: "OCT",
       nameDoc: "CUMPLIMIENTO PAPALOTLA NATIVITAS",
@@ -21722,9 +18285,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 182,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "20-OCT",
       numDoc: "ITE-CG 182-2004",
       monthDoc: "OCT",
       nameDoc: "APETATITLAN VICTOR HUGO",
@@ -21732,9 +18293,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 183,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "20-OCT",
       numDoc: "ITE-CG 183-2004",
       monthDoc: "OCT",
       nameDoc: "TZOMPANTEPEC CUMPLIMIENTO",
@@ -21742,9 +18301,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 184,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "22-OCT",
       numDoc: "ITE-CG 184-2004",
       monthDoc: "OCT",
       nameDoc: "CUMPLIMIENTO TENANCINGO",
@@ -21752,9 +18309,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 185,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "22-OCT",
       numDoc: "ITE-CG 185-2004",
       monthDoc: "OCT",
       nameDoc: "CUMPLIMIENTO JOSE ANTONIO AGUILAR DURAN",
@@ -21762,9 +18317,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 186,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "22-OCT",
       numDoc: "ITE-CG 186-2004",
       monthDoc: "OCT",
       nameDoc: "CUMPLIMENTO REGIDOR",
@@ -21772,9 +18325,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 187,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "24-OCT",
       numDoc: "ITE-CG 0105-2004",
       monthDoc: "OCT",
       nameDoc:
@@ -21783,9 +18334,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 188,
-      year: "2004",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "24-OCT",
       numDoc: "ITE-CG 187-2004",
       monthDoc: "OCT",
       nameDoc: "INTEGRACION,NUMERO Y UBICACION DECASILLAS",
@@ -21793,9 +18342,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 189,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "24-OCT",
       numDoc: "ITE-CG 188-2004",
       monthDoc: "OCT",
       nameDoc: "LISTA NOMINAL-PRESIDENCIAS DE COMUNIDAD",
@@ -21803,9 +18350,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 190,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "24-OCT",
       numDoc: "ITE-CG 189-2004",
       monthDoc: "OCT",
       nameDoc: "CIERRE DE CAMPAÑA",
@@ -21813,9 +18358,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 191,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "24-OCT",
       numDoc: "ITE-CG 190-2004",
       monthDoc: "OCT",
       nameDoc: "SUSTITUCIONES DE AYUNTAMIENTOS",
@@ -21823,9 +18366,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 192,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "26-OCT",
       numDoc: "ITE-CG 191-2004",
       monthDoc: "OCT",
       nameDoc: "SUSTITUCIONES CONSEJOS DIST Y MUNIC",
@@ -21833,9 +18374,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 193,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "26-OCT",
       numDoc: "ITE-CG 192-2004",
       monthDoc: "OCT",
       nameDoc: "MEDIDAS DE SEGURIDAD DE LAS BOLETAS ELECTORALES",
@@ -21843,9 +18382,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 194,
-      year: "2004",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "31-OCT",
       numDoc: "ITE-CG 193-2004",
       monthDoc: "OCT",
       nameDoc: "SUP-JDC-554-2004",
@@ -21853,9 +18390,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 195,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "31-OCT",
       numDoc: "ITE-CG 194-2004",
       monthDoc: "OCT",
       nameDoc: "SARJE",
@@ -21863,9 +18398,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 196,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "31-OCT",
       numDoc: "ITE-CG 195-2004",
       monthDoc: "OCT",
       nameDoc: "SUSTITUCIÓN DIP SUP Y 1 REG PROP PRD PRESENTADO EN SESIÓN",
@@ -21873,9 +18406,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 197,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "31-OCT",
       numDoc: "ITE-CG 196-2004",
       monthDoc: "OCT",
       nameDoc: "LISTA 3 OBSERVADORES",
@@ -21883,9 +18414,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 198,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "31-OCT",
       numDoc: "ITE-CG 197-2004",
       monthDoc: "OCT",
       nameDoc: "TOPES DE CAMPAÑA COMUNIDADES",
@@ -21893,9 +18422,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 199,
-      year: "2004",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "31-OCT",
       numDoc: "ITE-CG 198-2004",
       monthDoc: "OCT",
       nameDoc: "REC.REV. 01",
@@ -21903,9 +18430,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 200,
-      year: "2004",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "31-OCT",
       numDoc: "ITE-CG 199-2004",
       monthDoc: "OCT",
       nameDoc: "REC.REV. 02",
@@ -21913,9 +18438,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 201,
-      year: "2004",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "31-OCT",
       numDoc: "ITE-CG 200-2004",
       monthDoc: "OCT",
       nameDoc: "QUEJA 025-04",
@@ -21923,9 +18446,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 202,
-      year: "2004",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "31-OCT",
       numDoc: "ITE-CG 201-2004",
       monthDoc: "OCT",
       nameDoc: "QUEJA 036-04",
@@ -21933,9 +18454,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 203,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "31-OCT",
       numDoc: "ITE-CG 202-2004",
       monthDoc: "OCT",
       nameDoc: "MODIFICACIÓN DE ACTAS",
@@ -21943,9 +18462,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 204,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "02-NOV",
       numDoc: "ITE-CG 203-2004",
       monthDoc: "NOV",
       nameDoc: "CUMPLIMIENTO PJS II T173-04",
@@ -21953,9 +18470,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 205,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "03-NOV",
       numDoc: "ITE-CG 204-2004",
       monthDoc: "NOV",
       nameDoc: "SUSTITUCION CONSEJOS DTALES. Y MPALES",
@@ -21963,9 +18478,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 206,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "03-NOV",
       numDoc: "ITE-CG 205-2004",
       monthDoc: "NOV",
       nameDoc: "CONVENIO IET-IEDF",
@@ -21973,9 +18486,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 207,
-      year: "2004",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "03-NOV",
       numDoc: "ITE-CG 206-2004",
       monthDoc: "NOV",
       nameDoc: "QUEJA 031-04",
@@ -21983,9 +18494,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 208,
-      year: "2004",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "03-NOV",
       numDoc: "ITE-CG 207-2004",
       monthDoc: "NOV",
       nameDoc: "QUEJA 099-04",
@@ -21993,9 +18502,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 209,
-      year: "2004",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "03-NOV",
       numDoc: "ITE-CG 208-2004",
       monthDoc: "NOV",
       nameDoc: "QUEJA 101-2004",
@@ -22003,9 +18510,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 210,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "03-NOV",
       numDoc: "ITE-CG 209-2004",
       monthDoc: "NOV",
       nameDoc: "SUSTITUCIONES PVEM SESION 03-11-04",
@@ -22013,9 +18518,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 211,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "03-NOV",
       numDoc: "ITE-CG 210-2004",
       monthDoc: "NOV",
       nameDoc: "CUMPLIMIENTO APETATI VICTOR",
@@ -22023,9 +18526,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 212,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "03-NOV",
       numDoc: "ITE-CG 211-2004",
       monthDoc: "NOV",
       nameDoc: "SUSTITUCIÓN INTEGRANTES DE MESAS DIR. DE CAS",
@@ -22033,9 +18534,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 213,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "07-NOV",
       numDoc: "ITE-CG 212-2004",
       monthDoc: "NOV",
       nameDoc: "CUMPLIMIENTO ISABEL",
@@ -22043,9 +18542,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 214,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "07-NOV",
       numDoc: "ITE-CG 213-2004",
       monthDoc: "NOV",
       nameDoc: "CUMPLIMIENTO REGIDOR PCDT",
@@ -22053,9 +18550,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 215,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "09-NOV",
       numDoc: "ITE-CG 214-2004",
       monthDoc: "NOV",
       nameDoc: "SUSTITUCIONES PCDT Y PRD",
@@ -22063,9 +18558,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 216,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "09-NOV",
       numDoc: "ITE-CG 215-2004",
       monthDoc: "NOV",
       nameDoc: "SUSTITUCIONES DE FUNCIONARIOS MESAS DIRECTIVAS DE CASILLA",
@@ -22073,9 +18566,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 217,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "09-NOV",
       numDoc: "ITE-CG 216-2004",
       monthDoc: "NOV",
       nameDoc: "SUSTITUCIONES CONSEJOS MUNICIPALES",
@@ -22083,9 +18574,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 218,
-      year: "2004",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "09-NOV",
       numDoc: "ITE-CG 217-2004",
       monthDoc: "NOV",
       nameDoc: "REC.REV.03-2004",
@@ -22093,9 +18582,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 219,
-      year: "2004",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "09-NOV",
       numDoc: "ITE-CG 218-2004",
       monthDoc: "NOV",
       nameDoc: "REC.REV.04-2004",
@@ -22103,9 +18590,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 220,
-      year: "2004",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "09-NOV",
       numDoc: "ITE-CG 219-2004",
       monthDoc: "NOV",
       nameDoc: "QUEJA 26-04",
@@ -22113,9 +18598,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 221,
-      year: "2004",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "09-NOV",
       numDoc: "ITE-CG 220-2004",
       monthDoc: "NOV",
       nameDoc: "QUEJA 65-04",
@@ -22123,9 +18606,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 222,
-      year: "2004",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "09-NOV",
       numDoc: "ITE-CG 221-2004",
       monthDoc: "NOV",
       nameDoc: "EXPEDIENTE 096-04",
@@ -22133,9 +18614,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 223,
-      year: "2004",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "09-NOV",
       numDoc: "ITE-CG 222-2004",
       monthDoc: "NOV",
       nameDoc: "QUEJA 102-04",
@@ -22143,9 +18622,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 224,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "09-NOV",
       numDoc: "ITE-CG 223-2004",
       monthDoc: "NOV",
       nameDoc: "CUMPLIMIENTO TLAXCO PAN",
@@ -22153,9 +18630,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 225,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "09-NOV",
       numDoc: "ITE-CG 224-2004",
       monthDoc: "NOV",
       nameDoc: "CUMPLIMIENTO SANTA MARTHA XALOSTOC",
@@ -22163,9 +18638,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 226,
-      year: "2004",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "09-NOV",
       numDoc: "ITE-CG 225-2004",
       monthDoc: "NOV",
       nameDoc: "REC.REV.05-2004",
@@ -22173,9 +18646,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 227,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "10-NOV",
       numDoc: "ITE-CG 226-2004",
       monthDoc: "NOV",
       nameDoc: "CUMPLIMIENTO SUP-JRC-623-2004 MARCO EDGARDO SÁNCHEZ ORTEGA",
@@ -22183,9 +18654,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 228,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "13-NOV",
       numDoc: "ITE-CG 227-2004",
       monthDoc: "NOV",
       nameDoc: "CUMPLIMIENTO SARJE",
@@ -22193,9 +18662,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 229,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "13-NOV",
       numDoc: "ITE-CG 228-2004",
       monthDoc: "NOV",
       nameDoc: "SUST REGIDORES 13-11-04",
@@ -22203,9 +18670,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 230,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "13-NOV",
       numDoc: "ITE-CG 229-2004",
       monthDoc: "NOV",
       nameDoc: "SUST DIPUTADOS 13-11-04",
@@ -22213,9 +18678,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 231,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "13-NOV",
       numDoc: "ITE-CG 230-2004",
       monthDoc: "NOV",
       nameDoc: "IMPRESION BOLETAS EXTRAS",
@@ -22223,9 +18686,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 232,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "13-NOV",
       numDoc: "ITE-CG 231-2004",
       monthDoc: "NOV",
       nameDoc: "REVOCACIÓN MARCO EDGARDO",
@@ -22233,9 +18694,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 233,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "19-NOV",
       numDoc: "ITE-CG 232-2004",
       monthDoc: "NOV",
       nameDoc: "GOBERNADOR",
@@ -22243,9 +18702,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 234,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "19-NOV",
       numDoc: "ITE-CG 233-2004",
       monthDoc: "NOV",
       nameDoc: "ASIGNACIÓN DIPUTADOS RP",
@@ -22253,9 +18710,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 235,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "19-NOV",
       numDoc: "ITE-CG 234-2004",
       monthDoc: "NOV",
       nameDoc: "ESCRUT Y COMPUT TETLANOHCAN,LA MAGDALENA,ESPAÑITA",
@@ -22263,9 +18718,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 236,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "19-NOV",
       numDoc: "ITE-CG 235-2004",
       monthDoc: "NOV",
       nameDoc: "CÓMPUTO TETLANOHCAN, TLALTELULCO Y ESPAÑITA",
@@ -22273,9 +18726,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 237,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "19-NOV",
       numDoc: "ITE-CG 236-2004",
       monthDoc: "NOV",
       nameDoc: "INTEGRACIÓN AYUNTAMIENTOS 2004 XALOZTOC",
@@ -22283,9 +18734,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 238,
-      year: "2004",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "21-DIC",
       numDoc: "ITE-CG 237-2004",
       monthDoc: "DIC",
       nameDoc: "EXPEDIENTE 005-2004",
@@ -22293,9 +18742,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 239,
-      year: "2004",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "21-DIC",
       numDoc: "ITE-CG 238-2004",
       monthDoc: "DIC",
       nameDoc: "EXPEDIENTE 006-2004",
@@ -22303,9 +18750,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 240,
-      year: "2004",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "21-DIC",
       numDoc: "ITE-CG 239-2004",
       monthDoc: "DIC",
       nameDoc: "EXPEDIENTE 015-2004",
@@ -22313,9 +18758,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 241,
-      year: "2004",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "21-DIC",
       numDoc: "ITE-CG 240-2004",
       monthDoc: "DIC",
       nameDoc: "EXPEDIENTE 022-2004",
@@ -22323,9 +18766,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 242,
-      year: "2004",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "21-DIC",
       numDoc: "ITE-CG 241-2004",
       monthDoc: "DIC",
       nameDoc: "EXPEDIENTE 027-2004",
@@ -22333,9 +18774,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 243,
-      year: "2004",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "21-DIC",
       numDoc: "ITE-CG 242-2004",
       monthDoc: "DIC",
       nameDoc: "EXPEDIENTE 029-2004",
@@ -22343,9 +18782,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 244,
-      year: "2004",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "21-DIC",
       numDoc: "ITE-CG 243-2004",
       monthDoc: "DIC",
       nameDoc: "EXPEDIENTE 030-2004",
@@ -22353,9 +18790,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 245,
-      year: "2004",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "21-DIC",
       numDoc: "ITE-CG 244-2004",
       monthDoc: "DIC",
       nameDoc: "EXPEDIENTE 034-2004",
@@ -22363,9 +18798,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 246,
-      year: "2004",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "21-DIC",
       numDoc: "ITE-CG 245-2004",
       monthDoc: "DIC",
       nameDoc: "EXPEDIENTE 057-2004",
@@ -22373,9 +18806,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 247,
-      year: "2004",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "21-DIC",
       numDoc: "ITE-CG 246-2004",
       monthDoc: "DIC",
       nameDoc: "EXPEDIENTE 075-2004",
@@ -22383,9 +18814,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 249,
-      year: "2004",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "21-DIC",
       numDoc: "ITE-CG 248-2004",
       monthDoc: "DIC",
       nameDoc: "EXPEDIENTE 077-2004",
@@ -22393,9 +18822,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 250,
-      year: "2004",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "21-DIC",
       numDoc: "ITE-CG 249-2004",
       monthDoc: "DIC",
       nameDoc: "EXPEDIENTE 092-2004",
@@ -22403,9 +18830,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 251,
-      year: "2004",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "21-DIC",
       numDoc: "ITE-CG 250-2004",
       monthDoc: "DIC",
       nameDoc: "EXPEDIENTE 094-2004",
@@ -22413,9 +18838,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 252,
-      year: "2004",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "21-DIC",
       numDoc: "ITE-CG 251-2004",
       monthDoc: "DIC",
       nameDoc: "EXPEDIENTE 098-2004",
@@ -22423,9 +18846,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 253,
-      year: "2004",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "21-DIC",
       numDoc: "ITE-CG 252-2004",
       monthDoc: "DIC",
       nameDoc: "EXPEDIENTE 104-2004",
@@ -22433,9 +18854,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 254,
-      year: "2004",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "21-DIC",
       numDoc: "ITE-CG 253-2004",
       monthDoc: "DIC",
       nameDoc: "EXPEDIENTE 105-2004",
@@ -22443,9 +18862,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 255,
-      year: "2004",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "21-DIC",
       numDoc: "ITE-CG 254-2004",
       monthDoc: "DIC",
       nameDoc: "EXPEDIENTE 108-2004",
@@ -22453,9 +18870,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 256,
-      year: "2004",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "21-DIC",
       numDoc: "ITE-CG 255-2004",
       monthDoc: "DIC",
       nameDoc: "EXPEDIENTE 113-2004",
@@ -22463,9 +18878,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 257,
-      year: "2004",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "21-DIC",
       numDoc: "ITE-CG 256-2004",
       monthDoc: "DIC",
       nameDoc: "EXPEDIENTE 116-2004",
@@ -22473,9 +18886,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 258,
-      year: "2004",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "21-DIC",
       numDoc: "ITE-CG 257-2004",
       monthDoc: "DIC",
       nameDoc: "EXPEDIENTE 118-2004",
@@ -22483,9 +18894,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 259,
-      year: "2004",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "21-DIC",
       numDoc: "ITE-CG 258-2004",
       monthDoc: "DIC",
       nameDoc: "EXPEDIENTE 119-2004",
@@ -22493,9 +18902,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 260,
-      year: "2004",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "21-DIC",
       numDoc: "ITE-CG 259-2004",
       monthDoc: "DIC",
       nameDoc: "EXPEDIENTE 122-2004",
@@ -22503,9 +18910,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 261,
-      year: "2004",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "21-DIC",
       numDoc: "ITE-CG 260-2004",
       monthDoc: "DIC",
       nameDoc: "EXPEDIENTE-124-2004",
@@ -22513,9 +18918,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 262,
-      year: "2004",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "21-DIC",
       numDoc: "ITE-CG 261-2004",
       monthDoc: "DIC",
       nameDoc: "EXPEDIENTE 127-2004",
@@ -22523,9 +18926,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 263,
-      year: "2004",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "21-DIC",
       numDoc: "ITE-CG 262-2004",
       monthDoc: "DIC",
       nameDoc: "EXPEDIENTE 132-2004",
@@ -22533,9 +18934,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 264,
-      year: "2004",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "21-DIC",
       numDoc: "ITE-CG 263-2004",
       monthDoc: "DIC",
       nameDoc: "EXPEDIENTE 133-2004",
@@ -22543,9 +18942,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 265,
-      year: "2004",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "21-DIC",
       numDoc: "ITE-CG 264-2004",
       monthDoc: "DIC",
       nameDoc: "EXPEDIENTE 135-2004",
@@ -22553,9 +18950,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 266,
-      year: "2004",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "21-DIC",
       numDoc: "ITE-CG 265-2004",
       monthDoc: "DIC",
       nameDoc: "EXPEDIENTE 144-2004",
@@ -22563,9 +18958,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 267,
-      year: "2004",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "21-DIC",
       numDoc: "ITE-CG 266-2004",
       monthDoc: "DIC",
       nameDoc: "EXPEDIENTE 145-2004",
@@ -22573,9 +18966,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 268,
-      year: "2004",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "21-DIC",
       numDoc: "ITE-CG 267-2004",
       monthDoc: "DIC",
       nameDoc: "EXPEDIENTE 146-2004",
@@ -22583,9 +18974,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 269,
-      year: "2004",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "21-DIC",
       numDoc: "ITE-CG 268-2004",
       monthDoc: "DIC",
       nameDoc: "EXPEDIENTE 150-2004",
@@ -22593,9 +18982,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 270,
-      year: "2004",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "21-DIC",
       numDoc: "ITE-CG 269-2004",
       monthDoc: "DIC",
       nameDoc: "EXPEDIENTE 152-2004",
@@ -22603,9 +18990,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 271,
-      year: "2004",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "21-DIC",
       numDoc: "ITE-CG 270-2004",
       monthDoc: "DIC",
       nameDoc: "EXPEDIENTE 153-2004",
@@ -22613,9 +18998,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 272,
-      year: "2004",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "21-DIC",
       numDoc: "ITE-CG 271-2004",
       monthDoc: "DIC",
       nameDoc: "RECURSO DE RESOLUCIÓN 06-2004",
@@ -22623,9 +19006,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 273,
-      year: "2004",
       typeDoc: "RESOLUCIÓN",
-      dateDoc: "29-DIC",
       numDoc: "ITE-CG 272-2004",
       monthDoc: "DIC",
       nameDoc: "REC.REV.07-2004 Y ACUMULADO",
@@ -22633,9 +19014,7 @@ export const dataAcuerdosITE = {
     },
     {
       id: 274,
-      year: "2004",
       typeDoc: "ACUERDO",
-      dateDoc: "29-DIC",
       numDoc: "ITE-CG 273-2004",
       monthDoc: "DIC",
       nameDoc: "READECUACIÓN PRESUPUESTO 2005",
@@ -22646,216 +19025,168 @@ export const dataAcuerdosITE = {
   2003: [
     {
       id: 1,
-      year: "2003",
       typeDoc: "ACUERDO",
-      dateDoc: "25-FEB",
       monthDoc: "FEB",
       nameDoc: "CALENDARIO DE SESIONES ORDINARIAS 2003",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2003/1.pdf",
     },
     {
       id: 2,
-      year: "2003",
       typeDoc: "ACUERDO",
-      dateDoc: "28-ABR",
       monthDoc: "ABR",
       nameDoc: "FINANCIAMIENTO CONVERGENCIA",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2003/2.pdf",
     },
     {
       id: 3,
-      year: "2003",
       typeDoc: "ACUERDO",
-      dateDoc: "28-ABR",
       monthDoc: "ABR",
       nameDoc: "FINANCIAMIENTO FC",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2003/3.pdf",
     },
     {
       id: 4,
-      year: "2003",
       typeDoc: "ACUERDO",
-      dateDoc: "28-ABR",
       monthDoc: "ABR",
       nameDoc: "FINANCIAMIENTO MP",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2003/4.pdf",
     },
     {
       id: 5,
-      year: "2003",
       typeDoc: "ACUERDO",
-      dateDoc: "28-ABR",
       monthDoc: "ABR",
       nameDoc: "FINANCIAMIENTO PAN",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2003/5.pdf",
     },
     {
       id: 6,
-      year: "2003",
       typeDoc: "ACUERDO",
-      dateDoc: "28-ABR",
       monthDoc: "ABR",
       nameDoc: "FINANCIAMIENTO PAS",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2003/6.pdf",
     },
     {
       id: 7,
-      year: "2003",
       typeDoc: "ACUERDO",
-      dateDoc: "28-ABR",
       monthDoc: "ABR",
       nameDoc: "FINANCIAMIENTO PCDT",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2003/7.pdf",
     },
     {
       id: 8,
-      year: "2003",
       typeDoc: "ACUERDO",
-      dateDoc: "28-ABR",
       monthDoc: "ABR",
       nameDoc: "FINANCIAMIENTO PJS",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2003/8.pdf",
     },
     {
       id: 9,
-      year: "2003",
       typeDoc: "ACUERDO",
-      dateDoc: "28-ABR",
       monthDoc: "ABR",
       nameDoc: "FINANCIAMIENTO PLM",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2003/9.pdf",
     },
     {
       id: 10,
-      year: "2003",
       typeDoc: "ACUERDO",
-      dateDoc: "28-ABR",
       monthDoc: "ABR",
       nameDoc: "FINANCIAMIENTO PRD",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2003/10.pdf",
     },
     {
       id: 11,
-      year: "2003",
       typeDoc: "ACUERDO",
-      dateDoc: "28-ABR",
       monthDoc: "ABR",
       nameDoc: "FINANCIAMIENTO PRI",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2003/11.pdf",
     },
     {
       id: 12,
-      year: "2003",
       typeDoc: "ACUERDO",
-      dateDoc: "28-ABR",
       monthDoc: "ABR",
       nameDoc: "FINANCIAMIENTO PSN",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2003/12.pdf",
     },
     {
       id: 13,
-      year: "2003",
       typeDoc: "ACUERDO",
-      dateDoc: "28-ABR",
       monthDoc: "ABR",
       nameDoc: "FINANCIAMIENTO PT",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2003/13.pdf",
     },
     {
       id: 14,
-      year: "2003",
       typeDoc: "ACUERDO",
-      dateDoc: "28-ABR",
       monthDoc: "ABR",
       nameDoc: "FINANCIAMIENTO PVEM",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2003/14.pdf",
     },
     {
       id: 15,
-      year: "2003",
       typeDoc: "ACUERDO",
-      dateDoc: "30-MAY",
       monthDoc: "MAY",
       nameDoc: "DICTAMEN PT",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2003/15.pdf",
     },
     {
       id: 16,
-      year: "2003",
       typeDoc: "ACUERDO",
-      dateDoc: "30-MAY",
       monthDoc: "MAY",
       nameDoc: "DICTAMEN CONVERGENCIA",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2003/16.pdf",
     },
     {
       id: 17,
-      year: "2003",
       typeDoc: "ACUERDO",
-      dateDoc: "30-MAY",
       monthDoc: "MAY",
       nameDoc: "DICTAMEN PCDT",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2003/17.pdf",
     },
     {
       id: 18,
-      year: "2003",
       typeDoc: "ACUERDO",
-      dateDoc: "30-MAY",
       monthDoc: "MAY",
       nameDoc: "DICTAMEN PJS",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2003/18.pdf",
     },
     {
       id: 19,
-      year: "2003",
       typeDoc: "ACUERDO",
-      dateDoc: "30-MAY",
       monthDoc: "MAY",
       nameDoc: "DICTAMEN PRD",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2003/19.pdf",
     },
     {
       id: 20,
-      year: "2003",
       typeDoc: "ACUERDO",
-      dateDoc: "30-MAY",
       monthDoc: "MAY",
       nameDoc: "DICTAMEN PRI",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2003/20.pdf",
     },
     {
       id: 21,
-      year: "2003",
       typeDoc: "ACUERDO",
-      dateDoc: "30-MAY",
       monthDoc: "MAY",
       nameDoc: "DICTAMEN PVEM",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2003/21.pdf",
     },
     {
       id: 22,
-      year: "2003",
       typeDoc: "ACUERDO",
-      dateDoc: "30-JUN",
       monthDoc: "JUN",
       nameDoc: "TRANSFERENCIA",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2003/22.pdf",
     },
     {
       id: 23,
-      year: "2003",
       typeDoc: "ACUERDO",
-      dateDoc: "30-JUN",
       monthDoc: "JUN",
       nameDoc: "DECLARACIÓN CONSTITUCIONAL PCDT",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2003/23.pdf",
     },
     {
       id: 24,
-      year: "2003",
       typeDoc: "ACUERDO",
-      dateDoc: "21-AGO",
       monthDoc: "AGO",
       nameDoc:
         "METODOLOGÍA Y PROCEDIMIENTO, NUEVOS PARTIDOS POLÍEDTICOS ESTATALES",
@@ -22863,27 +19194,21 @@ export const dataAcuerdosITE = {
     },
     {
       id: 25,
-      year: "2003",
       typeDoc: "ACUERDO",
-      dateDoc: "07-NOV",
       monthDoc: "NOV",
       nameDoc: "PRESUPUESTO DE EGRESOS 2003",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2003/25.pdf",
     },
     {
       id: 26,
-      year: "2003",
       typeDoc: "ACUERDO",
-      dateDoc: "08-DIC",
       monthDoc: "DIC",
       nameDoc: "COMISIÓN DEMARCACIÓN",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2003/26.pdf",
     },
     {
       id: 27,
-      year: "2003",
       typeDoc: "ACUERDO",
-      dateDoc: "08-DIC",
       monthDoc: "DIC",
       nameDoc: "PJS",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2003/27.pdf",
@@ -22893,108 +19218,84 @@ export const dataAcuerdosITE = {
   1998: [
     {
       id: 1,
-      year: "1998",
       typeDoc: "ACUERDO",
-      dateDoc: "30-ABR",
       monthDoc: "ABR",
       nameDoc: "SE CREAN LINEAMIENTOS PARA ACTOS DE PROSELITISMO",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/1998/1.pdf",
     },
     {
       id: 2,
-      year: "1998",
       typeDoc: "ACUERDO",
-      dateDoc: "01-JUN",
       monthDoc: "JUN",
       nameDoc: "POR EL CUAL SE CREA LA NORMATIVIDAD",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/1998/2.pdf",
     },
     {
       id: 3,
-      year: "1998",
       typeDoc: "ACUERDO",
-      dateDoc: "06-JUN",
       monthDoc: "JUN",
       nameDoc: "LINEAMIENTOS PARA REALIZAR ENCUESTAS Y SONDEOS DE OPINIÓN.",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/1998/3.pdf",
     },
     {
       id: 4,
-      year: "1998",
       typeDoc: "ACUERDO",
-      dateDoc: "06-JUN",
       monthDoc: "JUN",
       nameDoc: "LINEAMIENTOS PARA REALIZAR ENCUESTAS Y SONDEOS DE OPINIÓN.",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/1998/4.pdf",
     },
     {
       id: 5,
-      year: "1998",
       typeDoc: "ACUERDO",
-      dateDoc: "06-JUN",
       monthDoc: "JUN",
       nameDoc: "DEL ANEXO DE LA CONV.",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/1998/5.pdf",
     },
     {
       id: 6,
-      year: "1998",
       typeDoc: "ACUERDO",
-      dateDoc: "13-JUL",
       monthDoc: "JUL",
       nameDoc: "DE REGISTRO DE CANDIDATURA A GOBERNADOR",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/1998/6.pdf",
     },
     {
       id: 7,
-      year: "1998",
       typeDoc: "ACUERDO",
-      dateDoc: "13-JUL",
       monthDoc: "JUL",
       nameDoc: "TOPES DE CAMPAÑA",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/1998/7.pdf",
     },
     {
       id: 8,
-      year: "1998",
       typeDoc: "ACUERDO",
-      dateDoc: "13-JUL",
       monthDoc: "JUL",
       nameDoc: "DE REGISTRO DE DIPUTADOS",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/1998/8.pdf",
     },
     {
       id: 9,
-      year: "1998",
       typeDoc: "ACUERDO",
-      dateDoc: "13-JUL",
       monthDoc: "JUL",
       nameDoc: "DESIGNACION POR INSACULACIÓN PDTE. Y SECRE. CONCEJOS DIST",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/1998/9.pdf",
     },
     {
       id: 10,
-      year: "1998",
       typeDoc: "ACUERDO",
-      dateDoc: "16-JUL",
       monthDoc: "JUL",
       nameDoc: "POR EL QUE SE DESIGNAN A LOS CONSEJALES DISTRITALES",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/1998/10.pdf",
     },
     {
       id: 11,
-      year: "1998",
       typeDoc: "ACUERDO",
-      dateDoc: "23-JUL",
       monthDoc: "JUL",
       nameDoc: "CRITERIOS Y LINEAMIENTOS PARA LA CONTRATACIÓN DE AUX. MUN.DOC",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/1998/11.pdf",
     },
     {
       id: 12,
-      year: "1998",
       typeDoc: "ACUERDO",
-      dateDoc: "23-JUL",
       monthDoc: "JUL",
       nameDoc:
         "CRITERIOS Y LINEAMIENTOS PARA LA CONV. DE PRESIDENTES Y SECRETARIOS.",
@@ -23002,630 +19303,490 @@ export const dataAcuerdosITE = {
     },
     {
       id: 13,
-      year: "1998",
       typeDoc: "ACUERDO",
-      dateDoc: "10-AGO",
       monthDoc: "AGO",
       nameDoc: "POR EL QUE SE DETERMINA EL MES BASE",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/1998/13.pdf",
     },
     {
       id: 14,
-      year: "1998",
       typeDoc: "ACUERDO",
-      dateDoc: "10-AGO",
       monthDoc: "AGO",
       nameDoc: "PARA LA CREACIÓN DE LA COM. A CARGO DE L",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/1998/14.pdf",
     },
     {
       id: 15,
-      year: "1998",
       typeDoc: "ACUERDO",
-      dateDoc: "10-AGO",
       monthDoc: "AGO",
       nameDoc: "POR EL CUAL SE INSTRUMENTA EL PROG. DE R",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/1998/15.pdf",
     },
     {
       id: 16,
-      year: "1998",
       typeDoc: "ACUERDO",
-      dateDoc: "10-AGO",
       monthDoc: "AGO",
       nameDoc: "SE SUSTITUYE DIP. P.M.R DTO. VI",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/1998/16.pdf",
     },
     {
       id: 17,
-      year: "1998",
       typeDoc: "ACUERDO",
-      dateDoc: "10-AGO",
       monthDoc: "AGO",
       nameDoc: "SE SUTITUYE DIP. P.M.R. DTO. XVII",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/1998/17.pdf",
     },
     {
       id: 18,
-      year: "1998",
       typeDoc: "ACUERDO",
-      dateDoc: "15-AGO",
       monthDoc: "AGO",
       nameDoc: "PROYECTO DE PUBLICACIÓN DE POBLACIONES",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/1998/18.pdf",
     },
     {
       id: 19,
-      year: "1998",
       typeDoc: "ACUERDO",
-      dateDoc: "15-AGO",
       monthDoc: "AGO",
       nameDoc: "PUBLICACIÓN DE LA LISTA DE POBLACIONES QUE ELEGIR",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/1998/19.pdf",
     },
     {
       id: 20,
-      year: "1998",
       typeDoc: "ACUERDO",
-      dateDoc: "15-AGO",
       monthDoc: "AGO",
       nameDoc: "POR EL QUE SE FACULTA AL SECRETARIO EJE",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/1998/20.pdf",
     },
     {
       id: 21,
-      year: "1998",
       typeDoc: "ACUERDO",
-      dateDoc: "15-AGO",
       monthDoc: "AGO",
       nameDoc: "PUBLICACIÓN DE LISTA DE PMA",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/1998/21.pdf",
     },
     {
       id: 22,
-      year: "1998",
       typeDoc: "ACUERDO",
-      dateDoc: "31-AGO",
       monthDoc: "AGO",
       nameDoc: "SUSTITUCIÓN DE CANDIDATURAS A DIPUTADO",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/1998/22.pdf",
     },
     {
       id: 23,
-      year: "1998",
       typeDoc: "ACUERDO",
-      dateDoc: "31-AGO",
       monthDoc: "AGO",
       nameDoc: "ADO. POR EL QUE SE APRUEBA LA INCLUSIÓN DE LA FOTO",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/1998/23.pdf",
     },
     {
       id: 24,
-      year: "1998",
       typeDoc: "ACUERDO",
-      dateDoc: "31-AGO",
       monthDoc: "AGO",
       nameDoc: "ADO. SE FACULTA A LOS CONSEJOS MUNICIPALES PARA RE",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/1998/24.pdf",
     },
     {
       id: 25,
-      year: "1998",
       typeDoc: "ACUERDO",
-      dateDoc: "06-SEP",
       monthDoc: "SEP",
       nameDoc: "ELECCIONES INFANTILES",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/1998/25.pdf",
     },
     {
       id: 26,
-      year: "1998",
       typeDoc: "ACUERDO",
-      dateDoc: "06-SEP",
       monthDoc: "SEP",
       nameDoc: "SE DESIGNAN PDTES. Y SRIOS. DE LOS C. MUN",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/1998/26.pdf",
     },
     {
       id: 27,
-      year: "1998",
       typeDoc: "ACUERDO",
-      dateDoc: "06-SEP",
       monthDoc: "SEP",
       nameDoc: "PARA LA SUSTITUCIÓN DE CANDIDATO DIPUTADO PT",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/1998/27.pdf",
     },
     {
       id: 28,
-      year: "1998",
       typeDoc: "ACUERDO",
-      dateDoc: "06-SEP",
       monthDoc: "SEP",
       nameDoc: "INCLUCIÓN DE POBLACIONES QUE ELEGIRÁN A SU PMA. X VOTO DIRECTO",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/1998/28.pdf",
     },
     {
       id: 29,
-      year: "1998",
       typeDoc: "ACUERDO",
-      dateDoc: "09-SEP",
       monthDoc: "SEP",
       nameDoc: "SE NOMBRAN CONSEJALES MUNICIPALES",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/1998/29.pdf",
     },
     {
       id: 30,
-      year: "1998",
       typeDoc: "ACUERDO",
-      dateDoc: "11-SEP",
       monthDoc: "SEP",
       nameDoc: "SE SE INCLUYE LA POB. DE STA. CRUZ AQUIAHUAC",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/1998/30.pdf",
     },
     {
       id: 31,
-      year: "1998",
       typeDoc: "ACUERDO",
-      dateDoc: "11-SEP",
       monthDoc: "SEP",
       nameDoc: "SE INCLUYE LA POB. DE STA. CRUZ QUILETHTLA Y GUADALUPE TLACHCO",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/1998/31.pdf",
     },
     {
       id: 32,
-      year: "1998",
       typeDoc: "ACUERDO",
-      dateDoc: "11-SEP",
       monthDoc: "SEP",
       nameDoc: "SUSTITUCIÓN CANDIDATO DIPUTADO PRI",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/1998/32.pdf",
     },
     {
       id: 33,
-      year: "1998",
       typeDoc: "ACUERDO",
-      dateDoc: "11-SEP",
       monthDoc: "SEP",
       nameDoc: "SE SORTEAN LOS LUGARES PARA PROPAGANDA",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/1998/33.pdf",
     },
     {
       id: 34,
-      year: "1998",
       typeDoc: "ACUERDO",
-      dateDoc: "11-SEP",
       monthDoc: "SEP",
       nameDoc: "SE DESIGNA PDTE. Y SRIO. EN QUILEHTLA",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/1998/34.pdf",
     },
     {
       id: 35,
-      year: "1998",
       typeDoc: "ACUERDO",
-      dateDoc: "16-SEP",
       monthDoc: "SEP",
       nameDoc: "FORMULAS DE P.M",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/1998/35.pdf",
     },
     {
       id: 36,
-      year: "1998",
       typeDoc: "ACUERDO",
-      dateDoc: "16-SEP",
       monthDoc: "SEP",
       nameDoc: "REGISTRO DE AYUNT",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/1998/36.pdf",
     },
     {
       id: 37,
-      year: "1998",
       typeDoc: "ACUERDO",
-      dateDoc: "16-SEP",
       monthDoc: "SEP",
       nameDoc: "SUSTITUCIÓN DIP. PAN",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/1998/37.pdf",
     },
     {
       id: 38,
-      year: "1998",
       typeDoc: "ACUERDO",
-      dateDoc: "23-SEP",
       monthDoc: "SEP",
       nameDoc: "SE FACULTA AL LIC. GONZALO FLORES",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/1998/38.pdf",
     },
     {
       id: 39,
-      year: "1998",
       typeDoc: "ACUERDO",
-      dateDoc: "29-SEP",
       monthDoc: "SEP",
       nameDoc: "LINEAMIENTOS PARA PROPAGANDA A P.M.A POR C",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/1998/39.pdf",
     },
     {
       id: 40,
-      year: "1998",
       typeDoc: "ACUERDO",
-      dateDoc: "29-SEP",
       monthDoc: "SEP",
       nameDoc: "DISTRIBUCIÓN DE MATERIAL ELECTORAL",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/1998/40.pdf",
     },
     {
       id: 41,
-      year: "1998",
       typeDoc: "ACUERDO",
-      dateDoc: "29-SEP",
       monthDoc: "SEP",
       nameDoc: "CONV. DE OBSERVADORES ELECTORALES",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/1998/41.pdf",
     },
     {
       id: 42,
-      year: "1998",
       typeDoc: "ACUERDO",
-      dateDoc: "29-SEP",
       monthDoc: "SEP",
       nameDoc: "APROBACIÓN DE ACTAS DE LA JORN. ELEC",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/1998/42.pdf",
     },
     {
       id: 43,
-      year: "1998",
       typeDoc: "ACUERDO",
-      dateDoc: "29-SEP",
       monthDoc: "SEP",
       nameDoc: "CONTRATACIÓN CON EMPRESA LITHO FORMAS",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/1998/43.pdf",
     },
     {
       id: 44,
-      year: "1998",
       typeDoc: "ACUERDO",
-      dateDoc: "29-SEP",
       monthDoc: "SEP",
       nameDoc: "SUSTITUCIÓN CANDIDATOS DE PLANILLAS DEL PT",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/1998/44.pdf",
     },
     {
       id: 45,
-      year: "1998",
       typeDoc: "ACUERDO",
-      dateDoc: "29-SEP",
       monthDoc: "SEP",
       nameDoc: "PARA LA SUBSTITUCIÓN DIP. VERDE",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/1998/45.pdf",
     },
     {
       id: 46,
-      year: "1998",
       typeDoc: "ACUERDO",
-      dateDoc: "06-OCT",
       monthDoc: "OCT",
       nameDoc: "SE ESTABLECEN CRITERIOS PARA M. D.CASILLA",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/1998/46.pdf",
     },
     {
       id: 47,
-      year: "1998",
       typeDoc: "ACUERDO",
-      dateDoc: "06-OCT",
       monthDoc: "OCT",
       nameDoc: "SUSTITUCIÓN PAN",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/1998/47.pdf",
     },
     {
       id: 48,
-      year: "1998",
       typeDoc: "ACUERDO",
-      dateDoc: "06-OCT",
       monthDoc: "OCT",
       nameDoc: "SUSTITUCIÓN POR CIUDADANÁ DE LA LOC. DE TLATEMPA",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/1998/48.pdf",
     },
     {
       id: 49,
-      year: "1998",
       typeDoc: "ACUERDO",
-      dateDoc: "06-OCT",
       monthDoc: "OCT",
       nameDoc: "SUSTITUCIÓN PT",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/1998/49.pdf",
     },
     {
       id: 50,
-      year: "1998",
       typeDoc: "ACUERDO",
-      dateDoc: "14-OCT",
       monthDoc: "OCT",
       nameDoc: "SUSTITUCIONES PT",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/1998/50.pdf",
     },
     {
       id: 51,
-      year: "1998",
       typeDoc: "ACUERDO",
-      dateDoc: "14-OCT",
       monthDoc: "OCT",
       nameDoc: "SUSTITUCIÓN DEL PDM",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/1998/51.pdf",
     },
     {
       id: 52,
-      year: "1998",
       typeDoc: "ACUERDO",
-      dateDoc: "14-OCT",
       monthDoc: "OCT",
       nameDoc: "SE APRUEBA EL NUM. Y UBIC. DE MDC",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/1998/52.pdf",
     },
     {
       id: 53,
-      year: "1998",
       typeDoc: "ACUERDO",
-      dateDoc: "14-OCT",
       monthDoc: "OCT",
       nameDoc: "SUSTITUCIÓN POR CIUDADANÍA",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/1998/53.pdf",
     },
     {
       id: 54,
-      year: "1998",
       typeDoc: "ACUERDO",
-      dateDoc: "14-OCT",
       monthDoc: "OCT",
       nameDoc: "SUSTITUCIONES PAN",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/1998/54.pdf",
     },
     {
       id: 55,
-      year: "1998",
       typeDoc: "ACUERDO",
-      dateDoc: "14-OCT",
       monthDoc: "OCT",
       nameDoc: "SUSTITUCIONES PRD",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/1998/55.pdf",
     },
     {
       id: 56,
-      year: "1998",
       typeDoc: "ACUERDO",
-      dateDoc: "14-OCT",
       monthDoc: "OCT",
       nameDoc: "SUSTITUCIONES PRI",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/1998/56.pdf",
     },
     {
       id: 57,
-      year: "1998",
       typeDoc: "ACUERDO",
-      dateDoc: "14-OCT",
       monthDoc: "OCT",
       nameDoc: "SUSTITUCIONES PVEM",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/1998/57.pdf",
     },
     {
       id: 58,
-      year: "1998",
       typeDoc: "ACUERDO",
-      dateDoc: "28-OCT",
       monthDoc: "OCT",
       nameDoc: "ANEXO DEL DE UBICACIÓN DE CASILLAS",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/1998/58.pdf",
     },
     {
       id: 59,
-      year: "1998",
       typeDoc: "ACUERDO",
-      dateDoc: "28-OCT",
       monthDoc: "OCT",
       nameDoc: "APLICACIÓN DEL LÍQUIDO INDELEBLE",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/1998/59.pdf",
     },
     {
       id: 60,
-      year: "1998",
       typeDoc: "ACUERDO",
-      dateDoc: "28-OCT",
       monthDoc: "OCT",
       nameDoc: "ENCUESTAS DE SALIDA",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/1998/60.pdf",
     },
     {
       id: 61,
-      year: "1998",
       typeDoc: "ACUERDO",
-      dateDoc: "28-OCT",
       monthDoc: "OCT",
       nameDoc: "MODIFICACIONES A INTEGRACIÓN CASILLAS",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/1998/61.pdf",
     },
     {
       id: 62,
-      year: "1998",
       typeDoc: "ACUERDO",
-      dateDoc: "28-OCT",
       monthDoc: "OCT",
       nameDoc: "METODOLOGÍA QUE SEGUIRAN LAS MDC PARA LA ENTR. BOLETAS",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/1998/62.pdf",
     },
     {
       id: 63,
-      year: "1998",
       typeDoc: "ACUERDO",
-      dateDoc: "28-OCT",
       monthDoc: "OCT",
       nameDoc: "SE ORDENA LA PUBLICACIÓN DE INT. DE MDC",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/1998/63.pdf",
     },
     {
       id: 64,
-      year: "1998",
       typeDoc: "ACUERDO",
-      dateDoc: "31-OCT",
       monthDoc: "OCT",
       nameDoc: "ACREDITACIÓN DE OBSERVADORES ELECTORALES",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/1998/64.pdf",
     },
     {
       id: 65,
-      year: "1998",
       typeDoc: "ACUERDO",
-      dateDoc: "31-OCT",
       monthDoc: "OCT",
       nameDoc: "PARA EL SELLADO DE LAS BOLETAS",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/1998/65.pdf",
     },
     {
       id: 66,
-      year: "1998",
       typeDoc: "ACUERDO",
-      dateDoc: "31-OCT",
       monthDoc: "OCT",
       nameDoc: "MANEJO DEL PAQUETE ELECTORAL",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/1998/66.pdf",
     },
     {
       id: 67,
-      year: "1998",
       typeDoc: "ACUERDO",
-      dateDoc: "01-NOV",
       monthDoc: "NOV",
       nameDoc: "SUSPENCIÓN DE VOTACIÓN EN CON. MUN",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/1998/67.pdf",
     },
     {
       id: 68,
-      year: "1998",
       typeDoc: "ACUERDO",
-      dateDoc: "06-NOV",
       monthDoc: "NOV",
       nameDoc: "DETERMINA EL RESUL. DE DIP. MAY. REL.",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/1998/68.pdf",
     },
     {
       id: 69,
-      year: "1998",
       typeDoc: "ACUERDO",
-      dateDoc: "06-NOV",
       monthDoc: "NOV",
       nameDoc: "SE FACULTA LGFM PARA DAR A CONOCER LOS PREP",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/1998/69.pdf",
     },
     {
       id: 70,
-      year: "1998",
       typeDoc: "ACUERDO",
-      dateDoc: "06-NOV",
       monthDoc: "NOV",
       nameDoc: "PORCENTAJES FINANCIAMIENTO",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/1998/70.pdf",
     },
     {
       id: 71,
-      year: "1998",
       typeDoc: "ACUERDO",
-      dateDoc: "06-NOV",
       monthDoc: "NOV",
       nameDoc: "RETIRO DE PROPAGANDA",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/1998/71.pdf",
     },
     {
       id: 72,
-      year: "1998",
       typeDoc: "ACUERDO",
-      dateDoc: "06-NOV",
       monthDoc: "NOV",
       nameDoc: "SUSTITUCIÓN PT POR DEFUNCIÓN",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/1998/72.pdf",
     },
     {
       id: 73,
-      year: "1998",
       typeDoc: "ACUERDO",
-      dateDoc: "15-NOV",
       monthDoc: "NOV",
       nameDoc: "PROYECTO DE PRESUPUESTO 1999",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/1998/73.pdf",
     },
     {
       id: 74,
-      year: "1998",
       typeDoc: "ACUERDO",
-      dateDoc: "",
       monthDoc: "DIC",
       nameDoc: "AYUNTAMIENTO DE ACUAMANAL DE MIGUEL HIDALGO",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/1998/74.pdf",
     },
     {
       id: 75,
-      year: "1998",
       typeDoc: "ACUERDO",
-      dateDoc: "",
       monthDoc: "DIC",
       nameDoc: "AYUNTAMIENTO DE SAN LORENZO AXOCOMANITLA",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/1998/75.pdf",
     },
     {
       id: 76,
-      year: "1998",
       typeDoc: "ACUERDO",
-      dateDoc: "",
       monthDoc: "DIC",
       nameDoc: "AYUNTAMIENTO DE TEPEYANCO",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/1998/76.pdf",
     },
     {
       id: 77,
-      year: "1998",
       typeDoc: "ACUERDO",
-      dateDoc: "",
       monthDoc: "DIC",
       nameDoc: "AYUNTAMIENTO DE TETLATLAHUCA",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/1998/77.pdf",
     },
     {
       id: 78,
-      year: "1998",
       typeDoc: "ACUERDO",
-      dateDoc: "",
       monthDoc: "DIC",
       nameDoc: "AYUNTAMIENTO DE TOTOLAC",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/1998/78.pdf",
     },
     {
       id: 79,
-      year: "1998",
       typeDoc: "ACUERDO",
-      dateDoc: "",
       monthDoc: "DIC",
       nameDoc: "AYUNTAMIENTO DE ZACATELCO",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/1998/79.pdf",
     },
     {
       id: 80,
-      year: "1998",
       typeDoc: "ACUERDO",
-      dateDoc: "",
       monthDoc: "DIC",
       nameDoc: "CALIFICACIÓN PMA 15-12-98",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/1998/80.pdf",
     },
     {
       id: 81,
-      year: "1998",
       typeDoc: "ACUERDO",
-      dateDoc: "03-DIC",
       monthDoc: "DIC",
       nameDoc: "SE DEFINE PROCEDIMIENTO PARA CALIFICACIÓN",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/1998/81.pdf",
     },
     {
       id: 82,
-      year: "1998",
       typeDoc: "ACUERDO",
-      dateDoc: "29-DIC",
       monthDoc: "DIC",
       nameDoc: "DE LA INTEGRACIÓN DE DIPUTADOS",
       link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/1998/82.pdf",
@@ -23636,54 +19797,42 @@ export const dataAcuerdosITE = {
 export const dataAcuerdos2002 = [
   {
     id: 1,
-    year: "2002",
     typeDoc: "ACUERDO",
-    dateDoc: "13-ENE",
     monthDoc: "ENE",
     nameDoc: "CALIFICACIÓN SAN MIGUEL ANALCO DE NATIVITAS",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2002/1.pdf",
   },
   {
     id: 2,
-    year: "2002",
     typeDoc: "ACUERDO",
-    dateDoc: "13-ENE",
     monthDoc: "ENE",
     nameDoc: "CALIFICACIÓN XAXALA DE CHIAUTEMPAN",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2002/2.pdf",
   },
   {
     id: 3,
-    year: "2002",
     typeDoc: "ACUERDO",
-    dateDoc: "13-ENE",
     monthDoc: "ENE",
     nameDoc: "INTEGRACIÓN DE DIPUTADOS",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2002/3.pdf",
   },
   {
     id: 4,
-    year: "2002",
     typeDoc: "ACUERDO",
-    dateDoc: "04-FEB",
     monthDoc: "FEB",
     nameDoc: "DE PRESUPUESTO ELECCIÓN EXTRAORDINARIA 2002",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2002/4.pdf",
   },
   {
     id: 5,
-    year: "2002",
     typeDoc: "ACUERDO",
-    dateDoc: "08-FEB",
     monthDoc: "FEB",
     nameDoc: "CALENDARIO ELECCIÓN EXTRAORDINARIA",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2002/5.pdf",
   },
   {
     id: 6,
-    year: "2002",
     typeDoc: "ACUERDO",
-    dateDoc: "08-FEB",
     monthDoc: "FEB",
     nameDoc:
       "CONVOCATORIA PRESIDENTES, SECRETARIOS, AUXILIARES Y CAPACITADORES ELECCIONES EXTRAORDINARIAS",
@@ -23691,9 +19840,7 @@ export const dataAcuerdos2002 = [
   },
   {
     id: 7,
-    year: "2002",
     typeDoc: "ACUERDO",
-    dateDoc: "08-FEB",
     monthDoc: "FEB",
     nameDoc:
       "CRITERIOS DE INTEGRACIÓN Y DESIGNACIÓN DE CONSEJOS DISTRITALES Y MUNICIPALES",
@@ -23701,162 +19848,126 @@ export const dataAcuerdos2002 = [
   },
   {
     id: 8,
-    year: "2002",
     typeDoc: "ACUERDO",
-    dateDoc: "08-FEB",
     monthDoc: "FEB",
     nameDoc: "CALENDARIO PROCESO EXTRAORDINARIAS 2002",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2002/8.pdf",
   },
   {
     id: 9,
-    year: "2002",
     typeDoc: "ACUERDO",
-    dateDoc: "08-FEB",
     monthDoc: "FEB",
     nameDoc: "MES BASE ELECCIONES EXTRAORDINARIAS",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2002/9.pdf",
   },
   {
     id: 10,
-    year: "2002",
     typeDoc: "ACUERDO",
-    dateDoc: "19-FEB",
     monthDoc: "FEB",
     nameDoc: "PLATAFORMAS ELECTORALES 2002",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2002/10.pdf",
   },
   {
     id: 11,
-    year: "2002",
     typeDoc: "ACUERDO",
-    dateDoc: "19-FEB",
     monthDoc: "FEB",
     nameDoc: "REGISTRO DE COALICIÓN IXTENCO PJS, PAS Y PT",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2002/11.pdf",
   },
   {
     id: 12,
-    year: "2002",
     typeDoc: "ACUERDO",
-    dateDoc: "19-FEB",
     monthDoc: "FEB",
     nameDoc: "REGISTRO DE COALICIÓN ZACATELCO PAS, PCDT Y PJS",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2002/12.pdf",
   },
   {
     id: 13,
-    year: "2002",
     typeDoc: "ACUERDO",
-    dateDoc: "19-FEB",
     monthDoc: "FEB",
     nameDoc: "ACUERDOS TOPES DE CAMPAÑA ELECCIONES EXTRAORDINARIAS",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2002/13.pdf",
   },
   {
     id: 14,
-    year: "2002",
     typeDoc: "ACUERDO",
-    dateDoc: "25-FEB",
     monthDoc: "FEB",
     nameDoc: "PADRÓN ELECTORAL ELECCIONES EXTRAORDINARIAS 2002",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2002/14.pdf",
   },
   {
     id: 15,
-    year: "2002",
     typeDoc: "ACUERDO",
-    dateDoc: "06-MAR",
     monthDoc: "MAR",
     nameDoc: "DISEÑO DE LA DOCUMENTACIÓN Y MATERIAL ELECTORAL 2002",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2002/15.pdf",
   },
   {
     id: 16,
-    year: "2002",
     typeDoc: "ACUERDO",
-    dateDoc: "06-MAR",
     monthDoc: "MAR",
     nameDoc: "LUGARES DE USO COMÚN 2002",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2002/16.pdf",
   },
   {
     id: 17,
-    year: "2002",
     typeDoc: "ACUERDO",
-    dateDoc: "06-MAR",
     monthDoc: "MAR",
     nameDoc: "PTES, SRIOS Y CONCEJALES ELECCIONES EXTRAORDINARIAS 2002",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2002/17.pdf",
   },
   {
     id: 18,
-    year: "2002",
     typeDoc: "ACUERDO",
-    dateDoc: "09-MAR",
     monthDoc: "MAR",
     nameDoc: "REGISTRO AYUNTAMIENTOS",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2002/18.pdf",
   },
   {
     id: 19,
-    year: "2002",
     typeDoc: "ACUERDO",
-    dateDoc: "09-MAR",
     monthDoc: "MAR",
     nameDoc: "REGISTRO PRESIDENTES DE COMUNIDAD",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2002/19.pdf",
   },
   {
     id: 20,
-    year: "2002",
     typeDoc: "ACUERDO",
-    dateDoc: "14-MAR",
     monthDoc: "MAR",
     nameDoc: "OBSERVADORES ELECTORALES Y CONVOCATORIA",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2002/20.pdf",
   },
   {
     id: 21,
-    year: "2002",
     typeDoc: "ACUERDO",
-    dateDoc: "14-MAR",
     monthDoc: "MAR",
     nameDoc: "PRODUCCIÓN DOCUMENTACIÓN Y MATERIAL ELECTORAL 2002",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2002/21.pdf",
   },
   {
     id: 22,
-    year: "2002",
     typeDoc: "ACUERDO",
-    dateDoc: "14-MAR",
     monthDoc: "MAR",
     nameDoc: "CONVOCATORIA OBSERVADORES ELECTORALES 2002",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2002/22.pdf",
   },
   {
     id: 23,
-    year: "2002",
     typeDoc: "ACUERDO",
-    dateDoc: "16-MAR",
     monthDoc: "MAR",
     nameDoc: "REASIGNACIÓN DE PRERROGATIVAS 2002 BUENO",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2002/23.pdf",
   },
   {
     id: 24,
-    year: "2002",
     typeDoc: "ACUERDO",
-    dateDoc: "28-MAR",
     monthDoc: "MAR",
     nameDoc: "ACREDITACIÓN OBSERVADORES ELECTORALES 2002",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2002/24.pdf",
   },
   {
     id: 25,
-    year: "2002",
     typeDoc: "ACUERDO",
-    dateDoc: "28-MAR",
     monthDoc: "MAR",
     nameDoc:
       "EXCLUSIÓN DE BOLETAS ELECTORALES DE LA VENTA MUNICIPIO DE CALPULALPAN",
@@ -23864,99 +19975,77 @@ export const dataAcuerdos2002 = [
   },
   {
     id: 26,
-    year: "2002",
     typeDoc: "ACUERDO",
-    dateDoc: "05-ABR",
     monthDoc: "ABR",
     nameDoc: "RETIRO DE PROPAGANDA MDC 2002",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2002/26.pdf",
   },
   {
     id: 27,
-    year: "2002",
     typeDoc: "ACUERDO",
-    dateDoc: "05-ABR",
     monthDoc: "ABR",
     nameDoc: "SARJE 7 DE ABRIL 2002",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2002/27.pdf",
   },
   {
     id: 28,
-    year: "2002",
     typeDoc: "ACUERDO",
-    dateDoc: "15-ABR",
     monthDoc: "ABR",
     nameDoc: "CALIFICACIÓN 9 PRESIDENCIAS DE COMUNIDAD",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2002/28.pdf",
   },
   {
     id: 29,
-    year: "2002",
     typeDoc: "ACUERDO",
-    dateDoc: "15-ABR",
     monthDoc: "ABR",
     nameDoc: "CALIFICACIÓN AYUNTAMIENTO IXTENCO",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2002/29.pdf",
   },
   {
     id: 30,
-    year: "2002",
     typeDoc: "ACUERDO",
-    dateDoc: "15-ABR",
     monthDoc: "ABR",
     nameDoc: "CALIFICACIÓN AYUNTAMIENTO ZACATELCO",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2002/30.pdf",
   },
   {
     id: 31,
-    year: "2002",
     typeDoc: "ACUERDO",
-    dateDoc: "30-ABR",
     monthDoc: "ABR",
     nameDoc: "APROBACIÓN DE DICTÁMENES P.P. 2001",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2002/31.pdf",
   },
   {
     id: 32,
-    year: "2002",
     typeDoc: "ACUERDO",
-    dateDoc: "30-ABR",
     monthDoc: "ABR",
     nameDoc: "CALENDARIO DE SESIONES ORDINARIAS 2002",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2002/32.pdf",
   },
   {
     id: 33,
-    year: "2002",
     typeDoc: "ACUERDO",
-    dateDoc: "30-ABR",
     monthDoc: "ABR",
     nameDoc: "TRANSFERENCIA DE PARTIDA DESTINADA AL 20 % 2002",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2002/33.pdf",
   },
   {
     id: 34,
-    year: "2002",
     typeDoc: "ACUERDO",
-    dateDoc: "28-JUN",
     monthDoc: "JUN",
     nameDoc: "DESTRUCCIÓN DE PAQUETERIA 2001 Y 2002",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2002/34.pdf",
   },
   {
     id: 35,
-    year: "2002",
     typeDoc: "ACUERDO",
-    dateDoc: "11-SEP",
     monthDoc: "SEP",
     nameDoc: "ACREDITACIÓN PARTIDO LIBERAL PROGRESISTA",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2002/35.pdf",
   },
   {
     id: 36,
-    year: "2002",
     typeDoc: "ACUERDO",
-    dateDoc: "11-SEP",
     monthDoc: "SEP",
     nameDoc: "CONVOCATORIA DIRECCIÓN DE CAPACITACIÓN, ORGANIZACIÓN Y JURÍDICA",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2002/36.pdf",
@@ -23966,18 +20055,14 @@ export const dataAcuerdos2002 = [
 export const dataAA2002 = [
   {
     id: 1,
-    year: "2002",
     typeDoc: "ACUERDO",
-    dateDoc: "19-MAY",
     monthDoc: "MAY",
     nameDoc: "DICTAMEN FINAL SANCIÓN PARTIDOS POLÍTICOS",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2002/a.pdf",
   },
   {
     id: 2,
-    year: "2002",
     typeDoc: "ACUERDO",
-    dateDoc: "",
     monthDoc: "FEB",
     nameDoc: "DESTRUCCIÓN DE PAQUETERIA 2001 Y 2002",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2002/b.pdf",
@@ -23987,33 +20072,25 @@ export const dataAA2002 = [
 export const dataAcuerdos2001 = [
   {
     id: 1,
-    year: "2001",
     typeDoc: "ACUERDO",
-    dateDoc: "11-MAY",
     nameDoc: "CALENDARIO ELECTORAL 2001",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2001/1.pdf",
   },
   {
     id: 2,
-    year: "2001",
     typeDoc: "ACUERDO",
-    dateDoc: "16-JUL",
     nameDoc: "REGISTRO DE DIPUTADOS",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2001/2.pdf",
   },
   {
     id: 3,
-    year: "2001",
     typeDoc: "ACUERDO",
-    dateDoc: "05-OCT",
     nameDoc: "INTEGRACIÓN CONSEJOS MUNICIPALES",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2001/3.pdf",
   },
   {
     id: 4,
-    year: "2001",
     typeDoc: "ACUERDO",
-    dateDoc: "16-NOV",
     nameDoc: "CALIFICACION DE DIPUTADOS",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2001/4.pdf",
   },
@@ -24022,277 +20099,231 @@ export const dataAcuerdos2001 = [
 export const dataAA12001 = [
   {
     id: 1,
-    year: "2001",
     nameMunicipio: "ACUAMANALA DE MIGUEL HIDALGO",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2001/1a.pdf",
   },
   {
     id: 2,
-    year: "2001",
     nameMunicipio: "ALTZAYANCA",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2001/1b.pdf",
   },
   {
     id: 3,
-    year: "2001",
     nameMunicipio: "AMAXAC DE GUERRERO",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2001/1c.pdf",
   },
   {
     id: 4,
-    year: "2001",
     nameMunicipio: "APETATITLÁN DE ANTONIO CARVAJAL",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2001/1d.pdf",
   },
   {
     id: 5,
-    year: "2001",
     nameMunicipio: "APIZACO",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2001/1e.pdf",
   },
   {
     id: 6,
-    year: "2001",
     nameMunicipio: "ATLANGATEPEC",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2001/1f.pdf",
   },
   {
     id: 7,
-    year: "2001",
     nameMunicipio: "BENITO JUÁREZ",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2001/1g.pdf",
   },
   {
     id: 8,
-    year: "2001",
     nameMunicipio: "CALPULALPAN",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2001/1h.pdf",
   },
   {
     id: 9,
-    year: "2001",
     nameMunicipio: "EL CARMEN TEQUEXQUITLA TET",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2001/1i.pdf",
   },
   {
     id: 10,
-    year: "2001",
     nameMunicipio: "EMILIANO ZAPATA",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2001/1j.pdf",
   },
   {
     id: 11,
-    year: "2001",
     nameMunicipio: "ESPAÑITA",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2001/1k.pdf",
   },
   {
     id: 12,
-    year: "2001",
     nameMunicipio: "HUAMANTLA",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2001/1l.pdf",
   },
   {
     id: 13,
-    year: "2001",
     nameMunicipio: "HUEYOTLIPAN",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2001/1m.pdf",
   },
   {
     id: 14,
-    year: "2001",
     nameMunicipio: "IXTACUIXTLA DE MARIANO MATAMOROS",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2001/1n.pdf",
   },
   {
     id: 15,
-    year: "2001",
     nameMunicipio: "LA MAGDALENA TLALTELULCO",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2001/1o.pdf",
   },
   {
     id: 16,
-    year: "2001",
     nameMunicipio: "LÁZARO CÁRDENAS",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2001/1p.pdf",
   },
   {
     id: 17,
-    year: "2001",
     nameMunicipio: "MAZATECOCHCO DE JOSÉ MARÍA MORELOS",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2001/1q.pdf",
   },
   {
     id: 18,
-    year: "2001",
     nameMunicipio: "NANACAMILPA DE MARIANO ARISTA",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2001/1r.pdf",
   },
   {
     id: 19,
-    year: "2001",
     nameMunicipio: "NATIVITAS",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2001/1s.pdf",
   },
   {
     id: 20,
-    year: "2001",
     nameMunicipio: "PAPALOTLA DE XICOHTÉNCATL",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2001/1t.pdf",
   },
   {
     id: 21,
-    year: "2001",
     nameMunicipio: "SAN DAMIÁN TEXOLOC",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2001/1u.pdf",
   },
   {
     id: 22,
-    year: "2001",
     nameMunicipio: "SAN FRANCISCO TETLANOHCAN",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2001/1v.pdf",
   },
   {
     id: 23,
-    year: "2001",
     nameMunicipio: "SAN JERÓNIMO ZACUALPAN",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2001/1w.pdf",
   },
   {
     id: 24,
-    year: "2001",
     nameMunicipio: "SAN JOSÉ TEACALCO",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2001/1x.pdf",
   },
   {
     id: 25,
-    year: "2001",
     nameMunicipio: "SAN JUAN HUACTZINCO",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2001/1y.pdf",
   },
   {
     id: 26,
-    year: "2001",
     nameMunicipio: "SAN LORENZO AXOCOMANITLA",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2001/1z.pdf",
   },
   {
     id: 27,
-    year: "2001",
     nameMunicipio: "SAN LUCAS TECOPILCO",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2001/1aa.pdf",
   },
   {
     id: 28,
-    year: "2001",
     nameMunicipio: "SAN LUIS TEOLOCHOLCO",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2001/1bb.pdf",
   },
   {
     id: 29,
-    year: "2001",
     nameMunicipio: "SANCTÓRUM",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2001/1cc.pdf",
   },
   {
     id: 30,
-    year: "2001",
     nameMunicipio: "SANTA ANA NOPALUCAN",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2001/1dd.pdf",
   },
   {
     id: 31,
-    year: "2001",
     nameMunicipio: "SANTA CATARINA AYOMETLA",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2001/1ee.pdf",
   },
   {
     id: 32,
-    year: "2001",
     nameMunicipio: "SANTA CRUZ QUILEHTLA",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2001/1ff.pdf",
   },
   {
     id: 33,
-    year: "2001",
     nameMunicipio: "SANTA CRUZ TLAXCALA",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2001/1gg.pdf",
   },
   {
     id: 34,
-    year: "2001",
     nameMunicipio: "TENANCINGO",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2001/1hh.pdf",
   },
   {
     id: 35,
-    year: "2001",
     nameMunicipio: "TEPETITLA DE LARDIZÁBAL",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2001/1ii.pdf",
   },
   {
     id: 36,
-    year: "2001",
     nameMunicipio: "TEPEYANCO",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2001/1jj.pdf",
   },
   {
     id: 37,
-    year: "2001",
     nameMunicipio: "TERRENATE",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2001/1kk.pdf",
   },
   {
     id: 38,
-    year: "2001",
     nameMunicipio: "TETLA DE LA SOLIDARIDAD",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2001/1ll.pdf",
   },
   {
     id: 39,
-    year: "2001",
     nameMunicipio: "TETLATLAHUCA",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2001/1mm.pdf",
   },
   {
     id: 40,
-    year: "2001",
     nameMunicipio: "TLAXCO",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2001/1nn.pdf",
   },
   {
     id: 41,
-    year: "2001",
     nameMunicipio: "TOCATLÁN",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2001/1oo.pdf",
   },
   {
     id: 42,
-    year: "2001",
     nameMunicipio: "TOTOLAC",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2001/1pp.pdf",
   },
   {
     id: 43,
-    year: "2001",
     nameMunicipio: "TZOMPANTEPEC",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2001/1qq.pdf",
   },
   {
     id: 44,
-    year: "2001",
     nameMunicipio: "XALOZTOC TET",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2001/1rr.pdf",
   },
   {
     id: 45,
-    year: "2001",
     nameMunicipio: "XICOHTZINCO",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2001/1ss.pdf",
   },
   {
     id: 46,
-    year: "2001",
     nameMunicipio: "ZITLALTEPEC DE TRINIDAD SÁNCHEZ SANTOS",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2001/1tt.pdf",
   },
@@ -24301,135 +20332,97 @@ export const dataAA12001 = [
 export const dataAA22001 = [
   {
     id: 1,
-    year: "2001",
-    dateAcuerdo: "14-DIC",
     nameDoc:
       "SE MODIFICA EL PUNTO DE ACUERDO VIGÉSIMO SEXTO DEL ACUERDO DEL CG POR EL QUE SE CALIFICA LA ELECCIÓN DE 253 PRESIDENTES MUNICIPALES",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2001/2a.pdf",
   },
   {
     id: 2,
-    year: "2001",
-    dateAcuerdo: "14-DIC",
     nameDoc: "ACUERDO PMA",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2001/2b.pdf",
   },
   {
     id: 3,
-    year: "2001",
-    dateAcuerdo: "14-DIC",
     nameDoc: "ACUERDO PMA",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2001/2c.pdf",
   },
   {
     id: 4,
-    year: "2001",
-    dateAcuerdo: "14-DIC",
     nameDoc: "ALTZAYANCA TET",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2001/2d.pdf",
   },
   {
     id: 5,
-    year: "2001",
-    dateAcuerdo: "14-DIC",
     nameDoc: "CHIAUTEMPAN TET SIN RESOLVER",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2001/2e.pdf",
   },
   {
     id: 6,
-    year: "2001",
-    dateAcuerdo: "14-DIC",
     nameDoc: "CONTLA DE JUAN CUAMATZI TET SIN RESOLVER",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2001/2f.pdf",
   },
   {
     id: 7,
-    year: "2001",
-    dateAcuerdo: "14-DIC",
     nameDoc: "CUAPIAXTLA TET SIN RESOLVER",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2001/2g.pdf",
   },
   {
     id: 8,
-    year: "2001",
-    dateAcuerdo: "14-DIC",
     nameDoc: "CUAXOMULCO TET SIN RESOLVER",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2001/2h.pdf",
   },
   {
     id: 9,
-    year: "2001",
-    dateAcuerdo: "14-DIC",
     nameDoc: "EL CARMEN TEQUEXQUITLA TET",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2001/2i.pdf",
   },
   {
     id: 10,
-    year: "2001",
-    dateAcuerdo: "14-DIC",
     nameDoc: "MUÑOZ DE DOMINGO ARENAS TET SIN RESOLVER",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2001/2j.pdf",
   },
   {
     id: 11,
-    year: "2001",
-    dateAcuerdo: "14-DIC",
     nameDoc: "PANOTLA",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2001/2k.pdf",
   },
   {
     id: 12,
-    year: "2001",
-    dateAcuerdo: "14-DIC",
     nameDoc: "SAN PABLO DEL MONTE TET SIN RESOLVER",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2001/2l.pdf",
   },
   {
     id: 13,
-    year: "2001",
-    dateAcuerdo: "14-DIC",
     nameDoc: "SANTA APOLONIA TEACALCO TET SIN RESOLVER",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2001/2m.pdf",
   },
   {
     id: 14,
-    year: "2001",
-    dateAcuerdo: "14-DIC",
     nameDoc: "SANTA ISABEL XILOXOXTLA TET SIN RESOLVER",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2001/2n.pdf",
   },
   {
     id: 15,
-    year: "2001",
-    dateAcuerdo: "14-DIC",
     nameDoc: "TLAXCALA TET SIN RESOLVER",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2001/2o.pdf",
   },
   {
     id: 16,
-    year: "2001",
-    dateAcuerdo: "14-DIC",
     nameDoc: "XALOZTOC TET",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2001/2p.pdf",
   },
   {
     id: 17,
-    year: "2001",
-    dateAcuerdo: "14-DIC",
     nameDoc: "XALTOCAN TET SIN RESOLVER",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2001/2q.pdf",
   },
   {
     id: 18,
-    year: "2001",
-    dateAcuerdo: "14-DIC",
     nameDoc: "YAUHQUEMECAN TET SIN RESOLVER",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2001/2r.pdf",
   },
   {
     id: 19,
-    year: "2001",
-    dateAcuerdo: "14-DIC",
     nameDoc: "ZACATELCO TET SIN RESOLVER",
     link: "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2001/2s.pdf",
   },

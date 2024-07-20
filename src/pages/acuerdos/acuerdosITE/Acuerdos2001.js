@@ -78,10 +78,6 @@ const Acuerdos2001 = () => {
   const columns = useMemo(
     () => [
       {
-        accessorKey: "dateDoc",
-        header: "FECHA",
-      },
-      {
         accessorFn: (row) => `${row.numCedula} ${row.numCedula}`,
         id: "titulo",
         header: "TÍTULO",
@@ -160,10 +156,6 @@ const Acuerdos2001 = () => {
 
   const columnsAA2 = useMemo(
     () => [
-      {
-        accessorKey: "dateAcuerdo",
-        header: "FECHA",
-      },
       {
         accessorKey: "nameDoc",
         header: "TÍTULO",

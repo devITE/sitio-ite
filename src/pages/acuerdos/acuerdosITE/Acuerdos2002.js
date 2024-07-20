@@ -107,12 +107,6 @@ const Acuerdos2002 = () => {
         ),
       },
       {
-        accessorKey: "dateDoc",
-        header: "FECHA",
-        footer: "FECHA",
-        enableColumnFilter: false,
-      },
-      {
         accessorFn: (row) => `${row.typeDoc} ${row.nameDoc}`,
         id: "titulo",
         header: "TÍTULO",
