@@ -5,33 +5,43 @@ import {
   useMaterialReactTable,
 } from "material-react-table";
 import { MRT_Localization_ES } from "material-react-table/locales/es";
-import { Box, MenuItem, TextField } from "@mui/material";
+import { Box } from "@mui/material";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
 import { dataAcuerdosITE } from "../../../data/dataAcuerdos";
 import Expandible from "../../../layout/HelperDataTable/Expandible";
 
-const PdfLink = ({ url }) => (
-  <a href={url} target="_blank" rel="noreferrer">
-    <FontAwesomeIcon icon={faFilePdf} className="btn btn-danger" />
-  </a>
-);
+const baseUrl = "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/";
 
-const TableRow = ({ title, url }) =>
-  title && url ? (
+const PdfLink = ({ baseUrl, year, url }) => {
+  const fullUrl = `${baseUrl}${year}/${url}`;
+  return (
+    <a href={fullUrl} target="_blank" rel="noreferrer">
+      <FontAwesomeIcon icon={faFilePdf} className="btn btn-danger" />
+    </a>
+  );
+};
+
+const TableRow = ({ baseUrl, year, title, url }) => {
+  if (title && url) {
+    console.log(`Title: ${title.toUpperCase()}, URL: ${url}`);
+  }
+
+  return title && url ? (
     <tr>
       <td>{title.toUpperCase()}</td>
       <td>
-        <PdfLink url={url} />
+        <PdfLink baseUrl={baseUrl} year={year} url={url} />
       </td>
     </tr>
   ) : null;
+};
 
 const AcuerdosTableITE = ({ year }) => {
   const data = useMemo(() => dataAcuerdosITE[year] || [], [year]);
 
   useEffect(() => {
-    document.title = `Acuerdos INE ${year}`;
+    document.title = `Acuerdos ITE ${year}`;
   }, [year]);
 
   const columns = useMemo(
@@ -41,39 +51,6 @@ const AcuerdosTableITE = ({ year }) => {
         header: "MES",
         footer: "MES",
         size: 30,
-        Filter: ({ header }) => (
-          <TextField
-            onChange={(e) =>
-              header.column.setFilterValue(e.target.value || undefined)
-            }
-            select
-            value={header.column.getFilterValue() ?? ""}
-            margin="none"
-            placeholder="Filter"
-            variant="standard"
-            fullWidth
-          >
-            <MenuItem value={null}>Todos</MenuItem>
-            {[
-              "ENE",
-              "FEB",
-              "MAR",
-              "ABR",
-              "MAY",
-              "JUN",
-              "JUL",
-              "AGO",
-              "SEP",
-              "OCT",
-              "NOV",
-              "DIC",
-            ].map((month) => (
-              <MenuItem key={month} value={month}>
-                {month}
-              </MenuItem>
-            ))}
-          </TextField>
-        ),
       },
       {
         accessorKey: "numDoc",
@@ -114,7 +91,13 @@ const AcuerdosTableITE = ({ year }) => {
                 {row.original.nameDoc || ""}
               </td>
               <td>
-                {row.original.link && <PdfLink url={row.original.link} />}
+                {row.original.link && (
+                  <PdfLink
+                    baseUrl={baseUrl}
+                    year={year}
+                    url={row.original.link + ".pdf"}
+                  />
+                )}
               </td>
             </tr>
             {[...Array(70)].map((_, i) => {
@@ -122,8 +105,10 @@ const AcuerdosTableITE = ({ year }) => {
               return (
                 <TableRow
                   key={index}
+                  baseUrl={baseUrl}
+                  year={year}
                   title={row.original[`titleAnexo${index}`]}
-                  url={row.original[`pdfAnexo${index}`]}
+                  url={row.original.link + [`.${index}.pdf`]}
                 />
               );
             })}
@@ -162,7 +147,7 @@ const AcuerdosTableITE = ({ year }) => {
 
   return (
     <>
-      <TitlePages title="Acuerdos INE" subTitle={`Acuerdos INE ${year}`} />
+      <TitlePages title="Acuerdos ITE" subTitle={`Acuerdos ITE ${year}`} />
       <Expandible />
       <MaterialReactTable table={tableAcuerdos} />
     </>
