@@ -32,16 +32,6 @@ export const ComunicacionSocial = () => {
           <p className="text-strong">Monitoreo</p>
         </div>
         <div>
-          <Link to="/EspacioIte">
-            <img
-              src="https://itetlax.org.mx/assets/img/icons/51.png"
-              className="img-fluid"
-              alt="Espacio ITE"
-            />
-          </Link>
-          <p className="text-strong">Espacio ITE</p>
-        </div>
-        <div>
           <Link to="/ITEConecta">
             <img
               src="https://itetlax.org.mx/assets/img/icons/57.png"

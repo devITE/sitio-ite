@@ -118,7 +118,6 @@ import Monitoreo from "./pages/comunicacionSocial/monitoreos/Monitoreo";
 import MonitoreosTable from "./pages/comunicacionSocial/monitoreos/MonitoreosTable";
 import Monitoreos2024 from "./pages/comunicacionSocial/monitoreos/Monitoreos2024";
 
-import EspacioIte from "./pages/comunicacionSocial/EspacioIte";
 import ITEConecta from "./pages/comunicacionSocial/ITEConecta";
 
 //Cultura Cívica
@@ -444,7 +443,6 @@ function App() {
           />
           <Route path="/Monitoreos2024" element={<Monitoreos2024 />} />
 
-          <Route path="/EspacioIte" element={<EspacioIte />} />
           <Route path="/ITEConecta" element={<ITEConecta />} />
           <Route path="/CulturaCivica" element={<CulturaCivica />} />
           <Route path="/ActividadesLudicas" element={<ActividadesLudicas />} />
