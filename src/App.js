@@ -123,13 +123,7 @@ import Boletines2023 from "./pages/comunicacionSocial/boletines/Boletines2023";
 import Boletines2024 from "./pages/comunicacionSocial/boletines/Boletines2024";
 
 import Monitoreo from "./pages/comunicacionSocial/monitoreos/Monitoreo";
-import Monitoreos2015 from "./pages/comunicacionSocial/monitoreos/Monitoreos2015";
-import Monitoreos2016 from "./pages/comunicacionSocial/monitoreos/Monitoreos2016";
-import Monitoreos2017 from "./pages/comunicacionSocial/monitoreos/Monitoreos2017";
-import Monitoreos2018 from "./pages/comunicacionSocial/monitoreos/Monitoreos2018";
-import Monitoreos2020 from "./pages/comunicacionSocial/monitoreos/Monitoreos2020";
-import Monitoreos2021 from "./pages/comunicacionSocial/monitoreos/Monitoreos2021";
-import Monitoreos2023 from "./pages/comunicacionSocial/monitoreos/Monitoreos2023";
+import MonitoreosTable from "./pages/comunicacionSocial/monitoreos/MonitoreosTable";
 import Monitoreos2024 from "./pages/comunicacionSocial/monitoreos/Monitoreos2024";
 
 import EspacioIte from "./pages/comunicacionSocial/EspacioIte";
@@ -401,13 +395,34 @@ function App() {
           <Route path="/Boletines2024" element={<Boletines2024 />} />
 
           <Route path="/Monitoreo" element={<Monitoreo />} />
-          <Route path="/Monitoreos2015" element={<Monitoreos2015 />} />
-          <Route path="/Monitoreos2016" element={<Monitoreos2016 />} />
-          <Route path="/Monitoreos2017" element={<Monitoreos2017 />} />
-          <Route path="/Monitoreos2018" element={<Monitoreos2018 />} />
-          <Route path="/Monitoreos2020" element={<Monitoreos2020 />} />
-          <Route path="/Monitoreos2021" element={<Monitoreos2021 />} />
-          <Route path="/Monitoreos2023" element={<Monitoreos2023 />} />
+          <Route
+            path="/Monitoreos2015"
+            element={<MonitoreosTable year="2015" />}
+          />
+          <Route
+            path="/Monitoreos2016"
+            element={<MonitoreosTable year="2016" />}
+          />
+          <Route
+            path="/Monitoreos2017"
+            element={<MonitoreosTable year="2017" />}
+          />
+          <Route
+            path="/Monitoreos2018"
+            element={<MonitoreosTable year="2018" />}
+          />
+          <Route
+            path="/Monitoreos2020"
+            element={<MonitoreosTable year="2020" />}
+          />
+          <Route
+            path="/Monitoreos2021"
+            element={<MonitoreosTable year="2021" />}
+          />
+          <Route
+            path="/Monitoreos2023"
+            element={<MonitoreosTable year="2023" />}
+          />
           <Route path="/Monitoreos2024" element={<Monitoreos2024 />} />
 
           <Route path="/EspacioIte" element={<EspacioIte />} />

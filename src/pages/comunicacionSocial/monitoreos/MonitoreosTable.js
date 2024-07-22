@@ -1,17 +1,31 @@
 import React, { useMemo, useEffect } from "react";
+import TitlePages from "../../../layout/TitlePages";
 import {
   MaterialReactTable,
   useMaterialReactTable,
 } from "material-react-table";
+import { MRT_Localization_ES } from "material-react-table/locales/es";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
-import { dataMonitoreos2023 } from "../../../data/dataMonitoreos";
-import TitlePages from "../../../layout/TitlePages";
+import { dataMonitoreos } from "../../../data/dataMonitoreos";
 
-const Monitoreos2023 = () => {
+const baseUrl = "https://itetlax.org.mx/assets/pdf/monitoreos/";
+
+const PdfLink = ({ baseUrl, year, url }) => {
+  const fullUrl = `${baseUrl}${year}/${url}`;
+  return (
+    <a href={fullUrl} target="_blank" rel="noreferrer">
+      <FontAwesomeIcon icon={faFilePdf} className="btn btn-danger" />
+    </a>
+  );
+};
+
+const MonitoreosTable = ({ year }) => {
+  const data = useMemo(() => dataMonitoreos[year] || [], [year]);
+
   useEffect(() => {
-    document.title = `Monitoreos 2023`;
-  }, []);
+    document.title = `Monitoreos ${year}`;
+  }, [year]);
 
   const columns = useMemo(
     () => [
@@ -44,36 +58,38 @@ const Monitoreos2023 = () => {
           row.original.linkBoletin === "" ? (
             <span></span>
           ) : (
-            <a href={row.original.linkBoletin} target="_blank" rel="noreferrer">
-              <FontAwesomeIcon icon={faFilePdf} className="btn btn-danger" />
-            </a>
+            <PdfLink
+              baseUrl={baseUrl}
+              year={year}
+              url={row.original.linkBoletin}
+            />
           ),
       },
     ],
-    []
+    [year]
   );
 
   const table = useMaterialReactTable({
     columns,
-    data: dataMonitoreos2023,
+    data: data,
     enableTopToolbar: false,
     enableBottomToolbar: false,
     enableColumnActions: false,
     enableDensityToggle: false,
     initialState: { density: "compact" },
-    muiTableHeadCellProps: {
-      sx: {
-        backgroundColor: "#972069",
-        color: "#fff",
+    localization: {
+      ...MRT_Localization_ES,
+      pagination: {
+        rowsPerPage: "Filas por página",
       },
     },
   });
 
   return (
     <>
-      <TitlePages title="Comunicación Social" subTitle="Monitoreos 2023" />
+      <TitlePages title="Comunicación Social" subTitle={`Monitoreos ${year}`} />
       <MaterialReactTable table={table} />
     </>
   );
 };
-export default Monitoreos2023;
+export default MonitoreosTable;
