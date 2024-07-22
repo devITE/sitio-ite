@@ -112,15 +112,7 @@ import DatosAbiertos from "./pages/transparencia/DatosAbiertos";
 //Comunicacion Social
 import ComunicacionSocial from "./pages/comunicacionSocial/ComunicacionSocial";
 import Boletines from "./pages/comunicacionSocial/boletines/Boletines";
-import Boletines2015 from "./pages/comunicacionSocial/boletines/Boletines2015";
-import Boletines2016 from "./pages/comunicacionSocial/boletines/Boletines2016";
-import Boletines2017 from "./pages/comunicacionSocial/boletines/Boletines2017";
-import Boletines2019 from "./pages/comunicacionSocial/boletines/Boletines2019";
-import Boletines2020 from "./pages/comunicacionSocial/boletines/Boletines2020";
-import Boletines2021 from "./pages/comunicacionSocial/boletines/Boletines2021";
-import Boletines2022 from "./pages/comunicacionSocial/boletines/Boletines2022";
-import Boletines2023 from "./pages/comunicacionSocial/boletines/Boletines2023";
-import Boletines2024 from "./pages/comunicacionSocial/boletines/Boletines2024";
+import BoletinesTable from "./pages/comunicacionSocial/boletines/BoletinesTable";
 
 import Monitoreo from "./pages/comunicacionSocial/monitoreos/Monitoreo";
 import MonitoreosTable from "./pages/comunicacionSocial/monitoreos/MonitoreosTable";
@@ -384,15 +376,42 @@ function App() {
 
           <Route path="/ComunicacionSocial" element={<ComunicacionSocial />} />
           <Route path="/Boletines" element={<Boletines />} />
-          <Route path="/Boletines2015" element={<Boletines2015 />} />
-          <Route path="/Boletines2016" element={<Boletines2016 />} />
-          <Route path="/Boletines2017" element={<Boletines2017 />} />
-          <Route path="/Boletines2019" element={<Boletines2019 />} />
-          <Route path="/Boletines2020" element={<Boletines2020 />} />
-          <Route path="/Boletines2021" element={<Boletines2021 />} />
-          <Route path="/Boletines2022" element={<Boletines2022 />} />
-          <Route path="/Boletines2023" element={<Boletines2023 />} />
-          <Route path="/Boletines2024" element={<Boletines2024 />} />
+          <Route
+            path="/Boletines2015"
+            element={<BoletinesTable year="2015" />}
+          />
+          <Route
+            path="/Boletines2016"
+            element={<BoletinesTable year="2016" />}
+          />
+          <Route
+            path="/Boletines2017"
+            element={<BoletinesTable year="2017" />}
+          />
+          <Route
+            path="/Boletines2019"
+            element={<BoletinesTable year="2019" />}
+          />
+          <Route
+            path="/Boletines2020"
+            element={<BoletinesTable year="2020" />}
+          />
+          <Route
+            path="/Boletines2021"
+            element={<BoletinesTable year="2021" />}
+          />
+          <Route
+            path="/Boletines2022"
+            element={<BoletinesTable year="2022" />}
+          />
+          <Route
+            path="/Boletines2023"
+            element={<BoletinesTable year="2023" />}
+          />
+          <Route
+            path="/Boletines2024"
+            element={<BoletinesTable year="2024" />}
+          />
 
           <Route path="/Monitoreo" element={<Monitoreo />} />
           <Route
