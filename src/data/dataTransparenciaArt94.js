@@ -7,8 +7,7 @@ export const dataArt94 = {
       cumplimiento: "Aplica",
       fundamentoLegal:
         "Artículo. 94 Fracción I de la Ley de Transparencia y acceso a la información para el Estado de Tlaxcala",
-      excel: "LTAIPT2018_A94F1.xlsx",
-      pdf: "LTAIPT2018_A94F1.pdf",
+      excel1: "LTAIPT2018_A94F1.xlsx",
     },
   ],
   2021: [
@@ -19,8 +18,8 @@ export const dataArt94 = {
       cumplimiento: "Aplica",
       fundamentoLegal:
         "Artículo. 94 Fracción I de la Ley de Transparencia y acceso a la información para el Estado de Tlaxcala",
-      excel: "LTAIPT_A94F1.xlsx",
-      pdf: "LTAIPT_A94F1.pdf",
+      excel1: "LTAIPT_A94F1.xlsx",
+      pdf1: "LTAIPT_A94F1.pdf",
     },
   ],
 };

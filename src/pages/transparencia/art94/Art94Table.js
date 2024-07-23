@@ -13,30 +13,34 @@ import { dataArt94 } from "../../../data/dataTransparenciaArt94";
 const baseUrlPDF = "https://itetlax.org.mx/assets/pdf/transparencia/art94/";
 const baseUrlExcel = "https://itetlax.org.mx/assets/excel/transparencia/art94/";
 
-const ExcelLink = ({ baseUrl, year, url }) => {
-  const fullUrl = `${baseUrl}${year}/${url}`;
-  const displayText = url.substring(0, url.lastIndexOf("."));
-  return (
-    <p>
-      {displayText}
-      <a href={fullUrl} target="_blank" rel="noreferrer">
-        <FontAwesomeIcon icon={faFileExcel} className="btn btn-success" />
-      </a>
-    </p>
-  );
+const ExcelLink = ({ baseUrl, year, urls }) => {
+  return urls.map((url, index) => {
+    const fullUrl = `${baseUrl}${year}/${url}`;
+    const displayText = url.substring(0, url.lastIndexOf("."));
+    return (
+      <p key={index}>
+        {displayText}
+        <a href={fullUrl} target="_blank" rel="noreferrer">
+          <FontAwesomeIcon icon={faFileExcel} className="btn btn-success" />
+        </a>
+      </p>
+    );
+  });
 };
 
-const PdfLink = ({ baseUrl, year, url }) => {
-  const fullUrl = `${baseUrl}${year}/${url}`;
-  const displayText = url.substring(0, url.lastIndexOf("."));
-  return (
-    <p>
-      {displayText}
-      <a href={fullUrl} target="_blank" rel="noreferrer">
-        <FontAwesomeIcon icon={faFilePdf} className="btn btn-danger" />
-      </a>
-    </p>
-  );
+const PdfLink = ({ baseUrl, year, urls }) => {
+  return urls.map((url, index) => {
+    const fullUrl = `${baseUrl}${year}/${url}`;
+    const displayText = url.substring(0, url.lastIndexOf("."));
+    return (
+      <p key={index}>
+        {displayText}
+        <a href={fullUrl} target="_blank" rel="noreferrer">
+          <FontAwesomeIcon icon={faFilePdf} className="btn btn-danger" />
+        </a>
+      </p>
+    );
+  });
 };
 
 const Art94Table = ({ year }) => {
@@ -100,26 +104,24 @@ const Art94Table = ({ year }) => {
   );
 
   const renderTransparencia = ({ row }) => {
-    const { excel, pdf, fraccion } = row.original;
+    const { fraccion, ...rest } = row.original;
+    const excels = Object.keys(rest)
+      .filter((key) => key.startsWith("excel"))
+      .map((key) => rest[key]);
+    const pdfs = Object.keys(rest)
+      .filter((key) => key.startsWith("pdf"))
+      .map((key) => rest[key]);
 
     return (
       <Box id="Box">
         <p className="text-strong">
           Descarga los archivos de la Fracción {fraccion}
         </p>
-        {excel && (
-          <ExcelLink
-            baseUrl={baseUrlExcel}
-            year={row.original.actualizacion}
-            url={excel}
-          />
+        {excels.length > 0 && (
+          <ExcelLink baseUrl={baseUrlExcel} year={year} urls={excels} />
         )}
-        {pdf && (
-          <PdfLink
-            baseUrl={baseUrlPDF}
-            year={row.original.actualizacion}
-            url={pdf}
-          />
+        {pdfs.length > 0 && (
+          <PdfLink baseUrl={baseUrlPDF} year={year} urls={pdfs} />
         )}
       </Box>
     );
@@ -127,7 +129,7 @@ const Art94Table = ({ year }) => {
 
   const table = useMaterialReactTable({
     columns,
-    data: data,
+    data,
     enableExpanding: true,
     enableExpandAll: true,
     enableColumnActions: false,
