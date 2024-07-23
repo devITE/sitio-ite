@@ -93,10 +93,12 @@ const Art94Table = ({ year }) => {
         size: 100,
         enableResizing: false,
         enableColumnFilter: false,
+        Cell: () => year,
       },
     ],
-    []
+    [year]
   );
+
   const renderTransparencia = ({ row }) => {
     const { excel, pdf, fraccion } = row.original;
 
