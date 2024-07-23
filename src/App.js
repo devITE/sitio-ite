@@ -94,8 +94,7 @@ import Art672024 from "./pages/transparencia/art67/Art672024";
 
 //Transparencia Artículo 94
 import Articulo94 from "./pages/transparencia/art94/Articulo94";
-import Art942020 from "./pages/transparencia/art94/Art942020";
-import Art942021 from "./pages/transparencia/art94/Art942021";
+import Art94Table from "./pages/transparencia/art94/Art94Table";
 
 //Transparencia General
 import Convenios from "./pages/transparencia/transp/Convenios";
@@ -349,8 +348,8 @@ function App() {
 
           {/* Artículo 94 */}
           <Route path="/Articulo94" element={<Articulo94 />} />
-          <Route path="/Art942020" element={<Art942020 />} />
-          <Route path="/Art942021" element={<Art942021 />} />
+          <Route path="/Art942020" element={<Art94Table year="2020" />} />
+          <Route path="/Art942021" element={<Art94Table year="2021" />} />
 
           {/* Transparencia General */}
           <Route path="/Convenios" element={<Convenios />} />
