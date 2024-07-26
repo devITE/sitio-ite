@@ -18,10 +18,7 @@ import PE20202021 from "./pages/enlaces/ProcesosElectorales/PE20202021";
 import PE20232024 from "./pages/enlaces/ProcesosElectorales/PE20232024";
 import Normatividad from "./pages/enlaces/Normatividad";
 import Galeria from "./pages/enlaces/Galeria/Galeria";
-import Galeria2016 from "./pages/enlaces/Galeria/Galeria2016";
-import Galeria2017 from "./pages/enlaces/Galeria/Galeria2017";
-import Galeria2018 from "./pages/enlaces/Galeria/Galeria2018";
-import Galeria2019 from "./pages/enlaces/Galeria/Galeria2019";
+import GaleriaTot from "./pages/enlaces/Galeria/GaleriaTot";
 
 import OIC from "./pages/enlaces/OIC/OIC";
 import GaleriaOIC from "./pages/enlaces/OIC/GaleriaOIC";
@@ -157,10 +154,10 @@ function App() {
           <Route path="/HistorialPE" element={<HistorialPE />} />
           <Route path="/Normatividad" element={<Normatividad />} />
           <Route path="/Galeria" element={<Galeria />} />
-          <Route path="/Galeria2016" element={<Galeria2016 />} />
-          <Route path="/Galeria2017" element={<Galeria2017 />} />
-          <Route path="/Galeria2018" element={<Galeria2018 />} />
-          <Route path="/Galeria2019" element={<Galeria2019 />} />
+          <Route path="/Galeria2016" element={<GaleriaTot year="2016" />} />
+          <Route path="/Galeria2017" element={<GaleriaTot year="2017" />} />
+          <Route path="/Galeria2018" element={<GaleriaTot year="2018" />} />
+          <Route path="/Galeria2019" element={<GaleriaTot year="2019" />} />
           <Route path="/OIC" element={<OIC />} />
           <Route path="/GaleriaOIC" element={<GaleriaOIC />} />
           <Route path="/Infografias" element={<Infografias />} />
