@@ -1,19 +1,23 @@
 export const dataEstrados = [
-  //fecha de baja: XX enero 2024
-  // {
-  //   id: 1,
-  //   numCedula: "3257",
-  // },
-
-  // bajar el 11 de julio
+  // bajar el 29 de julio
   {
     id: 1,
     numCedula: "5439",
   },
-  // bajar el 11 de julio
+  // bajar el 29 de julio
   {
     id: 2,
     numCedula: "5440",
+  },
+  // bajar el 29 de julio
+  {
+    id: 3,
+    numCedula: "5443",
+  },
+  // bajar el 29 de julio
+  {
+    id: 4,
+    numCedula: "5442",
   },
 ];
 
