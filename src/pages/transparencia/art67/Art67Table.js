@@ -9,9 +9,10 @@ import { Box } from "@mui/material";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFileExcel, faFilePdf } from "@fortawesome/free-solid-svg-icons";
 import { dataArt67 } from "../../../data/dataTransparenciaArt67";
+import Expandible from "../../../layout/HelperDataTable/Expandible";
 
-const baseUrlPDF = "https://itetlax.org.mx/assets/pdf/transparencia/art94/";
-const baseUrlExcel = "https://itetlax.org.mx/assets/excel/transparencia/art94/";
+const baseUrlPDF = "https://itetlax.org.mx/assets/pdf/transparencia/art67/";
+const baseUrlExcel = "https://itetlax.org.mx/assets/excel/transparencia/art67/";
 
 const ExcelLink = ({ baseUrl, year, urls }) => {
   return urls.map((url, index) => {
@@ -157,6 +158,7 @@ const Art67Table = ({ year }) => {
   return (
     <>
       <TitlePages title="Transparencia" subTitle={`Artículo 67 (${year})`} />
+      <Expandible />
       <MaterialReactTable table={table} />
     </>
   );
