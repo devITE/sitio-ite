@@ -30,7 +30,7 @@ const GaleriaTot = ({ year }) => {
                   {subInfo.subChilden.map((itemGalery) => (
                     <div key={itemGalery.id} className="col-md-3 mb-3">
                       <a
-                        href="#"
+                        href="/#"
                         rel="noreferrer"
                         data-bs-toggle="modal"
                         data-bs-target={`#${itemGalery.alt}`}
