@@ -35,11 +35,11 @@ const ITE = () => {
         linkToo=""
       />*/}
 
-      {/* <ModalInit
-        imgLink="https://itetlax.org.mx/assets/img/imgPopup/SO_2806241600.png"
-        url=""
+      <ModalInit
+        imgLink="https://itetlax.org.mx/assets/img/imgPopup/resultados_parlamento.jpeg"
+        url="https://itetlax.org.mx/assets/img/imgPopup/resultados_parlamento.jpeg"
         linkToo=""
-    /> */ }
+      />
 
       {/* <ModalInit
         imgLink="https://itetlax.org.mx/assets/img/imgPopup/consultaconvo.jpg"
