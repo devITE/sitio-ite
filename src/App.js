@@ -72,13 +72,7 @@ import Transparencia from "./pages/transparencia/Transparencia";
 
 //Transparencia Artículo 63
 import Articulo63 from "./pages/transparencia/art63/Articulo63";
-import Art632017 from "./pages/transparencia/art63/Art632017";
-import Art632018 from "./pages/transparencia/art63/Art632018";
-import Art632019 from "./pages/transparencia/art63/Art632019";
-import Art632020 from "./pages/transparencia/art63/Art632020";
-import Art632021 from "./pages/transparencia/art63/Art632021";
-import Art632022 from "./pages/transparencia/art63/Art632022";
-import Art632023 from "./pages/transparencia/art63/Art632023";
+import Art63Table from "./pages/transparencia/art63/Art63Table";
 import Art632024 from "./pages/transparencia/art63/Art632024";
 
 //Transparencia Artículo 67
@@ -320,13 +314,13 @@ function App() {
 
           {/* Artículo 63 */}
           <Route path="/Articulo63" element={<Articulo63 />} />
-          <Route path="/Art632017" element={<Art632017 />} />
-          <Route path="/Art632018" element={<Art632018 />} />
-          <Route path="/Art632019" element={<Art632019 />} />
-          <Route path="/Art632020" element={<Art632020 />} />
-          <Route path="/Art632021" element={<Art632021 />} />
-          <Route path="/Art632022" element={<Art632022 />} />
-          <Route path="/Art632023" element={<Art632023 />} />
+          <Route path="/Art632017" element={<Art63Table year="2017" />} />
+          <Route path="/Art632018" element={<Art63Table year="2018" />} />
+          <Route path="/Art632019" element={<Art63Table year="2019" />} />
+          <Route path="/Art632020" element={<Art63Table year="2020" />} />
+          <Route path="/Art632021" element={<Art63Table year="2021" />} />
+          <Route path="/Art632022" element={<Art63Table year="2022" />} />
+          <Route path="/Art632023" element={<Art63Table year="2023" />} />
           <Route path="/Art632024" element={<Art632024 />} />
 
           {/* Artículo 67 */}
