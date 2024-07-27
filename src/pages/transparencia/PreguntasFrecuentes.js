@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import TitlePages from "../../layout/TitlePages";
+import Breadcrumbs from "../../layout/Breadcrumbs";
 import "./Transparencia.css";
 
 const PreguntasFrecuentes = () => {
@@ -9,6 +10,9 @@ const PreguntasFrecuentes = () => {
   }, []);
   return (
     <>
+      <Breadcrumbs
+        path={[{ label: "Home", url: "/" }, { label: "Preguntas Frecuentes" }]}
+      />
       <TitlePages title="Transparencia" subTitle="Preguntas Frecuentes" />
 
       <div className="mt-3">

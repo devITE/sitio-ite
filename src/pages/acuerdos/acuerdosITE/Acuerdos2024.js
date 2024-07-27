@@ -10,6 +10,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
 import { dataAcuerdos2024 } from "../../../data/2024/dataAcuerdos";
 import Expandible from "../../../layout/HelperDataTable/Expandible";
+import Breadcrumbs from "../../../layout/Breadcrumbs";
 
 const baseUrl = "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/";
 
@@ -167,6 +168,9 @@ const AcuerdosITE2024 = () => {
 
   return (
     <>
+      <Breadcrumbs
+        path={[{ label: "Home", url: "/" }, { label: `Acuerdos 2024` }]}
+      />
       <TitlePages title="Acuerdos ITE" subTitle="Acuerdos ITE 2024" />
       <Expandible />
       <MaterialReactTable table={tableAcuerdos} />

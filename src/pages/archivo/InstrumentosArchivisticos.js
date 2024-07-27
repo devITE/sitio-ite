@@ -9,6 +9,7 @@ import { Box } from "@mui/material";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFileWord, faFilePdf } from "@fortawesome/free-solid-svg-icons";
 import { dataInstrumentos } from "../../data/2024/dataArchivo";
+import Breadcrumbs from "../../layout/Breadcrumbs";
 
 const InstrumentosNormativos = () => {
   useEffect(() => {
@@ -144,6 +145,7 @@ const InstrumentosNormativos = () => {
 
   return (
     <>
+      <Breadcrumbs path={[{ label: "Home", url: "/" }]} />
       <TitlePages title="Archivo" subTitle="Instrumentos Archivísticos" />
       <MaterialReactTable table={table} />
     </>

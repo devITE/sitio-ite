@@ -4,6 +4,7 @@ import ListBadge from "../../../layout/ListBadge";
 import Accordion from "../../../layout/Accordion/Accordion";
 import AccordionItem from "../../../layout/Accordion/AccordionItem";
 import { dataAvisosPrivacidad } from "../../../data/dataTransparenciaAvisosPrivacidad";
+import Breadcrumbs from "../../../layout/Breadcrumbs";
 import "../Transparencia.css";
 
 const Privacidad = () => {
@@ -11,7 +12,14 @@ const Privacidad = () => {
     document.title = `Avisos de Privacidad`;
   }, []);
   return (
-    <div>
+    <>
+      <Breadcrumbs
+        path={[
+          { label: "Home", url: "/" },
+          { label: "Transparencia", url: "/Transparencia" },
+          { label: "Avisos de Privacidad" },
+        ]}
+      />
       <TitlePages title="Transparencia" subTitle="Avisos de Privacidad" />
       <Accordion idAccordion="avisosPrivacidad" clasName={"w-75 mx-auto"}>
         {dataAvisosPrivacidad.map((accordionsItem) => (
@@ -29,7 +37,7 @@ const Privacidad = () => {
           />
         ))}
       </Accordion>
-    </div>
+    </>
   );
 };
 export default Privacidad;

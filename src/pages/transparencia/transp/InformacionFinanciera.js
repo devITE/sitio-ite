@@ -7,6 +7,7 @@ import {
   dataInfFinanciera,
   dataInfo2016,
 } from "../../../data/dataTransparencia";
+import Breadcrumbs from "../../../layout/Breadcrumbs";
 import "../Transparencia.css";
 
 const InformacionFinanciera = () => {
@@ -15,6 +16,13 @@ const InformacionFinanciera = () => {
   }, []);
   return (
     <div>
+      <Breadcrumbs
+        path={[
+          { label: "Home", url: "/" },
+          { label: "Transparencia", url: "/Transparencia" },
+          { label: "Información Financiera" },
+        ]}
+      />
       <TitlePages title="Transparencia" subTitle="Información Financiera" />
       <ListBadge
         ifNumbered={""}

@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import TitlePages from "../../../layout/TitlePages";
+import Breadcrumbs from "../../../layout/Breadcrumbs";
 
 const Articulo63 = () => {
   useEffect(() => {
@@ -8,6 +9,14 @@ const Articulo63 = () => {
   }, []);
   return (
     <>
+      <Breadcrumbs
+        path={[
+          { label: "Home", url: "/" },
+          { label: "Transparencia", url: "/Transparencia" },
+          { label: "Artículo 63 Obligaciones Comunes" },
+        ]}
+      />
+
       <TitlePages
         title="Transparencia"
         subTitle="Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala."

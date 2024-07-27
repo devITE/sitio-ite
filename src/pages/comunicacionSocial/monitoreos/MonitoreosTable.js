@@ -8,6 +8,7 @@ import { MRT_Localization_ES } from "material-react-table/locales/es";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
 import { dataMonitoreos } from "../../../data/dataMonitoreos";
+import Breadcrumbs from "../../../layout/Breadcrumbs";
 
 const baseUrl = "https://itetlax.org.mx/assets/pdf/monitoreos/";
 
@@ -87,6 +88,14 @@ const MonitoreosTable = ({ year }) => {
 
   return (
     <>
+      <Breadcrumbs
+        path={[
+          { label: "Home", url: "/" },
+          { label: "Comunicación Social", url: "/ComunicacionSocial" },
+          { label: "Monitoreos", url: "/Monitoreo" },
+          { label: `Monitoreos ${year}` },
+        ]}
+      />
       <TitlePages title="Comunicación Social" subTitle={`Monitoreos ${year}`} />
       <MaterialReactTable table={table} />
     </>

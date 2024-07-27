@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import TitlePages from "../../../layout/TitlePages";
+import Breadcrumbs from "../../../layout/Breadcrumbs";
 
 const AcuerdosIne = () => {
   useEffect(() => {
@@ -8,6 +9,9 @@ const AcuerdosIne = () => {
   }, []);
   return (
     <>
+      <Breadcrumbs
+        path={[{ label: "Home", url: "/" }, { label: "Acuerdos INE" }]}
+      />
       <TitlePages title="Acuerdos INE" subTitle="" />
 
       <div className="w-100 mt-5 Grid__folder">

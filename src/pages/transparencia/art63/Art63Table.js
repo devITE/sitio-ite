@@ -9,6 +9,7 @@ import { Box } from "@mui/material";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFileExcel, faFilePdf } from "@fortawesome/free-solid-svg-icons";
 import { dataArt63 } from "../../../data/dataTransparenciaArt63";
+import Breadcrumbs from "../../../layout/Breadcrumbs";
 
 const baseUrlPDF = "https://itetlax.org.mx/assets/pdf/transparencia/art63/";
 const baseUrlExcel = "https://itetlax.org.mx/assets/excel/transparencia/art63/";
@@ -161,7 +162,18 @@ const Art63Table = ({ year }) => {
 
   return (
     <>
-      <TitlePages title="Transparencia" subTitle={`Artículo 67 (${year})`} />
+      <Breadcrumbs
+        path={[
+          { label: "Home", url: "/" },
+          { label: "Transparencia", url: "/Transparencia" },
+          { label: "Artículo 63 Obligaciones Comunes", url: "/Articulo63" },
+          { label: `Artículo 63 ${year}` },
+        ]}
+      />
+      <TitlePages
+        title="Transparencia"
+        subTitle={`Artículo 63 (${year}) Obligaciones Comunes`}
+      />
       <MaterialReactTable table={table} />
     </>
   );

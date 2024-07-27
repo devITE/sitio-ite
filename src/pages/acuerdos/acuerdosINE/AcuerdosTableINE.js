@@ -8,8 +8,9 @@ import { MRT_Localization_ES } from "material-react-table/locales/es";
 import { Box, MenuItem, TextField } from "@mui/material";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
-import { dataAcuerdosINE } from "../../../data/dataAcuerdos"; // Ajusta la ruta según la ubicación real del archivo
+import { dataAcuerdosINE } from "../../../data/dataAcuerdos";
 import Expandible from "../../../layout/HelperDataTable/Expandible";
+import Breadcrumbs from "../../../layout/Breadcrumbs";
 
 const PdfLink = ({ url }) => (
   <a href={url} target="_blank" rel="noreferrer">
@@ -162,6 +163,13 @@ const AcuerdosTableINE = ({ year }) => {
 
   return (
     <>
+      <Breadcrumbs
+        path={[
+          { label: "Home", url: "/" },
+          { label: "Acuerdos INE", url: "/AcuerdosINE" },
+          { label: `Acuerdos INE ${year}` },
+        ]}
+      />
       <TitlePages title="Acuerdos INE" subTitle={`Acuerdos INE ${year}`} />
       <Expandible />
       <MaterialReactTable table={tableAcuerdos} />

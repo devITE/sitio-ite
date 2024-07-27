@@ -8,6 +8,7 @@ import { MRT_Localization_ES } from "material-react-table/locales/es";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
 import { dataBoletines } from "../../../data/dataBoletines";
+import Breadcrumbs from "../../../layout/Breadcrumbs";
 
 const baseUrl = "https://itetlax.org.mx/assets/pdf/boletines/";
 
@@ -89,6 +90,14 @@ const BoletinesTable = ({ year }) => {
 
   return (
     <>
+      <Breadcrumbs
+        path={[
+          { label: "Home", url: "/" },
+          { label: "Comunicación Social", url: "/ComunicacionSocial" },
+          { label: "Boletines", url: "/Boletines" },
+          { label: `Boletines ${year}` },
+        ]}
+      />
       <TitlePages title="Comunicación Social" subTitle={`Boletines ${year}`} />
 
       <MaterialReactTable table={table} />

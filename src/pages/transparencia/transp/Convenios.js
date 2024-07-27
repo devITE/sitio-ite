@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import TitlePages from "../../../layout/TitlePages";
 import { dataConvenios } from "../../../data/dataTransparencia";
+import Breadcrumbs from "../../../layout/Breadcrumbs";
 import "../Transparencia.css";
 
 const Convenios = () => {
@@ -9,6 +10,13 @@ const Convenios = () => {
   }, []);
   return (
     <div>
+      <Breadcrumbs
+        path={[
+          { label: "Home", url: "/" },
+          { label: "Transparencia", url: "/Transparencia" },
+          { label: "Convenios" },
+        ]}
+      />
       <TitlePages title="Transparencia" subTitle="Convenios" />
       <div className="w-100 mt-3 Content__grid">
         {dataConvenios.map((convenio) => {

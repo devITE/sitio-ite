@@ -10,6 +10,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFileExcel, faFilePdf } from "@fortawesome/free-solid-svg-icons";
 import { dataArt94 } from "../../../data/dataTransparenciaArt94";
 import Expandible from "../../../layout/HelperDataTable/Expandible";
+import Breadcrumbs from "../../../layout/Breadcrumbs";
 
 const baseUrlPDF = "https://itetlax.org.mx/assets/pdf/transparencia/art94/";
 const baseUrlExcel = "https://itetlax.org.mx/assets/excel/transparencia/art94/";
@@ -158,6 +159,14 @@ const Art94Table = ({ year }) => {
 
   return (
     <>
+      <Breadcrumbs
+        path={[
+          { label: "Home", url: "/" },
+          { label: "Transparencia", url: "/Transparencia" },
+          { label: "Artículo 94 Obligaciones Específicas", url: "/Articulo94" },
+          { label: `Artículo 94 ${year}` },
+        ]}
+      />{" "}
       <TitlePages title="Transparencia" subTitle={`Artículo 94 (${year})`} />
       <Expandible />
       <MaterialReactTable table={table} />

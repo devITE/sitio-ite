@@ -10,6 +10,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFileExcel, faFilePdf } from "@fortawesome/free-solid-svg-icons";
 import { dataArt632024 } from "../../../data/2024/dataArt63";
 import Expandible from "../../../layout/HelperDataTable/Expandible";
+import Breadcrumbs from "../../../layout/Breadcrumbs";
 
 const baseUrlPDF = "https://itetlax.org.mx/assets/pdf/transparencia/art63/";
 const baseUrlExcel = "https://itetlax.org.mx/assets/excel/transparencia/art63/";
@@ -102,10 +103,7 @@ const Art632024 = () => {
     []
   );
 
-  const rootData = useMemo(
-    () => dataArt632024.filter((r) => !r.managerId),
-    [dataArt632024]
-  );
+  const rootData = useMemo(() => dataArt632024.filter((r) => !r.managerId), []);
 
   const renderTransparencia = ({ row }) => {
     const { managerId, fraccion, ...rest } = row.original;
@@ -164,6 +162,14 @@ const Art632024 = () => {
 
   return (
     <>
+      <Breadcrumbs
+        path={[
+          { label: "Home", url: "/" },
+          { label: "Transparencia", url: "/Transparencia" },
+          { label: "Artículo 63 Obligaciones Comunes", url: "/Articulo63" },
+          { label: `Artículo 63 2024` },
+        ]}
+      />
       <TitlePages
         title="Transparencia"
         subTitle="Artículo 63. (2024) Obligaciones Comunes"

@@ -52,10 +52,7 @@ import AcuerdosAnteriores from "./pages/acuerdos/AcuerdosAnteriores";
 import AcuerdosTableITE from "./pages/acuerdos/acuerdosITE/AcuerdosTableITE";
 import Acuerdos2001 from "./pages/acuerdos/acuerdosITE/Acuerdos2001";
 import Acuerdos2002 from "./pages/acuerdos/acuerdosITE/Acuerdos2002";
-import Acuerdos2010 from "./pages/acuerdos/acuerdosITE/Acuerdos2010";
-import Acuerdos2011 from "./pages/acuerdos/acuerdosITE/Acuerdos2011";
-import Acuerdos2013 from "./pages/acuerdos/acuerdosITE/Acuerdos2013";
-import Acuerdos2014 from "./pages/acuerdos/acuerdosITE/Acuerdos2014";
+import AcuerdosITE from "./pages/acuerdos/acuerdosITE/AcuerdosITE";
 import Acuerdos2024 from "./pages/acuerdos/acuerdosITE/Acuerdos2024";
 
 //Demarcaciones
@@ -226,14 +223,14 @@ function App() {
             path="/Acuerdos2009"
             element={<AcuerdosTableITE year="2009" />}
           />
-          <Route path="/Acuerdos2010" element={<Acuerdos2010 />} />
-          <Route path="/Acuerdos2011" element={<Acuerdos2011 />} />
+          <Route path="/Acuerdos2010" element={<AcuerdosITE year="2010" />} />
+          <Route path="/Acuerdos2011" element={<AcuerdosITE year="2011" />} />
           <Route
             path="/Acuerdos2012"
             element={<AcuerdosTableITE year="2012" />}
           />
-          <Route path="/Acuerdos2013" element={<Acuerdos2013 />} />
-          <Route path="/Acuerdos2014" element={<Acuerdos2014 />} />
+          <Route path="/Acuerdos2013" element={<AcuerdosITE year="2013" />} />
+          <Route path="/Acuerdos2014" element={<AcuerdosITE year="2014" />} />
           <Route
             path="/Acuerdos2015"
             element={<AcuerdosTableITE year="2015" />}

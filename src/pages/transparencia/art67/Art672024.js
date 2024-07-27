@@ -10,13 +10,14 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFileExcel, faFilePdf } from "@fortawesome/free-solid-svg-icons";
 import { dataArt672024 } from "../../../data/2024/dataArt67";
 import Expandible from "../../../layout/HelperDataTable/Expandible";
+import Breadcrumbs from "../../../layout/Breadcrumbs";
 
 const baseUrlPDF = "https://itetlax.org.mx/assets/pdf/transparencia/art67/";
 const baseUrlExcel = "https://itetlax.org.mx/assets/excel/transparencia/art67/";
 
-const ExcelLink = ({ baseUrl, year, urls }) => {
+const ExcelLink = ({ baseUrl, urls }) => {
   return urls.map((url, index) => {
-    const fullUrl = `${baseUrl}${year}/${url}`;
+    const fullUrl = `${baseUrl}2024/${url}`;
     const displayText = url.substring(0, url.lastIndexOf("."));
     return (
       <p key={index}>
@@ -29,9 +30,9 @@ const ExcelLink = ({ baseUrl, year, urls }) => {
   });
 };
 
-const PdfLink = ({ baseUrl, year, urls }) => {
+const PdfLink = ({ baseUrl, urls }) => {
   return urls.map((url, index) => {
-    const fullUrl = `${baseUrl}${year}/${url}`;
+    const fullUrl = `${baseUrl}2024/${url}`;
     const displayText = url.substring(0, url.lastIndexOf("."));
     return (
       <p key={index}>
@@ -108,10 +109,7 @@ const Art672024 = () => {
     []
   );
 
-  const rootData = useMemo(
-    () => dataArt672024.filter((r) => !r.managerId),
-    [dataArt672024]
-  );
+  const rootData = useMemo(() => dataArt672024.filter((r) => !r.managerId), []);
 
   const renderTransparencia = ({ row }) => {
     const { managerId, fraccion, ...rest } = row.original;
@@ -170,6 +168,14 @@ const Art672024 = () => {
 
   return (
     <>
+      <Breadcrumbs
+        path={[
+          { label: "Home", url: "/" },
+          { label: "Transparencia", url: "/Transparencia" },
+          { label: "Artículo 67 Obligaciones Específicas", url: "/Articulo67" },
+          { label: `Artículo 67 2024` },
+        ]}
+      />
       <TitlePages title="Transparencia" subTitle="Artículo 67. (2024)" />
       <Expandible />
       <MaterialReactTable table={table} />

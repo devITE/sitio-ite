@@ -1,79 +1,46 @@
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import TitlePages from "../../../layout/TitlePages";
+import Breadcrumbs from "../../../layout/Breadcrumbs";
+
+const boletinesData = [
+  { year: 2015, icon: "28.png" },
+  { year: 2016, icon: "29.png" },
+  { year: 2017, icon: "30.png" },
+  { year: 2019, icon: "32.png" },
+  { year: 2020, icon: "33.png" },
+  { year: 2021, icon: "34.png" },
+  { year: 2022, icon: "35.png" },
+  { year: 2023, icon: "36.png" },
+  // { year: 2024, icon: "58.png" }
+];
 
 export const Boletines = () => {
   useEffect(() => {
     document.title = `Boletines`;
   }, []);
+
   return (
     <>
+      <Breadcrumbs
+        path={[
+          { label: "Home", url: "/" },
+          { label: "Comunicación Social", url: "/ComunicacionSocial" },
+          { label: "Boletines" },
+        ]}
+      />
       <TitlePages title="Comunicación Social" subTitle="Boletines" />
 
       <div className="Grid__folder">
-        <Link to="/Boletines2015">
-          <img
-            src="https://itetlax.org.mx/assets/img/icons/28.png"
-            className="img-fluid"
-            alt="Boletines 2015"
-          />
-        </Link>
-        <Link to="/Boletines2016">
-          <img
-            src="https://itetlax.org.mx/assets/img/icons/29.png"
-            className="img-fluid"
-            alt="Boletines 2016"
-          />
-        </Link>
-        <Link to="/Boletines2017">
-          <img
-            src="https://itetlax.org.mx/assets/img/icons/30.png"
-            className="img-fluid"
-            alt="Boletines 2017"
-          />
-        </Link>
-        <Link to="/Boletines2019">
-          <img
-            src="https://itetlax.org.mx/assets/img/icons/32.png"
-            className="img-fluid"
-            alt="Boletines 2019"
-          />
-        </Link>
-        <Link to="/Boletines2020">
-          <img
-            src="https://itetlax.org.mx/assets/img/icons/33.png"
-            className="img-fluid"
-            alt="Boletines 2020"
-          />
-        </Link>
-        <Link to="/Boletines2021">
-          <img
-            src="https://itetlax.org.mx/assets/img/icons/34.png"
-            className="img-fluid"
-            alt="Boletines 2021"
-          />
-        </Link>
-        <Link to="/Boletines2022">
-          <img
-            src="https://itetlax.org.mx/assets/img/icons/35.png"
-            className="img-fluid"
-            alt="Boletines 2022"
-          />
-        </Link>
-        <Link to="/Boletines2023">
-          <img
-            src="https://itetlax.org.mx/assets/img/icons/36.png"
-            className="img-fluid"
-            alt="Boletines 2023"
-          />
-        </Link>
-        {/* <Link to="/Boletines2024">
-          <img
-            src="https://itetlax.org.mx/assets/img/icons/58.png"
-            className="img-fluid"
-            alt="Boletines 2024"
-          />
-        </Link> */}
+        {boletinesData.map(({ year, icon }) => (
+          <Link key={year} to={`/Boletines${year}`}>
+            <img
+              src={`https://itetlax.org.mx/assets/img/icons/${icon}`}
+              className="img-fluid"
+              alt={`Boletines ${year}`}
+            />
+          </Link>
+        ))}
       </div>
     </>
   );

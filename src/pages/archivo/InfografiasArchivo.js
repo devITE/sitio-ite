@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import TitlePages from "../../layout/TitlePages";
+import Breadcrumbs from "../../layout/Breadcrumbs";
 
 export const InfografiasArchivo = () => {
   useEffect(() => {
@@ -7,6 +8,7 @@ export const InfografiasArchivo = () => {
   }, []);
   return (
     <>
+      <Breadcrumbs path={[{ label: "Home", url: "/" }]} />
       <TitlePages title="Archivo" subTitle="Infografías" />
     </>
   );

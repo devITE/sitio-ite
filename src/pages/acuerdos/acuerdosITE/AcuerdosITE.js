@@ -1,12 +1,25 @@
 import React, { useEffect } from "react";
 import TitlePages from "../../../layout/TitlePages";
-const AcuerdosITE2014 = () => {
+import Breadcrumbs from "../../../layout/Breadcrumbs";
+
+const AcuerdosITE = ({ year }) => {
   useEffect(() => {
-    document.title = `Acuerdos ITE 2014`;
-  }, []);
+    document.title = `Acuerdos ITE ${year}`;
+  }, [year]);
+
   return (
     <>
-      <TitlePages title="Acuerdos Anteriores" subTitle="Acuerdos ITE 2014" />
+      <Breadcrumbs
+        path={[
+          { label: "Home", url: "/" },
+          { label: "Acuerdos Anteriores", url: "/AcuerdosAnteriores" },
+          { label: `Acuerdos ITE ${year}` },
+        ]}
+      />
+      <TitlePages
+        title="Acuerdos Anteriores"
+        subTitle={`Acuerdos ITE ${year}`}
+      />
       <div className="text-center">
         <img
           src="https://itetlax.org.mx/assets/img/icons/10.png"
@@ -22,4 +35,5 @@ const AcuerdosITE2014 = () => {
     </>
   );
 };
-export default AcuerdosITE2014;
+
+export default AcuerdosITE;

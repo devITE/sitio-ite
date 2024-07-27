@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import TitlePages from "../../layout/TitlePages";
+import Breadcrumbs from "../../layout/Breadcrumbs";
 
 export const ComunicacionSocial = () => {
   useEffect(() => {
@@ -8,6 +9,7 @@ export const ComunicacionSocial = () => {
   }, []);
   return (
     <>
+      <Breadcrumbs path={[{ label: "Home", url: "/" }]} />
       <TitlePages title="Comunicación Social" subTitle="" />
 
       <div className="Content__grid">
