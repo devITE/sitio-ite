@@ -10,6 +10,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
 import { dataAcuerdosITE } from "../../../data/dataAcuerdos";
 import Expandible from "../../../layout/HelperDataTable/Expandible";
+import Breadcrumbs from "../../../layout/Breadcrumbs";
 
 const baseUrl = "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/";
 
@@ -147,6 +148,13 @@ const AcuerdosTableITE = ({ year }) => {
 
   return (
     <>
+      <Breadcrumbs
+        path={[
+          { label: "Home", url: "/" },
+          { label: "Acuerdos Anteriores", url: "/AcuerdosAnteriores" },
+          { label: `Acuerdos ${year}` },
+        ]}
+      />
       <TitlePages title="Acuerdos ITE" subTitle={`Acuerdos ITE ${year}`} />
       <Expandible />
       <MaterialReactTable table={tableAcuerdos} />

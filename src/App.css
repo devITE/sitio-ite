@@ -124,7 +124,6 @@ a {
 
 .Content__grid img:hover,
 .Grid__folder img:hover {
-  /* .Grid__four img:hover { */
   transition: 0.5s;
   transform: scale(1.2);
 }
@@ -132,16 +131,6 @@ a {
 .acordionn-body-ite {
   padding: 0 !important;
 }
-
-/* .App__total-app {
-  min-height: 100vh;
-  position: relative;
-} */
-
-/* .App__container {
-  margin: auto;
-  text-align: justify;
-} */
 
 .App__container {
   margin: auto;
@@ -210,9 +199,6 @@ a {
 
 .accordion-button {
   color: #ffffff !important;
-  /* background-color: #972069 !important; */
-  /* background-color: #202297 !important; */
-
 }
 
 /* --------------- T A B L E     A N D     D A T A     T A B L E --------------- */
@@ -273,7 +259,6 @@ table tbody tr td .MuiSvgIcon-root {
 /* general */
 @media only screen and (min-width: 1024px) {
   .App__container {
-    /* border: 2px solid red; */
     width: 75%;
     padding-bottom: 80px;
   }
@@ -282,6 +267,13 @@ table tbody tr td .MuiSvgIcon-root {
     font-size: 2.4em;
     padding: 0.5em 1em;
     letter-spacing: 1px;
+  }
+
+  #breadcrumbID {
+    width: 98.5vw;
+    position: relative;
+    left: -16.3%;
+    top: -20px !important;
   }
 
   #carouselTopIndex {
@@ -318,9 +310,15 @@ table tbody tr td .MuiSvgIcon-root {
 /* tablets */
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
   .App__container {
-    /* border: 2px solid blue; */
     width: 85%;
     padding-bottom: 120px;
+  }
+
+  #breadcrumbID {
+    width: 97.1vw;
+    position: relative;
+    left: -8.1%;
+    top: -20px !important;
   }
 
   #carouselTopIndex {
@@ -349,7 +347,6 @@ table tbody tr td .MuiSvgIcon-root {
 /* mobil */
 @media only screen and (max-width: 767px) {
   .App__container {
-    /* border: 1px solid orange; */
     width: 90%;
     padding-bottom: 130px;
     margin-bottom: 20px;
@@ -361,9 +358,15 @@ table tbody tr td .MuiSvgIcon-root {
     letter-spacing: 1px;
   }
 
+  #breadcrumbID {
+    width: 98.5vw;
+    position: relative;
+    left: -4.8%;
+    top: -20px !important;
+  }
+
   #carouselTopIndex {
     width: 97vw;
-    /* position: absolute; */
     left: -4.5%;
   }
 

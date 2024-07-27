@@ -1,0 +1,10 @@
+.breadcrumb-link {
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.breadcrumb-link:hover,
+.breadcrumb-link:focus,
+.breadcrumb-link:active {
+    color: #aa0787 !important;
+}
