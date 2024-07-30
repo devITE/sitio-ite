@@ -3315,6 +3315,7 @@ export const dataArt63 = {
       excel2: "LTAIPT2018_A63F21A_2.xlsx",
       pdf1: "LTAIPT2018_A63F21A_1.pdf",
       pdf2: "LTAIPT2018_A63F21A_2.pdf",
+      managerId: 6,
     },
     {
       fraccion: "XXI-B",
@@ -3324,6 +3325,7 @@ export const dataArt63 = {
       excel2: "LTAIPT2018_A63F21B_2.xlsx",
       pdf1: "LTAIPT2018_A63F21B_1.pdf",
       pdf2: "LTAIPT2018_A63F21B_2.pdf",
+      managerId: 6,
     },
     {
       fraccion: "XXI-C",
@@ -3444,6 +3446,7 @@ export const dataArt63 = {
       pdf2: "LTAIPT2018_A63F26_2.pdf",
       pdf3: "LTAIPT2018_A63F26_3.pdf",
       pdf4: "LTAIPT2018_A63F26_4.pdf",
+      managerId: null,
     },
     {
       fraccion: "XXVII",
@@ -3478,6 +3481,7 @@ export const dataArt63 = {
       fraccion: "XXVIII-B",
       titulo: "Procedimientos de adjudicación directa",
       cumplimiento: "Aplica",
+      managerId: 8,
     },
     {
       fraccion: "XXIX",
@@ -4028,6 +4032,7 @@ export const dataArt63 = {
       fraccion: "C",
       titulo: "Obligaciones aplicables",
       cumplimiento: "Aplica",
+      managerId: null,
     },
   ],
 
@@ -4189,12 +4194,13 @@ export const dataArt63 = {
       fraccion: "VIII-A",
       titulo: "Remuneración bruta y neta",
       cumplimiento: "Aplica",
+      managerId: 2,
     },
     {
       fraccion: "VIII-B",
       titulo: "Remuneración bruta y neta",
       cumplimiento: "Aplica",
-      managerId: null,
+      managerId: 2,
     },
     {
       fraccion: "IX",
@@ -4213,12 +4219,14 @@ export const dataArt63 = {
       fraccion: "X-A",
       titulo: "Plazas vacantes del personal de base y confianza",
       cumplimiento: "Aplica",
+      managerId: 3,
     },
     {
       fraccion: "X-B",
       titulo:
         "Total de plazas vacantes y ocupadas del personal de base y confianza",
       cumplimiento: "Aplica",
+      managerId: 3,
     },
     {
       fraccion: "XI",
@@ -4231,16 +4239,19 @@ export const dataArt63 = {
       titulo:
         "Declaraciones de Situación patrimonial de los(as) servidores(as) públicos(as)",
       cumplimiento: "Aplica",
+      managerId: null,
     },
     {
       fraccion: "XIII",
       titulo: "Domicilio de la Unidad de Transparencia",
       cumplimiento: "Aplica",
+      managerId: null,
     },
     {
       fraccion: "XIV",
       titulo: "Concursos para ocupar cargos públicos",
       cumplimiento: "Aplica",
+      managerId: null,
     },
     {
       id: 4,
@@ -4272,6 +4283,7 @@ export const dataArt63 = {
       fraccion: "XVI-A",
       titulo: "Condiciones generales de trabajo y sindicatos",
       cumplimiento: "Aplica",
+      managerId: 5,
     },
     {
       fraccion: "XVII",
@@ -4308,16 +4320,19 @@ export const dataArt63 = {
       fraccion: "XXI-A",
       titulo: "Presupuesto asignado anual",
       cumplimiento: "Aplica",
+      managerId: 6,
     },
     {
       fraccion: "XXI-B",
       titulo: "Ejercicio de los egresos presupuestarios",
       cumplimiento: "Aplica",
+      managerId: 6,
     },
     {
       fraccion: "XXI-C",
       titulo: "Cuenta pública",
       cumplimiento: "Aplica",
+      managerId: 6,
     },
     {
       fraccion: "XXII",
@@ -4336,22 +4351,26 @@ export const dataArt63 = {
       fraccion: "XXIII-A",
       titulo: "Programa Anual de Comunicación Social o equivalente",
       cumplimiento: "Aplica",
+      managerId: 7,
     },
     {
       fraccion: "XXIII-B",
       titulo: "Contratación de servicios de publicidad oficial",
       cumplimiento: "Aplica",
+      managerId: 7,
     },
     {
       fraccion: "XXIII-C",
       titulo: "Utilización de los tiempos oficiales en radio y tv",
       cumplimiento: "Aplica",
+      managerId: 7,
     },
     {
       fraccion: "XXIII-D",
       titulo:
         "Hipervínculo a información de tiempos oficiales en radio y televisión",
       cumplimiento: "Aplica",
+      managerId: 7,
     },
     {
       fraccion: "XXIV",
@@ -4369,6 +4388,7 @@ export const dataArt63 = {
       fraccion: "XXVI",
       titulo: "Personas que usan recursos públicos",
       cumplimiento: "Aplica",
+      managerId: null,
     },
     {
       fraccion: "XXVII",
@@ -4395,6 +4415,7 @@ export const dataArt63 = {
       fraccion: "XXVIII-B",
       titulo: "Procedimientos de adjudicación directa",
       cumplimiento: "Aplica",
+      managerId: 8,
     },
     {
       fraccion: "XXIX",
@@ -4421,6 +4442,7 @@ export const dataArt63 = {
       fraccion: "XXXI-A",
       titulo: "Gasto por Capítulo, Concepto y Partida",
       cumplimiento: "Aplica",
+      managerId: 9,
     },
     {
       fraccion: "XXXI-B",
@@ -4729,6 +4751,7 @@ export const dataArt63 = {
       fraccion: "C",
       titulo: "Obligaciones aplicables",
       cumplimiento: "Aplica",
+      managerId: null,
     },
   ],
 };

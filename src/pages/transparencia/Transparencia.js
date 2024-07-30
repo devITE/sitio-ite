@@ -100,18 +100,26 @@ const Transparencia = () => {
           imgAlt="Información Contable"
           text="Información Contable"
         />
-        <TransparenciaItem
-          href="/#"
-          imgSrc="https://itetlax.org.mx/assets/img/icons/1.png"
-          imgAlt="Información Jurídica"
-          text="Información Jurídica"
-        />
-        <TransparenciaItem
-          href="/#"
-          imgSrc="https://itetlax.org.mx/assets/img/icons/9.png"
-          imgAlt="Reglamento interior"
-          text="Reglamento interior"
-        />
+        <div>
+          <a href="/#" data-bs-toggle="modal" data-bs-target="#modalJuridico">
+            <img
+              className="img-fluid w-100 mt-3"
+              src="https://itetlax.org.mx/assets/img/icons/1.png"
+              alt="Información Jurídica"
+            />
+          </a>
+          <p className="mt-2">Información Jurídica</p>
+        </div>
+        <div>
+          <a data-bs-toggle="modal" href="/#" data-bs-target="#modalReglamento">
+            <img
+              className="img-fluid w-100 mt-3"
+              src="https://itetlax.org.mx/assets/img/icons/9.png"
+              alt="Reglamento interior"
+            />
+          </a>
+          <p className="mt-2">Reglamento interior</p>
+        </div>
       </div>
       <div className="w-100 Transparencia__header mt-5">
         <a

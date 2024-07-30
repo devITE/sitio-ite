@@ -95,7 +95,12 @@ const InstrumentosNormativos = () => {
 
   return (
     <>
-      <Breadcrumbs path={[{ label: "Home", url: "/" }]} />
+      <Breadcrumbs
+        path={[
+          { label: "Home", url: "/" },
+          { label: "Planeación Archivística" },
+        ]}
+      />
       <TitlePages title="Archivo" subTitle="Planeación Archivística" />
       <MaterialReactTable table={table} />
     </>

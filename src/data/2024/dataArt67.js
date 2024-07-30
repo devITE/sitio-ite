@@ -6,7 +6,8 @@ export const dataArt672024 = [
     cumplimiento: "Aplica",
     fundamentoLegal:
       "Articulo. 67 inciso A de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
-    excel1: "LTAIPT_A67F01IA1.xlsx",
+    excel1: "LTAIPT_A67F01IA1_1.xlsx",
+    excel2: "LTAIPT_A67F01IA1_2.xlsx",
     managerId: null,
   },
   {
@@ -206,7 +207,8 @@ export const dataArt672024 = [
     cumplimiento: "Aplica",
     fundamentoLegal:
       "Articulo. 67 inciso G1 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
-    excel1: "LTAIPT_A67F01IG1.xlsx",
+    excel1: "LTAIPT_A67F01IG1_1.xlsx",
+    excel2: "LTAIPT_A67F01IG1_2.xlsx",
     managerId: 6,
   },
   {
@@ -216,7 +218,8 @@ export const dataArt672024 = [
     cumplimiento: "Aplica",
     fundamentoLegal:
       "Articulo. 67 inciso D2 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
-    excel1: "LTAIPT_A67F01IG2.xlsx",
+    excel1: "LTAIPT_A67F01IG2_1.xlsx",
+    excel2: "LTAIPT_A67F01IG2_2.xlsx",
     managerId: 6,
   },
   {
@@ -225,7 +228,8 @@ export const dataArt672024 = [
     cumplimiento: "Aplica",
     fundamentoLegal:
       "Articulo. 67 inciso G3 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
-    excel1: "LTAIPT_A67F01IG3.xlsx",
+    excel1: "LTAIPT_A67F01IG3_1.xlsx",
+    excel2: "LTAIPT_A67F01IG3_2.xlsx",
     managerId: 6,
   },
   {
@@ -235,7 +239,8 @@ export const dataArt672024 = [
     cumplimiento: "Aplica",
     fundamentoLegal:
       "Articulo. 67 inciso G4 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
-    excel1: "LTAIPT_A67F01IG4.xlsx",
+    excel1: "LTAIPT_A67F01IG4_1.xlsx",
+    excel2: "LTAIPT_A67F01IG4_2.xlsx",
     managerId: 6,
   },
   {
@@ -245,7 +250,8 @@ export const dataArt672024 = [
     cumplimiento: "Aplica",
     fundamentoLegal:
       "Articulo. 67 inciso G5 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
-    excel1: "LTAIPT_A67F01IG5.xlsx",
+    excel1: "LTAIPT_A67F01IG5_1.xlsx",
+    excel2: "LTAIPT_A67F01IG5_2.xlsx",
     managerId: 6,
   },
   {
@@ -255,7 +261,8 @@ export const dataArt672024 = [
     cumplimiento: "Aplica",
     fundamentoLegal:
       "Articulo. 67 inciso G6 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala.",
-    excel1: "LTAIPT_A67F01IG6.xlsx",
+    excel1: "LTAIPT_A67F01IG6_1.xlsx",
+    excel2: "LTAIPT_A67F01IG6_2.xlsx",
     managerId: 6,
   },
   {
@@ -275,6 +282,7 @@ export const dataArt672024 = [
     cumplimiento: "Aplica",
     fundamentoLegal:
       "Articulo. 67 inciso H1 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
+    excel1: "LTAIPT_A67F01IH1.xlsx",
     managerId: 7,
   },
   {
@@ -283,6 +291,7 @@ export const dataArt672024 = [
     cumplimiento: "Aplica",
     fundamentoLegal:
       "Articulo. 67 inciso H2 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
+    excel1: "LTAIPT_A67F01IH2.xlsx",
     managerId: 7,
   },
   {

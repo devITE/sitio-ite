@@ -111,6 +111,7 @@ export const dataArt632024 = [
     titulo:
       "Declaraciones de Situación patrimonial de los(as) servidores(as) públicos(as)",
     cumplimiento: "Aplica",
+    excel1: "LTAIPT_A63F12.xlsx",
     managerId: null,
   },
   {
@@ -173,6 +174,7 @@ export const dataArt632024 = [
     fraccion: "XVIII",
     titulo: "Sanciones administrativa",
     cumplimiento: "Aplica",
+    excel1: "LTAIPT_A63F18.xlsx",
     managerId: null,
   },
   {
@@ -256,6 +258,7 @@ export const dataArt632024 = [
     fraccion: "XXIV",
     titulo: "Resultados de auditorías realizadas",
     cumplimiento: "Aplica",
+    excel1: "LTAIPT_A63F24.xlsx",
     managerId: null,
   },
   {
@@ -600,21 +603,24 @@ export const dataArt632024 = [
     fraccion: "XLV-A",
     titulo: "",
     cumplimiento: "Aplica",
-    excel1: "LTAIPT_A63F45A.xlsx",
+    excel1: "LTAIPT_A63F45A_1.xlsx",
+    excel2: "LTAIPT_A63F45A_2.xlsx",
     managerId: 19,
   },
   {
     fraccion: "XLV-B",
     titulo: "",
     cumplimiento: "Aplica",
-    excel1: "LTAIPT_A63F45B.xlsx",
+    excel1: "LTAIPT_A63F45B_1.xlsx",
+    excel2: "LTAIPT_A63F45B_2.xlsx",
     managerId: 19,
   },
   {
     fraccion: "XLV-C",
     titulo: "",
     cumplimiento: "Aplica",
-    excel1: "LTAIPT_A63F45C.xlsx",
+    excel1: "LTAIPT_A63F45C_1.xlsx",
+    excel2: "LTAIPT_A63F45C_2.xlsx",
     managerId: 19,
   },
   {
@@ -628,14 +634,16 @@ export const dataArt632024 = [
     fraccion: "XLVI-A",
     titulo: "Actas del Consejo Consultivo",
     cumplimiento: "Aplica",
-    excel1: "LTAIPT_A63F46A.xlsx",
+    excel1: "LTAIPT_A63F46A_1.xlsx",
+    excel2: "LTAIPT_A63F46A_2.xlsx",
     managerId: 21,
   },
   {
     fraccion: "XLVI-B",
     titulo: "Opiniones y recomendaciones del Consejo Consultivo",
     cumplimiento: "Aplica",
-    excel1: "LTAIPT_A63F46B.xlsx",
+    excel1: "LTAIPT_A63F46B_1.xlsx",
+    excel2: "LTAIPT_A63F46B_2.xlsx",
     managerId: 21,
   },
   {

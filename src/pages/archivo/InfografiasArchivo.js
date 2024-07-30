@@ -8,7 +8,9 @@ export const InfografiasArchivo = () => {
   }, []);
   return (
     <>
-      <Breadcrumbs path={[{ label: "Home", url: "/" }]} />
+      <Breadcrumbs
+        path={[{ label: "Home", url: "/" }, { label: "Infografías Archivos" }]}
+      />
       <TitlePages title="Archivo" subTitle="Infografías" />
     </>
   );

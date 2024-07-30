@@ -2439,6 +2439,15 @@ export const dataAcuerdos2024 = [
     nameDoc: "DESIGNACION PERSONAL RECUENTO EMILIANO ZAPATA PANOTLA",
     link: "229",
   },
+  {
+    id: 230,
+    year: "2024",
+    typeDoc: "ACUERDO",
+    numDoc: "ITE-CG 229-2024",
+    monthDoc: "JUL",
+    nameDoc: "CUMPLIMIENTO SENTENCIA TET-JE-190-2024 ASIGNACION DIPUTACIONEs",
+    link: "230",
+  },
 ];
 
 // ------------ A C U E R D O S    I N E ------------

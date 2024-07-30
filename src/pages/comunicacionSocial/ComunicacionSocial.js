@@ -9,7 +9,9 @@ export const ComunicacionSocial = () => {
   }, []);
   return (
     <>
-      <Breadcrumbs path={[{ label: "Home", url: "/" }]} />
+      <Breadcrumbs
+        path={[{ label: "Home", url: "/" }, { label: "Comunicación Social" }]}
+      />
       <TitlePages title="Comunicación Social" subTitle="" />
 
       <div className="Content__grid">
