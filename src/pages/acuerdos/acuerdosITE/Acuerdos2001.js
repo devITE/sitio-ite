@@ -15,6 +15,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
 import Breadcrumbs from "../../../layout/Breadcrumbs";
 
+const baseUrl = "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2002/";
+
 const PdfLink = ({ url }) => (
   <a href={url} target="_blank" rel="noreferrer">
     <FontAwesomeIcon icon={faFilePdf} className="btn btn-danger" />
@@ -26,7 +28,7 @@ const TableRow = ({ title, url }) =>
     <tr>
       <td>{title.toUpperCase()}</td>
       <td>
-        <PdfLink url={url} />
+        <PdfLink url={baseUrl + url + ".pdf"} />
       </td>
     </tr>
   ) : null;
@@ -84,16 +86,22 @@ const Acuerdos2001 = () => {
                 {row.original.nameDoc}
               </td>
               <td>
-                <PdfLink url={row.original.link} />
+                {row.original.link && (
+                  <PdfLink baseUrl={baseUrl} url={row.original.link + ".pdf"} />
+                )}
               </td>
             </tr>
-            {[...Array(70)].map((_, i) => (
-              <TableRow
-                key={i + 1}
-                title={row.original[`titleAnexo${i + 1}`]}
-                url={row.original[`pdfAnexo${i + 1}`]}
-              />
-            ))}
+            {[...Array(70)].map((_, i) => {
+              const index = i + 1;
+              return (
+                <TableRow
+                  key={index}
+                  baseUrl={baseUrl}
+                  title={row.original[`titleAnexo${index}`]}
+                  url={row.original.link + [`.${index}.pdf`]}
+                />
+              );
+            })}
           </tbody>
         </table>
       </div>
@@ -103,48 +111,36 @@ const Acuerdos2001 = () => {
   const columns = useMemo(
     () => [
       {
-        accessorFn: (row) => `${row.numCedula} ${row.numCedula}`,
+        accessorFn: (row) => `${row.typeDoc} ${row.nameDoc}`,
         id: "titulo",
         header: "TÍTULO",
-      },
-      {
-        id: "pdf",
-        header: "",
-        Cell: ({ row }) =>
-          row.original.link ? <PdfLink url={row.original.link} /> : null,
       },
     ],
     []
   );
 
-  const table = useTableConfig(dataAcuerdos2001, columns);
-  const tableAA1 = useTableConfig(
-    dataAA12001,
-    [
-      { accessorKey: "nameMunicipio", header: "MUNICIPIO" },
-      {
-        id: "pdf",
-        header: "",
-        Cell: ({ row }) =>
-          row.original.link ? <PdfLink url={row.original.link} /> : null,
-      },
-    ],
-    { renderDetailPanel: renderDetailPanelAcuerdos }
-  );
+  const table = useTableConfig(dataAcuerdos2001, columns, {
+    renderDetailPanel: renderDetailPanelAcuerdos,
+  });
+  const tableAA1 = useTableConfig(dataAA12001, [
+    { accessorKey: "nameMunicipio", header: "MUNICIPIO" },
+    {
+      id: "pdf",
+      header: "",
+      Cell: ({ row }) =>
+        row.original.link ? <PdfLink url={row.original.link + ".pdf"} /> : null,
+    },
+  ]);
 
-  const tableAA2 = useTableConfig(
-    dataAA22001,
-    [
-      { accessorKey: "nameDoc", header: "TÍTULO" },
-      {
-        id: "pdf",
-        header: "",
-        Cell: ({ row }) =>
-          row.original.link ? <PdfLink url={row.original.link} /> : null,
-      },
-    ],
-    { renderDetailPanel: renderDetailPanelAcuerdos }
-  );
+  const tableAA2 = useTableConfig(dataAA22001, [
+    { accessorKey: "nameDoc", header: "TÍTULO" },
+    {
+      id: "pdf",
+      header: "",
+      Cell: ({ row }) =>
+        row.original.link ? <PdfLink url={row.original.link + ".pdf"} /> : null,
+    },
+  ]);
 
   return (
     <>

@@ -12,6 +12,8 @@ import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
 import SinExpandir from "../../../layout/HelperDataTable/SinExpandir";
 import Breadcrumbs from "../../../layout/Breadcrumbs";
 
+const baseUrl = "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2002/";
+
 const PdfLink = ({ url }) => (
   <a href={url} target="_blank" rel="noreferrer">
     <FontAwesomeIcon icon={faFilePdf} className="btn btn-danger" />
@@ -23,7 +25,7 @@ const TableRow = ({ title, url }) =>
     <tr>
       <td>{title.toUpperCase()}</td>
       <td>
-        <PdfLink url={url} />
+        <PdfLink url={baseUrl + url + ".pdf"} />
       </td>
     </tr>
   ) : null;
@@ -81,16 +83,22 @@ const Acuerdos2002 = () => {
                 {row.original.nameDoc}
               </td>
               <td>
-                <PdfLink url={row.original.link} />
+                {row.original.link && (
+                  <PdfLink baseUrl={baseUrl} url={row.original.link + ".pdf"} />
+                )}
               </td>
             </tr>
-            {[...Array(70)].map((_, i) => (
-              <TableRow
-                key={i + 1}
-                title={row.original[`titleAnexo${i + 1}`]}
-                url={row.original[`pdfAnexo${i + 1}`]}
-              />
-            ))}
+            {[...Array(70)].map((_, i) => {
+              const index = i + 1;
+              return (
+                <TableRow
+                  key={index}
+                  baseUrl={baseUrl}
+                  title={row.original[`titleAnexo${index}`]}
+                  url={row.original.link + [`.${index}.pdf`]}
+                />
+              );
+            })}
           </tbody>
         </table>
       </div>
@@ -136,14 +144,6 @@ const Acuerdos2002 = () => {
         id: "titulo",
         header: "TÍTULO",
         footer: "TÍTULO",
-      },
-      {
-        id: "pdf",
-        header: "",
-        footer: "",
-        enableColumnFilters: false,
-        Cell: ({ row }) =>
-          row.original.link ? <PdfLink url={row.original.link} /> : null,
       },
     ],
     []
@@ -191,13 +191,6 @@ const Acuerdos2002 = () => {
         accessorFn: (row) => `${row.typeDoc} ${row.nameDoc}`,
         id: "titulo",
         header: "TÍTULO",
-      },
-      {
-        id: "pdf",
-        header: "",
-        enableColumnFilters: false,
-        Cell: ({ row }) =>
-          row.original.link ? <PdfLink url={row.original.link} /> : null,
       },
     ],
     []

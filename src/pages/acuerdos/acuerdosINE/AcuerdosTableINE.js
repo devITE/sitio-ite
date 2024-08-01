@@ -12,21 +12,31 @@ import { dataAcuerdosINE } from "../../../data/dataAcuerdos";
 import Expandible from "../../../layout/HelperDataTable/Expandible";
 import Breadcrumbs from "../../../layout/Breadcrumbs";
 
-const PdfLink = ({ url }) => (
-  <a href={url} target="_blank" rel="noreferrer">
-    <FontAwesomeIcon icon={faFilePdf} className="btn btn-danger" />
-  </a>
-);
+const baseUrl = "https://itetlax.org.mx/assets/pdf/acuerdos/INE/";
 
-const TableRow = ({ title, url }) =>
-  title && url ? (
+const PdfLink = ({ baseUrl, year, url }) => {
+  const fullUrl = `${baseUrl}${year}/${url}`;
+  return (
+    <a href={fullUrl} target="_blank" rel="noreferrer">
+      <FontAwesomeIcon icon={faFilePdf} className="btn btn-danger" />
+    </a>
+  );
+};
+
+const TableRow = ({ baseUrl, year, title, url }) => {
+  if (title && url) {
+    console.log(`Title: ${title.toUpperCase()}, URL: ${url}`);
+  }
+
+  return title && url ? (
     <tr>
       <td>{title.toUpperCase()}</td>
       <td>
-        <PdfLink url={url} />
+        <PdfLink baseUrl={baseUrl} year={year} url={url} />
       </td>
     </tr>
   ) : null;
+};
 
 const AcuerdosTableINE = ({ year }) => {
   const data = useMemo(() => dataAcuerdosINE[year] || [], [year]);
@@ -84,7 +94,7 @@ const AcuerdosTableINE = ({ year }) => {
       },
       {
         accessorFn: (row) =>
-          row.nameDoc ? `${row.typeDoc} ${row.nameDoc}` : "",
+          row.nameDoc ? `${row.numDoc} ${row.nameDoc}` : "",
         id: "titulo",
         header: "TÍTULO",
         footer: "TÍTULO",
@@ -115,7 +125,13 @@ const AcuerdosTableINE = ({ year }) => {
                 {row.original.nameDoc || ""}
               </td>
               <td>
-                {row.original.link && <PdfLink url={row.original.link} />}
+                {row.original.link && (
+                  <PdfLink
+                    baseUrl={baseUrl}
+                    year={year}
+                    url={row.original.link + ".pdf"}
+                  />
+                )}
               </td>
             </tr>
             {[...Array(70)].map((_, i) => {
@@ -123,8 +139,10 @@ const AcuerdosTableINE = ({ year }) => {
               return (
                 <TableRow
                   key={index}
+                  baseUrl={baseUrl}
+                  year={year}
                   title={row.original[`titleAnexo${index}`]}
-                  url={row.original[`pdfAnexo${index}`]}
+                  url={row.original.link + [`.${index}.pdf`]}
                 />
               );
             })}
