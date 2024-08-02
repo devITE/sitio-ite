@@ -209,4 +209,10 @@ export const dataCuentaPublicaNew = [
     title: "Cuenta Pública 1er Trimestre",
     link: "https://itetlax.org.mx/assets/pdf/transparencia/infContable/cuentaPub2024/1.pdf",
   },
+  {
+    id: 33,
+    year: "2024",
+    title: "Cuenta Pública 2do Trimestre",
+    link: "https://itetlax.org.mx/assets/pdf/transparencia/infContable/cuentaPub2024/2.pdf",
+  },
 ];
