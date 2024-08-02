@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import TitlePages from "../../layout/TitlePages";
+import Breadcrumbs from "../../layout/Breadcrumbs";
 
 export const ComunicacionSocial = () => {
   useEffect(() => {
@@ -8,6 +9,9 @@ export const ComunicacionSocial = () => {
   }, []);
   return (
     <>
+      <Breadcrumbs
+        path={[{ label: "Home", url: "/" }, { label: "Comunicación Social" }]}
+      />
       <TitlePages title="Comunicación Social" subTitle="" />
 
       <div className="Content__grid">
@@ -30,16 +34,6 @@ export const ComunicacionSocial = () => {
             />
           </Link>
           <p className="text-strong">Monitoreo</p>
-        </div>
-        <div>
-          <Link to="/EspacioIte">
-            <img
-              src="https://itetlax.org.mx/assets/img/icons/51.png"
-              className="img-fluid"
-              alt="Espacio ITE"
-            />
-          </Link>
-          <p className="text-strong">Espacio ITE</p>
         </div>
         <div>
           <Link to="/ITEConecta">

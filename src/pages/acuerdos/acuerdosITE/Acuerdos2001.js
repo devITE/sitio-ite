@@ -1,4 +1,4 @@
-import React, { useMemo, useEffect } from "react";
+import React, { useEffect, useMemo } from "react";
 import TitlePages from "../../../layout/TitlePages";
 import {
   MaterialReactTable,
@@ -13,6 +13,9 @@ import {
 } from "../../../data/dataAcuerdos";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
+import Breadcrumbs from "../../../layout/Breadcrumbs";
+
+const baseUrl = "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2002/";
 
 const PdfLink = ({ url }) => (
   <a href={url} target="_blank" rel="noreferrer">
@@ -25,10 +28,37 @@ const TableRow = ({ title, url }) =>
     <tr>
       <td>{title.toUpperCase()}</td>
       <td>
-        <PdfLink url={url} />
+        <PdfLink url={baseUrl + url + ".pdf"} />
       </td>
     </tr>
   ) : null;
+
+const useTableConfig = (data, columns, options = {}) => {
+  return useMaterialReactTable({
+    columns,
+    data,
+    enableTopToolbar: false,
+    enableBottomToolbar: false,
+    enableExpanding: true,
+    enableExpandAll: true,
+    enableSorting: false,
+    enableHiding: false,
+    enableColumnActions: false,
+    enableDensityToggle: false,
+    initialState: { density: "compact" },
+    muiExpandButtonProps: ({ row }) => ({
+      sx: { display: row.original.subRows === "" ? "none" : "flex" },
+    }),
+    muiPaginationProps: {
+      rowsPerPageOptions: [10, 25, 50, 100, 200, 300, 400],
+    },
+    localization: {
+      ...MRT_Localization_ES,
+      pagination: { rowsPerPage: "Filas por página" },
+    },
+    ...options,
+  });
+};
 
 const Acuerdos2001 = () => {
   useEffect(() => {
@@ -56,7 +86,9 @@ const Acuerdos2001 = () => {
                 {row.original.nameDoc}
               </td>
               <td>
-                <PdfLink url={row.original.link} />
+                {row.original.link && (
+                  <PdfLink baseUrl={baseUrl} url={row.original.link + ".pdf"} />
+                )}
               </td>
             </tr>
             {[...Array(70)].map((_, i) => {
@@ -64,8 +96,9 @@ const Acuerdos2001 = () => {
               return (
                 <TableRow
                   key={index}
+                  baseUrl={baseUrl}
                   title={row.original[`titleAnexo${index}`]}
-                  url={row.original[`pdfAnexo${index}`]}
+                  url={row.original.link + [`.${index}.pdf`]}
                 />
               );
             })}
@@ -78,135 +111,46 @@ const Acuerdos2001 = () => {
   const columns = useMemo(
     () => [
       {
-        accessorFn: (row) => `${row.numCedula} ${row.numCedula}`,
+        accessorFn: (row) => `${row.typeDoc} ${row.nameDoc}`,
         id: "titulo",
         header: "TÍTULO",
       },
-      {
-        id: "pdf",
-        header: "",
-        Cell: ({ row }) =>
-          row.original.link === "" ? (
-            <span></span>
-          ) : (
-            <a href={row.original.link} target="_blank" rel="noreferrer">
-              <FontAwesomeIcon icon={faFilePdf} className="btn btn-danger" />
-            </a>
-          ),
-      },
     ],
     []
   );
 
-  const table = useMaterialReactTable({
-    columns,
-    data: dataAcuerdos2001,
-  });
-
-  const columnsAA1 = useMemo(
-    () => [
-      {
-        accessorKey: "nameMunicipio",
-        header: "MUNICIPIO",
-      },
-      {
-        id: "pdf",
-        header: "",
-        Cell: ({ row }) =>
-          row.original.link === "" ? (
-            <span></span>
-          ) : (
-            <a href={row.original.link} target="_blank" rel="noreferrer">
-              <FontAwesomeIcon icon={faFilePdf} className="btn btn-danger" />
-            </a>
-          ),
-      },
-    ],
-    []
-  );
-
-  const tableAA1 = useMaterialReactTable({
-    columns: columnsAA1,
-    data: dataAA12001,
-    enableTopToolbar: false,
-    enableBottomToolbar: false,
-    enableExpanding: true,
-    enableExpandAll: true,
-    enableSorting: false,
-    enableHiding: false,
-    enableColumnActions: false,
-    enableDensityToggle: false,
-    initialState: { density: "compact" },
-    muiExpandButtonProps: ({ row }) => ({
-      sx: {
-        display: row.original.subRows === "" ? "none" : "flex",
-      },
-    }),
+  const table = useTableConfig(dataAcuerdos2001, columns, {
     renderDetailPanel: renderDetailPanelAcuerdos,
-    muiPaginationProps: {
-      rowsPerPageOptions: [10, 25, 50, 100, 200, 300, 400],
-    },
-    localization: {
-      ...MRT_Localization_ES,
-      pagination: {
-        rowsPerPage: "Filas por página",
-      },
-    },
   });
-
-  const columnsAA2 = useMemo(
-    () => [
-      {
-        accessorKey: "nameDoc",
-        header: "TÍTULO",
-      },
-      {
-        id: "pdf",
-        header: "",
-        Cell: ({ row }) =>
-          row.original.link === "" ? (
-            <span></span>
-          ) : (
-            <a href={row.original.link} target="_blank" rel="noreferrer">
-              <FontAwesomeIcon icon={faFilePdf} className="btn btn-danger" />
-            </a>
-          ),
-      },
-    ],
-    []
-  );
-
-  const tableAA2 = useMaterialReactTable({
-    columns: columnsAA2,
-    data: dataAA22001,
-    enableTopToolbar: false,
-    enableBottomToolbar: false,
-    enableExpanding: true,
-    enableExpandAll: true,
-    enableSorting: false,
-    enableHiding: false,
-    enableColumnActions: false,
-    enableDensityToggle: false,
-    initialState: { density: "compact" },
-    muiExpandButtonProps: ({ row }) => ({
-      sx: {
-        display: row.original.subRows === "" ? "none" : "flex",
-      },
-    }),
-    renderDetailPanel: renderDetailPanelAcuerdos,
-    muiPaginationProps: {
-      rowsPerPageOptions: [10, 25, 50, 100, 200, 300, 400],
+  const tableAA1 = useTableConfig(dataAA12001, [
+    { accessorKey: "nameMunicipio", header: "MUNICIPIO" },
+    {
+      id: "pdf",
+      header: "",
+      Cell: ({ row }) =>
+        row.original.link ? <PdfLink url={row.original.link + ".pdf"} /> : null,
     },
-    localization: {
-      ...MRT_Localization_ES,
-      pagination: {
-        rowsPerPage: "Filas por página",
-      },
+  ]);
+
+  const tableAA2 = useTableConfig(dataAA22001, [
+    { accessorKey: "nameDoc", header: "TÍTULO" },
+    {
+      id: "pdf",
+      header: "",
+      Cell: ({ row }) =>
+        row.original.link ? <PdfLink url={row.original.link + ".pdf"} /> : null,
     },
-  });
+  ]);
 
   return (
     <>
+      <Breadcrumbs
+        path={[
+          { label: "Home", url: "/" },
+          { label: "Acuerdos Anteriores", url: "/AcuerdosAnteriores" },
+          { label: `Acuerdos ITE 2001` },
+        ]}
+      />
       <TitlePages title="Acuerdos Anteriores" subTitle="Acuerdos ITE 2001" />
       <MaterialReactTable table={table} />
       <br />
@@ -220,4 +164,5 @@ const Acuerdos2001 = () => {
     </>
   );
 };
+
 export default Acuerdos2001;

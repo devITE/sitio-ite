@@ -1,13 +1,168 @@
 import React, { useEffect } from "react";
 import TitlePages from "../../layout/TitlePages";
+import Breadcrumbs from "../../layout/Breadcrumbs";
 import "./Integracion.css";
+
+const TabButton = ({ id, target, label, active }) => (
+  <button
+    className={`btn btn-ite ${active ? "active" : ""}`}
+    id={id}
+    data-bs-toggle="pill"
+    data-bs-target={target}
+    type="button"
+    role="tab"
+    aria-controls={target.slice(1)}
+    aria-selected={active}
+  >
+    {label}
+  </button>
+);
+
+const GridItem = ({ href, imgSrc, altText, title, name }) => (
+  <div className="rounded grid-4-item bg-secondary bg-opacity-25">
+    <a href={href} target="_blank" rel="noreferrer" className="nav-link">
+      <div className="bg-ite">
+        <img
+          src={imgSrc}
+          className="shadow_img rounded img-fluid w-75"
+          alt={altText}
+        />
+      </div>
+      <div>
+        <p>{title}</p>
+        <p>{name}</p>
+      </div>
+    </a>
+  </div>
+);
 
 const Integración = () => {
   useEffect(() => {
-    document.title = `Integración`;
+    document.title = "Integración";
   }, []);
+
+  const gridItems = [
+    {
+      href: "https://itetlax.org.mx/assets/pdf/CG/1.pdf",
+      imgSrc: "https://itetlax.org.mx/assets/img/intCG/1.png",
+      altText: "Emmanuel Ávila González",
+      title: "Consejero Presidente",
+      name: "Lic. Emmanuel Ávila González",
+    },
+    {
+      href: "https://itetlax.org.mx/assets/pdf/CG/8.pdf",
+      imgSrc: "https://itetlax.org.mx/assets/img/intCG/2.png",
+      altText: "Elizabeth Vázquez Alonso",
+      title: "Secretaria Ejecutiva",
+      name: "Mtra. Elizabeth Vázquez Alonso",
+    },
+    {
+      href: "https://itetlax.org.mx/assets/pdf/CG/2.pdf",
+      imgSrc: "https://itetlax.org.mx/assets/img/intCG/3.png",
+      altText: "Erika Periañez Rodríguez",
+      title: "Consejera Electoral",
+      name: "Lic. Erika Periañez Rodríguez",
+    },
+    {
+      href: "https://itetlax.org.mx/assets/pdf/CG/3.pdf",
+      imgSrc: "https://itetlax.org.mx/assets/img/intCG/4.png",
+      altText: "Edgar Alfonso Aldave Aguilar",
+      title: "Consejero Electoral",
+      name: "Lic. Edgar Alfonso Aldave Aguilar",
+    },
+    {
+      href: "https://itetlax.org.mx/assets/pdf/CG/4.pdf",
+      imgSrc: "https://itetlax.org.mx/assets/img/intCG/5.png",
+      altText: "Janet Cervante Ahuatzi",
+      title: "Consejera Electoral",
+      name: "Lic. Janet Cervantes Ahuatzi",
+    },
+    {
+      href: "https://itetlax.org.mx/assets/pdf/CG/5.pdf",
+      imgSrc: "https://itetlax.org.mx/assets/img/intCG/6.png",
+      altText: "Hermenegildo Neria Carreño",
+      title: "Consejero Electoral",
+      name: "Lic. Hermenegildo Neria Carreño",
+    },
+    {
+      href: "https://itetlax.org.mx/assets/pdf/CG/6.pdf",
+      imgSrc: "https://itetlax.org.mx/assets/img/intCG/7.png",
+      altText: "Yedith Martínez Pinillo",
+      title: "Consejera Electoral",
+      name: "Lic. Yedith Martínez Pinillo",
+    },
+    {
+      href: "https://itetlax.org.mx/assets/pdf/CG/7.pdf",
+      imgSrc: "https://itetlax.org.mx/assets/img/intCG/8.png",
+      altText: "Juan Carlos Minor Marquez",
+      title: "Consejero Electoral",
+      name: "Mtro. Juan Carlos Minor Marquez",
+    },
+  ];
+
+  const partyRepresentatives = [
+    {
+      href: "https://www.pantlaxcala.org.mx/",
+      imgSrc: "https://itetlax.org.mx/assets/img/intPP/1.jpg",
+      altText: "pan",
+    },
+    {
+      href: "https://pritlaxcala.org.mx/",
+      imgSrc: "https://itetlax.org.mx/assets/img/intPP/2.png",
+      altText: "pri",
+    },
+    {
+      href: "https://www.prd.org.mx/",
+      imgSrc: "https://itetlax.org.mx/assets/img/intPP/3.jpg",
+      altText: "prd",
+    },
+    {
+      href: "http://pttlaxcala.com.mx/",
+      imgSrc: "https://itetlax.org.mx/assets/img/intPP/4.jpg",
+      altText: "pt",
+    },
+    {
+      href: "https://partidoverdetlaxcala.org/",
+      imgSrc: "https://itetlax.org.mx/assets/img/intPP/5.png",
+      altText: "verde",
+    },
+    {
+      href: "https://movimientociudadano.mx/tlaxcala",
+      imgSrc: "https://itetlax.org.mx/assets/img/intPP/6.png",
+      altText: "movimiento ciudadano",
+    },
+    {
+      href: "https://www.partidoalianzaciudadanatlax.com/",
+      imgSrc: "https://itetlax.org.mx/assets/img/intPP/7.jpg",
+      altText: "pac",
+    },
+    {
+      href: "https://morena.org/",
+      imgSrc: "https://itetlax.org.mx/assets/img/intPP/8.png",
+      altText: "morena",
+    },
+    {
+      href: "https://www.natlaxcala.mx/",
+      imgSrc: "https://itetlax.org.mx/assets/img/intPP/9.png",
+      altText: "nueva alianza",
+    },
+    {
+      href: "https://www.redessocialesprogresistas.org/tlaxcala/",
+      imgSrc: "https://itetlax.org.mx/assets/img/intPP/10.jpg",
+      altText: "rsp",
+    },
+    {
+      href: "https://www.fuerzapormexicotlx.org/",
+      imgSrc: "https://itetlax.org.mx/assets/img/intPP/11.png",
+      altText: "fuerza x mexico",
+    },
+  ];
+
   return (
     <>
+      <Breadcrumbs
+        path={[{ label: "Home", url: "/" }, { label: "Integración" }]}
+      />
       <TitlePages title="Integración" subTitle="" />
       <div className="d-flex align-items-start">
         <div
@@ -16,30 +171,17 @@ const Integración = () => {
           role="tablist"
           aria-orientation="vertical"
         >
-          <button
-            className="btn btn-ite active"
+          <TabButton
             id="v-pills-integracion-tab"
-            data-bs-toggle="pill"
-            data-bs-target="#v-pills-integracion"
-            type="button"
-            role="tab"
-            aria-controls="v-pills-integracion"
-            aria-selected="true"
-          >
-            Integración
-          </button>
-          <button
-            className="btn btn-ite"
+            target="#v-pills-integracion"
+            label="Integración"
+            active
+          />
+          <TabButton
             id="v-pills-pp-tab"
-            data-bs-toggle="pill"
-            data-bs-target="#v-pills-pp"
-            type="button"
-            role="tab"
-            aria-controls="v-pills-pp"
-            aria-selected="false"
-          >
-            Representantes de los Partidos Políticos
-          </button>
+            target="#v-pills-pp"
+            label="Representantes de los Partidos Políticos"
+          />
         </div>
         <div className="tab-content" id="v-pills-tabContent">
           <div
@@ -50,180 +192,9 @@ const Integración = () => {
             tabIndex="0"
           >
             <div className="w-100 grid-4">
-              <div className="rounded grid-4-item bg-secondary bg-opacity-25">
-                <a
-                  href="https://itetlax.org.mx/assets/pdf/CG/1.pdf"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="nav-link"
-                >
-                  <div className="bg-ite">
-                    <img
-                      src="https://itetlax.org.mx/assets/img/intCG/1.png"
-                      className="shadow_img rounded img-fluid w-75"
-                      alt="Emmanuel Ávila González"
-                    />
-                  </div>
-
-                  <div>
-                    <p>Consejero Presidente</p>
-                    <p>
-                      Lic. Emmanuel Ávila <br />
-                      González
-                    </p>
-                  </div>
-                </a>
-              </div>
-              <div className="rounded grid-4-item bg-secondary bg-opacity-25">
-                <a
-                  href="https://itetlax.org.mx/assets/pdf/CG/8.pdf"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="nav-link"
-                >
-                  <div className="bg-ite">
-                    <img
-                      src="https://itetlax.org.mx/assets/img/intCG/2.png"
-                      className="shadow_img rounded img-fluid w-75"
-                      alt="Elizabeth Vázquez Alonso"
-                    />
-                  </div>
-
-                  <div>
-                    <p>Secretaria Ejecutiva</p>
-                    <p>Mtra. Elizabeth Vázquez Alonso</p>
-                  </div>
-                </a>
-              </div>
-              <div className="rounded grid-4-item bg-secondary bg-opacity-25">
-                <a
-                  href="https://itetlax.org.mx/assets/pdf/CG/2.pdf"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="nav-link"
-                >
-                  <div className="bg-ite">
-                    <img
-                      src="https://itetlax.org.mx/assets/img/intCG/3.png"
-                      className="shadow_img rounded img-fluid w-75"
-                      alt="Erika Periañez Rodríguez"
-                    />
-                  </div>
-
-                  <div>
-                    <p>Consejera Electoral</p>
-                    <p>Lic. Erika Periañez Rodríguez</p>
-                  </div>
-                </a>
-              </div>
-              <div className="rounded grid-4-item bg-secondary bg-opacity-25">
-                <a
-                  href="https://itetlax.org.mx/assets/pdf/CG/3.pdf"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="nav-link"
-                >
-                  <div className="bg-ite">
-                    <img
-                      src="https://itetlax.org.mx/assets/img/intCG/4.png"
-                      className="shadow_img rounded img-fluid w-75"
-                      alt="Edgar Alfonso Aldave Aguilar"
-                    />
-                  </div>
-
-                  <div>
-                    <p>Consejero Electoral </p>
-                    <p>Lic. Edgar Alfonso Aldave Aguilar</p>
-                  </div>
-                </a>
-              </div>
-              <div className="rounded grid-4-item bg-secondary bg-opacity-25">
-                <a
-                  href="https://itetlax.org.mx/assets/pdf/CG/4.pdf"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="nav-link"
-                >
-                  <div className="bg-ite">
-                    <img
-                      src="https://itetlax.org.mx/assets/img/intCG/5.png"
-                      className="shadow_img rounded img-fluid w-75"
-                      alt="Janet Cervante Ahuatzi"
-                    />
-                  </div>
-
-                  <div>
-                    <p>Consejera Electoral</p>
-                    <p>Lic. Janet Cervantes Ahuatzi</p>
-                  </div>
-                </a>
-              </div>
-              <div className="rounded grid-4-item bg-secondary bg-opacity-25">
-                <a
-                  href="https://itetlax.org.mx/assets/pdf/CG/5.pdf"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="nav-link"
-                >
-                  <div className="bg-ite">
-                    <img
-                      src="https://itetlax.org.mx/assets/img/intCG/6.png"
-                      className="shadow_img rounded img-fluid w-75"
-                      alt="Hermenegildo Neria Carreño"
-                    />
-                  </div>
-
-                  <div>
-                    <p>Consejero Electoral</p>
-                    <p>Lic. Hermenegildo Neria Carreño</p>
-                  </div>
-                </a>
-              </div>
-              <div className="rounded grid-4-item bg-secondary bg-opacity-25">
-                <a
-                  href="https://itetlax.org.mx/assets/pdf/CG/6.pdf"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="nav-link"
-                >
-                  <div className="bg-ite">
-                    <img
-                      src="https://itetlax.org.mx/assets/img/intCG/7.png"
-                      className="shadow_img rounded img-fluid w-75"
-                      alt="Yedith Martínez Pinillo"
-                    />
-                  </div>
-
-                  <div>
-                    <p>Consejera Electoral</p>
-                    <p>
-                      Lic. Yedith Martínez <br />
-                      Pinillo
-                    </p>
-                  </div>
-                </a>
-              </div>
-              <div className="rounded grid-4-item bg-secondary bg-opacity-25">
-                <a
-                  href="https://itetlax.org.mx/assets/pdf/CG/7.pdf"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="nav-link"
-                >
-                  <div className="bg-ite">
-                    <img
-                      src="https://itetlax.org.mx/assets/img/intCG/8.png"
-                      className="shadow_img rounded img-fluid w-75"
-                      alt="Secretaria Ejecutiva"
-                    />
-                  </div>
-
-                  <div>
-                    <p>Consejero Electoral</p>
-                    <p>Mtro. Juan Carlos Minor Marquez</p>
-                  </div>
-                </a>
-              </div>
+              {gridItems.map((item, index) => (
+                <GridItem key={index} {...item} />
+              ))}
             </div>
           </div>
           <div
@@ -234,146 +205,17 @@ const Integración = () => {
             tabIndex="0"
           >
             <div className="w-100 Grid__four">
-              <div>
-                <a
-                  href="https://www.pantlaxcala.org.mx/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <img
-                    src="https://itetlax.org.mx/assets/img/intPP/1.jpg"
-                    className="img-fluid hover-ite"
-                    alt="pan"
-                  />
-                </a>
-              </div>
-              <div>
-                <a
-                  href="https://pritlaxcala.org.mx/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <img
-                    src="https://itetlax.org.mx/assets/img/intPP/2.png"
-                    className="img-fluid hover-ite"
-                    alt="pri"
-                  />
-                </a>
-              </div>
-              <div>
-                <a
-                  href="https://www.prd.org.mx/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <img
-                    src="https://itetlax.org.mx/assets/img/intPP/3.jpg"
-                    className="img-fluid hover-ite"
-                    alt="prd"
-                  />
-                </a>
-              </div>
-              <div>
-                <a
-                  href="http://pttlaxcala.com.mx/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <img
-                    src="https://itetlax.org.mx/assets/img/intPP/4.jpg"
-                    className="img-fluid hover-ite"
-                    alt="pt"
-                  />
-                </a>
-              </div>
-              <div>
-                <a
-                  href="https://partidoverdetlaxcala.org/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <img
-                    src="https://itetlax.org.mx/assets/img/intPP/5.png"
-                    className="img-fluid hover-ite"
-                    alt="verde"
-                  />
-                </a>
-              </div>
-              <div>
-                <a
-                  href="https://movimientociudadano.mx/tlaxcala"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <img
-                    src="https://itetlax.org.mx/assets/img/intPP/6.png"
-                    className="img-fluid hover-ite"
-                    alt="movimiento ciudadano"
-                  />
-                </a>
-              </div>
-              <div>
-                <a
-                  href="https://www.partidoalianzaciudadanatlax.com/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <img
-                    src="https://itetlax.org.mx/assets/img/intPP/7.jpg"
-                    className="img-fluid hover-ite"
-                    alt="pac"
-                  />
-                </a>
-              </div>
-              <div>
-                <a href="https://morena.org/" target="_blank" rel="noreferrer">
-                  <img
-                    src="https://itetlax.org.mx/assets/img/intPP/8.png"
-                    className="img-fluid hover-ite"
-                    alt="morena"
-                  />
-                </a>
-              </div>
-              <div>
-                <a
-                  href="https://www.natlaxcala.mx/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <img
-                    src="https://itetlax.org.mx/assets/img/intPP/9.png"
-                    className="img-fluid hover-ite"
-                    alt="nueva alianza"
-                  />
-                </a>
-              </div>
-
-              <div>
-                <a
-                  href="https://www.redessocialesprogresistas.org/tlaxcala/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <img
-                    src="https://itetlax.org.mx/assets/img/intPP/10.jpg"
-                    className="img-fluid hover-ite"
-                    alt="rsp"
-                  />
-                </a>
-              </div>
-              <div>
-                <a
-                  href="https://www.fuerzapormexicotlx.org/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <img
-                    src="https://itetlax.org.mx/assets/img/intPP/11.png"
-                    className="img-fluid hover-ite"
-                    alt="fuerza x mexico"
-                  />
-                </a>
-              </div>
+              {partyRepresentatives.map((rep, index) => (
+                <div key={index}>
+                  <a href={rep.href} target="_blank" rel="noreferrer">
+                    <img
+                      src={rep.imgSrc}
+                      className="img-fluid hover-ite"
+                      alt={rep.altText}
+                    />
+                  </a>
+                </div>
+              ))}
             </div>
           </div>
         </div>
@@ -381,4 +223,5 @@ const Integración = () => {
     </>
   );
 };
+
 export default Integración;

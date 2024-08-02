@@ -1,16 +1,10 @@
-.bg-ite {
-  background: #aa0787;
+:root {
+  --ite-color-primary: #972069;
 }
 
 html {
   min-height: 100%;
   position: relative;
-}
-
-li::marker {
-  color: #aa0787;
-  font-weight: bolder;
-  font-size: 20px;
 }
 
 body {
@@ -20,21 +14,33 @@ body {
   text-align: justify;
 }
 
+.bg-ite {
+  background: var(--ite-color-primary);
+}
+
+
+li::marker {
+  color: var(--ite-color-primary);
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+
 h1,
 h2,
 h3,
 h4,
 h5, .text-strong,
 strong {
-  color: #aa0787;
+  color: var(--ite-color-primary);
   font-weight: bolder !important;
-  -webkit-text-stroke: 2px #aa0787;
+  -webkit-text-stroke: 2px var(--ite-color-primary);
   letter-spacing: 3px;
 }
 
 .hr-bottom {
   border-bottom-style: dotted;
-  border-bottom-color: #aa0787;
+  border-bottom-color: var(--ite-color-primary);
   border-bottom-width: 5px;
   border-top: none;
   opacity: 1;
@@ -49,7 +55,7 @@ a {
   font-family: "Segoe UI Light";
   border-bottom-width: 2px;
   border-bottom-style: dashed;
-  border-bottom-color: #ba1678;
+  border-bottom-color: var(--ite-color-primary);
   border-top: none;
 }
 
@@ -75,16 +81,16 @@ a {
 
 .btn-ite {
   /* color: rgba(0, 0, 0, 0.125); */
-  --bs-btn-color: #aa0787;
+  --bs-btn-color: var(--ite-color-primary);
   --bs-btn-hover-color: #fff;
   --bs-btn-hover-bg: #aa0787;
   --bs-btn-border-color: #aa0787 !important;
   --bs-btn-border-radius: 0 !important;
-  --bs-btn-hover-border-color: #aa0787;
+  --bs-btn-hover-border-color: var(--ite-color-primary);
   --bs-btn-focus-shadow-rgb: 25, 135, 84;
   --bs-btn-active-color: #fff;
   --bs-btn-active-bg: #aa0787;
-  --bs-btn-active-border-color: #aa0787;
+  --bs-btn-active-border-color: var(--ite-color-primary);
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   --bs-btn-disabled-color: #9d3c8a;
   --bs-btn-disabled-bg: transparent;
@@ -107,7 +113,7 @@ a {
 .Grid__four,
 .Grid__three {
   display: grid;
-  color: #972069;
+  color: var(--ite-color-primary);
   text-align: center;
   font-weight: bolder;
   font-size: 25px;
@@ -124,7 +130,6 @@ a {
 
 .Content__grid img:hover,
 .Grid__folder img:hover {
-  /* .Grid__four img:hover { */
   transition: 0.5s;
   transform: scale(1.2);
 }
@@ -132,16 +137,6 @@ a {
 .acordionn-body-ite {
   padding: 0 !important;
 }
-
-/* .App__total-app {
-  min-height: 100vh;
-  position: relative;
-} */
-
-/* .App__container {
-  margin: auto;
-  text-align: justify;
-} */
 
 .App__container {
   margin: auto;
@@ -169,18 +164,18 @@ a {
 }
 
 ._2aOn7 {
-  color: #972069 !important;
+  color: var(--ite-color-primary) !important;
   font-weight: bolder !important;
 }
 
 ._106d2 {
-  background: #972069 !important;
+  background: var(--ite-color-primary) !important;
   font-weight: bolder !important;
   border-radius: 0 0 10px 10px !important;
 }
 
 ._SKh-V, ._2v-d4 {
-  background: #6b164b !important;
+  background: var(--ite-color-primary) !important;
   font-weight: bolder !important;
   color: #dddddd !important;
   border-radius: 10px 10px 0 0 !important;
@@ -196,23 +191,12 @@ a {
   }
 }
 
-/* --------------- M O D A L --------------- */
-
 .modal-header {
-  background: #972069 !important;
+  background: var(--ite-color-primary) !important;
 }
 
-.modal-title {
+.modal-title, .accordion-button {
   color: #ffffff !important;
-}
-
-/* --------------- A C C O R D I O N --------------- */
-
-.accordion-button {
-  color: #ffffff !important;
-  /* background-color: #972069 !important; */
-  /* background-color: #202297 !important; */
-
 }
 
 /* --------------- T A B L E     A N D     D A T A     T A B L E --------------- */
@@ -227,20 +211,12 @@ a {
   margin: 5px 0;
 }
 
-.css-12j2us3 {
-  padding: 0 !important;
-}
-
-.css-1dv1fvo {
-  padding: 0 !important;
-}
-
 table thead tr th,
 table tfoot tr td,
 table thead tr th,
 .MuiFormControl-root,
 .MuiInputBase-root {
-  background-color: #972069 !important;
+  background-color: var(--ite-color-primary) !important;
   color: #ffffff !important;
 }
 
@@ -252,7 +228,7 @@ table thead tr th .MuiSvgIcon-root {
 .MuiBoox-root,
 .MuiButtonBase-root,
 table tbody tr td .MuiSvgIcon-root {
-  color: #972069 !important;
+  color: var(--ite-color-primary) !important;
 }
 
 /* --------------- C A R O U S E L --------------- */
@@ -266,9 +242,9 @@ table tbody tr td .MuiSvgIcon-root {
 }
 
 .carousel-indicators [data-bs-target] {
-  background-color: #ba1678 !important;
+  background-color: var(--ite-color-primary) !important;
   height: 7px !important;
-  border: 1px solid #ba1678 !important;
+  border: 1px solid var(--ite-color-primary) !important;
   border-radius: 10px !important;
   box-shadow: 3px 2px #000000 !important;
   width: 40px !important;
@@ -281,7 +257,6 @@ table tbody tr td .MuiSvgIcon-root {
 /* general */
 @media only screen and (min-width: 1024px) {
   .App__container {
-    /* border: 2px solid red; */
     width: 75%;
     padding-bottom: 80px;
   }
@@ -290,6 +265,13 @@ table tbody tr td .MuiSvgIcon-root {
     font-size: 2.4em;
     padding: 0.5em 1em;
     letter-spacing: 1px;
+  }
+
+  #breadcrumbID {
+    width: 98vw;
+    position: relative;
+    left: -16.3%;
+    top: -20px !important;
   }
 
   #carouselTopIndex {
@@ -326,9 +308,15 @@ table tbody tr td .MuiSvgIcon-root {
 /* tablets */
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
   .App__container {
-    /* border: 2px solid blue; */
     width: 85%;
     padding-bottom: 120px;
+  }
+
+  #breadcrumbID {
+    width: 97.1vw;
+    position: relative;
+    left: -8.1%;
+    top: -20px !important;
   }
 
   #carouselTopIndex {
@@ -357,7 +345,6 @@ table tbody tr td .MuiSvgIcon-root {
 /* mobil */
 @media only screen and (max-width: 767px) {
   .App__container {
-    /* border: 1px solid orange; */
     width: 90%;
     padding-bottom: 130px;
     margin-bottom: 20px;
@@ -369,9 +356,15 @@ table tbody tr td .MuiSvgIcon-root {
     letter-spacing: 1px;
   }
 
+  #breadcrumbID {
+    width: 98.5vw;
+    position: relative;
+    left: -4.8%;
+    top: -20px !important;
+  }
+
   #carouselTopIndex {
     width: 97vw;
-    /* position: absolute; */
     left: -4.5%;
   }
 

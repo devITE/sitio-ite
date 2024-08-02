@@ -5,129 +5,101 @@ import { Link } from "react-router-dom";
 import ListBadge from "../../layout/ListBadge";
 import { dataReglamento, dataJuridico } from "../../data/dataTransparencia";
 import "./Transparencia.css";
+import Breadcrumbs from "../../layout/Breadcrumbs";
+
+const TransparenciaItem = ({ to, href, imgSrc, imgAlt, text }) => (
+  <div>
+    {to ? (
+      <Link to={to}>
+        <img className="img-fluid w-100 mt-3" src={imgSrc} alt={imgAlt} />
+      </Link>
+    ) : (
+      <a href={href} target="_blank" rel="noreferrer">
+        <img className="img-fluid w-100 mt-3" src={imgSrc} alt={imgAlt} />
+      </a>
+    )}
+    <p className="mt-2">{text}</p>
+  </div>
+);
 
 const Transparencia = () => {
   useEffect(() => {
     document.title = `Transparencia`;
   }, []);
+
   return (
     <>
+      <Breadcrumbs
+        path={[{ label: "Home", url: "/" }, { label: "Transparencia" }]}
+      />
       <TitlePages title="Transparencia" subTitle="" />
       <div className="w-100 mt-3 Content__grid">
-        <div>
-          <Link to="/Articulo63">
-            <img
-              className="img-fluid w-100 mt-3"
-              src="https://itetlax.org.mx/assets/img/icons/1.png"
-              alt="Art. 63 Obligaciones Comunes"
-            />
-          </Link>
-          <p className="mt-2">Art. 63 Obligaciones Comunes</p>
-        </div>
-        <div>
-          <Link to="/Articulo67">
-            <img
-              className="img-fluid w-100 mt-3"
-              src="https://itetlax.org.mx/assets/img/icons/1.png"
-              alt="Art. 67 Obligaciones Específicas"
-            />
-          </Link>
-          <p className="mt-2">Art. 67 Obligaciones Específicas</p>
-        </div>
-        <div>
-          <Link to="/Articulo94">
-            <img
-              className="img-fluid w-100 mt-3"
-              src="https://itetlax.org.mx/assets/img/icons/1.png"
-              alt="Art. 94 Obligaciones Específicas"
-            />
-          </Link>
-          <p className="mt-2">Art. 94 Obligaciones Específicas</p>
-        </div>
-        <div>
-          <Link to="/Convenios">
-            <img
-              className="img-fluid w-100 mt-3"
-              src="https://itetlax.org.mx/assets/img/icons/2.png"
-              alt="Convenios"
-            />
-          </Link>
-          <p className="mt-2">Convenios</p>
-        </div>
-        <div>
-          <a
-            href="https://itetlax.org.mx/assets/pdf/transparencia/1.pdf"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img
-              className="img-fluid w-100 mt-3"
-              src="https://itetlax.org.mx/assets/img/icons/3.png"
-              alt="Directorio General"
-            />
-          </a>
-          <p className="mt-2">Directorio General</p>
-        </div>
-        <div>
-          <Link to="/InformesAnuales">
-            <img
-              className="img-fluid w-100 mt-3"
-              src="https://itetlax.org.mx/assets/img/icons/4.png"
-              alt="Informes anuales"
-            />
-          </Link>
-          <p className="mt-2">Informes anuales</p>
-        </div>
-        <div>
-          <Link to="/AvisosPrivacidad">
-            <img
-              className="img-fluid w-100 mt-3"
-              src="https://itetlax.org.mx/assets/img/icons/5.png"
-              alt="Aviso de privacidad"
-            />
-          </Link>
-          <p className="mt-2">Aviso de privacidad</p>
-        </div>
-        <div>
-          <Link to="/FormatoSolicitud">
-            <img
-              className="img-fluid w-100 mt-3"
-              src="https://itetlax.org.mx/assets/img/icons/2.png"
-              alt="Presentar solicitud"
-            />
-          </Link>
-          <p className="mt-2">Presentar solicitud</p>
-        </div>
-        <div>
-          <Link to="/POA">
-            <img
-              className="img-fluid w-100 mt-3"
-              src="https://itetlax.org.mx/assets/img/icons/6.png"
-              alt="Programas Operativos Anuales"
-            />
-          </Link>
-          <p className="mt-2">Programas Operativos Anuales</p>
-        </div>
-        <div>
-          <Link to="/InformacionFinanciera">
-            <img
-              className="img-fluid w-100 mt-3"
-              src="https://itetlax.org.mx/assets/img/icons/7.png"
-              alt="Información Financiera"
-            />
-          </Link>
-          <p className="mt-2">Información Financiera</p>
-        </div>
-        <div>
-          <Link to="/InformacionContable">
-            <img
-              className="img-fluid w-100 mt-3"
-              src="https://itetlax.org.mx/assets/img/icons/8.png"
-              alt="Información Contable"
-            />
-          </Link>
-          <p className="mt-2">Información Contable</p>
-        </div>
+        <TransparenciaItem
+          to="/Articulo63"
+          imgSrc="https://itetlax.org.mx/assets/img/icons/1.png"
+          imgAlt="Art. 63 Obligaciones Comunes"
+          text="Art. 63 Obligaciones Comunes"
+        />
+        <TransparenciaItem
+          to="/Articulo67"
+          imgSrc="https://itetlax.org.mx/assets/img/icons/1.png"
+          imgAlt="Art. 67 Obligaciones Específicas"
+          text="Art. 67 Obligaciones Específicas"
+        />
+        <TransparenciaItem
+          to="/Articulo94"
+          imgSrc="https://itetlax.org.mx/assets/img/icons/1.png"
+          imgAlt="Art. 94 Obligaciones Específicas"
+          text="Art. 94 Obligaciones Específicas"
+        />
+        <TransparenciaItem
+          to="/Convenios"
+          imgSrc="https://itetlax.org.mx/assets/img/icons/2.png"
+          imgAlt="Convenios"
+          text="Convenios"
+        />
+        <TransparenciaItem
+          href="https://itetlax.org.mx/assets/pdf/transparencia/1.pdf"
+          imgSrc="https://itetlax.org.mx/assets/img/icons/3.png"
+          imgAlt="Directorio General"
+          text="Directorio General"
+        />
+        <TransparenciaItem
+          to="/InformesAnuales"
+          imgSrc="https://itetlax.org.mx/assets/img/icons/4.png"
+          imgAlt="Informes anuales"
+          text="Informes anuales"
+        />
+        <TransparenciaItem
+          to="/AvisosPrivacidad"
+          imgSrc="https://itetlax.org.mx/assets/img/icons/5.png"
+          imgAlt="Aviso de privacidad"
+          text="Aviso de privacidad"
+        />
+        <TransparenciaItem
+          to="/FormatoSolicitud"
+          imgSrc="https://itetlax.org.mx/assets/img/icons/2.png"
+          imgAlt="Presentar solicitud"
+          text="Presentar solicitud"
+        />
+        <TransparenciaItem
+          to="/POA"
+          imgSrc="https://itetlax.org.mx/assets/img/icons/6.png"
+          imgAlt="Programas Operativos Anuales"
+          text="Programas Operativos Anuales"
+        />
+        <TransparenciaItem
+          to="/InformacionFinanciera"
+          imgSrc="https://itetlax.org.mx/assets/img/icons/7.png"
+          imgAlt="Información Financiera"
+          text="Información Financiera"
+        />
+        <TransparenciaItem
+          to="/InformacionContable"
+          imgSrc="https://itetlax.org.mx/assets/img/icons/8.png"
+          imgAlt="Información Contable"
+          text="Información Contable"
+        />
         <div>
           <a href="/#" data-bs-toggle="modal" data-bs-target="#modalJuridico">
             <img
@@ -192,4 +164,5 @@ const Transparencia = () => {
     </>
   );
 };
+
 export default Transparencia;

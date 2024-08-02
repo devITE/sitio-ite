@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import TitlePages from "../../../layout/TitlePages";
 import { dataInformesAnuales } from "../../../data/dataTransparencia";
+import Breadcrumbs from "../../../layout/Breadcrumbs";
 import "../Transparencia.css";
 
 const InformesAnuales = () => {
@@ -8,7 +9,14 @@ const InformesAnuales = () => {
     document.title = `Informes Anuales`;
   }, []);
   return (
-    <div>
+    <>
+      <Breadcrumbs
+        path={[
+          { label: "Home", url: "/" },
+          { label: "Transparencia", url: "/Transparencia" },
+          { label: "Informes Anuales" },
+        ]}
+      />
       <TitlePages title="Transparencia" subTitle="Informes Anuales" />
       <div className="w-100 mt-3 Content__grid">
         {dataInformesAnuales.map((informe) => {
@@ -30,7 +38,7 @@ const InformesAnuales = () => {
           );
         })}
       </div>
-    </div>
+    </>
   );
 };
 export default InformesAnuales;

@@ -11,6 +11,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
 import { dataInfContable } from "../../../data/dataTransparencia";
 import { dataCuentaPublicaNew } from "../../../data/2024/dataCuentaPublica";
+import Breadcrumbs from "../../../layout/Breadcrumbs";
 import SinExpandir from "../../../layout/HelperDataTable/SinExpandir";
 
 const InformacionContable = () => {
@@ -18,8 +19,22 @@ const InformacionContable = () => {
     document.title = `Información Contable`;
   }, []);
 
-  const columns = useMemo(
-    () => [
+  const columns = useMemo(() => {
+    const years = [
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+    ];
+
+    return [
       {
         accessorKey: "id",
         header: "ID",
@@ -39,22 +54,16 @@ const InformacionContable = () => {
             select
             value={header.column.getFilterValue() ?? ""}
             margin="none"
-            placeholder="Filter"
+            placeholder="Filtrar"
             variant="standard"
             fullWidth
           >
             <MenuItem value={null}>Todos</MenuItem>
-            <MenuItem value="2014">2014</MenuItem>
-            <MenuItem value="2015">2015</MenuItem>
-            <MenuItem value="2016">2016</MenuItem>
-            <MenuItem value="2017">2017</MenuItem>
-            <MenuItem value="2018">2018</MenuItem>
-            <MenuItem value="2019">2019</MenuItem>
-            <MenuItem value="2020">2020</MenuItem>
-            <MenuItem value="2021">2021</MenuItem>
-            <MenuItem value="2022">2022</MenuItem>
-            <MenuItem value="2023">2023</MenuItem>
-            <MenuItem value="2024">2024</MenuItem>
+            {years.map((year) => (
+              <MenuItem key={year} value={year}>
+                {year}
+              </MenuItem>
+            ))}
           </TextField>
         ),
       },
@@ -70,17 +79,14 @@ const InformacionContable = () => {
         footer: "",
         enableColumnFilters: false,
         Cell: ({ row }) =>
-          row.original.link === "" ? (
-            <span></span>
-          ) : (
+          row.original.link === "" ? null : (
             <a href={row.original.link} target="_blank" rel="noreferrer">
               <FontAwesomeIcon icon={faFilePdf} className="btn btn-danger" />
             </a>
           ),
       },
-    ],
-    []
-  );
+    ];
+  }, []);
 
   const table = useMaterialReactTable({
     columns,
@@ -96,19 +102,21 @@ const InformacionContable = () => {
     muiPaginationProps: {
       rowsPerPageOptions: [10, 25, 50, 100, 200, 300, 400],
     },
-    localization: {
-      ...MRT_Localization_ES,
-      pagination: {
-        rowsPerPage: "Filas por página",
-      },
-    },
+    localization: MRT_Localization_ES,
   });
 
   return (
-    <div>
+    <>
+      <Breadcrumbs
+        path={[
+          { label: "Home", url: "/" },
+          { label: "Transparencia", url: "/Transparencia" },
+          { label: "Información Contable" },
+        ]}
+      />
       <TitlePages title="Transparencia" subTitle="Información Contable" />
       <ListBadge
-        ifNumbered={""}
+        ifNumbered=""
         listsBadgeItem={dataInfContable}
         clasName="w-75 mx-auto"
       />
@@ -117,7 +125,8 @@ const InformacionContable = () => {
       <TitlePages title="" subTitle="Cuenta Pública" />
       <SinExpandir />
       <MaterialReactTable table={table} />
-    </div>
+    </>
   );
 };
+
 export default InformacionContable;

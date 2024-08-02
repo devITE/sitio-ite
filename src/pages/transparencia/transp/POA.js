@@ -7,6 +7,7 @@ import {
   dataPOA2019,
   dataPOA2020,
 } from "../../../data/dataTransparenciaPOA";
+import Breadcrumbs from "../../../layout/Breadcrumbs";
 import "../Transparencia.css";
 
 const POA = () => {
@@ -15,6 +16,13 @@ const POA = () => {
   }, []);
   return (
     <>
+      <Breadcrumbs
+        path={[
+          { label: "Home", url: "/" },
+          { label: "Transparencia", url: "/Transparencia" },
+          { label: "POA" },
+        ]}
+      />
       <TitlePages
         title="Transparencia"
         subTitle="Programas Operativos Anuales (POA)"

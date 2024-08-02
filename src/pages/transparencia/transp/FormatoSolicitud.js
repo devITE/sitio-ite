@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import TitlePages from "../../../layout/TitlePages";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFileWord } from "@fortawesome/free-solid-svg-icons";
+import Breadcrumbs from "../../../layout/Breadcrumbs";
 import "../Transparencia.css";
 
 const Arco = () => {
@@ -10,6 +11,13 @@ const Arco = () => {
   }, []);
   return (
     <div>
+      <Breadcrumbs
+        path={[
+          { label: "Home", url: "/" },
+          { label: "Transparencia", url: "/Transparencia" },
+          { label: "Formatos de solicitud de información / ARCO" },
+        ]}
+      />
       <TitlePages
         title="Transparencia"
         subTitle="Formato de solicitud de infomación / ARCO"

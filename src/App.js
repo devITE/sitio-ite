@@ -18,10 +18,7 @@ import PE20202021 from "./pages/enlaces/ProcesosElectorales/PE20202021";
 import PE20232024 from "./pages/enlaces/ProcesosElectorales/PE20232024";
 import Normatividad from "./pages/enlaces/Normatividad";
 import Galeria from "./pages/enlaces/Galeria/Galeria";
-import Galeria2016 from "./pages/enlaces/Galeria/Galeria2016";
-import Galeria2017 from "./pages/enlaces/Galeria/Galeria2017";
-import Galeria2018 from "./pages/enlaces/Galeria/Galeria2018";
-import Galeria2019 from "./pages/enlaces/Galeria/Galeria2019";
+import GaleriaTot from "./pages/enlaces/Galeria/GaleriaTot";
 
 import OIC from "./pages/enlaces/OIC/OIC";
 import GaleriaOIC from "./pages/enlaces/OIC/GaleriaOIC";
@@ -55,10 +52,7 @@ import AcuerdosAnteriores from "./pages/acuerdos/AcuerdosAnteriores";
 import AcuerdosTableITE from "./pages/acuerdos/acuerdosITE/AcuerdosTableITE";
 import Acuerdos2001 from "./pages/acuerdos/acuerdosITE/Acuerdos2001";
 import Acuerdos2002 from "./pages/acuerdos/acuerdosITE/Acuerdos2002";
-import Acuerdos2010 from "./pages/acuerdos/acuerdosITE/Acuerdos2010";
-import Acuerdos2011 from "./pages/acuerdos/acuerdosITE/Acuerdos2011";
-import Acuerdos2013 from "./pages/acuerdos/acuerdosITE/Acuerdos2013";
-import Acuerdos2014 from "./pages/acuerdos/acuerdosITE/Acuerdos2014";
+import AcuerdosITE from "./pages/acuerdos/acuerdosITE/AcuerdosITE";
 import Acuerdos2024 from "./pages/acuerdos/acuerdosITE/Acuerdos2024";
 
 //Demarcaciones
@@ -72,30 +66,17 @@ import Transparencia from "./pages/transparencia/Transparencia";
 
 //Transparencia Artículo 63
 import Articulo63 from "./pages/transparencia/art63/Articulo63";
-import Art632017 from "./pages/transparencia/art63/Art632017";
-import Art632018 from "./pages/transparencia/art63/Art632018";
-import Art632019 from "./pages/transparencia/art63/Art632019";
-import Art632020 from "./pages/transparencia/art63/Art632020";
-import Art632021 from "./pages/transparencia/art63/Art632021";
-import Art632022 from "./pages/transparencia/art63/Art632022";
-import Art632023 from "./pages/transparencia/art63/Art632023";
+import Art63Table from "./pages/transparencia/art63/Art63Table";
 import Art632024 from "./pages/transparencia/art63/Art632024";
 
 //Transparencia Artículo 67
 import Articulo67 from "./pages/transparencia/art67/Articulo67";
-import Art672017 from "./pages/transparencia/art67/Art672017";
-import Art672018 from "./pages/transparencia/art67/Art672018";
-import Art672019 from "./pages/transparencia/art67/Art672019";
-import Art672020 from "./pages/transparencia/art67/Art672020";
-import Art672021 from "./pages/transparencia/art67/Art672021";
-import Art672022 from "./pages/transparencia/art67/Art672022";
-import Art672023 from "./pages/transparencia/art67/Art672023";
+import Art67Table from "./pages/transparencia/art67/Art67Table";
 import Art672024 from "./pages/transparencia/art67/Art672024";
 
 //Transparencia Artículo 94
 import Articulo94 from "./pages/transparencia/art94/Articulo94";
-import Art942020 from "./pages/transparencia/art94/Art942020";
-import Art942021 from "./pages/transparencia/art94/Art942021";
+import Art94Table from "./pages/transparencia/art94/Art94Table";
 
 //Transparencia General
 import Convenios from "./pages/transparencia/transp/Convenios";
@@ -112,27 +93,12 @@ import DatosAbiertos from "./pages/transparencia/DatosAbiertos";
 //Comunicacion Social
 import ComunicacionSocial from "./pages/comunicacionSocial/ComunicacionSocial";
 import Boletines from "./pages/comunicacionSocial/boletines/Boletines";
-import Boletines2015 from "./pages/comunicacionSocial/boletines/Boletines2015";
-import Boletines2016 from "./pages/comunicacionSocial/boletines/Boletines2016";
-import Boletines2017 from "./pages/comunicacionSocial/boletines/Boletines2017";
-import Boletines2019 from "./pages/comunicacionSocial/boletines/Boletines2019";
-import Boletines2020 from "./pages/comunicacionSocial/boletines/Boletines2020";
-import Boletines2021 from "./pages/comunicacionSocial/boletines/Boletines2021";
-import Boletines2022 from "./pages/comunicacionSocial/boletines/Boletines2022";
-import Boletines2023 from "./pages/comunicacionSocial/boletines/Boletines2023";
-import Boletines2024 from "./pages/comunicacionSocial/boletines/Boletines2024";
+import BoletinesTable from "./pages/comunicacionSocial/boletines/BoletinesTable";
 
 import Monitoreo from "./pages/comunicacionSocial/monitoreos/Monitoreo";
-import Monitoreos2015 from "./pages/comunicacionSocial/monitoreos/Monitoreos2015";
-import Monitoreos2016 from "./pages/comunicacionSocial/monitoreos/Monitoreos2016";
-import Monitoreos2017 from "./pages/comunicacionSocial/monitoreos/Monitoreos2017";
-import Monitoreos2018 from "./pages/comunicacionSocial/monitoreos/Monitoreos2018";
-import Monitoreos2020 from "./pages/comunicacionSocial/monitoreos/Monitoreos2020";
-import Monitoreos2021 from "./pages/comunicacionSocial/monitoreos/Monitoreos2021";
-import Monitoreos2023 from "./pages/comunicacionSocial/monitoreos/Monitoreos2023";
+import MonitoreosTable from "./pages/comunicacionSocial/monitoreos/MonitoreosTable";
 import Monitoreos2024 from "./pages/comunicacionSocial/monitoreos/Monitoreos2024";
 
-import EspacioIte from "./pages/comunicacionSocial/EspacioIte";
 import ITEConecta from "./pages/comunicacionSocial/ITEConecta";
 
 //Cultura Cívica
@@ -185,10 +151,10 @@ function App() {
           <Route path="/HistorialPE" element={<HistorialPE />} />
           <Route path="/Normatividad" element={<Normatividad />} />
           <Route path="/Galeria" element={<Galeria />} />
-          <Route path="/Galeria2016" element={<Galeria2016 />} />
-          <Route path="/Galeria2017" element={<Galeria2017 />} />
-          <Route path="/Galeria2018" element={<Galeria2018 />} />
-          <Route path="/Galeria2019" element={<Galeria2019 />} />
+          <Route path="/Galeria2016" element={<GaleriaTot year="2016" />} />
+          <Route path="/Galeria2017" element={<GaleriaTot year="2017" />} />
+          <Route path="/Galeria2018" element={<GaleriaTot year="2018" />} />
+          <Route path="/Galeria2019" element={<GaleriaTot year="2019" />} />
           <Route path="/OIC" element={<OIC />} />
           <Route path="/GaleriaOIC" element={<GaleriaOIC />} />
           <Route path="/Infografias" element={<Infografias />} />
@@ -257,14 +223,14 @@ function App() {
             path="/Acuerdos2009"
             element={<AcuerdosTableITE year="2009" />}
           />
-          <Route path="/Acuerdos2010" element={<Acuerdos2010 />} />
-          <Route path="/Acuerdos2011" element={<Acuerdos2011 />} />
+          <Route path="/Acuerdos2010" element={<AcuerdosITE year="2010" />} />
+          <Route path="/Acuerdos2011" element={<AcuerdosITE year="2011" />} />
           <Route
             path="/Acuerdos2012"
             element={<AcuerdosTableITE year="2012" />}
           />
-          <Route path="/Acuerdos2013" element={<Acuerdos2013 />} />
-          <Route path="/Acuerdos2014" element={<Acuerdos2014 />} />
+          <Route path="/Acuerdos2013" element={<AcuerdosITE year="2013" />} />
+          <Route path="/Acuerdos2014" element={<AcuerdosITE year="2014" />} />
           <Route
             path="/Acuerdos2015"
             element={<AcuerdosTableITE year="2015" />}
@@ -342,30 +308,30 @@ function App() {
 
           {/* Artículo 63 */}
           <Route path="/Articulo63" element={<Articulo63 />} />
-          <Route path="/Art632017" element={<Art632017 />} />
-          <Route path="/Art632018" element={<Art632018 />} />
-          <Route path="/Art632019" element={<Art632019 />} />
-          <Route path="/Art632020" element={<Art632020 />} />
-          <Route path="/Art632021" element={<Art632021 />} />
-          <Route path="/Art632022" element={<Art632022 />} />
-          <Route path="/Art632023" element={<Art632023 />} />
+          <Route path="/Art632017" element={<Art63Table year="2017" />} />
+          <Route path="/Art632018" element={<Art63Table year="2018" />} />
+          <Route path="/Art632019" element={<Art63Table year="2019" />} />
+          <Route path="/Art632020" element={<Art63Table year="2020" />} />
+          <Route path="/Art632021" element={<Art63Table year="2021" />} />
+          <Route path="/Art632022" element={<Art63Table year="2022" />} />
+          <Route path="/Art632023" element={<Art63Table year="2023" />} />
           <Route path="/Art632024" element={<Art632024 />} />
 
           {/* Artículo 67 */}
           <Route path="/Articulo67" element={<Articulo67 />} />
-          <Route path="/Art672017" element={<Art672017 />} />
-          <Route path="/Art672018" element={<Art672018 />} />
-          <Route path="/Art672019" element={<Art672019 />} />
-          <Route path="/Art672020" element={<Art672020 />} />
-          <Route path="/Art672021" element={<Art672021 />} />
-          <Route path="/Art672022" element={<Art672022 />} />
-          <Route path="/Art672023" element={<Art672023 />} />
+          <Route path="/Art672017" element={<Art67Table year="2017" />} />
+          <Route path="/Art672018" element={<Art67Table year="2018" />} />
+          <Route path="/Art672019" element={<Art67Table year="2019" />} />
+          <Route path="/Art672020" element={<Art67Table year="2020" />} />
+          <Route path="/Art672021" element={<Art67Table year="2021" />} />
+          <Route path="/Art672022" element={<Art67Table year="2022" />} />
+          <Route path="/Art672023" element={<Art67Table year="2023" />} />
           <Route path="/Art672024" element={<Art672024 />} />
 
           {/* Artículo 94 */}
           <Route path="/Articulo94" element={<Articulo94 />} />
-          <Route path="/Art942020" element={<Art942020 />} />
-          <Route path="/Art942021" element={<Art942021 />} />
+          <Route path="/Art942020" element={<Art94Table year="2020" />} />
+          <Route path="/Art942021" element={<Art94Table year="2021" />} />
 
           {/* Transparencia General */}
           <Route path="/Convenios" element={<Convenios />} />
@@ -390,27 +356,74 @@ function App() {
 
           <Route path="/ComunicacionSocial" element={<ComunicacionSocial />} />
           <Route path="/Boletines" element={<Boletines />} />
-          <Route path="/Boletines2015" element={<Boletines2015 />} />
-          <Route path="/Boletines2016" element={<Boletines2016 />} />
-          <Route path="/Boletines2017" element={<Boletines2017 />} />
-          <Route path="/Boletines2019" element={<Boletines2019 />} />
-          <Route path="/Boletines2020" element={<Boletines2020 />} />
-          <Route path="/Boletines2021" element={<Boletines2021 />} />
-          <Route path="/Boletines2022" element={<Boletines2022 />} />
-          <Route path="/Boletines2023" element={<Boletines2023 />} />
-          <Route path="/Boletines2024" element={<Boletines2024 />} />
+          <Route
+            path="/Boletines2015"
+            element={<BoletinesTable year="2015" />}
+          />
+          <Route
+            path="/Boletines2016"
+            element={<BoletinesTable year="2016" />}
+          />
+          <Route
+            path="/Boletines2017"
+            element={<BoletinesTable year="2017" />}
+          />
+          <Route
+            path="/Boletines2019"
+            element={<BoletinesTable year="2019" />}
+          />
+          <Route
+            path="/Boletines2020"
+            element={<BoletinesTable year="2020" />}
+          />
+          <Route
+            path="/Boletines2021"
+            element={<BoletinesTable year="2021" />}
+          />
+          <Route
+            path="/Boletines2022"
+            element={<BoletinesTable year="2022" />}
+          />
+          <Route
+            path="/Boletines2023"
+            element={<BoletinesTable year="2023" />}
+          />
+          <Route
+            path="/Boletines2024"
+            element={<BoletinesTable year="2024" />}
+          />
 
           <Route path="/Monitoreo" element={<Monitoreo />} />
-          <Route path="/Monitoreos2015" element={<Monitoreos2015 />} />
-          <Route path="/Monitoreos2016" element={<Monitoreos2016 />} />
-          <Route path="/Monitoreos2017" element={<Monitoreos2017 />} />
-          <Route path="/Monitoreos2018" element={<Monitoreos2018 />} />
-          <Route path="/Monitoreos2020" element={<Monitoreos2020 />} />
-          <Route path="/Monitoreos2021" element={<Monitoreos2021 />} />
-          <Route path="/Monitoreos2023" element={<Monitoreos2023 />} />
+          <Route
+            path="/Monitoreos2015"
+            element={<MonitoreosTable year="2015" />}
+          />
+          <Route
+            path="/Monitoreos2016"
+            element={<MonitoreosTable year="2016" />}
+          />
+          <Route
+            path="/Monitoreos2017"
+            element={<MonitoreosTable year="2017" />}
+          />
+          <Route
+            path="/Monitoreos2018"
+            element={<MonitoreosTable year="2018" />}
+          />
+          <Route
+            path="/Monitoreos2020"
+            element={<MonitoreosTable year="2020" />}
+          />
+          <Route
+            path="/Monitoreos2021"
+            element={<MonitoreosTable year="2021" />}
+          />
+          <Route
+            path="/Monitoreos2023"
+            element={<MonitoreosTable year="2023" />}
+          />
           <Route path="/Monitoreos2024" element={<Monitoreos2024 />} />
 
-          <Route path="/EspacioIte" element={<EspacioIte />} />
           <Route path="/ITEConecta" element={<ITEConecta />} />
           <Route path="/CulturaCivica" element={<CulturaCivica />} />
           <Route path="/ActividadesLudicas" element={<ActividadesLudicas />} />

@@ -8,16 +8,15 @@ import { MRT_Localization_ES } from "material-react-table/locales/es";
 import { Box } from "@mui/material";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFileExcel, faFilePdf } from "@fortawesome/free-solid-svg-icons";
-import { dataArt632024 } from "../../../data/2024/dataArt63";
-import Expandible from "../../../layout/HelperDataTable/Expandible";
+import { dataArt63 } from "../../../data/dataTransparenciaArt63";
 import Breadcrumbs from "../../../layout/Breadcrumbs";
 
 const baseUrlPDF = "https://itetlax.org.mx/assets/pdf/transparencia/art63/";
 const baseUrlExcel = "https://itetlax.org.mx/assets/excel/transparencia/art63/";
 
-const ExcelLink = ({ baseUrl, urls }) => {
+const ExcelLink = ({ baseUrl, year, urls }) => {
   return urls.map((url, index) => {
-    const fullUrl = `${baseUrl}2024/${url}`;
+    const fullUrl = `${baseUrl}${year}/${url}`;
     const displayText = url.substring(0, url.lastIndexOf("."));
     return (
       <p key={index}>
@@ -30,9 +29,9 @@ const ExcelLink = ({ baseUrl, urls }) => {
   });
 };
 
-const PdfLink = ({ baseUrl, urls }) => {
+const PdfLink = ({ baseUrl, year, urls }) => {
   return urls.map((url, index) => {
-    const fullUrl = `${baseUrl}2024/${url}`;
+    const fullUrl = `${baseUrl}${year}/${url}`;
     const displayText = url.substring(0, url.lastIndexOf("."));
     return (
       <p key={index}>
@@ -45,10 +44,12 @@ const PdfLink = ({ baseUrl, urls }) => {
   });
 };
 
-const Art632024 = () => {
+const Art63Table = ({ year }) => {
+  const data = useMemo(() => dataArt63[year] || [], [year]);
+
   useEffect(() => {
-    document.title = `Artículo 63 2024`;
-  }, []);
+    document.title = `Artículo 63 ${year}`;
+  }, [year]);
 
   const columns = useMemo(
     () => [
@@ -56,7 +57,7 @@ const Art632024 = () => {
         accessorKey: "fraccion",
         header: "Fracción",
         footer: "Fracción",
-        size: 90,
+        size: 130,
         enableResizing: false,
         enableColumnFilter: false,
       },
@@ -64,7 +65,7 @@ const Art632024 = () => {
         accessorKey: "titulo",
         header: "Título",
         footer: "Título",
-        size: 150,
+        size: 200,
         enableResizing: false,
       },
       {
@@ -93,17 +94,16 @@ const Art632024 = () => {
       {
         accessorKey: "actualizacion",
         header: "Actualización",
-        footer: "Actualización",
         size: 100,
         enableResizing: false,
         enableColumnFilter: false,
-        Cell: () => `2024`,
+        Cell: () => year,
       },
     ],
-    []
+    [year]
   );
 
-  const rootData = useMemo(() => dataArt632024.filter((r) => !r.managerId), []);
+  const rootData = useMemo(() => data.filter((r) => !r.managerId), [data]);
 
   const renderTransparencia = ({ row }) => {
     const { managerId, fraccion, ...rest } = row.original;
@@ -122,7 +122,7 @@ const Art632024 = () => {
               <p className="text-strong">
                 Descarga los archivos de la Fracción {fraccion}
               </p>
-              <ExcelLink baseUrl={baseUrlExcel} urls={excels} />
+              <ExcelLink baseUrl={baseUrlExcel} year={year} urls={excels} />
             </>
           )}
           {pdfs.length > 0 && (
@@ -130,7 +130,7 @@ const Art632024 = () => {
               <p className="text-strong">
                 Descarga los archivos de la Fracción {fraccion}
               </p>
-              <PdfLink baseUrl={baseUrlPDF} urls={pdfs} />
+              <PdfLink baseUrl={baseUrlPDF} year={year} urls={pdfs} />
             </>
           )}
         </Box>
@@ -156,7 +156,7 @@ const Art632024 = () => {
         rowsPerPage: "Filas por página",
       },
     },
-    getSubRows: (row) => dataArt632024.filter((r) => r.managerId === row.id),
+    getSubRows: (row) => data.filter((r) => r.managerId === row.id),
     renderDetailPanel: renderTransparencia,
   });
 
@@ -167,17 +167,16 @@ const Art632024 = () => {
           { label: "Home", url: "/" },
           { label: "Transparencia", url: "/Transparencia" },
           { label: "Artículo 63 Obligaciones Comunes", url: "/Articulo63" },
-          { label: `Artículo 63 2024` },
+          { label: `Artículo 63 ${year}` },
         ]}
       />
       <TitlePages
         title="Transparencia"
-        subTitle="Artículo 63. (2024) Obligaciones Comunes"
+        subTitle={`Artículo 63 (${year}) Obligaciones Comunes`}
       />
-      <Expandible />
       <MaterialReactTable table={table} />
     </>
   );
 };
 
-export default Art632024;
+export default Art63Table;

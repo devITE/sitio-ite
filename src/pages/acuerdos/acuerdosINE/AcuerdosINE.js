@@ -1,81 +1,45 @@
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import TitlePages from "../../../layout/TitlePages";
+import Breadcrumbs from "../../../layout/Breadcrumbs";
 
-const AcuerdosIne = () => {
+const acuerdosData = [
+  { year: 2024, icon: "58.png" },
+  { year: 2023, icon: "36.png" },
+  { year: 2022, icon: "35.png" },
+  { year: 2021, icon: "34.png" },
+  { year: 2020, icon: "33.png" },
+  { year: 2016, icon: "29.png" },
+  { year: 2015, icon: "28.png" },
+];
+
+const AcuerdosINE = () => {
   useEffect(() => {
     document.title = `Acuerdos INE`;
   }, []);
+
   return (
     <>
+      <Breadcrumbs
+        path={[{ label: "Home", url: "/" }, { label: "Acuerdos INE" }]}
+      />
       <TitlePages title="Acuerdos INE" subTitle="" />
 
       <div className="w-100 mt-5 Grid__folder">
-        <div>
-          <Link to="/AcuerdosINE2024">
-            <img
-              className="img-fluid"
-              src="https://itetlax.org.mx/assets/img/icons/58.png"
-              alt="Acuerdos INE 2024"
-            />
-          </Link>
-        </div>
-        <div>
-          <Link to="/AcuerdosINE2023">
-            <img
-              className="img-fluid"
-              src="https://itetlax.org.mx/assets/img/icons/36.png"
-              alt="Acuerdos INE 2023"
-            />
-          </Link>
-        </div>
-        <div>
-          <Link to="/AcuerdosINE2022">
-            <img
-              className="img-fluid"
-              src="https://itetlax.org.mx/assets/img/icons/35.png"
-              alt="Acuerdos INE 2022"
-            />
-          </Link>
-        </div>
-        <div>
-          <Link to="/AcuerdosINE2021">
-            <img
-              className="img-fluid"
-              src="https://itetlax.org.mx/assets/img/icons/34.png"
-              alt="Acuerdos INE 2021"
-            />
-          </Link>
-        </div>
-        <div>
-          <Link to="/AcuerdosINE2020">
-            <img
-              className="img-fluid"
-              src="https://itetlax.org.mx/assets/img/icons/33.png"
-              alt="Acuerdos INE 2020"
-            />
-          </Link>
-        </div>
-        <div>
-          <Link to="/AcuerdosINE2016">
-            <img
-              className="img-fluid"
-              src="https://itetlax.org.mx/assets/img/icons/29.png"
-              alt="Acuerdos INE 2016"
-            />
-          </Link>
-        </div>
-        <div>
-          <Link to="/AcuerdosINE2015">
-            <img
-              className="img-fluid"
-              src="https://itetlax.org.mx/assets/img/icons/28.png"
-              alt="Acuerdos INE 2015"
-            />
-          </Link>
-        </div>
+        {acuerdosData.map(({ year, icon }) => (
+          <div key={year}>
+            <Link to={`/AcuerdosINE${year}`}>
+              <img
+                className="img-fluid"
+                src={`https://itetlax.org.mx/assets/img/icons/${icon}`}
+                alt={`Acuerdos INE ${year}`}
+              />
+            </Link>
+          </div>
+        ))}
       </div>
     </>
   );
 };
-export default AcuerdosIne;
+
+export default AcuerdosINE;

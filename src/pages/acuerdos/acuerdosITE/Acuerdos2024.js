@@ -10,12 +10,18 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
 import { dataAcuerdos2024 } from "../../../data/2024/dataAcuerdos";
 import Expandible from "../../../layout/HelperDataTable/Expandible";
+import Breadcrumbs from "../../../layout/Breadcrumbs";
 
-const PdfLink = ({ url }) => (
-  <a href={url} target="_blank" rel="noreferrer">
-    <FontAwesomeIcon icon={faFilePdf} className="btn btn-danger" />
-  </a>
-);
+const baseUrl = "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/2024/";
+
+const PdfLink = ({ url }) => {
+  const fullUrl = `${baseUrl}${url}`;
+  return (
+    <a href={fullUrl} target="_blank" rel="noreferrer">
+      <FontAwesomeIcon icon={faFilePdf} className="btn btn-danger" />
+    </a>
+  );
+};
 
 const TableRow = ({ title, url }) =>
   title && url ? (
@@ -112,7 +118,9 @@ const AcuerdosITE2024 = () => {
                 {row.original.nameDoc || ""}
               </td>
               <td>
-                {row.original.link && <PdfLink url={row.original.link} />}
+                {row.original.link && (
+                  <PdfLink url={row.original.link + ".pdf"} />
+                )}
               </td>
             </tr>
             {[...Array(70)].map((_, i) => {
@@ -121,7 +129,7 @@ const AcuerdosITE2024 = () => {
                 <TableRow
                   key={index}
                   title={row.original[`titleAnexo${index}`]}
-                  url={row.original[`pdfAnexo${index}`]}
+                  url={row.original.link + [`.${index}.pdf`]}
                 />
               );
             })}
@@ -160,6 +168,9 @@ const AcuerdosITE2024 = () => {
 
   return (
     <>
+      <Breadcrumbs
+        path={[{ label: "Home", url: "/" }, { label: `Acuerdos 2024` }]}
+      />
       <TitlePages title="Acuerdos ITE" subTitle="Acuerdos ITE 2024" />
       <Expandible />
       <MaterialReactTable table={tableAcuerdos} />
