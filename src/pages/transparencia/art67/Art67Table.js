@@ -21,7 +21,7 @@ const ExcelLink = ({ baseUrl, year, urls }) => {
     const displayText = url.substring(0, url.lastIndexOf("."));
     return (
       <p key={index}>
-        {displayText}
+        {displayText}{" "}
         <a href={fullUrl} target="_blank" rel="noreferrer">
           <FontAwesomeIcon icon={faFileExcel} className="btn btn-success" />
         </a>
@@ -32,11 +32,11 @@ const ExcelLink = ({ baseUrl, year, urls }) => {
 
 const PdfLink = ({ baseUrl, year, urls }) => {
   return urls.map((url, index) => {
-    const fullUrl = `${baseUrl}${year}/${url}`;
+    const fullUrl = `${baseUrl}${baseUrlPDF}${year}/${url}`;
     const displayText = url.substring(0, url.lastIndexOf("."));
     return (
       <p key={index}>
-        {displayText}
+        {displayText}{" "}
         <a href={fullUrl} target="_blank" rel="noreferrer">
           <FontAwesomeIcon icon={faFilePdf} className="btn btn-danger" />
         </a>
@@ -46,7 +46,13 @@ const PdfLink = ({ baseUrl, year, urls }) => {
 };
 
 const Art67Table = ({ year }) => {
-  const data = useMemo(() => dataArt67[year] || [], [year]);
+  const data = useMemo(() => {
+    return (dataArt67[year] || []).map((item) => {
+      const excels = Object.keys(item).filter((key) => key.startsWith("excel"));
+      const pdfs = Object.keys(item).filter((key) => key.startsWith("pdf"));
+      return { ...item, hasFiles: excels.length > 0 || pdfs.length > 0 };
+    });
+  }, [year]);
 
   useEffect(() => {
     document.title = `Artículo 67 ${year}`;
@@ -113,21 +119,14 @@ const Art67Table = ({ year }) => {
     if (excels.length > 0 || pdfs.length > 0) {
       return (
         <Box id="Box">
+          <p className="text-strong">
+            Descarga los archivos de la Fracción {fraccion}
+          </p>
           {excels.length > 0 && (
-            <>
-              <p className="text-strong">
-                Descarga los archivos de la Fracción {fraccion}
-              </p>
-              <ExcelLink baseUrl={baseUrlExcel} year={year} urls={excels} />
-            </>
+            <ExcelLink baseUrl={baseUrlExcel} year={year} urls={excels} />
           )}
           {pdfs.length > 0 && (
-            <>
-              <p className="text-strong">
-                Descarga los archivos de la Fracción {fraccion}
-              </p>
-              <PdfLink baseUrl={baseUrlPDF} year={year} urls={pdfs} />
-            </>
+            <PdfLink baseUrl={baseUrlPDF} year={year} urls={pdfs} />
           )}
         </Box>
       );
@@ -154,6 +153,11 @@ const Art67Table = ({ year }) => {
     },
     getSubRows: (row) => data.filter((r) => r.managerId === row.id),
     renderDetailPanel: renderTransparencia,
+    muiExpandButtonProps: ({ row }) => ({
+      sx: {
+        display: row.original.hasFiles ? "flex" : "none",
+      },
+    }),
   });
 
   return (

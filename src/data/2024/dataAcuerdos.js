@@ -2443,7 +2443,7 @@ export const dataAcuerdos2024 = [
     id: 230,
     year: "2024",
     typeDoc: "ACUERDO",
-    numDoc: "ITE-CG 229-2024",
+    numDoc: "ITE-CG 230-2024",
     monthDoc: "JUL",
     nameDoc: "CUMPLIMIENTO SENTENCIA TET-JE-190-2024 ASIGNACION DIPUTACIONEs",
     link: "230",

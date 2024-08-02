@@ -110,6 +110,25 @@ const Monitoreos2024 = () => {
       <br />
       <br />
       <div className="w-50 mx-auto">
+        <TitlePages title="" subTitle="Informe Final" />
+      </div>
+      <p className="fw-bolder">
+        Informe Final de Cumplimiento de los Partidos Políticos sobre la
+        Distribución de los Promocionales de Radio y Televisión en Razón de
+        Género para la Etapa de Campaña del Proceso Electoral Local Ordinario
+        2023-2024 del Estado de Tlaxcala"
+      </p>
+      <a
+        href="https://itetlax.org.mx/assets/pdf/monitoreos/2024/informe_final.pdf"
+        target="_blank"
+        rel="noreferrer"
+        className="btn btn-ite"
+      >
+        DESCARGA AQUÍ
+      </a>
+      <br />
+      <br />
+      <div className="w-50 mx-auto">
         <TitlePages title="" subTitle="Monitoreo con perspectiva de género" />
       </div>
       <MaterialReactTable table={tablePG} />
