@@ -124,6 +124,7 @@ export const dataArt632024 = [
     fraccion: "XIV",
     titulo: "Concursos para ocupar cargos públicos",
     cumplimiento: "Aplica",
+    excel1: "LTAIPT_A63F13.xlsx",
     managerId: null,
   },
   {
