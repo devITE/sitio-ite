@@ -2309,7 +2309,7 @@ export const dataAcuerdos2024 = [
     typeDoc: "ACUERDO",
     numDoc: "ITE-CG 222-2024",
     monthDoc: "JUN",
-    nameDoc: "OBTENCIÓN DEL 3 PORCIENTO DE LA VATOCION",
+    nameDoc: "OBTENCIÓN DEL 3 PORCIENTO DE LA VOTACIÓN",
     link: "222",
   },
   {
