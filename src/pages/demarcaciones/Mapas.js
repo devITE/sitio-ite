@@ -34,12 +34,7 @@ const Mapas = () => {
 
   return (
     <>
-      <Breadcrumbs
-        path={[
-          { label: "Home", url: "/" },
-          { label: "Distritación Local Tlaxcala 2022" },
-        ]}
-      />
+      <Breadcrumbs path={[{ label: "Distritación Local Tlaxcala 2022" }]} />
       <TitlePages
         title="Demarcaciones"
         subTitle="Distritación Local Tlaxcala 2022"

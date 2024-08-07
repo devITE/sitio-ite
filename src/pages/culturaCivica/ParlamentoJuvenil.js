@@ -20,7 +20,6 @@ export const ParlamentoJuvenil = () => {
     <>
       <Breadcrumbs
         path={[
-          { label: "Home", url: "/" },
           { label: "Cultura Cívica", url: "/CulturaCivica" },
           { label: "Parlamento Juvenil" },
         ]}

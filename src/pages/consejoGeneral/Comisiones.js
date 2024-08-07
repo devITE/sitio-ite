@@ -28,12 +28,7 @@ const ComisionesPermanentesyTemporales = () => {
 
   return (
     <>
-      <Breadcrumbs
-        path={[
-          { label: "Home", url: "/" },
-          { label: "Comisiones Permanentes y Temporales" },
-        ]}
-      />
+      <Breadcrumbs path={[{ label: "Comisiones Permanentes y Temporales" }]} />
       <TitlePages title="Comisiones Permanentes y Temporales" subTitle="" />
       {images.map((image, index) => (
         <React.Fragment key={index}>

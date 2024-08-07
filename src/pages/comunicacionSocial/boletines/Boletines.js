@@ -24,7 +24,6 @@ export const Boletines = () => {
     <>
       <Breadcrumbs
         path={[
-          { label: "Home", url: "/" },
           { label: "Comunicación Social", url: "/ComunicacionSocial" },
           { label: "Boletines" },
         ]}

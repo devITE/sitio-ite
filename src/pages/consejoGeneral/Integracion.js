@@ -160,9 +160,7 @@ const Integración = () => {
 
   return (
     <>
-      <Breadcrumbs
-        path={[{ label: "Home", url: "/" }, { label: "Integración" }]}
-      />
+      <Breadcrumbs path={[{ label: "Integración" }]} />
       <TitlePages title="Integración" subTitle="" />
       <div className="d-flex align-items-start">
         <div

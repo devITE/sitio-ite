@@ -90,7 +90,6 @@ const MonitoreosTable = ({ year }) => {
     <>
       <Breadcrumbs
         path={[
-          { label: "Home", url: "/" },
           { label: "Comunicación Social", url: "/ComunicacionSocial" },
           { label: "Monitoreos", url: "/Monitoreo" },
           { label: `Monitoreos ${year}` },

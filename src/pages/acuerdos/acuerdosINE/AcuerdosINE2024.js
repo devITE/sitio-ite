@@ -138,7 +138,6 @@ const AcuerdosINE2024 = () => {
     <>
       <Breadcrumbs
         path={[
-          { label: "Home", url: "/" },
           { label: "Acuerdos INE", url: "/AcuerdosINE" },
           { label: "Acuerdos INE 2024" },
         ]}

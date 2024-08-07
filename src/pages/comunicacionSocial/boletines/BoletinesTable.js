@@ -92,7 +92,6 @@ const BoletinesTable = ({ year }) => {
     <>
       <Breadcrumbs
         path={[
-          { label: "Home", url: "/" },
           { label: "Comunicación Social", url: "/ComunicacionSocial" },
           { label: "Boletines", url: "/Boletines" },
           { label: `Boletines ${year}` },

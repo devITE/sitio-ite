@@ -13,7 +13,6 @@ const Arco = () => {
     <div>
       <Breadcrumbs
         path={[
-          { label: "Home", url: "/" },
           { label: "Transparencia", url: "/Transparencia" },
           { label: "Formatos de solicitud de información / ARCO" },
         ]}

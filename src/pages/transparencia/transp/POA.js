@@ -18,7 +18,6 @@ const POA = () => {
     <>
       <Breadcrumbs
         path={[
-          { label: "Home", url: "/" },
           { label: "Transparencia", url: "/Transparencia" },
           { label: "POA" },
         ]}

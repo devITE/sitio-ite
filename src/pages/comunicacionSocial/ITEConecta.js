@@ -12,7 +12,6 @@ const ITEConecta = () => {
     <>
       <Breadcrumbs
         path={[
-          { label: "Home", url: "/" },
           { label: "Comunicación Social", url: "/ComunicacionSocial" },
           { label: "ITE Conecta" },
         ]}

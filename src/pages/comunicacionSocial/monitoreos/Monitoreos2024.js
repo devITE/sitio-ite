@@ -100,7 +100,6 @@ const Monitoreos2024 = () => {
     <>
       <Breadcrumbs
         path={[
-          { label: "Home", url: "/" },
           { label: "Comunicación Social", url: "/ComunicacionSocial" },
           { label: "Monitoreos", url: "/Monitoreo" },
           { label: `Monitoreos 2024` },

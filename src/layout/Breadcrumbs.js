@@ -5,12 +5,15 @@ import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
 import "./Breadcrumbs.css";
 
 const Breadcrumbs = ({ path }) => {
+  const homePath = { label: "Home", url: "/" };
+  const fullPath = [homePath, ...path];
+
   return (
     <div
       id="breadcrumbID"
       className="bg-dark-subtle fw-bolder fs-6 text-dark p-2 d-flex "
     >
-      {path.map((item, index) => (
+      {fullPath.map((item, index) => (
         <React.Fragment key={index}>
           {index > 0 && (
             <FontAwesomeIcon

@@ -8,9 +8,7 @@ const FinesInstitucionales = () => {
   }, []);
   return (
     <>
-      <Breadcrumbs
-        path={[{ label: "Home", url: "/" }, { label: `Fines Institucionales` }]}
-      />
+      <Breadcrumbs path={[{ label: `Fines Institucionales` }]} />
       <TitlePages title="Fines Institucionales" subTitle="" />
       <p>
         La Ley de Instituciones y Procedimientos Electorales para el Estado de

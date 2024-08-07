@@ -118,9 +118,7 @@ const AcuerdosITE2024 = () => {
                 {row.original.nameDoc || ""}
               </td>
               <td>
-                {row.original.link && (
-                  <PdfLink url={row.original.link + ".pdf"} />
-                )}
+                {row.original.id && <PdfLink url={row.original.id + ".pdf"} />}
               </td>
             </tr>
             {[...Array(70)].map((_, i) => {
@@ -129,7 +127,7 @@ const AcuerdosITE2024 = () => {
                 <TableRow
                   key={index}
                   title={row.original[`titleAnexo${index}`]}
-                  url={row.original.link + [`.${index}.pdf`]}
+                  url={row.original.id + [`.${index}.pdf`]}
                 />
               );
             })}
@@ -168,9 +166,7 @@ const AcuerdosITE2024 = () => {
 
   return (
     <>
-      <Breadcrumbs
-        path={[{ label: "Home", url: "/" }, { label: `Acuerdos 2024` }]}
-      />
+      <Breadcrumbs path={[{ label: `Acuerdos 2024` }]} />
       <TitlePages title="Acuerdos ITE" subTitle="Acuerdos ITE 2024" />
       <Expandible />
       <MaterialReactTable table={tableAcuerdos} />

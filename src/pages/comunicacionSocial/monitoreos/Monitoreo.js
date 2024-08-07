@@ -23,7 +23,6 @@ export const Monitoreo = () => {
     <>
       <Breadcrumbs
         path={[
-          { label: "Home", url: "/" },
           { label: "Comunicación Social", url: "/ComunicacionSocial" },
           { label: "Monitoreos" },
         ]}

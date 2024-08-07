@@ -10,9 +10,7 @@ const Historia = () => {
 
   return (
     <>
-      <Breadcrumbs
-        path={[{ label: "Home", url: "/" }, { label: `Historia` }]}
-      />
+      <Breadcrumbs path={[{ label: `Historia` }]} />
       <TitlePages title="Historia" subTitle="" />
       <div className="Historia">
         <div className="Historia__year">

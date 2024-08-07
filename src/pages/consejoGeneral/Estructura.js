@@ -9,9 +9,7 @@ const Estructura = () => {
 
   return (
     <>
-      <Breadcrumbs
-        path={[{ label: "Home", url: "/" }, { label: "Estructura" }]}
-      />
+      <Breadcrumbs path={[{ label: "Estructura" }]} />
       <TitlePages title="Estructura" subTitle="" />
       <p>
         Para el ejercicio de sus funciones, el Instituto contará con órganos

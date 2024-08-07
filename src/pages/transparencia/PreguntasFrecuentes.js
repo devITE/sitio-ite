@@ -10,9 +10,7 @@ const PreguntasFrecuentes = () => {
   }, []);
   return (
     <>
-      <Breadcrumbs
-        path={[{ label: "Home", url: "/" }, { label: "Preguntas Frecuentes" }]}
-      />
+      <Breadcrumbs path={[{ label: "Preguntas Frecuentes" }]} />
       <TitlePages title="Transparencia" subTitle="Preguntas Frecuentes" />
 
       <div className="mt-3">

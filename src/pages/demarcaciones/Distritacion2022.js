@@ -19,7 +19,6 @@ const Acuerdos2022 = () => {
     <>
       <Breadcrumbs
         path={[
-          { label: "Home", url: "/" },
           { label: "Acuerdos Demarcaciones", url: "/Acuerdos" },
           { label: "Acuerdos 2022" },
         ]}

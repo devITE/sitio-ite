@@ -29,9 +29,7 @@ const Transparencia = () => {
 
   return (
     <>
-      <Breadcrumbs
-        path={[{ label: "Home", url: "/" }, { label: "Transparencia" }]}
-      />
+      <Breadcrumbs path={[{ label: "Transparencia" }]} />
       <TitlePages title="Transparencia" subTitle="" />
       <div className="w-100 mt-3 Content__grid">
         <TransparenciaItem

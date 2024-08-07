@@ -12,7 +12,6 @@ const InformesAnuales = () => {
     <>
       <Breadcrumbs
         path={[
-          { label: "Home", url: "/" },
           { label: "Transparencia", url: "/Transparencia" },
           { label: "Informes Anuales" },
         ]}

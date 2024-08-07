@@ -109,7 +109,6 @@ const InformacionContable = () => {
     <>
       <Breadcrumbs
         path={[
-          { label: "Home", url: "/" },
           { label: "Transparencia", url: "/Transparencia" },
           { label: "Información Contable" },
         ]}

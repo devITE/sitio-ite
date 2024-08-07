@@ -164,7 +164,6 @@ const Art63Table = ({ year }) => {
     <>
       <Breadcrumbs
         path={[
-          { label: "Home", url: "/" },
           { label: "Transparencia", url: "/Transparencia" },
           { label: "Artículo 63 Obligaciones Comunes", url: "/Articulo63" },
           { label: `Artículo 63 ${year}` },

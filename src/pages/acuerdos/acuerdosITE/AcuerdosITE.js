@@ -11,7 +11,6 @@ const AcuerdosITE = ({ year }) => {
     <>
       <Breadcrumbs
         path={[
-          { label: "Home", url: "/" },
           { label: "Acuerdos Anteriores", url: "/AcuerdosAnteriores" },
           { label: `Acuerdos ITE ${year}` },
         ]}

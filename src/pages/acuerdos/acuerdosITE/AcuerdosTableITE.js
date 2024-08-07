@@ -14,21 +14,14 @@ import Breadcrumbs from "../../../layout/Breadcrumbs";
 
 const baseUrl = "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/";
 
-const PdfLink = ({ baseUrl, year, url }) => {
-  const fullUrl = `${baseUrl}${year}/${url}`;
-  return (
-    <a href={fullUrl} target="_blank" rel="noreferrer">
-      <FontAwesomeIcon icon={faFilePdf} className="btn btn-danger" />
-    </a>
-  );
-};
+const PdfLink = ({ baseUrl, year, url }) => (
+  <a href={`${baseUrl}${year}/${url}`} target="_blank" rel="noreferrer">
+    <FontAwesomeIcon icon={faFilePdf} className="btn btn-danger" />
+  </a>
+);
 
-const TableRow = ({ baseUrl, year, title, url }) => {
-  if (title && url) {
-    console.log(`Title: ${title.toUpperCase()}, URL: ${url}`);
-  }
-
-  return title && url ? (
+const TableRow = ({ baseUrl, year, title, url }) =>
+  title && url ? (
     <tr>
       <td>{title.toUpperCase()}</td>
       <td>
@@ -36,7 +29,6 @@ const TableRow = ({ baseUrl, year, title, url }) => {
       </td>
     </tr>
   ) : null;
-};
 
 const AcuerdosTableITE = ({ year }) => {
   const data = useMemo(() => dataAcuerdosITE[year] || [], [year]);
@@ -47,18 +39,8 @@ const AcuerdosTableITE = ({ year }) => {
 
   const columns = useMemo(
     () => [
-      {
-        accessorKey: "monthDoc",
-        header: "MES",
-        footer: "MES",
-        size: 30,
-      },
-      {
-        accessorKey: "numDoc",
-        header: "ACUERDO",
-        footer: "ACUERDO",
-        size: 55,
-      },
+      { accessorKey: "monthDoc", header: "MES", footer: "MES", size: 30 },
+      { accessorKey: "numDoc", header: "ACUERDO", footer: "ACUERDO", size: 55 },
       {
         accessorFn: (row) =>
           row.nameDoc ? `${row.typeDoc} ${row.nameDoc}` : "",
@@ -71,57 +53,72 @@ const AcuerdosTableITE = ({ year }) => {
     []
   );
 
-  const renderDetailPanelAcuerdos = ({ row }) => (
-    <Box id="Box">
-      <div className="table-responsive">
-        <table className="table table-hover table-sm table-bordered table align-middle w-40">
-          <thead>
-            <tr>
-              <td colSpan={2}>
-                <br />
-                <strong>A C U E R D O</strong>
-                <br />
-                <br />
-              </td>
-            </tr>
-          </thead>
-          <tbody>
-            <tr className="table-secondary">
-              <td>
-                {row.original.typeDoc} {row.original.numDoc}{" "}
-                {row.original.nameDoc || ""}
-              </td>
-              <td>
-                {row.original.link && (
-                  <PdfLink
+  const renderDetailPanelAcuerdos = ({ row }) => {
+    const anexoTitles = Object.keys(row.original).filter(
+      (key) => key.startsWith("titleAnexo") && row.original[key]
+    );
+
+    return (
+      <Box id="Box">
+        <div className="table-responsive">
+          <table className="table table-hover table-sm table-bordered table align-middle w-40">
+            <thead>
+              <tr>
+                <td colSpan={2}>
+                  <br />
+                  <strong>A C U E R D O</strong>
+                  <br />
+                  <br />
+                </td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr className="table-secondary">
+                <td>{`${row.original.typeDoc} ${row.original.numDoc} ${
+                  row.original.nameDoc || ""
+                }`}</td>
+                <td>
+                  {row.original.id && (
+                    <PdfLink
+                      baseUrl={baseUrl}
+                      year={year}
+                      url={`${row.original.id}.pdf`}
+                    />
+                  )}
+                </td>
+              </tr>
+              {anexoTitles.length > 0 && (
+                <tr>
+                  <td colSpan={2}>
+                    <br />
+                    <strong>A N E X O</strong>
+                    <br />
+                    <br />
+                  </td>
+                </tr>
+              )}
+              {anexoTitles.map((key) => {
+                const index = key.replace("titleAnexo", "");
+                return (
+                  <TableRow
+                    key={index}
                     baseUrl={baseUrl}
                     year={year}
-                    url={row.original.link + ".pdf"}
+                    title={row.original[key]}
+                    url={`${row.original.id}.${index}.pdf`}
                   />
-                )}
-              </td>
-            </tr>
-            {[...Array(70)].map((_, i) => {
-              const index = i + 1;
-              return (
-                <TableRow
-                  key={index}
-                  baseUrl={baseUrl}
-                  year={year}
-                  title={row.original[`titleAnexo${index}`]}
-                  url={row.original.link + [`.${index}.pdf`]}
-                />
-              );
-            })}
-          </tbody>
-        </table>
-      </div>
-    </Box>
-  );
+                );
+              })}
+            </tbody>
+          </table>
+        </div>
+      </Box>
+    );
+  };
 
   const tableAcuerdos = useMaterialReactTable({
     columns,
-    data: data,
+    data,
     enableExpanding: true,
     enableExpandAll: true,
     enableSorting: false,
@@ -130,9 +127,7 @@ const AcuerdosTableITE = ({ year }) => {
     enableDensityToggle: false,
     initialState: { density: "compact" },
     muiExpandButtonProps: ({ row }) => ({
-      sx: {
-        display: row.original.subRows === "" ? "none" : "flex",
-      },
+      sx: { display: row.original.subRows === "" ? "none" : "flex" },
     }),
     renderDetailPanel: renderDetailPanelAcuerdos,
     muiPaginationProps: {
@@ -140,9 +135,7 @@ const AcuerdosTableITE = ({ year }) => {
     },
     localization: {
       ...MRT_Localization_ES,
-      pagination: {
-        rowsPerPage: "Filas por página",
-      },
+      pagination: { rowsPerPage: "Filas por página" },
     },
   });
 
@@ -150,7 +143,6 @@ const AcuerdosTableITE = ({ year }) => {
     <>
       <Breadcrumbs
         path={[
-          { label: "Home", url: "/" },
           { label: "Acuerdos Anteriores", url: "/AcuerdosAnteriores" },
           { label: `Acuerdos ${year}` },
         ]}

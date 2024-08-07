@@ -64,9 +64,7 @@ export const CulturaCivica = () => {
 
   return (
     <>
-      <Breadcrumbs
-        path={[{ label: "Home", url: "/" }, { label: "Cultura Cívica" }]}
-      />
+      <Breadcrumbs path={[{ label: "Cultura Cívica" }]} />
       <TitlePages title="Cultura Cívica" subTitle="" />
       <div className="Grid__three w-100">
         {items.map((item, index) => (

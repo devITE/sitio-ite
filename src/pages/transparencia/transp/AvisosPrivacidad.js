@@ -15,7 +15,6 @@ const Privacidad = () => {
     <>
       <Breadcrumbs
         path={[
-          { label: "Home", url: "/" },
           { label: "Transparencia", url: "/Transparencia" },
           { label: "Avisos de Privacidad" },
         ]}

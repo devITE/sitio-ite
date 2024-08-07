@@ -114,9 +114,7 @@ export const DatosAbiertos = () => {
 
   return (
     <>
-      <Breadcrumbs
-        path={[{ label: "Home", url: "/" }, { label: "Datos Abiertos" }]}
-      />
+      <Breadcrumbs path={[{ label: "Datos Abiertos" }]} />
       <TitlePages title="Transparencia" subTitle="Datos Abiertos" />
       <div className="accordion accordion-flush w-50 mx-auto" id="metasMSPEN">
         {dataDatosAbiertos.map((item) => (

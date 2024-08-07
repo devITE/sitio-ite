@@ -18,7 +18,6 @@ export const EleccionesEscolares = () => {
     <>
       <Breadcrumbs
         path={[
-          { label: "Home", url: "/" },
           { label: "Cultura Cívica", url: "/CulturaCivica" },
           { label: "Elecciones Escolares" },
         ]}

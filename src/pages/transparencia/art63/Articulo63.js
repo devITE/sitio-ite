@@ -11,7 +11,6 @@ const Articulo63 = () => {
     <>
       <Breadcrumbs
         path={[
-          { label: "Home", url: "/" },
           { label: "Transparencia", url: "/Transparencia" },
           { label: "Artículo 63 Obligaciones Comunes" },
         ]}

@@ -20,9 +20,7 @@ const AcuerdosINE = () => {
 
   return (
     <>
-      <Breadcrumbs
-        path={[{ label: "Home", url: "/" }, { label: "Acuerdos INE" }]}
-      />
+      <Breadcrumbs path={[{ label: "Acuerdos INE" }]} />
       <TitlePages title="Acuerdos INE" subTitle="" />
 
       <div className="w-100 mt-5 Grid__folder">

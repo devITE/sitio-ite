@@ -174,7 +174,6 @@ const Art672024 = () => {
     <>
       <Breadcrumbs
         path={[
-          { label: "Home", url: "/" },
           { label: "Transparencia", url: "/Transparencia" },
           { label: "Artículo 67 Obligaciones Específicas", url: "/Articulo67" },
           { label: `Artículo 67 2024` },

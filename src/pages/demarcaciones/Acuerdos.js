@@ -19,12 +19,7 @@ const Acuerdos = () => {
 
   return (
     <>
-      <Breadcrumbs
-        path={[
-          { label: "Home", url: "/" },
-          { label: "Acuerdos Demarcaciones" },
-        ]}
-      />
+      <Breadcrumbs path={[{ label: "Acuerdos Demarcaciones" }]} />
       <TitlePages title="Acuerdos" subTitle="" />
 
       <div className="w-100 Grid__folder">

@@ -33,9 +33,7 @@ const AcuerdosAnteriores = () => {
 
   return (
     <>
-      <Breadcrumbs
-        path={[{ label: "Home", url: "/" }, { label: "Acuerdos Anteriores" }]}
-      />
+      <Breadcrumbs path={[{ label: "Acuerdos Anteriores" }]} />
       <TitlePages title="Acuerdos Anteriores" subTitle="" />
       <div className="w-100 mt-5 Grid__folder">
         {acuerdosData.map(({ year, icon }) => (

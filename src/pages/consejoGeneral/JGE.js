@@ -9,12 +9,7 @@ const JGE = () => {
 
   return (
     <>
-      <Breadcrumbs
-        path={[
-          { label: "Home", url: "/" },
-          { label: "Junta General Ejecutiva" },
-        ]}
-      />
+      <Breadcrumbs path={[{ label: "Junta General Ejecutiva" }]} />
       <TitlePages title="Junta General Ejecutiva" subTitle="" />
       <a
         href="https://itetlax.org.mx/assets/img/imgIntITE/2.jpg"

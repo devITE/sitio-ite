@@ -12,7 +12,6 @@ const Convenios = () => {
     <div>
       <Breadcrumbs
         path={[
-          { label: "Home", url: "/" },
           { label: "Transparencia", url: "/Transparencia" },
           { label: "Convenios" },
         ]}

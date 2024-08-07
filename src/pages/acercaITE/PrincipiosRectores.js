@@ -9,9 +9,7 @@ const PrincipiosRectores = () => {
   }, []);
   return (
     <>
-      <Breadcrumbs
-        path={[{ label: "Home", url: "/" }, { label: `Principios Rectores` }]}
-      />
+      <Breadcrumbs path={[{ label: `Principios Rectores` }]} />
       <TitlePages title="Principios Rectores" subTitle="" />
 
       <p>

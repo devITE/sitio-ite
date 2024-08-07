@@ -8,9 +8,7 @@ const EstructuraOrganica = () => {
   }, []);
   return (
     <>
-      <Breadcrumbs
-        path={[{ label: "Home", url: "/" }, { label: `Estructura Orgánica` }]}
-      />
+      <Breadcrumbs path={[{ label: `Estructura Orgánica` }]} />
       <TitlePages title="Estructura Orgánica" subTitle="" />
       <a
         href="https://itetlax.org.mx/assets/img/estOrg/1.jpg"

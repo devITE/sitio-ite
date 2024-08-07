@@ -8,7 +8,6 @@ export const dataAcuerdos2024 = [
     monthDoc: "ENE",
     nameDoc:
       "SE APRUEBA PROCESO TÉCNICO OPERATIVO DEL PREP PARA PELO 2023-2024",
-    link: "1",
     titleAnexo1: "PROCESO TÉCNICO OPERATIVO DEL PREP",
   },
   {
@@ -18,7 +17,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 02-2024",
     monthDoc: "ENE",
     nameDoc: "CUMPLIMIENTO A LA SENTENCIA TET-JE-071-2023 Y ACUMULADOS",
-    link: "2",
     titleAnexo1: "LINEAMIENTOS PARA EL REGISTRO DE CANDIDATURAS 2024",
     titleAnexo2: "ANEXO UNO",
     titleAnexo3: "ANEXO DOS",
@@ -31,7 +29,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 03-2024",
     monthDoc: "ENE",
     nameDoc: "ACUERDO ITE-CG 03-2024 SE DESIGNA TITULAR DE LA DPAyF",
-    link: "3",
   },
   {
     id: 4,
@@ -41,7 +38,6 @@ export const dataAcuerdos2024 = [
     monthDoc: "ENE",
     nameDoc:
       "POR EL QUE SE APRUEBA EL INFORME DE OTORGAMIENTO DE INCENTIVOS 2023 PERSONAL SPEN",
-    link: "4",
     titleAnexo1: "Informe otorgamiento incentivos",
   },
   {
@@ -52,7 +48,6 @@ export const dataAcuerdos2024 = [
     monthDoc: "ENE",
     nameDoc:
       "SE ORDENA DIFUNDIR GASTO CALENDARIZADO PARA FINANCIAMIENTO DE PP 2024",
-    link: "5",
     titleAnexo1: "ANEXO UNO",
     titleAnexo2: "ANEXO DOS",
     titleAnexo3: "ANEXO TRES",
@@ -65,7 +60,6 @@ export const dataAcuerdos2024 = [
     monthDoc: "ENE",
     nameDoc:
       "SE ACTUALIZA CALENDARIZACIÓN DE CANTIDADES A RETENER PRI, MC Y PT",
-    link: "6",
     titleAnexo1: "ANEXO UNICO",
   },
   {
@@ -76,7 +70,6 @@ export const dataAcuerdos2024 = [
     monthDoc: "ENE",
     nameDoc:
       "CALENDARIZACIÓN DE REMANENTES DE FINANCIAMIENTO PÚBLICO DE CAMPAÑA NO EJERCIDOS 2020-2021, ACUERDO INE-CG232-2023",
-    link: "7",
     titleAnexo1: "ANEXO UNICO",
   },
   {
@@ -87,7 +80,6 @@ export const dataAcuerdos2024 = [
     monthDoc: "ENE",
     nameDoc:
       "SE DECLARA LA PROCEDENCIA RESPECTO DE MODIFICACIÓN DE DOCUMENTOS BÁSICOS NUEVA ALIANZA TLAXCALA",
-    link: "8",
   },
   {
     id: 9,
@@ -97,7 +89,6 @@ export const dataAcuerdos2024 = [
     monthDoc: "ENE",
     nameDoc:
       "SE NOMBRA A LA COORDINADORA DE GÉNERO Y NO DISCRIMINACIÓN DE ESTE INSTITUTO.",
-    link: "9",
   },
   {
     id: 10,
@@ -107,7 +98,6 @@ export const dataAcuerdos2024 = [
     monthDoc: "ENE",
     nameDoc:
       "CUMPLIMIENTO DE SENTENCIA DIPUTACIÓN MIGRANTE, CUMPLIMIENTO SENTENCIA TET-JDC-049-2023",
-    link: "10",
     titleAnexo1: "LINEAMIENTOS PARA EL REGISTRO DE CANDIDATURAS 2024",
     titleAnexo2: "ANEXO UNO",
     titleAnexo3: "ANEXO DOS",
@@ -120,7 +110,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 11-2024",
     monthDoc: "ENE",
     nameDoc: "REGISTRO CONVENIO DE COALICIÓN FUERZA Y CORAZON POR TLAXCALA",
-    link: "11",
   },
   {
     id: 12,
@@ -129,7 +118,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 12-2024",
     monthDoc: "ENE",
     nameDoc: "CALENDARIZA LA RETENCIÓN DE MULTAS A LOS PARTIDOS POLÍTICOS",
-    link: "12",
     titleAnexo1: "ANEXO ÚNICO",
   },
   {
@@ -139,7 +127,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 13-2024",
     monthDoc: "ENE",
     nameDoc: "UBICACIÓN DE LOS CENTROS DE ACOPIO Y TRANSMISIÓN DE DATOS",
-    link: "13",
   },
   {
     id: 14,
@@ -148,7 +135,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 14-2024",
     monthDoc: "ENE",
     nameDoc: "SE APRUEBA PROGRAMA DE SEMINARIOS, CONFERENCIAS, COLOQUIOS",
-    link: "14",
     titleAnexo1: "ANEXO ÚNICO. PROGRAMA",
   },
   {
@@ -159,7 +145,6 @@ export const dataAcuerdos2024 = [
     monthDoc: "ENE",
     nameDoc:
       "CUMPLIMIENTO A LA SENTENCIA TET-JDC-30-2020 Y ACUMULADO TET-JDC-32-2020",
-    link: "15",
     titleAnexo1: "ANEXO UNO",
     titleAnexo2: "ANEXO DOS",
   },
@@ -171,7 +156,6 @@ export const dataAcuerdos2024 = [
     monthDoc: "ENE",
     nameDoc:
       "INFORME FINAL DEL INTERVENTOR DEL OTRORA PARTIDO POLÍTICO LOCAL ENCUENTRO SOCIAL TLAXCALA",
-    link: "16",
     titleAnexo1: "ANEXO ÚNICO",
   },
   {
@@ -181,7 +165,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 17-2024",
     monthDoc: "ENE",
     nameDoc: "CUMPLIMIENTO A LA SENTENCIA TET-JE-023-2023",
-    link: "17",
   },
   {
     id: 18,
@@ -190,7 +173,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 18-2024",
     monthDoc: "FEB",
     nameDoc: "CUMPLIMIENTO A LA SENTENCIA TET-JE-071-2023",
-    link: "18",
     titleAnexo1: "LINEAMIENTOS PARA EL REGISTRO DE CANDIDATURAS",
     titleAnexo2: "ANEXO UNO",
     titleAnexo3: "ANEXO DOS",
@@ -203,7 +185,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 19-2024",
     monthDoc: "FEB",
     nameDoc: "AJUSTE FRL PLAZO DE VERIFICACIÓN DEL APOYO CIUDADANO PELO 23-24",
-    link: "19",
   },
   {
     id: 20,
@@ -212,7 +193,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 20-2024",
     monthDoc: "FEB",
     nameDoc: "SE DESIGNA ENTE AUDITOR DEL PREP PELO 23-24",
-    link: "20",
   },
   {
     id: 21,
@@ -221,7 +201,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 21-2024",
     monthDoc: "FEB",
     nameDoc: "POR EL QUE SE APRUEBA EL DICTAMEN DE DOCUMENTACIÓN CON EMBLEMAS",
-    link: "21",
     titleAnexo1: "ANEXO UNICO",
   },
   {
@@ -232,7 +211,6 @@ export const dataAcuerdos2024 = [
     monthDoc: "FEB",
     nameDoc:
       "POR EL QUE SE DA RESPUESTA A CONSULTAS DE ACCIONES A GRUPOS DE ATENCIÓN PRIORITARIA",
-    link: "22",
   },
   {
     id: 23,
@@ -242,7 +220,6 @@ export const dataAcuerdos2024 = [
     monthDoc: "FEB",
     nameDoc:
       "POR EL QUE SE APRUEBA EL PROTOCOLO PARA LA DETECCIÓN, RECOLECCIÓN, ENTREGA E INTERCAMBIO DE PAQUETES PELO 2023-2024",
-    link: "23",
     titleAnexo1:
       "ANEXO ÚNICO PROTOCOLO PARA LA DETECCIÓN, RECOLECCIÓN, ENTREGA E INTERCAMBIO DE PAQUETES PELO 2023-2024",
     titleAnexo2:
@@ -262,7 +239,6 @@ export const dataAcuerdos2024 = [
     monthDoc: "FEB",
     nameDoc:
       "POR EL QUE SE APRUEBA LA DESIGNACIÓN DE LOS LUGARES QUE OCUPARAN LAS BODEGAS ELECTORALES PELO 2023-2024",
-    link: "24",
     titleAnexo1: "ANEXO ÚNICO",
   },
   {
@@ -273,7 +249,6 @@ export const dataAcuerdos2024 = [
     monthDoc: "FEB",
     nameDoc:
       "POR EL QUE SE APRUEBAN LINEAMIENTOS DE DESARROLLO DE CÓMPUTO Y CUADERNILLO DE VOTOS PELO 2023-2024",
-    link: "25",
     titleAnexo1:
       "ANEXCO UNO LINEAMIENTOS PARA EL DESARROLLO DE LOS CÓMPUTOS ELECTORALES PELO 2023-2024",
     titleAnexo2:
@@ -287,7 +262,6 @@ export const dataAcuerdos2024 = [
     monthDoc: "FEB",
     nameDoc:
       "POR EL QUE SE CALENDARIZA MULTA PENDIENTE POR PAGAR AL PARTIDO MORENA",
-    link: "26",
     titleAnexo1: "ANEXO ÚNICO",
   },
   {
@@ -298,7 +272,6 @@ export const dataAcuerdos2024 = [
     monthDoc: "FEB",
     nameDoc:
       "POR EL QUE SE DETERMINAN LOS TOPES DE GASTO DE CAMPAÑA EN EL PELO 2023-2024",
-    link: "27",
     titleAnexo1: "ANEXO UNO",
     titleAnexo2: "ANEXO DOS",
     titleAnexo3: "ANEXO TRES",
@@ -313,7 +286,6 @@ export const dataAcuerdos2024 = [
     monthDoc: "MAR",
     nameDoc:
       "POR EL SE APREUBA EL MANUAL DE REGISTRO DE CANDIDATURAS PARA EL PELO 2023-2024",
-    link: "29",
     titleAnexo1:
       "ANEXO ÚNICO MANUAL PARA EL REGISTRO DE CANDIDATURAS PELO 2023-2024",
     titleAnexo2: "ANEXO 1.1 DEL MANUAL DE REGISTRO",
@@ -343,7 +315,6 @@ export const dataAcuerdos2024 = [
     monthDoc: "MAR",
     nameDoc:
       "POR EL QUE SE RESUELVE RESPECTO DEL CUMPLIMIENTO DE PORCENTAJE DE APOYO DE LA CIUDADANIA A LAS C.I.",
-    link: "30",
     titleAnexo1: "ANEXO UNO",
     titleAnexo2: "ANEXO DOS",
     titleAnexo3: "ANEXO TRES",
@@ -355,7 +326,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 31-2024",
     monthDoc: "MAR",
     nameDoc: "POR EL QUE SE APRUEBA LA CONVOCATORIA CAES Y SE",
-    link: "31",
     titleAnexo1: "ANEXO ÚNICO CONVOCATORIA SE Y CAE",
   },
   {
@@ -366,7 +336,6 @@ export const dataAcuerdos2024 = [
     monthDoc: "MAR",
     nameDoc:
       "POR EL QUE SE DA RESPUESTA A DIVERSAS COMUNIDADES NAHUAS Y EQUIPARABLES",
-    link: "32",
   },
   {
     id: 33,
@@ -376,7 +345,6 @@ export const dataAcuerdos2024 = [
     monthDoc: "MAR",
     nameDoc:
       "POR EL QUE SE APRUEBA LA INTEGRACIÓN DE CONSEJOS DISTRITALES Y MUNICIPALES",
-    link: "33",
     titleAnexo1: "ANEXO UNO INTEGRACIÓN CONSEJOS DISTRITALES",
     titleAnexo2: "ANEXO DOS INTEGRACIÓN CONSEJOS MUNICIPALES",
     titleAnexo3: "ANEXO TRES LISTA DE RESERVA",
@@ -389,7 +357,6 @@ export const dataAcuerdos2024 = [
     monthDoc: "MAR",
     nameDoc:
       "POR EL QUE SE APRUEBA LA SUSTICIONES DE CONSEJOS DISTRITALES ELECTORALES",
-    link: "34",
   },
   {
     id: 35,
@@ -399,7 +366,6 @@ export const dataAcuerdos2024 = [
     monthDoc: "MAR",
     nameDoc:
       "RESPECTO A LA SOLICITUD DE REGISTRO DEL CONVENIO DE CANDIDATURA COMÚN SIGAMOS HACIENDO HISTORIA EN TLAXCALA",
-    link: "35",
   },
   {
     id: 36,
@@ -408,7 +374,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 36-2024",
     monthDoc: "MAR",
     nameDoc: "POR EL QUE SE APRUEBA LA DISTRIBUCIÓN DEL FINANCIAMIENTO PUBLICO",
-    link: "36",
     titleAnexo1: "ANEXO UNO",
     titleAnexo2: "ANEXO DOS",
   },
@@ -419,7 +384,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 37-2024",
     monthDoc: "MAR",
     nameDoc: "DICTAMEN DE RESULTADOS SPEN",
-    link: "37",
     titleAnexo1: "DICTAMEN",
   }, //
   {
@@ -429,7 +393,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 38-2024",
     monthDoc: "MAR",
     nameDoc: "POR EL QUE SE DESIGNA ENCARGADA DE LA COORDINACIÓN DE ARCHIVOS",
-    link: "38",
   },
   {
     id: 39,
@@ -438,7 +401,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 39-2024",
     monthDoc: "MAR",
     nameDoc: "INTEGRACIÓN COMISIÓN DE DEBATES",
-    link: "39",
   },
   {
     id: 40,
@@ -447,7 +409,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 40-2024",
     monthDoc: "MAR",
     nameDoc: "POR EL QUE SE APRUEBA EL PROGRAMA OPERATIVO DE RED DE CANDIDATAS",
-    link: "40",
     titleAnexo1: "PROGRAMA OPERATIVO DE LA RED DE CANDIDATAS",
   },
   {
@@ -457,7 +418,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 41-2024",
     monthDoc: "MAR",
     nameDoc: "FECHA  PUBLICACIÓN DEL SISTEMA CONÓCELES",
-    link: "41",
   },
   {
     id: 42,
@@ -466,7 +426,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 42-2024",
     monthDoc: "MAR",
     nameDoc: "SUSTITUCIÓN DE INTEGRANTES DE CONSEJOS DISTRITALES Y MUNICIPALES",
-    link: "42",
   },
   {
     id: 43,
@@ -475,7 +434,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 43-2024",
     monthDoc: "MAR",
     nameDoc: "POR EL QUE SE DESIGNA AL PERSONAL BODEGAS ELECTORALES",
-    link: "43",
     titleAnexo1: "ANEXO ÚNICO",
   },
   {
@@ -485,7 +443,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 44-2024",
     monthDoc: "MAR",
     nameDoc: "POR EL QUE SE APRUEBA LA DISTRIBUCIÓN DE FINANCIAMIENTO PÚBLICO",
-    link: "44",
     titleAnexo1: "ANEXO UNICO INFORME MATERIALES DIDÁCTICOS",
     titleAnexo2: "ANEXO DEL INFORME PASO A PASO 4 DE JUNIO",
     titleAnexo3: "ANEXO DEL INFORME PASO A PASO PAQ",
@@ -499,7 +456,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 45-2024",
     monthDoc: "MAR",
     nameDoc: "SE REGISTRA LA PLATAFORMA ELECTORAL DEL PRD",
-    link: "45",
   },
   {
     id: 46,
@@ -508,7 +464,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 46-2024",
     monthDoc: "MAR",
     nameDoc: "SE REGISTRA LA PLATAFORMA ELECTORAL DEL PT",
-    link: "46",
   },
   {
     id: 47,
@@ -517,7 +472,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 47-2024",
     monthDoc: "MAR",
     nameDoc: "SE REGISTRA LA PLATAFORMA ELECTORAL DEL PVEM",
-    link: "47",
   },
   {
     id: 48,
@@ -526,7 +480,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 48-2024",
     monthDoc: "MAR",
     nameDoc: "SE REGISTRA LA PLATAFORMA ELECTORAL DEL MC",
-    link: "48",
   },
   {
     id: 49,
@@ -535,7 +488,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 49-2024",
     monthDoc: "MAR",
     nameDoc: "SE REGISTRA LA PLATAFORMA ELECTORAL DEL PAC",
-    link: "49",
   },
   {
     id: 50,
@@ -544,7 +496,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 50-2024",
     monthDoc: "MAR",
     nameDoc: "SE REGISTRA LA PLATAFORMA ELECTORAL DEL MORENA",
-    link: "50",
   },
   {
     id: 51,
@@ -553,7 +504,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 51-2024",
     monthDoc: "MAR",
     nameDoc: "SE REGISTRA LA PLATAFORMA ELECTORAL DEL PNAT",
-    link: "51",
   },
   {
     id: 52,
@@ -562,7 +512,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 52-2024",
     monthDoc: "MAR",
     nameDoc: "SE REGISTRA LA PLATAFORMA ELECTORAL DEL RSPT",
-    link: "52",
   },
   {
     id: 53,
@@ -571,7 +520,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 53-2024",
     monthDoc: "MAR",
     nameDoc: "SE REGISTRA LA PLATAFORMA ELECTORAL DEL FXMT",
-    link: "53",
   },
   {
     id: 54,
@@ -580,7 +528,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 54-2024",
     monthDoc: "MAR",
     nameDoc: "SE REGISTRA LA PLATAFORMA ELECTORAL DEL PAN",
-    link: "54",
   },
   {
     id: 55,
@@ -589,7 +536,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 55-2024",
     monthDoc: "MAR",
     nameDoc: "SE REGISTRA LA PLATAFORMA ELECTORAL DEL PRI",
-    link: "55",
   },
   {
     id: 56,
@@ -598,7 +544,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 56-2024",
     monthDoc: "MAR",
     nameDoc: "SE REGISTRA PROGRAMA DE GOBIERNO DEL PAN",
-    link: "56",
   },
   {
     id: 57,
@@ -607,7 +552,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 57-2024",
     monthDoc: "MAR",
     nameDoc: "SE REGISTRA PROGRAMA DE GOBIERNO DEL PRI",
-    link: "57",
   },
   {
     id: 58,
@@ -616,7 +560,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 58-2024",
     monthDoc: "MAR",
     nameDoc: "SE REGISTRA PROGRAMA DE GOBIERNO DEL PRD",
-    link: "58",
   },
   {
     id: 59,
@@ -625,7 +568,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 59-2024",
     monthDoc: "MAR",
     nameDoc: "SE REGISTRA PROGRAMA DE GOBIERNO DEL PT",
-    link: "59",
   },
   {
     id: 60,
@@ -634,7 +576,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 60-2024",
     monthDoc: "MAR",
     nameDoc: "SE REGISTRA PROGRAMA DE GOBIERNO DEL PVEM",
-    link: "60",
   },
   {
     id: 61,
@@ -643,7 +584,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 61-2024",
     monthDoc: "MAR",
     nameDoc: "SE REGISTRA PROGRAMA DE GOBIERNO DEL MC",
-    link: "61",
   },
   {
     id: 62,
@@ -652,7 +592,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 62-2024",
     monthDoc: "MAR",
     nameDoc: "SE REGISTRA PROGRAMA DE GOBIERNO DEL PAC",
-    link: "62",
   },
   {
     id: 63,
@@ -661,7 +600,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 63-2024",
     monthDoc: "MAR",
     nameDoc: "SE REGISTRA PROGRAMA DE GOBIERNO DEL MORENA",
-    link: "63",
   },
   {
     id: 64,
@@ -670,7 +608,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 64-2024",
     monthDoc: "MAR",
     nameDoc: "SE REGISTRA PROGRAMA DE GOBIERNO DEL NAT",
-    link: "64",
   },
   {
     id: 65,
@@ -679,7 +616,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 65-2024",
     monthDoc: "MAR",
     nameDoc: "SE REGISTRA PROGRAMA DE GOBIERNO DEL RSPT",
-    link: "65",
   },
   {
     id: 66,
@@ -688,7 +624,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 66-2024",
     monthDoc: "MAR",
     nameDoc: "SE REGISTRA PROGRAMA DE GOBIERNO DEL FXMT",
-    link: "66",
   },
   {
     id: 67,
@@ -697,7 +632,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 67-2024",
     monthDoc: "ABR",
     nameDoc: "SOLICITUD DE REGISTRO DP PRD",
-    link: "67",
     titleAnexo1: "DICTAMEN PRD",
   },
   {
@@ -707,7 +641,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 68-2024",
     monthDoc: "ABR",
     nameDoc: "SOLICITUD DE REGISTRO DP PT",
-    link: "68",
     titleAnexo1: "DICTAMEN PT",
   },
   {
@@ -717,7 +650,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 69-2024",
     monthDoc: "ABR",
     nameDoc: "SOLICITUD DE REGISTRO DP MC",
-    link: "69",
     titleAnexo1: "DICTAMEN MC",
   },
   {
@@ -727,7 +659,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 70-2024",
     monthDoc: "ABR",
     nameDoc: "SOLICITUD DE REGISTRO DP PAC",
-    link: "70",
     titleAnexo1: "DICTAMEN PAC",
   },
   {
@@ -737,7 +668,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 71-2024",
     monthDoc: "ABR",
     nameDoc: "SOLICITUD DE REGISTRO DP PVEM",
-    link: "71",
     titleAnexo1: "DICTAMEN PVEM",
   },
   {
@@ -747,7 +677,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 72-2024",
     monthDoc: "ABR",
     nameDoc: "SOLICITUD DE REGISTRO DP MORENA",
-    link: "72",
     titleAnexo1: "DICTAMEN MORENA",
   },
   {
@@ -757,7 +686,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 73-2024",
     monthDoc: "ABR",
     nameDoc: "SOLICITUD DE REGISTRO DP PNAT",
-    link: "73",
     titleAnexo1: "DICTAMEN PNAT",
   },
   {
@@ -767,7 +695,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 74-2024",
     monthDoc: "ABR",
     nameDoc: "SOLICITUD DE REGISTRO DP RSPT",
-    link: "74",
     titleAnexo1: "DICTAMEN RSPT",
   },
   {
@@ -777,7 +704,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 75-2024",
     monthDoc: "ABR",
     nameDoc: "SOLICITUD DE REGISTRO DP FXMT",
-    link: "75",
     titleAnexo1: "DICTAMEN FXMT",
   },
   {
@@ -787,7 +713,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 76-2024",
     monthDoc: "ABR",
     nameDoc: "SOLICITUD DE REGISTRO CANDIDATURA COMUN",
-    link: "76",
   },
   {
     id: 77,
@@ -796,7 +721,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 77-2024",
     monthDoc: "ABR",
     nameDoc: "SOLICITUD DE REGISTRO COALICION F y C",
-    link: "77",
     titleAnexo1: "DICTAMEN PAN",
     titleAnexo2: "ANEXO 2",
   },
@@ -807,7 +731,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 78-2024",
     monthDoc: "ABR",
     nameDoc: "SOLICITUD DE REGISTRO RP PAN",
-    link: "78",
     titleAnexo1: "DICTAMEN PAN",
   },
   {
@@ -817,7 +740,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 79-2024",
     monthDoc: "ABR",
     nameDoc: "SOLICITUD DE REGISTRO DP RP PRI",
-    link: "79",
     titleAnexo1: "ANEXO 1",
   },
   {
@@ -827,7 +749,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 80-2024",
     monthDoc: "ABR",
     nameDoc: "SUSTITUCIÓN CONSEJOS MUNICIPALES",
-    link: "80",
   },
   {
     id: 81,
@@ -836,7 +757,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 81-2024",
     monthDoc: "ABR",
     nameDoc: "SUSTITUCIÓN CONSEJOS DISTRITALES Y MUNICIPALES",
-    link: "81",
   },
   {
     id: 82,
@@ -845,7 +765,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 82-2024",
     monthDoc: "ABR",
     nameDoc: "AMPLIACION DE PLAZO CONVOCATORIA SEL Y CAEL",
-    link: "82",
     titleAnexo1: "CONVOCATORIA SEL Y CAEL",
   },
   {
@@ -855,7 +774,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 83-2024",
     monthDoc: "ABR",
     nameDoc: "CUMPLIMIENTO DE SENTENCIA DE LA SALA REGIONAL",
-    link: "83",
     titleAnexo1: "MANUAL REGISTRO CANDIDATURAS",
   },
   {
@@ -865,7 +783,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 84-2024",
     monthDoc: "ABR",
     nameDoc: "SE DA RESPUESTA A PERSONAS",
-    link: "84",
   },
   {
     id: 85,
@@ -874,7 +791,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 85-2024",
     monthDoc: "ABR",
     nameDoc: "MODIFICACIÓN CONVENIO COALICION F Y C",
-    link: "85",
   },
   {
     id: 86,
@@ -883,7 +799,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 86-2024",
     monthDoc: "ABR",
     nameDoc: "MEDIDAS DE SEGURIDAD DE BOLETAS",
-    link: "86",
   },
   {
     id: 87,
@@ -892,7 +807,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 87-2024",
     monthDoc: "ABR",
     nameDoc: "VOTO ANTICIPADO Y BOLETA DUPLEX",
-    link: "87",
   },
   {
     id: 88,
@@ -901,7 +815,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 88-2024",
     monthDoc: "ABR",
     nameDoc: "REQUERIMIENTO DIP PRD",
-    link: "88",
     titleAnexo1: "DICTAMEN PRD",
   },
   {
@@ -911,7 +824,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 89-2024",
     monthDoc: "ABR",
     nameDoc: "REQUERIMIENTO DIP PT",
-    link: "89",
   },
   {
     id: 90,
@@ -920,7 +832,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 90-2024",
     monthDoc: "ABR",
     nameDoc: "REQUERIMIENTO DIP PAC",
-    link: "90",
     titleAnexo1: "DICTAMEN PAC",
   },
   {
@@ -930,7 +841,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 91-2024",
     monthDoc: "ABR",
     nameDoc: "SUSTITUCION CONSEJOS MUNICIPALES",
-    link: "91",
   },
   {
     id: 92,
@@ -939,7 +849,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 92-2024",
     monthDoc: "ABR",
     nameDoc: "REQUERIMIENTO DIP MR COALICION F Y C",
-    link: "92",
   },
   {
     id: 93,
@@ -948,7 +857,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 93-2024",
     monthDoc: "ABR",
     nameDoc: "REQUERIMIENTO DIP RP PAN",
-    link: "93",
     titleAnexo1: "DICTAMEN PAN",
   },
   {
@@ -958,7 +866,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 94-2024",
     monthDoc: "ABR",
     nameDoc: "REQUERIMIENTO DIP PVEM",
-    link: "94",
     titleAnexo1: "DICTAMEN PVEM",
   },
   {
@@ -968,7 +875,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 95-2024",
     monthDoc: "ABR",
     nameDoc: "REQUERIMIENTO DIP MORENA",
-    link: "95",
     titleAnexo1: "DICTAMEN MORENA",
   },
   {
@@ -978,7 +884,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 96-2024",
     monthDoc: "ABR",
     nameDoc: "REQUERIMIENTO DIP PNAT",
-    link: "96",
     titleAnexo1: "DICTAMEN PNAT",
   },
   {
@@ -988,7 +893,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 97-2024",
     monthDoc: "ABR",
     nameDoc: "REQUERIMIENTO DIP RSPT",
-    link: "97",
     titleAnexo1: "DICTAMEN RSPT",
   },
   {
@@ -998,7 +902,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 98-2024",
     monthDoc: "ABR",
     nameDoc: "REQUERIMIENTO DIP FXMT",
-    link: "98",
     titleAnexo1: "DICTAMEN FXMT",
   },
   {
@@ -1008,7 +911,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 99-2024",
     monthDoc: "ABR",
     nameDoc: "SUSTITUCION CONSEJOS MUNICIPALES",
-    link: "99",
   },
   {
     id: 100,
@@ -1017,7 +919,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 100-2024",
     monthDoc: "ABR",
     nameDoc: "REGISTRO DIP FXMT",
-    link: "100",
   },
   {
     id: 101,
@@ -1026,7 +927,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 101-2024",
     monthDoc: "ABR",
     nameDoc: "REGISTRO DIP NAT",
-    link: "101",
   },
   {
     id: 102,
@@ -1035,7 +935,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 102-2024",
     monthDoc: "ABR",
     nameDoc: "REGISTRO DIP RSPT",
-    link: "102",
   },
   {
     id: 103,
@@ -1044,7 +943,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 103-2024",
     monthDoc: "ABR",
     nameDoc: "REGISTRO DIP PVEM",
-    link: "103",
   },
   {
     id: 104,
@@ -1053,7 +951,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 104-2024",
     monthDoc: "ABR",
     nameDoc: "REGISTRO DIP MORENA",
-    link: "104",
   },
   {
     id: 105,
@@ -1062,7 +959,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 105-2024",
     monthDoc: "ABR",
     nameDoc: "REGISTRO CANDIDATURA COMUN",
-    link: "105",
   },
   {
     id: 106,
@@ -1071,7 +967,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 106-2024",
     monthDoc: "ABR",
     nameDoc: "REGISTRO DIP MR COALICION",
-    link: "106",
   },
   {
     id: 107,
@@ -1080,7 +975,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 107-2024",
     monthDoc: "ABR",
     nameDoc: "REGISTRO DIP RP PAN",
-    link: "107",
   },
   {
     id: 108,
@@ -1089,7 +983,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 108-2024",
     monthDoc: "ABR",
     nameDoc: "SUSTITUCIONES CONSEJOS MUNICIPALES",
-    link: "108",
   },
   {
     id: 109,
@@ -1098,7 +991,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 109-2024",
     monthDoc: "ABR",
     nameDoc: "SOLICITUD DE REGISTRO DIP PT",
-    link: "109",
   },
   {
     id: 110,
@@ -1107,7 +999,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 110-2024",
     monthDoc: "ABR",
     nameDoc: "CONVOCATORIA CAES Y SE",
-    link: "110",
     titleAnexo1: "CONVOCATORIA SE Y CAE",
   },
   {
@@ -1117,7 +1008,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 111-2024",
     monthDoc: "ABR",
     nameDoc: "INCLUSION DE SOBRENOMBRES",
-    link: "111",
   },
   {
     id: 112,
@@ -1126,7 +1016,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 112-2024",
     monthDoc: "ABR",
     nameDoc: "CONVOCATORIA DIFUSORES DEL PREP",
-    link: "112",
     titleAnexo1: "CARTA DE INTENCIÓN PREP",
     titleAnexo2: "CONVOCATORIA DIFUSORES OFICIALES",
     titleAnexo3: "LISTA DE VERIFICACIÓN DE REQUISITOS DIFUSORES",
@@ -1138,7 +1027,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 113-2024",
     monthDoc: "ABR",
     nameDoc: "READECUACIÓN DE PRESUPUESTO",
-    link: "113",
     titleAnexo1: "ADECUACIÓN PRESUPUESTAL",
   },
   {
@@ -1148,7 +1036,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 114-2024",
     monthDoc: "ABR",
     nameDoc: "CUMPLIMIENTO DE SENTENCIA TET-JE-043-2024",
-    link: "114",
   },
   {
     id: 115,
@@ -1157,7 +1044,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 115-2024",
     monthDoc: "ABR",
     nameDoc: "CUMPLIMIENTO DE SENTENCIA TET-JE-042-2024",
-    link: "115",
   },
   {
     id: 116,
@@ -1166,7 +1052,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 116-2024",
     monthDoc: "ABR",
     nameDoc: "SOLICITUD REGISTRO DIP COALICION F Y C",
-    link: "116",
     titleAnexo1: "ANEXO POSTULACIONES DIP COALICION F Y C",
   },
   {
@@ -1176,7 +1061,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 117-2024",
     monthDoc: "ABR",
     nameDoc: "REFORMA DE LINEAMIENTOS DE DEBATES 2024",
-    link: "117",
     titleAnexo1: "ANEXO UNICO REFORMA LINEAMIENTOS DE DEBATES 2024",
   },
   {
@@ -1186,7 +1070,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 118-2024",
     monthDoc: "ABR",
     nameDoc: "SUSTITUCIONES DIP PT Y FXMT",
-    link: "118",
     titleAnexo1: "DICTAMEN SUST DIP PT Y FXMT",
   },
   {
@@ -1196,7 +1079,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 119-2024",
     monthDoc: "ABR",
     nameDoc: "SOLICITUD DE REGISTRO CANDIDATURAS INDPENDIENTES",
-    link: "119",
   },
   {
     id: 120,
@@ -1205,7 +1087,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 120-2024",
     monthDoc: "ABR",
     nameDoc: "SOLICITUD DE REGISTRO AYUNTAMIENTOS PRD",
-    link: "120",
     titleAnexo1: "ANEXO UNO POSTULACIONES PRD",
     titleAnexo2: "ANEXO DOS PORCENTAJE DE VOTACION PRD",
     titleAnexo3: "DICTAMEN PRD AYU",
@@ -1217,7 +1098,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 121-2024",
     monthDoc: "ABR",
     nameDoc: "SOLICITUD DE REGISTRO AYUNTAMIENTOS PT",
-    link: "121",
     titleAnexo1: "ANEXO UNO POSTULACIONES PT",
     titleAnexo2: "ANEXO DOS PORCENTAJE DE VOTACION PT",
     titleAnexo3: "DICTAMEN PT AYU",
@@ -1229,7 +1109,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 122-2024",
     monthDoc: "ABR",
     nameDoc: "SOLICITUD DE REGISTRO AYUNTAMIENTO PVEM",
-    link: "122",
     titleAnexo1: "ANEXO UNO POSTULACIONES PVEM",
     titleAnexo2: "ANEXO DOS PORCENTAJE DE VOTACION  PVEM",
     titleAnexo3: "DICTAMEN PVEM AYU",
@@ -1241,7 +1120,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 123-2024",
     monthDoc: "ABR",
     nameDoc: "SOLICITUD DE REGISTRO AYUNTAMIENTOS MC",
-    link: "123",
     titleAnexo1: "ANEXO UNO POSTULACIONES MC",
     titleAnexo2: "ANEXO DOS PORCENTAJE DE VOTACION  MC",
     titleAnexo3: "DICTAMEN MC AYU",
@@ -1253,7 +1131,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 124-2024",
     monthDoc: "ABR",
     nameDoc: "SE RESUELVE REGISTRO AYUNTAMIENTOS MORENA",
-    link: "124",
     titleAnexo1: "ANEXO UNO POSTULACIONES MORENA",
     titleAnexo2: "ANEXO DOS PORCENTAJE DE VOTACION MORENA",
     titleAnexo3: "DICTAMEN MORENA AYU",
@@ -1265,7 +1142,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 125-2024",
     monthDoc: "ABR",
     nameDoc: "SOLICITUD DE REGISTRO AYUNTAMIENTO NAT",
-    link: "125",
     titleAnexo1: "ANEXO UNO POSTULACIONES NAT",
     titleAnexo2: "ANEXO DOS PORCENTAJE DE VOTACION NAT",
     titleAnexo3: "DICTAMEN  PNAT AYU",
@@ -1277,7 +1153,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 126-2024",
     monthDoc: "ABR",
     nameDoc: "SOLICITUD DE REGISTRO AYUNTAMIENTO PAC",
-    link: "126",
     titleAnexo1: "ANEXO UNO POSTULACIONES PAC",
     titleAnexo2: "ANEXO DOS PORCENTAJE DE VOTACION PAC",
     titleAnexo3: "DICTAMEN PAC AYU",
@@ -1289,7 +1164,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 127-2024",
     monthDoc: "ABR",
     nameDoc: "SOLICITUD DE REGISTRO AYUNTAMIENTO FMXT",
-    link: "127",
     titleAnexo1: "ANEXO UNO POSTULACION FMXT",
     titleAnexo2: "ANEXO DOS PORCENTAJE DE VOTACION FMXT",
     titleAnexo3: "DICTAMEN FXM AYU",
@@ -1301,7 +1175,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 128-2024",
     monthDoc: "ABR",
     nameDoc: "SOLICITUD DE REGISTRO AYUNTAMIENTO RSPT",
-    link: "128",
     titleAnexo1: "ANEXO UNO POSTULACIONES RSPT",
     titleAnexo2: "ANEXO DOS PORCENTAJE DE VOTACION RSPT",
     titleAnexo3: "DICTAMEN RSP AYU",
@@ -1313,7 +1186,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 129-2024",
     monthDoc: "ABR",
     nameDoc: "SOLICITUD DE REGISTRO AYUNTAMIENTOS PAN",
-    link: "129",
     titleAnexo1: "ANEXO UNO POSTULACIONES PAN",
     titleAnexo2: "ANEXO DOS PORCENTAJE DE VOTACION  PAN",
     titleAnexo3: "DICTAMEN PAN AYU",
@@ -1325,7 +1197,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 130-2024",
     monthDoc: "ABR",
     nameDoc: "SOLICITUD DE REGISTRO AYUNTAMIENTOS PRI",
-    link: "130",
     titleAnexo1: "ANEXO UNO POSTULACIONES PRI",
     titleAnexo2: "ANEXO DOS PORCENTAJE DE VOTACION PRI",
     titleAnexo3: "DICTAMEN PRI AYU",
@@ -1337,7 +1208,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 131-2024",
     monthDoc: "ABR",
     nameDoc: "SOLICITUD DE REGISTRO COALICION F Y C",
-    link: "131",
     titleAnexo1: "ANEXO UNO POSTULACIONES COALICION",
   },
   {
@@ -1347,7 +1217,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 132-2024",
     monthDoc: "ABR",
     nameDoc: "SOLICITUD DE REGISTRO PC PRD",
-    link: "132",
     titleAnexo1: "ANEXO UNO POSTULACIONES PC PRD",
     titleAnexo2: "ANEXO DOS PORCENTAJE DE VOTACION PC PT",
     titleAnexo3: "DICTAMEN PRD AYU",
@@ -1359,7 +1228,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 133-2024",
     monthDoc: "ABR",
     nameDoc: "SOLICITUD DE REGISTRO PC PT",
-    link: "133",
     titleAnexo1: "ANEXO UNO POSTULACIONES PC PT",
     titleAnexo2: "ANEXO DOS PORCENTAJE DE VOTACION PC PVEM",
     titleAnexo3: "DICTAMEN PT COM",
@@ -1371,7 +1239,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 134-2024",
     monthDoc: "ABR",
     nameDoc: "SOLICITUD DE REGISTRO PC PVEM",
-    link: "134",
     titleAnexo1: "ANEXO UNO POSTULACIONES PC PVEM",
     titleAnexo2: "ANEXO DOS PORCENTAJE DE VOTACION PC MC",
     titleAnexo3: "DICTAMEN PVEM COM",
@@ -1383,7 +1250,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 135-2024",
     monthDoc: "ABR",
     nameDoc: "SOLICITUD DE REGISTRO PC MC",
-    link: "135",
     titleAnexo1: "ANEXO UNO POSTULACIONES PC MC",
     titleAnexo2: "ANEXO DOS PORCENTAJE DE VOTACION PC MORENA",
     titleAnexo3: "DICTAMEN MC COM",
@@ -1395,7 +1261,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 136-2024",
     monthDoc: "ABR",
     nameDoc: "SOLICITUD DE REGISTRO PC MORENA",
-    link: "136",
     titleAnexo1: "ANEXO UNO POSTULACION PC MORENA",
     titleAnexo2: "ANEXO DOS PORCENTAJE DE VOTACION PC NAT",
     titleAnexo3: "DICTAMEN MORENA COM",
@@ -1407,7 +1272,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 137-2024",
     monthDoc: "ABR",
     nameDoc: "SOLICITUD DE REGISTRO PC NAT",
-    link: "137",
     titleAnexo1: "ANEXO UNO POSTULACIONES PC NAT",
     titleAnexo2: "ANEXO DOS PORCENTAJE DE VOTACION PC PAC",
     titleAnexo3: "DICTAMEN PNAT COM",
@@ -1419,7 +1283,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 138-2024",
     monthDoc: "ABR",
     nameDoc: "SOLICITUD DE REGISTRO PC PAC",
-    link: "138",
     titleAnexo1: "ANEXO UNO POSTULACIONES PC PAC",
     titleAnexo2: "ANEXO DOS PORCENTAJE DE VOTACION PC FXMT",
     titleAnexo3: "DICTAMEN PAC COM",
@@ -1431,7 +1294,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 139-2024",
     monthDoc: "ABR",
     nameDoc: "SOLICITUD DE REGISTRO PC FMXT",
-    link: "139",
     titleAnexo1: "ANEXO UNO POSTULACIONES PC FXMT",
     titleAnexo2: "ANEXO DOS PORCENTAJE DE VOTACION PC RSPT",
     titleAnexo3: "DICTAMEN FXM COM",
@@ -1443,7 +1305,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 140-2024",
     monthDoc: "ABR",
     nameDoc: "SOLICITUD DE REGISTRO PC RSPT",
-    link: "140",
     titleAnexo1: "ANEXO UNO POSTULACIONES PC RSPT",
     titleAnexo2: "ANEXO DOS PORCENTAJE DE COTACION PC PAN",
     titleAnexo3: "DICTAMEN RSP COM",
@@ -1455,7 +1316,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 141-2024",
     monthDoc: "ABR",
     nameDoc: "SOLICITUD DE REGISTRO PC PAN",
-    link: "141",
     titleAnexo1: "ANEXO UNO POSTULACIONES PC PAN",
     titleAnexo2: "ANEXO DOS PORCENTAJE DE VOTACION PC PRI",
     titleAnexo3: "DICTAMEN PAN COM",
@@ -1467,7 +1327,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 142-2024",
     monthDoc: "ABR",
     nameDoc: "SOLICITUD DE REGISTRO PC PRI",
-    link: "142",
     titleAnexo1: "ANEXO UNO POSTULACIONES PC PRI",
     titleAnexo2: "ANEXO DOS PORCENTAJE DE VOTACION PC PRI",
     titleAnexo3: "DICTAMEN PRI COM",
@@ -1480,7 +1339,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 144-2024",
     monthDoc: "MAY",
     nameDoc: "SOLICITUD DE REGISTRO DIP RP PRI",
-    link: "144",
   },
   {
     id: 145,
@@ -1490,7 +1348,6 @@ export const dataAcuerdos2024 = [
     monthDoc: "MAY",
     nameDoc:
       "SUSTITUCIONES DIP FXMT, PAC Y COALICIÓN FUERZA Y CORAZÓN POR TLAXCALA",
-    link: "145",
   },
   {
     id: 146,
@@ -1499,7 +1356,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 146-2024",
     monthDoc: "MAY",
     nameDoc: "SOBRENOMBRES CANDIDATURAS",
-    link: "146",
   },
   {
     id: 147,
@@ -1508,7 +1364,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 147-2024",
     monthDoc: "MAY",
     nameDoc: "SOLICITUD DE REGISTRO AYUNTAMIENTOS MC",
-    link: "147",
     titleAnexo1: "ANEXO UNO POSTULACIONES AYUNTAMIENTOS MC",
     titleAnexo2: "ANEXO DOS PORCENTAJE DE VOTACION AYUNTAMIENTOS MC",
     titleAnexo3: "DICTAMEN MC AYUNTAMIENTOS",
@@ -1521,7 +1376,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 148-2024",
     monthDoc: "MAY",
     nameDoc: "SOLICITUD DE REGISTRO AYUNTAMIENTOS MORENA",
-    link: "148",
     titleAnexo1: "ANEXO UNO POSTULACIONES AYUNTAMIENTOS MORENA",
     titleAnexo2: "ANEXO DOS PORCENTAJE DE VOTACION AYUNTAMIENTOS MORENA",
     titleAnexo3: "DICTAMEN MORENA AYUNTAMIENTOS",
@@ -1535,7 +1389,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 149-2024",
     monthDoc: "MAY",
     nameDoc: "REQUERIMIENTO SOLICITUD DE REGISTRO AYUNTAMIENTOS PAC",
-    link: "149",
     titleAnexo1: "ANEXO UNO POSTULACIONES AYUNTAMIENTOS PAC",
     titleAnexo2: "ANEXO DOS PORCENTAJE DE VOTACION AYUNTAMIENTOS PAC",
     titleAnexo3: "DICTAMEN PAC AYUNTAMIENTOS",
@@ -1548,7 +1401,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 150-2024",
     monthDoc: "MAY",
     nameDoc: "SOLICITUD DE REGISTRO AYUNTAMIENTOS PT",
-    link: "150",
     titleAnexo1: "ANEXO UNO POSTULACIONES AYUNTAMIENTOS PT",
     titleAnexo2: "ANEXO DOS PORCENTAJE DE VOTACION AYUNTAMIENTOS PT",
     titleAnexo3: "DICTAMEN PT AYUNTAMIENTOS",
@@ -1561,7 +1413,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 151-2024",
     monthDoc: "MAY",
     nameDoc: "SOLICITUD DE REGISTRO AYUNTAMIENTOS PRD",
-    link: "151",
     titleAnexo1: "ANEXO UNO POSTULACIONES AYUNTAMIENTOS PRD",
     titleAnexo2: "ANEXO DOS PORCENTAJE DE VOTACION AYUNTAMIENTOS PRD",
     titleAnexo3: "DICTAMEN PRD AYUNTAMIENTOS",
@@ -1574,7 +1425,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 152-2024",
     monthDoc: "MAY",
     nameDoc: "SOLICITUD DE REGISTRO AYUNTAMIENTOS RSPT",
-    link: "152",
     titleAnexo1: "ANEXO UNO POSTULACIONES AYUNTAMIENTOS RSPT",
     titleAnexo2: "ANEXO DOS PORCENTAJE DE VOTACION AYUNTAMIENTOS RSPT",
     titleAnexo3: "DICTAMEN RSPT AYUNTAMIENTOS",
@@ -1586,7 +1436,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 153-2024",
     monthDoc: "MAY",
     nameDoc: "SOLICITUD DE REGISTRO AYUNTAMIENTOS FXMT",
-    link: "153",
     titleAnexo1: "ANEXO UNO POSTULACIONES AYUNTAMIENTOS FXMT",
     titleAnexo2: "ANEXO DOS PORCENTAJE DE VOTACION AYUNTAMIENTOS FXMT",
     titleAnexo3: "DICTAMEN FXMT AYUNTAMIENTOS",
@@ -1598,7 +1447,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 154-2024",
     monthDoc: "MAY",
     nameDoc: "SOLICITUD DE REGISTRO AYUNTAMIENTOS NAT",
-    link: "154",
     titleAnexo1: "ANEXO UNO POSTULACIONES AYUNTAMIENTOS NAT",
     titleAnexo2: "ANEXO DOS PORCENTAJE DE VOTACION AYUNTAMIENTOS NAT",
     titleAnexo3: "DICTAMEN NAT AYUNTAMIENTOS",
@@ -1610,7 +1458,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 155-2024",
     monthDoc: "MAY",
     nameDoc: "SOLICITUD DE REGISTRO AYUNTAMIENTOS PRI",
-    link: "155",
     titleAnexo1: "ANEXO UNO POSTULACIONES AYUNTAMIENTOS PRI",
     titleAnexo2: "ANEXO DOS PORCENTAJE DE VOTACION AYUNTAMIENTOS PRI",
     titleAnexo3: "DICTAMEN PRI AYUNTAMIENTOS",
@@ -1623,7 +1470,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 156-2024",
     monthDoc: "MAY",
     nameDoc: "SOLICITUD DE REGISTRO AYUNTAMIENTOS PAN",
-    link: "156",
     titleAnexo1: "ANEXO UNO POSTULACIONES AYUNTAMIENTOS PAN",
     titleAnexo2: "ANEXO DOS PORCENTAJE DE VOTACION AYUNTAMIENTOS PAN",
     titleAnexo3: "DICTAMEN PAN AYUNTAMIENTOS",
@@ -1635,7 +1481,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 157-2024",
     monthDoc: "MAY",
     nameDoc: "SOLICITUD DE REGISTRO AYUNTAMIENTO INDEPENDIENTES",
-    link: "157",
   },
   {
     id: 158,
@@ -1644,7 +1489,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 158-2024",
     monthDoc: "MAY",
     nameDoc: "SOLICITUD DE REGISTRO AYUNTAMIENTO PVEM",
-    link: "158",
     titleAnexo1: "ANEXO UNO POSTULACIONES AYUNTAMIENTOS PVEM",
     titleAnexo2: "ANEXO DOS PORCENTAJE DE VOTACION AYUNTAMIENTOS PVEM",
     titleAnexo3: "DICTAMEN PVEM AYUNTAMIENTOS",
@@ -1656,7 +1500,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 159-2024",
     monthDoc: "MAY",
     nameDoc: "SOLCITUD DE REGISTRO AYUNTAMIENTO COALICION",
-    link: "159",
     titleAnexo1: "VOTO CONCURRENTE CONSEJERA LICDA. ERIKA PERIAÑEZ RODRIGUEZ",
     titleAnexo2: "VOTO CONCURRENTE CONSEJERO MTRO. JUAN CARLOS MINOR MÁRQUEZ",
     titleAnexo3: "POSTULACIONES AYUNTAMIENTOS  COALICION",
@@ -1669,7 +1512,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 160-2024",
     monthDoc: "MAY",
     nameDoc: "REQUERIMIENTO SOLICITUD REGISTRO AYUNTAMIENTOS RSPT",
-    link: "160",
     titleAnexo1: "ANEXO UNO POSTULACIONES AYUNTAMIENTOS RSPT",
     titleAnexo2: "ANEXO DOS PORCENTAJE DE VOTACION AYUNTAMIENTOS RSPT",
     titleAnexo3: "DICTAMEN RSPT AYUNTAMIENTOS",
@@ -1682,7 +1524,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 161-2024",
     monthDoc: "MAY",
     nameDoc: "REQUERIMIENTO SOLICITUD REGISTRO AYUNTAMIENTOS PRI",
-    link: "161",
     titleAnexo1: "ANEXO UNO POSTULACIONES AYUNTAMIENTOS PRI",
     titleAnexo2: "ANEXO DOS PORCENTAJE DE VOTACION AYUNTAMIENTOS PRI",
     titleAnexo3: "DICTAMEN PRI AYUNTAMIENTOS",
@@ -1694,7 +1535,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 162-2024",
     monthDoc: "MAY",
     nameDoc: "REQUERIMIENTO SOLICITUD REGISTRO AYUNTAMIENTOS FXMT",
-    link: "162",
     titleAnexo1: "ANEXO UNO POSTULACIONES AYUNTAMIENTOS FXMT",
     titleAnexo2: "ANEXO DOS PORCENTAJE DE VOTACION AYUNTAMIENTOS FXMT",
     titleAnexo3: "DICTAMEN FXMT AYUNTAMIENTOS",
@@ -1707,7 +1547,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 163-2024",
     monthDoc: "MAY",
     nameDoc: "REQUERIMIENTO SOLICITUD REGISTRO AYUNTAMIENTOS NAT",
-    link: "163",
     titleAnexo1: "ANEXO UNO POSTULACIONES AYUNTAMIENTOS NAT",
     titleAnexo2: "ANEXO DOS PORCENTAJE DE VOTACION AYUNTAMIENTOS NAT",
     titleAnexo3: "DICTAMEN NAT AYUNTAMIENTOS",
@@ -1720,7 +1559,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 164-2024",
     monthDoc: "MAY",
     nameDoc: "FINANCIAMIENTO PÚBLICO PARA CI",
-    link: "164",
   },
   {
     id: 165,
@@ -1729,7 +1567,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 165-2024",
     monthDoc: "MAY",
     nameDoc: "SUSTITUCIONES MC Y PT",
-    link: "165",
   },
   {
     id: 166,
@@ -1738,7 +1575,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 166-2024",
     monthDoc: "MAY",
     nameDoc: "REQUERIMIENTO SOLICITUD REGISTRO PC RSPT",
-    link: "166",
     titleAnexo1: "ANEXO UNO POSTULACIONES PC RSPT",
     titleAnexo2: "ANEXO DOS PORCENTAJE DE VOTACION PC RSPT",
   },
@@ -1749,7 +1585,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 167-2024",
     monthDoc: "MAY",
     nameDoc: "REQUERIMIENTO SOLICITUD REGISTRO PC PRD",
-    link: "167",
     titleAnexo1: "ANEXO UNO POSTULACIONES PC PRD",
     titleAnexo2: "ANEXO DOS POSTULACIONES PC PRD",
     titleAnexo3: "DICTAMEN PRD AYUNTAMIENTOS",
@@ -1761,7 +1596,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 168-2024",
     monthDoc: "MAY",
     nameDoc: "REQUERIMIENTO SOLICITUD REGISTRO PC FXMT",
-    link: "168",
     titleAnexo1: "ANEXO UNO POSTULACIONES PC FXMT",
     titleAnexo2: "ANEXO DOS PORCENTAJE DE VOTACION PC FXMT",
   },
@@ -1772,7 +1606,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 169-2024",
     monthDoc: "MAY",
     nameDoc: "REQUERIMIENTO SOLICITUD REGISTRO PC PAC",
-    link: "169",
     titleAnexo1: "ANEXO UNO POSTULACIONES PC PAC",
     titleAnexo2: "ANEXO DOS PORCENTAJE DE VOTACION PC PAC",
   },
@@ -1783,7 +1616,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 170-2024",
     monthDoc: "MAY",
     nameDoc: "REQUERIMIENTO SOLICITUD REGISTRO PC MC",
-    link: "170",
     titleAnexo1: "ANEXO UNO POSTULACIONES PC MC",
     titleAnexo2: "ANEXO DOS PORCENTAJE DE VOTACION PC MC",
     titleAnexo3: "DICTAMEN MC PC",
@@ -1795,7 +1627,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 171-2024",
     monthDoc: "MAY",
     nameDoc: "REQUERIMIENTO SOLICITUD REGISTRO PC PRI",
-    link: "171",
     titleAnexo1: "ANEXO UNO POSTULACIONES PC PRI",
     titleAnexo2: "ANEXO DOS PORCENTAJE DE VOTACION PC PRI",
     titleAnexo3: "DICTAMEN PRI PC",
@@ -1807,7 +1638,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 172-2024",
     monthDoc: "MAY",
     nameDoc: "REQUERIMIENTO SOLICITUD REGISTRO PC PT",
-    link: "172",
     titleAnexo1: "ANEXO UNO POSTULACIONES PC PT",
     titleAnexo2: "ANEXO DOS PORCENTAJE DE VOTACION PC PT",
   },
@@ -1818,7 +1648,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 173-2024",
     monthDoc: "MAY",
     nameDoc: "REQUERIMIENTO SOLICITUD REGISTRO PC PVEM",
-    link: "173",
     titleAnexo1: "ANEXO UNO POSTULACIONES PC PVEM",
     titleAnexo2: "ANEXO DOS PORCENTAJE DE VOTACION PC PVEM",
     titleAnexo3: "FE DE ERRATAS",
@@ -1830,7 +1659,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 174-2024",
     monthDoc: "MAY",
     nameDoc: "REQUERIMIENTO SOLICITUD REGISTRO PC MORENA",
-    link: "174",
     titleAnexo1: "ANEXO UNO POSTULACIONES PC MORENA",
     titleAnexo2: "ANEXO DOS POSTULACIONES PC MORENA",
     titleAnexo3: "DICTAMEN MORENA AYUNTAMIENTOS",
@@ -1842,7 +1670,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 175-2024",
     monthDoc: "MAY",
     nameDoc: "REQUERIMIENTO SOLICITUD REGISTRO PC PAN",
-    link: "175",
     titleAnexo1: "ANEXO UNO POSTULACIONES PC PAN",
     titleAnexo2: "ANEXO DOS PORCENTAJE DE VOTACION PC PAN",
   },
@@ -1853,7 +1680,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 176-2024",
     monthDoc: "MAY",
     nameDoc: "REQUERIMIENTO SOLICITUD REGISTRO PC PNAT",
-    link: "176",
     titleAnexo1: "ANEXO UNO POSTULACIONES PC PNAT",
     titleAnexo2: "ANEXO DOS PORCENTAJE DE VOTACION PC PNAT",
   },
@@ -1864,7 +1690,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 177-2024",
     monthDoc: "MAY",
     nameDoc: "SOLCITUD DE REGISTRO PC RSPT",
-    link: "177",
     titleAnexo1: "ANEXO UNO POSTULACIONES PC RSPT",
     titleAnexo2: "ANEXO DOS PORCENTAJE DE VOTACION PC RSPT",
     titleAnexo3: "FE DE ERRATAS",
@@ -1876,7 +1701,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 178-2024",
     monthDoc: "MAY",
     nameDoc: "SOLICITUD DE REGISTRO PC PAN",
-    link: "178",
     titleAnexo1: "ANEXO UNO POSTULACIONES PC PAN",
     titleAnexo2: "ANEXO DOS PORCENTAJE DE VOTACION PC PAN",
     titleAnexo3: "FE DE ERRATAS",
@@ -1888,7 +1712,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 179-2024",
     monthDoc: "MAY",
     nameDoc: "SOLICITUD DE REGISTRO PC PAC",
-    link: "179",
     titleAnexo1: "ANEXO UNO POSTULACIONES PC PAC",
     titleAnexo2: "ANEXO DOS PORCENTAJE DE VOTACION PC PAC",
     titleAnexo3: "FE DE ERRATAS",
@@ -1900,7 +1723,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 180-2024",
     monthDoc: "MAY",
     nameDoc: "SOLICITUD DE REGISTRO PC PRD",
-    link: "180",
     titleAnexo1: "ANEXO UNO POSTULACIONES PC PRD",
     titleAnexo2: "ANEXO DOS PORCENTAJE DE VOTACION PC PRD",
   },
@@ -1911,7 +1733,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 181-2024",
     monthDoc: "MAY",
     nameDoc: "SOLICITUD REGISTRO PC PT",
-    link: "181",
     titleAnexo1: "ANEXO UNO POSTULACIONES PC PT",
     titleAnexo2: "ANEXO DOS PORCENTAJE DE VOTACION PC PT",
     titleAnexo3: "DICTAMEN PT PC",
@@ -1924,7 +1745,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 182-2024",
     monthDoc: "MAY",
     nameDoc: "RESOLUCION SOLICITUD DE REGISTRO PC PRI",
-    link: "182",
     titleAnexo1: "ANEXO UNO POSTULACIONES PC PRI",
     titleAnexo2: "ANEXO DOS PORCENTAJE DE VOTACION PC PRI",
     titleAnexo3: "FE DE ERRATAS",
@@ -1936,7 +1756,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 183-2024",
     monthDoc: "MAY",
     nameDoc: "SOLICITUD DE REGISTRO PC MC",
-    link: "183",
     titleAnexo1: "ANEXO UNO POSTULACIONES PC MC",
     titleAnexo2: "ANEXO DOS PORCENTAJE DE VOTACION PC MC",
     titleAnexo3: "FE DE ERRATAS",
@@ -1948,7 +1767,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 184-2024",
     monthDoc: "MAY",
     nameDoc: "SOLICITUD DE REGISTRO PC MORENA",
-    link: "184",
     titleAnexo1: "ANEXO UNO POSTULACIONES PC MORENA",
     titleAnexo2: "ANEXO DOS PORCENTAJE DE VOTACION PC MORENA",
     titleAnexo3: "FE DE ERRATAS",
@@ -1960,7 +1778,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 185-2024",
     monthDoc: "MAY",
     nameDoc: "SOLICITUD DE REGISTRO PC FXMT",
-    link: "185",
     titleAnexo1: "ANEXO UNO POSTULACIONES PC FXMT",
     titleAnexo2: "ANEXO DOS PORCENTAJE DE VOTACION PC FXMT",
     titleAnexo3: "FE DE ERRATAS",
@@ -1972,7 +1789,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 186-2024",
     monthDoc: "MAY",
     nameDoc: "SOLICITUD DE REGISTRO PC NAT",
-    link: "186",
     titleAnexo1: "ANEXO UNO POSTULACIONES PC NAT",
     titleAnexo2: "ANEXO DOS PORCENTAJE DE VOTACION PC NAT",
     titleAnexo3: "FE DE ERRATAS",
@@ -1984,7 +1800,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 187-2024",
     monthDoc: "MAY",
     nameDoc: "CONVOCATORIA PERMANENTE SEL CAEL",
-    link: "187",
     titleAnexo1: "CONVOCATORIA",
   },
   {
@@ -1994,7 +1809,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 188-2024",
     monthDoc: "MAY",
     nameDoc: "SUSTITUCION CONSEJOS DISTRATALES Y MUNICIPALES",
-    link: "188",
   },
   {
     id: 189,
@@ -2003,7 +1817,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 189-2024",
     monthDoc: "MAY",
     nameDoc: "PERSONAL DESIGNADO PARA SELLADO",
-    link: "189",
     titleAnexo1: "ANEXO UNICO, PERSONAL PARA SELLADO",
   },
   {
@@ -2013,7 +1826,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 190-2024",
     monthDoc: "MAY",
     nameDoc: "SOBRENOMBRES",
-    link: "190",
   },
   {
     id: 191,
@@ -2022,7 +1834,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 191-2024",
     monthDoc: "MAY",
     nameDoc: "SUSTITUCION MC Y PRD",
-    link: "191",
   },
   {
     id: 192,
@@ -2031,7 +1842,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 192-2024",
     monthDoc: "MAY",
     nameDoc: "SUSTITUCION MORENA",
-    link: "192",
   },
   {
     id: 193,
@@ -2040,7 +1850,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 193-2024",
     monthDoc: "MAY",
     nameDoc: "SUSTITUCIONES MORENA Y MC",
-    link: "193",
   },
   {
     id: 194,
@@ -2049,7 +1858,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 194-2024",
     monthDoc: "MAY",
     nameDoc: "CUMPLIMIENTO SENTENCIA TET-JE-095-2024. PRD",
-    link: "194",
   },
   {
     id: 195,
@@ -2058,7 +1866,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 195-2024",
     monthDoc: "MAY",
     nameDoc: "PRONUNCIAMIENTO ACCION AFIRMATIVA MIGRANTES",
-    link: "195",
   },
   {
     id: 196,
@@ -2067,7 +1874,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 196-2024",
     monthDoc: "MAY",
     nameDoc: "SUSTITUCIONES PT Y PAC",
-    link: "196",
   },
   {
     id: 197,
@@ -2076,7 +1882,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 197-2024",
     monthDoc: "MAY",
     nameDoc: "SOBRENOMBRES",
-    link: "197",
   },
   {
     id: 198,
@@ -2085,7 +1890,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 198-2024",
     monthDoc: "MAY",
     nameDoc: "SUSTITUCION CONSEJOS D Y M",
-    link: "198",
   },
   {
     id: 199,
@@ -2094,7 +1898,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 199-2024",
     monthDoc: "MAY",
     nameDoc: "SE DA RESPUESTA AL CIUDADANO BERNARDO RODRIGUEZ",
-    link: "199",
   },
   {
     id: 200,
@@ -2103,7 +1906,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 200-2024",
     monthDoc: "MAY",
     nameDoc: "SUSTITUCIONES FxMT Y PAN",
-    link: "200",
   },
   {
     id: 201,
@@ -2112,7 +1914,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 201-2024",
     monthDoc: "MAY",
     nameDoc: "SE MODIFICA PTO DEL PREP",
-    link: "201",
     titleAnexo1: "ANEXO ÚNICO PTO DEL PREP",
   },
   {
@@ -2122,7 +1923,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 202-2024",
     monthDoc: "MAY",
     nameDoc: "DESIGNACION DE LAS CASILLAS Y PROCEDIMIENTOS DE VERIFICACIÓN",
-    link: "202",
     titleAnexo1: "ANEXO UNO SELECCIÓN DE CASILLAS",
     titleAnexo2:
       "ANEXO DOS PROCEDIMIENTOS PARA LA VERIFICACIÓN DE LAS MEDIDAS DE SEGURIDAD",
@@ -2134,7 +1934,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 203-2024",
     monthDoc: "MAY",
     nameDoc: "SUSTITUCIONES FXMT PT Y PAC",
-    link: "203",
     titleAnexo1: "DICTAMEN PT 3RA REGIDURIA SAN JOSÉ TEACALCO",
   },
   {
@@ -2144,7 +1943,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 205-2024",
     monthDoc: "MAY",
     nameDoc: "RESPUESTA AL REPRESENTANTE SUPLENTE DE MORENA",
-    link: "205",
   },
   {
     id: 206,
@@ -2153,7 +1951,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 206-2024",
     monthDoc: "JUN",
     nameDoc: "DESIGNACION PERSONAL DEL ITE COMO CAEL",
-    link: "206",
     titleAnexo1: "DESIGNACION PERSONAL DEL ITE COMO CAEL",
   },
   {
@@ -2163,7 +1960,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 207-2024",
     monthDoc: "JUN",
     nameDoc: "SUSTITUCION DE CONSEJOS MUNICIPALES",
-    link: "207",
   },
 
   {
@@ -2173,7 +1969,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 208-2024",
     monthDoc: "JUN",
     nameDoc: "CAMBIO DE SEDE CONSEJOS MUNICIPALES",
-    link: "208",
   },
 
   {
@@ -2183,7 +1978,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 209-2024",
     monthDoc: "JUN",
     nameDoc: "ASUME ATRIBUCIONES DEL CM SAN LUCAS TECOPILCO",
-    link: "209",
   },
 
   {
@@ -2193,7 +1987,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 210-2024",
     monthDoc: "JUN",
     nameDoc: "SUSTITUCION DE CONSEJOS MUNICIPALES",
-    link: "210",
   },
 
   {
@@ -2203,7 +1996,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 211-2024",
     monthDoc: "JUN",
     nameDoc: "CAMBIO DE SEDE CONSEJO MUNICIPAL TOTOLAC",
-    link: "211",
   },
 
   {
@@ -2213,7 +2005,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 212-2024",
     monthDoc: "JUN",
     nameDoc: "CAMBIO DE SEDE DE CONSEJO MUNICIPAL CHIAUTEMPAN",
-    link: "212",
   },
 
   {
@@ -2223,7 +2014,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 213-2024",
     monthDoc: "JUN",
     nameDoc: "CAMBIO DE SEDE CONSEJO HUAMANTLA",
-    link: "213",
   },
 
   {
@@ -2233,7 +2023,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 214-2024",
     monthDoc: "JUN",
     nameDoc: "SUSTITUCION DE INTEGRANTES CONSEJO MUNICIPAL HUAMANTLA",
-    link: "214",
   },
 
   {
@@ -2243,7 +2032,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 215-2024",
     monthDoc: "JUN",
     nameDoc: "CAMBIO SEDE CM SANTA CRUZ QUILEHTLA",
-    link: "215",
   },
 
   {
@@ -2253,7 +2041,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 216-2024",
     monthDoc: "JUN",
     nameDoc: "CAMBIO DE SEDE CM CALPULALPAN",
-    link: "216",
   },
 
   {
@@ -2263,7 +2050,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 217-2024",
     monthDoc: "JUN",
     nameDoc: "ASUME ATRIBUCIONES DEL CM AXOCOMANITLA E IXTENCO",
-    link: "217",
   },
 
   {
@@ -2273,7 +2059,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 218-2024",
     monthDoc: "JUN",
     nameDoc: "SUSTITUCION CM CALPULALPAN",
-    link: "218",
   },
 
   {
@@ -2283,7 +2068,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 219-2024",
     monthDoc: "JUN",
     nameDoc: "COMPUTO MUNICIPAL DE IXTENCO",
-    link: "219",
   },
   {
     id: 220,
@@ -2292,7 +2076,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 220-2024",
     monthDoc: "JUN",
     nameDoc: "COMPUTO MUNICIPAL SAN LORENZO AXOCOMANITLA",
-    link: "220",
   },
   {
     id: 221,
@@ -2301,7 +2084,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 221-2024",
     monthDoc: "JUN",
     nameDoc: "COMPUTO MUNICIPAL SAN LUCAS TECOPILCO",
-    link: "221",
   },
   {
     id: 222,
@@ -2310,7 +2092,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 222-2024",
     monthDoc: "JUN",
     nameDoc: "OBTENCIÓN DEL 3 PORCIENTO DE LA VOTACIÓN",
-    link: "222",
   },
   {
     id: 223,
@@ -2319,7 +2100,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 223-2024",
     monthDoc: "JUN",
     nameDoc: "ASIGNACION DIPTACIONES RP",
-    link: "223",
   },
   {
     id: 224,
@@ -2328,7 +2108,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 224-2024",
     monthDoc: "JUN",
     nameDoc: "ASIGNACION REGIDURIAS",
-    link: "224",
     titleAnexo1: "1. Tlaxcala",
     titleAnexo2: "2. Huamantla",
     titleAnexo3: "3. San Pablo del Monte",
@@ -2397,7 +2176,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 225-2024",
     monthDoc: "JUN",
     nameDoc: "POR EL QUE SE CALENDARIZAN MULTAS",
-    link: "225",
     titleAnexo1: "ANEXO ÚNICO",
   },
   {
@@ -2406,8 +2184,7 @@ export const dataAcuerdos2024 = [
     typeDoc: "ACUERDO",
     numDoc: "ITE-CG 226-2024",
     monthDoc: "JUN",
-    nameDoc: "READUCA PRESUEPUESTO",
-    link: "226",
+    nameDoc: "SE READECUA PRESUEPUESTO",
     titleAnexo1: "ANEXO ÚNICO",
   },
   {
@@ -2417,7 +2194,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 227-2024",
     monthDoc: "JUN",
     nameDoc: "RETIRO DE PROPAGANDA",
-    link: "227",
     titleAnexo1: "ANEXO ÚNICO",
     titleAnexo2: "ANEXO ÚNICO",
   },
@@ -2428,7 +2204,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 228-2024",
     monthDoc: "JUL",
     nameDoc: "DESIGNACION PERSONAL RECUENTO SANTA CRUZ TECHACHALCO PANOTLA",
-    link: "228",
   },
   {
     id: 229,
@@ -2437,7 +2212,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 229-2024",
     monthDoc: "JUL",
     nameDoc: "DESIGNACION PERSONAL RECUENTO EMILIANO ZAPATA PANOTLA",
-    link: "229",
   },
   {
     id: 230,
@@ -2446,7 +2220,6 @@ export const dataAcuerdos2024 = [
     numDoc: "ITE-CG 230-2024",
     monthDoc: "JUL",
     nameDoc: "CUMPLIMIENTO SENTENCIA TET-JE-190-2024 ASIGNACION DIPUTACIONEs",
-    link: "230",
   },
 ];
 
@@ -2460,7 +2233,6 @@ export const dataAcuerdosINE2024 = [
     monthDoc: "ENE",
     nameDoc:
       "SE APRUEBAN LAS CONVOCATORIAS PARA LA SELECCIÓN Y DESIGNACIÓN DE LA CONSEJERA PRESIDENTA DEL OPL DE CHIAPAS ASÍ COMO DE LAS CONSEJERAS O CONSEJEROS ELECTORALES DE LOS OPL DE LAS ENTIDADES DE BAJA CALIFORNIA SUR, CAMPECHE, CIUDAD DE MÉXICO, COLIMA, ESTADO DE MÉXICO, GUANAJUATO, GUERRERO, JALISCO, MICHOACAN, MORELOS, NUEVO LEÓN, OAXACA, QUERÉTARO, SAN LUIS POTOSÍ, SONORA, TABASCO, TLAXCALA, VERACRUZ, YUCATAN Y ZACATECAS",
-    link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2024/1",
     titleAnexo1: "Punto 4 Convocatoria Baja California Sur 2024",
     titleAnexo2: "Punto 4 Convocatoria Campeche 2024",
     titleAnexo3: "Punto 4 Convocatoria CDMX 2024",
@@ -2490,6 +2262,5 @@ export const dataAcuerdosINE2024 = [
     numDoc: "A09/INE/TLAX/JD03/13-05-2024",
     monthDoc: "MAY",
     nameDoc: "SE APRUEBAN LOS AJUSTES A LA UBICACIÓN DE CASILLA ELECTORAL",
-    link: "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2024/2",
   },
 ];
