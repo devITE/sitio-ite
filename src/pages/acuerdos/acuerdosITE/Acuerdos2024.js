@@ -80,7 +80,8 @@ const AcuerdosITE2024 = () => {
         ),
       },
       {
-        accessorKey: "numDoc",
+        accessorFn: (row) => `ITE-CG ${row.id}-2024`,
+        id: "acuerdo",
         header: "ACUERDO",
         footer: "ACUERDO",
         size: 55,
@@ -114,8 +115,9 @@ const AcuerdosITE2024 = () => {
           <tbody>
             <tr className="table-secondary">
               <td>
-                {row.original.typeDoc} {row.original.numDoc}{" "}
-                {row.original.nameDoc || ""}
+                {`${row.original.typeDoc} ITE-CG ${row.original.id}-2024 ${
+                  row.original.nameDoc || ""
+                }`}
               </td>
               <td>
                 {row.original.id && <PdfLink url={row.original.id + ".pdf"} />}
