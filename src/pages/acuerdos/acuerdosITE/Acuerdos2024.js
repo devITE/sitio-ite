@@ -98,46 +98,64 @@ const AcuerdosITE2024 = () => {
     []
   );
 
-  const renderDetailPanelAcuerdos = ({ row }) => (
-    <Box id="Box">
-      <div className="table-responsive">
-        <table className="table table-hover table-sm table-bordered table align-middle w-40">
-          <thead>
-            <tr>
-              <td colSpan={2}>
-                <br />
-                <strong>A C U E R D O</strong>
-                <br />
-                <br />
-              </td>
-            </tr>
-          </thead>
-          <tbody>
-            <tr className="table-secondary">
-              <td>
-                {`${row.original.typeDoc} ITE-CG ${row.original.id}-2024 ${
-                  row.original.nameDoc || ""
-                }`}
-              </td>
-              <td>
-                {row.original.id && <PdfLink url={row.original.id + ".pdf"} />}
-              </td>
-            </tr>
-            {[...Array(70)].map((_, i) => {
-              const index = i + 1;
-              return (
-                <TableRow
-                  key={index}
-                  title={row.original[`titleAnexo${index}`]}
-                  url={row.original.id + [`.${index}.pdf`]}
-                />
-              );
-            })}
-          </tbody>
-        </table>
-      </div>
-    </Box>
-  );
+  const renderDetailPanelAcuerdos = ({ row }) => {
+    const anexoTitles = Object.keys(row.original).filter(
+      (key) => key.startsWith("titleAnexo") && row.original[key]
+    );
+
+    return (
+      <Box id="Box">
+        <div className="table-responsive">
+          <table className="table table-hover table-sm table-bordered table align-middle w-40">
+            <thead>
+              <tr>
+                <td colSpan={2}>
+                  <br />
+                  <strong>A C U E R D O</strong>
+                  <br />
+                  <br />
+                </td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr className="table-secondary">
+                <td>
+                  {`${row.original.typeDoc} ITE-CG ${row.original.id}-2024 ${
+                    row.original.nameDoc || ""
+                  }`}
+                </td>
+                <td>
+                  {row.original.id && (
+                    <PdfLink url={row.original.id + ".pdf"} />
+                  )}
+                </td>
+              </tr>
+              {anexoTitles.length > 0 && (
+                <tr>
+                  <td colSpan={2}>
+                    <br />
+                    <strong>A N E X O</strong>
+                    <br />
+                    <br />
+                  </td>
+                </tr>
+              )}
+              {anexoTitles.map((key) => {
+                const index = key.replace("titleAnexo", "");
+                return (
+                  <TableRow
+                    key={index}
+                    title={row.original[key]}
+                    url={`${row.original.id}.${index}.pdf`}
+                  />
+                );
+              })}
+            </tbody>
+          </table>
+        </div>
+      </Box>
+    );
+  };
 
   const tableAcuerdos = useMaterialReactTable({
     columns: columnsAcuerdos,
