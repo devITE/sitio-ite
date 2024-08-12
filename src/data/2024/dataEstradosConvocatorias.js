@@ -4,6 +4,14 @@ export const dataEstrados = [
     id: 1,
     numCedula: "5582",
   },
+  {
+    id: 2,
+    numCedula: "5776",
+  },
+  {
+    id: 3,
+    numCedula: 5777,
+  },
 ];
 
 export const dataConvocatorias = [

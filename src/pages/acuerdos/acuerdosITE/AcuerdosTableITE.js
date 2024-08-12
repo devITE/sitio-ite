@@ -39,8 +39,19 @@ const AcuerdosTableITE = ({ year }) => {
 
   const columns = useMemo(
     () => [
-      { accessorKey: "monthDoc", header: "MES", footer: "MES", size: 30 },
-      { accessorKey: "numDoc", header: "ACUERDO", footer: "ACUERDO", size: 55 },
+      {
+        accessorKey: "monthDoc",
+        header: "MES",
+        footer: "MES",
+        size: 30,
+      },
+      {
+        accessorFn: (row) => `ITE-CG ${row.id}-${year}`,
+        id: "acuerdo",
+        header: "ACUERDO",
+        footer: "ACUERDO",
+        size: 55,
+      },
       {
         accessorFn: (row) =>
           row.nameDoc ? `${row.typeDoc} ${row.nameDoc}` : "",
@@ -74,9 +85,11 @@ const AcuerdosTableITE = ({ year }) => {
             </thead>
             <tbody>
               <tr className="table-secondary">
-                <td>{`${row.original.typeDoc} ${row.original.numDoc} ${
-                  row.original.nameDoc || ""
-                }`}</td>
+                <td>
+                  {`${row.original.typeDoc} ITE-CG ${row.original.id}-${year} ${
+                    row.original.nameDoc || ""
+                  }`}
+                </td>
                 <td>
                   {row.original.id && (
                     <PdfLink

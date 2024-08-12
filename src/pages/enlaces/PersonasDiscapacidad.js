@@ -1,9 +1,7 @@
 import React, { useEffect } from "react";
-// import ListBadge from "../../layout/ListBadge";
 import NavbarEnlaces from "../../layout/NavbarEnlaces";
 import Accordion from "../../layout/Accordion/Accordion";
-// import AccordionItem from "../../layout/Accordion/AccordionItem";
-// import { dataMSPEN } from "../../data/dataMSPEN";
+import Breadcrumbs from "../../layout/Breadcrumbs";
 
 export const PersonasDiscapacidad = () => {
   useEffect(() => {
@@ -11,6 +9,9 @@ export const PersonasDiscapacidad = () => {
   }, []);
   return (
     <>
+      <Breadcrumbs
+        path={[{ label: "Enlaces" }, { label: "Personas con Discapacidad" }]}
+      />
       <NavbarEnlaces title="Personas con Discapacidad" />
       <Accordion idAccordion="PersonasDiscapacidad">
         <div className="container">
@@ -41,20 +42,6 @@ export const PersonasDiscapacidad = () => {
             </div>
           </div>
         </div>
-        {/* {dataMSPEN.map((infoAccordion) => (
-          <AccordionItem
-            key={infoAccordion.id}
-            flushID={infoAccordion.flushID}
-            titleItem={infoAccordion.titleItem}
-            contentItem={
-              <ListBadge
-                ifNumbered={""}
-                listsBadgeItem={infoAccordion.children}
-              />
-            }
-            idAccordion="PersonasDiscapacidad"
-          />
-        ))} */}
       </Accordion>
     </>
   );
