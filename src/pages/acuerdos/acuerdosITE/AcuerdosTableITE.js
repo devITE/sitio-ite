@@ -61,7 +61,7 @@ const AcuerdosTableITE = ({ year }) => {
         size: 255,
       },
     ],
-    []
+    [year]
   );
 
   const renderDetailPanelAcuerdos = ({ row }) => {
