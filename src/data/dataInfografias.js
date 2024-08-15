@@ -1,801 +1,693 @@
-export const dataInf = [
-  {
-    id: 1,
-    titleItem: "2023",
-    children: [
-      // {
-      //   id: 1,
-      //   titleButton: "Enero",
-      //   subChildren: [
-      //     {
-      //       id: 1,
-      //       alt: "Infografia Nahualt",
-      //       link: "https://itetlax.org.mx/assets/img/imgEInf/2022/1.jpeg",
-      //     },
-      //     {
-      //       id: 2,
-      //       alt: "Avisos de privacidad",
-      //       link: "https://itetlax.org.mx/assets/img/imgEInf/2022/2.jpeg",
-      //     },
-      //   ],
-      // },
-      {
-        id: 2,
-        titleButton: "Febrero",
-        subChildren: [
-          {
-            id: 1,
-            alt: "Constitución de Partidos Políticos Locales",
-            link: "https://itetlax.org.mx/assets/img/imgEInf/2023/1.jpg",
-          },
-        ],
-      },
-      {
-        id: 3,
-        titleButton: "Marzo",
-        subChildren: [
-          {
-            id: 1,
-            alt: "Valores de la democracia",
-            link: "https://itetlax.org.mx/assets/img/imgEInf/2023/2.jpg",
-          },
-        ],
-      },
-      {
-        id: 4,
-        titleButton: "Abril",
-        subChildren: [
-          {
-            id: 1,
-            alt: "  Código de Ética",
-            link: "https://itetlax.org.mx/assets/img/imgEInf/2023/3.jpg",
-          },
-        ],
-      },
-      {
-        id: 5,
-        titleButton: "Mayo",
-        subChildren: [
-          {
-            id: 1,
-            alt: "Estudio de participación ciudadana",
-            link: "https://participacion-ciudadana.itetlax.org.mx/assets/img/infografias/7.jpg",
-          },
-        ],
-      },
-      {
-        id: 4,
-        titleButton: "Junio",
-        subChildren: [
-          {
-            id: 1,
-            alt: " Código de Ética",
-            link: "https://itetlax.org.mx/assets/img/imgEInf/2023/4.jpg",
-          },
-        ],
-      },
-      {
-        id: 4,
-        titleButton: "Julio",
-        subChildren: [
-          {
-            id: 1,
-            alt: "¿Qué son los partidos politicos?",
-            link: "https://itetlax.org.mx/assets/img/imgEInf/2023/5.jpg",
-          },
-        ],
-      },
-      {
-        id: 5,
-        titleButton: "Septiembre",
-        subChildren: [
-          {
-            id: 1,
-            alt: "Proceso de verificación trianual",
-            link: "https://itetlax.org.mx/assets/img/imgEInf/2023/6.jpg",
-          },
-        ],
-      },
-      {
-        id: 6,
-        titleButton: "Octubre",
-        subChildren: [
-          {
-            id: 1,
-            alt: "Coordinación de Género y No Discriminación del ITE",
-            link: "https://itetlax.org.mx/assets/img/imgEInf/2022/11.jpg",
-          },
-        ],
-      },
-      {
-        id: 7,
-        titleButton: "Noviembre",
-        subChildren: [
-          {
-            id: 1,
-            alt: "En qué consiste el Procedimiento Especial Sancionador",
-            link: "https://itetlax.org.mx/assets/img/imgEInf/2022/12.jpg",
-          },
-        ],
-      },
-      // {
-      //   id: 6,
-      //   titleButton: "Junio",
-      //   subChildren: [
-      //     {
-      //       id: 1,
-      //       alt: "Día Nacional de la Lengua de Señas Mexicana",
-      //       link: "https://itetlax.org.mx/assets/img/imgEInf/2022/9.jpg",
-      //     },
-      //   ],
-      // },
-      // {
-      //   id: 7,
-      //   titleButton: "Julio",
-      //   subChildren: [
-      //     {
-      //       id: 1,
-      //       alt: "Voz ciudadana en el cabildo",
-      //       link: "https://itetlax.org.mx/assets/img/imgEInf/2022/10.jpg",
-      //     },
-      //   ],
-      // },
-    ],
-  },
-  {
-    id: 2,
-    titleItem: "2022",
-    children: [
-      {
-        id: 1,
-        titleButton: "Enero",
-        subChildren: [
-          {
-            id: 1,
-            alt: "Infografia Nahualt",
-            link: "https://itetlax.org.mx/assets/img/imgEInf/2022/1.jpeg",
-          },
-          {
-            id: 2,
-            alt: "Avisos de privacidad",
-            link: "https://itetlax.org.mx/assets/img/imgEInf/2022/2.jpeg",
-          },
-        ],
-      },
-      {
-        id: 2,
-        titleButton: "Febrero",
-        subChildren: [
-          {
-            id: 1,
-            alt: "Constitución de Partidos Políticos Locales",
-            link: "https://itetlax.org.mx/assets/img/imgEInf/2022/3.jpg",
-          },
-          {
-            id: 2,
-            alt: "Plebiscito 1",
-            link: "https://itetlax.org.mx/assets/img/imgEInf/2022/4.jpeg",
-          },
-          {
-            id: 3,
-            alt: "Plebiscito 2",
-            link: "https://itetlax.org.mx/assets/img/imgEInf/2022/5.jpeg",
-          },
-          {
-            id: 4,
-            alt: "¿Como nos identificamos'",
-            link: "https://itetlax.org.mx/assets/img/imgEInf/2022/6.jpeg",
-          },
-          {
-            id: 5,
-            alt: "Infografía 1",
-            link: "https://itetlax.org.mx/assets/img/imgEInf/2022/7.jpeg",
-          },
-        ],
-      },
-      {
-        id: 3,
-        titleButton: "Marzo",
-        subChildren: [
-          {
-            id: 1,
-            alt: "Sesiones de Consejo General",
-            link: "https://itetlax.org.mx/assets/img/imgEInf/2022/8.jpg",
-          },
-        ],
-      },
-      {
-        id: 6,
-        titleButton: "Junio",
-        subChildren: [
-          {
-            id: 1,
-            alt: "Día Nacional de la Lengua de Señas Mexicana",
-            link: "https://itetlax.org.mx/assets/img/imgEInf/2022/9.jpg",
-          },
-        ],
-      },
-      {
-        id: 7,
-        titleButton: "Julio",
-        subChildren: [
-          {
-            id: 1,
-            alt: "Voz ciudadana en el cabildo",
-            link: "https://itetlax.org.mx/assets/img/imgEInf/2022/10.jpg",
-          },
-        ],
-      },
-    ],
-  },
-  {
-    id: 3,
-    titleItem: "2021",
-    children: [
-      {
-        id: 1,
-        titleButton: "Enero",
-        subChildren: [
-          {
-            id: 1,
-            alt: "Transparencia",
-            link: "https://itetlax.org.mx/assets/img/imgEInf/2021/1.jpg",
-          },
-        ],
-      },
-      {
-        id: 2,
-        titleButton: "Febrero",
-        subChildren: [
-          {
-            id: 1,
-            alt: "Infografia 1",
-            link: "https://itetlax.org.mx/assets/img/imgEInf/2021/2.jpg",
-          },
-          {
-            id: 2,
-            alt: "Infografía 2",
-            link: "https://itetlax.org.mx/assets/img/imgEInf/2021/3.jpg",
-          },
-        ],
-      },
-      {
-        id: 3,
-        titleButton: "Marzo",
-        subChildren: [
-          {
-            id: 1,
-            alt: "Dirección de Asuntos Jurídicos",
-            link: "https://itetlax.org.mx/assets/img/imgEInf/2021/4.jpg",
-          },
-          {
-            id: 2,
-            alt: "Contraloría General del ITE",
-            link: "https://itetlax.org.mx/assets/img/imgEInf/2021/5.jpeg",
-          },
-        ],
-      },
-      {
-        id: 4,
-        titleButton: "Abril",
-        subChildren: [
-          {
-            id: 1,
-            alt: "Derechos ARCO",
-            link: "https://itetlax.org.mx/assets/img/imgEInf/2021/6.jpg",
-          },
-          {
-            id: 2,
-            alt: "Medidas sanitarias para el voto seguro",
-            link: "https://itetlax.org.mx/assets/img/imgEInf/2021/7.jpg",
-          },
-          {
-            id: 3,
-            alt: "Referéndum",
-            link: "https://itetlax.org.mx/assets/img/imgEInf/2021/8.jpeg",
-          },
-          {
-            id: 4,
-            alt: "Referéndum Nahuatl",
-            link: "https://itetlax.org.mx/assets/img/imgEInf/2021/9.jpeg",
-          },
-          {
-            id: 5,
-            alt: "Referéndum",
-            link: "https://itetlax.org.mx/assets/img/imgEInf/2021/10.jpeg",
-          },
-          {
-            id: 6,
-            alt: "Referéndum Nahuatl",
-            link: "https://itetlax.org.mx/assets/img/imgEInf/2021/11.jpeg",
-          },
-        ],
-      },
-      {
-        id: 5,
-        titleButton: "Mayo",
-        subChildren: [
-          {
-            id: 1,
-            alt: "Datos PREP",
-            link: "https://itetlax.org.mx/assets/img/imgEInf/2021/12.jpg",
-          },
-          {
-            id: 2,
-            alt: "Referendum",
-            link: "https://itetlax.org.mx/assets/img/imgEInf/2021/13.jpeg",
-          },
-          {
-            id: 3,
-            alt: "Referendum Nahualt",
-            link: "https://itetlax.org.mx/assets/img/imgEInf/2021/14.jpeg",
-          },
-        ],
-      },
-      {
-        id: 6,
-        titleButton: "Junio",
-        subChildren: [
-          {
-            id: 1,
-            alt: "Proceso Electoral Local Ordinario 2020-2021",
-            link: "https://itetlax.org.mx/assets/img/imgEInf/2021/15.jpeg",
-          },
-        ],
-      },
-      {
-        id: 7,
-        titleButton: "Julio",
-        subChildren: [
-          {
-            id: 1,
-            alt: "Proceso Electoral Local Ordinario 2020-2021 Medios de Comunicación",
-            link: "https://itetlax.org.mx/assets/img/imgEInf/2021/16.png",
-          },
-          {
-            id: 2,
-            alt: "Plebiscito Nahualt",
-            link: "https://itetlax.org.mx/assets/img/imgEInf/2021/17.png",
-          },
-        ],
-      },
-      {
-        id: 8,
-        titleButton: "Agosto",
-        subChildren: [
-          {
-            id: 1,
-            alt: "Financiamiento Público",
-            link: "https://itetlax.org.mx/assets/img/imgEInf/2021/18.jpg",
-          },
-          {
-            id: 2,
-            alt: "Plebiscito Nahualt",
-            link: "https://itetlax.org.mx/assets/img/imgEInf/2021/19.png",
-          },
-        ],
-      },
-      {
-        id: 10,
-        titleButton: "Octubre",
-        subChildren: [
-          {
-            id: 1,
-            alt: "Secretaría Ejecutiva",
-            link: "https://itetlax.org.mx/assets/img/imgEInf/2021/20.jpg",
-          },
-          {
-            id: 2,
-            alt: "Etapas de un Documento de Archivo",
-            link: "https://itetlax.org.mx/assets/img/imgEInf/2021/21.jpg",
-          },
-          {
-            id: 3,
-            alt: "Acervo Documental",
-            link: "https://itetlax.org.mx/assets/img/imgEInf/2021/22.jpg",
-          },
-          {
-            id: 4,
-            alt: "Ciclo vital de un documento",
-            link: "https://itetlax.org.mx/assets/img/imgEInf/2021/23.jpg",
-          },
-        ],
-      },
-      {
-        id: 11,
-        titleButton: "Noviembre",
-        subChildren: [
-          {
-            id: 1,
-            alt: "Violencia Política Contral las Mujeres en Razón de Género",
-            link: "https://itetlax.org.mx/assets/img/imgEInf/2021/24.jpg",
-          },
-          {
-            id: 2,
-            alt: "Violencia Política",
-            link: "https://itetlax.org.mx/assets/img/imgEInf/2021/25.jpg",
-          },
-        ],
-      },
-    ],
-  },
-  {
-    id: 4,
-    titleItem: "2020",
-    children: [
-      {
-        id: 1,
-        titleButton: "Enero",
-        subChildren: [
-          {
-            id: 1,
-            alt: "Día de la No Violencia Escolar",
-            link: "https://itetlax.org.mx/assets/img/imgEInf/2020/1.jpg",
-          },
-        ],
-      },
-      {
-        id: 2,
-        titleButton: "Febrero",
-        subChildren: [
-          {
-            id: 1,
-            alt: "Información Procesos Electorales",
-            link: "https://itetlax.org.mx/assets/img/imgEInf/2020/2.jpg",
-          },
-        ],
-      },
-      {
-        id: 3,
-        titleButton: "Marzo",
-        subChildren: [
-          {
-            id: 1,
-            alt: "Contraloría General del ITE LIPEET Artpiculo 85",
-            link: "https://itetlax.org.mx/assets/img/imgEInf/2020/3.jpg",
-          },
-        ],
-      },
-      {
-        id: 4,
-        titleButton: "Abril",
-        subChildren: [
-          {
-            id: 1,
-            alt: "Infografía Nahualt 1",
-            link: "https://itetlax.org.mx/assets/img/imgEInf/2020/4.jpg",
-          },
-          {
-            id: 2,
-            alt: "Infografía Nahualt 2",
-            link: "https://itetlax.org.mx/assets/img/imgEInf/2020/5.jpg",
-          },
-          {
-            id: 3,
-            alt: "Atribuciones del Titular del Área Técnica de Informática",
-            link: "https://itetlax.org.mx/assets/img/imgEInf/2020/6.jpg",
-          },
-        ],
-      },
-      {
-        id: 5,
-        titleButton: "Mayo",
-        subChildren: [
-          {
-            id: 1,
-            alt: "Información Proceso Electoral 2021",
-            link: "https://itetlax.org.mx/assets/img/imgEInf/2020/7.jpg",
-          },
-        ],
-      },
-      {
-        id: 6,
-        titleButton: "Junio",
-        subChildren: [
-          {
-            id: 1,
-            alt: "Oficialía Electoral",
-            link: "https://itetlax.org.mx/assets/img/imgEInf/2020/8.jpg",
-          },
-        ],
-      },
-      {
-        id: 7,
-        titleButton: "Julio",
-        subChildren: [
-          {
-            id: 1,
-            alt: "Datos Personales",
-            link: "https://itetlax.org.mx/assets/img/imgEInf/2020/9.jpg",
-          },
-          {
-            id: 2,
-            alt: "Micrositio COVID",
-            link: "https://itetlax.org.mx/assets/img/imgEInf/2020/10.jpeg",
-          },
-        ],
-      },
-      {
-        id: 8,
-        titleButton: "Agosto",
-        subChildren: [
-          {
-            id: 1,
-            alt: "Que hace la Presidencia del ITE",
-            link: "https://itetlax.org.mx/assets/img/imgEInf/2020/11.jpg",
-          },
-          {
-            id: 2,
-            alt: "Que funciones tiene la Presidencia del ITE",
-            link: "https://itetlax.org.mx/assets/img/imgEInf/2020/12.jpg",
-          },
-        ],
-      },
-      {
-        id: 9,
-        titleButton: "Septiembre",
-        subChildren: [
-          {
-            id: 1,
-            alt: "Atribuciones de Prerrogativas, Administración y Fiscalización",
-            link: "https://itetlax.org.mx/assets/img/imgEInf/2020/13.jpg",
-          },
-        ],
-      },
-      {
-        id: 10,
-        titleButton: "Octubre",
-        subChildren: [
-          {
-            id: 1,
-            alt: "Datos Personales Nahualt 1",
-            link: "https://itetlax.org.mx/assets/img/imgEInf/2020/14.jpg",
-          },
-          {
-            id: 2,
-            alt: "Datos Personales Nahualt 2",
-            link: "https://itetlax.org.mx/assets/img/imgEInf/2020/15.jpg",
-          },
-          {
-            id: 3,
-            alt: "Día Internacional de la No Violencia",
-            link: "https://itetlax.org.mx/assets/img/imgEInf/2020/16.jpg",
-          },
-          {
-            id: 4,
-            alt: "Atribuciones de la Dirección de Asuntos Jurídicos",
-            link: "https://itetlax.org.mx/assets/img/imgEInf/2020/17.jpg",
-          },
-        ],
-      },
-      {
-        id: 11,
-        titleButton: "Noviembre",
-        subChildren: [
-          {
-            id: 1,
-            alt: "Integración del COTAPREP",
-            link: "https://itetlax.org.mx/assets/img/imgEInf/2020/18.jpg",
-          },
-          {
-            id: 2,
-            alt: "Datos Proceso Electoral Local Ordinario 2020 - 2021",
-            link: "https://itetlax.org.mx/assets/img/imgEInf/2020/19.jpg",
-          },
-          {
-            id: 3,
-            alt: "Vota, tú decides",
-            link: "https://itetlax.org.mx/assets/img/imgEInf/2020/20.jpg",
-          },
-        ],
-      },
-      {
-        id: 12,
-        titleButton: "Diciembre",
-        subChildren: [
-          {
-            id: 1,
-            alt: "Día Internacional de las personas con discapacidad",
-            link: "https://itetlax.org.mx/assets/img/imgEInf/2020/21.jpg",
-          },
-          {
-            id: 2,
-            alt: "Manifestaciones de intención",
-            link: "https://itetlax.org.mx/assets/img/imgEInf/2020/22.jpg",
-          },
-          {
-            id: 3,
-            alt: "Manifestaciones de intención aprobadas",
-            link: "https://itetlax.org.mx/assets/img/imgEInf/2020/23.jpg",
-          },
-          {
-            id: 4,
-            alt: "Día internacional de los derechos humanos",
-            link: "https://itetlax.org.mx/assets/img/imgEInf/2020/24.jpg",
-          },
-        ],
-      },
-    ],
-  },
-  {
-    id: 5,
-    titleItem: "2019",
-    children: [
-      {
-        id: 1,
-        titleButton: "Infografías",
-        subChildren: [
-          {
-            id: 1,
-            alt: "Día internacional de la LEngua Materna",
-            link: "https://itetlax.org.mx/assets/img/imgEInf/2019/1.jpg",
-          },
-          {
-            id: 2,
-            alt: "Datos Personales",
-            link: "https://itetlax.org.mx/assets/img/imgEInf/2019/2.jpg",
-          },
-          {
-            id: 3,
-            alt: "Datos Personales 2",
-            link: "https://itetlax.org.mx/assets/img/imgEInf/2019/3.jpg",
-          },
-          {
-            id: 4,
-            alt: "Datos Personales 3",
-            link: "https://itetlax.org.mx/assets/img/imgEInf/2019/4.jpg",
-          },
-        ],
-      },
-      {
-        id: 3,
-        titleButton: "Marzo",
-        subChildren: [
-          {
-            id: 1,
-            alt: "Atribuciones del Titular del Área Técnica de Informática",
-            link: "https://itetlax.org.mx/assets/img/imgEInf/2019/5.jpg",
-          },
-        ],
-      },
-      {
-        id: 4,
-        titleButton: "Abril",
-        subChildren: [
-          {
-            id: 1,
-            alt: "Los mecanismos de paticipación ciudadana",
-            link: "https://itetlax.org.mx/assets/img/imgEInf/2019/6.jpg",
-          },
-          {
-            id: 2,
-            alt: "Que es el referendum",
-            link: "https://itetlax.org.mx/assets/img/imgEInf/2019/7.jpg",
-          },
-          {
-            id: 3,
-            alt: "Referendum",
-            link: "https://itetlax.org.mx/assets/img/imgEInf/2019/8.jpg",
-          },
-          {
-            id: 4,
-            alt: "Referendum 2",
-            link: "https://itetlax.org.mx/assets/img/imgEInf/2019/9.jpg",
-          },
-          {
-            id: 5,
-            alt: "Que es la participación ciudadana",
-            link: "https://itetlax.org.mx/assets/img/imgEInf/2019/10.jpg",
-          },
-          {
-            id: 6,
-            alt: "Quienes pueden participar en los procesos de consulta ciudadana",
-            link: "https://itetlax.org.mx/assets/img/imgEInf/2019/11.jpg",
-          },
-          {
-            id: 7,
-            alt: "Obligaciones del ITE en materia de consulta ciudadana",
-            link: "https://itetlax.org.mx/assets/img/imgEInf/2019/12.jpg",
-          },
-          {
-            id: 8,
-            alt: "Que es la consulta popular",
-            link: "https://itetlax.org.mx/assets/img/imgEInf/2019/13.jpg",
-          },
-          {
-            id: 9,
-            alt: "La consulta popular",
-            link: "https://itetlax.org.mx/assets/img/imgEInf/2019/14.jpg",
-          },
-          {
-            id: 10,
-            alt: "Quien puede solicitar una consulta popular",
-            link: "https://itetlax.org.mx/assets/img/imgEInf/2019/15.jpg",
-          },
-        ],
-      },
-      {
-        id: 6,
-        titleButton: "Junio",
-        subChildren: [
-          {
-            id: 1,
-            alt: "Elecciones escolares",
-            link: "https://itetlax.org.mx/assets/img/imgEInf/2019/16.jpg",
-          },
-        ],
-      },
-      {
-        id: 7,
-        titleButton: "Julio",
-        subChildren: [
-          {
-            id: 1,
-            alt: "Convenios celebrados por el ITE",
-            link: "https://itetlax.org.mx/assets/img/imgEInf/2019/17.jpg",
-          },
-        ],
-      },
-      {
-        id: 8,
-        titleButton: "Agosto",
-        subChildren: [
-          {
-            id: 1,
-            alt: "Financiamiento público para partidos políticos 2020",
-            link: "https://itetlax.org.mx/assets/img/imgEInf/2019/18.jpg",
-          },
-        ],
-      },
-      {
-        id: 9,
-        titleButton: "Septiembre",
-        subChildren: [
-          {
-            id: 1,
-            alt: "Comité técnico de archivos",
-            link: "https://itetlax.org.mx/assets/img/imgEInf/2019/19.jpg",
-          },
-          {
-            id: 2,
-            alt: "Día Internacional del Derecho a Saber",
-            link: "https://itetlax.org.mx/assets/img/imgEInf/2019/20.jpg",
-          },
-        ],
-      },
-      {
-        id: 10,
-        titleButton: "Octubre",
-        subChildren: [
-          {
-            id: 1,
-            alt: "Que es el voto",
-            link: "https://itetlax.org.mx/assets/img/imgEInf/2019/21.jpg",
-          },
-        ],
-      },
-      {
-        id: 11,
-        titleButton: "Noviembre",
-        subChildren: [
-          {
-            id: 1,
-            alt: "Calendario de multas",
-            link: "https://itetlax.org.mx/assets/img/imgEInf/2019/22.jpg",
-          },
-        ],
-      },
-      {
-        id: 12,
-        titleButton: "Diciembre",
-        subChildren: [
-          {
-            id: 1,
-            alt: "Que es la UTCE",
-            link: "https://itetlax.org.mx/assets/img/imgEInf/2019/23.jpg",
-          },
-        ],
-      },
-    ],
-  },
-];
+export const dataInf = {
+  2023: [
+    {
+      id: 1,
+      month: "Febrero",
+      managerId: null,
+    },
+    {
+      alt: "Constitución de Partidos Políticos Locales",
+      link: "1.jpg",
+      managerId: 1,
+    },
+    {
+      id: 2,
+      month: "Marzo",
+      managerId: null,
+    },
+    {
+      alt: "Valores de la democracia",
+      link: "2.jpg",
+      managerId: 2,
+    },
+    {
+      id: 3,
+      month: "Abril",
+      managerId: null,
+    },
+    {
+      alt: "Código de Ética",
+      link: "3.jpg",
+      managerId: 3,
+    },
+    {
+      id: 4,
+      month: "Mayo",
+      managerId: null,
+    },
+    {
+      alt: "Estudio de participación ciudadana",
+      link: "https://participacion-ciudadana.itetlax.org.mx/assets/img/infografias/7.jpg",
+      managerId: 4,
+    },
+    {
+      id: 5,
+      month: "Junio",
+      managerId: null,
+    },
+    {
+      alt: "Código de Ética",
+      link: "4.jpg",
+      managerId: 5,
+    },
+    {
+      id: 6,
+      month: "Julio",
+      managerId: null,
+    },
+    {
+      alt: "¿Qué son los partidos politicos?",
+      link: "5.jpg",
+      managerId: 6,
+    },
+    {
+      id: 7,
+      month: "Septiembre",
+      managerId: null,
+    },
+    {
+      alt: "Proceso de verificación trianual",
+      link: "6.jpg",
+      managerId: 7,
+    },
+    {
+      id: 8,
+      month: "Octubre",
+      managerId: null,
+    },
+    {
+      alt: "Coordinación de Género y No Discriminación del ITE",
+      link: "11.jpg",
+      managerId: 8,
+    },
+    {
+      id: 9,
+      month: "Noviembre",
+      managerId: null,
+    },
+    {
+      alt: "En qué consiste el Procedimiento Especial Sancionador",
+      link: "12.jpg",
+      managerId: 9,
+    },
+  ],
+  2022: [
+    {
+      id: 1,
+      month: "Enero",
+      managerId: null,
+    },
+    {
+      alt: "Infografia Nahualt",
+      link: "1.jpeg",
+      managerId: 1,
+    },
+    {
+      alt: "Avisos de privacidad",
+      link: "2.jpeg",
+      managerId: 1,
+    },
+    {
+      id: 2,
+      month: "Febrero",
+      managerId: null,
+    },
+    {
+      alt: "Constitución de Partidos Políticos Locales",
+      link: "3.jpg",
+      managerId: 2,
+    },
+    {
+      alt: "Plebiscito 1",
+      link: "4.jpeg",
+      managerId: 2,
+    },
+    {
+      alt: "Plebiscito 2",
+      link: "5.jpeg",
+      managerId: 2,
+    },
+    {
+      alt: "¿Como nos identificamos'",
+      link: "6.jpeg",
+      managerId: 2,
+    },
+    {
+      alt: "Infografía 1",
+      link: "7.jpeg",
+      managerId: 2,
+    },
+    {
+      id: 3,
+      month: "Marzo",
+      managerId: null,
+    },
+    {
+      alt: "Sesiones de Consejo General",
+      link: "8.jpg",
+      managerId: 3,
+    },
+    {
+      id: 4,
+      month: "Junio",
+      managerId: null,
+    },
+    {
+      alt: "Día Nacional de la Lengua de Señas Mexicana",
+      link: "9.jpg",
+      managerId: 4,
+    },
+    {
+      id: 5,
+      month: "Julio",
+      managerId: null,
+    },
+    {
+      alt: "Voz ciudadana en el cabildo",
+      link: "10.jpg",
+      managerId: 5,
+    },
+  ],
+  2021: [
+    {
+      id: 1,
+      month: "Enero",
+      managerId: null,
+    },
+    {
+      alt: "Transparencia",
+      link: "1.jpg",
+      managerId: 1,
+    },
+    {
+      id: 2,
+      month: "Febrero",
+      managerId: null,
+    },
+    {
+      alt: "Infografia 1",
+      link: "2.jpg",
+      managerId: 2,
+    },
+    {
+      alt: "Infografía 2",
+      link: "3.jpg",
+      managerId: 2,
+    },
+    {
+      id: 3,
+      month: "Marzo",
+      managerId: null,
+    },
+    {
+      alt: "Dirección de Asuntos Jurídicos",
+      link: "4.jpg",
+      managerId: 3,
+    },
+    {
+      alt: "Contraloría General del ITE",
+      link: "5.jpeg",
+      managerId: 3,
+    },
+    {
+      id: 4,
+      month: "Abril",
+      managerId: null,
+    },
+    {
+      alt: "Derechos ARCO",
+      link: "6.jpg",
+      managerId: 4,
+    },
+    {
+      alt: "Medidas sanitarias para el voto seguro",
+      link: "7.jpg",
+      managerId: 4,
+    },
+    {
+      alt: "Referéndum",
+      link: "8.jpeg",
+      managerId: 4,
+    },
+    {
+      alt: "Referéndum Nahuatl",
+      link: "9.jpeg",
+      managerId: 4,
+    },
+    {
+      alt: "Referéndum",
+      link: "10.jpeg",
+      managerId: 4,
+    },
+    {
+      alt: "Referéndum Nahuatl",
+      link: "11.jpeg",
+      managerId: 4,
+    },
+    {
+      id: 5,
+      month: "Mayo",
+      managerId: null,
+    },
+    {
+      alt: "Datos PREP",
+      link: "12.jpg",
+      managerId: 5,
+    },
+    {
+      alt: "Referendum",
+      link: "13.jpeg",
+      managerId: 5,
+    },
+    {
+      alt: "Referendum Nahualt",
+      link: "14.jpeg",
+      managerId: 5,
+    },
+    {
+      id: 6,
+      month: "Junio",
+      managerId: null,
+    },
+    {
+      alt: "Proceso Electoral Local Ordinario 2020-2021",
+      link: "15.jpeg",
+      managerId: 6,
+    },
+    {
+      id: 7,
+      month: "Julio",
+      managerId: null,
+    },
+    {
+      alt: "Proceso Electoral Local Ordinario 2020-2021 Medios de Comunicación",
+      link: "16.png",
+      managerId: 7,
+    },
+    {
+      alt: "Plebiscito Nahualt",
+      link: "17.png",
+      managerId: 7,
+    },
+    {
+      id: 8,
+      month: "Agosto",
+      managerId: null,
+    },
+    {
+      alt: "Financiamiento Público",
+      link: "18.jpg",
+      managerId: 8,
+    },
+    {
+      alt: "Plebiscito Nahualt",
+      link: "19.png",
+      managerId: 8,
+    },
+    {
+      id: 10,
+      month: "Octubre",
+      managerId: null,
+    },
+    {
+      alt: "Secretaría Ejecutiva",
+      link: "20.jpg",
+      managerId: 10,
+    },
+    {
+      alt: "Etapas de un Documento de Archivo",
+      link: "21.jpg",
+      managerId: 10,
+    },
+    {
+      alt: "Acervo Documental",
+      link: "22.jpg",
+      managerId: 10,
+    },
+    {
+      alt: "Ciclo vital de un documento",
+      link: "23.jpg",
+      managerId: 10,
+    },
+    {
+      id: 11,
+      month: "Noviembre",
+      managerId: null,
+    },
+    {
+      alt: "Violencia Política Contral las Mujeres en Razón de Género",
+      link: "24.jpg",
+      managerId: 11,
+    },
+    {
+      alt: "Violencia Política",
+      link: "25.jpg",
+      managerId: 11,
+    },
+  ],
+  2020: [
+    {
+      id: 1,
+      month: "Enero",
+      managerId: null,
+    },
+    {
+      alt: "Día de la No Violencia Escolar",
+      link: "1.jpg",
+      managerId: 1,
+    },
+    {
+      id: 2,
+      month: "Febrero",
+      managerId: null,
+    },
+    {
+      alt: "Información Procesos Electorales",
+      link: "2.jpg",
+      managerId: 2,
+    },
+    {
+      id: 3,
+      month: "Marzo",
+      managerId: null,
+    },
+    {
+      alt: "Contraloría General del ITE LIPEET Artpiculo 85",
+      link: "3.jpg",
+      managerId: 3,
+    },
+    {
+      id: 4,
+      month: "Abril",
+      managerId: null,
+    },
+    {
+      alt: "Infografía Nahualt 1",
+      link: "4.jpg",
+      managerId: 4,
+    },
+    {
+      alt: "Infografía Nahualt 2",
+      link: "5.jpg",
+      managerId: 4,
+    },
+    {
+      alt: "Atribuciones del Titular del Área Técnica de Informática",
+      link: "6.jpg",
+      managerId: 4,
+    },
+    {
+      id: 5,
+      month: "Mayo",
+      managerId: null,
+    },
+    {
+      alt: "Información Proceso Electoral 2021",
+      link: "7.jpg",
+      managerId: 5,
+    },
+    {
+      id: 6,
+      month: "Junio",
+      managerId: null,
+    },
+    {
+      alt: "Oficialía Electoral",
+      link: "8.jpg",
+      managerId: 6,
+    },
+    {
+      id: 7,
+      month: "Julio",
+      managerId: null,
+    },
+    {
+      alt: "Datos Personales",
+      link: "9.jpg",
+      managerId: 7,
+    },
+    {
+      alt: "Micrositio COVID",
+      link: "10.jpeg",
+      managerId: 7,
+    },
+    {
+      id: 8,
+      month: "Agosto",
+      managerId: null,
+    },
+    {
+      alt: "Que hace la Presidencia del ITE",
+      link: "11.jpg",
+      managerId: 8,
+    },
+    {
+      alt: "Que funciones tiene la Presidencia del ITE",
+      link: "12.jpg",
+      managerId: 8,
+    },
+    {
+      id: 9,
+      month: "Septiembre",
+      managerId: null,
+    },
+    {
+      alt: "Atribuciones de Prerrogativas, Administración y Fiscalización",
+      link: "13.jpg",
+      managerId: 9,
+    },
+    {
+      id: 10,
+      month: "Octubre",
+      managerId: null,
+    },
+    {
+      alt: "Datos Personales Nahualt 1",
+      link: "14.jpg",
+      managerId: 10,
+    },
+    {
+      alt: "Datos Personales Nahualt 2",
+      link: "15.jpg",
+      managerId: 10,
+    },
+    {
+      alt: "Día Internacional de la No Violencia",
+      link: "16.jpg",
+      managerId: 10,
+    },
+    {
+      alt: "Atribuciones de la Dirección de Asuntos Jurídicos",
+      link: "17.jpg",
+      managerId: 10,
+    },
+    {
+      id: 11,
+      month: "Noviembre",
+      managerId: null,
+    },
+    {
+      alt: "Integración del COTAPREP",
+      link: "18.jpg",
+      managerId: 11,
+    },
+    {
+      alt: "Datos Proceso Electoral Local Ordinario 2020 - 2021",
+      link: "19.jpg",
+      managerId: 11,
+    },
+    {
+      alt: "Vota, tú decides",
+      link: "20.jpg",
+      managerId: 11,
+    },
+    {
+      id: 12,
+      month: "Diciembre",
+      managerId: null,
+    },
+    {
+      alt: "Día Internacional de las personas con discapacidad",
+      link: "21.jpg",
+      managerId: 12,
+    },
+    {
+      alt: "Manifestaciones de intención",
+      link: "22.jpg",
+      managerId: 12,
+    },
+    {
+      alt: "Manifestaciones de intención aprobadas",
+      link: "23.jpg",
+      managerId: 12,
+    },
+    {
+      alt: "Día internacional de los derechos humanos",
+      link: "24.jpg",
+      managerId: 12,
+    },
+  ],
+  2019: [
+    { id: 1, month: "Infografías", managerId: null },
+    {
+      alt: "Día internacional de la LEngua Materna",
+      link: "1.jpg",
+      managerId: 1,
+    },
+    {
+      alt: "Datos Personales",
+      link: "2.jpg",
+      managerId: 1,
+    },
+    {
+      alt: "Datos Personales 2",
+      link: "3.jpg",
+      managerId: 1,
+    },
+    {
+      alt: "Datos Personales 3",
+      link: "4.jpg",
+      managerId: 1,
+    },
+    {
+      id: 3,
+      month: "Marzo",
+      managerId: null,
+    },
+    {
+      alt: "Atribuciones del Titular del Área Técnica de Informática",
+      link: "5.jpg",
+      managerId: 3,
+    },
+    {
+      id: 4,
+      month: "Abril",
+      managerId: null,
+    },
+    {
+      alt: "Los mecanismos de paticipación ciudadana",
+      link: "6.jpg",
+      managerId: 4,
+    },
+    {
+      alt: "Que es el referendum",
+      link: "7.jpg",
+      managerId: 4,
+    },
+    {
+      alt: "Referendum",
+      link: "8.jpg",
+      managerId: 4,
+    },
+    {
+      alt: "Referendum 2",
+      link: "9.jpg",
+      managerId: 4,
+    },
+    {
+      alt: "Que es la participación ciudadana",
+      link: "10.jpg",
+      managerId: 4,
+    },
+    {
+      alt: "Quienes pueden participar en los procesos de consulta ciudadana",
+      link: "11.jpg",
+      managerId: 4,
+    },
+    {
+      alt: "Obligaciones del ITE en materia de consulta ciudadana",
+      link: "12.jpg",
+      managerId: 4,
+    },
+    {
+      alt: "Que es la consulta popular",
+      link: "13.jpg",
+      managerId: 4,
+    },
+    {
+      alt: "La consulta popular",
+      link: "14.jpg",
+      managerId: 4,
+    },
+    {
+      alt: "Quien puede solicitar una consulta popular",
+      link: "15.jpg",
+      managerId: 4,
+    },
+    {
+      id: 6,
+      month: "Junio",
+      managerId: null,
+    },
+    {
+      alt: "Elecciones escolares",
+      link: "16.jpg",
+      managerId: 6,
+    },
+    {
+      id: 7,
+      month: "Julio",
+      managerId: null,
+    },
+    {
+      alt: "Convenios celebrados por el ITE",
+      link: "17.jpg",
+      managerId: 7,
+    },
+    {
+      id: 8,
+      month: "Agosto",
+      managerId: null,
+    },
+    {
+      alt: "Financiamiento público para partidos políticos 2020",
+      link: "18.jpg",
+      managerId: 8,
+    },
+    {
+      id: 9,
+      month: "Septiembre",
+      managerId: null,
+    },
+    {
+      alt: "Comité técnico de archivos",
+      link: "19.jpg",
+      managerId: 9,
+    },
+    {
+      alt: "Día Internacional del Derecho a Saber",
+      link: "20.jpg",
+      managerId: 9,
+    },
+    {
+      id: 10,
+      month: "Octubre",
+      managerId: null,
+    },
+    {
+      alt: "Que es el voto",
+      link: "21.jpg",
+      managerId: 10,
+    },
+    {
+      id: 11,
+      month: "Noviembre",
+      managerId: null,
+    },
+    {
+      alt: "Calendario de multas",
+      link: "22.jpg",
+      managerId: 11,
+    },
+    {
+      id: 12,
+      month: "Diciembre",
+      managerId: null,
+    },
+    {
+      alt: "Que es la UTCE",
+      link: "23.jpg",
+      managerId: 12,
+    },
+  ],
+};

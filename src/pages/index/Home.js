@@ -119,8 +119,6 @@ const ITE = () => {
       <Videoteca items={dataITEConecta} itemsID={"ITEConecta"} />
       <h2 className="mt-5 bottom_title">Informes</h2>
       <Informes items={dataInformes} itemsID={"itemsInformes"} />
-      {/* <h2 className="bottom_title mt-5">Video Podcast</h2> */}
-      {/* <Videoteca items={dataVideoPodCast} itemsID={"videoPodcast"} /> */}
       <div className="Home__boxesTriple mt-4">
         <div>
           <h2 className="bottom_title">Estrados Electrónicos</h2>
@@ -131,12 +129,6 @@ const ITE = () => {
               <b>Estrados Electrónicos</b>
             </Link>
           </div>
-          {/* <div>
-            <TablePDF
-              items={dataEstrados}
-              itemsID={"listEstradosElectronicos"}
-            />
-          </div> */}
         </div>
         <div>
           <h2 className="bottom_title">Sesión en Vivo</h2>

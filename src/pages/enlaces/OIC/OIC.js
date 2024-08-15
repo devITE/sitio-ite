@@ -11,7 +11,7 @@ import {
   dataSemblanza,
   dataDeclaracionPatrimonial,
   dataCodigoEtica,
-  dataInformes
+  dataInformes,
 } from "../../../data/dataOIC";
 import "../EnlacesStyle.css";
 
@@ -19,6 +19,8 @@ export const OIC = () => {
   useEffect(() => {
     document.title = `OIC`;
   }, []);
+
+  const baseURL = "https://itetlax.org.mx/assets/img/icons/";
   return (
     <>
       <NavbarEnlaces title="Órgano Interno de Control" />
@@ -32,7 +34,7 @@ export const OIC = () => {
           >
             <img
               className="img-fluid"
-              src="https://itetlax.org.mx/assets/img/icons/e11.png"
+              src={`${baseURL}e11.png`}
               alt="Estructura Orgánica"
             />
           </a>
@@ -47,7 +49,7 @@ export const OIC = () => {
           >
             <img
               className="img-fluid"
-              src="https://itetlax.org.mx/assets/img/icons/e12.png"
+              src={`${baseURL}e12.png`}
               alt="Atribuciones"
             />
           </a>
@@ -62,7 +64,7 @@ export const OIC = () => {
           >
             <img
               className="img-fluid"
-              src="https://itetlax.org.mx/assets/img/icons/e13.png"
+              src={`${baseURL}e13.png`}
               alt="Normatividad"
             />
           </a>
@@ -77,7 +79,7 @@ export const OIC = () => {
           >
             <img
               className="img-fluid"
-              src="https://itetlax.org.mx/assets/img/icons/e14.png"
+              src={`${baseURL}e14.png`}
               alt="Programas"
             />
           </a>
@@ -92,7 +94,7 @@ export const OIC = () => {
           >
             <img
               className="img-fluid"
-              src="https://itetlax.org.mx/assets/img/icons/e15.png"
+              src={`${baseURL}e15.png`}
               alt="Semblanza"
             />
           </a>
@@ -107,7 +109,7 @@ export const OIC = () => {
           >
             <img
               className="img-fluid"
-              src="https://itetlax.org.mx/assets/img/icons/e16.png"
+              src={`${baseURL}e16.png`}
               alt="Declaración Patrimonial"
             />
           </a>
@@ -122,7 +124,7 @@ export const OIC = () => {
           >
             <img
               className="img-fluid"
-              src="https://itetlax.org.mx/assets/img/icons/e17.png"
+              src={`${baseURL}e17.png`}
               alt="Código de Ética"
             />
           </a>
@@ -132,7 +134,7 @@ export const OIC = () => {
           <Link to="/GaleriaOIC">
             <img
               className="img-fluid"
-              src="https://itetlax.org.mx/assets/img/icons/e18.png"
+              src={`${baseURL}e18.png`}
               alt="Galería"
             />
           </Link>
@@ -147,26 +149,12 @@ export const OIC = () => {
           >
             <img
               className="img-fluid"
-              src="https://itetlax.org.mx/assets/img/icons/e16.png"
+              src={`${baseURL}e16.png`}
               alt="Informes"
             />
           </a>
           <p className="mt-2">Informes</p>
         </div>
-        {/* <div>
-          <a
-            href="https://itetlax.org.mx/assets/pdf/OIC/15.pdf"
-            rel="noreferrer"
-            target="_blank"
-          >
-            <img
-              className="img-fluid"
-              src="https://itetlax.org.mx/assets/img/icons/e16.png"
-              alt="1er. Informe Anual de Actividades OIC"
-            />
-          </a>
-          <p className="mt-2">1er. Informe Anual de Actividades OIC</p>
-        </div> */}
       </div>
       <Modal
         idModal="EstructuraOrganica"

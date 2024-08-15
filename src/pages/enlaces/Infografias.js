@@ -2,134 +2,89 @@ import React, { useEffect } from "react";
 import NavbarEnlaces from "../../layout/NavbarEnlaces";
 import ModalIMG from "../../layout/Modal/ModalIMG";
 import { dataInf } from "../../data/dataInfografias";
-
 import "./EnlacesStyle.css";
 
 const Infografias = () => {
   useEffect(() => {
     document.title = `Infografías`;
   }, []);
+
+  const baseURL = "https://itetlax.org.mx/assets/img/imgEInf/";
+
+  const infografiasPorMes = {};
+
+  Object.keys(dataInf).forEach((year) => {
+    let currentMonth = null;
+
+    dataInf[year].forEach((item) => {
+      if (item.month) {
+        currentMonth = item.month;
+        if (!infografiasPorMes[year]) {
+          infografiasPorMes[year] = {};
+        }
+        if (!infografiasPorMes[year][currentMonth]) {
+          infografiasPorMes[year][currentMonth] = [];
+        }
+      } else if (item.alt && item.link && currentMonth) {
+        infografiasPorMes[year][currentMonth].push({
+          alt: item.alt,
+          link: `${baseURL}${year}/${item.link}`,
+        });
+      }
+    });
+  });
+
+  console.log("Infografías por mes y año:", infografiasPorMes);
+
   return (
     <>
       <NavbarEnlaces title="Infografías" />
-      <div className="d-flex align-items-start">
-        <div
-          className="nav flex-column nav-pills me-3 w-25"
-          id="v-pills-tab"
-          role="tablist"
-          aria-orientation="vertical"
-        >
-          <div
-            className="accordion accordion-flush w-100"
-            id="accordionFlushExample"
-          >
-            {dataInf.map((infoITEM) => (
-              <div key={infoITEM.id} className="accordion-item">
-                <h2 className="accordion-header" id="flush-headingOne">
-                  <button
-                    className="accordion-button collapsed"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target={"#flush-" + infoITEM.titleItem}
-                    aria-expanded="false"
-                    aria-controls={"flush-" + infoITEM.titleItem}
-                  >
-                    {infoITEM.titleItem}
-                  </button>
-                </h2>
-                <div
-                  id={"flush-" + infoITEM.titleItem}
-                  className="accordion-collapse collapse"
-                  aria-labelledby="flush-headingOne"
-                  data-bs-parent="#accordionFlushExample"
-                >
-                  <div className="accordion-body">
-                    {infoITEM.children.map((chilItem) => (
-                      <button
-                        key={chilItem.id}
-                        className="btn btn-ite w-100"
-                        id={
-                          "v-pills-" +
-                          infoITEM.titleItem +
-                          chilItem.titleButton +
-                          "-tab"
-                        }
-                        data-bs-toggle="pill"
-                        data-bs-target={
-                          "#v-pills-" +
-                          infoITEM.titleItem +
-                          chilItem.titleButton
-                        }
-                        type="button"
-                        role="tab"
-                        aria-controls={
-                          "v-pills-" + infoITEM.titleItem + chilItem.titleButton
-                        }
-                        aria-selected="false"
-                      >
-                        {chilItem.titleButton}
-                      </button>
+
+      <div className="container">
+        {Object.keys(infografiasPorMes).length > 0 ? (
+          Object.keys(infografiasPorMes).map((year) => (
+            <div key={year}>
+              <h4 className="text-center mb-4 pb-2 text-decoration-underline">
+                Infografías {year}
+              </h4>
+              {Object.keys(infografiasPorMes[year]).map((month) => (
+                <div key={month}>
+                  <h5 className="text-center mb-4">{month}</h5>
+                  <div className="row">
+                    {infografiasPorMes[year][month].map((infografia, index) => (
+                      <div className="col-md-4 mb-4" key={index}>
+                        <div className="card">
+                          <a
+                            href="/#"
+                            rel="noreferrer"
+                            data-bs-toggle="modal"
+                            data-bs-target={`#modal${year}-${month}-${index}`}
+                          >
+                            <img
+                              src={infografia.link}
+                              className="card-img-top"
+                              alt={infografia.alt}
+                            />
+                          </a>
+                        </div>
+                        <ModalIMG
+                          idModal={`modal${year}-${month}-${index}`}
+                          altIMG={infografia.alt}
+                          linkIMG={infografia.link}
+                        />
+                      </div>
                     ))}
                   </div>
                 </div>
-              </div>
-            ))}
-          </div>
-        </div>
-        <div className="tab-content w-75" id="v-pills-tabContent">
-          {dataInf.map((infoITEM) =>
-            infoITEM.children.map((chilItem) => (
-              <div
-                key={chilItem.id}
-                className="tab-pane fade"
-                id={"v-pills-" + infoITEM.titleItem + chilItem.titleButton}
-                role="tabpanel"
-                aria-labelledby={
-                  "v-pills-" +
-                  infoITEM.titleItem +
-                  chilItem.titleButton +
-                  "-tab"
-                }
-                tabIndex="0"
-              >
-                <div className="Infografias__grid">
-                  {chilItem.subChildren.map((subChilItem) => (
-                    <div key={subChilItem.id}>
-                      <a
-                        href="#/"
-                        rel="noreferrer"
-                        data-bs-toggle="modal"
-                        data-bs-target={
-                          "#" +
-                          chilItem.titleButton +
-                          infoITEM.titleItem +
-                          subChilItem.id
-                        }
-                      >
-                        <img
-                          className="img-fluid Infografias__grid-item"
-                          src={subChilItem.link}
-                          alt={subChilItem.alt}
-                        />
-                      </a>
-                      <ModalIMG
-                        idModal={
-                          chilItem.titleButton +
-                          infoITEM.titleItem +
-                          subChilItem.id
-                        }
-                        linkIMG={subChilItem.link}
-                        altIMG={subChilItem.alt}
-                      />
-                    </div>
-                  ))}
-                </div>
-              </div>
-            ))
-          )}
-        </div>
+              ))}
+            </div>
+          ))
+        ) : (
+          <p>No hay infografías disponibles.</p>
+        )}
       </div>
     </>
   );
 };
+
 export default Infografias;
