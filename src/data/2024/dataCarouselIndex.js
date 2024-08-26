@@ -92,11 +92,18 @@ export const dataCAR = [
   {
     id: 2,
     imgUrl: "11.png",
+    alt: "siceen21",
+    url: "https://siceen21.ine.mx/home",
+    linkToo: "",
+  },
+  {
+    id: 2,
+    imgUrl: "apoyo_ciudadano.png",
     itemActive: "active",
     buttonActive: "active",
     ariaCurrent: "true",
     alt: "Convocatoria",
-    url: "https://siceen21.ine.mx/home",
+    url: "",
     linkToo: "",
   },
 ];
