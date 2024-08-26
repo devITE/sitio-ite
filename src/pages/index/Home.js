@@ -49,7 +49,7 @@ const ITE = () => {
         {dataCIndex.map((cIndex) => (
           <CarouselItemIMG
             key={cIndex.id}
-            imgUrl={cIndex.imgUrl}
+            imgUrl={"https://itetlax.org.mx/assets/img/imgC_I/" + cIndex.imgUrl}
             alt={cIndex.alt}
             itemActive={cIndex.itemActive}
             url={cIndex.url}
@@ -87,7 +87,9 @@ const ITE = () => {
               {dataCAR.map((cAR) => (
                 <CarouselItemIMG
                   key={cAR.id}
-                  imgUrl={cAR.imgUrl}
+                  imgUrl={
+                    "https://itetlax.org.mx/assets/img/imgC_AR/" + cAR.imgUrl
+                  }
                   alt={cAR.alt}
                   itemActive={cAR.itemActive}
                   url={cAR.url}
@@ -104,7 +106,9 @@ const ITE = () => {
               {dataCA.map((cA) => (
                 <CarouselItemIMG
                   key={cA.id}
-                  imgUrl={cA.imgUrl}
+                  imgUrl={
+                    "https://itetlax.org.mx/assets/img/imgC_A/" + cA.imgUrl
+                  }
                   alt={cA.alt}
                   itemActive={cA.itemActive}
                   url={cA.url}
