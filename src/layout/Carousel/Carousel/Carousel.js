@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 export default function Carousel({ idCarousel, children }) {
   return (
@@ -30,3 +31,9 @@ export default function Carousel({ idCarousel, children }) {
     </div>
   );
 }
+
+// Validación de props
+Carousel.propTypes = {
+  idCarousel: PropTypes.string.isRequired,
+  children: PropTypes.node.isRequired,
+};

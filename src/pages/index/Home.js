@@ -9,7 +9,6 @@ import Informes from "./informes/Informes";
 import { dataInformes } from "../../data/dataInformes";
 
 import Videoteca from "../../layout/videoteca/Videoteca";
-import "./Home.css";
 
 import Carousel from "../../layout/Carousel/Carousel/Carousel";
 import CarouselItemIMG from "../../layout/Carousel/Carousel/CarouselItemIMG";
@@ -18,9 +17,6 @@ import { dataITEConecta } from "../../data/dataITEConecta";
 import ModalInit from "../../layout/Modal/ModalInit";
 import "./Home.css";
 
-// import FlipClockCountdown from "@leenguyen/react-flip-clock-countdown";
-// import "@leenguyen/react-flip-clock-countdown/dist/index.css";
-
 const ITE = () => {
   useEffect(() => {
     document.title = `ITE`;
@@ -28,17 +24,17 @@ const ITE = () => {
 
   return (
     <>
-      {/*<ModalInit
-        imgLink="https://itetlax.org.mx/assets/img/sesionesCG/sesionA.png"
-        url="https://itetlax.org.mx/assets/img/sesionesCG/sesionA.png"
-        linkToo=""
-      />*/}
-
       <ModalInit
+        imgLink="https://itetlax.org.mx/assets/img/sesionesCG/sesionA.jpg"
+        url="https://itetlax.org.mx/assets/img/sesionesCG/sesionA.jpg"
+        linkToo=""
+      />
+
+      {/* <ModalInit
         imgLink="https://itetlax.org.mx/assets/img/imgPopup/resultados_parlamento.jpeg"
         url="https://itetlax.org.mx/assets/img/imgPopup/resultados_parlamento.jpeg"
         linkToo=""
-      />
+      />*/}
 
       {/* <ModalInit
         imgLink="https://itetlax.org.mx/assets/img/imgPopup/consultaconvo.jpg"

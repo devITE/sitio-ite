@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import PropTypes from "prop-types";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faFileExcel,
@@ -125,4 +126,28 @@ export const DatosAbiertos = () => {
   );
 };
 
+// AccordionItem
+AccordionItem.propTypes = {
+  item: PropTypes.shape({
+    flushID: PropTypes.string.isRequired,
+    titleItem: PropTypes.string.isRequired,
+    children: PropTypes.arrayOf(PropTypes.object).isRequired,
+  }).isRequired,
+};
+
+// ModalButton
+ModalButton.propTypes = {
+  buttonModal: PropTypes.shape({
+    idModal: PropTypes.string.isRequired,
+    titleModal: PropTypes.string.isRequired,
+    titleTheme: PropTypes.string,
+    keyWords: PropTypes.string,
+    description: PropTypes.string,
+    area: PropTypes.string,
+    dateUpdate: PropTypes.string,
+    contactName: PropTypes.string,
+    contactEmail: PropTypes.string,
+    subChildren: PropTypes.arrayOf(PropTypes.object).isRequired,
+  }).isRequired,
+};
 export default DatosAbiertos;

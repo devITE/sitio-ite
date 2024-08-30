@@ -1803,6 +1803,14 @@ export const dataAcuerdos2024 = [
     titleAnexo1: "ANEXO 1. APIZACO",
     titleAnexo2: "ANEXO 2. YAUHQUEMEHCAN",
   },
+  {
+    id: 235,
+    typeDoc: "ACUERDO",
+    monthDoc: "AGO",
+    nameDoc:
+      "CUMPLIMIENTO DE SENTENCIA SCM-JDC-2142-2024 TZOMPANTEPEC Y XICOHTZINCO",
+    titleAnexo1: "ANEXO XICOHTZINCO",
+  },
 ];
 
 // ------------ A C U E R D O S    I N E ------------

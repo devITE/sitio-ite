@@ -34,7 +34,6 @@ export default class Navbar extends Component {
                 <Link
                   to="./"
                   className="nav-link dropdown-toggle"
-                  role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
@@ -67,7 +66,6 @@ export default class Navbar extends Component {
                 <Link
                   to="./"
                   className="nav-link dropdown-toggle"
-                  role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
@@ -100,7 +98,6 @@ export default class Navbar extends Component {
                 <Link
                   to="./"
                   className="nav-link dropdown-toggle"
-                  role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
@@ -148,7 +145,6 @@ export default class Navbar extends Component {
                 <Link
                   to="./"
                   className="nav-link dropdown-toggle"
-                  role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
@@ -171,7 +167,6 @@ export default class Navbar extends Component {
                 <Link
                   to="./"
                   className="nav-link dropdown-toggle"
-                  role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
@@ -214,7 +209,6 @@ export default class Navbar extends Component {
                 <Link
                   to="./"
                   className="nav-link dropdown-toggle"
-                  role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
