@@ -1811,6 +1811,13 @@ export const dataAcuerdos2024 = [
       "CUMPLIMIENTO DE SENTENCIA SCM-JDC-2142-2024 TZOMPANTEPEC Y XICOHTZINCO",
     titleAnexo1: "ANEXO XICOHTZINCO",
   },
+  {
+    id: 236,
+    typeDoc: "ACUERDO",
+    monthDoc: "AGO",
+    nameDoc:
+      "AVISO",
+  },
 ];
 
 // ------------ A C U E R D O S    I N E ------------
