@@ -1812,6 +1812,20 @@ export const dataAcuerdos2024 = [
     titleAnexo1: "ANEXO XICOHTZINCO",
   },
   {
+    id: 236,
+    typeDoc: "ACUERDO",
+    monthDoc: "AGO",
+    nameDoc:
+      "INTEGRACION DE LA LXV LEGISLATURA DEL CONGRESO DEL ESTADO DE TLAXCALA",
+  },
+  {
+    id: 237,
+    typeDoc: "ACUERDO",
+    monthDoc: "AGO",
+    nameDoc: "SE MODIFICA PROCEDIMIENTO PLAZOS DE RETIRO PROPAGANDA",
+    titleAnexo1: "ANEXO ÚNICO PROCEDIMIENTO AMPLIACIÓN PLAZOS",
+  },
+  {
     id: "---",
     typeDoc: "ACUERDO",
     monthDoc: "AGO",
