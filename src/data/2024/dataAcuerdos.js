@@ -1812,11 +1812,10 @@ export const dataAcuerdos2024 = [
     titleAnexo1: "ANEXO XICOHTZINCO",
   },
   {
-    id: 236,
+    id: "---",
     typeDoc: "ACUERDO",
     monthDoc: "AGO",
-    nameDoc:
-      "AVISO",
+    nameDoc: "AVISO",
   },
 ];
 
