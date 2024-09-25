@@ -1803,6 +1803,54 @@ export const dataAcuerdos2024 = [
     titleAnexo1: "ANEXO 1. APIZACO",
     titleAnexo2: "ANEXO 2. YAUHQUEMEHCAN",
   },
+  {
+    id: 235,
+    typeDoc: "ACUERDO",
+    monthDoc: "AGO",
+    nameDoc:
+      "CUMPLIMIENTO DE SENTENCIA SCM-JDC-2142-2024 TZOMPANTEPEC Y XICOHTZINCO",
+    titleAnexo1: "ANEXO XICOHTZINCO",
+  },
+  {
+    id: 236,
+    typeDoc: "ACUERDO",
+    monthDoc: "AGO",
+    nameDoc:
+      "INTEGRACION DE LA LXV LEGISLATURA DEL CONGRESO DEL ESTADO DE TLAXCALA",
+  },
+  {
+    id: 237,
+    typeDoc: "ACUERDO",
+    monthDoc: "AGO",
+    nameDoc: "SE MODIFICA PROCEDIMIENTO PLAZOS DE RETIRO PROPAGANDA",
+    titleAnexo1: "ANEXO ÚNICO PROCEDIMIENTO AMPLIACIÓN PLAZOS",
+  },
+  {
+    id: 238,
+    typeDoc: "ACUERDO",
+    monthDoc: "AGO",
+    nameDoc: "CALENDARIO PELE 2024",
+    titleAnexo1: "ANEXO UNICO CALENDARIO LEGAL PELE 2024",
+  },
+  {
+    id: 239,
+    typeDoc: "ACUERDO",
+    monthDoc: "AGO",
+    nameDoc: "CONVOCATORIA PARA OBSERVADORES ELECTORALES PELE 2024",
+    titleAnexo1: "ANEXO UNICO CONVOCATORIA OE PELE 2024",
+  },
+  {
+    id: 240,
+    typeDoc: "ACUERDO",
+    monthDoc: "AGO",
+    nameDoc: "PRORROGA DE ACUERDOS PELE 2024",
+    titleAnexo1:
+      "ANEXO UNO METODOLOGÍA PARA EL MONITOREO DE MEDIOS DE COMUNICACIÓN MASIVA IMPRESOS Y DIGITALES",
+    titleAnexo2:
+      "ANEXO DOS METODOLOGÍA PARA MONITOREO DE ESPACIOS QUE DIFUNDEN NOTICIAS EN RADIO Y TELEVISIÓN",
+    titleAnexo3:
+      "ANEXO TRES METODOLOGÍA PARA EL MONITOREO CON PERSPECTIVA DE GÉNERO PELE 2024",
+  },
 ];
 
 // ------------ A C U E R D O S    I N E ------------
