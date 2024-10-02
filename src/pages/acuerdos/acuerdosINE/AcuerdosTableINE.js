@@ -5,34 +5,37 @@ import {
   useMaterialReactTable,
 } from "material-react-table";
 import { MRT_Localization_ES } from "material-react-table/locales/es";
-import { Box, MenuItem, TextField } from "@mui/material";
+import { Box } from "@mui/material";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
+import { faFilePdf, faFileExcel } from "@fortawesome/free-solid-svg-icons";
 import { dataAcuerdosINE } from "../../../data/dataAcuerdos";
 import Expandible from "../../../layout/HelperDataTable/Expandible";
 import Breadcrumbs from "../../../layout/Breadcrumbs";
 
 const baseUrl = "https://itetlax.org.mx/assets/pdf/acuerdos/INE/";
 
-const PdfLink = ({ baseUrl, year, url }) => {
+const FileLink = ({ baseUrl, year, url, type }) => {
+  const icon = type === "pdf" ? faFilePdf : faFileExcel;
+  const className = type === "pdf" ? "btn btn-danger" : "btn btn-success";
   const fullUrl = `${baseUrl}${year}/${url}`;
+
   return (
     <a href={fullUrl} target="_blank" rel="noreferrer">
-      <FontAwesomeIcon icon={faFilePdf} className="btn btn-danger" />
+      <FontAwesomeIcon icon={icon} className={className} />
     </a>
   );
 };
 
-const TableRow = ({ baseUrl, year, title, url }) => {
+const TableRow = ({ baseUrl, year, title, url, type }) => {
   if (title && url) {
-    console.log(`Title: ${title.toUpperCase()}, URL: ${url}`);
+    console.log(`Title: ${title.toUpperCase()}, URL: ${url}, TYPE: ${type}`);
   }
 
   return title && url ? (
     <tr>
       <td>{title.toUpperCase()}</td>
       <td>
-        <PdfLink baseUrl={baseUrl} year={year} url={url} />
+        <FileLink baseUrl={baseUrl} year={year} url={url} type={type} />
       </td>
     </tr>
   ) : null;
@@ -47,45 +50,6 @@ const AcuerdosTableINE = ({ year }) => {
 
   const columns = useMemo(
     () => [
-      {
-        accessorKey: "monthDoc",
-        header: "MES",
-        footer: "MES",
-        size: 30,
-        Filter: ({ header }) => (
-          <TextField
-            onChange={(e) =>
-              header.column.setFilterValue(e.target.value || undefined)
-            }
-            select
-            value={header.column.getFilterValue() ?? ""}
-            margin="none"
-            placeholder="Filter"
-            variant="standard"
-            fullWidth
-          >
-            <MenuItem value={null}>Todos</MenuItem>
-            {[
-              "ENE",
-              "FEB",
-              "MAR",
-              "ABR",
-              "MAY",
-              "JUN",
-              "JUL",
-              "AGO",
-              "SEP",
-              "OCT",
-              "NOV",
-              "DIC",
-            ].map((month) => (
-              <MenuItem key={month} value={month}>
-                {month}
-              </MenuItem>
-            ))}
-          </TextField>
-        ),
-      },
       {
         accessorKey: "numDoc",
         header: "ACUERDO",
@@ -126,7 +90,7 @@ const AcuerdosTableINE = ({ year }) => {
               </td>
               <td>
                 {row.original.link && (
-                  <PdfLink
+                  <FileLink
                     baseUrl={baseUrl}
                     year={year}
                     url={row.original.link + ".pdf"}
@@ -136,14 +100,28 @@ const AcuerdosTableINE = ({ year }) => {
             </tr>
             {[...Array(70)].map((_, i) => {
               const index = i + 1;
+              const anexoPDF = row.original[`AnexoPDF${index}`];
+              const anexoEXCEL = row.original[`AnexoPDF${index}`];
               return (
-                <TableRow
-                  key={index}
-                  baseUrl={baseUrl}
-                  year={year}
-                  title={row.original[`titleAnexo${index}`]}
-                  url={row.original.link + [`.${index}.pdf`]}
-                />
+                <>
+                  <TableRow
+                    key={`pdf-${index}`}
+                    baseUrl={baseUrl}
+                    year={year}
+                    title={anexoPDF}
+                    url={[`.${index}.pdf`]}
+                    type="pdf"
+                  />
+
+                  <TableRow
+                    key={`excel-${index}`}
+                    baseUrl={baseUrl}
+                    year={year}
+                    title={anexoEXCEL}
+                    url={[`.${index}.xlsx`]}
+                    type="excel"
+                  />
+                </>
               );
             })}
           </tbody>
