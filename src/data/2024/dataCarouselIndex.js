@@ -118,13 +118,20 @@ export const dataCAR = [
     linkToo: "",
   },
   {
-    id: 5,
+    id: 6,
     imgUrl: "consulta_infantil.jpg",
+    alt: "Consulta Infantil",
+    url: "https://ine.mx/consulta-infantil-y-juvenil-2024/",
+    linkToo: "",
+  },
+  {
+    id: 7,
+    imgUrl: "concurso_radio.jpeg",
     itemActive: "active",
     buttonActive: "active",
     ariaCurrent: "true",
     alt: "Consulta Infantil",
-    url: "https://ine.mx/consulta-infantil-y-juvenil-2024/",
+    url: "https://itetlax.org.mx/assets/img/img_CAR/concurso_radio.pdf",
     linkToo: "",
   },
 ];
