@@ -27,8 +27,8 @@ const FileLink = ({ baseUrl, year, url, type }) => {
   );
 };
 
-const TableRow = ({ baseUrl, year, title, url, type }) => {
-  return title && url ? (
+const TableRow = ({ baseUrl, year, title, url, type }) =>
+  title && url ? (
     <tr>
       <td>{title.toUpperCase()}</td>
       <td>
@@ -36,7 +36,6 @@ const TableRow = ({ baseUrl, year, title, url, type }) => {
       </td>
     </tr>
   ) : null;
-};
 
 const AcuerdosTableINE = ({ year }) => {
   const data = useMemo(() => dataAcuerdosINE[year] || [], [year]);
@@ -90,33 +89,37 @@ const AcuerdosTableINE = ({ year }) => {
                   <FileLink
                     baseUrl={baseUrl}
                     year={year}
-                    url={row.original.link + ".pdf"}
-                    type={"pdf"}
+                    url={`${row.original.id}.pdf`}
+                    type="pdf"
                   />
                 )}
               </td>
             </tr>
             {[...Array(70)].map((_, i) => {
               const index = i + 1;
+              const pdfTitle = row.original[`titleAnexoPDF${index}`];
+              const excelTitle = row.original[`titleAnexoEXCEL${index}`];
+
               return (
                 <>
-                  <TableRow
-                    key={index}
-                    baseUrl={baseUrl}
-                    year={year}
-                    title={row.original[`titleAnexoPDF${index}`]}
-                    url={`${row.original.id}.${index}.pdf`}
-                    type="pdf"
-                  />
-
-                  <TableRow
-                    key={`excel-${index}`}
-                    baseUrl={baseUrl}
-                    year={year}
-                    title={row.original[`titleAnexoEXCEL${index}`]}
-                    url={`${row.original.id}.${index}.xlsx`}
-                    type="excel"
-                  />
+                  {pdfTitle && (
+                    <TableRow
+                      baseUrl={baseUrl}
+                      year={year}
+                      title={pdfTitle}
+                      url={`${row.original.id}.${index}.pdf`}
+                      type="pdf"
+                    />
+                  )}
+                  {excelTitle && (
+                    <TableRow
+                      baseUrl={baseUrl}
+                      year={year}
+                      title={excelTitle}
+                      url={`${row.original.id}.${index}.xlsx`}
+                      type="excel"
+                    />
+                  )}
                 </>
               );
             })}
@@ -128,7 +131,7 @@ const AcuerdosTableINE = ({ year }) => {
 
   const tableAcuerdos = useMaterialReactTable({
     columns,
-    data: data,
+    data,
     enableExpanding: true,
     enableExpandAll: true,
     enableSorting: false,

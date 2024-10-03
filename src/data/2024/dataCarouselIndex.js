@@ -70,22 +70,8 @@ export const dataCIndex = [
     linkToo: "",
   },
   {
-    id: 11,
-    imgUrl: "convocatoria_revista_AMCEE_.jpg",
-    alt: "56",
-    url: "https://amcee.org.mx/wp-content/uploads/2024/04/5ta-convocatoria-AMCEE.pdf",
-    linkToo: "",
-  },
-  {
-    id: 12,
-    imgUrl: "convocatoria_oratoria.png",
-    alt: "56",
-    url: "https://itetlax.org.mx/assets/img/imgC_I/convocatoria_oratoria.pdf",
-    linkToo: "",
-  },
-  {
     id: 13,
-    imgUrl: "concurso_tet.jpg",
+    imgUrl: "convocatoria_tet2.jpg",
     alt: "56",
     itemActive: "active",
     buttonActive: "active",

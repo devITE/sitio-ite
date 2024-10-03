@@ -98,6 +98,7 @@ import BoletinesTable from "./pages/comunicacionSocial/boletines/BoletinesTable"
 import Monitoreo from "./pages/comunicacionSocial/monitoreos/Monitoreo";
 import MonitoreosTable from "./pages/comunicacionSocial/monitoreos/MonitoreosTable";
 import Monitoreos2024 from "./pages/comunicacionSocial/monitoreos/Monitoreos2024";
+import MonitoreosPELE2024 from "./pages/comunicacionSocial/monitoreos/MonitoreoPELE2024";
 
 import ITEConecta from "./pages/comunicacionSocial/ITEConecta";
 
@@ -423,6 +424,7 @@ function App() {
             element={<MonitoreosTable year="2023" />}
           />
           <Route path="/Monitoreos2024" element={<Monitoreos2024 />} />
+          <Route path="/MonitoreosPELE2024" element={<MonitoreosPELE2024 />} />
 
           <Route path="/ITEConecta" element={<ITEConecta />} />
           <Route path="/CulturaCivica" element={<CulturaCivica />} />

@@ -71,6 +71,7 @@ export default class Navbar extends Component {
                 >
                   Consejo General
                 </Link>
+
                 <ul className="dropdown-menu">
                   <li>
                     <Link to="./Integracion" className="dropdown-item">
@@ -105,42 +106,214 @@ export default class Navbar extends Component {
                 </Link>
                 <ul className="dropdown-menu">
                   <li>
-                    <Link to="./AcuerdosAnteriores" className="dropdown-item">
-                      Acuerdos Anteriores
-                    </Link>
+                    <span className="dropdown-header">-- Acuerdos ITE</span>
                   </li>
-                  <li>
-                    <Link to="./AcuerdosINE" className="dropdown-item">
-                      Acuerdos INE
+                  <li className="dropdown-submenu">
+                    <Link
+                      to="#"
+                      className="dropdown-item dropdown-toggle"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Anteriores
                     </Link>
-                  </li>
-                  <li>
-                    <Link to="./Acuerdos2020" className="dropdown-item">
-                      2020
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="./Acuerdos2021" className="dropdown-item">
-                      2021
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="./Acuerdos2022" className="dropdown-item">
-                      2022
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="./Acuerdos2023" className="dropdown-item">
-                      2023
-                    </Link>
+                    <ul className="dropdown-menu">
+                      <li>
+                        <Link
+                          to="./AcuerdosAnteriores"
+                          className="dropdown-item"
+                        >
+                          Mostrar todos
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to="./AcuerdosITE1998" className="dropdown-item">
+                          1998
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to="./AcuerdosITE2001" className="dropdown-item">
+                          2001
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to="./AcuerdosITE2002" className="dropdown-item">
+                          2002
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to="./AcuerdosITE2003" className="dropdown-item">
+                          2003
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to="./AcuerdosITE2004" className="dropdown-item">
+                          2004
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to="./AcuerdosITE2005" className="dropdown-item">
+                          2005
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to="./AcuerdosITE2006" className="dropdown-item">
+                          2006
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to="./AcuerdosITE2007" className="dropdown-item">
+                          2007
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to="./AcuerdosITE2008" className="dropdown-item">
+                          2008
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to="./AcuerdosITE2009" className="dropdown-item">
+                          2009
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to="./AcuerdosITE2010" className="dropdown-item">
+                          2010
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to="./AcuerdosITE2011" className="dropdown-item">
+                          2011
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to="./AcuerdosITE2012" className="dropdown-item">
+                          2012
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to="./AcuerdosITE2013" className="dropdown-item">
+                          2013
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to="./AcuerdosITE2014" className="dropdown-item">
+                          2014
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to="./AcuerdosITE2015" className="dropdown-item">
+                          2015
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to="./AcuerdosITE2016" className="dropdown-item">
+                          2016
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to="./AcuerdosITE2017" className="dropdown-item">
+                          2017
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to="./AcuerdosITE2018" className="dropdown-item">
+                          2018
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to="./AcuerdosITE2019" className="dropdown-item">
+                          2019
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to="./AcuerdosITE2020" className="dropdown-item">
+                          2020
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to="./AcuerdosITE2021" className="dropdown-item">
+                          2021
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to="./AcuerdosITE2022" className="dropdown-item">
+                          2022
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to="./AcuerdosITE2023" className="dropdown-item">
+                          2023
+                        </Link>
+                      </li>
+                    </ul>
                   </li>
                   <li>
                     <Link to="./Acuerdos2024" className="dropdown-item">
                       2024
                     </Link>
                   </li>
+                  <li>
+                    <hr className="dropdown-divider" />
+                  </li>
+                  <li>
+                    <span className="dropdown-header">-- Acuerdos INE</span>
+                  </li>
+                  <li className="dropdown-submenu">
+                    <Link
+                      to="#"
+                      className="dropdown-item dropdown-toggle"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Anteriores
+                    </Link>
+                    <ul className="dropdown-menu">
+                      <li>
+                        <Link to="./AcuerdosINE" className="dropdown-item">
+                          Mostrar todos
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to="./AcuerdosINE2015" className="dropdown-item">
+                          2015
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to="./AcuerdosINE2016" className="dropdown-item">
+                          2016
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to="./AcuerdosINE2020" className="dropdown-item">
+                          2020
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to="./AcuerdosINE2021" className="dropdown-item">
+                          2021
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to="./AcuerdosINE2022" className="dropdown-item">
+                          2022
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to="./AcuerdosINE2023" className="dropdown-item">
+                          2023
+                        </Link>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <Link to="./AcuerdosINE2024" className="dropdown-item">
+                      2024
+                    </Link>
+                  </li>
                 </ul>
               </li>
+
               <li className="nav-item dropdown">
                 <Link
                   to="./"

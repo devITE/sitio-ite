@@ -15,18 +15,18 @@ import Breadcrumbs from "../../../layout/Breadcrumbs";
 
 const baseUrl = "https://itetlax.org.mx/assets/pdf/acuerdos/ITE/";
 
-const PdfLink = ({ baseUrl, year, url }) => (
-  <a href={`${baseUrl}${year}/${url}`} target="_blank" rel="noreferrer">
+const PdfLink = ({ fullUrl }) => (
+  <a href={fullUrl} target="_blank" rel="noreferrer">
     <FontAwesomeIcon icon={faFilePdf} className="btn btn-danger" />
   </a>
 );
 
-const TableRow = ({ baseUrl, year, title, url }) =>
-  title && url ? (
+const TableRow = ({ title, fullUrl }) =>
+  title ? (
     <tr>
       <td>{title.toUpperCase()}</td>
       <td>
-        <PdfLink baseUrl={baseUrl} year={year} url={url} />
+        <PdfLink fullUrl={fullUrl} />
       </td>
     </tr>
   ) : null;
@@ -86,17 +86,13 @@ const AcuerdosTableITE = ({ year }) => {
             </thead>
             <tbody>
               <tr className="table-secondary">
-                <td>
-                  {`${row.original.typeDoc} ITE-CG ${row.original.id}-${year} ${
-                    row.original.nameDoc || ""
-                  }`}
-                </td>
+                <td>{`${row.original.typeDoc} ITE-CG ${
+                  row.original.id
+                }-${year} ${row.original.nameDoc || ""}`}</td>
                 <td>
                   {row.original.id && (
                     <PdfLink
-                      baseUrl={baseUrl}
-                      year={year}
-                      url={`${row.original.id}.pdf`}
+                      fullUrl={`${baseUrl}${year}/${row.original.id}.pdf`}
                     />
                   )}
                 </td>
@@ -116,10 +112,8 @@ const AcuerdosTableITE = ({ year }) => {
                 return (
                   <TableRow
                     key={index}
-                    baseUrl={baseUrl}
-                    year={year}
                     title={row.original[key]}
-                    url={`${row.original.id}.${index}.pdf`}
+                    fullUrl={`${baseUrl}${year}/${row.original.id}.${index}.pdf`}
                   />
                 );
               })}
@@ -171,16 +165,12 @@ const AcuerdosTableITE = ({ year }) => {
 export default AcuerdosTableITE;
 
 PdfLink.propTypes = {
-  baseUrl: PropTypes.string.isRequired,
-  year: PropTypes.string.isRequired,
-  url: PropTypes.string.isRequired,
+  fullUrl: PropTypes.string.isRequired,
 };
 
 TableRow.propTypes = {
-  baseUrl: PropTypes.string.isRequired,
-  year: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
-  url: PropTypes.string.isRequired,
+  fullUrl: PropTypes.string.isRequired,
 };
 
 AcuerdosTableITE.propTypes = {

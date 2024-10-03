@@ -12,6 +12,7 @@ const monitoreosData = [
   { year: 2021, icon: "34.png" },
   { year: 2023, icon: "36.png" },
   { year: 2024, icon: "2024.png" },
+  { year: "PELE2024", icon: "PELE2024.png" },
 ];
 
 export const Monitoreo = () => {
