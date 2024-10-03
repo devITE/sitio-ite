@@ -1,4 +1,5 @@
 import React, { useMemo, useEffect } from "react";
+import PropTypes from "prop-types";
 import TitlePages from "../../../layout/TitlePages";
 import {
   MaterialReactTable,
@@ -7,26 +8,35 @@ import {
 import { MRT_Localization_ES } from "material-react-table/locales/es";
 import { Box } from "@mui/material";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
+import { faFilePdf, faFileExcel } from "@fortawesome/free-solid-svg-icons";
 import { dataAcuerdosINE2024 } from "../../../data/2024/dataAcuerdos";
 import Expandible from "../../../layout/HelperDataTable/Expandible";
 import Breadcrumbs from "../../../layout/Breadcrumbs";
 
-const PdfLink = ({ url }) => (
-  <a href={url} target="_blank" rel="noreferrer">
-    <FontAwesomeIcon icon={faFilePdf} className="btn btn-danger" />
-  </a>
-);
+const baseUrl = "https://itetlax.org.mx/assets/pdf/acuerdos/INE/2024";
 
-const TableRow = ({ title, url }) =>
-  title && url ? (
+const FileLink = ({ baseUrl, url, type }) => {
+  const icon = type === "pdf" ? faFilePdf : faFileExcel;
+  const className = type === "pdf" ? "btn btn-danger" : "btn btn-success";
+  const fullUrl = `${baseUrl}/${url}`;
+
+  return (
+    <a className="link" href={fullUrl} target="_blank" rel="noreferrer">
+      <FontAwesomeIcon icon={icon} className={className} />
+    </a>
+  );
+};
+
+const TableRow = ({ title, url, type }) => {
+  return title && url ? (
     <tr>
       <td>{title.toUpperCase()}</td>
       <td>
-        <PdfLink url={url} />
+        <FileLink baseUrl={baseUrl} url={url} type={type} />
       </td>
     </tr>
   ) : null;
+};
 
 const AcuerdosINE2024 = () => {
   useEffect(() => {
@@ -36,11 +46,6 @@ const AcuerdosINE2024 = () => {
   const columns = useMemo(
     () => [
       {
-        accessorKey: "idDoc",
-        header: "ID",
-        footer: "ID",
-      },
-      {
         accessorKey: "numDoc",
         header: "DOCUMENTO",
         footer: "DOCUMENTO",
@@ -49,20 +54,6 @@ const AcuerdosINE2024 = () => {
         accessorKey: "nameDoc",
         header: "DESCRIPCIÓN",
         footer: "DESCRIPCIÓN",
-      },
-      {
-        id: "pdf",
-        header: "",
-        footer: "",
-        enableColumnFilters: false,
-        Cell: ({ row }) =>
-          row.original.link === "" ? (
-            <span></span>
-          ) : (
-            <a href={row.original.link} target="_blank" rel="noreferrer">
-              <FontAwesomeIcon icon={faFilePdf} className="btn btn-danger" />
-            </a>
-          ),
       },
     ],
     []
@@ -88,17 +79,35 @@ const AcuerdosINE2024 = () => {
                 {row.original.numDoc} {row.original.nameDoc || ""}
               </td>
               <td>
-                {row.original.link && <PdfLink url={row.original.link} />}
+                <FileLink
+                  baseUrl={baseUrl}
+                  url={row.original.id + ".pdf"}
+                  type="pdf"
+                />
               </td>
             </tr>
             {[...Array(70)].map((_, i) => {
               const index = i + 1;
+              const titlePDF = row.original[`titleAnexoPDF${index}`];
+              const titleExcel = row.original[`titleAnexoEXCEL${index}`];
+
               return (
-                <TableRow
-                  key={index}
-                  title={row.original[`titleAnexo${index}`]}
-                  url={row.original[`pdfAnexo${index}`]}
-                />
+                <React.Fragment key={index}>
+                  {titlePDF && (
+                    <TableRow
+                      title={titlePDF}
+                      url={`${row.original.id}.${index}.pdf`}
+                      type={"pdf"}
+                    />
+                  )}
+                  {titleExcel && (
+                    <TableRow
+                      title={titleExcel}
+                      url={`${row.original.id}.${index}.xlsx`}
+                      type={"excel"}
+                    />
+                  )}
+                </React.Fragment>
               );
             })}
           </tbody>
@@ -150,3 +159,15 @@ const AcuerdosINE2024 = () => {
 };
 
 export default AcuerdosINE2024;
+
+FileLink.propTypes = {
+  baseUrl: PropTypes.string.isRequired,
+  url: PropTypes.string.isRequired,
+  type: PropTypes.oneOf(["pdf", "excel"]).isRequired,
+};
+
+TableRow.propTypes = {
+  title: PropTypes.string.isRequired,
+  url: PropTypes.string.isRequired,
+  type: PropTypes.oneOf(["pdf", "excel"]).isRequired,
+};

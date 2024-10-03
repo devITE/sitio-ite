@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
@@ -14,7 +15,7 @@ const Breadcrumbs = ({ path }) => {
       className="bg-dark-subtle fw-bolder fs-6 text-dark p-2 d-flex "
     >
       {fullPath.map((item, index) => (
-        <React.Fragment key={index}>
+        <React.Fragment key={item.url || item.label || index}>
           {index > 0 && (
             <FontAwesomeIcon
               icon={faChevronRight}
@@ -35,3 +36,12 @@ const Breadcrumbs = ({ path }) => {
 };
 
 export default Breadcrumbs;
+
+Breadcrumbs.propTypes = {
+  path: PropTypes.arrayOf(
+    PropTypes.shape({
+      label: PropTypes.string.isRequired,
+      url: PropTypes.string,
+    })
+  ).isRequired,
+};

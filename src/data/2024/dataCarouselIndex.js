@@ -112,7 +112,6 @@ export const dataCAR = [
   },
   {
     id: 3,
-    id: 3,
     imgUrl: "apoyo_ciudadano.png",
     alt: "Convocatoria",
     url: "",

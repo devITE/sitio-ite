@@ -14,7 +14,7 @@ import Carousel from "../../layout/Carousel/Carousel/Carousel";
 import CarouselItemIMG from "../../layout/Carousel/Carousel/CarouselItemIMG";
 import { dataITEConecta } from "../../data/dataITEConecta";
 
-// import ModalInit from "../../layout/Modal/ModalInit";
+import ModalInit from "../../layout/Modal/ModalInit";
 import "./Home.css";
 
 const ITE = () => {
@@ -24,17 +24,16 @@ const ITE = () => {
 
   return (
     <>
-      {/* <ModalInit
-        imgLink="https://itetlax.org.mx/assets/img/sesionesCG/sesionA.jpg"
-        url="https://itetlax.org.mx/assets/img/sesionesCG/sesionA.jpg"
+      <ModalInit
+        imgLink="https://itetlax.org.mx/assets/img/sesionesCG/sesionA.png"
+        url="https://itetlax.org.mx/assets/img/sesionesCG/sesionA.png"
         linkToo=""
-      /> */}
+      />
       <ModalInit
         imgLink="https://itetlax.org.mx/assets/img/imgPopup/observadores.jpg"
         url="https://observadores.ine.mx/"
         linkToo=""
       />
-      */}
       {/* <ModalInit
         imgLink="https://itetlax.org.mx/assets/img/imgPopup/consultaconvo.jpg"
         url=""
