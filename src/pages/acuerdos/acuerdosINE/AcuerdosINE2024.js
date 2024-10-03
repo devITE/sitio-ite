@@ -54,6 +54,14 @@ const AcuerdosINE2024 = () => {
         accessorKey: "nameDoc",
         header: "DESCRIPCIÓN",
         footer: "DESCRIPCIÓN",
+        muiTableBodyCellProps: {
+          sx: {
+            whiteSpace: "normal",
+            wordWrap: "break-word",
+            maxWidth: "none",
+            width: "auto",
+          },
+        },
       },
     ],
     []
@@ -62,7 +70,7 @@ const AcuerdosINE2024 = () => {
   const renderDetailPanelAcuerdos = ({ row }) => (
     <Box id="Box">
       <div className="table-responsive">
-        <table className="table table-hover table-sm table-bordered table align-middle w-40">
+        <table className="table table-hover table-sm table-bordered table align-middle text-wrap">
           <thead>
             <tr>
               <td colSpan={2}>

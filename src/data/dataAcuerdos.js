@@ -7,7 +7,7 @@ export const dataAcuerdosINE = {
       nameDoc:
         "POR EL QUE SE APRUEBA LA DESIGNACIÓN DEL CONSEJERO PRESIDENTE DEL OPL DE TLAXCALA",
       link: "1",
-      titleAnexo1: "ANEXO DICTAMEN TLAX 2022",
+      titleAnexoPDF1: "ANEXO DICTAMEN TLAX 2022",
     },
     {
       id: 2,
@@ -22,23 +22,23 @@ export const dataAcuerdosINE = {
       nameDoc:
         "CONVOCATORIAS A CIUDADANÍA PARA OBSERVADORA ELECTORAL PEC 2023-2024 Y PEE QUE DERIVEN, Y ANEXOS",
       link: "3",
-      titleAnexo1: "CONVOCATORIA INE",
-      titleAnexo2: "CONVOCATORIA OPLE",
-      titleAnexo3: "ANEXO 1",
-      titleAnexo4: "ANEXO 2",
-      titleAnexo5: "ANEXO 3",
-      titleAnexo6: "ANEXO 4",
-      titleAnexo7: "ANEXO 5",
+      titleAnexoPDF1: "CONVOCATORIA INE",
+      titleAnexoPDF2: "CONVOCATORIA OPLE",
+      titleAnexoPDF3: "ANEXO 1",
+      titleAnexoPDF4: "ANEXO 2",
+      titleAnexoPDF5: "ANEXO 3",
+      titleAnexoPDF6: "ANEXO 4",
+      titleAnexoPDF7: "ANEXO 5",
     },
     {
       id: 4,
       numDoc: "ACUERDO INE CG-537-2023",
       nameDoc: "PERSONAS VISITANTES EXTRANJERAS",
       link: "4",
-      titleAnexo1: "(Anexo 1) Convocatoria VE 23-24",
-      titleAnexo2: "(Anexo 2) Solicitud acreditación VE 23-24",
-      titleAnexo3: "(Anexo 3) Prog. Trab. Visit. Extranjera 23-24",
-      titleAnexo4: "(Anexo 4) Gafete de acreditación VE 23-24",
+      titleAnexoPDF1: "(Anexo 1) Convocatoria VE 23-24",
+      titleAnexoPDF2: "(Anexo 2) Solicitud acreditación VE 23-24",
+      titleAnexoPDF3: "(Anexo 3) Prog. Trab. Visit. Extranjera 23-24",
+      titleAnexoPDF4: "(Anexo 4) Gafete de acreditación VE 23-24",
     },
   ],
 
@@ -65,14 +65,14 @@ export const dataAcuerdosINE = {
       numDoc: "INE JGE-50-2021",
       nameDoc: "ACUERDO INCORPORACIÓN TEMPORAL",
       link: "1",
-      titleAnexo1: "LINEAMIENTOS OPLE INCORPORACIÓN TEMPORAL",
+      titleAnexoPDF1: "LINEAMIENTOS OPLE INCORPORACIÓN TEMPORAL",
     },
     {
       id: 2,
       numDoc: "INE JGE-51-2021",
       nameDoc: "ACUERDO OCUPACIÓN DE ENCARGOS",
       link: "2",
-      titleAnexo1: "LINEAMIENTOS OPLE OCUPACIÓN E ENCARGOS",
+      titleAnexoPDF1: "LINEAMIENTOS OPLE OCUPACIÓN E ENCARGOS",
     },
     {
       id: 3,
@@ -80,8 +80,8 @@ export const dataAcuerdosINE = {
       nameDoc:
         "SE APRUEBA EL PLAN INTEGRAL Y LOS CALENDARIOS DE COORDINACIÓN PARA LOS PROCESOS ELECTORALES LOCALES EXTRAORDINARIOS 2021",
       link: "3",
-      titleAnexo1: "ANEXO 1 PLAN INTEGRAL Y CALENDARIOS DE COORDINACIÓN",
-      titleAnexo3: "ANEXO 3 CONCENTRADO DE ACTIVIDADES",
+      titleAnexoPDF1: "ANEXO 1 PLAN INTEGRAL Y CALENDARIOS DE COORDINACIÓN",
+      titleAnexoPDF3: "ANEXO 3 CONCENTRADO DE ACTIVIDADES",
     },
   ],
 
@@ -91,8 +91,8 @@ export const dataAcuerdosINE = {
       numDoc: "INE CG-255-2020",
       nameDoc: "CONVOCATORIAS OBSERVADORES ELECTORALES",
       link: "1",
-      titleAnexo1: "ANEXO 1 (PUNTO 4)",
-      titleAnexo2: "ANEXO 2 (PUNTO 4)",
+      titleAnexoPDF1: "ANEXO 1 (PUNTO 4)",
+      titleAnexoPDF2: "ANEXO 2 (PUNTO 4)",
     },
     {
       id: 2,
@@ -100,8 +100,8 @@ export const dataAcuerdosINE = {
       nameDoc:
         "BASES Y CRITERIOS PARA EXTRANJEROS QUE ACUDAN A CONOCER EL PROCESO ELECTORAL 2020-2021",
       link: "2",
-      titleAnexo1: "ANEXO 1",
-      titleAnexo2: "ANEXO 2",
+      titleAnexoPDF1: "ANEXO 1",
+      titleAnexoPDF2: "ANEXO 2",
     },
     {
       id: 3,
@@ -120,7 +120,7 @@ export const dataAcuerdosINE = {
       numDoc: "INE JGE-160-2020",
       nameDoc: "ACUERDO DE LA JGE POR EL QUE SE APRUEBAN LINEAMIENTOS",
       link: "5",
-      titleAnexo1: "ANEXO 1",
+      titleAnexoPDF1: "ANEXO 1",
     },
     {
       id: 6,
@@ -149,13 +149,13 @@ export const dataAcuerdosINE = {
       numDoc: "ACUERDOS",
       nameDoc: "RESPUESTAS DE CONSULTAS DE OPLES",
       link: "",
-      titleAnexo1: "ACUERDO INE CVOPL-001-2016",
-      titleAnexo2: "ACUERDO INE CVOPL-002-2016",
-      titleAnexo3: "ACUERDO INE CVOPL-003-2016",
-      titleAnexo4: "ACUERDO INE CVOPL-004-2016",
-      titleAnexo5: "ACUERDO INE CVOPL-005-2016",
-      titleAnexo6: "ACUERDO INE CVOPL-006-2016",
-      titleAnexo7: "ACUERDO INE CVOPL-012-2016",
+      titleAnexoPDF1: "ACUERDO INE CVOPL-001-2016",
+      titleAnexoPDF2: "ACUERDO INE CVOPL-002-2016",
+      titleAnexoPDF3: "ACUERDO INE CVOPL-003-2016",
+      titleAnexoPDF4: "ACUERDO INE CVOPL-004-2016",
+      titleAnexoPDF5: "ACUERDO INE CVOPL-005-2016",
+      titleAnexoPDF6: "ACUERDO INE CVOPL-006-2016",
+      titleAnexoPDF7: "ACUERDO INE CVOPL-012-2016",
     },
     {
       id: 2,
@@ -163,10 +163,10 @@ export const dataAcuerdosINE = {
       numDoc: "ACUERDOS",
       nameDoc: "RESPUESTAS DE CONSULTAS DE OPLES",
       link: "",
-      titleAnexo1: "ACUERDO INE CVOPL-007-2016-CG865",
-      titleAnexo2: "ACUERDO INE CVOPL-008-2016-CG865",
-      titleAnexo3: "ACUERDO INE CVOPL-010-2016-CG865",
-      titleAnexo4: "ACUERDO INE CVOPL-011-2016-CG865",
+      titleAnexoPDF1: "ACUERDO INE CVOPL-007-2016-CG865",
+      titleAnexoPDF2: "ACUERDO INE CVOPL-008-2016-CG865",
+      titleAnexoPDF3: "ACUERDO INE CVOPL-010-2016-CG865",
+      titleAnexoPDF4: "ACUERDO INE CVOPL-011-2016-CG865",
     },
     {
       id: 3,
@@ -213,7 +213,7 @@ export const dataAcuerdosINE = {
       nameDoc:
         "LINEAMIENTOS DE REALIZACIÓN DE VISITAS DE VERIFICACIÓN, PROPAGANDA EN VÍA PÚBLICA Y ETC",
       link: "8",
-      titleAnexo1: "INE_UTVOPL_033_2016-OPLES_004",
+      titleAnexoPDF1: "INE_UTVOPL_033_2016-OPLES_004",
     },
     {
       id: 9,
@@ -238,9 +238,9 @@ export const dataAcuerdosINE = {
       nameDoc:
         "INE-CG1012-2015, INE-CG948-2015 E INE-CG950-2015 LINEAMIENTOS JE",
       link: "",
-      titleAnexo1: "ANEXO_2-CG1012",
-      titleAnexo2: "ANEXO_4-CG1012",
-      titleAnexo3: "RESUMEN-CG948",
+      titleAnexoPDF1: "ANEXO_2-CG1012",
+      titleAnexoPDF2: "ANEXO_4-CG1012",
+      titleAnexoPDF3: "RESUMEN-CG948",
     },
   ],
 
@@ -251,7 +251,7 @@ export const dataAcuerdosINE = {
       numDoc: "INE CG-824-2015",
       nameDoc: "APRUEBA DEMARCACIÓN TERRITORIAL DE LOS DISTRITOS UNINOMINALES",
       link: "1",
-      titleAnexo1: "OFICIO TLAXCALA",
+      titleAnexoPDF1: "OFICIO TLAXCALA",
     },
     {
       id: 2,
@@ -259,7 +259,7 @@ export const dataAcuerdosINE = {
       numDoc: "INE CG-843-2015",
       nameDoc: "SE DETERMINA LA INSTANCIA DE PARTIDOS",
       link: "2",
-      titleAnexo1: "OFICIO TLAXCALA",
+      titleAnexoPDF1: "OFICIO TLAXCALA",
     },
     {
       id: 3,
@@ -276,7 +276,7 @@ export const dataAcuerdosINE = {
       nameDoc:
         "SE CREA LA COMISIÓN TEMPORAL PARA EL SEGUIMIENTO DE LOS PROCESOS ELECTORALES 2015-2016",
       link: "4",
-      titleAnexo1: "TLAXCALA-1",
+      titleAnexoPDF1: "TLAXCALA-1",
     },
     {
       id: 5,
@@ -308,10 +308,10 @@ export const dataAcuerdosINE = {
       numDoc: "INE CG-861-2015",
       nameDoc: "ESTRATEGIA DE CAPACITACIÓN Y ASISTENCIA ELECTORAL 2015-2016",
       link: "8",
-      titleAnexo1: "ANEXO 1",
-      titleAnexo2: "ANEXO 2",
-      titleAnexo3: "ANEXO 3",
-      titleAnexo4: "OFICIO INE_UTVOPL_4725_2015_TLAX",
+      titleAnexoPDF1: "ANEXO 1",
+      titleAnexoPDF2: "ANEXO 2",
+      titleAnexoPDF3: "ANEXO 3",
+      titleAnexoPDF4: "OFICIO INE_UTVOPL_4725_2015_TLAX",
     },
     {
       id: 9,
@@ -320,9 +320,9 @@ export const dataAcuerdosINE = {
       nameDoc:
         "ACATAMIENTOS DE LAS SENTENCIAS DE LA SALA SUPERIOR DE LOS PARTIDOS DEL TRABAJO Y HUMANISTA",
       link: "",
-      titleAnexo1: "ACUERDO INE-CG936-2015",
-      titleAnexo2: "ACUERDO INE-CG937-2015",
-      titleAnexo3: "CIRCULAR INE-UTVOPL-133-15",
+      titleAnexoPDF1: "ACUERDO INE-CG936-2015",
+      titleAnexoPDF2: "ACUERDO INE-CG937-2015",
+      titleAnexoPDF3: "CIRCULAR INE-UTVOPL-133-15",
     },
     {
       id: 10,
@@ -331,7 +331,7 @@ export const dataAcuerdosINE = {
       nameDoc:
         "LINEAMIENTOS GENERALES PARA EL DISEÑO, IMPLEMENTACIÓN Y OPERACIÓN DEL CONTEO RÁPIDO",
       link: "10",
-      titleAnexo1: "CIRCULAR INE-UTVOPL-145-15",
+      titleAnexoPDF1: "CIRCULAR INE-UTVOPL-145-15",
     },
     {
       id: 11,
@@ -340,7 +340,7 @@ export const dataAcuerdosINE = {
       nameDoc:
         "ESTATUTO DEL SERVICIO PROFESIONAL ELECTORAL Y RAMA ADMINISTRATIVA",
       link: "11",
-      titleAnexo1: "CIRCULAR INE-UTVOPL-135-2015",
+      titleAnexoPDF1: "CIRCULAR INE-UTVOPL-135-2015",
     },
     {
       id: 12,
@@ -373,9 +373,9 @@ export const dataAcuerdosINE = {
       nameDoc:
         "CRITERIOS QUE DEBERÁN OBSERVAR LOS OPLES DEL SISTEMA DE SEGUIMIENTO Y DESARROLLO DE LA JORNADA ELECTORAL",
       link: "",
-      titleAnexo1: "ACUERDO INE-CG-951-2015",
-      titleAnexo2: "ACUERDO1 INE-CG-951-2015",
-      titleAnexo3: "CIRCULAR INE_UTVOPL_154_2015_CG951",
+      titleAnexoPDF1: "ACUERDO INE-CG-951-2015",
+      titleAnexoPDF2: "ACUERDO1 INE-CG-951-2015",
+      titleAnexoPDF3: "CIRCULAR INE_UTVOPL_154_2015_CG951",
     },
     {
       id: 16,
@@ -384,9 +384,9 @@ export const dataAcuerdosINE = {
       nameDoc:
         "SE EMITEN LINEAMIENTOS PARA IMPRESIÓN DE DOCUMENTOS Y ELABORACIÓN DE MATERIALES ELECTORALES",
       link: "16",
-      titleAnexo1:
+      titleAnexoPDF1:
         "PARA IMPRESIÓN DE DOCUMENTOS Y ELABORACIÓN DE MATERIALES ELECTORALES",
-      titleAnexo2: "INE_UTVOPL_169_2015_CG950",
+      titleAnexoPDF2: "INE_UTVOPL_169_2015_CG950",
     },
     {
       id: 17,
@@ -402,7 +402,7 @@ export const dataAcuerdosINE = {
       numDoc: "INE CG-948-2015",
       nameDoc: "LINEAMIENTOS DE PARTICIPACIÓN CIUDADANA",
       link: "18",
-      titleAnexo1: "INE-UTVOPL-174-2015",
+      titleAnexoPDF1: "INE-UTVOPL-174-2015",
     },
     {
       id: 19,
@@ -411,7 +411,7 @@ export const dataAcuerdosINE = {
       nameDoc:
         "SE PRECISAN LOS ALCANCES DE LAS ATRIBUCIONES DE LAS COMISIÓN TEMPORAL",
       link: "19",
-      titleAnexo1: "CIRCULAR INE-UTVOPL-167-2015",
+      titleAnexoPDF1: "CIRCULAR INE-UTVOPL-167-2015",
     },
     {
       id: 20,
@@ -420,7 +420,7 @@ export const dataAcuerdosINE = {
       nameDoc:
         "SE PRECISAN LOS ALCANCES DE LAS ATRIBUCIONES DE LAS COMISIÓN TEMPORAL",
       link: "20",
-      titleAnexo1: "CIRCULAR INE-UTVOPL-167-2015",
+      titleAnexoPDF1: "CIRCULAR INE-UTVOPL-167-2015",
     },
     {
       id: 21,
@@ -429,7 +429,7 @@ export const dataAcuerdosINE = {
       nameDoc:
         "LINEAMIENTOS PARA EL REGISTRO DE LOS OTRORA PARTIDOS NACIONALES PARA OPTAR COMO PARTIDO LOCAL",
       link: "",
-      titleAnexo1: "INE-UTVOPL-165-2015",
+      titleAnexoPDF1: "INE-UTVOPL-165-2015",
     },
     {
       id: 22,
@@ -438,7 +438,7 @@ export const dataAcuerdosINE = {
       nameDoc:
         "MODIFICACIÓN DEL REGLAMENTO DE SESIONES DE LOS CONSEJOS LOCALES Y DISTRTITALES DEL INE",
       link: "",
-      titleAnexo1: "CIRCULAR INE-UTVOPL-185-2015",
+      titleAnexoPDF1: "CIRCULAR INE-UTVOPL-185-2015",
     },
     {
       id: 23,
@@ -463,7 +463,7 @@ export const dataAcuerdosINE = {
       nameDoc:
         "RESOLUCIÓN DEL PT DERIVADA DEL RECURSO DE REVISIÓN SUP-RAP-756-2015",
       link: "25",
-      titleAnexo1: "INE_UTVOPL_197_2015_CG936",
+      titleAnexoPDF1: "INE_UTVOPL_197_2015_CG936",
     },
     {
       id: 26,
@@ -471,10 +471,10 @@ export const dataAcuerdosINE = {
       numDoc: "ACUERDOS",
       nameDoc: "",
       link: "",
-      titleAnexo1: "INE ACRT-40-2015 (CATÁLOGO NACIONAL)",
-      titleAnexo2: "INE CG-980-2015 (PUBLICACIÓN DEL CAT)",
-      titleAnexo3: "INE ACRT-45-2015 (APROB MODELOS DE PAUTAS)",
-      titleAnexo4: "INE JGE-160-2015",
+      titleAnexoPDF1: "INE ACRT-40-2015 (CATÁLOGO NACIONAL)",
+      titleAnexoPDF2: "INE CG-980-2015 (PUBLICACIÓN DEL CAT)",
+      titleAnexoPDF3: "INE ACRT-45-2015 (APROB MODELOS DE PAUTAS)",
+      titleAnexoPDF4: "INE JGE-160-2015",
     },
     {
       id: 27,
@@ -491,9 +491,9 @@ export const dataAcuerdosINE = {
       numDoc: "INE CG-824-",
       nameDoc: "NUEVA DEMARCACIÓN TERRITORIAL",
       link: "28",
-      titleAnexo1: "DESCRIPTIVO DE TLAXCALA",
-      titleAnexo2: "ESCENARIO FINAL TLAXCALA",
-      titleAnexo3: "MAPA TLAXCALA",
+      titleAnexoPDF1: "DESCRIPTIVO DE TLAXCALA",
+      titleAnexoPDF2: "ESCENARIO FINAL TLAXCALA",
+      titleAnexoPDF3: "MAPA TLAXCALA",
     },
     {
       id: 29,
@@ -501,7 +501,7 @@ export const dataAcuerdosINE = {
       numDoc: "RAP-1049-2015",
       nameDoc: "RESOLUCIÓN DEL INE RELATIVO AL REGISTRO DEL PT",
       link: "29",
-      titleAnexo1: "CIRCULAR INE-UTVOPL-210-2015",
+      titleAnexoPDF1: "CIRCULAR INE-UTVOPL-210-2015",
     },
     {
       id: 30,
@@ -509,8 +509,8 @@ export const dataAcuerdosINE = {
       numDoc: "ACUERDOS",
       nameDoc: "ACUERDOS DONDE INCLUYEN AL PT EN LAS PAUTAS DE RADIO Y TV",
       link: "",
-      titleAnexo1: "ACUERDO INE ACRT-49-2015",
-      titleAnexo2: "ACUERDO INE-ACRT-51-2015",
+      titleAnexoPDF1: "ACUERDO INE ACRT-49-2015",
+      titleAnexoPDF2: "ACUERDO INE-ACRT-51-2015",
     },
     {
       id: 33,
@@ -518,10 +518,11 @@ export const dataAcuerdosINE = {
       numDoc: "INE CG-813-2015",
       nameDoc: "DESIGNACIÓN DEL CONSEJO GENERAL DE TLAXCALA",
       link: "33",
-      titleAnexo1: "DICTAMEN TLAXCALA",
+      titleAnexoPDF1: "DICTAMEN TLAXCALA",
     },
   ],
 };
+
 
 // ------------ A C U E R D O S    I T E ------------
 

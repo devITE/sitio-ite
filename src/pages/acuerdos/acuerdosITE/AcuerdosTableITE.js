@@ -1,4 +1,5 @@
 import React, { useMemo, useEffect } from "react";
+import PropTypes from "prop-types";
 import TitlePages from "../../../layout/TitlePages";
 import {
   MaterialReactTable,
@@ -168,3 +169,20 @@ const AcuerdosTableITE = ({ year }) => {
 };
 
 export default AcuerdosTableITE;
+
+PdfLink.propTypes = {
+  baseUrl: PropTypes.string.isRequired,
+  year: PropTypes.string.isRequired,
+  url: PropTypes.string.isRequired,
+};
+
+TableRow.propTypes = {
+  baseUrl: PropTypes.string.isRequired,
+  year: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
+  url: PropTypes.string.isRequired,
+};
+
+AcuerdosTableITE.propTypes = {
+  year: PropTypes.string.isRequired,
+};

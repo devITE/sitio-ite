@@ -1,4 +1,5 @@
 import React, { useMemo, useEffect } from "react";
+import PropTypes from "prop-types";
 import TitlePages from "../../../layout/TitlePages";
 import {
   MaterialReactTable,
@@ -27,10 +28,6 @@ const FileLink = ({ baseUrl, year, url, type }) => {
 };
 
 const TableRow = ({ baseUrl, year, title, url, type }) => {
-  if (title && url) {
-    console.log(`Title: ${title.toUpperCase()}, URL: ${url}, TYPE: ${type}`);
-  }
-
   return title && url ? (
     <tr>
       <td>{title.toUpperCase()}</td>
@@ -94,22 +91,21 @@ const AcuerdosTableINE = ({ year }) => {
                     baseUrl={baseUrl}
                     year={year}
                     url={row.original.link + ".pdf"}
+                    type={"pdf"}
                   />
                 )}
               </td>
             </tr>
             {[...Array(70)].map((_, i) => {
               const index = i + 1;
-              const anexoPDF = row.original[`AnexoPDF${index}`];
-              const anexoEXCEL = row.original[`AnexoPDF${index}`];
               return (
                 <>
                   <TableRow
-                    key={`pdf-${index}`}
+                    key={index}
                     baseUrl={baseUrl}
                     year={year}
-                    title={anexoPDF}
-                    url={[`.${index}.pdf`]}
+                    title={row.original[`titleAnexoPDF${index}`]}
+                    url={`${row.original.id}.${index}.pdf`}
                     type="pdf"
                   />
 
@@ -117,8 +113,8 @@ const AcuerdosTableINE = ({ year }) => {
                     key={`excel-${index}`}
                     baseUrl={baseUrl}
                     year={year}
-                    title={anexoEXCEL}
-                    url={[`.${index}.xlsx`]}
+                    title={row.original[`titleAnexoEXCEL${index}`]}
+                    url={`${row.original.id}.${index}.xlsx`}
                     type="excel"
                   />
                 </>
@@ -173,3 +169,22 @@ const AcuerdosTableINE = ({ year }) => {
 };
 
 export default AcuerdosTableINE;
+
+FileLink.propTypes = {
+  baseUrl: PropTypes.string.isRequired,
+  url: PropTypes.string.isRequired,
+  year: PropTypes.string.isRequired,
+  type: PropTypes.oneOf(["pdf", "excel"]).isRequired,
+};
+
+TableRow.propTypes = {
+  baseUrl: PropTypes.string.isRequired,
+  year: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
+  url: PropTypes.string.isRequired,
+  type: PropTypes.oneOf(["pdf", "excel"]).isRequired,
+};
+
+AcuerdosTableINE.propTypes = {
+  year: PropTypes.string.isRequired,
+};

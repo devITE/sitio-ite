@@ -1873,6 +1873,7 @@ export const dataAcuerdos2024 = [
     monthDoc: "SEP",
     nameDoc: "INFORME DEL SISTEMA CONÓCELES",
     titleAnexo1: "ANEXO UNICO INFORME DEL SISTEMA CONÓCELES",
+    titleAnexo2: "FE DE ERRATAS ACUERDO ITE-CG 243-2024",
   },
 ];
 
