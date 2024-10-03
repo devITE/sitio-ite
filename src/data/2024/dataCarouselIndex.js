@@ -70,13 +70,27 @@ export const dataCIndex = [
     linkToo: "",
   },
   {
-    id: 14,
+    id: 11,
     imgUrl: "convocatoria_revista_AMCEE_.jpg",
+    alt: "56",
+    url: "https://amcee.org.mx/wp-content/uploads/2024/04/5ta-convocatoria-AMCEE.pdf",
+    linkToo: "",
+  },
+  {
+    id: 12,
+    imgUrl: "convocatoria_oratoria.png",
+    alt: "56",
+    url: "https://itetlax.org.mx/assets/img/imgC_I/convocatoria_oratoria.pdf",
+    linkToo: "",
+  },
+  {
+    id: 13,
+    imgUrl: "concurso_tet.jpg",
     alt: "56",
     itemActive: "active",
     buttonActive: "active",
     ariaCurrent: "true",
-    url: "https://amcee.org.mx/wp-content/uploads/2024/04/5ta-convocatoria-AMCEE.pdf",
+    url: "https://www.te.gob.mx/TribunalElectoralInfantil/",
     linkToo: "",
   },
 ];
@@ -97,6 +111,7 @@ export const dataCAR = [
     linkToo: "",
   },
   {
+    id: 3,
     id: 3,
     imgUrl: "apoyo_ciudadano.png",
     alt: "Convocatoria",

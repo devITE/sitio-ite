@@ -14,7 +14,7 @@ import Carousel from "../../layout/Carousel/Carousel/Carousel";
 import CarouselItemIMG from "../../layout/Carousel/Carousel/CarouselItemIMG";
 import { dataITEConecta } from "../../data/dataITEConecta";
 
-import ModalInit from "../../layout/Modal/ModalInit";
+// import ModalInit from "../../layout/Modal/ModalInit";
 import "./Home.css";
 
 const ITE = () => {
@@ -24,18 +24,17 @@ const ITE = () => {
 
   return (
     <>
-      {/*<ModalInit
-        imgLink="https://itetlax.org.mx/assets/img/sesionesCG/sesionA.png"
-        url="https://itetlax.org.mx/assets/img/sesionesCG/sesionA.png"
+      {/* <ModalInit
+        imgLink="https://itetlax.org.mx/assets/img/sesionesCG/sesionA.jpg"
+        url="https://itetlax.org.mx/assets/img/sesionesCG/sesionA.jpg"
         linkToo=""
-      />*/}
-
+      /> */}
       <ModalInit
         imgLink="https://itetlax.org.mx/assets/img/imgPopup/observadores.jpg"
         url="https://observadores.ine.mx/"
         linkToo=""
       />
-
+      */}
       {/* <ModalInit
         imgLink="https://itetlax.org.mx/assets/img/imgPopup/consultaconvo.jpg"
         url=""
@@ -53,7 +52,6 @@ const ITE = () => {
           />
         ))}
       </Carousel>
-
       <div className="mt-5 Home__AR-A">
         <div>
           <h2 className="bottom_title">
@@ -153,7 +151,6 @@ const ITE = () => {
           </div>
         </div>
       </div>
-
       <h3 className="mt-5 bottom_title">Micrositios</h3>
       <div className="row">
         <div className="col-12 col-md-3">
@@ -244,10 +241,8 @@ const ITE = () => {
           </a>
         </div>
       </div>
-
       {/* <h3 className="mt-5 bottom_title">Videos</h3>
       <Videoteca items={dataVideoteca} itemsID={"videoteca"} /> */}
-
       <div className="mt-5 container">
         <h3 className="mt-1 bottom_title">Videos INE</h3>
         <div className="row justify-content-center">
@@ -344,7 +339,6 @@ const ITE = () => {
           </div>
         </div>
       </div>
-
       <div className="Home__pages">
         <div>
           <a target="_blank" href="https://ine.mx" rel="noreferrer">

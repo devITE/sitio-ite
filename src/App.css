@@ -52,7 +52,6 @@ a {
 
 .bottom_title {
   margin: 10px 0 15px 0 !important;
-  font-family: "Segoe UI Light";
   border-bottom-width: 2px;
   border-bottom-style: dashed;
   border-bottom-color: var(--ite-color-primary);
@@ -80,7 +79,6 @@ a {
 }
 
 .btn-ite {
-  /* color: rgba(0, 0, 0, 0.125); */
   --bs-btn-color: var(--ite-color-primary);
   --bs-btn-hover-color: #fff;
   --bs-btn-hover-bg: #aa0787;
@@ -141,7 +139,6 @@ a {
 .App__container {
   margin: auto;
   text-align: justify;
-  font-family: "Segoe UI Light" !important;
 }
 
 .Galeria__responsive {
@@ -213,7 +210,6 @@ a {
 
 table thead tr th,
 table tfoot tr td,
-table thead tr th,
 .MuiFormControl-root,
 .MuiInputBase-root {
   background-color: var(--ite-color-primary) !important;
