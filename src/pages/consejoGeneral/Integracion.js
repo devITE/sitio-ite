@@ -112,11 +112,6 @@ const Integración = () => {
       altText: "pri",
     },
     {
-      href: "https://www.prd.org.mx/",
-      imgSrc: "https://itetlax.org.mx/assets/img/intPP/3.jpg",
-      altText: "prd",
-    },
-    {
       href: "http://pttlaxcala.com.mx/",
       imgSrc: "https://itetlax.org.mx/assets/img/intPP/4.jpg",
       altText: "pt",
