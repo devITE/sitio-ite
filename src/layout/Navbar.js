@@ -127,122 +127,122 @@ export default class Navbar extends Component {
                         </Link>
                       </li>
                       <li>
-                        <Link to="./AcuerdosITE1998" className="dropdown-item">
+                        <Link to="./Acuerdos1998" className="dropdown-item">
                           1998
                         </Link>
                       </li>
                       <li>
-                        <Link to="./AcuerdosITE2001" className="dropdown-item">
+                        <Link to="./Acuerdos2001" className="dropdown-item">
                           2001
                         </Link>
                       </li>
                       <li>
-                        <Link to="./AcuerdosITE2002" className="dropdown-item">
+                        <Link to="./Acuerdos2002" className="dropdown-item">
                           2002
                         </Link>
                       </li>
                       <li>
-                        <Link to="./AcuerdosITE2003" className="dropdown-item">
+                        <Link to="./Acuerdos2003" className="dropdown-item">
                           2003
                         </Link>
                       </li>
                       <li>
-                        <Link to="./AcuerdosITE2004" className="dropdown-item">
+                        <Link to="./Acuerdos2004" className="dropdown-item">
                           2004
                         </Link>
                       </li>
                       <li>
-                        <Link to="./AcuerdosITE2005" className="dropdown-item">
+                        <Link to="./Acuerdos2005" className="dropdown-item">
                           2005
                         </Link>
                       </li>
                       <li>
-                        <Link to="./AcuerdosITE2006" className="dropdown-item">
+                        <Link to="./Acuerdos2006" className="dropdown-item">
                           2006
                         </Link>
                       </li>
                       <li>
-                        <Link to="./AcuerdosITE2007" className="dropdown-item">
+                        <Link to="./Acuerdos2007" className="dropdown-item">
                           2007
                         </Link>
                       </li>
                       <li>
-                        <Link to="./AcuerdosITE2008" className="dropdown-item">
+                        <Link to="./Acuerdos2008" className="dropdown-item">
                           2008
                         </Link>
                       </li>
                       <li>
-                        <Link to="./AcuerdosITE2009" className="dropdown-item">
+                        <Link to="./Acuerdos2009" className="dropdown-item">
                           2009
                         </Link>
                       </li>
                       <li>
-                        <Link to="./AcuerdosITE2010" className="dropdown-item">
+                        <Link to="./Acuerdos2010" className="dropdown-item">
                           2010
                         </Link>
                       </li>
                       <li>
-                        <Link to="./AcuerdosITE2011" className="dropdown-item">
+                        <Link to="./Acuerdos2011" className="dropdown-item">
                           2011
                         </Link>
                       </li>
                       <li>
-                        <Link to="./AcuerdosITE2012" className="dropdown-item">
+                        <Link to="./Acuerdos2012" className="dropdown-item">
                           2012
                         </Link>
                       </li>
                       <li>
-                        <Link to="./AcuerdosITE2013" className="dropdown-item">
+                        <Link to="./Acuerdos2013" className="dropdown-item">
                           2013
                         </Link>
                       </li>
                       <li>
-                        <Link to="./AcuerdosITE2014" className="dropdown-item">
+                        <Link to="./Acuerdos2014" className="dropdown-item">
                           2014
                         </Link>
                       </li>
                       <li>
-                        <Link to="./AcuerdosITE2015" className="dropdown-item">
+                        <Link to="./Acuerdos2015" className="dropdown-item">
                           2015
                         </Link>
                       </li>
                       <li>
-                        <Link to="./AcuerdosITE2016" className="dropdown-item">
+                        <Link to="./Acuerdos2016" className="dropdown-item">
                           2016
                         </Link>
                       </li>
                       <li>
-                        <Link to="./AcuerdosITE2017" className="dropdown-item">
+                        <Link to="./Acuerdos2017" className="dropdown-item">
                           2017
                         </Link>
                       </li>
                       <li>
-                        <Link to="./AcuerdosITE2018" className="dropdown-item">
+                        <Link to="./Acuerdos2018" className="dropdown-item">
                           2018
                         </Link>
                       </li>
                       <li>
-                        <Link to="./AcuerdosITE2019" className="dropdown-item">
+                        <Link to="./Acuerdos2019" className="dropdown-item">
                           2019
                         </Link>
                       </li>
                       <li>
-                        <Link to="./AcuerdosITE2020" className="dropdown-item">
+                        <Link to="./Acuerdos2020" className="dropdown-item">
                           2020
                         </Link>
                       </li>
                       <li>
-                        <Link to="./AcuerdosITE2021" className="dropdown-item">
+                        <Link to="./Acuerdos2021" className="dropdown-item">
                           2021
                         </Link>
                       </li>
                       <li>
-                        <Link to="./AcuerdosITE2022" className="dropdown-item">
+                        <Link to="./Acuerdos2022" className="dropdown-item">
                           2022
                         </Link>
                       </li>
                       <li>
-                        <Link to="./AcuerdosITE2023" className="dropdown-item">
+                        <Link to="./Acuerdos2023" className="dropdown-item">
                           2023
                         </Link>
                       </li>
