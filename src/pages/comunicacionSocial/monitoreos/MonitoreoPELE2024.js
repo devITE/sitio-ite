@@ -95,7 +95,7 @@ const MonitoreosPELE2024 = () => {
       <Breadcrumbs
         path={[
           { label: "Comunicación Social", url: "/ComunicacionSocial" },
-          { label: "Monitoreos", url: "/MonitoreoSPELE2024" },
+          { label: "Monitoreos", url: "/Monitoreo" },
           { label: `Monitoreos PELE 2024` },
         ]}
       />
