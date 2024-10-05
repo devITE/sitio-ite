@@ -17,6 +17,10 @@ import { dataITEConecta } from "../../data/dataITEConecta";
 import ModalInit from "../../layout/Modal/ModalInit";
 import "./Home.css";
 
+// contador de PELE 2024
+import FlipClockCountdown from "@leenguyen/react-flip-clock-countdown";
+import "@leenguyen/react-flip-clock-countdown/dist/index.css";
+
 const ITE = () => {
   useEffect(() => {
     document.title = `ITE`;
@@ -24,11 +28,20 @@ const ITE = () => {
 
   return (
     <>
-      <ModalInit
+      <h1 className="text-center fw-bolder">Elecciones 2024</h1>
+      <p className="text-center text-dark fs-3 fw-bolder mb-0">faltan:</p>
+      <div className=" d-flex justify-content-center align-items-center mt-3 mb-5">
+        <FlipClockCountdown
+          to="2024-11-24 08:00:00"
+          labels={["Días", "Horas", "Minutos", "Segundos"]}
+        />
+      </div>
+
+      {/* <ModalInit
         imgLink="https://itetlax.org.mx/assets/img/sesionesCG/sesionA.png"
         url="https://itetlax.org.mx/assets/img/sesionesCG/sesionA.png"
         linkToo=""
-      />
+      /> */}
       <ModalInit
         imgLink="https://itetlax.org.mx/assets/img/imgPopup/observadores.jpg"
         url="https://observadores.ine.mx/"

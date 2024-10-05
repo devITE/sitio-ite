@@ -4,6 +4,10 @@ import TitlePages from "../../layout/TitlePages";
 import Breadcrumbs from "../../layout/Breadcrumbs";
 
 const acuerdosData = [
+  { year: 2023, icon: "36.png" },
+  { year: 2022, icon: "35.png" },
+  { year: 2021, icon: "34.png" },
+  { year: 2020, icon: "33.png" },
   { year: 2019, icon: "32.png" },
   { year: 2018, icon: "31.png" },
   { year: 2017, icon: "30.png" },
