@@ -14,10 +14,13 @@ body {
   text-align: justify;
 }
 
+a {
+  cursor: pointer;
+}
+
 .bg-ite {
   background: var(--ite-color-primary);
 }
-
 
 li::marker {
   color: var(--ite-color-primary);
@@ -25,22 +28,13 @@ li::marker {
   font-size: 20px;
 }
 
-.dropdown-submenu:hover .dropdown-menu {
-  display: block;
-  left: 100%;
-  top: 0;
-  position: absolute;
-}
-
-.dropdown-submenu {
-  position: relative;
-}
-
+/* Typography */
 h1,
 h2,
 h3,
 h4,
-h5, .text-strong,
+h5,
+.text-strong,
 strong {
   color: var(--ite-color-primary);
   font-weight: bolder !important;
@@ -56,10 +50,6 @@ strong {
   opacity: 1;
 }
 
-a {
-  cursor: pointer;
-}
-
 .bottom_title {
   margin: 10px 0 15px 0 !important;
   border-bottom-width: 2px;
@@ -68,6 +58,7 @@ a {
   border-top: none;
 }
 
+/* Widths */
 .w-15 {
   width: 15% !important;
 }
@@ -88,6 +79,7 @@ a {
   width: 90% !important;
 }
 
+/* Button Styles */
 .btn-ite {
   --bs-btn-color: var(--ite-color-primary);
   --bs-btn-hover-color: #fff;
@@ -106,6 +98,7 @@ a {
   --bs-gradient: none;
 }
 
+/* Hover Effects */
 .hover-ite {
   border-radius: 10px;
   box-shadow: 5px 5px 5px #a0a0a0;
@@ -116,6 +109,7 @@ a {
   transform: scale(1.03);
 }
 
+/* Content Grid */
 .Content__grid,
 .Grid__folder,
 .Grid__four,
@@ -142,25 +136,24 @@ a {
   transform: scale(1.2);
 }
 
+/* Accordion */
 .acordionn-body-ite {
   padding: 0 !important;
 }
 
+/* Container */
 .App__container {
   margin: auto;
   text-align: justify;
 }
 
+/* Gallery */
 .Galeria__responsive {
   margin: 1rem auto;
   width: 100%;
   max-width: 960px;
   column-count: 3;
-  -moz-column-gap: 20px;
-  -webkit-column-gap: 20px;
   column-gap: 20px;
-  -moz-row-gap: 20px;
-  -webkit-row-gap: 20px;
   row-gap: 20px;
 }
 
@@ -170,6 +163,7 @@ a {
   page-break-inside: avoid;
 }
 
+/* Miscellaneous */
 ._2aOn7 {
   color: var(--ite-color-primary) !important;
   font-weight: bolder !important;
@@ -181,33 +175,25 @@ a {
   border-radius: 0 0 10px 10px !important;
 }
 
-._SKh-V, ._2v-d4 {
+._SKh-V,
+._2v-d4 {
   background: var(--ite-color-primary) !important;
   font-weight: bolder !important;
   color: #dddddd !important;
   border-radius: 10px 10px 0 0 !important;
-
 }
 
-@media only screen and (max-width: 767px) {
-  ._qWTcH {
-    --fcc-digit-block-width: 30px !important;
-    --fcc-digit-block-height: 40px !important;
-    --fcc-digit-font-size: 25px !important;
-    --fcc-label-font-size: 15px;
-  }
-}
-
+/* Modal */
 .modal-header {
   background: var(--ite-color-primary) !important;
 }
 
-.modal-title, .accordion-button {
+.modal-title,
+.accordion-button {
   color: #ffffff !important;
 }
 
-/* --------------- T A B L E     A N D     D A T A     T A B L E --------------- */
-
+/* Table Styles */
 #Box {
   padding: 10px;
   width: 100%;
@@ -237,8 +223,7 @@ table tbody tr td .MuiSvgIcon-root {
   color: var(--ite-color-primary) !important;
 }
 
-/* --------------- C A R O U S E L --------------- */
-
+/* Carousel Styles */
 .carousel-control-prev-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ba1678' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
 }
@@ -258,9 +243,9 @@ table tbody tr td .MuiSvgIcon-root {
   margin-left: 5px !important;
 }
 
-/* --------------- M E D I A     Q U E R I E S --------------- */
+/* Media Queries */
 
-/* general */
+/* Desktop */
 @media only screen and (min-width: 1024px) {
   .App__container {
     width: 75%;
@@ -311,7 +296,7 @@ table tbody tr td .MuiSvgIcon-root {
   }
 }
 
-/* tablets */
+/* Tablets */
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
   .App__container {
     width: 85%;
@@ -348,7 +333,7 @@ table tbody tr td .MuiSvgIcon-root {
   }
 }
 
-/* mobil */
+/* Mobile */
 @media only screen and (max-width: 767px) {
   .App__container {
     width: 90%;

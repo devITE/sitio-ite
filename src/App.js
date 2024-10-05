@@ -4,7 +4,7 @@ import "./App.css";
 
 //Layout
 import Header from "./layout/Header";
-import Navbar from "./layout/Navbar";
+import NavbarMenu from "./layout/NavbarMenu";
 import Home from "./pages/index/Home";
 import Footer from "./layout/Footer";
 
@@ -132,7 +132,7 @@ function App() {
   return (
     <Router>
       <Header></Header>
-      <Navbar></Navbar>
+      <NavbarMenu></NavbarMenu>
       <div className="mt-3 App__container">
         <Routes>
           <Route path="*" element={<NotFound />} />
