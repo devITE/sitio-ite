@@ -1900,6 +1900,48 @@ export const dataAcuerdos2024 = [
     monthDoc: "OCT",
     nameDoc: "ADECUACION DE COMISIONES Y JGE",
   },
+  {
+    id: 248,
+    typeDoc: "ACUERDO",
+    monthDoc: "OCT",
+    nameDoc: "APOYO CON UN TERCERO PARA EL PREP DEL PELE 2024",
+  },
+  {
+    id: 249,
+    typeDoc: "RESOLUCIÓN",
+    monthDoc: "OCT",
+    nameDoc: "EXP POS CQD-Q-GJBR-CG-005-2024",
+  },
+  {
+    id: 250,
+    typeDoc: "ACUERDO",
+    monthDoc: "OCT",
+    nameDoc: "MANUAL DE REGISTRO PELE 2024",
+    titleAnexo1: "ANEXO ÚNICO MANUAL DE REGISTRO PELE 2024",
+    titleAnexo2: "FORMATO 1.1 SOLICITUD DE REGISTRO INTEGRANTES AYUNTAMIENTO",
+    titleAnexo3: "FORMATO 1.2 SOLICITUD REGISTRO PRESIDENCIA DE COMUNIDAD",
+    titleAnexo4: "FORMATO 2.1 CONSTANCIA DE ACEPTACIÓN POSTULACION  IA",
+    titleAnexo5: "FORMATO 2.2 CONSTANCIA DE ACEPTACION PC",
+    titleAnexo6: "FORMATO 3.1 MANIFESTACIÓN BAJO PROTESTA IA",
+    titleAnexo7: "FORMATO 3.2 MANIFESTACION BAJO PROTESTA PC",
+    titleAnexo8: "FORMATO 4.1 ESCRITO DE NORMA ESTATUTARIA IA",
+    titleAnexo9: "FORMATO 4.2 ESCRITO NORMA ESTATUTARIA PC",
+    titleAnexo10: "FORMATO 5.1 ESCRITO BAJO PROTESTA ART 38 F. VII IA",
+    titleAnexo11: "FORMATO 5.2 ESCRITO BAJO PROTESTA ART 38 F. VII PC",
+  },
+  {
+    id: 251,
+    typeDoc: "ACUERDO",
+    monthDoc: "OCT",
+    nameDoc: "BODEGA ELECTORAL",
+    titleAnexo1: "BODEGA ELECTORAL",
+  },
+  {
+    id: 252,
+    typeDoc: "ACUERDO",
+    monthDoc: "OCT",
+    nameDoc: "RESPUESTA A SOLICITUD",
+  },
 ];
 
 // ------------ A C U E R D O S    I N E ------------
