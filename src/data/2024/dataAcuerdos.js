@@ -1875,6 +1875,31 @@ export const dataAcuerdos2024 = [
     titleAnexo1: "ANEXO UNICO INFORME DEL SISTEMA CONÓCELES",
     titleAnexo2: "FE DE ERRATAS ACUERDO ITE-CG 243-2024",
   },
+  {
+    id: 244,
+    typeDoc: "ACUERDO",
+    monthDoc: "OCT",
+    nameDoc: "PERDIDA DE REGISTRO PRD",
+  },
+  {
+    id: 245,
+    typeDoc: "ACUERDO",
+    monthDoc: "OCT",
+    nameDoc: "VIGENCIA DE ACUERDOS PARA PELE 2024",
+    titleAnexo1: "LINEAMIENTOS PARA EL REGISTRO DE CANDIDATURAS 2024 PELE",
+  },
+  {
+    id: 246,
+    typeDoc: "ACUERDO",
+    monthDoc: "OCT",
+    nameDoc: "ATRIBUCIONES Y FACULTADES DE LOS C M PELE 2024",
+  },
+  {
+    id: 247,
+    typeDoc: "ACUERDO",
+    monthDoc: "OCT",
+    nameDoc: "ADECUACION DE COMISIONES Y JGE",
+  },
 ];
 
 // ------------ A C U E R D O S    I N E ------------

@@ -1,4 +1,26 @@
 export const dataInf = {
+  2024: [
+    {
+      id: 1,
+      month: "Septiembre",
+      managerId: null,
+    },
+    {
+      alt: "Vinculación SIVOPLE",
+      link: "vinculacion.jpeg",
+      managerId: 1,
+    },
+    {
+      id: 2,
+      month: "Octubre",
+      managerId: null,
+    },
+    {
+      alt: "Medios de impugnacion",
+      link: "impugnacion.jpg",
+      managerId: 2,
+    },
+  ],
   2023: [
     {
       id: 1,
@@ -37,7 +59,7 @@ export const dataInf = {
     },
     {
       alt: "Estudio de participación ciudadana",
-      link: "https://participacion-ciudadana.itetlax.org.mx/assets/img/infografias/7.jpg",
+      link: "7.jpg",
       managerId: 4,
     },
     {
@@ -70,26 +92,26 @@ export const dataInf = {
       link: "6.jpg",
       managerId: 7,
     },
-    {
-      id: 8,
-      month: "Octubre",
-      managerId: null,
-    },
-    {
-      alt: "Coordinación de Género y No Discriminación del ITE",
-      link: "11.jpg",
-      managerId: 8,
-    },
-    {
-      id: 9,
-      month: "Noviembre",
-      managerId: null,
-    },
-    {
-      alt: "En qué consiste el Procedimiento Especial Sancionador",
-      link: "12.jpg",
-      managerId: 9,
-    },
+    // {
+    //   id: 8,
+    //   month: "Octubre",
+    //   managerId: null,
+    // },
+    // {
+    //   alt: "Coordinación de Género y No Discriminación del ITE",
+    //   link: "11.jpg",
+    //   managerId: 8,
+    // },
+    // {
+    //   id: 9,
+    //   month: "Noviembre",
+    //   managerId: null,
+    // },
+    // {
+    //   alt: "En qué consiste el Procedimiento Especial Sancionador",
+    //   link: "12.jpg",
+    //   managerId: 9,
+    // },
   ],
   2022: [
     {

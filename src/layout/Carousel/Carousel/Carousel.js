@@ -5,7 +5,7 @@ export default function Carousel({ idCarousel, children }) {
   return (
     <div
       id={idCarousel}
-      className="carousel slide"
+      className="carousel slide shadow"
       data-ride="carousel"
       data-bs-ride="carousel"
     >

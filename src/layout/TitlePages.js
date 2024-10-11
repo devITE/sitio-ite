@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import "./TitlePages.css";
 
 const TitlePages = (props) => {
@@ -28,3 +29,8 @@ const TitlePages = (props) => {
   );
 };
 export default TitlePages;
+
+TitlePages.propTypes = {
+  title: PropTypes.string.isRequired,
+  subTitle: PropTypes.string.isRequired,
+};

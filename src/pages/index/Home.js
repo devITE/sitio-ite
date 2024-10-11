@@ -2,8 +2,6 @@ import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import Enlaces from "./enlaces/Enlaces";
 import { dataCIndex, dataCAR, dataCA } from "../../data/2024/dataCarouselIndex";
-import Convocatorias from "../../layout/Index/Convocatorias";
-import { dataConvocatorias } from "../../data/2024/dataEstradosConvocatorias";
 
 import Informes from "./informes/Informes";
 import { dataInformes } from "../../data/dataInformes";
@@ -28,15 +26,6 @@ const ITE = () => {
 
   return (
     <>
-      <h1 className="text-center fw-bolder">Elecciones 2024</h1>
-      <p className="text-center text-dark fs-3 fw-bolder mb-0">faltan:</p>
-      <div className=" d-flex justify-content-center align-items-center mt-3 mb-5">
-        <FlipClockCountdown
-          to="2024-11-24 08:00:00"
-          labels={["Días", "Horas", "Minutos", "Segundos"]}
-        />
-      </div>
-
       {/* <ModalInit
         imgLink="https://itetlax.org.mx/assets/img/sesionesCG/sesionA.png"
         url="https://itetlax.org.mx/assets/img/sesionesCG/sesionA.png"
@@ -64,11 +53,19 @@ const ITE = () => {
           />
         ))}
       </Carousel>
-      <div className="mt-5 Home__AR-A">
-        <div>
-          <h2 className="bottom_title">
-            Conversatorio Universitario "Mecanismos de Participación Ciudadana"
-          </h2>
+
+      <h1 className="text-center fw-bolder">Elecciones 2024</h1>
+      <p className="text-center text-dark fs-3 fw-bolder mb-0">faltan:</p>
+      <div className=" d-flex justify-content-center align-items-center mt-3 mb-5">
+        <FlipClockCountdown
+          to="2024-11-24 08:00:00"
+          labels={["Días", "Horas", "Minutos", "Segundos"]}
+        />
+      </div>
+
+      <div className="row">
+        <div className="col-md-6">
+          <h2 className="bottom_title">Actividades Recientes</h2>
           <div className="Home__video-embed ratio ratio-16x9 w-100">
             <iframe
               id="9QQCf_emFwo"
@@ -78,69 +75,8 @@ const ITE = () => {
             ></iframe>
           </div>
         </div>
-        <div>
-          <h2 className="bottom_title">Enlaces</h2>
-          <div>
-            <Enlaces />
-          </div>
-        </div>
-      </div>
-      <div className="mt-5 Home__AR-A">
-        <div>
-          <h2 className="bottom_title">Actividades de Interes</h2>
-          <div className="ps-5 pe-5">
-            <Carousel idCarousel="carouselActividadesRecientes">
-              {dataCAR.map((cAR) => (
-                <CarouselItemIMG
-                  key={cAR.id}
-                  imgUrl={
-                    "https://itetlax.org.mx/assets/img/imgC_AR/" + cAR.imgUrl
-                  }
-                  alt={cAR.alt}
-                  itemActive={cAR.itemActive}
-                  url={cAR.url}
-                  linkToo={cAR.linkToo}
-                />
-              ))}
-            </Carousel>
-          </div>
-        </div>
-        <div>
-          <h2 className="bottom_title">Agenda</h2>
-          <div className="ps-5 pe-5">
-            <Carousel idCarousel="carouselAgenda">
-              {dataCA.map((cA) => (
-                <CarouselItemIMG
-                  key={cA.id}
-                  imgUrl={
-                    "https://itetlax.org.mx/assets/img/imgC_A/" + cA.imgUrl
-                  }
-                  alt={cA.alt}
-                  itemActive={cA.itemActive}
-                  url={cA.url}
-                  linkToo={cA.linkToo}
-                />
-              ))}
-            </Carousel>
-          </div>
-        </div>
-      </div>
-      <h2 className="bottom_title mt-5">ITE Conecta</h2>
-      <Videoteca items={dataITEConecta} itemsID={"ITEConecta"} />
-      <h2 className="mt-5 bottom_title">Informes</h2>
-      <Informes items={dataInformes} itemsID={"itemsInformes"} />
-      <div className="Home__boxesTriple mt-4">
-        <div>
-          <h2 className="bottom_title">Estrados Electrónicos</h2>
-          <div className=" h-100 d-flex justify-content-center align-items-center">
-            <Link to="EstradosElectronicos" className="btn btn-ite fs-2">
-              Consulta aquí los
-              <br />
-              <b>Estrados Electrónicos</b>
-            </Link>
-          </div>
-        </div>
-        <div>
+
+        <div className="col-md-6">
           <h2 className="bottom_title">Sesión en Vivo</h2>
           <div className="Home__video-embed ratio ratio-16x9 w-100">
             <iframe
@@ -149,20 +85,64 @@ const ITE = () => {
               allowFullScreen
             ></iframe>
           </div>
-          <h5 className="mt-3 text-center">
-            Sesión Presencial Especial del CG 09/04/2024{" "}
-          </h5>
+        </div>
+      </div>
+
+      <h2 className="bottom_title mt-5">Enlaces</h2>
+      <Enlaces />
+
+      <div className="mt-5 Home__AR-A">
+        <div>
+          <h2 className="bottom_title">Actividades de Interés</h2>
+          <div className="ps-5 pe-5">
+            <div className="card">
+              <div className="card-body">
+                <Carousel idCarousel="carouselActividadesRecientes">
+                  {dataCAR.map((cAR) => (
+                    <CarouselItemIMG
+                      key={cAR.id}
+                      imgUrl={
+                        "https://itetlax.org.mx/assets/img/imgC_AR/" +
+                        cAR.imgUrl
+                      }
+                      alt={cAR.alt}
+                      itemActive={cAR.itemActive}
+                      url={cAR.url}
+                      linkToo={cAR.linkToo}
+                    />
+                  ))}
+                </Carousel>
+              </div>
+            </div>
+          </div>
         </div>
         <div>
-          <h2 className="bottom_title">Convocatorias</h2>
-          <div>
-            <Convocatorias
-              items={dataConvocatorias}
-              itemsID={"listConvocatorias"}
-            />
+          <h2 className="bottom_title">Agenda</h2>
+          <div className="ps-5 pe-5">
+            <div className="card">
+              <div className="card-body">
+                <Carousel idCarousel="carouselAgenda">
+                  {dataCA.map((cA) => (
+                    <CarouselItemIMG
+                      key={cA.id}
+                      imgUrl={
+                        "https://itetlax.org.mx/assets/img/imgC_A/" + cA.imgUrl
+                      }
+                      alt={cA.alt}
+                      itemActive={cA.itemActive}
+                      url={cA.url}
+                      linkToo={cA.linkToo}
+                    />
+                  ))}
+                </Carousel>
+              </div>
+            </div>
           </div>
         </div>
       </div>
+      <h2 className="bottom_title mt-5">ITE Conecta</h2>
+      <Videoteca items={dataITEConecta} itemsID={"ITEConecta"} />
+
       <h3 className="mt-5 bottom_title">Micrositios</h3>
       <div className="row">
         <div className="col-12 col-md-3">
@@ -253,6 +233,23 @@ const ITE = () => {
           </a>
         </div>
       </div>
+
+      <h2 className="bottom_title">Redes Sociales</h2>
+
+      <h2 className="mt-5 bottom_title">Informes</h2>
+      <Informes items={dataInformes} itemsID={"itemsInformes"} />
+
+      <div className=" mt-4">
+        <h2 className="bottom_title">Estrados Electrónicos</h2>
+        <div className=" h-100 d-flex justify-content-center align-items-center">
+          <Link to="EstradosElectronicos" className="btn btn-ite fs-2">
+            Consulta aquí los
+            <br />
+            <b>Estrados Electrónicos</b>
+          </Link>
+        </div>
+      </div>
+
       {/* <h3 className="mt-5 bottom_title">Videos</h3>
       <Videoteca items={dataVideoteca} itemsID={"videoteca"} /> */}
       <div className="mt-5 container">
@@ -351,6 +348,36 @@ const ITE = () => {
           </div>
         </div>
       </div>
+
+      <h3 className="mt-5 bottom_title">Transparencia</h3>
+      <div className="row mt-2">
+        <div className="col-12 col-md-6 mt-2 text-center">
+          <a
+            href="https://www.plataformadetransparencia.org.mx/"
+            rel="noreferrer"
+          >
+            <img
+              src="https://itetlax.org.mx/assets/img/icons/e9.png"
+              alt="Plataforma Nacional de Transparencia"
+              className="img-fluid w-60 shadow rounded-4"
+            />
+          </a>
+        </div>
+        <div className="col-12 col-md-6 mt-2">
+          <a
+            href="http://consultapublicamx.inai.org.mx:8080/vut-web/?idSujetoObigadoParametro=5387&idEntidadParametro=29&idSectorParametro=24"
+            rel="noreferrer"
+          >
+            <img
+              src="https://itetlax.org.mx/assets/img/icons/e10.png"
+              alt="Consulta Publica"
+              className="img-fluid w-60 shadow rounded-4"
+            />
+          </a>
+        </div>
+      </div>
+
+      <h3 className="mt-5 bottom_title">Sitios de interés</h3>
       <div className="Home__pages">
         <div>
           <a target="_blank" href="https://ine.mx" rel="noreferrer">

@@ -71,6 +71,14 @@ strong {
   width: 40% !important;
 }
 
+.w-60 {
+  width: 60% !important;
+}
+
+.w-70 {
+  width: 70% !important;
+}
+
 .w-80 {
   width: 80% !important;
 }
@@ -266,9 +274,10 @@ table tbody tr td .MuiSvgIcon-root {
   }
 
   #carouselTopIndex {
-    width: 97vw;
+    width: 98vw;
     position: relative;
-    left: -15.5%;
+    left: -16.9%;
+    top: -16px !important;
   }
 
   .Content__grid img {

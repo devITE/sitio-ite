@@ -1,550 +1,172 @@
 export const dataAvisosPrivacidad = [
   {
     id: 1,
-    titleItem:
-      "Aviso de privacidad para la Constitución y Registro de Partidos Políticos Locales",
-    flushID: "PartidosPoliticos",
-    children: [
-      {
-        id: 1,
-        titleItem:
-          "Aviso Simplificado: Constitución y registro de partidos políticos locales",
-        linkItem: "https://itetlax.org.mx/assets/pdf/avisosPrivacidad/1.pdf",
-        typeDocument: "pdf",
-      },
-      {
-        id: 2,
-        titleItem:
-          "Aviso Integral: Constitución y registro de partidos políticos locales",
-        linkItem: "https://itetlax.org.mx/assets/pdf/avisosPrivacidad/2.pdf",
-        typeDocument: "pdf",
-      },
-      {
-        id: 3,
-        titleItem:
-          "Aviso Corto: Constitución y registro de partidos políticos locales",
-        linkItem: "https://itetlax.org.mx/assets/pdf/avisosPrivacidad/3.pdf",
-        typeDocument: "pdf",
-      },
-    ],
+    titulo: "Constitución y Registro de Partidos Políticos Locales",
+    simplificado: "1.pdf",
+    integral: "2.pdf",
+    corto: "3.pdf",
   },
   {
     id: 2,
-    titleItem: "Aviso de privacidad para la Red de Candidatas PELO 2020-2021",
-    flushID: "RedCandidatas",
-    children: [
-      {
-        id: 1,
-        titleItem: "Aviso Simplificado: Red de Candidatas PELO 2020-2021",
-        linkItem: "https://itetlax.org.mx/assets/pdf/avisosPrivacidad/4.pdf",
-        typeDocument: "pdf",
-      },
-      {
-        id: 2,
-        titleItem: "Aviso Integrado: Red de Candidatas PELO 2020-2021",
-        linkItem: "https://itetlax.org.mx/assets/pdf/avisosPrivacidad/5.pdf",
-        typeDocument: "pdf",
-      },
-    ],
+    titulo: "Red de Candidatas PELO 2020-2021",
+    simplificado: "4.pdf",
+    integral: "5.pdf",
   },
   {
     id: 3,
-    titleItem:
-      "Aviso de privacidad para la Acreditación de medios de comunicación",
-    flushID: "AcreditacionMedios",
-    children: [
-      {
-        id: 1,
-        titleItem: "Aviso Simplificado: Acreditación de medios de comunicación",
-        linkItem: "https://itetlax.org.mx/assets/pdf/avisosPrivacidad/6.pdf",
-        typeDocument: "pdf",
-      },
-      {
-        id: 2,
-        titleItem: "Aviso Integrado: Acreditación de medios de comunicación",
-        linkItem: "https://itetlax.org.mx/assets/pdf/avisosPrivacidad/7.pdf",
-        typeDocument: "pdf",
-      },
-      {
-        id: 3,
-        titleItem: "Aviso Corto: Acreditación de medios de comunicación",
-        linkItem: "https://itetlax.org.mx/assets/pdf/avisosPrivacidad/8.pdf",
-        typeDocument: "pdf",
-      },
-    ],
+    titulo: "Acreditación de medios de comunicación",
+    simplificado: "6.pdf",
+    integral: "7.pdf",
+    corto: "8.pdf",
   },
   {
     id: 4,
-    titleItem:
-      "Aviso de privacidad para el Cuestionario sobre condiciones de salud",
-    flushID: "CuestionarioSalud",
-    children: [
-      {
-        id: 1,
-        titleItem:
-          "Aviso Simplificado: Cuestionario sobre condiciones de salud",
-        linkItem: "https://itetlax.org.mx/assets/pdf/avisosPrivacidad/9.pdf",
-        typeDocument: "pdf",
-      },
-      {
-        id: 2,
-        titleItem: "Aviso Integrado: Cuestionario sobre condiciones de salud",
-        linkItem: "https://itetlax.org.mx/assets/pdf/avisosPrivacidad/10.pdf",
-        typeDocument: "pdf",
-      },
-      {
-        id: 3,
-        titleItem: "Aviso Corto: Cuestionario sobre condiciones de salud",
-        linkItem: "https://itetlax.org.mx/assets/pdf/avisosPrivacidad/11.pdf",
-        typeDocument: "pdf",
-      },
-    ],
+    titulo: "Cuestionario sobre condiciones de salud",
+    simplificado: "9.pdf",
+    integral: "10.pdf",
+    corto: "11.pdf",
   },
   {
     id: 5,
-    titleItem: "Aviso de privacidad para las Entradas y Salidas",
-    flushID: "EntradasySalidas",
-    children: [
-      {
-        id: 1,
-        titleItem: "Aviso Simplificado: Entradas y Salidas",
-        linkItem: "https://itetlax.org.mx/assets/pdf/avisosPrivacidad/12.pdf",
-        typeDocument: "pdf",
-      },
-      {
-        id: 2,
-        titleItem: "Aviso Integrado: Entradas y Salidas",
-        linkItem: "https://itetlax.org.mx/assets/pdf/avisosPrivacidad/13.pdf",
-        typeDocument: "pdf",
-      },
-      {
-        id: 3,
-        titleItem: "Aviso Corto: Entradas y Salidas",
-        linkItem: "https://itetlax.org.mx/assets/pdf/avisosPrivacidad/14.pdf",
-        typeDocument: "pdf",
-      },
-    ],
+    titulo: "Entradas y Salidas",
+    simplificado: "12.pdf",
+    integral: "13.pdf",
+    corto: "14.pdf",
   },
   {
     id: 6,
-    titleItem: "Aviso de privacidad para Eventos y Concursos",
-    flushID: "EventosyConcursos",
-    children: [
-      {
-        id: 1,
-        titleItem: "Aviso Simplificado: Eventos y Concursos",
-        linkItem: "https://itetlax.org.mx/assets/pdf/avisosPrivacidad/15.pdf",
-        typeDocument: "pdf",
-      },
-      {
-        id: 2,
-        titleItem: "Aviso Integrado: Eventos y Concursos",
-        linkItem: "https://itetlax.org.mx/assets/pdf/avisosPrivacidad/16.pdf",
-        typeDocument: "pdf",
-      },
-      {
-        id: 3,
-        titleItem: "Aviso Corto: Eventos y Concursos",
-        linkItem: "https://itetlax.org.mx/assets/pdf/avisosPrivacidad/17.pdf",
-        typeDocument: "pdf",
-      },
-    ],
+    titulo: "Eventos y Concursos",
+    simplificado: "15.pdf",
+    integral: "16.pdf",
+    corto: "17.pdf",
   },
   {
     id: 7,
-    titleItem: "Aviso de privacidad para el Filtro Sanitario",
-    flushID: "FiltroSanitario",
-    children: [
-      {
-        id: 1,
-        titleItem: "Aviso Simplificado: Filtro Sanitario",
-        linkItem: "https://itetlax.org.mx/assets/pdf/avisosPrivacidad/18.pdf",
-        typeDocument: "pdf",
-      },
-      {
-        id: 2,
-        titleItem: "Aviso Integrado: Filtro Sanitario",
-        linkItem: "https://itetlax.org.mx/assets/pdf/avisosPrivacidad/19.pdf",
-        typeDocument: "pdf",
-      },
-      {
-        id: 3,
-        titleItem: "Aviso Corto: Filtro Sanitario",
-        linkItem: "https://itetlax.org.mx/assets/pdf/avisosPrivacidad/20.pdf",
-        typeDocument: "pdf",
-      },
-    ],
+    titulo: "Filtro Sanitario",
+    simplificado: "18.pdf",
+    integral: "19.pdf",
+    corto: "20.pdf",
   },
   {
     id: 8,
-    titleItem: "Aviso de privacidad para el Archivo Fotográfico",
-    flushID: "ArchivoFotografico",
-    children: [
-      {
-        id: 1,
-        titleItem: "Aviso Simplificado: Archivo Fotográfico",
-        linkItem: "https://itetlax.org.mx/assets/pdf/avisosPrivacidad/21.pdf",
-        typeDocument: "pdf",
-      },
-      {
-        id: 2,
-        titleItem: "Aviso Integrado: Archivo Fotográfico",
-        linkItem: "https://itetlax.org.mx/assets/pdf/avisosPrivacidad/22.pdf",
-        typeDocument: "pdf",
-      },
-      {
-        id: 3,
-        titleItem: "Aviso Corto: Archivo Fotográfico",
-        linkItem: "https://itetlax.org.mx/assets/pdf/avisosPrivacidad/23.pdf",
-        typeDocument: "pdf",
-      },
-    ],
+    titulo: "Archivo Fotográfico",
+    simplificado: "21.pdf",
+    integral: "22.pdf",
+    corto: "23.pdf",
   },
   {
     id: 9,
-    titleItem:
-      "Aviso de privacidad para la Integración de Consejos Distritales y Municipales PELO 2020-2021",
-    flushID: "IntegracionCD",
-    children: [
-      {
-        id: 1,
-        titleItem:
-          "Aviso Simplificado: Integración de Consejos Distritales y Municipales PELO 2020-2021",
-        linkItem: "https://itetlax.org.mx/assets/pdf/avisosPrivacidad/24.pdf",
-        typeDocument: "pdf",
-      },
-      {
-        id: 2,
-        titleItem:
-          "Aviso Integrado: Integración de Consejos Distritales y Municipales PELO 2020-2021",
-        linkItem: "https://itetlax.org.mx/assets/pdf/avisosPrivacidad/25.pdf",
-        typeDocument: "pdf",
-      },
-      {
-        id: 3,
-        titleItem:
-          "Aviso Corto: Integración de Consejos Distritales y Municipales PELO 2020-2021",
-        linkItem: "https://itetlax.org.mx/assets/pdf/avisosPrivacidad/26.pdf",
-        typeDocument: "pdf",
-      },
-    ],
+    titulo: "Integración de Consejos Distritales y Municipales PELO 2020-2021",
+    simplificado: "24.pdf",
+    integral: "25.pdf",
+    corto: "26.pdf",
   },
   {
     id: 10,
-    titleItem: "Aviso de privacidad para Procedimientos y solicitudes",
-    flushID: "ProcedimientosySolicitudes",
-    children: [
-      {
-        id: 1,
-        titleItem: "Aviso Simplificado: Procedimientos y solicitudes",
-        linkItem: "https://itetlax.org.mx/assets/pdf/avisosPrivacidad/27.pdf",
-        typeDocument: "pdf",
-      },
-      {
-        id: 2,
-        titleItem: "Aviso Integrado: Procedimientos y solicitudes",
-        linkItem: "https://itetlax.org.mx/assets/pdf/avisosPrivacidad/28.pdf",
-        typeDocument: "pdf",
-      },
-      {
-        id: 3,
-        titleItem: "Aviso Corto: Procedimientos y solicitudes",
-        linkItem: "https://itetlax.org.mx/assets/pdf/avisosPrivacidad/29.pdf",
-        typeDocument: "pdf",
-      },
-    ],
+    titulo: "Procedimientos y solicitudes",
+    simplificado: "27.pdf",
+    integral: "28.pdf",
+    corto: "29.pdf",
   },
   {
     id: 11,
-    titleItem: "Aviso de privacidad para Recursos Humanos",
-    flushID: "RecursosHumanos",
-    children: [
-      {
-        id: 1,
-        titleItem: "Aviso Simplificado: Recursos Humanos",
-        linkItem: "https://itetlax.org.mx/assets/pdf/avisosPrivacidad/30.pdf",
-        typeDocument: "pdf",
-      },
-      {
-        id: 2,
-        titleItem: "Aviso Integrado: Recursos Humanos",
-        linkItem: "https://itetlax.org.mx/assets/pdf/avisosPrivacidad/31.pdf",
-        typeDocument: "pdf",
-      },
-      {
-        id: 3,
-        titleItem: "Aviso Corto: Recursos Humanos",
-        linkItem: "https://itetlax.org.mx/assets/pdf/avisosPrivacidad/32.pdf",
-        typeDocument: "pdf",
-      },
-    ],
+    titulo: "Recursos Humanos",
+    simplificado: "30.pdf",
+    integral: "31.pdf",
+    corto: "32.pdf",
   },
   {
     id: 12,
-    titleItem:
-      "Aviso de privacidad para Registro de Candidaturas para el Proceso Electoral Local Ordinario 2020-2021",
-    flushID: "RegistroCandidaturas",
-    children: [
-      {
-        id: 1,
-        titleItem:
-          "Aviso Simplificado: Registro de candidaturas para el Proceso Electoral Local Ordinario 2020-2021",
-        linkItem: "https://itetlax.org.mx/assets/pdf/avisosPrivacidad/33.pdf",
-        typeDocument: "pdf",
-      },
-      {
-        id: 2,
-        titleItem:
-          "Aviso Integrado: Registro de candidaturas para el Proceso Electoral Local Ordinario 2020-2021",
-        linkItem: "https://itetlax.org.mx/assets/pdf/avisosPrivacidad/34.pdf",
-        typeDocument: "pdf",
-      },
-      {
-        id: 3,
-        titleItem:
-          "Aviso Corto: Registro de candidaturas para el Proceso Electoral Local Ordinario 2020-2021",
-        linkItem: "https://itetlax.org.mx/assets/pdf/avisosPrivacidad/35.pdf",
-        typeDocument: "pdf",
-      },
-    ],
+    titulo:
+      "Registro de Candidaturas para el Proceso Electoral Local Ordinario 2020-2021",
+    simplificado: "33.pdf",
+    integral: "34.pdf",
+    corto: "35.pdf",
   },
   {
     id: 13,
-    titleItem: "Aviso de privacidad para servicios de capacitación",
-    flushID: "ServiciosCapacitacion",
-    children: [
-      {
-        id: 1,
-        titleItem: "Aviso Simplificado: Servicios de Capacitación",
-        linkItem: "https://itetlax.org.mx/assets/pdf/avisosPrivacidad/36.pdf",
-        typeDocument: "pdf",
-      },
-      {
-        id: 2,
-        titleItem: "Aviso Integrado: Servicios de Capacitación",
-        linkItem: "https://itetlax.org.mx/assets/pdf/avisosPrivacidad/37.pdf",
-        typeDocument: "pdf",
-      },
-      {
-        id: 3,
-        titleItem: "Aviso Corto: Servicios de Capacitación",
-        linkItem: "https://itetlax.org.mx/assets/pdf/avisosPrivacidad/38.pdf",
-        typeDocument: "pdf",
-      },
-    ],
+    titulo: "Servicios de capacitación",
+    simplificado: "36.pdf",
+    integral: "37.pdf",
+    corto: "38.pdf",
   },
   {
     id: 14,
-    titleItem:
-      "Aviso de Privacidad para Trámites y procedimientos administrativos",
-    flushID: "TramitesPRocedimientos",
-    children: [
-      {
-        id: 1,
-        titleItem:
-          "Aviso Simplificado: Trámites y procedimientos administrativos",
-        linkItem: "https://itetlax.org.mx/assets/pdf/avisosPrivacidad/39.pdf",
-        typeDocument: "pdf",
-      },
-      {
-        id: 2,
-        titleItem: "Aviso Integrado: Trámites y procedimientos administrativos",
-        linkItem: "https://itetlax.org.mx/assets/pdf/avisosPrivacidad/40.pdf",
-        typeDocument: "pdf",
-      },
-      {
-        id: 3,
-        titleItem: "Aviso Corto: Trámites y procedimientos administrativos",
-        linkItem: "https://itetlax.org.mx/assets/pdf/avisosPrivacidad/41.pdf",
-        typeDocument: "pdf",
-      },
-    ],
+    titulo: "Trámites y procedimientos administrativos",
+    simplificado: "39.pdf",
+    integral: "40.pdf",
+    corto: "41.pdf",
   },
   {
     id: 15,
-    titleItem: "Aviso de Privacidad para la Red de Mujeres Electas",
-    flushID: "RedElectas",
-    children: [
-      {
-        id: 1,
-        titleItem: "Aviso Simplificado: Red de Mujeres Electas",
-        linkItem: "https://itetlax.org.mx/assets/pdf/avisosPrivacidad/42.pdf",
-        typeDocument: "pdf",
-      },
-      {
-        id: 2,
-        titleItem: "Aviso Integrado: Red de Mujeres Electas",
-        linkItem: "https://itetlax.org.mx/assets/pdf/avisosPrivacidad/43.pdf",
-        typeDocument: "pdf",
-      },
-      {
-        id: 3,
-        titleItem: "Aviso Corto: Red de Mujeres Electas",
-        linkItem: "https://itetlax.org.mx/assets/pdf/avisosPrivacidad/44.pdf",
-        typeDocument: "pdf",
-      },
-    ],
+    titulo: "Red de Mujeres Electas",
+    simplificado: "42.pdf",
+    integral: "43.pdf",
+    corto: "44.pdf",
   },
   {
     id: 16,
-    titleItem: "Aviso de Privacidad Registro de Candidaturas PELE 2021",
-    flushID: "RegistroPELE2021",
-    children: [
-      {
-        id: 1,
-        titleItem: "Aviso Simplificado: Registro de Candidaturas PELE 2021",
-        linkItem: "https://itetlax.org.mx/assets/pdf/avisosPrivacidad/45.pdf",
-        typeDocument: "pdf",
-      },
-      {
-        id: 2,
-        titleItem: "Aviso Integrado: Registro de Candidaturas PELE 2021",
-        linkItem: "https://itetlax.org.mx/assets/pdf/avisosPrivacidad/46.pdf",
-        typeDocument: "pdf",
-      },
-      {
-        id: 3,
-        titleItem: "Aviso Corto: Registro de Candidaturas PELE 2021",
-        linkItem: "https://itetlax.org.mx/assets/pdf/avisosPrivacidad/47.pdf",
-        typeDocument: "pdf",
-      },
-    ],
+    titulo: "Registro de Candidaturas PELE 2021",
+    simplificado: "45.pdf",
+    integral: "46.pdf",
+    corto: "47.pdf",
   },
   {
     id: 17,
-    titleItem:
-      "Aviso de Privacidad Consulta previa, libre e informada a las Comunidades que eligen autoridades por el sistema de usos y costumbres y a las indígenas en el Estado de Tlaxcala",
-    flushID: "Consultacomunidades",
-    children: [
-      {
-        id: 1,
-        titleItem:
-          "Aviso Simplificado: Consulta previa, libre e informada a las Comunidades...",
-        linkItem: "https://itetlax.org.mx/assets/pdf/avisosPrivacidad/48.pdf",
-        typeDocument: "pdf",
-      },
-      {
-        id: 2,
-        titleItem:
-          "Aviso Integrado: Consulta previa, libre e informada a las Comunidades...",
-        linkItem: "https://itetlax.org.mx/assets/pdf/avisosPrivacidad/49.pdf",
-        typeDocument: "pdf",
-      },
-      {
-        id: 3,
-        titleItem:
-          "Aviso Corto: Consulta previa, libre e informada a las Comunidades...",
-        linkItem: "https://itetlax.org.mx/assets/pdf/avisosPrivacidad/50.pdf",
-        typeDocument: "pdf",
-      },
-    ],
+    titulo:
+      "Consulta previa, libre e informada a las Comunidades que eligen autoridades por el sistema de usos y costumbres y a las indígenas en el Estado de Tlaxcala",
+    simplificado: "48.pdf",
+    integral: "49.pdf",
+    corto: "50.pdf",
   },
   {
     id: 18,
-    titleItem:
-      "Aviso de Privacidad Directorio de Autoridades Electas en Tlaxcala",
-    flushID: "DirectorioAutoridades",
-    children: [
-      {
-        id: 1,
-        titleItem:
-          "Aviso Simplificado: Directorio de Autoridades Electas en Tlaxcala",
-        linkItem: "https://itetlax.org.mx/assets/pdf/avisosPrivacidad/51.pdf",
-        typeDocument: "pdf",
-      },
-      {
-        id: 2,
-        titleItem:
-          "Aviso Integrado: Directorio de Autoridades Electas en Tlaxcala",
-        linkItem: "https://itetlax.org.mx/assets/pdf/avisosPrivacidad/52.pdf",
-        typeDocument: "pdf",
-      },
-      {
-        id: 3,
-        titleItem: "Aviso Corto: Directorio de Autoridades Electas en Tlaxcala",
-        linkItem: "https://itetlax.org.mx/assets/pdf/avisosPrivacidad/53.pdf",
-        typeDocument: "pdf",
-      },
-    ],
+    titulo: "Directorio de Autoridades Electas en Tlaxcala",
+    simplificado: "51.pdf",
+    integral: "52.pdf",
+    corto: "53.pdf",
   },
   {
     id: 19,
-    titleItem:
-      "Aviso de Privacidad Procedimientos de Candidaturas Independientes PELO 2023-2024",
-    flushID: "ProcedimientosCI",
-    children: [
-      {
-        id: 1,
-        titleItem:
-          "Aviso Simplificado: Procedimientos de Candidaturas Independientes PELO 2023-2024",
-        linkItem: "https://itetlax.org.mx/assets/pdf/avisosPrivacidad/54.pdf",
-        typeDocument: "pdf",
-      },
-      {
-        id: 2,
-        titleItem:
-          "Aviso Integrado: Procedimientos de Candidaturas Independientes PELO 2023-2024",
-        linkItem: "https://itetlax.org.mx/assets/pdf/avisosPrivacidad/55.pdf",
-        typeDocument: "pdf",
-      },
-      {
-        id: 3,
-        titleItem:
-          "Aviso Corto: Procedimientos de Candidaturas Independientes PELO 2023-2024",
-        linkItem: "https://itetlax.org.mx/assets/pdf/avisosPrivacidad/56.pdf",
-        typeDocument: "pdf",
-      },
-    ],
+    titulo: "Procedimientos de Candidaturas Independientes PELO 2023-2024",
+    simplificado: "54.pdf",
+    integral: "55.pdf",
+    corto: "56.pdf",
   },
   {
     id: 20,
-    titleItem:
-      "Aviso de Privacidad Sistema de Candidatas y Candidatos Conóceles para el PELO 2023-2024",
-    flushID: "AvisoConoceles",
-    children: [
-      {
-        id: 1,
-        titleItem:
-          "Aviso Simplificado: Sistema de Candidatas y Candidatos Conóceles para el PELO 2023-2024",
-        linkItem: "https://itetlax.org.mx/assets/pdf/avisosPrivacidad/57.pdf",
-        typeDocument: "pdf",
-      },
-      {
-        id: 2,
-        titleItem:
-          "Aviso Integrado: Sistema de Candidatas y Candidatos Conóceles para el PELO 2023-2024",
-        linkItem: "https://itetlax.org.mx/assets/pdf/avisosPrivacidad/58.pdf",
-        typeDocument: "pdf",
-      },
-    ],
+    titulo:
+      "Sistema de Candidatas y Candidatos Conóceles para el PELO 2023-2024",
+    simplificado: "57.pdf",
+    integral: "58.pdf",
   },
   {
     id: 21,
-    titleItem:
-      "Aviso de Privacidad Atención a mujeres posibles víctimas de Violencia Política contra las Mujeres en Razón de Género",
-    flushID: "AtencionVPCMRG",
-    children: [
-      {
-        id: 1,
-        titleItem:
-          "Aviso Simplificado: Atención a mujeres posibles víctimas de Violencia Política contra las Mujeres en Razón de Género",
-        linkItem: "https://itetlax.org.mx/assets/pdf/avisosPrivacidad/59.pdf",
-        typeDocument: "pdf",
-      },
-      {
-        id: 2,
-        titleItem:
-          "Aviso Integrado: Atención a mujeres posibles víctimas de Violencia Política contra las Mujeres en Razón de Género",
-        linkItem: "https://itetlax.org.mx/assets/pdf/avisosPrivacidad/60.pdf",
-        typeDocument: "pdf",
-      },
-      {
-        id: 3,
-        titleItem:
-          "Aviso Corto: Atención a mujeres posibles víctimas de Violencia Política contra las Mujeres en Razón de Género",
-        linkItem: "https://itetlax.org.mx/assets/pdf/avisosPrivacidad/61.pdf",
-        typeDocument: "pdf",
-      },
-    ],
+    titulo:
+      "Atención a mujeres posibles víctimas de Violencia Política contra las Mujeres en Razón de Género",
+    simplificado: "59.pdf",
+    integral: "60.pdf",
+    corto: "61.pdf",
+  },
+  {
+    id: 22,
+    titulo: "Observadores Electorales PELE 2024",
+    simplificado: "62.pdf",
+    integral: "63.pdf",
+    corto: "64.pdf",
+  },
+  {
+    id: 23,
+    titulo: "Sistema de Candidatas y Candidatos Conóceles PELE 2024",
+    simplificado: "65.pdf",
+    integral: "66.pdf",
+    corto: "67.pdf",
+  },
+  {
+    id: 24,
+    titulo: "Registro de Candidaturas PELE 2024",
+    simplificado: "68.pdf",
+    integral: "69.pdf",
+    corto: "70.pdf",
   },
 ];
