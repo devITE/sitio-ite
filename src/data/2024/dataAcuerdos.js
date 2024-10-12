@@ -1942,6 +1942,13 @@ export const dataAcuerdos2024 = [
     monthDoc: "OCT",
     nameDoc: "RESPUESTA A SOLICITUD",
   },
+  {
+    id: 253,
+    typeDoc: "ACUERDO",
+    monthDoc: "OCT",
+    nameDoc: "DICTAMEN PREP PELE 2024 COTAPREP",
+    titleAnexo1: "ANEXO ÚNICO DICTAMEN CSSI",
+  },
 ];
 
 // ------------ A C U E R D O S    I N E ------------
