@@ -1,10 +1,10 @@
-export const dataEstrados = [
+/* export const dataEstrados = [
   //  bajar el 07 de octubre
   {
     id: 1,
     numCedula: 6369,
   },
-];
+]; */
 
 export const dataConvocatorias = [
   // {
