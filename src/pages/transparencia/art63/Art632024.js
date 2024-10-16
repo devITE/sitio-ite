@@ -16,12 +16,12 @@ const baseUrlPDF = "https://itetlax.org.mx/assets/pdf/transparencia/art63/";
 const baseUrlExcel = "https://itetlax.org.mx/assets/excel/transparencia/art63/";
 
 const ExcelLink = ({ baseUrl, urls }) => {
-  return urls.map((url, index) => {
+  return urls.map((url) => {
     const fullUrl = `${baseUrl}2024/${url}`;
     const displayText = url.substring(0, url.lastIndexOf("."));
     return (
-      <p key={index}>
-        {displayText}
+      <p key={fullUrl}>
+        {displayText + " "}
         <a href={fullUrl} target="_blank" rel="noreferrer">
           <FontAwesomeIcon icon={faFileExcel} className="btn btn-success" />
         </a>
@@ -31,12 +31,12 @@ const ExcelLink = ({ baseUrl, urls }) => {
 };
 
 const PdfLink = ({ baseUrl, urls }) => {
-  return urls.map((url, index) => {
+  return urls.map((url) => {
     const fullUrl = `${baseUrl}2024/${url}`;
     const displayText = url.substring(0, url.lastIndexOf("."));
     return (
-      <p key={index}>
-        {displayText}
+      <p key={fullUrl}>
+        {displayText + " "}
         <a href={fullUrl} target="_blank" rel="noreferrer">
           <FontAwesomeIcon icon={faFilePdf} className="btn btn-danger" />
         </a>

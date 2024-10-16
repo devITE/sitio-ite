@@ -234,7 +234,7 @@ const ITE = () => {
         </div>
       </div>
 
-      <h2 className="bottom_title">Redes Sociales</h2>
+      {/* <h2 className="bottom_title">Redes Sociales</h2> */}
 
       <h2 className="mt-5 bottom_title">Informes</h2>
       <Informes items={dataInformes} itemsID={"itemsInformes"} />

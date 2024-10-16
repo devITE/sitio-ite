@@ -307,6 +307,7 @@ export const dataArt632024 = [
     cumplimiento: "Aplica",
     excel1: "LTAIPT_A63F29_1.xlsx",
     excel2: "LTAIPT_A63F29_2.xlsx",
+    excel3: "LTAIPT_A63F29_3.xlsx",
     managerId: null,
   },
   {
@@ -348,6 +349,7 @@ export const dataArt632024 = [
     cumplimiento: "Aplica",
     excel1: "LTAIPT_A63F33_1.xlsx",
     excel2: "LTAIPT_A63F33_2.xlsx",
+    excel3: "LTAIPT_A63F33_3.xlsx",
     managerId: null,
   },
   {
