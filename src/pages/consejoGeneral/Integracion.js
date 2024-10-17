@@ -94,9 +94,9 @@ const Integración = () => {
     {
       href: "https://itetlax.org.mx/assets/pdf/CG/7.pdf",
       imgSrc: "https://itetlax.org.mx/assets/img/intCG/8.png",
-      altText: "Juan Carlos Minor Marquez",
-      title: "Consejero Electoral",
-      name: "Mtro. Juan Carlos Minor Marquez",
+      altText: "Dra. Anakaren Monserrat Rojas Cuautle",
+      title: "Consejera Electoral",
+      name: "Dra. Anakaren Monserrat Rojas Cuautle",
     },
   ];
 

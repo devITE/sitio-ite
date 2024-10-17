@@ -33,7 +33,7 @@ const ITE = () => {
       /> */}
       <ModalInit
         imgLink="https://itetlax.org.mx/assets/img/imgPopup/observadores.jpg"
-        url="https://observadores.ine.mx/"
+        url="https://ext2024-observadores.ine.mx/"
         linkToo=""
       />
       {/* <ModalInit
@@ -66,11 +66,11 @@ const ITE = () => {
       <div className="row">
         <div className="col-md-6">
           <h2 className="bottom_title">Actividades Recientes</h2>
-          <div className="Home__video-embed ratio ratio-16x9 w-100">
+          <div className="Home__video-embed ratio ratio-16x9 w-100 shadow">
             <iframe
               id="9QQCf_emFwo"
-              src="https://www.youtube-nocookie.com/embed/2mMrjubl1Ow?si=ZebMgVqaPuyG0x4S"
-              title='Foro "Protocolo de personas con discapacidad en el Proceso Electoral Concurrente 2023-2024"'
+              src="https://www.youtube-nocookie.com/embed/WXIyYskF2T0?si=dRESOhAbbGHO1BWU"
+              title="FORO: El rol de las juventudes en los cargos de elección popular"
               allowFullScreen
             ></iframe>
           </div>
@@ -78,10 +78,10 @@ const ITE = () => {
 
         <div className="col-md-6">
           <h2 className="bottom_title">Sesión en Vivo</h2>
-          <div className="Home__video-embed ratio ratio-16x9 w-100">
+          <div className="Home__video-embed ratio ratio-16x9 w-100 shadow">
             <iframe
-              src="https://www.youtube-nocookie.com/embed/nN1VdgLPX6w?si=e7gpI_KuMHOXTz3w"
-              title="Sesión Presencial Permanente del CG 09/06/2024"
+              src="https://www.youtube-nocookie.com/embed/T507Ve4WwD4?si=ygFCILeuiODH_jF-"
+              title="Sesión Especial del CG 12/10/2024"
               allowFullScreen
             ></iframe>
           </div>
@@ -140,7 +140,7 @@ const ITE = () => {
           </div>
         </div>
       </div>
-      <h2 className="bottom_title mt-5">ITE Conecta</h2>
+      <h2 className="bottom_title mt-4">ITE Conecta</h2>
       <Videoteca items={dataITEConecta} itemsID={"ITEConecta"} />
 
       <h3 className="mt-5 bottom_title">Micrositios</h3>

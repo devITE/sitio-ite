@@ -1831,6 +1831,7 @@ export const dataAcuerdos2024 = [
     monthDoc: "SEP",
     nameDoc: "CALENDARIO PELE 2024",
     titleAnexo1: "ANEXO UNICO CALENDARIO LEGAL PELE 2024",
+    titleAnexo2: "FE DE ERRATAS ANEXO ÚNICO ITE-CG 238-2024",
   },
   {
     id: 239,
@@ -1838,6 +1839,8 @@ export const dataAcuerdos2024 = [
     monthDoc: "SEP",
     nameDoc: "CONVOCATORIA PARA OBSERVADORES ELECTORALES PELE 2024",
     titleAnexo1: "ANEXO UNICO CONVOCATORIA OE PELE 2024",
+    titleAnexo2: "FE DE ERRATAS ANEXO ÚNICO ITE-CG 239-2024",
+    titleAnexo3: "ANEXO UNICO ITE-CG 239-2024 FE DE ERRATAS",
   },
   {
     id: 240,
