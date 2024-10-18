@@ -1952,6 +1952,20 @@ export const dataAcuerdos2024 = [
     nameDoc: "DICTAMEN PREP PELE 2024 COTAPREP",
     titleAnexo1: "ANEXO ÚNICO DICTAMEN CSSI",
   },
+  {
+    id: 254,
+    typeDoc: "ACUERDO",
+    monthDoc: "OCT",
+    nameDoc: "PRESUPUESTO PELE 2024",
+    titleAnexo1: "ANEXO ÚNICO DICTAMEN CSSI",
+  },
+  {
+    id: 255,
+    typeDoc: "ACUERDO",
+    monthDoc: "OCT",
+    nameDoc: "FINANCIAMIENTO PÚBLICO DE LOS PARTIDOS POLÍTICOS PELE 2024",
+    titleAnexo2: "ANEXO UNICO FINANCIAMIENTO PUBLICO PP 2024",
+  },
 ];
 
 // ------------ A C U E R D O S    I N E ------------

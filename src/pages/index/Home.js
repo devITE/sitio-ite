@@ -27,8 +27,8 @@ const ITE = () => {
   return (
     <>
       {/* <ModalInit
-        imgLink="https://itetlax.org.mx/assets/img/sesionesCG/sesionA.png"
-        url="https://itetlax.org.mx/assets/img/sesionesCG/sesionA.png"
+        imgLink="https://itetlax.org.mx/assets/img/sesionesCG/sesionA.jpg"
+        url="https://itetlax.org.mx/assets/img/sesionesCG/sesionA.jpg"
         linkToo=""
       /> */}
       <ModalInit
@@ -80,8 +80,8 @@ const ITE = () => {
           <h2 className="bottom_title">Sesión en Vivo</h2>
           <div className="Home__video-embed ratio ratio-16x9 w-100 shadow">
             <iframe
-              src="https://www.youtube-nocookie.com/embed/T507Ve4WwD4?si=ygFCILeuiODH_jF-"
-              title="Sesión Especial del CG 12/10/2024"
+              src="https://www.youtube-nocookie.com/embed/PD3yzKgzixY?si=XMOozwxYMNnwHKhu"
+              title="Sesión Extraordinaria del CG 18/10/2024"
               allowFullScreen
             ></iframe>
           </div>
