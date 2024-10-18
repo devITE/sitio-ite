@@ -1957,14 +1957,13 @@ export const dataAcuerdos2024 = [
     typeDoc: "ACUERDO",
     monthDoc: "OCT",
     nameDoc: "PRESUPUESTO PELE 2024",
-    titleAnexo1: "ANEXO ÚNICO DICTAMEN CSSI",
   },
   {
     id: 255,
     typeDoc: "ACUERDO",
     monthDoc: "OCT",
     nameDoc: "FINANCIAMIENTO PÚBLICO DE LOS PARTIDOS POLÍTICOS PELE 2024",
-    titleAnexo2: "ANEXO UNICO FINANCIAMIENTO PUBLICO PP 2024",
+    titleAnexo1: "ANEXO UNICO FINANCIAMIENTO PUBLICO PP 2024",
   },
 ];
 
