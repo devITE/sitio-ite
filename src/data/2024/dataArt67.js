@@ -8,6 +8,7 @@ export const dataArt672024 = [
       "Articulo. 67 inciso A de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
     excel1: "LTAIPT_A67F01IA1_1.xlsx",
     excel2: "LTAIPT_A67F01IA1_2.xlsx",
+    excel3: "LTAIPT_A67F01IA1_3.xlsx",
     managerId: null,
   },
   {
@@ -211,6 +212,7 @@ export const dataArt672024 = [
       "Articulo. 67 inciso G1 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
     excel1: "LTAIPT_A67F01IG1_1.xlsx",
     excel2: "LTAIPT_A67F01IG1_2.xlsx",
+    excel3: "LTAIPT_A67F01IG1_3.xlsx",
     managerId: 6,
   },
   {
@@ -223,6 +225,7 @@ export const dataArt672024 = [
     excel1: "LTAIPT_A67F01IG2_1.xlsx",
     excel2: "LTAIPT_A67F01IG2_2.xlsx",
     excel3: "LTAIPT_A67F01IG2_3.xlsx",
+    excel4: "LTAIPT_A67F01IG2_4.xlsx",
     managerId: 6,
   },
   {
@@ -233,6 +236,7 @@ export const dataArt672024 = [
       "Articulo. 67 inciso G3 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
     excel1: "LTAIPT_A67F01IG3_1.xlsx",
     excel2: "LTAIPT_A67F01IG3_2.xlsx",
+    excel3: "LTAIPT_A67F01IG3_3.xlsx",
     managerId: 6,
   },
   {
@@ -244,6 +248,7 @@ export const dataArt672024 = [
       "Articulo. 67 inciso G4 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
     excel1: "LTAIPT_A67F01IG4_1.xlsx",
     excel2: "LTAIPT_A67F01IG4_2.xlsx",
+    excel3: "LTAIPT_A67F01IG4_3.xlsx",
     managerId: 6,
   },
   {
@@ -255,6 +260,7 @@ export const dataArt672024 = [
       "Articulo. 67 inciso G5 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala",
     excel1: "LTAIPT_A67F01IG5_1.xlsx",
     excel2: "LTAIPT_A67F01IG5_2.xlsx",
+    excel3: "LTAIPT_A67F01IG5_3.xlsx",
     managerId: 6,
   },
   {
@@ -266,6 +272,7 @@ export const dataArt672024 = [
       "Articulo. 67 inciso G6 de la Ley de Transparencia y Acceso a la Información Pública del Estado de Tlaxcala.",
     excel1: "LTAIPT_A67F01IG6_1.xlsx",
     excel2: "LTAIPT_A67F01IG6_2.xlsx",
+    excel3: "LTAIPT_A67F01IG6_3.xlsx",
     managerId: 6,
   },
   {

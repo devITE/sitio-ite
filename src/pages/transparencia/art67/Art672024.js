@@ -1,4 +1,4 @@
-import React, { useEffect, useMemo } from "react";
+import React, { useMemo, useEffect } from "react";
 import TitlePages from "../../../layout/TitlePages";
 import {
   MaterialReactTable,
@@ -16,12 +16,12 @@ const baseUrlPDF = "https://itetlax.org.mx/assets/pdf/transparencia/art67/";
 const baseUrlExcel = "https://itetlax.org.mx/assets/excel/transparencia/art67/";
 
 const ExcelLink = ({ baseUrl, urls }) => {
-  return urls.map((url, index) => {
+  return urls.map((url) => {
     const fullUrl = `${baseUrl}2024/${url}`;
     const displayText = url.substring(0, url.lastIndexOf("."));
     return (
-      <p key={index}>
-        {displayText}{" "}
+      <p key={fullUrl}>
+        {displayText + " "}
         <a href={fullUrl} target="_blank" rel="noreferrer">
           <FontAwesomeIcon icon={faFileExcel} className="btn btn-success" />
         </a>
@@ -31,12 +31,12 @@ const ExcelLink = ({ baseUrl, urls }) => {
 };
 
 const PdfLink = ({ baseUrl, urls }) => {
-  return urls.map((url, index) => {
+  return urls.map((url) => {
     const fullUrl = `${baseUrl}2024/${url}`;
     const displayText = url.substring(0, url.lastIndexOf("."));
     return (
-      <p key={index}>
-        {displayText}{" "}
+      <p key={fullUrl}>
+        {displayText + " "}
         <a href={fullUrl} target="_blank" rel="noreferrer">
           <FontAwesomeIcon icon={faFilePdf} className="btn btn-danger" />
         </a>
@@ -50,24 +50,8 @@ const Art672024 = () => {
     document.title = `Artículo 67 2024`;
   }, []);
 
-  const data = useMemo(() => {
-    return dataArt672024.map((item) => {
-      const excels = Object.keys(item).filter((key) => key.startsWith("excel"));
-      const pdfs = Object.keys(item).filter((key) => key.startsWith("pdf"));
-      return { ...item, hasFiles: excels.length > 0 || pdfs.length > 0 };
-    });
-  }, []);
-
   const columns = useMemo(
     () => [
-      {
-        accessorKey: "no",
-        header: "NO.",
-        footer: "NO.",
-        size: 55,
-        enableResizing: false,
-        enableColumnFilter: false,
-      },
       {
         accessorKey: "letra",
         header: "Letra",
@@ -80,14 +64,12 @@ const Art672024 = () => {
         accessorKey: "descriptivo",
         header: "Descriptivo",
         footer: "Descriptivo",
-        size: 150,
         enableResizing: false,
       },
       {
         accessorKey: "cumplimiento",
         header: "Cumplimiento",
         footer: "Cumplimiento",
-        size: 100,
         enableResizing: false,
         filterFn: "equals",
         filterSelectOptions: [
@@ -103,6 +85,8 @@ const Art672024 = () => {
         size: 270,
         enableResizing: false,
         enableColumnFilter: false,
+        Cell: ({ row }) =>
+          `Artículo 67 de la Fracción ${row.original.fraccion} de la Ley de Transparencia y Acceso a la Información del Estado de Tlaxcala`,
       },
       {
         accessorKey: "actualizacion",
@@ -117,7 +101,7 @@ const Art672024 = () => {
     []
   );
 
-  const rootData = useMemo(() => data.filter((r) => !r.managerId), [data]);
+  const rootData = useMemo(() => dataArt672024.filter((r) => !r.managerId), []);
 
   const renderTransparencia = ({ row }) => {
     const { managerId, fraccion, ...rest } = row.original;
@@ -131,13 +115,22 @@ const Art672024 = () => {
     if (excels.length > 0 || pdfs.length > 0) {
       return (
         <Box id="Box">
-          <p className="text-strong">
-            Descarga los archivos de la Fracción {fraccion}
-          </p>
           {excels.length > 0 && (
-            <ExcelLink baseUrl={baseUrlExcel} urls={excels} />
+            <>
+              <p className="text-strong">
+                Descarga los archivos de la Fracción {fraccion}
+              </p>
+              <ExcelLink baseUrl={baseUrlExcel} urls={excels} />
+            </>
           )}
-          {pdfs.length > 0 && <PdfLink baseUrl={baseUrlPDF} urls={pdfs} />}
+          {pdfs.length > 0 && (
+            <>
+              <p className="text-strong">
+                Descarga los archivos de la Fracción {fraccion}
+              </p>
+              <PdfLink baseUrl={baseUrlPDF} urls={pdfs} />
+            </>
+          )}
         </Box>
       );
     }
@@ -161,13 +154,8 @@ const Art672024 = () => {
         rowsPerPage: "Filas por página",
       },
     },
-    getSubRows: (row) => data.filter((r) => r.managerId === row.id),
+    getSubRows: (row) => dataArt672024.filter((r) => r.managerId === row.id),
     renderDetailPanel: renderTransparencia,
-    muiExpandButtonProps: ({ row }) => ({
-      sx: {
-        display: row.original.hasFiles ? "flex" : "none",
-      },
-    }),
   });
 
   return (
@@ -179,7 +167,10 @@ const Art672024 = () => {
           { label: `Artículo 67 2024` },
         ]}
       />
-      <TitlePages title="Transparencia" subTitle="Artículo 67. (2024)" />
+      <TitlePages
+        title="Transparencia"
+        subTitle="Artículo 67. (2024) Obligaciones Específicas"
+      />
       <Expandible />
       <MaterialReactTable table={table} />
     </>

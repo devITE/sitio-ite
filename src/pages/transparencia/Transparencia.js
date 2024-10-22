@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import PropTypes from "prop-types";
 import TitlePages from "../../layout/TitlePages";
 import Modal from "../../layout/Modal/Modal";
 import { Link } from "react-router-dom";
@@ -164,3 +165,11 @@ const Transparencia = () => {
 };
 
 export default Transparencia;
+
+TransparenciaItem.propTypes = {
+  to: PropTypes.string,
+  href: PropTypes.string,
+  imgSrc: PropTypes.string.isRequired,
+  imgAlt: PropTypes.string.isRequired,
+  text: PropTypes.string.isRequired,
+};

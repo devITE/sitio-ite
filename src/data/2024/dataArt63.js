@@ -608,6 +608,7 @@ export const dataArt632024 = [
     cumplimiento: "Aplica",
     excel1: "LTAIPT_A63F45A_1.xlsx",
     excel2: "LTAIPT_A63F45A_2.xlsx",
+    excel3: "LTAIPT_A63F45A_3.xlsx",
     managerId: 19,
   },
   {
@@ -616,6 +617,7 @@ export const dataArt632024 = [
     cumplimiento: "Aplica",
     excel1: "LTAIPT_A63F45B_1.xlsx",
     excel2: "LTAIPT_A63F45B_2.xlsx",
+    excel3: "LTAIPT_A63F45B_3.xlsx",
     managerId: 19,
   },
   {
@@ -624,6 +626,7 @@ export const dataArt632024 = [
     cumplimiento: "Aplica",
     excel1: "LTAIPT_A63F45C_1.xlsx",
     excel2: "LTAIPT_A63F45C_2.xlsx",
+    excel3: "LTAIPT_A63F45C_3.xlsx",
     managerId: 19,
   },
   {
@@ -639,6 +642,7 @@ export const dataArt632024 = [
     cumplimiento: "Aplica",
     excel1: "LTAIPT_A63F46A_1.xlsx",
     excel2: "LTAIPT_A63F46A_2.xlsx",
+    excel3: "LTAIPT_A63F46A_3.xlsx",
     managerId: 21,
   },
   {
@@ -647,6 +651,7 @@ export const dataArt632024 = [
     cumplimiento: "Aplica",
     excel1: "LTAIPT_A63F46B_1.xlsx",
     excel2: "LTAIPT_A63F46B_2.xlsx",
+    excel3: "LTAIPT_A63F46B_3.xlsx",
     managerId: 21,
   },
   {

@@ -1,4 +1,5 @@
 import React, { useMemo, useEffect } from "react";
+import PropTypes from "prop-types";
 import TitlePages from "../../../layout/TitlePages";
 import {
   MaterialReactTable,
@@ -15,11 +16,11 @@ const baseUrlPDF = "https://itetlax.org.mx/assets/pdf/transparencia/art63/";
 const baseUrlExcel = "https://itetlax.org.mx/assets/excel/transparencia/art63/";
 
 const ExcelLink = ({ baseUrl, year, urls }) => {
-  return urls.map((url, index) => {
+  return urls.map((url) => {
     const fullUrl = `${baseUrl}${year}/${url}`;
     const displayText = url.substring(0, url.lastIndexOf("."));
     return (
-      <p key={index}>
+      <p key={fullUrl}>
         {displayText}
         <a href={fullUrl} target="_blank" rel="noreferrer">
           <FontAwesomeIcon icon={faFileExcel} className="btn btn-success" />
@@ -30,11 +31,11 @@ const ExcelLink = ({ baseUrl, year, urls }) => {
 };
 
 const PdfLink = ({ baseUrl, year, urls }) => {
-  return urls.map((url, index) => {
+  return urls.map((url) => {
     const fullUrl = `${baseUrl}${year}/${url}`;
     const displayText = url.substring(0, url.lastIndexOf("."));
     return (
-      <p key={index}>
+      <p key={fullUrl}>
         {displayText}
         <a href={fullUrl} target="_blank" rel="noreferrer">
           <FontAwesomeIcon icon={faFilePdf} className="btn btn-danger" />
@@ -176,6 +177,22 @@ const Art63Table = ({ year }) => {
       <MaterialReactTable table={table} />
     </>
   );
+};
+
+Art63Table.propTypes = {
+  year: PropTypes.number.isRequired,
+};
+
+ExcelLink.propTypes = {
+  baseUrl: PropTypes.string.isRequired,
+  year: PropTypes.number.isRequired,
+  urls: PropTypes.arrayOf(PropTypes.string).isRequired,
+};
+
+PdfLink.propTypes = {
+  baseUrl: PropTypes.string.isRequired,
+  year: PropTypes.number.isRequired,
+  urls: PropTypes.arrayOf(PropTypes.string).isRequired,
 };
 
 export default Art63Table;
