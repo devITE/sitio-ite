@@ -26,11 +26,11 @@ const ITE = () => {
 
   return (
     <>
-      {/* <ModalInit
+      <ModalInit
         imgLink="https://itetlax.org.mx/assets/img/sesionesCG/sesionA.jpg"
         url="https://itetlax.org.mx/assets/img/sesionesCG/sesionA.jpg"
         linkToo=""
-      /> */}
+      />
       <ModalInit
         imgLink="https://itetlax.org.mx/assets/img/imgPopup/observadores.jpg"
         url="https://ext2024-observadores.ine.mx/"

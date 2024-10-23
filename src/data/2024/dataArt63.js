@@ -630,7 +630,7 @@ export const dataArt632024 = [
     managerId: 19,
   },
   {
-    id: 20,
+    id: 21,
     fraccion: "XLVI",
     titulo: "Actas de sesiones",
     cumplimiento: "Aplica",
