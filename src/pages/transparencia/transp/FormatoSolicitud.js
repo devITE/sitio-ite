@@ -39,22 +39,20 @@ const Arco = () => {
       <h3>Ligas para descargar</h3>
       <div className="ms-3 mt-2">
         <p>
-          Formato de solicitud de información&nbsp;&nbsp;
+          Formato de solicitud de información{" "}
           <a
             className="btn btn-primary"
             href="https://itetlax.org.mx/assets/word/transparencia/1.docx"
-            role="button"
             rel="noreferrer"
           >
             <FontAwesomeIcon icon={faFileWord} />
           </a>
         </p>
         <p>
-          Formato de solicitud de ejercicio de Derechos ARCO&nbsp;&nbsp;
+          Formato de solicitud de ejercicio de Derechos ARCO{" "}
           <a
             className="btn btn-primary"
             href="https://itetlax.org.mx/assets/word/transparencia/2.docx"
-            role="button"
             rel="noreferrer"
           >
             <FontAwesomeIcon icon={faFileWord} />

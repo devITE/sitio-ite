@@ -10,7 +10,7 @@ const baseURL = "https://itetlax.org.mx/assets/pdf/POA/";
 
 const dataYears = [2018, 2019, 2020, 2024];
 
-const POA = () => {
+const Poa = () => {
   useEffect(() => {
     document.title = `POA`;
   }, []);
@@ -101,4 +101,4 @@ const POA = () => {
   );
 };
 
-export default POA;
+export default Poa;

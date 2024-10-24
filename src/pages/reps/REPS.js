@@ -16,7 +16,7 @@ const year = dt.getFullYear();
 const month = (dt.getMonth() + 1).toString().padStart(2, "0");
 const day = dt.getDate().toString().padStart(2, "0");
 
-const REPS = () => {
+const Reps = () => {
   useEffect(() => {
     document.title = `Registro Estatal de Personas Sancionadas`;
   }, []);
@@ -644,4 +644,4 @@ const REPS = () => {
   );
 };
 
-export default REPS;
+export default Reps;

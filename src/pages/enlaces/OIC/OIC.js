@@ -15,7 +15,7 @@ import {
 } from "../../../data/dataOIC";
 import "../EnlacesStyle.css";
 
-export const OIC = () => {
+export const Oic = () => {
   useEffect(() => {
     document.title = `OIC`;
   }, []);
@@ -221,4 +221,4 @@ export const OIC = () => {
     </>
   );
 };
-export default OIC;
+export default Oic;

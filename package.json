@@ -16,6 +16,8 @@
     "@testing-library/user-event": "^14.4.3",
     "bootstrap": "^5.2.3",
     "caniuse-lite": "^1.0.30001639",
+    "highcharts": "^11.4.8",
+    "highcharts-react-official": "^3.2.1",
     "material-react-table": "^2.13.0",
     "react": "^18.2.0",
     "react-bootstrap": "^2.7.2",

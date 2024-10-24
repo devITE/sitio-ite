@@ -66,7 +66,7 @@ export const dataCIndex = [
     linkToo: "",
   },
   {
-    id: 9,
+    id: 10,
     imgUrl: "prep_top.png",
     alt: "ITE Conecta",
     url: "https://www.prep2024-tlax.org.mx/",

@@ -1,5 +1,4 @@
-import React, { useMemo, useEffect } from "react";
-import PropTypes from "prop-types";
+import React, { useEffect, useMemo } from "react";
 import TitlePages from "../../../layout/TitlePages";
 import {
   MaterialReactTable,
@@ -9,19 +8,20 @@ import { MRT_Localization_ES } from "material-react-table/locales/es";
 import { Box } from "@mui/material";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFileExcel, faFilePdf } from "@fortawesome/free-solid-svg-icons";
-import { dataArt63 } from "../../../data/dataTransparenciaArt63";
+import { dataArt67 } from "../../../data/dataTransparenciaArt67";
+import Expandible from "../../../layout/HelperDataTable/Expandible";
 import Breadcrumbs from "../../../layout/Breadcrumbs";
 
-const baseUrlPDF = "https://itetlax.org.mx/assets/pdf/transparencia/art63/";
-const baseUrlExcel = "https://itetlax.org.mx/assets/excel/transparencia/art63/";
+const baseUrlPDF = "https://itetlax.org.mx/assets/pdf/transparencia/art67/";
+const baseUrlExcel = "https://itetlax.org.mx/assets/excel/transparencia/art67/";
 
 const ExcelLink = ({ baseUrl, year, urls }) => {
-  return urls.map((url) => {
+  return urls.map((url, index) => {
     const fullUrl = `${baseUrl}${year}/${url}`;
     const displayText = url.substring(0, url.lastIndexOf("."));
     return (
-      <p key={fullUrl}>
-        {displayText}
+      <p key={index}>
+        {displayText}{" "}
         <a href={fullUrl} target="_blank" rel="noreferrer">
           <FontAwesomeIcon icon={faFileExcel} className="btn btn-success" />
         </a>
@@ -31,12 +31,12 @@ const ExcelLink = ({ baseUrl, year, urls }) => {
 };
 
 const PdfLink = ({ baseUrl, year, urls }) => {
-  return urls.map((url) => {
-    const fullUrl = `${baseUrl}${year}/${url}`;
+  return urls.map((url, index) => {
+    const fullUrl = `${baseUrl}${baseUrlPDF}${year}/${url}`;
     const displayText = url.substring(0, url.lastIndexOf("."));
     return (
-      <p key={fullUrl}>
-        {displayText}
+      <p key={index}>
+        {displayText}{" "}
         <a href={fullUrl} target="_blank" rel="noreferrer">
           <FontAwesomeIcon icon={faFilePdf} className="btn btn-danger" />
         </a>
@@ -45,11 +45,17 @@ const PdfLink = ({ baseUrl, year, urls }) => {
   });
 };
 
-const Art63Table = ({ year }) => {
-  const data = useMemo(() => dataArt63[year] || [], [year]);
+const Art67Table = ({ year }) => {
+  const data = useMemo(() => {
+    return (dataArt67[year] || []).map((item) => {
+      const excels = Object.keys(item).filter((key) => key.startsWith("excel"));
+      const pdfs = Object.keys(item).filter((key) => key.startsWith("pdf"));
+      return { ...item, hasFiles: excels.length > 0 || pdfs.length > 0 };
+    });
+  }, [year]);
 
   useEffect(() => {
-    document.title = `Artículo 63 ${year}`;
+    document.title = `Artículo 67 ${year}`;
   }, [year]);
 
   const columns = useMemo(
@@ -118,21 +124,14 @@ const Art63Table = ({ year }) => {
     if (excels.length > 0 || pdfs.length > 0) {
       return (
         <Box id="Box">
+          <p className="text-strong">
+            Descarga los archivos de la Fracción {fraccion}
+          </p>
           {excels.length > 0 && (
-            <>
-              <p className="text-strong">
-                Descarga los archivos de la Fracción {fraccion}
-              </p>
-              <ExcelLink baseUrl={baseUrlExcel} year={year} urls={excels} />
-            </>
+            <ExcelLink baseUrl={baseUrlExcel} year={year} urls={excels} />
           )}
           {pdfs.length > 0 && (
-            <>
-              <p className="text-strong">
-                Descarga los archivos de la Fracción {fraccion}
-              </p>
-              <PdfLink baseUrl={baseUrlPDF} year={year} urls={pdfs} />
-            </>
+            <PdfLink baseUrl={baseUrlPDF} year={year} urls={pdfs} />
           )}
         </Box>
       );
@@ -159,6 +158,11 @@ const Art63Table = ({ year }) => {
     },
     getSubRows: (row) => data.filter((r) => r.managerId === row.id),
     renderDetailPanel: renderTransparencia,
+    muiExpandButtonProps: ({ row }) => ({
+      sx: {
+        display: row.original.hasFiles ? "flex" : "none",
+      },
+    }),
   });
 
   return (
@@ -166,33 +170,15 @@ const Art63Table = ({ year }) => {
       <Breadcrumbs
         path={[
           { label: "Transparencia", url: "/Transparencia" },
-          { label: "Artículo 63 Obligaciones Comunes", url: "/Articulo63" },
-          { label: `Artículo 63 ${year}` },
+          { label: "Artículo 67 Obligaciones Específicas", url: "/Articulo67" },
+          { label: `Artículo 67 ${year}` },
         ]}
       />
-      <TitlePages
-        title="Transparencia"
-        subTitle={`Artículo 63 (${year}) Obligaciones Comunes`}
-      />
+      <TitlePages title="Transparencia" subTitle={`Artículo 67 (${year})`} />
+      <Expandible />
       <MaterialReactTable table={table} />
     </>
   );
 };
 
-Art63Table.propTypes = {
-  year: PropTypes.number.isRequired,
-};
-
-ExcelLink.propTypes = {
-  baseUrl: PropTypes.string.isRequired,
-  year: PropTypes.number.isRequired,
-  urls: PropTypes.arrayOf(PropTypes.string).isRequired,
-};
-
-PdfLink.propTypes = {
-  baseUrl: PropTypes.string.isRequired,
-  year: PropTypes.number.isRequired,
-  urls: PropTypes.arrayOf(PropTypes.string).isRequired,
-};
-
-export default Art63Table;
+export default Art67Table;

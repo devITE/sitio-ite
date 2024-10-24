@@ -20,7 +20,7 @@ import Normatividad from "./pages/enlaces/Normatividad";
 import Galeria from "./pages/enlaces/Galeria/Galeria";
 import GaleriaTot from "./pages/enlaces/Galeria/GaleriaTot";
 
-import OIC from "./pages/enlaces/OIC/OIC";
+import Oic from "./pages/enlaces/OIC/Oic";
 import GaleriaOIC from "./pages/enlaces/OIC/GaleriaOIC";
 import Infografias from "./pages/enlaces/Infografias";
 import MemoriasElectorales from "./pages/enlaces/MemoriasElectorales";
@@ -39,7 +39,7 @@ import EstructuraOrganica from "./pages/acercaITE/EstructuraOrganica";
 //Consejo General
 import Integracion from "./pages/consejoGeneral/Integracion";
 import Comisiones from "./pages/consejoGeneral/Comisiones";
-import JGE from "./pages/consejoGeneral/JGE";
+import Jge from "./pages/consejoGeneral/Jge";
 import Estructura from "./pages/consejoGeneral/Estructura";
 
 //Acuerdos INE
@@ -83,7 +83,7 @@ import Convenios from "./pages/transparencia/transp/Convenios";
 import InformesAnuales from "./pages/transparencia/transp/InformesAnuales";
 import AvisosPrivacidad from "./pages/transparencia/transp/AvisosPrivacidad";
 import FormatoSolicitud from "./pages/transparencia/transp/FormatoSolicitud";
-import POA from "./pages/transparencia/transp/POA";
+import Poa from "./pages/transparencia/transp/Poa";
 import InformacionFinanciera from "./pages/transparencia/transp/InformacionFinanciera";
 import InformacionContable from "./pages/transparencia/transp/InformacionContable";
 
@@ -121,7 +121,7 @@ import PlaneacionArchivistica from "./pages/archivo/PlaneacionArchivistica";
 import ConvocatoriasApartado from "./pages/ConvocatoriasApartado/ConvocatoriasApartado";
 
 //Micrositios
-import REPS from "./pages/reps/REPS";
+import Reps from "./pages/reps/Reps";
 
 //Memoria Electoral
 import MemoriaElectoral20202021 from "./pages/memElect2023/MemoriaElectoral20202021";
@@ -156,7 +156,7 @@ function App() {
           <Route path="/Galeria2017" element={<GaleriaTot year="2017" />} />
           <Route path="/Galeria2018" element={<GaleriaTot year="2018" />} />
           <Route path="/Galeria2019" element={<GaleriaTot year="2019" />} />
-          <Route path="/OIC" element={<OIC />} />
+          <Route path="/OIC" element={<Oic />} />
           <Route path="/GaleriaOIC" element={<GaleriaOIC />} />
           <Route path="/Infografias" element={<Infografias />} />
           <Route
@@ -184,7 +184,7 @@ function App() {
           {/* Consejo General */}
           <Route path="/Integracion" element={<Integracion />} />
           <Route path="/Comisiones" element={<Comisiones />} />
-          <Route path="/JGE" element={<JGE />} />
+          <Route path="/JGE" element={<Jge />} />
           <Route path="/Estructura" element={<Estructura />} />
 
           {/* Acuerdos ITE */}
@@ -339,7 +339,7 @@ function App() {
           <Route path="/InformesAnuales" element={<InformesAnuales />} />
           <Route path="/AvisosPrivacidad" element={<AvisosPrivacidad />} />
           <Route path="/FormatoSolicitud" element={<FormatoSolicitud />} />
-          <Route path="/POA" element={<POA />} />
+          <Route path="/POA" element={<Poa />} />
           <Route
             path="/InformacionFinanciera"
             element={<InformacionFinanciera />}
@@ -465,7 +465,7 @@ function App() {
           />
 
           {/* Micrositios */}
-          <Route path="/REPS" element={<REPS />} />
+          <Route path="/REPS" element={<Reps />} />
 
           {/* MemoriaElectoral20202021 */}
           <Route

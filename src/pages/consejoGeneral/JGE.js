@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import TitlePages from "../../layout/TitlePages";
 import Breadcrumbs from "../../layout/Breadcrumbs";
 
-const JGE = () => {
+const Jge = () => {
   useEffect(() => {
     document.title = `Junta General Ejecutiva`;
   }, []);
@@ -25,4 +25,4 @@ const JGE = () => {
     </>
   );
 };
-export default JGE;
+export default Jge;

@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import PropTypes from "prop-types";
 import TitlePages from "../../layout/TitlePages";
 import Breadcrumbs from "../../layout/Breadcrumbs";
 import "./Integracion.css";
@@ -182,14 +183,14 @@ const Integración = () => {
             id="v-pills-integracion"
             role="tabpanel"
             aria-labelledby="v-pills-integracion-tab"
-            tabIndex="0"
           >
             <div className="w-100 grid-4">
-              {gridItems.map((item, index) => (
-                <GridItem key={index} {...item} />
+              {gridItems.map((item) => (
+                <GridItem key={item.href} {...item} />
               ))}
             </div>
           </div>
+
           <div
             className="tab-pane fade"
             id="v-pills-pp"
@@ -218,3 +219,18 @@ const Integración = () => {
 };
 
 export default Integración;
+
+TabButton.propTypes = {
+  id: PropTypes.string.isRequired,
+  target: PropTypes.string.isRequired,
+  label: PropTypes.string.isRequired,
+  active: PropTypes.bool,
+};
+
+GridItem.propTypes = {
+  href: PropTypes.string.isRequired,
+  imgSrc: PropTypes.string.isRequired,
+  altText: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
+  name: PropTypes.string.isRequired,
+};
