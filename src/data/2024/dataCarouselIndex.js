@@ -133,6 +133,20 @@ export const dataCAR = [
   },
   {
     id: 9,
+    imgUrl: "como_votar.jpg",
+    alt: "Como votar",
+    url: "",
+    linkToo: "",
+  },
+  {
+    id: 10,
+    imgUrl: "encarte.jpg",
+    alt: "Encarte",
+    url: "https://acortar.link/IHPR9M",
+    linkToo: "",
+  },
+  {
+    id: 11,
     imgUrl: "concurso_radio.jpeg",
     itemActive: "active",
     buttonActive: "active",
